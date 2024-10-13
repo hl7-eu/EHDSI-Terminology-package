@@ -16,7 +16,10 @@ publisher:
   url: http://hl7europe.org
   # email: test@example.org
 
-
+menu:
+  Home: index.html
+  Artifacts:
+    Profiles: artifacts.html
 
 parameters:
   translation-supplements: input/translations  
