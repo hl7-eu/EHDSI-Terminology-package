@@ -1,0 +1,52 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "eHDSILabStudyType",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ValueSet eHDSILabStudyType</b></p><a name=\"eHDSILabStudyType\"> </a><a name=\"hceHDSILabStudyType\"> </a><a name=\"eHDSILabStudyType-en\"> </a><ul><li>Include these codes as defined in <code>urn:oid:2.16.840.1.113883.6.1</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>18722-9</td><td/></tr><tr><td>26436-6</td><td/></tr><tr><td>18719-5</td><td/></tr><tr><td>18725-2</td><td/></tr><tr><td>18723-7</td><td/></tr><tr><td>18728-6</td><td/></tr><tr><td>18717-9</td><td/></tr></table></li></ul></div><div xml:lang=\"pt\" lang=\"pt\"><hr/><p><b>Portuguese</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ValueSet eHDSILabStudyType</b></p><a name=\"eHDSILabStudyType\"> </a><a name=\"hceHDSILabStudyType\"> </a><a name=\"eHDSILabStudyType-pt\"> </a><ul><li>Include these codes as defined in <code>urn:oid:2.16.840.1.113883.6.1</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>18722-9</td><td/></tr><tr><td>26436-6</td><td/></tr><tr><td>18719-5</td><td/></tr><tr><td>18725-2</td><td/></tr><tr><td>18723-7</td><td/></tr><tr><td>18728-6</td><td/></tr><tr><td>18717-9</td><td/></tr></table></li></ul></div><div xml:lang=\"nl\" lang=\"nl\"><hr/><p><b>Dutch</b></p><hr/><p class=\"res-header-id\"><b>Gegenereerde narrative: ValueSet eHDSILabStudyType</b></p><a name=\"eHDSILabStudyType\"> </a><a name=\"hceHDSILabStudyType\"> </a><a name=\"eHDSILabStudyType-nl\"> </a><ul><li>Include deze codes zoals gedefinieerd in <code>urn:oid:2.16.840.1.113883.6.1</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Weergave</b></td></tr><tr><td>18722-9</td><td/></tr><tr><td>26436-6</td><td/></tr><tr><td>18719-5</td><td/></tr><tr><td>18725-2</td><td/></tr><tr><td>18723-7</td><td/></tr><tr><td>18728-6</td><td/></tr><tr><td>18717-9</td><td/></tr></table></li></ul></div><div xml:lang=\"fr\" lang=\"fr\"><hr/><p><b>French</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ValueSet eHDSILabStudyType</b></p><a name=\"eHDSILabStudyType\"> </a><a name=\"hceHDSILabStudyType\"> </a><a name=\"eHDSILabStudyType-fr\"> </a><ul><li>Include these codes as defined in <code>urn:oid:2.16.840.1.113883.6.1</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>18722-9</td><td/></tr><tr><td>26436-6</td><td/></tr><tr><td>18719-5</td><td/></tr><tr><td>18725-2</td><td/></tr><tr><td>18723-7</td><td/></tr><tr><td>18728-6</td><td/></tr><tr><td>18717-9</td><td/></tr></table></li></ul></div><div xml:lang=\"es\" lang=\"es\"><hr/><p><b>Spanish</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ValueSet eHDSILabStudyType</b></p><a name=\"eHDSILabStudyType\"> </a><a name=\"hceHDSILabStudyType\"> </a><a name=\"eHDSILabStudyType-es\"> </a><ul><li>Include these codes as defined in <code>urn:oid:2.16.840.1.113883.6.1</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>18722-9</td><td/></tr><tr><td>26436-6</td><td/></tr><tr><td>18719-5</td><td/></tr><tr><td>18725-2</td><td/></tr><tr><td>18723-7</td><td/></tr><tr><td>18728-6</td><td/></tr><tr><td>18717-9</td><td/></tr></table></li></ul></div><div xml:lang=\"ee\" lang=\"ee\"><hr/><p><b>Ewe</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ValueSet eHDSILabStudyType</b></p><a name=\"eHDSILabStudyType\"> </a><a name=\"hceHDSILabStudyType\"> </a><a name=\"eHDSILabStudyType-ee\"> </a><ul><li>Include these codes as defined in <code>urn:oid:2.16.840.1.113883.6.1</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>18722-9</td><td/></tr><tr><td>26436-6</td><td/></tr><tr><td>18719-5</td><td/></tr><tr><td>18725-2</td><td/></tr><tr><td>18723-7</td><td/></tr><tr><td>18728-6</td><td/></tr><tr><td>18717-9</td><td/></tr></table></li></ul></div></div>"
+  },
+  "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSILabStudyType",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.66"
+  }],
+  "version" : "0.1.0",
+  "name" : "eHDSILabStudyType",
+  "title" : "eHDSI Laboratory Study Types",
+  "status" : "draft",
+  "date" : "2024-10-13T16:12:35+00:00",
+  "publisher" : "HL7 Europe",
+  "contact" : [{
+    "name" : "HL7 Europe",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://hl7europe.org"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "urn:oid:2.16.840.1.113883.6.1",
+      "concept" : [{
+        "code" : "18722-9"
+      },
+      {
+        "code" : "26436-6"
+      },
+      {
+        "code" : "18719-5"
+      },
+      {
+        "code" : "18725-2"
+      },
+      {
+        "code" : "18723-7"
+      },
+      {
+        "code" : "18728-6"
+      },
+      {
+        "code" : "18717-9"
+      }]
+    }]
+  }
+}

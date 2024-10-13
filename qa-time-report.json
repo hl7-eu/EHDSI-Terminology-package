@@ -1,0 +1,113 @@
+{
+  "date" : "Sun, 13 Oct, 2024 16:12:35 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "/fsh-generated/resources/ImplementationGuide-hl7.eu.terminology.ehdsi.json",
+      "size" : 1780,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 41,
+          "length" : 24
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 41,
+          "length" : 5
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 41,
+          "length" : 133
+        },
+        {
+          "activity" : "validate",
+          "start" : 43,
+          "length" : 1083
+        },
+        {
+          "activity" : "checkConformanceResources2",
+          "start" : 44,
+          "length" : 1
+        },
+        {
+          "activity" : "translate",
+          "start" : 44,
+          "length" : 22
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 112
+        },
+        {
+          "activity" : "generate2",
+          "start" : 46,
+          "length" : 72
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 56,
+          "length" : 3
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 58,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSILabStudyType.json",
+      "size" : 904,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 40,
+          "length" : 18
+        },
+        {
+          "activity" : "load",
+          "start" : 41,
+          "length" : 22
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 41,
+          "length" : 789
+        },
+        {
+          "activity" : "validate",
+          "start" : 42,
+          "length" : 428
+        },
+        {
+          "activity" : "translate",
+          "start" : 44,
+          "length" : 5
+        },
+        {
+          "activity" : "generate1",
+          "start" : 44,
+          "length" : 31
+        },
+        {
+          "activity" : "generate2",
+          "start" : 46,
+          "length" : 5876
+        },
+        {
+          "activity" : "generateLogicals",
+          "start" : 53,
+          "length" : 1
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 56,
+          "length" : 1
+        }
+      ]
+    }
+  ]
+}
