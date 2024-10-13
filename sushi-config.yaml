@@ -1,5 +1,5 @@
 
-id = hl7.eu.terminology.ehdsi
+id: hl7.eu.terminology.ehdsi
 canonical: http://hl7europe.org/fhir/terminology/ehdsi
 name: EHDSI
 title: eHDSI Terminologies
