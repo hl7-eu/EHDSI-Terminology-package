@@ -2,6 +2,7 @@ ValueSet: eHDSILanguage
 Id: eHDSILanguage
 Title: "eHDSI Language"
 Description: "The Value Set is used to identify the language the document will be written with."
+* ^experimental = false
 
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:uuid:eHDSILanguage"

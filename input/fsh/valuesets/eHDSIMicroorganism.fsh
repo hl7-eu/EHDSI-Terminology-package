@@ -2,6 +2,7 @@ ValueSet: eHDSIMicroorganism
 Id: eHDSIMicroorganism
 Title: "eHDSI Microorganism"
 Description: "eHDSI Morphologic Abnormality"
+* ^experimental = false
 
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:uuid:eHDSIMicroorganism"

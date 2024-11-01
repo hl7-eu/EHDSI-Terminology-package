@@ -2,6 +2,7 @@ ValueSet: eHDSIPresenceAbsence
 Id: eHDSIPresenceAbsence
 Title: "eHDSI Presence Absence"
 Description: "The Value Set is used to describe presence and absence findings (qualifier values) of the Laboratory Test Results"
+* ^experimental = false
 
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:uuid:eHDSIPresenceAbsence"

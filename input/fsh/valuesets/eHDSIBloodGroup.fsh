@@ -2,6 +2,7 @@ ValueSet: eHDSIBloodGroup
 Id: eHDSIBloodGroup
 Title: "eHDSI Blood Group"
 Description: "The Value Set is used to code the value of patient’s blood group + Rh"
+* ^experimental = false
 
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:uuid:eHDSIBloodGroup"

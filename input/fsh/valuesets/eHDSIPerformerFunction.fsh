@@ -2,6 +2,7 @@ ValueSet: eHDSIPerformerFunction
 Id: eHDSIPerformerFunction
 Title: "eHDSI Performer Function"
 Description: "Laboratory Performer Function"
+* ^experimental = false
 
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:uuid:eHDSIPerformerFunction"

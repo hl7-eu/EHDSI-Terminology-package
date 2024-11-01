@@ -2,6 +2,7 @@ ValueSet: eHDSIExceptionalValue
 Id: eHDSIExceptionalValue
 Title: "eHDSI Exceptional Value"
 Description: "The Value Set is used to code exceptional values for the required binding in FHIR IGs"
+* ^experimental = false
 
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:uuid:eHDSIExceptionalValue"

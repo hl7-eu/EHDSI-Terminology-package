@@ -2,6 +2,7 @@ ValueSet: eHDSIReferenceRangeMeaning
 Id: eHDSIReferenceRangeMeaning
 Title: "eHDSI Reference Range Meaning"
 Description: "This value set defines a set of codes for a reference range qualifier"
+* ^experimental = false
 
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:uuid:eHDSIReferenceRangeMeaning"

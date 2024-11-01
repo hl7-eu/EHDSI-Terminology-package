@@ -2,6 +2,7 @@ ValueSet: eHDSIRareDisease
 Id: eHDSIRareDisease
 Title: "eHDSI Rare Disease"
 Description: "The Value Set is used to describe the problems and medication reasons."
+* ^experimental = false
 
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:uuid:eHDSIRareDisease"

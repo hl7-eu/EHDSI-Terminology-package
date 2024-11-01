@@ -2,6 +2,7 @@ ValueSet: eHDSIReactionAllergy
 Id: eHDSIReactionAllergy
 Title: "eHDSI Reaction Allergy"
 Description: "Value Set is used to encode clinical manifestation of the allergic reaction."
+* ^experimental = false
 
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:uuid:eHDSIReactionAllergy"

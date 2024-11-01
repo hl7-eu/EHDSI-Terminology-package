@@ -2,6 +2,7 @@ ValueSet: eHDSILabTechnique
 Id: eHDSILabTechnique
 Title: "eHDSI Laboratory Technique"
 Description: "This Value Set is used to encode laboratory technique for the result measurement"
+* ^experimental = false
 
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:uuid:eHDSILabTechnique"

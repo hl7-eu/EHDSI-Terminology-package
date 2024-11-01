@@ -2,6 +2,7 @@ ValueSet: eHDSILabSpecimenType
 Id: eHDSILabSpecimenType
 Title: "eHDSI Laboratory Specimen Type"
 Description: "This Value Set is used for the kind of material that forms the specimen"
+* ^experimental = false
 
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:uuid:eHDSILabSpecimenType"

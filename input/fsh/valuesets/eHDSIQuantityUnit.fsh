@@ -2,6 +2,7 @@ ValueSet: eHDSIQuantityUnit
 Id: eHDSIQuantityUnit
 Title: "nan"
 Description: "nan"
+* ^experimental = false
 
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:uuid:eHDSIQuantityUnit"

@@ -7,6 +7,7 @@ ValueSet: ResultsCodedValuesLaboratoryUvIps
 Id: results-coded-values-laboratory-uv-ips
 Title: "Results Coded Values Laboratory - IPS"
 Description: "This value set is defined as the union of: (a) Blood group [Type]; (b) Presence/Absence Indicators (2.16.840.1.113883.11.22.52) (c) Microorganisms (2.16.840.1.113883.11.22.49)"
+* ^experimental = false
 * ^url = "http://hl7.org/fhir/uv/ips/ValueSet/results-coded-values-laboratory-uv-ips"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"

@@ -2,6 +2,7 @@ ValueSet: eHDSIBodyStructureLocation
 Id: eHDSIBodyStructureLocation
 Title: "eHDSI Body Structure Location Qualifier"
 Description: "This Value Set is used for the body structure location qualifier. Concepts modifying the anatomic location."
+* ^experimental = false
 
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:uuid:eHDSIBodyStructureLocation"

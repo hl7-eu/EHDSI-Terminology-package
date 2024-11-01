@@ -2,6 +2,7 @@ ValueSet: eHDSIUnit
 Id: eHDSIUnit
 Title: "eHDSI Unit"
 Description: "eHDSI Unit"
+* ^experimental = false
 
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:uuid:eHDSIUnit"

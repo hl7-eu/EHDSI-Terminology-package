@@ -2,6 +2,7 @@ ValueSet: eHDSIReferenceRangeAppliesTo
 Id: eHDSIReferenceRangeAppliesTo
 Title: "eHDSI Reference Range Applies To"
 Description: "This value set defines a set of codes that can be used to indicate the particular target population the reference range applies to"
+* ^experimental = false
 
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:uuid:eHDSIReferenceRangeAppliesTo"

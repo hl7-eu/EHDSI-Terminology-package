@@ -2,6 +2,7 @@ ValueSet: eHDSILaboratoryReportType
 Id: eHDSILaboratoryReportType
 Title: "eHDSI Laboratory Report Types"
 Description: "eHDSI Laboratory Report Types"
+* ^experimental = false
 
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:uuid:eHDSILaboratoryReportType"

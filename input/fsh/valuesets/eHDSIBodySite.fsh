@@ -2,6 +2,7 @@ ValueSet: eHDSIBodySite
 Id: eHDSIBodySite
 Title: "eHDSI Body Site"
 Description: "The Value Set is used for the details about the anatomical location of a specimen in the Laboratory Result Report or the target body location of a procedure in the Patient Summary."
+* ^experimental = false
 
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:uuid:eHDSIBodySite"

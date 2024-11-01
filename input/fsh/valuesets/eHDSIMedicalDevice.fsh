@@ -2,6 +2,7 @@ ValueSet: eHDSIMedicalDevice
 Id: eHDSIMedicalDevice
 Title: "eHDSI Medical Device"
 Description: "eHDSI Medical Device"
+* ^experimental = false
 
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:uuid:eHDSIMedicalDevice"

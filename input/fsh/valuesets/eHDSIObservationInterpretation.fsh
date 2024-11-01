@@ -2,6 +2,7 @@ ValueSet: eHDSIObservationInterpretation
 Id: eHDSIObservationInterpretation
 Title: "eHDSI Observation Interpretation"
 Description: "This Value Set is used for a rough qualitative interpretation of the Laboratory Observation Results"
+* ^experimental = false
 
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:uuid:eHDSIObservationInterpretation"

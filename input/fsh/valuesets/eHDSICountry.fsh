@@ -2,6 +2,7 @@ ValueSet: eHDSICountry
 Id: eHDSICountry
 Title: "eHDSI Country"
 Description: "The Value Set is used to identify the nationality of all persons and organizations."
+* ^experimental = false
 
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:uuid:eHDSICountry"

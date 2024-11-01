@@ -2,6 +2,7 @@ ValueSet: eHDSIAnimalSpecies
 Id: eHDSIAnimalSpecies
 Title: "eHDSI Animal Species"
 Description: "The Value Set is used to code the animal species of specimen subject (animal of the patient)"
+* ^experimental = false
 
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:uuid:eHDSIAnimalSpecies"
