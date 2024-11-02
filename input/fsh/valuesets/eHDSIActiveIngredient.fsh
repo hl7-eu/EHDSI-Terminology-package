@@ -2,6 +2,7 @@ ValueSet: eHDSIActiveIngredient
 Id: eHDSIActiveIngredient
 Title: "nan"
 Description: "nan"
+* ^experimental = false
 
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:uuid:eHDSIActiveIngredient"

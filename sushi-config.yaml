@@ -22,11 +22,13 @@ menu:
     Profiles: artifacts.html
 
 parameters:
-  translation-supplements: input/translations  
-  i18n-default-lang: en
-  i18n-lang: 
-    - pt
-    - nl
-    - fr
-    - es
-    - ee
+  # translation-supplements: input/translations  
+  # i18n-default-lang: en
+  # i18n-lang: 
+  #   - pt
+  #   - nl
+  #   - fr
+  #   - es
+  #   - ee
+  no-narrative:
+    - ValueSet/*

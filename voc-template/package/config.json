@@ -1,0 +1,28 @@
+{
+  "script": "scripts/ant.xml",
+	"otherScripts" : [],
+  "targets": {
+    "onLoad": "onLoad",
+    "onGenerate": "onGenerate"
+  },
+  "_formats-documentation": "Lists the formats in the order format-specific pages should be generated.  (Note that suppressed formats won't appear, even if listed here.)",
+  "formats": [
+    "xml",
+    "json",
+    "ttl"
+  ],
+  "_pre-process-documentation": "This array of objects indicates data being converted from existing files using scripts to support dependency checking when performing continuous builds",
+  "defaults": {
+    "ValueSet": {
+      "template-base": "template/layouts/layout-valueset.html",
+      "template-format": "template/layouts/layout-valueset-format.html",
+      "template-testing": "template/layouts/layout-canonical-testing.html",
+      "template-change-history": "template/layouts/layout-changehistory.html",
+      "base": "{{[type]}}-{{[id]}}.html",
+      "format": "{{[type]}}-{{[id]}}.{{[fmt]}}.html",
+      "testing": "{{[type]}}-{{[id]}}-testing.html",
+      "change-history": "{{[type]}}-{{[id]}}.change.history.html"
+    }
+   }
+}
+
