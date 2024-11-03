@@ -1,0 +1,281 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "eHDSIReactionAllergy",
+  "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIReactionAllergy",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:uuid:eHDSIReactionAllergy"
+  }],
+  "version" : "0.1.0",
+  "name" : "eHDSIReactionAllergy",
+  "title" : "eHDSI Reaction Allergy",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2024-11-03T15:19:09+00:00",
+  "publisher" : "HL7 Europe",
+  "contact" : [{
+    "name" : "HL7 Europe",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://hl7europe.org"
+    }]
+  }],
+  "description" : "Value Set is used to encode clinical manifestation of the allergic reaction.",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "74776002",
+        "display" : "Itching of eye"
+      },
+      {
+        "code" : "271757001",
+        "display" : "Papular eruption"
+      },
+      {
+        "code" : "402407004",
+        "display" : "Angioedema of tongue"
+      },
+      {
+        "code" : "768962006",
+        "display" : "Lyell syndrome"
+      },
+      {
+        "code" : "24079001",
+        "display" : "Atopic dermatitis"
+      },
+      {
+        "code" : "70076002",
+        "display" : "Rhinitis"
+      },
+      {
+        "code" : "195951007",
+        "display" : "Acute exacerbation of chronic obstructive airways disease"
+      },
+      {
+        "code" : "373932008",
+        "display" : "Feels hot"
+      },
+      {
+        "code" : "386789004",
+        "display" : "Eosinophil count raised"
+      },
+      {
+        "code" : "410430005",
+        "display" : "Cardiorespiratory arrest"
+      },
+      {
+        "code" : "35001004",
+        "display" : "Non-allergic anaphylaxis"
+      },
+      {
+        "code" : "39579001",
+        "display" : "Anaphylaxis"
+      },
+      {
+        "code" : "191306005",
+        "display" : "Immunoglobulin A vasculitis"
+      },
+      {
+        "code" : "230145002",
+        "display" : "Difficulty breathing"
+      },
+      {
+        "code" : "698247007",
+        "display" : "Cardiac arrhythmia"
+      },
+      {
+        "code" : "162290004",
+        "display" : "Dry eyes"
+      },
+      {
+        "code" : "421262002",
+        "display" : "Tongue swelling"
+      },
+      {
+        "code" : "43116000",
+        "display" : "Eczema"
+      },
+      {
+        "code" : "247472004",
+        "display" : "Wheal"
+      },
+      {
+        "code" : "267036007",
+        "display" : "Dyspnea"
+      },
+      {
+        "code" : "276444007",
+        "display" : "Generalized pruritus"
+      },
+      {
+        "code" : "418290006",
+        "display" : "Itching"
+      },
+      {
+        "code" : "422587007",
+        "display" : "Nausea"
+      },
+      {
+        "code" : "271759003",
+        "display" : "Bullous eruption"
+      },
+      {
+        "code" : "271811009",
+        "display" : "Face goes red"
+      },
+      {
+        "code" : "399992009",
+        "display" : "Erythroderma"
+      },
+      {
+        "code" : "418363000",
+        "display" : "Itching of skin"
+      },
+      {
+        "code" : "432807008",
+        "display" : "Pollen-food allergy"
+      },
+      {
+        "code" : "2129002",
+        "display" : "Edema of pharynx"
+      },
+      {
+        "code" : "22649008",
+        "display" : "Photodermatitis"
+      },
+      {
+        "code" : "422400008",
+        "display" : "Vomiting"
+      },
+      {
+        "code" : "41291007",
+        "display" : "Angioedema"
+      },
+      {
+        "code" : "44416002",
+        "display" : "Airway constriction"
+      },
+      {
+        "code" : "81950002",
+        "display" : "Edema of the tongue"
+      },
+      {
+        "code" : "90128006",
+        "display" : "Photosensitivity"
+      },
+      {
+        "code" : "91175000",
+        "display" : "Seizure"
+      },
+      {
+        "code" : "247470007",
+        "display" : "Morbilliform eruption"
+      },
+      {
+        "code" : "7231009",
+        "display" : "Bullous dermatosis"
+      },
+      {
+        "code" : "49727002",
+        "display" : "Cough"
+      },
+      {
+        "code" : "73442001",
+        "display" : "Stevens-Johnson syndrome"
+      },
+      {
+        "code" : "4386001",
+        "display" : "Bronchospasm"
+      },
+      {
+        "code" : "31996006",
+        "display" : "Vasculitis"
+      },
+      {
+        "code" : "271807003",
+        "display" : "Eruption"
+      },
+      {
+        "code" : "281239006",
+        "display" : "Acute asthma"
+      },
+      {
+        "code" : "126485001",
+        "display" : "Urticaria"
+      },
+      {
+        "code" : "23924001",
+        "display" : "Tight chest"
+      },
+      {
+        "code" : "62315008",
+        "display" : "Diarrhea"
+      },
+      {
+        "code" : "9826008",
+        "display" : "Conjunctivitis"
+      },
+      {
+        "code" : "79893008",
+        "display" : "Vesicular eruption"
+      },
+      {
+        "code" : "279333002",
+        "display" : "Pruritus of skin"
+      },
+      {
+        "code" : "702809001",
+        "display" : "Drug reaction with eosinophilia and systemic symptoms"
+      },
+      {
+        "code" : "40275004",
+        "display" : "Contact dermatitis"
+      },
+      {
+        "code" : "76067001",
+        "display" : "Sneezing"
+      },
+      {
+        "code" : "195967001",
+        "display" : "Asthma"
+      },
+      {
+        "code" : "51599000",
+        "display" : "Edema of larynx"
+      },
+      {
+        "code" : "247441003",
+        "display" : "Erythema"
+      },
+      {
+        "code" : "247471006",
+        "display" : "Maculopapular eruption"
+      },
+      {
+        "code" : "271825005",
+        "display" : "Respiratory distress"
+      },
+      {
+        "code" : "781682005",
+        "display" : "Hyperemia of eye"
+      },
+      {
+        "code" : "60555002",
+        "display" : "Hypersensitivity angiitis"
+      },
+      {
+        "code" : "271756005",
+        "display" : "Macular eruption"
+      },
+      {
+        "code" : "64144002",
+        "display" : "Pruritic rash"
+      },
+      {
+        "code" : "444827008",
+        "display" : "Erythema of skin"
+      }]
+    }]
+  }
+}

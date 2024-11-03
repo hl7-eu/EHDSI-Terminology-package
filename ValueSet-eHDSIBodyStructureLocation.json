@@ -1,0 +1,97 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "eHDSIBodyStructureLocation",
+  "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIBodyStructureLocation",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:uuid:eHDSIBodyStructureLocation"
+  }],
+  "version" : "0.1.0",
+  "name" : "eHDSIBodyStructureLocation",
+  "title" : "eHDSI Body Structure Location Qualifier",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2024-11-03T15:19:09+00:00",
+  "publisher" : "HL7 Europe",
+  "contact" : [{
+    "name" : "HL7 Europe",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://hl7europe.org"
+    }]
+  }],
+  "description" : "This Value Set is used for the body structure location qualifier. Concepts modifying the anatomic location.",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "7771000",
+        "display" : "Left"
+      },
+      {
+        "code" : "255549009",
+        "display" : "Anterior"
+      },
+      {
+        "code" : "261089000",
+        "display" : "Inferior"
+      },
+      {
+        "code" : "261183002",
+        "display" : "Upper"
+      },
+      {
+        "code" : "255561001",
+        "display" : "Medial"
+      },
+      {
+        "code" : "46053002",
+        "display" : "Distal"
+      },
+      {
+        "code" : "57195005",
+        "display" : "Basal"
+      },
+      {
+        "code" : "261122009",
+        "display" : "Lower"
+      },
+      {
+        "code" : "49370004",
+        "display" : "Lateral"
+      },
+      {
+        "code" : "795002",
+        "display" : "Deep"
+      },
+      {
+        "code" : "66787007",
+        "display" : "Cephalic"
+      },
+      {
+        "code" : "3583002",
+        "display" : "Caudal"
+      },
+      {
+        "code" : "24028007",
+        "display" : "Right"
+      },
+      {
+        "code" : "264217000",
+        "display" : "Superior"
+      },
+      {
+        "code" : "255551008",
+        "display" : "Posterior"
+      },
+      {
+        "code" : "26283006",
+        "display" : "Superficial"
+      },
+      {
+        "code" : "40415009",
+        "display" : "Proximal"
+      }]
+    }]
+  }
+}

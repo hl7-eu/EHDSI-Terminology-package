@@ -1,0 +1,348 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/fhir/uv/ips/ValueSet/results-blood-group-uv-ips",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "ResultsBloodGroupUvIps",
+      "title" : "Results Blood Group - IPS",
+      "description" : "Blood group [Type]",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "ValueSet-results-coded-values-laboratory-uv-ips.html" : "Results Coded Values Laboratory - IPS"
+    },
+    {
+      "url" : "http://hl7.org/fhir/uv/ips/ValueSet/results-coded-values-laboratory-uv-ips",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "ResultsCodedValuesLaboratoryUvIps",
+      "title" : "Results Coded Values Laboratory - IPS",
+      "description" : "This value set is defined as the union of: (a) Blood group [Type]; (b) Presence/Absence Indicators (2.16.840.1.113883.11.22.52) (c) Microorganisms (2.16.840.1.113883.11.22.49)",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://hl7.org/fhir/uv/ips/ValueSet/results-microorganism-uv-ips",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "ResultsMicroorganismUvIps",
+      "title" : "Results Microorganism - IPS",
+      "description" : "This is a value set of the SNOMED CT microorganism concepts for use in the Results section observation values.",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "ValueSet-results-coded-values-laboratory-uv-ips.html" : "Results Coded Values Laboratory - IPS"
+    },
+    {
+      "url" : "http://hl7.org/fhir/uv/ips/ValueSet/results-presence-absence-uv-ips",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "ResultsPresenceAbsenceUvIps",
+      "title" : "Results Presence/Absence - IPS",
+      "description" : "Presence/Absence value set",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "ValueSet-results-coded-values-laboratory-uv-ips.html" : "Results Coded Values Laboratory - IPS"
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIActiveIngredient",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "eHDSIActiveIngredient",
+      "title" : "nan",
+      "description" : "nan",
+      "systems" : ["http://www.whocc.no/atc"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIAnimalSpecies",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "eHDSIAnimalSpecies",
+      "title" : "eHDSI Animal Species",
+      "description" : "The Value Set is used to code the animal species of specimen subject (animal of the patient)",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIBloodGroup",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "eHDSIBloodGroup",
+      "title" : "eHDSI Blood Group",
+      "description" : "The Value Set is used to code the value of patient’s blood group + Rh",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIBodySite",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "eHDSIBodySite",
+      "title" : "eHDSI Body Site",
+      "description" : "The Value Set is used for the details about the anatomical location of a specimen in the Laboratory Result Report or the target body location of a procedure in the Patient Summary.",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIBodySiteLaterality",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "eHDSIBodySiteLaterality",
+      "title" : "eHDSI Body Site Laterality",
+      "description" : "This Value Set is used for the body structure site laterality qualifier. It indicates the body site laterality from which a laboratory specimen is collected.",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIBodyStructureLocation",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "eHDSIBodyStructureLocation",
+      "title" : "eHDSI Body Structure Location Qualifier",
+      "description" : "This Value Set is used for the body structure location qualifier. Concepts modifying the anatomic location.",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSICountry",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "eHDSICountry",
+      "title" : "eHDSI Country",
+      "description" : "The Value Set is used to identify the nationality of all persons and organizations.",
+      "systems" : [
+        "http://terminology.hl7.org/5.3.0/CodeSystem-ISO3166Part1.html"
+      ]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIDoseForm",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "eHDSIDoseForm",
+      "title" : "nan",
+      "description" : "nan",
+      "systems" : ["http://standardterms.edqm.eu"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIExceptionalValue",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "eHDSIExceptionalValue",
+      "title" : "eHDSI Exceptional Value",
+      "description" : "The Value Set is used to code exceptional values for the required binding in FHIR IGs",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-NullFlavor"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSILabCode",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "eHDSILabCode",
+      "title" : "eHDSI Laboratory Codes",
+      "description" : "This Value Set is used for the standard laboratory codes",
+      "systems" : ["http://loinc.org/"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSILabSpecimenType",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "eHDSILabSpecimenType",
+      "title" : "eHDSI Laboratory Specimen Type",
+      "description" : "This Value Set is used for the kind of material that forms the specimen",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSILabStudyType",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "eHDSILabStudyType",
+      "title" : "eHDSI Laboratory Study Types",
+      "description" : "eHDSI Laboratory Study Types. Notes: Note 1: 26436-6 (Laboratory studies) enables issuing a report putting together observations from multiple specialties (disciplines) in the same text block, allowing delivery of a global interpretation comment at the end of the text block that will be rendered at the end of the report. Note 2: Mycology and parasitology, as well as bacteriology, are part of the 18725-2 (Microbiology studies (set)) studies. Note 3: Virology MAY be included in 18725-2 (MICROBIOLOGY STUDIES) or 18727-8 (SEROLOGY STUDIES) or split between both study types, depending upon the Content Creator Actor’s choice.",
+      "systems" : ["http://loinc.org/"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSILabTechnique",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "eHDSILabTechnique",
+      "title" : "eHDSI Laboratory Technique",
+      "description" : "This Value Set is used to encode laboratory technique for the result measurement",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSILaboratoryReportType",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "eHDSILaboratoryReportType",
+      "title" : "eHDSI Laboratory Report Types",
+      "description" : "eHDSI Laboratory Report Types",
+      "systems" : ["http://loinc.org/"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSILanguage",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "eHDSILanguage",
+      "title" : "eHDSI Language",
+      "description" : "The Value Set is used to identify the language the document will be written with.",
+      "systems" : ["urn:ietf:bcp:47"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIMedicalDevice",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "eHDSIMedicalDevice",
+      "title" : "eHDSI Medical Device",
+      "description" : "eHDSI Medical Device",
+      "systems" : [
+        "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.44.6",
+        "http://snomed.info/sct"
+      ]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIMicroorganism",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "eHDSIMicroorganism",
+      "title" : "eHDSI Microorganism",
+      "description" : "eHDSI Morphologic Abnormality",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIMorphologicAbnormality",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "eHDSIMorphologicAbnormality",
+      "title" : "eHDSI Morphologic Abnormality",
+      "description" : "The Value Set is used to code the morphological abnormalities of the anatomical location where the material is taken.",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIObservationCategory",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "eHDSIObservationCategory",
+      "title" : "eHDSI Observation category",
+      "description" : "This Value Set is used for the Laboratory Observation Results Category code",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/observation-category"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIObservationInterpretation",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "eHDSIObservationInterpretation",
+      "title" : "eHDSI Observation Interpretation",
+      "description" : "This Value Set is used for a rough qualitative interpretation of the Laboratory Observation Results",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"
+      ]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIPackage",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "eHDSIPackage",
+      "title" : "nan",
+      "description" : "nan",
+      "systems" : ["http://standardterms.edqm.eu"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIPerformerFunction",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "eHDSIPerformerFunction",
+      "title" : "eHDSI Performer Function",
+      "description" : "Laboratory Performer Function",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ParticipationType"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIPresenceAbsence",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "eHDSIPresenceAbsence",
+      "title" : "eHDSI Presence Absence",
+      "description" : "The Value Set is used to describe presence and absence findings (qualifier values) of the Laboratory Test Results",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIQuantityUnit",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "eHDSIQuantityUnit",
+      "title" : "nan",
+      "description" : "nan",
+      "systems" : ["http://standardterms.edqm.eu"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIRareDisease",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "eHDSIRareDisease",
+      "title" : "eHDSI Rare Disease",
+      "description" : "The Value Set is used to describe the problems and medication reasons.",
+      "systems" : ["urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.44.5"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIReactionAllergy",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "eHDSIReactionAllergy",
+      "title" : "eHDSI Reaction Allergy",
+      "description" : "Value Set is used to encode clinical manifestation of the allergic reaction.",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIReferenceRangeAppliesTo",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "eHDSIReferenceRangeAppliesTo",
+      "title" : "eHDSI Reference Range Applies To",
+      "description" : "This value set defines a set of codes that can be used to indicate the particular target population the reference range applies to",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/sex-parameter-for-clinical-use"
+      ]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIReferenceRangeMeaning",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "eHDSIReferenceRangeMeaning",
+      "title" : "eHDSI Reference Range Meaning",
+      "description" : "This value set defines a set of codes for a reference range qualifier",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/referencerange-meaning"
+      ]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIRouteofAdministration",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "eHDSIRouteofAdministration",
+      "title" : "nan",
+      "description" : "nan",
+      "systems" : ["http://standardterms.edqm.eu"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSISubstance",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "eHDSISubstance",
+      "title" : "nan",
+      "description" : "nan",
+      "systems" : ["urn:oid:2.16.840.1.113883.3.6905.2"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIUnit",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "eHDSIUnit",
+      "title" : "eHDSI Unit",
+      "description" : "eHDSI Unit",
+      "systems" : ["http://unitsofmeasure.org/"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIVaccine",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "eHDSIVaccine",
+      "title" : "nan",
+      "description" : "nan",
+      "systems" : ["http://snomed.info/sct", "http://www.whocc.no/atc"]
+    }
+  ]
+}

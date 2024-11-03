@@ -1,0 +1,1549 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "eHDSILanguage",
+  "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSILanguage",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:uuid:eHDSILanguage"
+  }],
+  "version" : "0.1.0",
+  "name" : "eHDSILanguage",
+  "title" : "eHDSI Language",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2024-11-03T15:19:09+00:00",
+  "publisher" : "HL7 Europe",
+  "contact" : [{
+    "name" : "HL7 Europe",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://hl7europe.org"
+    }]
+  }],
+  "description" : "The Value Set is used to identify the language the document will be written with.",
+  "compose" : {
+    "include" : [{
+      "system" : "urn:ietf:bcp:47",
+      "concept" : [{
+        "code" : "ar-AE",
+        "display" : "Arabic-UNITED ARAB EMIRATES"
+      },
+      {
+        "code" : "ar-DZ",
+        "display" : "Arabic-ALGERIA"
+      },
+      {
+        "code" : "ar-EG",
+        "display" : "Arabic-EGYPT"
+      },
+      {
+        "code" : "ar-SO",
+        "display" : "Arabic-SOMALIA"
+      },
+      {
+        "code" : "be-BY",
+        "display" : "Belarusian-BELARUS"
+      },
+      {
+        "code" : "cy-GB",
+        "display" : "Welsh-UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND"
+      },
+      {
+        "code" : "da-GL",
+        "display" : "Danish-GREENLAND"
+      },
+      {
+        "code" : "de-DE",
+        "display" : "German-GERMANY"
+      },
+      {
+        "code" : "ee-GH",
+        "display" : "Ewe-GHANA"
+      },
+      {
+        "code" : "en-AI",
+        "display" : "English-ANGUILLA"
+      },
+      {
+        "code" : "en-BW",
+        "display" : "English-BOTSWANA"
+      },
+      {
+        "code" : "en-ER",
+        "display" : "English-ERITREA"
+      },
+      {
+        "code" : "en-IE",
+        "display" : "English-IRELAND"
+      },
+      {
+        "code" : "en-JM",
+        "display" : "English-JAMAICA"
+      },
+      {
+        "code" : "en-KN",
+        "display" : "English-SAINT KITTS AND NEVIS"
+      },
+      {
+        "code" : "en-MH",
+        "display" : "English-MARSHALL ISLANDS"
+      },
+      {
+        "code" : "en-MO",
+        "display" : "English-MACAO"
+      },
+      {
+        "code" : "en-NF",
+        "display" : "English-NORFOLK ISLAND"
+      },
+      {
+        "code" : "en-NZ",
+        "display" : "English-NEW ZEALAND"
+      },
+      {
+        "code" : "en-TV",
+        "display" : "English-TUVALU"
+      },
+      {
+        "code" : "en-UG",
+        "display" : "English-UGANDA"
+      },
+      {
+        "code" : "en-US",
+        "display" : "English-UNITED STATES OF AMERICA"
+      },
+      {
+        "code" : "es-CL",
+        "display" : "Spanish; Castilian-CHILE"
+      },
+      {
+        "code" : "es-CO",
+        "display" : "Spanish; Castilian-COLOMBIA"
+      },
+      {
+        "code" : "es-ES",
+        "display" : "Spanish; Castilian-SPAIN"
+      },
+      {
+        "code" : "es-PH",
+        "display" : "Spanish; Castilian-PHILIPPINES"
+      },
+      {
+        "code" : "es-UY",
+        "display" : "Spanish; Castilian-URUGUAY"
+      },
+      {
+        "code" : "ff-GN",
+        "display" : "Fulah-GUINEA"
+      },
+      {
+        "code" : "fr-CF",
+        "display" : "French-CENTRAL AFRICAN REPUBLIC"
+      },
+      {
+        "code" : "fr-DZ",
+        "display" : "French-ALGERIA"
+      },
+      {
+        "code" : "fr-FR",
+        "display" : "French-FRANCE"
+      },
+      {
+        "code" : "fr-GA",
+        "display" : "French-GABON"
+      },
+      {
+        "code" : "fr-GF",
+        "display" : "French-FRENCH GUIANA"
+      },
+      {
+        "code" : "fr-HT",
+        "display" : "French-HAITI"
+      },
+      {
+        "code" : "fr-ML",
+        "display" : "French-MALI"
+      },
+      {
+        "code" : "fr-NE",
+        "display" : "French-NIGER"
+      },
+      {
+        "code" : "fr-PF",
+        "display" : "French-FRENCH POLYNESIA"
+      },
+      {
+        "code" : "fr-VU",
+        "display" : "French-VANUATU"
+      },
+      {
+        "code" : "fr-YT",
+        "display" : "French-MAYOTTE"
+      },
+      {
+        "code" : "ga-IE",
+        "display" : "Irish-IRELAND"
+      },
+      {
+        "code" : "ha-NE",
+        "display" : "Hausa-NIGER"
+      },
+      {
+        "code" : "he-IL",
+        "display" : "Hebrew-ISRAEL"
+      },
+      {
+        "code" : "hu-HU",
+        "display" : "Hungarian-HUNGARY"
+      },
+      {
+        "code" : "ig-NG",
+        "display" : "Igbo-NIGERIA"
+      },
+      {
+        "code" : "ja-JP",
+        "display" : "Japanese-JAPAN"
+      },
+      {
+        "code" : "km-KH",
+        "display" : "Central Khmer-CAMBODIA"
+      },
+      {
+        "code" : "mg-MG",
+        "display" : "Malagasy-MADAGASCAR"
+      },
+      {
+        "code" : "my-MM",
+        "display" : "Burmese-MYANMAR"
+      },
+      {
+        "code" : "pa-IN",
+        "display" : "Panjabi; Punjabi-INDIA"
+      },
+      {
+        "code" : "pt-AO",
+        "display" : "Portuguese-ANGOLA"
+      },
+      {
+        "code" : "pt-GW",
+        "display" : "Portuguese-GUINEA-BISSAU"
+      },
+      {
+        "code" : "pt-TL",
+        "display" : "Portuguese-TIMOR-LESTE"
+      },
+      {
+        "code" : "ro-RO",
+        "display" : "Romanian; Moldavian; Moldovan-ROMANIA"
+      },
+      {
+        "code" : "sg-CF",
+        "display" : "Sango-CENTRAL AFRICAN REPUBLIC"
+      },
+      {
+        "code" : "sr-ME",
+        "display" : "Serbian-MONTENEGRO"
+      },
+      {
+        "code" : "tr-TR",
+        "display" : "Turkish-TURKEY"
+      },
+      {
+        "code" : "af-ZA",
+        "display" : "Afrikaans-SOUTH AFRICA"
+      },
+      {
+        "code" : "ar-SA",
+        "display" : "Arabic-SAUDI ARABIA"
+      },
+      {
+        "code" : "br-FR",
+        "display" : "Breton-FRANCE"
+      },
+      {
+        "code" : "en-AG",
+        "display" : "English-ANTIGUA AND BARBUDA"
+      },
+      {
+        "code" : "en-CK",
+        "display" : "English-COOK ISLANDS"
+      },
+      {
+        "code" : "en-DM",
+        "display" : "English-DOMINICA"
+      },
+      {
+        "code" : "en-GH",
+        "display" : "English-GHANA"
+      },
+      {
+        "code" : "en-GM",
+        "display" : "English-GAMBIA"
+      },
+      {
+        "code" : "en-MP",
+        "display" : "English-NORTHERN MARIANA ISLANDS"
+      },
+      {
+        "code" : "en-NA",
+        "display" : "English-NAMIBIA"
+      },
+      {
+        "code" : "en-NG",
+        "display" : "English-NIGERIA"
+      },
+      {
+        "code" : "en-PH",
+        "display" : "English-PHILIPPINES"
+      },
+      {
+        "code" : "en-PW",
+        "display" : "English-PALAU"
+      },
+      {
+        "code" : "en-SB",
+        "display" : "English-SOLOMON ISLANDS"
+      },
+      {
+        "code" : "es-PY",
+        "display" : "Spanish; Castilian-PARAGUAY"
+      },
+      {
+        "code" : "eu-ES",
+        "display" : "Basque; Basque County-SPAIN"
+      },
+      {
+        "code" : "ff-CM",
+        "display" : "Fulah-CAMEROON"
+      },
+      {
+        "code" : "fr-CD",
+        "display" : "French-CONGO, DEMOCRATIC REPUBLIC OF"
+      },
+      {
+        "code" : "fr-CM",
+        "display" : "French-CAMEROON"
+      },
+      {
+        "code" : "fr-KM",
+        "display" : "French-COMOROS"
+      },
+      {
+        "code" : "fr-LU",
+        "display" : "French-LUXEMBOURG"
+      },
+      {
+        "code" : "fr-MC",
+        "display" : "French-MONACO"
+      },
+      {
+        "code" : "fr-RW",
+        "display" : "French-RWANDA"
+      },
+      {
+        "code" : "fr-SY",
+        "display" : "French-SYRIAN ARAB REPUBLIC"
+      },
+      {
+        "code" : "gu-IN",
+        "display" : "Gujarati-INDIA"
+      },
+      {
+        "code" : "id-ID",
+        "display" : "Indonesian-INDONESIA"
+      },
+      {
+        "code" : "ln-CF",
+        "display" : "Lingala-CENTRAL AFRICAN REPUBLIC"
+      },
+      {
+        "code" : "ln-CG",
+        "display" : "Lingala-CONGO"
+      },
+      {
+        "code" : "om-KE",
+        "display" : "Oromo-KENYA"
+      },
+      {
+        "code" : "pt-MO",
+        "display" : "Portuguese-MACAO"
+      },
+      {
+        "code" : "pt-MZ",
+        "display" : "Portuguese-MOZAMBIQUE"
+      },
+      {
+        "code" : "pt-ST",
+        "display" : "Portuguese-SAO TOME AND PRINCIPE"
+      },
+      {
+        "code" : "ru-BY",
+        "display" : "Russian-BELARUS"
+      },
+      {
+        "code" : "ru-KG",
+        "display" : "Russian-KYRGYZSTAN"
+      },
+      {
+        "code" : "sl-SI",
+        "display" : "Slovenian-SLOVENIA"
+      },
+      {
+        "code" : "so-DJ",
+        "display" : "Somali-DJIBOUTI"
+      },
+      {
+        "code" : "ta-MY",
+        "display" : "Tamil-MALAYSIA"
+      },
+      {
+        "code" : "ti-ER",
+        "display" : "Tigrinya-ERITREA"
+      },
+      {
+        "code" : "to-TO",
+        "display" : "Tonga (Tonga Islands)-TONGA"
+      },
+      {
+        "code" : "ur-PK",
+        "display" : "Urdu-PAKISTAN"
+      },
+      {
+        "code" : "uz-UZ",
+        "display" : "Uzbek-UZBEKISTAN"
+      },
+      {
+        "code" : "ar-ER",
+        "display" : "Arabic-ERITREA"
+      },
+      {
+        "code" : "ar-IL",
+        "display" : "Arabic-ISRAEL"
+      },
+      {
+        "code" : "ar-LB",
+        "display" : "Arabic-LEBANON"
+      },
+      {
+        "code" : "ar-PS",
+        "display" : "Arabic-PALESTINE, STATE OF"
+      },
+      {
+        "code" : "ar-QA",
+        "display" : "Arabic-QATAR"
+      },
+      {
+        "code" : "ca-AD",
+        "display" : "Catalan; Valencian-ANDORRA"
+      },
+      {
+        "code" : "de-AT",
+        "display" : "German-AUSTRIA"
+      },
+      {
+        "code" : "de-CH",
+        "display" : "German-SWITZERLAND"
+      },
+      {
+        "code" : "de-LI",
+        "display" : "German-LIECHTENSTEIN"
+      },
+      {
+        "code" : "de-LU",
+        "display" : "German-LUXEMBOURG"
+      },
+      {
+        "code" : "el-GR",
+        "display" : "Greek, Modern (1453-)-GREECE"
+      },
+      {
+        "code" : "en-CA",
+        "display" : "English-CANADA"
+      },
+      {
+        "code" : "en-CM",
+        "display" : "English-CAMEROON"
+      },
+      {
+        "code" : "en-GD",
+        "display" : "English-GRENADA"
+      },
+      {
+        "code" : "en-GG",
+        "display" : "English-GUERNSEY"
+      },
+      {
+        "code" : "en-IN",
+        "display" : "English-INDIA"
+      },
+      {
+        "code" : "en-MU",
+        "display" : "English-MAURITIUS"
+      },
+      {
+        "code" : "en-PG",
+        "display" : "English-PAPUA NEW GUINEA"
+      },
+      {
+        "code" : "en-SD",
+        "display" : "English-SUDAN"
+      },
+      {
+        "code" : "en-SG",
+        "display" : "English-SINGAPORE"
+      },
+      {
+        "code" : "en-TT",
+        "display" : "English-TRINIDAD AND TOBAGO"
+      },
+      {
+        "code" : "en-VC",
+        "display" : "English-SAINT VINCENT AND THE GRENADINES"
+      },
+      {
+        "code" : "es-DO",
+        "display" : "Spanish; Castilian-DOMINICAN REPUBLIC"
+      },
+      {
+        "code" : "es-GT",
+        "display" : "Spanish; Castilian-GUATEMALA"
+      },
+      {
+        "code" : "es-MX",
+        "display" : "Spanish; Castilian-MEXICO"
+      },
+      {
+        "code" : "es-US",
+        "display" : "Spanish; Castilian-UNITED STATES OF AMERICA"
+      },
+      {
+        "code" : "fa-AF",
+        "display" : "Persian-AFGHANISTAN"
+      },
+      {
+        "code" : "fa-IR",
+        "display" : "Persian-IRAN (ISLAMIC REPUBLIC OF)"
+      },
+      {
+        "code" : "ff-MR",
+        "display" : "Fulah-MAURITANIA"
+      },
+      {
+        "code" : "fi-FI",
+        "display" : "Finnish-FINLAND"
+      },
+      {
+        "code" : "fr-MU",
+        "display" : "French-MAURITIUS"
+      },
+      {
+        "code" : "fy-NL",
+        "display" : "Western Frisian-NETHERLANDS"
+      },
+      {
+        "code" : "gv-IM",
+        "display" : "Manx-ISLE OF MAN"
+      },
+      {
+        "code" : "ii-CN",
+        "display" : "Sichuan Yi; Nuosu-CHINA"
+      },
+      {
+        "code" : "is-IS",
+        "display" : "Icelandic-ICELAND"
+      },
+      {
+        "code" : "it-IT",
+        "display" : "Italian-ITALY"
+      },
+      {
+        "code" : "ko-KR",
+        "display" : "Korean-KOREA, REPUBLIC OF"
+      },
+      {
+        "code" : "ks-IN",
+        "display" : "Kashmiri-INDIA"
+      },
+      {
+        "code" : "mt-MT",
+        "display" : "Maltese-MALTA"
+      },
+      {
+        "code" : "ne-IN",
+        "display" : "Nepali-INDIA"
+      },
+      {
+        "code" : "nl-NL",
+        "display" : "Dutch; Flemish-NETHERLANDS"
+      },
+      {
+        "code" : "pa-PK",
+        "display" : "Panjabi; Punjabi-PAKISTAN"
+      },
+      {
+        "code" : "pt-PT",
+        "display" : "Portuguese-PORTUGAL"
+      },
+      {
+        "code" : "qu-PE",
+        "display" : "Quechua-PERU"
+      },
+      {
+        "code" : "ro-MD",
+        "display" : "Romanian; Moldavian; Moldovan-MOLDOVA, REPUBLIC OF"
+      },
+      {
+        "code" : "se-FI",
+        "display" : "Northern Sami-FINLAND"
+      },
+      {
+        "code" : "si-LK",
+        "display" : "Sinhala; Sinhalese-SRI LANKA"
+      },
+      {
+        "code" : "sv-FI",
+        "display" : "Swedish-FINLAND"
+      },
+      {
+        "code" : "th-TH",
+        "display" : "Thai-THAILAND"
+      },
+      {
+        "code" : "ur-IN",
+        "display" : "Urdu-INDIA"
+      },
+      {
+        "code" : "zh-MO",
+        "display" : "Chinese-MACAO"
+      },
+      {
+        "code" : "ar-OM",
+        "display" : "Arabic-OMAN"
+      },
+      {
+        "code" : "ca-ES",
+        "display" : "Catalan; Valencian-SPAIN"
+      },
+      {
+        "code" : "ca-FR",
+        "display" : "Catalan; Valencian-FRANCE"
+      },
+      {
+        "code" : "cs-CZ",
+        "display" : "Czech-CZECH REPUBLIC"
+      },
+      {
+        "code" : "de-BE",
+        "display" : "German-BELGIUM"
+      },
+      {
+        "code" : "en-BE",
+        "display" : "English-BELGIUM"
+      },
+      {
+        "code" : "en-BM",
+        "display" : "English-BERMUDA"
+      },
+      {
+        "code" : "en-CC",
+        "display" : "English-COCOS (KEELING) ISLANDS"
+      },
+      {
+        "code" : "en-CX",
+        "display" : "English-CHRISTMAS ISLAND"
+      },
+      {
+        "code" : "en-GI",
+        "display" : "English-GIBRALTAR"
+      },
+      {
+        "code" : "en-IM",
+        "display" : "English-ISLE OF MAN"
+      },
+      {
+        "code" : "en-MT",
+        "display" : "English-MALTA"
+      },
+      {
+        "code" : "en-NU",
+        "display" : "English-NIUE"
+      },
+      {
+        "code" : "en-PK",
+        "display" : "English-PAKISTAN"
+      },
+      {
+        "code" : "en-PR",
+        "display" : "English-PUERTO RICO"
+      },
+      {
+        "code" : "en-RW",
+        "display" : "English-RWANDA"
+      },
+      {
+        "code" : "en-SC",
+        "display" : "English-SEYCHELLES"
+      },
+      {
+        "code" : "en-TC",
+        "display" : "English-TURKS AND CAICOS ISLANDS"
+      },
+      {
+        "code" : "en-TK",
+        "display" : "English-TOKELAU"
+      },
+      {
+        "code" : "en-VU",
+        "display" : "English-VANUATU"
+      },
+      {
+        "code" : "en-ZA",
+        "display" : "English-SOUTH AFRICA"
+      },
+      {
+        "code" : "es-BO",
+        "display" : "Spanish; Castilian-BOLIVIA (PLURINATIONAL STATE OF)"
+      },
+      {
+        "code" : "et-EE",
+        "display" : "Estonian-ESTONIA"
+      },
+      {
+        "code" : "ff-SN",
+        "display" : "Fulah-SENEGAL"
+      },
+      {
+        "code" : "fr-BF",
+        "display" : "French-BURKINA FASO"
+      },
+      {
+        "code" : "fr-BJ",
+        "display" : "French-BENIN"
+      },
+      {
+        "code" : "fr-BL",
+        "display" : "French-SAINT BARTHÉLEMY"
+      },
+      {
+        "code" : "fr-CA",
+        "display" : "French-CANADA"
+      },
+      {
+        "code" : "fr-CI",
+        "display" : "French-COTE D'IVOIRE"
+      },
+      {
+        "code" : "fr-MF",
+        "display" : "French-SAINT MARTIN (FRENCH PART)"
+      },
+      {
+        "code" : "fr-MG",
+        "display" : "French-MADAGASCAR"
+      },
+      {
+        "code" : "ha-GH",
+        "display" : "Hausa-GHANA"
+      },
+      {
+        "code" : "ka-GE",
+        "display" : "Georgian-GEORGIA"
+      },
+      {
+        "code" : "ko-KP",
+        "display" : "Korean-KOREA (DEMOCRATIC PEOPLE'S REPUBLIC OF)"
+      },
+      {
+        "code" : "ky-KG",
+        "display" : "Kirghiz; Kyrgyz-KYRGYZSTAN"
+      },
+      {
+        "code" : "ln-CD",
+        "display" : "Lingala-CONGO, DEMOCRATIC REPUBLIC OF"
+      },
+      {
+        "code" : "ml-IN",
+        "display" : "Malayalam-INDIA"
+      },
+      {
+        "code" : "mr-IN",
+        "display" : "Marathi-INDIA"
+      },
+      {
+        "code" : "nl-BE",
+        "display" : "Dutch; Flemish-BELGIUM"
+      },
+      {
+        "code" : "nl-CW",
+        "display" : "Dutch; Flemish-CURAÇAO"
+      },
+      {
+        "code" : "nl-SR",
+        "display" : "Dutch; Flemish-SURINAME"
+      },
+      {
+        "code" : "nl-SX",
+        "display" : "Dutch; Flemish-SINT MAARTEN (DUTCH PART)"
+      },
+      {
+        "code" : "pt-BR",
+        "display" : "Portuguese-BRAZIL"
+      },
+      {
+        "code" : "ru-MD",
+        "display" : "Russian-MOLDOVA, REPUBLIC OF"
+      },
+      {
+        "code" : "ru-RU",
+        "display" : "Russian-RUSSIAN FEDERATION"
+      },
+      {
+        "code" : "ru-UA",
+        "display" : "Russian-UKRAINE"
+      },
+      {
+        "code" : "so-KE",
+        "display" : "Somali-KENYA"
+      },
+      {
+        "code" : "sq-AL",
+        "display" : "Albanian-ALBANIA"
+      },
+      {
+        "code" : "sq-MK",
+        "display" : "Albanian-MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF"
+      },
+      {
+        "code" : "sv-AX",
+        "display" : "Swedish-ÅLAND ISLANDS"
+      },
+      {
+        "code" : "sv-SE",
+        "display" : "Swedish-SWEDEN"
+      },
+      {
+        "code" : "vi-VN",
+        "display" : "Vietnamese-VIET NAM"
+      },
+      {
+        "code" : "zh-SG",
+        "display" : "Chinese-SINGAPORE"
+      },
+      {
+        "code" : "af-NA",
+        "display" : "Afrikaans-NAMIBIA"
+      },
+      {
+        "code" : "ar-KW",
+        "display" : "Arabic-KUWAIT"
+      },
+      {
+        "code" : "ar-SS",
+        "display" : "Arabic-SOUTH SUDAN"
+      },
+      {
+        "code" : "ar-YE",
+        "display" : "Arabic-YEMEN"
+      },
+      {
+        "code" : "bm-ML",
+        "display" : "Bambara-MALI"
+      },
+      {
+        "code" : "bo-CN",
+        "display" : "Tibetan-CHINA"
+      },
+      {
+        "code" : "dz-BT",
+        "display" : "Dzongkha-BHUTAN"
+      },
+      {
+        "code" : "en-BS",
+        "display" : "English-BAHAMAS"
+      },
+      {
+        "code" : "en-GB",
+        "display" : "English-UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND"
+      },
+      {
+        "code" : "en-HK",
+        "display" : "English-HONG KONG"
+      },
+      {
+        "code" : "en-KE",
+        "display" : "English-KENYA"
+      },
+      {
+        "code" : "en-KI",
+        "display" : "English-KIRIBATI"
+      },
+      {
+        "code" : "en-LC",
+        "display" : "English-SAINT LUCIA"
+      },
+      {
+        "code" : "en-PN",
+        "display" : "English-PITCAIRN"
+      },
+      {
+        "code" : "en-SX",
+        "display" : "English-SINT MAARTEN (DUTCH PART)"
+      },
+      {
+        "code" : "en-TO",
+        "display" : "English-TONGA"
+      },
+      {
+        "code" : "es-CU",
+        "display" : "Spanish; Castilian-CUBA"
+      },
+      {
+        "code" : "es-PA",
+        "display" : "Spanish; Castilian-PANAMA"
+      },
+      {
+        "code" : "es-PR",
+        "display" : "Spanish; Castilian-PUERTO RICO"
+      },
+      {
+        "code" : "es-SV",
+        "display" : "Spanish; Castilian-EL SALVADOR"
+      },
+      {
+        "code" : "es-VE",
+        "display" : "Spanish; Castilian-VENEZUELA (BOLIVARIAN REPUBLIC OF)"
+      },
+      {
+        "code" : "fr-CG",
+        "display" : "French-CONGO"
+      },
+      {
+        "code" : "fr-MA",
+        "display" : "French-MOROCCO"
+      },
+      {
+        "code" : "fr-MQ",
+        "display" : "French-MARTINIQUE"
+      },
+      {
+        "code" : "fr-MR",
+        "display" : "French-MAURITANIA"
+      },
+      {
+        "code" : "fr-RE",
+        "display" : "French-REUNION"
+      },
+      {
+        "code" : "fr-SC",
+        "display" : "French-SEYCHELLES"
+      },
+      {
+        "code" : "gd-GB",
+        "display" : "Gaelic; Scottish Gaelic-UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND"
+      },
+      {
+        "code" : "kk-KZ",
+        "display" : "Kazakh-KAZAKHSTAN"
+      },
+      {
+        "code" : "lg-UG",
+        "display" : "Ganda-UGANDA"
+      },
+      {
+        "code" : "lo-LA",
+        "display" : "Lao-LAO PEOPLE'S DEMOCRATIC REPUBLIC"
+      },
+      {
+        "code" : "mn-MN",
+        "display" : "Mongolian-MONGOLIA"
+      },
+      {
+        "code" : "nd-ZW",
+        "display" : "Ndebele, North; North Ndebele-ZIMBABWE"
+      },
+      {
+        "code" : "or-IN",
+        "display" : "Oriya-INDIA"
+      },
+      {
+        "code" : "os-RU",
+        "display" : "Ossetian; Ossetic-RUSSIAN FEDERATION"
+      },
+      {
+        "code" : "pt-CV",
+        "display" : "Portuguese-CAPE VERDE"
+      },
+      {
+        "code" : "rw-RW",
+        "display" : "Kinyarwanda-RWANDA"
+      },
+      {
+        "code" : "sw-CD",
+        "display" : "Swahili-CONGO, DEMOCRATIC REPUBLIC OF"
+      },
+      {
+        "code" : "ta-IN",
+        "display" : "Tamil-INDIA"
+      },
+      {
+        "code" : "ti-ET",
+        "display" : "Tigrinya-ETHIOPIA"
+      },
+      {
+        "code" : "tr-CY",
+        "display" : "Turkish-CYPRUS"
+      },
+      {
+        "code" : "uk-UA",
+        "display" : "Ukrainian-UKRAINE"
+      },
+      {
+        "code" : "zh-CN",
+        "display" : "Chinese-CHINA"
+      },
+      {
+        "code" : "zh-TW",
+        "display" : "Chinese-TAIWAN, PROVINCE OF CHINA"
+      },
+      {
+        "code" : "ak-GH",
+        "display" : "Akan-GHANA"
+      },
+      {
+        "code" : "am-ET",
+        "display" : "Amharic-ETHIOPIA"
+      },
+      {
+        "code" : "ar-DJ",
+        "display" : "Arabic-DJIBOUTI"
+      },
+      {
+        "code" : "ar-KM",
+        "display" : "Arabic-COMOROS"
+      },
+      {
+        "code" : "ar-MA",
+        "display" : "Arabic-MOROCCO"
+      },
+      {
+        "code" : "ar-MR",
+        "display" : "Arabic-MAURITANIA"
+      },
+      {
+        "code" : "ar-TN",
+        "display" : "Arabic-TUNISIA"
+      },
+      {
+        "code" : "as-IN",
+        "display" : "Assamese-INDIA"
+      },
+      {
+        "code" : "az-AZ",
+        "display" : "Azerbaijani-AZERBAIJAN"
+      },
+      {
+        "code" : "bg-BG",
+        "display" : "Bulgarian-BULGARIA"
+      },
+      {
+        "code" : "bn-BD",
+        "display" : "Bengali-BANGLADESH"
+      },
+      {
+        "code" : "bn-IN",
+        "display" : "Bengali-INDIA"
+      },
+      {
+        "code" : "bo-IN",
+        "display" : "Tibetan-INDIA"
+      },
+      {
+        "code" : "da-DK",
+        "display" : "Danish-DENMARK"
+      },
+      {
+        "code" : "el-CY",
+        "display" : "Greek, Modern (1453-)-CYPRUS"
+      },
+      {
+        "code" : "en-AU",
+        "display" : "English-AUSTRALIA"
+      },
+      {
+        "code" : "en-BZ",
+        "display" : "English-BELIZE"
+      },
+      {
+        "code" : "en-LR",
+        "display" : "English-LIBERIA"
+      },
+      {
+        "code" : "en-MY",
+        "display" : "English-MALAYSIA"
+      },
+      {
+        "code" : "en-NR",
+        "display" : "English-NAURU"
+      },
+      {
+        "code" : "en-SH",
+        "display" : "English-SAINT HELENA, ASCENSION AND TRISTAN DA CUNHA"
+      },
+      {
+        "code" : "en-SL",
+        "display" : "English-SIERRA LEONE"
+      },
+      {
+        "code" : "en-SZ",
+        "display" : "English-SWAZILAND"
+      },
+      {
+        "code" : "en-TZ",
+        "display" : "English-TANZANIA, UNITED REPUBLIC OF"
+      },
+      {
+        "code" : "en-WS",
+        "display" : "English-SAMOA"
+      },
+      {
+        "code" : "en-ZW",
+        "display" : "English-ZIMBABWE"
+      },
+      {
+        "code" : "es-GQ",
+        "display" : "Spanish; Castilian-EQUATORIAL GUINEA"
+      },
+      {
+        "code" : "es-HN",
+        "display" : "Spanish; Castilian-HONDURAS"
+      },
+      {
+        "code" : "fr-GN",
+        "display" : "French-GUINEA"
+      },
+      {
+        "code" : "fr-NC",
+        "display" : "French-NEW CALEDONIA"
+      },
+      {
+        "code" : "fr-SN",
+        "display" : "French-SENEGAL"
+      },
+      {
+        "code" : "fr-TG",
+        "display" : "French-TOGO"
+      },
+      {
+        "code" : "fr-WF",
+        "display" : "French-WALLIS AND FUTUNA"
+      },
+      {
+        "code" : "gl-ES",
+        "display" : "Galician; Galicia-SPAIN"
+      },
+      {
+        "code" : "ha-NG",
+        "display" : "Hausa-NIGERIA"
+      },
+      {
+        "code" : "hr-BA",
+        "display" : "Croatian-BOSNIA AND HERZEGOVINA"
+      },
+      {
+        "code" : "ki-KE",
+        "display" : "Kikuyu; Gikuyu-KENYA"
+      },
+      {
+        "code" : "lb-LU",
+        "display" : "Luxembourgish; Letzeburgesch-LUXEMBOURG"
+      },
+      {
+        "code" : "lt-LT",
+        "display" : "Lithuanian-LITHUANIA"
+      },
+      {
+        "code" : "lv-LV",
+        "display" : "Latvian-LATVIA"
+      },
+      {
+        "code" : "ms-BN",
+        "display" : "Malay-BRUNEI DARUSSALAM"
+      },
+      {
+        "code" : "ms-SG",
+        "display" : "Malay-SINGAPORE"
+      },
+      {
+        "code" : "nb-NO",
+        "display" : "Bokmål, Norwegian; Norwegian Bokmål-NORWAY"
+      },
+      {
+        "code" : "ne-NP",
+        "display" : "Nepali-NEPAL"
+      },
+      {
+        "code" : "om-ET",
+        "display" : "Oromo-ETHIOPIA"
+      },
+      {
+        "code" : "pl-PL",
+        "display" : "Polish-POLAND"
+      },
+      {
+        "code" : "ps-AF",
+        "display" : "Pushto; Pashto-AFGHANISTAN"
+      },
+      {
+        "code" : "ru-KZ",
+        "display" : "Russian-KAZAKHSTAN"
+      },
+      {
+        "code" : "sk-SK",
+        "display" : "Slovak-SLOVAKIA"
+      },
+      {
+        "code" : "sn-ZW",
+        "display" : "Shona-ZIMBABWE"
+      },
+      {
+        "code" : "so-ET",
+        "display" : "Somali-ETHIOPIA"
+      },
+      {
+        "code" : "sr-BA",
+        "display" : "Serbian-BOSNIA AND HERZEGOVINA"
+      },
+      {
+        "code" : "sw-UG",
+        "display" : "Swahili-UGANDA"
+      },
+      {
+        "code" : "ta-SG",
+        "display" : "Tamil-SINGAPORE"
+      },
+      {
+        "code" : "te-IN",
+        "display" : "Telugu-INDIA"
+      },
+      {
+        "code" : "ug-CN",
+        "display" : "Uighur; Uyghur-CHINA"
+      },
+      {
+        "code" : "uz-AF",
+        "display" : "Uzbek-AFGHANISTAN"
+      },
+      {
+        "code" : "yo-BJ",
+        "display" : "Yoruba-BENIN"
+      },
+      {
+        "code" : "ar-BH",
+        "display" : "Arabic-BAHRAIN"
+      },
+      {
+        "code" : "ar-EH",
+        "display" : "Arabic-WESTERN SAHARA"
+      },
+      {
+        "code" : "ar-JO",
+        "display" : "Arabic-JORDAN"
+      },
+      {
+        "code" : "ar-LY",
+        "display" : "Arabic-LIBYA"
+      },
+      {
+        "code" : "ar-SD",
+        "display" : "Arabic-SUDAN"
+      },
+      {
+        "code" : "ar-SY",
+        "display" : "Arabic-SYRIAN ARAB REPUBLIC"
+      },
+      {
+        "code" : "ee-TG",
+        "display" : "Ewe-TOGO"
+      },
+      {
+        "code" : "en-BB",
+        "display" : "English-BARBADOS"
+      },
+      {
+        "code" : "en-FM",
+        "display" : "English-MICRONESIA (FEDERATED STATES OF)"
+      },
+      {
+        "code" : "en-IO",
+        "display" : "English-BRITISH INDIAN OCEAN TERRITORY"
+      },
+      {
+        "code" : "en-KY",
+        "display" : "English-CAYMAN ISLANDS"
+      },
+      {
+        "code" : "en-LS",
+        "display" : "English-LESOTHO"
+      },
+      {
+        "code" : "en-MG",
+        "display" : "English-MADAGASCAR"
+      },
+      {
+        "code" : "en-SS",
+        "display" : "English-SOUTH SUDAN"
+      },
+      {
+        "code" : "en-UM",
+        "display" : "English-UNITED STATES MINOR OUTLYING ISLANDS"
+      },
+      {
+        "code" : "en-VI",
+        "display" : "English-VIRGIN ISLANDS, U.S."
+      },
+      {
+        "code" : "en-ZM",
+        "display" : "English-ZAMBIA"
+      },
+      {
+        "code" : "es-AR",
+        "display" : "Spanish; Castilian-ARGENTINA"
+      },
+      {
+        "code" : "es-CR",
+        "display" : "Spanish; Castilian-COSTA RICA"
+      },
+      {
+        "code" : "es-NI",
+        "display" : "Spanish; Castilian-NICARAGUA"
+      },
+      {
+        "code" : "fr-BE",
+        "display" : "French-BELGIUM"
+      },
+      {
+        "code" : "fr-BI",
+        "display" : "French-BURUNDI"
+      },
+      {
+        "code" : "fr-PM",
+        "display" : "French-SAINT PIERRE AND MIQUELON"
+      },
+      {
+        "code" : "hi-IN",
+        "display" : "Hindi-INDIA"
+      },
+      {
+        "code" : "hr-HR",
+        "display" : "Croatian-CROATIA"
+      },
+      {
+        "code" : "hy-AM",
+        "display" : "Armenian-ARMENIA"
+      },
+      {
+        "code" : "it-CH",
+        "display" : "Italian-SWITZERLAND"
+      },
+      {
+        "code" : "kl-GL",
+        "display" : "Kalaallisut; Greenlandic-GREENLAND"
+      },
+      {
+        "code" : "kn-IN",
+        "display" : "Kannada-INDIA"
+      },
+      {
+        "code" : "ln-AO",
+        "display" : "Lingala-ANGOLA"
+      },
+      {
+        "code" : "nb-SJ",
+        "display" : "Bokmål, Norwegian; Norwegian Bokmål-SVALBARD AND JAN MAYEN"
+      },
+      {
+        "code" : "nl-AW",
+        "display" : "Dutch; Flemish-ARUBA"
+      },
+      {
+        "code" : "os-GE",
+        "display" : "Ossetian; Ossetic-GEORGIA"
+      },
+      {
+        "code" : "qu-BO",
+        "display" : "Quechua-BOLIVIA (PLURINATIONAL STATE OF)"
+      },
+      {
+        "code" : "qu-EC",
+        "display" : "Quechua-ECUADOR"
+      },
+      {
+        "code" : "rm-CH",
+        "display" : "Romansh-SWITZERLAND"
+      },
+      {
+        "code" : "rn-BI",
+        "display" : "Rundi-BURUNDI"
+      },
+      {
+        "code" : "se-SE",
+        "display" : "Northern Sami-SWEDEN"
+      },
+      {
+        "code" : "sw-TZ",
+        "display" : "Swahili-TANZANIA, UNITED REPUBLIC OF"
+      },
+      {
+        "code" : "ta-LK",
+        "display" : "Tamil-SRI LANKA"
+      },
+      {
+        "code" : "zu-ZA",
+        "display" : "Zulu-SOUTH AFRICA"
+      },
+      {
+        "code" : "ar-IQ",
+        "display" : "Arabic-IRAQ"
+      },
+      {
+        "code" : "ar-TD",
+        "display" : "Arabic-CHAD"
+      },
+      {
+        "code" : "bs-BA",
+        "display" : "Bosnian-BOSNIA AND HERZEGOVINA"
+      },
+      {
+        "code" : "ca-IT",
+        "display" : "Catalan; Valencian-ITALY"
+      },
+      {
+        "code" : "en-AS",
+        "display" : "English-AMERICAN SAMOA"
+      },
+      {
+        "code" : "en-FJ",
+        "display" : "English-FIJI"
+      },
+      {
+        "code" : "en-FK",
+        "display" : "English-FALKLAND ISLANDS (MALVINAS)"
+      },
+      {
+        "code" : "en-GU",
+        "display" : "English-GUAM"
+      },
+      {
+        "code" : "en-GY",
+        "display" : "English-GUYANA"
+      },
+      {
+        "code" : "en-JE",
+        "display" : "English-JERSEY"
+      },
+      {
+        "code" : "en-MS",
+        "display" : "English-MONTSERRAT"
+      },
+      {
+        "code" : "en-MW",
+        "display" : "English-MALAWI"
+      },
+      {
+        "code" : "en-VG",
+        "display" : "English-VIRGIN ISLANDS, BRITISH"
+      },
+      {
+        "code" : "es-EC",
+        "display" : "Spanish; Castilian-ECUADOR"
+      },
+      {
+        "code" : "es-PE",
+        "display" : "Spanish; Castilian-PERU"
+      },
+      {
+        "code" : "fo-FO",
+        "display" : "Faroese-FAROE ISLANDS"
+      },
+      {
+        "code" : "fr-CH",
+        "display" : "French-SWITZERLAND"
+      },
+      {
+        "code" : "fr-DJ",
+        "display" : "French-DJIBOUTI"
+      },
+      {
+        "code" : "fr-GP",
+        "display" : "French-GUADELOUPE"
+      },
+      {
+        "code" : "fr-GQ",
+        "display" : "French-EQUATORIAL GUINEA"
+      },
+      {
+        "code" : "fr-TD",
+        "display" : "French-CHAD"
+      },
+      {
+        "code" : "fr-TN",
+        "display" : "French-TUNISIA"
+      },
+      {
+        "code" : "it-SM",
+        "display" : "Italian-SAN MARINO"
+      },
+      {
+        "code" : "kw-GB",
+        "display" : "Cornish-UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND"
+      },
+      {
+        "code" : "lu-CD",
+        "display" : "Luba-Katanga-CONGO, DEMOCRATIC REPUBLIC OF"
+      },
+      {
+        "code" : "mk-MK",
+        "display" : "Macedonian-MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF"
+      },
+      {
+        "code" : "ms-MY",
+        "display" : "Malay-MALAYSIA"
+      },
+      {
+        "code" : "nl-BQ",
+        "display" : "Dutch; Flemish-BONAIRE, SINT EUSTATIUS AND SABA"
+      },
+      {
+        "code" : "nn-NO",
+        "display" : "Norwegian Nynorsk; Nynorsk, Norwegian-NORWAY"
+      },
+      {
+        "code" : "se-NO",
+        "display" : "Northern Sami-NORWAY"
+      },
+      {
+        "code" : "so-SO",
+        "display" : "Somali-SOMALIA"
+      },
+      {
+        "code" : "sr-RS",
+        "display" : "Serbian-SERBIA"
+      },
+      {
+        "code" : "sw-KE",
+        "display" : "Swahili-KENYA"
+      },
+      {
+        "code" : "yo-NG",
+        "display" : "Yoruba-NIGERIA"
+      },
+      {
+        "code" : "zh-HK",
+        "display" : "Chinese-HONG KONG"
+      },
+      {
+        "code" : "no-NO",
+        "display" : "Norwegian-NORWAY"
+      }]
+    }]
+  }
+}
