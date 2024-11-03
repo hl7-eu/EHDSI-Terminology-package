@@ -32,3 +32,10 @@ parameters:
   #   - ee
   no-narrative:
     - ValueSet/*
+  special-url:
+    - http://hl7.org/fhir/uv/ips/ValueSet/results-blood-group-uv-ips
+    - http://hl7.org/fhir/uv/ips/ValueSet/results-presence-absence-uv-ips
+    - http://hl7.org/fhir/uv/ips/ValueSet/results-microorganism-uv-ips
+    - http://hl7.org/fhir/uv/ips/ValueSet/results-coded-values-laboratory-uv-ips
+    - http://www.whocc.no/atc
+

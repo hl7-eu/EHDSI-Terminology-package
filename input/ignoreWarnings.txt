@@ -1,0 +1,4 @@
+== Suppressed Messages ==
+
+# Some ValueSets are way too big and adding narrative would result in a large file, so it is suppressed
+%A resource should have narrative for robust management%
