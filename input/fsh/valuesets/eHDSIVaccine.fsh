@@ -2,10 +2,10 @@ ValueSet: eHDSIVaccine
 Id: eHDSIVaccine
 Title: "nan"
 Description: "nan"
-* ^experimental = false
 
+* ^experimental = false
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:uuid:eHDSIVaccine"
+* ^identifier.value = "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.28"
 
 * http://snomed.info/sct#428601009 "Paratyphoid vaccine"
 * http://snomed.info/sct#836383009 "Vibrio cholerae antigen-containing vaccine product"

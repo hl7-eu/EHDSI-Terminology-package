@@ -2,10 +2,10 @@ ValueSet: eHDSIBodyStructureLocation
 Id: eHDSIBodyStructureLocation
 Title: "eHDSI Body Structure Location Qualifier"
 Description: "This Value Set is used for the body structure location qualifier. Concepts modifying the anatomic location."
-* ^experimental = false
 
+* ^experimental = false
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:uuid:eHDSIBodyStructureLocation"
+* ^identifier.value = "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.80"
 
 * http://snomed.info/sct#7771000 "Left"
 * http://snomed.info/sct#255549009 "Anterior"

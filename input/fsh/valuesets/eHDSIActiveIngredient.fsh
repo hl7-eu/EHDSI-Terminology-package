@@ -2,10 +2,10 @@ ValueSet: eHDSIActiveIngredient
 Id: eHDSIActiveIngredient
 Title: "nan"
 Description: "nan"
-* ^experimental = false
 
+* ^experimental = false
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:uuid:eHDSIActiveIngredient"
+* ^identifier.value = "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.24"
 
 * http://www.whocc.no/atc#A01AA03 "olaflur"
 * http://www.whocc.no/atc#A01AB12 "hexetidine"

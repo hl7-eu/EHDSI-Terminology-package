@@ -2,10 +2,10 @@ ValueSet: eHDSIReferenceRangeMeaning
 Id: eHDSIReferenceRangeMeaning
 Title: "eHDSI Reference Range Meaning"
 Description: "This value set defines a set of codes for a reference range qualifier"
-* ^experimental = false
 
+* ^experimental = false
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:uuid:eHDSIReferenceRangeMeaning"
+* ^identifier.value = "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.74"
 
 * http://terminology.hl7.org/CodeSystem/referencerange-meaning#luteal "Luteal"
 * http://terminology.hl7.org/CodeSystem/referencerange-meaning#recommended "Recommended Range"

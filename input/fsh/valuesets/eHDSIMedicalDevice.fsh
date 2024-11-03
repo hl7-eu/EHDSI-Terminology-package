@@ -2,10 +2,10 @@ ValueSet: eHDSIMedicalDevice
 Id: eHDSIMedicalDevice
 Title: "eHDSI Medical Device"
 Description: "eHDSI Medical Device"
-* ^experimental = false
 
+* ^experimental = false
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:uuid:eHDSIMedicalDevice"
+* ^identifier.value = "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.8"
 
 * urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.44.6#A1002010301 "UROSTOMY PLATES, WITH NON-RETRACTED STOMA"
 * urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.44.6#G020501 "GASTRIC BANDS"

@@ -2,10 +2,10 @@ ValueSet: eHDSIMorphologicAbnormality
 Id: eHDSIMorphologicAbnormality
 Title: "eHDSI Morphologic Abnormality"
 Description: "The Value Set is used to code the morphological abnormalities of the anatomical location where the material is taken."
-* ^experimental = false
 
+* ^experimental = false
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:uuid:eHDSIMorphologicAbnormality"
+* ^identifier.value = "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.69"
 
 * http://snomed.info/sct#125358004 "Diffuse fibroelastosis"
 * http://snomed.info/sct#415582006 "Stenosis"

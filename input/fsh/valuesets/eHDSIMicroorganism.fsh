@@ -2,10 +2,10 @@ ValueSet: eHDSIMicroorganism
 Id: eHDSIMicroorganism
 Title: "eHDSI Microorganism"
 Description: "eHDSI Morphologic Abnormality"
-* ^experimental = false
 
+* ^experimental = false
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:uuid:eHDSIMicroorganism"
+* ^identifier.value = "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.78"
 
 * http://snomed.info/sct#8386006 "Clostridium botulinum, type E"
 * http://snomed.info/sct#16362001 "Human poliovirus 3"

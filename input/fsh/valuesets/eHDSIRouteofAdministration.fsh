@@ -2,10 +2,10 @@ ValueSet: eHDSIRouteofAdministration
 Id: eHDSIRouteofAdministration
 Title: "nan"
 Description: "nan"
-* ^experimental = false
 
+* ^experimental = false
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:uuid:eHDSIRouteofAdministration"
+* ^identifier.value = "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.12"
 
 * http://standardterms.edqm.eu#20019500 "Infiltration"
 * http://standardterms.edqm.eu#20030000 "Intradermal use"

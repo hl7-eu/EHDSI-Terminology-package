@@ -2,10 +2,10 @@ ValueSet: eHDSIRareDisease
 Id: eHDSIRareDisease
 Title: "eHDSI Rare Disease"
 Description: "The Value Set is used to describe the problems and medication reasons."
-* ^experimental = false
 
+* ^experimental = false
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:uuid:eHDSIRareDisease"
+* ^identifier.value = "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.63"
 
 * urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.44.5#18 "Distal renal tubular acidosis"
 * urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.44.5#26 "Methylmalonic acidemia with homocystinuria"

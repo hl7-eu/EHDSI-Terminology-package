@@ -2,10 +2,10 @@ ValueSet: eHDSILanguage
 Id: eHDSILanguage
 Title: "eHDSI Language"
 Description: "The Value Set is used to identify the language the document will be written with."
-* ^experimental = false
 
+* ^experimental = false
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:uuid:eHDSILanguage"
+* ^identifier.value = "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.6"
 
 * urn:ietf:bcp:47#ar-AE "Arabic-UNITED ARAB EMIRATES"
 * urn:ietf:bcp:47#ar-DZ "Arabic-ALGERIA"

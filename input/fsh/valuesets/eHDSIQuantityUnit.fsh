@@ -2,10 +2,10 @@ ValueSet: eHDSIQuantityUnit
 Id: eHDSIQuantityUnit
 Title: "nan"
 Description: "nan"
-* ^experimental = false
 
+* ^experimental = false
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:uuid:eHDSIQuantityUnit"
+* ^identifier.value = "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.56"
 
 * http://standardterms.edqm.eu#15005000 "Bag"
 * http://standardterms.edqm.eu#15022000 "Drop"

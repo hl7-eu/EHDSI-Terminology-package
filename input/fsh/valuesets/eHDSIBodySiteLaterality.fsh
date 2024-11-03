@@ -2,10 +2,10 @@ ValueSet: eHDSIBodySiteLaterality
 Id: eHDSIBodySiteLaterality
 Title: "eHDSI Body Site Laterality"
 Description: "This Value Set is used for the body structure site laterality qualifier. It indicates the body site laterality from which a laboratory specimen is collected."
-* ^experimental = false
 
+* ^experimental = false
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:uuid:eHDSIBodySiteLaterality"
+* ^identifier.value = "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.68"
 
 * http://snomed.info/sct#7771000 "Left"
 * http://snomed.info/sct#51440002 "Right and left"
