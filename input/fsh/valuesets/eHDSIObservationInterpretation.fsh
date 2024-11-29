@@ -1,11 +1,13 @@
-ValueSet: eHDSIObservationInterpretation
+ValueSet: EHDSIObservationInterpretation
 Id: eHDSIObservationInterpretation
 Title: "eHDSI Observation Interpretation"
 Description: "This Value Set is used for a rough qualitative interpretation of the Laboratory Observation Results"
 
+* ^url = "http://terminology.ehdsi.eu/ValueSet/eHDSIObservationInterpretation"
 * ^experimental = false
+* ^name: "EHDSIObservationInterpretation"
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.73"
+* ^identifier.value = "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.73"
 
 * http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#D "Significant change down"
 * http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#AA "Critical abnormal"

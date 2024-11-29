@@ -1,11 +1,13 @@
-ValueSet: eHDSILabSpecimenType
+ValueSet: EHDSILabSpecimenType
 Id: eHDSILabSpecimenType
 Title: "eHDSI Laboratory Specimen Type"
 Description: "This Value Set is used for the kind of material that forms the specimen"
 
+* ^url = "http://terminology.ehdsi.eu/ValueSet/eHDSILabSpecimenType"
 * ^experimental = false
+* ^name: "EHDSILabSpecimenType"
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.67"
+* ^identifier.value = "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.67"
 
 * http://snomed.info/sct#472867001 "Swab from tonsil"
 * http://snomed.info/sct#119337004 "Inhaled gas specimen"

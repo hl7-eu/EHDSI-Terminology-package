@@ -1,11 +1,13 @@
-ValueSet: eHDSIBodySite
+ValueSet: EHDSIBodySite
 Id: eHDSIBodySite
 Title: "eHDSI Body Site"
 Description: "The Value Set is used for the details about the anatomical location of a specimen in the Laboratory Result Report or the target body location of a procedure in the Patient Summary."
 
+* ^url = "http://terminology.ehdsi.eu/ValueSet/eHDSIBodySite"
 * ^experimental = false
+* ^name: "EHDSIBodySite"
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.65"
+* ^identifier.value = "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.65"
 
 * http://snomed.info/sct#397363009 "Common femoral vein"
 * http://snomed.info/sct#427667007 "Nucleus accumbens"

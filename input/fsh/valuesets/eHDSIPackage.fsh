@@ -1,11 +1,13 @@
-ValueSet: eHDSIPackage
+ValueSet: EHDSIPackage
 Id: eHDSIPackage
-Title: "nan"
-Description: "nan"
+Title: "eHDSI Package"
+Description: ""
 
+* ^url = "http://terminology.ehdsi.eu/ValueSet/eHDSIPackage"
 * ^experimental = false
+* ^name: "EHDSIPackage"
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.3"
+* ^identifier.value = "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.3"
 
 * http://standardterms.edqm.eu#30062000 "Spray valve"
 * http://standardterms.edqm.eu#30007000 "Blister"

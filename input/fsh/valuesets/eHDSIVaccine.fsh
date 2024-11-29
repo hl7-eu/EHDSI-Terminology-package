@@ -1,11 +1,13 @@
-ValueSet: eHDSIVaccine
+ValueSet: EHDSIVaccine
 Id: eHDSIVaccine
-Title: "nan"
-Description: "nan"
+Title: "eHDSI Vaccine"
+Description: "The Value Set is used to identify the patient's vaccinations in the Patient Summary"
 
+* ^url = "http://terminology.ehdsi.eu/ValueSet/eHDSIVaccine"
 * ^experimental = false
+* ^name: "EHDSIVaccine"
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.28"
+* ^identifier.value = "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.28"
 
 * http://snomed.info/sct#428601009 "Paratyphoid vaccine"
 * http://snomed.info/sct#836383009 "Vibrio cholerae antigen-containing vaccine product"

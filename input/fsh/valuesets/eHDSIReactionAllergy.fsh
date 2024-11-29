@@ -1,11 +1,13 @@
-ValueSet: eHDSIReactionAllergy
+ValueSet: EHDSIReactionAllergy
 Id: eHDSIReactionAllergy
 Title: "eHDSI Reaction Allergy"
 Description: "Value Set is used to encode clinical manifestation of the allergic reaction."
 
+* ^url = "http://terminology.ehdsi.eu/ValueSet/eHDSIReactionAllergy"
 * ^experimental = false
+* ^name: "EHDSIReactionAllergy"
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.11"
+* ^identifier.value = "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.11"
 
 * http://snomed.info/sct#74776002 "Itching of eye"
 * http://snomed.info/sct#271757001 "Papular eruption"

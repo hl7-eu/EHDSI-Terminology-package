@@ -1,11 +1,13 @@
-ValueSet: eHDSIPerformerFunction
+ValueSet: EHDSIPerformerFunction
 Id: eHDSIPerformerFunction
 Title: "eHDSI Performer Function"
 Description: "Laboratory Performer Function"
 
+* ^url = "http://terminology.ehdsi.eu/ValueSet/eHDSIPerformerFunction"
 * ^experimental = false
+* ^name: "EHDSIPerformerFunction"
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.76"
+* ^identifier.value = "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.76"
 
 * http://terminology.hl7.org/CodeSystem/v3-ParticipationType#VRF "verifier"
 * http://terminology.hl7.org/CodeSystem/v3-ParticipationType#AUT "author (originator)"

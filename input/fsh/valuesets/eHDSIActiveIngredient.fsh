@@ -1,11 +1,13 @@
-ValueSet: eHDSIActiveIngredient
+ValueSet: EHDSIActiveIngredient
 Id: eHDSIActiveIngredient
-Title: "nan"
-Description: "nan"
+Title: "eHDSI Active Ingredient"
+Description: "The Value Set is used as a mandatory code for the Active Ingredient of medications in the Medications Summary as well as the prescription Sections. Also used to code allergy agents in the Allergies and Other Adverse Reactions Section of the patient Summary."
 
+* ^url = "http://terminology.ehdsi.eu/ValueSet/eHDSIActiveIngredient"
 * ^experimental = false
+* ^name: "EHDSIActiveIngredient"
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.24"
+* ^identifier.value = "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.24"
 
 * http://www.whocc.no/atc#A01AA03 "olaflur"
 * http://www.whocc.no/atc#A01AB12 "hexetidine"

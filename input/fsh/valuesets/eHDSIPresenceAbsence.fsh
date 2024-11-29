@@ -1,11 +1,13 @@
-ValueSet: eHDSIPresenceAbsence
+ValueSet: EHDSIPresenceAbsence
 Id: eHDSIPresenceAbsence
 Title: "eHDSI Presence Absence"
 Description: "The Value Set is used to describe presence and absence findings (qualifier values) of the Laboratory Test Results"
 
+* ^url = "http://terminology.ehdsi.eu/ValueSet/eHDSIPresenceAbsence"
 * ^experimental = false
+* ^name: "EHDSIPresenceAbsence"
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.77"
+* ^identifier.value = "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.77"
 
 * http://snomed.info/sct#260349009 "+++"
 * http://snomed.info/sct#2667000 "Absent"

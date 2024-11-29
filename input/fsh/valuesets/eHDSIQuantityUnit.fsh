@@ -1,11 +1,13 @@
-ValueSet: eHDSIQuantityUnit
+ValueSet: EHDSIQuantityUnit
 Id: eHDSIQuantityUnit
-Title: "nan"
-Description: "nan"
+Title: "eHDSI Quantity Unit"
+Description: "The Value Set is used to describe the discrete countible entity in which a pharmaceutical product or manufactured item is presented."
 
+* ^url = "http://terminology.ehdsi.eu/ValueSet/eHDSIQuantityUnit"
 * ^experimental = false
+* ^name: "EHDSIQuantityUnit"
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.56"
+* ^identifier.value = "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.56"
 
 * http://standardterms.edqm.eu#15005000 "Bag"
 * http://standardterms.edqm.eu#15022000 "Drop"

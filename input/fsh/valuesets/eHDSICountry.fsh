@@ -1,11 +1,13 @@
-ValueSet: eHDSICountry
+ValueSet: EHDSICountry
 Id: eHDSICountry
 Title: "eHDSI Country"
 Description: "The Value Set is used to identify the nationality of all persons and organizations."
 
+* ^url = "http://terminology.ehdsi.eu/ValueSet/eHDSICountry"
 * ^experimental = false
+* ^name: "EHDSICountry"
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.4"
+* ^identifier.value = "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.4"
 
 * http://terminology.hl7.org/5.3.0/CodeSystem-ISO3166Part1.html#AQ "ANTARCTICA"
 * http://terminology.hl7.org/5.3.0/CodeSystem-ISO3166Part1.html#AT "AUSTRIA"

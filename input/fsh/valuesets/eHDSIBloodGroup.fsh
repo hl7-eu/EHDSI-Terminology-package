@@ -1,11 +1,13 @@
-ValueSet: eHDSIBloodGroup
+ValueSet: EHDSIBloodGroup
 Id: eHDSIBloodGroup
 Title: "eHDSI Blood Group"
 Description: "The Value Set is used to code the value of patient’s blood group + Rh"
 
+* ^url = "http://terminology.ehdsi.eu/ValueSet/eHDSIBloodGroup"
 * ^experimental = false
+* ^name: "EHDSIBloodGroup"
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.20"
+* ^identifier.value = "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.20"
 
 * http://snomed.info/sct#278149003 "Blood group A Rh(D) positive"
 * http://snomed.info/sct#112144000 "Blood group A"
