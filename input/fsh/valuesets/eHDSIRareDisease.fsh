@@ -5,7 +5,7 @@ Description: "The Value Set is used to describe the problems and medication reas
 
 * ^url = "http://terminology.ehdsi.eu/ValueSet/eHDSIRareDisease"
 * ^experimental = false
-* ^name: "EHDSIRareDisease"
+* ^name = "EHDSIRareDisease"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.63"
 

@@ -5,7 +5,7 @@ Description: "Laboratory Performer Function"
 
 * ^url = "http://terminology.ehdsi.eu/ValueSet/eHDSIPerformerFunction"
 * ^experimental = false
-* ^name: "EHDSIPerformerFunction"
+* ^name = "EHDSIPerformerFunction"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.76"
 

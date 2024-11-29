@@ -5,7 +5,7 @@ Description: "The Value Set is used for all Problems and Allergies in the Patien
 
 * ^url = "http://terminology.ehdsi.eu/ValueSet/eHDSISeverity"
 * ^experimental = false
-* ^name: "EHDSISeverity"
+* ^name = "EHDSISeverity"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.13"
 

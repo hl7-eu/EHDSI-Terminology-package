@@ -5,7 +5,7 @@ Description: "This value set defines a set of codes for a reference range qualif
 
 * ^url = "http://terminology.ehdsi.eu/ValueSet/eHDSIReferenceRangeMeaning"
 * ^experimental = false
-* ^name: "EHDSIReferenceRangeMeaning"
+* ^name = "EHDSIReferenceRangeMeaning"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.74"
 

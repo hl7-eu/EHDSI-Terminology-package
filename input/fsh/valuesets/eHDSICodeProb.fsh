@@ -5,7 +5,7 @@ Description: "The Value Set is used as an optional description of a problem in t
 
 * ^url = "http://terminology.ehdsi.eu/ValueSet/eHDSICodeProb"
 * ^experimental = false
-* ^name: "EHDSICodeProb"
+* ^name = "EHDSICodeProb"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.23"
 

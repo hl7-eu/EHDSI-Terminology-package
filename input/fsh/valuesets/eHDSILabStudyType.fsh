@@ -5,7 +5,7 @@ Description: "eHDSI Laboratory Study Types. Notes: Note 1: 26436-6 (Laboratory s
 
 * ^url = "http://terminology.ehdsi.eu/ValueSet/eHDSILabStudyType"
 * ^experimental = false
-* ^name: "EHDSILabStudyType"
+* ^name = "EHDSILabStudyType"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.66"
 

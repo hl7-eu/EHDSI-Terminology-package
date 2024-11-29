@@ -5,7 +5,7 @@ Description: "The value set is used to code the patient's kind of adverse reacti
 
 * ^url = "http://terminology.ehdsi.eu/ValueSet/eHDSIAllergenNoDrug"
 * ^experimental = false
-* ^name: "EHDSIAllergenNoDrug"
+* ^name = "EHDSIAllergenNoDrug"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.19"
 
