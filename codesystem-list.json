@@ -1,0 +1,12 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/CodeSystem/edqm-all",
+      "version" : "0.1.0",
+      "status" : "active",
+      "name" : "EDQMPharmaceuticalDoseForms",
+      "title" : "Pharmaceutical dose form",
+      "description" : "Pharmaceutical dose form"
+    }
+  ]
+}

@@ -1,0 +1,488 @@
+[
+  {
+    "id" : "edqm-all",
+    "type" : "CodeSystem",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/CodeSystem/edqm-all",
+    "version" : "0.1.0",
+    "name" : "EDQMPharmaceuticalDoseForms"
+  },
+  {
+    "id" : "hl7.eu.terminology.ehdsi",
+    "type" : "ImplementationGuide",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ImplementationGuide/hl7.eu.terminology.ehdsi",
+    "version" : "0.1.0",
+    "name" : "EHDSI"
+  },
+  {
+    "id" : "eHDSIActiveIngredient",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIActiveIngredient",
+    "version" : "0.1.0",
+    "name" : "EHDSIActiveIngredient",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.24"]
+  },
+  {
+    "id" : "eHDSIAdverseEventType",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIAdverseEventType",
+    "version" : "0.1.0",
+    "name" : "EHDSIAdverseEventType",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.18"]
+  },
+  {
+    "id" : "eHDSIAllergenNoDrug",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIAllergenNoDrug",
+    "version" : "0.1.0",
+    "name" : "EHDSIAllergenNoDrug",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.19"]
+  },
+  {
+    "id" : "eHDSIAllergyCertainty",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIAllergyCertainty",
+    "version" : "0.1.0",
+    "name" : "EHDSIAllergyCertainty",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.58"]
+  },
+  {
+    "id" : "eHDSIAllergyStatus",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIAllergyStatus",
+    "version" : "0.1.0",
+    "name" : "EHDSIAllergyStatus",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.59"]
+  },
+  {
+    "id" : "eHDSIAnimalSpecies",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIAnimalSpecies",
+    "version" : "0.1.0",
+    "name" : "EHDSIAnimalSpecies",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.72"]
+  },
+  {
+    "id" : "eHDSIBloodGroup",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIBloodGroup",
+    "version" : "0.1.0",
+    "name" : "EHDSIBloodGroup",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.20"]
+  },
+  {
+    "id" : "eHDSIBloodPressure",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIBloodPressure",
+    "version" : "0.1.0",
+    "name" : "EHDSIBloodPressure",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.21"]
+  },
+  {
+    "id" : "eHDSIBodySite",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIBodySite",
+    "version" : "0.1.0",
+    "name" : "EHDSIBodySite",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.65"]
+  },
+  {
+    "id" : "eHDSIBodySiteLaterality",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIBodySiteLaterality",
+    "version" : "0.1.0",
+    "name" : "EHDSIBodySiteLaterality",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.68"]
+  },
+  {
+    "id" : "eHDSIBodyStructureLocation",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIBodyStructureLocation",
+    "version" : "0.1.0",
+    "name" : "EHDSIBodyStructureLocation",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.80"]
+  },
+  {
+    "id" : "eHDSICertainty",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSICertainty",
+    "version" : "0.1.0",
+    "name" : "EHDSICertainty",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.64"]
+  },
+  {
+    "id" : "eHDSICodeProb",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSICodeProb",
+    "version" : "0.1.0",
+    "name" : "EHDSICodeProb",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.23"]
+  },
+  {
+    "id" : "eHDSICountry",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSICountry",
+    "version" : "0.1.0",
+    "name" : "EHDSICountry",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.4"]
+  },
+  {
+    "id" : "eHDSICriticality",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSICriticality",
+    "version" : "0.1.0",
+    "name" : "EHDSICriticality",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.57"]
+  },
+  {
+    "id" : "eHDSICurrentPregnancyStatus",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSICurrentPregnancyStatus",
+    "version" : "0.1.0",
+    "name" : "EHDSICurrentPregnancyStatus",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.60"]
+  },
+  {
+    "id" : "eHDSIDisplayLabel",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIDisplayLabel",
+    "version" : "0.1.0",
+    "name" : "EHDSIDisplayLabel",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.46"]
+  },
+  {
+    "id" : "eHDSIDocumentCode",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIDocumentCode",
+    "version" : "0.1.0",
+    "name" : "EHDSIDocumentCode",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.32"]
+  },
+  {
+    "id" : "eHDSIDoseForm",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIDoseForm",
+    "version" : "0.1.0",
+    "name" : "EHDSIDoseForm",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.2"]
+  },
+  {
+    "id" : "eHDSIExceptionalValue",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIExceptionalValue",
+    "version" : "0.1.0",
+    "name" : "EHDSIExceptionalValue",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.81"]
+  },
+  {
+    "id" : "eHDSIHealthcareProfessionalRole",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIHealthcareProfessionalRole",
+    "version" : "0.1.0",
+    "name" : "EHDSIHealthcareProfessionalRole",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.1"]
+  },
+  {
+    "id" : "eHDSILabCode",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSILabCode",
+    "version" : "0.1.0",
+    "name" : "EHDSILabCode",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.70"]
+  },
+  {
+    "id" : "eHDSILabSpecimenType",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSILabSpecimenType",
+    "version" : "0.1.0",
+    "name" : "EHDSILabSpecimenType",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.67"]
+  },
+  {
+    "id" : "eHDSILabStudyType",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSILabStudyType",
+    "version" : "0.1.0",
+    "name" : "EHDSILabStudyType",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.66"]
+  },
+  {
+    "id" : "eHDSILabTechnique",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSILabTechnique",
+    "version" : "0.1.0",
+    "name" : "EHDSILabTechnique",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.79"]
+  },
+  {
+    "id" : "eHDSILaboratoryReportType",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSILaboratoryReportTypes",
+    "version" : "0.1.0",
+    "name" : "EHDSILaboratoryReportType",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.52"]
+  },
+  {
+    "id" : "eHDSILanguage",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSILanguage",
+    "version" : "0.1.0",
+    "name" : "EHDSILanguage",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.6"]
+  },
+  {
+    "id" : "eHDSIMedicalDevice",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIMedicalDevice",
+    "version" : "0.1.0",
+    "name" : "EHDSIMedicalDevice",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.8"]
+  },
+  {
+    "id" : "eHDSIMedicalImagesType",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIMedicalImagesType",
+    "version" : "0.1.0",
+    "name" : "EHDSIMedicalImagesType",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.55"]
+  },
+  {
+    "id" : "eHDSIMedicalImagingReportType",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIMedicalImagingReportType",
+    "version" : "0.1.0",
+    "name" : "EHDSIMedicalImagingReportType",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.54"]
+  },
+  {
+    "id" : "eHDSIMicroorganism",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIMicroorganism",
+    "version" : "0.1.0",
+    "name" : "EHDSIMicroorganism",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.78"]
+  },
+  {
+    "id" : "eHDSIMorphologicAbnormality",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIMorphologicAbnormality",
+    "version" : "0.1.0",
+    "name" : "EHDSIMorphologicAbnormality",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.69"]
+  },
+  {
+    "id" : "eHDSIObservationCategory",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIObservationCategory",
+    "version" : "0.1.0",
+    "name" : "EHDSIObservationCategory",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.71"]
+  },
+  {
+    "id" : "eHDSIObservationInterpretation",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIObservationInterpretation",
+    "version" : "0.1.0",
+    "name" : "EHDSIObservationInterpretation",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.73"]
+  },
+  {
+    "id" : "eHDSIOutcomeOfPregnancy",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIOutcomeOfPregnancy",
+    "version" : "0.1.0",
+    "name" : "EHDSIOutcomeOfPregnancy",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.62"]
+  },
+  {
+    "id" : "eHDSIPackage",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIPackage",
+    "version" : "0.1.0",
+    "name" : "EHDSIPackage",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.3"]
+  },
+  {
+    "id" : "eHDSIPerformerFunction",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIPerformerFunction",
+    "version" : "0.1.0",
+    "name" : "EHDSIPerformerFunction",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.76"]
+  },
+  {
+    "id" : "eHDSIPersonalRelationship",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIPersonalRelationship",
+    "version" : "0.1.0",
+    "name" : "EHDSIPersonalRelationship",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.38"]
+  },
+  {
+    "id" : "eHDSIPregnancyInformation",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIPregnancyInformation",
+    "version" : "0.1.0",
+    "name" : "EHDSIPregnancyInformation",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.9"]
+  },
+  {
+    "id" : "eHDSIPresenceAbsence",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIPresenceAbsence",
+    "version" : "0.1.0",
+    "name" : "EHDSIPresenceAbsence",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.77"]
+  },
+  {
+    "id" : "eHDSIProcedure",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIProcedure",
+    "version" : "0.1.0",
+    "name" : "EHDSIProcedure",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.10"]
+  },
+  {
+    "id" : "eHDSIQuantityUnit",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIQuantityUnit",
+    "version" : "0.1.0",
+    "name" : "EHDSIQuantityUnit",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.56"]
+  },
+  {
+    "id" : "eHDSIRareDisease",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIRareDisease",
+    "version" : "0.1.0",
+    "name" : "EHDSIRareDisease",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.63"]
+  },
+  {
+    "id" : "eHDSIReactionAllergy",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIReactionAllergy",
+    "version" : "0.1.0",
+    "name" : "EHDSIReactionAllergy",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.11"]
+  },
+  {
+    "id" : "eHDSIReferenceRangeAppliesTo",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIReferenceRangeAppliesTo",
+    "version" : "0.1.0",
+    "name" : "EHDSIReferenceRangeAppliesTo",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.75"]
+  },
+  {
+    "id" : "eHDSIReferenceRangeMeaning",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIReferenceRangeMeaning",
+    "version" : "0.1.0",
+    "name" : "EHDSIReferenceRangeMeaning",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.74"]
+  },
+  {
+    "id" : "eHDSIResolutionOutcome",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIResolutionOutcome",
+    "version" : "0.1.0",
+    "name" : "EHDSIResolutionOutcome",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.30"]
+  },
+  {
+    "id" : "eHDSIRoleClass",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIRoleClass",
+    "version" : "0.1.0",
+    "name" : "EHDSIRoleClass",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.39"]
+  },
+  {
+    "id" : "eHDSIRouteofAdministration",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIRouteofAdministration",
+    "version" : "0.1.0",
+    "name" : "EHDSIRouteofAdministration",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.12"]
+  },
+  {
+    "id" : "eHDSISection",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSISection",
+    "version" : "0.1.0",
+    "name" : "EHDSISection",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.26"]
+  },
+  {
+    "id" : "eHDSISeverity",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSISeverity",
+    "version" : "0.1.0",
+    "name" : "EHDSISeverity",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.13"]
+  },
+  {
+    "id" : "eHDSISocialHistory",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSISocialHistory",
+    "version" : "0.1.0",
+    "name" : "EHDSISocialHistory",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.14"]
+  },
+  {
+    "id" : "eHDSIStatusCode",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIStatusCode",
+    "version" : "0.1.0",
+    "name" : "EHDSIStatusCode",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.15"]
+  },
+  {
+    "id" : "eHDSISubstance",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSISubstance",
+    "version" : "0.1.0",
+    "name" : "EHDSISubstance",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.61"]
+  },
+  {
+    "id" : "eHDSISubstitutionCode",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSISubstitutionCode",
+    "version" : "0.1.0",
+    "name" : "EHDSISubstitutionCode",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.7"]
+  },
+  {
+    "id" : "eHDSITelecomAddress",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSITelecomAddress",
+    "version" : "0.1.0",
+    "name" : "EHDSITelecomAddress",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.40"]
+  },
+  {
+    "id" : "eHDSITimingEvent",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSITimingEvent",
+    "version" : "0.1.0",
+    "name" : "EHDSITimingEvent",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.41"]
+  },
+  {
+    "id" : "eHDSIUnit",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIUnit",
+    "version" : "0.1.0",
+    "name" : "EHDSIUnit",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.16"]
+  },
+  {
+    "id" : "eHDSIVaccine",
+    "type" : "ValueSet",
+    "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIVaccine",
+    "version" : "0.1.0",
+    "name" : "EHDSIVaccine",
+    "oids" : ["1.3.6.1.4.1.12559.11.10.1.3.1.42.28"]
+  }
+]

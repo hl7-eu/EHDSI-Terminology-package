@@ -1,0 +1,2297 @@
+{
+  "date" : "Mon, 23 Dec, 2024 17:31:07 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "/fsh-generated/resources/ImplementationGuide-hl7.eu.terminology.ehdsi.json",
+      "size" : 19181,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 165,
+          "length" : 12
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 165,
+          "length" : 5
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 166,
+          "length" : 227
+        },
+        {
+          "activity" : "validate",
+          "start" : 222,
+          "length" : 600
+        },
+        {
+          "activity" : "generate1",
+          "start" : 223,
+          "length" : 206
+        },
+        {
+          "activity" : "generate2",
+          "start" : 274,
+          "length" : 304
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 10916,
+          "length" : 6
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 10933,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/CodeSystem-edqm-all.json",
+      "size" : 1250479,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 153
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 163,
+          "length" : 1
+        },
+        {
+          "activity" : "loadInfo",
+          "start" : 163,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 163,
+          "length" : 441
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 165,
+          "length" : 64
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 166,
+          "length" : 539
+        },
+        {
+          "activity" : "validate",
+          "start" : 166,
+          "length" : 2350
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 223,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 223,
+          "length" : 14
+        },
+        {
+          "activity" : "generate1",
+          "start" : 223,
+          "length" : 3560
+        },
+        {
+          "activity" : "generate2",
+          "start" : 274,
+          "length" : 3533
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 10916,
+          "length" : 81
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 10933,
+          "length" : 22
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSIActiveIngredient.json",
+      "size" : 686029,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 40
+        },
+        {
+          "activity" : "load",
+          "start" : 163,
+          "length" : 109
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 165,
+          "length" : 24
+        },
+        {
+          "activity" : "validate",
+          "start" : 169,
+          "length" : 701
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 223,
+          "length" : 3
+        },
+        {
+          "activity" : "generate1",
+          "start" : 227,
+          "length" : 1014
+        },
+        {
+          "activity" : "generate2",
+          "start" : 278,
+          "length" : 216816
+        },
+        {
+          "activity" : "makeDependencies",
+          "start" : 10903,
+          "length" : 1
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 10916,
+          "length" : 29
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 10933,
+          "length" : 4
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSIAdverseEventType.json",
+      "size" : 849,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 164,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 169,
+          "length" : 255
+        },
+        {
+          "activity" : "generate1",
+          "start" : 228,
+          "length" : 13
+        },
+        {
+          "activity" : "generate2",
+          "start" : 495,
+          "length" : 338
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 10916,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSIAllergenNoDrug.json",
+      "size" : 27740,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 3
+        },
+        {
+          "activity" : "load",
+          "start" : 164,
+          "length" : 11
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 165,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 170,
+          "length" : 2700
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 223,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 228,
+          "length" : 49
+        },
+        {
+          "activity" : "generate2",
+          "start" : 495,
+          "length" : 1330
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSIAllergyCertainty.json",
+      "size" : 958,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 164,
+          "length" : 3
+        },
+        {
+          "activity" : "validate",
+          "start" : 172,
+          "length" : 8
+        },
+        {
+          "activity" : "generate1",
+          "start" : 228,
+          "length" : 11
+        },
+        {
+          "activity" : "generate2",
+          "start" : 496,
+          "length" : 76
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSIAllergyStatus.json",
+      "size" : 915,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 1
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 163,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 164,
+          "length" : 3
+        },
+        {
+          "activity" : "validate",
+          "start" : 172,
+          "length" : 4
+        },
+        {
+          "activity" : "generate1",
+          "start" : 228,
+          "length" : 13
+        },
+        {
+          "activity" : "generate2",
+          "start" : 496,
+          "length" : 71
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSIAnimalSpecies.json",
+      "size" : 1290,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 164,
+          "length" : 3
+        },
+        {
+          "activity" : "validate",
+          "start" : 172,
+          "length" : 279
+        },
+        {
+          "activity" : "generate1",
+          "start" : 228,
+          "length" : 14
+        },
+        {
+          "activity" : "generate2",
+          "start" : 496,
+          "length" : 333
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 10916,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSIBloodGroup.json",
+      "size" : 1876,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 1
+        },
+        {
+          "activity" : "loadDepInfo",
+          "start" : 163,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 164,
+          "length" : 3
+        },
+        {
+          "activity" : "validate",
+          "start" : 173,
+          "length" : 322
+        },
+        {
+          "activity" : "validate",
+          "start" : 222,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 228,
+          "length" : 15
+        },
+        {
+          "activity" : "generate2",
+          "start" : 497,
+          "length" : 325
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSIBloodPressure.json",
+      "size" : 937,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 164,
+          "length" : 3
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 165,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 173,
+          "length" : 233
+        },
+        {
+          "activity" : "generate1",
+          "start" : 228,
+          "length" : 15
+        },
+        {
+          "activity" : "generate2",
+          "start" : 497,
+          "length" : 252
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSIBodySite.json",
+      "size" : 315539,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 12
+        },
+        {
+          "activity" : "load",
+          "start" : 164,
+          "length" : 49
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 165,
+          "length" : 9
+        },
+        {
+          "activity" : "validate",
+          "start" : 173,
+          "length" : 48
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 223,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 228,
+          "length" : 509
+        },
+        {
+          "activity" : "generate2",
+          "start" : 497,
+          "length" : 35178
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 10916,
+          "length" : 13
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 10933,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSIBodySiteLaterality.json",
+      "size" : 980,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 164,
+          "length" : 5
+        },
+        {
+          "activity" : "validate",
+          "start" : 173,
+          "length" : 220
+        },
+        {
+          "activity" : "generate1",
+          "start" : 229,
+          "length" : 11
+        },
+        {
+          "activity" : "generate2",
+          "start" : 532,
+          "length" : 309
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSIBodyStructureLocation.json",
+      "size" : 2208,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 164,
+          "length" : 4
+        },
+        {
+          "activity" : "validate",
+          "start" : 173,
+          "length" : 285
+        },
+        {
+          "activity" : "generate1",
+          "start" : 229,
+          "length" : 11
+        },
+        {
+          "activity" : "generate2",
+          "start" : 533,
+          "length" : 335
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSICertainty.json",
+      "size" : 1114,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 164,
+          "length" : 3
+        },
+        {
+          "activity" : "validate",
+          "start" : 174,
+          "length" : 5
+        },
+        {
+          "activity" : "generate1",
+          "start" : 229,
+          "length" : 10
+        },
+        {
+          "activity" : "generate2",
+          "start" : 533,
+          "length" : 59
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSICodeProb.json",
+      "size" : 1431,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 164,
+          "length" : 4
+        },
+        {
+          "activity" : "validate",
+          "start" : 174,
+          "length" : 284
+        },
+        {
+          "activity" : "generate1",
+          "start" : 229,
+          "length" : 11
+        },
+        {
+          "activity" : "generate2",
+          "start" : 533,
+          "length" : 514
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 10916,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSICountry.json",
+      "size" : 22655,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 3
+        },
+        {
+          "activity" : "load",
+          "start" : 164,
+          "length" : 7
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 165,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 174,
+          "length" : 151
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 223,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 229,
+          "length" : 37
+        },
+        {
+          "activity" : "generate2",
+          "start" : 534,
+          "length" : 1065
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 10916,
+          "length" : 1
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 10933,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSICriticality.json",
+      "size" : 955,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 164,
+          "length" : 4
+        },
+        {
+          "activity" : "validate",
+          "start" : 174,
+          "length" : 8
+        },
+        {
+          "activity" : "generate1",
+          "start" : 229,
+          "length" : 10
+        },
+        {
+          "activity" : "generate2",
+          "start" : 535,
+          "length" : 43
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSICurrentPregnancyStatus.json",
+      "size" : 1129,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 164,
+          "length" : 3
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 166,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 174,
+          "length" : 253
+        },
+        {
+          "activity" : "generate1",
+          "start" : 229,
+          "length" : 10
+        },
+        {
+          "activity" : "generate2",
+          "start" : 535,
+          "length" : 321
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSIDisplayLabel.json",
+      "size" : 17469,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 164,
+          "length" : 5
+        },
+        {
+          "activity" : "validate",
+          "start" : 174,
+          "length" : 144
+        },
+        {
+          "activity" : "generate1",
+          "start" : 229,
+          "length" : 32
+        },
+        {
+          "activity" : "generate2",
+          "start" : 535,
+          "length" : 1025
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 10916,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSIDocumentCode.json",
+      "size" : 1281,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 164,
+          "length" : 3
+        },
+        {
+          "activity" : "validate",
+          "start" : 175,
+          "length" : 226
+        },
+        {
+          "activity" : "generate1",
+          "start" : 229,
+          "length" : 12
+        },
+        {
+          "activity" : "generate2",
+          "start" : 536,
+          "length" : 256
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSIDoseForm.json",
+      "size" : 71180,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 3
+        },
+        {
+          "activity" : "load",
+          "start" : 164,
+          "length" : 13
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 165,
+          "length" : 3
+        },
+        {
+          "activity" : "validate",
+          "start" : 175,
+          "length" : 8169
+        },
+        {
+          "activity" : "generate1",
+          "start" : 229,
+          "length" : 115
+        },
+        {
+          "activity" : "generate2",
+          "start" : 536,
+          "length" : 5152
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 10916,
+          "length" : 4
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSIExceptionalValue.json",
+      "size" : 913,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 164,
+          "length" : 3
+        },
+        {
+          "activity" : "validate",
+          "start" : 183,
+          "length" : 7
+        },
+        {
+          "activity" : "generate1",
+          "start" : 229,
+          "length" : 10
+        },
+        {
+          "activity" : "generate2",
+          "start" : 542,
+          "length" : 44
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSIHealthcareProfessionalRole.json",
+      "size" : 4951,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 164,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 183,
+          "length" : 702
+        },
+        {
+          "activity" : "generate1",
+          "start" : 229,
+          "length" : 17
+        },
+        {
+          "activity" : "generate2",
+          "start" : 542,
+          "length" : 758
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSILabCode.json",
+      "size" : 8125748,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 266
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 163,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 164,
+          "length" : 668
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 165,
+          "length" : 123
+        },
+        {
+          "activity" : "validate",
+          "start" : 184,
+          "length" : 1180
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 223,
+          "length" : 35
+        },
+        {
+          "activity" : "generate1",
+          "start" : 229,
+          "length" : 13988
+        },
+        {
+          "activity" : "generate2",
+          "start" : 542,
+          "length" : 10161334
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 10916,
+          "length" : 310
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 10933,
+          "length" : 21
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSILabSpecimenType.json",
+      "size" : 15141,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 164,
+          "length" : 4
+        },
+        {
+          "activity" : "validate",
+          "start" : 185,
+          "length" : 2182
+        },
+        {
+          "activity" : "generate1",
+          "start" : 243,
+          "length" : 36
+        },
+        {
+          "activity" : "generate2",
+          "start" : 10704,
+          "length" : 813
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 10917,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSILabStudyType.json",
+      "size" : 1901,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 164,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 187,
+          "length" : 273
+        },
+        {
+          "activity" : "generate1",
+          "start" : 243,
+          "length" : 10
+        },
+        {
+          "activity" : "generate2",
+          "start" : 10704,
+          "length" : 925
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSILabTechnique.json",
+      "size" : 719,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 164,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 187,
+          "length" : 111
+        },
+        {
+          "activity" : "generate1",
+          "start" : 243,
+          "length" : 10
+        },
+        {
+          "activity" : "generate2",
+          "start" : 10705,
+          "length" : 300
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSILaboratoryReportType.json",
+      "size" : 684,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 164,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 187,
+          "length" : 105
+        },
+        {
+          "activity" : "generate1",
+          "start" : 243,
+          "length" : 11
+        },
+        {
+          "activity" : "generate2",
+          "start" : 10706,
+          "length" : 905
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSILanguage.json",
+      "size" : 38772,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 3
+        },
+        {
+          "activity" : "load",
+          "start" : 164,
+          "length" : 6
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 165,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 188,
+          "length" : 4444
+        },
+        {
+          "activity" : "generate1",
+          "start" : 243,
+          "length" : 73
+        },
+        {
+          "activity" : "generate2",
+          "start" : 10707,
+          "length" : 1399
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 10917,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSIMedicalDevice.json",
+      "size" : 145498,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 6
+        },
+        {
+          "activity" : "load",
+          "start" : 164,
+          "length" : 76
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 165,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 192,
+          "length" : 2211
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 223,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 243,
+          "length" : 242
+        },
+        {
+          "activity" : "generate2",
+          "start" : 10708,
+          "length" : 2640
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 10917,
+          "length" : 9
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSIMedicalImagesType.json",
+      "size" : 626,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 164,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 194,
+          "length" : 107
+        },
+        {
+          "activity" : "generate1",
+          "start" : 243,
+          "length" : 8
+        },
+        {
+          "activity" : "generate2",
+          "start" : 10711,
+          "length" : 1286
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSIMedicalImagingReportType.json",
+      "size" : 656,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 164,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 194,
+          "length" : 106
+        },
+        {
+          "activity" : "generate1",
+          "start" : 243,
+          "length" : 7
+        },
+        {
+          "activity" : "generate2",
+          "start" : 10712,
+          "length" : 920
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSIMicroorganism.json",
+      "size" : 184771,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 7
+        },
+        {
+          "activity" : "load",
+          "start" : 164,
+          "length" : 13
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 165,
+          "length" : 3
+        },
+        {
+          "activity" : "validate",
+          "start" : 194,
+          "length" : 30
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 223,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 243,
+          "length" : 293
+        },
+        {
+          "activity" : "generate2",
+          "start" : 10713,
+          "length" : 41502
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 10917,
+          "length" : 10
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 10933,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSIMorphologicAbnormality.json",
+      "size" : 78789,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 5
+        },
+        {
+          "activity" : "load",
+          "start" : 164,
+          "length" : 6
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 165,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 194,
+          "length" : 12776
+        },
+        {
+          "activity" : "generate1",
+          "start" : 244,
+          "length" : 141
+        },
+        {
+          "activity" : "generate2",
+          "start" : 10754,
+          "length" : 3298
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 10917,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSIObservationCategory.json",
+      "size" : 761,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 164,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 207,
+          "length" : 8
+        },
+        {
+          "activity" : "generate1",
+          "start" : 244,
+          "length" : 8
+        },
+        {
+          "activity" : "generate2",
+          "start" : 10758,
+          "length" : 28
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSIObservationInterpretation.json",
+      "size" : 4240,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 164,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 207,
+          "length" : 16
+        },
+        {
+          "activity" : "generate1",
+          "start" : 244,
+          "length" : 13
+        },
+        {
+          "activity" : "generate2",
+          "start" : 10758,
+          "length" : 164
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 10917,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSIOutcomeOfPregnancy.json",
+      "size" : 1404,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 164,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 207,
+          "length" : 344
+        },
+        {
+          "activity" : "generate1",
+          "start" : 244,
+          "length" : 8
+        },
+        {
+          "activity" : "generate2",
+          "start" : 10758,
+          "length" : 360
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSIPackage.json",
+      "size" : 8116,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 164,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 208,
+          "length" : 1312
+        },
+        {
+          "activity" : "generate1",
+          "start" : 244,
+          "length" : 19
+        },
+        {
+          "activity" : "generate2",
+          "start" : 10758,
+          "length" : 817
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSIPerformerFunction.json",
+      "size" : 1900,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 164,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 209,
+          "length" : 10
+        },
+        {
+          "activity" : "generate1",
+          "start" : 244,
+          "length" : 9
+        },
+        {
+          "activity" : "generate2",
+          "start" : 10759,
+          "length" : 51
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSIPersonalRelationship.json",
+      "size" : 5626,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 164,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 209,
+          "length" : 31
+        },
+        {
+          "activity" : "generate1",
+          "start" : 244,
+          "length" : 14
+        },
+        {
+          "activity" : "generate2",
+          "start" : 10759,
+          "length" : 152
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSIPregnancyInformation.json",
+      "size" : 987,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 164,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 209,
+          "length" : 422
+        },
+        {
+          "activity" : "generate1",
+          "start" : 244,
+          "length" : 11
+        },
+        {
+          "activity" : "generate2",
+          "start" : 10759,
+          "length" : 938
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSIPresenceAbsence.json",
+      "size" : 4254,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 2
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 163,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 164,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 209,
+          "length" : 939
+        },
+        {
+          "activity" : "generate1",
+          "start" : 244,
+          "length" : 15
+        },
+        {
+          "activity" : "generate2",
+          "start" : 10760,
+          "length" : 392
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSIProcedure.json",
+      "size" : 120837,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 5
+        },
+        {
+          "activity" : "load",
+          "start" : 164,
+          "length" : 8
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 165,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 210,
+          "length" : 19
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 223,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 244,
+          "length" : 192
+        },
+        {
+          "activity" : "generate2",
+          "start" : 10761,
+          "length" : 54145
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 10910,
+          "length" : 1
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 10917,
+          "length" : 5
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 10933,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSIQuantityUnit.json",
+      "size" : 5219,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 165,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 210,
+          "length" : 915
+        },
+        {
+          "activity" : "generate1",
+          "start" : 244,
+          "length" : 13
+        },
+        {
+          "activity" : "generate2",
+          "start" : 10815,
+          "length" : 718
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSIRareDisease.json",
+      "size" : 867164,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 30
+        },
+        {
+          "activity" : "load",
+          "start" : 165,
+          "length" : 56
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 165,
+          "length" : 15
+        },
+        {
+          "activity" : "validate",
+          "start" : 211,
+          "length" : 167
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 223,
+          "length" : 5
+        },
+        {
+          "activity" : "generate1",
+          "start" : 244,
+          "length" : 1362
+        },
+        {
+          "activity" : "generate2",
+          "start" : 10815,
+          "length" : 8990
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 10917,
+          "length" : 42
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 10933,
+          "length" : 3
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSIReactionAllergy.json",
+      "size" : 6859,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 165,
+          "length" : 3
+        },
+        {
+          "activity" : "validate",
+          "start" : 211,
+          "length" : 1528
+        },
+        {
+          "activity" : "generate1",
+          "start" : 245,
+          "length" : 17
+        },
+        {
+          "activity" : "generate2",
+          "start" : 10824,
+          "length" : 502
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 10917,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSIReferenceRangeAppliesTo.json",
+      "size" : 1017,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 165,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 213,
+          "length" : 6
+        },
+        {
+          "activity" : "generate1",
+          "start" : 245,
+          "length" : 8
+        },
+        {
+          "activity" : "generate2",
+          "start" : 10825,
+          "length" : 24
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSIReferenceRangeMeaning.json",
+      "size" : 1772,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 165,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 213,
+          "length" : 4
+        },
+        {
+          "activity" : "generate1",
+          "start" : 245,
+          "length" : 9
+        },
+        {
+          "activity" : "generate2",
+          "start" : 10825,
+          "length" : 43
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 10912,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSIResolutionOutcome.json",
+      "size" : 1410,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 165,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 213,
+          "length" : 369
+        },
+        {
+          "activity" : "generate1",
+          "start" : 245,
+          "length" : 9
+        },
+        {
+          "activity" : "generate2",
+          "start" : 10825,
+          "length" : 499
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSIRoleClass.json",
+      "size" : 837,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 165,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 213,
+          "length" : 14
+        },
+        {
+          "activity" : "generate1",
+          "start" : 245,
+          "length" : 9
+        },
+        {
+          "activity" : "generate2",
+          "start" : 10825,
+          "length" : 26
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSIRouteofAdministration.json",
+      "size" : 8773,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 165,
+          "length" : 2
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 165,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 213,
+          "length" : 1629
+        },
+        {
+          "activity" : "generate1",
+          "start" : 245,
+          "length" : 18
+        },
+        {
+          "activity" : "generate2",
+          "start" : 10825,
+          "length" : 759
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSISection.json",
+      "size" : 2568,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 165,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 215,
+          "length" : 389
+        },
+        {
+          "activity" : "generate1",
+          "start" : 245,
+          "length" : 11
+        },
+        {
+          "activity" : "generate2",
+          "start" : 10826,
+          "length" : 942
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 10917,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSISeverity.json",
+      "size" : 1216,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 165,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 215,
+          "length" : 335
+        },
+        {
+          "activity" : "generate1",
+          "start" : 245,
+          "length" : 10
+        },
+        {
+          "activity" : "generate2",
+          "start" : 10827,
+          "length" : 377
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSISocialHistory.json",
+      "size" : 1459,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 1
+        },
+        {
+          "activity" : "scan",
+          "start" : 163,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 165,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 216,
+          "length" : 380
+        },
+        {
+          "activity" : "generate1",
+          "start" : 245,
+          "length" : 11
+        },
+        {
+          "activity" : "generate2",
+          "start" : 10828,
+          "length" : 361
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSIStatusCode.json",
+      "size" : 1350,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 165,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 216,
+          "length" : 342
+        },
+        {
+          "activity" : "generate1",
+          "start" : 245,
+          "length" : 11
+        },
+        {
+          "activity" : "generate2",
+          "start" : 10828,
+          "length" : 352
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSISubstance.json",
+      "size" : 7040084,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 161,
+          "length" : 328
+        },
+        {
+          "activity" : "load",
+          "start" : 165,
+          "length" : 539
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 165,
+          "length" : 126
+        },
+        {
+          "activity" : "validate",
+          "start" : 216,
+          "length" : 1278
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 223,
+          "length" : 25
+        },
+        {
+          "activity" : "generate1",
+          "start" : 245,
+          "length" : 10706
+        },
+        {
+          "activity" : "generate2",
+          "start" : 10828,
+          "length" : 67049
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 10917,
+          "length" : 324
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 10933,
+          "length" : 22
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSISubstitutionCode.json",
+      "size" : 817,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 162,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 165,
+          "length" : 3
+        },
+        {
+          "activity" : "validate",
+          "start" : 218,
+          "length" : 5
+        },
+        {
+          "activity" : "generate1",
+          "start" : 256,
+          "length" : 12
+        },
+        {
+          "activity" : "generate2",
+          "start" : 10895,
+          "length" : 31
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 10933,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSITelecomAddress.json",
+      "size" : 1744,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 162,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 165,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 218,
+          "length" : 3
+        },
+        {
+          "activity" : "generate1",
+          "start" : 256,
+          "length" : 11
+        },
+        {
+          "activity" : "generate2",
+          "start" : 10895,
+          "length" : 37
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSITimingEvent.json",
+      "size" : 3394,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 162,
+          "length" : 2
+        },
+        {
+          "activity" : "load",
+          "start" : 165,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 218,
+          "length" : 139
+        },
+        {
+          "activity" : "generate1",
+          "start" : 256,
+          "length" : 13
+        },
+        {
+          "activity" : "generate2",
+          "start" : 10895,
+          "length" : 921
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSIUnit.json",
+      "size" : 93743,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 162,
+          "length" : 5
+        },
+        {
+          "activity" : "load",
+          "start" : 165,
+          "length" : 7
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 166,
+          "length" : 2
+        },
+        {
+          "activity" : "validate",
+          "start" : 218,
+          "length" : 158
+        },
+        {
+          "activity" : "generate1",
+          "start" : 256,
+          "length" : 141
+        },
+        {
+          "activity" : "generate2",
+          "start" : 10896,
+          "length" : 1883
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 10917,
+          "length" : 4
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-eHDSIVaccine.json",
+      "size" : 29740,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 162,
+          "length" : 2
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 163,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 165,
+          "length" : 4
+        },
+        {
+          "activity" : "validate",
+          "start" : 218,
+          "length" : 4439
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 223,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 256,
+          "length" : 61
+        },
+        {
+          "activity" : "generate2",
+          "start" : 10898,
+          "length" : 3027
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 10917,
+          "length" : 1
+        }
+      ]
+    }
+  ]
+}
