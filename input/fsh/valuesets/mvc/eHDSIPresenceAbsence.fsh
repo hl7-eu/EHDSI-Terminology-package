@@ -27,7 +27,7 @@ Description: "The Value Set is used to describe presence and absence findings (q
 * http://snomed.info/sct#373066001 "Yes"
 * http://snomed.info/sct#264887000 "Not isolated"
 * http://snomed.info/sct#264868006 "No growth"
-* http://snomed.info/sct#260413007 "nan"
+* http://snomed.info/sct#260413007 "None"
 * http://snomed.info/sct#260408008 "Weakly positive"
 * http://snomed.info/sct#260405006 "Trace"
 * http://snomed.info/sct#260389003 "No reaction"
