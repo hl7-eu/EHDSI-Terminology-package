@@ -1,0 +1,10 @@
+ValueSet: eHDSILaboratoryReportType
+Id: eHDSILaboratoryReportType
+Title: "eHDSI Laboratory Report Types"
+Description: "eHDSI Laboratory Report Types"
+
+* ^experimental = false
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.52"
+
+* http://loinc.org#11502-2 "Laboratory report"

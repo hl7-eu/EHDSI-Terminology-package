@@ -39,3 +39,5 @@ parameters:
     - http://hl7.org/fhir/uv/ips/ValueSet/results-coded-values-laboratory-uv-ips
     - http://www.whocc.no/atc
 
+  special-url-base:
+    - http://terminology.ehdsi.eu/ValueSet

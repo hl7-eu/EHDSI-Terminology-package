@@ -2,3 +2,6 @@
 
 # Some ValueSets are way too big and adding narrative would result in a large file, so it is suppressed
 %A resource should have narrative for robust management%
+
+# names start with eHDSI
+Constraint failed: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
