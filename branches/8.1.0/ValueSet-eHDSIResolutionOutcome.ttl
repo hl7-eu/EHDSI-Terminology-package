@@ -1,0 +1,63 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIResolutionOutcome> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "eHDSIResolutionOutcome"] ; # 
+  fhir:url [ fhir:v "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIResolutionOutcome"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.30" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "0.2.0"] ; # 
+  fhir:name [ fhir:v "eHDSIResolutionOutcome"] ; # 
+  fhir:title [ fhir:v "eHDSI Resolution Outcome"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2025-02-08T05:43:06+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 Europe"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 Europe" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://hl7europe.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "The Value Set is used to describe the clinical status of a problem outcome."] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "161901003" ] ;
+         fhir:display [ fhir:v "Chronic sick" ]
+       ] [
+         fhir:code [ fhir:v "419099009" ] ;
+         fhir:display [ fhir:v "Dead" ]
+       ] [
+         fhir:code [ fhir:v "21134002" ] ;
+         fhir:display [ fhir:v "Disability" ]
+       ] [
+         fhir:code [ fhir:v "161045001" ] ;
+         fhir:display [ fhir:v "Disability - severe" ]
+       ] [
+         fhir:code [ fhir:v "162467007" ] ;
+         fhir:display [ fhir:v "Free of symptoms" ]
+       ] [
+         fhir:code [ fhir:v "271593001" ] ;
+         fhir:display [ fhir:v "Moribund" ]
+       ] [
+         fhir:code [ fhir:v "81323004" ] ;
+         fhir:display [ fhir:v "Normal general body function" ]
+       ] [
+         fhir:code [ fhir:v "765205004" ] ;
+         fhir:display [ fhir:v "Disorder in remission" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

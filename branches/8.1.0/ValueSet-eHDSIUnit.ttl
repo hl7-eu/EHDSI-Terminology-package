@@ -1,0 +1,2706 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIUnit> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "eHDSIUnit"] ; # 
+  fhir:url [ fhir:v "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIUnit"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.16" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "0.2.0"] ; # 
+  fhir:name [ fhir:v "eHDSIUnit"] ; # 
+  fhir:title [ fhir:v "eHDSI Unit"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2025-02-08T05:43:06+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 Europe"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 Europe" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://hl7europe.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "nan"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://unitsofmeasure.org/"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "1" ] ;
+         fhir:display [ fhir:v "Unit" ]
+       ] [
+         fhir:code [ fhir:v "%" ] ;
+         fhir:display [ fhir:v "percent" ]
+       ] [
+         fhir:code [ fhir:v "%{abnormal}" ] ;
+         fhir:display [ fhir:v "percent abnormal" ]
+       ] [
+         fhir:code [ fhir:v "%{activity}" ] ;
+         fhir:display [ fhir:v "percent activity" ]
+       ] [
+         fhir:code [ fhir:v "%{aggregation}" ] ;
+         fhir:display [ fhir:v "percent aggregation" ]
+       ] [
+         fhir:code [ fhir:v "%{at_60_min}" ] ;
+         fhir:display [ fhir:v "percent at 60 minute" ]
+       ] [
+         fhir:code [ fhir:v "%{bacteria}" ] ;
+         fhir:display [ fhir:v "percent of bacteria" ]
+       ] [
+         fhir:code [ fhir:v "%{basal_activity}" ] ;
+         fhir:display [ fhir:v "percent basal activity" ]
+       ] [
+         fhir:code [ fhir:v "%{baseline}" ] ;
+         fhir:display [ fhir:v "percent of baseline" ]
+       ] [
+         fhir:code [ fhir:v "%{binding}" ] ;
+         fhir:display [ fhir:v "percent binding" ]
+       ] [
+         fhir:code [ fhir:v "%{blockade}" ] ;
+         fhir:display [ fhir:v "percent blockade" ]
+       ] [
+         fhir:code [ fhir:v "%{blocked}" ] ;
+         fhir:display [ fhir:v "percent blocked" ]
+       ] [
+         fhir:code [ fhir:v "%{bound}" ] ;
+         fhir:display [ fhir:v "percent bound" ]
+       ] [
+         fhir:code [ fhir:v "%{breakdown}" ] ;
+         fhir:display [ fhir:v "percent breakdown" ]
+       ] [
+         fhir:code [ fhir:v "%{cells}" ] ;
+         fhir:display [ fhir:v "percent of cells" ]
+       ] [
+         fhir:code [ fhir:v "%{deficient}" ] ;
+         fhir:display [ fhir:v "percent deficient" ]
+       ] [
+         fhir:code [ fhir:v "%{dose}" ] ;
+         fhir:display [ fhir:v "percent dose" ]
+       ] [
+         fhir:code [ fhir:v "%{excretion}" ] ;
+         fhir:display [ fhir:v "percent excretion" ]
+       ] [
+         fhir:code [ fhir:v "%{Hb}" ] ;
+         fhir:display [ fhir:v "percent hemoglobin" ]
+       ] [
+         fhir:code [ fhir:v "%{hemolysis}" ] ;
+         fhir:display [ fhir:v "percent hemolysis" ]
+       ] [
+         fhir:code [ fhir:v "%{index}" ] ;
+         fhir:display [ fhir:v "percent index" ]
+       ] [
+         fhir:code [ fhir:v "%{inhibition}" ] ;
+         fhir:display [ fhir:v "percent inhibition" ]
+       ] [
+         fhir:code [ fhir:v "%{loss_AChR}" ] ;
+         fhir:display [ fhir:v "percent loss of acetylcholine receptor" ]
+       ] [
+         fhir:code [ fhir:v "%{loss}" ] ;
+         fhir:display [ fhir:v "percent loss" ]
+       ] [
+         fhir:code [ fhir:v "%{lysis}" ] ;
+         fhir:display [ fhir:v "percent lysis" ]
+       ] [
+         fhir:code [ fhir:v "%{normal}" ] ;
+         fhir:display [ fhir:v "percent normal" ]
+       ] [
+         fhir:code [ fhir:v "%{penetration}" ] ;
+         fhir:display [ fhir:v "percent penetration" ]
+       ] [
+         fhir:code [ fhir:v "%{pooled_plasma}" ] ;
+         fhir:display [ fhir:v "percent normal pooled plasma" ]
+       ] [
+         fhir:code [ fhir:v "%{positive}" ] ;
+         fhir:display [ fhir:v "percent positive" ]
+       ] [
+         fhir:code [ fhir:v "%{RBCs}" ] ;
+         fhir:display [ fhir:v "percent of red blood cells" ]
+       ] [
+         fhir:code [ fhir:v "%{reactive}" ] ;
+         fhir:display [ fhir:v "percent reactive" ]
+       ] [
+         fhir:code [ fhir:v "%{recovery}" ] ;
+         fhir:display [ fhir:v "percent recovery" ]
+       ] [
+         fhir:code [ fhir:v "%{reference}" ] ;
+         fhir:display [ fhir:v "percent reference" ]
+       ] [
+         fhir:code [ fhir:v "%{relative}" ] ;
+         fhir:display [ fhir:v "relative percent" ]
+       ] [
+         fhir:code [ fhir:v "%{residual}" ] ;
+         fhir:display [ fhir:v "percent residual" ]
+       ] [
+         fhir:code [ fhir:v "%{response}" ] ;
+         fhir:display [ fhir:v "percent response" ]
+       ] [
+         fhir:code [ fhir:v "%{saturation}" ] ;
+         fhir:display [ fhir:v "percent saturation" ]
+       ] [
+         fhir:code [ fhir:v "%{total}" ] ;
+         fhir:display [ fhir:v "percent total" ]
+       ] [
+         fhir:code [ fhir:v "%{uptake}" ] ;
+         fhir:display [ fhir:v "percent uptake" ]
+       ] [
+         fhir:code [ fhir:v "%{viable}" ] ;
+         fhir:display [ fhir:v "percent viable" ]
+       ] [
+         fhir:code [ fhir:v "%{vol}" ] ;
+         fhir:display [ fhir:v "percent by volume" ]
+       ] [
+         fhir:code [ fhir:v "%{WBCs}" ] ;
+         fhir:display [ fhir:v "percent of white blood cells" ]
+       ] [
+         fhir:code [ fhir:v "/(12.h)" ] ;
+         fhir:display [ fhir:v "per twelve hour" ]
+       ] [
+         fhir:code [ fhir:v "/[arb'U]" ] ;
+         fhir:display [ fhir:v "per arbitrary unit" ]
+       ] [
+         fhir:code [ fhir:v "/[HPF]" ] ;
+         fhir:display [ fhir:v "per high power field" ]
+       ] [
+         fhir:code [ fhir:v "/[IU]" ] ;
+         fhir:display [ fhir:v "per international unit" ]
+       ] [
+         fhir:code [ fhir:v "/[LPF]" ] ;
+         fhir:display [ fhir:v "per low power field" ]
+       ] [
+         fhir:code [ fhir:v "/{entity}" ] ;
+         fhir:display [ fhir:v "per entity" ]
+       ] [
+         fhir:code [ fhir:v "/{OIF}" ] ;
+         fhir:display [ fhir:v "per oil immersion field" ]
+       ] [
+         fhir:code [ fhir:v "/10*10" ] ;
+         fhir:display [ fhir:v "per 10 billion" ]
+       ] [
+         fhir:code [ fhir:v "/10*12" ] ;
+         fhir:display [ fhir:v "per trillion" ]
+       ] [
+         fhir:code [ fhir:v "/10*12{RBCs}" ] ;
+         fhir:display [ fhir:v "per trillion red blood cells" ]
+       ] [
+         fhir:code [ fhir:v "/10*3" ] ;
+         fhir:display [ fhir:v "per thousand" ]
+       ] [
+         fhir:code [ fhir:v "/10*3{RBCs}" ] ;
+         fhir:display [ fhir:v "per thousand red blood cells" ]
+       ] [
+         fhir:code [ fhir:v "/10*4{RBCs}" ] ;
+         fhir:display [ fhir:v "per 10 thousand red blood cells" ]
+       ] [
+         fhir:code [ fhir:v "/10*6" ] ;
+         fhir:display [ fhir:v "per million" ]
+       ] [
+         fhir:code [ fhir:v "/10*9" ] ;
+         fhir:display [ fhir:v "per billion" ]
+       ] [
+         fhir:code [ fhir:v "/100" ] ;
+         fhir:display [ fhir:v "per 100" ]
+       ] [
+         fhir:code [ fhir:v "/100{cells}" ] ;
+         fhir:display [ fhir:v "per 100 cells" ]
+       ] [
+         fhir:code [ fhir:v "/100{neutrophils}" ] ;
+         fhir:display [ fhir:v "per 100 neutrophils" ]
+       ] [
+         fhir:code [ fhir:v "/100{spermatozoa}" ] ;
+         fhir:display [ fhir:v "per 100 spermatozoa" ]
+       ] [
+         fhir:code [ fhir:v "/100{WBCs}" ] ;
+         fhir:display [ fhir:v "per 100 white blood cells" ]
+       ] [
+         fhir:code [ fhir:v "/a" ] ;
+         fhir:display [ fhir:v "per year" ]
+       ] [
+         fhir:code [ fhir:v "/cm[H2O]" ] ;
+         fhir:display [ fhir:v "per centimeter of water" ]
+       ] [
+         fhir:code [ fhir:v "/d" ] ;
+         fhir:display [ fhir:v "per day" ]
+       ] [
+         fhir:code [ fhir:v "/dL" ] ;
+         fhir:display [ fhir:v "per deciliter" ]
+       ] [
+         fhir:code [ fhir:v "/g" ] ;
+         fhir:display [ fhir:v "per gram" ]
+       ] [
+         fhir:code [ fhir:v "/g{creat}" ] ;
+         fhir:display [ fhir:v "per gram of creatinine" ]
+       ] [
+         fhir:code [ fhir:v "/g{Hb}" ] ;
+         fhir:display [ fhir:v "per gram of hemoglobin" ]
+       ] [
+         fhir:code [ fhir:v "/g{tot_nit}" ] ;
+         fhir:display [ fhir:v "per gram of total nitrogen" ]
+       ] [
+         fhir:code [ fhir:v "/g{tot_prot}" ] ;
+         fhir:display [ fhir:v "per gram of total protein" ]
+       ] [
+         fhir:code [ fhir:v "/g{wet_tis}" ] ;
+         fhir:display [ fhir:v "per gram of wet tissue" ]
+       ] [
+         fhir:code [ fhir:v "/h" ] ;
+         fhir:display [ fhir:v "per hour" ]
+       ] [
+         fhir:code [ fhir:v "/kg" ] ;
+         fhir:display [ fhir:v "per kilogram" ]
+       ] [
+         fhir:code [ fhir:v "/kg{body_wt}" ] ;
+         fhir:display [ fhir:v "per kilogram of body weight" ]
+       ] [
+         fhir:code [ fhir:v "/L" ] ;
+         fhir:display [ fhir:v "per liter" ]
+       ] [
+         fhir:code [ fhir:v "/m2" ] ;
+         fhir:display [ fhir:v "per square meter" ]
+       ] [
+         fhir:code [ fhir:v "/m3" ] ;
+         fhir:display [ fhir:v "per cubic meter" ]
+       ] [
+         fhir:code [ fhir:v "/mg" ] ;
+         fhir:display [ fhir:v "per milligram" ]
+       ] [
+         fhir:code [ fhir:v "/min" ] ;
+         fhir:display [ fhir:v "per minute" ]
+       ] [
+         fhir:code [ fhir:v "/mL" ] ;
+         fhir:display [ fhir:v "per milliliter" ]
+       ] [
+         fhir:code [ fhir:v "/mm" ] ;
+         fhir:display [ fhir:v "per millimeter" ]
+       ] [
+         fhir:code [ fhir:v "/mmol{creat}" ] ;
+         fhir:display [ fhir:v "per millimole of creatinine" ]
+       ] [
+         fhir:code [ fhir:v "/mo" ] ;
+         fhir:display [ fhir:v "per month" ]
+       ] [
+         fhir:code [ fhir:v "/s" ] ;
+         fhir:display [ fhir:v "per second" ]
+       ] [
+         fhir:code [ fhir:v "/U" ] ;
+         fhir:display [ fhir:v "per enzyme unit" ]
+       ] [
+         fhir:code [ fhir:v "/uL" ] ;
+         fhir:display [ fhir:v "per microliter" ]
+       ] [
+         fhir:code [ fhir:v "/wk" ] ;
+         fhir:display [ fhir:v "per week" ]
+       ] [
+         fhir:code [ fhir:v "[APL'U]" ] ;
+         fhir:display [ fhir:v "IgA anticardiolipin unit**" ]
+       ] [
+         fhir:code [ fhir:v "[APL'U]/mL" ] ;
+         fhir:display [ fhir:v "IgA anticardiolipin unit per milliliter**" ]
+       ] [
+         fhir:code [ fhir:v "[arb'U]" ] ;
+         fhir:display [ fhir:v "arbitrary unit" ]
+       ] [
+         fhir:code [ fhir:v "[arb'U]/mL" ] ;
+         fhir:display [ fhir:v "arbitrary unit per milliliter" ]
+       ] [
+         fhir:code [ fhir:v "[AU]" ] ;
+         fhir:display [ fhir:v "allergy unit" ]
+       ] [
+         fhir:code [ fhir:v "[bdsk'U]" ] ;
+         fhir:display [ fhir:v "Bodansky unit" ]
+       ] [
+         fhir:code [ fhir:v "[beth'U]" ] ;
+         fhir:display [ fhir:v "Bethesda unit" ]
+       ] [
+         fhir:code [ fhir:v "[CFU]" ] ;
+         fhir:display [ fhir:v "colony forming unit" ]
+       ] [
+         fhir:code [ fhir:v "[CFU]/L" ] ;
+         fhir:display [ fhir:v "colony forming unit per liter" ]
+       ] [
+         fhir:code [ fhir:v "[CFU]/mL" ] ;
+         fhir:display [ fhir:v "colony forming unit per milliliter" ]
+       ] [
+         fhir:code [ fhir:v "[Ch]" ] ;
+         fhir:display [ fhir:v "French (catheter gauge)" ]
+       ] [
+         fhir:code [ fhir:v "[cin_i]" ] ;
+         fhir:display [ fhir:v "cubic inch (international)" ]
+       ] [
+         fhir:code [ fhir:v "[degF]" ] ;
+         fhir:display [ fhir:v "degree Fahrenheit" ]
+       ] [
+         fhir:code [ fhir:v "[diop]" ] ;
+         fhir:display [ fhir:v "diopter" ]
+       ] [
+         fhir:code [ fhir:v "[dr_av]" ] ;
+         fhir:display [ fhir:v "dram (US and British)" ]
+       ] [
+         fhir:code [ fhir:v "[drp]" ] ;
+         fhir:display [ fhir:v "drop (1/12 milliliter)" ]
+       ] [
+         fhir:code [ fhir:v "[foz_us]" ] ;
+         fhir:display [ fhir:v "fluid ounce (US)" ]
+       ] [
+         fhir:code [ fhir:v "[ft_i]" ] ;
+         fhir:display [ fhir:v "foot (international)" ]
+       ] [
+         fhir:code [ fhir:v "[ft_us]/[ft_us]" ] ;
+         fhir:display [ fhir:v "feet (US) per feet (US)" ]
+       ] [
+         fhir:code [ fhir:v "[gal_us]" ] ;
+         fhir:display [ fhir:v "gallon (US)" ]
+       ] [
+         fhir:code [ fhir:v "[GPL'U]" ] ;
+         fhir:display [ fhir:v "IgG anticardiolipin unit**" ]
+       ] [
+         fhir:code [ fhir:v "[GPL'U]/mL" ] ;
+         fhir:display [ fhir:v "IgG anticardiolipin unit per milliliter**" ]
+       ] [
+         fhir:code [ fhir:v "[HPF]" ] ;
+         fhir:display [ fhir:v "high power field" ]
+       ] [
+         fhir:code [ fhir:v "[in_i]" ] ;
+         fhir:display [ fhir:v "inch (international)" ]
+       ] [
+         fhir:code [ fhir:v "[in_i'H2O]" ] ;
+         fhir:display [ fhir:v "inch (international) of water" ]
+       ] [
+         fhir:code [ fhir:v "[in_us]" ] ;
+         fhir:display [ fhir:v "inches (US)" ]
+       ] [
+         fhir:code [ fhir:v "[IU]" ] ;
+         fhir:display [ fhir:v "international unit" ]
+       ] [
+         fhir:code [ fhir:v "[IU]/(2.h)" ] ;
+         fhir:display [ fhir:v "international unit per 2 hour" ]
+       ] [
+         fhir:code [ fhir:v "[IU]/(24.h)" ] ;
+         fhir:display [ fhir:v "international unit per 24 hour" ]
+       ] [
+         fhir:code [ fhir:v "[IU]/10*9{RBCs}" ] ;
+         fhir:display [ fhir:v "international unit per billion red blood cells" ]
+       ] [
+         fhir:code [ fhir:v "[IU]/d" ] ;
+         fhir:display [ fhir:v "international unit per day" ]
+       ] [
+         fhir:code [ fhir:v "[IU]/dL" ] ;
+         fhir:display [ fhir:v "international unit per deciliter" ]
+       ] [
+         fhir:code [ fhir:v "[IU]/g" ] ;
+         fhir:display [ fhir:v "international unit per gram" ]
+       ] [
+         fhir:code [ fhir:v "[IU]/g{Hb}" ] ;
+         fhir:display [ fhir:v "international unit per gram of hemoglobin" ]
+       ] [
+         fhir:code [ fhir:v "[IU]/h" ] ;
+         fhir:display [ fhir:v "international unit per hour" ]
+       ] [
+         fhir:code [ fhir:v "[IU]/kg" ] ;
+         fhir:display [ fhir:v "international unit per kilogram" ]
+       ] [
+         fhir:code [ fhir:v "[IU]/kg/d" ] ;
+         fhir:display [ fhir:v "international unit per kilogram per day" ]
+       ] [
+         fhir:code [ fhir:v "[IU]/L" ] ;
+         fhir:display [ fhir:v "international unit per liter" ]
+       ] [
+         fhir:code [ fhir:v "[IU]/L{37Cel}" ] ;
+         fhir:display [ fhir:v "international unit per liter at 37 degrees Celsius" ]
+       ] [
+         fhir:code [ fhir:v "[IU]/mg{creat}" ] ;
+         fhir:display [ fhir:v "international unit per milligram of creatinine" ]
+       ] [
+         fhir:code [ fhir:v "[IU]/min" ] ;
+         fhir:display [ fhir:v "international unit per minute" ]
+       ] [
+         fhir:code [ fhir:v "[IU]/mL" ] ;
+         fhir:display [ fhir:v "international unit per milliliter" ]
+       ] [
+         fhir:code [ fhir:v "[ka'U]" ] ;
+         fhir:display [ fhir:v "King Armstrong unit" ]
+       ] [
+         fhir:code [ fhir:v "[knk'U]" ] ;
+         fhir:display [ fhir:v "Kunkel unit" ]
+       ] [
+         fhir:code [ fhir:v "[lb_av]" ] ;
+         fhir:display [ fhir:v "pound (US and British)" ]
+       ] [
+         fhir:code [ fhir:v "[LPF]" ] ;
+         fhir:display [ fhir:v "low power field" ]
+       ] [
+         fhir:code [ fhir:v "[mclg'U]" ] ;
+         fhir:display [ fhir:v "Maclagan unit" ]
+       ] [
+         fhir:code [ fhir:v "[MET].min/wk" ] ;
+         fhir:display [ fhir:v "metabolic equivalent minute per week" ]
+       ] [
+         fhir:code [ fhir:v "[mi_i]" ] ;
+         fhir:display [ fhir:v "mile (international)" ]
+       ] [
+         fhir:code [ fhir:v "[MPL'U]" ] ;
+         fhir:display [ fhir:v "IgM anticardiolipin unit**" ]
+       ] [
+         fhir:code [ fhir:v "[MPL'U]/mL" ] ;
+         fhir:display [ fhir:v "IgM anticardiolipin unit per milliliter**" ]
+       ] [
+         fhir:code [ fhir:v "[oz_av]" ] ;
+         fhir:display [ fhir:v "ounce (US and British)" ]
+       ] [
+         fhir:code [ fhir:v "[oz_tr]" ] ;
+         fhir:display [ fhir:v "Troy ounce" ]
+       ] [
+         fhir:code [ fhir:v "[pH]" ] ;
+         fhir:display [ fhir:v "pH" ]
+       ] [
+         fhir:code [ fhir:v "[ppb]" ] ;
+         fhir:display [ fhir:v "part per billion" ]
+       ] [
+         fhir:code [ fhir:v "[ppm]" ] ;
+         fhir:display [ fhir:v "part per million" ]
+       ] [
+         fhir:code [ fhir:v "[ppm]{v/v}" ] ;
+         fhir:display [ fhir:v "part per million in volume per volume" ]
+       ] [
+         fhir:code [ fhir:v "[ppth]" ] ;
+         fhir:display [ fhir:v "part per thousand" ]
+       ] [
+         fhir:code [ fhir:v "[pptr]" ] ;
+         fhir:display [ fhir:v "part per trillion" ]
+       ] [
+         fhir:code [ fhir:v "[psi]" ] ;
+         fhir:display [ fhir:v "pound per square inch" ]
+       ] [
+         fhir:code [ fhir:v "[pt_us]" ] ;
+         fhir:display [ fhir:v "pint (US)" ]
+       ] [
+         fhir:code [ fhir:v "[qt_us]" ] ;
+         fhir:display [ fhir:v "quart (US)" ]
+       ] [
+         fhir:code [ fhir:v "[sft_i]" ] ;
+         fhir:display [ fhir:v "square foot (international)" ]
+       ] [
+         fhir:code [ fhir:v "[sin_i]" ] ;
+         fhir:display [ fhir:v "square inch (international)" ]
+       ] [
+         fhir:code [ fhir:v "[syd_i]" ] ;
+         fhir:display [ fhir:v "square yard (international)" ]
+       ] [
+         fhir:code [ fhir:v "[tbs_us]" ] ;
+         fhir:display [ fhir:v "tablespoon (US)" ]
+       ] [
+         fhir:code [ fhir:v "[tb'U]" ] ;
+         fhir:display [ fhir:v "tuberculin unit" ]
+       ] [
+         fhir:code [ fhir:v "[todd'U]" ] ;
+         fhir:display [ fhir:v "Todd unit" ]
+       ] [
+         fhir:code [ fhir:v "[tsp_us]" ] ;
+         fhir:display [ fhir:v "teaspoon (US)" ]
+       ] [
+         fhir:code [ fhir:v "[yd_i]" ] ;
+         fhir:display [ fhir:v "yard (international)" ]
+       ] [
+         fhir:code [ fhir:v "{#}" ] ;
+         fhir:display [ fhir:v "number" ]
+       ] [
+         fhir:code [ fhir:v "{#}/[HPF]" ] ;
+         fhir:display [ fhir:v "number per high power field" ]
+       ] [
+         fhir:code [ fhir:v "{#}/[LPF]" ] ;
+         fhir:display [ fhir:v "number per low power field" ]
+       ] [
+         fhir:code [ fhir:v "{#}/{platelet}" ] ;
+         fhir:display [ fhir:v "molecule per platelet" ]
+       ] [
+         fhir:code [ fhir:v "{#}/a" ] ;
+         fhir:display [ fhir:v "number per annum (year)" ]
+       ] [
+         fhir:code [ fhir:v "{#}/d" ] ;
+         fhir:display [ fhir:v "number per day" ]
+       ] [
+         fhir:code [ fhir:v "{#}/g" ] ;
+         fhir:display [ fhir:v "number per gram" ]
+       ] [
+         fhir:code [ fhir:v "{#}/L" ] ;
+         fhir:display [ fhir:v "number per liter" ]
+       ] [
+         fhir:code [ fhir:v "{#}/min" ] ;
+         fhir:display [ fhir:v "number per minute" ]
+       ] [
+         fhir:code [ fhir:v "{#}/mL" ] ;
+         fhir:display [ fhir:v "number per milliliter" ]
+       ] [
+         fhir:code [ fhir:v "{#}/uL" ] ;
+         fhir:display [ fhir:v "number per microliter" ]
+       ] [
+         fhir:code [ fhir:v "{#}/wk" ] ;
+         fhir:display [ fhir:v "number per week" ]
+       ] [
+         fhir:code [ fhir:v "{absorbance}" ] ;
+         fhir:display [ fhir:v "absorbance" ]
+       ] [
+         fhir:code [ fhir:v "{activity}" ] ;
+         fhir:display [ fhir:v "activity" ]
+       ] [
+         fhir:code [ fhir:v "{AHF'U}" ] ;
+         fhir:display [ fhir:v "American Hospital Formulary unit" ]
+       ] [
+         fhir:code [ fhir:v "{APS'U}" ] ;
+         fhir:display [ fhir:v "IgA antiphosphatidylserine unit" ]
+       ] [
+         fhir:code [ fhir:v "{ARU}" ] ;
+         fhir:display [ fhir:v "aspirin response unit" ]
+       ] [
+         fhir:code [ fhir:v "{beats}/min" ] ;
+         fhir:display [ fhir:v "heart beats per minute" ]
+       ] [
+         fhir:code [ fhir:v "{binding_index}" ] ;
+         fhir:display [ fhir:v "binding index" ]
+       ] [
+         fhir:code [ fhir:v "{breaths}/min" ] ;
+         fhir:display [ fhir:v "breaths per minute" ]
+       ] [
+         fhir:code [ fhir:v "{CAE'U}" ] ;
+         fhir:display [ fhir:v "complement activity enzyme unit" ]
+       ] [
+         fhir:code [ fhir:v "{CAG_repeats}" ] ;
+         fhir:display [ fhir:v "CAG trinucleotide repeats" ]
+       ] [
+         fhir:code [ fhir:v "{cells}" ] ;
+         fhir:display [ fhir:v "cells" ]
+       ] [
+         fhir:code [ fhir:v "{cells}/[HPF]" ] ;
+         fhir:display [ fhir:v "cells per high power field" ]
+       ] [
+         fhir:code [ fhir:v "{cells}/uL" ] ;
+         fhir:display [ fhir:v "cells per microliter" ]
+       ] [
+         fhir:code [ fhir:v "{CH100'U}" ] ;
+         fhir:display [ fhir:v "complement CH100 unit" ]
+       ] [
+         fhir:code [ fhir:v "{clock_time}" ] ;
+         fhir:display [ fhir:v "clock time e.g 12:30PM" ]
+       ] [
+         fhir:code [ fhir:v "{copies}" ] ;
+         fhir:display [ fhir:v "copies" ]
+       ] [
+         fhir:code [ fhir:v "{copies}/mL" ] ;
+         fhir:display [ fhir:v "copies per milliliter" ]
+       ] [
+         fhir:code [ fhir:v "{copies}/ug" ] ;
+         fhir:display [ fhir:v "copies per microgram" ]
+       ] [
+         fhir:code [ fhir:v "{count}" ] ;
+         fhir:display [ fhir:v "count" ]
+       ] [
+         fhir:code [ fhir:v "{CPM}" ] ;
+         fhir:display [ fhir:v "counts per minute" ]
+       ] [
+         fhir:code [ fhir:v "{CPM}/10*3{cell}" ] ;
+         fhir:display [ fhir:v "counts per minute per thousand cells" ]
+       ] [
+         fhir:code [ fhir:v "{Ct_value}" ] ;
+         fhir:display [ fhir:v "Cycle threshold value" ]
+       ] [
+         fhir:code [ fhir:v "{delta_OD}" ] ;
+         fhir:display [ fhir:v "change in (delta) optical density" ]
+       ] [
+         fhir:code [ fhir:v "{dilution}" ] ;
+         fhir:display [ fhir:v "dilution" ]
+       ] [
+         fhir:code [ fhir:v "{Ehrlich'U}" ] ;
+         fhir:display [ fhir:v "Ehrlich unit" ]
+       ] [
+         fhir:code [ fhir:v "{Ehrlich'U}/(2.h)" ] ;
+         fhir:display [ fhir:v "Ehrlich unit per 2 hour" ]
+       ] [
+         fhir:code [ fhir:v "{Ehrlich'U}/100.g" ] ;
+         fhir:display [ fhir:v "Ehrlich unit per 100 gram" ]
+       ] [
+         fhir:code [ fhir:v "{Ehrlich'U}/d" ] ;
+         fhir:display [ fhir:v "Ehrlich unit per day" ]
+       ] [
+         fhir:code [ fhir:v "{Ehrlich'U}/dL" ] ;
+         fhir:display [ fhir:v "Ehrlich unit per deciliter" ]
+       ] [
+         fhir:code [ fhir:v "{EIA_index}" ] ;
+         fhir:display [ fhir:v "EIA index" ]
+       ] [
+         fhir:code [ fhir:v "{EIA_titer}" ] ;
+         fhir:display [ fhir:v "EIA titer" ]
+       ] [
+         fhir:code [ fhir:v "{EIA'U}" ] ;
+         fhir:display [ fhir:v "EIA unit" ]
+       ] [
+         fhir:code [ fhir:v "{EIA'U}/U" ] ;
+         fhir:display [ fhir:v "EIA unit per enzyme unit" ]
+       ] [
+         fhir:code [ fhir:v "{ELISA'U}" ] ;
+         fhir:display [ fhir:v "ELISA unit" ]
+       ] [
+         fhir:code [ fhir:v "{EV}" ] ;
+         fhir:display [ fhir:v "EIA value" ]
+       ] [
+         fhir:code [ fhir:v "{FIU}" ] ;
+         fhir:display [ fhir:v "fluorescent intensity unit" ]
+       ] [
+         fhir:code [ fhir:v "{fraction}" ] ;
+         fhir:display [ fhir:v "fraction" ]
+       ] [
+         fhir:code [ fhir:v "{GAA_repeats}" ] ;
+         fhir:display [ fhir:v "GAA trinucleotide repeats" ]
+       ] [
+         fhir:code [ fhir:v "{genomes}/mL" ] ;
+         fhir:display [ fhir:v "genomes per milliliter" ]
+       ] [
+         fhir:code [ fhir:v "{Globules}/[HPF]" ] ;
+         fhir:display [ fhir:v "globules (drops) per high power field" ]
+       ] [
+         fhir:code [ fhir:v "{GPS'U}" ] ;
+         fhir:display [ fhir:v "IgG antiphosphatidylserine unit" ]
+       ] [
+         fhir:code [ fhir:v "{HA_titer}" ] ;
+         fhir:display [ fhir:v "influenza hemagglutination titer" ]
+       ] [
+         fhir:code [ fhir:v "{IFA_index}" ] ;
+         fhir:display [ fhir:v "immunofluorescence assay index" ]
+       ] [
+         fhir:code [ fhir:v "{IFA_titer}" ] ;
+         fhir:display [ fhir:v "Immunofluorescence assay titer" ]
+       ] [
+         fhir:code [ fhir:v "{ImmuneComplex'U}" ] ;
+         fhir:display [ fhir:v "immune complex unit" ]
+       ] [
+         fhir:code [ fhir:v "{index_val}" ] ;
+         fhir:display [ fhir:v "index value" ]
+       ] [
+         fhir:code [ fhir:v "{index}" ] ;
+         fhir:display [ fhir:v "index value" ]
+       ] [
+         fhir:code [ fhir:v "{INR}" ] ;
+         fhir:display [ fhir:v "international normalized ratio" ]
+       ] [
+         fhir:code [ fhir:v "{ISR}" ] ;
+         fhir:display [ fhir:v "immune status ratio" ]
+       ] [
+         fhir:code [ fhir:v "{JDF'U}" ] ;
+         fhir:display [ fhir:v "Juvenile Diabetes Foundation unit" ]
+       ] [
+         fhir:code [ fhir:v "{JDF'U}/L" ] ;
+         fhir:display [ fhir:v "Juvenile Diabetes Foundation unit per liter" ]
+       ] [
+         fhir:code [ fhir:v "{KCT'U}" ] ;
+         fhir:display [ fhir:v "kaolin clotting time" ]
+       ] [
+         fhir:code [ fhir:v "{KRONU'U}/mL" ] ;
+         fhir:display [ fhir:v "Kronus unit per milliliter" ]
+       ] [
+         fhir:code [ fhir:v "{Log_copies}/mL" ] ;
+         fhir:display [ fhir:v "log (base 10) copies per milliliter" ]
+       ] [
+         fhir:code [ fhir:v "{Log_IU}" ] ;
+         fhir:display [ fhir:v "log (base 10) international unit" ]
+       ] [
+         fhir:code [ fhir:v "{Log_IU}/mL" ] ;
+         fhir:display [ fhir:v "log (base 10) international unit per milliliter" ]
+       ] [
+         fhir:code [ fhir:v "{Log}" ] ;
+         fhir:display [ fhir:v "log base 10" ]
+       ] [
+         fhir:code [ fhir:v "{Lyme_index_value}" ] ;
+         fhir:display [ fhir:v "Lyme index value" ]
+       ] [
+         fhir:code [ fhir:v "{M.o.M}" ] ;
+         fhir:display [ fhir:v "multiple of the median" ]
+       ] [
+         fhir:code [ fhir:v "{minidrop}/min" ] ;
+         fhir:display [ fhir:v "minidrop per minute" ]
+       ] [
+         fhir:code [ fhir:v "{minidrop}/s" ] ;
+         fhir:display [ fhir:v "minidrop per second" ]
+       ] [
+         fhir:code [ fhir:v "{mm/dd/yyyy}" ] ;
+         fhir:display [ fhir:v "month-day-year" ]
+       ] [
+         fhir:code [ fhir:v "{MPS'U}" ] ;
+         fhir:display [ fhir:v "IgM antiphosphatidylserine unit" ]
+       ] [
+         fhir:code [ fhir:v "{MPS'U}/mL" ] ;
+         fhir:display [ fhir:v "IgM antiphosphatidylserine unit per milliliter" ]
+       ] [
+         fhir:code [ fhir:v "{mutation}" ] ;
+         fhir:display [ fhir:v "mutation" ]
+       ] [
+         fhir:code [ fhir:v "{OD_unit}" ] ;
+         fhir:display [ fhir:v "optical density unit" ]
+       ] [
+         fhir:code [ fhir:v "{Pan_Bio'U}" ] ;
+         fhir:display [ fhir:v "panbio unit" ]
+       ] [
+         fhir:code [ fhir:v "{percentile}" ] ;
+         fhir:display [ fhir:v "percentile" ]
+       ] [
+         fhir:code [ fhir:v "{phenotype}" ] ;
+         fhir:display [ fhir:v "phenotype" ]
+       ] [
+         fhir:code [ fhir:v "{ratio}" ] ;
+         fhir:display [ fhir:v "ratio" ]
+       ] [
+         fhir:code [ fhir:v "{RBC}/uL" ] ;
+         fhir:display [ fhir:v "red blood cell per microliter" ]
+       ] [
+         fhir:code [ fhir:v "{rel_saturation}" ] ;
+         fhir:display [ fhir:v "relative saturation" ]
+       ] [
+         fhir:code [ fhir:v "{risk}" ] ;
+         fhir:display [ fhir:v "risk" ]
+       ] [
+         fhir:code [ fhir:v "{Rubella_virus}" ] ;
+         fhir:display [ fhir:v "rubella virus" ]
+       ] [
+         fhir:code [ fhir:v "{s_co_ratio}" ] ;
+         fhir:display [ fhir:v "signal to cutoff ratio" ]
+       ] [
+         fhir:code [ fhir:v "{saturation}" ] ;
+         fhir:display [ fhir:v "saturation" ]
+       ] [
+         fhir:code [ fhir:v "{score}" ] ;
+         fhir:display [ fhir:v "score" ]
+       ] [
+         fhir:code [ fhir:v "{shift}" ] ;
+         fhir:display [ fhir:v "shift" ]
+       ] [
+         fhir:code [ fhir:v "{spermatozoa}/mL" ] ;
+         fhir:display [ fhir:v "spermatozoa per milliliter" ]
+       ] [
+         fhir:code [ fhir:v "{STDV}" ] ;
+         fhir:display [ fhir:v "standard deviation" ]
+       ] [
+         fhir:code [ fhir:v "{titer}" ] ;
+         fhir:display [ fhir:v "titer" ]
+       ] [
+         fhir:code [ fhir:v "{TmStp}" ] ;
+         fhir:display [ fhir:v "time stamp" ]
+       ] [
+         fhir:code [ fhir:v "{Tscore}" ] ;
+         fhir:display [ fhir:v "t score" ]
+       ] [
+         fhir:code [ fhir:v "{TSI_index}" ] ;
+         fhir:display [ fhir:v "thyroid-stimulating immunoglobulin index" ]
+       ] [
+         fhir:code [ fhir:v "{WBCs}" ] ;
+         fhir:display [ fhir:v "white blood cells" ]
+       ] [
+         fhir:code [ fhir:v "{yyyy}" ] ;
+         fhir:display [ fhir:v "year" ]
+       ] [
+         fhir:code [ fhir:v "{Zscore}" ] ;
+         fhir:display [ fhir:v "z score" ]
+       ] [
+         fhir:code [ fhir:v "10*12/L" ] ;
+         fhir:display [ fhir:v "trillion per liter" ]
+       ] [
+         fhir:code [ fhir:v "10*3" ] ;
+         fhir:display [ fhir:v "thousand" ]
+       ] [
+         fhir:code [ fhir:v "10*3/L" ] ;
+         fhir:display [ fhir:v "thousand per liter" ]
+       ] [
+         fhir:code [ fhir:v "10*3/mL" ] ;
+         fhir:display [ fhir:v "thousand per milliliter" ]
+       ] [
+         fhir:code [ fhir:v "10*3/uL" ] ;
+         fhir:display [ fhir:v "thousand per microliter" ]
+       ] [
+         fhir:code [ fhir:v "10*3{copies}/mL" ] ;
+         fhir:display [ fhir:v "thousand copies per milliliter" ]
+       ] [
+         fhir:code [ fhir:v "10*3{RBCs}" ] ;
+         fhir:display [ fhir:v "thousand red blood cells" ]
+       ] [
+         fhir:code [ fhir:v "10*4/uL" ] ;
+         fhir:display [ fhir:v "10 thousand per microliter" ]
+       ] [
+         fhir:code [ fhir:v "10*5" ] ;
+         fhir:display [ fhir:v "one hundred thousand" ]
+       ] [
+         fhir:code [ fhir:v "10*6" ] ;
+         fhir:display [ fhir:v "million" ]
+       ] [
+         fhir:code [ fhir:v "10*6.[CFU]/L" ] ;
+         fhir:display [ fhir:v "million colony forming unit per liter" ]
+       ] [
+         fhir:code [ fhir:v "10*6.[IU]" ] ;
+         fhir:display [ fhir:v "million international unit" ]
+       ] [
+         fhir:code [ fhir:v "10*6/(24.h)" ] ;
+         fhir:display [ fhir:v "million per 24 hour" ]
+       ] [
+         fhir:code [ fhir:v "10*6/kg" ] ;
+         fhir:display [ fhir:v "million per kilogram" ]
+       ] [
+         fhir:code [ fhir:v "10*6/L" ] ;
+         fhir:display [ fhir:v "million per liter" ]
+       ] [
+         fhir:code [ fhir:v "10*6/mL" ] ;
+         fhir:display [ fhir:v "million per milliliter" ]
+       ] [
+         fhir:code [ fhir:v "10*6/uL" ] ;
+         fhir:display [ fhir:v "million per microliter" ]
+       ] [
+         fhir:code [ fhir:v "10*8" ] ;
+         fhir:display [ fhir:v "100 million" ]
+       ] [
+         fhir:code [ fhir:v "10*9/L" ] ;
+         fhir:display [ fhir:v "billion per liter" ]
+       ] [
+         fhir:code [ fhir:v "10*9/mL" ] ;
+         fhir:display [ fhir:v "billion per milliliter" ]
+       ] [
+         fhir:code [ fhir:v "10*9/uL" ] ;
+         fhir:display [ fhir:v "billion per microliter" ]
+       ] [
+         fhir:code [ fhir:v "10.L/(min.m2)" ] ;
+         fhir:display [ fhir:v "10 liter per minute per square meter" ]
+       ] [
+         fhir:code [ fhir:v "10.L/min" ] ;
+         fhir:display [ fhir:v "10 liter per minute" ]
+       ] [
+         fhir:code [ fhir:v "10.uN.s/(cm5.m2)" ] ;
+         fhir:display [ fhir:v "10 micronewton second per centimeter to the fifth power per square meter" ]
+       ] [
+         fhir:code [ fhir:v "24.h" ] ;
+         fhir:display [ fhir:v "24 hour" ]
+       ] [
+         fhir:code [ fhir:v "A" ] ;
+         fhir:display [ fhir:v "ampere" ]
+       ] [
+         fhir:code [ fhir:v "a" ] ;
+         fhir:display [ fhir:v "year" ]
+       ] [
+         fhir:code [ fhir:v "A/m" ] ;
+         fhir:display [ fhir:v "ampere per meter" ]
+       ] [
+         fhir:code [ fhir:v "ag/{cell}" ] ;
+         fhir:display [ fhir:v "attogram per cell" ]
+       ] [
+         fhir:code [ fhir:v "atm" ] ;
+         fhir:display [ fhir:v "atmosphere" ]
+       ] [
+         fhir:code [ fhir:v "bar" ] ;
+         fhir:display [ fhir:v "bar" ]
+       ] [
+         fhir:code [ fhir:v "Bq" ] ;
+         fhir:display [ fhir:v "Becquerel" ]
+       ] [
+         fhir:code [ fhir:v "cal" ] ;
+         fhir:display [ fhir:v "calorie" ]
+       ] [
+         fhir:code [ fhir:v "Cel" ] ;
+         fhir:display [ fhir:v "degree Celsius" ]
+       ] [
+         fhir:code [ fhir:v "cg" ] ;
+         fhir:display [ fhir:v "centigram" ]
+       ] [
+         fhir:code [ fhir:v "cL" ] ;
+         fhir:display [ fhir:v "centiliter" ]
+       ] [
+         fhir:code [ fhir:v "cm" ] ;
+         fhir:display [ fhir:v "centimeter" ]
+       ] [
+         fhir:code [ fhir:v "cm/s" ] ;
+         fhir:display [ fhir:v "centimeter per second" ]
+       ] [
+         fhir:code [ fhir:v "cm[H2O]" ] ;
+         fhir:display [ fhir:v "centimeter of water" ]
+       ] [
+         fhir:code [ fhir:v "cm[H2O]/L/s" ] ;
+         fhir:display [ fhir:v "centimeter of water per liter per second" ]
+       ] [
+         fhir:code [ fhir:v "cm[H2O]/s/m" ] ;
+         fhir:display [ fhir:v "centimeter of water per second per meter" ]
+       ] [
+         fhir:code [ fhir:v "cm[Hg]" ] ;
+         fhir:display [ fhir:v "centimeter of mercury" ]
+       ] [
+         fhir:code [ fhir:v "cm2" ] ;
+         fhir:display [ fhir:v "square centimeter" ]
+       ] [
+         fhir:code [ fhir:v "cm2/s" ] ;
+         fhir:display [ fhir:v "square centimeter per second" ]
+       ] [
+         fhir:code [ fhir:v "cm3" ] ;
+         fhir:display [ fhir:v "cubic centimeter" ]
+       ] [
+         fhir:code [ fhir:v "cP" ] ;
+         fhir:display [ fhir:v "centipoise" ]
+       ] [
+         fhir:code [ fhir:v "cSt" ] ;
+         fhir:display [ fhir:v "centistoke" ]
+       ] [
+         fhir:code [ fhir:v "d" ] ;
+         fhir:display [ fhir:v "day" ]
+       ] [
+         fhir:code [ fhir:v "d/(7.d)" ] ;
+         fhir:display [ fhir:v "day per 7 day" ]
+       ] [
+         fhir:code [ fhir:v "d/wk" ] ;
+         fhir:display [ fhir:v "days per week" ]
+       ] [
+         fhir:code [ fhir:v "daL/min" ] ;
+         fhir:display [ fhir:v "dekaliter per minute" ]
+       ] [
+         fhir:code [ fhir:v "daL/min/m2" ] ;
+         fhir:display [ fhir:v "dekaliter per minute per square meter" ]
+       ] [
+         fhir:code [ fhir:v "dB" ] ;
+         fhir:display [ fhir:v "decibel" ]
+       ] [
+         fhir:code [ fhir:v "deg" ] ;
+         fhir:display [ fhir:v "degree (plane angle)" ]
+       ] [
+         fhir:code [ fhir:v "deg/s" ] ;
+         fhir:display [ fhir:v "degree per second" ]
+       ] [
+         fhir:code [ fhir:v "dg" ] ;
+         fhir:display [ fhir:v "decigram" ]
+       ] [
+         fhir:code [ fhir:v "dL" ] ;
+         fhir:display [ fhir:v "deciliter" ]
+       ] [
+         fhir:code [ fhir:v "dm" ] ;
+         fhir:display [ fhir:v "decimeter" ]
+       ] [
+         fhir:code [ fhir:v "dm2/s2" ] ;
+         fhir:display [ fhir:v "square decimeter per square second" ]
+       ] [
+         fhir:code [ fhir:v "dyn.s/(cm.m2)" ] ;
+         fhir:display [ fhir:v "dyne second per centimeter per square meter" ]
+       ] [
+         fhir:code [ fhir:v "dyn.s/cm" ] ;
+         fhir:display [ fhir:v "dyne second per centimeter" ]
+       ] [
+         fhir:code [ fhir:v "eq" ] ;
+         fhir:display [ fhir:v "equivalent" ]
+       ] [
+         fhir:code [ fhir:v "eq/L" ] ;
+         fhir:display [ fhir:v "equivalent per liter" ]
+       ] [
+         fhir:code [ fhir:v "eq/mL" ] ;
+         fhir:display [ fhir:v "equivalent per milliliter" ]
+       ] [
+         fhir:code [ fhir:v "eq/mmol" ] ;
+         fhir:display [ fhir:v "equivalent per millimole" ]
+       ] [
+         fhir:code [ fhir:v "eq/umol" ] ;
+         fhir:display [ fhir:v "equivalent per micromole" ]
+       ] [
+         fhir:code [ fhir:v "erg" ] ;
+         fhir:display [ fhir:v "erg" ]
+       ] [
+         fhir:code [ fhir:v "eV" ] ;
+         fhir:display [ fhir:v "electron Volt" ]
+       ] [
+         fhir:code [ fhir:v "F" ] ;
+         fhir:display [ fhir:v "Farad" ]
+       ] [
+         fhir:code [ fhir:v "fg" ] ;
+         fhir:display [ fhir:v "femtogram" ]
+       ] [
+         fhir:code [ fhir:v "fL" ] ;
+         fhir:display [ fhir:v "femtoliter" ]
+       ] [
+         fhir:code [ fhir:v "fm" ] ;
+         fhir:display [ fhir:v "femtometer" ]
+       ] [
+         fhir:code [ fhir:v "fmol" ] ;
+         fhir:display [ fhir:v "femtomole" ]
+       ] [
+         fhir:code [ fhir:v "fmol/g" ] ;
+         fhir:display [ fhir:v "femtomole per gram" ]
+       ] [
+         fhir:code [ fhir:v "fmol/L" ] ;
+         fhir:display [ fhir:v "femtomole per liter" ]
+       ] [
+         fhir:code [ fhir:v "fmol/mg" ] ;
+         fhir:display [ fhir:v "femtomole per milligram" ]
+       ] [
+         fhir:code [ fhir:v "fmol/mg{cyt_prot}" ] ;
+         fhir:display [ fhir:v "femtomole per milligram of cytosol protein" ]
+       ] [
+         fhir:code [ fhir:v "fmol/mg{prot}" ] ;
+         fhir:display [ fhir:v "femtomole per milligram of protein" ]
+       ] [
+         fhir:code [ fhir:v "fmol/mL" ] ;
+         fhir:display [ fhir:v "femtomole per milliliter" ]
+       ] [
+         fhir:code [ fhir:v "g" ] ;
+         fhir:display [ fhir:v "gram" ]
+       ] [
+         fhir:code [ fhir:v "g.m" ] ;
+         fhir:display [ fhir:v "gram meter" ]
+       ] [
+         fhir:code [ fhir:v "g.m/{beat}" ] ;
+         fhir:display [ fhir:v "gram meter per heart beat" ]
+       ] [
+         fhir:code [ fhir:v "g/(100.g)" ] ;
+         fhir:display [ fhir:v "gram per 100 gram" ]
+       ] [
+         fhir:code [ fhir:v "g/(12.h)" ] ;
+         fhir:display [ fhir:v "gram per 12 hour" ]
+       ] [
+         fhir:code [ fhir:v "g/(24.h)" ] ;
+         fhir:display [ fhir:v "gram per 24 hour" ]
+       ] [
+         fhir:code [ fhir:v "g/(3.d)" ] ;
+         fhir:display [ fhir:v "gram per 3 days" ]
+       ] [
+         fhir:code [ fhir:v "g/(4.h)" ] ;
+         fhir:display [ fhir:v "gram per 4 hour" ]
+       ] [
+         fhir:code [ fhir:v "g/(48.h)" ] ;
+         fhir:display [ fhir:v "gram per 48 hour" ]
+       ] [
+         fhir:code [ fhir:v "g/(5.h)" ] ;
+         fhir:display [ fhir:v "gram per 5 hour" ]
+       ] [
+         fhir:code [ fhir:v "g/(6.h)" ] ;
+         fhir:display [ fhir:v "gram per 6 hour" ]
+       ] [
+         fhir:code [ fhir:v "g/(72.h)" ] ;
+         fhir:display [ fhir:v "gram per 72 hour" ]
+       ] [
+         fhir:code [ fhir:v "g/(8.h){shift}" ] ;
+         fhir:display [ fhir:v "gram per 8 hour shift" ]
+       ] [
+         fhir:code [ fhir:v "g/{specimen}" ] ;
+         fhir:display [ fhir:v "gram per specimen" ]
+       ] [
+         fhir:code [ fhir:v "g/{total_output}" ] ;
+         fhir:display [ fhir:v "gram per total output" ]
+       ] [
+         fhir:code [ fhir:v "g/{total_weight}" ] ;
+         fhir:display [ fhir:v "gram per total weight" ]
+       ] [
+         fhir:code [ fhir:v "g/cm2" ] ;
+         fhir:display [ fhir:v "gram per square centimeter" ]
+       ] [
+         fhir:code [ fhir:v "g/cm3" ] ;
+         fhir:display [ fhir:v "gram per cubic centimeter" ]
+       ] [
+         fhir:code [ fhir:v "g/d" ] ;
+         fhir:display [ fhir:v "gram per day" ]
+       ] [
+         fhir:code [ fhir:v "g/dL" ] ;
+         fhir:display [ fhir:v "gram per deciliter" ]
+       ] [
+         fhir:code [ fhir:v "g/g" ] ;
+         fhir:display [ fhir:v "gram per gram" ]
+       ] [
+         fhir:code [ fhir:v "g/g{creat}" ] ;
+         fhir:display [ fhir:v "gram per gram of creatinine" ]
+       ] [
+         fhir:code [ fhir:v "g/g{globulin}" ] ;
+         fhir:display [ fhir:v "gram per gram of globulin" ]
+       ] [
+         fhir:code [ fhir:v "g/g{tissue}" ] ;
+         fhir:display [ fhir:v "gram per gram of tissue" ]
+       ] [
+         fhir:code [ fhir:v "g/h" ] ;
+         fhir:display [ fhir:v "gram per hour" ]
+       ] [
+         fhir:code [ fhir:v "g/h/m2" ] ;
+         fhir:display [ fhir:v "gram per hour per square meter" ]
+       ] [
+         fhir:code [ fhir:v "g/kg" ] ;
+         fhir:display [ fhir:v "gram per kilogram" ]
+       ] [
+         fhir:code [ fhir:v "g/kg/(8.h)" ] ;
+         fhir:display [ fhir:v "gram per kilogram per 8 hour" ]
+       ] [
+         fhir:code [ fhir:v "g/kg/(8.h){shift}" ] ;
+         fhir:display [ fhir:v "gram per kilogram per 8 hour shift" ]
+       ] [
+         fhir:code [ fhir:v "g/kg/d" ] ;
+         fhir:display [ fhir:v "gram per kilogram per day" ]
+       ] [
+         fhir:code [ fhir:v "g/kg/h" ] ;
+         fhir:display [ fhir:v "gram per kilogram per hour" ]
+       ] [
+         fhir:code [ fhir:v "g/kg/min" ] ;
+         fhir:display [ fhir:v "gram per kilogram per minute" ]
+       ] [
+         fhir:code [ fhir:v "g/L" ] ;
+         fhir:display [ fhir:v "gram per liter" ]
+       ] [
+         fhir:code [ fhir:v "g/m2" ] ;
+         fhir:display [ fhir:v "gram per square meter" ]
+       ] [
+         fhir:code [ fhir:v "g/mg" ] ;
+         fhir:display [ fhir:v "gram per milligram" ]
+       ] [
+         fhir:code [ fhir:v "g/min" ] ;
+         fhir:display [ fhir:v "gram per minute" ]
+       ] [
+         fhir:code [ fhir:v "g/mL" ] ;
+         fhir:display [ fhir:v "gram per milliliter" ]
+       ] [
+         fhir:code [ fhir:v "g/mmol" ] ;
+         fhir:display [ fhir:v "gram per millimole" ]
+       ] [
+         fhir:code [ fhir:v "g/mol{creat}" ] ;
+         fhir:display [ fhir:v "gram per mole of creatinine" ]
+       ] [
+         fhir:code [ fhir:v "g{creat}" ] ;
+         fhir:display [ fhir:v "gram of creatinine" ]
+       ] [
+         fhir:code [ fhir:v "g{Hb}" ] ;
+         fhir:display [ fhir:v "gram of hemoglobin" ]
+       ] [
+         fhir:code [ fhir:v "g{total_nit}" ] ;
+         fhir:display [ fhir:v "gram of total nitrogen" ]
+       ] [
+         fhir:code [ fhir:v "g{total_prot}" ] ;
+         fhir:display [ fhir:v "gram of total protein" ]
+       ] [
+         fhir:code [ fhir:v "g{wet_tissue}" ] ;
+         fhir:display [ fhir:v "gram of wet tissue" ]
+       ] [
+         fhir:code [ fhir:v "Gy" ] ;
+         fhir:display [ fhir:v "Gray" ]
+       ] [
+         fhir:code [ fhir:v "H" ] ;
+         fhir:display [ fhir:v "Henry" ]
+       ] [
+         fhir:code [ fhir:v "h" ] ;
+         fhir:display [ fhir:v "hour" ]
+       ] [
+         fhir:code [ fhir:v "h/d" ] ;
+         fhir:display [ fhir:v "hour per day" ]
+       ] [
+         fhir:code [ fhir:v "h/wk" ] ;
+         fhir:display [ fhir:v "hour per week" ]
+       ] [
+         fhir:code [ fhir:v "Hz" ] ;
+         fhir:display [ fhir:v "Hertz" ]
+       ] [
+         fhir:code [ fhir:v "J" ] ;
+         fhir:display [ fhir:v "joule" ]
+       ] [
+         fhir:code [ fhir:v "J/L" ] ;
+         fhir:display [ fhir:v "joule per liter" ]
+       ] [
+         fhir:code [ fhir:v "K" ] ;
+         fhir:display [ fhir:v "degree Kelvin" ]
+       ] [
+         fhir:code [ fhir:v "K/W" ] ;
+         fhir:display [ fhir:v "degree Kelvin per Watt" ]
+       ] [
+         fhir:code [ fhir:v "k[IU]/L" ] ;
+         fhir:display [ fhir:v "kilo international unit per liter" ]
+       ] [
+         fhir:code [ fhir:v "k[IU]/mL" ] ;
+         fhir:display [ fhir:v "kilo international unit per milliliter" ]
+       ] [
+         fhir:code [ fhir:v "kat" ] ;
+         fhir:display [ fhir:v "katal" ]
+       ] [
+         fhir:code [ fhir:v "kat/kg" ] ;
+         fhir:display [ fhir:v "katal per kilogram" ]
+       ] [
+         fhir:code [ fhir:v "kat/L" ] ;
+         fhir:display [ fhir:v "katal per liter" ]
+       ] [
+         fhir:code [ fhir:v "kcal" ] ;
+         fhir:display [ fhir:v "kilocalorie" ]
+       ] [
+         fhir:code [ fhir:v "kcal/(24.h)" ] ;
+         fhir:display [ fhir:v "kilocalorie per 24 hour" ]
+       ] [
+         fhir:code [ fhir:v "kcal/[oz_av]" ] ;
+         fhir:display [ fhir:v "kilocalorie per ounce (US & British)" ]
+       ] [
+         fhir:code [ fhir:v "kcal/d" ] ;
+         fhir:display [ fhir:v "kilocalorie per day" ]
+       ] [
+         fhir:code [ fhir:v "kcal/h" ] ;
+         fhir:display [ fhir:v "kilocalorie per hour" ]
+       ] [
+         fhir:code [ fhir:v "kcal/kg/(24.h)" ] ;
+         fhir:display [ fhir:v "kilocalorie per kilogram per 24 hour" ]
+       ] [
+         fhir:code [ fhir:v "kg" ] ;
+         fhir:display [ fhir:v "kilogram" ]
+       ] [
+         fhir:code [ fhir:v "kg.m/s" ] ;
+         fhir:display [ fhir:v "kilogram meter per second" ]
+       ] [
+         fhir:code [ fhir:v "kg/(s.m2)" ] ;
+         fhir:display [ fhir:v "kilogram per second per square meter" ]
+       ] [
+         fhir:code [ fhir:v "kg/h" ] ;
+         fhir:display [ fhir:v "kilogram per hour" ]
+       ] [
+         fhir:code [ fhir:v "kg/L" ] ;
+         fhir:display [ fhir:v "kilogram per liter" ]
+       ] [
+         fhir:code [ fhir:v "kg/m2" ] ;
+         fhir:display [ fhir:v "kilogram per square meter" ]
+       ] [
+         fhir:code [ fhir:v "kg/m3" ] ;
+         fhir:display [ fhir:v "kilogram per cubic meter" ]
+       ] [
+         fhir:code [ fhir:v "kg/min" ] ;
+         fhir:display [ fhir:v "kilogram per minute" ]
+       ] [
+         fhir:code [ fhir:v "kg/mol" ] ;
+         fhir:display [ fhir:v "kilogram per mole" ]
+       ] [
+         fhir:code [ fhir:v "kg/s" ] ;
+         fhir:display [ fhir:v "kilogram per second" ]
+       ] [
+         fhir:code [ fhir:v "kL" ] ;
+         fhir:display [ fhir:v "kiloliter" ]
+       ] [
+         fhir:code [ fhir:v "km" ] ;
+         fhir:display [ fhir:v "kilometer" ]
+       ] [
+         fhir:code [ fhir:v "kPa" ] ;
+         fhir:display [ fhir:v "kilopascal" ]
+       ] [
+         fhir:code [ fhir:v "ks" ] ;
+         fhir:display [ fhir:v "kilosecond" ]
+       ] [
+         fhir:code [ fhir:v "kU" ] ;
+         fhir:display [ fhir:v "kilo enzyme unit" ]
+       ] [
+         fhir:code [ fhir:v "kU/g" ] ;
+         fhir:display [ fhir:v "kilo enzyme unit per gram" ]
+       ] [
+         fhir:code [ fhir:v "kU/L" ] ;
+         fhir:display [ fhir:v "kilo enzyme unit per liter" ]
+       ] [
+         fhir:code [ fhir:v "kU/L{class}" ] ;
+         fhir:display [ fhir:v "kilo enzyme unit per liter class" ]
+       ] [
+         fhir:code [ fhir:v "kU/mL" ] ;
+         fhir:display [ fhir:v "kilo enzyme unit per milliliter" ]
+       ] [
+         fhir:code [ fhir:v "L" ] ;
+         fhir:display [ fhir:v "liter" ]
+       ] [
+         fhir:code [ fhir:v "L/(24.h)" ] ;
+         fhir:display [ fhir:v "liter per 24 hour" ]
+       ] [
+         fhir:code [ fhir:v "L/(8.h)" ] ;
+         fhir:display [ fhir:v "liter per 8 hour" ]
+       ] [
+         fhir:code [ fhir:v "L/(min.m2)" ] ;
+         fhir:display [ fhir:v "liter per minute per square meter" ]
+       ] [
+         fhir:code [ fhir:v "L/d" ] ;
+         fhir:display [ fhir:v "liter per day" ]
+       ] [
+         fhir:code [ fhir:v "L/h" ] ;
+         fhir:display [ fhir:v "liter per hour" ]
+       ] [
+         fhir:code [ fhir:v "L/kg" ] ;
+         fhir:display [ fhir:v "liter per kilogram" ]
+       ] [
+         fhir:code [ fhir:v "L/L" ] ;
+         fhir:display [ fhir:v "liter per liter" ]
+       ] [
+         fhir:code [ fhir:v "L/min" ] ;
+         fhir:display [ fhir:v "liter per minute" ]
+       ] [
+         fhir:code [ fhir:v "L/min/m2" ] ;
+         fhir:display [ fhir:v "liter per minute per sqaure meter" ]
+       ] [
+         fhir:code [ fhir:v "L/s" ] ;
+         fhir:display [ fhir:v "liter per second" ]
+       ] [
+         fhir:code [ fhir:v "L/s/s2" ] ;
+         fhir:display [ fhir:v "liter per second per square second" ]
+       ] [
+         fhir:code [ fhir:v "lm" ] ;
+         fhir:display [ fhir:v "lumen" ]
+       ] [
+         fhir:code [ fhir:v "lm.m2" ] ;
+         fhir:display [ fhir:v "lumen square meter" ]
+       ] [
+         fhir:code [ fhir:v "m" ] ;
+         fhir:display [ fhir:v "meter" ]
+       ] [
+         fhir:code [ fhir:v "m/s" ] ;
+         fhir:display [ fhir:v "meter per second" ]
+       ] [
+         fhir:code [ fhir:v "m/s2" ] ;
+         fhir:display [ fhir:v "meter per square second" ]
+       ] [
+         fhir:code [ fhir:v "m[IU]/L" ] ;
+         fhir:display [ fhir:v "milli international unit per liter" ]
+       ] [
+         fhir:code [ fhir:v "m[IU]/mL" ] ;
+         fhir:display [ fhir:v "milli international unit per milliliter" ]
+       ] [
+         fhir:code [ fhir:v "m2" ] ;
+         fhir:display [ fhir:v "square meter" ]
+       ] [
+         fhir:code [ fhir:v "m2/s" ] ;
+         fhir:display [ fhir:v "square meter per second" ]
+       ] [
+         fhir:code [ fhir:v "m3/s" ] ;
+         fhir:display [ fhir:v "cubic meter per second" ]
+       ] [
+         fhir:code [ fhir:v "mA" ] ;
+         fhir:display [ fhir:v "milliampere" ]
+       ] [
+         fhir:code [ fhir:v "mbar" ] ;
+         fhir:display [ fhir:v "millibar" ]
+       ] [
+         fhir:code [ fhir:v "mbar.s/L" ] ;
+         fhir:display [ fhir:v "millibar second per liter" ]
+       ] [
+         fhir:code [ fhir:v "mbar/L/s" ] ;
+         fhir:display [ fhir:v "millibar per liter per second" ]
+       ] [
+         fhir:code [ fhir:v "meq" ] ;
+         fhir:display [ fhir:v "milliequivalent" ]
+       ] [
+         fhir:code [ fhir:v "meq/(2.h)" ] ;
+         fhir:display [ fhir:v "milliequivalent per 2 hour" ]
+       ] [
+         fhir:code [ fhir:v "meq/(24.h)" ] ;
+         fhir:display [ fhir:v "milliequivalent per 24 hour" ]
+       ] [
+         fhir:code [ fhir:v "meq/(8.h)" ] ;
+         fhir:display [ fhir:v "milliequivalent per 8 hour" ]
+       ] [
+         fhir:code [ fhir:v "meq/{specimen}" ] ;
+         fhir:display [ fhir:v "milliequivalent per specimen" ]
+       ] [
+         fhir:code [ fhir:v "meq/{total_volume}" ] ;
+         fhir:display [ fhir:v "milliequivalent per total volume" ]
+       ] [
+         fhir:code [ fhir:v "meq/d" ] ;
+         fhir:display [ fhir:v "milliequivalent per day" ]
+       ] [
+         fhir:code [ fhir:v "meq/dL" ] ;
+         fhir:display [ fhir:v "milliequivalent per deciliter" ]
+       ] [
+         fhir:code [ fhir:v "meq/g" ] ;
+         fhir:display [ fhir:v "milliequivalent per gram" ]
+       ] [
+         fhir:code [ fhir:v "meq/g{creat}" ] ;
+         fhir:display [ fhir:v "milliequivalent per gram of creatinine" ]
+       ] [
+         fhir:code [ fhir:v "meq/h" ] ;
+         fhir:display [ fhir:v "milliequivalent per hour" ]
+       ] [
+         fhir:code [ fhir:v "meq/kg" ] ;
+         fhir:display [ fhir:v "milliequivalent per kilogram" ]
+       ] [
+         fhir:code [ fhir:v "meq/kg/h" ] ;
+         fhir:display [ fhir:v "milliequivalent per kilogram per hour" ]
+       ] [
+         fhir:code [ fhir:v "meq/L" ] ;
+         fhir:display [ fhir:v "milliequivalent per liter" ]
+       ] [
+         fhir:code [ fhir:v "meq/m2" ] ;
+         fhir:display [ fhir:v "milliequivalent per square meter" ]
+       ] [
+         fhir:code [ fhir:v "meq/min" ] ;
+         fhir:display [ fhir:v "milliequivalent per minute" ]
+       ] [
+         fhir:code [ fhir:v "meq/mL" ] ;
+         fhir:display [ fhir:v "milliequivalent per milliliter" ]
+       ] [
+         fhir:code [ fhir:v "mg" ] ;
+         fhir:display [ fhir:v "milligram" ]
+       ] [
+         fhir:code [ fhir:v "mg/(10.h)" ] ;
+         fhir:display [ fhir:v "milligram per 10 hour" ]
+       ] [
+         fhir:code [ fhir:v "mg/(12.h)" ] ;
+         fhir:display [ fhir:v "milligram per 12 hour" ]
+       ] [
+         fhir:code [ fhir:v "mg/(2.h)" ] ;
+         fhir:display [ fhir:v "milligram per 2 hour" ]
+       ] [
+         fhir:code [ fhir:v "mg/(24.h)" ] ;
+         fhir:display [ fhir:v "milligram per 24 hour" ]
+       ] [
+         fhir:code [ fhir:v "mg/(6.h)" ] ;
+         fhir:display [ fhir:v "milligram per 6 hour" ]
+       ] [
+         fhir:code [ fhir:v "mg/(72.h)" ] ;
+         fhir:display [ fhir:v "milligram per 72 hour" ]
+       ] [
+         fhir:code [ fhir:v "mg/(8.h)" ] ;
+         fhir:display [ fhir:v "milligram per 8 hour" ]
+       ] [
+         fhir:code [ fhir:v "mg/{collection}" ] ;
+         fhir:display [ fhir:v "milligram per collection" ]
+       ] [
+         fhir:code [ fhir:v "mg/{specimen}" ] ;
+         fhir:display [ fhir:v "milligram per specimen" ]
+       ] [
+         fhir:code [ fhir:v "mg/{total_output}" ] ;
+         fhir:display [ fhir:v "milligram per total output" ]
+       ] [
+         fhir:code [ fhir:v "mg/{total_volume}" ] ;
+         fhir:display [ fhir:v "milligram per total volume" ]
+       ] [
+         fhir:code [ fhir:v "mg/d" ] ;
+         fhir:display [ fhir:v "milligram per day" ]
+       ] [
+         fhir:code [ fhir:v "mg/d/{1.73_m2}" ] ;
+         fhir:display [ fhir:v "milligram per day per 1.73 square meter" ]
+       ] [
+         fhir:code [ fhir:v "mg/dL" ] ;
+         fhir:display [ fhir:v "milligram per deciliter" ]
+       ] [
+         fhir:code [ fhir:v "mg/dL{RBCs}" ] ;
+         fhir:display [ fhir:v "milligram per deciliter of red blood cells" ]
+       ] [
+         fhir:code [ fhir:v "mg/g" ] ;
+         fhir:display [ fhir:v "milligram per gram" ]
+       ] [
+         fhir:code [ fhir:v "mg/g{creat}" ] ;
+         fhir:display [ fhir:v "milligram per gram of creatinine" ]
+       ] [
+         fhir:code [ fhir:v "mg/g{dry_tissue}" ] ;
+         fhir:display [ fhir:v "milligram per gram of dry tissue" ]
+       ] [
+         fhir:code [ fhir:v "mg/g{feces}" ] ;
+         fhir:display [ fhir:v "milligram per gram of feces" ]
+       ] [
+         fhir:code [ fhir:v "mg/g{tissue}" ] ;
+         fhir:display [ fhir:v "milligram per gram of tissue" ]
+       ] [
+         fhir:code [ fhir:v "mg/g{wet_tissue}" ] ;
+         fhir:display [ fhir:v "milligram per gram of wet tissue" ]
+       ] [
+         fhir:code [ fhir:v "mg/h" ] ;
+         fhir:display [ fhir:v "milligram per hour" ]
+       ] [
+         fhir:code [ fhir:v "mg/kg" ] ;
+         fhir:display [ fhir:v "milligram per kilogram" ]
+       ] [
+         fhir:code [ fhir:v "mg/kg/(8.h)" ] ;
+         fhir:display [ fhir:v "milligram per kilogram per 8 hour" ]
+       ] [
+         fhir:code [ fhir:v "mg/kg/d" ] ;
+         fhir:display [ fhir:v "milligram per kilogram per day" ]
+       ] [
+         fhir:code [ fhir:v "mg/kg/h" ] ;
+         fhir:display [ fhir:v "milligram per kilogram per hour" ]
+       ] [
+         fhir:code [ fhir:v "mg/kg/min" ] ;
+         fhir:display [ fhir:v "milligram per kilogram per minute" ]
+       ] [
+         fhir:code [ fhir:v "mg/L" ] ;
+         fhir:display [ fhir:v "milligram per liter" ]
+       ] [
+         fhir:code [ fhir:v "mg/L{RBCs}" ] ;
+         fhir:display [ fhir:v "milligram per liter of red blood cells" ]
+       ] [
+         fhir:code [ fhir:v "mg/m2" ] ;
+         fhir:display [ fhir:v "milligram per square meter" ]
+       ] [
+         fhir:code [ fhir:v "mg/m3" ] ;
+         fhir:display [ fhir:v "milligram per cubic meter" ]
+       ] [
+         fhir:code [ fhir:v "mg/mg" ] ;
+         fhir:display [ fhir:v "milligram per milligram" ]
+       ] [
+         fhir:code [ fhir:v "mg/mg{creat}" ] ;
+         fhir:display [ fhir:v "milligram per milligram of creatinine" ]
+       ] [
+         fhir:code [ fhir:v "mg/min" ] ;
+         fhir:display [ fhir:v "milligram per minute" ]
+       ] [
+         fhir:code [ fhir:v "mg/mL" ] ;
+         fhir:display [ fhir:v "milligram per milliliter" ]
+       ] [
+         fhir:code [ fhir:v "mg/mmol" ] ;
+         fhir:display [ fhir:v "milligram per millimole" ]
+       ] [
+         fhir:code [ fhir:v "mg/mmol{creat}" ] ;
+         fhir:display [ fhir:v "milligram per millimole of creatinine" ]
+       ] [
+         fhir:code [ fhir:v "mg/wk" ] ;
+         fhir:display [ fhir:v "milligram per week" ]
+       ] [
+         fhir:code [ fhir:v "mg{FEU}/L" ] ;
+         fhir:display [ fhir:v "milligram fibrinogen equivalent unit per liter" ]
+       ] [
+         fhir:code [ fhir:v "min" ] ;
+         fhir:display [ fhir:v "minute" ]
+       ] [
+         fhir:code [ fhir:v "min/d" ] ;
+         fhir:display [ fhir:v "minute per day" ]
+       ] [
+         fhir:code [ fhir:v "min/wk" ] ;
+         fhir:display [ fhir:v "minute per week" ]
+       ] [
+         fhir:code [ fhir:v "mL" ] ;
+         fhir:display [ fhir:v "milliliter" ]
+       ] [
+         fhir:code [ fhir:v "mL/(10.h)" ] ;
+         fhir:display [ fhir:v "milliliter per 10 hour" ]
+       ] [
+         fhir:code [ fhir:v "mL/(12.h)" ] ;
+         fhir:display [ fhir:v "milliliter per 12 hour" ]
+       ] [
+         fhir:code [ fhir:v "mL/(2.h)" ] ;
+         fhir:display [ fhir:v "milliliter per 2 hour" ]
+       ] [
+         fhir:code [ fhir:v "mL/(24.h)" ] ;
+         fhir:display [ fhir:v "milliliter per 24 hour" ]
+       ] [
+         fhir:code [ fhir:v "mL/(4.h)" ] ;
+         fhir:display [ fhir:v "milliliter per 4 hour" ]
+       ] [
+         fhir:code [ fhir:v "mL/(5.h)" ] ;
+         fhir:display [ fhir:v "milliliter per 5 hour" ]
+       ] [
+         fhir:code [ fhir:v "mL/(6.h)" ] ;
+         fhir:display [ fhir:v "milliliter per 6 hour" ]
+       ] [
+         fhir:code [ fhir:v "mL/(72.h)" ] ;
+         fhir:display [ fhir:v "milliliter per 72 hour" ]
+       ] [
+         fhir:code [ fhir:v "mL/(8.h)" ] ;
+         fhir:display [ fhir:v "milliliter per 8 hour" ]
+       ] [
+         fhir:code [ fhir:v "mL/(8.h)/kg" ] ;
+         fhir:display [ fhir:v "milliliter per 8 hour per kilogram" ]
+       ] [
+         fhir:code [ fhir:v "mL/[sin_i]" ] ;
+         fhir:display [ fhir:v "milliliter per square inch (international)" ]
+       ] [
+         fhir:code [ fhir:v "mL/{beat}" ] ;
+         fhir:display [ fhir:v "milliliter per heart beat" ]
+       ] [
+         fhir:code [ fhir:v "mL/{beat}/m2" ] ;
+         fhir:display [ fhir:v "milliliter per heart beat per square meter" ]
+       ] [
+         fhir:code [ fhir:v "mL/cm[H2O]" ] ;
+         fhir:display [ fhir:v "milliliter per centimeter of water" ]
+       ] [
+         fhir:code [ fhir:v "mL/d" ] ;
+         fhir:display [ fhir:v "milliliter per day" ]
+       ] [
+         fhir:code [ fhir:v "mL/dL" ] ;
+         fhir:display [ fhir:v "milliliter per deciliter" ]
+       ] [
+         fhir:code [ fhir:v "mL/h" ] ;
+         fhir:display [ fhir:v "milliliter per hour" ]
+       ] [
+         fhir:code [ fhir:v "mL/kg" ] ;
+         fhir:display [ fhir:v "milliliter per kilogram" ]
+       ] [
+         fhir:code [ fhir:v "mL/kg/(8.h)" ] ;
+         fhir:display [ fhir:v "milliliter per kilogram per 8 hour" ]
+       ] [
+         fhir:code [ fhir:v "mL/kg/d" ] ;
+         fhir:display [ fhir:v "milliliter per kilogram per day" ]
+       ] [
+         fhir:code [ fhir:v "mL/kg/h" ] ;
+         fhir:display [ fhir:v "milliliter per kilogram per hour" ]
+       ] [
+         fhir:code [ fhir:v "mL/kg/min" ] ;
+         fhir:display [ fhir:v "milliliter per kilogram per minute" ]
+       ] [
+         fhir:code [ fhir:v "mL/m2" ] ;
+         fhir:display [ fhir:v "milliliter per square meter" ]
+       ] [
+         fhir:code [ fhir:v "mL/mbar" ] ;
+         fhir:display [ fhir:v "milliliter per millibar" ]
+       ] [
+         fhir:code [ fhir:v "mL/min" ] ;
+         fhir:display [ fhir:v "milliliter per minute" ]
+       ] [
+         fhir:code [ fhir:v "mL/min/{1.73_m2}" ] ;
+         fhir:display [ fhir:v "milliliter per minute per 1.73 square meter" ]
+       ] [
+         fhir:code [ fhir:v "mL/min/m2" ] ;
+         fhir:display [ fhir:v "milliliter per minute per square meter" ]
+       ] [
+         fhir:code [ fhir:v "mL/mm" ] ;
+         fhir:display [ fhir:v "milliliter per millimeter" ]
+       ] [
+         fhir:code [ fhir:v "mL/s" ] ;
+         fhir:display [ fhir:v "milliliter per second" ]
+       ] [
+         fhir:code [ fhir:v "mL{fetal_RBCs}" ] ;
+         fhir:display [ fhir:v "milliliter of fetal red blood cells" ]
+       ] [
+         fhir:code [ fhir:v "mm" ] ;
+         fhir:display [ fhir:v "millimeter" ]
+       ] [
+         fhir:code [ fhir:v "mm/h" ] ;
+         fhir:display [ fhir:v "millimeter per hour" ]
+       ] [
+         fhir:code [ fhir:v "mm/min" ] ;
+         fhir:display [ fhir:v "millimeter per minute" ]
+       ] [
+         fhir:code [ fhir:v "mm[H2O]" ] ;
+         fhir:display [ fhir:v "millimeter of water" ]
+       ] [
+         fhir:code [ fhir:v "mm[Hg]" ] ;
+         fhir:display [ fhir:v "millimeter of mercury" ]
+       ] [
+         fhir:code [ fhir:v "mm2" ] ;
+         fhir:display [ fhir:v "square millimeter" ]
+       ] [
+         fhir:code [ fhir:v "mmol" ] ;
+         fhir:display [ fhir:v "millimole" ]
+       ] [
+         fhir:code [ fhir:v "mmol/(12.h)" ] ;
+         fhir:display [ fhir:v "millimole per 12 hour" ]
+       ] [
+         fhir:code [ fhir:v "mmol/(2.h)" ] ;
+         fhir:display [ fhir:v "millimole per 2 hour" ]
+       ] [
+         fhir:code [ fhir:v "mmol/(24.h)" ] ;
+         fhir:display [ fhir:v "millimole per 24 hour" ]
+       ] [
+         fhir:code [ fhir:v "mmol/(5.h)" ] ;
+         fhir:display [ fhir:v "millimole per 5 hour" ]
+       ] [
+         fhir:code [ fhir:v "mmol/(6.h)" ] ;
+         fhir:display [ fhir:v "millimole per 6 hour" ]
+       ] [
+         fhir:code [ fhir:v "mmol/(8.h)" ] ;
+         fhir:display [ fhir:v "millimole per 8 hour" ]
+       ] [
+         fhir:code [ fhir:v "mmol/{ejaculate}" ] ;
+         fhir:display [ fhir:v "millimole per ejaculate" ]
+       ] [
+         fhir:code [ fhir:v "mmol/{specimen}" ] ;
+         fhir:display [ fhir:v "millimole per specimen" ]
+       ] [
+         fhir:code [ fhir:v "mmol/{total_vol}" ] ;
+         fhir:display [ fhir:v "millimole per total volume" ]
+       ] [
+         fhir:code [ fhir:v "mmol/d" ] ;
+         fhir:display [ fhir:v "millimole per day" ]
+       ] [
+         fhir:code [ fhir:v "mmol/dL" ] ;
+         fhir:display [ fhir:v "millimole per deciliter" ]
+       ] [
+         fhir:code [ fhir:v "mmol/g" ] ;
+         fhir:display [ fhir:v "millimole per gram" ]
+       ] [
+         fhir:code [ fhir:v "mmol/g{creat}" ] ;
+         fhir:display [ fhir:v "millimole per gram of creatinine" ]
+       ] [
+         fhir:code [ fhir:v "mmol/h" ] ;
+         fhir:display [ fhir:v "millimole per hour" ]
+       ] [
+         fhir:code [ fhir:v "mmol/h/mg{Hb}" ] ;
+         fhir:display [ fhir:v "millimole per hour per milligram of hemoglobin" ]
+       ] [
+         fhir:code [ fhir:v "mmol/h/mg{prot}" ] ;
+         fhir:display [ fhir:v "millimole per hour per milligram of protein" ]
+       ] [
+         fhir:code [ fhir:v "mmol/kg" ] ;
+         fhir:display [ fhir:v "millimole per kilogram" ]
+       ] [
+         fhir:code [ fhir:v "mmol/kg/(8.h)" ] ;
+         fhir:display [ fhir:v "millimole per kilogram per 8 hour" ]
+       ] [
+         fhir:code [ fhir:v "mmol/kg/d" ] ;
+         fhir:display [ fhir:v "millimole per kilogram per day" ]
+       ] [
+         fhir:code [ fhir:v "mmol/kg/h" ] ;
+         fhir:display [ fhir:v "millimole per kilogram per hour" ]
+       ] [
+         fhir:code [ fhir:v "mmol/kg/min" ] ;
+         fhir:display [ fhir:v "millimole per kilogram per minute" ]
+       ] [
+         fhir:code [ fhir:v "mmol/L" ] ;
+         fhir:display [ fhir:v "millimole per liter" ]
+       ] [
+         fhir:code [ fhir:v "mmol/L{RBCs}" ] ;
+         fhir:display [ fhir:v "millimole per liter of red blood cells" ]
+       ] [
+         fhir:code [ fhir:v "mmol/m2" ] ;
+         fhir:display [ fhir:v "millimole per square meter" ]
+       ] [
+         fhir:code [ fhir:v "mmol/min" ] ;
+         fhir:display [ fhir:v "millimole per minute" ]
+       ] [
+         fhir:code [ fhir:v "mmol/mmol" ] ;
+         fhir:display [ fhir:v "millimole per millimole" ]
+       ] [
+         fhir:code [ fhir:v "mmol/mmol{creat}" ] ;
+         fhir:display [ fhir:v "millimole per millmole of creatinine" ]
+       ] [
+         fhir:code [ fhir:v "mmol/mmol{urea}" ] ;
+         fhir:display [ fhir:v "millimole per millimole of urea" ]
+       ] [
+         fhir:code [ fhir:v "mmol/mol" ] ;
+         fhir:display [ fhir:v "millimole per mole" ]
+       ] [
+         fhir:code [ fhir:v "mmol/mol{creat}" ] ;
+         fhir:display [ fhir:v "millimole per mole of creatinine" ]
+       ] [
+         fhir:code [ fhir:v "mmol/s/L" ] ;
+         fhir:display [ fhir:v "millimole per second per liter" ]
+       ] [
+         fhir:code [ fhir:v "mo" ] ;
+         fhir:display [ fhir:v "month" ]
+       ] [
+         fhir:code [ fhir:v "mol" ] ;
+         fhir:display [ fhir:v "mole" ]
+       ] [
+         fhir:code [ fhir:v "mol/kg" ] ;
+         fhir:display [ fhir:v "mole per kilogram" ]
+       ] [
+         fhir:code [ fhir:v "mol/kg/s" ] ;
+         fhir:display [ fhir:v "mole per kilogram per second" ]
+       ] [
+         fhir:code [ fhir:v "mol/L" ] ;
+         fhir:display [ fhir:v "mole per liter" ]
+       ] [
+         fhir:code [ fhir:v "mol/m3" ] ;
+         fhir:display [ fhir:v "mole per cubic meter" ]
+       ] [
+         fhir:code [ fhir:v "mol/mL" ] ;
+         fhir:display [ fhir:v "mole per milliliter" ]
+       ] [
+         fhir:code [ fhir:v "mol/mol" ] ;
+         fhir:display [ fhir:v "mole per mole" ]
+       ] [
+         fhir:code [ fhir:v "mol/s" ] ;
+         fhir:display [ fhir:v "mole per second" ]
+       ] [
+         fhir:code [ fhir:v "mosm" ] ;
+         fhir:display [ fhir:v "milliosmole" ]
+       ] [
+         fhir:code [ fhir:v "mosm/kg" ] ;
+         fhir:display [ fhir:v "milliosmole per kilogram" ]
+       ] [
+         fhir:code [ fhir:v "mosm/L" ] ;
+         fhir:display [ fhir:v "milliosmole per liter" ]
+       ] [
+         fhir:code [ fhir:v "mPa" ] ;
+         fhir:display [ fhir:v "millipascal" ]
+       ] [
+         fhir:code [ fhir:v "mPa.s" ] ;
+         fhir:display [ fhir:v "millipascal second" ]
+       ] [
+         fhir:code [ fhir:v "Ms" ] ;
+         fhir:display [ fhir:v "megasecond" ]
+       ] [
+         fhir:code [ fhir:v "ms" ] ;
+         fhir:display [ fhir:v "millisecond" ]
+       ] [
+         fhir:code [ fhir:v "mU/g" ] ;
+         fhir:display [ fhir:v "milli enzyme unit per gram" ]
+       ] [
+         fhir:code [ fhir:v "mU/g{Hb}" ] ;
+         fhir:display [ fhir:v "milli enzyme unit per gram of hemoglobin" ]
+       ] [
+         fhir:code [ fhir:v "mU/g{prot}" ] ;
+         fhir:display [ fhir:v "milli enzyme unit per gram of protein" ]
+       ] [
+         fhir:code [ fhir:v "mU/L" ] ;
+         fhir:display [ fhir:v "milli enzyme unit per liter" ]
+       ] [
+         fhir:code [ fhir:v "mU/mg" ] ;
+         fhir:display [ fhir:v "milli enzyme unit per milligram" ]
+       ] [
+         fhir:code [ fhir:v "mU/mg{creat}" ] ;
+         fhir:display [ fhir:v "milli enzyme unit per milligram of creatinine" ]
+       ] [
+         fhir:code [ fhir:v "mU/mL" ] ;
+         fhir:display [ fhir:v "milli enzyme unit per milliliter" ]
+       ] [
+         fhir:code [ fhir:v "mU/mL/min" ] ;
+         fhir:display [ fhir:v "milli enzyme unit per milliliter per minute" ]
+       ] [
+         fhir:code [ fhir:v "mU/mmol{creat}" ] ;
+         fhir:display [ fhir:v "milli enzyme unit per millimole of creatinine" ]
+       ] [
+         fhir:code [ fhir:v "mU/mmol{RBCs}" ] ;
+         fhir:display [ fhir:v "milli enzyme unit per millimole of red blood cells" ]
+       ] [
+         fhir:code [ fhir:v "mV" ] ;
+         fhir:display [ fhir:v "millivolt" ]
+       ] [
+         fhir:code [ fhir:v "mV/s" ] ;
+         fhir:display [ fhir:v "millivolt per second" ]
+       ] [
+         fhir:code [ fhir:v "N" ] ;
+         fhir:display [ fhir:v "Newton" ]
+       ] [
+         fhir:code [ fhir:v "N.cm" ] ;
+         fhir:display [ fhir:v "Newton centimeter" ]
+       ] [
+         fhir:code [ fhir:v "N.s" ] ;
+         fhir:display [ fhir:v "Newton second" ]
+       ] [
+         fhir:code [ fhir:v "ng" ] ;
+         fhir:display [ fhir:v "nanogram" ]
+       ] [
+         fhir:code [ fhir:v "ng/(24.h)" ] ;
+         fhir:display [ fhir:v "nanogram per 24 hour" ]
+       ] [
+         fhir:code [ fhir:v "ng/(8.h)" ] ;
+         fhir:display [ fhir:v "nanogram per 8 hour" ]
+       ] [
+         fhir:code [ fhir:v "ng/10*6" ] ;
+         fhir:display [ fhir:v "nanogram per million" ]
+       ] [
+         fhir:code [ fhir:v "ng/10*6{RBCs}" ] ;
+         fhir:display [ fhir:v "nanogram per million red blood cells" ]
+       ] [
+         fhir:code [ fhir:v "ng/d" ] ;
+         fhir:display [ fhir:v "nanogram per day" ]
+       ] [
+         fhir:code [ fhir:v "ng/dL" ] ;
+         fhir:display [ fhir:v "nanogram per deciliter" ]
+       ] [
+         fhir:code [ fhir:v "ng/g" ] ;
+         fhir:display [ fhir:v "nanogram per gram" ]
+       ] [
+         fhir:code [ fhir:v "ng/g{creat}" ] ;
+         fhir:display [ fhir:v "nanogram per gram of creatinine" ]
+       ] [
+         fhir:code [ fhir:v "ng/h" ] ;
+         fhir:display [ fhir:v "nanogram per hour" ]
+       ] [
+         fhir:code [ fhir:v "ng/kg" ] ;
+         fhir:display [ fhir:v "nanogram per kilogram" ]
+       ] [
+         fhir:code [ fhir:v "ng/kg/(8.h)" ] ;
+         fhir:display [ fhir:v "nanogram per kilogram per 8 hour" ]
+       ] [
+         fhir:code [ fhir:v "ng/kg/h" ] ;
+         fhir:display [ fhir:v "nanogram per kilogram per hour" ]
+       ] [
+         fhir:code [ fhir:v "ng/kg/min" ] ;
+         fhir:display [ fhir:v "nanogram per kilogram per minute" ]
+       ] [
+         fhir:code [ fhir:v "ng/L" ] ;
+         fhir:display [ fhir:v "nanogram per liter" ]
+       ] [
+         fhir:code [ fhir:v "ng/m2" ] ;
+         fhir:display [ fhir:v "nanogram per square meter" ]
+       ] [
+         fhir:code [ fhir:v "ng/mg" ] ;
+         fhir:display [ fhir:v "nanogram per milligram" ]
+       ] [
+         fhir:code [ fhir:v "ng/mg/h" ] ;
+         fhir:display [ fhir:v "nanogram per milligram per hour" ]
+       ] [
+         fhir:code [ fhir:v "ng/mg{creat}" ] ;
+         fhir:display [ fhir:v "nanogram per milligram of creatinine" ]
+       ] [
+         fhir:code [ fhir:v "ng/mg{prot}" ] ;
+         fhir:display [ fhir:v "nanogram per milligram of protein" ]
+       ] [
+         fhir:code [ fhir:v "ng/min" ] ;
+         fhir:display [ fhir:v "nanogram per minute" ]
+       ] [
+         fhir:code [ fhir:v "ng/mL" ] ;
+         fhir:display [ fhir:v "nanogram per millliiter" ]
+       ] [
+         fhir:code [ fhir:v "ng/mL/h" ] ;
+         fhir:display [ fhir:v "nanogram per milliliter per hour" ]
+       ] [
+         fhir:code [ fhir:v "ng/mL{RBCs}" ] ;
+         fhir:display [ fhir:v "nanogram per milliliter of red blood cells" ]
+       ] [
+         fhir:code [ fhir:v "ng/s" ] ;
+         fhir:display [ fhir:v "nanogram per second" ]
+       ] [
+         fhir:code [ fhir:v "ng/U" ] ;
+         fhir:display [ fhir:v "nanogram per enzyme unit" ]
+       ] [
+         fhir:code [ fhir:v "ng{FEU}/mL" ] ;
+         fhir:display [ fhir:v "nanogram fibrinogen equivalent unit per milliliter" ]
+       ] [
+         fhir:code [ fhir:v "nkat" ] ;
+         fhir:display [ fhir:v "nanokatal" ]
+       ] [
+         fhir:code [ fhir:v "nL" ] ;
+         fhir:display [ fhir:v "nanoliter" ]
+       ] [
+         fhir:code [ fhir:v "nm" ] ;
+         fhir:display [ fhir:v "nanometer" ]
+       ] [
+         fhir:code [ fhir:v "nm/s/L" ] ;
+         fhir:display [ fhir:v "nanometer per second per liter" ]
+       ] [
+         fhir:code [ fhir:v "nmol" ] ;
+         fhir:display [ fhir:v "nanomole" ]
+       ] [
+         fhir:code [ fhir:v "nmol/(24.h)" ] ;
+         fhir:display [ fhir:v "nanomole per 24 hour" ]
+       ] [
+         fhir:code [ fhir:v "nmol/d" ] ;
+         fhir:display [ fhir:v "nanomole per day" ]
+       ] [
+         fhir:code [ fhir:v "nmol/dL" ] ;
+         fhir:display [ fhir:v "nanomole per deciliter" ]
+       ] [
+         fhir:code [ fhir:v "nmol/dL{GF}" ] ;
+         fhir:display [ fhir:v "nanomole per deciliter of glomerular filtrate" ]
+       ] [
+         fhir:code [ fhir:v "nmol/g" ] ;
+         fhir:display [ fhir:v "nanomole per gram" ]
+       ] [
+         fhir:code [ fhir:v "nmol/g{creat}" ] ;
+         fhir:display [ fhir:v "nanomole per gram of creatinine" ]
+       ] [
+         fhir:code [ fhir:v "nmol/g{dry_wt}" ] ;
+         fhir:display [ fhir:v "nanomole per gram of dry weight" ]
+       ] [
+         fhir:code [ fhir:v "nmol/h/L" ] ;
+         fhir:display [ fhir:v "nanomole per hour per liter" ]
+       ] [
+         fhir:code [ fhir:v "nmol/h/mg{prot}" ] ;
+         fhir:display [ fhir:v "nanomole per hour per milligram of protein" ]
+       ] [
+         fhir:code [ fhir:v "nmol/h/mL" ] ;
+         fhir:display [ fhir:v "nanomole per hour per milliliter" ]
+       ] [
+         fhir:code [ fhir:v "nmol/L" ] ;
+         fhir:display [ fhir:v "nanomole per liter" ]
+       ] [
+         fhir:code [ fhir:v "nmol/L/mmol{creat}" ] ;
+         fhir:display [ fhir:v "nanomole per liter per millimole of creatinine" ]
+       ] [
+         fhir:code [ fhir:v "nmol/L{RBCs}" ] ;
+         fhir:display [ fhir:v "nanomole per liter of red blood cells" ]
+       ] [
+         fhir:code [ fhir:v "nmol/m/mg{prot}" ] ;
+         fhir:display [ fhir:v "nanomole per meter per milligram of protein" ]
+       ] [
+         fhir:code [ fhir:v "nmol/mg" ] ;
+         fhir:display [ fhir:v "nanomole per milligram" ]
+       ] [
+         fhir:code [ fhir:v "nmol/mg/h" ] ;
+         fhir:display [ fhir:v "nanomole per milligram per hour" ]
+       ] [
+         fhir:code [ fhir:v "nmol/mg{creat}" ] ;
+         fhir:display [ fhir:v "nanomole per milligram of creatinine" ]
+       ] [
+         fhir:code [ fhir:v "nmol/mg{prot}" ] ;
+         fhir:display [ fhir:v "nanomole per milligram of protein" ]
+       ] [
+         fhir:code [ fhir:v "nmol/mg{prot}/h" ] ;
+         fhir:display [ fhir:v "nanomole per milligram of protein per hour" ]
+       ] [
+         fhir:code [ fhir:v "nmol/min" ] ;
+         fhir:display [ fhir:v "nanomole per minute" ]
+       ] [
+         fhir:code [ fhir:v "nmol/min/10*6{cells}" ] ;
+         fhir:display [ fhir:v "nanomole per minute per million cells" ]
+       ] [
+         fhir:code [ fhir:v "nmol/min/mg{Hb}" ] ;
+         fhir:display [ fhir:v "nanomole per minute per milligram of hemoglobin" ]
+       ] [
+         fhir:code [ fhir:v "nmol/min/mg{prot}" ] ;
+         fhir:display [ fhir:v "nanomole per minute per milligram of protein" ]
+       ] [
+         fhir:code [ fhir:v "nmol/min/mg{protein}" ] ;
+         fhir:display [ fhir:v "nanomole per minute per milligram protein" ]
+       ] [
+         fhir:code [ fhir:v "nmol/min/mL" ] ;
+         fhir:display [ fhir:v "nanomole per minute per milliliter" ]
+       ] [
+         fhir:code [ fhir:v "nmol/mL" ] ;
+         fhir:display [ fhir:v "nanomole per milliliter" ]
+       ] [
+         fhir:code [ fhir:v "nmol/mL/h" ] ;
+         fhir:display [ fhir:v "nanomole per milliliter per hour" ]
+       ] [
+         fhir:code [ fhir:v "nmol/mL/min" ] ;
+         fhir:display [ fhir:v "nanomole per milliliter per minute" ]
+       ] [
+         fhir:code [ fhir:v "nmol/mmol" ] ;
+         fhir:display [ fhir:v "nanomole per millimole" ]
+       ] [
+         fhir:code [ fhir:v "nmol/mmol{creat}" ] ;
+         fhir:display [ fhir:v "nanomole per millimole of creatinine" ]
+       ] [
+         fhir:code [ fhir:v "nmol/mol" ] ;
+         fhir:display [ fhir:v "nanomole per mole" ]
+       ] [
+         fhir:code [ fhir:v "nmol/mol{creat}" ] ;
+         fhir:display [ fhir:v "nanomole per mole creatinine" ]
+       ] [
+         fhir:code [ fhir:v "nmol/nmol" ] ;
+         fhir:display [ fhir:v "nanomole per nanomole" ]
+       ] [
+         fhir:code [ fhir:v "nmol/s" ] ;
+         fhir:display [ fhir:v "nanomole per second" ]
+       ] [
+         fhir:code [ fhir:v "nmol/s/L" ] ;
+         fhir:display [ fhir:v "nanomole per second per liter" ]
+       ] [
+         fhir:code [ fhir:v "nmol/umol{creat}" ] ;
+         fhir:display [ fhir:v "nanomole per micromole of creatinine" ]
+       ] [
+         fhir:code [ fhir:v "nmol{ATP}" ] ;
+         fhir:display [ fhir:v "nanomole of ATP" ]
+       ] [
+         fhir:code [ fhir:v "nmol{BCE}" ] ;
+         fhir:display [ fhir:v "nanomole bone collagen equivalent" ]
+       ] [
+         fhir:code [ fhir:v "nmol{BCE}/L" ] ;
+         fhir:display [ fhir:v "nanomole bone collagen equivalent per liter" ]
+       ] [
+         fhir:code [ fhir:v "ns" ] ;
+         fhir:display [ fhir:v "nanosecond" ]
+       ] [
+         fhir:code [ fhir:v "nU/{RBC}" ] ;
+         fhir:display [ fhir:v "nanoenzyme unit per red blood cell" ]
+       ] [
+         fhir:code [ fhir:v "nU/mL" ] ;
+         fhir:display [ fhir:v "nanoenzyme unit per milliliter" ]
+       ] [
+         fhir:code [ fhir:v "Ohm" ] ;
+         fhir:display [ fhir:v "Ohm" ]
+       ] [
+         fhir:code [ fhir:v "Ohm.m" ] ;
+         fhir:display [ fhir:v "Ohm meter" ]
+       ] [
+         fhir:code [ fhir:v "osm" ] ;
+         fhir:display [ fhir:v "osmole" ]
+       ] [
+         fhir:code [ fhir:v "osm/kg" ] ;
+         fhir:display [ fhir:v "osmole per kilogram" ]
+       ] [
+         fhir:code [ fhir:v "osm/L" ] ;
+         fhir:display [ fhir:v "osmole per liter" ]
+       ] [
+         fhir:code [ fhir:v "Pa" ] ;
+         fhir:display [ fhir:v "Pascal" ]
+       ] [
+         fhir:code [ fhir:v "pA" ] ;
+         fhir:display [ fhir:v "picoampere" ]
+       ] [
+         fhir:code [ fhir:v "pg" ] ;
+         fhir:display [ fhir:v "picogram" ]
+       ] [
+         fhir:code [ fhir:v "pg/{cell}" ] ;
+         fhir:display [ fhir:v "picogram per cell" ]
+       ] [
+         fhir:code [ fhir:v "pg/{RBC}" ] ;
+         fhir:display [ fhir:v "picogram per red blood cell" ]
+       ] [
+         fhir:code [ fhir:v "pg/dL" ] ;
+         fhir:display [ fhir:v "picogram per deciliter" ]
+       ] [
+         fhir:code [ fhir:v "pg/L" ] ;
+         fhir:display [ fhir:v "picogram per liter" ]
+       ] [
+         fhir:code [ fhir:v "pg/mg" ] ;
+         fhir:display [ fhir:v "picogram per milligram" ]
+       ] [
+         fhir:code [ fhir:v "pg/mg{creat}" ] ;
+         fhir:display [ fhir:v "picogram per milligram of creatinine" ]
+       ] [
+         fhir:code [ fhir:v "pg/mL" ] ;
+         fhir:display [ fhir:v "picogram per milliliter" ]
+       ] [
+         fhir:code [ fhir:v "pg/mL{sLT}" ] ;
+         fhir:display [ fhir:v "picogram per milliliter sulfidoleukotrienes" ]
+       ] [
+         fhir:code [ fhir:v "pg/mm" ] ;
+         fhir:display [ fhir:v "picogram per millimeter" ]
+       ] [
+         fhir:code [ fhir:v "pkat" ] ;
+         fhir:display [ fhir:v "picokatal" ]
+       ] [
+         fhir:code [ fhir:v "pL" ] ;
+         fhir:display [ fhir:v "picoliter" ]
+       ] [
+         fhir:code [ fhir:v "pm" ] ;
+         fhir:display [ fhir:v "picometer" ]
+       ] [
+         fhir:code [ fhir:v "pmol" ] ;
+         fhir:display [ fhir:v "picomole" ]
+       ] [
+         fhir:code [ fhir:v "pmol/(24.h)" ] ;
+         fhir:display [ fhir:v "picomole per 24 hour" ]
+       ] [
+         fhir:code [ fhir:v "pmol/{RBC}" ] ;
+         fhir:display [ fhir:v "picomole per red blood cell" ]
+       ] [
+         fhir:code [ fhir:v "pmol/d" ] ;
+         fhir:display [ fhir:v "picomole per day" ]
+       ] [
+         fhir:code [ fhir:v "pmol/dL" ] ;
+         fhir:display [ fhir:v "picomole per deciliter" ]
+       ] [
+         fhir:code [ fhir:v "pmol/g" ] ;
+         fhir:display [ fhir:v "picomole per gram" ]
+       ] [
+         fhir:code [ fhir:v "pmol/h/mg{prot}" ] ;
+         fhir:display [ fhir:v "picomole per hour per milligram of protein" ]
+       ] [
+         fhir:code [ fhir:v "pmol/H/mg{protein}" ] ;
+         fhir:display [ fhir:v "picomole per hour per milligram protein" ]
+       ] [
+         fhir:code [ fhir:v "pmol/h/mL" ] ;
+         fhir:display [ fhir:v "picomole per hour per milliliter" ]
+       ] [
+         fhir:code [ fhir:v "pmol/L" ] ;
+         fhir:display [ fhir:v "picomole per liter" ]
+       ] [
+         fhir:code [ fhir:v "pmol/mg{prot}" ] ;
+         fhir:display [ fhir:v "picomole per milligram of protein" ]
+       ] [
+         fhir:code [ fhir:v "pmol/min" ] ;
+         fhir:display [ fhir:v "picomole per minute" ]
+       ] [
+         fhir:code [ fhir:v "pmol/min/mg{prot}" ] ;
+         fhir:display [ fhir:v "picomole per minute per milligram of protein" ]
+       ] [
+         fhir:code [ fhir:v "pmol/mL" ] ;
+         fhir:display [ fhir:v "picomole per milliliter" ]
+       ] [
+         fhir:code [ fhir:v "pmol/mmol{creat}" ] ;
+         fhir:display [ fhir:v "picomole per millimole of creatinine" ]
+       ] [
+         fhir:code [ fhir:v "pmol/umol" ] ;
+         fhir:display [ fhir:v "picomole per micromole" ]
+       ] [
+         fhir:code [ fhir:v "pmol/umol{creat}" ] ;
+         fhir:display [ fhir:v "picomole per micromole of creatinine" ]
+       ] [
+         fhir:code [ fhir:v "ps" ] ;
+         fhir:display [ fhir:v "picosecond" ]
+       ] [
+         fhir:code [ fhir:v "pT" ] ;
+         fhir:display [ fhir:v "picotesla" ]
+       ] [
+         fhir:code [ fhir:v "s" ] ;
+         fhir:display [ fhir:v "second" ]
+       ] [
+         fhir:code [ fhir:v "S" ] ;
+         fhir:display [ fhir:v "Siemens" ]
+       ] [
+         fhir:code [ fhir:v "s/{control}" ] ;
+         fhir:display [ fhir:v "second per control" ]
+       ] [
+         fhir:code [ fhir:v "Sv" ] ;
+         fhir:display [ fhir:v "Sievert" ]
+       ] [
+         fhir:code [ fhir:v "t" ] ;
+         fhir:display [ fhir:v "metric ton" ]
+       ] [
+         fhir:code [ fhir:v "T" ] ;
+         fhir:display [ fhir:v "Tesla" ]
+       ] [
+         fhir:code [ fhir:v "Torr" ] ;
+         fhir:display [ fhir:v "Torr" ]
+       ] [
+         fhir:code [ fhir:v "U" ] ;
+         fhir:display [ fhir:v "enzyme unit" ]
+       ] [
+         fhir:code [ fhir:v "U/(10.g){feces}" ] ;
+         fhir:display [ fhir:v "enzyme unit per 10 gram of feces" ]
+       ] [
+         fhir:code [ fhir:v "U/(12.h)" ] ;
+         fhir:display [ fhir:v "enzyme unit per 12 hour" ]
+       ] [
+         fhir:code [ fhir:v "U/(2.h)" ] ;
+         fhir:display [ fhir:v "enzyme unit per 2 hour" ]
+       ] [
+         fhir:code [ fhir:v "U/(24.h)" ] ;
+         fhir:display [ fhir:v "enzyme unit per 24 hour" ]
+       ] [
+         fhir:code [ fhir:v "U/10" ] ;
+         fhir:display [ fhir:v "enzyme unit per 10" ]
+       ] [
+         fhir:code [ fhir:v "U/10*10" ] ;
+         fhir:display [ fhir:v "enzyme unit per 10 billion" ]
+       ] [
+         fhir:code [ fhir:v "U/10*10{cells}" ] ;
+         fhir:display [ fhir:v "enzyme unit per 10 billion cells" ]
+       ] [
+         fhir:code [ fhir:v "U/10*12" ] ;
+         fhir:display [ fhir:v "enzyme unit per trillion" ]
+       ] [
+         fhir:code [ fhir:v "U/10*12{RBCs}" ] ;
+         fhir:display [ fhir:v "enzyme unit per trillion red blood cells" ]
+       ] [
+         fhir:code [ fhir:v "U/10*6" ] ;
+         fhir:display [ fhir:v "enzyme unit per million" ]
+       ] [
+         fhir:code [ fhir:v "U/10*9" ] ;
+         fhir:display [ fhir:v "enzyme unit per billion" ]
+       ] [
+         fhir:code [ fhir:v "U/d" ] ;
+         fhir:display [ fhir:v "enzyme unit per day" ]
+       ] [
+         fhir:code [ fhir:v "U/dL" ] ;
+         fhir:display [ fhir:v "enzyme unit per deciliter" ]
+       ] [
+         fhir:code [ fhir:v "U/g" ] ;
+         fhir:display [ fhir:v "enzyme unit per gram" ]
+       ] [
+         fhir:code [ fhir:v "U/g{creat}" ] ;
+         fhir:display [ fhir:v "enzyme unit per gram of creatinine" ]
+       ] [
+         fhir:code [ fhir:v "U/g{Hb}" ] ;
+         fhir:display [ fhir:v "enzyme unit per gram of hemoglobin" ]
+       ] [
+         fhir:code [ fhir:v "U/g{protein}" ] ;
+         fhir:display [ fhir:v "enzyme unit per gram of protein" ]
+       ] [
+         fhir:code [ fhir:v "U/h" ] ;
+         fhir:display [ fhir:v "enzyme unit per hour" ]
+       ] [
+         fhir:code [ fhir:v "U/kg{Hb}" ] ;
+         fhir:display [ fhir:v "enzyme unit per kilogram of hemoglobin" ]
+       ] [
+         fhir:code [ fhir:v "U/L" ] ;
+         fhir:display [ fhir:v "enzyme unit per liter" ]
+       ] [
+         fhir:code [ fhir:v "U/min" ] ;
+         fhir:display [ fhir:v "enzyme unit per minute" ]
+       ] [
+         fhir:code [ fhir:v "U/mL" ] ;
+         fhir:display [ fhir:v "enzyme unit per milliliter" ]
+       ] [
+         fhir:code [ fhir:v "U/mL{RBCs}" ] ;
+         fhir:display [ fhir:v "enzyme unit per milliliter of red blood cells" ]
+       ] [
+         fhir:code [ fhir:v "U/mmol{creat}" ] ;
+         fhir:display [ fhir:v "enzyme unit per millimole of creatinine" ]
+       ] [
+         fhir:code [ fhir:v "U/s" ] ;
+         fhir:display [ fhir:v "enzyme unit per second" ]
+       ] [
+         fhir:code [ fhir:v "u[IU]" ] ;
+         fhir:display [ fhir:v "micro international unit" ]
+       ] [
+         fhir:code [ fhir:v "u[IU]/L" ] ;
+         fhir:display [ fhir:v "microinternational unit per liter" ]
+       ] [
+         fhir:code [ fhir:v "u[IU]/mL" ] ;
+         fhir:display [ fhir:v "micro international unit per milliliter" ]
+       ] [
+         fhir:code [ fhir:v "U{25Cel}/L" ] ;
+         fhir:display [ fhir:v "enzyme unit per liter at 25 deg Celsius" ]
+       ] [
+         fhir:code [ fhir:v "U{37Cel}/L" ] ;
+         fhir:display [ fhir:v "enzyme unit per liter at 37 deg Celsius" ]
+       ] [
+         fhir:code [ fhir:v "ueq" ] ;
+         fhir:display [ fhir:v "microequivalent" ]
+       ] [
+         fhir:code [ fhir:v "ueq/L" ] ;
+         fhir:display [ fhir:v "microequivalent per liter" ]
+       ] [
+         fhir:code [ fhir:v "ueq/mL" ] ;
+         fhir:display [ fhir:v "microequivalent per milliliter" ]
+       ] [
+         fhir:code [ fhir:v "ug" ] ;
+         fhir:display [ fhir:v "microgram" ]
+       ] [
+         fhir:code [ fhir:v "ug/(100.g)" ] ;
+         fhir:display [ fhir:v "microgram per 100 gram" ]
+       ] [
+         fhir:code [ fhir:v "ug/(24.h)" ] ;
+         fhir:display [ fhir:v "microgram per 24 hour" ]
+       ] [
+         fhir:code [ fhir:v "ug/(8.h)" ] ;
+         fhir:display [ fhir:v "microgram per 8 hour" ]
+       ] [
+         fhir:code [ fhir:v "ug/[sft_i]" ] ;
+         fhir:display [ fhir:v "microgram per square foot (international)" ]
+       ] [
+         fhir:code [ fhir:v "ug/{specimen}" ] ;
+         fhir:display [ fhir:v "microgram per specimen" ]
+       ] [
+         fhir:code [ fhir:v "ug/d" ] ;
+         fhir:display [ fhir:v "microgram per day" ]
+       ] [
+         fhir:code [ fhir:v "ug/dL" ] ;
+         fhir:display [ fhir:v "microgram per deciliter" ]
+       ] [
+         fhir:code [ fhir:v "ug/dL{RBCs}" ] ;
+         fhir:display [ fhir:v "microgram per deciliter of red blood cells" ]
+       ] [
+         fhir:code [ fhir:v "ug/g" ] ;
+         fhir:display [ fhir:v "microgram per gram" ]
+       ] [
+         fhir:code [ fhir:v "ug/g{creat}" ] ;
+         fhir:display [ fhir:v "microgram per gram of creatinine" ]
+       ] [
+         fhir:code [ fhir:v "ug/g{dry_tissue}" ] ;
+         fhir:display [ fhir:v "microgram per gram of dry tissue" ]
+       ] [
+         fhir:code [ fhir:v "ug/g{dry_wt}" ] ;
+         fhir:display [ fhir:v "microgram per gram of dry weight" ]
+       ] [
+         fhir:code [ fhir:v "ug/g{feces}" ] ;
+         fhir:display [ fhir:v "microgram per gram of feces" ]
+       ] [
+         fhir:code [ fhir:v "ug/g{hair}" ] ;
+         fhir:display [ fhir:v "microgram per gram of hair" ]
+       ] [
+         fhir:code [ fhir:v "ug/g{Hb}" ] ;
+         fhir:display [ fhir:v "microgram per gram of hemoglobin" ]
+       ] [
+         fhir:code [ fhir:v "ug/g{tissue}" ] ;
+         fhir:display [ fhir:v "microgram per gram of tissue" ]
+       ] [
+         fhir:code [ fhir:v "ug/h" ] ;
+         fhir:display [ fhir:v "microgram per hour" ]
+       ] [
+         fhir:code [ fhir:v "ug/kg" ] ;
+         fhir:display [ fhir:v "microgram per kilogram" ]
+       ] [
+         fhir:code [ fhir:v "ug/kg/(8.h)" ] ;
+         fhir:display [ fhir:v "microgram per kilogram per 8 hour" ]
+       ] [
+         fhir:code [ fhir:v "ug/kg/d" ] ;
+         fhir:display [ fhir:v "microgram per kilogram per day" ]
+       ] [
+         fhir:code [ fhir:v "ug/kg/h" ] ;
+         fhir:display [ fhir:v "microgram per kilogram per hour" ]
+       ] [
+         fhir:code [ fhir:v "ug/kg/min" ] ;
+         fhir:display [ fhir:v "microgram per kilogram per minute" ]
+       ] [
+         fhir:code [ fhir:v "ug/L" ] ;
+         fhir:display [ fhir:v "microgram per liter" ]
+       ] [
+         fhir:code [ fhir:v "ug/L/(24.h)" ] ;
+         fhir:display [ fhir:v "microgram per liter per 24 hour" ]
+       ] [
+         fhir:code [ fhir:v "ug/L{RBCs}" ] ;
+         fhir:display [ fhir:v "microgram per liter of red blood cells" ]
+       ] [
+         fhir:code [ fhir:v "ug/m2" ] ;
+         fhir:display [ fhir:v "microgram per square meter" ]
+       ] [
+         fhir:code [ fhir:v "ug/m3" ] ;
+         fhir:display [ fhir:v "microgram per cubic meter" ]
+       ] [
+         fhir:code [ fhir:v "ug/mg" ] ;
+         fhir:display [ fhir:v "microgram per milligram" ]
+       ] [
+         fhir:code [ fhir:v "ug/mg{creat}" ] ;
+         fhir:display [ fhir:v "microgram per milligram of creatinine" ]
+       ] [
+         fhir:code [ fhir:v "ug/min" ] ;
+         fhir:display [ fhir:v "microgram per minute" ]
+       ] [
+         fhir:code [ fhir:v "ug/mL" ] ;
+         fhir:display [ fhir:v "microgram per milliliter" ]
+       ] [
+         fhir:code [ fhir:v "ug/mL{class}" ] ;
+         fhir:display [ fhir:v "microgram per milliliter class" ]
+       ] [
+         fhir:code [ fhir:v "ug/mL{eqv}" ] ;
+         fhir:display [ fhir:v "microgram per milliliter equivalent" ]
+       ] [
+         fhir:code [ fhir:v "ug/mmol" ] ;
+         fhir:display [ fhir:v "microgram per millimole" ]
+       ] [
+         fhir:code [ fhir:v "ug/mmol{creat}" ] ;
+         fhir:display [ fhir:v "microgram per millimole of creatinine" ]
+       ] [
+         fhir:code [ fhir:v "ug/ng" ] ;
+         fhir:display [ fhir:v "microgram per nanogram" ]
+       ] [
+         fhir:code [ fhir:v "ug{FEU}/mL" ] ;
+         fhir:display [ fhir:v "microgram fibrinogen equivalent unit per milliliter" ]
+       ] [
+         fhir:code [ fhir:v "ukat" ] ;
+         fhir:display [ fhir:v "microkatal" ]
+       ] [
+         fhir:code [ fhir:v "uL" ] ;
+         fhir:display [ fhir:v "microliter" ]
+       ] [
+         fhir:code [ fhir:v "uL/(2.h)" ] ;
+         fhir:display [ fhir:v "microliter per 2 hour" ]
+       ] [
+         fhir:code [ fhir:v "uL/h" ] ;
+         fhir:display [ fhir:v "microliter per hour" ]
+       ] [
+         fhir:code [ fhir:v "um" ] ;
+         fhir:display [ fhir:v "micrometer" ]
+       ] [
+         fhir:code [ fhir:v "um/s" ] ;
+         fhir:display [ fhir:v "microns per second" ]
+       ] [
+         fhir:code [ fhir:v "umol" ] ;
+         fhir:display [ fhir:v "micromole" ]
+       ] [
+         fhir:code [ fhir:v "umol/(2.h)" ] ;
+         fhir:display [ fhir:v "micromole per 2 hour" ]
+       ] [
+         fhir:code [ fhir:v "umol/(24.h)" ] ;
+         fhir:display [ fhir:v "micromole per 24 hour" ]
+       ] [
+         fhir:code [ fhir:v "umol/(8.h)" ] ;
+         fhir:display [ fhir:v "micromole per 8 hour" ]
+       ] [
+         fhir:code [ fhir:v "umol/10*6{RBC}" ] ;
+         fhir:display [ fhir:v "micromole per million red blood cell" ]
+       ] [
+         fhir:code [ fhir:v "umol/d" ] ;
+         fhir:display [ fhir:v "micromole per day" ]
+       ] [
+         fhir:code [ fhir:v "umol/dL" ] ;
+         fhir:display [ fhir:v "micromole per deciliter" ]
+       ] [
+         fhir:code [ fhir:v "umol/dL{GF}" ] ;
+         fhir:display [ fhir:v "micromole per deciliter of glomerular filtrate" ]
+       ] [
+         fhir:code [ fhir:v "umol/g" ] ;
+         fhir:display [ fhir:v "micromole per gram" ]
+       ] [
+         fhir:code [ fhir:v "umol/g{creat}" ] ;
+         fhir:display [ fhir:v "micromole per gram of creatinine" ]
+       ] [
+         fhir:code [ fhir:v "umol/g{Hb}" ] ;
+         fhir:display [ fhir:v "micromole per gram of hemoglobin" ]
+       ] [
+         fhir:code [ fhir:v "umol/h" ] ;
+         fhir:display [ fhir:v "micromole per hour" ]
+       ] [
+         fhir:code [ fhir:v "umol/kg" ] ;
+         fhir:display [ fhir:v "micromole per kilogram" ]
+       ] [
+         fhir:code [ fhir:v "umol/kg{feces}" ] ;
+         fhir:display [ fhir:v "micromole per kilogram of feces" ]
+       ] [
+         fhir:code [ fhir:v "umol/L" ] ;
+         fhir:display [ fhir:v "micromole per liter" ]
+       ] [
+         fhir:code [ fhir:v "umol/L/h" ] ;
+         fhir:display [ fhir:v "micromole per liter per hour" ]
+       ] [
+         fhir:code [ fhir:v "umol/L{RBCs}" ] ;
+         fhir:display [ fhir:v "micromole per liter of red blood cells" ]
+       ] [
+         fhir:code [ fhir:v "umol/mg" ] ;
+         fhir:display [ fhir:v "micromole per milligram" ]
+       ] [
+         fhir:code [ fhir:v "umol/mg{creat}" ] ;
+         fhir:display [ fhir:v "micromole per milligram of creatinine" ]
+       ] [
+         fhir:code [ fhir:v "umol/min" ] ;
+         fhir:display [ fhir:v "micromole per minute" ]
+       ] [
+         fhir:code [ fhir:v "umol/min/g" ] ;
+         fhir:display [ fhir:v "micromole per minute per gram" ]
+       ] [
+         fhir:code [ fhir:v "umol/min/g{mucosa}" ] ;
+         fhir:display [ fhir:v "micromole per minute per gram of mucosa" ]
+       ] [
+         fhir:code [ fhir:v "umol/min/g{prot}" ] ;
+         fhir:display [ fhir:v "micromole per minute per gram of protein" ]
+       ] [
+         fhir:code [ fhir:v "umol/min/L" ] ;
+         fhir:display [ fhir:v "micromole per minute per liter" ]
+       ] [
+         fhir:code [ fhir:v "umol/mL" ] ;
+         fhir:display [ fhir:v "micromole per milliliter" ]
+       ] [
+         fhir:code [ fhir:v "umol/mL/min" ] ;
+         fhir:display [ fhir:v "micromole per milliliter per minute" ]
+       ] [
+         fhir:code [ fhir:v "umol/mmol" ] ;
+         fhir:display [ fhir:v "micromole per millimole" ]
+       ] [
+         fhir:code [ fhir:v "umol/mmol{creat}" ] ;
+         fhir:display [ fhir:v "micromole per millimole of creatinine" ]
+       ] [
+         fhir:code [ fhir:v "umol/mol" ] ;
+         fhir:display [ fhir:v "micromole per mole" ]
+       ] [
+         fhir:code [ fhir:v "umol/mol{creat}" ] ;
+         fhir:display [ fhir:v "micromole per mole of creatinine" ]
+       ] [
+         fhir:code [ fhir:v "umol/mol{Hb}" ] ;
+         fhir:display [ fhir:v "micromole per mole of hemoglobin" ]
+       ] [
+         fhir:code [ fhir:v "umol/umol" ] ;
+         fhir:display [ fhir:v "micromole per micromole" ]
+       ] [
+         fhir:code [ fhir:v "umol/umol{creat}" ] ;
+         fhir:display [ fhir:v "micromole per micromole of creatinine" ]
+       ] [
+         fhir:code [ fhir:v "umol{BCE}/mol" ] ;
+         fhir:display [ fhir:v "micromole bone collagen equivalent per mole" ]
+       ] [
+         fhir:code [ fhir:v "uOhm" ] ;
+         fhir:display [ fhir:v "microOhm" ]
+       ] [
+         fhir:code [ fhir:v "us" ] ;
+         fhir:display [ fhir:v "microsecond" ]
+       ] [
+         fhir:code [ fhir:v "uU/g" ] ;
+         fhir:display [ fhir:v "micro enzyme unit per gram" ]
+       ] [
+         fhir:code [ fhir:v "uU/L" ] ;
+         fhir:display [ fhir:v "micro enzyme unit per liter" ]
+       ] [
+         fhir:code [ fhir:v "uU/mL" ] ;
+         fhir:display [ fhir:v "micro enzyme unit per milliliter" ]
+       ] [
+         fhir:code [ fhir:v "uV" ] ;
+         fhir:display [ fhir:v "microvolt" ]
+       ] [
+         fhir:code [ fhir:v "V" ] ;
+         fhir:display [ fhir:v "volt" ]
+       ] [
+         fhir:code [ fhir:v "Wb" ] ;
+         fhir:display [ fhir:v "Weber" ]
+       ] [
+         fhir:code [ fhir:v "wk" ] ;
+         fhir:display [ fhir:v "week" ]
+       ] [
+         fhir:code [ fhir:v "10*-3" ] ;
+         fhir:display [ fhir:v "ten to the power of minus three" ]
+       ] [
+         fhir:code [ fhir:v "10*-6" ] ;
+         fhir:display [ fhir:v "ten to the power of minus six" ]
+       ] [
+         fhir:code [ fhir:v "g/mol" ] ;
+         fhir:display [ fhir:v "gram per mole" ]
+       ] [
+         fhir:code [ fhir:v "mg/mol" ] ;
+         fhir:display [ fhir:v "milligram per mole" ]
+       ] [
+         fhir:code [ fhir:v "nmol/[IU]" ] ;
+         fhir:display [ fhir:v "nanomole per international unit" ]
+       ] [
+         fhir:code [ fhir:v "10*-9" ] ;
+         fhir:display [ fhir:v "ten to the power of minus nine" ]
+       ] [
+         fhir:code [ fhir:v "10*6.[IU]/L" ] ;
+         fhir:display [ fhir:v "million international unit per liter" ]
+       ] [
+         fhir:code [ fhir:v "10*9" ] ;
+         fhir:display [ fhir:v "billion" ]
+       ] [
+         fhir:code [ fhir:v "10*9/kg" ] ;
+         fhir:display [ fhir:v "billion per kilogram" ]
+       ] [
+         fhir:code [ fhir:v "10*3.[arb'U]/L" ] ;
+         fhir:display [ fhir:v "thousand arbitrary unit per liter" ]
+       ] [
+         fhir:code [ fhir:v "akat" ] ;
+         fhir:display [ fhir:v "attokatal" ]
+       ] [
+         fhir:code [ fhir:v "amol" ] ;
+         fhir:display [ fhir:v "attomole" ]
+       ] [
+         fhir:code [ fhir:v "[arb'U]/L" ] ;
+         fhir:display [ fhir:v "arbitrary unit per liter" ]
+       ] [
+         fhir:code [ fhir:v "cm-2" ] ;
+         fhir:display [ fhir:v "per square centimeter" ]
+       ] [
+         fhir:code [ fhir:v "g/min.m2" ] ;
+         fhir:display [ fhir:v "gram per minute square meter" ]
+       ] [
+         fhir:code [ fhir:v "kBq" ] ;
+         fhir:display [ fhir:v "kilobecquerel" ]
+       ] [
+         fhir:code [ fhir:v "kg/d" ] ;
+         fhir:display [ fhir:v "kilogram per day" ]
+       ] [
+         fhir:code [ fhir:v "kJ/L" ] ;
+         fhir:display [ fhir:v "kilojoule per liter" ]
+       ] [
+         fhir:code [ fhir:v "kU/kg" ] ;
+         fhir:display [ fhir:v "kilo enzyme unit per kilogram" ]
+       ] [
+         fhir:code [ fhir:v "kU/mol" ] ;
+         fhir:display [ fhir:v "kilo enzyme unit per mole" ]
+       ] [
+         fhir:code [ fhir:v "mkat/L" ] ;
+         fhir:display [ fhir:v "millikatal per liter" ]
+       ] [
+         fhir:code [ fhir:v "mkat/mol" ] ;
+         fhir:display [ fhir:v "millikatal per mole" ]
+       ] [
+         fhir:code [ fhir:v "mm2/s" ] ;
+         fhir:display [ fhir:v "square millimeter per second" ]
+       ] [
+         fhir:code [ fhir:v "mmol/m3" ] ;
+         fhir:display [ fhir:v "millimole per cubic meter" ]
+       ] [
+         fhir:code [ fhir:v "mmol/s" ] ;
+         fhir:display [ fhir:v "millimole per second" ]
+       ] [
+         fhir:code [ fhir:v "mol/kg.s" ] ;
+         fhir:display [ fhir:v "mole per kilogram second" ]
+       ] [
+         fhir:code [ fhir:v "mol/d" ] ;
+         fhir:display [ fhir:v "mole per day" ]
+       ] [
+         fhir:code [ fhir:v "ng/[IU]" ] ;
+         fhir:display [ fhir:v "nanogram per international unit" ]
+       ] [
+         fhir:code [ fhir:v "nkat/L" ] ;
+         fhir:display [ fhir:v "nanokatal per liter" ]
+       ] [
+         fhir:code [ fhir:v "nmol/kg" ] ;
+         fhir:display [ fhir:v "nanomole per kilogram" ]
+       ] [
+         fhir:code [ fhir:v "nmol/m3" ] ;
+         fhir:display [ fhir:v "nanomole per cubic meter" ]
+       ] [
+         fhir:code [ fhir:v "pmol/kg" ] ;
+         fhir:display [ fhir:v "picomole per kilogram" ]
+       ] [
+         fhir:code [ fhir:v "pmol/m3" ] ;
+         fhir:display [ fhir:v "picomole per cubic meter" ]
+       ] [
+         fhir:code [ fhir:v "pU" ] ;
+         fhir:display [ fhir:v "pico enzyme unit" ]
+       ] [
+         fhir:code [ fhir:v "U/kg" ] ;
+         fhir:display [ fhir:v "enzyme unit per kilogram" ]
+       ] [
+         fhir:code [ fhir:v "ukat/d" ] ;
+         fhir:display [ fhir:v "microkatal per day" ]
+       ] [
+         fhir:code [ fhir:v "ukat/kg" ] ;
+         fhir:display [ fhir:v "microkatal per kilogram" ]
+       ] [
+         fhir:code [ fhir:v "ukat/L" ] ;
+         fhir:display [ fhir:v "microkatal per liter" ]
+       ] [
+         fhir:code [ fhir:v "ukat/s" ] ;
+         fhir:display [ fhir:v "microkatal per second" ]
+       ] [
+         fhir:code [ fhir:v "um2" ] ;
+         fhir:display [ fhir:v "square micrometer" ]
+       ] [
+         fhir:code [ fhir:v "umol/kg.s" ] ;
+         fhir:display [ fhir:v "micromole per kilogram second" ]
+       ] [
+         fhir:code [ fhir:v "umol/m3" ] ;
+         fhir:display [ fhir:v "micromole per cubic meter" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,49 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "eHDSICurrentPregnancyStatus",
+  "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSICurrentPregnancyStatus",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.60"
+  }],
+  "version" : "0.2.0",
+  "name" : "eHDSICurrentPregnancyStatus",
+  "title" : "eHDSI Current Pregnancy Status",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2025-02-08T05:43:06+00:00",
+  "publisher" : "HL7 Europe",
+  "contact" : [{
+    "name" : "HL7 Europe",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://hl7europe.org"
+    }]
+  }],
+  "description" : "Value set is used to provide the woman's current state at the date the observation was made",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "77386006",
+        "display" : "Pregnant"
+      },
+      {
+        "code" : "60001007",
+        "display" : "Not pregnant"
+      },
+      {
+        "code" : "261665006",
+        "display" : "Unknown"
+      },
+      {
+        "code" : "102876002",
+        "display" : "Multigravida"
+      },
+      {
+        "code" : "127364007",
+        "display" : "Primigravida"
+      }]
+    }]
+  }
+}

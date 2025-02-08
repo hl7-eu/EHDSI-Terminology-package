@@ -1,0 +1,302 @@
+EHDSI : Validation Results
+=========================================
+
+err = 1, warn = 111, info = 57
+IG Publisher Version: 1.8.10
+Generated Sat Feb 08 08:28:29 UTC 2025. FHIR version 4.0.1 for hl7.eu.terminology.ehdsi#0.2.0 (canonical = http://hl7europe.org/fhir/terminology/ehdsi)
+ Build Errors : 0 / 5 / 0
+ /github/workspace/fsh-generated/resources/CodeSystem-edqm-all : 0 / 1 / 44
+ /github/workspace/fsh-generated/resources/ImplementationGuide-hl7.eu.terminology.ehdsi : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSIActiveIngredient : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSIAdverseEventType : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSIAllergenNoDrug : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSIAllergyCertainty : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSIAllergyStatus : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSIAnimalSpecies : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSIBloodGroup : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSIBloodPressure : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSIBodySite : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSIBodySiteLaterality : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSIBodyStructureLocation : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSICertainty : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSICodeProb : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSICountry : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSICriticality : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSICurrentPregnancyStatus : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSIDisplayLabel : 0 / 4 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSIDocumentCode : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSIDoseForm : 0 / 74 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSIExceptionalValue : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSIHealthcareProfessionalRole : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSIHospitalDischargeReportType : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSIIllnessandDisorder : 1 / 2 / 2
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSILabCode : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSILabSpecimenType : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSILabStudyType : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSILabTechnique : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSILaboratoryReportType : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSILanguage : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSIMedicalDevice : 0 / 3 / 2
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSIMedicalImagingReportType : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSIMicroorganism : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSIMorphologicAbnormality : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSIObservationCategory : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSIObservationInterpretation : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSIOutcomeOfPregnancy : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSIPackage : 0 / 7 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSIPerformerFunction : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSIPersonalRelationship : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSIPregnancyInformation : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSIPresenceAbsence : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSIProcedure : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSIQuantityUnit : 0 / 3 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSIRareDisease : 0 / 3 / 2
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSIReactionAllergy : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSIReferenceRangeAppliesTo : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSIReferenceRangeMeaning : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSIResolutionOutcome : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSIRoleClass : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSIRouteofAdministration : 0 / 7 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSISection : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSISeverity : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSISocialHistory : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSIStatusCode : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSISubstance : 0 / 3 / 5
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSISubstitutionCode : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSITelecomAddress : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSITimingEvent : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSIUnit : 0 / 4 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-eHDSIVaccine : 0 / 17 / 1
+</table>
+== n/a ==
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+WARNING: IG: The IG is not for the international realm, and it uses SNOMED CT, so it should fix the SCT edition in the expansion parameters
+== fsh-generated/resources/CodeSystem-edqm-all.json ==
+INFORMATION: CodeSystem/edqm-all: CodeSystem.property[0]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+INFORMATION: CodeSystem/edqm-all: CodeSystem.property[0]: This property has only a code ('domain') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/edqm-all: CodeSystem.property[1]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+INFORMATION: CodeSystem/edqm-all: CodeSystem.property[1]: This property has only a code ('class') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/edqm-all: CodeSystem.property[2]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+WARNING: CodeSystem/edqm-all: CodeSystem.property[2]: This property has only the standard code ('status') but not the standard URI 'http://hl7.org/fhir/concept-properties#status', so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/edqm-all: CodeSystem.property[3]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+INFORMATION: CodeSystem/edqm-all: CodeSystem.property[3]: This property has only a code ('SOM') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/edqm-all: CodeSystem.property[4]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+INFORMATION: CodeSystem/edqm-all: CodeSystem.property[4]: This property has only a code ('BDF') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/edqm-all: CodeSystem.property[5]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+INFORMATION: CodeSystem/edqm-all: CodeSystem.property[5]: This property has only a code ('RCA') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/edqm-all: CodeSystem.property[6]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+INFORMATION: CodeSystem/edqm-all: CodeSystem.property[6]: This property has only a code ('TRA') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/edqm-all: CodeSystem.property[7]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+INFORMATION: CodeSystem/edqm-all: CodeSystem.property[7]: This property has only a code ('ISI') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/edqm-all: CodeSystem.property[8]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+INFORMATION: CodeSystem/edqm-all: CodeSystem.property[8]: This property has only a code ('AME') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/edqm-all: CodeSystem.property[9]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+INFORMATION: CodeSystem/edqm-all: CodeSystem.property[9]: This property has only a code ('PDF') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/edqm-all: CodeSystem.property[10]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+INFORMATION: CodeSystem/edqm-all: CodeSystem.property[10]: This property has only a code ('UOP') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/edqm-all: CodeSystem.property[11]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+INFORMATION: CodeSystem/edqm-all: CodeSystem.property[11]: This property has only a code ('ROA') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/edqm-all: CodeSystem.property[12]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+INFORMATION: CodeSystem/edqm-all: CodeSystem.property[12]: This property has only a code ('PAC') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/edqm-all: CodeSystem.property[13]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+INFORMATION: CodeSystem/edqm-all: CodeSystem.property[13]: This property has only a code ('CON') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/edqm-all: CodeSystem.property[14]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+INFORMATION: CodeSystem/edqm-all: CodeSystem.property[14]: This property has only a code ('CLO') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/edqm-all: CodeSystem.property[15]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+INFORMATION: CodeSystem/edqm-all: CodeSystem.property[15]: This property has only a code ('DEV') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/edqm-all: CodeSystem.property[16]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+INFORMATION: CodeSystem/edqm-all: CodeSystem.property[16]: This property has only a code ('CDF') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/edqm-all: CodeSystem.property[17]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+INFORMATION: CodeSystem/edqm-all: CodeSystem.property[17]: This property has only a code ('PFT') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/edqm-all: CodeSystem.property[18]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+INFORMATION: CodeSystem/edqm-all: CodeSystem.property[18]: This property has only a code ('CMT') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/edqm-all: CodeSystem.property[19]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+INFORMATION: CodeSystem/edqm-all: CodeSystem.property[19]: This property has only a code ('CMP') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/edqm-all: CodeSystem.property[20]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+INFORMATION: CodeSystem/edqm-all: CodeSystem.property[20]: This property has only a code ('MAP') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+INFORMATION: CodeSystem/edqm-all: CodeSystem.property[21]: The type of property 'code' is 'code', but no ValueSet information was found, so the codes will be validated as internal codes
+INFORMATION: CodeSystem/edqm-all: CodeSystem.property[21]: This property has only a code ('FIL') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
+== fsh-generated/resources/ImplementationGuide-hl7.eu.terminology.ehdsi.json ==
+== fsh-generated/resources/ValueSet-eHDSIActiveIngredient.json ==
+INFORMATION: ValueSet/eHDSIActiveIngredient: ValueSet.compose.include[0]: The value set include has too many codes to validate (6,897), so each individual code has not been checked
+== fsh-generated/resources/ValueSet-eHDSIAdverseEventType.json ==
+== fsh-generated/resources/ValueSet-eHDSIAllergenNoDrug.json ==
+INFORMATION: ValueSet/eHDSIAllergenNoDrug: ValueSet.compose.include[0]: This SNOMED-CT based include has some concepts with semantic tags (FSN terms) and some without (preferred terms) - check that this is what is intended (examples for FSN: [Eggs (edible)] and examples for no FSN: [Carminic acid stain, Azorubin S stain, Gold, Methylbenzethonium chloride, Sodium sulfite])
+== fsh-generated/resources/ValueSet-eHDSIAllergyCertainty.json ==
+== fsh-generated/resources/ValueSet-eHDSIAllergyStatus.json ==
+== fsh-generated/resources/ValueSet-eHDSIAnimalSpecies.json ==
+== fsh-generated/resources/ValueSet-eHDSIBloodGroup.json ==
+== fsh-generated/resources/ValueSet-eHDSIBloodPressure.json ==
+== fsh-generated/resources/ValueSet-eHDSIBodySite.json ==
+INFORMATION: ValueSet/eHDSIBodySite: ValueSet.compose.include[0]: The value set include has too many codes to validate (2,721), so each individual code has not been checked
+== fsh-generated/resources/ValueSet-eHDSIBodySiteLaterality.json ==
+== fsh-generated/resources/ValueSet-eHDSIBodyStructureLocation.json ==
+== fsh-generated/resources/ValueSet-eHDSICertainty.json ==
+== fsh-generated/resources/ValueSet-eHDSICodeProb.json ==
+== fsh-generated/resources/ValueSet-eHDSICountry.json ==
+== fsh-generated/resources/ValueSet-eHDSICriticality.json ==
+== fsh-generated/resources/ValueSet-eHDSICurrentPregnancyStatus.json ==
+== fsh-generated/resources/ValueSet-eHDSIDisplayLabel.json ==
+WARNING: ValueSet/eHDSIDisplayLabel: ValueSet.compose.include[0]: Unknown System 'urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.44.4' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.44.4' could not be found, so the code cannot be validated)
+WARNING: ValueSet.where(id = 'eHDSIDisplayLabel'): Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.44.4
+== fsh-generated/resources/ValueSet-eHDSIDocumentCode.json ==
+== fsh-generated/resources/ValueSet-eHDSIDoseForm.json ==
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[4]: The code '13162000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13162000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[8]: The code '13139000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13139000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[10]: The code '13152000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13152000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[34]: The code '13140000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13140000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[66]: The code '13159000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13159000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[75]: The code '13133000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13133000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[94]: The code '13135000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13135000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[106]: The code '13129000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13129000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[131]: The code '13126000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13126000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[132]: The code '13134000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13134000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[135]: The code '13128000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13128000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[234]: The code '13123000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13123000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[271]: The code '13154000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13154000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[292]: The code '13145000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13145000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[336]: The code '13149000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13149000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[338]: The code '13141000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13141000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[392]: The code '13148000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13148000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[400]: The code '13127000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13127000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[420]: The code '13124000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13124000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[429]: The code '13143000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13143000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[430]: The code '13153000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13153000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[431]: The code '13144000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13144000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[432]: The code '13160000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13160000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[438]: The code '13157000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13157000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[439]: The code '13119000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13119000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[440]: The code '13150000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13150000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[453]: The code '13121000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13121000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[486]: The code '13161000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13161000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[497]: The code '13155000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13155000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[509]: The code '13120000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13120000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[514]: The code '13130000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13130000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[515]: The code '13146000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13146000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[529]: The code '13147000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13147000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[536]: The code '13122000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13122000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[553]: The code '13137000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13137000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[561]: The code '14016000' is not valid in the system http://standardterms.edqm.eu (Unknown code '14016000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[563]: The code '14017000' is not valid in the system http://standardterms.edqm.eu (Unknown code '14017000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[567]: The code '14015000' is not valid in the system http://standardterms.edqm.eu (Unknown code '14015000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[593]: The code '31100' is not valid in the system http://standardterms.edqm.eu (Unknown code '31100' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[608]: The code '13165000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13165000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[609]: The code '13167000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13167000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[610]: The code '13168000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13168000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[611]: The code '13169000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13169000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[612]: The code '13175000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13175000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[613]: The code '13176000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13176000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[614]: The code '13177000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13177000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[615]: The code '13178000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13178000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[616]: The code '13179000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13179000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[617]: The code '13180000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13180000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[618]: The code '13184000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13184000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[619]: The code '13186000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13186000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[620]: The code '13187000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13187000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[621]: The code '13188000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13188000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[622]: The code '13166000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13166000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[623]: The code '13170000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13170000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[624]: The code '13171000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13171000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[625]: The code '13172000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13172000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[626]: The code '13173000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13173000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[627]: The code '13181000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13181000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[628]: The code '13185000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13185000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[629]: The code '13189000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13189000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[631]: The code '31120' is not valid in the system http://standardterms.edqm.eu (Unknown code '31120' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[632]: The code '13182000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13182000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[633]: The code '13183000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13183000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[634]: The code '13192000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13192000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[635]: The code '13194000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13194000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[636]: The code '13195000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13195000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[637]: The code '13190000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13190000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[638]: The code '13191000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13191000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[639]: The code '13196000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13196000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[640]: The code '13197000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13197000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIDoseForm: ValueSet.compose.include[0].concept[641]: The code '13198000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13198000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+== fsh-generated/resources/ValueSet-eHDSIExceptionalValue.json ==
+== fsh-generated/resources/ValueSet-eHDSIHealthcareProfessionalRole.json ==
+== fsh-generated/resources/ValueSet-eHDSIHospitalDischargeReportType.json ==
+== fsh-generated/resources/ValueSet-eHDSIIllnessandDisorder.json ==
+INFORMATION: ValueSet/eHDSIIllnessandDisorder: ValueSet.compose.include[0]: The value set include has too many codes to validate (14,158), so each individual code has not been checked
+ERROR: ValueSet.where(id = 'eHDSIIllnessandDisorder'): Error from http://tx.fhir.org/r4: The value set 'http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIIllnessandDisorder|0.2.0' expansion took too long to process (>30sec)
+== fsh-generated/resources/ValueSet-eHDSILabCode.json ==
+INFORMATION: ValueSet/eHDSILabCode: ValueSet.compose.include[0]: The value set include has too many codes to validate (57,647), so each individual code has not been checked
+== fsh-generated/resources/ValueSet-eHDSILabSpecimenType.json ==
+== fsh-generated/resources/ValueSet-eHDSILabStudyType.json ==
+== fsh-generated/resources/ValueSet-eHDSILabTechnique.json ==
+== fsh-generated/resources/ValueSet-eHDSILaboratoryReportType.json ==
+== fsh-generated/resources/ValueSet-eHDSILanguage.json ==
+== fsh-generated/resources/ValueSet-eHDSIMedicalDevice.json ==
+INFORMATION: ValueSet/eHDSIMedicalDevice: ValueSet.compose.include[0]: The value set include has too many codes to validate (1,052), so each individual code has not been checked
+WARNING: ValueSet.where(id = 'eHDSIMedicalDevice'): Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.44.6
+== fsh-generated/resources/ValueSet-eHDSIMedicalImagingReportType.json ==
+== fsh-generated/resources/ValueSet-eHDSIMicroorganism.json ==
+INFORMATION: ValueSet/eHDSIMicroorganism: ValueSet.compose.include[0]: The value set include has too many codes to validate (1,630), so each individual code has not been checked
+== fsh-generated/resources/ValueSet-eHDSIMorphologicAbnormality.json ==
+INFORMATION: ValueSet/eHDSIMorphologicAbnormality: ValueSet.compose.include[0]: This SNOMED-CT based include has some concepts with semantic tags (FSN terms) and some without (preferred terms) - check that this is what is intended (examples for FSN: [Meningeal neoplasm (morphology), Crushing injury (morphology)] and examples for no FSN: [Catheter exit site, Pilonidal cyst, Morton's neuroma, Urine retention, Myelodysplastic neoplasm with low blasts])
+== fsh-generated/resources/ValueSet-eHDSIObservationCategory.json ==
+== fsh-generated/resources/ValueSet-eHDSIObservationInterpretation.json ==
+== fsh-generated/resources/ValueSet-eHDSIOutcomeOfPregnancy.json ==
+== fsh-generated/resources/ValueSet-eHDSIPackage.json ==
+WARNING: ValueSet/eHDSIPackage: ValueSet.compose.include[0].concept[29]: The code '13132000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13132000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIPackage: ValueSet.compose.include[0].concept[52]: The code '13156000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13156000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIPackage: ValueSet.compose.include[0].concept[59]: The code '13142000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13142000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIPackage: ValueSet.compose.include[0].concept[74]: The code '13151000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13151000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIPackage: ValueSet.compose.include[0].concept[78]: The code '13125000' is not valid in the system http://standardterms.edqm.eu (Unknown code '13125000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+== fsh-generated/resources/ValueSet-eHDSIPerformerFunction.json ==
+== fsh-generated/resources/ValueSet-eHDSIPersonalRelationship.json ==
+== fsh-generated/resources/ValueSet-eHDSIPregnancyInformation.json ==
+== fsh-generated/resources/ValueSet-eHDSIPresenceAbsence.json ==
+== fsh-generated/resources/ValueSet-eHDSIProcedure.json ==
+INFORMATION: ValueSet/eHDSIProcedure: ValueSet.compose.include[0]: The value set include has too many codes to validate (1,052), so each individual code has not been checked
+== fsh-generated/resources/ValueSet-eHDSIQuantityUnit.json ==
+WARNING: ValueSet/eHDSIQuantityUnit: ValueSet.compose.include[0].concept[50]: The code '15062000' is not valid in the system http://standardterms.edqm.eu (Unknown code '15062000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+== fsh-generated/resources/ValueSet-eHDSIRareDisease.json ==
+INFORMATION: ValueSet/eHDSIRareDisease: ValueSet.compose.include[0]: The value set include has too many codes to validate (7,445), so each individual code has not been checked
+WARNING: ValueSet.where(id = 'eHDSIRareDisease'): Error from http://tx.fhir.org/r4: Unable to provide support for code system https://www.orpha.net
+== fsh-generated/resources/ValueSet-eHDSIReactionAllergy.json ==
+== fsh-generated/resources/ValueSet-eHDSIReferenceRangeAppliesTo.json ==
+== fsh-generated/resources/ValueSet-eHDSIReferenceRangeMeaning.json ==
+== fsh-generated/resources/ValueSet-eHDSIResolutionOutcome.json ==
+== fsh-generated/resources/ValueSet-eHDSIRoleClass.json ==
+== fsh-generated/resources/ValueSet-eHDSIRouteofAdministration.json ==
+WARNING: ValueSet/eHDSIRouteofAdministration: ValueSet.compose.include[0].concept[80]: The code '20086000' is not valid in the system http://standardterms.edqm.eu (Unknown code '20086000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIRouteofAdministration: ValueSet.compose.include[0].concept[81]: The code '20087000' is not valid in the system http://standardterms.edqm.eu (Unknown code '20087000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIRouteofAdministration: ValueSet.compose.include[0].concept[82]: The code '20088000' is not valid in the system http://standardterms.edqm.eu (Unknown code '20088000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIRouteofAdministration: ValueSet.compose.include[0].concept[83]: The code '20089000' is not valid in the system http://standardterms.edqm.eu (Unknown code '20089000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+WARNING: ValueSet/eHDSIRouteofAdministration: ValueSet.compose.include[0].concept[84]: The code '20090000' is not valid in the system http://standardterms.edqm.eu (Unknown code '20090000' in the CodeSystem 'http://standardterms.edqm.eu' version '5 March 2019')
+== fsh-generated/resources/ValueSet-eHDSISection.json ==
+== fsh-generated/resources/ValueSet-eHDSISeverity.json ==
+== fsh-generated/resources/ValueSet-eHDSISocialHistory.json ==
+== fsh-generated/resources/ValueSet-eHDSIStatusCode.json ==
+== fsh-generated/resources/ValueSet-eHDSISubstance.json ==
+INFORMATION: ValueSet/eHDSISubstance: ValueSet.compose.include[0].concept[604].display: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+INFORMATION: ValueSet/eHDSISubstance: ValueSet.compose.include[0].concept[605].display: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+INFORMATION: ValueSet/eHDSISubstance: ValueSet.compose.include[0].concept[704].display: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+INFORMATION: ValueSet/eHDSISubstance: ValueSet.compose.include[0]: The value set include has too many codes to validate (63,646), so each individual code has not been checked
+WARNING: ValueSet.where(id = 'eHDSISubstance'): Error from http://tx.fhir.org/r4: Unable to provide support for code system https://spor.ema.europa.eu/v2/SubstanceDefinition
+== fsh-generated/resources/ValueSet-eHDSISubstitutionCode.json ==
+== fsh-generated/resources/ValueSet-eHDSITelecomAddress.json ==
+== fsh-generated/resources/ValueSet-eHDSITimingEvent.json ==
+== fsh-generated/resources/ValueSet-eHDSIUnit.json ==
+WARNING: ValueSet/eHDSIUnit: ValueSet.compose.include[0]: Unknown System 'http://unitsofmeasure.org/' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://unitsofmeasure.org/' could not be found, so the code cannot be validated)
+WARNING: ValueSet.where(id = 'eHDSIUnit'): Error from http://tx.fhir.org/r4: Unable to provide support for code system http://unitsofmeasure.org/
+== fsh-generated/resources/ValueSet-eHDSIVaccine.json ==
+WARNING: ValueSet/eHDSIVaccine: ValueSet.compose.include[1].concept[15]: The code 'J07AG54' is not valid in the system http://www.whocc.no/atc (Unknown code 'J07AG54' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05')
+WARNING: ValueSet/eHDSIVaccine: ValueSet.compose.include[1].concept[27]: The code 'J07AH11' is not valid in the system http://www.whocc.no/atc (Unknown code 'J07AH11' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05')
+WARNING: ValueSet/eHDSIVaccine: ValueSet.compose.include[1].concept[53]: The code 'J07AX01' is not valid in the system http://www.whocc.no/atc (Unknown code 'J07AX01' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05')
+WARNING: ValueSet/eHDSIVaccine: ValueSet.compose.include[1].concept[63]: The code 'J07BB05' is not valid in the system http://www.whocc.no/atc (Unknown code 'J07BB05' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05')
+WARNING: ValueSet/eHDSIVaccine: ValueSet.compose.include[1].concept[99]: The code 'J07BN' is not valid in the system http://www.whocc.no/atc (Unknown code 'J07BN' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05')
+WARNING: ValueSet/eHDSIVaccine: ValueSet.compose.include[1].concept[100]: The code 'J07BN01' is not valid in the system http://www.whocc.no/atc (Unknown code 'J07BN01' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05')
+WARNING: ValueSet/eHDSIVaccine: ValueSet.compose.include[1].concept[101]: The code 'J07BN02' is not valid in the system http://www.whocc.no/atc (Unknown code 'J07BN02' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05')
+WARNING: ValueSet/eHDSIVaccine: ValueSet.compose.include[1].concept[102]: The code 'J07BN03' is not valid in the system http://www.whocc.no/atc (Unknown code 'J07BN03' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05')
+WARNING: ValueSet/eHDSIVaccine: ValueSet.compose.include[1].concept[103]: The code 'J07BN04' is not valid in the system http://www.whocc.no/atc (Unknown code 'J07BN04' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05')
+WARNING: ValueSet/eHDSIVaccine: ValueSet.compose.include[1].concept[104]: The code 'J07BN05' is not valid in the system http://www.whocc.no/atc (Unknown code 'J07BN05' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05')
+WARNING: ValueSet/eHDSIVaccine: ValueSet.compose.include[1].concept[108]: The code 'J07BX04' is not valid in the system http://www.whocc.no/atc (Unknown code 'J07BX04' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05')
+WARNING: ValueSet/eHDSIVaccine: ValueSet.compose.include[1].concept[109]: The code 'J07BX05' is not valid in the system http://www.whocc.no/atc (Unknown code 'J07BX05' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05')
+WARNING: ValueSet/eHDSIVaccine: ValueSet.compose.include[1].concept[110]: The code 'J07BX06' is not valid in the system http://www.whocc.no/atc (Unknown code 'J07BX06' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05')
+WARNING: ValueSet/eHDSIVaccine: ValueSet.compose.include[1].concept[125]: The code 'J07XA' is not valid in the system http://www.whocc.no/atc (Unknown code 'J07XA' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05')
+WARNING: ValueSet/eHDSIVaccine: ValueSet.compose.include[1].concept[126]: The code 'J07XA01' is not valid in the system http://www.whocc.no/atc (Unknown code 'J07XA01' in the CodeSystem 'http://www.whocc.no/atc' version '2020-05')

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="eHDSIReferenceRangeMeaning"/>
+  <url value="http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIReferenceRangeMeaning"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.74"/>
+  </identifier>
+  <version value="0.2.0"/>
+  <name value="eHDSIReferenceRangeMeaning"/>
+  <title value="eHDSI Reference Range Meaning"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2025-02-08T05:43:06+00:00"/>
+  <publisher value="HL7 Europe"/>
+  <contact>
+    <name value="HL7 Europe"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7europe.org"/>
+    </telecom>
+  </contact>
+  <description value="This value set defines a set of codes for a reference range qualifier"/>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/referencerange-meaning"/>
+      <concept>
+        <code value="normal"/>
+        <display value="Normal Range"/>
+      </concept>
+      <concept>
+        <code value="recommended"/>
+        <display value="Recommended Range"/>
+      </concept>
+      <concept>
+        <code value="treatment"/>
+        <display value="Treatment Range"/>
+      </concept>
+      <concept>
+        <code value="therapeutic"/>
+        <display value="Therapeutic Desired Level"/>
+      </concept>
+      <concept>
+        <code value="pre-puberty"/>
+        <display value="Pre-Puberty"/>
+      </concept>
+      <concept>
+        <code value="follicular"/>
+        <display value="Follicular Stage"/>
+      </concept>
+      <concept>
+        <code value="midcycle"/>
+        <display value="MidCycle"/>
+      </concept>
+      <concept>
+        <code value="luteal"/>
+        <display value="Luteal"/>
+      </concept>
+      <concept>
+        <code value="postmenopausal"/>
+        <display value="Post-Menopause"/>
+      </concept>
+      <concept>
+        <code value="pre"/>
+        <display value="Pre Therapeutic Desired Level"/>
+      </concept>
+      <concept>
+        <code value="post"/>
+        <display value="Post Therapeutic Desired Level"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

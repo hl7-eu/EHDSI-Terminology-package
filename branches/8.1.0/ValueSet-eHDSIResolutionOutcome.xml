@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="eHDSIResolutionOutcome"/>
+  <url value="http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIResolutionOutcome"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.30"/>
+  </identifier>
+  <version value="0.2.0"/>
+  <name value="eHDSIResolutionOutcome"/>
+  <title value="eHDSI Resolution Outcome"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2025-02-08T05:43:06+00:00"/>
+  <publisher value="HL7 Europe"/>
+  <contact>
+    <name value="HL7 Europe"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7europe.org"/>
+    </telecom>
+  </contact>
+  <description value="The Value Set is used to describe the clinical status of a problem outcome."/>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="161901003"/>
+        <display value="Chronic sick"/>
+      </concept>
+      <concept>
+        <code value="419099009"/>
+        <display value="Dead"/>
+      </concept>
+      <concept>
+        <code value="21134002"/>
+        <display value="Disability"/>
+      </concept>
+      <concept>
+        <code value="161045001"/>
+        <display value="Disability - severe"/>
+      </concept>
+      <concept>
+        <code value="162467007"/>
+        <display value="Free of symptoms"/>
+      </concept>
+      <concept>
+        <code value="271593001"/>
+        <display value="Moribund"/>
+      </concept>
+      <concept>
+        <code value="81323004"/>
+        <display value="Normal general body function"/>
+      </concept>
+      <concept>
+        <code value="765205004"/>
+        <display value="Disorder in remission"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

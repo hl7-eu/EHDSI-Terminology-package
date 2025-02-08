@@ -1,0 +1,1026 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="eHDSICountry"/>
+  <url value="http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSICountry"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.4"/>
+  </identifier>
+  <version value="0.2.0"/>
+  <name value="eHDSICountry"/>
+  <title value="eHDSI Country"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2025-02-08T05:43:06+00:00"/>
+  <publisher value="HL7 Europe"/>
+  <contact>
+    <name value="HL7 Europe"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7europe.org"/>
+    </telecom>
+  </contact>
+  <description value="The Value Set is used to identify the nationality of all persons and organizations."/>
+  <compose>
+    <include>
+      <system value="urn:iso:std:iso:3166"/>
+      <concept>
+        <code value="AD"/>
+        <display value="ANDORRA"/>
+      </concept>
+      <concept>
+        <code value="AE"/>
+        <display value="UNITED ARAB EMIRATES"/>
+      </concept>
+      <concept>
+        <code value="AF"/>
+        <display value="AFGHANISTAN"/>
+      </concept>
+      <concept>
+        <code value="AG"/>
+        <display value="ANTIGUA AND BARBUDA"/>
+      </concept>
+      <concept>
+        <code value="AI"/>
+        <display value="ANGUILLA"/>
+      </concept>
+      <concept>
+        <code value="AL"/>
+        <display value="ALBANIA"/>
+      </concept>
+      <concept>
+        <code value="AM"/>
+        <display value="ARMENIA"/>
+      </concept>
+      <concept>
+        <code value="AO"/>
+        <display value="ANGOLA"/>
+      </concept>
+      <concept>
+        <code value="AQ"/>
+        <display value="ANTARCTICA"/>
+      </concept>
+      <concept>
+        <code value="AR"/>
+        <display value="ARGENTINA"/>
+      </concept>
+      <concept>
+        <code value="AS"/>
+        <display value="AMERICAN SAMOA"/>
+      </concept>
+      <concept>
+        <code value="AT"/>
+        <display value="AUSTRIA"/>
+      </concept>
+      <concept>
+        <code value="AU"/>
+        <display value="AUSTRALIA"/>
+      </concept>
+      <concept>
+        <code value="AW"/>
+        <display value="ARUBA"/>
+      </concept>
+      <concept>
+        <code value="AX"/>
+        <display value="ÅLAND ISLANDS"/>
+      </concept>
+      <concept>
+        <code value="AZ"/>
+        <display value="AZERBAIJAN"/>
+      </concept>
+      <concept>
+        <code value="BA"/>
+        <display value="BOSNIA AND HERZEGOVINA"/>
+      </concept>
+      <concept>
+        <code value="BB"/>
+        <display value="BARBADOS"/>
+      </concept>
+      <concept>
+        <code value="BD"/>
+        <display value="BANGLADESH"/>
+      </concept>
+      <concept>
+        <code value="BE"/>
+        <display value="BELGIUM"/>
+      </concept>
+      <concept>
+        <code value="BF"/>
+        <display value="BURKINA FASO"/>
+      </concept>
+      <concept>
+        <code value="BG"/>
+        <display value="BULGARIA"/>
+      </concept>
+      <concept>
+        <code value="BH"/>
+        <display value="BAHRAIN"/>
+      </concept>
+      <concept>
+        <code value="BI"/>
+        <display value="BURUNDI"/>
+      </concept>
+      <concept>
+        <code value="BJ"/>
+        <display value="BENIN"/>
+      </concept>
+      <concept>
+        <code value="BL"/>
+        <display value="SAINT BARTHÉLEMY"/>
+      </concept>
+      <concept>
+        <code value="BM"/>
+        <display value="BERMUDA"/>
+      </concept>
+      <concept>
+        <code value="BN"/>
+        <display value="BRUNEI DARUSSALAM"/>
+      </concept>
+      <concept>
+        <code value="BO"/>
+        <display value="BOLIVIA (PLURINATIONAL STATE OF)"/>
+      </concept>
+      <concept>
+        <code value="BQ"/>
+        <display value="BONAIRE, SINT EUSTATIUS AND SABA"/>
+      </concept>
+      <concept>
+        <code value="BR"/>
+        <display value="BRAZIL"/>
+      </concept>
+      <concept>
+        <code value="BS"/>
+        <display value="BAHAMAS"/>
+      </concept>
+      <concept>
+        <code value="BT"/>
+        <display value="BHUTAN"/>
+      </concept>
+      <concept>
+        <code value="BV"/>
+        <display value="BOUVET ISLAND"/>
+      </concept>
+      <concept>
+        <code value="BW"/>
+        <display value="BOTSWANA"/>
+      </concept>
+      <concept>
+        <code value="BY"/>
+        <display value="BELARUS"/>
+      </concept>
+      <concept>
+        <code value="BZ"/>
+        <display value="BELIZE"/>
+      </concept>
+      <concept>
+        <code value="CA"/>
+        <display value="CANADA"/>
+      </concept>
+      <concept>
+        <code value="CC"/>
+        <display value="COCOS (KEELING) ISLANDS"/>
+      </concept>
+      <concept>
+        <code value="CD"/>
+        <display value="CONGO, DEMOCRATIC REPUBLIC OF"/>
+      </concept>
+      <concept>
+        <code value="CF"/>
+        <display value="CENTRAL AFRICAN REPUBLIC"/>
+      </concept>
+      <concept>
+        <code value="CG"/>
+        <display value="CONGO"/>
+      </concept>
+      <concept>
+        <code value="CH"/>
+        <display value="SWITZERLAND"/>
+      </concept>
+      <concept>
+        <code value="CI"/>
+        <display value="COTE D'IVOIRE"/>
+      </concept>
+      <concept>
+        <code value="CK"/>
+        <display value="COOK ISLANDS"/>
+      </concept>
+      <concept>
+        <code value="CL"/>
+        <display value="CHILE"/>
+      </concept>
+      <concept>
+        <code value="CM"/>
+        <display value="CAMEROON"/>
+      </concept>
+      <concept>
+        <code value="CN"/>
+        <display value="CHINA"/>
+      </concept>
+      <concept>
+        <code value="CO"/>
+        <display value="COLOMBIA"/>
+      </concept>
+      <concept>
+        <code value="CR"/>
+        <display value="COSTA RICA"/>
+      </concept>
+      <concept>
+        <code value="CU"/>
+        <display value="CUBA"/>
+      </concept>
+      <concept>
+        <code value="CV"/>
+        <display value="CAPE VERDE"/>
+      </concept>
+      <concept>
+        <code value="CW"/>
+        <display value="CURAÇAO"/>
+      </concept>
+      <concept>
+        <code value="CX"/>
+        <display value="CHRISTMAS ISLAND"/>
+      </concept>
+      <concept>
+        <code value="CY"/>
+        <display value="CYPRUS"/>
+      </concept>
+      <concept>
+        <code value="CZ"/>
+        <display value="CZECH REPUBLIC"/>
+      </concept>
+      <concept>
+        <code value="DE"/>
+        <display value="GERMANY"/>
+      </concept>
+      <concept>
+        <code value="DJ"/>
+        <display value="DJIBOUTI"/>
+      </concept>
+      <concept>
+        <code value="DK"/>
+        <display value="DENMARK"/>
+      </concept>
+      <concept>
+        <code value="DM"/>
+        <display value="DOMINICA"/>
+      </concept>
+      <concept>
+        <code value="DO"/>
+        <display value="DOMINICAN REPUBLIC"/>
+      </concept>
+      <concept>
+        <code value="DZ"/>
+        <display value="ALGERIA"/>
+      </concept>
+      <concept>
+        <code value="EC"/>
+        <display value="ECUADOR"/>
+      </concept>
+      <concept>
+        <code value="EE"/>
+        <display value="ESTONIA"/>
+      </concept>
+      <concept>
+        <code value="EG"/>
+        <display value="EGYPT"/>
+      </concept>
+      <concept>
+        <code value="EH"/>
+        <display value="WESTERN SAHARA"/>
+      </concept>
+      <concept>
+        <code value="ER"/>
+        <display value="ERITREA"/>
+      </concept>
+      <concept>
+        <code value="ES"/>
+        <display value="SPAIN"/>
+      </concept>
+      <concept>
+        <code value="ET"/>
+        <display value="ETHIOPIA"/>
+      </concept>
+      <concept>
+        <code value="FI"/>
+        <display value="FINLAND"/>
+      </concept>
+      <concept>
+        <code value="FJ"/>
+        <display value="FIJI"/>
+      </concept>
+      <concept>
+        <code value="FK"/>
+        <display value="FALKLAND ISLANDS (MALVINAS)"/>
+      </concept>
+      <concept>
+        <code value="FM"/>
+        <display value="MICRONESIA (FEDERATED STATES OF)"/>
+      </concept>
+      <concept>
+        <code value="FO"/>
+        <display value="FAROE ISLANDS"/>
+      </concept>
+      <concept>
+        <code value="FR"/>
+        <display value="FRANCE"/>
+      </concept>
+      <concept>
+        <code value="GA"/>
+        <display value="GABON"/>
+      </concept>
+      <concept>
+        <code value="GB"/>
+        <display value="UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND"/>
+      </concept>
+      <concept>
+        <code value="GD"/>
+        <display value="GRENADA"/>
+      </concept>
+      <concept>
+        <code value="GE"/>
+        <display value="GEORGIA"/>
+      </concept>
+      <concept>
+        <code value="GF"/>
+        <display value="FRENCH GUIANA"/>
+      </concept>
+      <concept>
+        <code value="GG"/>
+        <display value="GUERNSEY"/>
+      </concept>
+      <concept>
+        <code value="GH"/>
+        <display value="GHANA"/>
+      </concept>
+      <concept>
+        <code value="GI"/>
+        <display value="GIBRALTAR"/>
+      </concept>
+      <concept>
+        <code value="GL"/>
+        <display value="GREENLAND"/>
+      </concept>
+      <concept>
+        <code value="GM"/>
+        <display value="GAMBIA"/>
+      </concept>
+      <concept>
+        <code value="GN"/>
+        <display value="GUINEA"/>
+      </concept>
+      <concept>
+        <code value="GP"/>
+        <display value="GUADELOUPE"/>
+      </concept>
+      <concept>
+        <code value="GQ"/>
+        <display value="EQUATORIAL GUINEA"/>
+      </concept>
+      <concept>
+        <code value="GR"/>
+        <display value="GREECE"/>
+      </concept>
+      <concept>
+        <code value="GS"/>
+        <display value="SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS"/>
+      </concept>
+      <concept>
+        <code value="GT"/>
+        <display value="GUATEMALA"/>
+      </concept>
+      <concept>
+        <code value="GU"/>
+        <display value="GUAM"/>
+      </concept>
+      <concept>
+        <code value="GW"/>
+        <display value="GUINEA-BISSAU"/>
+      </concept>
+      <concept>
+        <code value="GY"/>
+        <display value="GUYANA"/>
+      </concept>
+      <concept>
+        <code value="HK"/>
+        <display value="HONG KONG"/>
+      </concept>
+      <concept>
+        <code value="HM"/>
+        <display value="HEARD ISLAND AND MCDONALD ISLANDS"/>
+      </concept>
+      <concept>
+        <code value="HN"/>
+        <display value="HONDURAS"/>
+      </concept>
+      <concept>
+        <code value="HR"/>
+        <display value="CROATIA"/>
+      </concept>
+      <concept>
+        <code value="HT"/>
+        <display value="HAITI"/>
+      </concept>
+      <concept>
+        <code value="HU"/>
+        <display value="HUNGARY"/>
+      </concept>
+      <concept>
+        <code value="ID"/>
+        <display value="INDONESIA"/>
+      </concept>
+      <concept>
+        <code value="IE"/>
+        <display value="IRELAND"/>
+      </concept>
+      <concept>
+        <code value="IL"/>
+        <display value="ISRAEL"/>
+      </concept>
+      <concept>
+        <code value="IM"/>
+        <display value="ISLE OF MAN"/>
+      </concept>
+      <concept>
+        <code value="IN"/>
+        <display value="INDIA"/>
+      </concept>
+      <concept>
+        <code value="IO"/>
+        <display value="BRITISH INDIAN OCEAN TERRITORY"/>
+      </concept>
+      <concept>
+        <code value="IQ"/>
+        <display value="IRAQ"/>
+      </concept>
+      <concept>
+        <code value="IR"/>
+        <display value="IRAN (ISLAMIC REPUBLIC OF)"/>
+      </concept>
+      <concept>
+        <code value="IS"/>
+        <display value="ICELAND"/>
+      </concept>
+      <concept>
+        <code value="IT"/>
+        <display value="ITALY"/>
+      </concept>
+      <concept>
+        <code value="JE"/>
+        <display value="JERSEY"/>
+      </concept>
+      <concept>
+        <code value="JM"/>
+        <display value="JAMAICA"/>
+      </concept>
+      <concept>
+        <code value="JO"/>
+        <display value="JORDAN"/>
+      </concept>
+      <concept>
+        <code value="JP"/>
+        <display value="JAPAN"/>
+      </concept>
+      <concept>
+        <code value="KE"/>
+        <display value="KENYA"/>
+      </concept>
+      <concept>
+        <code value="KG"/>
+        <display value="KYRGYZSTAN"/>
+      </concept>
+      <concept>
+        <code value="KH"/>
+        <display value="CAMBODIA"/>
+      </concept>
+      <concept>
+        <code value="KI"/>
+        <display value="KIRIBATI"/>
+      </concept>
+      <concept>
+        <code value="KM"/>
+        <display value="COMOROS"/>
+      </concept>
+      <concept>
+        <code value="KN"/>
+        <display value="SAINT KITTS AND NEVIS"/>
+      </concept>
+      <concept>
+        <code value="KP"/>
+        <display value="KOREA (DEMOCRATIC PEOPLE'S REPUBLIC OF)"/>
+      </concept>
+      <concept>
+        <code value="KR"/>
+        <display value="KOREA, REPUBLIC OF"/>
+      </concept>
+      <concept>
+        <code value="KW"/>
+        <display value="KUWAIT"/>
+      </concept>
+      <concept>
+        <code value="KY"/>
+        <display value="CAYMAN ISLANDS"/>
+      </concept>
+      <concept>
+        <code value="KZ"/>
+        <display value="KAZAKHSTAN"/>
+      </concept>
+      <concept>
+        <code value="LA"/>
+        <display value="LAO PEOPLE'S DEMOCRATIC REPUBLIC"/>
+      </concept>
+      <concept>
+        <code value="LB"/>
+        <display value="LEBANON"/>
+      </concept>
+      <concept>
+        <code value="LC"/>
+        <display value="SAINT LUCIA"/>
+      </concept>
+      <concept>
+        <code value="LI"/>
+        <display value="LIECHTENSTEIN"/>
+      </concept>
+      <concept>
+        <code value="LK"/>
+        <display value="SRI LANKA"/>
+      </concept>
+      <concept>
+        <code value="LR"/>
+        <display value="LIBERIA"/>
+      </concept>
+      <concept>
+        <code value="LS"/>
+        <display value="LESOTHO"/>
+      </concept>
+      <concept>
+        <code value="LT"/>
+        <display value="LITHUANIA"/>
+      </concept>
+      <concept>
+        <code value="LU"/>
+        <display value="LUXEMBOURG"/>
+      </concept>
+      <concept>
+        <code value="LV"/>
+        <display value="LATVIA"/>
+      </concept>
+      <concept>
+        <code value="LY"/>
+        <display value="LIBYA"/>
+      </concept>
+      <concept>
+        <code value="MA"/>
+        <display value="MOROCCO"/>
+      </concept>
+      <concept>
+        <code value="MC"/>
+        <display value="MONACO"/>
+      </concept>
+      <concept>
+        <code value="MD"/>
+        <display value="MOLDOVA, REPUBLIC OF"/>
+      </concept>
+      <concept>
+        <code value="ME"/>
+        <display value="MONTENEGRO"/>
+      </concept>
+      <concept>
+        <code value="MF"/>
+        <display value="SAINT MARTIN (FRENCH PART)"/>
+      </concept>
+      <concept>
+        <code value="MG"/>
+        <display value="MADAGASCAR"/>
+      </concept>
+      <concept>
+        <code value="MH"/>
+        <display value="MARSHALL ISLANDS"/>
+      </concept>
+      <concept>
+        <code value="MK"/>
+        <display value="MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF"/>
+      </concept>
+      <concept>
+        <code value="ML"/>
+        <display value="MALI"/>
+      </concept>
+      <concept>
+        <code value="MM"/>
+        <display value="MYANMAR"/>
+      </concept>
+      <concept>
+        <code value="MN"/>
+        <display value="MONGOLIA"/>
+      </concept>
+      <concept>
+        <code value="MO"/>
+        <display value="MACAO"/>
+      </concept>
+      <concept>
+        <code value="MP"/>
+        <display value="NORTHERN MARIANA ISLANDS"/>
+      </concept>
+      <concept>
+        <code value="MQ"/>
+        <display value="MARTINIQUE"/>
+      </concept>
+      <concept>
+        <code value="MR"/>
+        <display value="MAURITANIA"/>
+      </concept>
+      <concept>
+        <code value="MS"/>
+        <display value="MONTSERRAT"/>
+      </concept>
+      <concept>
+        <code value="MT"/>
+        <display value="MALTA"/>
+      </concept>
+      <concept>
+        <code value="MU"/>
+        <display value="MAURITIUS"/>
+      </concept>
+      <concept>
+        <code value="MV"/>
+        <display value="MALDIVES"/>
+      </concept>
+      <concept>
+        <code value="MW"/>
+        <display value="MALAWI"/>
+      </concept>
+      <concept>
+        <code value="MX"/>
+        <display value="MEXICO"/>
+      </concept>
+      <concept>
+        <code value="MY"/>
+        <display value="MALAYSIA"/>
+      </concept>
+      <concept>
+        <code value="MZ"/>
+        <display value="MOZAMBIQUE"/>
+      </concept>
+      <concept>
+        <code value="NA"/>
+        <display value="NAMIBIA"/>
+      </concept>
+      <concept>
+        <code value="NC"/>
+        <display value="NEW CALEDONIA"/>
+      </concept>
+      <concept>
+        <code value="NE"/>
+        <display value="NIGER"/>
+      </concept>
+      <concept>
+        <code value="NF"/>
+        <display value="NORFOLK ISLAND"/>
+      </concept>
+      <concept>
+        <code value="NG"/>
+        <display value="NIGERIA"/>
+      </concept>
+      <concept>
+        <code value="NI"/>
+        <display value="NICARAGUA"/>
+      </concept>
+      <concept>
+        <code value="NL"/>
+        <display value="NETHERLANDS"/>
+      </concept>
+      <concept>
+        <code value="NO"/>
+        <display value="NORWAY"/>
+      </concept>
+      <concept>
+        <code value="NP"/>
+        <display value="NEPAL"/>
+      </concept>
+      <concept>
+        <code value="NR"/>
+        <display value="NAURU"/>
+      </concept>
+      <concept>
+        <code value="NU"/>
+        <display value="NIUE"/>
+      </concept>
+      <concept>
+        <code value="NZ"/>
+        <display value="NEW ZEALAND"/>
+      </concept>
+      <concept>
+        <code value="OM"/>
+        <display value="OMAN"/>
+      </concept>
+      <concept>
+        <code value="PA"/>
+        <display value="PANAMA"/>
+      </concept>
+      <concept>
+        <code value="PE"/>
+        <display value="PERU"/>
+      </concept>
+      <concept>
+        <code value="PF"/>
+        <display value="FRENCH POLYNESIA"/>
+      </concept>
+      <concept>
+        <code value="PG"/>
+        <display value="PAPUA NEW GUINEA"/>
+      </concept>
+      <concept>
+        <code value="PH"/>
+        <display value="PHILIPPINES"/>
+      </concept>
+      <concept>
+        <code value="PK"/>
+        <display value="PAKISTAN"/>
+      </concept>
+      <concept>
+        <code value="PL"/>
+        <display value="POLAND"/>
+      </concept>
+      <concept>
+        <code value="PM"/>
+        <display value="SAINT PIERRE AND MIQUELON"/>
+      </concept>
+      <concept>
+        <code value="PN"/>
+        <display value="PITCAIRN"/>
+      </concept>
+      <concept>
+        <code value="PR"/>
+        <display value="PUERTO RICO"/>
+      </concept>
+      <concept>
+        <code value="PS"/>
+        <display value="PALESTINE, STATE OF"/>
+      </concept>
+      <concept>
+        <code value="PT"/>
+        <display value="PORTUGAL"/>
+      </concept>
+      <concept>
+        <code value="PW"/>
+        <display value="PALAU"/>
+      </concept>
+      <concept>
+        <code value="PY"/>
+        <display value="PARAGUAY"/>
+      </concept>
+      <concept>
+        <code value="QA"/>
+        <display value="QATAR"/>
+      </concept>
+      <concept>
+        <code value="RE"/>
+        <display value="REUNION"/>
+      </concept>
+      <concept>
+        <code value="RO"/>
+        <display value="ROMANIA"/>
+      </concept>
+      <concept>
+        <code value="RS"/>
+        <display value="SERBIA"/>
+      </concept>
+      <concept>
+        <code value="RU"/>
+        <display value="RUSSIAN FEDERATION"/>
+      </concept>
+      <concept>
+        <code value="RW"/>
+        <display value="RWANDA"/>
+      </concept>
+      <concept>
+        <code value="SA"/>
+        <display value="SAUDI ARABIA"/>
+      </concept>
+      <concept>
+        <code value="SB"/>
+        <display value="SOLOMON ISLANDS"/>
+      </concept>
+      <concept>
+        <code value="SC"/>
+        <display value="SEYCHELLES"/>
+      </concept>
+      <concept>
+        <code value="SD"/>
+        <display value="SUDAN"/>
+      </concept>
+      <concept>
+        <code value="SE"/>
+        <display value="SWEDEN"/>
+      </concept>
+      <concept>
+        <code value="SG"/>
+        <display value="SINGAPORE"/>
+      </concept>
+      <concept>
+        <code value="SH"/>
+        <display value="SAINT HELENA, ASCENSION AND TRISTAN DA CUNHA"/>
+      </concept>
+      <concept>
+        <code value="SI"/>
+        <display value="SLOVENIA"/>
+      </concept>
+      <concept>
+        <code value="SJ"/>
+        <display value="SVALBARD AND JAN MAYEN"/>
+      </concept>
+      <concept>
+        <code value="SK"/>
+        <display value="SLOVAKIA"/>
+      </concept>
+      <concept>
+        <code value="SL"/>
+        <display value="SIERRA LEONE"/>
+      </concept>
+      <concept>
+        <code value="SM"/>
+        <display value="SAN MARINO"/>
+      </concept>
+      <concept>
+        <code value="SN"/>
+        <display value="SENEGAL"/>
+      </concept>
+      <concept>
+        <code value="SO"/>
+        <display value="SOMALIA"/>
+      </concept>
+      <concept>
+        <code value="SR"/>
+        <display value="SURINAME"/>
+      </concept>
+      <concept>
+        <code value="SS"/>
+        <display value="SOUTH SUDAN"/>
+      </concept>
+      <concept>
+        <code value="ST"/>
+        <display value="SAO TOME AND PRINCIPE"/>
+      </concept>
+      <concept>
+        <code value="SV"/>
+        <display value="EL SALVADOR"/>
+      </concept>
+      <concept>
+        <code value="SX"/>
+        <display value="SINT MAARTEN (DUTCH PART)"/>
+      </concept>
+      <concept>
+        <code value="SY"/>
+        <display value="SYRIAN ARAB REPUBLIC"/>
+      </concept>
+      <concept>
+        <code value="SZ"/>
+        <display value="SWAZILAND"/>
+      </concept>
+      <concept>
+        <code value="TC"/>
+        <display value="TURKS AND CAICOS ISLANDS"/>
+      </concept>
+      <concept>
+        <code value="TD"/>
+        <display value="CHAD"/>
+      </concept>
+      <concept>
+        <code value="TF"/>
+        <display value="FRENCH SOUTHERN TERRITORIES"/>
+      </concept>
+      <concept>
+        <code value="TG"/>
+        <display value="TOGO"/>
+      </concept>
+      <concept>
+        <code value="TH"/>
+        <display value="THAILAND"/>
+      </concept>
+      <concept>
+        <code value="TJ"/>
+        <display value="TAJIKISTAN"/>
+      </concept>
+      <concept>
+        <code value="TK"/>
+        <display value="TOKELAU"/>
+      </concept>
+      <concept>
+        <code value="TL"/>
+        <display value="TIMOR-LESTE"/>
+      </concept>
+      <concept>
+        <code value="TM"/>
+        <display value="TURKMENISTAN"/>
+      </concept>
+      <concept>
+        <code value="TN"/>
+        <display value="TUNISIA"/>
+      </concept>
+      <concept>
+        <code value="TO"/>
+        <display value="TONGA"/>
+      </concept>
+      <concept>
+        <code value="TR"/>
+        <display value="TURKEY"/>
+      </concept>
+      <concept>
+        <code value="TT"/>
+        <display value="TRINIDAD AND TOBAGO"/>
+      </concept>
+      <concept>
+        <code value="TV"/>
+        <display value="TUVALU"/>
+      </concept>
+      <concept>
+        <code value="TW"/>
+        <display value="TAIWAN, PROVINCE OF CHINA"/>
+      </concept>
+      <concept>
+        <code value="TZ"/>
+        <display value="TANZANIA, UNITED REPUBLIC OF"/>
+      </concept>
+      <concept>
+        <code value="UA"/>
+        <display value="UKRAINE"/>
+      </concept>
+      <concept>
+        <code value="UG"/>
+        <display value="UGANDA"/>
+      </concept>
+      <concept>
+        <code value="UM"/>
+        <display value="UNITED STATES MINOR OUTLYING ISLANDS"/>
+      </concept>
+      <concept>
+        <code value="US"/>
+        <display value="UNITED STATES OF AMERICA"/>
+      </concept>
+      <concept>
+        <code value="UY"/>
+        <display value="URUGUAY"/>
+      </concept>
+      <concept>
+        <code value="UZ"/>
+        <display value="UZBEKISTAN"/>
+      </concept>
+      <concept>
+        <code value="VA"/>
+        <display value="HOLY SEE"/>
+      </concept>
+      <concept>
+        <code value="VC"/>
+        <display value="SAINT VINCENT AND THE GRENADINES"/>
+      </concept>
+      <concept>
+        <code value="VE"/>
+        <display value="VENEZUELA (BOLIVARIAN REPUBLIC OF)"/>
+      </concept>
+      <concept>
+        <code value="VG"/>
+        <display value="VIRGIN ISLANDS, BRITISH"/>
+      </concept>
+      <concept>
+        <code value="VI"/>
+        <display value="VIRGIN ISLANDS, U.S."/>
+      </concept>
+      <concept>
+        <code value="VN"/>
+        <display value="VIET NAM"/>
+      </concept>
+      <concept>
+        <code value="VU"/>
+        <display value="VANUATU"/>
+      </concept>
+      <concept>
+        <code value="WF"/>
+        <display value="WALLIS AND FUTUNA"/>
+      </concept>
+      <concept>
+        <code value="WS"/>
+        <display value="SAMOA"/>
+      </concept>
+      <concept>
+        <code value="YE"/>
+        <display value="YEMEN"/>
+      </concept>
+      <concept>
+        <code value="YT"/>
+        <display value="MAYOTTE"/>
+      </concept>
+      <concept>
+        <code value="ZA"/>
+        <display value="SOUTH AFRICA"/>
+      </concept>
+      <concept>
+        <code value="ZM"/>
+        <display value="ZAMBIA"/>
+      </concept>
+      <concept>
+        <code value="ZW"/>
+        <display value="ZIMBABWE"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

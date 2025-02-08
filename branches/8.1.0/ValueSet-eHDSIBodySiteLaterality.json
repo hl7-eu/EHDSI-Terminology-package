@@ -1,0 +1,41 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "eHDSIBodySiteLaterality",
+  "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIBodySiteLaterality",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.68"
+  }],
+  "version" : "0.2.0",
+  "name" : "eHDSIBodySiteLaterality",
+  "title" : "eHDSI Body Site Laterality",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2025-02-08T05:43:06+00:00",
+  "publisher" : "HL7 Europe",
+  "contact" : [{
+    "name" : "HL7 Europe",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://hl7europe.org"
+    }]
+  }],
+  "description" : "This Value Set is used for the body structure site laterality qualifier. It indicates the body site laterality from which a laboratory specimen is collected.",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "7771000",
+        "display" : "Left"
+      },
+      {
+        "code" : "24028007",
+        "display" : "Right"
+      },
+      {
+        "code" : "51440002",
+        "display" : "Right and left"
+      }]
+    }]
+  }
+}

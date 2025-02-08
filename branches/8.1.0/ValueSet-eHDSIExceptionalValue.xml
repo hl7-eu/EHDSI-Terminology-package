@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="eHDSIExceptionalValue"/>
+  <url value="http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIExceptionalValue"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.81"/>
+  </identifier>
+  <version value="0.2.0"/>
+  <name value="eHDSIExceptionalValue"/>
+  <title value="eHDSI Exceptional Value"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2025-02-08T05:43:06+00:00"/>
+  <publisher value="HL7 Europe"/>
+  <contact>
+    <name value="HL7 Europe"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7europe.org"/>
+    </telecom>
+  </contact>
+  <description value="The Value Set is used to code exceptional values for the required binding in FHIR IGs"/>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor"/>
+      <concept>
+        <code value="OTH"/>
+        <display value="other"/>
+      </concept>
+      <concept>
+        <code value="UNK"/>
+        <display value="unknown"/>
+      </concept>
+      <concept>
+        <code value="UNC"/>
+        <display value="un-encoded"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

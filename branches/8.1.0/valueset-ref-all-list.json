@@ -1,0 +1,559 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIActiveIngredient",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSIActiveIngredient",
+      "title" : "eHDSI Active Ingredient",
+      "description" : "The Value Set is used as a mandatory code for the Active Ingredient of medications in the Medications Summary as well as the prescription Sections. Also used to code allergy agents in the Allergies and Other Adverse Reactions Section of the patient Summary.",
+      "systems" : ["http://www.whocc.no/atc"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIAdverseEventType",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSIAdverseEventType",
+      "title" : "eHDSI Adverse Event Type",
+      "description" : "nan",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIAllergenNoDrug",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSIAllergenNoDrug",
+      "title" : "eHDSI Allergen No Drug",
+      "description" : "The value set is used to code the patient's kind of adverse reactions against substance, food or drugs",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIAllergyCertainty",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSIAllergyCertainty",
+      "title" : "eHDSI Allergy Certainty",
+      "description" : "Value Set is used to support or decline the clinical status of the allergy or intolerance",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+      ]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIAllergyStatus",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSIAllergyStatus",
+      "title" : "eHDSI Allergy Status",
+      "description" : "The value set is used to code the Allergy or Intolerance Clinical Status",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+      ]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIAnimalSpecies",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSIAnimalSpecies",
+      "title" : "eHDSI Animal Species",
+      "description" : "The Value Set is used to code the animal species of specimen subject (animal of the patient)",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIBloodGroup",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSIBloodGroup",
+      "title" : "eHDSI Blood Group",
+      "description" : "The Value Set is used to code the value of patient’s blood group + Rh",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIBloodPressure",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSIBloodPressure",
+      "title" : "eHDSI Blood Pressure",
+      "description" : "The Value Set is used for the observations of Blood Pressure recorded in the section for Vital Signs Observations in the Patient Summary. It codes what type of pressure (diastolic, systolic) is measured.",
+      "systems" : ["http://loinc.org"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIBodySite",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSIBodySite",
+      "title" : "eHDSI Body Site",
+      "description" : "The Value Set is used for the details about the anatomical location of a specimen in the Laboratory Result Report or the target body location of a procedure in the Patient Summary.",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIBodySiteLaterality",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSIBodySiteLaterality",
+      "title" : "eHDSI Body Site Laterality",
+      "description" : "This Value Set is used for the body structure site laterality qualifier. It indicates the body site laterality from which a laboratory specimen is collected.",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIBodyStructureLocation",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSIBodyStructureLocation",
+      "title" : "eHDSI Body Structure Location Qualifier",
+      "description" : "This Value Set is used for the body structure location qualifier. Concepts modifying the anatomic location.",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSICertainty",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSICertainty",
+      "title" : "eHDSI Certainty",
+      "description" : "Value Set is used to support or decline the clinical status of the condition or diagnosis",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/condition-ver-status"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSICodeProb",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSICodeProb",
+      "title" : "eHDSI Code Prob",
+      "description" : "The Value Set is used as an optional description of a problem in the patient Summary. It gives an information on the circumstances under which the problem was defined/discovered.",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSICountry",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSICountry",
+      "title" : "eHDSI Country",
+      "description" : "The Value Set is used to identify the nationality of all persons and organizations.",
+      "systems" : ["urn:iso:std:iso:3166"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSICriticality",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSICriticality",
+      "title" : "eHDSI Criticality",
+      "description" : "Value set is used to estimate of the potential clinical harm, or seriousness, of a reaction to an identified substance",
+      "systems" : ["http://hl7.org/fhir/allergy-intolerance-criticality"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSICurrentPregnancyStatus",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSICurrentPregnancyStatus",
+      "title" : "eHDSI Current Pregnancy Status",
+      "description" : "Value set is used to provide the woman's current state at the date the observation was made",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIDisplayLabel",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSIDisplayLabel",
+      "title" : "eHDSI Display Label",
+      "description" : "The Value Set is used to denominate all the labels and messages adopted for the eHDSI CDA display",
+      "systems" : ["urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.44.4"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIDocumentCode",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSIDocumentCode",
+      "title" : "eHDSI Document Code",
+      "description" : "Defines to which category the document belongs to : summary, prescription, or dispensation.",
+      "systems" : ["http://loinc.org"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIDoseForm",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSIDoseForm",
+      "title" : "eHDSI Dose Form",
+      "description" : "nan",
+      "systems" : ["http://standardterms.edqm.eu"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIExceptionalValue",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSIExceptionalValue",
+      "title" : "eHDSI Exceptional Value",
+      "description" : "The Value Set is used to code exceptional values for the required binding in FHIR IGs",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-NullFlavor"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIHealthcareProfessionalRole",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSIHealthcareProfessionalRole",
+      "title" : "eHDSI Healthcare Professional Role",
+      "description" : "nan",
+      "systems" : ["urn:oid:2.16.840.1.113883.2.9.6.2.7"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIHospitalDischargeReportType",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSIHospitalDischargeReportType",
+      "title" : "eHDSI Hospital Discharge Report Type",
+      "description" : "nan",
+      "systems" : ["http://loinc.org"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIIllnessandDisorder",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSIIllnessandDisorder",
+      "title" : "eHDSI Illness and Disorder",
+      "description" : "The complete content of ICD-10, excluding Chapter XX.",
+      "systems" : ["http://hl7.org/fhir/sid/icd-10"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSILabCode",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSILabCode",
+      "title" : "eHDSI Laboratory Codes",
+      "description" : "This Value Set is used for the standard laboratory codes",
+      "systems" : ["http://loinc.org"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSILabSpecimenType",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSILabSpecimenType",
+      "title" : "eHDSI Laboratory Specimen Type",
+      "description" : "This Value Set is used for the kind of material that forms the specimen",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSILabStudyType",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSILabStudyType",
+      "title" : "eHDSI Laboratory Study Types",
+      "description" : "eHDSI Laboratory Study Types. Notes: Note 1: 26436-6 (Laboratory studies) enables issuing a report putting together observations from multiple specialties (disciplines) in the same text block, allowing delivery of a global interpretation comment at the end of the text block that will be rendered at the end of the report. Note 2: Mycology and parasitology, as well as bacteriology, are part of the 18725-2 (Microbiology studies (set)) studies. Note 3: Virology MAY be included in 18725-2 (MICROBIOLOGY STUDIES) or 18727-8 (SEROLOGY STUDIES) or split between both study types, depending upon the Content Creator Actor’s choice.",
+      "systems" : ["http://loinc.org"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSILabTechnique",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSILabTechnique",
+      "title" : "eHDSI Laboratory Technique",
+      "description" : "This Value Set is used to encode laboratory technique for the result measurement",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSILaboratoryReportType",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSILaboratoryReportType",
+      "title" : "eHDSI Laboratory Report Types",
+      "description" : "eHDSI Laboratory Report Types",
+      "systems" : ["http://loinc.org"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSILanguage",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSILanguage",
+      "title" : "eHDSI Language",
+      "description" : "The Value Set is used to identify the language the document will be written with.",
+      "systems" : ["urn:ietf:bcp:47"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIMedicalDevice",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSIMedicalDevice",
+      "title" : "eHDSI Medical Device",
+      "description" : "nan",
+      "systems" : [
+        "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.44.6",
+        "http://snomed.info/sct"
+      ]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIMedicalImagingReportType",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSIMedicalImagingReportType",
+      "title" : "eHDSI Medical Imaging Report Type",
+      "description" : "nan",
+      "systems" : ["http://loinc.org"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIMicroorganism",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSIMicroorganism",
+      "title" : "eHDSI Microorganism",
+      "description" : "nan",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIMorphologicAbnormality",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSIMorphologicAbnormality",
+      "title" : "eHDSI Morphologic Abnormality",
+      "description" : "The Value Set is used to code the morphological abnormalities of the anatomical location where the material is taken.",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIObservationCategory",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSIObservationCategory",
+      "title" : "eHDSI Observation category",
+      "description" : "This Value Set is used for the Laboratory Observation Results Category code",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/observation-category"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIObservationInterpretation",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSIObservationInterpretation",
+      "title" : "eHDSI Observation Interpretation",
+      "description" : "This Value Set is used for a rough qualitative interpretation of the Laboratory Observation Results",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"
+      ]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIOutcomeOfPregnancy",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSIOutcomeOfPregnancy",
+      "title" : "eHDSI Outcome of Pregnancy",
+      "description" : "The Value Set is used to code the outcome of previous pregnancy",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIPackage",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSIPackage",
+      "title" : "eHDSI Package",
+      "description" : "nan",
+      "systems" : ["http://standardterms.edqm.eu"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIPerformerFunction",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSIPerformerFunction",
+      "title" : "eHDSI Performer Function",
+      "description" : "Laboratory Performer Function",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ParticipationType"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIPersonalRelationship",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSIPersonalRelationship",
+      "title" : "eHDSI PersonalRelationship",
+      "description" : "The Value Set is used (optionally) to code the type of contact relationship between a person and the patient.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-RoleCode"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIPregnancyInformation",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSIPregnancyInformation",
+      "title" : "eHDSI PregnancyInformation",
+      "description" : "The Value Set is used to determine the patient's delivery date estimation.",
+      "systems" : ["http://loinc.org"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIPresenceAbsence",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSIPresenceAbsence",
+      "title" : "eHDSI Presence Absence",
+      "description" : "The Value Set is used to describe presence and absence findings (qualifier values) of the Laboratory Test Results",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIProcedure",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSIProcedure",
+      "title" : "eHDSI Procedure",
+      "description" : "nan",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIQuantityUnit",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSIQuantityUnit",
+      "title" : "eHDSI Quantity Unit",
+      "description" : "The Value Set is used to describe the discrete countible entity in which a pharmaceutical product or manufactured item is presented.",
+      "systems" : ["http://standardterms.edqm.eu"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIRareDisease",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSIRareDisease",
+      "title" : "eHDSI Rare Disease",
+      "description" : "The Value Set is used to describe the problems and medication reasons.",
+      "systems" : ["https://www.orpha.net"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIReactionAllergy",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSIReactionAllergy",
+      "title" : "eHDSI Reaction Allergy",
+      "description" : "Value Set is used to encode clinical manifestation of the allergic reaction.",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIReferenceRangeAppliesTo",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSIReferenceRangeAppliesTo",
+      "title" : "eHDSI Reference Range Applies To",
+      "description" : "This value set defines a set of codes that can be used to indicate the particular target population the reference range applies to",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/sex-parameter-for-clinical-use"
+      ]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIReferenceRangeMeaning",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSIReferenceRangeMeaning",
+      "title" : "eHDSI Reference Range Meaning",
+      "description" : "This value set defines a set of codes for a reference range qualifier",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/referencerange-meaning"
+      ]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIResolutionOutcome",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSIResolutionOutcome",
+      "title" : "eHDSI Resolution Outcome",
+      "description" : "The Value Set is used to describe the clinical status of a problem outcome.",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIRoleClass",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSIRoleClass",
+      "title" : "eHDSI Role Class",
+      "description" : "The Value Set is used to make the distinction between an emergency contact and the next of kin for a patient.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-RoleClass"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIRouteofAdministration",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSIRouteofAdministration",
+      "title" : "eHDSI Route of Administration",
+      "description" : "nan",
+      "systems" : ["http://standardterms.edqm.eu"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSISection",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSISection",
+      "title" : "eHDSI Section",
+      "description" : "The Value Set is used for naming the sections used by the three CDA-documents",
+      "systems" : ["http://loinc.org"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSISeverity",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSISeverity",
+      "title" : "eHDSI Severity",
+      "description" : "The Value Set is used for all Problems and Allergies in the Patient Summary to indicate the severity of the problem (or Allergy)",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSISocialHistory",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSISocialHistory",
+      "title" : "eHDSI Social History",
+      "description" : "The Value Set is used to code the different elements of the patient's social history.",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIStatusCode",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSIStatusCode",
+      "title" : "eHDSI Status Code",
+      "description" : "The Value Set is used to code the different elements of the patient's social history.",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSISubstance",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSISubstance",
+      "title" : "eHDSI Substance",
+      "description" : "The Value Set is used to code the substances of medicine.",
+      "systems" : ["https://spor.ema.europa.eu/v2/SubstanceDefinition"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSISubstitutionCode",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSISubstitutionCode",
+      "title" : "eHDSI Substitution Code",
+      "description" : "nan",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-substanceAdminSubstitution"
+      ]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSITelecomAddress",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSITelecomAddress",
+      "title" : "eHDSI Telecom Address",
+      "description" : "The Value Set is used (optionally) to code the usage of a phone number, email and all telecommunications. Can be used for all phone numbers mentioned in the three CDA-documents.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-AddressUse"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSITimingEvent",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSITimingEvent",
+      "title" : "eHDSI Timing Event",
+      "description" : "nan",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-TimingEvent"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIUnit",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSIUnit",
+      "title" : "eHDSI Unit",
+      "description" : "nan",
+      "systems" : ["http://unitsofmeasure.org/"]
+    },
+    {
+      "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIVaccine",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "eHDSIVaccine",
+      "title" : "eHDSI Vaccine",
+      "description" : "The Value Set is used to identify the patient's vaccinations in the Patient Summary",
+      "systems" : ["http://snomed.info/sct", "http://www.whocc.no/atc"]
+    }
+  ]
+}

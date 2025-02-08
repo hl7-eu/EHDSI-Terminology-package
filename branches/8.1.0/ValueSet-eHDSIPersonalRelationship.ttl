@@ -1,0 +1,201 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIPersonalRelationship> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "eHDSIPersonalRelationship"] ; # 
+  fhir:url [ fhir:v "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIPersonalRelationship"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.38" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "0.2.0"] ; # 
+  fhir:name [ fhir:v "eHDSIPersonalRelationship"] ; # 
+  fhir:title [ fhir:v "eHDSI PersonalRelationship"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2025-02-08T05:43:06+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 Europe"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 Europe" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://hl7europe.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "The Value Set is used (optionally) to code the type of contact relationship between a person and the patient."] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "AUNT" ] ;
+         fhir:display [ fhir:v "aunt" ]
+       ] [
+         fhir:code [ fhir:v "CHILD" ] ;
+         fhir:display [ fhir:v "Child" ]
+       ] [
+         fhir:code [ fhir:v "CHLDADOPT" ] ;
+         fhir:display [ fhir:v "adopted child" ]
+       ] [
+         fhir:code [ fhir:v "CHLDFOST" ] ;
+         fhir:display [ fhir:v "foster child" ]
+       ] [
+         fhir:code [ fhir:v "CHLDINLAW" ] ;
+         fhir:display [ fhir:v "child in-law" ]
+       ] [
+         fhir:code [ fhir:v "COUSN" ] ;
+         fhir:display [ fhir:v "cousin" ]
+       ] [
+         fhir:code [ fhir:v "DAU" ] ;
+         fhir:display [ fhir:v "natural daughter" ]
+       ] [
+         fhir:code [ fhir:v "DAUADOPT" ] ;
+         fhir:display [ fhir:v "adopted daughter" ]
+       ] [
+         fhir:code [ fhir:v "DAUC" ] ;
+         fhir:display [ fhir:v "daughter" ]
+       ] [
+         fhir:code [ fhir:v "DAUFOST" ] ;
+         fhir:display [ fhir:v "foster daughter" ]
+       ] [
+         fhir:code [ fhir:v "DAUINLAW" ] ;
+         fhir:display [ fhir:v "daughter in-law" ]
+       ] [
+         fhir:code [ fhir:v "DOMPART" ] ;
+         fhir:display [ fhir:v "domestic partner" ]
+       ] [
+         fhir:code [ fhir:v "FAMMEMB" ] ;
+         fhir:display [ fhir:v "Family Member" ]
+       ] [
+         fhir:code [ fhir:v "FRND" ] ;
+         fhir:display [ fhir:v "unrelated friend" ]
+       ] [
+         fhir:code [ fhir:v "FTH" ] ;
+         fhir:display [ fhir:v "Father" ]
+       ] [
+         fhir:code [ fhir:v "FTHINLAW" ] ;
+         fhir:display [ fhir:v "father-in-law" ]
+       ] [
+         fhir:code [ fhir:v "GGRPRN" ] ;
+         fhir:display [ fhir:v "great grandparent" ]
+       ] [
+         fhir:code [ fhir:v "GRNDCHILD" ] ;
+         fhir:display [ fhir:v "grandchild" ]
+       ] [
+         fhir:code [ fhir:v "GRPRN" ] ;
+         fhir:display [ fhir:v "Grandparent" ]
+       ] [
+         fhir:code [ fhir:v "MTH" ] ;
+         fhir:display [ fhir:v "Mother" ]
+       ] [
+         fhir:code [ fhir:v "MTHINLAW" ] ;
+         fhir:display [ fhir:v "mother-in-law" ]
+       ] [
+         fhir:code [ fhir:v "NBOR" ] ;
+         fhir:display [ fhir:v "neighbor" ]
+       ] [
+         fhir:code [ fhir:v "NCHILD" ] ;
+         fhir:display [ fhir:v "natural child" ]
+       ] [
+         fhir:code [ fhir:v "NIENEPH" ] ;
+         fhir:display [ fhir:v "niece/nephew" ]
+       ] [
+         fhir:code [ fhir:v "PRN" ] ;
+         fhir:display [ fhir:v "Parent" ]
+       ] [
+         fhir:code [ fhir:v "PRNINLAW" ] ;
+         fhir:display [ fhir:v "parent in-law" ]
+       ] [
+         fhir:code [ fhir:v "ROOM" ] ;
+         fhir:display [ fhir:v "Roommate" ]
+       ] [
+         fhir:code [ fhir:v "SIB" ] ;
+         fhir:display [ fhir:v "Sibling" ]
+       ] [
+         fhir:code [ fhir:v "SIGOTHR" ] ;
+         fhir:display [ fhir:v "significant other" ]
+       ] [
+         fhir:code [ fhir:v "SON" ] ;
+         fhir:display [ fhir:v "natural son" ]
+       ] [
+         fhir:code [ fhir:v "SONADOPT" ] ;
+         fhir:display [ fhir:v "adopted son" ]
+       ] [
+         fhir:code [ fhir:v "SONC" ] ;
+         fhir:display [ fhir:v "son" ]
+       ] [
+         fhir:code [ fhir:v "SONFOST" ] ;
+         fhir:display [ fhir:v "foster son" ]
+       ] [
+         fhir:code [ fhir:v "SONINLAW" ] ;
+         fhir:display [ fhir:v "son in-law" ]
+       ] [
+         fhir:code [ fhir:v "SPS" ] ;
+         fhir:display [ fhir:v "spouse" ]
+       ] [
+         fhir:code [ fhir:v "STPCHLD" ] ;
+         fhir:display [ fhir:v "step child" ]
+       ] [
+         fhir:code [ fhir:v "STPDAU" ] ;
+         fhir:display [ fhir:v "stepdaughter" ]
+       ] [
+         fhir:code [ fhir:v "STPSON" ] ;
+         fhir:display [ fhir:v "stepson" ]
+       ] [
+         fhir:code [ fhir:v "UNCLE" ] ;
+         fhir:display [ fhir:v "uncle" ]
+       ] [
+         fhir:code [ fhir:v "EXT" ] ;
+         fhir:display [ fhir:v "extended family member" ]
+       ] [
+         fhir:code [ fhir:v "GGRFTH" ] ;
+         fhir:display [ fhir:v "great grandfather" ]
+       ] [
+         fhir:code [ fhir:v "GGRMTH" ] ;
+         fhir:display [ fhir:v "great grandmother" ]
+       ] [
+         fhir:code [ fhir:v "GRNDDAU" ] ;
+         fhir:display [ fhir:v "granddaughter" ]
+       ] [
+         fhir:code [ fhir:v "GRNDSON" ] ;
+         fhir:display [ fhir:v "grandson" ]
+       ] [
+         fhir:code [ fhir:v "GRFTH" ] ;
+         fhir:display [ fhir:v "Grandfather" ]
+       ] [
+         fhir:code [ fhir:v "GRMTH" ] ;
+         fhir:display [ fhir:v "Grandmother" ]
+       ] [
+         fhir:code [ fhir:v "BROINLAW" ] ;
+         fhir:display [ fhir:v "brother-in-law" ]
+       ] [
+         fhir:code [ fhir:v "SISINLAW" ] ;
+         fhir:display [ fhir:v "sister-in-law" ]
+       ] [
+         fhir:code [ fhir:v "NEPHEW" ] ;
+         fhir:display [ fhir:v "nephew" ]
+       ] [
+         fhir:code [ fhir:v "NIECE" ] ;
+         fhir:display [ fhir:v "niece" ]
+       ] [
+         fhir:code [ fhir:v "BRO" ] ;
+         fhir:display [ fhir:v "Brother" ]
+       ] [
+         fhir:code [ fhir:v "SIS" ] ;
+         fhir:display [ fhir:v "Sister" ]
+       ] [
+         fhir:code [ fhir:v "HUSB" ] ;
+         fhir:display [ fhir:v "husband" ]
+       ] [
+         fhir:code [ fhir:v "WIFE" ] ;
+         fhir:display [ fhir:v "wife" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

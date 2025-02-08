@@ -1,0 +1,57 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "eHDSICodeProb",
+  "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSICodeProb",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.23"
+  }],
+  "version" : "0.2.0",
+  "name" : "eHDSICodeProb",
+  "title" : "eHDSI Code Prob",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2025-02-08T05:43:06+00:00",
+  "publisher" : "HL7 Europe",
+  "contact" : [{
+    "name" : "HL7 Europe",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://hl7europe.org"
+    }]
+  }],
+  "description" : "The Value Set is used as an optional description of a problem in the patient Summary. It gives an information on the circumstances under which the problem was defined/discovered.",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "404684003",
+        "display" : "Clinical finding"
+      },
+      {
+        "code" : "409586006",
+        "display" : "Complaint"
+      },
+      {
+        "code" : "282291009",
+        "display" : "Diagnosis interpretation"
+      },
+      {
+        "code" : "64572001",
+        "display" : "Disease"
+      },
+      {
+        "code" : "248536006",
+        "display" : "Finding of functional performance and activity"
+      },
+      {
+        "code" : "418799008",
+        "display" : "Finding reported by subject or history provider"
+      },
+      {
+        "code" : "55607006",
+        "display" : "Problem"
+      }]
+    }]
+  }
+}

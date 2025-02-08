@@ -1,0 +1,447 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSILabSpecimenType> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "eHDSILabSpecimenType"] ; # 
+  fhir:url [ fhir:v "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSILabSpecimenType"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.67" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "0.2.0"] ; # 
+  fhir:name [ fhir:v "eHDSILabSpecimenType"] ; # 
+  fhir:title [ fhir:v "eHDSI Laboratory Specimen Type"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2025-02-08T05:43:06+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 Europe"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 Europe" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://hl7europe.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This Value Set is used for the kind of material that forms the specimen"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "119376003" ] ;
+         fhir:display [ fhir:v "Tissue specimen" ]
+       ] [
+         fhir:code [ fhir:v "122571007" ] ;
+         fhir:display [ fhir:v "Pericardial fluid specimen" ]
+       ] [
+         fhir:code [ fhir:v "119297000" ] ;
+         fhir:display [ fhir:v "Blood specimen" ]
+       ] [
+         fhir:code [ fhir:v "418564007" ] ;
+         fhir:display [ fhir:v "Pleural fluid specimen" ]
+       ] [
+         fhir:code [ fhir:v "122554006" ] ;
+         fhir:display [ fhir:v "Capillary blood specimen" ]
+       ] [
+         fhir:code [ fhir:v "258450006" ] ;
+         fhir:display [ fhir:v "Cerebrospinal fluid specimen" ]
+       ] [
+         fhir:code [ fhir:v "119327009" ] ;
+         fhir:display [ fhir:v "Nail specimen" ]
+       ] [
+         fhir:code [ fhir:v "119361006" ] ;
+         fhir:display [ fhir:v "Plasma specimen" ]
+       ] [
+         fhir:code [ fhir:v "119334006" ] ;
+         fhir:display [ fhir:v "Sputum specimen" ]
+       ] [
+         fhir:code [ fhir:v "119339001" ] ;
+         fhir:display [ fhir:v "Stool specimen" ]
+       ] [
+         fhir:code [ fhir:v "122552005" ] ;
+         fhir:display [ fhir:v "Arterial blood specimen" ]
+       ] [
+         fhir:code [ fhir:v "119341000" ] ;
+         fhir:display [ fhir:v "Bile specimen" ]
+       ] [
+         fhir:code [ fhir:v "122555007" ] ;
+         fhir:display [ fhir:v "Venous blood specimen" ]
+       ] [
+         fhir:code [ fhir:v "119342007" ] ;
+         fhir:display [ fhir:v "Saliva specimen" ]
+       ] [
+         fhir:code [ fhir:v "122575003" ] ;
+         fhir:display [ fhir:v "Urine specimen" ]
+       ] [
+         fhir:code [ fhir:v "309051001" ] ;
+         fhir:display [ fhir:v "Body fluid specimen" ]
+       ] [
+         fhir:code [ fhir:v "119351004" ] ;
+         fhir:display [ fhir:v "Erythrocyte specimen" ]
+       ] [
+         fhir:code [ fhir:v "119364003" ] ;
+         fhir:display [ fhir:v "Serum specimen" ]
+       ] [
+         fhir:code [ fhir:v "119312009" ] ;
+         fhir:display [ fhir:v "Catheter tip submitted as specimen" ]
+       ] [
+         fhir:code [ fhir:v "258529004" ] ;
+         fhir:display [ fhir:v "Throat swab" ]
+       ] [
+         fhir:code [ fhir:v "119323008" ] ;
+         fhir:display [ fhir:v "Pus specimen" ]
+       ] [
+         fhir:code [ fhir:v "258607008" ] ;
+         fhir:display [ fhir:v "Bronchoalveolar lavage fluid specimen" ]
+       ] [
+         fhir:code [ fhir:v "122556008" ] ;
+         fhir:display [ fhir:v "Cord blood specimen" ]
+       ] [
+         fhir:code [ fhir:v "258530009" ] ;
+         fhir:display [ fhir:v "Urethral swab" ]
+       ] [
+         fhir:code [ fhir:v "440500007" ] ;
+         fhir:display [ fhir:v "Dried blood spot specimen" ]
+       ] [
+         fhir:code [ fhir:v "258574006" ] ;
+         fhir:display [ fhir:v "Mid-stream urine specimen" ]
+       ] [
+         fhir:code [ fhir:v "119332005" ] ;
+         fhir:display [ fhir:v "Synovial fluid specimen" ]
+       ] [
+         fhir:code [ fhir:v "258455001" ] ;
+         fhir:display [ fhir:v "Drainage fluid specimen" ]
+       ] [
+         fhir:code [ fhir:v "119371008" ] ;
+         fhir:display [ fhir:v "Specimen from abscess" ]
+       ] [
+         fhir:code [ fhir:v "168139001" ] ;
+         fhir:display [ fhir:v "Peritoneal fluid specimen" ]
+       ] [
+         fhir:code [ fhir:v "258528007" ] ;
+         fhir:display [ fhir:v "Rectal swab" ]
+       ] [
+         fhir:code [ fhir:v "258591005" ] ;
+         fhir:display [ fhir:v "White blood cell specimen" ]
+       ] [
+         fhir:code [ fhir:v "432825001" ] ;
+         fhir:display [ fhir:v "Body secretion specimen" ]
+       ] [
+         fhir:code [ fhir:v "258503004" ] ;
+         fhir:display [ fhir:v "Skin swab" ]
+       ] [
+         fhir:code [ fhir:v "119318008" ] ;
+         fhir:display [ fhir:v "Water specimen" ]
+       ] [
+         fhir:code [ fhir:v "122565001" ] ;
+         fhir:display [ fhir:v "Urinary catheter specimen" ]
+       ] [
+         fhir:code [ fhir:v "309210009" ] ;
+         fhir:display [ fhir:v "Esophageal brushings specimen" ]
+       ] [
+         fhir:code [ fhir:v "708049000" ] ;
+         fhir:display [ fhir:v "Plasma specimen with ethylenediamine tetraacetic acid" ]
+       ] [
+         fhir:code [ fhir:v "440473005" ] ;
+         fhir:display [ fhir:v "Contact lens submitted as specimen" ]
+       ] [
+         fhir:code [ fhir:v "446846006" ] ;
+         fhir:display [ fhir:v "Urine specimen obtained via indwelling urinary catheter" ]
+       ] [
+         fhir:code [ fhir:v "258441009" ] ;
+         fhir:display [ fhir:v "Exudate specimen" ]
+       ] [
+         fhir:code [ fhir:v "119350003" ] ;
+         fhir:display [ fhir:v "Calculus specimen" ]
+       ] [
+         fhir:code [ fhir:v "119329007" ] ;
+         fhir:display [ fhir:v "Colostrum specimen" ]
+       ] [
+         fhir:code [ fhir:v "258459007" ] ;
+         fhir:display [ fhir:v "Gastric fluid specimen" ]
+       ] [
+         fhir:code [ fhir:v "258603007" ] ;
+         fhir:display [ fhir:v "Specimen from respiratory system" ]
+       ] [
+         fhir:code [ fhir:v "309176002" ] ;
+         fhir:display [ fhir:v "Bronchial brushings specimen" ]
+       ] [
+         fhir:code [ fhir:v "119300005" ] ;
+         fhir:display [ fhir:v "Specimen from blood product" ]
+       ] [
+         fhir:code [ fhir:v "439961009" ] ;
+         fhir:display [ fhir:v "Implant submitted as specimen" ]
+       ] [
+         fhir:code [ fhir:v "119336008" ] ;
+         fhir:display [ fhir:v "Exhaled air specimen" ]
+       ] [
+         fhir:code [ fhir:v "258482009" ] ;
+         fhir:display [ fhir:v "Vesicle fluid specimen" ]
+       ] [
+         fhir:code [ fhir:v "258498002" ] ;
+         fhir:display [ fhir:v "Conjunctival swab" ]
+       ] [
+         fhir:code [ fhir:v "122572000" ] ;
+         fhir:display [ fhir:v "Vomitus specimen" ]
+       ] [
+         fhir:code [ fhir:v "258500001" ] ;
+         fhir:display [ fhir:v "Nasopharyngeal swab" ]
+       ] [
+         fhir:code [ fhir:v "168141000" ] ;
+         fhir:display [ fhir:v "Nasal fluid specimen" ]
+       ] [
+         fhir:code [ fhir:v "257261003" ] ;
+         fhir:display [ fhir:v "Swab" ]
+       ] [
+         fhir:code [ fhir:v "258411007" ] ;
+         fhir:display [ fhir:v "Nasopharyngeal aspirate" ]
+       ] [
+         fhir:code [ fhir:v "708048008" ] ;
+         fhir:display [ fhir:v "Plasma specimen with citrate" ]
+       ] [
+         fhir:code [ fhir:v "258415003" ] ;
+         fhir:display [ fhir:v "Biopsy specimen" ]
+       ] [
+         fhir:code [ fhir:v "122580007" ] ;
+         fhir:display [ fhir:v "Cerumen specimen" ]
+       ] [
+         fhir:code [ fhir:v "258453008" ] ;
+         fhir:display [ fhir:v "Cyst fluid specimen" ]
+       ] [
+         fhir:code [ fhir:v "258454002" ] ;
+         fhir:display [ fhir:v "Dialysate specimen" ]
+       ] [
+         fhir:code [ fhir:v "258439008" ] ;
+         fhir:display [ fhir:v "Discharge specimen" ]
+       ] [
+         fhir:code [ fhir:v "119294007" ] ;
+         fhir:display [ fhir:v "Dried blood specimen" ]
+       ] [
+         fhir:code [ fhir:v "258440005" ] ;
+         fhir:display [ fhir:v "Effusion specimen" ]
+       ] [
+         fhir:code [ fhir:v "258442002" ] ;
+         fhir:display [ fhir:v "Fluid specimen" ]
+       ] [
+         fhir:code [ fhir:v "309502007" ] ;
+         fhir:display [ fhir:v "Fetus specimen" ]
+       ] [
+         fhir:code [ fhir:v "309213006" ] ;
+         fhir:display [ fhir:v "Gastric brushings specimen" ]
+       ] [
+         fhir:code [ fhir:v "258562007" ] ;
+         fhir:display [ fhir:v "Genetic specimen" ]
+       ] [
+         fhir:code [ fhir:v "440493002" ] ;
+         fhir:display [ fhir:v "Graft specimen from patient" ]
+       ] [
+         fhir:code [ fhir:v "309171007" ] ;
+         fhir:display [ fhir:v "Lower respiratory fluid specimen" ]
+       ] [
+         fhir:code [ fhir:v "302795002" ] ;
+         fhir:display [ fhir:v "Lymph node aspirate" ]
+       ] [
+         fhir:code [ fhir:v "119345009" ] ;
+         fhir:display [ fhir:v "Menstrual blood specimen" ]
+       ] [
+         fhir:code [ fhir:v "258483004" ] ;
+         fhir:display [ fhir:v "Mucus specimen" ]
+       ] [
+         fhir:code [ fhir:v "258467004" ] ;
+         fhir:display [ fhir:v "Nasopharyngeal washings" ]
+       ] [
+         fhir:code [ fhir:v "258502009" ] ;
+         fhir:display [ fhir:v "Pus swab" ]
+       ] [
+         fhir:code [ fhir:v "119325001" ] ;
+         fhir:display [ fhir:v "Tissue specimen from skin" ]
+       ] [
+         fhir:code [ fhir:v "258505006" ] ;
+         fhir:display [ fhir:v "Skin ulcer swab" ]
+       ] [
+         fhir:code [ fhir:v "258433009" ] ;
+         fhir:display [ fhir:v "Smear specimen" ]
+       ] [
+         fhir:code [ fhir:v "119305000" ] ;
+         fhir:display [ fhir:v "Specimen from plasma bag" ]
+       ] [
+         fhir:code [ fhir:v "119349003" ] ;
+         fhir:display [ fhir:v "Spermatozoa specimen" ]
+       ] [
+         fhir:code [ fhir:v "258538002" ] ;
+         fhir:display [ fhir:v "Transudate specimen" ]
+       ] [
+         fhir:code [ fhir:v "258435002" ] ;
+         fhir:display [ fhir:v "Tumor tissue specimen" ]
+       ] [
+         fhir:code [ fhir:v "258580003" ] ;
+         fhir:display [ fhir:v "Whole blood specimen" ]
+       ] [
+         fhir:code [ fhir:v "122566000" ] ;
+         fhir:display [ fhir:v "Fluid specimen from wound" ]
+       ] [
+         fhir:code [ fhir:v "258531008" ] ;
+         fhir:display [ fhir:v "Wound swab" ]
+       ] [
+         fhir:code [ fhir:v "446302006" ] ;
+         fhir:display [ fhir:v "Air specimen" ]
+       ] [
+         fhir:code [ fhir:v "1003707004" ] ;
+         fhir:display [ fhir:v "Drain device submitted as specimen" ]
+       ] [
+         fhir:code [ fhir:v "309166000" ] ;
+         fhir:display [ fhir:v "Ear swab specimen" ]
+       ] [
+         fhir:code [ fhir:v "119314005" ] ;
+         fhir:display [ fhir:v "Electrode submitted as specimen" ]
+       ] [
+         fhir:code [ fhir:v "309211008" ] ;
+         fhir:display [ fhir:v "Gastric biopsy specimen" ]
+       ] [
+         fhir:code [ fhir:v "258649003" ] ;
+         fhir:display [ fhir:v "Intravenous infusion fluid specimen" ]
+       ] [
+         fhir:code [ fhir:v "309049000" ] ;
+         fhir:display [ fhir:v "Lesion specimen" ]
+       ] [
+         fhir:code [ fhir:v "309066003" ] ;
+         fhir:display [ fhir:v "Skin biopsy specimen" ]
+       ] [
+         fhir:code [ fhir:v "430268003" ] ;
+         fhir:display [ fhir:v "Specimen from bone" ]
+       ] [
+         fhir:code [ fhir:v "119307008" ] ;
+         fhir:display [ fhir:v "Specimen from endotracheal tube" ]
+       ] [
+         fhir:code [ fhir:v "122610009" ] ;
+         fhir:display [ fhir:v "Specimen from lung obtained by biopsy" ]
+       ] [
+         fhir:code [ fhir:v "119379005" ] ;
+         fhir:display [ fhir:v "Specimen from stomach" ]
+       ] [
+         fhir:code [ fhir:v "445447003" ] ;
+         fhir:display [ fhir:v "Specimen from trachea obtained by aspiration" ]
+       ] [
+         fhir:code [ fhir:v "440674008" ] ;
+         fhir:display [ fhir:v "Specimen obtained by lavage" ]
+       ] [
+         fhir:code [ fhir:v "278020009" ] ;
+         fhir:display [ fhir:v "Spot urine specimen" ]
+       ] [
+         fhir:code [ fhir:v "472867001" ] ;
+         fhir:display [ fhir:v "Swab from tonsil" ]
+       ] [
+         fhir:code [ fhir:v "461911000124106" ] ;
+         fhir:display [ fhir:v "Oropharyngeal swab" ]
+       ] [
+         fhir:code [ fhir:v "258480001" ] ;
+         fhir:display [ fhir:v "Transtracheal aspirate specimen" ]
+       ] [
+         fhir:code [ fhir:v "258520000" ] ;
+         fhir:display [ fhir:v "Vaginal swab" ]
+       ] [
+         fhir:code [ fhir:v "258523003" ] ;
+         fhir:display [ fhir:v "Vulval swab" ]
+       ] [
+         fhir:code [ fhir:v "122560006" ] ;
+         fhir:display [ fhir:v "Blood specimen from blood donor" ]
+       ] [
+         fhir:code [ fhir:v "445295009" ] ;
+         fhir:display [ fhir:v "Blood specimen with EDTA" ]
+       ] [
+         fhir:code [ fhir:v "122568004" ] ;
+         fhir:display [ fhir:v "Exudate specimen from wound" ]
+       ] [
+         fhir:code [ fhir:v "698276005" ] ;
+         fhir:display [ fhir:v "First stream urine specimen" ]
+       ] [
+         fhir:code [ fhir:v "788707000" ] ;
+         fhir:display [ fhir:v "Plasma specimen or serum specimen or whole blood specimen" ]
+       ] [
+         fhir:code [ fhir:v "1179252003" ] ;
+         fhir:display [ fhir:v "Slide submitted as specimen" ]
+       ] [
+         fhir:code [ fhir:v "119344008" ] ;
+         fhir:display [ fhir:v "Specimen from genital system" ]
+       ] [
+         fhir:code [ fhir:v "438660002" ] ;
+         fhir:display [ fhir:v "Specimen from prosthetic device" ]
+       ] [
+         fhir:code [ fhir:v "119295008" ] ;
+         fhir:display [ fhir:v "Specimen obtained by aspiration" ]
+       ] [
+         fhir:code [ fhir:v "258609006" ] ;
+         fhir:display [ fhir:v "Sputum specimen obtained by aspiration from trachea" ]
+       ] [
+         fhir:code [ fhir:v "472896000" ] ;
+         fhir:display [ fhir:v "Swab from blister" ]
+       ] [
+         fhir:code [ fhir:v "472901003" ] ;
+         fhir:display [ fhir:v "Swab from nasal sinus" ]
+       ] [
+         fhir:code [ fhir:v "472881004" ] ;
+         fhir:display [ fhir:v "Swab from pharynx" ]
+       ] [
+         fhir:code [ fhir:v "122877000" ] ;
+         fhir:display [ fhir:v "Upper respiratory fluid specimen obtained by tracheal aspiration" ]
+       ] [
+         fhir:code [ fhir:v "258438000" ] ;
+         fhir:display [ fhir:v "Vitreous humor specimen" ]
+       ] [
+         fhir:code [ fhir:v "445297001" ] ;
+         fhir:display [ fhir:v "Swab of internal nose" ]
+       ] [
+         fhir:code [ fhir:v "122592007" ] ;
+         fhir:display [ fhir:v "Serum or plasma specimen" ]
+       ] [
+         fhir:code [ fhir:v "119320006" ] ;
+         fhir:display [ fhir:v "Food specimen" ]
+       ] [
+         fhir:code [ fhir:v "119337004" ] ;
+         fhir:display [ fhir:v "Inhaled gas specimen" ]
+       ] [
+         fhir:code [ fhir:v "258606004" ] ;
+         fhir:display [ fhir:v "Lower respiratory tract specimen" ]
+       ] [
+         fhir:code [ fhir:v "119362004" ] ;
+         fhir:display [ fhir:v "Platelet poor plasma specimen" ]
+       ] [
+         fhir:code [ fhir:v "119363009" ] ;
+         fhir:display [ fhir:v "Platelet rich plasma specimen" ]
+       ] [
+         fhir:code [ fhir:v "119367005" ] ;
+         fhir:display [ fhir:v "Specimen from burn injury" ]
+       ] [
+         fhir:code [ fhir:v "702701006" ] ;
+         fhir:display [ fhir:v "Specimen from cervix or vagina" ]
+       ] [
+         fhir:code [ fhir:v "1003708009" ] ;
+         fhir:display [ fhir:v "Specimen from drain device" ]
+       ] [
+         fhir:code [ fhir:v "119395005" ] ;
+         fhir:display [ fhir:v "Specimen from uterine cervix" ]
+       ] [
+         fhir:code [ fhir:v "119394009" ] ;
+         fhir:display [ fhir:v "Specimen from vagina" ]
+       ] [
+         fhir:code [ fhir:v "119365002" ] ;
+         fhir:display [ fhir:v "Specimen from wound" ]
+       ] [
+         fhir:code [ fhir:v "168137004" ] ;
+         fhir:display [ fhir:v "Gastric aspirate specimen" ]
+       ] [
+         fhir:code [ fhir:v "309068002" ] ;
+         fhir:display [ fhir:v "Skin lesion specimen" ]
+       ] [
+         fhir:code [ fhir:v "697989009" ] ;
+         fhir:display [ fhir:v "Anterior nares swab" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

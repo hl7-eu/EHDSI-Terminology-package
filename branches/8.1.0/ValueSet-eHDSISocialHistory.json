@@ -1,0 +1,61 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "eHDSISocialHistory",
+  "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSISocialHistory",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.14"
+  }],
+  "version" : "0.2.0",
+  "name" : "eHDSISocialHistory",
+  "title" : "eHDSI Social History",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2025-02-08T05:43:06+00:00",
+  "publisher" : "HL7 Europe",
+  "contact" : [{
+    "name" : "HL7 Europe",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://hl7europe.org"
+    }]
+  }],
+  "description" : "The Value Set is used to code the different elements of the patient's social history.",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "364703007",
+        "display" : "Employment detail"
+      },
+      {
+        "code" : "256235009",
+        "display" : "Exercise"
+      },
+      {
+        "code" : "364393001",
+        "display" : "Nutritional observable"
+      },
+      {
+        "code" : "229819007",
+        "display" : "Tobacco use and exposure"
+      },
+      {
+        "code" : "425400000",
+        "display" : "Toxic exposure status"
+      },
+      {
+        "code" : "363908000",
+        "display" : "Details of drug misuse behaviour"
+      },
+      {
+        "code" : "228272008",
+        "display" : "Health-related behaviour"
+      },
+      {
+        "code" : "897148007",
+        "display" : "Alcoholic beverage intake"
+      }]
+    }]
+  }
+}

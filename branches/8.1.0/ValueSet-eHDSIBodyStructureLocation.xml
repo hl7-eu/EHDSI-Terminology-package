@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="eHDSIBodyStructureLocation"/>
+  <url value="http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIBodyStructureLocation"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.80"/>
+  </identifier>
+  <version value="0.2.0"/>
+  <name value="eHDSIBodyStructureLocation"/>
+  <title value="eHDSI Body Structure Location Qualifier"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2025-02-08T05:43:06+00:00"/>
+  <publisher value="HL7 Europe"/>
+  <contact>
+    <name value="HL7 Europe"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7europe.org"/>
+    </telecom>
+  </contact>
+  <description value="This Value Set is used for the body structure location qualifier. Concepts modifying the anatomic location."/>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="49370004"/>
+        <display value="Lateral"/>
+      </concept>
+      <concept>
+        <code value="264217000"/>
+        <display value="Superior"/>
+      </concept>
+      <concept>
+        <code value="261089000"/>
+        <display value="Inferior"/>
+      </concept>
+      <concept>
+        <code value="255551008"/>
+        <display value="Posterior"/>
+      </concept>
+      <concept>
+        <code value="7771000"/>
+        <display value="Left"/>
+      </concept>
+      <concept>
+        <code value="24028007"/>
+        <display value="Right"/>
+      </concept>
+      <concept>
+        <code value="261183002"/>
+        <display value="Upper"/>
+      </concept>
+      <concept>
+        <code value="261122009"/>
+        <display value="Lower"/>
+      </concept>
+      <concept>
+        <code value="255561001"/>
+        <display value="Medial"/>
+      </concept>
+      <concept>
+        <code value="46053002"/>
+        <display value="Distal"/>
+      </concept>
+      <concept>
+        <code value="40415009"/>
+        <display value="Proximal"/>
+      </concept>
+      <concept>
+        <code value="255549009"/>
+        <display value="Anterior"/>
+      </concept>
+      <concept>
+        <code value="26283006"/>
+        <display value="Superficial"/>
+      </concept>
+      <concept>
+        <code value="795002"/>
+        <display value="Deep"/>
+      </concept>
+      <concept>
+        <code value="57195005"/>
+        <display value="Basal"/>
+      </concept>
+      <concept>
+        <code value="3583002"/>
+        <display value="Caudal"/>
+      </concept>
+      <concept>
+        <code value="66787007"/>
+        <display value="Cephalic"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

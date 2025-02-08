@@ -1,0 +1,496 @@
+[
+  {
+    "id" : "edqm-all",
+    "type" : "CodeSystem",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/CodeSystem/edqm-all",
+    "version" : "0.2.0",
+    "name" : "EDQMPharmaceuticalDoseForms"
+  },
+  {
+    "id" : "hl7.eu.terminology.ehdsi",
+    "type" : "ImplementationGuide",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ImplementationGuide/hl7.eu.terminology.ehdsi",
+    "version" : "0.2.0",
+    "name" : "EHDSI"
+  },
+  {
+    "id" : "eHDSIActiveIngredient",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIActiveIngredient",
+    "version" : "0.2.0",
+    "name" : "eHDSIActiveIngredient",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.24"]
+  },
+  {
+    "id" : "eHDSIAdverseEventType",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIAdverseEventType",
+    "version" : "0.2.0",
+    "name" : "eHDSIAdverseEventType",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.18"]
+  },
+  {
+    "id" : "eHDSIAllergenNoDrug",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIAllergenNoDrug",
+    "version" : "0.2.0",
+    "name" : "eHDSIAllergenNoDrug",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.19"]
+  },
+  {
+    "id" : "eHDSIAllergyCertainty",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIAllergyCertainty",
+    "version" : "0.2.0",
+    "name" : "eHDSIAllergyCertainty",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.58"]
+  },
+  {
+    "id" : "eHDSIAllergyStatus",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIAllergyStatus",
+    "version" : "0.2.0",
+    "name" : "eHDSIAllergyStatus",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.59"]
+  },
+  {
+    "id" : "eHDSIAnimalSpecies",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIAnimalSpecies",
+    "version" : "0.2.0",
+    "name" : "eHDSIAnimalSpecies",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.72"]
+  },
+  {
+    "id" : "eHDSIBloodGroup",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIBloodGroup",
+    "version" : "0.2.0",
+    "name" : "eHDSIBloodGroup",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.20"]
+  },
+  {
+    "id" : "eHDSIBloodPressure",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIBloodPressure",
+    "version" : "0.2.0",
+    "name" : "eHDSIBloodPressure",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.21"]
+  },
+  {
+    "id" : "eHDSIBodySite",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIBodySite",
+    "version" : "0.2.0",
+    "name" : "eHDSIBodySite",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.65"]
+  },
+  {
+    "id" : "eHDSIBodySiteLaterality",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIBodySiteLaterality",
+    "version" : "0.2.0",
+    "name" : "eHDSIBodySiteLaterality",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.68"]
+  },
+  {
+    "id" : "eHDSIBodyStructureLocation",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIBodyStructureLocation",
+    "version" : "0.2.0",
+    "name" : "eHDSIBodyStructureLocation",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.80"]
+  },
+  {
+    "id" : "eHDSICertainty",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSICertainty",
+    "version" : "0.2.0",
+    "name" : "eHDSICertainty",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.64"]
+  },
+  {
+    "id" : "eHDSICodeProb",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSICodeProb",
+    "version" : "0.2.0",
+    "name" : "eHDSICodeProb",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.23"]
+  },
+  {
+    "id" : "eHDSICountry",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSICountry",
+    "version" : "0.2.0",
+    "name" : "eHDSICountry",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.4"]
+  },
+  {
+    "id" : "eHDSICriticality",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSICriticality",
+    "version" : "0.2.0",
+    "name" : "eHDSICriticality",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.57"]
+  },
+  {
+    "id" : "eHDSICurrentPregnancyStatus",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSICurrentPregnancyStatus",
+    "version" : "0.2.0",
+    "name" : "eHDSICurrentPregnancyStatus",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.60"]
+  },
+  {
+    "id" : "eHDSIDisplayLabel",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIDisplayLabel",
+    "version" : "0.2.0",
+    "name" : "eHDSIDisplayLabel",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.46"]
+  },
+  {
+    "id" : "eHDSIDocumentCode",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIDocumentCode",
+    "version" : "0.2.0",
+    "name" : "eHDSIDocumentCode",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.32"]
+  },
+  {
+    "id" : "eHDSIDoseForm",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIDoseForm",
+    "version" : "0.2.0",
+    "name" : "eHDSIDoseForm",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.2"]
+  },
+  {
+    "id" : "eHDSIExceptionalValue",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIExceptionalValue",
+    "version" : "0.2.0",
+    "name" : "eHDSIExceptionalValue",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.81"]
+  },
+  {
+    "id" : "eHDSIHealthcareProfessionalRole",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIHealthcareProfessionalRole",
+    "version" : "0.2.0",
+    "name" : "eHDSIHealthcareProfessionalRole",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.1"]
+  },
+  {
+    "id" : "eHDSIHospitalDischargeReportType",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIHospitalDischargeReportType",
+    "version" : "0.2.0",
+    "name" : "eHDSIHospitalDischargeReportType",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.53"]
+  },
+  {
+    "id" : "eHDSIIllnessandDisorder",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIIllnessandDisorder",
+    "version" : "0.2.0",
+    "name" : "eHDSIIllnessandDisorder",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.5"]
+  },
+  {
+    "id" : "eHDSILabCode",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSILabCode",
+    "version" : "0.2.0",
+    "name" : "eHDSILabCode",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.70"]
+  },
+  {
+    "id" : "eHDSILabSpecimenType",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSILabSpecimenType",
+    "version" : "0.2.0",
+    "name" : "eHDSILabSpecimenType",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.67"]
+  },
+  {
+    "id" : "eHDSILabStudyType",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSILabStudyType",
+    "version" : "0.2.0",
+    "name" : "eHDSILabStudyType",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.66"]
+  },
+  {
+    "id" : "eHDSILabTechnique",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSILabTechnique",
+    "version" : "0.2.0",
+    "name" : "eHDSILabTechnique",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.79"]
+  },
+  {
+    "id" : "eHDSILaboratoryReportType",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSILaboratoryReportType",
+    "version" : "0.2.0",
+    "name" : "eHDSILaboratoryReportType",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.52"]
+  },
+  {
+    "id" : "eHDSILanguage",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSILanguage",
+    "version" : "0.2.0",
+    "name" : "eHDSILanguage",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.6"]
+  },
+  {
+    "id" : "eHDSIMedicalDevice",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIMedicalDevice",
+    "version" : "0.2.0",
+    "name" : "eHDSIMedicalDevice",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.8"]
+  },
+  {
+    "id" : "eHDSIMedicalImagingReportType",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIMedicalImagingReportType",
+    "version" : "0.2.0",
+    "name" : "eHDSIMedicalImagingReportType",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.54"]
+  },
+  {
+    "id" : "eHDSIMicroorganism",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIMicroorganism",
+    "version" : "0.2.0",
+    "name" : "eHDSIMicroorganism",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.78"]
+  },
+  {
+    "id" : "eHDSIMorphologicAbnormality",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIMorphologicAbnormality",
+    "version" : "0.2.0",
+    "name" : "eHDSIMorphologicAbnormality",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.69"]
+  },
+  {
+    "id" : "eHDSIObservationCategory",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIObservationCategory",
+    "version" : "0.2.0",
+    "name" : "eHDSIObservationCategory",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.71"]
+  },
+  {
+    "id" : "eHDSIObservationInterpretation",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIObservationInterpretation",
+    "version" : "0.2.0",
+    "name" : "eHDSIObservationInterpretation",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.73"]
+  },
+  {
+    "id" : "eHDSIOutcomeOfPregnancy",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIOutcomeOfPregnancy",
+    "version" : "0.2.0",
+    "name" : "eHDSIOutcomeOfPregnancy",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.62"]
+  },
+  {
+    "id" : "eHDSIPackage",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIPackage",
+    "version" : "0.2.0",
+    "name" : "eHDSIPackage",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.3"]
+  },
+  {
+    "id" : "eHDSIPerformerFunction",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIPerformerFunction",
+    "version" : "0.2.0",
+    "name" : "eHDSIPerformerFunction",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.76"]
+  },
+  {
+    "id" : "eHDSIPersonalRelationship",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIPersonalRelationship",
+    "version" : "0.2.0",
+    "name" : "eHDSIPersonalRelationship",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.38"]
+  },
+  {
+    "id" : "eHDSIPregnancyInformation",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIPregnancyInformation",
+    "version" : "0.2.0",
+    "name" : "eHDSIPregnancyInformation",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.9"]
+  },
+  {
+    "id" : "eHDSIPresenceAbsence",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIPresenceAbsence",
+    "version" : "0.2.0",
+    "name" : "eHDSIPresenceAbsence",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.77"]
+  },
+  {
+    "id" : "eHDSIProcedure",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIProcedure",
+    "version" : "0.2.0",
+    "name" : "eHDSIProcedure",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.10"]
+  },
+  {
+    "id" : "eHDSIQuantityUnit",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIQuantityUnit",
+    "version" : "0.2.0",
+    "name" : "eHDSIQuantityUnit",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.56"]
+  },
+  {
+    "id" : "eHDSIRareDisease",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIRareDisease",
+    "version" : "0.2.0",
+    "name" : "eHDSIRareDisease",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.63"]
+  },
+  {
+    "id" : "eHDSIReactionAllergy",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIReactionAllergy",
+    "version" : "0.2.0",
+    "name" : "eHDSIReactionAllergy",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.11"]
+  },
+  {
+    "id" : "eHDSIReferenceRangeAppliesTo",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIReferenceRangeAppliesTo",
+    "version" : "0.2.0",
+    "name" : "eHDSIReferenceRangeAppliesTo",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.75"]
+  },
+  {
+    "id" : "eHDSIReferenceRangeMeaning",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIReferenceRangeMeaning",
+    "version" : "0.2.0",
+    "name" : "eHDSIReferenceRangeMeaning",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.74"]
+  },
+  {
+    "id" : "eHDSIResolutionOutcome",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIResolutionOutcome",
+    "version" : "0.2.0",
+    "name" : "eHDSIResolutionOutcome",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.30"]
+  },
+  {
+    "id" : "eHDSIRoleClass",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIRoleClass",
+    "version" : "0.2.0",
+    "name" : "eHDSIRoleClass",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.39"]
+  },
+  {
+    "id" : "eHDSIRouteofAdministration",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIRouteofAdministration",
+    "version" : "0.2.0",
+    "name" : "eHDSIRouteofAdministration",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.12"]
+  },
+  {
+    "id" : "eHDSISection",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSISection",
+    "version" : "0.2.0",
+    "name" : "eHDSISection",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.26"]
+  },
+  {
+    "id" : "eHDSISeverity",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSISeverity",
+    "version" : "0.2.0",
+    "name" : "eHDSISeverity",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.13"]
+  },
+  {
+    "id" : "eHDSISocialHistory",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSISocialHistory",
+    "version" : "0.2.0",
+    "name" : "eHDSISocialHistory",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.14"]
+  },
+  {
+    "id" : "eHDSIStatusCode",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIStatusCode",
+    "version" : "0.2.0",
+    "name" : "eHDSIStatusCode",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.15"]
+  },
+  {
+    "id" : "eHDSISubstance",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSISubstance",
+    "version" : "0.2.0",
+    "name" : "eHDSISubstance",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.61"]
+  },
+  {
+    "id" : "eHDSISubstitutionCode",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSISubstitutionCode",
+    "version" : "0.2.0",
+    "name" : "eHDSISubstitutionCode",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.7"]
+  },
+  {
+    "id" : "eHDSITelecomAddress",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSITelecomAddress",
+    "version" : "0.2.0",
+    "name" : "eHDSITelecomAddress",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.40"]
+  },
+  {
+    "id" : "eHDSITimingEvent",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSITimingEvent",
+    "version" : "0.2.0",
+    "name" : "eHDSITimingEvent",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.41"]
+  },
+  {
+    "id" : "eHDSIUnit",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIUnit",
+    "version" : "0.2.0",
+    "name" : "eHDSIUnit",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.16"]
+  },
+  {
+    "id" : "eHDSIVaccine",
+    "type" : "ValueSet",
+    "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIVaccine",
+    "version" : "0.2.0",
+    "name" : "eHDSIVaccine",
+    "alt-urls" : ["urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.28"]
+  }
+]

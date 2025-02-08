@@ -1,0 +1,1449 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIAllergenNoDrug> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "eHDSIAllergenNoDrug"] ; # 
+  fhir:url [ fhir:v "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIAllergenNoDrug"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.19" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "0.2.0"] ; # 
+  fhir:name [ fhir:v "eHDSIAllergenNoDrug"] ; # 
+  fhir:title [ fhir:v "eHDSI Allergen No Drug"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2025-02-08T05:43:06+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 Europe"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 Europe" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://hl7europe.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "The value set is used to code the patient's kind of adverse reactions against substance, food or drugs"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "432003" ] ;
+         fhir:display [ fhir:v "Carminic acid stain" ]
+       ] [
+         fhir:code [ fhir:v "2159007" ] ;
+         fhir:display [ fhir:v "Azorubin S stain" ]
+       ] [
+         fhir:code [ fhir:v "2309006" ] ;
+         fhir:display [ fhir:v "Gold" ]
+       ] [
+         fhir:code [ fhir:v "2799001" ] ;
+         fhir:display [ fhir:v "Methylbenzethonium chloride" ]
+       ] [
+         fhir:code [ fhir:v "3692009" ] ;
+         fhir:display [ fhir:v "Sodium sulfite" ]
+       ] [
+         fhir:code [ fhir:v "3718001" ] ;
+         fhir:display [ fhir:v "Cow's milk" ]
+       ] [
+         fhir:code [ fhir:v "3829006" ] ;
+         fhir:display [ fhir:v "Iron" ]
+       ] [
+         fhir:code [ fhir:v "6725000" ] ;
+         fhir:display [ fhir:v "Methylene blue" ]
+       ] [
+         fhir:code [ fhir:v "7434003" ] ;
+         fhir:display [ fhir:v "Erythrosin B stain" ]
+       ] [
+         fhir:code [ fhir:v "7791007" ] ;
+         fhir:display [ fhir:v "Soybean protein" ]
+       ] [
+         fhir:code [ fhir:v "8204009" ] ;
+         fhir:display [ fhir:v "Polyester" ]
+       ] [
+         fhir:code [ fhir:v "9010006" ] ;
+         fhir:display [ fhir:v "Methyl blue stain" ]
+       ] [
+         fhir:code [ fhir:v "9021002" ] ;
+         fhir:display [ fhir:v "Carbaryl" ]
+       ] [
+         fhir:code [ fhir:v "10827009" ] ;
+         fhir:display [ fhir:v "Milk protein" ]
+       ] [
+         fhir:code [ fhir:v "11526002" ] ;
+         fhir:display [ fhir:v "Aspartame" ]
+       ] [
+         fhir:code [ fhir:v "12503006" ] ;
+         fhir:display [ fhir:v "Aluminum" ]
+       ] [
+         fhir:code [ fhir:v "12510000" ] ;
+         fhir:display [ fhir:v "Eucalyptus oil" ]
+       ] [
+         fhir:code [ fhir:v "13577000" ] ;
+         fhir:display [ fhir:v "Nut" ]
+       ] [
+         fhir:code [ fhir:v "13652007" ] ;
+         fhir:display [ fhir:v "Silicone" ]
+       ] [
+         fhir:code [ fhir:v "14006006" ] ;
+         fhir:display [ fhir:v "Ethylene oxide" ]
+       ] [
+         fhir:code [ fhir:v "14321009" ] ;
+         fhir:display [ fhir:v "Captafol" ]
+       ] [
+         fhir:code [ fhir:v "14402002" ] ;
+         fhir:display [ fhir:v "Wood" ]
+       ] [
+         fhir:code [ fhir:v "15896008" ] ;
+         fhir:display [ fhir:v "Methyl violet 2B stain" ]
+       ] [
+         fhir:code [ fhir:v "16313001" ] ;
+         fhir:display [ fhir:v "Tea" ]
+       ] [
+         fhir:code [ fhir:v "17172002" ] ;
+         fhir:display [ fhir:v "Dibromofluorescein stain" ]
+       ] [
+         fhir:code [ fhir:v "17486007" ] ;
+         fhir:display [ fhir:v "Mecrylate" ]
+       ] [
+         fhir:code [ fhir:v "17693003" ] ;
+         fhir:display [ fhir:v "Acriflavine stain" ]
+       ] [
+         fhir:code [ fhir:v "19839007" ] ;
+         fhir:display [ fhir:v "Sorbitol" ]
+       ] [
+         fhir:code [ fhir:v "19893005" ] ;
+         fhir:display [ fhir:v "Potassium dichromate" ]
+       ] [
+         fhir:code [ fhir:v "21592006" ] ;
+         fhir:display [ fhir:v "Tartrazine stain" ]
+       ] [
+         fhir:code [ fhir:v "22242006" ] ;
+         fhir:display [ fhir:v "Glutaraldehyde" ]
+       ] [
+         fhir:code [ fhir:v "22836000" ] ;
+         fhir:display [ fhir:v "Vegetable" ]
+       ] [
+         fhir:code [ fhir:v "22931006" ] ;
+         fhir:display [ fhir:v "Evans blue stain" ]
+       ] [
+         fhir:code [ fhir:v "22968009" ] ;
+         fhir:display [ fhir:v "Sunset yellow FCF stain" ]
+       ] [
+         fhir:code [ fhir:v "23182003" ] ;
+         fhir:display [ fhir:v "Cereal" ]
+       ] [
+         fhir:code [ fhir:v "24102007" ] ;
+         fhir:display [ fhir:v "Chlorothalonil" ]
+       ] [
+         fhir:code [ fhir:v "24215009" ] ;
+         fhir:display [ fhir:v "Picric acid" ]
+       ] [
+         fhir:code [ fhir:v "25761002" ] ;
+         fhir:display [ fhir:v "Glutamine" ]
+       ] [
+         fhir:code [ fhir:v "27119002" ] ;
+         fhir:display [ fhir:v "Trimellitic anhydride" ]
+       ] [
+         fhir:code [ fhir:v "28230009" ] ;
+         fhir:display [ fhir:v "Poultry" ]
+       ] [
+         fhir:code [ fhir:v "28421003" ] ;
+         fhir:display [ fhir:v "Sorbic acid" ]
+       ] [
+         fhir:code [ fhir:v "28647000" ] ;
+         fhir:display [ fhir:v "Meat" ]
+       ] [
+         fhir:code [ fhir:v "29263009" ] ;
+         fhir:display [ fhir:v "Coffee" ]
+       ] [
+         fhir:code [ fhir:v "29522004" ] ;
+         fhir:display [ fhir:v "Tolonium chloride" ]
+       ] [
+         fhir:code [ fhir:v "31006001" ] ;
+         fhir:display [ fhir:v "Kingdom Plantae" ]
+       ] [
+         fhir:code [ fhir:v "31347007" ] ;
+         fhir:display [ fhir:v "Licorice" ]
+       ] [
+         fhir:code [ fhir:v "33008008" ] ;
+         fhir:display [ fhir:v "Dust" ]
+       ] [
+         fhir:code [ fhir:v "33396006" ] ;
+         fhir:display [ fhir:v "Nickel" ]
+       ] [
+         fhir:code [ fhir:v "35233000" ] ;
+         fhir:display [ fhir:v "Polyvinyl chloride" ]
+       ] [
+         fhir:code [ fhir:v "35605007" ] ;
+         fhir:display [ fhir:v "Anhydrous lanolin" ]
+       ] [
+         fhir:code [ fhir:v "35609001" ] ;
+         fhir:display [ fhir:v "Azophloxin stain" ]
+       ] [
+         fhir:code [ fhir:v "37017009" ] ;
+         fhir:display [ fhir:v "Helminth" ]
+       ] [
+         fhir:code [ fhir:v "37575004" ] ;
+         fhir:display [ fhir:v "Carmoisine A stain" ]
+       ] [
+         fhir:code [ fhir:v "38271009" ] ;
+         fhir:display [ fhir:v "Saffron stain" ]
+       ] [
+         fhir:code [ fhir:v "41750006" ] ;
+         fhir:display [ fhir:v "Brazilin stain" ]
+       ] [
+         fhir:code [ fhir:v "41967008" ] ;
+         fhir:display [ fhir:v "Silver" ]
+       ] [
+         fhir:code [ fhir:v "42416001" ] ;
+         fhir:display [ fhir:v "Lanolin" ]
+       ] [
+         fhir:code [ fhir:v "43230003" ] ;
+         fhir:display [ fhir:v "Rubber" ]
+       ] [
+         fhir:code [ fhir:v "43735007" ] ;
+         fhir:display [ fhir:v "Sulfur" ]
+       ] [
+         fhir:code [ fhir:v "44027008" ] ;
+         fhir:display [ fhir:v "Seafood" ]
+       ] [
+         fhir:code [ fhir:v "47703008" ] ;
+         fhir:display [ fhir:v "Lactose" ]
+       ] [
+         fhir:code [ fhir:v "48540004" ] ;
+         fhir:display [ fhir:v "Patent blue V sodium salt stain" ]
+       ] [
+         fhir:code [ fhir:v "50593009" ] ;
+         fhir:display [ fhir:v "Casein" ]
+       ] [
+         fhir:code [ fhir:v "51503008" ] ;
+         fhir:display [ fhir:v "Rose oil" ]
+       ] [
+         fhir:code [ fhir:v "51905005" ] ;
+         fhir:display [ fhir:v "Mustard" ]
+       ] [
+         fhir:code [ fhir:v "51963001" ] ;
+         fhir:display [ fhir:v "Sulfite salt" ]
+       ] [
+         fhir:code [ fhir:v "52454007" ] ;
+         fhir:display [ fhir:v "Albumin" ]
+       ] [
+         fhir:code [ fhir:v "52836003" ] ;
+         fhir:display [ fhir:v "Paraformaldehyde" ]
+       ] [
+         fhir:code [ fhir:v "54041009" ] ;
+         fhir:display [ fhir:v "Safflower oil" ]
+       ] [
+         fhir:code [ fhir:v "55700001" ] ;
+         fhir:display [ fhir:v "Nylon" ]
+       ] [
+         fhir:code [ fhir:v "56822005" ] ;
+         fhir:display [ fhir:v "Quaternary ammonium salt" ]
+       ] [
+         fhir:code [ fhir:v "57126000" ] ;
+         fhir:display [ fhir:v "Glue" ]
+       ] [
+         fhir:code [ fhir:v "57720001" ] ;
+         fhir:display [ fhir:v "Anise oil" ]
+       ] [
+         fhir:code [ fhir:v "59351004" ] ;
+         fhir:display [ fhir:v "Citrate" ]
+       ] [
+         fhir:code [ fhir:v "59533004" ] ;
+         fhir:display [ fhir:v "Food additive" ]
+       ] [
+         fhir:code [ fhir:v "59545008" ] ;
+         fhir:display [ fhir:v "Pesticide" ]
+       ] [
+         fhir:code [ fhir:v "61088005" ] ;
+         fhir:display [ fhir:v "Plastic" ]
+       ] [
+         fhir:code [ fhir:v "61789006" ] ;
+         fhir:display [ fhir:v "Dye" ]
+       ] [
+         fhir:code [ fhir:v "63338004" ] ;
+         fhir:display [ fhir:v "Drug flavoring" ]
+       ] [
+         fhir:code [ fhir:v "63766005" ] ;
+         fhir:display [ fhir:v "Flour" ]
+       ] [
+         fhir:code [ fhir:v "64601002" ] ;
+         fhir:display [ fhir:v "Wood dust" ]
+       ] [
+         fhir:code [ fhir:v "65123005" ] ;
+         fhir:display [ fhir:v "Choline" ]
+       ] [
+         fhir:code [ fhir:v "65345002" ] ;
+         fhir:display [ fhir:v "Epoxy resin" ]
+       ] [
+         fhir:code [ fhir:v "66562002" ] ;
+         fhir:display [ fhir:v "Cigarette smoking tobacco" ]
+       ] [
+         fhir:code [ fhir:v "66925006" ] ;
+         fhir:display [ fhir:v "Copper" ]
+       ] [
+         fhir:code [ fhir:v "67324005" ] ;
+         fhir:display [ fhir:v "Rice" ]
+       ] [
+         fhir:code [ fhir:v "68524009" ] ;
+         fhir:display [ fhir:v "Tragacanth" ]
+       ] [
+         fhir:code [ fhir:v "71463006" ] ;
+         fhir:display [ fhir:v "Polyethylene" ]
+       ] [
+         fhir:code [ fhir:v "72179002" ] ;
+         fhir:display [ fhir:v "Oxybenzone" ]
+       ] [
+         fhir:code [ fhir:v "72511004" ] ;
+         fhir:display [ fhir:v "Fruit" ]
+       ] [
+         fhir:code [ fhir:v "73892005" ] ;
+         fhir:display [ fhir:v "Carmine stain" ]
+       ] [
+         fhir:code [ fhir:v "75044009" ] ;
+         fhir:display [ fhir:v "Sisal fiber" ]
+       ] [
+         fhir:code [ fhir:v "75665004" ] ;
+         fhir:display [ fhir:v "Monosodium glutamate" ]
+       ] [
+         fhir:code [ fhir:v "77249007" ] ;
+         fhir:display [ fhir:v "Phthalic anhydride" ]
+       ] [
+         fhir:code [ fhir:v "79549001" ] ;
+         fhir:display [ fhir:v "Cyanoacrylate" ]
+       ] [
+         fhir:code [ fhir:v "80237000" ] ;
+         fhir:display [ fhir:v "Cocoa butter" ]
+       ] [
+         fhir:code [ fhir:v "81911001" ] ;
+         fhir:display [ fhir:v "Chewing tobacco" ]
+       ] [
+         fhir:code [ fhir:v "82566005" ] ;
+         fhir:display [ fhir:v "Animal feed" ]
+       ] [
+         fhir:code [ fhir:v "83595008" ] ;
+         fhir:display [ fhir:v "Goat's milk" ]
+       ] [
+         fhir:code [ fhir:v "83619009" ] ;
+         fhir:display [ fhir:v "Polyvinyl alcohol" ]
+       ] [
+         fhir:code [ fhir:v "84181009" ] ;
+         fhir:display [ fhir:v "Styrene" ]
+       ] [
+         fhir:code [ fhir:v "84212004" ] ;
+         fhir:display [ fhir:v "Ethylenimine" ]
+       ] [
+         fhir:code [ fhir:v "84791008" ] ;
+         fhir:display [ fhir:v "Sodium metabisulfite" ]
+       ] [
+         fhir:code [ fhir:v "85066006" ] ;
+         fhir:display [ fhir:v "Azo black stain" ]
+       ] [
+         fhir:code [ fhir:v "89811004" ] ;
+         fhir:display [ fhir:v "Gluten" ]
+       ] [
+         fhir:code [ fhir:v "89889006" ] ;
+         fhir:display [ fhir:v "Cotton fiber" ]
+       ] [
+         fhir:code [ fhir:v "102259006" ] ;
+         fhir:display [ fhir:v "Citrus fruit" ]
+       ] [
+         fhir:code [ fhir:v "102261002" ] ;
+         fhir:display [ fhir:v "Strawberry" ]
+       ] [
+         fhir:code [ fhir:v "102262009" ] ;
+         fhir:display [ fhir:v "Chocolate" ]
+       ] [
+         fhir:code [ fhir:v "102263004" ] ;
+         fhir:display [ fhir:v "Eggs (edible)" ]
+       ] [
+         fhir:code [ fhir:v "102264005" ] ;
+         fhir:display [ fhir:v "Cheese" ]
+       ] [
+         fhir:code [ fhir:v "102697003" ] ;
+         fhir:display [ fhir:v "Lactalbumin" ]
+       ] [
+         fhir:code [ fhir:v "105590001" ] ;
+         fhir:display [ fhir:v "Substance" ]
+       ] [
+         fhir:code [ fhir:v "111088007" ] ;
+         fhir:display [ fhir:v "Latex" ]
+       ] [
+         fhir:code [ fhir:v "111095003" ] ;
+         fhir:display [ fhir:v "Formaldehyde" ]
+       ] [
+         fhir:code [ fhir:v "115589000" ] ;
+         fhir:display [ fhir:v "Ethanolamine" ]
+       ] [
+         fhir:code [ fhir:v "116364004" ] ;
+         fhir:display [ fhir:v "Diazonium salt" ]
+       ] [
+         fhir:code [ fhir:v "116549003" ] ;
+         fhir:display [ fhir:v "Organochlorine pesticide" ]
+       ] [
+         fhir:code [ fhir:v "116637007" ] ;
+         fhir:display [ fhir:v "Fungal antigen" ]
+       ] [
+         fhir:code [ fhir:v "119417004" ] ;
+         fhir:display [ fhir:v "Organophosphate insecticide" ]
+       ] [
+         fhir:code [ fhir:v "125706008" ] ;
+         fhir:display [ fhir:v "Sodium benzoate" ]
+       ] [
+         fhir:code [ fhir:v "128488006" ] ;
+         fhir:display [ fhir:v "House dust" ]
+       ] [
+         fhir:code [ fhir:v "128489003" ] ;
+         fhir:display [ fhir:v "Sand" ]
+       ] [
+         fhir:code [ fhir:v "226491003" ] ;
+         fhir:display [ fhir:v "Apple juice" ]
+       ] [
+         fhir:code [ fhir:v "226723006" ] ;
+         fhir:display [ fhir:v "Buckwheat - cereal" ]
+       ] [
+         fhir:code [ fhir:v "226776001" ] ;
+         fhir:display [ fhir:v "Dried cow's milk" ]
+       ] [
+         fhir:code [ fhir:v "226791004" ] ;
+         fhir:display [ fhir:v "Sheep milk" ]
+       ] [
+         fhir:code [ fhir:v "226793001" ] ;
+         fhir:display [ fhir:v "Soybean milk" ]
+       ] [
+         fhir:code [ fhir:v "226915003" ] ;
+         fhir:display [ fhir:v "Red meat" ]
+       ] [
+         fhir:code [ fhir:v "226916002" ] ;
+         fhir:display [ fhir:v "Beef" ]
+       ] [
+         fhir:code [ fhir:v "226934003" ] ;
+         fhir:display [ fhir:v "Pork" ]
+       ] [
+         fhir:code [ fhir:v "226942002" ] ;
+         fhir:display [ fhir:v "Lamb" ]
+       ] [
+         fhir:code [ fhir:v "226955001" ] ;
+         fhir:display [ fhir:v "Chicken - meat" ]
+       ] [
+         fhir:code [ fhir:v "226963000" ] ;
+         fhir:display [ fhir:v "Duck - meat" ]
+       ] [
+         fhir:code [ fhir:v "226967004" ] ;
+         fhir:display [ fhir:v "Turkey - meat" ]
+       ] [
+         fhir:code [ fhir:v "227042005" ] ;
+         fhir:display [ fhir:v "Bream" ]
+       ] [
+         fhir:code [ fhir:v "227066004" ] ;
+         fhir:display [ fhir:v "Hake" ]
+       ] [
+         fhir:code [ fhir:v "227067008" ] ;
+         fhir:display [ fhir:v "Halibut" ]
+       ] [
+         fhir:code [ fhir:v "227072004" ] ;
+         fhir:display [ fhir:v "Lemon sole" ]
+       ] [
+         fhir:code [ fhir:v "227078000" ] ;
+         fhir:display [ fhir:v "Monkfish" ]
+       ] [
+         fhir:code [ fhir:v "227081005" ] ;
+         fhir:display [ fhir:v "Red mullet" ]
+       ] [
+         fhir:code [ fhir:v "227083008" ] ;
+         fhir:display [ fhir:v "Plaice" ]
+       ] [
+         fhir:code [ fhir:v "227099002" ] ;
+         fhir:display [ fhir:v "Saithe" ]
+       ] [
+         fhir:code [ fhir:v "227105000" ] ;
+         fhir:display [ fhir:v "Turbot" ]
+       ] [
+         fhir:code [ fhir:v "227106004" ] ;
+         fhir:display [ fhir:v "Whiting" ]
+       ] [
+         fhir:code [ fhir:v "227131003" ] ;
+         fhir:display [ fhir:v "Pangas" ]
+       ] [
+         fhir:code [ fhir:v "227136008" ] ;
+         fhir:display [ fhir:v "Sardine" ]
+       ] [
+         fhir:code [ fhir:v "227139001" ] ;
+         fhir:display [ fhir:v "Sprats" ]
+       ] [
+         fhir:code [ fhir:v "227144008" ] ;
+         fhir:display [ fhir:v "Tuna fish" ]
+       ] [
+         fhir:code [ fhir:v "227147001" ] ;
+         fhir:display [ fhir:v "Cockles" ]
+       ] [
+         fhir:code [ fhir:v "227150003" ] ;
+         fhir:display [ fhir:v "Mussel" ]
+       ] [
+         fhir:code [ fhir:v "227151004" ] ;
+         fhir:display [ fhir:v "Prawns" ]
+       ] [
+         fhir:code [ fhir:v "227156009" ] ;
+         fhir:display [ fhir:v "Scampi" ]
+       ] [
+         fhir:code [ fhir:v "227183005" ] ;
+         fhir:display [ fhir:v "Fish roe" ]
+       ] [
+         fhir:code [ fhir:v "227215000" ] ;
+         fhir:display [ fhir:v "Artichoke" ]
+       ] [
+         fhir:code [ fhir:v "227219006" ] ;
+         fhir:display [ fhir:v "Eggplant" ]
+       ] [
+         fhir:code [ fhir:v "227220000" ] ;
+         fhir:display [ fhir:v "Beetroot" ]
+       ] [
+         fhir:code [ fhir:v "227227002" ] ;
+         fhir:display [ fhir:v "Savoy cabbage" ]
+       ] [
+         fhir:code [ fhir:v "227229004" ] ;
+         fhir:display [ fhir:v "White cabbage" ]
+       ] [
+         fhir:code [ fhir:v "227230009" ] ;
+         fhir:display [ fhir:v "Curly kale" ]
+       ] [
+         fhir:code [ fhir:v "227313005" ] ;
+         fhir:display [ fhir:v "Pulse vegetable" ]
+       ] [
+         fhir:code [ fhir:v "227339008" ] ;
+         fhir:display [ fhir:v "Beansprouts" ]
+       ] [
+         fhir:code [ fhir:v "227346004" ] ;
+         fhir:display [ fhir:v "Chick peas" ]
+       ] [
+         fhir:code [ fhir:v "227350006" ] ;
+         fhir:display [ fhir:v "Lentils" ]
+       ] [
+         fhir:code [ fhir:v "227362005" ] ;
+         fhir:display [ fhir:v "Red kidney beans" ]
+       ] [
+         fhir:code [ fhir:v "227374009" ] ;
+         fhir:display [ fhir:v "Herbs and spices" ]
+       ] [
+         fhir:code [ fhir:v "227376006" ] ;
+         fhir:display [ fhir:v "Anise seed" ]
+       ] [
+         fhir:code [ fhir:v "227379004" ] ;
+         fhir:display [ fhir:v "Bay leaf" ]
+       ] [
+         fhir:code [ fhir:v "227382009" ] ;
+         fhir:display [ fhir:v "Cardamom" ]
+       ] [
+         fhir:code [ fhir:v "227383004" ] ;
+         fhir:display [ fhir:v "Celery seed" ]
+       ] [
+         fhir:code [ fhir:v "227385006" ] ;
+         fhir:display [ fhir:v "Chili powder" ]
+       ] [
+         fhir:code [ fhir:v "227387003" ] ;
+         fhir:display [ fhir:v "Chive - herb" ]
+       ] [
+         fhir:code [ fhir:v "227388008" ] ;
+         fhir:display [ fhir:v "Cinnamon" ]
+       ] [
+         fhir:code [ fhir:v "227389000" ] ;
+         fhir:display [ fhir:v "Clove" ]
+       ] [
+         fhir:code [ fhir:v "227390009" ] ;
+         fhir:display [ fhir:v "Coriander leaf" ]
+       ] [
+         fhir:code [ fhir:v "227391008" ] ;
+         fhir:display [ fhir:v "Coriander seed" ]
+       ] [
+         fhir:code [ fhir:v "227392001" ] ;
+         fhir:display [ fhir:v "Cumin seed" ]
+       ] [
+         fhir:code [ fhir:v "227395004" ] ;
+         fhir:display [ fhir:v "Curry powder" ]
+       ] [
+         fhir:code [ fhir:v "227396003" ] ;
+         fhir:display [ fhir:v "Fennel" ]
+       ] [
+         fhir:code [ fhir:v "227398002" ] ;
+         fhir:display [ fhir:v "Fenugreek seed" ]
+       ] [
+         fhir:code [ fhir:v "227400003" ] ;
+         fhir:display [ fhir:v "Ginger" ]
+       ] [
+         fhir:code [ fhir:v "227404007" ] ;
+         fhir:display [ fhir:v "Mace" ]
+       ] [
+         fhir:code [ fhir:v "227405008" ] ;
+         fhir:display [ fhir:v "Marjoram" ]
+       ] [
+         fhir:code [ fhir:v "227407000" ] ;
+         fhir:display [ fhir:v "Oregano" ]
+       ] [
+         fhir:code [ fhir:v "227408005" ] ;
+         fhir:display [ fhir:v "Paprika" ]
+       ] [
+         fhir:code [ fhir:v "227409002" ] ;
+         fhir:display [ fhir:v "Poppy seed" ]
+       ] [
+         fhir:code [ fhir:v "227410007" ] ;
+         fhir:display [ fhir:v "Rosemary" ]
+       ] [
+         fhir:code [ fhir:v "227411006" ] ;
+         fhir:display [ fhir:v "Sage" ]
+       ] [
+         fhir:code [ fhir:v "227413009" ] ;
+         fhir:display [ fhir:v "Thyme" ]
+       ] [
+         fhir:code [ fhir:v "227414003" ] ;
+         fhir:display [ fhir:v "Turmeric" ]
+       ] [
+         fhir:code [ fhir:v "227423000" ] ;
+         fhir:display [ fhir:v "Date" ]
+       ] [
+         fhir:code [ fhir:v "227425007" ] ;
+         fhir:display [ fhir:v "Figs" ]
+       ] [
+         fhir:code [ fhir:v "227435001" ] ;
+         fhir:display [ fhir:v "Nectarine" ]
+       ] [
+         fhir:code [ fhir:v "227444000" ] ;
+         fhir:display [ fhir:v "Raspberries" ]
+       ] [
+         fhir:code [ fhir:v "227447007" ] ;
+         fhir:display [ fhir:v "Sharon fruit" ]
+       ] [
+         fhir:code [ fhir:v "227493005" ] ;
+         fhir:display [ fhir:v "Cashew nut" ]
+       ] [
+         fhir:code [ fhir:v "227501001" ] ;
+         fhir:display [ fhir:v "Macadamia nut" ]
+       ] [
+         fhir:code [ fhir:v "227511008" ] ;
+         fhir:display [ fhir:v "Pine nut" ]
+       ] [
+         fhir:code [ fhir:v "227512001" ] ;
+         fhir:display [ fhir:v "Pistachio nut" ]
+       ] [
+         fhir:code [ fhir:v "227514000" ] ;
+         fhir:display [ fhir:v "Pumpkin seed" ]
+       ] [
+         fhir:code [ fhir:v "227515004" ] ;
+         fhir:display [ fhir:v "Quinoa" ]
+       ] [
+         fhir:code [ fhir:v "227538001" ] ;
+         fhir:display [ fhir:v "Pickle" ]
+       ] [
+         fhir:code [ fhir:v "227598003" ] ;
+         fhir:display [ fhir:v "Honey" ]
+       ] [
+         fhir:code [ fhir:v "228104004" ] ;
+         fhir:display [ fhir:v "Butylated hydroxyanisole" ]
+       ] [
+         fhir:code [ fhir:v "229934002" ] ;
+         fhir:display [ fhir:v "Chick pea flour" ]
+       ] [
+         fhir:code [ fhir:v "229941008" ] ;
+         fhir:display [ fhir:v "Soybean flour" ]
+       ] [
+         fhir:code [ fhir:v "229944000" ] ;
+         fhir:display [ fhir:v "Wheat flour" ]
+       ] [
+         fhir:code [ fhir:v "230034002" ] ;
+         fhir:display [ fhir:v "Nuts and seeds" ]
+       ] [
+         fhir:code [ fhir:v "255620007" ] ;
+         fhir:display [ fhir:v "Food" ]
+       ] [
+         fhir:code [ fhir:v "255640000" ] ;
+         fhir:display [ fhir:v "Biocide" ]
+       ] [
+         fhir:code [ fhir:v "255667006" ] ;
+         fhir:display [ fhir:v "Paraffin" ]
+       ] [
+         fhir:code [ fhir:v "255764006" ] ;
+         fhir:display [ fhir:v "Freon" ]
+       ] [
+         fhir:code [ fhir:v "255769001" ] ;
+         fhir:display [ fhir:v "Hexahydrophthalic anhydride" ]
+       ] [
+         fhir:code [ fhir:v "255772008" ] ;
+         fhir:display [ fhir:v "Diphenylmethane di-isocyanate" ]
+       ] [
+         fhir:code [ fhir:v "255775005" ] ;
+         fhir:display [ fhir:v "Maleic anhydride" ]
+       ] [
+         fhir:code [ fhir:v "255786007" ] ;
+         fhir:display [ fhir:v "Toluene di-isocyanate" ]
+       ] [
+         fhir:code [ fhir:v "255814009" ] ;
+         fhir:display [ fhir:v "Tetrachlorophthalic anhydride" ]
+       ] [
+         fhir:code [ fhir:v "255840003" ] ;
+         fhir:display [ fhir:v "Colophony" ]
+       ] [
+         fhir:code [ fhir:v "255842006" ] ;
+         fhir:display [ fhir:v "Balsam of Peru" ]
+       ] [
+         fhir:code [ fhir:v "255844007" ] ;
+         fhir:display [ fhir:v "Paraben mix" ]
+       ] [
+         fhir:code [ fhir:v "255859001" ] ;
+         fhir:display [ fhir:v "Butylated hydroxytoluene" ]
+       ] [
+         fhir:code [ fhir:v "255864002" ] ;
+         fhir:display [ fhir:v "Ethyl 4-hydroxybenzoate" ]
+       ] [
+         fhir:code [ fhir:v "255868004" ] ;
+         fhir:display [ fhir:v "Methyl 4-hydroxybenzoate" ]
+       ] [
+         fhir:code [ fhir:v "255871007" ] ;
+         fhir:display [ fhir:v "Propyl 4-hydroxybenzoate" ]
+       ] [
+         fhir:code [ fhir:v "255924000" ] ;
+         fhir:display [ fhir:v "Eugenol" ]
+       ] [
+         fhir:code [ fhir:v "256186006" ] ;
+         fhir:display [ fhir:v "Balsam of Tolu" ]
+       ] [
+         fhir:code [ fhir:v "256218005" ] ;
+         fhir:display [ fhir:v "Yarrow extract" ]
+       ] [
+         fhir:code [ fhir:v "256259004" ] ;
+         fhir:display [ fhir:v "Pollen" ]
+       ] [
+         fhir:code [ fhir:v "256260009" ] ;
+         fhir:display [ fhir:v "Tree and shrub pollen" ]
+       ] [
+         fhir:code [ fhir:v "256262001" ] ;
+         fhir:display [ fhir:v "European white birch pollen" ]
+       ] [
+         fhir:code [ fhir:v "256267007" ] ;
+         fhir:display [ fhir:v "Pine pollen" ]
+       ] [
+         fhir:code [ fhir:v "256270006" ] ;
+         fhir:display [ fhir:v "Oak pollen" ]
+       ] [
+         fhir:code [ fhir:v "256272003" ] ;
+         fhir:display [ fhir:v "Elm pollen" ]
+       ] [
+         fhir:code [ fhir:v "256277009" ] ;
+         fhir:display [ fhir:v "Grass pollen" ]
+       ] [
+         fhir:code [ fhir:v "256281009" ] ;
+         fhir:display [ fhir:v "Timothy grass pollen" ]
+       ] [
+         fhir:code [ fhir:v "256289006" ] ;
+         fhir:display [ fhir:v "Chrysanthemum pollen" ]
+       ] [
+         fhir:code [ fhir:v "256290002" ] ;
+         fhir:display [ fhir:v "Dahlia pollen" ]
+       ] [
+         fhir:code [ fhir:v "256292005" ] ;
+         fhir:display [ fhir:v "Flower and weed pollen" ]
+       ] [
+         fhir:code [ fhir:v "256293000" ] ;
+         fhir:display [ fhir:v "Mugwort pollen" ]
+       ] [
+         fhir:code [ fhir:v "256303006" ] ;
+         fhir:display [ fhir:v "Ragweed pollen" ]
+       ] [
+         fhir:code [ fhir:v "256305004" ] ;
+         fhir:display [ fhir:v "Tree resin" ]
+       ] [
+         fhir:code [ fhir:v "256306003" ] ;
+         fhir:display [ fhir:v "Orange - fruit" ]
+       ] [
+         fhir:code [ fhir:v "256307007" ] ;
+         fhir:display [ fhir:v "Banana" ]
+       ] [
+         fhir:code [ fhir:v "256313003" ] ;
+         fhir:display [ fhir:v "Pineapple" ]
+       ] [
+         fhir:code [ fhir:v "256315005" ] ;
+         fhir:display [ fhir:v "Grapefruit" ]
+       ] [
+         fhir:code [ fhir:v "256316006" ] ;
+         fhir:display [ fhir:v "Tangerine" ]
+       ] [
+         fhir:code [ fhir:v "256317002" ] ;
+         fhir:display [ fhir:v "Grapes" ]
+       ] [
+         fhir:code [ fhir:v "256318007" ] ;
+         fhir:display [ fhir:v "Green bean" ]
+       ] [
+         fhir:code [ fhir:v "256319004" ] ;
+         fhir:display [ fhir:v "Carrot" ]
+       ] [
+         fhir:code [ fhir:v "256326004" ] ;
+         fhir:display [ fhir:v "Celery" ]
+       ] [
+         fhir:code [ fhir:v "256329006" ] ;
+         fhir:display [ fhir:v "Spinach" ]
+       ] [
+         fhir:code [ fhir:v "256330001" ] ;
+         fhir:display [ fhir:v "Herb" ]
+       ] [
+         fhir:code [ fhir:v "256331002" ] ;
+         fhir:display [ fhir:v "Dill" ]
+       ] [
+         fhir:code [ fhir:v "256350002" ] ;
+         fhir:display [ fhir:v "Almond" ]
+       ] [
+         fhir:code [ fhir:v "256351003" ] ;
+         fhir:display [ fhir:v "Brazil nut" ]
+       ] [
+         fhir:code [ fhir:v "256352005" ] ;
+         fhir:display [ fhir:v "Walnut - nut" ]
+       ] [
+         fhir:code [ fhir:v "256353000" ] ;
+         fhir:display [ fhir:v "Hazelnut" ]
+       ] [
+         fhir:code [ fhir:v "256354006" ] ;
+         fhir:display [ fhir:v "Bean" ]
+       ] [
+         fhir:code [ fhir:v "256355007" ] ;
+         fhir:display [ fhir:v "Soyabean" ]
+       ] [
+         fhir:code [ fhir:v "256363008" ] ;
+         fhir:display [ fhir:v "Animal material" ]
+       ] [
+         fhir:code [ fhir:v "256417003" ] ;
+         fhir:display [ fhir:v "Horse dander" ]
+       ] [
+         fhir:code [ fhir:v "256419000" ] ;
+         fhir:display [ fhir:v "Mouse epithelium" ]
+       ] [
+         fhir:code [ fhir:v "256435007" ] ;
+         fhir:display [ fhir:v "Feather" ]
+       ] [
+         fhir:code [ fhir:v "256440004" ] ;
+         fhir:display [ fhir:v "Wasp venom" ]
+       ] [
+         fhir:code [ fhir:v "256443002" ] ;
+         fhir:display [ fhir:v "Egg white" ]
+       ] [
+         fhir:code [ fhir:v "256496006" ] ;
+         fhir:display [ fhir:v "Gold alloy" ]
+       ] [
+         fhir:code [ fhir:v "256501007" ] ;
+         fhir:display [ fhir:v "Carbon fiber" ]
+       ] [
+         fhir:code [ fhir:v "256504004" ] ;
+         fhir:display [ fhir:v "Polycarbonate dental material" ]
+       ] [
+         fhir:code [ fhir:v "256506002" ] ;
+         fhir:display [ fhir:v "Stainless steel material" ]
+       ] [
+         fhir:code [ fhir:v "256526003" ] ;
+         fhir:display [ fhir:v "Cobalt-chromium alloy" ]
+       ] [
+         fhir:code [ fhir:v "256579008" ] ;
+         fhir:display [ fhir:v "Durapatite" ]
+       ] [
+         fhir:code [ fhir:v "256596009" ] ;
+         fhir:display [ fhir:v "Dental solder - gold" ]
+       ] [
+         fhir:code [ fhir:v "256607001" ] ;
+         fhir:display [ fhir:v "Dental die - heat hardened ceramic" ]
+       ] [
+         fhir:code [ fhir:v "256633009" ] ;
+         fhir:display [ fhir:v "Polypropylene" ]
+       ] [
+         fhir:code [ fhir:v "259221006" ] ;
+         fhir:display [ fhir:v "Methanol" ]
+       ] [
+         fhir:code [ fhir:v "260108001" ] ;
+         fhir:display [ fhir:v "Wormwood pollen" ]
+       ] [
+         fhir:code [ fhir:v "260118006" ] ;
+         fhir:display [ fhir:v "Wall pellitory pollen" ]
+       ] [
+         fhir:code [ fhir:v "260126003" ] ;
+         fhir:display [ fhir:v "Olive pollen" ]
+       ] [
+         fhir:code [ fhir:v "260131001" ] ;
+         fhir:display [ fhir:v "Gum pollen" ]
+       ] [
+         fhir:code [ fhir:v "260152009" ] ;
+         fhir:display [ fhir:v "Cat dander" ]
+       ] [
+         fhir:code [ fhir:v "260153004" ] ;
+         fhir:display [ fhir:v "Cow dander" ]
+       ] [
+         fhir:code [ fhir:v "260154005" ] ;
+         fhir:display [ fhir:v "Dog dander" ]
+       ] [
+         fhir:code [ fhir:v "260156007" ] ;
+         fhir:display [ fhir:v "Mouse urine proteins" ]
+       ] [
+         fhir:code [ fhir:v "260167008" ] ;
+         fhir:display [ fhir:v "Sesame seed" ]
+       ] [
+         fhir:code [ fhir:v "260168003" ] ;
+         fhir:display [ fhir:v "White bean" ]
+       ] [
+         fhir:code [ fhir:v "260176001" ] ;
+         fhir:display [ fhir:v "Kiwi fruit" ]
+       ] [
+         fhir:code [ fhir:v "260177005" ] ;
+         fhir:display [ fhir:v "Melon" ]
+       ] [
+         fhir:code [ fhir:v "260179008" ] ;
+         fhir:display [ fhir:v "Mango fruit" ]
+       ] [
+         fhir:code [ fhir:v "260184002" ] ;
+         fhir:display [ fhir:v "Pea" ]
+       ] [
+         fhir:code [ fhir:v "260189007" ] ;
+         fhir:display [ fhir:v "Pecan nut" ]
+       ] [
+         fhir:code [ fhir:v "260204008" ] ;
+         fhir:display [ fhir:v "Cotton seed" ]
+       ] [
+         fhir:code [ fhir:v "260205009" ] ;
+         fhir:display [ fhir:v "Sunflower seed" ]
+       ] [
+         fhir:code [ fhir:v "261243003" ] ;
+         fhir:display [ fhir:v "Brass" ]
+       ] [
+         fhir:code [ fhir:v "261249004" ] ;
+         fhir:display [ fhir:v "Nickel cobalt chromium" ]
+       ] [
+         fhir:code [ fhir:v "261250004" ] ;
+         fhir:display [ fhir:v "Nickel titanium" ]
+       ] [
+         fhir:code [ fhir:v "261712009" ] ;
+         fhir:display [ fhir:v "Acrylic polymer" ]
+       ] [
+         fhir:code [ fhir:v "264287008" ] ;
+         fhir:display [ fhir:v "Animal dander" ]
+       ] [
+         fhir:code [ fhir:v "264295007" ] ;
+         fhir:display [ fhir:v "Cow's milk protein" ]
+       ] [
+         fhir:code [ fhir:v "264331002" ] ;
+         fhir:display [ fhir:v "Grain" ]
+       ] [
+         fhir:code [ fhir:v "264337003" ] ;
+         fhir:display [ fhir:v "Seed" ]
+       ] [
+         fhir:code [ fhir:v "276310004" ] ;
+         fhir:display [ fhir:v "Animal hair" ]
+       ] [
+         fhir:code [ fhir:v "277016007" ] ;
+         fhir:display [ fhir:v "Alphachloralose" ]
+       ] [
+         fhir:code [ fhir:v "278840001" ] ;
+         fhir:display [ fhir:v "Shrimp" ]
+       ] [
+         fhir:code [ fhir:v "280939008" ] ;
+         fhir:display [ fhir:v "Insect venom" ]
+       ] [
+         fhir:code [ fhir:v "286550009" ] ;
+         fhir:display [ fhir:v "Hen's egg" ]
+       ] [
+         fhir:code [ fhir:v "288326000" ] ;
+         fhir:display [ fhir:v "Hornet venom" ]
+       ] [
+         fhir:code [ fhir:v "288328004" ] ;
+         fhir:display [ fhir:v "Bee venom" ]
+       ] [
+         fhir:code [ fhir:v "288460008" ] ;
+         fhir:display [ fhir:v "Bumble bee venom" ]
+       ] [
+         fhir:code [ fhir:v "289122001" ] ;
+         fhir:display [ fhir:v "Cosmetic material" ]
+       ] [
+         fhir:code [ fhir:v "289949002" ] ;
+         fhir:display [ fhir:v "Cypress pollen" ]
+       ] [
+         fhir:code [ fhir:v "289955007" ] ;
+         fhir:display [ fhir:v "Hop pollen" ]
+       ] [
+         fhir:code [ fhir:v "290008007" ] ;
+         fhir:display [ fhir:v "Thistle pollen" ]
+       ] [
+         fhir:code [ fhir:v "301093003" ] ;
+         fhir:display [ fhir:v "Organic acid anhydride" ]
+       ] [
+         fhir:code [ fhir:v "301712000" ] ;
+         fhir:display [ fhir:v "Quaternary ammonium compound" ]
+       ] [
+         fhir:code [ fhir:v "303300008" ] ;
+         fhir:display [ fhir:v "Egg protein" ]
+       ] [
+         fhir:code [ fhir:v "303314008" ] ;
+         fhir:display [ fhir:v "Scorpion venom" ]
+       ] [
+         fhir:code [ fhir:v "303315009" ] ;
+         fhir:display [ fhir:v "Spider venom" ]
+       ] [
+         fhir:code [ fhir:v "311443003" ] ;
+         fhir:display [ fhir:v "Coffee bean dust" ]
+       ] [
+         fhir:code [ fhir:v "311731000" ] ;
+         fhir:display [ fhir:v "Paraffin wax" ]
+       ] [
+         fhir:code [ fhir:v "311846002" ] ;
+         fhir:display [ fhir:v "Pyrethroid insecticide" ]
+       ] [
+         fhir:code [ fhir:v "373780001" ] ;
+         fhir:display [ fhir:v "Mescaline" ]
+       ] [
+         fhir:code [ fhir:v "387239001" ] ;
+         fhir:display [ fhir:v "Gentian violet" ]
+       ] [
+         fhir:code [ fhir:v "387293003" ] ;
+         fhir:display [ fhir:v "Anthralin" ]
+       ] [
+         fhir:code [ fhir:v "391737006" ] ;
+         fhir:display [ fhir:v "Almond oil" ]
+       ] [
+         fhir:code [ fhir:v "395734009" ] ;
+         fhir:display [ fhir:v "Guar gum" ]
+       ] [
+         fhir:code [ fhir:v "396049000" ] ;
+         fhir:display [ fhir:v "Ethyl-2-cyanoacrylate" ]
+       ] [
+         fhir:code [ fhir:v "398705004" ] ;
+         fhir:display [ fhir:v "Cannabis" ]
+       ] [
+         fhir:code [ fhir:v "408742009" ] ;
+         fhir:display [ fhir:v "Rose bengal" ]
+       ] [
+         fhir:code [ fhir:v "409595003" ] ;
+         fhir:display [ fhir:v "Biohazardous material" ]
+       ] [
+         fhir:code [ fhir:v "410853002" ] ;
+         fhir:display [ fhir:v "Perfluorochemical" ]
+       ] [
+         fhir:code [ fhir:v "412056003" ] ;
+         fhir:display [ fhir:v "Lima beans" ]
+       ] [
+         fhir:code [ fhir:v "412060000" ] ;
+         fhir:display [ fhir:v "Black pepper" ]
+       ] [
+         fhir:code [ fhir:v "412061001" ] ;
+         fhir:display [ fhir:v "Blueberries" ]
+       ] [
+         fhir:code [ fhir:v "412068007" ] ;
+         fhir:display [ fhir:v "Rye" ]
+       ] [
+         fhir:code [ fhir:v "412070003" ] ;
+         fhir:display [ fhir:v "Vanilla" ]
+       ] [
+         fhir:code [ fhir:v "412071004" ] ;
+         fhir:display [ fhir:v "Wheat" ]
+       ] [
+         fhir:code [ fhir:v "412145001" ] ;
+         fhir:display [ fhir:v "Hair dye" ]
+       ] [
+         fhir:code [ fhir:v "412150007" ] ;
+         fhir:display [ fhir:v "Insect debris" ]
+       ] [
+         fhir:code [ fhir:v "412153009" ] ;
+         fhir:display [ fhir:v "Rabbit dander" ]
+       ] [
+         fhir:code [ fhir:v "412156001" ] ;
+         fhir:display [ fhir:v "Silk" ]
+       ] [
+         fhir:code [ fhir:v "412161004" ] ;
+         fhir:display [ fhir:v "Wool" ]
+       ] [
+         fhir:code [ fhir:v "412357001" ] ;
+         fhir:display [ fhir:v "Corn" ]
+       ] [
+         fhir:code [ fhir:v "412548006" ] ;
+         fhir:display [ fhir:v "Indigotindisulfonate sodium" ]
+       ] [
+         fhir:code [ fhir:v "415710007" ] ;
+         fhir:display [ fhir:v "Terpene" ]
+       ] [
+         fhir:code [ fhir:v "418266005" ] ;
+         fhir:display [ fhir:v "Yellow paraffin" ]
+       ] [
+         fhir:code [ fhir:v "418504009" ] ;
+         fhir:display [ fhir:v "Oat" ]
+       ] [
+         fhir:code [ fhir:v "418785009" ] ;
+         fhir:display [ fhir:v "Perfume" ]
+       ] [
+         fhir:code [ fhir:v "418920007" ] ;
+         fhir:display [ fhir:v "Adhesive agent" ]
+       ] [
+         fhir:code [ fhir:v "419420009" ] ;
+         fhir:display [ fhir:v "Watermelon" ]
+       ] [
+         fhir:code [ fhir:v "419604006" ] ;
+         fhir:display [ fhir:v "Weed pollen" ]
+       ] [
+         fhir:code [ fhir:v "419633007" ] ;
+         fhir:display [ fhir:v "White paraffin" ]
+       ] [
+         fhir:code [ fhir:v "421556008" ] ;
+         fhir:display [ fhir:v "Capsicum - pepper" ]
+       ] [
+         fhir:code [ fhir:v "425620007" ] ;
+         fhir:display [ fhir:v "Metal" ]
+       ] [
+         fhir:code [ fhir:v "430503006" ] ;
+         fhir:display [ fhir:v "Glutamate" ]
+       ] [
+         fhir:code [ fhir:v "431510009" ] ;
+         fhir:display [ fhir:v "Formalin" ]
+       ] [
+         fhir:code [ fhir:v "434162003" ] ;
+         fhir:display [ fhir:v "Neutral buffered formalin" ]
+       ] [
+         fhir:code [ fhir:v "472731004" ] ;
+         fhir:display [ fhir:v "Ficus pollen" ]
+       ] [
+         fhir:code [ fhir:v "698730007" ] ;
+         fhir:display [ fhir:v "Rosa L. pollen" ]
+       ] [
+         fhir:code [ fhir:v "702730004" ] ;
+         fhir:display [ fhir:v "Jellyfish venom" ]
+       ] [
+         fhir:code [ fhir:v "710039005" ] ;
+         fhir:display [ fhir:v "Rape seed" ]
+       ] [
+         fhir:code [ fhir:v "710171001" ] ;
+         fhir:display [ fhir:v "Horse - meat" ]
+       ] [
+         fhir:code [ fhir:v "710172008" ] ;
+         fhir:display [ fhir:v "Hop" ]
+       ] [
+         fhir:code [ fhir:v "710178007" ] ;
+         fhir:display [ fhir:v "Linseed" ]
+       ] [
+         fhir:code [ fhir:v "710179004" ] ;
+         fhir:display [ fhir:v "Lupine seed" ]
+       ] [
+         fhir:code [ fhir:v "710183004" ] ;
+         fhir:display [ fhir:v "Rabbit - meat" ]
+       ] [
+         fhir:code [ fhir:v "710184005" ] ;
+         fhir:display [ fhir:v "Mutton" ]
+       ] [
+         fhir:code [ fhir:v "710226003" ] ;
+         fhir:display [ fhir:v "Rose hip" ]
+       ] [
+         fhir:code [ fhir:v "710900003" ] ;
+         fhir:display [ fhir:v "Sunflower pollen" ]
+       ] [
+         fhir:code [ fhir:v "710902006" ] ;
+         fhir:display [ fhir:v "Chamomile pollen" ]
+       ] [
+         fhir:code [ fhir:v "710930006" ] ;
+         fhir:display [ fhir:v "German cockroach protein" ]
+       ] [
+         fhir:code [ fhir:v "710932003" ] ;
+         fhir:display [ fhir:v "Moth protein" ]
+       ] [
+         fhir:code [ fhir:v "710937009" ] ;
+         fhir:display [ fhir:v "American cockroach protein" ]
+       ] [
+         fhir:code [ fhir:v "710943006" ] ;
+         fhir:display [ fhir:v "Cockroach protein" ]
+       ] [
+         fhir:code [ fhir:v "711088004" ] ;
+         fhir:display [ fhir:v "Swine urine protein" ]
+       ] [
+         fhir:code [ fhir:v "711089007" ] ;
+         fhir:display [ fhir:v "Mite protein" ]
+       ] [
+         fhir:code [ fhir:v "711090003" ] ;
+         fhir:display [ fhir:v "Acarus siro protein" ]
+       ] [
+         fhir:code [ fhir:v "711092006" ] ;
+         fhir:display [ fhir:v "Dermatophagoides farinae protein" ]
+       ] [
+         fhir:code [ fhir:v "711094007" ] ;
+         fhir:display [ fhir:v "Dermatophagoides pteronyssinus protein" ]
+       ] [
+         fhir:code [ fhir:v "711096009" ] ;
+         fhir:display [ fhir:v "Glycyphagus domesticus protein" ]
+       ] [
+         fhir:code [ fhir:v "711097000" ] ;
+         fhir:display [ fhir:v "Lepidoglyphus destructor protein" ]
+       ] [
+         fhir:code [ fhir:v "711098005" ] ;
+         fhir:display [ fhir:v "Tyrophagus putrescentiae protein" ]
+       ] [
+         fhir:code [ fhir:v "711143002" ] ;
+         fhir:display [ fhir:v "Methyltetrahydrophtalic anhydride" ]
+       ] [
+         fhir:code [ fhir:v "711316002" ] ;
+         fhir:display [ fhir:v "Daphnia protein" ]
+       ] [
+         fhir:code [ fhir:v "711319009" ] ;
+         fhir:display [ fhir:v "Tenebrio mollitor protein" ]
+       ] [
+         fhir:code [ fhir:v "719108000" ] ;
+         fhir:display [ fhir:v "Lupin flour" ]
+       ] [
+         fhir:code [ fhir:v "720687003" ] ;
+         fhir:display [ fhir:v "Dust mite protein" ]
+       ] [
+         fhir:code [ fhir:v "726731009" ] ;
+         fhir:display [ fhir:v "Swordfish" ]
+       ] [
+         fhir:code [ fhir:v "726749009" ] ;
+         fhir:display [ fhir:v "Sea bass" ]
+       ] [
+         fhir:code [ fhir:v "726755004" ] ;
+         fhir:display [ fhir:v "Leek" ]
+       ] [
+         fhir:code [ fhir:v "726758002" ] ;
+         fhir:display [ fhir:v "Endive" ]
+       ] [
+         fhir:code [ fhir:v "726759005" ] ;
+         fhir:display [ fhir:v "Cuttlefish" ]
+       ] [
+         fhir:code [ fhir:v "726761001" ] ;
+         fhir:display [ fhir:v "Chicory" ]
+       ] [
+         fhir:code [ fhir:v "726763003" ] ;
+         fhir:display [ fhir:v "Carp" ]
+       ] [
+         fhir:code [ fhir:v "726764009" ] ;
+         fhir:display [ fhir:v "Horsebean" ]
+       ] [
+         fhir:code [ fhir:v "734881000" ] ;
+         fhir:display [ fhir:v "Tomato" ]
+       ] [
+         fhir:code [ fhir:v "735004000" ] ;
+         fhir:display [ fhir:v "Sweet potato" ]
+       ] [
+         fhir:code [ fhir:v "735006003" ] ;
+         fhir:display [ fhir:v "Squid" ]
+       ] [
+         fhir:code [ fhir:v "735009005" ] ;
+         fhir:display [ fhir:v "Salmon" ]
+       ] [
+         fhir:code [ fhir:v "735029006" ] ;
+         fhir:display [ fhir:v "Shellfish" ]
+       ] [
+         fhir:code [ fhir:v "735030001" ] ;
+         fhir:display [ fhir:v "Garlic" ]
+       ] [
+         fhir:code [ fhir:v "735034005" ] ;
+         fhir:display [ fhir:v "Trout" ]
+       ] [
+         fhir:code [ fhir:v "735035006" ] ;
+         fhir:display [ fhir:v "Herring" ]
+       ] [
+         fhir:code [ fhir:v "735042006" ] ;
+         fhir:display [ fhir:v "Lettuce" ]
+       ] [
+         fhir:code [ fhir:v "735043001" ] ;
+         fhir:display [ fhir:v "Mackerel" ]
+       ] [
+         fhir:code [ fhir:v "735045008" ] ;
+         fhir:display [ fhir:v "Mushroom" ]
+       ] [
+         fhir:code [ fhir:v "735046009" ] ;
+         fhir:display [ fhir:v "Nutmeg" ]
+       ] [
+         fhir:code [ fhir:v "735047000" ] ;
+         fhir:display [ fhir:v "Onion" ]
+       ] [
+         fhir:code [ fhir:v "735049002" ] ;
+         fhir:display [ fhir:v "Peach" ]
+       ] [
+         fhir:code [ fhir:v "735050002" ] ;
+         fhir:display [ fhir:v "Pear" ]
+       ] [
+         fhir:code [ fhir:v "735051003" ] ;
+         fhir:display [ fhir:v "Plum" ]
+       ] [
+         fhir:code [ fhir:v "735053000" ] ;
+         fhir:display [ fhir:v "Potato" ]
+       ] [
+         fhir:code [ fhir:v "735106000" ] ;
+         fhir:display [ fhir:v "Basil" ]
+       ] [
+         fhir:code [ fhir:v "735123009" ] ;
+         fhir:display [ fhir:v "Broccoli" ]
+       ] [
+         fhir:code [ fhir:v "735124003" ] ;
+         fhir:display [ fhir:v "Barley" ]
+       ] [
+         fhir:code [ fhir:v "735211005" ] ;
+         fhir:display [ fhir:v "Coconut" ]
+       ] [
+         fhir:code [ fhir:v "735212003" ] ;
+         fhir:display [ fhir:v "Papaya" ]
+       ] [
+         fhir:code [ fhir:v "735213008" ] ;
+         fhir:display [ fhir:v "Cucumber" ]
+       ] [
+         fhir:code [ fhir:v "735214002" ] ;
+         fhir:display [ fhir:v "Apricot" ]
+       ] [
+         fhir:code [ fhir:v "735215001" ] ;
+         fhir:display [ fhir:v "Apple" ]
+       ] [
+         fhir:code [ fhir:v "735245003" ] ;
+         fhir:display [ fhir:v "Cod" ]
+       ] [
+         fhir:code [ fhir:v "735246002" ] ;
+         fhir:display [ fhir:v "Eel" ]
+       ] [
+         fhir:code [ fhir:v "735248001" ] ;
+         fhir:display [ fhir:v "Cherry" ]
+       ] [
+         fhir:code [ fhir:v "735249009" ] ;
+         fhir:display [ fhir:v "Avocado" ]
+       ] [
+         fhir:code [ fhir:v "735336002" ] ;
+         fhir:display [ fhir:v "Cauliflower" ]
+       ] [
+         fhir:code [ fhir:v "735337006" ] ;
+         fhir:display [ fhir:v "Anchovy" ]
+       ] [
+         fhir:code [ fhir:v "735340006" ] ;
+         fhir:display [ fhir:v "Lemon" ]
+       ] [
+         fhir:code [ fhir:v "735341005" ] ;
+         fhir:display [ fhir:v "Fish oil" ]
+       ] [
+         fhir:code [ fhir:v "735959004" ] ;
+         fhir:display [ fhir:v "Marine mollusk" ]
+       ] [
+         fhir:code [ fhir:v "735971005" ] ;
+         fhir:display [ fhir:v "Fish" ]
+       ] [
+         fhir:code [ fhir:v "735972003" ] ;
+         fhir:display [ fhir:v "Crayfish" ]
+       ] [
+         fhir:code [ fhir:v "735974002" ] ;
+         fhir:display [ fhir:v "European eel" ]
+       ] [
+         fhir:code [ fhir:v "735977009" ] ;
+         fhir:display [ fhir:v "Marine crustacean" ]
+       ] [
+         fhir:code [ fhir:v "735979007" ] ;
+         fhir:display [ fhir:v "Octopus" ]
+       ] [
+         fhir:code [ fhir:v "736027000" ] ;
+         fhir:display [ fhir:v "Scallop" ]
+       ] [
+         fhir:code [ fhir:v "736030007" ] ;
+         fhir:display [ fhir:v "Clam" ]
+       ] [
+         fhir:code [ fhir:v "736031006" ] ;
+         fhir:display [ fhir:v "Oyster" ]
+       ] [
+         fhir:code [ fhir:v "736159005" ] ;
+         fhir:display [ fhir:v "Crab" ]
+       ] [
+         fhir:code [ fhir:v "736162008" ] ;
+         fhir:display [ fhir:v "Lobster" ]
+       ] [
+         fhir:code [ fhir:v "736258006" ] ;
+         fhir:display [ fhir:v "Insect salivary substance" ]
+       ] [
+         fhir:code [ fhir:v "762766007" ] ;
+         fhir:display [ fhir:v "Edible substance" ]
+       ] [
+         fhir:code [ fhir:v "762952008" ] ;
+         fhir:display [ fhir:v "Peanut" ]
+       ] [
+         fhir:code [ fhir:v "764166003" ] ;
+         fhir:display [ fhir:v "Carbol-fuchsin" ]
+       ] [
+         fhir:code [ fhir:v "765099008" ] ;
+         fhir:display [ fhir:v "Pilchard" ]
+       ] [
+         fhir:code [ fhir:v "767406000" ] ;
+         fhir:display [ fhir:v "Sulfite and/or sulfite derivative" ]
+       ] [
+         fhir:code [ fhir:v "770326002" ] ;
+         fhir:display [ fhir:v "Mollusk" ]
+       ] [
+         fhir:code [ fhir:v "771518004" ] ;
+         fhir:display [ fhir:v "Stone fruit of genus Prunus" ]
+       ] [
+         fhir:code [ fhir:v "772245002" ] ;
+         fhir:display [ fhir:v "Wool alcohol" ]
+       ] [
+         fhir:code [ fhir:v "773757000" ] ;
+         fhir:display [ fhir:v "Ant venom" ]
+       ] [
+         fhir:code [ fhir:v "782576004" ] ;
+         fhir:display [ fhir:v "Tree pollen" ]
+       ] [
+         fhir:code [ fhir:v "785344003" ] ;
+         fhir:display [ fhir:v "Sisal dust" ]
+       ] [
+         fhir:code [ fhir:v "1003736004" ] ;
+         fhir:display [ fhir:v "Mammalian milk based food" ]
+       ] [
+         fhir:code [ fhir:v "1003752001" ] ;
+         fhir:display [ fhir:v "Hevea brasiliensis latex protein" ]
+       ] [
+         fhir:code [ fhir:v "1137358000" ] ;
+         fhir:display [ fhir:v "Piper - pepper" ]
+       ] [
+         fhir:code [ fhir:v "1137359008" ] ;
+         fhir:display [ fhir:v "Bell pepper" ]
+       ] [
+         fhir:code [ fhir:v "442461000124102" ] ;
+         fhir:display [ fhir:v "Hickory nut" ]
+       ] [
+         fhir:code [ fhir:v "24515005" ] ;
+         fhir:display [ fhir:v "Spice" ]
+       ] [
+         fhir:code [ fhir:v "37663002" ] ;
+         fhir:display [ fhir:v "Venom" ]
+       ] [
+         fhir:code [ fhir:v "51386004" ] ;
+         fhir:display [ fhir:v "Food preservative" ]
+       ] [
+         fhir:code [ fhir:v "63045006" ] ;
+         fhir:display [ fhir:v "Berry" ]
+       ] [
+         fhir:code [ fhir:v "70813002" ] ;
+         fhir:display [ fhir:v "Milk" ]
+       ] [
+         fhir:code [ fhir:v "80259003" ] ;
+         fhir:display [ fhir:v "Food flavoring agent" ]
+       ] [
+         fhir:code [ fhir:v "87918000" ] ;
+         fhir:display [ fhir:v "Mineral" ]
+       ] [
+         fhir:code [ fhir:v "116274004" ] ;
+         fhir:display [ fhir:v "Artificial sweetener" ]
+       ] [
+         fhir:code [ fhir:v "227038007" ] ;
+         fhir:display [ fhir:v "White fish" ]
+       ] [
+         fhir:code [ fhir:v "227110001" ] ;
+         fhir:display [ fhir:v "Fatty fish" ]
+       ] [
+         fhir:code [ fhir:v "256248008" ] ;
+         fhir:display [ fhir:v "Plant material" ]
+       ] [
+         fhir:code [ fhir:v "256406004" ] ;
+         fhir:display [ fhir:v "Animal epithelium" ]
+       ] [
+         fhir:code [ fhir:v "289954006" ] ;
+         fhir:display [ fhir:v "Fungal material" ]
+       ] [
+         fhir:code [ fhir:v "735108004" ] ;
+         fhir:display [ fhir:v "Cabbage" ]
+       ] [
+         fhir:code [ fhir:v "442571000124108" ] ;
+         fhir:display [ fhir:v "Tree nut" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+
