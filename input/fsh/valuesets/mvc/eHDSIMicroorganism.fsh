@@ -1,11 +1,13 @@
 ValueSet: eHDSIMicroorganism
-Id: eHDSIMicroorganism
+Id: eHDSIMicroorganism-8.1.0
 Title: "eHDSI Microorganism"
-Description: "nan"
+Description: ""
 
 * ^experimental = false
+* ^version = "8.1.0"
+* ^url = "http://terminology.ehdsi.eu/ValueSet/eHDSIMicroorganism"
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.78"
+* ^identifier.value = "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.78"
 
 * http://snomed.info/sct#12006007 "Ureaplasma urealyticum"
 * http://snomed.info/sct#398426003 "Salmonella group O:2"

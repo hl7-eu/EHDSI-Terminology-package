@@ -1,11 +1,13 @@
 ValueSet: eHDSITimingEvent
-Id: eHDSITimingEvent
+Id: eHDSITimingEvent-8.1.0
 Title: "eHDSI Timing Event"
-Description: "nan"
+Description: ""
 
 * ^experimental = false
+* ^version = "8.1.0"
+* ^url = "http://terminology.ehdsi.eu/ValueSet/eHDSITimingEvent" // From metadata file
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.41"
+* ^identifier.value = "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.41"
 
 * http://terminology.hl7.org/CodeSystem/v3-TimingEvent#AC "before meal (from lat. ante cibus)"
 * http://terminology.hl7.org/CodeSystem/v3-TimingEvent#ACD "before lunch (from lat. ante cibus diurnus)"

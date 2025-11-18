@@ -1,11 +1,13 @@
 ValueSet: eHDSIDoseForm
-Id: eHDSIDoseForm
+Id: eHDSIDoseForm-8.1.0
 Title: "eHDSI Dose Form"
-Description: "nan"
+Description: ""
 
 * ^experimental = false
+* ^version = "8.1.0"
+* ^url = "http://terminology.ehdsi.eu/ValueSet/eHDSIDoseForm" // From metadata file
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.2"
+* ^identifier.value = "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.2"
 
 * http://standardterms.edqm.eu#12102000 "Anticoagulant and preservative solution for blood"
 * http://standardterms.edqm.eu#11502000 "Bladder irrigation"

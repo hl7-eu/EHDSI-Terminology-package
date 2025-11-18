@@ -1,11 +1,13 @@
 ValueSet: eHDSIProcedure
-Id: eHDSIProcedure
+Id: eHDSIProcedure-8.1.0
 Title: "eHDSI Procedure"
-Description: "nan"
+Description: ""
 
 * ^experimental = false
+* ^version = "8.1.0"
+* ^url = "http://terminology.ehdsi.eu/ValueSet/eHDSIProcedure" // From metadata file
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.10"
+* ^identifier.value = "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.10"
 
 * http://snomed.info/sct#10197000 "Psychiatric interview and evaluation"
 * http://snomed.info/sct#10326007 "Coronary artery bypass with autogenous graft, three grafts"

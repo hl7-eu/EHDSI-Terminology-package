@@ -1,11 +1,13 @@
 ValueSet: eHDSIPregnancyInformation
-Id: eHDSIPregnancyInformation
+Id: eHDSIPregnancyInformation-8.1.0
 Title: "eHDSI PregnancyInformation"
 Description: "The Value Set is used to determine the patient's delivery date estimation."
 
 * ^experimental = false
+* ^version = "8.1.0"
+* ^url = "http://terminology.ehdsi.eu/ValueSet/eHDSIPregnancyInformation" // From metadata file
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.9"
+* ^identifier.value = "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.9"
 
 * http://loinc.org#11778-8 "Delivery date Estimated"
 * http://loinc.org#11779-6 "Delivery date Estimated from last menstrual period"

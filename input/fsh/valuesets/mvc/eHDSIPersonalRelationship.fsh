@@ -1,11 +1,13 @@
 ValueSet: eHDSIPersonalRelationship
-Id: eHDSIPersonalRelationship
+Id: eHDSIPersonalRelationship-8.1.0
 Title: "eHDSI PersonalRelationship"
 Description: "The Value Set is used (optionally) to code the type of contact relationship between a person and the patient."
 
 * ^experimental = false
+* ^version = "8.1.0"
+* ^url = "http://terminology.ehdsi.eu/ValueSet/eHDSIPersonalRelationship" // From metadata file
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.38"
+* ^identifier.value = "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.38"
 
 * http://terminology.hl7.org/CodeSystem/v3-RoleCode#AUNT "aunt"
 * http://terminology.hl7.org/CodeSystem/v3-RoleCode#CHILD "Child"

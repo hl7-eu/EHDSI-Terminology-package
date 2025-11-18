@@ -1,11 +1,13 @@
 ValueSet: eHDSIResolutionOutcome
-Id: eHDSIResolutionOutcome
+Id: eHDSIResolutionOutcome-8.1.0
 Title: "eHDSI Resolution Outcome"
 Description: "The Value Set is used to describe the clinical status of a problem outcome."
 
 * ^experimental = false
+* ^version = "8.1.0"
+* ^url = "http://terminology.ehdsi.eu/ValueSet/eHDSIResolutionOutcome" // From metadata file
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.30"
+* ^identifier.value = "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.30"
 
 * http://snomed.info/sct#161901003 "Chronic sick"
 * http://snomed.info/sct#419099009 "Dead"

@@ -1,11 +1,13 @@
 ValueSet: eHDSIVaccine
-Id: eHDSIVaccine
+Id: eHDSIVaccine-8.1.0
 Title: "eHDSI Vaccine"
 Description: "The Value Set is used to identify the patient's vaccinations in the Patient Summary"
 
 * ^experimental = false
+* ^version = "8.1.0"
+* ^url = "http://terminology.ehdsi.eu/ValueSet/eHDSIVaccine" // From metadata file
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.28"
+* ^identifier.value = "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.28"
 
 * http://snomed.info/sct#1001000221103 "Inactivated whole Vibrio cholerae antigen only vaccine product in oral dose form"
 * http://snomed.info/sct#1011000221100 "Live attenuated Vibrio cholerae antigen only vaccine product in oral dose form"

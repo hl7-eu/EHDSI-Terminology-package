@@ -1,11 +1,13 @@
 ValueSet: eHDSIAllergenNoDrug
-Id: eHDSIAllergenNoDrug
+Id: eHDSIAllergenNoDrug-8.1.0
 Title: "eHDSI Allergen No Drug"
 Description: "The value set is used to code the patient's kind of adverse reactions against substance, food or drugs"
 
 * ^experimental = false
+* ^version = "8.1.0"
+* ^url = "http://terminology.ehdsi.eu/ValueSet/eHDSIAllergenNoDrug" // From metadata file
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.19"
+* ^identifier.value = "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.19"
 
 * http://snomed.info/sct#432003 "Carminic acid stain"
 * http://snomed.info/sct#2159007 "Azorubin S stain"

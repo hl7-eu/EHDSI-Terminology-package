@@ -1,11 +1,13 @@
 ValueSet: eHDSIBodySite
-Id: eHDSIBodySite
+Id: eHDSIBodySite-8.1.0
 Title: "eHDSI Body Site"
 Description: "The Value Set is used for the details about the anatomical location of a specimen in the Laboratory Result Report or the target body location of a procedure in the Patient Summary."
 
 * ^experimental = false
+* ^version = "8.1.0"
+* ^url = "http://terminology.ehdsi.eu/ValueSet/eHDSIBodySite"
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.65"
+* ^identifier.value = "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.65"
 
 * http://snomed.info/sct#511000202101 "Rectum wall structure"
 * http://snomed.info/sct#1231522001 "Cross-sectional pelvis and/or lower limb"

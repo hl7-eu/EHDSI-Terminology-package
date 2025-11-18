@@ -1,11 +1,13 @@
 ValueSet: eHDSIActiveIngredient
-Id: eHDSIActiveIngredient
+Id: eHDSIActiveIngredient-8.1.0
 Title: "eHDSI Active Ingredient"
 Description: "The Value Set is used as a mandatory code for the Active Ingredient of medications in the Medications Summary as well as the prescription Sections. Also used to code allergy agents in the Allergies and Other Adverse Reactions Section of the patient Summary."
 
 * ^experimental = false
+* ^version = "8.1.0"
+* ^url = "http://terminology.ehdsi.eu/ValueSet/eHDSIActiveIngredient" // From metadata file
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.24"
+* ^identifier.value = "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.24"
 
 * http://www.whocc.no/atc#A "ALIMENTARY TRACT AND METABOLISM"
 * http://www.whocc.no/atc#A01 "STOMATOLOGICAL PREPARATIONS"

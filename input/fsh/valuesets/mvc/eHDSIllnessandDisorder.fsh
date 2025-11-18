@@ -1,11 +1,13 @@
 ValueSet: eHDSIIllnessandDisorder
-Id: eHDSIIllnessandDisorder
+Id: eHDSIIllnessandDisorder-8.1.0
 Title: "eHDSI Illness and Disorder"
 Description: "The complete content of ICD-10, excluding Chapter XX."
 
 * ^experimental = false
+* ^version = "8.1.0"
+* ^url = "http://terminology.ehdsi.eu/ValueSet/eHDSIIllnessandDisorder"
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.5"
+* ^identifier.value = "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.5"
 
 * http://hl7.org/fhir/sid/icd-10#A00 "Cholera"
 * http://hl7.org/fhir/sid/icd-10#A00.0 "Cholera due to Vibrio cholerae 01, biovar cholerae"

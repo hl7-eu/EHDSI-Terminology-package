@@ -1,11 +1,13 @@
 ValueSet: eHDSIPresenceAbsence
-Id: eHDSIPresenceAbsence
+Id: eHDSIPresenceAbsence-8.1.0
 Title: "eHDSI Presence Absence"
 Description: "The Value Set is used to describe presence and absence findings (qualifier values) of the Laboratory Test Results"
 
 * ^experimental = false
+* ^version = "8.1.0"
+* ^url = "http://terminology.ehdsi.eu/ValueSet/eHDSIPresenceAbsence"
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.77"
+* ^identifier.value = "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.77"
 
 * http://snomed.info/sct#441614007 "Present one plus out of three plus"
 * http://snomed.info/sct#441521003 "Present three plus out of three plus"
@@ -27,7 +29,7 @@ Description: "The Value Set is used to describe presence and absence findings (q
 * http://snomed.info/sct#373066001 "Yes"
 * http://snomed.info/sct#264887000 "Not isolated"
 * http://snomed.info/sct#264868006 "No growth"
-* http://snomed.info/sct#260413007 "None"
+* http://snomed.info/sct#260413007 "nan"
 * http://snomed.info/sct#260408008 "Weakly positive"
 * http://snomed.info/sct#260405006 "Trace"
 * http://snomed.info/sct#260389003 "No reaction"

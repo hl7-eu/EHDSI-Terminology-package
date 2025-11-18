@@ -1,11 +1,13 @@
 ValueSet: eHDSICurrentPregnancyStatus
-Id: eHDSICurrentPregnancyStatus
+Id: eHDSICurrentPregnancyStatus-8.1.0
 Title: "eHDSI Current Pregnancy Status"
 Description: "Value set is used to provide the woman's current state at the date the observation was made"
 
 * ^experimental = false
+* ^version = "8.1.0"
+* ^url = "http://terminology.ehdsi.eu/ValueSet/eHDSICurrentPregnancyStatus" // From metadata file
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.60"
+* ^identifier.value = "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.60"
 
 * http://snomed.info/sct#77386006 "Pregnant"
 * http://snomed.info/sct#60001007 "Not pregnant"

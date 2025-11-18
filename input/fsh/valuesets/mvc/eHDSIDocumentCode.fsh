@@ -1,11 +1,13 @@
 ValueSet: eHDSIDocumentCode
-Id: eHDSIDocumentCode
+Id: eHDSIDocumentCode-8.1.0
 Title: "eHDSI Document Code"
 Description: "Defines to which category the document belongs to : summary, prescription, or dispensation."
 
 * ^experimental = false
+* ^version = "8.1.0"
+* ^url = "http://terminology.ehdsi.eu/ValueSet/eHDSIDocumentCode" // From metadata file
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.32"
+* ^identifier.value = "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.32"
 
 * http://loinc.org#34133-9 "Summary of episode note"
 * http://loinc.org#56445-0 "Medication summary Document"

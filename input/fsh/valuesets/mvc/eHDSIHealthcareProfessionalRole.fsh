@@ -1,11 +1,13 @@
 ValueSet: eHDSIHealthcareProfessionalRole
-Id: eHDSIHealthcareProfessionalRole
+Id: eHDSIHealthcareProfessionalRole-8.1.0
 Title: "eHDSI Healthcare Professional Role"
-Description: "nan"
+Description: ""
 
 * ^experimental = false
+* ^version = "8.1.0"
+* ^url = "http://terminology.ehdsi.eu/ValueSet/eHDSIHealthcareProfessionalRole" // From metadata file
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.1"
+* ^identifier.value = "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.1"
 
 * urn:oid:2.16.840.1.113883.2.9.6.2.7#22 "Health professionals"
 * urn:oid:2.16.840.1.113883.2.9.6.2.7#221 "Medical doctors"

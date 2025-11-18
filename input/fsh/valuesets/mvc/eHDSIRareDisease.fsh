@@ -1,11 +1,13 @@
 ValueSet: eHDSIRareDisease
-Id: eHDSIRareDisease
+Id: eHDSIRareDisease-8.1.0
 Title: "eHDSI Rare Disease"
 Description: "The Value Set is used to describe the problems and medication reasons."
 
 * ^experimental = false
+* ^version = "8.1.0"
+* ^url = "http://terminology.ehdsi.eu/ValueSet/eHDSIRareDisease"
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.63"
+* ^identifier.value = "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.63"
 
 * https://www.orpha.net#5 "Long chain 3-hydroxyacyl-CoA dehydrogenase deficiency"
 * https://www.orpha.net#6 "3-methylcrotonyl-CoA carboxylase deficiency"

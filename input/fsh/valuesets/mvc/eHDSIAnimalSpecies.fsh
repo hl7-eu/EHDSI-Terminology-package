@@ -1,11 +1,13 @@
 ValueSet: eHDSIAnimalSpecies
-Id: eHDSIAnimalSpecies
+Id: eHDSIAnimalSpecies-8.1.0
 Title: "eHDSI Animal Species"
 Description: "The Value Set is used to code the animal species of specimen subject (animal of the patient)"
 
 * ^experimental = false
+* ^version = "8.1.0"
+* ^url = "http://terminology.ehdsi.eu/ValueSet/eHDSIAnimalSpecies"
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.72"
+* ^identifier.value = "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.72"
 
 * http://snomed.info/sct#125097000 "Capra hircus"
 * http://snomed.info/sct#125099002 "Ovis aries"
