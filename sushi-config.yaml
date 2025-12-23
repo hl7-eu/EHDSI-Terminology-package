@@ -40,3 +40,5 @@ parameters:
     - http://www.whocc.no/atc
   special-url-base:
     - http://terminology.ehdsi.eu/ValueSet
+  excludettl: true
+  excludexml: true
