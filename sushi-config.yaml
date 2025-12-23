@@ -4,7 +4,7 @@ canonical: http://hl7europe.org/fhir/terminology/ehdsi
 name: EHDSI
 title: eHDSI Terminologies
 description: eHDSI Terminologies
-status: draft # draft | active | retired | unknown
+status: active # draft | active | retired | unknown
 version: 0.2.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2023+
@@ -41,3 +41,5 @@ parameters:
   special-url-base:
     - http://terminology.ehdsi.eu/ValueSet
 
+  special-url-base:
+    - http://terminology.ehdsi.eu/ValueSet
