@@ -1,0 +1,41 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "eHDSICriticality",
+  "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSICriticality",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.57"
+  }],
+  "version" : "0.2.0",
+  "name" : "eHDSICriticality",
+  "title" : "eHDSI Criticality",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2025-02-08T05:43:06+00:00",
+  "publisher" : "HL7 Europe",
+  "contact" : [{
+    "name" : "HL7 Europe",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://hl7europe.org"
+    }]
+  }],
+  "description" : "Value set is used to estimate of the potential clinical harm, or seriousness, of a reaction to an identified substance",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/allergy-intolerance-criticality",
+      "concept" : [{
+        "code" : "low",
+        "display" : "Low Risk"
+      },
+      {
+        "code" : "high",
+        "display" : "High Risk"
+      },
+      {
+        "code" : "unable-to-assess",
+        "display" : "Unable to Assess Risk"
+      }]
+    }]
+  }
+}

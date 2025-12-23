@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="eHDSIPregnancyInformation-8.1.0"/>
+  <url value="http://terminology.ehdsi.eu/ValueSet/eHDSIPregnancyInformation"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.9"/>
+  </identifier>
+  <version value="0.2.0"/>
+  <name value="eHDSIPregnancyInformation"/>
+  <title value="eHDSI PregnancyInformation"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-12-23T10:21:27+00:00"/>
+  <publisher value="HL7 Europe"/>
+  <contact>
+    <name value="HL7 Europe"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7europe.org"/>
+    </telecom>
+  </contact>
+  <description value="The Value Set is used to determine the patient's delivery date estimation."/>
+  <compose>
+    <include>
+      <system value="http://loinc.org"/>
+      <concept>
+        <code value="11778-8"/>
+        <display value="Delivery date Estimated"/>
+      </concept>
+      <concept>
+        <code value="11779-6"/>
+        <display value="Delivery date Estimated from last menstrual period"/>
+      </concept>
+      <concept>
+        <code value="11780-4"/>
+        <display value="Delivery date Estimated from ovulation date"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

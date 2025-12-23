@@ -1,0 +1,529 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIDisplayLabel-8.1.0> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "eHDSIDisplayLabel-8.1.0"] ; # 
+  fhir:url [
+     fhir:v "http://terminology.ehdsi.eu/ValueSet/eHDSIDisplayLabel"^^xsd:anyURI ;
+     fhir:l <http://terminology.ehdsi.eu/ValueSet/eHDSIDisplayLabel>
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [
+       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
+       fhir:l <urn:ietf:rfc:3986>
+     ] ;
+     fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.46" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "0.2.0"] ; # 
+  fhir:name [ fhir:v "eHDSIDisplayLabel"] ; # 
+  fhir:title [ fhir:v "eHDSI Display Label"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-12-23T10:21:27+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 Europe"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 Europe" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://hl7europe.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "The Value Set is used to denominate all the labels and messages adopted for the eHDSI CDA display"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.44.4"^^xsd:anyURI ;
+         fhir:l <urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.44.4>
+       ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "1" ] ;
+         fhir:display [ fhir:v "Active Ingredient" ]
+       ] [
+         fhir:code [ fhir:v "2" ] ;
+         fhir:display [ fhir:v "Active Problem" ]
+       ] [
+         fhir:code [ fhir:v "3" ] ;
+         fhir:display [ fhir:v "Address" ]
+       ] [
+         fhir:code [ fhir:v "4" ] ;
+         fhir:display [ fhir:v "Advise to the dispenser" ]
+       ] [
+         fhir:code [ fhir:v "5" ] ;
+         fhir:display [ fhir:v "Agent" ]
+       ] [
+         fhir:code [ fhir:v "6" ] ;
+         fhir:display [ fhir:v "at" ]
+       ] [
+         fhir:code [ fhir:v "7" ] ;
+         fhir:display [ fhir:v "Author (HCP)" ]
+       ] [
+         fhir:code [ fhir:v "8" ] ;
+         fhir:display [ fhir:v "Authoring Device" ]
+       ] [
+         fhir:code [ fhir:v "9" ] ;
+         fhir:display [ fhir:v "Brand Name" ]
+       ] [
+         fhir:code [ fhir:v "10" ] ;
+         fhir:display [ fhir:v "Clinical Manifestation" ]
+       ] [
+         fhir:code [ fhir:v "11" ] ;
+         fhir:display [ fhir:v "Closed/Inactive Problem" ]
+       ] [
+         fhir:code [ fhir:v "12" ] ;
+         fhir:display [ fhir:v "Contact Information" ]
+       ] [
+         fhir:code [ fhir:v "13" ] ;
+         fhir:display [ fhir:v "Country" ]
+       ] [
+         fhir:code [ fhir:v "16" ] ;
+         fhir:display [ fhir:v "Custodian" ]
+       ] [
+         fhir:code [ fhir:v "17" ] ;
+         fhir:display [ fhir:v "Date" ]
+       ] [
+         fhir:code [ fhir:v "18" ] ;
+         fhir:display [ fhir:v "Date To" ]
+       ] [
+         fhir:code [ fhir:v "19" ] ;
+         fhir:display [ fhir:v "Date of Birth" ]
+       ] [
+         fhir:code [ fhir:v "20" ] ;
+         fhir:display [ fhir:v "Date of Prescription" ]
+       ] [
+         fhir:code [ fhir:v "21" ] ;
+         fhir:display [ fhir:v "Device/Implant" ]
+       ] [
+         fhir:code [ fhir:v "22" ] ;
+         fhir:display [ fhir:v "Dispense" ]
+       ] [
+         fhir:code [ fhir:v "23" ] ;
+         fhir:display [ fhir:v "Dispensed Package Size" ]
+       ] [
+         fhir:code [ fhir:v "24" ] ;
+         fhir:display [ fhir:v "Dispensed Product" ]
+       ] [
+         fhir:code [ fhir:v "25" ] ;
+         fhir:display [ fhir:v "Dose Form" ]
+       ] [
+         fhir:code [ fhir:v "26" ] ;
+         fhir:display [ fhir:v "End Date" ]
+       ] [
+         fhir:code [ fhir:v "27" ] ;
+         fhir:display [ fhir:v "Every" ]
+       ] [
+         fhir:code [ fhir:v "28" ] ;
+         fhir:display [ fhir:v "Facility ID" ]
+       ] [
+         fhir:code [ fhir:v "29" ] ;
+         fhir:display [ fhir:v "Facility Name" ]
+       ] [
+         fhir:code [ fhir:v "30" ] ;
+         fhir:display [ fhir:v "Family Name" ]
+       ] [
+         fhir:code [ fhir:v "31" ] ;
+         fhir:display [ fhir:v "for" ]
+       ] [
+         fhir:code [ fhir:v "32" ] ;
+         fhir:display [ fhir:v "Frequency of Intakes" ]
+       ] [
+         fhir:code [ fhir:v "33" ] ;
+         fhir:display [ fhir:v "Gender" ]
+       ] [
+         fhir:code [ fhir:v "34" ] ;
+         fhir:display [ fhir:v "Given Name" ]
+       ] [
+         fhir:code [ fhir:v "35" ] ;
+         fhir:display [ fhir:v "Guardian" ]
+       ] [
+         fhir:code [ fhir:v "36" ] ;
+         fhir:display [ fhir:v "Implant Date" ]
+       ] [
+         fhir:code [ fhir:v "37" ] ;
+         fhir:display [ fhir:v "Instructions to patient" ]
+       ] [
+         fhir:code [ fhir:v "38" ] ;
+         fhir:display [ fhir:v "Is substitution of brand name allowed?" ]
+       ] [
+         fhir:code [ fhir:v "40" ] ;
+         fhir:display [ fhir:v "Legal Authenticator" ]
+       ] [
+         fhir:code [ fhir:v "41" ] ;
+         fhir:display [ fhir:v "National Insurance Number" ]
+       ] [
+         fhir:code [ fhir:v "42" ] ;
+         fhir:display [ fhir:v "No" ]
+       ] [
+         fhir:code [ fhir:v "43" ] ;
+         fhir:display [ fhir:v "Number of Packages" ]
+       ] [
+         fhir:code [ fhir:v "44" ] ;
+         fhir:display [ fhir:v "Observation Type" ]
+       ] [
+         fhir:code [ fhir:v "45" ] ;
+         fhir:display [ fhir:v "Onset Date" ]
+       ] [
+         fhir:code [ fhir:v "46" ] ;
+         fhir:display [ fhir:v "Organisation Identifier" ]
+       ] [
+         fhir:code [ fhir:v "47" ] ;
+         fhir:display [ fhir:v "Organisation Name" ]
+       ] [
+         fhir:code [ fhir:v "49" ] ;
+         fhir:display [ fhir:v "Other Contacts" ]
+       ] [
+         fhir:code [ fhir:v "50" ] ;
+         fhir:display [ fhir:v "Package Size" ]
+       ] [
+         fhir:code [ fhir:v "51" ] ;
+         fhir:display [ fhir:v "Patient" ]
+       ] [
+         fhir:code [ fhir:v "53" ] ;
+         fhir:display [ fhir:v "per unit" ]
+       ] [
+         fhir:code [ fhir:v "54" ] ;
+         fhir:display [ fhir:v "Preferred HCP/Legal organization to contact" ]
+       ] [
+         fhir:code [ fhir:v "55" ] ;
+         fhir:display [ fhir:v "Prefix" ]
+       ] [
+         fhir:code [ fhir:v "56" ] ;
+         fhir:display [ fhir:v "Prescriber" ]
+       ] [
+         fhir:code [ fhir:v "58" ] ;
+         fhir:display [ fhir:v "Prescription ID" ]
+       ] [
+         fhir:code [ fhir:v "62" ] ;
+         fhir:display [ fhir:v "Procedure" ]
+       ] [
+         fhir:code [ fhir:v "63" ] ;
+         fhir:display [ fhir:v "Procedure Date" ]
+       ] [
+         fhir:code [ fhir:v "64" ] ;
+         fhir:display [ fhir:v "Profession" ]
+       ] [
+         fhir:code [ fhir:v "65" ] ;
+         fhir:display [ fhir:v "Reaction Type" ]
+       ] [
+         fhir:code [ fhir:v "66" ] ;
+         fhir:display [ fhir:v "Regional/National Health ID" ]
+       ] [
+         fhir:code [ fhir:v "67" ] ;
+         fhir:display [ fhir:v "Route of Administration" ]
+       ] [
+         fhir:code [ fhir:v "68" ] ;
+         fhir:display [ fhir:v "See details" ]
+       ] [
+         fhir:code [ fhir:v "69" ] ;
+         fhir:display [ fhir:v "Specialty" ]
+       ] [
+         fhir:code [ fhir:v "70" ] ;
+         fhir:display [ fhir:v "Strength" ]
+       ] [
+         fhir:code [ fhir:v "71" ] ;
+         fhir:display [ fhir:v "Substitute" ]
+       ] [
+         fhir:code [ fhir:v "72" ] ;
+         fhir:display [ fhir:v "The Active Problem section is missing !" ]
+       ] [
+         fhir:code [ fhir:v "73" ] ;
+         fhir:display [ fhir:v "The Allergies, Adverse Reactions, Alerts section is missing !" ]
+       ] [
+         fhir:code [ fhir:v "74" ] ;
+         fhir:display [ fhir:v "The Medical Devices and Implants section is missing !" ]
+       ] [
+         fhir:code [ fhir:v "75" ] ;
+         fhir:display [ fhir:v "The Medication Summary section is missing !" ]
+       ] [
+         fhir:code [ fhir:v "76" ] ;
+         fhir:display [ fhir:v "The History of Procedures section is missing !" ]
+       ] [
+         fhir:code [ fhir:v "77" ] ;
+         fhir:display [ fhir:v "unit(s)" ]
+       ] [
+         fhir:code [ fhir:v "78" ] ;
+         fhir:display [ fhir:v "Units per Intake" ]
+       ] [
+         fhir:code [ fhir:v "79" ] ;
+         fhir:display [ fhir:v "Vaccination" ]
+       ] [
+         fhir:code [ fhir:v "80" ] ;
+         fhir:display [ fhir:v "Vaccination Date" ]
+       ] [
+         fhir:code [ fhir:v "81" ] ;
+         fhir:display [ fhir:v "Yes" ]
+       ] [
+         fhir:code [ fhir:v "84" ] ;
+         fhir:display [ fhir:v "Observation Value" ]
+       ] [
+         fhir:code [ fhir:v "85" ] ;
+         fhir:display [ fhir:v "Date From" ]
+       ] [
+         fhir:code [ fhir:v "108" ] ;
+         fhir:display [ fhir:v "Original narrative" ]
+       ] [
+         fhir:code [ fhir:v "109" ] ;
+         fhir:display [ fhir:v "Translated coded" ]
+       ] [
+         fhir:code [ fhir:v "110" ] ;
+         fhir:display [ fhir:v "Clinical Sections" ]
+       ] [
+         fhir:code [ fhir:v "112" ] ;
+         fhir:display [ fhir:v "Code System" ]
+       ] [
+         fhir:code [ fhir:v "113" ] ;
+         fhir:display [ fhir:v "Code" ]
+       ] [
+         fhir:code [ fhir:v "114" ] ;
+         fhir:display [ fhir:v "Name" ]
+       ] [
+         fhir:code [ fhir:v "115" ] ;
+         fhir:display [ fhir:v "Dispensed Number of Packages" ]
+       ] [
+         fhir:code [ fhir:v "116" ] ;
+         fhir:display [ fhir:v "If substitution of brand name is marked as not allowed, pharmacists may still consider dispensing the national equivalent even though the brand name might be slightly different.\r\nThis is a known situation: the same pharmaceutical company is marketing the same medicinal product in different countries with slightly different names due to marketing reasons.\r\nIf the pharmacist is certain that this is the case, the systems allows the input of the new brand name." ]
+       ] [
+         fhir:code [ fhir:v "117" ] ;
+         fhir:display [ fhir:v "Original Document Language" ]
+       ] [
+         fhir:code [ fhir:v "118" ] ;
+         fhir:display [ fhir:v "Diagnostic Date" ]
+       ] [
+         fhir:code [ fhir:v "119" ] ;
+         fhir:display [ fhir:v "Blood Group" ]
+       ] [
+         fhir:code [ fhir:v "122" ] ;
+         fhir:display [ fhir:v "Administered" ]
+       ] [
+         fhir:code [ fhir:v "123" ] ;
+         fhir:display [ fhir:v "Severity" ]
+       ] [
+         fhir:code [ fhir:v "124" ] ;
+         fhir:display [ fhir:v "Marketing Authorization Holder" ]
+       ] [
+         fhir:code [ fhir:v "125" ] ;
+         fhir:display [ fhir:v "Primary Patient Identifier" ]
+       ] [
+         fhir:code [ fhir:v "126" ] ;
+         fhir:display [ fhir:v "Secondary Patient Identifier" ]
+       ] [
+         fhir:code [ fhir:v "127" ] ;
+         fhir:display [ fhir:v "Represented Organization" ]
+       ] [
+         fhir:code [ fhir:v "128" ] ;
+         fhir:display [ fhir:v "Medicinal Product" ]
+       ] [
+         fhir:code [ fhir:v "129" ] ;
+         fhir:display [ fhir:v "Prescription Details" ]
+       ] [
+         fhir:code [ fhir:v "130" ] ;
+         fhir:display [ fhir:v "Dispensation Details" ]
+       ] [
+         fhir:code [ fhir:v "131" ] ;
+         fhir:display [ fhir:v "Creation Date of the Document" ]
+       ] [
+         fhir:code [ fhir:v "132" ] ;
+         fhir:display [ fhir:v "Last Update of the Information" ]
+       ] [
+         fhir:code [ fhir:v "133" ] ;
+         fhir:display [ fhir:v "There is no information available regarding the subject's allergy conditions" ]
+       ] [
+         fhir:code [ fhir:v "134" ] ;
+         fhir:display [ fhir:v "The subject has no known allergy conditions" ]
+       ] [
+         fhir:code [ fhir:v "138" ] ;
+         fhir:display [ fhir:v "There is no information available regarding implanted or external devices for the subject" ]
+       ] [
+         fhir:code [ fhir:v "139" ] ;
+         fhir:display [ fhir:v "There are no devices known to be implanted in or used by the subject that have to be reported in this record. This can mean either that there are none known, or that those known are not relevant for the purpose of this record" ]
+       ] [
+         fhir:code [ fhir:v "140" ] ;
+         fhir:display [ fhir:v "There is no information available about the subject's medication use or administration" ]
+       ] [
+         fhir:code [ fhir:v "141" ] ;
+         fhir:display [ fhir:v "There are no medications for the subject that have to be reported in this record. This can mean either that there are none known, or that those known are not relevant for the purpose of this record" ]
+       ] [
+         fhir:code [ fhir:v "142" ] ;
+         fhir:display [ fhir:v "There is no information available about the subject's current health problems or disability" ]
+       ] [
+         fhir:code [ fhir:v "143" ] ;
+         fhir:display [ fhir:v "The subject is not known to have any health problems or disabilities that have to be reported in this record. This can mean either that there are none known, or that those known are not relevant for the purpose of this record" ]
+       ] [
+         fhir:code [ fhir:v "144" ] ;
+         fhir:display [ fhir:v "There is no information available about the subject's past history of procedures" ]
+       ] [
+         fhir:code [ fhir:v "145" ] ;
+         fhir:display [ fhir:v "The subject has no history of procedures that have to be reported in this record. This can mean either that there are none known, or that those known are not relevant for the purpose of this record" ]
+       ] [
+         fhir:code [ fhir:v "146" ] ;
+         fhir:display [ fhir:v "Missing Information" ]
+       ] [
+         fhir:code [ fhir:v "147" ] ;
+         fhir:display [ fhir:v "From" ]
+       ] [
+         fhir:code [ fhir:v "148" ] ;
+         fhir:display [ fhir:v "Until" ]
+       ] [
+         fhir:code [ fhir:v "149" ] ;
+         fhir:display [ fhir:v "Around" ]
+       ] [
+         fhir:code [ fhir:v "150" ] ;
+         fhir:display [ fhir:v "Duration of Treatment" ]
+       ] [
+         fhir:code [ fhir:v "151" ] ;
+         fhir:display [ fhir:v "The date of the organizer should match the date of the observations" ]
+       ] [
+         fhir:code [ fhir:v "152" ] ;
+         fhir:display [ fhir:v "Dose Number in Series" ]
+       ] [
+         fhir:code [ fhir:v "153" ] ;
+         fhir:display [ fhir:v "Unmapped concept. Nationally used concept for which no translations are available and no safe mappings are possible" ]
+       ] [
+         fhir:code [ fhir:v "154" ] ;
+         fhir:display [ fhir:v "Body Site" ]
+       ] [
+         fhir:code [ fhir:v "155" ] ;
+         fhir:display [ fhir:v "Duration" ]
+       ] [
+         fhir:code [ fhir:v "156" ] ;
+         fhir:display [ fhir:v "Criticality" ]
+       ] [
+         fhir:code [ fhir:v "157" ] ;
+         fhir:display [ fhir:v "Allergy Status" ]
+       ] [
+         fhir:code [ fhir:v "158" ] ;
+         fhir:display [ fhir:v "Certainty" ]
+       ] [
+         fhir:code [ fhir:v "159" ] ;
+         fhir:display [ fhir:v "Result Type" ]
+       ] [
+         fhir:code [ fhir:v "160" ] ;
+         fhir:display [ fhir:v "Result Value" ]
+       ] [
+         fhir:code [ fhir:v "161" ] ;
+         fhir:display [ fhir:v "Performer" ]
+       ] [
+         fhir:code [ fhir:v "162" ] ;
+         fhir:display [ fhir:v "Reporter" ]
+       ] [
+         fhir:code [ fhir:v "163" ] ;
+         fhir:display [ fhir:v "Functional Assessment Date" ]
+       ] [
+         fhir:code [ fhir:v "164" ] ;
+         fhir:display [ fhir:v "Functional Assessment" ]
+       ] [
+         fhir:code [ fhir:v "166" ] ;
+         fhir:display [ fhir:v "Functional Assessment Result" ]
+       ] [
+         fhir:code [ fhir:v "167" ] ;
+         fhir:display [ fhir:v "Problem Status" ]
+       ] [
+         fhir:code [ fhir:v "169" ] ;
+         fhir:display [ fhir:v "Batch/lot number" ]
+       ] [
+         fhir:code [ fhir:v "170" ] ;
+         fhir:display [ fhir:v "Administering Center" ]
+       ] [
+         fhir:code [ fhir:v "171" ] ;
+         fhir:display [ fhir:v "Health Professional Identification" ]
+       ] [
+         fhir:code [ fhir:v "172" ] ;
+         fhir:display [ fhir:v "Country of Vaccination" ]
+       ] [
+         fhir:code [ fhir:v "173" ] ;
+         fhir:display [ fhir:v "Medication Reason" ]
+       ] [
+         fhir:code [ fhir:v "174" ] ;
+         fhir:display [ fhir:v "Current Pregnancy Status" ]
+       ] [
+         fhir:code [ fhir:v "175" ] ;
+         fhir:display [ fhir:v "Observation Date" ]
+       ] [
+         fhir:code [ fhir:v "176" ] ;
+         fhir:display [ fhir:v "Status" ]
+       ] [
+         fhir:code [ fhir:v "177" ] ;
+         fhir:display [ fhir:v "History of Previous Pregnancies" ]
+       ] [
+         fhir:code [ fhir:v "178" ] ;
+         fhir:display [ fhir:v "Outcome" ]
+       ] [
+         fhir:code [ fhir:v "179" ] ;
+         fhir:display [ fhir:v "Number of Children" ]
+       ] [
+         fhir:code [ fhir:v "180" ] ;
+         fhir:display [ fhir:v "Outcome Dates" ]
+       ] [
+         fhir:code [ fhir:v "182" ] ;
+         fhir:display [ fhir:v "Organization Contact Information" ]
+       ] [
+         fhir:code [ fhir:v "184" ] ;
+         fhir:display [ fhir:v "Medicinal Product Identifier" ]
+       ] [
+         fhir:code [ fhir:v "185" ] ;
+         fhir:display [ fhir:v "Medicinal Product Package Identifier" ]
+       ] [
+         fhir:code [ fhir:v "186" ] ;
+         fhir:display [ fhir:v "Pharmaceutical Product Identifier" ]
+       ] [
+         fhir:code [ fhir:v "202" ] ;
+         fhir:display [ fhir:v "Mark the checkbox if brand name (when allowed) has been substituted or package size has been changed" ]
+       ] [
+         fhir:code [ fhir:v "187" ] ;
+         fhir:display [ fhir:v "Address" ]
+       ] [
+         fhir:code [ fhir:v "188" ] ;
+         fhir:display [ fhir:v "Telecom" ]
+       ] [
+         fhir:code [ fhir:v "189" ] ;
+         fhir:display [ fhir:v "Part" ]
+       ] [
+         fhir:code [ fhir:v "190" ] ;
+         fhir:display [ fhir:v "Time(s) per" ]
+       ] [
+         fhir:code [ fhir:v "191" ] ;
+         fhir:display [ fhir:v "Packaging Details" ]
+       ] [
+         fhir:code [ fhir:v "192" ] ;
+         fhir:display [ fhir:v "Description" ]
+       ] [
+         fhir:code [ fhir:v "193" ] ;
+         fhir:display [ fhir:v "Original" ]
+       ] [
+         fhir:code [ fhir:v "194" ] ;
+         fhir:display [ fhir:v "English" ]
+       ] [
+         fhir:code [ fhir:v "195" ] ;
+         fhir:display [ fhir:v "Translated" ]
+       ] [
+         fhir:code [ fhir:v "196" ] ;
+         fhir:display [ fhir:v "Info" ]
+       ] [
+         fhir:code [ fhir:v "197" ] ;
+         fhir:display [ fhir:v "No information" ]
+       ] [
+         fhir:code [ fhir:v "198" ] ;
+         fhir:display [ fhir:v "Rare Diseases" ]
+       ] [
+         fhir:code [ fhir:v "199" ] ;
+         fhir:display [ fhir:v "Diagnosis Assertion Status" ]
+       ] [
+         fhir:code [ fhir:v "200" ] ;
+         fhir:display [ fhir:v "Related Health Professional" ]
+       ] [
+         fhir:code [ fhir:v "201" ] ;
+         fhir:display [ fhir:v "Related External Resource" ]
+       ] [
+         fhir:code [ fhir:v "203" ] ;
+         fhir:display [ fhir:v "Device ID" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

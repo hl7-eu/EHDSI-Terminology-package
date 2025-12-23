@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Artifacts Summary - eHDSI Terminologies v8.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"3"}
+    h3,h4,h5,h6{--heading-prefix:"3.0"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">eHDSI Terminologies</span>
+            <br/>
+            <span style="display:inline-block;">8.1.0 - ci-build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Artifacts
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="artifacts.html">Profiles</a>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Artifacts Summary</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">eHDSI Terminologies, published by HL7 Europe. This guide is not an authorized publication; it is the continuous build for version 8.1.0  built by the FHIR (HL7&reg; FHIR&reg; Standard) CI Build. This version is based on the current content of <a href='https://github.com/hl7-eu/EHDSI-Terminology-package/tree/8.1.0'>https://github.com/hl7-eu/EHDSI-Terminology-package/tree/8.1.0</a> and changes regularly. See the <a href='http://hl7europe.org/fhir/terminology/ehdsi/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Artifacts Summary</h2>
+  
+  
+  
+  <!--DO NOT EDIT THIS FILE - It is generated by https://github.com/HL7/ig-template-base/blob/master/scripts/createArtifactSummary.xslt and any changes made will be overwritten--><div xmlns="http://www.w3.org/1999/xhtml"
+     xmlns:f="http://hl7.org/fhir"
+     xmlns:html="http://www.w3.org/1999/xhtml"
+     class="markdown-toc">
+   <p>Contents:</p>
+   <ul>
+      <li>
+         <a href="#1">Terminology: Value Sets</a>
+      </li>
+      <li>
+         <a href="#2">Terminology: Code Systems</a>
+      </li>
+   </ul>
+</div>
+<div xmlns="http://www.w3.org/1999/xhtml"
+     xmlns:f="http://hl7.org/fhir"
+     xmlns:html="http://www.w3.org/1999/xhtml">
+   <p>This page provides a list of the FHIR artifacts defined as part of this implementation guide.</p>
+   <a name="1"> </a>
+   <h3>Terminology: Value Sets </h3>
+    <p>These define sets of codes used by systems conforming to this implementation guide.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSIActiveIngredient-8.1.0.html"
+                  title="ValueSet/eHDSIActiveIngredient-8.1.0">eHDSI Active Ingredient</a>
+            </td>
+            <td>
+<p>The Value Set is used as a mandatory code for the Active Ingredient of medications in the Medications Summary as well as the prescription Sections. Also used to code allergy agents in the Allergies and Other Adverse Reactions Section of the patient Summary.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSIAdverseEventType-8.1.0.html"
+                  title="ValueSet/eHDSIAdverseEventType-8.1.0">eHDSI Adverse Event Type</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSIAllergenNoDrug-8.1.0.html"
+                  title="ValueSet/eHDSIAllergenNoDrug-8.1.0">eHDSI Allergen No Drug</a>
+            </td>
+            <td>
+<p>The value set is used to code the patient's kind of adverse reactions against substance, food or drugs</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSIAllergyCertainty-8.1.0.html"
+                  title="ValueSet/eHDSIAllergyCertainty-8.1.0">eHDSI Allergy Certainty</a>
+            </td>
+            <td>
+<p>Value Set is used to support or decline the clinical status of the allergy or intolerance</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSIAllergyStatus-8.1.0.html"
+                  title="ValueSet/eHDSIAllergyStatus-8.1.0">eHDSI Allergy Status</a>
+            </td>
+            <td>
+<p>The value set is used to code the Allergy or Intolerance Clinical Status</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSIAnimalSpecies-8.1.0.html"
+                  title="ValueSet/eHDSIAnimalSpecies-8.1.0">eHDSI Animal Species</a>
+            </td>
+            <td>
+<p>The Value Set is used to code the animal species of specimen subject (animal of the patient)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSIBloodGroup-8.1.0.html"
+                  title="ValueSet/eHDSIBloodGroup-8.1.0">eHDSI Blood Group</a>
+            </td>
+            <td>
+<p>The Value Set is used to code the value of patient’s blood group + Rh</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSIBloodPressure-8.1.0.html"
+                  title="ValueSet/eHDSIBloodPressure-8.1.0">eHDSI Blood Pressure</a>
+            </td>
+            <td>
+<p>The Value Set is used for the observations of Blood Pressure recorded in the section for Vital Signs Observations in the Patient Summary. It codes what type of pressure (diastolic, systolic) is measured.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSIBodySite-8.1.0.html"
+                  title="ValueSet/eHDSIBodySite-8.1.0">eHDSI Body Site</a>
+            </td>
+            <td>
+<p>The Value Set is used for the details about the anatomical location of a specimen in the Laboratory Result Report or the target body location of a procedure in the Patient Summary.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSIBodySiteLaterality-8.1.0.html"
+                  title="ValueSet/eHDSIBodySiteLaterality-8.1.0">eHDSI Body Site Laterality</a>
+            </td>
+            <td>
+<p>This Value Set is used for the body structure site laterality qualifier. It indicates the body site laterality from which a laboratory specimen is collected.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSIBodyStructureLocation-8.1.0.html"
+                  title="ValueSet/eHDSIBodyStructureLocation-8.1.0">eHDSI Body Structure Location Qualifier</a>
+            </td>
+            <td>
+<p>This Value Set is used for the body structure location qualifier. Concepts modifying the anatomic location.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSICertainty-8.1.0.html"
+                  title="ValueSet/eHDSICertainty-8.1.0">eHDSI Certainty</a>
+            </td>
+            <td>
+<p>Value Set is used to support or decline the clinical status of the condition or diagnosis</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSICodeProb-8.1.0.html"
+                  title="ValueSet/eHDSICodeProb-8.1.0">eHDSI Code Prob</a>
+            </td>
+            <td>
+<p>The Value Set is used as an optional description of a problem in the patient Summary. It gives an information on the circumstances under which the problem was defined/discovered.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSICountry-8.1.0.html"
+                  title="ValueSet/eHDSICountry-8.1.0">eHDSI Country</a>
+            </td>
+            <td>
+<p>The Value Set is used to identify the nationality of all persons and organizations.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSICriticality-8.1.0.html"
+                  title="ValueSet/eHDSICriticality-8.1.0">eHDSI Criticality</a>
+            </td>
+            <td>
+<p>Value set is used to estimate of the potential clinical harm, or seriousness, of a reaction to an identified substance</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSICurrentPregnancyStatus-8.1.0.html"
+                  title="ValueSet/eHDSICurrentPregnancyStatus-8.1.0">eHDSI Current Pregnancy Status</a>
+            </td>
+            <td>
+<p>Value set is used to provide the woman's current state at the date the observation was made</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSIDisplayLabel-8.1.0.html"
+                  title="ValueSet/eHDSIDisplayLabel-8.1.0">eHDSI Display Label</a>
+            </td>
+            <td>
+<p>The Value Set is used to denominate all the labels and messages adopted for the eHDSI CDA display</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSIDocumentCode-8.1.0.html"
+                  title="ValueSet/eHDSIDocumentCode-8.1.0">eHDSI Document Code</a>
+            </td>
+            <td>
+<p>Defines to which category the document belongs to : summary, prescription, or dispensation.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSIDoseForm-8.1.0.html"
+                  title="ValueSet/eHDSIDoseForm-8.1.0">eHDSI Dose Form</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSIExceptionalValue-8.1.0.html"
+                  title="ValueSet/eHDSIExceptionalValue-8.1.0">eHDSI Exceptional Value</a>
+            </td>
+            <td>
+<p>The Value Set is used to code exceptional values for the required binding in FHIR IGs</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSIHealthcareProfessionalRole-8.1.0.html"
+                  title="ValueSet/eHDSIHealthcareProfessionalRole-8.1.0">eHDSI Healthcare Professional Role</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSIHospitalDischargeReportType-8.1.0.html"
+                  title="ValueSet/eHDSIHospitalDischargeReportType-8.1.0">eHDSI Hospital Discharge Report Type</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSIIllnessandDisorder-8.1.0.html"
+                  title="ValueSet/eHDSIIllnessandDisorder-8.1.0">eHDSI Illness and Disorder</a>
+            </td>
+            <td>
+<p>The complete content of ICD-10, excluding Chapter XX.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSILabCode-8.1.0.html"
+                  title="ValueSet/eHDSILabCode-8.1.0">eHDSI Laboratory Codes</a>
+            </td>
+            <td>
+<p>This Value Set is used for the standard laboratory codes</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSILaboratoryReportType-8.1.0.html"
+                  title="ValueSet/eHDSILaboratoryReportType-8.1.0">eHDSI Laboratory Report Types</a>
+            </td>
+            <td>
+<p>eHDSI Laboratory Report Types</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSILabSpecimenType-8.1.0.html"
+                  title="ValueSet/eHDSILabSpecimenType-8.1.0">eHDSI Laboratory Specimen Type</a>
+            </td>
+            <td>
+<p>This Value Set is used for the kind of material that forms the specimen</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSILabStudyType-8.1.0.html"
+                  title="ValueSet/eHDSILabStudyType-8.1.0">eHDSI Laboratory Study Types</a>
+            </td>
+            <td>
+<p>eHDSI Laboratory Study Types. Notes: Note 1: 26436-6 (Laboratory studies) enables issuing a report putting together observations from multiple specialties (disciplines) in the same text block, allowing delivery of a global interpretation comment at the end of the text block that will be rendered at the end of the report. Note 2: Mycology and parasitology, as well as bacteriology, are part of the 18725-2 (Microbiology studies (set)) studies. Note 3: Virology MAY be included in 18725-2 (MICROBIOLOGY STUDIES) or 18727-8 (SEROLOGY STUDIES) or split between both study types, depending upon the Content Creator Actor’s choice.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSILabTechnique-8.1.0.html"
+                  title="ValueSet/eHDSILabTechnique-8.1.0">eHDSI Laboratory Technique</a>
+            </td>
+            <td>
+<p>This Value Set is used to encode laboratory technique for the result measurement</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSILanguage-8.1.0.html"
+                  title="ValueSet/eHDSILanguage-8.1.0">eHDSI Language</a>
+            </td>
+            <td>
+<p>The Value Set is used to identify the language the document will be written with.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSIMedicalDevice-8.1.0.html"
+                  title="ValueSet/eHDSIMedicalDevice-8.1.0">eHDSI Medical Device</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSIMedicalImagesType-8.1.0.html"
+                  title="ValueSet/eHDSIMedicalImagesType-8.1.0">eHDSI Medical Images Type</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSIMedicalImagingReportType-8.1.0.html"
+                  title="ValueSet/eHDSIMedicalImagingReportType-8.1.0">eHDSI Medical Imaging Report Type</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSIMicroorganism-8.1.0.html"
+                  title="ValueSet/eHDSIMicroorganism-8.1.0">eHDSI Microorganism</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSIMorphologicAbnormality-8.1.0.html"
+                  title="ValueSet/eHDSIMorphologicAbnormality-8.1.0">eHDSI Morphologic Abnormality</a>
+            </td>
+            <td>
+<p>The Value Set is used to code the morphological abnormalities of the anatomical location where the material is taken.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSIObservationInterpretation-8.1.0.html"
+                  title="ValueSet/eHDSIObservationInterpretation-8.1.0">eHDSI Observation Interpretation</a>
+            </td>
+            <td>
+<p>This Value Set is used for a rough qualitative interpretation of the Laboratory Observation Results</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSIObservationCategory-8.1.0.html"
+                  title="ValueSet/eHDSIObservationCategory-8.1.0">eHDSI Observation category</a>
+            </td>
+            <td>
+<p>This Value Set is used for the Laboratory Observation Results Category code</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSIOutcomeOfPregnancy-8.1.0.html"
+                  title="ValueSet/eHDSIOutcomeOfPregnancy-8.1.0">eHDSI Outcome of Pregnancy</a>
+            </td>
+            <td>
+<p>The Value Set is used to code the outcome of previous pregnancy</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSIPackage-8.1.0.html"
+                  title="ValueSet/eHDSIPackage-8.1.0">eHDSI Package</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSIPerformerFunction-8.1.0.html"
+                  title="ValueSet/eHDSIPerformerFunction-8.1.0">eHDSI Performer Function</a>
+            </td>
+            <td>
+<p>Laboratory Performer Function</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSIPersonalRelationship-8.1.0.html"
+                  title="ValueSet/eHDSIPersonalRelationship-8.1.0">eHDSI PersonalRelationship</a>
+            </td>
+            <td>
+<p>The Value Set is used (optionally) to code the type of contact relationship between a person and the patient.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSIPregnancyInformation-8.1.0.html"
+                  title="ValueSet/eHDSIPregnancyInformation-8.1.0">eHDSI PregnancyInformation</a>
+            </td>
+            <td>
+<p>The Value Set is used to determine the patient's delivery date estimation.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSIPresenceAbsence-8.1.0.html"
+                  title="ValueSet/eHDSIPresenceAbsence-8.1.0">eHDSI Presence Absence</a>
+            </td>
+            <td>
+<p>The Value Set is used to describe presence and absence findings (qualifier values) of the Laboratory Test Results</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSIProcedure-8.1.0.html"
+                  title="ValueSet/eHDSIProcedure-8.1.0">eHDSI Procedure</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSIQuantityUnit-8.1.0.html"
+                  title="ValueSet/eHDSIQuantityUnit-8.1.0">eHDSI Quantity Unit</a>
+            </td>
+            <td>
+<p>The Value Set is used to describe the discrete countible entity in which a pharmaceutical product or manufactured item is presented.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSIRareDisease-8.1.0.html"
+                  title="ValueSet/eHDSIRareDisease-8.1.0">eHDSI Rare Disease</a>
+            </td>
+            <td>
+<p>The Value Set is used to describe the problems and medication reasons.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSIReactionAllergy-8.1.0.html"
+                  title="ValueSet/eHDSIReactionAllergy-8.1.0">eHDSI Reaction Allergy</a>
+            </td>
+            <td>
+<p>Value Set is used to encode clinical manifestation of the allergic reaction.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSIReferenceRangeAppliesTo-8.1.0.html"
+                  title="ValueSet/eHDSIReferenceRangeAppliesTo-8.1.0">eHDSI Reference Range Applies To</a>
+            </td>
+            <td>
+<p>This value set defines a set of codes that can be used to indicate the particular target population the reference range applies to</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSIReferenceRangeMeaning-8.1.0.html"
+                  title="ValueSet/eHDSIReferenceRangeMeaning-8.1.0">eHDSI Reference Range Meaning</a>
+            </td>
+            <td>
+<p>This value set defines a set of codes for a reference range qualifier</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSIResolutionOutcome-8.1.0.html"
+                  title="ValueSet/eHDSIResolutionOutcome-8.1.0">eHDSI Resolution Outcome</a>
+            </td>
+            <td>
+<p>The Value Set is used to describe the clinical status of a problem outcome.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSIRoleClass-8.1.0.html"
+                  title="ValueSet/eHDSIRoleClass-8.1.0">eHDSI Role Class</a>
+            </td>
+            <td>
+<p>The Value Set is used to make the distinction between an emergency contact and the next of kin for a patient.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSIRouteofAdministration-8.1.0.html"
+                  title="ValueSet/eHDSIRouteofAdministration-8.1.0">eHDSI Route of Administration</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSISection-8.1.0.html"
+                  title="ValueSet/eHDSISection-8.1.0">eHDSI Section</a>
+            </td>
+            <td>
+<p>The Value Set is used for naming the sections used by the three CDA-documents</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSISeverity-8.1.0.html"
+                  title="ValueSet/eHDSISeverity-8.1.0">eHDSI Severity</a>
+            </td>
+            <td>
+<p>The Value Set is used for all Problems and Allergies in the Patient Summary to indicate the severity of the problem (or Allergy)</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSISocialHistory-8.1.0.html"
+                  title="ValueSet/eHDSISocialHistory-8.1.0">eHDSI Social History</a>
+            </td>
+            <td>
+<p>The Value Set is used to code the different elements of the patient's social history.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSIStatusCode-8.1.0.html"
+                  title="ValueSet/eHDSIStatusCode-8.1.0">eHDSI Status Code</a>
+            </td>
+            <td>
+<p>The Value Set is used to code the different elements of the patient's social history.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSISubstance-8.1.0.html"
+                  title="ValueSet/eHDSISubstance-8.1.0">eHDSI Substance</a>
+            </td>
+            <td>
+<p>The Value Set is used to code the substances of medicine.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSISubstitutionCode-8.1.0.html"
+                  title="ValueSet/eHDSISubstitutionCode-8.1.0">eHDSI Substitution Code</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSITelecomAddress-8.1.0.html"
+                  title="ValueSet/eHDSITelecomAddress-8.1.0">eHDSI Telecom Address</a>
+            </td>
+            <td>
+<p>The Value Set is used (optionally) to code the usage of a phone number, email and all telecommunications. Can be used for all phone numbers mentioned in the three CDA-documents.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSITimingEvent-8.1.0.html"
+                  title="ValueSet/eHDSITimingEvent-8.1.0">eHDSI Timing Event</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSIUnit-8.1.0.html" title="ValueSet/eHDSIUnit-8.1.0">eHDSI Unit</a>
+            </td>
+            <td>
+
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-eHDSIVaccine-8.1.0.html"
+                  title="ValueSet/eHDSIVaccine-8.1.0">eHDSI Vaccine</a>
+            </td>
+            <td>
+<p>The Value Set is used to identify the patient's vaccinations in the Patient Summary</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+   <a name="2"> </a>
+   <h3>Terminology: Code Systems </h3>
+    <p>These define new code systems used by systems conforming to this implementation guide.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-emdn.html" title="CodeSystem/emdn">EMDN CodeSystem</a>
+            </td>
+            <td>
+<p>European Medical Device Nomenclature</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-edqm-all.html" title="CodeSystem/edqm-all">Pharmaceutical dose form</a>
+            </td>
+            <td>
+<p>Pharmaceutical dose form</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+</div>
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7europe.org">HL7 Europe</a>.  Package hl7.eu.terminology.ehdsi#8.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Nov 18, 2025 20:02+0000">2025-11-18</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

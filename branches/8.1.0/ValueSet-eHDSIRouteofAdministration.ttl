@@ -1,0 +1,294 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIRouteofAdministration> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "eHDSIRouteofAdministration"] ; # 
+  fhir:url [ fhir:v "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIRouteofAdministration"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.12" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "0.2.0"] ; # 
+  fhir:name [ fhir:v "eHDSIRouteofAdministration"] ; # 
+  fhir:title [ fhir:v "eHDSI Route of Administration"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2025-02-08T05:43:06+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 Europe"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 Europe" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://hl7europe.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "nan"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://standardterms.edqm.eu"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "20001000" ] ;
+         fhir:display [ fhir:v "Auricular use" ]
+       ] [
+         fhir:code [ fhir:v "20002500" ] ;
+         fhir:display [ fhir:v "Buccal use" ]
+       ] [
+         fhir:code [ fhir:v "20003000" ] ;
+         fhir:display [ fhir:v "Cutaneous use" ]
+       ] [
+         fhir:code [ fhir:v "20004000" ] ;
+         fhir:display [ fhir:v "Dental use" ]
+       ] [
+         fhir:code [ fhir:v "20006000" ] ;
+         fhir:display [ fhir:v "Endocervical use" ]
+       ] [
+         fhir:code [ fhir:v "20007000" ] ;
+         fhir:display [ fhir:v "Endosinusial use" ]
+       ] [
+         fhir:code [ fhir:v "20008000" ] ;
+         fhir:display [ fhir:v "Endotracheopulmonary use" ]
+       ] [
+         fhir:code [ fhir:v "20009000" ] ;
+         fhir:display [ fhir:v "Epidural use" ]
+       ] [
+         fhir:code [ fhir:v "20010000" ] ;
+         fhir:display [ fhir:v "Epilesional use" ]
+       ] [
+         fhir:code [ fhir:v "20011000" ] ;
+         fhir:display [ fhir:v "Extraamniotic use" ]
+       ] [
+         fhir:code [ fhir:v "20011500" ] ;
+         fhir:display [ fhir:v "Extracorporeal use" ]
+       ] [
+         fhir:code [ fhir:v "20013000" ] ;
+         fhir:display [ fhir:v "Gastroenteral use" ]
+       ] [
+         fhir:code [ fhir:v "20013500" ] ;
+         fhir:display [ fhir:v "Gastric use" ]
+       ] [
+         fhir:code [ fhir:v "20014000" ] ;
+         fhir:display [ fhir:v "Gingival use" ]
+       ] [
+         fhir:code [ fhir:v "20015000" ] ;
+         fhir:display [ fhir:v "Haemodialysis" ]
+       ] [
+         fhir:code [ fhir:v "20015500" ] ;
+         fhir:display [ fhir:v "Implantation" ]
+       ] [
+         fhir:code [ fhir:v "20019500" ] ;
+         fhir:display [ fhir:v "Infiltration" ]
+       ] [
+         fhir:code [ fhir:v "20020000" ] ;
+         fhir:display [ fhir:v "Inhalation use" ]
+       ] [
+         fhir:code [ fhir:v "20021000" ] ;
+         fhir:display [ fhir:v "Intestinal use" ]
+       ] [
+         fhir:code [ fhir:v "20022000" ] ;
+         fhir:display [ fhir:v "Intraamniotic use" ]
+       ] [
+         fhir:code [ fhir:v "20023000" ] ;
+         fhir:display [ fhir:v "Intraarterial use" ]
+       ] [
+         fhir:code [ fhir:v "20024000" ] ;
+         fhir:display [ fhir:v "Intraarticular use" ]
+       ] [
+         fhir:code [ fhir:v "20025000" ] ;
+         fhir:display [ fhir:v "Intrabursal use" ]
+       ] [
+         fhir:code [ fhir:v "20025500" ] ;
+         fhir:display [ fhir:v "Intracameral use" ]
+       ] [
+         fhir:code [ fhir:v "20026000" ] ;
+         fhir:display [ fhir:v "Intracardiac use" ]
+       ] [
+         fhir:code [ fhir:v "20026500" ] ;
+         fhir:display [ fhir:v "Intracartilaginous use" ]
+       ] [
+         fhir:code [ fhir:v "20027000" ] ;
+         fhir:display [ fhir:v "Intracavernous use" ]
+       ] [
+         fhir:code [ fhir:v "20027010" ] ;
+         fhir:display [ fhir:v "Intracerebral use" ]
+       ] [
+         fhir:code [ fhir:v "20028000" ] ;
+         fhir:display [ fhir:v "Intracervical use" ]
+       ] [
+         fhir:code [ fhir:v "20028300" ] ;
+         fhir:display [ fhir:v "Intracholangiopancreatic use" ]
+       ] [
+         fhir:code [ fhir:v "20028500" ] ;
+         fhir:display [ fhir:v "Intracisternal use" ]
+       ] [
+         fhir:code [ fhir:v "20029000" ] ;
+         fhir:display [ fhir:v "Intracoronary use" ]
+       ] [
+         fhir:code [ fhir:v "20030000" ] ;
+         fhir:display [ fhir:v "Intradermal use" ]
+       ] [
+         fhir:code [ fhir:v "20031000" ] ;
+         fhir:display [ fhir:v "Intradiscal use" ]
+       ] [
+         fhir:code [ fhir:v "20031500" ] ;
+         fhir:display [ fhir:v "Intraepidermal use" ]
+       ] [
+         fhir:code [ fhir:v "20031700" ] ;
+         fhir:display [ fhir:v "Intraglandular use" ]
+       ] [
+         fhir:code [ fhir:v "20032000" ] ;
+         fhir:display [ fhir:v "Intralesional use" ]
+       ] [
+         fhir:code [ fhir:v "20033000" ] ;
+         fhir:display [ fhir:v "Intralymphatic use" ]
+       ] [
+         fhir:code [ fhir:v "20035000" ] ;
+         fhir:display [ fhir:v "Intramuscular use" ]
+       ] [
+         fhir:code [ fhir:v "20036000" ] ;
+         fhir:display [ fhir:v "Intraocular use" ]
+       ] [
+         fhir:code [ fhir:v "20036500" ] ;
+         fhir:display [ fhir:v "Intraosseous use" ]
+       ] [
+         fhir:code [ fhir:v "20037000" ] ;
+         fhir:display [ fhir:v "Intrapericardial use" ]
+       ] [
+         fhir:code [ fhir:v "20038000" ] ;
+         fhir:display [ fhir:v "Intraperitoneal use" ]
+       ] [
+         fhir:code [ fhir:v "20039000" ] ;
+         fhir:display [ fhir:v "Intrapleural use" ]
+       ] [
+         fhir:code [ fhir:v "20039200" ] ;
+         fhir:display [ fhir:v "Intraportal use" ]
+       ] [
+         fhir:code [ fhir:v "20039500" ] ;
+         fhir:display [ fhir:v "Intraprostatic use" ]
+       ] [
+         fhir:code [ fhir:v "20041000" ] ;
+         fhir:display [ fhir:v "Intrasternal use" ]
+       ] [
+         fhir:code [ fhir:v "20042000" ] ;
+         fhir:display [ fhir:v "Intrathecal use" ]
+       ] [
+         fhir:code [ fhir:v "20043000" ] ;
+         fhir:display [ fhir:v "Intratumoral use" ]
+       ] [
+         fhir:code [ fhir:v "20044000" ] ;
+         fhir:display [ fhir:v "Intrauterine use" ]
+       ] [
+         fhir:code [ fhir:v "20045000" ] ;
+         fhir:display [ fhir:v "Intravenous use" ]
+       ] [
+         fhir:code [ fhir:v "20046000" ] ;
+         fhir:display [ fhir:v "Intravesical use" ]
+       ] [
+         fhir:code [ fhir:v "20047000" ] ;
+         fhir:display [ fhir:v "Intravitreal use" ]
+       ] [
+         fhir:code [ fhir:v "20047500" ] ;
+         fhir:display [ fhir:v "Iontophoresis" ]
+       ] [
+         fhir:code [ fhir:v "20048000" ] ;
+         fhir:display [ fhir:v "Laryngopharyngeal use" ]
+       ] [
+         fhir:code [ fhir:v "20049000" ] ;
+         fhir:display [ fhir:v "Nasal use" ]
+       ] [
+         fhir:code [ fhir:v "20051000" ] ;
+         fhir:display [ fhir:v "Ocular use" ]
+       ] [
+         fhir:code [ fhir:v "20053000" ] ;
+         fhir:display [ fhir:v "Oral use" ]
+       ] [
+         fhir:code [ fhir:v "20054000" ] ;
+         fhir:display [ fhir:v "Oromucosal use" ]
+       ] [
+         fhir:code [ fhir:v "20055000" ] ;
+         fhir:display [ fhir:v "Oropharyngeal use" ]
+       ] [
+         fhir:code [ fhir:v "20057000" ] ;
+         fhir:display [ fhir:v "Periarticular use" ]
+       ] [
+         fhir:code [ fhir:v "20058000" ] ;
+         fhir:display [ fhir:v "Perineural use" ]
+       ] [
+         fhir:code [ fhir:v "20059000" ] ;
+         fhir:display [ fhir:v "Periodontal use" ]
+       ] [
+         fhir:code [ fhir:v "20059300" ] ;
+         fhir:display [ fhir:v "Periosseous use" ]
+       ] [
+         fhir:code [ fhir:v "20059400" ] ;
+         fhir:display [ fhir:v "Peritumoral use" ]
+       ] [
+         fhir:code [ fhir:v "20059500" ] ;
+         fhir:display [ fhir:v "Posterior juxtascleral use" ]
+       ] [
+         fhir:code [ fhir:v "20061000" ] ;
+         fhir:display [ fhir:v "Rectal use" ]
+       ] [
+         fhir:code [ fhir:v "20061500" ] ;
+         fhir:display [ fhir:v "Retrobulbar use" ]
+       ] [
+         fhir:code [ fhir:v "20062000" ] ;
+         fhir:display [ fhir:v "Route of administration not applicable" ]
+       ] [
+         fhir:code [ fhir:v "20063000" ] ;
+         fhir:display [ fhir:v "Skin scarification" ]
+       ] [
+         fhir:code [ fhir:v "20065000" ] ;
+         fhir:display [ fhir:v "Subconjunctival use" ]
+       ] [
+         fhir:code [ fhir:v "20066000" ] ;
+         fhir:display [ fhir:v "Subcutaneous use" ]
+       ] [
+         fhir:code [ fhir:v "20067000" ] ;
+         fhir:display [ fhir:v "Sublingual use" ]
+       ] [
+         fhir:code [ fhir:v "20067500" ] ;
+         fhir:display [ fhir:v "Submucosal use" ]
+       ] [
+         fhir:code [ fhir:v "20070000" ] ;
+         fhir:display [ fhir:v "Transdermal use" ]
+       ] [
+         fhir:code [ fhir:v "20071000" ] ;
+         fhir:display [ fhir:v "Urethral use" ]
+       ] [
+         fhir:code [ fhir:v "20072000" ] ;
+         fhir:display [ fhir:v "Vaginal use" ]
+       ] [
+         fhir:code [ fhir:v "20080000" ] ;
+         fhir:display [ fhir:v "Intracerebroventricular use" ]
+       ] [
+         fhir:code [ fhir:v "20081000" ] ;
+         fhir:display [ fhir:v "Subretinal use" ]
+       ] [
+         fhir:code [ fhir:v "20084000" ] ;
+         fhir:display [ fhir:v "Intracorneal use" ]
+       ] [
+         fhir:code [ fhir:v "20086000" ] ;
+         fhir:display [ fhir:v "Intraputaminal use" ]
+       ] [
+         fhir:code [ fhir:v "20087000" ] ;
+         fhir:display [ fhir:v "Extrapleural use" ]
+       ] [
+         fhir:code [ fhir:v "20088000" ] ;
+         fhir:display [ fhir:v "Perilesional use" ]
+       ] [
+         fhir:code [ fhir:v "20089000" ] ;
+         fhir:display [ fhir:v "Cardioplegic use" ]
+       ] [
+         fhir:code [ fhir:v "20090000" ] ;
+         fhir:display [ fhir:v "Intradetrusorial use" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

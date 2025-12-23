@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="eHDSITimingEvent-8.1.0"/>
+  <url value="http://terminology.ehdsi.eu/ValueSet/eHDSITimingEvent"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.41"/>
+  </identifier>
+  <version value="0.2.0"/>
+  <name value="eHDSITimingEvent"/>
+  <title value="eHDSI Timing Event"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-12-23T10:21:27+00:00"/>
+  <publisher value="HL7 Europe"/>
+  <contact>
+    <name value="HL7 Europe"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7europe.org"/>
+    </telecom>
+  </contact>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-TimingEvent"/>
+      <concept>
+        <code value="AC"/>
+        <display value="before meal (from lat. ante cibus)"/>
+      </concept>
+      <concept>
+        <code value="ACD"/>
+        <display value="before lunch (from lat. ante cibus diurnus)"/>
+      </concept>
+      <concept>
+        <code value="ACM"/>
+        <display value="before breakfast (from lat. ante cibus matutinus)"/>
+      </concept>
+      <concept>
+        <code value="ACV"/>
+        <display value="before dinner (from lat. ante cibus vespertinus)"/>
+      </concept>
+      <concept>
+        <code value="HS"/>
+        <display value="Prior to beginning a regular period of extended sleep (this would exclude naps). Note that this might occur at different times of day depending on a person's regular sleep schedule."/>
+      </concept>
+      <concept>
+        <code value="IC"/>
+        <display value="between meals (from lat. inter cibus)"/>
+      </concept>
+      <concept>
+        <code value="ICD"/>
+        <display value="between lunch and dinner"/>
+      </concept>
+      <concept>
+        <code value="ICM"/>
+        <display value="between breakfast and lunch"/>
+      </concept>
+      <concept>
+        <code value="ICV"/>
+        <display value="between dinner and the hour of sleep"/>
+      </concept>
+      <concept>
+        <code value="PC"/>
+        <display value="after meal (from lat. post cibus)"/>
+      </concept>
+      <concept>
+        <code value="PCD"/>
+        <display value="after lunch (from lat. post cibus diurnus)"/>
+      </concept>
+      <concept>
+        <code value="PCM"/>
+        <display value="after breakfast (from lat. post cibus matutinus)"/>
+      </concept>
+      <concept>
+        <code value="PCV"/>
+        <display value="after dinner (from lat. post cibus vespertinus)"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

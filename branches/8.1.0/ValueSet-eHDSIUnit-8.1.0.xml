@@ -1,0 +1,3585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="eHDSIUnit-8.1.0"/>
+  <url value="http://terminology.ehdsi.eu/ValueSet/eHDSIUnit"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.16"/>
+  </identifier>
+  <version value="8.1.0"/>
+  <name value="eHDSIUnit"/>
+  <title value="eHDSI Unit"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-11-18T20:02:38+00:00"/>
+  <publisher value="HL7 Europe"/>
+  <contact>
+    <name value="HL7 Europe"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7europe.org"/>
+    </telecom>
+  </contact>
+  <compose>
+    <include>
+      <system value="http://unitsofmeasure.org/"/>
+      <concept>
+        <code value="1"/>
+        <display value="Unit"/>
+      </concept>
+      <concept>
+        <code value="%"/>
+        <display value="percent"/>
+      </concept>
+      <concept>
+        <code value="%{abnormal}"/>
+        <display value="percent abnormal"/>
+      </concept>
+      <concept>
+        <code value="%{activity}"/>
+        <display value="percent activity"/>
+      </concept>
+      <concept>
+        <code value="%{aggregation}"/>
+        <display value="percent aggregation"/>
+      </concept>
+      <concept>
+        <code value="%{at_60_min}"/>
+        <display value="percent at 60 minute"/>
+      </concept>
+      <concept>
+        <code value="%{bacteria}"/>
+        <display value="percent of bacteria"/>
+      </concept>
+      <concept>
+        <code value="%{basal_activity}"/>
+        <display value="percent basal activity"/>
+      </concept>
+      <concept>
+        <code value="%{baseline}"/>
+        <display value="percent of baseline"/>
+      </concept>
+      <concept>
+        <code value="%{binding}"/>
+        <display value="percent binding"/>
+      </concept>
+      <concept>
+        <code value="%{blockade}"/>
+        <display value="percent blockade"/>
+      </concept>
+      <concept>
+        <code value="%{blocked}"/>
+        <display value="percent blocked"/>
+      </concept>
+      <concept>
+        <code value="%{bound}"/>
+        <display value="percent bound"/>
+      </concept>
+      <concept>
+        <code value="%{breakdown}"/>
+        <display value="percent breakdown"/>
+      </concept>
+      <concept>
+        <code value="%{cells}"/>
+        <display value="percent of cells"/>
+      </concept>
+      <concept>
+        <code value="%{deficient}"/>
+        <display value="percent deficient"/>
+      </concept>
+      <concept>
+        <code value="%{dose}"/>
+        <display value="percent dose"/>
+      </concept>
+      <concept>
+        <code value="%{excretion}"/>
+        <display value="percent excretion"/>
+      </concept>
+      <concept>
+        <code value="%{Hb}"/>
+        <display value="percent hemoglobin"/>
+      </concept>
+      <concept>
+        <code value="%{hemolysis}"/>
+        <display value="percent hemolysis"/>
+      </concept>
+      <concept>
+        <code value="%{index}"/>
+        <display value="percent index"/>
+      </concept>
+      <concept>
+        <code value="%{inhibition}"/>
+        <display value="percent inhibition"/>
+      </concept>
+      <concept>
+        <code value="%{loss_AChR}"/>
+        <display value="percent loss of acetylcholine receptor"/>
+      </concept>
+      <concept>
+        <code value="%{loss}"/>
+        <display value="percent loss"/>
+      </concept>
+      <concept>
+        <code value="%{lysis}"/>
+        <display value="percent lysis"/>
+      </concept>
+      <concept>
+        <code value="%{normal}"/>
+        <display value="percent normal"/>
+      </concept>
+      <concept>
+        <code value="%{penetration}"/>
+        <display value="percent penetration"/>
+      </concept>
+      <concept>
+        <code value="%{pooled_plasma}"/>
+        <display value="percent normal pooled plasma"/>
+      </concept>
+      <concept>
+        <code value="%{positive}"/>
+        <display value="percent positive"/>
+      </concept>
+      <concept>
+        <code value="%{RBCs}"/>
+        <display value="percent of red blood cells"/>
+      </concept>
+      <concept>
+        <code value="%{reactive}"/>
+        <display value="percent reactive"/>
+      </concept>
+      <concept>
+        <code value="%{recovery}"/>
+        <display value="percent recovery"/>
+      </concept>
+      <concept>
+        <code value="%{reference}"/>
+        <display value="percent reference"/>
+      </concept>
+      <concept>
+        <code value="%{relative}"/>
+        <display value="relative percent"/>
+      </concept>
+      <concept>
+        <code value="%{residual}"/>
+        <display value="percent residual"/>
+      </concept>
+      <concept>
+        <code value="%{response}"/>
+        <display value="percent response"/>
+      </concept>
+      <concept>
+        <code value="%{saturation}"/>
+        <display value="percent saturation"/>
+      </concept>
+      <concept>
+        <code value="%{total}"/>
+        <display value="percent total"/>
+      </concept>
+      <concept>
+        <code value="%{uptake}"/>
+        <display value="percent uptake"/>
+      </concept>
+      <concept>
+        <code value="%{viable}"/>
+        <display value="percent viable"/>
+      </concept>
+      <concept>
+        <code value="%{vol}"/>
+        <display value="percent by volume"/>
+      </concept>
+      <concept>
+        <code value="%{WBCs}"/>
+        <display value="percent of white blood cells"/>
+      </concept>
+      <concept>
+        <code value="/(12.h)"/>
+        <display value="per twelve hour"/>
+      </concept>
+      <concept>
+        <code value="/[arb'U]"/>
+        <display value="per arbitrary unit"/>
+      </concept>
+      <concept>
+        <code value="/[HPF]"/>
+        <display value="per high power field"/>
+      </concept>
+      <concept>
+        <code value="/[IU]"/>
+        <display value="per international unit"/>
+      </concept>
+      <concept>
+        <code value="/[LPF]"/>
+        <display value="per low power field"/>
+      </concept>
+      <concept>
+        <code value="/{entity}"/>
+        <display value="per entity"/>
+      </concept>
+      <concept>
+        <code value="/{OIF}"/>
+        <display value="per oil immersion field"/>
+      </concept>
+      <concept>
+        <code value="/10*10"/>
+        <display value="per 10 billion"/>
+      </concept>
+      <concept>
+        <code value="/10*12"/>
+        <display value="per trillion"/>
+      </concept>
+      <concept>
+        <code value="/10*12{RBCs}"/>
+        <display value="per trillion red blood cells"/>
+      </concept>
+      <concept>
+        <code value="/10*3"/>
+        <display value="per thousand"/>
+      </concept>
+      <concept>
+        <code value="/10*3{RBCs}"/>
+        <display value="per thousand red blood cells"/>
+      </concept>
+      <concept>
+        <code value="/10*4{RBCs}"/>
+        <display value="per 10 thousand red blood cells"/>
+      </concept>
+      <concept>
+        <code value="/10*6"/>
+        <display value="per million"/>
+      </concept>
+      <concept>
+        <code value="/10*9"/>
+        <display value="per billion"/>
+      </concept>
+      <concept>
+        <code value="/100"/>
+        <display value="per 100"/>
+      </concept>
+      <concept>
+        <code value="/100{cells}"/>
+        <display value="per 100 cells"/>
+      </concept>
+      <concept>
+        <code value="/100{neutrophils}"/>
+        <display value="per 100 neutrophils"/>
+      </concept>
+      <concept>
+        <code value="/100{spermatozoa}"/>
+        <display value="per 100 spermatozoa"/>
+      </concept>
+      <concept>
+        <code value="/100{WBCs}"/>
+        <display value="per 100 white blood cells"/>
+      </concept>
+      <concept>
+        <code value="/a"/>
+        <display value="per year"/>
+      </concept>
+      <concept>
+        <code value="/cm[H2O]"/>
+        <display value="per centimeter of water"/>
+      </concept>
+      <concept>
+        <code value="/d"/>
+        <display value="per day"/>
+      </concept>
+      <concept>
+        <code value="/dL"/>
+        <display value="per deciliter"/>
+      </concept>
+      <concept>
+        <code value="/g"/>
+        <display value="per gram"/>
+      </concept>
+      <concept>
+        <code value="/g{creat}"/>
+        <display value="per gram of creatinine"/>
+      </concept>
+      <concept>
+        <code value="/g{Hb}"/>
+        <display value="per gram of hemoglobin"/>
+      </concept>
+      <concept>
+        <code value="/g{tot_nit}"/>
+        <display value="per gram of total nitrogen"/>
+      </concept>
+      <concept>
+        <code value="/g{tot_prot}"/>
+        <display value="per gram of total protein"/>
+      </concept>
+      <concept>
+        <code value="/g{wet_tis}"/>
+        <display value="per gram of wet tissue"/>
+      </concept>
+      <concept>
+        <code value="/h"/>
+        <display value="per hour"/>
+      </concept>
+      <concept>
+        <code value="/kg"/>
+        <display value="per kilogram"/>
+      </concept>
+      <concept>
+        <code value="/kg{body_wt}"/>
+        <display value="per kilogram of body weight"/>
+      </concept>
+      <concept>
+        <code value="/L"/>
+        <display value="per liter"/>
+      </concept>
+      <concept>
+        <code value="/m2"/>
+        <display value="per square meter"/>
+      </concept>
+      <concept>
+        <code value="/m3"/>
+        <display value="per cubic meter"/>
+      </concept>
+      <concept>
+        <code value="/mg"/>
+        <display value="per milligram"/>
+      </concept>
+      <concept>
+        <code value="/min"/>
+        <display value="per minute"/>
+      </concept>
+      <concept>
+        <code value="/mL"/>
+        <display value="per milliliter"/>
+      </concept>
+      <concept>
+        <code value="/mm"/>
+        <display value="per millimeter"/>
+      </concept>
+      <concept>
+        <code value="/mmol{creat}"/>
+        <display value="per millimole of creatinine"/>
+      </concept>
+      <concept>
+        <code value="/mo"/>
+        <display value="per month"/>
+      </concept>
+      <concept>
+        <code value="/s"/>
+        <display value="per second"/>
+      </concept>
+      <concept>
+        <code value="/U"/>
+        <display value="per enzyme unit"/>
+      </concept>
+      <concept>
+        <code value="/uL"/>
+        <display value="per microliter"/>
+      </concept>
+      <concept>
+        <code value="/wk"/>
+        <display value="per week"/>
+      </concept>
+      <concept>
+        <code value="[APL'U]"/>
+        <display value="IgA anticardiolipin unit**"/>
+      </concept>
+      <concept>
+        <code value="[APL'U]/mL"/>
+        <display value="IgA anticardiolipin unit per milliliter**"/>
+      </concept>
+      <concept>
+        <code value="[arb'U]"/>
+        <display value="arbitrary unit"/>
+      </concept>
+      <concept>
+        <code value="[arb'U]/mL"/>
+        <display value="arbitrary unit per milliliter"/>
+      </concept>
+      <concept>
+        <code value="[AU]"/>
+        <display value="allergy unit"/>
+      </concept>
+      <concept>
+        <code value="[bdsk'U]"/>
+        <display value="Bodansky unit"/>
+      </concept>
+      <concept>
+        <code value="[beth'U]"/>
+        <display value="Bethesda unit"/>
+      </concept>
+      <concept>
+        <code value="[CFU]"/>
+        <display value="colony forming unit"/>
+      </concept>
+      <concept>
+        <code value="[CFU]/L"/>
+        <display value="colony forming unit per liter"/>
+      </concept>
+      <concept>
+        <code value="[CFU]/mL"/>
+        <display value="colony forming unit per milliliter"/>
+      </concept>
+      <concept>
+        <code value="[Ch]"/>
+        <display value="French (catheter gauge)"/>
+      </concept>
+      <concept>
+        <code value="[cin_i]"/>
+        <display value="cubic inch (international)"/>
+      </concept>
+      <concept>
+        <code value="[degF]"/>
+        <display value="degree Fahrenheit"/>
+      </concept>
+      <concept>
+        <code value="[diop]"/>
+        <display value="diopter"/>
+      </concept>
+      <concept>
+        <code value="[dr_av]"/>
+        <display value="dram (US and British)"/>
+      </concept>
+      <concept>
+        <code value="[drp]"/>
+        <display value="drop (1/12 milliliter)"/>
+      </concept>
+      <concept>
+        <code value="[foz_us]"/>
+        <display value="fluid ounce (US)"/>
+      </concept>
+      <concept>
+        <code value="[ft_i]"/>
+        <display value="foot (international)"/>
+      </concept>
+      <concept>
+        <code value="[ft_us]/[ft_us]"/>
+        <display value="feet (US) per feet (US)"/>
+      </concept>
+      <concept>
+        <code value="[gal_us]"/>
+        <display value="gallon (US)"/>
+      </concept>
+      <concept>
+        <code value="[GPL'U]"/>
+        <display value="IgG anticardiolipin unit**"/>
+      </concept>
+      <concept>
+        <code value="[GPL'U]/mL"/>
+        <display value="IgG anticardiolipin unit per milliliter**"/>
+      </concept>
+      <concept>
+        <code value="[HPF]"/>
+        <display value="high power field"/>
+      </concept>
+      <concept>
+        <code value="[in_i]"/>
+        <display value="inch (international)"/>
+      </concept>
+      <concept>
+        <code value="[in_i'H2O]"/>
+        <display value="inch (international) of water"/>
+      </concept>
+      <concept>
+        <code value="[in_us]"/>
+        <display value="inches (US)"/>
+      </concept>
+      <concept>
+        <code value="[IU]"/>
+        <display value="international unit"/>
+      </concept>
+      <concept>
+        <code value="[IU]/(2.h)"/>
+        <display value="international unit per 2 hour"/>
+      </concept>
+      <concept>
+        <code value="[IU]/(24.h)"/>
+        <display value="international unit per 24 hour"/>
+      </concept>
+      <concept>
+        <code value="[IU]/10*9{RBCs}"/>
+        <display value="international unit per billion red blood cells"/>
+      </concept>
+      <concept>
+        <code value="[IU]/d"/>
+        <display value="international unit per day"/>
+      </concept>
+      <concept>
+        <code value="[IU]/dL"/>
+        <display value="international unit per deciliter"/>
+      </concept>
+      <concept>
+        <code value="[IU]/g"/>
+        <display value="international unit per gram"/>
+      </concept>
+      <concept>
+        <code value="[IU]/g{Hb}"/>
+        <display value="international unit per gram of hemoglobin"/>
+      </concept>
+      <concept>
+        <code value="[IU]/h"/>
+        <display value="international unit per hour"/>
+      </concept>
+      <concept>
+        <code value="[IU]/kg"/>
+        <display value="international unit per kilogram"/>
+      </concept>
+      <concept>
+        <code value="[IU]/kg/d"/>
+        <display value="international unit per kilogram per day"/>
+      </concept>
+      <concept>
+        <code value="[IU]/L"/>
+        <display value="international unit per liter"/>
+      </concept>
+      <concept>
+        <code value="[IU]/L{37Cel}"/>
+        <display value="international unit per liter at 37 degrees Celsius"/>
+      </concept>
+      <concept>
+        <code value="[IU]/mg{creat}"/>
+        <display value="international unit per milligram of creatinine"/>
+      </concept>
+      <concept>
+        <code value="[IU]/min"/>
+        <display value="international unit per minute"/>
+      </concept>
+      <concept>
+        <code value="[IU]/mL"/>
+        <display value="international unit per milliliter"/>
+      </concept>
+      <concept>
+        <code value="[ka'U]"/>
+        <display value="King Armstrong unit"/>
+      </concept>
+      <concept>
+        <code value="[knk'U]"/>
+        <display value="Kunkel unit"/>
+      </concept>
+      <concept>
+        <code value="[lb_av]"/>
+        <display value="pound (US and British)"/>
+      </concept>
+      <concept>
+        <code value="[LPF]"/>
+        <display value="low power field"/>
+      </concept>
+      <concept>
+        <code value="[mclg'U]"/>
+        <display value="Maclagan unit"/>
+      </concept>
+      <concept>
+        <code value="[MET].min/wk"/>
+        <display value="metabolic equivalent minute per week"/>
+      </concept>
+      <concept>
+        <code value="[mi_i]"/>
+        <display value="mile (international)"/>
+      </concept>
+      <concept>
+        <code value="[MPL'U]"/>
+        <display value="IgM anticardiolipin unit**"/>
+      </concept>
+      <concept>
+        <code value="[MPL'U]/mL"/>
+        <display value="IgM anticardiolipin unit per milliliter**"/>
+      </concept>
+      <concept>
+        <code value="[oz_av]"/>
+        <display value="ounce (US and British)"/>
+      </concept>
+      <concept>
+        <code value="[oz_tr]"/>
+        <display value="Troy ounce"/>
+      </concept>
+      <concept>
+        <code value="[pH]"/>
+        <display value="pH"/>
+      </concept>
+      <concept>
+        <code value="[ppb]"/>
+        <display value="part per billion"/>
+      </concept>
+      <concept>
+        <code value="[ppm]"/>
+        <display value="part per million"/>
+      </concept>
+      <concept>
+        <code value="[ppm]{v/v}"/>
+        <display value="part per million in volume per volume"/>
+      </concept>
+      <concept>
+        <code value="[ppth]"/>
+        <display value="part per thousand"/>
+      </concept>
+      <concept>
+        <code value="[pptr]"/>
+        <display value="part per trillion"/>
+      </concept>
+      <concept>
+        <code value="[psi]"/>
+        <display value="pound per square inch"/>
+      </concept>
+      <concept>
+        <code value="[pt_us]"/>
+        <display value="pint (US)"/>
+      </concept>
+      <concept>
+        <code value="[qt_us]"/>
+        <display value="quart (US)"/>
+      </concept>
+      <concept>
+        <code value="[sft_i]"/>
+        <display value="square foot (international)"/>
+      </concept>
+      <concept>
+        <code value="[sin_i]"/>
+        <display value="square inch (international)"/>
+      </concept>
+      <concept>
+        <code value="[syd_i]"/>
+        <display value="square yard (international)"/>
+      </concept>
+      <concept>
+        <code value="[tbs_us]"/>
+        <display value="tablespoon (US)"/>
+      </concept>
+      <concept>
+        <code value="[tb'U]"/>
+        <display value="tuberculin unit"/>
+      </concept>
+      <concept>
+        <code value="[todd'U]"/>
+        <display value="Todd unit"/>
+      </concept>
+      <concept>
+        <code value="[tsp_us]"/>
+        <display value="teaspoon (US)"/>
+      </concept>
+      <concept>
+        <code value="[yd_i]"/>
+        <display value="yard (international)"/>
+      </concept>
+      <concept>
+        <code value="{#}"/>
+        <display value="number"/>
+      </concept>
+      <concept>
+        <code value="{#}/[HPF]"/>
+        <display value="number per high power field"/>
+      </concept>
+      <concept>
+        <code value="{#}/[LPF]"/>
+        <display value="number per low power field"/>
+      </concept>
+      <concept>
+        <code value="{#}/{platelet}"/>
+        <display value="molecule per platelet"/>
+      </concept>
+      <concept>
+        <code value="{#}/a"/>
+        <display value="number per annum (year)"/>
+      </concept>
+      <concept>
+        <code value="{#}/d"/>
+        <display value="number per day"/>
+      </concept>
+      <concept>
+        <code value="{#}/g"/>
+        <display value="number per gram"/>
+      </concept>
+      <concept>
+        <code value="{#}/L"/>
+        <display value="number per liter"/>
+      </concept>
+      <concept>
+        <code value="{#}/min"/>
+        <display value="number per minute"/>
+      </concept>
+      <concept>
+        <code value="{#}/mL"/>
+        <display value="number per milliliter"/>
+      </concept>
+      <concept>
+        <code value="{#}/uL"/>
+        <display value="number per microliter"/>
+      </concept>
+      <concept>
+        <code value="{#}/wk"/>
+        <display value="number per week"/>
+      </concept>
+      <concept>
+        <code value="{absorbance}"/>
+        <display value="absorbance"/>
+      </concept>
+      <concept>
+        <code value="{activity}"/>
+        <display value="activity"/>
+      </concept>
+      <concept>
+        <code value="{AHF'U}"/>
+        <display value="American Hospital Formulary unit"/>
+      </concept>
+      <concept>
+        <code value="{APS'U}"/>
+        <display value="IgA antiphosphatidylserine unit"/>
+      </concept>
+      <concept>
+        <code value="{ARU}"/>
+        <display value="aspirin response unit"/>
+      </concept>
+      <concept>
+        <code value="{beats}/min"/>
+        <display value="heart beats per minute"/>
+      </concept>
+      <concept>
+        <code value="{binding_index}"/>
+        <display value="binding index"/>
+      </concept>
+      <concept>
+        <code value="{breaths}/min"/>
+        <display value="breaths per minute"/>
+      </concept>
+      <concept>
+        <code value="{CAE'U}"/>
+        <display value="complement activity enzyme unit"/>
+      </concept>
+      <concept>
+        <code value="{CAG_repeats}"/>
+        <display value="CAG trinucleotide repeats"/>
+      </concept>
+      <concept>
+        <code value="{cells}"/>
+        <display value="cells"/>
+      </concept>
+      <concept>
+        <code value="{cells}/[HPF]"/>
+        <display value="cells per high power field"/>
+      </concept>
+      <concept>
+        <code value="{cells}/uL"/>
+        <display value="cells per microliter"/>
+      </concept>
+      <concept>
+        <code value="{CH100'U}"/>
+        <display value="complement CH100 unit"/>
+      </concept>
+      <concept>
+        <code value="{clock_time}"/>
+        <display value="clock time e.g 12:30PM"/>
+      </concept>
+      <concept>
+        <code value="{copies}"/>
+        <display value="copies"/>
+      </concept>
+      <concept>
+        <code value="{copies}/mL"/>
+        <display value="copies per milliliter"/>
+      </concept>
+      <concept>
+        <code value="{copies}/ug"/>
+        <display value="copies per microgram"/>
+      </concept>
+      <concept>
+        <code value="{count}"/>
+        <display value="count"/>
+      </concept>
+      <concept>
+        <code value="{CPM}"/>
+        <display value="counts per minute"/>
+      </concept>
+      <concept>
+        <code value="{CPM}/10*3{cell}"/>
+        <display value="counts per minute per thousand cells"/>
+      </concept>
+      <concept>
+        <code value="{Ct_value}"/>
+        <display value="Cycle threshold value"/>
+      </concept>
+      <concept>
+        <code value="{delta_OD}"/>
+        <display value="change in (delta) optical density"/>
+      </concept>
+      <concept>
+        <code value="{dilution}"/>
+        <display value="dilution"/>
+      </concept>
+      <concept>
+        <code value="{Ehrlich'U}"/>
+        <display value="Ehrlich unit"/>
+      </concept>
+      <concept>
+        <code value="{Ehrlich'U}/(2.h)"/>
+        <display value="Ehrlich unit per 2 hour"/>
+      </concept>
+      <concept>
+        <code value="{Ehrlich'U}/100.g"/>
+        <display value="Ehrlich unit per 100 gram"/>
+      </concept>
+      <concept>
+        <code value="{Ehrlich'U}/d"/>
+        <display value="Ehrlich unit per day"/>
+      </concept>
+      <concept>
+        <code value="{Ehrlich'U}/dL"/>
+        <display value="Ehrlich unit per deciliter"/>
+      </concept>
+      <concept>
+        <code value="{EIA_index}"/>
+        <display value="EIA index"/>
+      </concept>
+      <concept>
+        <code value="{EIA_titer}"/>
+        <display value="EIA titer"/>
+      </concept>
+      <concept>
+        <code value="{EIA'U}"/>
+        <display value="EIA unit"/>
+      </concept>
+      <concept>
+        <code value="{EIA'U}/U"/>
+        <display value="EIA unit per enzyme unit"/>
+      </concept>
+      <concept>
+        <code value="{ELISA'U}"/>
+        <display value="ELISA unit"/>
+      </concept>
+      <concept>
+        <code value="{EV}"/>
+        <display value="EIA value"/>
+      </concept>
+      <concept>
+        <code value="{FIU}"/>
+        <display value="fluorescent intensity unit"/>
+      </concept>
+      <concept>
+        <code value="{fraction}"/>
+        <display value="fraction"/>
+      </concept>
+      <concept>
+        <code value="{GAA_repeats}"/>
+        <display value="GAA trinucleotide repeats"/>
+      </concept>
+      <concept>
+        <code value="{genomes}/mL"/>
+        <display value="genomes per milliliter"/>
+      </concept>
+      <concept>
+        <code value="{Globules}/[HPF]"/>
+        <display value="globules (drops) per high power field"/>
+      </concept>
+      <concept>
+        <code value="{GPS'U}"/>
+        <display value="IgG antiphosphatidylserine unit"/>
+      </concept>
+      <concept>
+        <code value="{HA_titer}"/>
+        <display value="influenza hemagglutination titer"/>
+      </concept>
+      <concept>
+        <code value="{IFA_index}"/>
+        <display value="immunofluorescence assay index"/>
+      </concept>
+      <concept>
+        <code value="{IFA_titer}"/>
+        <display value="Immunofluorescence assay titer"/>
+      </concept>
+      <concept>
+        <code value="{ImmuneComplex'U}"/>
+        <display value="immune complex unit"/>
+      </concept>
+      <concept>
+        <code value="{index_val}"/>
+        <display value="index value"/>
+      </concept>
+      <concept>
+        <code value="{index}"/>
+        <display value="index value"/>
+      </concept>
+      <concept>
+        <code value="{INR}"/>
+        <display value="international normalized ratio"/>
+      </concept>
+      <concept>
+        <code value="{ISR}"/>
+        <display value="immune status ratio"/>
+      </concept>
+      <concept>
+        <code value="{JDF'U}"/>
+        <display value="Juvenile Diabetes Foundation unit"/>
+      </concept>
+      <concept>
+        <code value="{JDF'U}/L"/>
+        <display value="Juvenile Diabetes Foundation unit per liter"/>
+      </concept>
+      <concept>
+        <code value="{KCT'U}"/>
+        <display value="kaolin clotting time"/>
+      </concept>
+      <concept>
+        <code value="{KRONU'U}/mL"/>
+        <display value="Kronus unit per milliliter"/>
+      </concept>
+      <concept>
+        <code value="{Log_copies}/mL"/>
+        <display value="log (base 10) copies per milliliter"/>
+      </concept>
+      <concept>
+        <code value="{Log_IU}"/>
+        <display value="log (base 10) international unit"/>
+      </concept>
+      <concept>
+        <code value="{Log_IU}/mL"/>
+        <display value="log (base 10) international unit per milliliter"/>
+      </concept>
+      <concept>
+        <code value="{Log}"/>
+        <display value="log base 10"/>
+      </concept>
+      <concept>
+        <code value="{Lyme_index_value}"/>
+        <display value="Lyme index value"/>
+      </concept>
+      <concept>
+        <code value="{M.o.M}"/>
+        <display value="multiple of the median"/>
+      </concept>
+      <concept>
+        <code value="{minidrop}/min"/>
+        <display value="minidrop per minute"/>
+      </concept>
+      <concept>
+        <code value="{minidrop}/s"/>
+        <display value="minidrop per second"/>
+      </concept>
+      <concept>
+        <code value="{mm/dd/yyyy}"/>
+        <display value="month-day-year"/>
+      </concept>
+      <concept>
+        <code value="{MPS'U}"/>
+        <display value="IgM antiphosphatidylserine unit"/>
+      </concept>
+      <concept>
+        <code value="{MPS'U}/mL"/>
+        <display value="IgM antiphosphatidylserine unit per milliliter"/>
+      </concept>
+      <concept>
+        <code value="{mutation}"/>
+        <display value="mutation"/>
+      </concept>
+      <concept>
+        <code value="{OD_unit}"/>
+        <display value="optical density unit"/>
+      </concept>
+      <concept>
+        <code value="{Pan_Bio'U}"/>
+        <display value="panbio unit"/>
+      </concept>
+      <concept>
+        <code value="{percentile}"/>
+        <display value="percentile"/>
+      </concept>
+      <concept>
+        <code value="{phenotype}"/>
+        <display value="phenotype"/>
+      </concept>
+      <concept>
+        <code value="{ratio}"/>
+        <display value="ratio"/>
+      </concept>
+      <concept>
+        <code value="{RBC}/uL"/>
+        <display value="red blood cell per microliter"/>
+      </concept>
+      <concept>
+        <code value="{rel_saturation}"/>
+        <display value="relative saturation"/>
+      </concept>
+      <concept>
+        <code value="{risk}"/>
+        <display value="risk"/>
+      </concept>
+      <concept>
+        <code value="{Rubella_virus}"/>
+        <display value="rubella virus"/>
+      </concept>
+      <concept>
+        <code value="{s_co_ratio}"/>
+        <display value="signal to cutoff ratio"/>
+      </concept>
+      <concept>
+        <code value="{saturation}"/>
+        <display value="saturation"/>
+      </concept>
+      <concept>
+        <code value="{score}"/>
+        <display value="score"/>
+      </concept>
+      <concept>
+        <code value="{shift}"/>
+        <display value="shift"/>
+      </concept>
+      <concept>
+        <code value="{spermatozoa}/mL"/>
+        <display value="spermatozoa per milliliter"/>
+      </concept>
+      <concept>
+        <code value="{STDV}"/>
+        <display value="standard deviation"/>
+      </concept>
+      <concept>
+        <code value="{titer}"/>
+        <display value="titer"/>
+      </concept>
+      <concept>
+        <code value="{TmStp}"/>
+        <display value="time stamp"/>
+      </concept>
+      <concept>
+        <code value="{Tscore}"/>
+        <display value="t score"/>
+      </concept>
+      <concept>
+        <code value="{TSI_index}"/>
+        <display value="thyroid-stimulating immunoglobulin index"/>
+      </concept>
+      <concept>
+        <code value="{WBCs}"/>
+        <display value="white blood cells"/>
+      </concept>
+      <concept>
+        <code value="{yyyy}"/>
+        <display value="year"/>
+      </concept>
+      <concept>
+        <code value="{Zscore}"/>
+        <display value="z score"/>
+      </concept>
+      <concept>
+        <code value="10*12/L"/>
+        <display value="trillion per liter"/>
+      </concept>
+      <concept>
+        <code value="10*3"/>
+        <display value="thousand"/>
+      </concept>
+      <concept>
+        <code value="10*3/L"/>
+        <display value="thousand per liter"/>
+      </concept>
+      <concept>
+        <code value="10*3/mL"/>
+        <display value="thousand per milliliter"/>
+      </concept>
+      <concept>
+        <code value="10*3/uL"/>
+        <display value="thousand per microliter"/>
+      </concept>
+      <concept>
+        <code value="10*3{copies}/mL"/>
+        <display value="thousand copies per milliliter"/>
+      </concept>
+      <concept>
+        <code value="10*3{RBCs}"/>
+        <display value="thousand red blood cells"/>
+      </concept>
+      <concept>
+        <code value="10*4/uL"/>
+        <display value="10 thousand per microliter"/>
+      </concept>
+      <concept>
+        <code value="10*5"/>
+        <display value="one hundred thousand"/>
+      </concept>
+      <concept>
+        <code value="10*6"/>
+        <display value="million"/>
+      </concept>
+      <concept>
+        <code value="10*6.[CFU]/L"/>
+        <display value="million colony forming unit per liter"/>
+      </concept>
+      <concept>
+        <code value="10*6.[IU]"/>
+        <display value="million international unit"/>
+      </concept>
+      <concept>
+        <code value="10*6/(24.h)"/>
+        <display value="million per 24 hour"/>
+      </concept>
+      <concept>
+        <code value="10*6/kg"/>
+        <display value="million per kilogram"/>
+      </concept>
+      <concept>
+        <code value="10*6/L"/>
+        <display value="million per liter"/>
+      </concept>
+      <concept>
+        <code value="10*6/mL"/>
+        <display value="million per milliliter"/>
+      </concept>
+      <concept>
+        <code value="10*6/uL"/>
+        <display value="million per microliter"/>
+      </concept>
+      <concept>
+        <code value="10*8"/>
+        <display value="100 million"/>
+      </concept>
+      <concept>
+        <code value="10*9/L"/>
+        <display value="billion per liter"/>
+      </concept>
+      <concept>
+        <code value="10*9/mL"/>
+        <display value="billion per milliliter"/>
+      </concept>
+      <concept>
+        <code value="10*9/uL"/>
+        <display value="billion per microliter"/>
+      </concept>
+      <concept>
+        <code value="10.L/(min.m2)"/>
+        <display value="10 liter per minute per square meter"/>
+      </concept>
+      <concept>
+        <code value="10.L/min"/>
+        <display value="10 liter per minute"/>
+      </concept>
+      <concept>
+        <code value="10.uN.s/(cm5.m2)"/>
+        <display value="10 micronewton second per centimeter to the fifth power per square meter"/>
+      </concept>
+      <concept>
+        <code value="24.h"/>
+        <display value="24 hour"/>
+      </concept>
+      <concept>
+        <code value="A"/>
+        <display value="ampere"/>
+      </concept>
+      <concept>
+        <code value="a"/>
+        <display value="year"/>
+      </concept>
+      <concept>
+        <code value="A/m"/>
+        <display value="ampere per meter"/>
+      </concept>
+      <concept>
+        <code value="ag/{cell}"/>
+        <display value="attogram per cell"/>
+      </concept>
+      <concept>
+        <code value="atm"/>
+        <display value="atmosphere"/>
+      </concept>
+      <concept>
+        <code value="bar"/>
+        <display value="bar"/>
+      </concept>
+      <concept>
+        <code value="Bq"/>
+        <display value="Becquerel"/>
+      </concept>
+      <concept>
+        <code value="cal"/>
+        <display value="calorie"/>
+      </concept>
+      <concept>
+        <code value="Cel"/>
+        <display value="degree Celsius"/>
+      </concept>
+      <concept>
+        <code value="cg"/>
+        <display value="centigram"/>
+      </concept>
+      <concept>
+        <code value="cL"/>
+        <display value="centiliter"/>
+      </concept>
+      <concept>
+        <code value="cm"/>
+        <display value="centimeter"/>
+      </concept>
+      <concept>
+        <code value="cm/s"/>
+        <display value="centimeter per second"/>
+      </concept>
+      <concept>
+        <code value="cm[H2O]"/>
+        <display value="centimeter of water"/>
+      </concept>
+      <concept>
+        <code value="cm[H2O]/L/s"/>
+        <display value="centimeter of water per liter per second"/>
+      </concept>
+      <concept>
+        <code value="cm[H2O]/s/m"/>
+        <display value="centimeter of water per second per meter"/>
+      </concept>
+      <concept>
+        <code value="cm[Hg]"/>
+        <display value="centimeter of mercury"/>
+      </concept>
+      <concept>
+        <code value="cm2"/>
+        <display value="square centimeter"/>
+      </concept>
+      <concept>
+        <code value="cm2/s"/>
+        <display value="square centimeter per second"/>
+      </concept>
+      <concept>
+        <code value="cm3"/>
+        <display value="cubic centimeter"/>
+      </concept>
+      <concept>
+        <code value="cP"/>
+        <display value="centipoise"/>
+      </concept>
+      <concept>
+        <code value="cSt"/>
+        <display value="centistoke"/>
+      </concept>
+      <concept>
+        <code value="d"/>
+        <display value="day"/>
+      </concept>
+      <concept>
+        <code value="d/(7.d)"/>
+        <display value="day per 7 day"/>
+      </concept>
+      <concept>
+        <code value="d/wk"/>
+        <display value="days per week"/>
+      </concept>
+      <concept>
+        <code value="daL/min"/>
+        <display value="dekaliter per minute"/>
+      </concept>
+      <concept>
+        <code value="daL/min/m2"/>
+        <display value="dekaliter per minute per square meter"/>
+      </concept>
+      <concept>
+        <code value="dB"/>
+        <display value="decibel"/>
+      </concept>
+      <concept>
+        <code value="deg"/>
+        <display value="degree (plane angle)"/>
+      </concept>
+      <concept>
+        <code value="deg/s"/>
+        <display value="degree per second"/>
+      </concept>
+      <concept>
+        <code value="dg"/>
+        <display value="decigram"/>
+      </concept>
+      <concept>
+        <code value="dL"/>
+        <display value="deciliter"/>
+      </concept>
+      <concept>
+        <code value="dm"/>
+        <display value="decimeter"/>
+      </concept>
+      <concept>
+        <code value="dm2/s2"/>
+        <display value="square decimeter per square second"/>
+      </concept>
+      <concept>
+        <code value="dyn.s/(cm.m2)"/>
+        <display value="dyne second per centimeter per square meter"/>
+      </concept>
+      <concept>
+        <code value="dyn.s/cm"/>
+        <display value="dyne second per centimeter"/>
+      </concept>
+      <concept>
+        <code value="eq"/>
+        <display value="equivalent"/>
+      </concept>
+      <concept>
+        <code value="eq/L"/>
+        <display value="equivalent per liter"/>
+      </concept>
+      <concept>
+        <code value="eq/mL"/>
+        <display value="equivalent per milliliter"/>
+      </concept>
+      <concept>
+        <code value="eq/mmol"/>
+        <display value="equivalent per millimole"/>
+      </concept>
+      <concept>
+        <code value="eq/umol"/>
+        <display value="equivalent per micromole"/>
+      </concept>
+      <concept>
+        <code value="erg"/>
+        <display value="erg"/>
+      </concept>
+      <concept>
+        <code value="eV"/>
+        <display value="electron Volt"/>
+      </concept>
+      <concept>
+        <code value="F"/>
+        <display value="Farad"/>
+      </concept>
+      <concept>
+        <code value="fg"/>
+        <display value="femtogram"/>
+      </concept>
+      <concept>
+        <code value="fL"/>
+        <display value="femtoliter"/>
+      </concept>
+      <concept>
+        <code value="fm"/>
+        <display value="femtometer"/>
+      </concept>
+      <concept>
+        <code value="fmol"/>
+        <display value="femtomole"/>
+      </concept>
+      <concept>
+        <code value="fmol/g"/>
+        <display value="femtomole per gram"/>
+      </concept>
+      <concept>
+        <code value="fmol/L"/>
+        <display value="femtomole per liter"/>
+      </concept>
+      <concept>
+        <code value="fmol/mg"/>
+        <display value="femtomole per milligram"/>
+      </concept>
+      <concept>
+        <code value="fmol/mg{cyt_prot}"/>
+        <display value="femtomole per milligram of cytosol protein"/>
+      </concept>
+      <concept>
+        <code value="fmol/mg{prot}"/>
+        <display value="femtomole per milligram of protein"/>
+      </concept>
+      <concept>
+        <code value="fmol/mL"/>
+        <display value="femtomole per milliliter"/>
+      </concept>
+      <concept>
+        <code value="g"/>
+        <display value="gram"/>
+      </concept>
+      <concept>
+        <code value="g.m"/>
+        <display value="gram meter"/>
+      </concept>
+      <concept>
+        <code value="g.m/{beat}"/>
+        <display value="gram meter per heart beat"/>
+      </concept>
+      <concept>
+        <code value="g/(100.g)"/>
+        <display value="gram per 100 gram"/>
+      </concept>
+      <concept>
+        <code value="g/(12.h)"/>
+        <display value="gram per 12 hour"/>
+      </concept>
+      <concept>
+        <code value="g/(24.h)"/>
+        <display value="gram per 24 hour"/>
+      </concept>
+      <concept>
+        <code value="g/(3.d)"/>
+        <display value="gram per 3 days"/>
+      </concept>
+      <concept>
+        <code value="g/(4.h)"/>
+        <display value="gram per 4 hour"/>
+      </concept>
+      <concept>
+        <code value="g/(48.h)"/>
+        <display value="gram per 48 hour"/>
+      </concept>
+      <concept>
+        <code value="g/(5.h)"/>
+        <display value="gram per 5 hour"/>
+      </concept>
+      <concept>
+        <code value="g/(6.h)"/>
+        <display value="gram per 6 hour"/>
+      </concept>
+      <concept>
+        <code value="g/(72.h)"/>
+        <display value="gram per 72 hour"/>
+      </concept>
+      <concept>
+        <code value="g/(8.h){shift}"/>
+        <display value="gram per 8 hour shift"/>
+      </concept>
+      <concept>
+        <code value="g/{specimen}"/>
+        <display value="gram per specimen"/>
+      </concept>
+      <concept>
+        <code value="g/{total_output}"/>
+        <display value="gram per total output"/>
+      </concept>
+      <concept>
+        <code value="g/{total_weight}"/>
+        <display value="gram per total weight"/>
+      </concept>
+      <concept>
+        <code value="g/cm2"/>
+        <display value="gram per square centimeter"/>
+      </concept>
+      <concept>
+        <code value="g/cm3"/>
+        <display value="gram per cubic centimeter"/>
+      </concept>
+      <concept>
+        <code value="g/d"/>
+        <display value="gram per day"/>
+      </concept>
+      <concept>
+        <code value="g/dL"/>
+        <display value="gram per deciliter"/>
+      </concept>
+      <concept>
+        <code value="g/g"/>
+        <display value="gram per gram"/>
+      </concept>
+      <concept>
+        <code value="g/g{creat}"/>
+        <display value="gram per gram of creatinine"/>
+      </concept>
+      <concept>
+        <code value="g/g{globulin}"/>
+        <display value="gram per gram of globulin"/>
+      </concept>
+      <concept>
+        <code value="g/g{tissue}"/>
+        <display value="gram per gram of tissue"/>
+      </concept>
+      <concept>
+        <code value="g/h"/>
+        <display value="gram per hour"/>
+      </concept>
+      <concept>
+        <code value="g/h/m2"/>
+        <display value="gram per hour per square meter"/>
+      </concept>
+      <concept>
+        <code value="g/kg"/>
+        <display value="gram per kilogram"/>
+      </concept>
+      <concept>
+        <code value="g/kg/(8.h)"/>
+        <display value="gram per kilogram per 8 hour"/>
+      </concept>
+      <concept>
+        <code value="g/kg/(8.h){shift}"/>
+        <display value="gram per kilogram per 8 hour shift"/>
+      </concept>
+      <concept>
+        <code value="g/kg/d"/>
+        <display value="gram per kilogram per day"/>
+      </concept>
+      <concept>
+        <code value="g/kg/h"/>
+        <display value="gram per kilogram per hour"/>
+      </concept>
+      <concept>
+        <code value="g/kg/min"/>
+        <display value="gram per kilogram per minute"/>
+      </concept>
+      <concept>
+        <code value="g/L"/>
+        <display value="gram per liter"/>
+      </concept>
+      <concept>
+        <code value="g/m2"/>
+        <display value="gram per square meter"/>
+      </concept>
+      <concept>
+        <code value="g/mg"/>
+        <display value="gram per milligram"/>
+      </concept>
+      <concept>
+        <code value="g/min"/>
+        <display value="gram per minute"/>
+      </concept>
+      <concept>
+        <code value="g/mL"/>
+        <display value="gram per milliliter"/>
+      </concept>
+      <concept>
+        <code value="g/mmol"/>
+        <display value="gram per millimole"/>
+      </concept>
+      <concept>
+        <code value="g/mol{creat}"/>
+        <display value="gram per mole of creatinine"/>
+      </concept>
+      <concept>
+        <code value="g{creat}"/>
+        <display value="gram of creatinine"/>
+      </concept>
+      <concept>
+        <code value="g{Hb}"/>
+        <display value="gram of hemoglobin"/>
+      </concept>
+      <concept>
+        <code value="g{total_nit}"/>
+        <display value="gram of total nitrogen"/>
+      </concept>
+      <concept>
+        <code value="g{total_prot}"/>
+        <display value="gram of total protein"/>
+      </concept>
+      <concept>
+        <code value="g{wet_tissue}"/>
+        <display value="gram of wet tissue"/>
+      </concept>
+      <concept>
+        <code value="Gy"/>
+        <display value="Gray"/>
+      </concept>
+      <concept>
+        <code value="H"/>
+        <display value="Henry"/>
+      </concept>
+      <concept>
+        <code value="h"/>
+        <display value="hour"/>
+      </concept>
+      <concept>
+        <code value="h/d"/>
+        <display value="hour per day"/>
+      </concept>
+      <concept>
+        <code value="h/wk"/>
+        <display value="hour per week"/>
+      </concept>
+      <concept>
+        <code value="Hz"/>
+        <display value="Hertz"/>
+      </concept>
+      <concept>
+        <code value="J"/>
+        <display value="joule"/>
+      </concept>
+      <concept>
+        <code value="J/L"/>
+        <display value="joule per liter"/>
+      </concept>
+      <concept>
+        <code value="K"/>
+        <display value="degree Kelvin"/>
+      </concept>
+      <concept>
+        <code value="K/W"/>
+        <display value="degree Kelvin per Watt"/>
+      </concept>
+      <concept>
+        <code value="k[IU]/L"/>
+        <display value="kilo international unit per liter"/>
+      </concept>
+      <concept>
+        <code value="k[IU]/mL"/>
+        <display value="kilo international unit per milliliter"/>
+      </concept>
+      <concept>
+        <code value="kat"/>
+        <display value="katal"/>
+      </concept>
+      <concept>
+        <code value="kat/kg"/>
+        <display value="katal per kilogram"/>
+      </concept>
+      <concept>
+        <code value="kat/L"/>
+        <display value="katal per liter"/>
+      </concept>
+      <concept>
+        <code value="kcal"/>
+        <display value="kilocalorie"/>
+      </concept>
+      <concept>
+        <code value="kcal/(24.h)"/>
+        <display value="kilocalorie per 24 hour"/>
+      </concept>
+      <concept>
+        <code value="kcal/[oz_av]"/>
+        <display value="kilocalorie per ounce (US &amp; British)"/>
+      </concept>
+      <concept>
+        <code value="kcal/d"/>
+        <display value="kilocalorie per day"/>
+      </concept>
+      <concept>
+        <code value="kcal/h"/>
+        <display value="kilocalorie per hour"/>
+      </concept>
+      <concept>
+        <code value="kcal/kg/(24.h)"/>
+        <display value="kilocalorie per kilogram per 24 hour"/>
+      </concept>
+      <concept>
+        <code value="kg"/>
+        <display value="kilogram"/>
+      </concept>
+      <concept>
+        <code value="kg.m/s"/>
+        <display value="kilogram meter per second"/>
+      </concept>
+      <concept>
+        <code value="kg/(s.m2)"/>
+        <display value="kilogram per second per square meter"/>
+      </concept>
+      <concept>
+        <code value="kg/h"/>
+        <display value="kilogram per hour"/>
+      </concept>
+      <concept>
+        <code value="kg/L"/>
+        <display value="kilogram per liter"/>
+      </concept>
+      <concept>
+        <code value="kg/m2"/>
+        <display value="kilogram per square meter"/>
+      </concept>
+      <concept>
+        <code value="kg/m3"/>
+        <display value="kilogram per cubic meter"/>
+      </concept>
+      <concept>
+        <code value="kg/min"/>
+        <display value="kilogram per minute"/>
+      </concept>
+      <concept>
+        <code value="kg/mol"/>
+        <display value="kilogram per mole"/>
+      </concept>
+      <concept>
+        <code value="kg/s"/>
+        <display value="kilogram per second"/>
+      </concept>
+      <concept>
+        <code value="kL"/>
+        <display value="kiloliter"/>
+      </concept>
+      <concept>
+        <code value="km"/>
+        <display value="kilometer"/>
+      </concept>
+      <concept>
+        <code value="kPa"/>
+        <display value="kilopascal"/>
+      </concept>
+      <concept>
+        <code value="ks"/>
+        <display value="kilosecond"/>
+      </concept>
+      <concept>
+        <code value="kU"/>
+        <display value="kilo enzyme unit"/>
+      </concept>
+      <concept>
+        <code value="kU/g"/>
+        <display value="kilo enzyme unit per gram"/>
+      </concept>
+      <concept>
+        <code value="kU/L"/>
+        <display value="kilo enzyme unit per liter"/>
+      </concept>
+      <concept>
+        <code value="kU/L{class}"/>
+        <display value="kilo enzyme unit per liter class"/>
+      </concept>
+      <concept>
+        <code value="kU/mL"/>
+        <display value="kilo enzyme unit per milliliter"/>
+      </concept>
+      <concept>
+        <code value="L"/>
+        <display value="liter"/>
+      </concept>
+      <concept>
+        <code value="L/(24.h)"/>
+        <display value="liter per 24 hour"/>
+      </concept>
+      <concept>
+        <code value="L/(8.h)"/>
+        <display value="liter per 8 hour"/>
+      </concept>
+      <concept>
+        <code value="L/(min.m2)"/>
+        <display value="liter per minute per square meter"/>
+      </concept>
+      <concept>
+        <code value="L/d"/>
+        <display value="liter per day"/>
+      </concept>
+      <concept>
+        <code value="L/h"/>
+        <display value="liter per hour"/>
+      </concept>
+      <concept>
+        <code value="L/kg"/>
+        <display value="liter per kilogram"/>
+      </concept>
+      <concept>
+        <code value="L/L"/>
+        <display value="liter per liter"/>
+      </concept>
+      <concept>
+        <code value="L/min"/>
+        <display value="liter per minute"/>
+      </concept>
+      <concept>
+        <code value="L/min/m2"/>
+        <display value="liter per minute per sqaure meter"/>
+      </concept>
+      <concept>
+        <code value="L/s"/>
+        <display value="liter per second"/>
+      </concept>
+      <concept>
+        <code value="L/s/s2"/>
+        <display value="liter per second per square second"/>
+      </concept>
+      <concept>
+        <code value="lm"/>
+        <display value="lumen"/>
+      </concept>
+      <concept>
+        <code value="lm.m2"/>
+        <display value="lumen square meter"/>
+      </concept>
+      <concept>
+        <code value="m"/>
+        <display value="meter"/>
+      </concept>
+      <concept>
+        <code value="m/s"/>
+        <display value="meter per second"/>
+      </concept>
+      <concept>
+        <code value="m/s2"/>
+        <display value="meter per square second"/>
+      </concept>
+      <concept>
+        <code value="m[IU]/L"/>
+        <display value="milli international unit per liter"/>
+      </concept>
+      <concept>
+        <code value="m[IU]/mL"/>
+        <display value="milli international unit per milliliter"/>
+      </concept>
+      <concept>
+        <code value="m2"/>
+        <display value="square meter"/>
+      </concept>
+      <concept>
+        <code value="m2/s"/>
+        <display value="square meter per second"/>
+      </concept>
+      <concept>
+        <code value="m3/s"/>
+        <display value="cubic meter per second"/>
+      </concept>
+      <concept>
+        <code value="mA"/>
+        <display value="milliampere"/>
+      </concept>
+      <concept>
+        <code value="mbar"/>
+        <display value="millibar"/>
+      </concept>
+      <concept>
+        <code value="mbar.s/L"/>
+        <display value="millibar second per liter"/>
+      </concept>
+      <concept>
+        <code value="mbar/L/s"/>
+        <display value="millibar per liter per second"/>
+      </concept>
+      <concept>
+        <code value="meq"/>
+        <display value="milliequivalent"/>
+      </concept>
+      <concept>
+        <code value="meq/(2.h)"/>
+        <display value="milliequivalent per 2 hour"/>
+      </concept>
+      <concept>
+        <code value="meq/(24.h)"/>
+        <display value="milliequivalent per 24 hour"/>
+      </concept>
+      <concept>
+        <code value="meq/(8.h)"/>
+        <display value="milliequivalent per 8 hour"/>
+      </concept>
+      <concept>
+        <code value="meq/{specimen}"/>
+        <display value="milliequivalent per specimen"/>
+      </concept>
+      <concept>
+        <code value="meq/{total_volume}"/>
+        <display value="milliequivalent per total volume"/>
+      </concept>
+      <concept>
+        <code value="meq/d"/>
+        <display value="milliequivalent per day"/>
+      </concept>
+      <concept>
+        <code value="meq/dL"/>
+        <display value="milliequivalent per deciliter"/>
+      </concept>
+      <concept>
+        <code value="meq/g"/>
+        <display value="milliequivalent per gram"/>
+      </concept>
+      <concept>
+        <code value="meq/g{creat}"/>
+        <display value="milliequivalent per gram of creatinine"/>
+      </concept>
+      <concept>
+        <code value="meq/h"/>
+        <display value="milliequivalent per hour"/>
+      </concept>
+      <concept>
+        <code value="meq/kg"/>
+        <display value="milliequivalent per kilogram"/>
+      </concept>
+      <concept>
+        <code value="meq/kg/h"/>
+        <display value="milliequivalent per kilogram per hour"/>
+      </concept>
+      <concept>
+        <code value="meq/L"/>
+        <display value="milliequivalent per liter"/>
+      </concept>
+      <concept>
+        <code value="meq/m2"/>
+        <display value="milliequivalent per square meter"/>
+      </concept>
+      <concept>
+        <code value="meq/min"/>
+        <display value="milliequivalent per minute"/>
+      </concept>
+      <concept>
+        <code value="meq/mL"/>
+        <display value="milliequivalent per milliliter"/>
+      </concept>
+      <concept>
+        <code value="mg"/>
+        <display value="milligram"/>
+      </concept>
+      <concept>
+        <code value="mg/(10.h)"/>
+        <display value="milligram per 10 hour"/>
+      </concept>
+      <concept>
+        <code value="mg/(12.h)"/>
+        <display value="milligram per 12 hour"/>
+      </concept>
+      <concept>
+        <code value="mg/(2.h)"/>
+        <display value="milligram per 2 hour"/>
+      </concept>
+      <concept>
+        <code value="mg/(24.h)"/>
+        <display value="milligram per 24 hour"/>
+      </concept>
+      <concept>
+        <code value="mg/(6.h)"/>
+        <display value="milligram per 6 hour"/>
+      </concept>
+      <concept>
+        <code value="mg/(72.h)"/>
+        <display value="milligram per 72 hour"/>
+      </concept>
+      <concept>
+        <code value="mg/(8.h)"/>
+        <display value="milligram per 8 hour"/>
+      </concept>
+      <concept>
+        <code value="mg/{collection}"/>
+        <display value="milligram per collection"/>
+      </concept>
+      <concept>
+        <code value="mg/{specimen}"/>
+        <display value="milligram per specimen"/>
+      </concept>
+      <concept>
+        <code value="mg/{total_output}"/>
+        <display value="milligram per total output"/>
+      </concept>
+      <concept>
+        <code value="mg/{total_volume}"/>
+        <display value="milligram per total volume"/>
+      </concept>
+      <concept>
+        <code value="mg/d"/>
+        <display value="milligram per day"/>
+      </concept>
+      <concept>
+        <code value="mg/d/{1.73_m2}"/>
+        <display value="milligram per day per 1.73 square meter"/>
+      </concept>
+      <concept>
+        <code value="mg/dL"/>
+        <display value="milligram per deciliter"/>
+      </concept>
+      <concept>
+        <code value="mg/dL{RBCs}"/>
+        <display value="milligram per deciliter of red blood cells"/>
+      </concept>
+      <concept>
+        <code value="mg/g"/>
+        <display value="milligram per gram"/>
+      </concept>
+      <concept>
+        <code value="mg/g{creat}"/>
+        <display value="milligram per gram of creatinine"/>
+      </concept>
+      <concept>
+        <code value="mg/g{dry_tissue}"/>
+        <display value="milligram per gram of dry tissue"/>
+      </concept>
+      <concept>
+        <code value="mg/g{feces}"/>
+        <display value="milligram per gram of feces"/>
+      </concept>
+      <concept>
+        <code value="mg/g{tissue}"/>
+        <display value="milligram per gram of tissue"/>
+      </concept>
+      <concept>
+        <code value="mg/g{wet_tissue}"/>
+        <display value="milligram per gram of wet tissue"/>
+      </concept>
+      <concept>
+        <code value="mg/h"/>
+        <display value="milligram per hour"/>
+      </concept>
+      <concept>
+        <code value="mg/kg"/>
+        <display value="milligram per kilogram"/>
+      </concept>
+      <concept>
+        <code value="mg/kg/(8.h)"/>
+        <display value="milligram per kilogram per 8 hour"/>
+      </concept>
+      <concept>
+        <code value="mg/kg/d"/>
+        <display value="milligram per kilogram per day"/>
+      </concept>
+      <concept>
+        <code value="mg/kg/h"/>
+        <display value="milligram per kilogram per hour"/>
+      </concept>
+      <concept>
+        <code value="mg/kg/min"/>
+        <display value="milligram per kilogram per minute"/>
+      </concept>
+      <concept>
+        <code value="mg/L"/>
+        <display value="milligram per liter"/>
+      </concept>
+      <concept>
+        <code value="mg/L{RBCs}"/>
+        <display value="milligram per liter of red blood cells"/>
+      </concept>
+      <concept>
+        <code value="mg/m2"/>
+        <display value="milligram per square meter"/>
+      </concept>
+      <concept>
+        <code value="mg/m3"/>
+        <display value="milligram per cubic meter"/>
+      </concept>
+      <concept>
+        <code value="mg/mg"/>
+        <display value="milligram per milligram"/>
+      </concept>
+      <concept>
+        <code value="mg/mg{creat}"/>
+        <display value="milligram per milligram of creatinine"/>
+      </concept>
+      <concept>
+        <code value="mg/min"/>
+        <display value="milligram per minute"/>
+      </concept>
+      <concept>
+        <code value="mg/mL"/>
+        <display value="milligram per milliliter"/>
+      </concept>
+      <concept>
+        <code value="mg/mmol"/>
+        <display value="milligram per millimole"/>
+      </concept>
+      <concept>
+        <code value="mg/mmol{creat}"/>
+        <display value="milligram per millimole of creatinine"/>
+      </concept>
+      <concept>
+        <code value="mg/wk"/>
+        <display value="milligram per week"/>
+      </concept>
+      <concept>
+        <code value="mg{FEU}/L"/>
+        <display value="milligram fibrinogen equivalent unit per liter"/>
+      </concept>
+      <concept>
+        <code value="min"/>
+        <display value="minute"/>
+      </concept>
+      <concept>
+        <code value="min/d"/>
+        <display value="minute per day"/>
+      </concept>
+      <concept>
+        <code value="min/wk"/>
+        <display value="minute per week"/>
+      </concept>
+      <concept>
+        <code value="mL"/>
+        <display value="milliliter"/>
+      </concept>
+      <concept>
+        <code value="mL/(10.h)"/>
+        <display value="milliliter per 10 hour"/>
+      </concept>
+      <concept>
+        <code value="mL/(12.h)"/>
+        <display value="milliliter per 12 hour"/>
+      </concept>
+      <concept>
+        <code value="mL/(2.h)"/>
+        <display value="milliliter per 2 hour"/>
+      </concept>
+      <concept>
+        <code value="mL/(24.h)"/>
+        <display value="milliliter per 24 hour"/>
+      </concept>
+      <concept>
+        <code value="mL/(4.h)"/>
+        <display value="milliliter per 4 hour"/>
+      </concept>
+      <concept>
+        <code value="mL/(5.h)"/>
+        <display value="milliliter per 5 hour"/>
+      </concept>
+      <concept>
+        <code value="mL/(6.h)"/>
+        <display value="milliliter per 6 hour"/>
+      </concept>
+      <concept>
+        <code value="mL/(72.h)"/>
+        <display value="milliliter per 72 hour"/>
+      </concept>
+      <concept>
+        <code value="mL/(8.h)"/>
+        <display value="milliliter per 8 hour"/>
+      </concept>
+      <concept>
+        <code value="mL/(8.h)/kg"/>
+        <display value="milliliter per 8 hour per kilogram"/>
+      </concept>
+      <concept>
+        <code value="mL/[sin_i]"/>
+        <display value="milliliter per square inch (international)"/>
+      </concept>
+      <concept>
+        <code value="mL/{beat}"/>
+        <display value="milliliter per heart beat"/>
+      </concept>
+      <concept>
+        <code value="mL/{beat}/m2"/>
+        <display value="milliliter per heart beat per square meter"/>
+      </concept>
+      <concept>
+        <code value="mL/cm[H2O]"/>
+        <display value="milliliter per centimeter of water"/>
+      </concept>
+      <concept>
+        <code value="mL/d"/>
+        <display value="milliliter per day"/>
+      </concept>
+      <concept>
+        <code value="mL/dL"/>
+        <display value="milliliter per deciliter"/>
+      </concept>
+      <concept>
+        <code value="mL/h"/>
+        <display value="milliliter per hour"/>
+      </concept>
+      <concept>
+        <code value="mL/kg"/>
+        <display value="milliliter per kilogram"/>
+      </concept>
+      <concept>
+        <code value="mL/kg/(8.h)"/>
+        <display value="milliliter per kilogram per 8 hour"/>
+      </concept>
+      <concept>
+        <code value="mL/kg/d"/>
+        <display value="milliliter per kilogram per day"/>
+      </concept>
+      <concept>
+        <code value="mL/kg/h"/>
+        <display value="milliliter per kilogram per hour"/>
+      </concept>
+      <concept>
+        <code value="mL/kg/min"/>
+        <display value="milliliter per kilogram per minute"/>
+      </concept>
+      <concept>
+        <code value="mL/m2"/>
+        <display value="milliliter per square meter"/>
+      </concept>
+      <concept>
+        <code value="mL/mbar"/>
+        <display value="milliliter per millibar"/>
+      </concept>
+      <concept>
+        <code value="mL/min"/>
+        <display value="milliliter per minute"/>
+      </concept>
+      <concept>
+        <code value="mL/min/{1.73_m2}"/>
+        <display value="milliliter per minute per 1.73 square meter"/>
+      </concept>
+      <concept>
+        <code value="mL/min/m2"/>
+        <display value="milliliter per minute per square meter"/>
+      </concept>
+      <concept>
+        <code value="mL/mm"/>
+        <display value="milliliter per millimeter"/>
+      </concept>
+      <concept>
+        <code value="mL/s"/>
+        <display value="milliliter per second"/>
+      </concept>
+      <concept>
+        <code value="mL{fetal_RBCs}"/>
+        <display value="milliliter of fetal red blood cells"/>
+      </concept>
+      <concept>
+        <code value="mm"/>
+        <display value="millimeter"/>
+      </concept>
+      <concept>
+        <code value="mm/h"/>
+        <display value="millimeter per hour"/>
+      </concept>
+      <concept>
+        <code value="mm/min"/>
+        <display value="millimeter per minute"/>
+      </concept>
+      <concept>
+        <code value="mm[H2O]"/>
+        <display value="millimeter of water"/>
+      </concept>
+      <concept>
+        <code value="mm[Hg]"/>
+        <display value="millimeter of mercury"/>
+      </concept>
+      <concept>
+        <code value="mm2"/>
+        <display value="square millimeter"/>
+      </concept>
+      <concept>
+        <code value="mmol"/>
+        <display value="millimole"/>
+      </concept>
+      <concept>
+        <code value="mmol/(12.h)"/>
+        <display value="millimole per 12 hour"/>
+      </concept>
+      <concept>
+        <code value="mmol/(2.h)"/>
+        <display value="millimole per 2 hour"/>
+      </concept>
+      <concept>
+        <code value="mmol/(24.h)"/>
+        <display value="millimole per 24 hour"/>
+      </concept>
+      <concept>
+        <code value="mmol/(5.h)"/>
+        <display value="millimole per 5 hour"/>
+      </concept>
+      <concept>
+        <code value="mmol/(6.h)"/>
+        <display value="millimole per 6 hour"/>
+      </concept>
+      <concept>
+        <code value="mmol/(8.h)"/>
+        <display value="millimole per 8 hour"/>
+      </concept>
+      <concept>
+        <code value="mmol/{ejaculate}"/>
+        <display value="millimole per ejaculate"/>
+      </concept>
+      <concept>
+        <code value="mmol/{specimen}"/>
+        <display value="millimole per specimen"/>
+      </concept>
+      <concept>
+        <code value="mmol/{total_vol}"/>
+        <display value="millimole per total volume"/>
+      </concept>
+      <concept>
+        <code value="mmol/d"/>
+        <display value="millimole per day"/>
+      </concept>
+      <concept>
+        <code value="mmol/dL"/>
+        <display value="millimole per deciliter"/>
+      </concept>
+      <concept>
+        <code value="mmol/g"/>
+        <display value="millimole per gram"/>
+      </concept>
+      <concept>
+        <code value="mmol/g{creat}"/>
+        <display value="millimole per gram of creatinine"/>
+      </concept>
+      <concept>
+        <code value="mmol/h"/>
+        <display value="millimole per hour"/>
+      </concept>
+      <concept>
+        <code value="mmol/h/mg{Hb}"/>
+        <display value="millimole per hour per milligram of hemoglobin"/>
+      </concept>
+      <concept>
+        <code value="mmol/h/mg{prot}"/>
+        <display value="millimole per hour per milligram of protein"/>
+      </concept>
+      <concept>
+        <code value="mmol/kg"/>
+        <display value="millimole per kilogram"/>
+      </concept>
+      <concept>
+        <code value="mmol/kg/(8.h)"/>
+        <display value="millimole per kilogram per 8 hour"/>
+      </concept>
+      <concept>
+        <code value="mmol/kg/d"/>
+        <display value="millimole per kilogram per day"/>
+      </concept>
+      <concept>
+        <code value="mmol/kg/h"/>
+        <display value="millimole per kilogram per hour"/>
+      </concept>
+      <concept>
+        <code value="mmol/kg/min"/>
+        <display value="millimole per kilogram per minute"/>
+      </concept>
+      <concept>
+        <code value="mmol/L"/>
+        <display value="millimole per liter"/>
+      </concept>
+      <concept>
+        <code value="mmol/L{RBCs}"/>
+        <display value="millimole per liter of red blood cells"/>
+      </concept>
+      <concept>
+        <code value="mmol/m2"/>
+        <display value="millimole per square meter"/>
+      </concept>
+      <concept>
+        <code value="mmol/min"/>
+        <display value="millimole per minute"/>
+      </concept>
+      <concept>
+        <code value="mmol/mmol"/>
+        <display value="millimole per millimole"/>
+      </concept>
+      <concept>
+        <code value="mmol/mmol{creat}"/>
+        <display value="millimole per millmole of creatinine"/>
+      </concept>
+      <concept>
+        <code value="mmol/mmol{urea}"/>
+        <display value="millimole per millimole of urea"/>
+      </concept>
+      <concept>
+        <code value="mmol/mol"/>
+        <display value="millimole per mole"/>
+      </concept>
+      <concept>
+        <code value="mmol/mol{creat}"/>
+        <display value="millimole per mole of creatinine"/>
+      </concept>
+      <concept>
+        <code value="mmol/s/L"/>
+        <display value="millimole per second per liter"/>
+      </concept>
+      <concept>
+        <code value="mo"/>
+        <display value="month"/>
+      </concept>
+      <concept>
+        <code value="mol"/>
+        <display value="mole"/>
+      </concept>
+      <concept>
+        <code value="mol/kg"/>
+        <display value="mole per kilogram"/>
+      </concept>
+      <concept>
+        <code value="mol/kg/s"/>
+        <display value="mole per kilogram per second"/>
+      </concept>
+      <concept>
+        <code value="mol/L"/>
+        <display value="mole per liter"/>
+      </concept>
+      <concept>
+        <code value="mol/m3"/>
+        <display value="mole per cubic meter"/>
+      </concept>
+      <concept>
+        <code value="mol/mL"/>
+        <display value="mole per milliliter"/>
+      </concept>
+      <concept>
+        <code value="mol/mol"/>
+        <display value="mole per mole"/>
+      </concept>
+      <concept>
+        <code value="mol/s"/>
+        <display value="mole per second"/>
+      </concept>
+      <concept>
+        <code value="mosm"/>
+        <display value="milliosmole"/>
+      </concept>
+      <concept>
+        <code value="mosm/kg"/>
+        <display value="milliosmole per kilogram"/>
+      </concept>
+      <concept>
+        <code value="mosm/L"/>
+        <display value="milliosmole per liter"/>
+      </concept>
+      <concept>
+        <code value="mPa"/>
+        <display value="millipascal"/>
+      </concept>
+      <concept>
+        <code value="mPa.s"/>
+        <display value="millipascal second"/>
+      </concept>
+      <concept>
+        <code value="Ms"/>
+        <display value="megasecond"/>
+      </concept>
+      <concept>
+        <code value="ms"/>
+        <display value="millisecond"/>
+      </concept>
+      <concept>
+        <code value="mU/g"/>
+        <display value="milli enzyme unit per gram"/>
+      </concept>
+      <concept>
+        <code value="mU/g{Hb}"/>
+        <display value="milli enzyme unit per gram of hemoglobin"/>
+      </concept>
+      <concept>
+        <code value="mU/g{prot}"/>
+        <display value="milli enzyme unit per gram of protein"/>
+      </concept>
+      <concept>
+        <code value="mU/L"/>
+        <display value="milli enzyme unit per liter"/>
+      </concept>
+      <concept>
+        <code value="mU/mg"/>
+        <display value="milli enzyme unit per milligram"/>
+      </concept>
+      <concept>
+        <code value="mU/mg{creat}"/>
+        <display value="milli enzyme unit per milligram of creatinine"/>
+      </concept>
+      <concept>
+        <code value="mU/mL"/>
+        <display value="milli enzyme unit per milliliter"/>
+      </concept>
+      <concept>
+        <code value="mU/mL/min"/>
+        <display value="milli enzyme unit per milliliter per minute"/>
+      </concept>
+      <concept>
+        <code value="mU/mmol{creat}"/>
+        <display value="milli enzyme unit per millimole of creatinine"/>
+      </concept>
+      <concept>
+        <code value="mU/mmol{RBCs}"/>
+        <display value="milli enzyme unit per millimole of red blood cells"/>
+      </concept>
+      <concept>
+        <code value="mV"/>
+        <display value="millivolt"/>
+      </concept>
+      <concept>
+        <code value="mV/s"/>
+        <display value="millivolt per second"/>
+      </concept>
+      <concept>
+        <code value="N"/>
+        <display value="Newton"/>
+      </concept>
+      <concept>
+        <code value="N.cm"/>
+        <display value="Newton centimeter"/>
+      </concept>
+      <concept>
+        <code value="N.s"/>
+        <display value="Newton second"/>
+      </concept>
+      <concept>
+        <code value="ng"/>
+        <display value="nanogram"/>
+      </concept>
+      <concept>
+        <code value="ng/(24.h)"/>
+        <display value="nanogram per 24 hour"/>
+      </concept>
+      <concept>
+        <code value="ng/(8.h)"/>
+        <display value="nanogram per 8 hour"/>
+      </concept>
+      <concept>
+        <code value="ng/10*6"/>
+        <display value="nanogram per million"/>
+      </concept>
+      <concept>
+        <code value="ng/10*6{RBCs}"/>
+        <display value="nanogram per million red blood cells"/>
+      </concept>
+      <concept>
+        <code value="ng/d"/>
+        <display value="nanogram per day"/>
+      </concept>
+      <concept>
+        <code value="ng/dL"/>
+        <display value="nanogram per deciliter"/>
+      </concept>
+      <concept>
+        <code value="ng/g"/>
+        <display value="nanogram per gram"/>
+      </concept>
+      <concept>
+        <code value="ng/g{creat}"/>
+        <display value="nanogram per gram of creatinine"/>
+      </concept>
+      <concept>
+        <code value="ng/h"/>
+        <display value="nanogram per hour"/>
+      </concept>
+      <concept>
+        <code value="ng/kg"/>
+        <display value="nanogram per kilogram"/>
+      </concept>
+      <concept>
+        <code value="ng/kg/(8.h)"/>
+        <display value="nanogram per kilogram per 8 hour"/>
+      </concept>
+      <concept>
+        <code value="ng/kg/h"/>
+        <display value="nanogram per kilogram per hour"/>
+      </concept>
+      <concept>
+        <code value="ng/kg/min"/>
+        <display value="nanogram per kilogram per minute"/>
+      </concept>
+      <concept>
+        <code value="ng/L"/>
+        <display value="nanogram per liter"/>
+      </concept>
+      <concept>
+        <code value="ng/m2"/>
+        <display value="nanogram per square meter"/>
+      </concept>
+      <concept>
+        <code value="ng/mg"/>
+        <display value="nanogram per milligram"/>
+      </concept>
+      <concept>
+        <code value="ng/mg/h"/>
+        <display value="nanogram per milligram per hour"/>
+      </concept>
+      <concept>
+        <code value="ng/mg{creat}"/>
+        <display value="nanogram per milligram of creatinine"/>
+      </concept>
+      <concept>
+        <code value="ng/mg{prot}"/>
+        <display value="nanogram per milligram of protein"/>
+      </concept>
+      <concept>
+        <code value="ng/min"/>
+        <display value="nanogram per minute"/>
+      </concept>
+      <concept>
+        <code value="ng/mL"/>
+        <display value="nanogram per millliiter"/>
+      </concept>
+      <concept>
+        <code value="ng/mL/h"/>
+        <display value="nanogram per milliliter per hour"/>
+      </concept>
+      <concept>
+        <code value="ng/mL{RBCs}"/>
+        <display value="nanogram per milliliter of red blood cells"/>
+      </concept>
+      <concept>
+        <code value="ng/s"/>
+        <display value="nanogram per second"/>
+      </concept>
+      <concept>
+        <code value="ng/U"/>
+        <display value="nanogram per enzyme unit"/>
+      </concept>
+      <concept>
+        <code value="ng{FEU}/mL"/>
+        <display value="nanogram fibrinogen equivalent unit per milliliter"/>
+      </concept>
+      <concept>
+        <code value="nkat"/>
+        <display value="nanokatal"/>
+      </concept>
+      <concept>
+        <code value="nL"/>
+        <display value="nanoliter"/>
+      </concept>
+      <concept>
+        <code value="nm"/>
+        <display value="nanometer"/>
+      </concept>
+      <concept>
+        <code value="nm/s/L"/>
+        <display value="nanometer per second per liter"/>
+      </concept>
+      <concept>
+        <code value="nmol"/>
+        <display value="nanomole"/>
+      </concept>
+      <concept>
+        <code value="nmol/(24.h)"/>
+        <display value="nanomole per 24 hour"/>
+      </concept>
+      <concept>
+        <code value="nmol/d"/>
+        <display value="nanomole per day"/>
+      </concept>
+      <concept>
+        <code value="nmol/dL"/>
+        <display value="nanomole per deciliter"/>
+      </concept>
+      <concept>
+        <code value="nmol/dL{GF}"/>
+        <display value="nanomole per deciliter of glomerular filtrate"/>
+      </concept>
+      <concept>
+        <code value="nmol/g"/>
+        <display value="nanomole per gram"/>
+      </concept>
+      <concept>
+        <code value="nmol/g{creat}"/>
+        <display value="nanomole per gram of creatinine"/>
+      </concept>
+      <concept>
+        <code value="nmol/g{dry_wt}"/>
+        <display value="nanomole per gram of dry weight"/>
+      </concept>
+      <concept>
+        <code value="nmol/h/L"/>
+        <display value="nanomole per hour per liter"/>
+      </concept>
+      <concept>
+        <code value="nmol/h/mg{prot}"/>
+        <display value="nanomole per hour per milligram of protein"/>
+      </concept>
+      <concept>
+        <code value="nmol/h/mL"/>
+        <display value="nanomole per hour per milliliter"/>
+      </concept>
+      <concept>
+        <code value="nmol/L"/>
+        <display value="nanomole per liter"/>
+      </concept>
+      <concept>
+        <code value="nmol/L/mmol{creat}"/>
+        <display value="nanomole per liter per millimole of creatinine"/>
+      </concept>
+      <concept>
+        <code value="nmol/L{RBCs}"/>
+        <display value="nanomole per liter of red blood cells"/>
+      </concept>
+      <concept>
+        <code value="nmol/m/mg{prot}"/>
+        <display value="nanomole per meter per milligram of protein"/>
+      </concept>
+      <concept>
+        <code value="nmol/mg"/>
+        <display value="nanomole per milligram"/>
+      </concept>
+      <concept>
+        <code value="nmol/mg/h"/>
+        <display value="nanomole per milligram per hour"/>
+      </concept>
+      <concept>
+        <code value="nmol/mg{creat}"/>
+        <display value="nanomole per milligram of creatinine"/>
+      </concept>
+      <concept>
+        <code value="nmol/mg{prot}"/>
+        <display value="nanomole per milligram of protein"/>
+      </concept>
+      <concept>
+        <code value="nmol/mg{prot}/h"/>
+        <display value="nanomole per milligram of protein per hour"/>
+      </concept>
+      <concept>
+        <code value="nmol/min"/>
+        <display value="nanomole per minute"/>
+      </concept>
+      <concept>
+        <code value="nmol/min/10*6{cells}"/>
+        <display value="nanomole per minute per million cells"/>
+      </concept>
+      <concept>
+        <code value="nmol/min/mg{Hb}"/>
+        <display value="nanomole per minute per milligram of hemoglobin"/>
+      </concept>
+      <concept>
+        <code value="nmol/min/mg{prot}"/>
+        <display value="nanomole per minute per milligram of protein"/>
+      </concept>
+      <concept>
+        <code value="nmol/min/mg{protein}"/>
+        <display value="nanomole per minute per milligram protein"/>
+      </concept>
+      <concept>
+        <code value="nmol/min/mL"/>
+        <display value="nanomole per minute per milliliter"/>
+      </concept>
+      <concept>
+        <code value="nmol/mL"/>
+        <display value="nanomole per milliliter"/>
+      </concept>
+      <concept>
+        <code value="nmol/mL/h"/>
+        <display value="nanomole per milliliter per hour"/>
+      </concept>
+      <concept>
+        <code value="nmol/mL/min"/>
+        <display value="nanomole per milliliter per minute"/>
+      </concept>
+      <concept>
+        <code value="nmol/mmol"/>
+        <display value="nanomole per millimole"/>
+      </concept>
+      <concept>
+        <code value="nmol/mmol{creat}"/>
+        <display value="nanomole per millimole of creatinine"/>
+      </concept>
+      <concept>
+        <code value="nmol/mol"/>
+        <display value="nanomole per mole"/>
+      </concept>
+      <concept>
+        <code value="nmol/mol{creat}"/>
+        <display value="nanomole per mole creatinine"/>
+      </concept>
+      <concept>
+        <code value="nmol/nmol"/>
+        <display value="nanomole per nanomole"/>
+      </concept>
+      <concept>
+        <code value="nmol/s"/>
+        <display value="nanomole per second"/>
+      </concept>
+      <concept>
+        <code value="nmol/s/L"/>
+        <display value="nanomole per second per liter"/>
+      </concept>
+      <concept>
+        <code value="nmol/umol{creat}"/>
+        <display value="nanomole per micromole of creatinine"/>
+      </concept>
+      <concept>
+        <code value="nmol{ATP}"/>
+        <display value="nanomole of ATP"/>
+      </concept>
+      <concept>
+        <code value="nmol{BCE}"/>
+        <display value="nanomole bone collagen equivalent"/>
+      </concept>
+      <concept>
+        <code value="nmol{BCE}/L"/>
+        <display value="nanomole bone collagen equivalent per liter"/>
+      </concept>
+      <concept>
+        <code value="ns"/>
+        <display value="nanosecond"/>
+      </concept>
+      <concept>
+        <code value="nU/{RBC}"/>
+        <display value="nanoenzyme unit per red blood cell"/>
+      </concept>
+      <concept>
+        <code value="nU/mL"/>
+        <display value="nanoenzyme unit per milliliter"/>
+      </concept>
+      <concept>
+        <code value="Ohm"/>
+        <display value="Ohm"/>
+      </concept>
+      <concept>
+        <code value="Ohm.m"/>
+        <display value="Ohm meter"/>
+      </concept>
+      <concept>
+        <code value="osm"/>
+        <display value="osmole"/>
+      </concept>
+      <concept>
+        <code value="osm/kg"/>
+        <display value="osmole per kilogram"/>
+      </concept>
+      <concept>
+        <code value="osm/L"/>
+        <display value="osmole per liter"/>
+      </concept>
+      <concept>
+        <code value="Pa"/>
+        <display value="Pascal"/>
+      </concept>
+      <concept>
+        <code value="pA"/>
+        <display value="picoampere"/>
+      </concept>
+      <concept>
+        <code value="pg"/>
+        <display value="picogram"/>
+      </concept>
+      <concept>
+        <code value="pg/{cell}"/>
+        <display value="picogram per cell"/>
+      </concept>
+      <concept>
+        <code value="pg/{RBC}"/>
+        <display value="picogram per red blood cell"/>
+      </concept>
+      <concept>
+        <code value="pg/dL"/>
+        <display value="picogram per deciliter"/>
+      </concept>
+      <concept>
+        <code value="pg/L"/>
+        <display value="picogram per liter"/>
+      </concept>
+      <concept>
+        <code value="pg/mg"/>
+        <display value="picogram per milligram"/>
+      </concept>
+      <concept>
+        <code value="pg/mg{creat}"/>
+        <display value="picogram per milligram of creatinine"/>
+      </concept>
+      <concept>
+        <code value="pg/mL"/>
+        <display value="picogram per milliliter"/>
+      </concept>
+      <concept>
+        <code value="pg/mL{sLT}"/>
+        <display value="picogram per milliliter sulfidoleukotrienes"/>
+      </concept>
+      <concept>
+        <code value="pg/mm"/>
+        <display value="picogram per millimeter"/>
+      </concept>
+      <concept>
+        <code value="pkat"/>
+        <display value="picokatal"/>
+      </concept>
+      <concept>
+        <code value="pL"/>
+        <display value="picoliter"/>
+      </concept>
+      <concept>
+        <code value="pm"/>
+        <display value="picometer"/>
+      </concept>
+      <concept>
+        <code value="pmol"/>
+        <display value="picomole"/>
+      </concept>
+      <concept>
+        <code value="pmol/(24.h)"/>
+        <display value="picomole per 24 hour"/>
+      </concept>
+      <concept>
+        <code value="pmol/{RBC}"/>
+        <display value="picomole per red blood cell"/>
+      </concept>
+      <concept>
+        <code value="pmol/d"/>
+        <display value="picomole per day"/>
+      </concept>
+      <concept>
+        <code value="pmol/dL"/>
+        <display value="picomole per deciliter"/>
+      </concept>
+      <concept>
+        <code value="pmol/g"/>
+        <display value="picomole per gram"/>
+      </concept>
+      <concept>
+        <code value="pmol/h/mg{prot}"/>
+        <display value="picomole per hour per milligram of protein"/>
+      </concept>
+      <concept>
+        <code value="pmol/H/mg{protein}"/>
+        <display value="picomole per hour per milligram protein"/>
+      </concept>
+      <concept>
+        <code value="pmol/h/mL"/>
+        <display value="picomole per hour per milliliter"/>
+      </concept>
+      <concept>
+        <code value="pmol/L"/>
+        <display value="picomole per liter"/>
+      </concept>
+      <concept>
+        <code value="pmol/mg{prot}"/>
+        <display value="picomole per milligram of protein"/>
+      </concept>
+      <concept>
+        <code value="pmol/min"/>
+        <display value="picomole per minute"/>
+      </concept>
+      <concept>
+        <code value="pmol/min/mg{prot}"/>
+        <display value="picomole per minute per milligram of protein"/>
+      </concept>
+      <concept>
+        <code value="pmol/mL"/>
+        <display value="picomole per milliliter"/>
+      </concept>
+      <concept>
+        <code value="pmol/mmol{creat}"/>
+        <display value="picomole per millimole of creatinine"/>
+      </concept>
+      <concept>
+        <code value="pmol/umol"/>
+        <display value="picomole per micromole"/>
+      </concept>
+      <concept>
+        <code value="pmol/umol{creat}"/>
+        <display value="picomole per micromole of creatinine"/>
+      </concept>
+      <concept>
+        <code value="ps"/>
+        <display value="picosecond"/>
+      </concept>
+      <concept>
+        <code value="pT"/>
+        <display value="picotesla"/>
+      </concept>
+      <concept>
+        <code value="s"/>
+        <display value="second"/>
+      </concept>
+      <concept>
+        <code value="S"/>
+        <display value="Siemens"/>
+      </concept>
+      <concept>
+        <code value="s/{control}"/>
+        <display value="second per control"/>
+      </concept>
+      <concept>
+        <code value="Sv"/>
+        <display value="Sievert"/>
+      </concept>
+      <concept>
+        <code value="t"/>
+        <display value="metric ton"/>
+      </concept>
+      <concept>
+        <code value="T"/>
+        <display value="Tesla"/>
+      </concept>
+      <concept>
+        <code value="Torr"/>
+        <display value="Torr"/>
+      </concept>
+      <concept>
+        <code value="U"/>
+        <display value="enzyme unit"/>
+      </concept>
+      <concept>
+        <code value="U/(10.g){feces}"/>
+        <display value="enzyme unit per 10 gram of feces"/>
+      </concept>
+      <concept>
+        <code value="U/(12.h)"/>
+        <display value="enzyme unit per 12 hour"/>
+      </concept>
+      <concept>
+        <code value="U/(2.h)"/>
+        <display value="enzyme unit per 2 hour"/>
+      </concept>
+      <concept>
+        <code value="U/(24.h)"/>
+        <display value="enzyme unit per 24 hour"/>
+      </concept>
+      <concept>
+        <code value="U/10"/>
+        <display value="enzyme unit per 10"/>
+      </concept>
+      <concept>
+        <code value="U/10*10"/>
+        <display value="enzyme unit per 10 billion"/>
+      </concept>
+      <concept>
+        <code value="U/10*10{cells}"/>
+        <display value="enzyme unit per 10 billion cells"/>
+      </concept>
+      <concept>
+        <code value="U/10*12"/>
+        <display value="enzyme unit per trillion"/>
+      </concept>
+      <concept>
+        <code value="U/10*12{RBCs}"/>
+        <display value="enzyme unit per trillion red blood cells"/>
+      </concept>
+      <concept>
+        <code value="U/10*6"/>
+        <display value="enzyme unit per million"/>
+      </concept>
+      <concept>
+        <code value="U/10*9"/>
+        <display value="enzyme unit per billion"/>
+      </concept>
+      <concept>
+        <code value="U/d"/>
+        <display value="enzyme unit per day"/>
+      </concept>
+      <concept>
+        <code value="U/dL"/>
+        <display value="enzyme unit per deciliter"/>
+      </concept>
+      <concept>
+        <code value="U/g"/>
+        <display value="enzyme unit per gram"/>
+      </concept>
+      <concept>
+        <code value="U/g{creat}"/>
+        <display value="enzyme unit per gram of creatinine"/>
+      </concept>
+      <concept>
+        <code value="U/g{Hb}"/>
+        <display value="enzyme unit per gram of hemoglobin"/>
+      </concept>
+      <concept>
+        <code value="U/g{protein}"/>
+        <display value="enzyme unit per gram of protein"/>
+      </concept>
+      <concept>
+        <code value="U/h"/>
+        <display value="enzyme unit per hour"/>
+      </concept>
+      <concept>
+        <code value="U/kg{Hb}"/>
+        <display value="enzyme unit per kilogram of hemoglobin"/>
+      </concept>
+      <concept>
+        <code value="U/L"/>
+        <display value="enzyme unit per liter"/>
+      </concept>
+      <concept>
+        <code value="U/min"/>
+        <display value="enzyme unit per minute"/>
+      </concept>
+      <concept>
+        <code value="U/mL"/>
+        <display value="enzyme unit per milliliter"/>
+      </concept>
+      <concept>
+        <code value="U/mL{RBCs}"/>
+        <display value="enzyme unit per milliliter of red blood cells"/>
+      </concept>
+      <concept>
+        <code value="U/mmol{creat}"/>
+        <display value="enzyme unit per millimole of creatinine"/>
+      </concept>
+      <concept>
+        <code value="U/s"/>
+        <display value="enzyme unit per second"/>
+      </concept>
+      <concept>
+        <code value="u[IU]"/>
+        <display value="micro international unit"/>
+      </concept>
+      <concept>
+        <code value="u[IU]/L"/>
+        <display value="microinternational unit per liter"/>
+      </concept>
+      <concept>
+        <code value="u[IU]/mL"/>
+        <display value="micro international unit per milliliter"/>
+      </concept>
+      <concept>
+        <code value="U{25Cel}/L"/>
+        <display value="enzyme unit per liter at 25 deg Celsius"/>
+      </concept>
+      <concept>
+        <code value="U{37Cel}/L"/>
+        <display value="enzyme unit per liter at 37 deg Celsius"/>
+      </concept>
+      <concept>
+        <code value="ueq"/>
+        <display value="microequivalent"/>
+      </concept>
+      <concept>
+        <code value="ueq/L"/>
+        <display value="microequivalent per liter"/>
+      </concept>
+      <concept>
+        <code value="ueq/mL"/>
+        <display value="microequivalent per milliliter"/>
+      </concept>
+      <concept>
+        <code value="ug"/>
+        <display value="microgram"/>
+      </concept>
+      <concept>
+        <code value="ug/(100.g)"/>
+        <display value="microgram per 100 gram"/>
+      </concept>
+      <concept>
+        <code value="ug/(24.h)"/>
+        <display value="microgram per 24 hour"/>
+      </concept>
+      <concept>
+        <code value="ug/(8.h)"/>
+        <display value="microgram per 8 hour"/>
+      </concept>
+      <concept>
+        <code value="ug/[sft_i]"/>
+        <display value="microgram per square foot (international)"/>
+      </concept>
+      <concept>
+        <code value="ug/{specimen}"/>
+        <display value="microgram per specimen"/>
+      </concept>
+      <concept>
+        <code value="ug/d"/>
+        <display value="microgram per day"/>
+      </concept>
+      <concept>
+        <code value="ug/dL"/>
+        <display value="microgram per deciliter"/>
+      </concept>
+      <concept>
+        <code value="ug/dL{RBCs}"/>
+        <display value="microgram per deciliter of red blood cells"/>
+      </concept>
+      <concept>
+        <code value="ug/g"/>
+        <display value="microgram per gram"/>
+      </concept>
+      <concept>
+        <code value="ug/g{creat}"/>
+        <display value="microgram per gram of creatinine"/>
+      </concept>
+      <concept>
+        <code value="ug/g{dry_tissue}"/>
+        <display value="microgram per gram of dry tissue"/>
+      </concept>
+      <concept>
+        <code value="ug/g{dry_wt}"/>
+        <display value="microgram per gram of dry weight"/>
+      </concept>
+      <concept>
+        <code value="ug/g{feces}"/>
+        <display value="microgram per gram of feces"/>
+      </concept>
+      <concept>
+        <code value="ug/g{hair}"/>
+        <display value="microgram per gram of hair"/>
+      </concept>
+      <concept>
+        <code value="ug/g{Hb}"/>
+        <display value="microgram per gram of hemoglobin"/>
+      </concept>
+      <concept>
+        <code value="ug/g{tissue}"/>
+        <display value="microgram per gram of tissue"/>
+      </concept>
+      <concept>
+        <code value="ug/h"/>
+        <display value="microgram per hour"/>
+      </concept>
+      <concept>
+        <code value="ug/kg"/>
+        <display value="microgram per kilogram"/>
+      </concept>
+      <concept>
+        <code value="ug/kg/(8.h)"/>
+        <display value="microgram per kilogram per 8 hour"/>
+      </concept>
+      <concept>
+        <code value="ug/kg/d"/>
+        <display value="microgram per kilogram per day"/>
+      </concept>
+      <concept>
+        <code value="ug/kg/h"/>
+        <display value="microgram per kilogram per hour"/>
+      </concept>
+      <concept>
+        <code value="ug/kg/min"/>
+        <display value="microgram per kilogram per minute"/>
+      </concept>
+      <concept>
+        <code value="ug/L"/>
+        <display value="microgram per liter"/>
+      </concept>
+      <concept>
+        <code value="ug/L/(24.h)"/>
+        <display value="microgram per liter per 24 hour"/>
+      </concept>
+      <concept>
+        <code value="ug/L{RBCs}"/>
+        <display value="microgram per liter of red blood cells"/>
+      </concept>
+      <concept>
+        <code value="ug/m2"/>
+        <display value="microgram per square meter"/>
+      </concept>
+      <concept>
+        <code value="ug/m3"/>
+        <display value="microgram per cubic meter"/>
+      </concept>
+      <concept>
+        <code value="ug/mg"/>
+        <display value="microgram per milligram"/>
+      </concept>
+      <concept>
+        <code value="ug/mg{creat}"/>
+        <display value="microgram per milligram of creatinine"/>
+      </concept>
+      <concept>
+        <code value="ug/min"/>
+        <display value="microgram per minute"/>
+      </concept>
+      <concept>
+        <code value="ug/mL"/>
+        <display value="microgram per milliliter"/>
+      </concept>
+      <concept>
+        <code value="ug/mL{class}"/>
+        <display value="microgram per milliliter class"/>
+      </concept>
+      <concept>
+        <code value="ug/mL{eqv}"/>
+        <display value="microgram per milliliter equivalent"/>
+      </concept>
+      <concept>
+        <code value="ug/mmol"/>
+        <display value="microgram per millimole"/>
+      </concept>
+      <concept>
+        <code value="ug/mmol{creat}"/>
+        <display value="microgram per millimole of creatinine"/>
+      </concept>
+      <concept>
+        <code value="ug/ng"/>
+        <display value="microgram per nanogram"/>
+      </concept>
+      <concept>
+        <code value="ug{FEU}/mL"/>
+        <display value="microgram fibrinogen equivalent unit per milliliter"/>
+      </concept>
+      <concept>
+        <code value="ukat"/>
+        <display value="microkatal"/>
+      </concept>
+      <concept>
+        <code value="uL"/>
+        <display value="microliter"/>
+      </concept>
+      <concept>
+        <code value="uL/(2.h)"/>
+        <display value="microliter per 2 hour"/>
+      </concept>
+      <concept>
+        <code value="uL/h"/>
+        <display value="microliter per hour"/>
+      </concept>
+      <concept>
+        <code value="um"/>
+        <display value="micrometer"/>
+      </concept>
+      <concept>
+        <code value="um/s"/>
+        <display value="microns per second"/>
+      </concept>
+      <concept>
+        <code value="umol"/>
+        <display value="micromole"/>
+      </concept>
+      <concept>
+        <code value="umol/(2.h)"/>
+        <display value="micromole per 2 hour"/>
+      </concept>
+      <concept>
+        <code value="umol/(24.h)"/>
+        <display value="micromole per 24 hour"/>
+      </concept>
+      <concept>
+        <code value="umol/(8.h)"/>
+        <display value="micromole per 8 hour"/>
+      </concept>
+      <concept>
+        <code value="umol/10*6{RBC}"/>
+        <display value="micromole per million red blood cell"/>
+      </concept>
+      <concept>
+        <code value="umol/d"/>
+        <display value="micromole per day"/>
+      </concept>
+      <concept>
+        <code value="umol/dL"/>
+        <display value="micromole per deciliter"/>
+      </concept>
+      <concept>
+        <code value="umol/dL{GF}"/>
+        <display value="micromole per deciliter of glomerular filtrate"/>
+      </concept>
+      <concept>
+        <code value="umol/g"/>
+        <display value="micromole per gram"/>
+      </concept>
+      <concept>
+        <code value="umol/g{creat}"/>
+        <display value="micromole per gram of creatinine"/>
+      </concept>
+      <concept>
+        <code value="umol/g{Hb}"/>
+        <display value="micromole per gram of hemoglobin"/>
+      </concept>
+      <concept>
+        <code value="umol/h"/>
+        <display value="micromole per hour"/>
+      </concept>
+      <concept>
+        <code value="umol/kg"/>
+        <display value="micromole per kilogram"/>
+      </concept>
+      <concept>
+        <code value="umol/kg{feces}"/>
+        <display value="micromole per kilogram of feces"/>
+      </concept>
+      <concept>
+        <code value="umol/L"/>
+        <display value="micromole per liter"/>
+      </concept>
+      <concept>
+        <code value="umol/L/h"/>
+        <display value="micromole per liter per hour"/>
+      </concept>
+      <concept>
+        <code value="umol/L{RBCs}"/>
+        <display value="micromole per liter of red blood cells"/>
+      </concept>
+      <concept>
+        <code value="umol/mg"/>
+        <display value="micromole per milligram"/>
+      </concept>
+      <concept>
+        <code value="umol/mg{creat}"/>
+        <display value="micromole per milligram of creatinine"/>
+      </concept>
+      <concept>
+        <code value="umol/min"/>
+        <display value="micromole per minute"/>
+      </concept>
+      <concept>
+        <code value="umol/min/g"/>
+        <display value="micromole per minute per gram"/>
+      </concept>
+      <concept>
+        <code value="umol/min/g{mucosa}"/>
+        <display value="micromole per minute per gram of mucosa"/>
+      </concept>
+      <concept>
+        <code value="umol/min/g{prot}"/>
+        <display value="micromole per minute per gram of protein"/>
+      </concept>
+      <concept>
+        <code value="umol/min/L"/>
+        <display value="micromole per minute per liter"/>
+      </concept>
+      <concept>
+        <code value="umol/mL"/>
+        <display value="micromole per milliliter"/>
+      </concept>
+      <concept>
+        <code value="umol/mL/min"/>
+        <display value="micromole per milliliter per minute"/>
+      </concept>
+      <concept>
+        <code value="umol/mmol"/>
+        <display value="micromole per millimole"/>
+      </concept>
+      <concept>
+        <code value="umol/mmol{creat}"/>
+        <display value="micromole per millimole of creatinine"/>
+      </concept>
+      <concept>
+        <code value="umol/mol"/>
+        <display value="micromole per mole"/>
+      </concept>
+      <concept>
+        <code value="umol/mol{creat}"/>
+        <display value="micromole per mole of creatinine"/>
+      </concept>
+      <concept>
+        <code value="umol/mol{Hb}"/>
+        <display value="micromole per mole of hemoglobin"/>
+      </concept>
+      <concept>
+        <code value="umol/umol"/>
+        <display value="micromole per micromole"/>
+      </concept>
+      <concept>
+        <code value="umol/umol{creat}"/>
+        <display value="micromole per micromole of creatinine"/>
+      </concept>
+      <concept>
+        <code value="umol{BCE}/mol"/>
+        <display value="micromole bone collagen equivalent per mole"/>
+      </concept>
+      <concept>
+        <code value="uOhm"/>
+        <display value="microOhm"/>
+      </concept>
+      <concept>
+        <code value="us"/>
+        <display value="microsecond"/>
+      </concept>
+      <concept>
+        <code value="uU/g"/>
+        <display value="micro enzyme unit per gram"/>
+      </concept>
+      <concept>
+        <code value="uU/L"/>
+        <display value="micro enzyme unit per liter"/>
+      </concept>
+      <concept>
+        <code value="uU/mL"/>
+        <display value="micro enzyme unit per milliliter"/>
+      </concept>
+      <concept>
+        <code value="uV"/>
+        <display value="microvolt"/>
+      </concept>
+      <concept>
+        <code value="V"/>
+        <display value="volt"/>
+      </concept>
+      <concept>
+        <code value="Wb"/>
+        <display value="Weber"/>
+      </concept>
+      <concept>
+        <code value="wk"/>
+        <display value="week"/>
+      </concept>
+      <concept>
+        <code value="10*-3"/>
+        <display value="ten to the power of minus three"/>
+      </concept>
+      <concept>
+        <code value="10*-6"/>
+        <display value="ten to the power of minus six"/>
+      </concept>
+      <concept>
+        <code value="g/mol"/>
+        <display value="gram per mole"/>
+      </concept>
+      <concept>
+        <code value="mg/mol"/>
+        <display value="milligram per mole"/>
+      </concept>
+      <concept>
+        <code value="nmol/[IU]"/>
+        <display value="nanomole per international unit"/>
+      </concept>
+      <concept>
+        <code value="10*-9"/>
+        <display value="ten to the power of minus nine"/>
+      </concept>
+      <concept>
+        <code value="10*6.[IU]/L"/>
+        <display value="million international unit per liter"/>
+      </concept>
+      <concept>
+        <code value="10*9"/>
+        <display value="billion"/>
+      </concept>
+      <concept>
+        <code value="10*9/kg"/>
+        <display value="billion per kilogram"/>
+      </concept>
+      <concept>
+        <code value="10*3.[arb'U]/L"/>
+        <display value="thousand arbitrary unit per liter"/>
+      </concept>
+      <concept>
+        <code value="akat"/>
+        <display value="attokatal"/>
+      </concept>
+      <concept>
+        <code value="amol"/>
+        <display value="attomole"/>
+      </concept>
+      <concept>
+        <code value="[arb'U]/L"/>
+        <display value="arbitrary unit per liter"/>
+      </concept>
+      <concept>
+        <code value="cm-2"/>
+        <display value="per square centimeter"/>
+      </concept>
+      <concept>
+        <code value="g/min.m2"/>
+        <display value="gram per minute square meter"/>
+      </concept>
+      <concept>
+        <code value="kBq"/>
+        <display value="kilobecquerel"/>
+      </concept>
+      <concept>
+        <code value="kg/d"/>
+        <display value="kilogram per day"/>
+      </concept>
+      <concept>
+        <code value="kJ/L"/>
+        <display value="kilojoule per liter"/>
+      </concept>
+      <concept>
+        <code value="kU/kg"/>
+        <display value="kilo enzyme unit per kilogram"/>
+      </concept>
+      <concept>
+        <code value="kU/mol"/>
+        <display value="kilo enzyme unit per mole"/>
+      </concept>
+      <concept>
+        <code value="mkat/L"/>
+        <display value="millikatal per liter"/>
+      </concept>
+      <concept>
+        <code value="mkat/mol"/>
+        <display value="millikatal per mole"/>
+      </concept>
+      <concept>
+        <code value="mm2/s"/>
+        <display value="square millimeter per second"/>
+      </concept>
+      <concept>
+        <code value="mmol/m3"/>
+        <display value="millimole per cubic meter"/>
+      </concept>
+      <concept>
+        <code value="mmol/s"/>
+        <display value="millimole per second"/>
+      </concept>
+      <concept>
+        <code value="mol/kg.s"/>
+        <display value="mole per kilogram second"/>
+      </concept>
+      <concept>
+        <code value="mol/d"/>
+        <display value="mole per day"/>
+      </concept>
+      <concept>
+        <code value="ng/[IU]"/>
+        <display value="nanogram per international unit"/>
+      </concept>
+      <concept>
+        <code value="nkat/L"/>
+        <display value="nanokatal per liter"/>
+      </concept>
+      <concept>
+        <code value="nmol/kg"/>
+        <display value="nanomole per kilogram"/>
+      </concept>
+      <concept>
+        <code value="nmol/m3"/>
+        <display value="nanomole per cubic meter"/>
+      </concept>
+      <concept>
+        <code value="pmol/kg"/>
+        <display value="picomole per kilogram"/>
+      </concept>
+      <concept>
+        <code value="pmol/m3"/>
+        <display value="picomole per cubic meter"/>
+      </concept>
+      <concept>
+        <code value="pU"/>
+        <display value="pico enzyme unit"/>
+      </concept>
+      <concept>
+        <code value="U/kg"/>
+        <display value="enzyme unit per kilogram"/>
+      </concept>
+      <concept>
+        <code value="ukat/d"/>
+        <display value="microkatal per day"/>
+      </concept>
+      <concept>
+        <code value="ukat/kg"/>
+        <display value="microkatal per kilogram"/>
+      </concept>
+      <concept>
+        <code value="ukat/L"/>
+        <display value="microkatal per liter"/>
+      </concept>
+      <concept>
+        <code value="ukat/s"/>
+        <display value="microkatal per second"/>
+      </concept>
+      <concept>
+        <code value="um2"/>
+        <display value="square micrometer"/>
+      </concept>
+      <concept>
+        <code value="umol/kg.s"/>
+        <display value="micromole per kilogram second"/>
+      </concept>
+      <concept>
+        <code value="umol/m3"/>
+        <display value="micromole per cubic meter"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

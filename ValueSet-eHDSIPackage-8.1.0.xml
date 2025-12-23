@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="eHDSIPackage-8.1.0"/>
+  <url value="http://terminology.ehdsi.eu/ValueSet/eHDSIPackage"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.3"/>
+  </identifier>
+  <version value="0.2.0"/>
+  <name value="eHDSIPackage"/>
+  <title value="eHDSI Package"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-12-23T10:21:27+00:00"/>
+  <publisher value="HL7 Europe"/>
+  <contact>
+    <name value="HL7 Europe"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7europe.org"/>
+    </telecom>
+  </contact>
+  <compose>
+    <include>
+      <system value="http://standardterms.edqm.eu"/>
+      <concept>
+        <code value="30000500"/>
+        <display value="Administration system"/>
+      </concept>
+      <concept>
+        <code value="30002000"/>
+        <display value="Applicator"/>
+      </concept>
+      <concept>
+        <code value="30010000"/>
+        <display value="Brush"/>
+      </concept>
+      <concept>
+        <code value="30012000"/>
+        <display value="Cannula"/>
+      </concept>
+      <concept>
+        <code value="30016000"/>
+        <display value="Cup"/>
+      </concept>
+      <concept>
+        <code value="30017000"/>
+        <display value="Dabbing applicator"/>
+      </concept>
+      <concept>
+        <code value="30018200"/>
+        <display value="Dose dispenser"/>
+      </concept>
+      <concept>
+        <code value="30019000"/>
+        <display value="Dredging applicator"/>
+      </concept>
+      <concept>
+        <code value="30022000"/>
+        <display value="Dropper applicator"/>
+      </concept>
+      <concept>
+        <code value="30026500"/>
+        <display value="Inhaler"/>
+      </concept>
+      <concept>
+        <code value="30028000"/>
+        <display value="Injection needle"/>
+      </concept>
+      <concept>
+        <code value="30029000"/>
+        <display value="Injection syringe"/>
+      </concept>
+      <concept>
+        <code value="30033000"/>
+        <display value="Measuring device"/>
+      </concept>
+      <concept>
+        <code value="30034000"/>
+        <display value="Measuring spoon"/>
+      </concept>
+      <concept>
+        <code value="30037000"/>
+        <display value="Mouthpiece"/>
+      </concept>
+      <concept>
+        <code value="30040000"/>
+        <display value="Multipuncturer"/>
+      </concept>
+      <concept>
+        <code value="30041000"/>
+        <display value="Nasal applicator"/>
+      </concept>
+      <concept>
+        <code value="30042000"/>
+        <display value="Nebuliser"/>
+      </concept>
+      <concept>
+        <code value="30043500"/>
+        <display value="Needle-free injector"/>
+      </concept>
+      <concept>
+        <code value="30044000"/>
+        <display value="Nozzle"/>
+      </concept>
+      <concept>
+        <code value="13072000"/>
+        <display value="Oral applicator"/>
+      </concept>
+      <concept>
+        <code value="30045000"/>
+        <display value="Oral syringe"/>
+      </concept>
+      <concept>
+        <code value="13114000"/>
+        <display value="Pen"/>
+      </concept>
+      <concept>
+        <code value="30046000"/>
+        <display value="Pipette"/>
+      </concept>
+      <concept>
+        <code value="30053000"/>
+        <display value="Prick test applicator"/>
+      </concept>
+      <concept>
+        <code value="30058000"/>
+        <display value="Spatula"/>
+      </concept>
+      <concept>
+        <code value="30011000"/>
+        <display value="Brush applicator"/>
+      </concept>
+      <concept>
+        <code value="30013000"/>
+        <display value="Cap"/>
+      </concept>
+      <concept>
+        <code value="30015000"/>
+        <display value="Child-resistant closure"/>
+      </concept>
+      <concept>
+        <code value="13132000"/>
+        <display value="Lid"/>
+      </concept>
+      <concept>
+        <code value="30035000"/>
+        <display value="Metering pump"/>
+      </concept>
+      <concept>
+        <code value="30036000"/>
+        <display value="Metering valve"/>
+      </concept>
+      <concept>
+        <code value="30043000"/>
+        <display value="Needle applicator"/>
+      </concept>
+      <concept>
+        <code value="30047000"/>
+        <display value="Pipette applicator"/>
+      </concept>
+      <concept>
+        <code value="30056000"/>
+        <display value="Screw cap"/>
+      </concept>
+      <concept>
+        <code value="30061000"/>
+        <display value="Spray pump"/>
+      </concept>
+      <concept>
+        <code value="30062000"/>
+        <display value="Spray valve"/>
+      </concept>
+      <concept>
+        <code value="30064000"/>
+        <display value="Stopper"/>
+      </concept>
+      <concept>
+        <code value="13070000"/>
+        <display value="Valve"/>
+      </concept>
+      <concept>
+        <code value="30001000"/>
+        <display value="Ampoule"/>
+      </concept>
+      <concept>
+        <code value="30004000"/>
+        <display value="Bag"/>
+      </concept>
+      <concept>
+        <code value="30006000"/>
+        <display value="Barrel"/>
+      </concept>
+      <concept>
+        <code value="30007000"/>
+        <display value="Blister"/>
+      </concept>
+      <concept>
+        <code value="30008000"/>
+        <display value="Bottle"/>
+      </concept>
+      <concept>
+        <code value="30009000"/>
+        <display value="Box"/>
+      </concept>
+      <concept>
+        <code value="30014000"/>
+        <display value="Cartridge"/>
+      </concept>
+      <concept>
+        <code value="30015500"/>
+        <display value="Container"/>
+      </concept>
+      <concept>
+        <code value="30018300"/>
+        <display value="Dose-dispenser cartridge"/>
+      </concept>
+      <concept>
+        <code value="30020000"/>
+        <display value="Dredging container"/>
+      </concept>
+      <concept>
+        <code value="30023000"/>
+        <display value="Dropper container"/>
+      </concept>
+      <concept>
+        <code value="30023005"/>
+        <display value="Fixed cryogenic vessel"/>
+      </concept>
+      <concept>
+        <code value="30024000"/>
+        <display value="Gas cylinder"/>
+      </concept>
+      <concept>
+        <code value="13156000"/>
+        <display value="Gas cylinder bundle"/>
+      </concept>
+      <concept>
+        <code value="30032000"/>
+        <display value="Jar"/>
+      </concept>
+      <concept>
+        <code value="30036005"/>
+        <display value="Mobile cryogenic vessel"/>
+      </concept>
+      <concept>
+        <code value="30038000"/>
+        <display value="Multidose container"/>
+      </concept>
+      <concept>
+        <code value="30039000"/>
+        <display value="Multidose container with airless pump"/>
+      </concept>
+      <concept>
+        <code value="30039400"/>
+        <display value="Multidose container with metering pump"/>
+      </concept>
+      <concept>
+        <code value="30039500"/>
+        <display value="Multidose container with pump"/>
+      </concept>
+      <concept>
+        <code value="13142000"/>
+        <display value="Pouch"/>
+      </concept>
+      <concept>
+        <code value="30049000"/>
+        <display value="Pre-filled gastroenteral tube"/>
+      </concept>
+      <concept>
+        <code value="13063000"/>
+        <display value="Pre-filled injector"/>
+      </concept>
+      <concept>
+        <code value="13074000"/>
+        <display value="Pre-filled oral applicator"/>
+      </concept>
+      <concept>
+        <code value="13073000"/>
+        <display value="Pre-filled oral syringe"/>
+      </concept>
+      <concept>
+        <code value="30050000"/>
+        <display value="Pre-filled pen"/>
+      </concept>
+      <concept>
+        <code value="30051000"/>
+        <display value="Pre-filled syringe"/>
+      </concept>
+      <concept>
+        <code value="30052000"/>
+        <display value="Pressurised container"/>
+      </concept>
+      <concept>
+        <code value="30053500"/>
+        <display value="Roll-on container"/>
+      </concept>
+      <concept>
+        <code value="30054000"/>
+        <display value="Sachet"/>
+      </concept>
+      <concept>
+        <code value="30057000"/>
+        <display value="Single-dose container"/>
+      </concept>
+      <concept>
+        <code value="30060000"/>
+        <display value="Spray container"/>
+      </concept>
+      <concept>
+        <code value="30064500"/>
+        <display value="Straw"/>
+      </concept>
+      <concept>
+        <code value="30065000"/>
+        <display value="Strip"/>
+      </concept>
+      <concept>
+        <code value="30066000"/>
+        <display value="Tablet container"/>
+      </concept>
+      <concept>
+        <code value="13151000"/>
+        <display value="Tablet tube"/>
+      </concept>
+      <concept>
+        <code value="30067000"/>
+        <display value="Tube"/>
+      </concept>
+      <concept>
+        <code value="13059000"/>
+        <display value="Unit-dose blister"/>
+      </concept>
+      <concept>
+        <code value="30069000"/>
+        <display value="Vial"/>
+      </concept>
+      <concept>
+        <code value="13125000"/>
+        <display value="Wrapper"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

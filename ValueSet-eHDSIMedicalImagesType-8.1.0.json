@@ -1,0 +1,32 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "eHDSIMedicalImagesType-8.1.0",
+  "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIMedicalImagesType",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.55"
+  }],
+  "version" : "0.2.0",
+  "name" : "eHDSIMedicalImagesType",
+  "title" : "eHDSI Medical Images Type",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-12-23T10:21:27+00:00",
+  "publisher" : "HL7 Europe",
+  "contact" : [{
+    "name" : "HL7 Europe",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://hl7europe.org"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "x-clinical-image",
+        "display" : "Medical Images"
+      }]
+    }]
+  }
+}

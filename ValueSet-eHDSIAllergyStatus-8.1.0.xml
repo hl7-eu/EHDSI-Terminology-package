@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="eHDSIAllergyStatus-8.1.0"/>
+  <url value="http://terminology.ehdsi.eu/ValueSet/eHDSIAllergyStatus"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.59"/>
+  </identifier>
+  <version value="0.2.0"/>
+  <name value="eHDSIAllergyStatus"/>
+  <title value="eHDSI Allergy Status"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-12-23T10:21:27+00:00"/>
+  <publisher value="HL7 Europe"/>
+  <contact>
+    <name value="HL7 Europe"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7europe.org"/>
+    </telecom>
+  </contact>
+  <description value="The value set is used to code the Allergy or Intolerance Clinical Status"/>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"/>
+      <concept>
+        <code value="active"/>
+        <display value="Active"/>
+      </concept>
+      <concept>
+        <code value="inactive"/>
+        <display value="Inactive"/>
+      </concept>
+      <concept>
+        <code value="resolved"/>
+        <display value="Resolved"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

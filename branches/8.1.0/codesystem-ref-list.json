@@ -1,0 +1,257 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/fhir/allergy-intolerance-criticality",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "AllergyIntoleranceCriticality",
+      "title" : "AllergyIntoleranceCriticality",
+      "description" : "Estimate of the potential clinical harm, or seriousness, of a reaction to an identified substance.",
+      "oids" : ["2.16.840.1.113883.4.642.4.130"],
+      "uses" : {
+      },
+      "ValueSet-eHDSICriticality-8.1.0.html" : "eHDSI Criticality"
+    },
+    {
+      "url" : "http://hl7.org/fhir/sid/icd-10",
+      "version" : "2019-covid-expanded",
+      "status" : "active",
+      "name" : "ICD_10_EN",
+      "title" : "ICD-10-EN",
+      "description" : "International Statistical Classification of Diseases and Related Health Problems 10th Revision",
+      "uses" : {
+      },
+      "ValueSet-eHDSIIllnessandDisorder-8.1.0.html" : "eHDSI Illness and Disorder"
+    },
+    {
+      "url" : "http://snomed.info/sct",
+      "version" : null,
+      "status" : "active",
+      "name" : "SNOMED_CT",
+      "title" : "SNOMED CT (all versions)",
+      "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
+      "oids" : ["2.16.840.1.113883.6.96"],
+      "uses" : {
+      },
+      "ValueSet-eHDSICurrentPregnancyStatus-8.1.0.html" : "eHDSI Current Pregnancy Status",
+      "ValueSet-eHDSIBodySiteLaterality-8.1.0.html" : "eHDSI Body Site Laterality",
+      "ValueSet-eHDSIBloodGroup-8.1.0.html" : "eHDSI Blood Group",
+      "ValueSet-eHDSIAdverseEventType-8.1.0.html" : "eHDSI Adverse Event Type",
+      "ValueSet-eHDSIMorphologicAbnormality-8.1.0.html" : "eHDSI Morphologic Abnormality",
+      "ValueSet-eHDSIStatusCode-8.1.0.html" : "eHDSI Status Code",
+      "ValueSet-eHDSIProcedure-8.1.0.html" : "eHDSI Procedure",
+      "ValueSet-eHDSIVaccine-8.1.0.html" : "eHDSI Vaccine",
+      "ValueSet-eHDSIOutcomeOfPregnancy-8.1.0.html" : "eHDSI Outcome of Pregnancy",
+      "ValueSet-eHDSIBodySite-8.1.0.html" : "eHDSI Body Site",
+      "ValueSet-eHDSIMicroorganism-8.1.0.html" : "eHDSI Microorganism",
+      "ValueSet-eHDSILabSpecimenType-8.1.0.html" : "eHDSI Laboratory Specimen Type",
+      "ValueSet-eHDSIPresenceAbsence-8.1.0.html" : "eHDSI Presence Absence",
+      "ValueSet-eHDSICodeProb-8.1.0.html" : "eHDSI Code Prob",
+      "ValueSet-eHDSIAllergenNoDrug-8.1.0.html" : "eHDSI Allergen No Drug",
+      "ValueSet-eHDSIMedicalDevice-8.1.0.html" : "eHDSI Medical Device",
+      "ValueSet-eHDSISocialHistory-8.1.0.html" : "eHDSI Social History",
+      "ValueSet-eHDSIAnimalSpecies-8.1.0.html" : "eHDSI Animal Species",
+      "ValueSet-eHDSISeverity-8.1.0.html" : "eHDSI Severity",
+      "ValueSet-eHDSILabTechnique-8.1.0.html" : "eHDSI Laboratory Technique",
+      "ValueSet-eHDSIBodyStructureLocation-8.1.0.html" : "eHDSI Body Structure Location Qualifier",
+      "ValueSet-eHDSIReactionAllergy-8.1.0.html" : "eHDSI Reaction Allergy",
+      "ValueSet-eHDSIResolutionOutcome-8.1.0.html" : "eHDSI Resolution Outcome"
+    },
+    {
+      "url" : "http://standardterms.edqm.eu",
+      "version" : "5 February 2025",
+      "status" : "active",
+      "name" : "EDQM_Standard_Terms",
+      "title" : "EDQM Standard Terms",
+      "description" : "Standard terms published by the European Directorate for the Quality of Medicines & HealthCare (EDQM) for pharmaceutical dose forms, routes and methods of administration, containers, closures, administration devices and units of presentation.",
+      "oids" : ["0.4.0.127.0.16.1.1.2.1"],
+      "uses" : {
+      },
+      "ValueSet-eHDSIRouteofAdministration-8.1.0.html" : "eHDSI Route of Administration",
+      "ValueSet-eHDSIDoseForm-8.1.0.html" : "eHDSI Dose Form",
+      "ValueSet-eHDSIPackage-8.1.0.html" : "eHDSI Package",
+      "ValueSet-eHDSIQuantityUnit-8.1.0.html" : "eHDSI Quantity Unit"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "AllergyIntoleranceClinicalStatusCodes",
+      "title" : "AllergyIntolerance Clinical Status Codes",
+      "description" : "Preferred value set for AllergyIntolerance Clinical Status.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1373"],
+      "uses" : {
+      },
+      "ValueSet-eHDSIAllergyStatus-8.1.0.html" : "eHDSI Allergy Status"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "AllergyIntoleranceVerificationStatus",
+      "title" : "AllergyIntolerance Verification Status",
+      "description" : "The verification status to support or decline the clinical status of the allergy or intolerance.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1371"],
+      "uses" : {
+      },
+      "ValueSet-eHDSIAllergyCertainty-8.1.0.html" : "eHDSI Allergy Certainty"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+      "version" : "2.0.1",
+      "status" : "active",
+      "name" : "ConditionVerificationStatus",
+      "title" : "ConditionVerificationStatus",
+      "description" : "The verification status to support or decline the clinical status of the condition or diagnosis.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1075"],
+      "uses" : {
+      },
+      "ValueSet-eHDSICertainty-8.1.0.html" : "eHDSI Certainty"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/observation-category",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "ObservationCategoryCodes",
+      "title" : "Observation Category Codes",
+      "description" : "Observation Category codes.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1125"],
+      "uses" : {
+      },
+      "ValueSet-eHDSIObservationCategory-8.1.0.html" : "eHDSI Observation category"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/referencerange-meaning",
+      "version" : "1.0.1",
+      "status" : "active",
+      "name" : "ObservationReferenceRangeMeaningCodes",
+      "title" : "Observation Reference Range Meaning Codes",
+      "description" : "This value set defines a set of codes that can be used to indicate the meaning/use of a reference range for a particular target population.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1124"],
+      "uses" : {
+      },
+      "ValueSet-eHDSIReferenceRangeMeaning-8.1.0.html" : "eHDSI Reference Range Meaning"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/sex-parameter-for-clinical-use",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "SexParameterForClinicalUseCS",
+      "title" : "Sex Parameter For Clinical Use",
+      "description" : "A summary parameter that provides guidance on how a receiver should apply settings or reference ranges that are derived from observable information such as an organ inventory, recent hormone lab tests, genetic testing, menstrual status, obstetric history, etc..",
+      "oids" : ["2.16.840.1.113883.4.642.4.2038"],
+      "uses" : {
+      },
+      "ValueSet-eHDSIReferenceRangeAppliesTo-8.1.0.html" : "eHDSI Reference Range Applies To"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v3-AddressUse",
+      "version" : "3.0.1",
+      "status" : "active",
+      "name" : "AddressUse",
+      "title" : "AddressUse",
+      "description" : "Codes that provide guidance around the circumstances in which a given address should be used.",
+      "oids" : ["2.16.840.1.113883.5.1119"],
+      "uses" : {
+      },
+      "ValueSet-eHDSITelecomAddress-8.1.0.html" : "eHDSI Telecom Address"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "NullFlavor",
+      "title" : "NullFlavor",
+      "description" : "A collection of codes specifying why a valid value is not present.",
+      "oids" : ["2.16.840.1.113883.5.1008"],
+      "uses" : {
+      },
+      "ValueSet-eHDSIExceptionalValue-8.1.0.html" : "eHDSI Exceptional Value"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "ObservationInterpretation",
+      "title" : "ObservationInterpretation",
+      "description" : "One or more codes providing a rough qualitative interpretation of the observation, such as \"normal\" / \"abnormal\", \"low\" / \"high\", \"better\" / \"worse\", \"resistant\" / \"susceptible\", \"expected\" / \"not expected\". The value set is intended to be for ANY use where coded representation of an interpretation is needed.",
+      "oids" : ["2.16.840.1.113883.5.83"],
+      "uses" : {
+      },
+      "ValueSet-eHDSIObservationInterpretation-8.1.0.html" : "eHDSI Observation Interpretation"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+      "version" : "5.0.0",
+      "status" : "active",
+      "name" : "ParticipationType",
+      "title" : "ParticipationType",
+      "description" : "A code specifying the meaning and purpose of every Participation instance. Each of its values implies specific constraints on the Roles undertaking the participation.",
+      "oids" : ["2.16.840.1.113883.5.90"],
+      "uses" : {
+      },
+      "ValueSet-eHDSIPerformerFunction-8.1.0.html" : "eHDSI Performer Function"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
+      "version" : "4.0.0",
+      "status" : "active",
+      "name" : "RoleClass",
+      "title" : "RoleClass",
+      "description" : "Codes for the Role class hierarchy. The values in this hierarchy, represent a Role which is an association or relationship between two entities - the entity that plays the role and the entity that scopes the role. Roles names are derived from the name of the playing entity in that role.\r\n\r\nThe role hierarchy stems from three core concepts, or abstract domains:\r\n\r\n *  **RoleClassOntological** is an abstract domain that collects roles in which the playing entity is defined or specified by the scoping entity.\r\n *  **RoleClassPartitive** collects roles in which the playing entity is in some sense a \"part\" of the scoping entity.\r\n *  **RoleClassAssociative** collects all of the remaining forms of association between the playing entity and the scoping entity. This set of roles is further partitioned between:\r\n    \r\n     *  **RoleClassPassive** which are roles in which the playing entity is used, known, treated, handled, built, or destroyed, etc. under the auspices of the scoping entity. The playing entity is passive in these roles in that the role exists without an agreement from the playing entity.\r\n     *  **RoleClassMutualRelationship** which are relationships based on mutual behavior of the two entities. The basis of these relationship may be formal agreements or they may be *de facto* behavior. Thus, this sub-domain is further divided into:\r\n        \r\n         *  **RoleClassRelationshipFormal** in which the relationship is formally defined, frequently by a contract or agreement.\r\n         *  **Personal relationship** which inks two people in a personal relationship.\r\n\r\nThe hierarchy discussed above is represented In the current vocabulary tables as a set of abstract domains, with the exception of the \"Personal relationship\" which is a leaf concept.\r\n\r\n*OpenIssue:* Description copied from Concept Domain of same name. Must be verified.",
+      "oids" : ["2.16.840.1.113883.5.110"],
+      "uses" : {
+      },
+      "ValueSet-eHDSIRoleClass-8.1.0.html" : "eHDSI Role Class"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "RoleCode",
+      "title" : "RoleCode",
+      "description" : "A set of codes further specifying the kind of Role; specific classification codes for further qualifying RoleClass codes.",
+      "oids" : ["2.16.840.1.113883.5.111"],
+      "uses" : {
+      },
+      "ValueSet-eHDSIPersonalRelationship-8.1.0.html" : "eHDSI PersonalRelationship"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v3-TimingEvent",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "TimingEvent",
+      "title" : "TimingEvent",
+      "description" : "**** MISSING DESCRIPTION ****",
+      "oids" : ["2.16.840.1.113883.5.139"],
+      "uses" : {
+      },
+      "ValueSet-eHDSITimingEvent-8.1.0.html" : "eHDSI Timing Event"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/v3-substanceAdminSubstitution",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "SubstanceAdminSubstitution",
+      "title" : "Substance Admin Substitution",
+      "description" : "Identifies what sort of change is permitted or has occurred between the therapy that was ordered and the therapy that was/will be provided.",
+      "oids" : ["2.16.840.1.113883.5.1070"],
+      "uses" : {
+      },
+      "ValueSet-eHDSISubstitutionCode-8.1.0.html" : "eHDSI Substitution Code"
+    },
+    {
+      "url" : "http://www.whocc.no/atc",
+      "version" : "2025",
+      "status" : "active",
+      "name" : "ATC_classification_system",
+      "title" : "ATC classification system",
+      "description" : "Anatomical Therapeutic Chemical (ATC) classification system",
+      "oids" : ["2.16.840.1.113883.6.73"],
+      "uses" : {
+      },
+      "ValueSet-eHDSIActiveIngredient-8.1.0.html" : "eHDSI Active Ingredient",
+      "ValueSet-eHDSIVaccine-8.1.0.html" : "eHDSI Vaccine"
+    }
+  ]
+}

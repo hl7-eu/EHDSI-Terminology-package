@@ -1,0 +1,19 @@
+{
+  "url" : "http://hl7europe.org/fhir/terminology/ehdsi/ImplementationGuide/hl7.eu.terminology.ehdsi",
+  "name" : "EHDSI",
+  "title" : "eHDSI Terminologies",
+  "description" : "eHDSI Terminologies",
+  "status" : "active",
+  "package-id" : "hl7.eu.terminology.ehdsi",
+  "ig-ver" : "0.2.0",
+  "date" : "Tue, 23 Dec, 2025 10:21:27 +0000",
+  "dateISO8601" : "2025-12-23T10:21:27+00:00",
+  "errs" : 196,
+  "warnings" : 122,
+  "hints" : 1357,
+  "suppressed-hints" : 0,
+  "suppressed-warnings" : 61,
+  "version" : "4.0.1",
+  "tool" : "5.0.0 (3)",
+  "maxMemory" : 5227676976
+}

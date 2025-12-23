@@ -1,0 +1,166 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIObservationInterpretation-8.1.0> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "eHDSIObservationInterpretation-8.1.0"] ; # 
+  fhir:url [
+     fhir:v "http://terminology.ehdsi.eu/ValueSet/eHDSIObservationInterpretation"^^xsd:anyURI ;
+     fhir:l <http://terminology.ehdsi.eu/ValueSet/eHDSIObservationInterpretation>
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [
+       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
+       fhir:l <urn:ietf:rfc:3986>
+     ] ;
+     fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.73" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "8.1.0"] ; # 
+  fhir:name [ fhir:v "eHDSIObservationInterpretation"] ; # 
+  fhir:title [ fhir:v "eHDSI Observation Interpretation"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-11-18T20:02:38+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 Europe"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 Europe" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://hl7europe.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This Value Set is used for a rough qualitative interpretation of the Laboratory Observation Results"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
+       ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "<" ] ;
+         fhir:display [ fhir:v "Off scale low" ]
+       ] [
+         fhir:code [ fhir:v ">" ] ;
+         fhir:display [ fhir:v "Off scale high" ]
+       ] [
+         fhir:code [ fhir:v "A" ] ;
+         fhir:display [ fhir:v "Abnormal" ]
+       ] [
+         fhir:code [ fhir:v "AA" ] ;
+         fhir:display [ fhir:v "Critical abnormal" ]
+       ] [
+         fhir:code [ fhir:v "B" ] ;
+         fhir:display [ fhir:v "Better" ]
+       ] [
+         fhir:code [ fhir:v "CAR" ] ;
+         fhir:display [ fhir:v "Carrier" ]
+       ] [
+         fhir:code [ fhir:v "D" ] ;
+         fhir:display [ fhir:v "Significant change down" ]
+       ] [
+         fhir:code [ fhir:v "DET" ] ;
+         fhir:display [ fhir:v "Detected" ]
+       ] [
+         fhir:code [ fhir:v "E" ] ;
+         fhir:display [ fhir:v "Equivocal" ]
+       ] [
+         fhir:code [ fhir:v "EX" ] ;
+         fhir:display [ fhir:v "outside threshold" ]
+       ] [
+         fhir:code [ fhir:v "EXP" ] ;
+         fhir:display [ fhir:v "Expected" ]
+       ] [
+         fhir:code [ fhir:v "H" ] ;
+         fhir:display [ fhir:v "High" ]
+       ] [
+         fhir:code [ fhir:v "HH" ] ;
+         fhir:display [ fhir:v "Critical high" ]
+       ] [
+         fhir:code [ fhir:v "HU" ] ;
+         fhir:display [ fhir:v "Significantly high" ]
+       ] [
+         fhir:code [ fhir:v "HX" ] ;
+         fhir:display [ fhir:v "above high threshold" ]
+       ] [
+         fhir:code [ fhir:v "I" ] ;
+         fhir:display [ fhir:v "Intermediate" ]
+       ] [
+         fhir:code [ fhir:v "IE" ] ;
+         fhir:display [ fhir:v "Insufficient evidence" ]
+       ] [
+         fhir:code [ fhir:v "IND" ] ;
+         fhir:display [ fhir:v "Indeterminate" ]
+       ] [
+         fhir:code [ fhir:v "L" ] ;
+         fhir:display [ fhir:v "Low" ]
+       ] [
+         fhir:code [ fhir:v "LL" ] ;
+         fhir:display [ fhir:v "Critical low" ]
+       ] [
+         fhir:code [ fhir:v "LU" ] ;
+         fhir:display [ fhir:v "Significantly low" ]
+       ] [
+         fhir:code [ fhir:v "LX" ] ;
+         fhir:display [ fhir:v "below low threshold" ]
+       ] [
+         fhir:code [ fhir:v "N" ] ;
+         fhir:display [ fhir:v "Normal" ]
+       ] [
+         fhir:code [ fhir:v "NCL" ] ;
+         fhir:display [ fhir:v "No CLSI defined breakpoint" ]
+       ] [
+         fhir:code [ fhir:v "ND" ] ;
+         fhir:display [ fhir:v "Not detected" ]
+       ] [
+         fhir:code [ fhir:v "NEG" ] ;
+         fhir:display [ fhir:v "Negative" ]
+       ] [
+         fhir:code [ fhir:v "NR" ] ;
+         fhir:display [ fhir:v "Non-reactive" ]
+       ] [
+         fhir:code [ fhir:v "NS" ] ;
+         fhir:display [ fhir:v "Non-susceptible" ]
+       ] [
+         fhir:code [ fhir:v "POS" ] ;
+         fhir:display [ fhir:v "Positive" ]
+       ] [
+         fhir:code [ fhir:v "R" ] ;
+         fhir:display [ fhir:v "Resistant" ]
+       ] [
+         fhir:code [ fhir:v "RR" ] ;
+         fhir:display [ fhir:v "Reactive" ]
+       ] [
+         fhir:code [ fhir:v "S" ] ;
+         fhir:display [ fhir:v "Susceptible" ]
+       ] [
+         fhir:code [ fhir:v "U" ] ;
+         fhir:display [ fhir:v "Significant change up" ]
+       ] [
+         fhir:code [ fhir:v "UNE" ] ;
+         fhir:display [ fhir:v "Unexpected" ]
+       ] [
+         fhir:code [ fhir:v "W" ] ;
+         fhir:display [ fhir:v "Worse" ]
+       ] [
+         fhir:code [ fhir:v "WR" ] ;
+         fhir:display [ fhir:v "Weakly reactive" ]
+       ] [
+         fhir:code [ fhir:v "SYN-R" ] ;
+         fhir:display [ fhir:v "Synergy - resistant" ]
+       ] [
+         fhir:code [ fhir:v "SDD" ] ;
+         fhir:display [ fhir:v "Susceptible-dose dependent" ]
+       ] [
+         fhir:code [ fhir:v "SYN-S" ] ;
+         fhir:display [ fhir:v "Synergy - susceptible" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

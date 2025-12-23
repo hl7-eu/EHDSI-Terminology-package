@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="eHDSIPersonalRelationship-8.1.0"/>
+  <url value="http://terminology.ehdsi.eu/ValueSet/eHDSIPersonalRelationship"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.38"/>
+  </identifier>
+  <version value="8.1.0"/>
+  <name value="eHDSIPersonalRelationship"/>
+  <title value="eHDSI PersonalRelationship"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-11-18T20:02:38+00:00"/>
+  <publisher value="HL7 Europe"/>
+  <contact>
+    <name value="HL7 Europe"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7europe.org"/>
+    </telecom>
+  </contact>
+  <description value="The Value Set is used (optionally) to code the type of contact relationship between a person and the patient."/>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+      <concept>
+        <code value="AUNT"/>
+        <display value="aunt"/>
+      </concept>
+      <concept>
+        <code value="CHILD"/>
+        <display value="Child"/>
+      </concept>
+      <concept>
+        <code value="CHLDADOPT"/>
+        <display value="adopted child"/>
+      </concept>
+      <concept>
+        <code value="CHLDFOST"/>
+        <display value="foster child"/>
+      </concept>
+      <concept>
+        <code value="CHLDINLAW"/>
+        <display value="child in-law"/>
+      </concept>
+      <concept>
+        <code value="COUSN"/>
+        <display value="cousin"/>
+      </concept>
+      <concept>
+        <code value="DAU"/>
+        <display value="natural daughter"/>
+      </concept>
+      <concept>
+        <code value="DAUADOPT"/>
+        <display value="adopted daughter"/>
+      </concept>
+      <concept>
+        <code value="DAUC"/>
+        <display value="daughter"/>
+      </concept>
+      <concept>
+        <code value="DAUFOST"/>
+        <display value="foster daughter"/>
+      </concept>
+      <concept>
+        <code value="DAUINLAW"/>
+        <display value="daughter in-law"/>
+      </concept>
+      <concept>
+        <code value="DOMPART"/>
+        <display value="domestic partner"/>
+      </concept>
+      <concept>
+        <code value="FAMMEMB"/>
+        <display value="Family Member"/>
+      </concept>
+      <concept>
+        <code value="FRND"/>
+        <display value="unrelated friend"/>
+      </concept>
+      <concept>
+        <code value="FTH"/>
+        <display value="Father"/>
+      </concept>
+      <concept>
+        <code value="FTHINLAW"/>
+        <display value="father-in-law"/>
+      </concept>
+      <concept>
+        <code value="GGRPRN"/>
+        <display value="great grandparent"/>
+      </concept>
+      <concept>
+        <code value="GRNDCHILD"/>
+        <display value="grandchild"/>
+      </concept>
+      <concept>
+        <code value="GRPRN"/>
+        <display value="Grandparent"/>
+      </concept>
+      <concept>
+        <code value="MTH"/>
+        <display value="Mother"/>
+      </concept>
+      <concept>
+        <code value="MTHINLAW"/>
+        <display value="mother-in-law"/>
+      </concept>
+      <concept>
+        <code value="NBOR"/>
+        <display value="neighbor"/>
+      </concept>
+      <concept>
+        <code value="NCHILD"/>
+        <display value="natural child"/>
+      </concept>
+      <concept>
+        <code value="NIENEPH"/>
+        <display value="niece/nephew"/>
+      </concept>
+      <concept>
+        <code value="PRN"/>
+        <display value="Parent"/>
+      </concept>
+      <concept>
+        <code value="PRNINLAW"/>
+        <display value="parent in-law"/>
+      </concept>
+      <concept>
+        <code value="ROOM"/>
+        <display value="Roommate"/>
+      </concept>
+      <concept>
+        <code value="SIB"/>
+        <display value="Sibling"/>
+      </concept>
+      <concept>
+        <code value="SIGOTHR"/>
+        <display value="significant other"/>
+      </concept>
+      <concept>
+        <code value="SON"/>
+        <display value="natural son"/>
+      </concept>
+      <concept>
+        <code value="SONADOPT"/>
+        <display value="adopted son"/>
+      </concept>
+      <concept>
+        <code value="SONC"/>
+        <display value="son"/>
+      </concept>
+      <concept>
+        <code value="SONFOST"/>
+        <display value="foster son"/>
+      </concept>
+      <concept>
+        <code value="SONINLAW"/>
+        <display value="son in-law"/>
+      </concept>
+      <concept>
+        <code value="SPS"/>
+        <display value="spouse"/>
+      </concept>
+      <concept>
+        <code value="STPCHLD"/>
+        <display value="step child"/>
+      </concept>
+      <concept>
+        <code value="STPDAU"/>
+        <display value="stepdaughter"/>
+      </concept>
+      <concept>
+        <code value="STPSON"/>
+        <display value="stepson"/>
+      </concept>
+      <concept>
+        <code value="UNCLE"/>
+        <display value="uncle"/>
+      </concept>
+      <concept>
+        <code value="EXT"/>
+        <display value="extended family member"/>
+      </concept>
+      <concept>
+        <code value="GGRFTH"/>
+        <display value="great grandfather"/>
+      </concept>
+      <concept>
+        <code value="GGRMTH"/>
+        <display value="great grandmother"/>
+      </concept>
+      <concept>
+        <code value="GRNDDAU"/>
+        <display value="granddaughter"/>
+      </concept>
+      <concept>
+        <code value="GRNDSON"/>
+        <display value="grandson"/>
+      </concept>
+      <concept>
+        <code value="GRFTH"/>
+        <display value="Grandfather"/>
+      </concept>
+      <concept>
+        <code value="GRMTH"/>
+        <display value="Grandmother"/>
+      </concept>
+      <concept>
+        <code value="BROINLAW"/>
+        <display value="brother-in-law"/>
+      </concept>
+      <concept>
+        <code value="SISINLAW"/>
+        <display value="sister-in-law"/>
+      </concept>
+      <concept>
+        <code value="NEPHEW"/>
+        <display value="nephew"/>
+      </concept>
+      <concept>
+        <code value="NIECE"/>
+        <display value="niece"/>
+      </concept>
+      <concept>
+        <code value="BRO"/>
+        <display value="Brother"/>
+      </concept>
+      <concept>
+        <code value="SIS"/>
+        <display value="Sister"/>
+      </concept>
+      <concept>
+        <code value="HUSB"/>
+        <display value="husband"/>
+      </concept>
+      <concept>
+        <code value="WIFE"/>
+        <display value="wife"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

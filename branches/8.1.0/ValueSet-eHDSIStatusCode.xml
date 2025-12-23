@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="eHDSIStatusCode"/>
+  <url value="http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIStatusCode"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.15"/>
+  </identifier>
+  <version value="0.2.0"/>
+  <name value="eHDSIStatusCode"/>
+  <title value="eHDSI Status Code"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2025-02-08T05:43:06+00:00"/>
+  <publisher value="HL7 Europe"/>
+  <contact>
+    <name value="HL7 Europe"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7europe.org"/>
+    </telecom>
+  </contact>
+  <description value="The Value Set is used to code the different elements of the patient's social history."/>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="55561003"/>
+        <display value="Active"/>
+      </concept>
+      <concept>
+        <code value="90734009"/>
+        <display value="Chronic"/>
+      </concept>
+      <concept>
+        <code value="73425007"/>
+        <display value="Inactive"/>
+      </concept>
+      <concept>
+        <code value="7087005"/>
+        <display value="Intermittent"/>
+      </concept>
+      <concept>
+        <code value="410516002"/>
+        <display value="Known absent"/>
+      </concept>
+      <concept>
+        <code value="413322009"/>
+        <display value="Problem resolved"/>
+      </concept>
+      <concept>
+        <code value="255227004"/>
+        <display value="Recurrent"/>
+      </concept>
+      <concept>
+        <code value="415684004"/>
+        <display value="Suspected"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

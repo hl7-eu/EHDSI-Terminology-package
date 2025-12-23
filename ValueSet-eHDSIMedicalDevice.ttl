@@ -1,0 +1,3606 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIMedicalDevice> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "eHDSIMedicalDevice"] ; # 
+  fhir:url [
+     fhir:v "http://terminology.ehdsi.eu/ValueSet/eHDSIMedicalDevice"^^xsd:anyURI ;
+     fhir:l <http://terminology.ehdsi.eu/ValueSet/eHDSIMedicalDevice>
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [
+       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
+       fhir:l <urn:ietf:rfc:3986>
+     ] ;
+     fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.8" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "0.2.0"] ; # 
+  fhir:name [ fhir:v "eHDSIMedicalDevice"] ; # 
+  fhir:title [ fhir:v "eHDSI Medical Device"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-12-23T10:21:27+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 Europe"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 Europe" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://hl7europe.org" ]
+     ] )
+  ] ) ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.44.6"^^xsd:anyURI ;
+         fhir:l <urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.44.6>
+       ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "A100101" ] ;
+         fhir:display [ fhir:v "ONE PIECE COLOSTOMY BAGS" ]
+       ] [
+         fhir:code [ fhir:v "A10010101" ] ;
+         fhir:display [ fhir:v "ONE-PIECE COLOSTOMY BAGS FOR NON-RETRACTED STOMA, FLAT" ]
+       ] [
+         fhir:code [ fhir:v "A1001010101" ] ;
+         fhir:display [ fhir:v "ONE-PIECE COLOSTOMY BAGS FOR NON-RETRACTED STOMA, FLAT, W/O TISSUE COVER" ]
+       ] [
+         fhir:code [ fhir:v "A1001010102" ] ;
+         fhir:display [ fhir:v "ONE-PIECE COLOSTOMY BAGS FOR NON-RETRACTED STOMA, FLAT, WITH TISSUE COVER" ]
+       ] [
+         fhir:code [ fhir:v "A10010102" ] ;
+         fhir:display [ fhir:v "ONE-PIECE COLOSTOMY BAGS FOR RETRACTED STOMA, CONVEX" ]
+       ] [
+         fhir:code [ fhir:v "A1001010201" ] ;
+         fhir:display [ fhir:v "ONE-PIECE COLOSTOMY BAGS FOR RETRACTED STOMA, CONVEX, W/O TISSUE COVER" ]
+       ] [
+         fhir:code [ fhir:v "A1001010202" ] ;
+         fhir:display [ fhir:v "ONE-PIECE COLOSTOMY BAGS FOR RETRACTED STOMA, CONVEX, WITH TISSUE COVER" ]
+       ] [
+         fhir:code [ fhir:v "A100102" ] ;
+         fhir:display [ fhir:v "ONE PIECE ILEOSTOMY BAGS" ]
+       ] [
+         fhir:code [ fhir:v "A10010201" ] ;
+         fhir:display [ fhir:v "ONE-PIECE ILEOSTOMY BAGS FOR NON-RETRACTED STOMA, FLAT" ]
+       ] [
+         fhir:code [ fhir:v "A1001020101" ] ;
+         fhir:display [ fhir:v "ONE-PIECE ILEOSTOMY BAGS FOR NON-RETRACTED STOMA, FLAT, W/O TISSUE COVER" ]
+       ] [
+         fhir:code [ fhir:v "A1001020102" ] ;
+         fhir:display [ fhir:v "ONE-PIECE ILEOSTOMY BAGS FOR NON-RETRACTED STOMA, FLAT, WITH TISSUE COVER" ]
+       ] [
+         fhir:code [ fhir:v "A10010202" ] ;
+         fhir:display [ fhir:v "ONE-PIECE ILEOSTOMY BAGS FOR RETRACTED STOMA, CONVEX" ]
+       ] [
+         fhir:code [ fhir:v "A1001020201" ] ;
+         fhir:display [ fhir:v "ONE-PIECE ILEOSTOMY BAGS FOR RETRACTED STOMA, CONVEX, W/O TISSUE COVER" ]
+       ] [
+         fhir:code [ fhir:v "A1001020202" ] ;
+         fhir:display [ fhir:v "ONE-PIECE ILEOSTOMY BAGS FOR RETRACTED STOMA, CONVEX, WITH TISSUE COVER" ]
+       ] [
+         fhir:code [ fhir:v "A100103" ] ;
+         fhir:display [ fhir:v "ONE PIECE UROSTOMY BAGS" ]
+       ] [
+         fhir:code [ fhir:v "A10010301" ] ;
+         fhir:display [ fhir:v "ONE-PIECE UROSTOMY BAGS FOR NON-RETRACTED STOMA, FLAT" ]
+       ] [
+         fhir:code [ fhir:v "A1001030101" ] ;
+         fhir:display [ fhir:v "ONE-PIECE UROSTOMY BAGS FOR NON-RETRACTED STOMA, FLAT, W/O TISSUE COVER" ]
+       ] [
+         fhir:code [ fhir:v "A1001030102" ] ;
+         fhir:display [ fhir:v "ONE-PIECE UROSTOMY BAGS FOR NON-RETRACTED STOMA, FLAT, WITH TISSUE COVER" ]
+       ] [
+         fhir:code [ fhir:v "A10010302" ] ;
+         fhir:display [ fhir:v "ONE-PIECE UROSTOMY BAGS FOR RETRACTED STOMA, CONVEX" ]
+       ] [
+         fhir:code [ fhir:v "A1001030201" ] ;
+         fhir:display [ fhir:v "ONE-PIECE UROSTOMY BAGS FOR RETRACTED STOMA, CONVEX, W/O TISSUE COVER" ]
+       ] [
+         fhir:code [ fhir:v "A1001030202" ] ;
+         fhir:display [ fhir:v "ONE-PIECE UROSTOMY BAGS FOR RETRACTED STOMA, CONVEX, WITH TISSUE COVER" ]
+       ] [
+         fhir:code [ fhir:v "A100104" ] ;
+         fhir:display [ fhir:v "EXPANSION CAPS FOR ABDOMINAL OSTOMY SYSTEMS - ONE PIECE" ]
+       ] [
+         fhir:code [ fhir:v "A100199" ] ;
+         fhir:display [ fhir:v "DEVICES FOR ABDOMINAL OSTOMY - ONE PIECE - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "A1002" ] ;
+         fhir:display [ fhir:v "ABDOMINAL OOSTOMY DEVICES, TWO PIECE" ]
+       ] [
+         fhir:code [ fhir:v "A100201" ] ;
+         fhir:display [ fhir:v "ABDOMINAL OSTOMY PLATES" ]
+       ] [
+         fhir:code [ fhir:v "A10020101" ] ;
+         fhir:display [ fhir:v "COLOSTOMY PLATES" ]
+       ] [
+         fhir:code [ fhir:v "A1002010101" ] ;
+         fhir:display [ fhir:v "COLOSTOMY PLATES, WITH NON-RETRACTED STOMA" ]
+       ] [
+         fhir:code [ fhir:v "A1002010102" ] ;
+         fhir:display [ fhir:v "COLOSTOMY PLATES, WITH RETRACTED STOMA" ]
+       ] [
+         fhir:code [ fhir:v "A10020102" ] ;
+         fhir:display [ fhir:v "ILEOSTOMY PLATES" ]
+       ] [
+         fhir:code [ fhir:v "A1002010201" ] ;
+         fhir:display [ fhir:v "ILEOSTOMY PLATES, WITH NON-RETRACTED STOMA" ]
+       ] [
+         fhir:code [ fhir:v "A1002010202" ] ;
+         fhir:display [ fhir:v "ILEOSTOMY PLATES, WITH RETRACTED STOMA" ]
+       ] [
+         fhir:code [ fhir:v "A10020103" ] ;
+         fhir:display [ fhir:v "UROSTOMY PLATES" ]
+       ] [
+         fhir:code [ fhir:v "A1002010301" ] ;
+         fhir:display [ fhir:v "UROSTOMY PLATES, WITH NON-RETRACTED STOMA" ]
+       ] [
+         fhir:code [ fhir:v "A1002010302" ] ;
+         fhir:display [ fhir:v "UROSTOMY PLATES WITH RETRACTED STOMA" ]
+       ] [
+         fhir:code [ fhir:v "A10020104" ] ;
+         fhir:display [ fhir:v "UNIVERSAL PLATES FOR ABDOMINAL STOMA (COLO-, ILEO-, UROSTOMY)" ]
+       ] [
+         fhir:code [ fhir:v "A1002010401" ] ;
+         fhir:display [ fhir:v "UNIVERSAL PLATES FOR ABDOMINAL STOMA (COLO-, ILEO-, UROSTOMY) WITH NON-INTROFLEX STOMA" ]
+       ] [
+         fhir:code [ fhir:v "A1002010402" ] ;
+         fhir:display [ fhir:v "UNIVERSAL PLATES FOR ABDOMINAL STOMA (COLO-, ILEO-, UROSTOMY) WITH INTROFLEX STOMA" ]
+       ] [
+         fhir:code [ fhir:v "A100202" ] ;
+         fhir:display [ fhir:v "COLOSTOMY BAGS FOR TWO-PART SYSTEMS" ]
+       ] [
+         fhir:code [ fhir:v "A10020201" ] ;
+         fhir:display [ fhir:v "OLOSTOMY BAGS FOR TWO-PART SYSTEMS, W/O TISSUE COVER" ]
+       ] [
+         fhir:code [ fhir:v "A10020202" ] ;
+         fhir:display [ fhir:v "COLOSTOMY BAGS FOR TWO-PART SYSTEMS, WITH TISSUE COVER" ]
+       ] [
+         fhir:code [ fhir:v "A100203" ] ;
+         fhir:display [ fhir:v "ILEOSTOMY BAGS FOR TWO-PART SYSTEMS" ]
+       ] [
+         fhir:code [ fhir:v "A10020301" ] ;
+         fhir:display [ fhir:v "ILEOSTOMY BAGS FOR TWO-PART SYSTEMS, W/O TISSUE COVER" ]
+       ] [
+         fhir:code [ fhir:v "A10020302" ] ;
+         fhir:display [ fhir:v "ILEOSTOMY BAGS FOR TWO-PART SYSTEMS, WITH TISSUE COVER" ]
+       ] [
+         fhir:code [ fhir:v "A100204" ] ;
+         fhir:display [ fhir:v "UROSTOMY BAGS FOR TWO-PART SYSTEMS" ]
+       ] [
+         fhir:code [ fhir:v "A10020401" ] ;
+         fhir:display [ fhir:v "UROSTOMY BAGS FOR TWO-PART SYSTEMS, W/O TISSUE COVER" ]
+       ] [
+         fhir:code [ fhir:v "A10020402" ] ;
+         fhir:display [ fhir:v "UROSTOMY BAGS FOR TWO-PART SYSTEMS, WITH TISSUE COVER" ]
+       ] [
+         fhir:code [ fhir:v "A100205" ] ;
+         fhir:display [ fhir:v "EXPANSION CAPS FOR TWO-PIECE ABDOMINAL OSTOMY SYSTEMS" ]
+       ] [
+         fhir:code [ fhir:v "A100299" ] ;
+         fhir:display [ fhir:v "TWO-PIECE ABDOMINAL OSTOMY DEVICES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "A108001" ] ;
+         fhir:display [ fhir:v "RINGS / BEZELS / PLATES FOR PERISTOMAL SKIN" ]
+       ] [
+         fhir:code [ fhir:v "A108002" ] ;
+         fhir:display [ fhir:v "PROTECTIVE CREAMS / GELS FOR PERISTOMAL SKIN" ]
+       ] [
+         fhir:code [ fhir:v "A108003" ] ;
+         fhir:display [ fhir:v "PROTECTIVE POWDERS FOR PERISTOMAL SKIN" ]
+       ] [
+         fhir:code [ fhir:v "A108004" ] ;
+         fhir:display [ fhir:v "PROTECTIVE FILMS / SPRAYS FOR PERISTOMAL SKIN" ]
+       ] [
+         fhir:code [ fhir:v "A108006" ] ;
+         fhir:display [ fhir:v "ABDOMINAL OSTOMY SUPPORT BELTS" ]
+       ] [
+         fhir:code [ fhir:v "A1099" ] ;
+         fhir:display [ fhir:v "ABDOMINAL OSTOMY DEVICES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "C010204" ] ;
+         fhir:display [ fhir:v "SUBCUTANEOUS IMPLANTABLE VENOUS ACCESS PORT SYSTEMS" ]
+       ] [
+         fhir:code [ fhir:v "C01020401" ] ;
+         fhir:display [ fhir:v "SUBCUTANEOUS IMPLANTABLE VENOUS ACCESS PORT SYSTEMS, SINGLE-CHAMBER" ]
+       ] [
+         fhir:code [ fhir:v "C01020402" ] ;
+         fhir:display [ fhir:v "SUBCUTANEOUS IMPLANTABLE VENOUS ACCESS PORT SYSTEMS, DUAL-CHAMBER OR DOUBLE-LUMEN" ]
+       ] [
+         fhir:code [ fhir:v "C01020499" ] ;
+         fhir:display [ fhir:v "SUBCUTANEOUS IMPLANTABLE VENOUS ACCESS PORT SYSTEMS - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "C0104020208" ] ;
+         fhir:display [ fhir:v "TRANSJUGULAR INTRAHEPATIC PORTOSYSTEMIC SHUNT (TIPS) PERCUTANEOUS SYSTEMS" ]
+       ] [
+         fhir:code [ fhir:v "C019006" ] ;
+         fhir:display [ fhir:v "CAROTID ARTERY SHUNTS" ]
+       ] [
+         fhir:code [ fhir:v "C019016" ] ;
+         fhir:display [ fhir:v "PERITONEOVENOUS SHUNTS" ]
+       ] [
+         fhir:code [ fhir:v "C03900202" ] ;
+         fhir:display [ fhir:v "INTRACORONARY SHUNTS" ]
+       ] [
+         fhir:code [ fhir:v "G0205" ] ;
+         fhir:display [ fhir:v "DEVICES FOR THE SURGICAL OBESITY THERAPY" ]
+       ] [
+         fhir:code [ fhir:v "G020501" ] ;
+         fhir:display [ fhir:v "GASTRIC BANDS" ]
+       ] [
+         fhir:code [ fhir:v "G020502" ] ;
+         fhir:display [ fhir:v "GASTRIC CALIBRATION TUBES" ]
+       ] [
+         fhir:code [ fhir:v "G020503" ] ;
+         fhir:display [ fhir:v "GASTRIC BAND SYSTEM ADJUSTMENT SETS" ]
+       ] [
+         fhir:code [ fhir:v "G020599" ] ;
+         fhir:display [ fhir:v "DEVICES FOR THE SURGICAL THERAPY OF OBESITY - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "G030601" ] ;
+         fhir:display [ fhir:v "INTRAGASTRIC BALLOON SYSTEMS" ]
+       ] [
+         fhir:code [ fhir:v "G030603" ] ;
+         fhir:display [ fhir:v "INTESTINAL COATING YSTEMS FOR ABSORPTION REDUCTION" ]
+       ] [
+         fhir:code [ fhir:v "G030699" ] ;
+         fhir:display [ fhir:v "DEVICES FOR THE NON-SURGICAL TREATMENT OF OBESITY - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "G04" ] ;
+         fhir:display [ fhir:v "ORALLY ADMINISTERED GASTROINTESTINAL DEVICES" ]
+       ] [
+         fhir:code [ fhir:v "G0401" ] ;
+         fhir:display [ fhir:v "ORALLY ADMINISTERED DEVICES FOR THE THERAPY OF GASTRO-INTESTINAL DISORDERS" ]
+       ] [
+         fhir:code [ fhir:v "G0402" ] ;
+         fhir:display [ fhir:v "ORALLY ADMINISTERED DEVICES FOR APPETITE CONTROL AND REDUCTION OF INTESTINAL ABSORPTION" ]
+       ] [
+         fhir:code [ fhir:v "G0499" ] ;
+         fhir:display [ fhir:v "ORALLY ADMINISTERED GASTROINTESTINAL DEVICES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "J01" ] ;
+         fhir:display [ fhir:v "CARDIAC FUNCTIONALITY IMPLANTABLE DEVICES" ]
+       ] [
+         fhir:code [ fhir:v "J0101" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE PACEMAKERS" ]
+       ] [
+         fhir:code [ fhir:v "J010101" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE SINGLE CHAMBER PACEMAKERS" ]
+       ] [
+         fhir:code [ fhir:v "J01010101" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE SINGLE CHAMBER PACEMAKERS (SC)" ]
+       ] [
+         fhir:code [ fhir:v "J01010102" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE SINGLE CHAMBER PACEMAKERS WITH SENSOR (SR)" ]
+       ] [
+         fhir:code [ fhir:v "J010102" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE SINGLE LEAD PACEMAKERS" ]
+       ] [
+         fhir:code [ fhir:v "J01010201" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE SINGLE LEAD VDD PACEMAKERS" ]
+       ] [
+         fhir:code [ fhir:v "J01010202" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE SINGLE LEAD VDDR PACEMAKERS WITH SENSOR" ]
+       ] [
+         fhir:code [ fhir:v "J010103" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE DUAL CHAMBER PACEMAKERS" ]
+       ] [
+         fhir:code [ fhir:v "J01010301" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE DUAL CHAMBER PACEMAKERS (DC)" ]
+       ] [
+         fhir:code [ fhir:v "J01010302" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE DUAL CHAMBER PACEMAKERS WITH SENSOR (DR)" ]
+       ] [
+         fhir:code [ fhir:v "J010104" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE TRIPLE CHAMBER PACEMAKERS" ]
+       ] [
+         fhir:code [ fhir:v "J01010401" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE TRIPLE CHAMBER PACEMAKERS FOR CARDIAC RESYNCHRONIZATION (TR)" ]
+       ] [
+         fhir:code [ fhir:v "J010105" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE PACEMAKERS WITH INCORPORATED ELECTRODES (LEADLESS)" ]
+       ] [
+         fhir:code [ fhir:v "J010180" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE PACEMAKERS - ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "J010199" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE PACEMAKERS - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "J0102" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE CARDIAC DIAGNOSTIC DEVICES" ]
+       ] [
+         fhir:code [ fhir:v "J010201" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE DIAGNOSTIC ARRHYTHMIAS RECORDING CARDIAC DEVICES" ]
+       ] [
+         fhir:code [ fhir:v "J010280" ] ;
+         fhir:display [ fhir:v "CARDIAC DIAGNOSTIC DEVICES - ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "J010299" ] ;
+         fhir:display [ fhir:v "CARDIAC DIAGNOSTIC DEVICES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "J0103" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE VENTRICULAR ASSISTANCE SYSTEMS" ]
+       ] [
+         fhir:code [ fhir:v "J010301" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE MONOVENTRICULAR AND BIVENTRICULAR ASSISTANCE SYSTEMS" ]
+       ] [
+         fhir:code [ fhir:v "J01030101" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE RIGHT MONOVENTRICULAR ASSISTANCE SYSTEMS (RVAD)" ]
+       ] [
+         fhir:code [ fhir:v "J01030102" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE LEFT MONOVENTRICULAR ASSISTANCE SYSTEMS (LVAD)" ]
+       ] [
+         fhir:code [ fhir:v "J01030103" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE BIVENTRICULAR ASSISTANCE SYSTEMS (BIVAD)" ]
+       ] [
+         fhir:code [ fhir:v "J010380" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE VENTRICULAR ASSISTANCE SYSTEMS - ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "J010399" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE VENTRICULAR ASSISTANCE SYSTEMS - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "J0104" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE ARTIFICIAL HEART AND IMPLANT KITS" ]
+       ] [
+         fhir:code [ fhir:v "J010401" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE ARTIFICIAL HEART AND IMPLANT KITS" ]
+       ] [
+         fhir:code [ fhir:v "J010480" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE ARTIFICIAL HEART AND IMPLANT KITS - ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "J010499" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE ARTIFICIAL HEART AND IMPLANT KITS - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "J0105" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE DEFIBRILLATORS" ]
+       ] [
+         fhir:code [ fhir:v "J010501" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE SINGLE CHAMBER DEFIBRILLATORS" ]
+       ] [
+         fhir:code [ fhir:v "J01050101" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE SINGLE CHAMBER DEFIBRILLATORS, WITH SENSORS" ]
+       ] [
+         fhir:code [ fhir:v "J010502" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE DUAL CHAMBER DEFIBRILLATORS" ]
+       ] [
+         fhir:code [ fhir:v "J01050201" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE DUAL CHAMBER DEFIBRILLATORS, WITH SENSORS" ]
+       ] [
+         fhir:code [ fhir:v "J010503" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE TRIPLE CHAMBER DEFIBRILLATORS" ]
+       ] [
+         fhir:code [ fhir:v "J01050301" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE TRIPLE CHAMBER DEFIBRILLATORS, WITH SENSORS" ]
+       ] [
+         fhir:code [ fhir:v "J010504" ] ;
+         fhir:display [ fhir:v "SUBCUTANEOUS IMPLANTABLE DEFIBRILLATORS" ]
+       ] [
+         fhir:code [ fhir:v "J010580" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE DEFIBRILLATORS - ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "J010599" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE DEFIBRILLATORS - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "J0106" ] ;
+         fhir:display [ fhir:v "CARDIAC CONTRACTILITY MODULATION IMPLANTABLE DEVICES" ]
+       ] [
+         fhir:code [ fhir:v "J0107" ] ;
+         fhir:display [ fhir:v "ACTIVE IMPLANTABLE CARDIAC DEVICES REMOTE MONITORING SYSTEMS" ]
+       ] [
+         fhir:code [ fhir:v "J010701" ] ;
+         fhir:display [ fhir:v "PULMONARY BLOOD PRESSURE REMOTE MONITORING SYSTEMS (INCLUDING SENSORS)" ]
+       ] [
+         fhir:code [ fhir:v "J010702" ] ;
+         fhir:display [ fhir:v "PACEMAKER AND IMPLANTABLE DEFIBRILLATOR REMOTE MONITORING SYSTEMS" ]
+       ] [
+         fhir:code [ fhir:v "J010780" ] ;
+         fhir:display [ fhir:v "ACTIVE IMPLANTABLE CARDIAC DEVICES REMOTE MONITORING SYSTEMS - HARDWARE ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "J010782" ] ;
+         fhir:display [ fhir:v "ACTIVE IMPLANTABLE CARDIAC DEVICES REMOTE MONITORING SYSTEMS - SOFTWARE ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "J010799" ] ;
+         fhir:display [ fhir:v "ACTIVE IMPLANTABLE CARDIAC DEVICES REMOTE MONITORING SYSTEMS - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "J0190" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE CARDIAC DEVICES - VARIOUS" ]
+       ] [
+         fhir:code [ fhir:v "J019001" ] ;
+         fhir:display [ fhir:v "PERMANENT CARDIAC LEADS" ]
+       ] [
+         fhir:code [ fhir:v "J01900101" ] ;
+         fhir:display [ fhir:v "PERMANENT PACEMAKER LEADS (WITH OR W/O STEROID-ELUTION)" ]
+       ] [
+         fhir:code [ fhir:v "J0190010101" ] ;
+         fhir:display [ fhir:v "ENDOCARDIAL ATRIAL AND VENTRICULAR LEADS, UNIPOLAR" ]
+       ] [
+         fhir:code [ fhir:v "J019001010101" ] ;
+         fhir:display [ fhir:v "ATRIAL LEADS, PASSIVE FIXATION" ]
+       ] [
+         fhir:code [ fhir:v "J019001010102" ] ;
+         fhir:display [ fhir:v "VENTRICULAR LEADS, PASSIVE FIXATION" ]
+       ] [
+         fhir:code [ fhir:v "J0190010102" ] ;
+         fhir:display [ fhir:v "ENDOCARDIAL ATRIAL AND VENTRICULAR LEADS, BIPOLAR (WITH ACTIVE OR PASSIVE FIXATION)" ]
+       ] [
+         fhir:code [ fhir:v "J0190010103" ] ;
+         fhir:display [ fhir:v "LEFT VENTRICULAR LEADS WITH CORONARY SINUS CANNULATION SYSTEM (TRIPLE CHAMBER P.M.)" ]
+       ] [
+         fhir:code [ fhir:v "J0190010104" ] ;
+         fhir:display [ fhir:v "ENDOCARDIAL PACEMAKER LEADS, SINGLE-LEAD" ]
+       ] [
+         fhir:code [ fhir:v "J0190010105" ] ;
+         fhir:display [ fhir:v "EPICARDIAL PERMANENT CARDIAC LEADS" ]
+       ] [
+         fhir:code [ fhir:v "J01900102" ] ;
+         fhir:display [ fhir:v "PERMANENT DEFIBRILLATOR LEADS (STEROID RELEASE INCLUDED)" ]
+       ] [
+         fhir:code [ fhir:v "J0190010201" ] ;
+         fhir:display [ fhir:v "PERMANENT PACING AND DEFIBRILLATION RIGHT VENTRICULAR LEADS (WITH ACTIVE AND PASSIVE FIXATION)" ]
+       ] [
+         fhir:code [ fhir:v "J019001020101" ] ;
+         fhir:display [ fhir:v "PERMANENT CARDIAC DEFIBRILLATOR LEADS, SINGLE COIL" ]
+       ] [
+         fhir:code [ fhir:v "J019001020102" ] ;
+         fhir:display [ fhir:v "PERMANENT CARDIAC DEFIBRILLATOR LEADS, DOUBLE COIL" ]
+       ] [
+         fhir:code [ fhir:v "J019001020199" ] ;
+         fhir:display [ fhir:v "PERMANENT PACING AND DEFIBRILLATION RIGHT VENTRICULAR LEADS - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "J0190010202" ] ;
+         fhir:display [ fhir:v "PERMANENT SUBCUTANEOUS DEFIBRILLATOR LEADS" ]
+       ] [
+         fhir:code [ fhir:v "J01900180" ] ;
+         fhir:display [ fhir:v "PERMANENT CARDIAC LEADS - ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "J01900199" ] ;
+         fhir:display [ fhir:v "PERMANENT CARDIAC LEADS - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "J019002" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE CARDIAC DEVICES PROGRAMMERS AND ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "J01900203" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE CARDIAC DEVICES PROGRAMMERS" ]
+       ] [
+         fhir:code [ fhir:v "J01900280" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE CARDIAC DEVICES PROGRAMMERS - HARDWARE ACCESSORY" ]
+       ] [
+         fhir:code [ fhir:v "J01900282" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE CARDIAC DEVICES PROGRAMMERS - SOFTWARE ACCESSORY" ]
+       ] [
+         fhir:code [ fhir:v "J01900285" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE CARDIAC DEVICES PROGRAMMERS - CONSUMABLES" ]
+       ] [
+         fhir:code [ fhir:v "J019003" ] ;
+         fhir:display [ fhir:v "ACTIVE-IMPLANTABLE CARDIAC SYSTEMS MAGNETISED DEVICES" ]
+       ] [
+         fhir:code [ fhir:v "J019004" ] ;
+         fhir:display [ fhir:v "ACTIVE-IMPLANTABLE CARDIAC SYSTEMS ADAPTORS" ]
+       ] [
+         fhir:code [ fhir:v "J019005" ] ;
+         fhir:display [ fhir:v "CARDIAC LEADS EXTRACTION SYSTEMS" ]
+       ] [
+         fhir:code [ fhir:v "J019099" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE CARDIAC DEVICES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "J02" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE NEUROSTIMULATORS" ]
+       ] [
+         fhir:code [ fhir:v "J0201" ] ;
+         fhir:display [ fhir:v "CEREBRAL IMPLANTABLE NEUROSTIMULATORS" ]
+       ] [
+         fhir:code [ fhir:v "J020101" ] ;
+         fhir:display [ fhir:v "DEEP BRAIN STIMULATION (DBS) IMPLANTABLE NEUROSTIMULATORS" ]
+       ] [
+         fhir:code [ fhir:v "J02010101" ] ;
+         fhir:display [ fhir:v "DEEP BRAIN STIMULATION (DBS) IMPLANTABLE NEUROSTIMULATORS, RECHARGEABLE" ]
+       ] [
+         fhir:code [ fhir:v "J02010102" ] ;
+         fhir:display [ fhir:v "DEEP BRAIN STIMULATION (DBS) IMPLANTABLE NEUROSTIMULATORS, NOT RECHARGEABLE" ]
+       ] [
+         fhir:code [ fhir:v "J020102" ] ;
+         fhir:display [ fhir:v "DEEP BRAIN STIMULATION (DBS) LEADS" ]
+       ] [
+         fhir:code [ fhir:v "J020180" ] ;
+         fhir:display [ fhir:v "CEREBRAL IMPLANTABLE NEUROSTIMULATORS - ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "J020199" ] ;
+         fhir:display [ fhir:v "CEREBRAL IMPLANTABLE NEUROSTIMULATORS - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "J0202" ] ;
+         fhir:display [ fhir:v "SPINAL IMPLANTABLE NEUROSTIMULATORS" ]
+       ] [
+         fhir:code [ fhir:v "J020201" ] ;
+         fhir:display [ fhir:v "RADIOFREQUENCY IMPLANTABLE SPINAL NEUROSTIMULATORS" ]
+       ] [
+         fhir:code [ fhir:v "J020202" ] ;
+         fhir:display [ fhir:v "FULLY IMPLANTABLE SPINAL NEUROSTIMULATORS" ]
+       ] [
+         fhir:code [ fhir:v "J02020201" ] ;
+         fhir:display [ fhir:v "FULLY IMPLANTABLE SPINAL NEUROSTIMULATORS, RECHARGEABLE" ]
+       ] [
+         fhir:code [ fhir:v "J02020202" ] ;
+         fhir:display [ fhir:v "FULLY IMPLANTABLE SPINAL NEUROSTIMULATORSS, NOT RECHARGEABLE" ]
+       ] [
+         fhir:code [ fhir:v "J020203" ] ;
+         fhir:display [ fhir:v "SPINAL NEUROSTIMULATION LEADS" ]
+       ] [
+         fhir:code [ fhir:v "J020280" ] ;
+         fhir:display [ fhir:v "SPINAL IMPLANTABLE NEUROSTIMULATORS - ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "J020299" ] ;
+         fhir:display [ fhir:v "SPINAL IMPLANTABLE NEUROSTIMULATORS - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "J0203" ] ;
+         fhir:display [ fhir:v "VAGAL IMPLANTABLE NEUROSTIMULATORS" ]
+       ] [
+         fhir:code [ fhir:v "J020301" ] ;
+         fhir:display [ fhir:v "DRUG-RESISTANT EPILEPSY NON-SURGICAL THERAPY IMPLANTABLE NEUROSTIMULATORS" ]
+       ] [
+         fhir:code [ fhir:v "J020302" ] ;
+         fhir:display [ fhir:v "VAGAL NEUROSTIMULATION LEADS" ]
+       ] [
+         fhir:code [ fhir:v "J020380" ] ;
+         fhir:display [ fhir:v "VAGAL IMPLANTABLE NEUROSTIMULATORS - ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "J020399" ] ;
+         fhir:display [ fhir:v "VAGAL IMPLANTABLE NEUROSTIMULATORS - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "J0204" ] ;
+         fhir:display [ fhir:v "SACRAL SPINE IMPLANTABLE NEUROSTIMULATORS" ]
+       ] [
+         fhir:code [ fhir:v "J020401" ] ;
+         fhir:display [ fhir:v "BLADDER INCONTINENCE NEUROSTIMULATORS" ]
+       ] [
+         fhir:code [ fhir:v "J020402" ] ;
+         fhir:display [ fhir:v "INTESTINAL INCONTINENCE NEUROSTIMULATORS" ]
+       ] [
+         fhir:code [ fhir:v "J020403" ] ;
+         fhir:display [ fhir:v "SACRAL SPINE NEUROSTIMULATION LEADS" ]
+       ] [
+         fhir:code [ fhir:v "J020480" ] ;
+         fhir:display [ fhir:v "SACRAL SPINE IMPLANTABLE NEUROSTIMULATORS - ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "J020499" ] ;
+         fhir:display [ fhir:v "SACRAL SPINE IMPLANTABLE NEUROSTIMULATORS - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "J0206" ] ;
+         fhir:display [ fhir:v "FRENIC NERVE IMPLANTABLE NEUROSTIMULATORS" ]
+       ] [
+         fhir:code [ fhir:v "J0207" ] ;
+         fhir:display [ fhir:v "NEUROSTIMULATORS PROGRAMMERS AND ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "J020701" ] ;
+         fhir:display [ fhir:v "NEUROSTIMULATORS PROGRAMMERS" ]
+       ] [
+         fhir:code [ fhir:v "J020780" ] ;
+         fhir:display [ fhir:v "NEUROSTIMULATORS PROGRAMMERS - HARDWARE ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "J020782" ] ;
+         fhir:display [ fhir:v "NEUROSTIMULATORS PROGRAMMERS - SOFTWARE ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "J020785" ] ;
+         fhir:display [ fhir:v "NEUROSTIMULATORS PROGRAMMERS - CONSUMABLES" ]
+       ] [
+         fhir:code [ fhir:v "J0208" ] ;
+         fhir:display [ fhir:v "GASTRIC IMPLANTABLE NEUROSTIMULATORS" ]
+       ] [
+         fhir:code [ fhir:v "J020801" ] ;
+         fhir:display [ fhir:v "INFERIOR ESOPHAGEAL SPHINCTER IMPLANTABLE NEUROSTIMULATORS" ]
+       ] [
+         fhir:code [ fhir:v "J020802" ] ;
+         fhir:display [ fhir:v "GASTRIC IMPLANTABLE OBESITY TREATMENT NEUROSTIMULATORS" ]
+       ] [
+         fhir:code [ fhir:v "J020803" ] ;
+         fhir:display [ fhir:v "GASTRIC IMPLANTABLE NAUSEA THERAPY NEUROSTIMULATORS" ]
+       ] [
+         fhir:code [ fhir:v "J020804" ] ;
+         fhir:display [ fhir:v "GASTRIC NEUROSTIMULATION LEADS" ]
+       ] [
+         fhir:code [ fhir:v "J0209" ] ;
+         fhir:display [ fhir:v "CAROTID SINUS IMPLANTABLE NEUROSTIMULATORS AND LEADS" ]
+       ] [
+         fhir:code [ fhir:v "J0210" ] ;
+         fhir:display [ fhir:v "PERIPHERAL NERVE IMPLANTABLE NEUROSTIMULATORS AND PAIN THERAPY LEADS" ]
+       ] [
+         fhir:code [ fhir:v "J0211" ] ;
+         fhir:display [ fhir:v "SLEEP APNEA TREATMENT IMPLANTABLE NEUROSTIMULATORS AND LEADS" ]
+       ] [
+         fhir:code [ fhir:v "J0280" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE NEUROSTIMULATORS - ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "J0299" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE NEUROSTIMULATORS - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "J03" ] ;
+         fhir:display [ fhir:v "AUDITORY ACTIVE-IMPLANTABLE DEVICES" ]
+       ] [
+         fhir:code [ fhir:v "J0301" ] ;
+         fhir:display [ fhir:v "COCHLEAR IMPLANTABLE DEVICES" ]
+       ] [
+         fhir:code [ fhir:v "J0302" ] ;
+         fhir:display [ fhir:v "MIDDLE EAR ACTIVE-IMPLANTABLE DEVICES" ]
+       ] [
+         fhir:code [ fhir:v "J0303" ] ;
+         fhir:display [ fhir:v "PROFOUND DEAFNESS BRAINSTEM ACTIVE-IMPLANTABLE DEVICES" ]
+       ] [
+         fhir:code [ fhir:v "J0380" ] ;
+         fhir:display [ fhir:v "AUDITORY ACTIVE-IMPLANTABLE DEVICES - ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "J0399" ] ;
+         fhir:display [ fhir:v "AUDITORY ACTIVE-IMPLANTABLE DEVICES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "J04" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE PUMPS" ]
+       ] [
+         fhir:code [ fhir:v "J0401" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE PUMPS, ELECTRONIC" ]
+       ] [
+         fhir:code [ fhir:v "J0402" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE PUMPS, MECHANICAL" ]
+       ] [
+         fhir:code [ fhir:v "J0403" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE PUMPS PROGRAMMERS AND ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "J040301" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE PUMPS PROGRAMMERS" ]
+       ] [
+         fhir:code [ fhir:v "J040380" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE PUMPS PROGRAMMERS - HARDWARE ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "J040382" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE PUMPS PROGRAMMERS - SOFTWARE ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "J040385" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE PUMPS PROGRAMMERS - CONSUMABLES" ]
+       ] [
+         fhir:code [ fhir:v "J0480" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE PUMPS - ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "J0499" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE PUMPS - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "J05" ] ;
+         fhir:display [ fhir:v "BRACHYTHERAPY IMPLANTABLE DEVICES" ]
+       ] [
+         fhir:code [ fhir:v "J0501" ] ;
+         fhir:display [ fhir:v "BRACHYTHERAPY SOURCES" ]
+       ] [
+         fhir:code [ fhir:v "J0502" ] ;
+         fhir:display [ fhir:v "BRACHYTHERAPY ADMINISTRATION KITS" ]
+       ] [
+         fhir:code [ fhir:v "J0580" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE BRACHYTHERAPY DEVICES - ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "J06" ] ;
+         fhir:display [ fhir:v "ACTIVE IMPLANTABLE GLUCOSE MONITORING SYSTEMS" ]
+       ] [
+         fhir:code [ fhir:v "J0601" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE GLUCOSE MONITORING SENSORS" ]
+       ] [
+         fhir:code [ fhir:v "J0602" ] ;
+         fhir:display [ fhir:v "ACTIVE IMPLANTABLE GLUCOSE MONITORING SYSTEM TRANSMITTERS" ]
+       ] [
+         fhir:code [ fhir:v "J0680" ] ;
+         fhir:display [ fhir:v "ACTIVE IMPLANTABLE GLUCOSE MONITORING SYSTEMS - ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "J07" ] ;
+         fhir:display [ fhir:v "OPHTHALMOLOGICAL USE ACTIVE IMPLANTABLE DEVICES" ]
+       ] [
+         fhir:code [ fhir:v "J0701" ] ;
+         fhir:display [ fhir:v "ACTIVE RETINAL IMPLANTABLE DEVICES" ]
+       ] [
+         fhir:code [ fhir:v "J0702" ] ;
+         fhir:display [ fhir:v "INTRAOCULAR PRESSURE MONITORING IMPLANTABLE DEVICES" ]
+       ] [
+         fhir:code [ fhir:v "J0780" ] ;
+         fhir:display [ fhir:v "OPHTHALMOLOGICAL USE ACTIVE IMPLANTABLE DEVICES - ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "J0799" ] ;
+         fhir:display [ fhir:v "OPHTHALMOLOGICAL USE ACTIVE IMPLANTABLE DEVICES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "J99" ] ;
+         fhir:display [ fhir:v "ACTIVE-IMPLANTABLE DEVICES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "N0101" ] ;
+         fhir:display [ fhir:v "NEUROPHYSIOLOGY DEVICES" ]
+       ] [
+         fhir:code [ fhir:v "N010101" ] ;
+         fhir:display [ fhir:v "ELECTROMYOGRAPHIC ELECTRODES" ]
+       ] [
+         fhir:code [ fhir:v "N010102" ] ;
+         fhir:display [ fhir:v "ELECTROENCEPHALOGRAPHIC ELECTRODES" ]
+       ] [
+         fhir:code [ fhir:v "N01010201" ] ;
+         fhir:display [ fhir:v "EEG INTRACRANIC ELECTRODES" ]
+       ] [
+         fhir:code [ fhir:v "N0101020101" ] ;
+         fhir:display [ fhir:v "EEG CORTICAL ELECTRODES" ]
+       ] [
+         fhir:code [ fhir:v "N0101020102" ] ;
+         fhir:display [ fhir:v "EEG DEPTH ELECTRODES" ]
+       ] [
+         fhir:code [ fhir:v "N0101020199" ] ;
+         fhir:display [ fhir:v "EEG INTRACRANIC ELECTRODES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "N01010202" ] ;
+         fhir:display [ fhir:v "EEG EXTRACRANIC ELECTRODES" ]
+       ] [
+         fhir:code [ fhir:v "N01010203" ] ;
+         fhir:display [ fhir:v "EEG HEADSETS" ]
+       ] [
+         fhir:code [ fhir:v "N01010299" ] ;
+         fhir:display [ fhir:v "EEG ELECTRODES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "N010103" ] ;
+         fhir:display [ fhir:v "BIPOLAR NERVOUS ELECTROSTIMULATORS, BATTERY-POWERED" ]
+       ] [
+         fhir:code [ fhir:v "N010180" ] ;
+         fhir:display [ fhir:v "NEUROPHYSIOLOGY DEVICES - ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "N010199" ] ;
+         fhir:display [ fhir:v "NEUROPHYSIOLOGY DEVICES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "N0102" ] ;
+         fhir:display [ fhir:v "NEUROLOGIC PHYSIOTHERAPHY DEVICES" ]
+       ] [
+         fhir:code [ fhir:v "N010201" ] ;
+         fhir:display [ fhir:v "TENS SYSTEM ELECTRODES" ]
+       ] [
+         fhir:code [ fhir:v "N010202" ] ;
+         fhir:display [ fhir:v "STIMULATION POINT LOCATORS" ]
+       ] [
+         fhir:code [ fhir:v "N010280" ] ;
+         fhir:display [ fhir:v "NEUROLOGICAL PHYSIOTHERAPY DEVICES - ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "N01028001" ] ;
+         fhir:display [ fhir:v "SPONGES FOR THE APPLICATION OF CUTANEOUS NEUROLOGICAL ELECTRODES" ]
+       ] [
+         fhir:code [ fhir:v "N01028002" ] ;
+         fhir:display [ fhir:v "NEUROLOGICAL PHYSIOTHERAPY CONNECTORS" ]
+       ] [
+         fhir:code [ fhir:v "N01028003" ] ;
+         fhir:display [ fhir:v "NEUROLOGICAL ELECTRODES BANDS" ]
+       ] [
+         fhir:code [ fhir:v "N01028099" ] ;
+         fhir:display [ fhir:v "NEUROLOGICAL PHYSIOTHERAPY DEVICES - ACCESSORIES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "N010299" ] ;
+         fhir:display [ fhir:v "NEUROLOGIC PHYSIOTHERAPHY DEVICES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "N010301" ] ;
+         fhir:display [ fhir:v "VENTRICULAR-PERITONEAL SHUNTS" ]
+       ] [
+         fhir:code [ fhir:v "N010302" ] ;
+         fhir:display [ fhir:v "VENTRICULAR-ATRIAL SHUNTS" ]
+       ] [
+         fhir:code [ fhir:v "N020301" ] ;
+         fhir:display [ fhir:v "LUMBO-PERITONEAL SHUNTS" ]
+       ] [
+         fhir:code [ fhir:v "P01" ] ;
+         fhir:display [ fhir:v "FACIAL AND ODONTOLOGICAL PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P0101" ] ;
+         fhir:display [ fhir:v "FACIAL PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P010101" ] ;
+         fhir:display [ fhir:v "CHIN PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P010102" ] ;
+         fhir:display [ fhir:v "ZYGOMATIC PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P010103" ] ;
+         fhir:display [ fhir:v "MANDIBULAR PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P010199" ] ;
+         fhir:display [ fhir:v "FACIAL PROSTHESES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P0102" ] ;
+         fhir:display [ fhir:v "ODONTOLOGICAL PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P010201" ] ;
+         fhir:display [ fhir:v "DENTAL IMPLANTS AND ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "P01020101" ] ;
+         fhir:display [ fhir:v "DENTAL IMPLANTS" ]
+       ] [
+         fhir:code [ fhir:v "P01020180" ] ;
+         fhir:display [ fhir:v "DENTAL IMPLANTS - ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "P010299" ] ;
+         fhir:display [ fhir:v "ODONTOLOGICAL PROSTHESES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P0180" ] ;
+         fhir:display [ fhir:v "FACIAL AND ODONTOLOGICAL PROSTHESES - ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "P0199" ] ;
+         fhir:display [ fhir:v "FACIAL AND ODONTOLOGICAL PROSTHESES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P02" ] ;
+         fhir:display [ fhir:v "ENT PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P0201" ] ;
+         fhir:display [ fhir:v "OTOLOGIC PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P020101" ] ;
+         fhir:display [ fhir:v "MIDDLE EAR IMPLANTS" ]
+       ] [
+         fhir:code [ fhir:v "P02010101" ] ;
+         fhir:display [ fhir:v "OSSICULAR PROSTHESES (PORP AND TORP)" ]
+       ] [
+         fhir:code [ fhir:v "P02010102" ] ;
+         fhir:display [ fhir:v "STAPEDIOPLASTIC PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P02010103" ] ;
+         fhir:display [ fhir:v "EUSTACHIAN TUBE PROSTHESIS" ]
+       ] [
+         fhir:code [ fhir:v "P02010199" ] ;
+         fhir:display [ fhir:v "MIDDLE EAR IMPLANTS - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P020102" ] ;
+         fhir:display [ fhir:v "EXTERNAL-MIDDLE EAR IMPLANTS" ]
+       ] [
+         fhir:code [ fhir:v "P02010201" ] ;
+         fhir:display [ fhir:v "TRANSTYMPANIC DRAINAGE PROSTHESES (VENTILATION TUBES)" ]
+       ] [
+         fhir:code [ fhir:v "P02010202" ] ;
+         fhir:display [ fhir:v "TYMPANIC PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P02010299" ] ;
+         fhir:display [ fhir:v "EXTERNAL-MIDDLE EAR IMPLANTS- OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P020103" ] ;
+         fhir:display [ fhir:v "EXTERNAL EAR PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P020180" ] ;
+         fhir:display [ fhir:v "OTOLOGIC PROSTHESES - ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "P020199" ] ;
+         fhir:display [ fhir:v "OTOLOGIC PROSTHESES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P0202" ] ;
+         fhir:display [ fhir:v "RHINOLOGY PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P020201" ] ;
+         fhir:display [ fhir:v "NASAL SEPTAL PLUGGERS" ]
+       ] [
+         fhir:code [ fhir:v "P020202" ] ;
+         fhir:display [ fhir:v "NASAL SINUS STENTS" ]
+       ] [
+         fhir:code [ fhir:v "P020203" ] ;
+         fhir:display [ fhir:v "NASAL SPLINTS" ]
+       ] [
+         fhir:code [ fhir:v "P020299" ] ;
+         fhir:display [ fhir:v "RHINOLOGY PROSTHESES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P0203" ] ;
+         fhir:display [ fhir:v "PHARYNGO-OESOPHAGEAL PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P020301" ] ;
+         fhir:display [ fhir:v "PHARYNX PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P020399" ] ;
+         fhir:display [ fhir:v "PHARYNGO-OOESOPHAGEAL PROSTHESES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P0204" ] ;
+         fhir:display [ fhir:v "LARYNX PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P0205" ] ;
+         fhir:display [ fhir:v "PHONATION PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P0280" ] ;
+         fhir:display [ fhir:v "ENT PROSTHESES- ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "P0299" ] ;
+         fhir:display [ fhir:v "ENT PROSTHESES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P03" ] ;
+         fhir:display [ fhir:v "OCULAR PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P0301" ] ;
+         fhir:display [ fhir:v "INTRAOCULAR LENSES (IOL)" ]
+       ] [
+         fhir:code [ fhir:v "P030101" ] ;
+         fhir:display [ fhir:v "IOLs, PHAKIC" ]
+       ] [
+         fhir:code [ fhir:v "P03010103" ] ;
+         fhir:display [ fhir:v "IOLs, PHAKIC, MONOFOCAL" ]
+       ] [
+         fhir:code [ fhir:v "P0301010301" ] ;
+         fhir:display [ fhir:v "IOLs, PHAKIC, MONOFOCAL, SPHERICAL" ]
+       ] [
+         fhir:code [ fhir:v "P030101030101" ] ;
+         fhir:display [ fhir:v "IOLs, PHAKIC, MONOFOCAL, SPHERICAL, HYDROPHOBIC ACRYLIC" ]
+       ] [
+         fhir:code [ fhir:v "P030101030102" ] ;
+         fhir:display [ fhir:v "IOLs, PHAKIC, MONOFOCAL, SPHERICAL, HYDROPHILIC ACRYLIC" ]
+       ] [
+         fhir:code [ fhir:v "P030101030103" ] ;
+         fhir:display [ fhir:v "IOLs, PHAKIC, MONOFOCAL, SPHERICAL, SILICONE" ]
+       ] [
+         fhir:code [ fhir:v "P030101030104" ] ;
+         fhir:display [ fhir:v "IOLs, PHAKIC, MONOFOCAL, SPHERICAL, PMMA" ]
+       ] [
+         fhir:code [ fhir:v "P030101030199" ] ;
+         fhir:display [ fhir:v "IOLs, PHAKIC, MONOFOCAL, SPHERICAL - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P0301010302" ] ;
+         fhir:display [ fhir:v "IOLs, PHAKIC, MONOFOCAL, ASPHERIC" ]
+       ] [
+         fhir:code [ fhir:v "P030101030201" ] ;
+         fhir:display [ fhir:v "IOLs, PHAKIC, MONOFOCAL, ASPHERIC, HYDROPHOBIC ACRYLIC" ]
+       ] [
+         fhir:code [ fhir:v "P030101030202" ] ;
+         fhir:display [ fhir:v "IOLs, PHAKIC, MONOFOCAL, ASPHERIC, HYDROPHILIC ACRYLIC" ]
+       ] [
+         fhir:code [ fhir:v "P030101030203" ] ;
+         fhir:display [ fhir:v "IOLs, PHAKIC, MONOFOCAL, ASPHERIC, SILICONE" ]
+       ] [
+         fhir:code [ fhir:v "P030101030299" ] ;
+         fhir:display [ fhir:v "IOLs, PHAKIC, MONOFOCAL, ASPHERIC - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P0301010303" ] ;
+         fhir:display [ fhir:v "IOLs, PHAKIC, MONOFOCAL, TORIC" ]
+       ] [
+         fhir:code [ fhir:v "P030101030301" ] ;
+         fhir:display [ fhir:v "IOLs, PHAKIC, MONOFOCAL, TORIC, HYDROPHOBIC ACRYLIC" ]
+       ] [
+         fhir:code [ fhir:v "P030101030302" ] ;
+         fhir:display [ fhir:v "IOLs, PHAKIC, MONOFOCAL, TORIC, HYDROPHILIC ACRYLIC" ]
+       ] [
+         fhir:code [ fhir:v "P030101030303" ] ;
+         fhir:display [ fhir:v "IOLs, PHAKIC, MONOFOCAL, TORIC, SILICONE" ]
+       ] [
+         fhir:code [ fhir:v "P030101030399" ] ;
+         fhir:display [ fhir:v "IOLs, PHAKIC, MONOFOCAL, TORIC - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P03010104" ] ;
+         fhir:display [ fhir:v "IOLs, PHAKIC, MULTIFOCAL" ]
+       ] [
+         fhir:code [ fhir:v "P0301010401" ] ;
+         fhir:display [ fhir:v "IOLs, PHAKIC, MULTIFOCAL, SPHERICAL" ]
+       ] [
+         fhir:code [ fhir:v "P030101040101" ] ;
+         fhir:display [ fhir:v "IOLs, PHAKIC, MULTIFOCAL, SPHERICAL, HYDROPHOBIC ACRYLIC" ]
+       ] [
+         fhir:code [ fhir:v "P030101040102" ] ;
+         fhir:display [ fhir:v "IOLs, PHAKIC, MULTIFOCAL, SPHERICAL, HYDROPHILIC ACRYLIC" ]
+       ] [
+         fhir:code [ fhir:v "P030101040103" ] ;
+         fhir:display [ fhir:v "IOLs, PHAKIC, MULTIFOCAL, SPHERICAL, SILICONE" ]
+       ] [
+         fhir:code [ fhir:v "P030101040199" ] ;
+         fhir:display [ fhir:v "IOLs, PHAKIC, MULTIFOCAL, SPHERICAL - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P0301010402" ] ;
+         fhir:display [ fhir:v "IOLs, PHAKIC, MULTIFOCAL, ASPHERIC" ]
+       ] [
+         fhir:code [ fhir:v "P030101040201" ] ;
+         fhir:display [ fhir:v "IOLs, PHAKIC, MULTIFOCAL, ASPHERIC, HYDROPHOBIC ACRYLIC" ]
+       ] [
+         fhir:code [ fhir:v "P030101040202" ] ;
+         fhir:display [ fhir:v "IOLs, PHAKIC, MULTIFOCAL, ASPHERIC, HYDROPHILIC ACRYLIC" ]
+       ] [
+         fhir:code [ fhir:v "P030101040203" ] ;
+         fhir:display [ fhir:v "IOLs, PHAKIC, MULTIFOCAL, ASPHERIC, SILICONE" ]
+       ] [
+         fhir:code [ fhir:v "P030101040299" ] ;
+         fhir:display [ fhir:v "IOLs, PHAKIC, MULTIFOCAL, ASPHERIC - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P0301010403" ] ;
+         fhir:display [ fhir:v "IOLs, PHAKIC, MULTIFOCAL, TORIC" ]
+       ] [
+         fhir:code [ fhir:v "P030101040301" ] ;
+         fhir:display [ fhir:v "IOLs, PHAKIC, MULTIFOCAL, TORIC, HYDROPHOBIC ACRYLIC" ]
+       ] [
+         fhir:code [ fhir:v "P030101040302" ] ;
+         fhir:display [ fhir:v "IOLs, PHAKIC, MULTIFOCAL, TORIC, HYDROPHILIC ACRYLIC" ]
+       ] [
+         fhir:code [ fhir:v "P030101040303" ] ;
+         fhir:display [ fhir:v "IOLs, PHAKIC, MULTIFOCAL, TORIC, SILICONE" ]
+       ] [
+         fhir:code [ fhir:v "P030101040399" ] ;
+         fhir:display [ fhir:v "IOLs, PHAKIC, MULTIFOCAL, TORIC - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P030102" ] ;
+         fhir:display [ fhir:v "IOLs, APHAKIC" ]
+       ] [
+         fhir:code [ fhir:v "P03010209" ] ;
+         fhir:display [ fhir:v "IOLs, APHAKIC, MONOFOCAL" ]
+       ] [
+         fhir:code [ fhir:v "P0301020901" ] ;
+         fhir:display [ fhir:v "IOLs, APHAKIC, MONOFOCAL, SPHERICAL" ]
+       ] [
+         fhir:code [ fhir:v "P030102090101" ] ;
+         fhir:display [ fhir:v "IOLs, APHAKIC, MONOFOCAL, SPHERICAL, HYDROPHOBIC ACRYLIC" ]
+       ] [
+         fhir:code [ fhir:v "P030102090102" ] ;
+         fhir:display [ fhir:v "IOLs, APHAKIC, MONOFOCAL, SPHERICAL, HYDROPHILIC ACRYLIC" ]
+       ] [
+         fhir:code [ fhir:v "P030102090103" ] ;
+         fhir:display [ fhir:v "IOLs, APHAKIC, MONOFOCAL, SPHERICAL, SILICONE" ]
+       ] [
+         fhir:code [ fhir:v "P030102090104" ] ;
+         fhir:display [ fhir:v "IOLs, APHAKIC, MONOFOCAL, SPHERICAL, PMMA" ]
+       ] [
+         fhir:code [ fhir:v "P030102090199" ] ;
+         fhir:display [ fhir:v "IOLs, APHAKIC, MONOFOCAL, SPHERICAL - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P0301020902" ] ;
+         fhir:display [ fhir:v "IOLs, APHAKIC, MONOFOCAL, ASPHERIC" ]
+       ] [
+         fhir:code [ fhir:v "P030102090201" ] ;
+         fhir:display [ fhir:v "IOLs, APHAKIC, MONOFOCAL, ASPHERIC, HYDROPHOBIC ACRYLIC" ]
+       ] [
+         fhir:code [ fhir:v "P030102090202" ] ;
+         fhir:display [ fhir:v "IOLs, APHAKIC, MONOFOCAL, ASPHERIC, HYDROPHILIC ACRYLIC" ]
+       ] [
+         fhir:code [ fhir:v "P030102090203" ] ;
+         fhir:display [ fhir:v "IOLs, APHAKIC, MONOFOCAL, ASPHERIC, SILICONE" ]
+       ] [
+         fhir:code [ fhir:v "P030102090299" ] ;
+         fhir:display [ fhir:v "IOLs, APHAKIC, MONOFOCAL, ASPHERIC - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P0301020903" ] ;
+         fhir:display [ fhir:v "IOLs, APHAKIC, MONOFOCAL, TORIC" ]
+       ] [
+         fhir:code [ fhir:v "P030102090301" ] ;
+         fhir:display [ fhir:v "IOLs, APHAKIC, MONOFOCAL, TORIC, HYDROPHOBIC ACRYLIC" ]
+       ] [
+         fhir:code [ fhir:v "P030102090302" ] ;
+         fhir:display [ fhir:v "IOLs, APHAKIC, MONOFOCAL, TORIC, HYDROPHILIC ACRYLIC" ]
+       ] [
+         fhir:code [ fhir:v "P030102090303" ] ;
+         fhir:display [ fhir:v "IOLs, APHAKIC, MONOFOCAL, TORIC, SILICONE" ]
+       ] [
+         fhir:code [ fhir:v "P030102090399" ] ;
+         fhir:display [ fhir:v "IOLs, APHAKIC, MONOFOCAL, TORIC - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P03010210" ] ;
+         fhir:display [ fhir:v "IOLs, APHAKIC, MULTIFOCAL" ]
+       ] [
+         fhir:code [ fhir:v "P0301021001" ] ;
+         fhir:display [ fhir:v "IOLs, APHAKIC, MULTIFOCAL, SPHERICAL" ]
+       ] [
+         fhir:code [ fhir:v "P030102100101" ] ;
+         fhir:display [ fhir:v "IOLs, APHAKIC, MULTIFOCAL, SPHERICAL, HYDROPHOBIC ACRYLIC" ]
+       ] [
+         fhir:code [ fhir:v "P030102100102" ] ;
+         fhir:display [ fhir:v "IOLs, APHAKIC, MULTIFOCAL, SPHERICAL, HYDROPHILIC ACRYLIC" ]
+       ] [
+         fhir:code [ fhir:v "P030102100103" ] ;
+         fhir:display [ fhir:v "IOLs, APHAKIC, MULTIFOCAL, SPHERICAL, SILICONE" ]
+       ] [
+         fhir:code [ fhir:v "P030102100199" ] ;
+         fhir:display [ fhir:v "IOLs, APHAKIC, MULTIFOCAL, SPHERICAL - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P0301021002" ] ;
+         fhir:display [ fhir:v "IOLs, APHAKIC, MULTIFOCAL, ASPHERIC" ]
+       ] [
+         fhir:code [ fhir:v "P030102100201" ] ;
+         fhir:display [ fhir:v "IOLs, APHAKIC, MULTIFOCAL, ASPHERIC, HYDROPHOBIC ACRYLIC" ]
+       ] [
+         fhir:code [ fhir:v "P030102100202" ] ;
+         fhir:display [ fhir:v "IOLs, APHAKIC, MULTIFOCAL, ASPHERIC, HYDROPHILIC ACRYLIC" ]
+       ] [
+         fhir:code [ fhir:v "P030102100203" ] ;
+         fhir:display [ fhir:v "IOLs, APHAKIC, MULTIFOCAL, ASPHERIC, SILICONE" ]
+       ] [
+         fhir:code [ fhir:v "P030102100299" ] ;
+         fhir:display [ fhir:v "IOLs, APHAKIC, MULTIFOCAL, ASPHERIC - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P0301021003" ] ;
+         fhir:display [ fhir:v "IOLs, APHAKIC, MULTIFOCAL, TORIC" ]
+       ] [
+         fhir:code [ fhir:v "P030102100301" ] ;
+         fhir:display [ fhir:v "IOLs, APHAKIC, MULTIFOCAL, TORIC, HYDROPHOBIC ACRYLIC" ]
+       ] [
+         fhir:code [ fhir:v "P030102100302" ] ;
+         fhir:display [ fhir:v "IOLs, APHAKIC, MULTIFOCAL, TORIC, HYDROPHILIC ACRYLIC" ]
+       ] [
+         fhir:code [ fhir:v "P030102100303" ] ;
+         fhir:display [ fhir:v "IOLs, APHAKIC, MULTIFOCAL, TORIC, SILICONE" ]
+       ] [
+         fhir:code [ fhir:v "P030102100399" ] ;
+         fhir:display [ fhir:v "IOLs, APHAKIC, MULTIFOCAL, TORIC - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P03010211" ] ;
+         fhir:display [ fhir:v "IOLs, APHAKIC, ACCOMMODATIVE" ]
+       ] [
+         fhir:code [ fhir:v "P0301021101" ] ;
+         fhir:display [ fhir:v "IOLs, APHAKIC, ACCOMMODATIVE, SPHERICAL" ]
+       ] [
+         fhir:code [ fhir:v "P030102110101" ] ;
+         fhir:display [ fhir:v "IOLs, APHAKIC, ACCOMMODATIVE, SPHERICAL, HYDROPHOBIC ACRYLIC" ]
+       ] [
+         fhir:code [ fhir:v "P030102110102" ] ;
+         fhir:display [ fhir:v "IOLs, APHAKIC, ACCOMMODATIVE, SPHERICAL, HYDROPHILIC ACRYLIC" ]
+       ] [
+         fhir:code [ fhir:v "P030102110103" ] ;
+         fhir:display [ fhir:v "IOLs, APHAKIC, ACCOMMODATIVE, SPHERICAL, SILICONE" ]
+       ] [
+         fhir:code [ fhir:v "P030102110199" ] ;
+         fhir:display [ fhir:v "IOLs, APHAKIC, ACCOMMODATIVE, SPHERICAL - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P0301021102" ] ;
+         fhir:display [ fhir:v "IOLs, APHAKIC, ACCOMMODATIVE, ASPHERIC" ]
+       ] [
+         fhir:code [ fhir:v "P030102110201" ] ;
+         fhir:display [ fhir:v "IOLs, APHAKIC, ACCOMMODATIVE, ASPHERIC, HYDROPHOBIC ACRYLIC" ]
+       ] [
+         fhir:code [ fhir:v "P030102110202" ] ;
+         fhir:display [ fhir:v "IOLs, APHAKIC, ACCOMMODATIVE, ASPHERIC, HYDROPHILIC ACRYLIC" ]
+       ] [
+         fhir:code [ fhir:v "P030102110203" ] ;
+         fhir:display [ fhir:v "IOLs, APHAKIC, ACCOMMODATIVE, ASPHERIC, SILICONE" ]
+       ] [
+         fhir:code [ fhir:v "P030102110299" ] ;
+         fhir:display [ fhir:v "IOLs, APHAKIC, ACCOMMODATIVE, ASPHERIC - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P0301021103" ] ;
+         fhir:display [ fhir:v "IOLs, APHAKIC, ACCOMMODATIVE, TORIC" ]
+       ] [
+         fhir:code [ fhir:v "P030102110301" ] ;
+         fhir:display [ fhir:v "IOLs, APHAKIC, ACCOMMODATIVE, TORIC, HYDROPHOBIC ACRYLIC" ]
+       ] [
+         fhir:code [ fhir:v "P030102110302" ] ;
+         fhir:display [ fhir:v "IOLs, APHAKIC, ACCOMMODATIVE, TORIC, HYDROPHILIC ACRYLIC" ]
+       ] [
+         fhir:code [ fhir:v "P030102110303" ] ;
+         fhir:display [ fhir:v "IOLs, APHAKIC, ACCOMMODATIVE, TORIC, SILICONE" ]
+       ] [
+         fhir:code [ fhir:v "P030102110399" ] ;
+         fhir:display [ fhir:v "IOLs, APHAKIC, ACCOMMODATIVE, TORIC - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P030190" ] ;
+         fhir:display [ fhir:v "INTRAOCULAR LENSES (IOL) - VARIOUS" ]
+       ] [
+         fhir:code [ fhir:v "P03019001" ] ;
+         fhir:display [ fhir:v "MACULOPATHY LOW VISION CORRECTION LENSES" ]
+       ] [
+         fhir:code [ fhir:v "P030199" ] ;
+         fhir:display [ fhir:v "INTRAOCULAR LENSES (IOL) - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P0380" ] ;
+         fhir:display [ fhir:v "OCULAR PROSTHESES - ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "P0399" ] ;
+         fhir:display [ fhir:v "OCULAR PROSTHESES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P04" ] ;
+         fhir:display [ fhir:v "RESPIRATORY PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P0401" ] ;
+         fhir:display [ fhir:v "TRACHEOBRONCHIAL PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P0480" ] ;
+         fhir:display [ fhir:v "RESPIRATORY PROSTHESES - ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "P0499" ] ;
+         fhir:display [ fhir:v "RESPIRATORY PROSTHESES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P05" ] ;
+         fhir:display [ fhir:v "OESOPHAGEAL AND GASTROINTESTINAL PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P0501" ] ;
+         fhir:display [ fhir:v "OESOPHAGEAL PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P050101" ] ;
+         fhir:display [ fhir:v "GASTRO-ESOPHAGEAL REFLUX CORRECTION PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P050199" ] ;
+         fhir:display [ fhir:v "ESOPHAGEAL PROSTHESES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P0502" ] ;
+         fhir:display [ fhir:v "BILIARY AND PANCREATIC PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P0503" ] ;
+         fhir:display [ fhir:v "COLONIC AND DUODENAL PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P0504" ] ;
+         fhir:display [ fhir:v "FAECAL INCONTINENCE PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P050401" ] ;
+         fhir:display [ fhir:v "ANAL SPHINCTERS" ]
+       ] [
+         fhir:code [ fhir:v "P050499" ] ;
+         fhir:display [ fhir:v "FAECAL INCONTINENCE PROSTHESES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P0580" ] ;
+         fhir:display [ fhir:v "OESOPHAGEAL AND GASTROINTESTINAL PROSTHESES - ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "P058001" ] ;
+         fhir:display [ fhir:v "OESOPHAGEAL AND GASTROINTESTINAL PROSTHESES POSITIONING DEVICES" ]
+       ] [
+         fhir:code [ fhir:v "P058099" ] ;
+         fhir:display [ fhir:v "OESOPHAGEAL AND GASTROINTESTINAL PROSTHESES - OTHER ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "P0599" ] ;
+         fhir:display [ fhir:v "PROSTHESES, OESOPHAGEAL AND GASTROINTESTINAL PROSTHESES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P06" ] ;
+         fhir:display [ fhir:v "BREAST IMPLANTS" ]
+       ] [
+         fhir:code [ fhir:v "P0601" ] ;
+         fhir:display [ fhir:v "PERMANENT, NON-EXPANDABLE BREAST IMPLANTS" ]
+       ] [
+         fhir:code [ fhir:v "P060101" ] ;
+         fhir:display [ fhir:v "BREAST PROSTHESES, ROUND" ]
+       ] [
+         fhir:code [ fhir:v "P06010101" ] ;
+         fhir:display [ fhir:v "BREAST IMPLANTS, ROUND, SALINE" ]
+       ] [
+         fhir:code [ fhir:v "P0601010101" ] ;
+         fhir:display [ fhir:v "BREAST IMPLANTS, ROUND, SALINE, WITH SMOOTH SURFACE" ]
+       ] [
+         fhir:code [ fhir:v "P0601010102" ] ;
+         fhir:display [ fhir:v "BREAST IMPLANTS, ROUND, SALINE, WITH TEXTURED SURFACE" ]
+       ] [
+         fhir:code [ fhir:v "P0601010199" ] ;
+         fhir:display [ fhir:v "BREAST IMPLANTS, ROUND, SALINE - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P06010102" ] ;
+         fhir:display [ fhir:v "BREAST IMPLANTS, ROUND, MADE OF SILICONE" ]
+       ] [
+         fhir:code [ fhir:v "P0601010201" ] ;
+         fhir:display [ fhir:v "BREAST IMPLANTS, ROUND, MADE OF SILICONE, WITH SMOOTH SURFACE" ]
+       ] [
+         fhir:code [ fhir:v "P0601010202" ] ;
+         fhir:display [ fhir:v "BREAST IMPLANTS, ROUND, MADE OF SILICONE, WITH TEXTURED SURFACE" ]
+       ] [
+         fhir:code [ fhir:v "P0601010299" ] ;
+         fhir:display [ fhir:v "BREAST IMPLANTS, ROUND, MADE OF SILICONE - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P060102" ] ;
+         fhir:display [ fhir:v "BREAST IMPLANTS, ANATOMIC" ]
+       ] [
+         fhir:code [ fhir:v "P06010201" ] ;
+         fhir:display [ fhir:v "BREAST IMPLANTS, ANATOMICAL, SALINE" ]
+       ] [
+         fhir:code [ fhir:v "P0601020101" ] ;
+         fhir:display [ fhir:v "BREAST IMPLANTS, ANATOMICAL, SALINE, WITH SMOOTH SURFACE" ]
+       ] [
+         fhir:code [ fhir:v "P0601020102" ] ;
+         fhir:display [ fhir:v "BREAST IMPLANTS, ANATOMICAL, SALINE, WITH TEXTURED SURFACE" ]
+       ] [
+         fhir:code [ fhir:v "P0601020199" ] ;
+         fhir:display [ fhir:v "BREAST IMPLANTS, ANATOMICAL, SALINE - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P06010202" ] ;
+         fhir:display [ fhir:v "BREAST IMPLANTS, ANATOMICAL, MADE OF SILICONE" ]
+       ] [
+         fhir:code [ fhir:v "P0601020201" ] ;
+         fhir:display [ fhir:v "BREAST IMPLANTS, ANATOMICAL, MADE OF SILICONE, WITH SMOOTH SURFACE" ]
+       ] [
+         fhir:code [ fhir:v "P0601020202" ] ;
+         fhir:display [ fhir:v "BREAST IMPLANTS, ANATOMICAL, MADE OF SILICONE, WITH TEXTURED SURFACE" ]
+       ] [
+         fhir:code [ fhir:v "P0601020299" ] ;
+         fhir:display [ fhir:v "BREAST IMPLANTS, ANATOMICAL, MADE OF SILICONE - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P060199" ] ;
+         fhir:display [ fhir:v "BREAST IMPLANTS, STANDARD - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P0602" ] ;
+         fhir:display [ fhir:v "BREAST IMPLANTS, EXPANDER" ]
+       ] [
+         fhir:code [ fhir:v "P060201" ] ;
+         fhir:display [ fhir:v "BREAST IMPLANTS, BECKER TYPE" ]
+       ] [
+         fhir:code [ fhir:v "P060299" ] ;
+         fhir:display [ fhir:v "BREAST IMPLANTS, EXPANDER - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P0680" ] ;
+         fhir:display [ fhir:v "BREAST IMPLANTS - ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "P0699" ] ;
+         fhir:display [ fhir:v "BREAST IMPLANTS - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P07" ] ;
+         fhir:display [ fhir:v "VASCULAR AND CARDIAC PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P0701" ] ;
+         fhir:display [ fhir:v "VASCULAR PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P070101" ] ;
+         fhir:display [ fhir:v "BIOLOGICAL VASCULAR PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P07010101" ] ;
+         fhir:display [ fhir:v "PERICARDIUM VASCULAR PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P0701010101" ] ;
+         fhir:display [ fhir:v "PERICARDIUM VASCULAR PROSTHESES, STRAIGHT" ]
+       ] [
+         fhir:code [ fhir:v "P0701010102" ] ;
+         fhir:display [ fhir:v "PERICARDIUM VASCULAR PROSTHESES, BIFURCATED" ]
+       ] [
+         fhir:code [ fhir:v "P07010102" ] ;
+         fhir:display [ fhir:v "HOMOLOGOUS VASCULAR PROSTHESES," ]
+       ] [
+         fhir:code [ fhir:v "P0701010201" ] ;
+         fhir:display [ fhir:v "HOMOLOGOUS VASCULAR PROSTHESES, STRAIGHT" ]
+       ] [
+         fhir:code [ fhir:v "P0701010202" ] ;
+         fhir:display [ fhir:v "HOMOLOGOUS VASCULAR PROSTHESES, BIFURCATED" ]
+       ] [
+         fhir:code [ fhir:v "P07010199" ] ;
+         fhir:display [ fhir:v "BIOLOGICAL VASCULAR PROSTHESES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P070102" ] ;
+         fhir:display [ fhir:v "VASCULAR PROSTHESES, SYNTHETIC" ]
+       ] [
+         fhir:code [ fhir:v "P07010201" ] ;
+         fhir:display [ fhir:v "DACRON VASCULAR PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P0701020101" ] ;
+         fhir:display [ fhir:v "DACRON VASCULAR PROSTHESES, STRAIGHT" ]
+       ] [
+         fhir:code [ fhir:v "P070102010101" ] ;
+         fhir:display [ fhir:v "DACRON VASCULAR PROSTHESES, STRAIGHT, KNITTED" ]
+       ] [
+         fhir:code [ fhir:v "P070102010102" ] ;
+         fhir:display [ fhir:v "DACRON VASCULAR PROSTHESES, STRAIGHT, WOVEN" ]
+       ] [
+         fhir:code [ fhir:v "P0701020102" ] ;
+         fhir:display [ fhir:v "DACRON VASCULAR PROSTHESES, MULTIFURCATED" ]
+       ] [
+         fhir:code [ fhir:v "P070102010201" ] ;
+         fhir:display [ fhir:v "DACRON VASCULAR PROSTHESES, MULTIFURCATED (AORTIC ARCH (ALSO COLLATERAL AND MULTIPLE) AND THORACIC-ABDOMINAL)" ]
+       ] [
+         fhir:code [ fhir:v "P070102010202" ] ;
+         fhir:display [ fhir:v "DACRON VASCULAR PROSTHESES, WOVEN, MULTIFURCATED" ]
+       ] [
+         fhir:code [ fhir:v "P07010202" ] ;
+         fhir:display [ fhir:v "PTFE VASCULAR PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P0701020201" ] ;
+         fhir:display [ fhir:v "PTFE VASCULAR PROSTHESES, STRAIGHT" ]
+       ] [
+         fhir:code [ fhir:v "P070102020101" ] ;
+         fhir:display [ fhir:v "PTFE VASCULAR PROSTHESES, STRAIGHT, SIMPLE" ]
+       ] [
+         fhir:code [ fhir:v "P070102020102" ] ;
+         fhir:display [ fhir:v "PTFE VASCULAR PROSTHESES, STRAIGHT, REINFORCED" ]
+       ] [
+         fhir:code [ fhir:v "P0701020202" ] ;
+         fhir:display [ fhir:v "PTFE VASCULAR PROSTHESES, BIFURCATED" ]
+       ] [
+         fhir:code [ fhir:v "P070102020201" ] ;
+         fhir:display [ fhir:v "PTFE VASCULAR PROSTHESES, BIFURCATED, SIMPLE" ]
+       ] [
+         fhir:code [ fhir:v "P070102020202" ] ;
+         fhir:display [ fhir:v "PTFE VASCULAR PROSTHESES, BIFURCATED, REINFORCED" ]
+       ] [
+         fhir:code [ fhir:v "P07010299" ] ;
+         fhir:display [ fhir:v "VASCULAR PROSTHESES, SYNTHETIC - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P070180" ] ;
+         fhir:display [ fhir:v "VASCULAR PROSTHESES - ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "P0702" ] ;
+         fhir:display [ fhir:v "VASCULAR PATCHES" ]
+       ] [
+         fhir:code [ fhir:v "P070201" ] ;
+         fhir:display [ fhir:v "BIOLOGICAL VASCULAR PATCHES" ]
+       ] [
+         fhir:code [ fhir:v "P07020101" ] ;
+         fhir:display [ fhir:v "PERICARDIUM VASCULAR PATCHES" ]
+       ] [
+         fhir:code [ fhir:v "P07020102" ] ;
+         fhir:display [ fhir:v "SIS (SMALL INTESTINAL SUBMUCOSA) VASCULAR PATCHES" ]
+       ] [
+         fhir:code [ fhir:v "P07020199" ] ;
+         fhir:display [ fhir:v "BIOLOGICAL VASCULAR PATCHES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P070202" ] ;
+         fhir:display [ fhir:v "SYNTHETIC VASCULAR PATCHES" ]
+       ] [
+         fhir:code [ fhir:v "P07020201" ] ;
+         fhir:display [ fhir:v "DACRON VASCULAR PATCHES" ]
+       ] [
+         fhir:code [ fhir:v "P07020202" ] ;
+         fhir:display [ fhir:v "PTFE VASCULAR PATCHES" ]
+       ] [
+         fhir:code [ fhir:v "P07020203" ] ;
+         fhir:display [ fhir:v "PET VASCULAR PATCHES" ]
+       ] [
+         fhir:code [ fhir:v "P07020204" ] ;
+         fhir:display [ fhir:v "PU VASCULAR PATCHES" ]
+       ] [
+         fhir:code [ fhir:v "P07020299" ] ;
+         fhir:display [ fhir:v "SYNTHETIC VASCULAR PATCHES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P0703" ] ;
+         fhir:display [ fhir:v "CARDIAC VALVES" ]
+       ] [
+         fhir:code [ fhir:v "P070301" ] ;
+         fhir:display [ fhir:v "BIOLOGICAL CARDIAC VALVES" ]
+       ] [
+         fhir:code [ fhir:v "P07030101" ] ;
+         fhir:display [ fhir:v "BIOLOGICAL CARDIAC VALVES FOR SURGICAL IMPLANT WITH SUPPORT" ]
+       ] [
+         fhir:code [ fhir:v "P0703010101" ] ;
+         fhir:display [ fhir:v "STENTED BIOLOGICAL HEART VALVES FOR SURGICAL IMPLANT - VALVE TISSUE OF ANIMAL ORIGIN" ]
+       ] [
+         fhir:code [ fhir:v "P070301010101" ] ;
+         fhir:display [ fhir:v "STENTED AORTIC BIOLOGICAL VALVES FOR SURGICAL IMPLANT - VALVE TISSUE OF ANIMAL ORIGIN" ]
+       ] [
+         fhir:code [ fhir:v "P070301010102" ] ;
+         fhir:display [ fhir:v "STENTED MITRAL BIOLOGICAL VALVES FOR SURGICAL IMPLANT - VALVE TISSUE OF ANIMAL ORIGIN" ]
+       ] [
+         fhir:code [ fhir:v "P070301010103" ] ;
+         fhir:display [ fhir:v "STENTED PULMONARY BIOLOGICAL VALVES FOR SURGICAL IMPLANT - VALVE TISSUE OF ANIMAL ORIGIN" ]
+       ] [
+         fhir:code [ fhir:v "P070301010104" ] ;
+         fhir:display [ fhir:v "STENTED TRICUSPID BIOLOGICAL VALVES FOR SURGICAL IMPLANT - VALVE TISSUE OF ANIMAL ORIGIN" ]
+       ] [
+         fhir:code [ fhir:v "P0703010102" ] ;
+         fhir:display [ fhir:v "STENTED BIOLOGICAL HEART VALVES FOR SURGICAL IMPLANT - NON-VALVE TISSUE OF ANIMAL ORIGIN" ]
+       ] [
+         fhir:code [ fhir:v "P070301010201" ] ;
+         fhir:display [ fhir:v "STENTED AORTIC BIOLOGICAL VALVES FOR SURGICAL IMPLANT - NON-VALVE TISSUE OF ANIMAL ORIGIN" ]
+       ] [
+         fhir:code [ fhir:v "P070301010202" ] ;
+         fhir:display [ fhir:v "STENTED MITRAL BIOLOGICAL VALVES FOR SURGICAL IMPLANT - NON-VALVE TISSUE OF ANIMAL ORIGIN" ]
+       ] [
+         fhir:code [ fhir:v "P070301010203" ] ;
+         fhir:display [ fhir:v "STENTED PULMONARY BIOLOGICAL VALVES FOR SURGICAL IMPLANT - NON-VALVE TISSUE OF ANIMAL ORIGIN" ]
+       ] [
+         fhir:code [ fhir:v "P070301010204" ] ;
+         fhir:display [ fhir:v "STENTED TRICUSPID BIOLOGICAL VALVES FOR SURGICAL IMPLANT - NON-VALVE TISSUE OF ANIMAL ORIGIN" ]
+       ] [
+         fhir:code [ fhir:v "P07030102" ] ;
+         fhir:display [ fhir:v "STENTLESS BIOLOGICAL HEART VALVES FOR SURGICAL IMPLANT" ]
+       ] [
+         fhir:code [ fhir:v "P0703010201" ] ;
+         fhir:display [ fhir:v "STENTLESS BIOLOGICAL HEART VALVES FOR SURGICAL IMPLANT - VALVE TISSUE OF ANIMAL ORIGIN" ]
+       ] [
+         fhir:code [ fhir:v "P0703010202" ] ;
+         fhir:display [ fhir:v "STENTLESS BIOLOGICAL HEART VALVES FOR SURGICAL IMPLANT - TISSUE OF ANIMAL ORIGIN" ]
+       ] [
+         fhir:code [ fhir:v "P07030103" ] ;
+         fhir:display [ fhir:v "BIOLOGICAL HEART VALVES FOR PERCUTANEOUS IMPLANTATION, WITH SUPPORT" ]
+       ] [
+         fhir:code [ fhir:v "P0703010301" ] ;
+         fhir:display [ fhir:v "STENTED BIOLOGICAL HEART VALVES FOR PERCUTANEOUS IMPLANT - VALVE TISSUE OF ANIMAL ORIGIN" ]
+       ] [
+         fhir:code [ fhir:v "P070301030101" ] ;
+         fhir:display [ fhir:v "STENTED BIOLOGICAL AORTIC VALVES FOR PERCUTANEOUS IMPLANT - VALVE TISSUE OF ANIMAL ORIGIN" ]
+       ] [
+         fhir:code [ fhir:v "P070301030102" ] ;
+         fhir:display [ fhir:v "STENTED BIOLOGICAL MITRAL VALVES FOR PERCUTANEOUS IMPLANT - VALVE TISSUE OF ANIMAL ORIGIN" ]
+       ] [
+         fhir:code [ fhir:v "P070301030103" ] ;
+         fhir:display [ fhir:v "STENTED BIOLOGICAL PULMONARY VALVES FOR PERCUTANEOUS IMPLANT - VALVE TISSUE OF ANIMAL ORIGIN" ]
+       ] [
+         fhir:code [ fhir:v "P070301030104" ] ;
+         fhir:display [ fhir:v "STENTED BIOLOGICAL TRICUSPID VALVES FOR PERCUTANEOUS IMPLANT - VALVE TISSUE OF ANIMAL ORIGIN" ]
+       ] [
+         fhir:code [ fhir:v "P0703010302" ] ;
+         fhir:display [ fhir:v "BIOLOGICAL HEART VALVES WITH SUPPORT FOR PERCUTANEOUS IMPLANT - NON-VALVE TISSUE OF ANIMAL ORIGIN" ]
+       ] [
+         fhir:code [ fhir:v "P070301030201" ] ;
+         fhir:display [ fhir:v "STENTED BIOLOGICAL AORTIC VALVES FOR PERCUTANEOUS IMPLANT - NON-VALVE TISSUE OF ANIMAL ORIGIN" ]
+       ] [
+         fhir:code [ fhir:v "P070301030202" ] ;
+         fhir:display [ fhir:v "STENTED BIOLOGICAL MITRAL VALVES FOR PERCUTANEOUS IMPLANT - NON-VALVE TISSUE OF ANIMAL ORIGIN" ]
+       ] [
+         fhir:code [ fhir:v "P070301030203" ] ;
+         fhir:display [ fhir:v "STENTED BIOLOGICAL PULMONARY VALVES FOR PERCUTANEOUS IMPLANT - NON-VALVE TISSUE OF ANIMAL ORIGIN" ]
+       ] [
+         fhir:code [ fhir:v "P070301030204" ] ;
+         fhir:display [ fhir:v "STENTED BIOLOGICAL TRICUSPID VALVES FOR PERCUTANEOUS IMPLANT - NON-VALVE TISSUE OF ANIMAL ORIGIN" ]
+       ] [
+         fhir:code [ fhir:v "P07030104" ] ;
+         fhir:display [ fhir:v "BIOLOGICAL VALVES, BICAVAL" ]
+       ] [
+         fhir:code [ fhir:v "P07030199" ] ;
+         fhir:display [ fhir:v "BIOLOGICAL HEART VALVES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P070302" ] ;
+         fhir:display [ fhir:v "MECHANICAL HEART VALVES" ]
+       ] [
+         fhir:code [ fhir:v "P07030201" ] ;
+         fhir:display [ fhir:v "MECHANICAL HEART VALVES, BALL-VALVES" ]
+       ] [
+         fhir:code [ fhir:v "P07030202" ] ;
+         fhir:display [ fhir:v "MECHANICAL HEART VALVES, SINGLE-DISC" ]
+       ] [
+         fhir:code [ fhir:v "P07030203" ] ;
+         fhir:display [ fhir:v "MECHANICAL HEART VALVES DOUBLE-DISC" ]
+       ] [
+         fhir:code [ fhir:v "P0703020301" ] ;
+         fhir:display [ fhir:v "BILEAFLET MECHANICAL AORTIC VALVES" ]
+       ] [
+         fhir:code [ fhir:v "P0703020302" ] ;
+         fhir:display [ fhir:v "BILEAFLET MECHANICAL MITRAL VALVES" ]
+       ] [
+         fhir:code [ fhir:v "P0703020399" ] ;
+         fhir:display [ fhir:v "BILEAFLET MECHANICAL HEART VALVES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P07030299" ] ;
+         fhir:display [ fhir:v "MECHANICAL HEART VALVES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P070303" ] ;
+         fhir:display [ fhir:v "HEART VALVE TUBES" ]
+       ] [
+         fhir:code [ fhir:v "P07030301" ] ;
+         fhir:display [ fhir:v "BIOLOGICAL HEART VALVE TUBES" ]
+       ] [
+         fhir:code [ fhir:v "P07030302" ] ;
+         fhir:display [ fhir:v "MECHANICAL HEART VALVE TUBES" ]
+       ] [
+         fhir:code [ fhir:v "P07030399" ] ;
+         fhir:display [ fhir:v "HEART VALVE TUBES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P070304" ] ;
+         fhir:display [ fhir:v "HEART VALVE RINGS" ]
+       ] [
+         fhir:code [ fhir:v "P07030401" ] ;
+         fhir:display [ fhir:v "FLEXIBLE OR UNSUPPORTED HEART VALVE RINGS" ]
+       ] [
+         fhir:code [ fhir:v "P07030402" ] ;
+         fhir:display [ fhir:v "RIGID OR SEMI-RIGID HEART VALVE RINGS WITH SUPPORT" ]
+       ] [
+         fhir:code [ fhir:v "P07030403" ] ;
+         fhir:display [ fhir:v "INCOMPLETE SEMI-RIGID HEART VALVE RINGS" ]
+       ] [
+         fhir:code [ fhir:v "P07030499" ] ;
+         fhir:display [ fhir:v "HEART VALVE RINGS - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P070380" ] ;
+         fhir:display [ fhir:v "HEART VALVES - ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "P07038001" ] ;
+         fhir:display [ fhir:v "HEART VALVE IMPLANT SIZERS" ]
+       ] [
+         fhir:code [ fhir:v "P07038002" ] ;
+         fhir:display [ fhir:v "CARDIAC VALVE TRANSCATHETER IMPLANT ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "P07038003" ] ;
+         fhir:display [ fhir:v "MECHANICAL HEART VALVE IMPLANT ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "P07038004" ] ;
+         fhir:display [ fhir:v "HEART VALVE RECONSTRUCTION IMPLANTS" ]
+       ] [
+         fhir:code [ fhir:v "P07038099" ] ;
+         fhir:display [ fhir:v "HEART VALVE ACCESSORIES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P070399" ] ;
+         fhir:display [ fhir:v "CARDIAC VALVES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P0704" ] ;
+         fhir:display [ fhir:v "VASCULAR AND CARDIAC ENDOPROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P070401" ] ;
+         fhir:display [ fhir:v "VASCULAR ENDOPROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P07040101" ] ;
+         fhir:display [ fhir:v "DACRON VASCULAR ENDOPROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P0704010101" ] ;
+         fhir:display [ fhir:v "DACRON VASCULAR ENDOPROSTHESES, STRAIGHT" ]
+       ] [
+         fhir:code [ fhir:v "P070401010101" ] ;
+         fhir:display [ fhir:v "DACRON VASCULAR ENDOPROSTHESES, STRAIGHT - ABDOMINAL" ]
+       ] [
+         fhir:code [ fhir:v "P070401010102" ] ;
+         fhir:display [ fhir:v "DACRON VASCULAR ENDOPROSTHESES, STRAIGHT - THORACIC" ]
+       ] [
+         fhir:code [ fhir:v "P070401010199" ] ;
+         fhir:display [ fhir:v "DACRON VASCULAR ENDOPROSTHESES, STRAIGHT - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P0704010102" ] ;
+         fhir:display [ fhir:v "DACRON VASCULAR ENDOPROSTHESES, BIFURCATED" ]
+       ] [
+         fhir:code [ fhir:v "P0704010103" ] ;
+         fhir:display [ fhir:v "DACRON VASCULAR ENDOPROSTHESES, AUXILIARY" ]
+       ] [
+         fhir:code [ fhir:v "P07040102" ] ;
+         fhir:display [ fhir:v "PTFE VASCULAR ENDOPROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P0704010201" ] ;
+         fhir:display [ fhir:v "PTFE VASCULAR ENDOPROSTHESES, STRAIGHT" ]
+       ] [
+         fhir:code [ fhir:v "P070401020101" ] ;
+         fhir:display [ fhir:v "PTFE VASCULAR ENDOPROSTHESES, STRAIGHT - ABDOMINAL" ]
+       ] [
+         fhir:code [ fhir:v "P070401020102" ] ;
+         fhir:display [ fhir:v "PTFE VASCULAR ENDOPROSTHESES, STRAIGHT - THORACIC" ]
+       ] [
+         fhir:code [ fhir:v "P070401020103" ] ;
+         fhir:display [ fhir:v "PTFE VASCULAR ENDOPROSTHESES, STRAIGHT - PERIPHERAL" ]
+       ] [
+         fhir:code [ fhir:v "P070401020199" ] ;
+         fhir:display [ fhir:v "PTFE VASCULAR ENDOPROSTHESES, STRAIGHT - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P0704010202" ] ;
+         fhir:display [ fhir:v "PTFE VASCULAR ENDOPROSTHESES, BIFURCATED" ]
+       ] [
+         fhir:code [ fhir:v "P0704010203" ] ;
+         fhir:display [ fhir:v "PTFE VASCULAR ENDOPROSTHESES, AUXILIARY" ]
+       ] [
+         fhir:code [ fhir:v "P07040199" ] ;
+         fhir:display [ fhir:v "VASCULAR ENDOPROSTHESES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P070402" ] ;
+         fhir:display [ fhir:v "VASCULAR STENTS" ]
+       ] [
+         fhir:code [ fhir:v "P07040201" ] ;
+         fhir:display [ fhir:v "CORONARY STENTS" ]
+       ] [
+         fhir:code [ fhir:v "P0704020101" ] ;
+         fhir:display [ fhir:v "CORONARY BARE METAL STENTS (BMS)" ]
+       ] [
+         fhir:code [ fhir:v "P070402010101" ] ;
+         fhir:display [ fhir:v "STAINLESS STEEL CORONARY BARE METAL STENTS (BMS)" ]
+       ] [
+         fhir:code [ fhir:v "P070402010102" ] ;
+         fhir:display [ fhir:v "METALLIC NON-STAINLESS STEEL CORONARY STENTS" ]
+       ] [
+         fhir:code [ fhir:v "P070402010199" ] ;
+         fhir:display [ fhir:v "CORONARY BARE METAL STENTS (BMS) - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P0704020102" ] ;
+         fhir:display [ fhir:v "COATED CORONARY STENTS" ]
+       ] [
+         fhir:code [ fhir:v "P0704020103" ] ;
+         fhir:display [ fhir:v "CORONARY DRUG ELUTING STENTS (DES)" ]
+       ] [
+         fhir:code [ fhir:v "P070402010301" ] ;
+         fhir:display [ fhir:v "CORONARY DRUG ELUTING STENTS (DES) WITH POLYMERS" ]
+       ] [
+         fhir:code [ fhir:v "P070402010302" ] ;
+         fhir:display [ fhir:v "CORONARY DRUG ELUTING STENTS (DES) WITHOUT POLYMERS" ]
+       ] [
+         fhir:code [ fhir:v "P0704020104" ] ;
+         fhir:display [ fhir:v "CORONARY STENTS, ABSORBABLE" ]
+       ] [
+         fhir:code [ fhir:v "P0704020105" ] ;
+         fhir:display [ fhir:v "CORONARY STENTS, BIOACTIVE" ]
+       ] [
+         fhir:code [ fhir:v "P0704020199" ] ;
+         fhir:display [ fhir:v "CORONARY STENTS - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P07040202" ] ;
+         fhir:display [ fhir:v "PERIPHERAL VASCULAR STENTS" ]
+       ] [
+         fhir:code [ fhir:v "P0704020201" ] ;
+         fhir:display [ fhir:v "PERIPHERAL VASCULAR STENTS, BMS" ]
+       ] [
+         fhir:code [ fhir:v "P070402020101" ] ;
+         fhir:display [ fhir:v "STAINLESS STEEL PERIPHERAL VASCULAR BARE METAL STENTS" ]
+       ] [
+         fhir:code [ fhir:v "P070402020102" ] ;
+         fhir:display [ fhir:v "NON-STAINLESS STEEL PERIPHERAL VASCULAR BARE METAL STENTS" ]
+       ] [
+         fhir:code [ fhir:v "P070402020199" ] ;
+         fhir:display [ fhir:v "PERIPHERAL VASCULAR BARE STENTS - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P0704020202" ] ;
+         fhir:display [ fhir:v "PERIPHERAL VASCULAR COATED STENTS" ]
+       ] [
+         fhir:code [ fhir:v "P0704020203" ] ;
+         fhir:display [ fhir:v "PERIPHERAL VASCULAR DRUG ELUTING STENTS (DES)" ]
+       ] [
+         fhir:code [ fhir:v "P0704020204" ] ;
+         fhir:display [ fhir:v "PERIPHERAL VASCULAR STENTS, BIOACTIVE" ]
+       ] [
+         fhir:code [ fhir:v "P0704020299" ] ;
+         fhir:display [ fhir:v "PERIPHERAL VASCULAR STENTS - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P070403" ] ;
+         fhir:display [ fhir:v "CARDIAC AND CORONARY DEFECT OCCLUDERS" ]
+       ] [
+         fhir:code [ fhir:v "P07040301" ] ;
+         fhir:display [ fhir:v "CARDIAC OCCLUDERS, VENTRICULAR SEPTAL DEFECTS" ]
+       ] [
+         fhir:code [ fhir:v "P07040302" ] ;
+         fhir:display [ fhir:v "CARDIAC OCCLUDERS, ATRIAL SEPTAL DEFECTS" ]
+       ] [
+         fhir:code [ fhir:v "P07040303" ] ;
+         fhir:display [ fhir:v "CARDIAC OCCLUDERS, FORAMEN OVALE AND BOTALLO DUCT" ]
+       ] [
+         fhir:code [ fhir:v "P07040399" ] ;
+         fhir:display [ fhir:v "HEART AND CORONARY DEFECT OCCLUDERS - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P070404" ] ;
+         fhir:display [ fhir:v "LEFT ATRIAL APPENDAGE OCCLUDERS" ]
+       ] [
+         fhir:code [ fhir:v "P0780" ] ;
+         fhir:display [ fhir:v "VASCULAR AND CARDIAC PROSTHESES - ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "P0799" ] ;
+         fhir:display [ fhir:v "VASCULAR AND CARDIAC PROSTHESES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P08" ] ;
+         fhir:display [ fhir:v "UROGENITAL PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P0801" ] ;
+         fhir:display [ fhir:v "URINARY INCONTINENCE PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P080102" ] ;
+         fhir:display [ fhir:v "ARTIFICIAL URINARY SPHINCTERS" ]
+       ] [
+         fhir:code [ fhir:v "P080199" ] ;
+         fhir:display [ fhir:v "URINARY INCONTINENCE PROSTHESES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P0802" ] ;
+         fhir:display [ fhir:v "MALE GENITAL SYSTEM PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P080201" ] ;
+         fhir:display [ fhir:v "TESTICLE PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P080202" ] ;
+         fhir:display [ fhir:v "PENILE PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P080299" ] ;
+         fhir:display [ fhir:v "MALE GENITAL SYSTEM PROSTHESES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P0803" ] ;
+         fhir:display [ fhir:v "URINARY OBSTRUCTION PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P080301" ] ;
+         fhir:display [ fhir:v "URETHRAL PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P08030101" ] ;
+         fhir:display [ fhir:v "TRANS-PROSTATIC URETHRAL PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P08030102" ] ;
+         fhir:display [ fhir:v "VAS DEFERENS PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P08030199" ] ;
+         fhir:display [ fhir:v "ENDOURETHRAL PROSTHESES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P080302" ] ;
+         fhir:display [ fhir:v "URETERAL PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P080399" ] ;
+         fhir:display [ fhir:v "URINARY OBSTRUCTION PROSTHESES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P0804" ] ;
+         fhir:display [ fhir:v "FEMALE GENITAL SYSTEM PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P080401" ] ;
+         fhir:display [ fhir:v "FALLOPIAN TUBE PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P080499" ] ;
+         fhir:display [ fhir:v "FEMALE GENITAL SYSTEM PROSTHESES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P0805" ] ;
+         fhir:display [ fhir:v "URINARY TRACT IMPLANTABLE VALVES" ]
+       ] [
+         fhir:code [ fhir:v "P0880" ] ;
+         fhir:display [ fhir:v "UROGENITAL PROSTHESES - ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "P0899" ] ;
+         fhir:display [ fhir:v "UROGENITAL PROSTHESES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P09" ] ;
+         fhir:display [ fhir:v "ORTHOPAEDIC PROSTHESES, OSTEOSYNTHESIS DEVICES, DEVICES FOR TENDON AND LIGAMENT SYNTHESIS" ]
+       ] [
+         fhir:code [ fhir:v "P0901" ] ;
+         fhir:display [ fhir:v "SHOULDER PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P090103" ] ;
+         fhir:display [ fhir:v "GLENOID COMPONENTS" ]
+       ] [
+         fhir:code [ fhir:v "P09010301" ] ;
+         fhir:display [ fhir:v "SHOULDER PROSTHESIS AND METAGLENE METAL BACK" ]
+       ] [
+         fhir:code [ fhir:v "P09010302" ] ;
+         fhir:display [ fhir:v "ANATOMICAL SHOULDER PROSTHESIS INSERTS" ]
+       ] [
+         fhir:code [ fhir:v "P09010303" ] ;
+         fhir:display [ fhir:v "GLENOSPHERES" ]
+       ] [
+         fhir:code [ fhir:v "P09010304" ] ;
+         fhir:display [ fhir:v "MONOBLOCK GLENOIDS" ]
+       ] [
+         fhir:code [ fhir:v "P09010399" ] ;
+         fhir:display [ fhir:v "GLENOID COMPONENTS - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P090104" ] ;
+         fhir:display [ fhir:v "SHOULDER PROSTHESES HUMERAL COMPONENTS" ]
+       ] [
+         fhir:code [ fhir:v "P09010401" ] ;
+         fhir:display [ fhir:v "EPIPHYSARY HUMERAL COMPONENTS" ]
+       ] [
+         fhir:code [ fhir:v "P0901040101" ] ;
+         fhir:display [ fhir:v "EPIPHYSARY HUMERAL COMPONENTS FOR ANATOMICAL PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P090104010101" ] ;
+         fhir:display [ fhir:v "EPIPHYSARY HUMERAL COMPONENTS FOR ANATOMICAL PROSTHESES - HUMERAL HEADS" ]
+       ] [
+         fhir:code [ fhir:v "P090104010102" ] ;
+         fhir:display [ fhir:v "EPIPHYSARY HUMERAL COMPONENTS FOR RESURFACING ANATOMICAL PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P0901040102" ] ;
+         fhir:display [ fhir:v "EPIPHYSARY HUMERAL COMPONENTS FOR REVERSE PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P090104010201" ] ;
+         fhir:display [ fhir:v "EPIPHYSARY HUMERAL COMPONENTS FOR REVERSE PROSTHESES - INSERTS" ]
+       ] [
+         fhir:code [ fhir:v "P090104010202" ] ;
+         fhir:display [ fhir:v "EPIPHYSARY HUMERAL COMPONENTS FOR REVERSE PROSTHESES - HUMERAL CUPS" ]
+       ] [
+         fhir:code [ fhir:v "P0901040199" ] ;
+         fhir:display [ fhir:v "EPIPHYSARY HUMERAL COMPONENTS - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P09010402" ] ;
+         fhir:display [ fhir:v "DIAPHYSARY HUMERAL COMPONENTS" ]
+       ] [
+         fhir:code [ fhir:v "P0901040201" ] ;
+         fhir:display [ fhir:v "SHOULDER PROSTHESES NON MODULAR STEMS" ]
+       ] [
+         fhir:code [ fhir:v "P0901040202" ] ;
+         fhir:display [ fhir:v "SHOULDER PROSTHESES MODULAR STEMS" ]
+       ] [
+         fhir:code [ fhir:v "P0901040203" ] ;
+         fhir:display [ fhir:v "MONOBLOCK DIAPHYSARY HUMERAL COMPONENTS (STEM + EPIPHYSARY COMPONENT)" ]
+       ] [
+         fhir:code [ fhir:v "P090104020301" ] ;
+         fhir:display [ fhir:v "MONOBLOCK DIAPHYSARY HUMERAL COMPONENTS FOR ANATOMICAL PROSTHESIS (STEM + HEAD)" ]
+       ] [
+         fhir:code [ fhir:v "P090104020302" ] ;
+         fhir:display [ fhir:v "MONOBLOCK DIAPHYSARY HUMERAL COMPONENTS FOR REVERSE PROSTHESIS (STEM + CUP)" ]
+       ] [
+         fhir:code [ fhir:v "P0901040204" ] ;
+         fhir:display [ fhir:v "SHOULDER PROSTHESES REVISION STEMS" ]
+       ] [
+         fhir:code [ fhir:v "P0901040205" ] ;
+         fhir:display [ fhir:v "SHOULDER PROSTHESES LARGE RESECTIONS STEMS" ]
+       ] [
+         fhir:code [ fhir:v "P0901040299" ] ;
+         fhir:display [ fhir:v "DIAPHYSARY HUMERAL COMPONENTS - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P09010403" ] ;
+         fhir:display [ fhir:v "SHOULDER PROSTHESES SPACERS" ]
+       ] [
+         fhir:code [ fhir:v "P09010499" ] ;
+         fhir:display [ fhir:v "HUMERAL COMPONENTS FOR SHOULDER PROSTHESES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P090180" ] ;
+         fhir:display [ fhir:v "SHOULDER PROSTHESES - ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "P09018001" ] ;
+         fhir:display [ fhir:v "SHOULDER PROSTHESES FIXING SCREWS" ]
+       ] [
+         fhir:code [ fhir:v "P09018002" ] ;
+         fhir:display [ fhir:v "SHOULDER PROSTHESES ADAPTERS (INCLUDING CONES AND SLEEVES)" ]
+       ] [
+         fhir:code [ fhir:v "P0901800201" ] ;
+         fhir:display [ fhir:v "GLENOID COMPONENTS ADAPTERS" ]
+       ] [
+         fhir:code [ fhir:v "P0901800202" ] ;
+         fhir:display [ fhir:v "HUMERAL COMPONENTS ADAPTERS" ]
+       ] [
+         fhir:code [ fhir:v "P09018003" ] ;
+         fhir:display [ fhir:v "SHOULDER PROSTHESES ENDOMIDOLLAR CAPS" ]
+       ] [
+         fhir:code [ fhir:v "P09018099" ] ;
+         fhir:display [ fhir:v "SHOULDER PROSTHESES - ACCESSORIES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P090199" ] ;
+         fhir:display [ fhir:v "SHOULDER PROSTHESES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P0902" ] ;
+         fhir:display [ fhir:v "ELBOW PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P090203" ] ;
+         fhir:display [ fhir:v "ELBOW PROSTHESES HUMERAL COMPONENTS" ]
+       ] [
+         fhir:code [ fhir:v "P090204" ] ;
+         fhir:display [ fhir:v "ELBOW PROSTHESES RADIAL COMPONENTS" ]
+       ] [
+         fhir:code [ fhir:v "P090205" ] ;
+         fhir:display [ fhir:v "ELBOW PROSTHESES ULNAR COMPONENTS" ]
+       ] [
+         fhir:code [ fhir:v "P090280" ] ;
+         fhir:display [ fhir:v "ELBOW PROSTHESES - ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "P090299" ] ;
+         fhir:display [ fhir:v "ELBOW PROSTHESES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P0903" ] ;
+         fhir:display [ fhir:v "WRIST PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P090303" ] ;
+         fhir:display [ fhir:v "WRIST PROSTHESES CARPAL COMPONENTS" ]
+       ] [
+         fhir:code [ fhir:v "P090304" ] ;
+         fhir:display [ fhir:v "WRIST PROSTHESES RADIAL-ULNAR COMPONENTS" ]
+       ] [
+         fhir:code [ fhir:v "P09030401" ] ;
+         fhir:display [ fhir:v "WRIST PROSTHESES RADIAL COMPONENTS" ]
+       ] [
+         fhir:code [ fhir:v "P09030402" ] ;
+         fhir:display [ fhir:v "WRIST PROSTHESES ULNAR COMPONENTS" ]
+       ] [
+         fhir:code [ fhir:v "P090305" ] ;
+         fhir:display [ fhir:v "TOTAL WRIST PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P090380" ] ;
+         fhir:display [ fhir:v "WRIST PROSTHESES - ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "P090399" ] ;
+         fhir:display [ fhir:v "WRIST PROSTHESES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P0904" ] ;
+         fhir:display [ fhir:v "HAND PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P090403" ] ;
+         fhir:display [ fhir:v "HAND PROSTHESES INTERPHALANGE COMPONENTS" ]
+       ] [
+         fhir:code [ fhir:v "P090404" ] ;
+         fhir:display [ fhir:v "HAND PROSTHESES TRAPEZIO-METACARPAL COMPONENTS" ]
+       ] [
+         fhir:code [ fhir:v "P090480" ] ;
+         fhir:display [ fhir:v "HAND PROSTHESES - ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "P090499" ] ;
+         fhir:display [ fhir:v "HAND PROSTHESES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P0905" ] ;
+         fhir:display [ fhir:v "ANKLE PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P090506" ] ;
+         fhir:display [ fhir:v "ANKLE PROSTHESIS WITH MOBILE INSERT" ]
+       ] [
+         fhir:code [ fhir:v "P09050601" ] ;
+         fhir:display [ fhir:v "ANKLE PROSTHESES WITH CEMENTED MOBILE INSERT" ]
+       ] [
+         fhir:code [ fhir:v "P0905060101" ] ;
+         fhir:display [ fhir:v "ANKLE PROSTHESES WITH CEMENTED MOBILE INSERT - TIBIAL COMPONENTS" ]
+       ] [
+         fhir:code [ fhir:v "P0905060102" ] ;
+         fhir:display [ fhir:v "ANKLE PROSTHESES WITH CEMENTED MOBILE INSERT - TALAR COMPONENTS" ]
+       ] [
+         fhir:code [ fhir:v "P09050602" ] ;
+         fhir:display [ fhir:v "ANKLE PROSTHESES WITH UNCEMENTED MOBILE INSERT" ]
+       ] [
+         fhir:code [ fhir:v "P0905060201" ] ;
+         fhir:display [ fhir:v "ANKLE PROSTHESES WITH UNCEMENTED MOBILE INSERT - TIBIAL COMPONENTS" ]
+       ] [
+         fhir:code [ fhir:v "P0905060202" ] ;
+         fhir:display [ fhir:v "ANKLE PROSTHESES WITH UNCEMENTED MOBILE INSERT - TALAR COMPONENTS" ]
+       ] [
+         fhir:code [ fhir:v "P09050603" ] ;
+         fhir:display [ fhir:v "ANKLE PROSTHESES MOBILE INSERTS" ]
+       ] [
+         fhir:code [ fhir:v "P090507" ] ;
+         fhir:display [ fhir:v "ANKLE PROSTHESIS WITH FIXED INSERT" ]
+       ] [
+         fhir:code [ fhir:v "P09050701" ] ;
+         fhir:display [ fhir:v "ANKLE PROSTHESES WITH CEMENTED FIXED INSERT" ]
+       ] [
+         fhir:code [ fhir:v "P0905070101" ] ;
+         fhir:display [ fhir:v "ANKLE PROSTHESES WITH CEMENTED FIXED INSERT - TIBIAL COMPONENTS" ]
+       ] [
+         fhir:code [ fhir:v "P0905070102" ] ;
+         fhir:display [ fhir:v "ANKLE PROSTHESES WITH CEMENTED FIXED INSERT - TALAR COMPONENTS" ]
+       ] [
+         fhir:code [ fhir:v "P09050702" ] ;
+         fhir:display [ fhir:v "ANKLE PROSTHESES WITH UNCEMENTED FIXED INSERT" ]
+       ] [
+         fhir:code [ fhir:v "P0905070201" ] ;
+         fhir:display [ fhir:v "ANKLE PROSTHESES WITH UNCEMENTED FIXED INSERT - TIBIAL COMPONENTS" ]
+       ] [
+         fhir:code [ fhir:v "P0905070202" ] ;
+         fhir:display [ fhir:v "ANKLE PROSTHESES WITH UNCEMENTED FIXED INSERT - TALAR COMPONENTS" ]
+       ] [
+         fhir:code [ fhir:v "P09050703" ] ;
+         fhir:display [ fhir:v "ANKLE PROSTHESES FIXED INSERTS" ]
+       ] [
+         fhir:code [ fhir:v "P090508" ] ;
+         fhir:display [ fhir:v "ANKLE PROSTHESES SPACERS" ]
+       ] [
+         fhir:code [ fhir:v "P090580" ] ;
+         fhir:display [ fhir:v "ANKLE PROSTHESES - ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "P09058001" ] ;
+         fhir:display [ fhir:v "ANKLE PROSTHESES TIBIAL STEMS" ]
+       ] [
+         fhir:code [ fhir:v "P09058099" ] ;
+         fhir:display [ fhir:v "ANKLE PROSTHESES - ACCESSORIES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P090599" ] ;
+         fhir:display [ fhir:v "ANKLE PROSTHESES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P0906" ] ;
+         fhir:display [ fhir:v "FOOT PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P090603" ] ;
+         fhir:display [ fhir:v "FOOT PROSTHESES INTERPHALANGEAL COMPONENTS" ]
+       ] [
+         fhir:code [ fhir:v "P090604" ] ;
+         fhir:display [ fhir:v "FOOT PROSTHESES METATARSALPHALANGEAL COMPONENTS" ]
+       ] [
+         fhir:code [ fhir:v "P090605" ] ;
+         fhir:display [ fhir:v "FOOT ENDORTHESIS" ]
+       ] [
+         fhir:code [ fhir:v "P090680" ] ;
+         fhir:display [ fhir:v "FOOT PROSTHESES - ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "P090699" ] ;
+         fhir:display [ fhir:v "FOOT PROSTHESES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P0907" ] ;
+         fhir:display [ fhir:v "SPINE STABILISATION PROSTHESES AND SYSTEMS" ]
+       ] [
+         fhir:code [ fhir:v "P090701" ] ;
+         fhir:display [ fhir:v "SPINAL FUSION SYSTEMS" ]
+       ] [
+         fhir:code [ fhir:v "P09070101" ] ;
+         fhir:display [ fhir:v "SPINAL CAGES" ]
+       ] [
+         fhir:code [ fhir:v "P09070199" ] ;
+         fhir:display [ fhir:v "SPINAL FUSION SYSTEMS - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P090702" ] ;
+         fhir:display [ fhir:v "INTERVERTEBRAL DISCS REPLACEMENT SYSTEMS" ]
+       ] [
+         fhir:code [ fhir:v "P09070201" ] ;
+         fhir:display [ fhir:v "DISC PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P090703" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE VERTEBRAL STABILISATION OR FIXATION SYSTEMS" ]
+       ] [
+         fhir:code [ fhir:v "P09070301" ] ;
+         fhir:display [ fhir:v "CERVICAL FIXATION SYSTEMS" ]
+       ] [
+         fhir:code [ fhir:v "P09070302" ] ;
+         fhir:display [ fhir:v "THORACOLUMBOSACRAL FIXATION SYSTEMS" ]
+       ] [
+         fhir:code [ fhir:v "P09070304" ] ;
+         fhir:display [ fhir:v "SPINE FIXATION SYSTEM CONNECTORS" ]
+       ] [
+         fhir:code [ fhir:v "P09070305" ] ;
+         fhir:display [ fhir:v "SPINAL STABILISERS, DYNAMIC TYPE" ]
+       ] [
+         fhir:code [ fhir:v "P09070399" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE SPINAL STABILISATION OR FIXATION SYSTEMS - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P090780" ] ;
+         fhir:display [ fhir:v "SPINAL PROSTHESES AND STABILISATION SYSTEMS - ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "P090799" ] ;
+         fhir:display [ fhir:v "SPINAL PROSTHESES AND STABILISATION SYSTEMS - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P0908" ] ;
+         fhir:display [ fhir:v "HIP PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P090803" ] ;
+         fhir:display [ fhir:v "HIP PROSTHESES ACETABULAR COMPONENTS" ]
+       ] [
+         fhir:code [ fhir:v "P09080301" ] ;
+         fhir:display [ fhir:v "PRIMARY IMPLANT ACETABULAR CUPS" ]
+       ] [
+         fhir:code [ fhir:v "P0908030101" ] ;
+         fhir:display [ fhir:v "PRIMARY IMPLANT CEMENTED ACETABULAR CUPS" ]
+       ] [
+         fhir:code [ fhir:v "P090803010101" ] ;
+         fhir:display [ fhir:v "PRIMARY IMPLANT CEMENTED METAL ACETABULAR CUPS" ]
+       ] [
+         fhir:code [ fhir:v "P090803010102" ] ;
+         fhir:display [ fhir:v "PRIMARY IMPLANT CEMENTED POLYETHYLENE ACETABULAR CUPS, ONE-PIECE" ]
+       ] [
+         fhir:code [ fhir:v "P090803010199" ] ;
+         fhir:display [ fhir:v "PRIMARY IMPLANT CEMENTED ACETABULAR CUPS - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P0908030102" ] ;
+         fhir:display [ fhir:v "PRIMARY IMPLANT UNCEMENTED ACETABULAR CUPS" ]
+       ] [
+         fhir:code [ fhir:v "P090803010201" ] ;
+         fhir:display [ fhir:v "PRIMARY IMPLANT UNCEMENTED METAL ACETABULAR CUPS" ]
+       ] [
+         fhir:code [ fhir:v "P090803010202" ] ;
+         fhir:display [ fhir:v "PRIMARY IMPLANT UNCEMENTED ONE-PIECE POLYETHYLENE ACETABULAR CUPS" ]
+       ] [
+         fhir:code [ fhir:v "P090803010203" ] ;
+         fhir:display [ fhir:v "PRIMARY IMPLANT UNCEMENTED ONE-PIECE METAL ACETABULAR CUPS" ]
+       ] [
+         fhir:code [ fhir:v "P090803010299" ] ;
+         fhir:display [ fhir:v "PRIMARY IMPLANT UNCEMENTED ACETABULAR CUPS - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P09080302" ] ;
+         fhir:display [ fhir:v "HIP RESURFACING ACETABULAR COMPONENTS" ]
+       ] [
+         fhir:code [ fhir:v "P09080303" ] ;
+         fhir:display [ fhir:v "REVISION SURGERY ACETABULAR CUPS" ]
+       ] [
+         fhir:code [ fhir:v "P0908030301" ] ;
+         fhir:display [ fhir:v "REVISION SURGERY CEMENTED ACETABULAR CUPS" ]
+       ] [
+         fhir:code [ fhir:v "P0908030302" ] ;
+         fhir:display [ fhir:v "REVISION SURGERY UNCEMENTED ACETABULAR CUPS" ]
+       ] [
+         fhir:code [ fhir:v "P09080304" ] ;
+         fhir:display [ fhir:v "HIP PROSTHESES ACETABULAR INSERTS" ]
+       ] [
+         fhir:code [ fhir:v "P0908030401" ] ;
+         fhir:display [ fhir:v "HIP PROSTHESES POLYETHYLENE ACETABULAR INSERTS" ]
+       ] [
+         fhir:code [ fhir:v "P090803040101" ] ;
+         fhir:display [ fhir:v "STANDARD POLYETHYLENE HIP PROSTHESES INSERTS" ]
+       ] [
+         fhir:code [ fhir:v "P090803040102" ] ;
+         fhir:display [ fhir:v "ECCENTRIC POLYETHYLENE HIP PROSTHESES INSERTS" ]
+       ] [
+         fhir:code [ fhir:v "P090803040103" ] ;
+         fhir:display [ fhir:v "RETENTIVE POLYETHYLENE HIP PROSTHESES INSERTS, ANTI-DISLOCATION" ]
+       ] [
+         fhir:code [ fhir:v "P0908030402" ] ;
+         fhir:display [ fhir:v "HIP PROSTHESES CERAMIC ACETABULAR INSERTS" ]
+       ] [
+         fhir:code [ fhir:v "P0908030403" ] ;
+         fhir:display [ fhir:v "HIP PROSTHESES METAL ACETABULAR INSERTS" ]
+       ] [
+         fhir:code [ fhir:v "P0908030499" ] ;
+         fhir:display [ fhir:v "HIP PROSTHESES ACETABULAR INSERTS - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P09080305" ] ;
+         fhir:display [ fhir:v "DUAL-MOBILITY ACETABULAR COMPONENTS" ]
+       ] [
+         fhir:code [ fhir:v "P0908030501" ] ;
+         fhir:display [ fhir:v "DOUBLE-MOBILITY ACETABULAR CUPS" ]
+       ] [
+         fhir:code [ fhir:v "P090803050101" ] ;
+         fhir:display [ fhir:v "CEMENTED DOUBLE-MOBILITY ACETABULAR CUPS" ]
+       ] [
+         fhir:code [ fhir:v "P090803050102" ] ;
+         fhir:display [ fhir:v "UNCEMENTED DOUBLE-MOBILITY ACETABULAR CUPS" ]
+       ] [
+         fhir:code [ fhir:v "P0908030502" ] ;
+         fhir:display [ fhir:v "DOUBLE-MOBILITY ACETABULAR COMPONENTS INSERTS" ]
+       ] [
+         fhir:code [ fhir:v "P09080306" ] ;
+         fhir:display [ fhir:v "PRE-ASSEMBLED ACETABULAR COMPONENTS (ACETABULAR CUP + INSERT)" ]
+       ] [
+         fhir:code [ fhir:v "P0908030601" ] ;
+         fhir:display [ fhir:v "PRE-ASSEMBLED ACETABULAR COMPONENTS WITH CERAMIC INSERT" ]
+       ] [
+         fhir:code [ fhir:v "P0908030602" ] ;
+         fhir:display [ fhir:v "PRE-ASSEMBLED ACETABULAR COMPONENTS WITH POLYETHYLENE INSERTS" ]
+       ] [
+         fhir:code [ fhir:v "P0908030699" ] ;
+         fhir:display [ fhir:v "PRE-ASSEMBLED ACETABULAR COMPONENTS - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P090804" ] ;
+         fhir:display [ fhir:v "HIP PROSTHESES FEMORAL COMPONENTS" ]
+       ] [
+         fhir:code [ fhir:v "P09080401" ] ;
+         fhir:display [ fhir:v "PRIMARY IMPLANT FEMORAL STEMS" ]
+       ] [
+         fhir:code [ fhir:v "P0908040101" ] ;
+         fhir:display [ fhir:v "PRIMARY IMPLANT CEMENTED FEMORAL STEMS" ]
+       ] [
+         fhir:code [ fhir:v "P090804010101" ] ;
+         fhir:display [ fhir:v "CEMENTED FEMORAL STEMS FOR PRIMARY IMPLANT, WITH FIXED NECK, STRAIGHT" ]
+       ] [
+         fhir:code [ fhir:v "P090804010102" ] ;
+         fhir:display [ fhir:v "CEMENTED FEMORAL STEMS FOR PRIMARY IMPLANT, WITH FIXED NECK, ANATOMICAL" ]
+       ] [
+         fhir:code [ fhir:v "P090804010105" ] ;
+         fhir:display [ fhir:v "CEMENTED FEMORAL STEMS FOR PRIMARY IMPLANT, WITH FIXED NECK, FOR PRESERVATION" ]
+       ] [
+         fhir:code [ fhir:v "P090804010106" ] ;
+         fhir:display [ fhir:v "CEMENTED FEMORAL STEMS FOR PRIMARY IMPLANT, WITH MODULAR NECK, STRAIGHT" ]
+       ] [
+         fhir:code [ fhir:v "P090804010107" ] ;
+         fhir:display [ fhir:v "CEMENTED FEMORAL STEMS FOR PRIMARY IMPLANT, WITH MODULAR NECK, ANATOMICAL" ]
+       ] [
+         fhir:code [ fhir:v "P0908040102" ] ;
+         fhir:display [ fhir:v "PRIMARY IMPLANT UNCEMENTED FEMORAL STEMS" ]
+       ] [
+         fhir:code [ fhir:v "P090804010201" ] ;
+         fhir:display [ fhir:v "UNCEMENTED FEMORAL STEMS FOR PRIMARY IMPLANT, WITH FIXED NECK, STRAIGHT" ]
+       ] [
+         fhir:code [ fhir:v "P090804010202" ] ;
+         fhir:display [ fhir:v "UNCEMENTED FEMORAL STEMS FOR PRIMARY IMPLANT, WITH FIXED NECK, ANATOMICAL" ]
+       ] [
+         fhir:code [ fhir:v "P090804010205" ] ;
+         fhir:display [ fhir:v "UNCEMENTED FEMORAL STEMS FOR PRIMARY IMPLANT, WITH FIXED NECK, FOR PRESERVATION" ]
+       ] [
+         fhir:code [ fhir:v "P090804010206" ] ;
+         fhir:display [ fhir:v "UNCEMENTED FEMORAL STEMS FOR PRIMARY IMPLANT, WITH MODULAR NECK, STRAIGHT" ]
+       ] [
+         fhir:code [ fhir:v "P090804010207" ] ;
+         fhir:display [ fhir:v "UNCEMENTED FEMORAL STEMS FOR PRIMARY IMPLANT, WITH MODULAR NECK, ANATOMICAL" ]
+       ] [
+         fhir:code [ fhir:v "P09080402" ] ;
+         fhir:display [ fhir:v "HIP RESURFACING FEMORAL COMPONENTS" ]
+       ] [
+         fhir:code [ fhir:v "P09080403" ] ;
+         fhir:display [ fhir:v "REVISION SURGERY FEMORAL STEMS" ]
+       ] [
+         fhir:code [ fhir:v "P0908040301" ] ;
+         fhir:display [ fhir:v "REVISION SURGERY CEMENTED FEMORAL STEMS" ]
+       ] [
+         fhir:code [ fhir:v "P090804030101" ] ;
+         fhir:display [ fhir:v "REVISION CEMENTED FEMORAL STEMS, WITH FIXED NECK" ]
+       ] [
+         fhir:code [ fhir:v "P090804030102" ] ;
+         fhir:display [ fhir:v "REVISION CEMENTED FEMORAL STEMS, WITH MODULAR NECK" ]
+       ] [
+         fhir:code [ fhir:v "P0908040302" ] ;
+         fhir:display [ fhir:v "REVISION UNCEMENTED FEMORAL STEMS" ]
+       ] [
+         fhir:code [ fhir:v "P090804030201" ] ;
+         fhir:display [ fhir:v "REVISION UNCEMENTED FEMORAL STEMS, WITH FIXED NECK" ]
+       ] [
+         fhir:code [ fhir:v "P090804030202" ] ;
+         fhir:display [ fhir:v "REVISION UNCEMENTED FEMORAL STEMS, WITH MODULAR NECK" ]
+       ] [
+         fhir:code [ fhir:v "P09080404" ] ;
+         fhir:display [ fhir:v "LARGE RESECTIONS FEMORAL STEMS" ]
+       ] [
+         fhir:code [ fhir:v "P09080405" ] ;
+         fhir:display [ fhir:v "FEMORAL HEADS" ]
+       ] [
+         fhir:code [ fhir:v "P0908040501" ] ;
+         fhir:display [ fhir:v "FEMORAL HEADS FOR PRIMARY IMPLANT OF PARTIAL PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P090804050101" ] ;
+         fhir:display [ fhir:v "CERAMIC FEMORAL HEADS, PARTIAL HIP REPLACEMENT" ]
+       ] [
+         fhir:code [ fhir:v "P090804050102" ] ;
+         fhir:display [ fhir:v "METAL FEMORAL HEADS, PARTIAL HIP REPLACEMENT" ]
+       ] [
+         fhir:code [ fhir:v "P090804050199" ] ;
+         fhir:display [ fhir:v "FEMORAL HEADS FOR PRIMARY IMPLANT OF PARTIAL PROSTHESES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P0908040502" ] ;
+         fhir:display [ fhir:v "FEMORAL HEADS FOR PRIMARY IMPLANT OF TOTAL PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P090804050201" ] ;
+         fhir:display [ fhir:v "CERAMIC FEMORAL HEADS, TOTAL HIP REPLACEMENT" ]
+       ] [
+         fhir:code [ fhir:v "P090804050202" ] ;
+         fhir:display [ fhir:v "METAL FEMORAL HEADS, TOTAL HIP REPLACEMENT" ]
+       ] [
+         fhir:code [ fhir:v "P090804050299" ] ;
+         fhir:display [ fhir:v "FEMORAL HEADS FOR PRIMARY IMPLANT OF TOTAL PROSTHESES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P0908040503" ] ;
+         fhir:display [ fhir:v "HIP PROSTHESES, BI-ARTICULAR CUPS" ]
+       ] [
+         fhir:code [ fhir:v "P0908040504" ] ;
+         fhir:display [ fhir:v "REVISION FEMORAL HEADS" ]
+       ] [
+         fhir:code [ fhir:v "P09080406" ] ;
+         fhir:display [ fhir:v "ONE-PIECE FEMORAL PROSTHESES (STEM+HEAD)" ]
+       ] [
+         fhir:code [ fhir:v "P09080407" ] ;
+         fhir:display [ fhir:v "MODULAR NECKS" ]
+       ] [
+         fhir:code [ fhir:v "P090805" ] ;
+         fhir:display [ fhir:v "HIP PROSTHESES SPACERS" ]
+       ] [
+         fhir:code [ fhir:v "P090880" ] ;
+         fhir:display [ fhir:v "HIP PROSTHESES - ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "P09088001" ] ;
+         fhir:display [ fhir:v "ACETABULAR RINGS" ]
+       ] [
+         fhir:code [ fhir:v "P09088002" ] ;
+         fhir:display [ fhir:v "ACETABULAR MESHES" ]
+       ] [
+         fhir:code [ fhir:v "P09088003" ] ;
+         fhir:display [ fhir:v "HIP PROSTHESES AUGMENTS" ]
+       ] [
+         fhir:code [ fhir:v "P09088004" ] ;
+         fhir:display [ fhir:v "HIP PROSTHESES ADAPTERS (INCLUDING CONES AND SLEEVES)" ]
+       ] [
+         fhir:code [ fhir:v "P09088005" ] ;
+         fhir:display [ fhir:v "HIP PROSTHESES CENTRALIZERS" ]
+       ] [
+         fhir:code [ fhir:v "P09088006" ] ;
+         fhir:display [ fhir:v "FEMORAL INTRAMEDULLARY CAPS" ]
+       ] [
+         fhir:code [ fhir:v "P09088007" ] ;
+         fhir:display [ fhir:v "HIP PROSTHESES FIXING SCREWS" ]
+       ] [
+         fhir:code [ fhir:v "P09088099" ] ;
+         fhir:display [ fhir:v "HIP PROSTHESES - OTHER ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "P090899" ] ;
+         fhir:display [ fhir:v "HIP PROSTHESES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P0909" ] ;
+         fhir:display [ fhir:v "KNEE PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P090903" ] ;
+         fhir:display [ fhir:v "BICOMPARTMENTAL PRIMARY IMPLANT KNEE PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P09090301" ] ;
+         fhir:display [ fhir:v "BICOMPARTMENTAL PRIMARY IMPLANT FEMORAL COMPONENTS" ]
+       ] [
+         fhir:code [ fhir:v "P0909030101" ] ;
+         fhir:display [ fhir:v "BICOMPARTMENTAL PRIMARY IMPLANT CEMENTED FEMORAL COMPONENTS" ]
+       ] [
+         fhir:code [ fhir:v "P0909030102" ] ;
+         fhir:display [ fhir:v "BICOMPARTMENTAL PRIMARY IMPLANT UNCEMENTED FEMORAL COMPONENTS" ]
+       ] [
+         fhir:code [ fhir:v "P0909030103" ] ;
+         fhir:display [ fhir:v "BICOMPARTMENTAL PRIMARY IMPLANT CEMENTABLE FEMORAL COMPONENTS" ]
+       ] [
+         fhir:code [ fhir:v "P09090302" ] ;
+         fhir:display [ fhir:v "BICOMPARTMENTAL PRIMARY IMPLANT TIBIAL COMPONENTS" ]
+       ] [
+         fhir:code [ fhir:v "P0909030201" ] ;
+         fhir:display [ fhir:v "BICOMPARTMENTAL PRIMARY IMPLANT TIBIAL PLATES" ]
+       ] [
+         fhir:code [ fhir:v "P090903020101" ] ;
+         fhir:display [ fhir:v "BICOMPARTMENTAL PRIMARY IMPLANT CEMENTED MOBILE BEARING TIBIAL PLATES" ]
+       ] [
+         fhir:code [ fhir:v "P090903020102" ] ;
+         fhir:display [ fhir:v "BICOMPARTMENTAL PRIMARY IMPLANT UNCEMENTED MOBILE BEARING TIBIAL PLATES" ]
+       ] [
+         fhir:code [ fhir:v "P090903020103" ] ;
+         fhir:display [ fhir:v "BICOMPARTMENTAL PRIMARY IMPLANT CEMENTABLE MOBILE BEARING TIBIAL PLATES" ]
+       ] [
+         fhir:code [ fhir:v "P090903020104" ] ;
+         fhir:display [ fhir:v "BICOMPARTMENTAL PRIMARY IMPLANT CEMENTED FIXED BEARING TIBIAL PLATES" ]
+       ] [
+         fhir:code [ fhir:v "P090903020105" ] ;
+         fhir:display [ fhir:v "BICOMPARTMENTAL PRIMARY IMPLANT UNCEMENTED FIXED BEARING TIBIAL PLATES" ]
+       ] [
+         fhir:code [ fhir:v "P090903020106" ] ;
+         fhir:display [ fhir:v "BICOMPARTMENTAL PRIMARY IMPLANT CEMENTABLE FIXED BEARING TIBIAL PLATES" ]
+       ] [
+         fhir:code [ fhir:v "P0909030202" ] ;
+         fhir:display [ fhir:v "BICOMPARTMENTAL PRIMARY IMPLANT TIBIAL INSERTS" ]
+       ] [
+         fhir:code [ fhir:v "P090903020201" ] ;
+         fhir:display [ fhir:v "BICOMPARTMENTAL PRIMARY IMPLANT MOBILE BEARING TIBIAL INSERTS" ]
+       ] [
+         fhir:code [ fhir:v "P090903020202" ] ;
+         fhir:display [ fhir:v "BICOMPARTMENTAL PRIMARY IMPLANT FIXED BEARING TIBIAL INSERTS" ]
+       ] [
+         fhir:code [ fhir:v "P0909030203" ] ;
+         fhir:display [ fhir:v "BICOMPARTMENTAL PRIMARY IMPLANT TIBIAL COMPONENTS, MONOBLOCK" ]
+       ] [
+         fhir:code [ fhir:v "P090903020301" ] ;
+         fhir:display [ fhir:v "BICOMPARTMENTAL PRIMARY IMPLANT TIBIAL COMPONENTS, MONOBLOCK MADE OF POLYETHYLENE" ]
+       ] [
+         fhir:code [ fhir:v "P090903020399" ] ;
+         fhir:display [ fhir:v "BICOMPARTMENTAL PRIMARY IMPLANT TIBIAL COMPONENTS, MONOBLOCK - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P090904" ] ;
+         fhir:display [ fhir:v "UNICOMPARTMENTAL KNEE PROSTHESES (UNICONDYLAR)" ]
+       ] [
+         fhir:code [ fhir:v "P09090401" ] ;
+         fhir:display [ fhir:v "UNICOMPARTMENTAL KNEE PROSTHESES FEMORAL COMPONENTS (UNICONDYLAR)" ]
+       ] [
+         fhir:code [ fhir:v "P0909040101" ] ;
+         fhir:display [ fhir:v "UNICOMPARTMENTAL KNEE PROSTHESES FEMORAL COMPONENTS (UNICONDYLAR), CEMENTED" ]
+       ] [
+         fhir:code [ fhir:v "P0909040102" ] ;
+         fhir:display [ fhir:v "UNICOMPARTMENTAL KNEE PROSTHESES FEMORAL COMPONENTS (UNICONDYLAR), UNCEMENTED" ]
+       ] [
+         fhir:code [ fhir:v "P09090402" ] ;
+         fhir:display [ fhir:v "UNICOMPARTMENTAL KNEE PROSTHESES TIBIAL COMPONENTS" ]
+       ] [
+         fhir:code [ fhir:v "P0909040201" ] ;
+         fhir:display [ fhir:v "UNICOMPARTMENTAL KNEE PROSTHESES TIBIAL PLATES" ]
+       ] [
+         fhir:code [ fhir:v "P090904020101" ] ;
+         fhir:display [ fhir:v "MOBILE CEMENTED UNICOMPARTMENTAL PRIMARY IMPLANT TIBIAL PLATES" ]
+       ] [
+         fhir:code [ fhir:v "P090904020102" ] ;
+         fhir:display [ fhir:v "MOBILE UNCEMENTED UNICOMPARTMENTAL PRIMARY IMPLANT TIBIAL PLATES" ]
+       ] [
+         fhir:code [ fhir:v "P090904020103" ] ;
+         fhir:display [ fhir:v "FIXED CEMENTED UNICOMPARTMENTAL PRIMARY IMPLANT TIBIAL PLATES" ]
+       ] [
+         fhir:code [ fhir:v "P090904020104" ] ;
+         fhir:display [ fhir:v "FIXED UNCEMENTED UNICOMPARTMENTAL PRIMARY IMPLANT TIBIAL PLATES" ]
+       ] [
+         fhir:code [ fhir:v "P0909040202" ] ;
+         fhir:display [ fhir:v "UNICOMPARTMENTAL KNEE REPLACEMENT TIBIAL INSERTS" ]
+       ] [
+         fhir:code [ fhir:v "P090904020201" ] ;
+         fhir:display [ fhir:v "MOBILE UNICOMPARTMENTAL KNEE PROSTHESES TIBIAL INSERTS" ]
+       ] [
+         fhir:code [ fhir:v "P090904020202" ] ;
+         fhir:display [ fhir:v "UNICOMPARTMENTAL KNEE PROSTHESES TIBIAL INSERTS, FIXED" ]
+       ] [
+         fhir:code [ fhir:v "P0909040203" ] ;
+         fhir:display [ fhir:v "PRE-ASSEMBLED UNICOMPARTMENTAL KNEE PROSTHESES TIBIAL COMPONENTS (INSERT + TIBIAL PLATE)" ]
+       ] [
+         fhir:code [ fhir:v "P090904020301" ] ;
+         fhir:display [ fhir:v "KNEE PROSTHESES TIBIAL COMPONENTS, PREASSEMBLED, CEMENTED" ]
+       ] [
+         fhir:code [ fhir:v "P090904020302" ] ;
+         fhir:display [ fhir:v "UNICOMPARTMENTAL KNEE PROSTHESES TIBIAL COMPONENTS, PREASSEMBLED, UNCEMENTED" ]
+       ] [
+         fhir:code [ fhir:v "P0909040204" ] ;
+         fhir:display [ fhir:v "UNICOMPARTMENTAL KNEE PROSTHESES TIBIAL COMPONENTS, MONOBLOCK" ]
+       ] [
+         fhir:code [ fhir:v "P090904020401" ] ;
+         fhir:display [ fhir:v "UNICOMPARTMENTAL KNEE PROSTHESES TIBIAL COMPONENTS, MONOBLOCK, MADE OF POLYETHYLENE" ]
+       ] [
+         fhir:code [ fhir:v "P090904020499" ] ;
+         fhir:display [ fhir:v "UNICOMPARTMENTAL KNEE PROSTHESES TIBIAL COMPONENTS, MONOBLOCK - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P090905" ] ;
+         fhir:display [ fhir:v "REVISION KNEE PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P09090501" ] ;
+         fhir:display [ fhir:v "REVISION KNEE PROSTHESES FEMORAL COMPONENTS" ]
+       ] [
+         fhir:code [ fhir:v "P09090502" ] ;
+         fhir:display [ fhir:v "REVISION KNEE PROSTHESES TIBIAL COMPONENTS" ]
+       ] [
+         fhir:code [ fhir:v "P0909050201" ] ;
+         fhir:display [ fhir:v "REVISION KNEE PROSTHESES TIBIAL PLATES" ]
+       ] [
+         fhir:code [ fhir:v "P090905020101" ] ;
+         fhir:display [ fhir:v "REVISION KNEE PROSTHESES MOBILE BEARING TIBIAL PLATES" ]
+       ] [
+         fhir:code [ fhir:v "P090905020102" ] ;
+         fhir:display [ fhir:v "REVISION KNEE PROSTHESES FIXED BEARING TIBIAL PLATES" ]
+       ] [
+         fhir:code [ fhir:v "P0909050202" ] ;
+         fhir:display [ fhir:v "REVISION KNEE PROSTHESES TIBIAL INSERTS" ]
+       ] [
+         fhir:code [ fhir:v "P090905020201" ] ;
+         fhir:display [ fhir:v "REVISION KNEE PROSTHESES MOBILE BEARING TIBIAL INSERTS" ]
+       ] [
+         fhir:code [ fhir:v "P090905020202" ] ;
+         fhir:display [ fhir:v "REVISION KNEE PROSTHESES FIXED BEARING TIBIAL INSERTS" ]
+       ] [
+         fhir:code [ fhir:v "P090906" ] ;
+         fhir:display [ fhir:v "KNEE PROSTHESES FOR LARGE RESECTIONS" ]
+       ] [
+         fhir:code [ fhir:v "P090907" ] ;
+         fhir:display [ fhir:v "PATELLO-FEMORAL KNEE PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P09090701" ] ;
+         fhir:display [ fhir:v "FEMORAL TROCHLEA RESURFACING COMPONENTS" ]
+       ] [
+         fhir:code [ fhir:v "P09090702" ] ;
+         fhir:display [ fhir:v "PATELLAR COMPONENTS" ]
+       ] [
+         fhir:code [ fhir:v "P0909070201" ] ;
+         fhir:display [ fhir:v "PATELLAR COMPONENTS, MONOBLOCK" ]
+       ] [
+         fhir:code [ fhir:v "P0909070202" ] ;
+         fhir:display [ fhir:v "PATELLAR COMPONENTS, MODULAR" ]
+       ] [
+         fhir:code [ fhir:v "P090908" ] ;
+         fhir:display [ fhir:v "KNEE PROSTHESES SPACERS" ]
+       ] [
+         fhir:code [ fhir:v "P090980" ] ;
+         fhir:display [ fhir:v "KNEE PROSTHESES - ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "P09098001" ] ;
+         fhir:display [ fhir:v "KNEE PROSTHESES AUGMENTS" ]
+       ] [
+         fhir:code [ fhir:v "P09098002" ] ;
+         fhir:display [ fhir:v "KNEE PROSTHESES ADAPTERS (INCLUDING CONES AND SLEEVES)" ]
+       ] [
+         fhir:code [ fhir:v "P09098003" ] ;
+         fhir:display [ fhir:v "KNEE PROSTHESES OBTURATORS AND PLUGS" ]
+       ] [
+         fhir:code [ fhir:v "P09098004" ] ;
+         fhir:display [ fhir:v "KNEE PROSTHESES CENTRALISERS" ]
+       ] [
+         fhir:code [ fhir:v "P09098006" ] ;
+         fhir:display [ fhir:v "KNEE PROSTHESES STEMS" ]
+       ] [
+         fhir:code [ fhir:v "P0909800601" ] ;
+         fhir:display [ fhir:v "KNEE PROSTHESES FEMORAL STEMS" ]
+       ] [
+         fhir:code [ fhir:v "P0909800602" ] ;
+         fhir:display [ fhir:v "KNEE PROSTHESES TIBIAL STEMS" ]
+       ] [
+         fhir:code [ fhir:v "P09098099" ] ;
+         fhir:display [ fhir:v "KNEE PROSTHESES - ACCESSORIES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P090999" ] ;
+         fhir:display [ fhir:v "KNEE PROSTHESES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P0910" ] ;
+         fhir:display [ fhir:v "LIGAMENT PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P0912" ] ;
+         fhir:display [ fhir:v "OSTEOSYNTHESIS DEVICES, DEVICES FOR TENDON AND LIGAMENT SYNTHESIS" ]
+       ] [
+         fhir:code [ fhir:v "P091201" ] ;
+         fhir:display [ fhir:v "OSTEOSYNTHESIS STAPLES AND ANCHORS" ]
+       ] [
+         fhir:code [ fhir:v "P09120101" ] ;
+         fhir:display [ fhir:v "OSTEOSYNTHESIS STAPLES" ]
+       ] [
+         fhir:code [ fhir:v "P09120102" ] ;
+         fhir:display [ fhir:v "ANCHORS, TENDON AND LIGAMENT SYNTHESIS" ]
+       ] [
+         fhir:code [ fhir:v "P091202" ] ;
+         fhir:display [ fhir:v "BONE FIXATION NAILS" ]
+       ] [
+         fhir:code [ fhir:v "P09120201" ] ;
+         fhir:display [ fhir:v "INTRAMEDULLARY NAILS" ]
+       ] [
+         fhir:code [ fhir:v "P09120202" ] ;
+         fhir:display [ fhir:v "INTRAMEDULLARY NAILS IN COMPLEX SYSTEMS" ]
+       ] [
+         fhir:code [ fhir:v "P09120299" ] ;
+         fhir:display [ fhir:v "OSTEOSYNTHESIS NAILS - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P091203" ] ;
+         fhir:display [ fhir:v "BONE FIXATION WIRES" ]
+       ] [
+         fhir:code [ fhir:v "P09120301" ] ;
+         fhir:display [ fhir:v "KIRSCHNER BONE WIRES" ]
+       ] [
+         fhir:code [ fhir:v "P09120302" ] ;
+         fhir:display [ fhir:v "CERCLAGE DEVICES, WIRES AND BINDERS" ]
+       ] [
+         fhir:code [ fhir:v "P09120399" ] ;
+         fhir:display [ fhir:v "BONE FIXATION WIRES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P091204" ] ;
+         fhir:display [ fhir:v "EXTERNAL BONE FIXATION SYSTEMS" ]
+       ] [
+         fhir:code [ fhir:v "P09120401" ] ;
+         fhir:display [ fhir:v "BONE FIXATION SYSTEMS" ]
+       ] [
+         fhir:code [ fhir:v "P0912040101" ] ;
+         fhir:display [ fhir:v "RADIAL BONE FIXATION SYSTEMS" ]
+       ] [
+         fhir:code [ fhir:v "P0912040102" ] ;
+         fhir:display [ fhir:v "AXIAL BONE FIXATION SYSTEMS" ]
+       ] [
+         fhir:code [ fhir:v "P09120402" ] ;
+         fhir:display [ fhir:v "SCREWS" ]
+       ] [
+         fhir:code [ fhir:v "P09120403" ] ;
+         fhir:display [ fhir:v "OSTEOSYNTHESIS DISTRACTORS" ]
+       ] [
+         fhir:code [ fhir:v "P09120499" ] ;
+         fhir:display [ fhir:v "EXTERNAL BONE FIXATION SYSTEMS - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P091205" ] ;
+         fhir:display [ fhir:v "BONE FIXATION PLATES" ]
+       ] [
+         fhir:code [ fhir:v "P09120501" ] ;
+         fhir:display [ fhir:v "OSTEOSYNTHESIS COMPRESSION PLATES" ]
+       ] [
+         fhir:code [ fhir:v "P09120502" ] ;
+         fhir:display [ fhir:v "OSTEOSYNTHESIS NEUTRALISATION AND SUPPORT PLATES" ]
+       ] [
+         fhir:code [ fhir:v "P09120503" ] ;
+         fhir:display [ fhir:v "OSTEOSYNTHESIS SCREW-PLATE SYSTEMS" ]
+       ] [
+         fhir:code [ fhir:v "P09120504" ] ;
+         fhir:display [ fhir:v "OSTEOSYNTHESIS BLADE-PLATE SYSTEMS" ]
+       ] [
+         fhir:code [ fhir:v "P09120599" ] ;
+         fhir:display [ fhir:v "BONE FIXATION PLATES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P091206" ] ;
+         fhir:display [ fhir:v "BONE FIXATION SCREWS, TENDON AND LIGAMENT SYNTHESIS SCREWS" ]
+       ] [
+         fhir:code [ fhir:v "P09120601" ] ;
+         fhir:display [ fhir:v "CORTICAL SCREWS" ]
+       ] [
+         fhir:code [ fhir:v "P09120602" ] ;
+         fhir:display [ fhir:v "CANCELLOUS SCREWS" ]
+       ] [
+         fhir:code [ fhir:v "P09120603" ] ;
+         fhir:display [ fhir:v "CANNULATED SCREWS" ]
+       ] [
+         fhir:code [ fhir:v "P09120604" ] ;
+         fhir:display [ fhir:v "OSTEOSYNTHESIS NAIL-SCREW SYSTEMS" ]
+       ] [
+         fhir:code [ fhir:v "P09120605" ] ;
+         fhir:display [ fhir:v "INTERFERENCE SCREWS" ]
+       ] [
+         fhir:code [ fhir:v "P09120606" ] ;
+         fhir:display [ fhir:v "OSTEOSYNTHESIS DEVICES, BIODEGRADABLE SCREWS AND BARS" ]
+       ] [
+         fhir:code [ fhir:v "P09120699" ] ;
+         fhir:display [ fhir:v "BONE FIXATION SCREWS, TENDON AND LIGAMENT SYNTHESIS SCREWS - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P091280" ] ;
+         fhir:display [ fhir:v "OSTEOSYNTHESIS DEVICES, DEVICES FOR TENDON AND LIGAMENT SYNTHESIS - ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "P091299" ] ;
+         fhir:display [ fhir:v "OSTEOSYNTHESIS DEVICES, DEVICES FOR TENDON AND LIGAMENT SYNTHESIS - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P0913" ] ;
+         fhir:display [ fhir:v "ORTHOPAEDIC IMPLANT INSTRUMENTS, SINGLE-USE" ]
+       ] [
+         fhir:code [ fhir:v "P091301" ] ;
+         fhir:display [ fhir:v "ORTHOPAEDIC IMPLANT REAMERS, SINGLE-USE" ]
+       ] [
+         fhir:code [ fhir:v "P091302" ] ;
+         fhir:display [ fhir:v "ORTHOPAEDIC IMPLANT BLADES, SINGLE-USE" ]
+       ] [
+         fhir:code [ fhir:v "P091303" ] ;
+         fhir:display [ fhir:v "ORTHOPAEDIC IMPLANT DRILL BITS, SINGLE-USE" ]
+       ] [
+         fhir:code [ fhir:v "P091304" ] ;
+         fhir:display [ fhir:v "CRANIAL PERFORATORS, SINGLE-USE" ]
+       ] [
+         fhir:code [ fhir:v "P091305" ] ;
+         fhir:display [ fhir:v "BONE SAWS, SINGLE-USE" ]
+       ] [
+         fhir:code [ fhir:v "P091399" ] ;
+         fhir:display [ fhir:v "ORTHOPAEDIC IMPLANT INSTRUMENTS, SINGLE-USE - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P0990" ] ;
+         fhir:display [ fhir:v "ORTHOPAEDIC PROSTHESES - VARIOUS" ]
+       ] [
+         fhir:code [ fhir:v "P099001" ] ;
+         fhir:display [ fhir:v "ORTHOPAEDIC PROSTHESES CEMENTS AND ACCESSORIES FOR MIXING" ]
+       ] [
+         fhir:code [ fhir:v "P099002" ] ;
+         fhir:display [ fhir:v "ORTHOPAEDIC CEMENT PREPARATION AND APPLICATION DEVICES AND KITS" ]
+       ] [
+         fhir:code [ fhir:v "P099003" ] ;
+         fhir:display [ fhir:v "ORTHOPAEDIC PROSTHESES FIXING ELEMENTS - NOT OTHERWISE CLASSIFIED" ]
+       ] [
+         fhir:code [ fhir:v "P0999" ] ;
+         fhir:display [ fhir:v "ORTHOPAEDIC PROSTHESES, OSTEOSYNTHESIS DEVICES, DEVICES FOR TENDON AND LIGAMENT SYNTHESIS - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P10" ] ;
+         fhir:display [ fhir:v "EXTRA-VASCULAR SUPPORT PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P1001" ] ;
+         fhir:display [ fhir:v "LOWER LIMB EXTRAVENOUS VALVE SUPPORT PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "P1002" ] ;
+         fhir:display [ fhir:v "CORONARY BYPASS EXTRAVENOUS SUPPORTS" ]
+       ] [
+         fhir:code [ fhir:v "P1099" ] ;
+         fhir:display [ fhir:v "EXTRAVASCULAR SUPPORT PROSTHESES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P90" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE PROSTHETIC AND OSTEOSYNTHESIS DEVICES - VARIOUS" ]
+       ] [
+         fhir:code [ fhir:v "P9001" ] ;
+         fhir:display [ fhir:v "TEMPORARY TISSUE EXPANDERS" ]
+       ] [
+         fhir:code [ fhir:v "P900101" ] ;
+         fhir:display [ fhir:v "CYLINDRICAL TISSUE EXPANDERS" ]
+       ] [
+         fhir:code [ fhir:v "P900102" ] ;
+         fhir:display [ fhir:v "ELLIPTICAL TISSUE EXPANDERS" ]
+       ] [
+         fhir:code [ fhir:v "P900103" ] ;
+         fhir:display [ fhir:v "BREAST TISSUE EXPANDERS" ]
+       ] [
+         fhir:code [ fhir:v "P900104" ] ;
+         fhir:display [ fhir:v "RECTANGULAR TISSUE EXPANDERS" ]
+       ] [
+         fhir:code [ fhir:v "P900105" ] ;
+         fhir:display [ fhir:v "ROUND TISSUE EXPANDERS" ]
+       ] [
+         fhir:code [ fhir:v "P900106" ] ;
+         fhir:display [ fhir:v "SEMILUNAR OR CRESCENT TISSUE EXPANDERS" ]
+       ] [
+         fhir:code [ fhir:v "P900199" ] ;
+         fhir:display [ fhir:v "TISSUE EXPANDERS - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P9002" ] ;
+         fhir:display [ fhir:v "SURGICAL MESHES" ]
+       ] [
+         fhir:code [ fhir:v "P900201" ] ;
+         fhir:display [ fhir:v "POLYGLYCOLIC ACID AND ASSOCIATIONS MESHES" ]
+       ] [
+         fhir:code [ fhir:v "P900202" ] ;
+         fhir:display [ fhir:v "POLYPROPYLENE SURGICAL MESHES" ]
+       ] [
+         fhir:code [ fhir:v "P900203" ] ;
+         fhir:display [ fhir:v "PTFE SURGICAL MESHES" ]
+       ] [
+         fhir:code [ fhir:v "P900204" ] ;
+         fhir:display [ fhir:v "SURGICAL MESHES, MORE THAN ONE COMPONENT" ]
+       ] [
+         fhir:code [ fhir:v "P900205" ] ;
+         fhir:display [ fhir:v "POLYESTER SURGICAL MESHES" ]
+       ] [
+         fhir:code [ fhir:v "P900206" ] ;
+         fhir:display [ fhir:v "METALLIC SURGICAL MESHES" ]
+       ] [
+         fhir:code [ fhir:v "P900299" ] ;
+         fhir:display [ fhir:v "SURGICAL MESHES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P9003" ] ;
+         fhir:display [ fhir:v "TISSUE PATCHES" ]
+       ] [
+         fhir:code [ fhir:v "P900301" ] ;
+         fhir:display [ fhir:v "PTFE TISSUE PATCHES" ]
+       ] [
+         fhir:code [ fhir:v "P900302" ] ;
+         fhir:display [ fhir:v "POLYESTER TISSUE PATCHES" ]
+       ] [
+         fhir:code [ fhir:v "P900399" ] ;
+         fhir:display [ fhir:v "TISSUE PATCHES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "P9004" ] ;
+         fhir:display [ fhir:v "STRUCTURES FILLING, REPLACEMENT AND RECONSTRUCTION DEVICES" ]
+       ] [
+         fhir:code [ fhir:v "P900401" ] ;
+         fhir:display [ fhir:v "BONE AND TENDON REPLACEMENT DEVICES" ]
+       ] [
+         fhir:code [ fhir:v "P900402" ] ;
+         fhir:display [ fhir:v "RESORBABLE FILLING AND RECONSTRUCTION DEVICES" ]
+       ] [
+         fhir:code [ fhir:v "P900403" ] ;
+         fhir:display [ fhir:v "NON-RESORBABLE FILLING AND RECONSTRUCTION DEVICES" ]
+       ] [
+         fhir:code [ fhir:v "P900404" ] ;
+         fhir:display [ fhir:v "AUTOLOGOUS GRAFT SUPPORTS" ]
+       ] [
+         fhir:code [ fhir:v "P9099" ] ;
+         fhir:display [ fhir:v "IMPLANTABLE PROSTHETIC DEVICES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "Q010205" ] ;
+         fhir:display [ fhir:v "PRE-FORMED RESINS AND DENTAL CROWNS" ]
+       ] [
+         fhir:code [ fhir:v "Q01020501" ] ;
+         fhir:display [ fhir:v "DENTISTRY RESINS" ]
+       ] [
+         fhir:code [ fhir:v "Q0102050101" ] ;
+         fhir:display [ fhir:v "TEMPORARY TEETH RESINS" ]
+       ] [
+         fhir:code [ fhir:v "Q0102050102" ] ;
+         fhir:display [ fhir:v "DENTAL REBASING RESINS" ]
+       ] [
+         fhir:code [ fhir:v "Q0102050199" ] ;
+         fhir:display [ fhir:v "DENTISTRY RESINS - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "Q01020502" ] ;
+         fhir:display [ fhir:v "PRE-FORMED DENTAL CROWNS" ]
+       ] [
+         fhir:code [ fhir:v "Q010206" ] ;
+         fhir:display [ fhir:v "DENTAL PROSTHESES (FOR DENTAL IMPLANTS SEE P010201)" ]
+       ] [
+         fhir:code [ fhir:v "Q01020601" ] ;
+         fhir:display [ fhir:v "MOBILE DENTAL PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "Q01020602" ] ;
+         fhir:display [ fhir:v "COMBINED DENTAL PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "Q01020603" ] ;
+         fhir:display [ fhir:v "SKELETAL DENTAL PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "Q01020604" ] ;
+         fhir:display [ fhir:v "ORTHODONTIC DENTAL PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "Q01020605" ] ;
+         fhir:display [ fhir:v "TEMPORARY DENTAL PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "Q0104" ] ;
+         fhir:display [ fhir:v "ORTHODONTIC DEVICES" ]
+       ] [
+         fhir:code [ fhir:v "Q010401" ] ;
+         fhir:display [ fhir:v "ORTHODONTIC FACE BOWS" ]
+       ] [
+         fhir:code [ fhir:v "Q010402" ] ;
+         fhir:display [ fhir:v "ORTHODONTIC BANDS" ]
+       ] [
+         fhir:code [ fhir:v "Q010403" ] ;
+         fhir:display [ fhir:v "ORTHODONTIC BRACKETS AND BUTTONS" ]
+       ] [
+         fhir:code [ fhir:v "Q010404" ] ;
+         fhir:display [ fhir:v "ORTHODONTIC ELASTICS, CHAINS AND SPRINGS" ]
+       ] [
+         fhir:code [ fhir:v "Q010405" ] ;
+         fhir:display [ fhir:v "ORTHODONTIC WIRES" ]
+       ] [
+         fhir:code [ fhir:v "Q010406" ] ;
+         fhir:display [ fhir:v "ORTHODONTIC LIGATURES" ]
+       ] [
+         fhir:code [ fhir:v "Q010407" ] ;
+         fhir:display [ fhir:v "ORTHODONTIC CEMENTS" ]
+       ] [
+         fhir:code [ fhir:v "Q010499" ] ;
+         fhir:display [ fhir:v "ORTHODONTIC DEVICES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "Q0209" ] ;
+         fhir:display [ fhir:v "STRABISMUS DEVICES" ]
+       ] [
+         fhir:code [ fhir:v "Q0210" ] ;
+         fhir:display [ fhir:v "CORRECTIVE OPTICAL DEVICES" ]
+       ] [
+         fhir:code [ fhir:v "Q021001" ] ;
+         fhir:display [ fhir:v "OPHTHALMIC LENSES" ]
+       ] [
+         fhir:code [ fhir:v "Q02100101" ] ;
+         fhir:display [ fhir:v "ORGANIC OPHTHALMIC LENSES (PLASTIC MATERIALS)" ]
+       ] [
+         fhir:code [ fhir:v "Q0210010101" ] ;
+         fhir:display [ fhir:v "MONOFOCAL ORGANIC OPHTHALMIC LENSES" ]
+       ] [
+         fhir:code [ fhir:v "Q0210010102" ] ;
+         fhir:display [ fhir:v "MULTIFOCAL ORGANIC OPHTHALMIC LENSES (BIFOCAL, TRIFOCAL)" ]
+       ] [
+         fhir:code [ fhir:v "Q0210010103" ] ;
+         fhir:display [ fhir:v "PROGRESSIVE ORGANIC OPHTHALMIC LENSES" ]
+       ] [
+         fhir:code [ fhir:v "Q0210010199" ] ;
+         fhir:display [ fhir:v "ORGANIC OPHTHALMIC LENSES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "Q02100102" ] ;
+         fhir:display [ fhir:v "MINERAL OPHTHALMIC LENSES (GLASS)" ]
+       ] [
+         fhir:code [ fhir:v "Q0210010201" ] ;
+         fhir:display [ fhir:v "MONOFOCAL MINERAL OPHTHALMIC LENSES" ]
+       ] [
+         fhir:code [ fhir:v "Q0210010202" ] ;
+         fhir:display [ fhir:v "MULTIFOCAL MINERAL OPHTHALMIC LENSES (BIFOCAL, TRIFOCAL)" ]
+       ] [
+         fhir:code [ fhir:v "Q0210010203" ] ;
+         fhir:display [ fhir:v "PROGRESSIVE MINERAL OPHTHALMIC LENSES" ]
+       ] [
+         fhir:code [ fhir:v "Q0210010299" ] ;
+         fhir:display [ fhir:v "MINERAL OPHTHALMIC LENSES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "Q021002" ] ;
+         fhir:display [ fhir:v "SPECTACLE FRAMES WITHOUT LENSES" ]
+       ] [
+         fhir:code [ fhir:v "Q02100201" ] ;
+         fhir:display [ fhir:v "METAL SPECTACLE FRAMES WITHOUT LENSES" ]
+       ] [
+         fhir:code [ fhir:v "Q02100202" ] ;
+         fhir:display [ fhir:v "PLASTIC SPECTACLE FRAMES WITHOUT LENSES" ]
+       ] [
+         fhir:code [ fhir:v "Q02100203" ] ;
+         fhir:display [ fhir:v "METAL AND PLASTIC SPECTACLE FRAMES WITHOUT LENSES" ]
+       ] [
+         fhir:code [ fhir:v "Q02100299" ] ;
+         fhir:display [ fhir:v "SPECTACLE FRAMES WITHOUT LENSES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "Q021003" ] ;
+         fhir:display [ fhir:v "READY TO WEAR SPECTACLES" ]
+       ] [
+         fhir:code [ fhir:v "Q02100301" ] ;
+         fhir:display [ fhir:v "READY TO WEAR SPECTACLES WITH ORGANIC LENSES" ]
+       ] [
+         fhir:code [ fhir:v "Q0210030101" ] ;
+         fhir:display [ fhir:v "READY TO WEAR METAL SPECTACLES WITH ORGANIC LENSES" ]
+       ] [
+         fhir:code [ fhir:v "Q0210030102" ] ;
+         fhir:display [ fhir:v "READY TO WEAR PLASTIC SPECTACLES WITH ORGANIC LENSES" ]
+       ] [
+         fhir:code [ fhir:v "Q0210030103" ] ;
+         fhir:display [ fhir:v "READY TO WEAR METAL AND PLASTIC SPECTACLES WITH ORGANIC LENSES" ]
+       ] [
+         fhir:code [ fhir:v "Q0210030199" ] ;
+         fhir:display [ fhir:v "READY TO WEAR SPECTACLES WITH ORGANIC LENSES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "Q02100302" ] ;
+         fhir:display [ fhir:v "READY TO WEAR SPECTACLES WITH MINERAL LENSES" ]
+       ] [
+         fhir:code [ fhir:v "Q0210030201" ] ;
+         fhir:display [ fhir:v "READY TO WEAR METAL SPECTACLES WITH MINERAL LENSES" ]
+       ] [
+         fhir:code [ fhir:v "Q0210030202" ] ;
+         fhir:display [ fhir:v "READY TO WEAR PLASTIC SPECTACLES WITH MINERAL LENSES" ]
+       ] [
+         fhir:code [ fhir:v "Q0210030203" ] ;
+         fhir:display [ fhir:v "READY TO WEAR METAL AND PLASTIC SEPECTACLES WITH MINERAL LENSES" ]
+       ] [
+         fhir:code [ fhir:v "Q0210030299" ] ;
+         fhir:display [ fhir:v "READY TO WEAR SPECTACLES WITH MINERAL LENSES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "Q021004" ] ;
+         fhir:display [ fhir:v "CONTACT LENSES" ]
+       ] [
+         fhir:code [ fhir:v "Q02100401" ] ;
+         fhir:display [ fhir:v "CONTACT LENSES - HYDROGEL" ]
+       ] [
+         fhir:code [ fhir:v "Q0210040101" ] ;
+         fhir:display [ fhir:v "CONTACT LENSES - HYDROGEL, SINGLE-USE" ]
+       ] [
+         fhir:code [ fhir:v "Q021004010101" ] ;
+         fhir:display [ fhir:v "CONTACT LENSES - HYDROGEL, DAILY SINGLE-USE" ]
+       ] [
+         fhir:code [ fhir:v "Q021004010102" ] ;
+         fhir:display [ fhir:v "CONTACT LENSES - HYDROGEL, EXTENDED SINGLE-USE" ]
+       ] [
+         fhir:code [ fhir:v "Q0210040102" ] ;
+         fhir:display [ fhir:v "CONTACT LENSES - HYDROGEL, REUSABLE" ]
+       ] [
+         fhir:code [ fhir:v "Q02100402" ] ;
+         fhir:display [ fhir:v "CONTACT LENSES - NON HYDROGEL" ]
+       ] [
+         fhir:code [ fhir:v "Q02100499" ] ;
+         fhir:display [ fhir:v "CONTACT LENSES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "Q021099" ] ;
+         fhir:display [ fhir:v "CORRECTIVE OPTICAL DEVICES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "Q03040102" ] ;
+         fhir:display [ fhir:v "ENDOLYMPHATIC SHUNTS" ]
+       ] [
+         fhir:code [ fhir:v "U07" ] ;
+         fhir:display [ fhir:v "DEVICES FOR THE TREATMENT OF INCONTINENCE" ]
+       ] [
+         fhir:code [ fhir:v "U0701" ] ;
+         fhir:display [ fhir:v "INTERNAL SYSTEMS FOR THE TREATMENT OF INCONTINENCE" ]
+       ] [
+         fhir:code [ fhir:v "U070101" ] ;
+         fhir:display [ fhir:v "SLING SYSTEMS FOR THE TREATMENT OF INCONTINENCE" ]
+       ] [
+         fhir:code [ fhir:v "U070199" ] ;
+         fhir:display [ fhir:v "INTERNAL SYSTEMS FOR THE TREATMENT OF INCONTINENCE - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "U0702" ] ;
+         fhir:display [ fhir:v "EXTERNAL DEVICES FOR THE TREATMENT OF INCONTINENCE" ]
+       ] [
+         fhir:code [ fhir:v "U070201" ] ;
+         fhir:display [ fhir:v "SHEATH CATHETER FOR THE TREATMENT OF INCONTINENCE" ]
+       ] [
+         fhir:code [ fhir:v "U070299" ] ;
+         fhir:display [ fhir:v "EXTERNAL DEVICES FOR THE TREATMENT OF INCONTINENCE - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "U0703" ] ;
+         fhir:display [ fhir:v "PELVIC FLOOR REHABILITATION DEVICES" ]
+       ] [
+         fhir:code [ fhir:v "U070301" ] ;
+         fhir:display [ fhir:v "PELVIC FLOOR REHABILITATION DEVICES, BIOFEEDBACK, SINGLE-USE" ]
+       ] [
+         fhir:code [ fhir:v "U070302" ] ;
+         fhir:display [ fhir:v "PELVIC FLOOR REHABILITATION DEVICES, FUNCTIONAL ELECTROSTIMULATION, SINGLE-USE" ]
+       ] [
+         fhir:code [ fhir:v "U070399" ] ;
+         fhir:display [ fhir:v "PELVIC FLOOR REHABILITATION DEVICES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "U0780" ] ;
+         fhir:display [ fhir:v "DEVICES FOR THE TREATMENT OF INCONTINENCE - ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "U0799" ] ;
+         fhir:display [ fhir:v "DEVICES FOR THE TREATMENT OF INCONTINENCE - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "U089005" ] ;
+         fhir:display [ fhir:v "PESSARIANS" ]
+       ] [
+         fhir:code [ fhir:v "U1102" ] ;
+         fhir:display [ fhir:v "DEVICES FOR FEMALE CONTRACEPTION" ]
+       ] [
+         fhir:code [ fhir:v "U110201" ] ;
+         fhir:display [ fhir:v "INTRAUTERINE COILS" ]
+       ] [
+         fhir:code [ fhir:v "U110202" ] ;
+         fhir:display [ fhir:v "VAGINAL DIAPHRAGMS" ]
+       ] [
+         fhir:code [ fhir:v "U110203" ] ;
+         fhir:display [ fhir:v "FEMALE CONDOMS" ]
+       ] [
+         fhir:code [ fhir:v "U110299" ] ;
+         fhir:display [ fhir:v "DEVICES FOR FEMALE CONTRACEPTION - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "Y06" ] ;
+         fhir:display [ fhir:v "EXTERNAL PROSTHESES AND ORTHOSES" ]
+       ] [
+         fhir:code [ fhir:v "Y0603" ] ;
+         fhir:display [ fhir:v "SPINE ORTHOSES" ]
+       ] [
+         fhir:code [ fhir:v "Y060303" ] ;
+         fhir:display [ fhir:v "SACROILIAC SPINE ORTHOSES" ]
+       ] [
+         fhir:code [ fhir:v "Y060306" ] ;
+         fhir:display [ fhir:v "THORACOLUMBAR ORTHOSES" ]
+       ] [
+         fhir:code [ fhir:v "Y060307" ] ;
+         fhir:display [ fhir:v "THORACIC ORTHOSES" ]
+       ] [
+         fhir:code [ fhir:v "Y060308" ] ;
+         fhir:display [ fhir:v "LUMBOSACRAL SPINE ORTHOSES" ]
+       ] [
+         fhir:code [ fhir:v "Y060309" ] ;
+         fhir:display [ fhir:v "THORACOLUMBOSACRAL SPINE ORTHOSES" ]
+       ] [
+         fhir:code [ fhir:v "Y060312" ] ;
+         fhir:display [ fhir:v "CERVICAL SPINE ORTHOSES" ]
+       ] [
+         fhir:code [ fhir:v "Y060315" ] ;
+         fhir:display [ fhir:v "CERVICOTHORACIC SPINE ORTHOSES" ]
+       ] [
+         fhir:code [ fhir:v "Y060318" ] ;
+         fhir:display [ fhir:v "CERVICOTHORACOLUMBOSACRAL SPINE ORTHOSES" ]
+       ] [
+         fhir:code [ fhir:v "Y060380" ] ;
+         fhir:display [ fhir:v "SPINAL ORTHOSES - ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "Y060399" ] ;
+         fhir:display [ fhir:v "SPINE ORTHOSES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "Y0604" ] ;
+         fhir:display [ fhir:v "ABDOMINAL ORTHOSES" ]
+       ] [
+         fhir:code [ fhir:v "Y060403" ] ;
+         fhir:display [ fhir:v "ABDOMINAL MUSCLES SUPPORTS" ]
+       ] [
+         fhir:code [ fhir:v "Y060406" ] ;
+         fhir:display [ fhir:v "ABDOMINAL HERNIA SUPPORTS" ]
+       ] [
+         fhir:code [ fhir:v "Y060499" ] ;
+         fhir:display [ fhir:v "ABDOMINAL ORTHOSES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "Y0606" ] ;
+         fhir:display [ fhir:v "UPPER EXTREMITY ORTHOSES (SPLINTS AND BRACES)" ]
+       ] [
+         fhir:code [ fhir:v "Y060603" ] ;
+         fhir:display [ fhir:v "FINGERS ORTHOSES" ]
+       ] [
+         fhir:code [ fhir:v "Y060606" ] ;
+         fhir:display [ fhir:v "HAND ORTHOSES" ]
+       ] [
+         fhir:code [ fhir:v "Y060609" ] ;
+         fhir:display [ fhir:v "WRIST (FOREARM) ORTHOSES" ]
+       ] [
+         fhir:code [ fhir:v "Y060612" ] ;
+         fhir:display [ fhir:v "WRIST-HAND ORTHOSES" ]
+       ] [
+         fhir:code [ fhir:v "Y060613" ] ;
+         fhir:display [ fhir:v "WRIST-HAND-FINGERS ORTHOSES" ]
+       ] [
+         fhir:code [ fhir:v "Y060615" ] ;
+         fhir:display [ fhir:v "ELBOW ORTHOSES" ]
+       ] [
+         fhir:code [ fhir:v "Y060618" ] ;
+         fhir:display [ fhir:v "ELBOW-WRIST ORTHOSES" ]
+       ] [
+         fhir:code [ fhir:v "Y060619" ] ;
+         fhir:display [ fhir:v "ELBOW-WRIST-HAND ORTHOSES" ]
+       ] [
+         fhir:code [ fhir:v "Y060621" ] ;
+         fhir:display [ fhir:v "SHOULDER ORTHOSES" ]
+       ] [
+         fhir:code [ fhir:v "Y060624" ] ;
+         fhir:display [ fhir:v "SHOULDER-ELBOW ORTHOSES" ]
+       ] [
+         fhir:code [ fhir:v "Y060627" ] ;
+         fhir:display [ fhir:v "SHOULDER-ELBOW - WRIST ORTHOSES" ]
+       ] [
+         fhir:code [ fhir:v "Y060630" ] ;
+         fhir:display [ fhir:v "SHOULDER-ELBOW-WRIST- HAND ORTHOSES" ]
+       ] [
+         fhir:code [ fhir:v "Y060680" ] ;
+         fhir:display [ fhir:v "UPPER LIMB ORTHOSES - ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "Y060699" ] ;
+         fhir:display [ fhir:v "ORTHOSES, UPPER EXTREMITY - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "Y0612" ] ;
+         fhir:display [ fhir:v "ORTHOSIS, LOWER EXTREMITY (INSOLES, LIFTS, SPLINTS, BRACES, CLAMPS)" ]
+       ] [
+         fhir:code [ fhir:v "Y061203" ] ;
+         fhir:display [ fhir:v "ORTHOSES, FOOT (INCLUDING INSOLES AND INSERTS)" ]
+       ] [
+         fhir:code [ fhir:v "Y061206" ] ;
+         fhir:display [ fhir:v "ANKLE-FOOT ORTHOSES" ]
+       ] [
+         fhir:code [ fhir:v "Y06120601" ] ;
+         fhir:display [ fhir:v "PASSIVE ANKLE-FOOT ORTHOSES" ]
+       ] [
+         fhir:code [ fhir:v "Y06120602" ] ;
+         fhir:display [ fhir:v "ENERGY RETURN ANKLE-FOOT ORTHOSES" ]
+       ] [
+         fhir:code [ fhir:v "Y061209" ] ;
+         fhir:display [ fhir:v "KNEE ORTHOSES" ]
+       ] [
+         fhir:code [ fhir:v "Y061212" ] ;
+         fhir:display [ fhir:v "KNEE-ANKLE-FOOT ORTHOSES" ]
+       ] [
+         fhir:code [ fhir:v "Y06121201" ] ;
+         fhir:display [ fhir:v "PASSIVE KNEE-ANKLE-FOOT ORTHOSES" ]
+       ] [
+         fhir:code [ fhir:v "Y06121202" ] ;
+         fhir:display [ fhir:v "ENERGY RETURN ORTHOSES FOR KNEE-ANKLE-FOOT" ]
+       ] [
+         fhir:code [ fhir:v "Y06121203" ] ;
+         fhir:display [ fhir:v "ACTIVE KNEE-ANKLE-FOOT ORTHOSES" ]
+       ] [
+         fhir:code [ fhir:v "Y061215" ] ;
+         fhir:display [ fhir:v "HIP ORTHOSES (INCLUDING ABDUCTION ORTHOSES)" ]
+       ] [
+         fhir:code [ fhir:v "Y061216" ] ;
+         fhir:display [ fhir:v "HIP-KNEE ORTHOSES" ]
+       ] [
+         fhir:code [ fhir:v "Y061217" ] ;
+         fhir:display [ fhir:v "THIGH ORTHOSES" ]
+       ] [
+         fhir:code [ fhir:v "Y061218" ] ;
+         fhir:display [ fhir:v "HIP-KNEE-ANKLE-FOOT ORTHOSES" ]
+       ] [
+         fhir:code [ fhir:v "Y061219" ] ;
+         fhir:display [ fhir:v "CHEST-LUMB-SACRAL-HIP-KNEE-ANKLE-FOOT ORTHOSES" ]
+       ] [
+         fhir:code [ fhir:v "Y061280" ] ;
+         fhir:display [ fhir:v "LOWER LIMB ORTHOSES - ACCESSORIES" ]
+       ] [
+         fhir:code [ fhir:v "Y061299" ] ;
+         fhir:display [ fhir:v "LOWER EXTREMITY ORTHOSES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "Y0618" ] ;
+         fhir:display [ fhir:v "UPPER EXTREMITY PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "Y061803" ] ;
+         fhir:display [ fhir:v "PARTIAL HAND PROSTHESES (INCLUDING FINGERS PROSTHESES)" ]
+       ] [
+         fhir:code [ fhir:v "Y061806" ] ;
+         fhir:display [ fhir:v "WRIST DISARTICULATION PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "Y061809" ] ;
+         fhir:display [ fhir:v "TRANSRADIAL PROSTHESES (FOR AMPUTATION UNDER ELBOW)" ]
+       ] [
+         fhir:code [ fhir:v "Y061812" ] ;
+         fhir:display [ fhir:v "ELBOW DISARTICULATION PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "Y061815" ] ;
+         fhir:display [ fhir:v "TRANSHUMERAL PROSTHESES (FOR AMPUTATION ABOVE ELBOW)" ]
+       ] [
+         fhir:code [ fhir:v "Y061818" ] ;
+         fhir:display [ fhir:v "SHOULDER DISARTICULATION PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "Y061899" ] ;
+         fhir:display [ fhir:v "UPPER EXTREMITY PROSTHESES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "Y0624" ] ;
+         fhir:display [ fhir:v "LOWER EXTREMITY PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "Y062403" ] ;
+         fhir:display [ fhir:v "FOOT PARTIAL PROSTHESES (INCLUDING TOE PROSTHESES)" ]
+       ] [
+         fhir:code [ fhir:v "Y062409" ] ;
+         fhir:display [ fhir:v "TRANSTIBIAL PROSTHESES (FOR AMPUTATION UNDER KNEE)" ]
+       ] [
+         fhir:code [ fhir:v "Y062412" ] ;
+         fhir:display [ fhir:v "KNEE DISARTICULATION PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "Y062415" ] ;
+         fhir:display [ fhir:v "TRANSFEMORAL PROSTHESES (FOR AMPUTATION ABOVE KNEE)" ]
+       ] [
+         fhir:code [ fhir:v "Y062418" ] ;
+         fhir:display [ fhir:v "HIP DISARTICULATION PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "Y062499" ] ;
+         fhir:display [ fhir:v "LOWER EXTREMITY PROSTHESES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "Y0627" ] ;
+         fhir:display [ fhir:v "COSMETIC AND NON-FUNCTIONAL LOWER LIMB PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "Y062703" ] ;
+         fhir:display [ fhir:v "AESTHETIC FILLERS, CALF AND THIGH" ]
+       ] [
+         fhir:code [ fhir:v "Y0630" ] ;
+         fhir:display [ fhir:v "NON-EXTREMITY PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "Y063018" ] ;
+         fhir:display [ fhir:v "EXTERNAL BREAST PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "Y063021" ] ;
+         fhir:display [ fhir:v "OCULAR PROSTHESES" ]
+       ] [
+         fhir:code [ fhir:v "Y063099" ] ;
+         fhir:display [ fhir:v "NON-EXTREMITY PROSTHESES - OTHER" ]
+       ] [
+         fhir:code [ fhir:v "Y0633" ] ;
+         fhir:display [ fhir:v "ORTHOTIC SHOES" ]
+       ] [
+         fhir:code [ fhir:v "Y063303" ] ;
+         fhir:display [ fhir:v "READY-MADE ORTHOTIC SHOES" ]
+       ] [
+         fhir:code [ fhir:v "Y0699" ] ;
+         fhir:display [ fhir:v "EXTERNAL PROSTHESES AND ORTHOSES - OTHER" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+         fhir:l <http://snomed.info/sct>
+       ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "102303004" ] ;
+         fhir:display [ fhir:v "Vascular prosthesis" ]
+       ] [
+         fhir:code [ fhir:v "102314001" ] ;
+         fhir:display [ fhir:v "Embolization coil" ]
+       ] [
+         fhir:code [ fhir:v "102319006" ] ;
+         fhir:display [ fhir:v "Percutaneous transluminal angioplasty balloon" ]
+       ] [
+         fhir:code [ fhir:v "118374007" ] ;
+         fhir:display [ fhir:v "Silicone implant" ]
+       ] [
+         fhir:code [ fhir:v "118375008" ] ;
+         fhir:display [ fhir:v "Cardiac septum prosthesis" ]
+       ] [
+         fhir:code [ fhir:v "118378005" ] ;
+         fhir:display [ fhir:v "Pacemaker pulse generator" ]
+       ] [
+         fhir:code [ fhir:v "118425005" ] ;
+         fhir:display [ fhir:v "Ventricular reservoir" ]
+       ] [
+         fhir:code [ fhir:v "14106009" ] ;
+         fhir:display [ fhir:v "Cardiac pacemaker" ]
+       ] [
+         fhir:code [ fhir:v "14789005" ] ;
+         fhir:display [ fhir:v "Prosthetic implant" ]
+       ] [
+         fhir:code [ fhir:v "15447007" ] ;
+         fhir:display [ fhir:v "Joint prosthesis" ]
+       ] [
+         fhir:code [ fhir:v "16349000" ] ;
+         fhir:display [ fhir:v "Orthopedic device" ]
+       ] [
+         fhir:code [ fhir:v "17107009" ] ;
+         fhir:display [ fhir:v "Mitral valve prosthesis" ]
+       ] [
+         fhir:code [ fhir:v "19923001" ] ;
+         fhir:display [ fhir:v "Catheter" ]
+       ] [
+         fhir:code [ fhir:v "2282003" ] ;
+         fhir:display [ fhir:v "Breast prosthesis" ]
+       ] [
+         fhir:code [ fhir:v "25510005" ] ;
+         fhir:display [ fhir:v "Cardiac valve prosthesis" ]
+       ] [
+         fhir:code [ fhir:v "257275005" ] ;
+         fhir:display [ fhir:v "Spinal cage" ]
+       ] [
+         fhir:code [ fhir:v "257281002" ] ;
+         fhir:display [ fhir:v "Conduit" ]
+       ] [
+         fhir:code [ fhir:v "257282009" ] ;
+         fhir:display [ fhir:v "Non-valved conduit" ]
+       ] [
+         fhir:code [ fhir:v "257283004" ] ;
+         fhir:display [ fhir:v "Valved cardiac conduit" ]
+       ] [
+         fhir:code [ fhir:v "257296003" ] ;
+         fhir:display [ fhir:v "Fixator" ]
+       ] [
+         fhir:code [ fhir:v "257327003" ] ;
+         fhir:display [ fhir:v "DHS plate" ]
+       ] [
+         fhir:code [ fhir:v "257343005" ] ;
+         fhir:display [ fhir:v "Xenograft cardiac valve" ]
+       ] [
+         fhir:code [ fhir:v "257351008" ] ;
+         fhir:display [ fhir:v "Shunt" ]
+       ] [
+         fhir:code [ fhir:v "257362008" ] ;
+         fhir:display [ fhir:v "Plastic stent" ]
+       ] [
+         fhir:code [ fhir:v "257363003" ] ;
+         fhir:display [ fhir:v "Metal stent" ]
+       ] [
+         fhir:code [ fhir:v "257366006" ] ;
+         fhir:display [ fhir:v "JJ-stent" ]
+       ] [
+         fhir:code [ fhir:v "257409000" ] ;
+         fhir:display [ fhir:v "Vena cava filter" ]
+       ] [
+         fhir:code [ fhir:v "258593008" ] ;
+         fhir:display [ fhir:v "Ventricular shunt" ]
+       ] [
+         fhir:code [ fhir:v "25937001" ] ;
+         fhir:display [ fhir:v "Neurostimulator" ]
+       ] [
+         fhir:code [ fhir:v "261161001" ] ;
+         fhir:display [ fhir:v "Posterior chamber lens" ]
+       ] [
+         fhir:code [ fhir:v "264824009" ] ;
+         fhir:display [ fhir:v "Cardiac conduit" ]
+       ] [
+         fhir:code [ fhir:v "268460000" ] ;
+         fhir:display [ fhir:v "Intrauterine contraceptive device" ]
+       ] [
+         fhir:code [ fhir:v "271003" ] ;
+         fhir:display [ fhir:v "Bone plate" ]
+       ] [
+         fhir:code [ fhir:v "272287005" ] ;
+         fhir:display [ fhir:v "Inlay dental restoration" ]
+       ] [
+         fhir:code [ fhir:v "272307009" ] ;
+         fhir:display [ fhir:v "Endosseous oral implant" ]
+       ] [
+         fhir:code [ fhir:v "27606000" ] ;
+         fhir:display [ fhir:v "Dental prosthesis" ]
+       ] [
+         fhir:code [ fhir:v "286558002" ] ;
+         fhir:display [ fhir:v "Ureteric stent" ]
+       ] [
+         fhir:code [ fhir:v "286576009" ] ;
+         fhir:display [ fhir:v "Urethral stent" ]
+       ] [
+         fhir:code [ fhir:v "303277008" ] ;
+         fhir:display [ fhir:v "Fallopian tube prosthesis" ]
+       ] [
+         fhir:code [ fhir:v "303490004" ] ;
+         fhir:display [ fhir:v "Cardiovascular implant" ]
+       ] [
+         fhir:code [ fhir:v "303497001" ] ;
+         fhir:display [ fhir:v "Urogenital implant" ]
+       ] [
+         fhir:code [ fhir:v "303499003" ] ;
+         fhir:display [ fhir:v "Gastrointestinal implant" ]
+       ] [
+         fhir:code [ fhir:v "303500007" ] ;
+         fhir:display [ fhir:v "Auditory implant" ]
+       ] [
+         fhir:code [ fhir:v "303503009" ] ;
+         fhir:display [ fhir:v "Musculoskeletal implant" ]
+       ] [
+         fhir:code [ fhir:v "303515008" ] ;
+         fhir:display [ fhir:v "Orbital implant" ]
+       ] [
+         fhir:code [ fhir:v "303533002" ] ;
+         fhir:display [ fhir:v "Hip joint implant" ]
+       ] [
+         fhir:code [ fhir:v "303572003" ] ;
+         fhir:display [ fhir:v "Total elbow joint replacement prosthesis" ]
+       ] [
+         fhir:code [ fhir:v "303608005" ] ;
+         fhir:display [ fhir:v "Ophthalmological implant" ]
+       ] [
+         fhir:code [ fhir:v "303610007" ] ;
+         fhir:display [ fhir:v "Musculoskeletal prosthesis" ]
+       ] [
+         fhir:code [ fhir:v "303617005" ] ;
+         fhir:display [ fhir:v "Vascular implant" ]
+       ] [
+         fhir:code [ fhir:v "303618000" ] ;
+         fhir:display [ fhir:v "Nervous system implant" ]
+       ] [
+         fhir:code [ fhir:v "303619008" ] ;
+         fhir:display [ fhir:v "Cardiac implant" ]
+       ] [
+         fhir:code [ fhir:v "303726000" ] ;
+         fhir:display [ fhir:v "Shoulder joint prosthesis" ]
+       ] [
+         fhir:code [ fhir:v "303947005" ] ;
+         fhir:display [ fhir:v "Rod fixation system" ]
+       ] [
+         fhir:code [ fhir:v "304070008" ] ;
+         fhir:display [ fhir:v "Body wall implant" ]
+       ] [
+         fhir:code [ fhir:v "304075003" ] ;
+         fhir:display [ fhir:v "Female genital implant" ]
+       ] [
+         fhir:code [ fhir:v "304120007" ] ;
+         fhir:display [ fhir:v "Total hip replacement prosthesis" ]
+       ] [
+         fhir:code [ fhir:v "304121006" ] ;
+         fhir:display [ fhir:v "Femoral head prosthesis" ]
+       ] [
+         fhir:code [ fhir:v "304124003" ] ;
+         fhir:display [ fhir:v "Shoulder joint implant" ]
+       ] [
+         fhir:code [ fhir:v "304125002" ] ;
+         fhir:display [ fhir:v "Total shoulder replacement prosthesis" ]
+       ] [
+         fhir:code [ fhir:v "304185004" ] ;
+         fhir:display [ fhir:v "Foot joint implant" ]
+       ] [
+         fhir:code [ fhir:v "304186003" ] ;
+         fhir:display [ fhir:v "Hand joint implant" ]
+       ] [
+         fhir:code [ fhir:v "31031000" ] ;
+         fhir:display [ fhir:v "Orthopedic internal fixation system" ]
+       ] [
+         fhir:code [ fhir:v "313062001" ] ;
+         fhir:display [ fhir:v "Total knee joint prosthesis" ]
+       ] [
+         fhir:code [ fhir:v "313236002" ] ;
+         fhir:display [ fhir:v "Intraocular lens implant" ]
+       ] [
+         fhir:code [ fhir:v "314521005" ] ;
+         fhir:display [ fhir:v "Upper limb joint prosthesis" ]
+       ] [
+         fhir:code [ fhir:v "314522003" ] ;
+         fhir:display [ fhir:v "Lower limb joint prosthesis" ]
+       ] [
+         fhir:code [ fhir:v "314523008" ] ;
+         fhir:display [ fhir:v "Joint implant" ]
+       ] [
+         fhir:code [ fhir:v "339648008" ] ;
+         fhir:display [ fhir:v "Colostomy bag" ]
+       ] [
+         fhir:code [ fhir:v "344088002" ] ;
+         fhir:display [ fhir:v "Urostomy bag" ]
+       ] [
+         fhir:code [ fhir:v "34759008" ] ;
+         fhir:display [ fhir:v "Urethral catheter" ]
+       ] [
+         fhir:code [ fhir:v "360041000" ] ;
+         fhir:display [ fhir:v "Implanted drug delivery system" ]
+       ] [
+         fhir:code [ fhir:v "360044008" ] ;
+         fhir:display [ fhir:v "Intraluminal vascular device" ]
+       ] [
+         fhir:code [ fhir:v "360046005" ] ;
+         fhir:display [ fhir:v "Arterial stent" ]
+       ] [
+         fhir:code [ fhir:v "360058005" ] ;
+         fhir:display [ fhir:v "Intraventricular pump" ]
+       ] [
+         fhir:code [ fhir:v "360063009" ] ;
+         fhir:display [ fhir:v "Prosthetic cardiac annuloplasty ring" ]
+       ] [
+         fhir:code [ fhir:v "360070009" ] ;
+         fhir:display [ fhir:v "Laryngeal implant" ]
+       ] [
+         fhir:code [ fhir:v "360100007" ] ;
+         fhir:display [ fhir:v "Tracheal stent" ]
+       ] [
+         fhir:code [ fhir:v "360103009" ] ;
+         fhir:display [ fhir:v "Intracochlear prosthesis" ]
+       ] [
+         fhir:code [ fhir:v "360104003" ] ;
+         fhir:display [ fhir:v "Extracochlear prosthesis" ]
+       ] [
+         fhir:code [ fhir:v "360123005" ] ;
+         fhir:display [ fhir:v "Biliary stent" ]
+       ] [
+         fhir:code [ fhir:v "360129009" ] ;
+         fhir:display [ fhir:v "Cardiac pacemaker lead" ]
+       ] [
+         fhir:code [ fhir:v "360145006" ] ;
+         fhir:display [ fhir:v "Bone prosthesis" ]
+       ] [
+         fhir:code [ fhir:v "360329004" ] ;
+         fhir:display [ fhir:v "Dacron graft" ]
+       ] [
+         fhir:code [ fhir:v "361140007" ] ;
+         fhir:display [ fhir:v "Cardiac assist implant" ]
+       ] [
+         fhir:code [ fhir:v "386014009" ] ;
+         fhir:display [ fhir:v "Surgical staple" ]
+       ] [
+         fhir:code [ fhir:v "386124003" ] ;
+         fhir:display [ fhir:v "Transseptal catheter" ]
+       ] [
+         fhir:code [ fhir:v "398013009" ] ;
+         fhir:display [ fhir:v "Implantable venous access port" ]
+       ] [
+         fhir:code [ fhir:v "40388003" ] ;
+         fhir:display [ fhir:v "Implant" ]
+       ] [
+         fhir:code [ fhir:v "407744008" ] ;
+         fhir:display [ fhir:v "Stoma appliance" ]
+       ] [
+         fhir:code [ fhir:v "408099007" ] ;
+         fhir:display [ fhir:v "Suture" ]
+       ] [
+         fhir:code [ fhir:v "411114003" ] ;
+         fhir:display [ fhir:v "Drug coated stent" ]
+       ] [
+         fhir:code [ fhir:v "413766009" ] ;
+         fhir:display [ fhir:v "Carotid stent" ]
+       ] [
+         fhir:code [ fhir:v "414580007" ] ;
+         fhir:display [ fhir:v "Laryngeal keel" ]
+       ] [
+         fhir:code [ fhir:v "417136005" ] ;
+         fhir:display [ fhir:v "Ileostomy bag" ]
+       ] [
+         fhir:code [ fhir:v "421168009" ] ;
+         fhir:display [ fhir:v "Eye sphere implant" ]
+       ] [
+         fhir:code [ fhir:v "423449009" ] ;
+         fhir:display [ fhir:v "Pulmonary valve prosthesis, device" ]
+       ] [
+         fhir:code [ fhir:v "424921004" ] ;
+         fhir:display [ fhir:v "Permanent cardiac pacemaker, device" ]
+       ] [
+         fhir:code [ fhir:v "429798007" ] ;
+         fhir:display [ fhir:v "Artificial vertebral disc" ]
+       ] [
+         fhir:code [ fhir:v "43252007" ] ;
+         fhir:display [ fhir:v "Cochlear prosthesis" ]
+       ] [
+         fhir:code [ fhir:v "45633005" ] ;
+         fhir:display [ fhir:v "Peritoneal dialyzer" ]
+       ] [
+         fhir:code [ fhir:v "465380004" ] ;
+         fhir:display [ fhir:v "Silicone gel-filled breast implant" ]
+       ] [
+         fhir:code [ fhir:v "469997005" ] ;
+         fhir:display [ fhir:v "Maxillofacial prosthesis" ]
+       ] [
+         fhir:code [ fhir:v "52124006" ] ;
+         fhir:display [ fhir:v "Central venous catheter" ]
+       ] [
+         fhir:code [ fhir:v "53671008" ] ;
+         fhir:display [ fhir:v "Gastric balloon" ]
+       ] [
+         fhir:code [ fhir:v "53996008" ] ;
+         fhir:display [ fhir:v "Penile prosthesis" ]
+       ] [
+         fhir:code [ fhir:v "6012004" ] ;
+         fhir:display [ fhir:v "Hearing aid" ]
+       ] [
+         fhir:code [ fhir:v "63112008" ] ;
+         fhir:display [ fhir:v "Bone wire" ]
+       ] [
+         fhir:code [ fhir:v "63289001" ] ;
+         fhir:display [ fhir:v "Surgical metal nail, device" ]
+       ] [
+         fhir:code [ fhir:v "65818007" ] ;
+         fhir:display [ fhir:v "Stent" ]
+       ] [
+         fhir:code [ fhir:v "67270000" ] ;
+         fhir:display [ fhir:v "Hip prosthesis" ]
+       ] [
+         fhir:code [ fhir:v "68183006" ] ;
+         fhir:display [ fhir:v "Bone screw" ]
+       ] [
+         fhir:code [ fhir:v "702215009" ] ;
+         fhir:display [ fhir:v "Intracardiac pacemaker" ]
+       ] [
+         fhir:code [ fhir:v "703201004" ] ;
+         fhir:display [ fhir:v "Tricuspid valve prosthesis" ]
+       ] [
+         fhir:code [ fhir:v "705861008" ] ;
+         fhir:display [ fhir:v "Implantable joint prosthesis" ]
+       ] [
+         fhir:code [ fhir:v "705865004" ] ;
+         fhir:display [ fhir:v "Implantable ankle prosthesis" ]
+       ] [
+         fhir:code [ fhir:v "705904002" ] ;
+         fhir:display [ fhir:v "Orthopedic fixation system" ]
+       ] [
+         fhir:code [ fhir:v "705908004" ] ;
+         fhir:display [ fhir:v "Orthopedic fixation plate" ]
+       ] [
+         fhir:code [ fhir:v "705959003" ] ;
+         fhir:display [ fhir:v "Embolization implant" ]
+       ] [
+         fhir:code [ fhir:v "705991002" ] ;
+         fhir:display [ fhir:v "Mechanical cardiac valve prosthesis" ]
+       ] [
+         fhir:code [ fhir:v "714577002" ] ;
+         fhir:display [ fhir:v "Graft, device" ]
+       ] [
+         fhir:code [ fhir:v "72506001" ] ;
+         fhir:display [ fhir:v "Implantable defibrillator" ]
+       ] [
+         fhir:code [ fhir:v "74444006" ] ;
+         fhir:display [ fhir:v "Limb prosthesis" ]
+       ] [
+         fhir:code [ fhir:v "75780002" ] ;
+         fhir:display [ fhir:v "Artificial kidney" ]
+       ] [
+         fhir:code [ fhir:v "77444004" ] ;
+         fhir:display [ fhir:v "Bone pin" ]
+       ] [
+         fhir:code [ fhir:v "77777004" ] ;
+         fhir:display [ fhir:v "Bone staple" ]
+       ] [
+         fhir:code [ fhir:v "79593001" ] ;
+         fhir:display [ fhir:v "Transvenous electrode" ]
+       ] [
+         fhir:code [ fhir:v "84683006" ] ;
+         fhir:display [ fhir:v "Aortic valve prosthesis" ]
+       ] [
+         fhir:code [ fhir:v "860577005" ] ;
+         fhir:display [ fhir:v "Aortic valve bioprosthesis" ]
+       ] [
+         fhir:code [ fhir:v "860578000" ] ;
+         fhir:display [ fhir:v "Mitral valve bioprosthesis" ]
+       ] [
+         fhir:code [ fhir:v "860586000" ] ;
+         fhir:display [ fhir:v "Pulmonary valve bioprosthesis" ]
+       ] [
+         fhir:code [ fhir:v "90134004" ] ;
+         fhir:display [ fhir:v "Metal periosteal implant" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

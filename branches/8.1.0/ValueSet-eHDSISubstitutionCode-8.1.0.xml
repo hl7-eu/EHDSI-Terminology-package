@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="eHDSISubstitutionCode-8.1.0"/>
+  <url value="http://terminology.ehdsi.eu/ValueSet/eHDSISubstitutionCode"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.7"/>
+  </identifier>
+  <version value="8.1.0"/>
+  <name value="eHDSISubstitutionCode"/>
+  <title value="eHDSI Substitution Code"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-11-18T20:02:38+00:00"/>
+  <publisher value="HL7 Europe"/>
+  <contact>
+    <name value="HL7 Europe"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7europe.org"/>
+    </telecom>
+  </contact>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-substanceAdminSubstitution"/>
+      <concept>
+        <code value="G"/>
+        <display value="generic"/>
+      </concept>
+      <concept>
+        <code value="N"/>
+        <display value="none"/>
+      </concept>
+      <concept>
+        <code value="TE"/>
+        <display value="therapeutic"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

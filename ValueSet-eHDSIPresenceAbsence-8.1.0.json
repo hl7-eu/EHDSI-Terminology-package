@@ -1,0 +1,181 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "eHDSIPresenceAbsence-8.1.0",
+  "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIPresenceAbsence",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.77"
+  }],
+  "version" : "0.2.0",
+  "name" : "eHDSIPresenceAbsence",
+  "title" : "eHDSI Presence Absence",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-12-23T10:21:27+00:00",
+  "publisher" : "HL7 Europe",
+  "contact" : [{
+    "name" : "HL7 Europe",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://hl7europe.org"
+    }]
+  }],
+  "description" : "The Value Set is used to describe presence and absence findings (qualifier values) of the Laboratory Test Results",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "441614007",
+        "display" : "Present one plus out of three plus"
+      },
+      {
+        "code" : "441521003",
+        "display" : "Present three plus out of three plus"
+      },
+      {
+        "code" : "441517005",
+        "display" : "Present two plus out of three plus"
+      },
+      {
+        "code" : "260415000",
+        "display" : "Not detected"
+      },
+      {
+        "code" : "260392004",
+        "display" : "Non-patent"
+      },
+      {
+        "code" : "260385009",
+        "display" : "Negative"
+      },
+      {
+        "code" : "260373001",
+        "display" : "Detected"
+      },
+      {
+        "code" : "260350009",
+        "display" : "++++"
+      },
+      {
+        "code" : "260349009",
+        "display" : "+++"
+      },
+      {
+        "code" : "260348001",
+        "display" : "++"
+      },
+      {
+        "code" : "260347006",
+        "display" : "+"
+      },
+      {
+        "code" : "52101004",
+        "display" : "Present"
+      },
+      {
+        "code" : "10828004",
+        "display" : "Positive"
+      },
+      {
+        "code" : "2667000",
+        "display" : "Absent"
+      },
+      {
+        "code" : "895231008",
+        "display" : "Not detected in pooled specimen"
+      },
+      {
+        "code" : "720735008",
+        "display" : "Presumptive positive"
+      },
+      {
+        "code" : "373067005",
+        "display" : "No"
+      },
+      {
+        "code" : "373066001",
+        "display" : "Yes"
+      },
+      {
+        "code" : "264887000",
+        "display" : "Not isolated"
+      },
+      {
+        "code" : "264868006",
+        "display" : "No growth"
+      },
+      {
+        "code" : "260413007",
+        "display" : "nan"
+      },
+      {
+        "code" : "260408008",
+        "display" : "Weakly positive"
+      },
+      {
+        "code" : "260405006",
+        "display" : "Trace"
+      },
+      {
+        "code" : "260389003",
+        "display" : "No reaction"
+      },
+      {
+        "code" : "46651001",
+        "display" : "Isolated"
+      },
+      {
+        "code" : "419984006",
+        "display" : "Inconclusive"
+      },
+      {
+        "code" : "42425007",
+        "display" : "Equivocal"
+      },
+      {
+        "code" : "82334004",
+        "display" : "Indeterminate"
+      },
+      {
+        "code" : "62482003",
+        "display" : "Low"
+      },
+      {
+        "code" : "11214006",
+        "display" : "Reactive"
+      },
+      {
+        "code" : "131194007",
+        "display" : "Non-Reactive"
+      },
+      {
+        "code" : "280416009",
+        "display" : "Indeterminate result"
+      },
+      {
+        "code" : "75540009",
+        "display" : "High"
+      },
+      {
+        "code" : "455371000124106",
+        "display" : "Invalid result"
+      },
+      {
+        "code" : "89292003",
+        "display" : "Rare"
+      },
+      {
+        "code" : "262008008",
+        "display" : "Not performed"
+      },
+      {
+        "code" : "17621005",
+        "display" : "Normal"
+      },
+      {
+        "code" : "277025001",
+        "display" : "Proven"
+      }]
+    }]
+  }
+}

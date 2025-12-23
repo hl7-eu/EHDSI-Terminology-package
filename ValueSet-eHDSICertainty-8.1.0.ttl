@@ -1,0 +1,64 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSICertainty-8.1.0> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "eHDSICertainty-8.1.0"] ; # 
+  fhir:url [
+     fhir:v "http://terminology.ehdsi.eu/ValueSet/eHDSICertainty"^^xsd:anyURI ;
+     fhir:l <http://terminology.ehdsi.eu/ValueSet/eHDSICertainty>
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [
+       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
+       fhir:l <urn:ietf:rfc:3986>
+     ] ;
+     fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.64" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "0.2.0"] ; # 
+  fhir:name [ fhir:v "eHDSICertainty"] ; # 
+  fhir:title [ fhir:v "eHDSI Certainty"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-12-23T10:21:27+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 Europe"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 Europe" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://hl7europe.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Value Set is used to support or decline the clinical status of the condition or diagnosis"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/condition-ver-status"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/condition-ver-status>
+       ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "unconfirmed" ] ;
+         fhir:display [ fhir:v "Unconfirmed" ]
+       ] [
+         fhir:code [ fhir:v "provisional" ] ;
+         fhir:display [ fhir:v "Provisional" ]
+       ] [
+         fhir:code [ fhir:v "differential" ] ;
+         fhir:display [ fhir:v "Differential" ]
+       ] [
+         fhir:code [ fhir:v "confirmed" ] ;
+         fhir:display [ fhir:v "Confirmed" ]
+       ] [
+         fhir:code [ fhir:v "refuted" ] ;
+         fhir:display [ fhir:v "Refuted" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

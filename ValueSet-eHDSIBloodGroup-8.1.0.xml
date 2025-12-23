@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="eHDSIBloodGroup-8.1.0"/>
+  <url value="http://terminology.ehdsi.eu/ValueSet/eHDSIBloodGroup"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.20"/>
+  </identifier>
+  <version value="0.2.0"/>
+  <name value="eHDSIBloodGroup"/>
+  <title value="eHDSI Blood Group"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-12-23T10:21:27+00:00"/>
+  <publisher value="HL7 Europe"/>
+  <contact>
+    <name value="HL7 Europe"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7europe.org"/>
+    </telecom>
+  </contact>
+  <description value="The Value Set is used to code the value of patient’s blood group + Rh"/>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="112144000"/>
+        <display value="Blood group A"/>
+      </concept>
+      <concept>
+        <code value="278152006"/>
+        <display value="Blood group A Rh(D) negative"/>
+      </concept>
+      <concept>
+        <code value="278149003"/>
+        <display value="Blood group A Rh(D) positive"/>
+      </concept>
+      <concept>
+        <code value="165743006"/>
+        <display value="Blood group AB"/>
+      </concept>
+      <concept>
+        <code value="278154007"/>
+        <display value="Blood group AB Rh(D) negative"/>
+      </concept>
+      <concept>
+        <code value="278151004"/>
+        <display value="Blood group AB Rh(D) positive"/>
+      </concept>
+      <concept>
+        <code value="112149005"/>
+        <display value="Blood group B"/>
+      </concept>
+      <concept>
+        <code value="278153001"/>
+        <display value="Blood group B Rh(D) negative"/>
+      </concept>
+      <concept>
+        <code value="278150003"/>
+        <display value="Blood group B Rh(D) positive"/>
+      </concept>
+      <concept>
+        <code value="58460004"/>
+        <display value="Blood group O"/>
+      </concept>
+      <concept>
+        <code value="278148006"/>
+        <display value="Blood group O Rh(D) negative"/>
+      </concept>
+      <concept>
+        <code value="278147001"/>
+        <display value="Blood group O Rh(D) positive"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

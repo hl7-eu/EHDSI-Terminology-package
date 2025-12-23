@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="eHDSIObservationCategory"/>
+  <url value="http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIObservationCategory"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.71"/>
+  </identifier>
+  <version value="0.2.0"/>
+  <name value="eHDSIObservationCategory"/>
+  <title value="eHDSI Observation category"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2025-02-08T05:43:06+00:00"/>
+  <publisher value="HL7 Europe"/>
+  <contact>
+    <name value="HL7 Europe"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7europe.org"/>
+    </telecom>
+  </contact>
+  <description value="This Value Set is used for the Laboratory Observation Results Category code"/>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <concept>
+        <code value="laboratory"/>
+        <display value="Laboratory"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

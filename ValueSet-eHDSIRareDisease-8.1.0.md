@@ -1,0 +1,29868 @@
+# eHDSI Rare Disease - eHDSI Terminologies v0.2.0
+
+* [**Table of Contents**](toc.md)
+* [**Artifacts Summary**](artifacts.md)
+* **eHDSI Rare Disease**
+
+## ValueSet: eHDSI Rare Disease 
+
+| | |
+| :--- | :--- |
+| *Official URL*:http://terminology.ehdsi.eu/ValueSet/eHDSIRareDisease | *Version*:0.2.0 |
+| Active as of 2025-12-23 | *Computable Name*:eHDSIRareDisease |
+| *Other Identifiers:*OID:1.3.6.1.4.1.12559.11.10.1.3.1.42.63 | |
+
+ 
+The Value Set is used to describe the problems and medication reasons. 
+
+ **References** 
+
+This value set is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)
+
+### Logical Definition (CLD)
+
+ 
+
+### Expansion
+
+No Expansion for this valueset (not supported by Publication Tooling)
+
+-------
+
+ Explanation of the columns that may appear on this page: 
+
+| | |
+| :--- | :--- |
+| Level | A few code lists that FHIR defines are hierarchical - each code is assigned a level. In this scheme, some codes are under other codes, and imply that the code they are under also applies |
+| System | The source of the definition of the code (when the value set draws in codes defined elsewhere) |
+| Code | The code (used as the code in the resource instance) |
+| Display | The display (used in the*display*element of a[Coding](http://hl7.org/fhir/R4/datatypes.html#Coding)). If there is no display, implementers should not simply display the code, but map the concept into their application |
+| Definition | An explanation of the meaning of the concept |
+| Comments | Additional notes about how to use the code |
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "ValueSet",
+  "id" : "eHDSIRareDisease-8.1.0",
+  "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIRareDisease",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.63"
+    }
+  ],
+  "version" : "0.2.0",
+  "name" : "eHDSIRareDisease",
+  "title" : "eHDSI Rare Disease",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-12-23T10:21:27+00:00",
+  "publisher" : "HL7 Europe",
+  "contact" : [
+    {
+      "name" : "HL7 Europe",
+      "telecom" : [
+        {
+          "system" : "url",
+          "value" : "http://hl7europe.org"
+        }
+      ]
+    }
+  ],
+  "description" : "The Value Set is used to describe the problems and medication reasons.",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "https://www.orpha.net",
+        "concept" : [
+          {
+            "code" : "5",
+            "display" : "Long chain 3-hydroxyacyl-CoA dehydrogenase deficiency"
+          },
+          {
+            "code" : "6",
+            "display" : "3-methylcrotonyl-CoA carboxylase deficiency"
+          },
+          {
+            "code" : "7",
+            "display" : "3C syndrome"
+          },
+          {
+            "code" : "8",
+            "display" : "47,XYY syndrome"
+          },
+          {
+            "code" : "9",
+            "display" : "Tetrasomy X"
+          },
+          {
+            "code" : "10",
+            "display" : "48,XXYY syndrome"
+          },
+          {
+            "code" : "11",
+            "display" : "Pentasomy X"
+          },
+          {
+            "code" : "13",
+            "display" : "6-pyruvoyl-tetrahydropterin synthase deficiency"
+          },
+          {
+            "code" : "14",
+            "display" : "Abetalipoproteinemia"
+          },
+          {
+            "code" : "15",
+            "display" : "Achondroplasia"
+          },
+          {
+            "code" : "16",
+            "display" : "Blue cone monochromatism"
+          },
+          {
+            "code" : "17",
+            "display" : "Fatal infantile lactic acidosis with methylmalonic aciduria"
+          },
+          {
+            "code" : "18",
+            "display" : "Distal renal tubular acidosis"
+          },
+          {
+            "code" : "20",
+            "display" : "3-hydroxy-3-methylglutaric aciduria"
+          },
+          {
+            "code" : "22",
+            "display" : "Succinic semialdehyde dehydrogenase deficiency"
+          },
+          {
+            "code" : "23",
+            "display" : "Argininosuccinic aciduria"
+          },
+          {
+            "code" : "24",
+            "display" : "Fumaric aciduria"
+          },
+          {
+            "code" : "25",
+            "display" : "Glutaryl-CoA dehydrogenase deficiency"
+          },
+          {
+            "code" : "26",
+            "display" : "Methylmalonic acidemia with homocystinuria"
+          },
+          {
+            "code" : "27",
+            "display" : "Vitamin B12-unresponsive methylmalonic acidemia"
+          },
+          {
+            "code" : "28",
+            "display" : "Vitamin B12-responsive methylmalonic acidemia"
+          },
+          {
+            "code" : "29",
+            "display" : "Mevalonic aciduria"
+          },
+          {
+            "code" : "30",
+            "display" : "Hereditary orotic aciduria"
+          },
+          {
+            "code" : "31",
+            "display" : "Oxoglutaric aciduria"
+          },
+          {
+            "code" : "32",
+            "display" : "Glutathione synthetase deficiency"
+          },
+          {
+            "code" : "33",
+            "display" : "Isovaleric acidemia"
+          },
+          {
+            "code" : "35",
+            "display" : "Propionic acidemia"
+          },
+          {
+            "code" : "36",
+            "display" : "Acrocallosal syndrome"
+          },
+          {
+            "code" : "37",
+            "display" : "Acrodermatitis enteropathica"
+          },
+          {
+            "code" : "38",
+            "display" : "Acrokeratoelastoidosis of Costa"
+          },
+          {
+            "code" : "39",
+            "display" : "Acromelanosis"
+          },
+          {
+            "code" : "40",
+            "display" : "Acromesomelic dysplasia, Maroteaux type"
+          },
+          {
+            "code" : "41",
+            "display" : "Dyschromatosis symmetrica hereditaria"
+          },
+          {
+            "code" : "42",
+            "display" : "Medium chain acyl-CoA dehydrogenase deficiency"
+          },
+          {
+            "code" : "43",
+            "display" : "X-linked adrenoleukodystrophy"
+          },
+          {
+            "code" : "44",
+            "display" : "Neonatal adrenoleukodystrophy"
+          },
+          {
+            "code" : "45",
+            "display" : "Adenosine monophosphate deaminase deficiency"
+          },
+          {
+            "code" : "46",
+            "display" : "Adenylosuccinate lyase deficiency"
+          },
+          {
+            "code" : "47",
+            "display" : "X-linked agammaglobulinemia"
+          },
+          {
+            "code" : "48",
+            "display" : "Congenital bilateral absence of vas deferens"
+          },
+          {
+            "code" : "49",
+            "display" : "Penile agenesis"
+          },
+          {
+            "code" : "50",
+            "display" : "Aicardi syndrome"
+          },
+          {
+            "code" : "51",
+            "display" : "Aicardi-Goutières syndrome"
+          },
+          {
+            "code" : "52",
+            "display" : "Alagille syndrome"
+          },
+          {
+            "code" : "53",
+            "display" : "Albers-Schönberg osteopetrosis"
+          },
+          {
+            "code" : "54",
+            "display" : "X-linked recessive ocular albinism"
+          },
+          {
+            "code" : "56",
+            "display" : "Alkaptonuria"
+          },
+          {
+            "code" : "57",
+            "display" : "Glycogen storage disease due to aldolase A deficiency"
+          },
+          {
+            "code" : "58",
+            "display" : "Alexander disease"
+          },
+          {
+            "code" : "59",
+            "display" : "Allan-Herndon-Dudley syndrome"
+          },
+          {
+            "code" : "60",
+            "display" : "Alpha-1-antitrypsin deficiency"
+          },
+          {
+            "code" : "61",
+            "display" : "Alpha-mannosidosis"
+          },
+          {
+            "code" : "62",
+            "display" : "Alpha-sarcoglycan-related limb-girdle muscular dystrophy R3"
+          },
+          {
+            "code" : "63",
+            "display" : "Alport syndrome"
+          },
+          {
+            "code" : "64",
+            "display" : "Alström syndrome"
+          },
+          {
+            "code" : "65",
+            "display" : "Leber congenital amaurosis"
+          },
+          {
+            "code" : "67",
+            "display" : "Amoebiasis due to Entamoeba histolytica"
+          },
+          {
+            "code" : "68",
+            "display" : "Amoebiasis due to free-living amoebae"
+          },
+          {
+            "code" : "70",
+            "display" : "Proximal spinal muscular atrophy"
+          },
+          {
+            "code" : "71",
+            "display" : "Chylomicron retention disease"
+          },
+          {
+            "code" : "72",
+            "display" : "Angelman syndrome"
+          },
+          {
+            "code" : "73",
+            "display" : "Gorham-Stout disease"
+          },
+          {
+            "code" : "74",
+            "display" : "Angiostrongyliasis"
+          },
+          {
+            "code" : "76",
+            "display" : "Strongyloidiasis"
+          },
+          {
+            "code" : "78",
+            "display" : "Ankylostomiasis"
+          },
+          {
+            "code" : "79",
+            "display" : "Congenital alpha2-antiplasmin deficiency"
+          },
+          {
+            "code" : "80",
+            "display" : "Antiphospholipid syndrome"
+          },
+          {
+            "code" : "81",
+            "display" : "Antisynthetase syndrome"
+          },
+          {
+            "code" : "82",
+            "display" : "Hereditary thrombophilia due to congenital antithrombin deficiency"
+          },
+          {
+            "code" : "83",
+            "display" : "Antley-Bixler syndrome"
+          },
+          {
+            "code" : "84",
+            "display" : "Fanconi anemia"
+          },
+          {
+            "code" : "86",
+            "display" : "Familial abdominal aortic aneurysm"
+          },
+          {
+            "code" : "87",
+            "display" : "Apert syndrome"
+          },
+          {
+            "code" : "88",
+            "display" : "Idiopathic aplastic anemia"
+          },
+          {
+            "code" : "90",
+            "display" : "Argininemia"
+          },
+          {
+            "code" : "91",
+            "display" : "Aromatase deficiency"
+          },
+          {
+            "code" : "93",
+            "display" : "Aspartylglucosaminuria"
+          },
+          {
+            "code" : "95",
+            "display" : "Friedreich ataxia"
+          },
+          {
+            "code" : "96",
+            "display" : "Ataxia with vitamin E deficiency"
+          },
+          {
+            "code" : "97",
+            "display" : "Familial paroxysmal ataxia"
+          },
+          {
+            "code" : "98",
+            "display" : "Autosomal recessive spastic ataxia of Charlevoix-Saguenay"
+          },
+          {
+            "code" : "100",
+            "display" : "Ataxia-telangiectasia"
+          },
+          {
+            "code" : "101",
+            "display" : "Dentatorubral pallidoluysian atrophy"
+          },
+          {
+            "code" : "102",
+            "display" : "Multiple system atrophy"
+          },
+          {
+            "code" : "104",
+            "display" : "Leber hereditary optic neuropathy"
+          },
+          {
+            "code" : "105",
+            "display" : "Atresia of urethra"
+          },
+          {
+            "code" : "107",
+            "display" : "BOR syndrome"
+          },
+          {
+            "code" : "108",
+            "display" : "Babesiosis"
+          },
+          {
+            "code" : "109",
+            "display" : "Bannayan-Riley-Ruvalcaba syndrome"
+          },
+          {
+            "code" : "110",
+            "display" : "Bardet-Biedl syndrome"
+          },
+          {
+            "code" : "111",
+            "display" : "Barth syndrome"
+          },
+          {
+            "code" : "112",
+            "display" : "Bartter syndrome"
+          },
+          {
+            "code" : "113",
+            "display" : "Bazex-Dupré-Christol syndrome"
+          },
+          {
+            "code" : "114",
+            "display" : "Auriculoosteodysplasia"
+          },
+          {
+            "code" : "115",
+            "display" : "Congenital contractural arachnodactyly"
+          },
+          {
+            "code" : "116",
+            "display" : "Beckwith-Wiedemann syndrome"
+          },
+          {
+            "code" : "117",
+            "display" : "Behçet disease"
+          },
+          {
+            "code" : "118",
+            "display" : "Beta-mannosidosis"
+          },
+          {
+            "code" : "119",
+            "display" : "Beta-sarcoglycan-related limb-girdle muscular dystrophy R4"
+          },
+          {
+            "code" : "122",
+            "display" : "Birt-Hogg-Dubé syndrome"
+          },
+          {
+            "code" : "123",
+            "display" : "Björnstad syndrome"
+          },
+          {
+            "code" : "124",
+            "display" : "Diamond-Blackfan anemia"
+          },
+          {
+            "code" : "125",
+            "display" : "Bloom syndrome"
+          },
+          {
+            "code" : "126",
+            "display" : "Blepharophimosis-ptosis-epicanthus inversus syndrome"
+          },
+          {
+            "code" : "127",
+            "display" : "Borjeson-Forssman-Lehmann syndrome"
+          },
+          {
+            "code" : "128",
+            "display" : "Diphyllobothriasis"
+          },
+          {
+            "code" : "129",
+            "display" : "Pseudopelade of Brocq"
+          },
+          {
+            "code" : "130",
+            "display" : "Brugada syndrome"
+          },
+          {
+            "code" : "131",
+            "display" : "Budd-Chiari syndrome"
+          },
+          {
+            "code" : "132",
+            "display" : "Hereditary butyrylcholinesterase deficiency"
+          },
+          {
+            "code" : "133",
+            "display" : "Chronic beryllium disease"
+          },
+          {
+            "code" : "134",
+            "display" : "Beta-ketothiolase deficiency"
+          },
+          {
+            "code" : "135",
+            "display" : "CACH syndrome"
+          },
+          {
+            "code" : "136",
+            "display" : "Cerebral autosomal dominant arteriopathy-subcortical infarcts-leukoencephalopathy"
+          },
+          {
+            "code" : "138",
+            "display" : "CHARGE syndrome"
+          },
+          {
+            "code" : "139",
+            "display" : "CHILD syndrome"
+          },
+          {
+            "code" : "140",
+            "display" : "Campomelic dysplasia"
+          },
+          {
+            "code" : "141",
+            "display" : "Canavan disease"
+          },
+          {
+            "code" : "142",
+            "display" : "Anaplastic thyroid carcinoma"
+          },
+          {
+            "code" : "143",
+            "display" : "Parathyroid carcinoma"
+          },
+          {
+            "code" : "144",
+            "display" : "Lynch syndrome"
+          },
+          {
+            "code" : "145",
+            "display" : "Hereditary breast and/or ovarian cancer syndrome"
+          },
+          {
+            "code" : "146",
+            "display" : "Differentiated thyroid carcinoma"
+          },
+          {
+            "code" : "147",
+            "display" : "Carbamoyl-phosphate synthetase 1 deficiency"
+          },
+          {
+            "code" : "150",
+            "display" : "Nasopharyngeal carcinoma"
+          },
+          {
+            "code" : "154",
+            "display" : "Familial isolated dilated cardiomyopathy"
+          },
+          {
+            "code" : "156",
+            "display" : "Carnitine palmitoyl transferase 1A deficiency"
+          },
+          {
+            "code" : "157",
+            "display" : "Carnitine palmitoyltransferase II deficiency"
+          },
+          {
+            "code" : "158",
+            "display" : "Systemic primary carnitine deficiency"
+          },
+          {
+            "code" : "159",
+            "display" : "Carnitine-acylcarnitine translocase deficiency"
+          },
+          {
+            "code" : "160",
+            "display" : "Castleman disease"
+          },
+          {
+            "code" : "162",
+            "display" : "Congenital cataract-anterior segment dysgenesis syndrome"
+          },
+          {
+            "code" : "163",
+            "display" : "Hereditary hyperferritinemia-cataract syndrome"
+          },
+          {
+            "code" : "167",
+            "display" : "Chédiak-Higashi syndrome"
+          },
+          {
+            "code" : "168",
+            "display" : "Loose anagen syndrome"
+          },
+          {
+            "code" : "169",
+            "display" : "Ringed hair disease"
+          },
+          {
+            "code" : "170",
+            "display" : "Woolly hair"
+          },
+          {
+            "code" : "171",
+            "display" : "Primary sclerosing cholangitis"
+          },
+          {
+            "code" : "172",
+            "display" : "Progressive familial intrahepatic cholestasis"
+          },
+          {
+            "code" : "173",
+            "display" : "Cholera"
+          },
+          {
+            "code" : "174",
+            "display" : "Metaphyseal chondrodysplasia, Schmid type"
+          },
+          {
+            "code" : "175",
+            "display" : "Cartilage-hair hypoplasia"
+          },
+          {
+            "code" : "177",
+            "display" : "Rhizomelic chondrodysplasia punctata"
+          },
+          {
+            "code" : "178",
+            "display" : "Chordoma"
+          },
+          {
+            "code" : "179",
+            "display" : "Birdshot chorioretinopathy"
+          },
+          {
+            "code" : "180",
+            "display" : "Choroideremia"
+          },
+          {
+            "code" : "181",
+            "display" : "X-linked hypohidrotic ectodermal dysplasia"
+          },
+          {
+            "code" : "182",
+            "display" : "Chromomycosis"
+          },
+          {
+            "code" : "183",
+            "display" : "Eosinophilic granulomatosis with polyangiitis"
+          },
+          {
+            "code" : "184",
+            "display" : "Cherubism"
+          },
+          {
+            "code" : "185",
+            "display" : "Scimitar syndrome"
+          },
+          {
+            "code" : "186",
+            "display" : "Primary biliary cholangitis"
+          },
+          {
+            "code" : "188",
+            "display" : "Systemic capillary leak syndrome"
+          },
+          {
+            "code" : "189",
+            "display" : "Hidrotic ectodermal dysplasia"
+          },
+          {
+            "code" : "190",
+            "display" : "Coats disease"
+          },
+          {
+            "code" : "191",
+            "display" : "Cockayne syndrome"
+          },
+          {
+            "code" : "192",
+            "display" : "Coffin-Lowry syndrome"
+          },
+          {
+            "code" : "193",
+            "display" : "Cohen syndrome"
+          },
+          {
+            "code" : "195",
+            "display" : "Cat-eye syndrome"
+          },
+          {
+            "code" : "198",
+            "display" : "Occipital horn syndrome"
+          },
+          {
+            "code" : "199",
+            "display" : "Cornelia de Lange syndrome"
+          },
+          {
+            "code" : "200",
+            "display" : "Isolated corpus callosum agenesis"
+          },
+          {
+            "code" : "201",
+            "display" : "Cowden syndrome"
+          },
+          {
+            "code" : "202",
+            "display" : "Crandall syndrome"
+          },
+          {
+            "code" : "204",
+            "display" : "Sporadic Creutzfeldt-Jakob disease"
+          },
+          {
+            "code" : "205",
+            "display" : "Crigler-Najjar syndrome"
+          },
+          {
+            "code" : "207",
+            "display" : "Crouzon syndrome"
+          },
+          {
+            "code" : "210",
+            "display" : "Cyclosporiasis"
+          },
+          {
+            "code" : "211",
+            "display" : "Familial cylindromatosis"
+          },
+          {
+            "code" : "212",
+            "display" : "Cystathioninuria"
+          },
+          {
+            "code" : "213",
+            "display" : "Cystinosis"
+          },
+          {
+            "code" : "214",
+            "display" : "Cystinuria"
+          },
+          {
+            "code" : "215",
+            "display" : "Congenital stationary night blindness"
+          },
+          {
+            "code" : "217",
+            "display" : "Isolated Dandy-Walker malformation"
+          },
+          {
+            "code" : "218",
+            "display" : "Darier disease"
+          },
+          {
+            "code" : "219",
+            "display" : "Delta-sarcoglycan-related limb-girdle muscular dystrophy R6"
+          },
+          {
+            "code" : "220",
+            "display" : "Denys-Drash syndrome"
+          },
+          {
+            "code" : "221",
+            "display" : "Dermatomyositis"
+          },
+          {
+            "code" : "222",
+            "display" : "Erosive pustular dermatosis of the scalp"
+          },
+          {
+            "code" : "223",
+            "display" : "Arginine vasopressin resistance"
+          },
+          {
+            "code" : "226",
+            "display" : "Dihydropteridine reductase deficiency"
+          },
+          {
+            "code" : "227",
+            "display" : "Diphallia"
+          },
+          {
+            "code" : "229",
+            "display" : "Familial aortic dissection"
+          },
+          {
+            "code" : "230",
+            "display" : "Dopamine beta-hydroxylase deficiency"
+          },
+          {
+            "code" : "231",
+            "display" : "Dracunculiasis"
+          },
+          {
+            "code" : "232",
+            "display" : "Sickle cell anemia"
+          },
+          {
+            "code" : "233",
+            "display" : "Duane retraction syndrome"
+          },
+          {
+            "code" : "234",
+            "display" : "Dubin-Johnson syndrome"
+          },
+          {
+            "code" : "235",
+            "display" : "Dubowitz syndrome"
+          },
+          {
+            "code" : "236",
+            "display" : "Trisomy 9p"
+          },
+          {
+            "code" : "237",
+            "display" : "Duplication of urethra"
+          },
+          {
+            "code" : "239",
+            "display" : "Dyggve-Melchior-Clausen disease"
+          },
+          {
+            "code" : "240",
+            "display" : "Léri-Weill dyschondrosteosis"
+          },
+          {
+            "code" : "241",
+            "display" : "Dyschromatosis universalis hereditaria"
+          },
+          {
+            "code" : "242",
+            "display" : "46,XY complete gonadal dysgenesis"
+          },
+          {
+            "code" : "243",
+            "display" : "46,XX gonadal dysgenesis"
+          },
+          {
+            "code" : "244",
+            "display" : "Primary ciliary dyskinesia"
+          },
+          {
+            "code" : "245",
+            "display" : "Nager syndrome"
+          },
+          {
+            "code" : "246",
+            "display" : "Postaxial acrofacial dysostosis"
+          },
+          {
+            "code" : "248",
+            "display" : "Autosomal recessive hypohidrotic ectodermal dysplasia"
+          },
+          {
+            "code" : "249",
+            "display" : "Fibrous dysplasia of bone"
+          },
+          {
+            "code" : "256",
+            "display" : "Early-onset generalized limb-onset dystonia"
+          },
+          {
+            "code" : "257",
+            "display" : "Epidermolysis bullosa simplex with muscular dystrophy"
+          },
+          {
+            "code" : "258",
+            "display" : "Laminin subunit alpha 2-related congenital muscular dystrophy"
+          },
+          {
+            "code" : "261",
+            "display" : "Emery-Dreifuss muscular dystrophy"
+          },
+          {
+            "code" : "266",
+            "display" : "Autosomal dominant limb-girdle muscular dystrophy type 1A"
+          },
+          {
+            "code" : "267",
+            "display" : "Calpain-3-related limb-girdle muscular dystrophy R1"
+          },
+          {
+            "code" : "268",
+            "display" : "Dysferlin-related limb-girdle muscular dystrophy R2"
+          },
+          {
+            "code" : "269",
+            "display" : "Facioscapulohumeral dystrophy"
+          },
+          {
+            "code" : "270",
+            "display" : "Oculopharyngeal muscular dystrophy"
+          },
+          {
+            "code" : "272",
+            "display" : "Congenital muscular dystrophy, Fukuyama type"
+          },
+          {
+            "code" : "273",
+            "display" : "Steinert myotonic dystrophy"
+          },
+          {
+            "code" : "274",
+            "display" : "Bernard-Soulier syndrome"
+          },
+          {
+            "code" : "275",
+            "display" : "Severe combined immunodeficiency due to DCLRE1C deficiency"
+          },
+          {
+            "code" : "276",
+            "display" : "T-B+ severe combined immunodeficiency due to gamma chain deficiency"
+          },
+          {
+            "code" : "277",
+            "display" : "Severe combined immunodeficiency due to adenosine deaminase deficiency"
+          },
+          {
+            "code" : "280",
+            "display" : "Wolf-Hirschhorn syndrome"
+          },
+          {
+            "code" : "281",
+            "display" : "Monosomy 5p"
+          },
+          {
+            "code" : "283",
+            "display" : "Demodicidosis"
+          },
+          {
+            "code" : "284",
+            "display" : "Alveolar echinococcosis"
+          },
+          {
+            "code" : "285",
+            "display" : "Hypermobile Ehlers-Danlos syndrome"
+          },
+          {
+            "code" : "286",
+            "display" : "Vascular Ehlers-Danlos syndrome"
+          },
+          {
+            "code" : "287",
+            "display" : "Classical Ehlers-Danlos syndrome"
+          },
+          {
+            "code" : "288",
+            "display" : "Hereditary elliptocytosis"
+          },
+          {
+            "code" : "289",
+            "display" : "Ellis Van Creveld syndrome"
+          },
+          {
+            "code" : "290",
+            "display" : "Congenital rubella syndrome"
+          },
+          {
+            "code" : "291",
+            "display" : "Congenital varicella syndrome"
+          },
+          {
+            "code" : "292",
+            "display" : "Congenital enterovirus infection"
+          },
+          {
+            "code" : "293",
+            "display" : "Congenital herpes simplex virus infection"
+          },
+          {
+            "code" : "294",
+            "display" : "Fetal cytomegalovirus syndrome"
+          },
+          {
+            "code" : "295",
+            "display" : "Fetal parvovirus syndrome"
+          },
+          {
+            "code" : "296",
+            "display" : "Ollier disease"
+          },
+          {
+            "code" : "297",
+            "display" : "Tick-borne encephalitis"
+          },
+          {
+            "code" : "298",
+            "display" : "Mitochondrial neurogastrointestinal encephalomyopathy"
+          },
+          {
+            "code" : "300",
+            "display" : "Bifunctional enzyme deficiency"
+          },
+          {
+            "code" : "302",
+            "display" : "Inherited epidermodysplasia verruciformis"
+          },
+          {
+            "code" : "306",
+            "display" : "Benign familial infantile epilepsy"
+          },
+          {
+            "code" : "307",
+            "display" : "Juvenile myoclonic epilepsy"
+          },
+          {
+            "code" : "308",
+            "display" : "Progressive myoclonic epilepsy type 1"
+          },
+          {
+            "code" : "312",
+            "display" : "Autosomal dominant epidermolytic ichthyosis"
+          },
+          {
+            "code" : "313",
+            "display" : "Lamellar ichthyosis"
+          },
+          {
+            "code" : "314",
+            "display" : "Erythroderma desquamativum"
+          },
+          {
+            "code" : "315",
+            "display" : "Erythrokeratoderma ''en cocardes''"
+          },
+          {
+            "code" : "316",
+            "display" : "Progressive symmetric erythrokeratodermia"
+          },
+          {
+            "code" : "317",
+            "display" : "Erythrokeratodermia variabilis"
+          },
+          {
+            "code" : "318",
+            "display" : "Acute erythroid leukemia"
+          },
+          {
+            "code" : "319",
+            "display" : "Skeletal Ewing sarcoma"
+          },
+          {
+            "code" : "320",
+            "display" : "Apparent mineralocorticoid excess"
+          },
+          {
+            "code" : "321",
+            "display" : "Multiple osteochondromas"
+          },
+          {
+            "code" : "322",
+            "display" : "Exstrophy-epispadias complex"
+          },
+          {
+            "code" : "324",
+            "display" : "Fabry disease"
+          },
+          {
+            "code" : "325",
+            "display" : "Congenital factor II deficiency"
+          },
+          {
+            "code" : "326",
+            "display" : "Congenital factor V deficiency"
+          },
+          {
+            "code" : "327",
+            "display" : "Congenital factor VII deficiency"
+          },
+          {
+            "code" : "328",
+            "display" : "Congenital factor X deficiency"
+          },
+          {
+            "code" : "329",
+            "display" : "Congenital factor XI deficiency"
+          },
+          {
+            "code" : "330",
+            "display" : "Congenital factor XII deficiency"
+          },
+          {
+            "code" : "331",
+            "display" : "Congenital factor XIII deficiency"
+          },
+          {
+            "code" : "332",
+            "display" : "Congenital intrinsic factor deficiency"
+          },
+          {
+            "code" : "333",
+            "display" : "Farber disease"
+          },
+          {
+            "code" : "334",
+            "display" : "Familial atrial fibrillation"
+          },
+          {
+            "code" : "335",
+            "display" : "Congenital fibrinogen deficiency"
+          },
+          {
+            "code" : "337",
+            "display" : "Fibrodysplasia ossificans progressiva"
+          },
+          {
+            "code" : "340",
+            "display" : "Hemorrhagic fever-renal syndrome"
+          },
+          {
+            "code" : "342",
+            "display" : "Familial Mediterranean fever"
+          },
+          {
+            "code" : "343",
+            "display" : "Hyperimmunoglobulinemia D with periodic fever"
+          },
+          {
+            "code" : "345",
+            "display" : "Dissecting cellulitis of the scalp"
+          },
+          {
+            "code" : "346",
+            "display" : "Quinquaud folliculitis decalvans"
+          },
+          {
+            "code" : "347",
+            "display" : "Frasier syndrome"
+          },
+          {
+            "code" : "348",
+            "display" : "Fructose-1,6-bisphosphatase deficiency"
+          },
+          {
+            "code" : "349",
+            "display" : "Fucosidosis"
+          },
+          {
+            "code" : "351",
+            "display" : "Galactosialidosis"
+          },
+          {
+            "code" : "353",
+            "display" : "Gamma-sarcoglycan-related limb-girdle muscular dystrophy R5"
+          },
+          {
+            "code" : "354",
+            "display" : "GM1 gangliosidosis"
+          },
+          {
+            "code" : "355",
+            "display" : "Gaucher disease"
+          },
+          {
+            "code" : "356",
+            "display" : "Gerstmann-Straussler-Scheinker syndrome"
+          },
+          {
+            "code" : "358",
+            "display" : "Gitelman syndrome"
+          },
+          {
+            "code" : "360",
+            "display" : "Glioblastoma"
+          },
+          {
+            "code" : "361",
+            "display" : "Familial glucocorticoid deficiency"
+          },
+          {
+            "code" : "364",
+            "display" : "Glycogen storage disease due to glucose-6-phosphatase deficiency"
+          },
+          {
+            "code" : "365",
+            "display" : "Glycogen storage disease due to acid maltase deficiency"
+          },
+          {
+            "code" : "366",
+            "display" : "Glycogen storage disease due to glycogen debranching enzyme deficiency"
+          },
+          {
+            "code" : "367",
+            "display" : "Glycogen storage disease due to glycogen branching enzyme deficiency"
+          },
+          {
+            "code" : "368",
+            "display" : "Glycogen storage disease due to muscle glycogen phosphorylase deficiency"
+          },
+          {
+            "code" : "369",
+            "display" : "Glycogen storage disease due to liver glycogen phosphorylase deficiency"
+          },
+          {
+            "code" : "371",
+            "display" : "Glycogen storage disease due to muscle phosphofructokinase deficiency"
+          },
+          {
+            "code" : "373",
+            "display" : "Simpson-Golabi-Behmel syndrome"
+          },
+          {
+            "code" : "375",
+            "display" : "Anti-glomerular basement membrane disease"
+          },
+          {
+            "code" : "376",
+            "display" : "Gordon syndrome"
+          },
+          {
+            "code" : "377",
+            "display" : "Gorlin syndrome"
+          },
+          {
+            "code" : "379",
+            "display" : "Chronic granulomatous disease"
+          },
+          {
+            "code" : "380",
+            "display" : "Greig cephalopolysyndactyly syndrome"
+          },
+          {
+            "code" : "381",
+            "display" : "Griscelli syndrome"
+          },
+          {
+            "code" : "382",
+            "display" : "Guanidinoacetate methyltransferase deficiency"
+          },
+          {
+            "code" : "384",
+            "display" : "Huriez syndrome"
+          },
+          {
+            "code" : "386",
+            "display" : "Hepatic cystic hamartoma"
+          },
+          {
+            "code" : "388",
+            "display" : "Hirschsprung disease"
+          },
+          {
+            "code" : "389",
+            "display" : "Langerhans cell histiocytosis"
+          },
+          {
+            "code" : "390",
+            "display" : "Histoplasmosis"
+          },
+          {
+            "code" : "391",
+            "display" : "Classic Hodgkin lymphoma"
+          },
+          {
+            "code" : "392",
+            "display" : "Holt-Oram syndrome"
+          },
+          {
+            "code" : "393",
+            "display" : "46,XX testicular difference of sex development"
+          },
+          {
+            "code" : "394",
+            "display" : "Homocystinuria due to cystathionine beta-synthase deficiency"
+          },
+          {
+            "code" : "395",
+            "display" : "Homocystinuria due to methylene tetrahydrofolate reductase deficiency"
+          },
+          {
+            "code" : "396",
+            "display" : "Chronic hiccup"
+          },
+          {
+            "code" : "397",
+            "display" : "Giant cell arteritis"
+          },
+          {
+            "code" : "399",
+            "display" : "Huntington disease"
+          },
+          {
+            "code" : "400",
+            "display" : "Cystic echinococcosis"
+          },
+          {
+            "code" : "401",
+            "display" : "Hymenolepiasis"
+          },
+          {
+            "code" : "403",
+            "display" : "Familial hyperaldosteronism type I"
+          },
+          {
+            "code" : "404",
+            "display" : "Familial hyperaldosteronism type II"
+          },
+          {
+            "code" : "405",
+            "display" : "Familial hypocalciuric hypercalcemia"
+          },
+          {
+            "code" : "407",
+            "display" : "Glycine encephalopathy"
+          },
+          {
+            "code" : "408",
+            "display" : "Isolated glycerol kinase deficiency"
+          },
+          {
+            "code" : "409",
+            "display" : "Hyperkeratosis lenticularis perstans"
+          },
+          {
+            "code" : "412",
+            "display" : "Dysbetalipoproteinemia"
+          },
+          {
+            "code" : "414",
+            "display" : "Gyrate atrophy of choroid and retina"
+          },
+          {
+            "code" : "415",
+            "display" : "Hyperornithinemia-hyperammonemia-homocitrullinuria syndrome"
+          },
+          {
+            "code" : "416",
+            "display" : "Primary hyperoxaluria"
+          },
+          {
+            "code" : "417",
+            "display" : "Neonatal severe primary hyperparathyroidism"
+          },
+          {
+            "code" : "419",
+            "display" : "Hyperprolinemia type 1"
+          },
+          {
+            "code" : "422",
+            "display" : "Idiopathic/heritable pulmonary arterial hypertension"
+          },
+          {
+            "code" : "423",
+            "display" : "Malignant hyperthermia of anesthesia"
+          },
+          {
+            "code" : "424",
+            "display" : "Familial hyperthyroidism due to mutations in TSH receptor"
+          },
+          {
+            "code" : "425",
+            "display" : "Apolipoprotein A-I deficiency"
+          },
+          {
+            "code" : "427",
+            "display" : "Familial hypoaldosteronism"
+          },
+          {
+            "code" : "428",
+            "display" : "Autosomal dominant hypocalcemia"
+          },
+          {
+            "code" : "429",
+            "display" : "Hypochondroplasia"
+          },
+          {
+            "code" : "432",
+            "display" : "Normosmic congenital hypogonadotropic hypogonadism"
+          },
+          {
+            "code" : "436",
+            "display" : "Hypophosphatasia"
+          },
+          {
+            "code" : "439",
+            "display" : "Isolated right ventricular hypoplasia"
+          },
+          {
+            "code" : "441",
+            "display" : "Pure autonomic failure"
+          },
+          {
+            "code" : "444",
+            "display" : "Marie Unna hereditary hypotrichosis"
+          },
+          {
+            "code" : "446",
+            "display" : "Neonatal hemochromatosis"
+          },
+          {
+            "code" : "447",
+            "display" : "Paroxysmal nocturnal hemoglobinuria"
+          },
+          {
+            "code" : "449",
+            "display" : "Hepatoblastoma"
+          },
+          {
+            "code" : "452",
+            "display" : "X-linked lissencephaly with abnormal genitalia"
+          },
+          {
+            "code" : "454",
+            "display" : "Acquired ichthyosis"
+          },
+          {
+            "code" : "455",
+            "display" : "Superficial epidermolytic ichthyosis"
+          },
+          {
+            "code" : "457",
+            "display" : "Harlequin ichthyosis"
+          },
+          {
+            "code" : "461",
+            "display" : "Recessive X-linked ichthyosis"
+          },
+          {
+            "code" : "464",
+            "display" : "Incontinentia pigmenti"
+          },
+          {
+            "code" : "465",
+            "display" : "Congenital plasminogen activator inhibitor type 1 deficiency"
+          },
+          {
+            "code" : "466",
+            "display" : "Fatal familial insomnia"
+          },
+          {
+            "code" : "469",
+            "display" : "Hereditary fructose intolerance"
+          },
+          {
+            "code" : "470",
+            "display" : "Lysinuric protein intolerance"
+          },
+          {
+            "code" : "472",
+            "display" : "Isosporiasis"
+          },
+          {
+            "code" : "474",
+            "display" : "Jeune syndrome"
+          },
+          {
+            "code" : "475",
+            "display" : "Joubert syndrome"
+          },
+          {
+            "code" : "477",
+            "display" : "KID syndrome"
+          },
+          {
+            "code" : "478",
+            "display" : "Kallmann syndrome"
+          },
+          {
+            "code" : "480",
+            "display" : "Kearns-Sayre syndrome"
+          },
+          {
+            "code" : "481",
+            "display" : "Kennedy disease"
+          },
+          {
+            "code" : "482",
+            "display" : "Kimura disease"
+          },
+          {
+            "code" : "483",
+            "display" : "Congenital high-molecular-weight kininogen deficiency"
+          },
+          {
+            "code" : "485",
+            "display" : "Kniest dysplasia"
+          },
+          {
+            "code" : "486",
+            "display" : "Autosomal dominant severe congenital neutropenia"
+          },
+          {
+            "code" : "487",
+            "display" : "Krabbe disease"
+          },
+          {
+            "code" : "488",
+            "display" : "Urachal cyst"
+          },
+          {
+            "code" : "490",
+            "display" : "Omphalomesenteric cyst"
+          },
+          {
+            "code" : "492",
+            "display" : "Proliferating trichilemmal cyst"
+          },
+          {
+            "code" : "493",
+            "display" : "Familial keratoacanthoma"
+          },
+          {
+            "code" : "494",
+            "display" : "Keratoderma hereditarium mutilans"
+          },
+          {
+            "code" : "495",
+            "display" : "Transgrediens et progrediens palmoplantar keratoderma"
+          },
+          {
+            "code" : "499",
+            "display" : "Kerion celsi"
+          },
+          {
+            "code" : "500",
+            "display" : "Noonan syndrome with multiple lentigines"
+          },
+          {
+            "code" : "501",
+            "display" : "Lafora disease"
+          },
+          {
+            "code" : "502",
+            "display" : "Trichorhinophalangeal syndrome type 2"
+          },
+          {
+            "code" : "503",
+            "display" : "Larsen syndrome"
+          },
+          {
+            "code" : "504",
+            "display" : "Creeping myiasis"
+          },
+          {
+            "code" : "505",
+            "display" : "Graham Little-Piccardi-Lassueur syndrome"
+          },
+          {
+            "code" : "506",
+            "display" : "Leigh syndrome"
+          },
+          {
+            "code" : "507",
+            "display" : "Leishmaniasis"
+          },
+          {
+            "code" : "508",
+            "display" : "Leprechaunism"
+          },
+          {
+            "code" : "509",
+            "display" : "Leptospirosis"
+          },
+          {
+            "code" : "510",
+            "display" : "Lesch-Nyhan syndrome"
+          },
+          {
+            "code" : "511",
+            "display" : "Maple syrup urine disease"
+          },
+          {
+            "code" : "512",
+            "display" : "Metachromatic leukodystrophy"
+          },
+          {
+            "code" : "514",
+            "display" : "Acute monoblastic/monocytic leukemia"
+          },
+          {
+            "code" : "517",
+            "display" : "Acute myelomonocytic leukemia"
+          },
+          {
+            "code" : "518",
+            "display" : "Acute megakaryoblastic leukemia"
+          },
+          {
+            "code" : "520",
+            "display" : "Acute promyelocytic leukemia"
+          },
+          {
+            "code" : "521",
+            "display" : "Chronic myeloid leukemia"
+          },
+          {
+            "code" : "523",
+            "display" : "Hereditary leiomyomatosis and renal cell cancer"
+          },
+          {
+            "code" : "524",
+            "display" : "Li-Fraumeni syndrome"
+          },
+          {
+            "code" : "525",
+            "display" : "Lichen planopilaris"
+          },
+          {
+            "code" : "526",
+            "display" : "Liddle syndrome"
+          },
+          {
+            "code" : "528",
+            "display" : "Congenital generalized lipodystrophy"
+          },
+          {
+            "code" : "529",
+            "display" : "Roch-Leri mesosomatous lipomatosis"
+          },
+          {
+            "code" : "530",
+            "display" : "Lipoid proteinosis"
+          },
+          {
+            "code" : "531",
+            "display" : "Miller-Dieker syndrome"
+          },
+          {
+            "code" : "533",
+            "display" : "Listeriosis"
+          },
+          {
+            "code" : "534",
+            "display" : "Oculocerebrorenal syndrome of Lowe"
+          },
+          {
+            "code" : "536",
+            "display" : "Systemic lupus erythematosus"
+          },
+          {
+            "code" : "537",
+            "display" : "Toxic epidermal necrolysis"
+          },
+          {
+            "code" : "538",
+            "display" : "Lymphangioleiomyomatosis"
+          },
+          {
+            "code" : "540",
+            "display" : "Familial hemophagocytic lymphohistiocytosis"
+          },
+          {
+            "code" : "543",
+            "display" : "Burkitt lymphoma"
+          },
+          {
+            "code" : "545",
+            "display" : "Follicular lymphoma"
+          },
+          {
+            "code" : "548",
+            "display" : "Leprosy"
+          },
+          {
+            "code" : "549",
+            "display" : "Legionnaires disease"
+          },
+          {
+            "code" : "550",
+            "display" : "MELAS"
+          },
+          {
+            "code" : "551",
+            "display" : "MERRF"
+          },
+          {
+            "code" : "552",
+            "display" : "MODY"
+          },
+          {
+            "code" : "556",
+            "display" : "Malakoplakia"
+          },
+          {
+            "code" : "558",
+            "display" : "Marfan syndrome"
+          },
+          {
+            "code" : "559",
+            "display" : "Marinesco-Sjögren syndrome"
+          },
+          {
+            "code" : "560",
+            "display" : "Marshall syndrome"
+          },
+          {
+            "code" : "561",
+            "display" : "Marshall-Smith syndrome"
+          },
+          {
+            "code" : "562",
+            "display" : "McCune-Albright syndrome"
+          },
+          {
+            "code" : "563",
+            "display" : "Peripartum cardiomyopathy"
+          },
+          {
+            "code" : "564",
+            "display" : "Meckel syndrome"
+          },
+          {
+            "code" : "565",
+            "display" : "Menkes disease"
+          },
+          {
+            "code" : "566",
+            "display" : "Congenital microcoria"
+          },
+          {
+            "code" : "567",
+            "display" : "22q11.2 deletion syndrome"
+          },
+          {
+            "code" : "568",
+            "display" : "Microphthalmia, Lenz type"
+          },
+          {
+            "code" : "569",
+            "display" : "Familial or sporadic hemiplegic migraine"
+          },
+          {
+            "code" : "570",
+            "display" : "Moebius syndrome"
+          },
+          {
+            "code" : "572",
+            "display" : "Immunodeficiency by defective expression of MHC class II"
+          },
+          {
+            "code" : "573",
+            "display" : "Monilethrix"
+          },
+          {
+            "code" : "574",
+            "display" : "21q deletion syndrome"
+          },
+          {
+            "code" : "575",
+            "display" : "Muckle-Wells syndrome"
+          },
+          {
+            "code" : "576",
+            "display" : "Mucolipidosis type II"
+          },
+          {
+            "code" : "577",
+            "display" : "Mucolipidosis type III"
+          },
+          {
+            "code" : "578",
+            "display" : "Mucolipidosis type IV"
+          },
+          {
+            "code" : "579",
+            "display" : "Mucopolysaccharidosis type 1"
+          },
+          {
+            "code" : "580",
+            "display" : "Mucopolysaccharidosis type 2"
+          },
+          {
+            "code" : "581",
+            "display" : "Mucopolysaccharidosis type 3"
+          },
+          {
+            "code" : "582",
+            "display" : "Mucopolysaccharidosis type 4"
+          },
+          {
+            "code" : "583",
+            "display" : "Mucopolysaccharidosis type 6"
+          },
+          {
+            "code" : "584",
+            "display" : "Mucopolysaccharidosis type 7"
+          },
+          {
+            "code" : "585",
+            "display" : "Multiple sulfatase deficiency"
+          },
+          {
+            "code" : "586",
+            "display" : "Cystic fibrosis"
+          },
+          {
+            "code" : "588",
+            "display" : "Muscle-eye-brain disease"
+          },
+          {
+            "code" : "589",
+            "display" : "Myasthenia gravis"
+          },
+          {
+            "code" : "590",
+            "display" : "Congenital myasthenic syndrome"
+          },
+          {
+            "code" : "591",
+            "display" : "Furuncular myiasis"
+          },
+          {
+            "code" : "592",
+            "display" : "Macrophagic myofasciitis"
+          },
+          {
+            "code" : "596",
+            "display" : "X-linked centronuclear myopathy"
+          },
+          {
+            "code" : "597",
+            "display" : "Central core disease"
+          },
+          {
+            "code" : "598",
+            "display" : "Multiminicore myopathy"
+          },
+          {
+            "code" : "600",
+            "display" : "Vocal cord and pharyngeal distal myopathy"
+          },
+          {
+            "code" : "602",
+            "display" : "GNE myopathy"
+          },
+          {
+            "code" : "603",
+            "display" : "Distal myopathy, Welander type"
+          },
+          {
+            "code" : "606",
+            "display" : "Proximal myotonic myopathy"
+          },
+          {
+            "code" : "609",
+            "display" : "Tibial muscular dystrophy"
+          },
+          {
+            "code" : "610",
+            "display" : "Bethlem muscular dystrophy"
+          },
+          {
+            "code" : "611",
+            "display" : "Inclusion body myositis"
+          },
+          {
+            "code" : "614",
+            "display" : "Thomsen and Becker disease"
+          },
+          {
+            "code" : "615",
+            "display" : "Familial atrial myxoma"
+          },
+          {
+            "code" : "616",
+            "display" : "Medulloblastoma"
+          },
+          {
+            "code" : "617",
+            "display" : "Congenital primary megaureter"
+          },
+          {
+            "code" : "618",
+            "display" : "Familial melanoma"
+          },
+          {
+            "code" : "621",
+            "display" : "Hereditary methemoglobinemia"
+          },
+          {
+            "code" : "622",
+            "display" : "Homocystinuria without methylmalonic aciduria"
+          },
+          {
+            "code" : "624",
+            "display" : "Familial multiple nevi flammei"
+          },
+          {
+            "code" : "626",
+            "display" : "Large congenital melanocytic nevus"
+          },
+          {
+            "code" : "627",
+            "display" : "Nance-Horan syndrome"
+          },
+          {
+            "code" : "628",
+            "display" : "Diastrophic dysplasia"
+          },
+          {
+            "code" : "629",
+            "display" : "Short stature due to growth hormone qualitative anomaly"
+          },
+          {
+            "code" : "631",
+            "display" : "Non-acquired isolated growth hormone deficiency"
+          },
+          {
+            "code" : "632",
+            "display" : "Short stature due to isolated growth hormone deficiency with X-linked hypogammaglobulinemia"
+          },
+          {
+            "code" : "633",
+            "display" : "Laron syndrome"
+          },
+          {
+            "code" : "634",
+            "display" : "Netherton syndrome"
+          },
+          {
+            "code" : "635",
+            "display" : "Neuroblastoma"
+          },
+          {
+            "code" : "636",
+            "display" : "Neurofibromatosis type 1"
+          },
+          {
+            "code" : "637",
+            "display" : "Full NF2-related schwannomatosis"
+          },
+          {
+            "code" : "638",
+            "display" : "Neurofibromatosis-Noonan syndrome"
+          },
+          {
+            "code" : "639",
+            "display" : "Polyneuropathy associated with IgM monoclonal gammopathy with anti-MAG"
+          },
+          {
+            "code" : "640",
+            "display" : "Hereditary neuropathy with liability to pressure palsies"
+          },
+          {
+            "code" : "641",
+            "display" : "Multifocal motor neuropathy"
+          },
+          {
+            "code" : "642",
+            "display" : "Hereditary sensory and autonomic neuropathy type 4"
+          },
+          {
+            "code" : "643",
+            "display" : "Giant axonal neuropathy"
+          },
+          {
+            "code" : "644",
+            "display" : "NARP syndrome"
+          },
+          {
+            "code" : "646",
+            "display" : "Niemann-Pick disease type C"
+          },
+          {
+            "code" : "647",
+            "display" : "Nijmegen breakage syndrome"
+          },
+          {
+            "code" : "648",
+            "display" : "Noonan syndrome"
+          },
+          {
+            "code" : "649",
+            "display" : "Norrie disease"
+          },
+          {
+            "code" : "650",
+            "display" : "LCAT deficiency"
+          },
+          {
+            "code" : "652",
+            "display" : "Multiple endocrine neoplasia type 1"
+          },
+          {
+            "code" : "653",
+            "display" : "Multiple endocrine neoplasia type 2"
+          },
+          {
+            "code" : "654",
+            "display" : "Nephroblastoma"
+          },
+          {
+            "code" : "655",
+            "display" : "Nephronophthisis"
+          },
+          {
+            "code" : "656",
+            "display" : "Genetic steroid-resistant nephrotic syndrome"
+          },
+          {
+            "code" : "659",
+            "display" : "Mutilating palmoplantar keratoderma with periorificial keratotic plaques"
+          },
+          {
+            "code" : "660",
+            "display" : "Omphalocele"
+          },
+          {
+            "code" : "661",
+            "display" : "Congenital central hypoventilation syndrome"
+          },
+          {
+            "code" : "662",
+            "display" : "Yellow nail syndrome"
+          },
+          {
+            "code" : "663",
+            "display" : "Mitochondrial DNA-related progressive external ophthalmoplegia"
+          },
+          {
+            "code" : "664",
+            "display" : "Ornithine transcarbamylase deficiency"
+          },
+          {
+            "code" : "666",
+            "display" : "Osteogenesis imperfecta"
+          },
+          {
+            "code" : "667",
+            "display" : "Autosomal recessive malignant osteopetrosis"
+          },
+          {
+            "code" : "668",
+            "display" : "Osteosarcoma"
+          },
+          {
+            "code" : "672",
+            "display" : "Pallister-Hall syndrome"
+          },
+          {
+            "code" : "673",
+            "display" : "Malaria"
+          },
+          {
+            "code" : "674",
+            "display" : "Accessory pancreas"
+          },
+          {
+            "code" : "675",
+            "display" : "Annular pancreas"
+          },
+          {
+            "code" : "676",
+            "display" : "Hereditary chronic pancreatitis"
+          },
+          {
+            "code" : "677",
+            "display" : "Pancreatoblastoma"
+          },
+          {
+            "code" : "678",
+            "display" : "Papillon-Lefèvre syndrome"
+          },
+          {
+            "code" : "679",
+            "display" : "Malignant atrophic papulosis"
+          },
+          {
+            "code" : "681",
+            "display" : "Hypokalemic periodic paralysis"
+          },
+          {
+            "code" : "682",
+            "display" : "Hyperkalemic periodic paralysis"
+          },
+          {
+            "code" : "683",
+            "display" : "Progressive supranuclear palsy"
+          },
+          {
+            "code" : "684",
+            "display" : "Paramyotonia congenita of Von Eulenburg"
+          },
+          {
+            "code" : "699",
+            "display" : "Pearson syndrome"
+          },
+          {
+            "code" : "700",
+            "display" : "Alopecia totalis"
+          },
+          {
+            "code" : "701",
+            "display" : "Alopecia universalis"
+          },
+          {
+            "code" : "702",
+            "display" : "Pelizaeus-Merzbacher disease"
+          },
+          {
+            "code" : "703",
+            "display" : "Bullous pemphigoid"
+          },
+          {
+            "code" : "704",
+            "display" : "Pemphigus vulgaris"
+          },
+          {
+            "code" : "705",
+            "display" : "Pendred syndrome"
+          },
+          {
+            "code" : "707",
+            "display" : "Plague"
+          },
+          {
+            "code" : "708",
+            "display" : "Peters anomaly"
+          },
+          {
+            "code" : "709",
+            "display" : "Peters plus syndrome"
+          },
+          {
+            "code" : "710",
+            "display" : "Pfeiffer syndrome"
+          },
+          {
+            "code" : "712",
+            "display" : "Hemolytic anemia due to glucophosphate isomerase deficiency"
+          },
+          {
+            "code" : "713",
+            "display" : "Glycogen storage disease due to phosphoglycerate kinase 1 deficiency"
+          },
+          {
+            "code" : "714",
+            "display" : "Hemolytic anemia due to diphosphoglycerate mutase deficiency"
+          },
+          {
+            "code" : "715",
+            "display" : "Glycogen storage disease due to muscle phosphorylase kinase deficiency"
+          },
+          {
+            "code" : "716",
+            "display" : "Phenylketonuria"
+          },
+          {
+            "code" : "718",
+            "display" : "Isolated Pierre Robin syndrome"
+          },
+          {
+            "code" : "720",
+            "display" : "Pili bifurcati"
+          },
+          {
+            "code" : "721",
+            "display" : "Gray platelet syndrome"
+          },
+          {
+            "code" : "722",
+            "display" : "Hypoplasminogenemia"
+          },
+          {
+            "code" : "723",
+            "display" : "Pneumocystosis"
+          },
+          {
+            "code" : "724",
+            "display" : "Idiopathic acute eosinophilic pneumonia"
+          },
+          {
+            "code" : "725",
+            "display" : "Continuous spikes and waves during sleep"
+          },
+          {
+            "code" : "726",
+            "display" : "Alpers-Huttenlocher syndrome"
+          },
+          {
+            "code" : "727",
+            "display" : "Microscopic polyangiitis"
+          },
+          {
+            "code" : "728",
+            "display" : "Relapsing polychondritis"
+          },
+          {
+            "code" : "729",
+            "display" : "Polycythemia vera"
+          },
+          {
+            "code" : "730",
+            "display" : "Autosomal dominant polycystic kidney disease"
+          },
+          {
+            "code" : "731",
+            "display" : "Autosomal recessive polycystic kidney disease"
+          },
+          {
+            "code" : "732",
+            "display" : "Polymyositis"
+          },
+          {
+            "code" : "733",
+            "display" : "Familial adenomatous polyposis"
+          },
+          {
+            "code" : "734",
+            "display" : "Alpha delta granule deficiency"
+          },
+          {
+            "code" : "735",
+            "display" : "Porokeratosis of Mibelli"
+          },
+          {
+            "code" : "737",
+            "display" : "Porokeratosis plantaris palmaris et disseminata"
+          },
+          {
+            "code" : "739",
+            "display" : "Prader-Willi syndrome"
+          },
+          {
+            "code" : "740",
+            "display" : "Hutchinson-Gilford progeria syndrome"
+          },
+          {
+            "code" : "741",
+            "display" : "Familial mitral valve prolapse"
+          },
+          {
+            "code" : "742",
+            "display" : "Prolidase deficiency"
+          },
+          {
+            "code" : "743",
+            "display" : "Severe hereditary thrombophilia due to congenital protein S deficiency"
+          },
+          {
+            "code" : "744",
+            "display" : "Proteus syndrome"
+          },
+          {
+            "code" : "745",
+            "display" : "Severe hereditary thrombophilia due to congenital protein C deficiency"
+          },
+          {
+            "code" : "746",
+            "display" : "Mitochondrial trifunctional protein deficiency"
+          },
+          {
+            "code" : "747",
+            "display" : "Autoimmune pulmonary alveolar proteinosis"
+          },
+          {
+            "code" : "749",
+            "display" : "Congenital prekallikrein deficiency"
+          },
+          {
+            "code" : "750",
+            "display" : "Pseudoachondroplasia"
+          },
+          {
+            "code" : "752",
+            "display" : "46,XY difference of sex development due to 17-beta-hydroxysteroid dehydrogenase 3 deficiency"
+          },
+          {
+            "code" : "753",
+            "display" : "46,XY difference of sex development due to 5-alpha-reductase 2 deficiency"
+          },
+          {
+            "code" : "755",
+            "display" : "Leydig cell hypoplasia"
+          },
+          {
+            "code" : "756",
+            "display" : "Pseudohypoaldosteronism type 1"
+          },
+          {
+            "code" : "757",
+            "display" : "Pseudohypoaldosteronism type 2"
+          },
+          {
+            "code" : "758",
+            "display" : "Pseudoxanthoma elasticum"
+          },
+          {
+            "code" : "760",
+            "display" : "Purine nucleoside phosphorylase deficiency"
+          },
+          {
+            "code" : "761",
+            "display" : "Immunoglobulin A vasculitis"
+          },
+          {
+            "code" : "763",
+            "display" : "Pycnodysostosis"
+          },
+          {
+            "code" : "764",
+            "display" : "Pyomyositis"
+          },
+          {
+            "code" : "765",
+            "display" : "Pyruvate dehydrogenase deficiency"
+          },
+          {
+            "code" : "766",
+            "display" : "Hemolytic anemia due to red cell pyruvate kinase deficiency"
+          },
+          {
+            "code" : "767",
+            "display" : "Polyarteritis nodosa"
+          },
+          {
+            "code" : "769",
+            "display" : "Rabson-Mendenhall syndrome"
+          },
+          {
+            "code" : "770",
+            "display" : "Rabies"
+          },
+          {
+            "code" : "772",
+            "display" : "Infantile Refsum disease"
+          },
+          {
+            "code" : "773",
+            "display" : "Refsum disease"
+          },
+          {
+            "code" : "774",
+            "display" : "Hereditary hemorrhagic telangiectasia"
+          },
+          {
+            "code" : "776",
+            "display" : "Lujan-Fryns syndrome"
+          },
+          {
+            "code" : "777",
+            "display" : "X-linked non-syndromic intellectual disability"
+          },
+          {
+            "code" : "778",
+            "display" : "Rett syndrome"
+          },
+          {
+            "code" : "779",
+            "display" : "Reynolds syndrome"
+          },
+          {
+            "code" : "780",
+            "display" : "Rhabdomyosarcoma"
+          },
+          {
+            "code" : "781",
+            "display" : "Q fever"
+          },
+          {
+            "code" : "782",
+            "display" : "Axenfeld-Rieger syndrome"
+          },
+          {
+            "code" : "783",
+            "display" : "Rubinstein-Taybi syndrome"
+          },
+          {
+            "code" : "785",
+            "display" : "Estrogen resistance syndrome"
+          },
+          {
+            "code" : "786",
+            "display" : "Generalized glucocorticoid resistance syndrome"
+          },
+          {
+            "code" : "790",
+            "display" : "Retinoblastoma"
+          },
+          {
+            "code" : "791",
+            "display" : "Retinitis pigmentosa"
+          },
+          {
+            "code" : "792",
+            "display" : "X-linked retinoschisis"
+          },
+          {
+            "code" : "793",
+            "display" : "SAPHO syndrome"
+          },
+          {
+            "code" : "794",
+            "display" : "Saethre-Chotzen syndrome"
+          },
+          {
+            "code" : "796",
+            "display" : "Sandhoff disease"
+          },
+          {
+            "code" : "797",
+            "display" : "Sarcoidosis"
+          },
+          {
+            "code" : "798",
+            "display" : "Schinzel-Giedion syndrome"
+          },
+          {
+            "code" : "799",
+            "display" : "Schizencephaly"
+          },
+          {
+            "code" : "800",
+            "display" : "Schwartz-Jampel syndrome"
+          },
+          {
+            "code" : "803",
+            "display" : "Amyotrophic lateral sclerosis"
+          },
+          {
+            "code" : "805",
+            "display" : "Tuberous sclerosis complex"
+          },
+          {
+            "code" : "806",
+            "display" : "Scott syndrome"
+          },
+          {
+            "code" : "808",
+            "display" : "Seckel syndrome"
+          },
+          {
+            "code" : "809",
+            "display" : "Mixed connective tissue disease"
+          },
+          {
+            "code" : "810",
+            "display" : "Shigellosis"
+          },
+          {
+            "code" : "811",
+            "display" : "Shwachman-Diamond syndrome"
+          },
+          {
+            "code" : "812",
+            "display" : "Sialidosis type 1"
+          },
+          {
+            "code" : "813",
+            "display" : "Silver-Russell syndrome"
+          },
+          {
+            "code" : "816",
+            "display" : "Sjögren-Larsson syndrome"
+          },
+          {
+            "code" : "818",
+            "display" : "Smith-Lemli-Opitz syndrome"
+          },
+          {
+            "code" : "819",
+            "display" : "Smith-Magenis syndrome"
+          },
+          {
+            "code" : "820",
+            "display" : "Sneddon syndrome"
+          },
+          {
+            "code" : "821",
+            "display" : "Sotos syndrome"
+          },
+          {
+            "code" : "822",
+            "display" : "Hereditary spherocytosis"
+          },
+          {
+            "code" : "824",
+            "display" : "Primary myelofibrosis"
+          },
+          {
+            "code" : "826",
+            "display" : "Sporotrichosis"
+          },
+          {
+            "code" : "827",
+            "display" : "Stargardt disease"
+          },
+          {
+            "code" : "828",
+            "display" : "Stickler syndrome"
+          },
+          {
+            "code" : "829",
+            "display" : "Adult-onset Still disease"
+          },
+          {
+            "code" : "831",
+            "display" : "Congenital cervical spinal stenosis"
+          },
+          {
+            "code" : "832",
+            "display" : "Succinyl-CoA:3-oxoacid CoA transferase deficiency"
+          },
+          {
+            "code" : "833",
+            "display" : "Encephalopathy due to sulfite oxidase deficiency"
+          },
+          {
+            "code" : "834",
+            "display" : "Free sialic acid storage disease"
+          },
+          {
+            "code" : "838",
+            "display" : "Susac syndrome"
+          },
+          {
+            "code" : "839",
+            "display" : "Congenital nephrotic syndrome, Finnish type"
+          },
+          {
+            "code" : "840",
+            "display" : "Syringocystadenoma papilliferum"
+          },
+          {
+            "code" : "841",
+            "display" : "Sebocystomatosis"
+          },
+          {
+            "code" : "842",
+            "display" : "Testicular seminomatous germ cell tumor"
+          },
+          {
+            "code" : "844",
+            "display" : "Lown-Ganong-Levine syndrome"
+          },
+          {
+            "code" : "845",
+            "display" : "Tay-Sachs disease"
+          },
+          {
+            "code" : "846",
+            "display" : "Alpha-thalassemia"
+          },
+          {
+            "code" : "847",
+            "display" : "X-linked alpha-thalassemia-intellectual disability syndrome"
+          },
+          {
+            "code" : "848",
+            "display" : "Beta-thalassemia"
+          },
+          {
+            "code" : "849",
+            "display" : "Glanzmann thrombasthenia"
+          },
+          {
+            "code" : "851",
+            "display" : "Paris-Trousseau thrombocytopenia"
+          },
+          {
+            "code" : "852",
+            "display" : "X-linked thrombocytopenia with normal platelets"
+          },
+          {
+            "code" : "853",
+            "display" : "Fetal and neonatal alloimmune thrombocytopenia"
+          },
+          {
+            "code" : "854",
+            "display" : "Primitive portal vein thrombosis"
+          },
+          {
+            "code" : "857",
+            "display" : "Townes-Brocks syndrome"
+          },
+          {
+            "code" : "858",
+            "display" : "Congenital toxoplasmosis"
+          },
+          {
+            "code" : "859",
+            "display" : "Transcobalamin deficiency"
+          },
+          {
+            "code" : "860",
+            "display" : "Congenitally uncorrected transposition of the great arteries"
+          },
+          {
+            "code" : "861",
+            "display" : "Treacher-Collins syndrome"
+          },
+          {
+            "code" : "863",
+            "display" : "Trichinellosis"
+          },
+          {
+            "code" : "864",
+            "display" : "Trichofolliculoma"
+          },
+          {
+            "code" : "867",
+            "display" : "Familial multiple trichoepithelioma"
+          },
+          {
+            "code" : "868",
+            "display" : "Triose phosphate-isomerase deficiency"
+          },
+          {
+            "code" : "869",
+            "display" : "Triple A syndrome"
+          },
+          {
+            "code" : "870",
+            "display" : "Down syndrome"
+          },
+          {
+            "code" : "871",
+            "display" : "Familial progressive cardiac conduction defect"
+          },
+          {
+            "code" : "873",
+            "display" : "Desmoid tumor"
+          },
+          {
+            "code" : "874",
+            "display" : "Primary adult heart tumor"
+          },
+          {
+            "code" : "875",
+            "display" : "Primary pediatric heart tumor"
+          },
+          {
+            "code" : "876",
+            "display" : "Yolk sac tumor"
+          },
+          {
+            "code" : "879",
+            "display" : "Tungiasis"
+          },
+          {
+            "code" : "881",
+            "display" : "Turner syndrome"
+          },
+          {
+            "code" : "882",
+            "display" : "Tyrosinemia type 1"
+          },
+          {
+            "code" : "883",
+            "display" : "Extragonadal teratoma"
+          },
+          {
+            "code" : "884",
+            "display" : "Tetrasomy 12p"
+          },
+          {
+            "code" : "886",
+            "display" : "Usher syndrome"
+          },
+          {
+            "code" : "887",
+            "display" : "VACTERL/VATER association"
+          },
+          {
+            "code" : "888",
+            "display" : "Van der Woude syndrome"
+          },
+          {
+            "code" : "889",
+            "display" : "Cutaneous small vessel vasculitis"
+          },
+          {
+            "code" : "890",
+            "display" : "Hepatic veno-occlusive disease"
+          },
+          {
+            "code" : "891",
+            "display" : "Familial exudative vitreoretinopathy"
+          },
+          {
+            "code" : "892",
+            "display" : "Von Hippel-Lindau disease"
+          },
+          {
+            "code" : "893",
+            "display" : "WAGR syndrome"
+          },
+          {
+            "code" : "894",
+            "display" : "Waardenburg syndrome type 1"
+          },
+          {
+            "code" : "895",
+            "display" : "Waardenburg syndrome type 2"
+          },
+          {
+            "code" : "896",
+            "display" : "Waardenburg syndrome type 3"
+          },
+          {
+            "code" : "897",
+            "display" : "Waardenburg-Shah syndrome"
+          },
+          {
+            "code" : "898",
+            "display" : "Wagner disease"
+          },
+          {
+            "code" : "899",
+            "display" : "Walker-Warburg syndrome"
+          },
+          {
+            "code" : "900",
+            "display" : "Granulomatosis with polyangiitis"
+          },
+          {
+            "code" : "901",
+            "display" : "Wells syndrome"
+          },
+          {
+            "code" : "902",
+            "display" : "Werner syndrome"
+          },
+          {
+            "code" : "903",
+            "display" : "Von Willebrand disease"
+          },
+          {
+            "code" : "904",
+            "display" : "Williams syndrome"
+          },
+          {
+            "code" : "905",
+            "display" : "Wilson disease"
+          },
+          {
+            "code" : "906",
+            "display" : "Wiskott-Aldrich syndrome"
+          },
+          {
+            "code" : "908",
+            "display" : "Fragile X syndrome"
+          },
+          {
+            "code" : "909",
+            "display" : "Cerebrotendinous xanthomatosis"
+          },
+          {
+            "code" : "910",
+            "display" : "Xeroderma pigmentosum"
+          },
+          {
+            "code" : "911",
+            "display" : "Combined immunodeficiency due to ZAP70 deficiency"
+          },
+          {
+            "code" : "912",
+            "display" : "Zellweger syndrome"
+          },
+          {
+            "code" : "913",
+            "display" : "Zollinger-Ellison syndrome"
+          },
+          {
+            "code" : "915",
+            "display" : "Aarskog-Scott syndrome"
+          },
+          {
+            "code" : "916",
+            "display" : "Aase-Smith syndrome"
+          },
+          {
+            "code" : "920",
+            "display" : "Ablepharon macrostomia syndrome"
+          },
+          {
+            "code" : "921",
+            "display" : "Abruzzo-Erickson syndrome"
+          },
+          {
+            "code" : "922",
+            "display" : "Familial nasal acilia"
+          },
+          {
+            "code" : "926",
+            "display" : "Acatalasemia"
+          },
+          {
+            "code" : "927",
+            "display" : "Hyperammonemia due to N-acetylglutamate synthase deficiency"
+          },
+          {
+            "code" : "929",
+            "display" : "Achalasia-microcephaly syndrome"
+          },
+          {
+            "code" : "930",
+            "display" : "Idiopathic achalasia"
+          },
+          {
+            "code" : "931",
+            "display" : "Isolated acheiropodia"
+          },
+          {
+            "code" : "932",
+            "display" : "Achondrogenesis"
+          },
+          {
+            "code" : "935",
+            "display" : "Short-limb skeletal dysplasia with severe combined immunodeficiency"
+          },
+          {
+            "code" : "939",
+            "display" : "3-hydroxyisobutyric aciduria"
+          },
+          {
+            "code" : "941",
+            "display" : "D-glyceric aciduria"
+          },
+          {
+            "code" : "943",
+            "display" : "Malonic aciduria"
+          },
+          {
+            "code" : "945",
+            "display" : "Acalvaria"
+          },
+          {
+            "code" : "949",
+            "display" : "Acrocraniofacial dysostosis"
+          },
+          {
+            "code" : "950",
+            "display" : "Acrodysostosis"
+          },
+          {
+            "code" : "952",
+            "display" : "Acrofacial dysostosis, Weyers type"
+          },
+          {
+            "code" : "955",
+            "display" : "Hajdu-Cheney syndrome"
+          },
+          {
+            "code" : "957",
+            "display" : "Acropectorovertebral dysplasia"
+          },
+          {
+            "code" : "958",
+            "display" : "Acro-renal-mandibular syndrome"
+          },
+          {
+            "code" : "959",
+            "display" : "Acro-renal-ocular syndrome"
+          },
+          {
+            "code" : "963",
+            "display" : "Acromegaly"
+          },
+          {
+            "code" : "968",
+            "display" : "Acromesomelic dysplasia, Hunter-Thompson type"
+          },
+          {
+            "code" : "969",
+            "display" : "Acromicric dysplasia"
+          },
+          {
+            "code" : "970",
+            "display" : "Hereditary sensory and autonomic neuropathy type 2"
+          },
+          {
+            "code" : "971",
+            "display" : "Acrorenal syndrome"
+          },
+          {
+            "code" : "972",
+            "display" : "Hereditary continuous muscle fiber activity"
+          },
+          {
+            "code" : "973",
+            "display" : "Isolated absence/hypoplasia of fingers excluding thumb, unilateral"
+          },
+          {
+            "code" : "974",
+            "display" : "Adams-Oliver syndrome"
+          },
+          {
+            "code" : "976",
+            "display" : "Adenine phosphoribosyltransferase deficiency"
+          },
+          {
+            "code" : "977",
+            "display" : "Adrenomyodystrophy"
+          },
+          {
+            "code" : "978",
+            "display" : "ADULT syndrome"
+          },
+          {
+            "code" : "980",
+            "display" : "Absence of the pulmonary artery"
+          },
+          {
+            "code" : "981",
+            "display" : "Internal carotid absence"
+          },
+          {
+            "code" : "983",
+            "display" : "Testicular regression syndrome"
+          },
+          {
+            "code" : "984",
+            "display" : "Pulmonary agenesis"
+          },
+          {
+            "code" : "988",
+            "display" : "Tibial hemimelia-polysyndactyly-triphalangeal thumb syndrome"
+          },
+          {
+            "code" : "989",
+            "display" : "Hypoglossia-hypodactyly syndrome"
+          },
+          {
+            "code" : "990",
+            "display" : "Agnathia-holoprosencephaly-situs inversus syndrome"
+          },
+          {
+            "code" : "991",
+            "display" : "PAGOD syndrome"
+          },
+          {
+            "code" : "994",
+            "display" : "Fetal akinesia deformation sequence"
+          },
+          {
+            "code" : "998",
+            "display" : "Albinism-deafness syndrome"
+          },
+          {
+            "code" : "999",
+            "display" : "Ermine phenotype"
+          },
+          {
+            "code" : "1000",
+            "display" : "Ocular albinism with late-onset sensorineural deafness"
+          },
+          {
+            "code" : "1001",
+            "display" : "2q37 microdeletion syndrome"
+          },
+          {
+            "code" : "1003",
+            "display" : "Scalp defects-postaxial polydactyly syndrome"
+          },
+          {
+            "code" : "1005",
+            "display" : "Alopecia-contractures-dwarfism-intellectual disability syndrome"
+          },
+          {
+            "code" : "1006",
+            "display" : "Alopecia antibody deficiency"
+          },
+          {
+            "code" : "1008",
+            "display" : "Alopecia-epilepsy-pyorrhea-intellectual disability syndrome"
+          },
+          {
+            "code" : "1010",
+            "display" : "Autosomal dominant palmoplantar keratoderma and congenital alopecia"
+          },
+          {
+            "code" : "1014",
+            "display" : "Alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome"
+          },
+          {
+            "code" : "1018",
+            "display" : "X-linked Alport syndrome-diffuse leiomyomatosis"
+          },
+          {
+            "code" : "1020",
+            "display" : "Early-onset autosomal dominant Alzheimer disease"
+          },
+          {
+            "code" : "1021",
+            "display" : "Amaurosis-hypertrichosis syndrome"
+          },
+          {
+            "code" : "1023",
+            "display" : "Congenital generalized hypertrichosis, Ambras type"
+          },
+          {
+            "code" : "1027",
+            "display" : "Autosomal recessive amelia"
+          },
+          {
+            "code" : "1028",
+            "display" : "Amelo-onycho-hypohidrotic syndrome"
+          },
+          {
+            "code" : "1031",
+            "display" : "Enamel-renal syndrome"
+          },
+          {
+            "code" : "1035",
+            "display" : "Beta-mercaptolactate cysteine disulfiduria"
+          },
+          {
+            "code" : "1040",
+            "display" : "Metaphyseal anadysplasia"
+          },
+          {
+            "code" : "1041",
+            "display" : "Hydrops fetalis"
+          },
+          {
+            "code" : "1046",
+            "display" : "Lethal hemolytic anemia-genital anomalies syndrome"
+          },
+          {
+            "code" : "1048",
+            "display" : "Isolated anencephaly/exencephaly"
+          },
+          {
+            "code" : "1051",
+            "display" : "Ramos-Arroyo syndrome"
+          },
+          {
+            "code" : "1052",
+            "display" : "Mosaic variegated aneuploidy syndrome"
+          },
+          {
+            "code" : "1053",
+            "display" : "Vein of Galen aneurysmal malformation"
+          },
+          {
+            "code" : "1054",
+            "display" : "Aneurysm of sinus of Valsalva"
+          },
+          {
+            "code" : "1055",
+            "display" : "Congenital left ventricular aneurysm"
+          },
+          {
+            "code" : "1059",
+            "display" : "Blue rubber bleb nevus"
+          },
+          {
+            "code" : "1062",
+            "display" : "Hereditary neurocutaneous malformation"
+          },
+          {
+            "code" : "1063",
+            "display" : "Tufted angioma"
+          },
+          {
+            "code" : "1064",
+            "display" : "Aniridia-renal agenesis-psychomotor retardation syndrome"
+          },
+          {
+            "code" : "1065",
+            "display" : "Aniridia-cerebellar ataxia-intellectual disability syndrome"
+          },
+          {
+            "code" : "1067",
+            "display" : "Aniridia-ptosis-intellectual disability-familial obesity syndrome"
+          },
+          {
+            "code" : "1068",
+            "display" : "Aniridia-intellectual disability syndrome"
+          },
+          {
+            "code" : "1069",
+            "display" : "Aniridia-absent patella syndrome"
+          },
+          {
+            "code" : "1070",
+            "display" : "Anisakiasis"
+          },
+          {
+            "code" : "1071",
+            "display" : "Ankyloblepharon-ectodermal defects-cleft lip/palate syndrome"
+          },
+          {
+            "code" : "1072",
+            "display" : "Ankyloblepharon filiforme adnatum-cleft palate syndrome"
+          },
+          {
+            "code" : "1074",
+            "display" : "Ankyloblepharon filiforme adnatum-imperforate anus syndrome"
+          },
+          {
+            "code" : "1077",
+            "display" : "Dental ankylosis"
+          },
+          {
+            "code" : "1078",
+            "display" : "Thumb stiffness-brachydactyly-intellectual disability syndrome"
+          },
+          {
+            "code" : "1083",
+            "display" : "Microlissencephaly"
+          },
+          {
+            "code" : "1084",
+            "display" : "Isolated lissencephaly type 1 without known genetic defects"
+          },
+          {
+            "code" : "1094",
+            "display" : "Anonychia-microcephaly syndrome"
+          },
+          {
+            "code" : "1101",
+            "display" : "Anophthalmia-megalocornea-cardiopathy-skeletal anomalies syndrome"
+          },
+          {
+            "code" : "1104",
+            "display" : "Anophthalmia plus syndrome"
+          },
+          {
+            "code" : "1106",
+            "display" : "Microphthalmia with limb anomalies"
+          },
+          {
+            "code" : "1110",
+            "display" : "Aortic arch anomaly-facial dysmorphism-intellectual disability syndrome"
+          },
+          {
+            "code" : "1112",
+            "display" : "Aphalangy-hemivertebrae-urogenital-intestinal dysgenesis syndrome"
+          },
+          {
+            "code" : "1113",
+            "display" : "Aphalangy-syndactyly-microcephaly syndrome"
+          },
+          {
+            "code" : "1114",
+            "display" : "Aplasia cutis congenita"
+          },
+          {
+            "code" : "1116",
+            "display" : "Aplasia cutis congenita-intestinal lymphangiectasia syndrome"
+          },
+          {
+            "code" : "1117",
+            "display" : "Aplasia cutis-myopia syndrome"
+          },
+          {
+            "code" : "1118",
+            "display" : "Fibular aplasia-ectrodactyly syndrome"
+          },
+          {
+            "code" : "1120",
+            "display" : "Lung agenesis-heart defect-thumb anomalies syndrome"
+          },
+          {
+            "code" : "1121",
+            "display" : "Radial deficiency-tibial hypoplasia syndrome"
+          },
+          {
+            "code" : "1122",
+            "display" : "Ulnar hypoplasia-split foot syndrome"
+          },
+          {
+            "code" : "1123",
+            "display" : "Caudal appendage-deafness syndrome"
+          },
+          {
+            "code" : "1125",
+            "display" : "Ocular motor apraxia, Cogan type"
+          },
+          {
+            "code" : "1126",
+            "display" : "Aprosencephaly cerebellar dysgenesis"
+          },
+          {
+            "code" : "1129",
+            "display" : "Arachnodactyly-abnormal ossification-intellectual disability syndrome"
+          },
+          {
+            "code" : "1130",
+            "display" : "Arachnodactyly-intellectual disability-dysmorphism syndrome"
+          },
+          {
+            "code" : "1131",
+            "display" : "X-linked mandibulofacial dysostosis"
+          },
+          {
+            "code" : "1133",
+            "display" : "AREDYLD syndrome"
+          },
+          {
+            "code" : "1134",
+            "display" : "Isolated arrhinia"
+          },
+          {
+            "code" : "1135",
+            "display" : "Arrhinia-choanal atresia-microphthalmia syndrome"
+          },
+          {
+            "code" : "1143",
+            "display" : "Neurogenic arthrogryposis multiplex congenita"
+          },
+          {
+            "code" : "1144",
+            "display" : "Arthrogryposis-like hand anomaly-sensorineural deafness syndrome"
+          },
+          {
+            "code" : "1145",
+            "display" : "Infantile-onset X-linked spinal muscular atrophy"
+          },
+          {
+            "code" : "1146",
+            "display" : "Distal arthrogryposis type 1"
+          },
+          {
+            "code" : "1147",
+            "display" : "Sheldon-Hall syndrome"
+          },
+          {
+            "code" : "1149",
+            "display" : "Kuskokwim syndrome"
+          },
+          {
+            "code" : "1150",
+            "display" : "Arthrogryposis multiplex congenita-whistling face syndrome"
+          },
+          {
+            "code" : "1154",
+            "display" : "Arthrogryposis-oculomotor limitation-electroretinal anomalies syndrome"
+          },
+          {
+            "code" : "1159",
+            "display" : "Progressive pseudorheumatoid arthropathy of childhood"
+          },
+          {
+            "code" : "1160",
+            "display" : "Chylous ascites"
+          },
+          {
+            "code" : "1163",
+            "display" : "Aspergillosis"
+          },
+          {
+            "code" : "1164",
+            "display" : "Allergic bronchopulmonary aspergillosis"
+          },
+          {
+            "code" : "1166",
+            "display" : "Congenital unilateral hypoplasia of depressor anguli oris"
+          },
+          {
+            "code" : "1168",
+            "display" : "Ataxia-oculomotor apraxia type 1"
+          },
+          {
+            "code" : "1170",
+            "display" : "Autosomal recessive cerebelloparenchymal disorder type 3"
+          },
+          {
+            "code" : "1171",
+            "display" : "Cerebellar ataxia-areflexia-pes cavus-optic atrophy-sensorineural hearing loss syndrome"
+          },
+          {
+            "code" : "1173",
+            "display" : "Cerebellar ataxia-hypogonadism syndrome"
+          },
+          {
+            "code" : "1174",
+            "display" : "Cerebellar ataxia-ectodermal dysplasia syndrome"
+          },
+          {
+            "code" : "1175",
+            "display" : "X-linked progressive cerebellar ataxia"
+          },
+          {
+            "code" : "1177",
+            "display" : "Early-onset cerebellar ataxia with retained tendon reflexes"
+          },
+          {
+            "code" : "1178",
+            "display" : "Ataxia-tapetoretinal degeneration syndrome"
+          },
+          {
+            "code" : "1179",
+            "display" : "Benign paroxysmal tonic upgaze of childhood with ataxia"
+          },
+          {
+            "code" : "1180",
+            "display" : "Ataxia-hypogonadism-choroidal dystrophy syndrome"
+          },
+          {
+            "code" : "1182",
+            "display" : "Spastic ataxia with congenital miosis"
+          },
+          {
+            "code" : "1183",
+            "display" : "Opsoclonus-myoclonus syndrome"
+          },
+          {
+            "code" : "1184",
+            "display" : "Ataxia-photosensitivity-short stature syndrome"
+          },
+          {
+            "code" : "1185",
+            "display" : "Spinocerebellar ataxia-dysmorphism syndrome"
+          },
+          {
+            "code" : "1186",
+            "display" : "Infantile-onset spinocerebellar ataxia"
+          },
+          {
+            "code" : "1187",
+            "display" : "Lethal ataxia with deafness and optic atrophy"
+          },
+          {
+            "code" : "1188",
+            "display" : "Ataxia-deafness-intellectual disability syndrome"
+          },
+          {
+            "code" : "1190",
+            "display" : "Atelosteogenesis type I"
+          },
+          {
+            "code" : "1192",
+            "display" : "Atherosclerosis-deafness-diabetes-epilepsy-nephropathy syndrome"
+          },
+          {
+            "code" : "1193",
+            "display" : "Atkin-Flaitz syndrome"
+          },
+          {
+            "code" : "1194",
+            "display" : "TMEM70-related mitochondrial encephalo-cardio-myopathy"
+          },
+          {
+            "code" : "1195",
+            "display" : "Congenital atransferrinemia"
+          },
+          {
+            "code" : "1198",
+            "display" : "Colonic atresia"
+          },
+          {
+            "code" : "1199",
+            "display" : "Esophageal atresia"
+          },
+          {
+            "code" : "1200",
+            "display" : "Burn-McKeown syndrome"
+          },
+          {
+            "code" : "1201",
+            "display" : "Small bowel atresia"
+          },
+          {
+            "code" : "1202",
+            "display" : "Larynx atresia"
+          },
+          {
+            "code" : "1203",
+            "display" : "Duodenal atresia"
+          },
+          {
+            "code" : "1205",
+            "display" : "Mitral atresia"
+          },
+          {
+            "code" : "1207",
+            "display" : "Pulmonary atresia with ventricular septal defect"
+          },
+          {
+            "code" : "1208",
+            "display" : "Pulmonary atresia-intact ventricular septum syndrome"
+          },
+          {
+            "code" : "1209",
+            "display" : "Tricuspid atresia"
+          },
+          {
+            "code" : "1214",
+            "display" : "Progressive hemifacial atrophy"
+          },
+          {
+            "code" : "1215",
+            "display" : "Autosomal dominant optic atrophy plus syndrome"
+          },
+          {
+            "code" : "1216",
+            "display" : "Autosomal dominant congenital benign spinal muscular atrophy"
+          },
+          {
+            "code" : "1217",
+            "display" : "Spinal atrophy-ophthalmoplegia-pyramidal syndrome"
+          },
+          {
+            "code" : "1221",
+            "display" : "Cheilitis glandularis"
+          },
+          {
+            "code" : "1223",
+            "display" : "Balantidiasis"
+          },
+          {
+            "code" : "1225",
+            "display" : "Baller-Gerold syndrome"
+          },
+          {
+            "code" : "1226",
+            "display" : "Bamforth-Lazarus syndrome"
+          },
+          {
+            "code" : "1227",
+            "display" : "Bangstad syndrome"
+          },
+          {
+            "code" : "1228",
+            "display" : "Banki syndrome"
+          },
+          {
+            "code" : "1229",
+            "display" : "Congenital intrauterine infection-like syndrome"
+          },
+          {
+            "code" : "1231",
+            "display" : "Barber-Say syndrome"
+          },
+          {
+            "code" : "1234",
+            "display" : "Bartsocas-Papas syndrome"
+          },
+          {
+            "code" : "1236",
+            "display" : "Severe microbrachycephaly-intellectual disability-athetoid cerebral palsy syndrome"
+          },
+          {
+            "code" : "1237",
+            "display" : "Beemer-Ertbruggen syndrome"
+          },
+          {
+            "code" : "1239",
+            "display" : "Behr syndrome"
+          },
+          {
+            "code" : "1241",
+            "display" : "Bencze syndrome"
+          },
+          {
+            "code" : "1243",
+            "display" : "Best vitelliform macular dystrophy"
+          },
+          {
+            "code" : "1246",
+            "display" : "Brachydactyly-nystagmus-cerebellar ataxia syndrome"
+          },
+          {
+            "code" : "1247",
+            "display" : "Schistosomiasis"
+          },
+          {
+            "code" : "1248",
+            "display" : "Maxillonasal dysplasia"
+          },
+          {
+            "code" : "1252",
+            "display" : "Blepharonasofacial malformation syndrome"
+          },
+          {
+            "code" : "1253",
+            "display" : "Ascher syndrome"
+          },
+          {
+            "code" : "1259",
+            "display" : "Blepharoptosis-myopia-ectopia lentis syndrome"
+          },
+          {
+            "code" : "1261",
+            "display" : "Bonnemann-Meinecke-Reich syndrome"
+          },
+          {
+            "code" : "1262",
+            "display" : "Böök syndrome"
+          },
+          {
+            "code" : "1263",
+            "display" : "Boomerang dysplasia"
+          },
+          {
+            "code" : "1264",
+            "display" : "Tricho-retino-dento-digital syndrome"
+          },
+          {
+            "code" : "1267",
+            "display" : "Botulism"
+          },
+          {
+            "code" : "1270",
+            "display" : "Bowen-Conradi syndrome"
+          },
+          {
+            "code" : "1272",
+            "display" : "Aymé-Gripp syndrome"
+          },
+          {
+            "code" : "1275",
+            "display" : "Brachydactyly-elbow wrist dysplasia syndrome"
+          },
+          {
+            "code" : "1276",
+            "display" : "Brachydactyly-arterial hypertension syndrome"
+          },
+          {
+            "code" : "1277",
+            "display" : "Brachydactyly-mesomelia-intellectual disability-heart defects syndrome"
+          },
+          {
+            "code" : "1278",
+            "display" : "Brachydactyly-preaxial hallux varus syndrome"
+          },
+          {
+            "code" : "1292",
+            "display" : "Brachymorphism-onychodysplasia-dysphalangism syndrome"
+          },
+          {
+            "code" : "1295",
+            "display" : "Brachytelephalangy-dysmorphism-Kallmann syndrome"
+          },
+          {
+            "code" : "1296",
+            "display" : "Lambert syndrome"
+          },
+          {
+            "code" : "1297",
+            "display" : "Branchio-oculo-facial syndrome"
+          },
+          {
+            "code" : "1299",
+            "display" : "Branchioskeletogenital syndrome"
+          },
+          {
+            "code" : "1300",
+            "display" : "Autosomal dominant popliteal pterygium syndrome"
+          },
+          {
+            "code" : "1302",
+            "display" : "Cryptogenic organizing pneumonia"
+          },
+          {
+            "code" : "1304",
+            "display" : "Brucellosis"
+          },
+          {
+            "code" : "1305",
+            "display" : "Feingold syndrome"
+          },
+          {
+            "code" : "1307",
+            "display" : "Distal limb deficiencies-micrognathia syndrome"
+          },
+          {
+            "code" : "1308",
+            "display" : "C syndrome"
+          },
+          {
+            "code" : "1309",
+            "display" : "Medullary sponge kidney"
+          },
+          {
+            "code" : "1310",
+            "display" : "Caffey disease"
+          },
+          {
+            "code" : "1313",
+            "display" : "Infantile choroidocerebral calcification syndrome"
+          },
+          {
+            "code" : "1314",
+            "display" : "Symmetrical thalamic calcifications"
+          },
+          {
+            "code" : "1318",
+            "display" : "Campomelia, Cumming type"
+          },
+          {
+            "code" : "1319",
+            "display" : "Camptobrachydactyly"
+          },
+          {
+            "code" : "1320",
+            "display" : "Idiopathic camptocormia"
+          },
+          {
+            "code" : "1321",
+            "display" : "Camptodactyly-fibrous tissue hyperplasia-skeletal anomalies syndrome"
+          },
+          {
+            "code" : "1323",
+            "display" : "Camptodactyly-joint contractures-facial skeletal defects syndrome"
+          },
+          {
+            "code" : "1325",
+            "display" : "Camptodactyly-taurinuria syndrome"
+          },
+          {
+            "code" : "1326",
+            "display" : "Camptodactyly syndrome, Guadalajara type 2"
+          },
+          {
+            "code" : "1327",
+            "display" : "Camptodactyly syndrome, Guadalajara type 1"
+          },
+          {
+            "code" : "1328",
+            "display" : "Camurati-Engelmann disease"
+          },
+          {
+            "code" : "1329",
+            "display" : "Complete atrioventricular septal defect"
+          },
+          {
+            "code" : "1330",
+            "display" : "Partial atrioventricular septal defect"
+          },
+          {
+            "code" : "1331",
+            "display" : "Familial prostate cancer"
+          },
+          {
+            "code" : "1332",
+            "display" : "Medullary thyroid carcinoma"
+          },
+          {
+            "code" : "1333",
+            "display" : "Familial pancreatic carcinoma"
+          },
+          {
+            "code" : "1334",
+            "display" : "Chronic mucocutaneous candidiasis"
+          },
+          {
+            "code" : "1335",
+            "display" : "Pentalogy of Cantrell"
+          },
+          {
+            "code" : "1336",
+            "display" : "Hyperkeratosis-hyperpigmentation syndrome"
+          },
+          {
+            "code" : "1338",
+            "display" : "Heart defect-tongue hamartoma-polysyndactyly syndrome"
+          },
+          {
+            "code" : "1340",
+            "display" : "Cardiofaciocutaneous syndrome"
+          },
+          {
+            "code" : "1342",
+            "display" : "Heart-hand syndrome type 3"
+          },
+          {
+            "code" : "1344",
+            "display" : "Atrial standstill"
+          },
+          {
+            "code" : "1345",
+            "display" : "Cardiomyopathy-cataract-hip spine disease syndrome"
+          },
+          {
+            "code" : "1349",
+            "display" : "Mitochondrial DNA-related cardiomyopathy and hearing loss"
+          },
+          {
+            "code" : "1350",
+            "display" : "Heart-hand syndrome type 2"
+          },
+          {
+            "code" : "1352",
+            "display" : "Atrioventricular defect-blepharophimosis-radial and anal defect syndrome"
+          },
+          {
+            "code" : "1354",
+            "display" : "Heart defects-limb shortening syndrome"
+          },
+          {
+            "code" : "1355",
+            "display" : "Congenital heart defect-round face-developmental delay syndrome"
+          },
+          {
+            "code" : "1358",
+            "display" : "Carey-Fineman-Ziter syndrome"
+          },
+          {
+            "code" : "1359",
+            "display" : "Carney complex"
+          },
+          {
+            "code" : "1361",
+            "display" : "Carnosinase deficiency"
+          },
+          {
+            "code" : "1366",
+            "display" : "Autosomal recessive palmoplantar keratoderma and congenital alopecia"
+          },
+          {
+            "code" : "1368",
+            "display" : "Cataract-ataxia-deafness syndrome"
+          },
+          {
+            "code" : "1369",
+            "display" : "Congenital cataract-hypertrophic cardiomyopathy-mitochondrial myopathy syndrome"
+          },
+          {
+            "code" : "1373",
+            "display" : "Cataract-aberrant oral frenula-growth delay syndrome"
+          },
+          {
+            "code" : "1375",
+            "display" : "Cataract-hypertrichosis-intellectual disability syndrome"
+          },
+          {
+            "code" : "1377",
+            "display" : "Cataract-microcornea syndrome"
+          },
+          {
+            "code" : "1380",
+            "display" : "Cataract-nephropathy-encephalopathy syndrome"
+          },
+          {
+            "code" : "1381",
+            "display" : "Cataract-intellectual disability-anal atresia-urinary defects syndrome"
+          },
+          {
+            "code" : "1383",
+            "display" : "Cataract-deafness-hypogonadism syndrome"
+          },
+          {
+            "code" : "1387",
+            "display" : "Cataract-intellectual disability-hypogonadism syndrome"
+          },
+          {
+            "code" : "1388",
+            "display" : "Catel-Manzke syndrome"
+          },
+          {
+            "code" : "1389",
+            "display" : "Cortical blindness-intellectual disability-polydactyly syndrome"
+          },
+          {
+            "code" : "1390",
+            "display" : "Night blindness-skeletal anomalies-dysmorphism syndrome"
+          },
+          {
+            "code" : "1393",
+            "display" : "Cerebrocostomandibular syndrome"
+          },
+          {
+            "code" : "1394",
+            "display" : "Cerebrofaciothoracic dysplasia"
+          },
+          {
+            "code" : "1397",
+            "display" : "Hydrocephaly-cerebellar agenesis syndrome"
+          },
+          {
+            "code" : "1398",
+            "display" : "Isolated cerebellar agenesis"
+          },
+          {
+            "code" : "1399",
+            "display" : "Richards-Rundle syndrome"
+          },
+          {
+            "code" : "1401",
+            "display" : "CHAND syndrome"
+          },
+          {
+            "code" : "1406",
+            "display" : "Charlie M syndrome"
+          },
+          {
+            "code" : "1410",
+            "display" : "Uncombable hair syndrome"
+          },
+          {
+            "code" : "1412",
+            "display" : "Tarsal-carpal coalition syndrome"
+          },
+          {
+            "code" : "1414",
+            "display" : "Cholestasis-lymphedema syndrome"
+          },
+          {
+            "code" : "1415",
+            "display" : "Hardikar syndrome"
+          },
+          {
+            "code" : "1416",
+            "display" : "Familial calcium pyrophosphate deposition"
+          },
+          {
+            "code" : "1422",
+            "display" : "Chondrodysplasia-difference of sex development syndrome"
+          },
+          {
+            "code" : "1423",
+            "display" : "Lethal recessive chondrodysplasia"
+          },
+          {
+            "code" : "1425",
+            "display" : "Desbuquois syndrome"
+          },
+          {
+            "code" : "1426",
+            "display" : "Greenberg dysplasia"
+          },
+          {
+            "code" : "1427",
+            "display" : "Otospondylomegaepiphyseal dysplasia"
+          },
+          {
+            "code" : "1429",
+            "display" : "Benign hereditary chorea"
+          },
+          {
+            "code" : "1433",
+            "display" : "Choroidal atrophy-alopecia syndrome"
+          },
+          {
+            "code" : "1435",
+            "display" : "Xq21 microdeletion syndrome"
+          },
+          {
+            "code" : "1436",
+            "display" : "X-linked skeletal dysplasia-intellectual disability syndrome"
+          },
+          {
+            "code" : "1437",
+            "display" : "Ring chromosome 1 syndrome"
+          },
+          {
+            "code" : "1438",
+            "display" : "Ring chromosome 10 syndrome"
+          },
+          {
+            "code" : "1439",
+            "display" : "Ring chromosome 12 syndrome"
+          },
+          {
+            "code" : "1440",
+            "display" : "Ring chromosome 14 syndrome"
+          },
+          {
+            "code" : "1441",
+            "display" : "Ring chromosome 17 syndrome"
+          },
+          {
+            "code" : "1442",
+            "display" : "Ring chromosome 18 syndrome"
+          },
+          {
+            "code" : "1443",
+            "display" : "Ring chromosome 19 syndrome"
+          },
+          {
+            "code" : "1444",
+            "display" : "Ring chromosome 20 syndrome"
+          },
+          {
+            "code" : "1445",
+            "display" : "Ring chromosome 21 syndrome"
+          },
+          {
+            "code" : "1446",
+            "display" : "Ring chromosome 22 syndrome"
+          },
+          {
+            "code" : "1447",
+            "display" : "Ring chromosome 4 syndrome"
+          },
+          {
+            "code" : "1448",
+            "display" : "Ring chromosome 6 syndrome"
+          },
+          {
+            "code" : "1449",
+            "display" : "Ring chromosome 7 syndrome"
+          },
+          {
+            "code" : "1450",
+            "display" : "Ring chromosome 8 syndrome"
+          },
+          {
+            "code" : "1451",
+            "display" : "CINCA syndrome"
+          },
+          {
+            "code" : "1452",
+            "display" : "Cleidocranial dysplasia"
+          },
+          {
+            "code" : "1453",
+            "display" : "Cleidorhizomelic syndrome"
+          },
+          {
+            "code" : "1454",
+            "display" : "Joubert syndrome with hepatic defect"
+          },
+          {
+            "code" : "1456",
+            "display" : "Middle aortic syndrome"
+          },
+          {
+            "code" : "1457",
+            "display" : "Aorta coarctation"
+          },
+          {
+            "code" : "1458",
+            "display" : "CODAS syndrome"
+          },
+          {
+            "code" : "1459",
+            "display" : "Celiac disease-epilepsy-cerebral calcification syndrome"
+          },
+          {
+            "code" : "1460",
+            "display" : "Isolated complex III deficiency"
+          },
+          {
+            "code" : "1461",
+            "display" : "Criss-cross heart"
+          },
+          {
+            "code" : "1464",
+            "display" : "Univentricular heart"
+          },
+          {
+            "code" : "1465",
+            "display" : "Coffin-Siris syndrome"
+          },
+          {
+            "code" : "1466",
+            "display" : "COFS syndrome"
+          },
+          {
+            "code" : "1467",
+            "display" : "Cogan syndrome"
+          },
+          {
+            "code" : "1471",
+            "display" : "Coloboma of macula-brachydactyly type B syndrome"
+          },
+          {
+            "code" : "1473",
+            "display" : "Uveal coloboma-cleft lip and palate-intellectual disability"
+          },
+          {
+            "code" : "1475",
+            "display" : "Renal coloboma syndrome"
+          },
+          {
+            "code" : "1478",
+            "display" : "Interatrial communication"
+          },
+          {
+            "code" : "1479",
+            "display" : "Atrial septal defect-atrioventricular conduction defects syndrome"
+          },
+          {
+            "code" : "1482",
+            "display" : "Gonococcal conjunctivitis"
+          },
+          {
+            "code" : "1484",
+            "display" : "Contractures-ectodermal dysplasia-cleft lip/palate syndrome"
+          },
+          {
+            "code" : "1485",
+            "display" : "Arthrogryposis-hyperkeratosis syndrome, lethal form"
+          },
+          {
+            "code" : "1486",
+            "display" : "Lethal congenital contracture syndrome type 1"
+          },
+          {
+            "code" : "1487",
+            "display" : "Cooks syndrome"
+          },
+          {
+            "code" : "1488",
+            "display" : "Cooper-Jabs syndrome"
+          },
+          {
+            "code" : "1489",
+            "display" : "Whooping cough"
+          },
+          {
+            "code" : "1490",
+            "display" : "Corneal dystrophy-perceptive deafness syndrome"
+          },
+          {
+            "code" : "1493",
+            "display" : "Vici syndrome"
+          },
+          {
+            "code" : "1495",
+            "display" : "Intellectual disability-hypoplastic corpus callosum-preauricular tag syndrome"
+          },
+          {
+            "code" : "1496",
+            "display" : "Corpus callosum agenesis-neuronopathy syndrome"
+          },
+          {
+            "code" : "1497",
+            "display" : "X-linked complicated corpus callosum dysgenesis"
+          },
+          {
+            "code" : "1501",
+            "display" : "Adrenocortical carcinoma"
+          },
+          {
+            "code" : "1506",
+            "display" : "Thin ribs-tubular bones-dysmorphism syndrome"
+          },
+          {
+            "code" : "1507",
+            "display" : "Autosomal recessive Robinow syndrome"
+          },
+          {
+            "code" : "1508",
+            "display" : "Coxoauricular syndrome"
+          },
+          {
+            "code" : "1509",
+            "display" : "Coxopodopatellar syndrome"
+          },
+          {
+            "code" : "1512",
+            "display" : "Crane-Heise syndrome"
+          },
+          {
+            "code" : "1513",
+            "display" : "Craniodiaphyseal dysplasia"
+          },
+          {
+            "code" : "1514",
+            "display" : "Craniodigital-intellectual disability syndrome"
+          },
+          {
+            "code" : "1515",
+            "display" : "Cranioectodermal dysplasia"
+          },
+          {
+            "code" : "1516",
+            "display" : "Non-syndromic bilambdoid and sagittal craniosynostosis"
+          },
+          {
+            "code" : "1517",
+            "display" : "Cantú syndrome"
+          },
+          {
+            "code" : "1519",
+            "display" : "SPECC1L-related hypertelorism syndrome"
+          },
+          {
+            "code" : "1520",
+            "display" : "Craniofrontonasal dysplasia"
+          },
+          {
+            "code" : "1521",
+            "display" : "Craniofrontonasal dysplasia-Poland anomaly syndrome"
+          },
+          {
+            "code" : "1522",
+            "display" : "Craniometaphyseal dysplasia"
+          },
+          {
+            "code" : "1524",
+            "display" : "Craniomicromelic syndrome"
+          },
+          {
+            "code" : "1525",
+            "display" : "Cranio-osteoarthropathy"
+          },
+          {
+            "code" : "1527",
+            "display" : "Craniosynostosis, Philadelphia type"
+          },
+          {
+            "code" : "1528",
+            "display" : "Craniotelencephalic dysplasia"
+          },
+          {
+            "code" : "1529",
+            "display" : "Craniofacial-deafness-hand syndrome"
+          },
+          {
+            "code" : "1532",
+            "display" : "Gómez-López-Hernández syndrome"
+          },
+          {
+            "code" : "1538",
+            "display" : "Craniosynostosis-Dandy-Walker malformation-hydrocephalus syndrome"
+          },
+          {
+            "code" : "1540",
+            "display" : "Jackson-Weiss syndrome"
+          },
+          {
+            "code" : "1541",
+            "display" : "Craniosynostosis, Boston type"
+          },
+          {
+            "code" : "1544",
+            "display" : "Benign focal seizures of adolescence"
+          },
+          {
+            "code" : "1545",
+            "display" : "Crisponi syndrome"
+          },
+          {
+            "code" : "1546",
+            "display" : "Cryptococcosis"
+          },
+          {
+            "code" : "1547",
+            "display" : "Cryptomicrotia-brachydactyly-excess fingertip arch syndrome"
+          },
+          {
+            "code" : "1548",
+            "display" : "Cryptorchidism-arachnodactyly-intellectual disability syndrome"
+          },
+          {
+            "code" : "1551",
+            "display" : "Familial benign copper deficiency"
+          },
+          {
+            "code" : "1552",
+            "display" : "Currarino syndrome"
+          },
+          {
+            "code" : "1553",
+            "display" : "Curry-Jones syndrome"
+          },
+          {
+            "code" : "1555",
+            "display" : "Cutis gyrata-acanthosis nigricans-craniosynostosis syndrome"
+          },
+          {
+            "code" : "1556",
+            "display" : "Cutis marmorata telangiectatica congenita"
+          },
+          {
+            "code" : "1560",
+            "display" : "Cysticercosis"
+          },
+          {
+            "code" : "1561",
+            "display" : "Fatal infantile cytochrome C oxidase deficiency"
+          },
+          {
+            "code" : "1563",
+            "display" : "Dahlberg-Borer-Newcomer syndrome"
+          },
+          {
+            "code" : "1566",
+            "display" : "Dandy-Walker malformation-postaxial polydactyly syndrome"
+          },
+          {
+            "code" : "1568",
+            "display" : "X-linked intellectual disability-Dandy-Walker malformation-basal ganglia disease-seizures syndrome"
+          },
+          {
+            "code" : "1570",
+            "display" : "Symbrachydactyly of hands and feet"
+          },
+          {
+            "code" : "1571",
+            "display" : "Knobloch syndrome"
+          },
+          {
+            "code" : "1572",
+            "display" : "Common variable immunodeficiency"
+          },
+          {
+            "code" : "1573",
+            "display" : "Hypotrichosis with juvenile macular degeneration"
+          },
+          {
+            "code" : "1574",
+            "display" : "Retinal degeneration-nanophthalmos-glaucoma syndrome"
+          },
+          {
+            "code" : "1578",
+            "display" : "Pterin-4 alpha-carbinolamine dehydratase deficiency"
+          },
+          {
+            "code" : "1580",
+            "display" : "Distal deletion 10p"
+          },
+          {
+            "code" : "1581",
+            "display" : "Non-distal deletion 10q"
+          },
+          {
+            "code" : "1587",
+            "display" : "Monosomy 13q14"
+          },
+          {
+            "code" : "1590",
+            "display" : "Distal deletion 13q"
+          },
+          {
+            "code" : "1596",
+            "display" : "Distal deletion 15q"
+          },
+          {
+            "code" : "1597",
+            "display" : "Distal deletion 17q"
+          },
+          {
+            "code" : "1598",
+            "display" : "Monosomy 18p"
+          },
+          {
+            "code" : "1600",
+            "display" : "Monosomy 18q"
+          },
+          {
+            "code" : "1606",
+            "display" : "1p36 deletion syndrome"
+          },
+          {
+            "code" : "1617",
+            "display" : "Developmental delay-language impairment-dopa responsive dystonia-parkinsonism syndrome due to 2q24 microdeletion"
+          },
+          {
+            "code" : "1620",
+            "display" : "Distal deletion 3p"
+          },
+          {
+            "code" : "1621",
+            "display" : "3q13 microdeletion syndrome"
+          },
+          {
+            "code" : "1627",
+            "display" : "Deletion 5q35"
+          },
+          {
+            "code" : "1636",
+            "display" : "Distal monosomy 7q36"
+          },
+          {
+            "code" : "1642",
+            "display" : "Distal deletion 9p"
+          },
+          {
+            "code" : "1643",
+            "display" : "Xp22.3 microdeletion syndrome"
+          },
+          {
+            "code" : "1646",
+            "display" : "Chromosome Y microdeletion"
+          },
+          {
+            "code" : "1647",
+            "display" : "Oculocerebrocutaneous syndrome"
+          },
+          {
+            "code" : "1652",
+            "display" : "Dent disease"
+          },
+          {
+            "code" : "1653",
+            "display" : "Dentin dysplasia"
+          },
+          {
+            "code" : "1655",
+            "display" : "Müllerian derivatives-lymphangiectasia-polydactyly syndrome"
+          },
+          {
+            "code" : "1656",
+            "display" : "Dermatitis herpetiformis"
+          },
+          {
+            "code" : "1657",
+            "display" : "Dermatoosteolysis, Kirghizian type"
+          },
+          {
+            "code" : "1658",
+            "display" : "Absence of fingerprints-congenital milia syndrome"
+          },
+          {
+            "code" : "1659",
+            "display" : "Dermatoleukodystrophy"
+          },
+          {
+            "code" : "1660",
+            "display" : "Dermoodontodysplasia"
+          },
+          {
+            "code" : "1661",
+            "display" : "X-linked corneal dermoid"
+          },
+          {
+            "code" : "1662",
+            "display" : "Restrictive dermopathy"
+          },
+          {
+            "code" : "1665",
+            "display" : "Sporadic fetal brain disruption sequence"
+          },
+          {
+            "code" : "1666",
+            "display" : "Dextrocardia"
+          },
+          {
+            "code" : "1667",
+            "display" : "Wolcott-Rallison syndrome"
+          },
+          {
+            "code" : "1670",
+            "display" : "Chronic diarrhea with villous atrophy"
+          },
+          {
+            "code" : "1671",
+            "display" : "Split cord malformation type I"
+          },
+          {
+            "code" : "1672",
+            "display" : "Diencephalic syndrome"
+          },
+          {
+            "code" : "1675",
+            "display" : "Dihydropyrimidine dehydrogenase deficiency"
+          },
+          {
+            "code" : "1676",
+            "display" : "Idiopathic pulmonary artery dilatation"
+          },
+          {
+            "code" : "1677",
+            "display" : "Familial idiopathic dilatation of the right atrium"
+          },
+          {
+            "code" : "1679",
+            "display" : "Diphtheria"
+          },
+          {
+            "code" : "1681",
+            "display" : "Diprosopus"
+          },
+          {
+            "code" : "1682",
+            "display" : "Arterial dissection-lentiginosis syndrome"
+          },
+          {
+            "code" : "1686",
+            "display" : "Cardiac diverticulum"
+          },
+          {
+            "code" : "1692",
+            "display" : "Mosaic trisomy 1"
+          },
+          {
+            "code" : "1695",
+            "display" : "Non-distal duplication 10q"
+          },
+          {
+            "code" : "1698",
+            "display" : "Mosaic trisomy 12"
+          },
+          {
+            "code" : "1699",
+            "display" : "Trisomy 12p"
+          },
+          {
+            "code" : "1702",
+            "display" : "Non-distal duplication 13q"
+          },
+          {
+            "code" : "1703",
+            "display" : "Mosaic trisomy 14"
+          },
+          {
+            "code" : "1705",
+            "display" : "Distal duplication 14q"
+          },
+          {
+            "code" : "1706",
+            "display" : "Mosaic trisomy 15"
+          },
+          {
+            "code" : "1707",
+            "display" : "Distal duplication 15q"
+          },
+          {
+            "code" : "1708",
+            "display" : "Mosaic trisomy 16"
+          },
+          {
+            "code" : "1711",
+            "display" : "Mosaic trisomy 17"
+          },
+          {
+            "code" : "1713",
+            "display" : "17p11.2 microduplication syndrome"
+          },
+          {
+            "code" : "1715",
+            "display" : "Trisomy 18p"
+          },
+          {
+            "code" : "1716",
+            "display" : "Distal duplication 18q"
+          },
+          {
+            "code" : "1717",
+            "display" : "Distal duplication 19q"
+          },
+          {
+            "code" : "1723",
+            "display" : "Mosaic trisomy 2"
+          },
+          {
+            "code" : "1724",
+            "display" : "Mosaic trisomy 20"
+          },
+          {
+            "code" : "1727",
+            "display" : "22q11.2 duplication syndrome"
+          },
+          {
+            "code" : "1738",
+            "display" : "Trisomy 4p"
+          },
+          {
+            "code" : "1742",
+            "display" : "Trisomy 5p"
+          },
+          {
+            "code" : "1745",
+            "display" : "Distal duplication 6p"
+          },
+          {
+            "code" : "1747",
+            "display" : "Mosaic trisomy 7"
+          },
+          {
+            "code" : "1752",
+            "display" : "Trisomy 8q"
+          },
+          {
+            "code" : "1756",
+            "display" : "Caudal duplication"
+          },
+          {
+            "code" : "1757",
+            "display" : "Fibular dimelia-diplopodia syndrome"
+          },
+          {
+            "code" : "1759",
+            "display" : "Thoraco-abdominal enteric duplication"
+          },
+          {
+            "code" : "1762",
+            "display" : "Proximal Xq28 duplication syndrome"
+          },
+          {
+            "code" : "1764",
+            "display" : "Familial dysautonomia"
+          },
+          {
+            "code" : "1766",
+            "display" : "Dysequilibrium syndrome"
+          },
+          {
+            "code" : "1768",
+            "display" : "Familial caudal dysgenesis"
+          },
+          {
+            "code" : "1770",
+            "display" : "XY type gonadal dysgenesis-associated anomalies syndrome"
+          },
+          {
+            "code" : "1772",
+            "display" : "45,X/46,XY mixed gonadal dysgenesis"
+          },
+          {
+            "code" : "1775",
+            "display" : "Dyskeratosis congenita"
+          },
+          {
+            "code" : "1777",
+            "display" : "Temtamy syndrome"
+          },
+          {
+            "code" : "1778",
+            "display" : "Facial dysmorphism-shawl scrotum-joint laxity syndrome"
+          },
+          {
+            "code" : "1779",
+            "display" : "Dysmorphism-cleft palate-loose skin syndrome"
+          },
+          {
+            "code" : "1780",
+            "display" : "Thakker-Donnai syndrome"
+          },
+          {
+            "code" : "1782",
+            "display" : "Dysosteosclerosis"
+          },
+          {
+            "code" : "1784",
+            "display" : "Acrofrontofacionasal dysostosis"
+          },
+          {
+            "code" : "1786",
+            "display" : "Acrofacial dysostosis, Catania type"
+          },
+          {
+            "code" : "1787",
+            "display" : "Acrofacial dysostosis, Palagonia type"
+          },
+          {
+            "code" : "1788",
+            "display" : "Acrofacial dysostosis, Rodríguez type"
+          },
+          {
+            "code" : "1790",
+            "display" : "Hypomandibular faciocranial dysostosis"
+          },
+          {
+            "code" : "1791",
+            "display" : "Frontofacionasal dysplasia"
+          },
+          {
+            "code" : "1794",
+            "display" : "Oculomaxillofacial dysostosis"
+          },
+          {
+            "code" : "1797",
+            "display" : "Autosomal dominant spondylocostal dysostosis"
+          },
+          {
+            "code" : "1798",
+            "display" : "Craniofacial dysostosis-diaphyseal hyperplasia syndrome"
+          },
+          {
+            "code" : "1799",
+            "display" : "Familial developmental dysphasia"
+          },
+          {
+            "code" : "1801",
+            "display" : "Kyphomelic dysplasia"
+          },
+          {
+            "code" : "1802",
+            "display" : "Ghosal hematodiaphyseal dysplasia"
+          },
+          {
+            "code" : "1803",
+            "display" : "Thoracomelic dysplasia"
+          },
+          {
+            "code" : "1806",
+            "display" : "Ectodermal dysplasia-blindness syndrome"
+          },
+          {
+            "code" : "1807",
+            "display" : "Focal facial dermal dysplasia type III"
+          },
+          {
+            "code" : "1808",
+            "display" : "Hidrotic ectodermal dysplasia, Christianson-Fourie type"
+          },
+          {
+            "code" : "1809",
+            "display" : "Hidrotic ectodermal dysplasia, Halal type"
+          },
+          {
+            "code" : "1810",
+            "display" : "Autosomal dominant hypohidrotic ectodermal dysplasia"
+          },
+          {
+            "code" : "1811",
+            "display" : "Odontomicronychial dysplasia"
+          },
+          {
+            "code" : "1812",
+            "display" : "Ectodermal dysplasia-intellectual disability-central nervous system malformation syndrome"
+          },
+          {
+            "code" : "1816",
+            "display" : "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"
+          },
+          {
+            "code" : "1818",
+            "display" : "Ectodermal dysplasia, trichoodontoonychial type"
+          },
+          {
+            "code" : "1822",
+            "display" : "Dysplasia epiphysealis hemimelica"
+          },
+          {
+            "code" : "1824",
+            "display" : "Lowry-Wood syndrome"
+          },
+          {
+            "code" : "1825",
+            "display" : "Epiphyseal dysplasia-hearing loss-dysmorphism syndrome"
+          },
+          {
+            "code" : "1826",
+            "display" : "Frontometaphyseal dysplasia"
+          },
+          {
+            "code" : "1827",
+            "display" : "Acromelic frontonasal dysplasia"
+          },
+          {
+            "code" : "1830",
+            "display" : "Schimke immuno-osseous dysplasia"
+          },
+          {
+            "code" : "1832",
+            "display" : "Osteosclerotic bone dysplasia"
+          },
+          {
+            "code" : "1834",
+            "display" : "Axial mesodermal dysplasia spectrum"
+          },
+          {
+            "code" : "1836",
+            "display" : "Mesomelic dysplasia, Kantaputra type"
+          },
+          {
+            "code" : "1837",
+            "display" : "Metaphyseal chondrodysplasia, Rosenberg type"
+          },
+          {
+            "code" : "1839",
+            "display" : "Hereditary mucoepithelial dysplasia"
+          },
+          {
+            "code" : "1842",
+            "display" : "Bone dysplasia, lethal Holmgren type"
+          },
+          {
+            "code" : "1848",
+            "display" : "Renal agenesis, bilateral"
+          },
+          {
+            "code" : "1851",
+            "display" : "Multicystic dysplastic kidney"
+          },
+          {
+            "code" : "1852",
+            "display" : "X-linked retinal dysplasia"
+          },
+          {
+            "code" : "1855",
+            "display" : "Spondyloenchondrodysplasia"
+          },
+          {
+            "code" : "1856",
+            "display" : "Spondyloperipheral dysplasia-short ulna syndrome"
+          },
+          {
+            "code" : "1858",
+            "display" : "Skeletal dysplasia-epilepsy-short stature syndrome"
+          },
+          {
+            "code" : "1860",
+            "display" : "Thanatophoric dysplasia type 1"
+          },
+          {
+            "code" : "1861",
+            "display" : "Thoracic dysplasia-hydrocephalus syndrome"
+          },
+          {
+            "code" : "1865",
+            "display" : "Dyssegmental dysplasia, Silverman-Handmaker type"
+          },
+          {
+            "code" : "1867",
+            "display" : "Hereditary bullous dystrophy, macular type"
+          },
+          {
+            "code" : "1871",
+            "display" : "Progressive cone dystrophy"
+          },
+          {
+            "code" : "1872",
+            "display" : "Cone rod dystrophy"
+          },
+          {
+            "code" : "1873",
+            "display" : "Jalili syndrome"
+          },
+          {
+            "code" : "1875",
+            "display" : "Congenital muscular dystrophy-infantile cataract-hypogonadism syndrome"
+          },
+          {
+            "code" : "1876",
+            "display" : "Oculogastrointestinal muscular dystrophy"
+          },
+          {
+            "code" : "1878",
+            "display" : "TRIM32-related limb-girdle muscular dystrophy R8"
+          },
+          {
+            "code" : "1879",
+            "display" : "Melorheostosis with osteopoikilosis"
+          },
+          {
+            "code" : "1880",
+            "display" : "Ebstein malformation of the tricuspid valve"
+          },
+          {
+            "code" : "1882",
+            "display" : "Hypohidrotic ectodermal dysplasia-hypothyroidism-ciliary dyskinesia syndrome"
+          },
+          {
+            "code" : "1883",
+            "display" : "Ectodermal dysplasia-sensorineural deafness syndrome"
+          },
+          {
+            "code" : "1884",
+            "display" : "Ectopia lentis-chorioretinal dystrophy-myopia syndrome"
+          },
+          {
+            "code" : "1885",
+            "display" : "Isolated ectopia lentis"
+          },
+          {
+            "code" : "1891",
+            "display" : "Intellectual disability-spasticity-ectrodactyly syndrome"
+          },
+          {
+            "code" : "1892",
+            "display" : "Ectrodactyly-polydactyly syndrome"
+          },
+          {
+            "code" : "1895",
+            "display" : "Edinburgh malformation syndrome"
+          },
+          {
+            "code" : "1896",
+            "display" : "EEC syndrome"
+          },
+          {
+            "code" : "1897",
+            "display" : "EEM syndrome"
+          },
+          {
+            "code" : "1899",
+            "display" : "Arthrochalasia Ehlers-Danlos syndrome"
+          },
+          {
+            "code" : "1900",
+            "display" : "Kyphoscoliotic Ehlers-Danlos syndrome due to lysyl hydroxylase 1 deficiency"
+          },
+          {
+            "code" : "1901",
+            "display" : "Dermatosparaxis Ehlers-Danlos syndrome"
+          },
+          {
+            "code" : "1902",
+            "display" : "Ehrlichiosis"
+          },
+          {
+            "code" : "1906",
+            "display" : "Fetal valproate spectrum disorder"
+          },
+          {
+            "code" : "1908",
+            "display" : "Aminopterin/methotrexate embryofetopathy"
+          },
+          {
+            "code" : "1909",
+            "display" : "Indomethacin embryofetopathy"
+          },
+          {
+            "code" : "1910",
+            "display" : "Fetal iodine syndrome"
+          },
+          {
+            "code" : "1911",
+            "display" : "Cocaine embryofetopathy"
+          },
+          {
+            "code" : "1912",
+            "display" : "Fetal hydantoin syndrome"
+          },
+          {
+            "code" : "1913",
+            "display" : "Fetal trimethadione syndrome"
+          },
+          {
+            "code" : "1914",
+            "display" : "Vitamin K antagonist embryofetopathy"
+          },
+          {
+            "code" : "1915",
+            "display" : "Fetal alcohol syndrome"
+          },
+          {
+            "code" : "1916",
+            "display" : "Diethylstilbestrol syndrome"
+          },
+          {
+            "code" : "1917",
+            "display" : "Fetal methylmercury syndrome"
+          },
+          {
+            "code" : "1918",
+            "display" : "Fetal minoxidil syndrome"
+          },
+          {
+            "code" : "1919",
+            "display" : "Phenobarbital embryopathy"
+          },
+          {
+            "code" : "1920",
+            "display" : "Toluene embryopathy"
+          },
+          {
+            "code" : "1923",
+            "display" : "Methimazole embryofetopathy"
+          },
+          {
+            "code" : "1926",
+            "display" : "Diabetic embryopathy"
+          },
+          {
+            "code" : "1927",
+            "display" : "Emery-Nelson syndrome"
+          },
+          {
+            "code" : "1928",
+            "display" : "Congenital lobar emphysema"
+          },
+          {
+            "code" : "1929",
+            "display" : "Rasmussen subacute encephalitis"
+          },
+          {
+            "code" : "1930",
+            "display" : "Herpes simplex virus encephalitis"
+          },
+          {
+            "code" : "1931",
+            "display" : "Frontal encephalocele"
+          },
+          {
+            "code" : "1933",
+            "display" : "Mitochondrial DNA depletion syndrome, encephalomyopathic form with methylmalonic aciduria"
+          },
+          {
+            "code" : "1934",
+            "display" : "Early infantile epileptic encephalopathy"
+          },
+          {
+            "code" : "1935",
+            "display" : "Early myoclonic encephalopathy"
+          },
+          {
+            "code" : "1937",
+            "display" : "Eng-Strom syndrome"
+          },
+          {
+            "code" : "1941",
+            "display" : "Juvenile absence epilepsy"
+          },
+          {
+            "code" : "1942",
+            "display" : "Myoclonic-astatic epilepsy"
+          },
+          {
+            "code" : "1943",
+            "display" : "Early-onset progressive encephalopathy with migrant continuous myoclonus"
+          },
+          {
+            "code" : "1945",
+            "display" : "Rolandic epilepsy"
+          },
+          {
+            "code" : "1946",
+            "display" : "Amelocerebrohypohidrotic syndrome"
+          },
+          {
+            "code" : "1947",
+            "display" : "Progressive epilepsy-intellectual disability syndrome, Finnish type"
+          },
+          {
+            "code" : "1948",
+            "display" : "Epilepsy-microcephaly-skeletal dysplasia syndrome"
+          },
+          {
+            "code" : "1949",
+            "display" : "Benign familial neonatal epilepsy"
+          },
+          {
+            "code" : "1951",
+            "display" : "Epilepsy-telangiectasia syndrome"
+          },
+          {
+            "code" : "1952",
+            "display" : "Epiphyseal stippling-osteoclastic hyperplasia syndrome"
+          },
+          {
+            "code" : "1954",
+            "display" : "Congenital lethal erythroderma"
+          },
+          {
+            "code" : "1955",
+            "display" : "Spinocerebellar ataxia type 34"
+          },
+          {
+            "code" : "1957",
+            "display" : "Esthesioneuroblastoma"
+          },
+          {
+            "code" : "1959",
+            "display" : "Evans syndrome"
+          },
+          {
+            "code" : "1962",
+            "display" : "Exostoses-anetodermia-brachydactyly type E syndrome"
+          },
+          {
+            "code" : "1964",
+            "display" : "Extrasystoles-short stature-hyperpigmentation-microcephaly syndrome"
+          },
+          {
+            "code" : "1968",
+            "display" : "Flat face-microstomia-ear anomaly syndrome"
+          },
+          {
+            "code" : "1969",
+            "display" : "Facial dysmorphism-anorexia-cachexia-eye and skin anomalies syndrome"
+          },
+          {
+            "code" : "1970",
+            "display" : "Facial dysmorphism-macrocephaly-myopia-Dandy-Walker malformation syndrome"
+          },
+          {
+            "code" : "1972",
+            "display" : "Lethal faciocardiomelic dysplasia"
+          },
+          {
+            "code" : "1973",
+            "display" : "Faciocardiorenal syndrome"
+          },
+          {
+            "code" : "1974",
+            "display" : "Autosomal recessive faciodigitogenital syndrome"
+          },
+          {
+            "code" : "1979",
+            "display" : "Lipodystrophy due to peptidic growth factors deficiency"
+          },
+          {
+            "code" : "1980",
+            "display" : "Bilateral striopallidodentate calcinosis"
+          },
+          {
+            "code" : "1986",
+            "display" : "Gollop-Wolfgang complex"
+          },
+          {
+            "code" : "1987",
+            "display" : "Isolated femoral agenesis/hypoplasia"
+          },
+          {
+            "code" : "1988",
+            "display" : "Femoral-facial syndrome"
+          },
+          {
+            "code" : "1993",
+            "display" : "Pai syndrome"
+          },
+          {
+            "code" : "1995",
+            "display" : "Cleft lip-retinopathy syndrome"
+          },
+          {
+            "code" : "1997",
+            "display" : "Blepharo-cheilo-odontic syndrome"
+          },
+          {
+            "code" : "2001",
+            "display" : "Cleft lip/palate-intestinal malrotation-cardiopathy syndrome"
+          },
+          {
+            "code" : "2003",
+            "display" : "Cleft lip/palate-deafness-sacral lipoma syndrome"
+          },
+          {
+            "code" : "2004",
+            "display" : "Laryngotracheoesophageal cleft"
+          },
+          {
+            "code" : "2006",
+            "display" : "Median cleft lip/mandible"
+          },
+          {
+            "code" : "2007",
+            "display" : "Alar cartilages hypoplasia-coloboma-telecanthus syndrome"
+          },
+          {
+            "code" : "2008",
+            "display" : "Acrocardiofacial syndrome"
+          },
+          {
+            "code" : "2010",
+            "display" : "Cleft palate-stapes fixation-oligodontia syndrome"
+          },
+          {
+            "code" : "2013",
+            "display" : "Cleft palate-large ears-small head syndrome"
+          },
+          {
+            "code" : "2015",
+            "display" : "Cleft palate-short stature-vertebral anomalies syndrome"
+          },
+          {
+            "code" : "2016",
+            "display" : "Cleft palate-lateral synechia syndrome"
+          },
+          {
+            "code" : "2017",
+            "display" : "Sternal cleft"
+          },
+          {
+            "code" : "2019",
+            "display" : "Femur-fibula-ulna complex"
+          },
+          {
+            "code" : "2020",
+            "display" : "Congenital fiber-type disproportion myopathy"
+          },
+          {
+            "code" : "2021",
+            "display" : "Fibrochondrogenesis"
+          },
+          {
+            "code" : "2022",
+            "display" : "Endocardial fibroelastosis"
+          },
+          {
+            "code" : "2023",
+            "display" : "Undifferentiated pleomorphic sarcoma"
+          },
+          {
+            "code" : "2024",
+            "display" : "Hereditary gingival fibromatosis"
+          },
+          {
+            "code" : "2025",
+            "display" : "Gingival fibromatosis-facial dysmorphism syndrome"
+          },
+          {
+            "code" : "2026",
+            "display" : "Gingival fibromatosis-hypertrichosis syndrome"
+          },
+          {
+            "code" : "2027",
+            "display" : "Gingival fibromatosis-progressive deafness syndrome"
+          },
+          {
+            "code" : "2028",
+            "display" : "Juvenile hyaline fibromatosis"
+          },
+          {
+            "code" : "2030",
+            "display" : "Fibrosarcoma"
+          },
+          {
+            "code" : "2031",
+            "display" : "Hepatic fibrosis-renal cysts-intellectual disability syndrome"
+          },
+          {
+            "code" : "2032",
+            "display" : "Idiopathic pulmonary fibrosis"
+          },
+          {
+            "code" : "2035",
+            "display" : "Lymphatic filariasis"
+          },
+          {
+            "code" : "2036",
+            "display" : "Scalp-ear-nipple syndrome"
+          },
+          {
+            "code" : "2037",
+            "display" : "Congenital aortopulmonary window"
+          },
+          {
+            "code" : "2038",
+            "display" : "Pulmonary arteriovenous malformation"
+          },
+          {
+            "code" : "2039",
+            "display" : "Congenital systemic arteriovenous fistula"
+          },
+          {
+            "code" : "2040",
+            "display" : "Congenital respiratory-biliary fistula"
+          },
+          {
+            "code" : "2041",
+            "display" : "Coronary arterial fistula"
+          },
+          {
+            "code" : "2044",
+            "display" : "Floating-Harbor syndrome"
+          },
+          {
+            "code" : "2045",
+            "display" : "FLOTCH syndrome"
+          },
+          {
+            "code" : "2047",
+            "display" : "Flynn-Aird syndrome"
+          },
+          {
+            "code" : "2048",
+            "display" : "Foix-Chavany-Marie syndrome"
+          },
+          {
+            "code" : "2050",
+            "display" : "Cole-Carpenter syndrome"
+          },
+          {
+            "code" : "2052",
+            "display" : "Fraser syndrome"
+          },
+          {
+            "code" : "2053",
+            "display" : "Freeman-Sheldon syndrome"
+          },
+          {
+            "code" : "2056",
+            "display" : "Essential fructosuria"
+          },
+          {
+            "code" : "2057",
+            "display" : "Blepharophimosis-ptosis-esotropia-syndactyly-short stature syndrome"
+          },
+          {
+            "code" : "2058",
+            "display" : "Fryns-Smeets-Thiry syndrome"
+          },
+          {
+            "code" : "2059",
+            "display" : "Fryns syndrome"
+          },
+          {
+            "code" : "2062",
+            "display" : "Progressive non-infectious anterior vertebral fusion"
+          },
+          {
+            "code" : "2063",
+            "display" : "Splenogonadal fusion-limb defects-micrognathia syndrome"
+          },
+          {
+            "code" : "2064",
+            "display" : "Posterior fusion of lumbosacral vertebrae-blepharoptosis syndrome"
+          },
+          {
+            "code" : "2065",
+            "display" : "Galloway-Mowat syndrome"
+          },
+          {
+            "code" : "2066",
+            "display" : "Gamma-aminobutyric acid transaminase deficiency"
+          },
+          {
+            "code" : "2067",
+            "display" : "GAPO syndrome"
+          },
+          {
+            "code" : "2069",
+            "display" : "Gastrocutaneous syndrome"
+          },
+          {
+            "code" : "2070",
+            "display" : "Eosinophilic gastroenteritis"
+          },
+          {
+            "code" : "2072",
+            "display" : "Gaucher disease-ophthalmoplegia-cardiovascular calcification syndrome"
+          },
+          {
+            "code" : "2073",
+            "display" : "Narcolepsy type 1"
+          },
+          {
+            "code" : "2074",
+            "display" : "Gemignani syndrome"
+          },
+          {
+            "code" : "2075",
+            "display" : "Genitopalatocardiac syndrome"
+          },
+          {
+            "code" : "2077",
+            "display" : "German syndrome"
+          },
+          {
+            "code" : "2078",
+            "display" : "Geroderma osteodysplastica"
+          },
+          {
+            "code" : "2083",
+            "display" : "Prominent glabella-microcephaly-hypogenitalism syndrome"
+          },
+          {
+            "code" : "2084",
+            "display" : "Glaucoma-ectopia lentis-microspherophakia-stiff joints-short stature syndrome"
+          },
+          {
+            "code" : "2085",
+            "display" : "Glaucoma-sleep apnea syndrome"
+          },
+          {
+            "code" : "2086",
+            "display" : "Optic pathway glioma"
+          },
+          {
+            "code" : "2088",
+            "display" : "Fanconi-Bickel syndrome"
+          },
+          {
+            "code" : "2089",
+            "display" : "Glycogen storage disease due to hepatic glycogen synthase deficiency"
+          },
+          {
+            "code" : "2090",
+            "display" : "GMS syndrome"
+          },
+          {
+            "code" : "2091",
+            "display" : "Multinodular goiter-cystic kidney-polydactyly syndrome"
+          },
+          {
+            "code" : "2092",
+            "display" : "Focal dermal hypoplasia"
+          },
+          {
+            "code" : "2095",
+            "display" : "Gorlin-Chaudhry-Moss syndrome"
+          },
+          {
+            "code" : "2097",
+            "display" : "Grant syndrome"
+          },
+          {
+            "code" : "2098",
+            "display" : "Acromesomelic dysplasia, Grebe type"
+          },
+          {
+            "code" : "2101",
+            "display" : "Grubben-de Cock-Borghgraef syndrome"
+          },
+          {
+            "code" : "2102",
+            "display" : "GTP cyclohydrolase I deficiency"
+          },
+          {
+            "code" : "2104",
+            "display" : "Dysmorphism-pectus carinatum-joint laxity syndrome"
+          },
+          {
+            "code" : "2107",
+            "display" : "Hall-Riggs syndrome"
+          },
+          {
+            "code" : "2108",
+            "display" : "Hallermann-Streiff syndrome"
+          },
+          {
+            "code" : "2109",
+            "display" : "Hallermann-Streiff-like syndrome"
+          },
+          {
+            "code" : "2110",
+            "display" : "Hallux varus-preaxial polysyndactyly syndrome"
+          },
+          {
+            "code" : "2111",
+            "display" : "Cystic hamartoma of lung and kidney"
+          },
+          {
+            "code" : "2114",
+            "display" : "Hip dysplasia, Beukes type"
+          },
+          {
+            "code" : "2115",
+            "display" : "Harrod syndrome"
+          },
+          {
+            "code" : "2116",
+            "display" : "Hartnup disease"
+          },
+          {
+            "code" : "2117",
+            "display" : "Hartsfield syndrome"
+          },
+          {
+            "code" : "2118",
+            "display" : "Hawkinsinuria"
+          },
+          {
+            "code" : "2119",
+            "display" : "HEC syndrome"
+          },
+          {
+            "code" : "2122",
+            "display" : "Kaposiform hemangioendothelioma"
+          },
+          {
+            "code" : "2123",
+            "display" : "Multifocal infantile hemangioma with extracutenous involvement"
+          },
+          {
+            "code" : "2126",
+            "display" : "Solitary fibrous tumor"
+          },
+          {
+            "code" : "2128",
+            "display" : "Isolated hemihyperplasia"
+          },
+          {
+            "code" : "2131",
+            "display" : "Alternating hemiplegia of childhood"
+          },
+          {
+            "code" : "2132",
+            "display" : "Hemoglobin C disease"
+          },
+          {
+            "code" : "2133",
+            "display" : "Hemoglobin E disease"
+          },
+          {
+            "code" : "2134",
+            "display" : "Atypical hemolytic uremic syndrome"
+          },
+          {
+            "code" : "2135",
+            "display" : "Hennekam-Beemer syndrome"
+          },
+          {
+            "code" : "2136",
+            "display" : "Hennekam syndrome"
+          },
+          {
+            "code" : "2137",
+            "display" : "Autoimmune hepatitis"
+          },
+          {
+            "code" : "2138",
+            "display" : "46,XX ovotesticular difference of sex development"
+          },
+          {
+            "code" : "2139",
+            "display" : "Hernández-Aguirre Negrete syndrome"
+          },
+          {
+            "code" : "2140",
+            "display" : "Congenital diaphragmatic hernia"
+          },
+          {
+            "code" : "2141",
+            "display" : "Diaphragmatic defect-limb deficiency-skull defect syndrome"
+          },
+          {
+            "code" : "2143",
+            "display" : "Donnai-Barrow syndrome"
+          },
+          {
+            "code" : "2145",
+            "display" : "Craniosynostosis, Herrmann-Opitz type"
+          },
+          {
+            "code" : "2148",
+            "display" : "Lissencephaly type 1 due to doublecortin gene mutation"
+          },
+          {
+            "code" : "2149",
+            "display" : "Nodular neuronal heterotopia"
+          },
+          {
+            "code" : "2150",
+            "display" : "Hirschsprung disease-type D brachydactyly syndrome"
+          },
+          {
+            "code" : "2151",
+            "display" : "Hirschsprung disease-ganglioneuroblastoma syndrome"
+          },
+          {
+            "code" : "2152",
+            "display" : "Mowat-Wilson syndrome"
+          },
+          {
+            "code" : "2153",
+            "display" : "Hirschsprung disease-nail hypoplasia-dysmorphism syndrome"
+          },
+          {
+            "code" : "2155",
+            "display" : "Hirschsprung disease-deafness-polydactyly syndrome"
+          },
+          {
+            "code" : "2157",
+            "display" : "Histidinemia"
+          },
+          {
+            "code" : "2158",
+            "display" : "Histidinuria-renal tubular defect syndrome"
+          },
+          {
+            "code" : "2162",
+            "display" : "Holoprosencephaly"
+          },
+          {
+            "code" : "2163",
+            "display" : "Holoprosencephaly-craniosynostosis syndrome"
+          },
+          {
+            "code" : "2165",
+            "display" : "Holoprosencephaly-caudal dysgenesis syndrome"
+          },
+          {
+            "code" : "2166",
+            "display" : "Holoprosencephaly-postaxial polydactyly syndrome"
+          },
+          {
+            "code" : "2167",
+            "display" : "Holzgreve syndrome"
+          },
+          {
+            "code" : "2169",
+            "display" : "Methylcobalamin deficiency type cblE"
+          },
+          {
+            "code" : "2170",
+            "display" : "Methylcobalamin deficiency type cblG"
+          },
+          {
+            "code" : "2172",
+            "display" : "Microcephaly-glomerulonephritis-marfanoid habitus syndrome"
+          },
+          {
+            "code" : "2176",
+            "display" : "Infantile systemic hyalinosis"
+          },
+          {
+            "code" : "2177",
+            "display" : "Hydranencephaly"
+          },
+          {
+            "code" : "2180",
+            "display" : "Hydrocephalus-costovertebral dysplasia-Sprengel anomaly syndrome"
+          },
+          {
+            "code" : "2181",
+            "display" : "Hydrocephaly-tall stature-joint laxity syndrome"
+          },
+          {
+            "code" : "2182",
+            "display" : "Hydrocephalus with stenosis of the aqueduct of Sylvius"
+          },
+          {
+            "code" : "2183",
+            "display" : "Hydrocephalus-obesity-hypogonadism syndrome"
+          },
+          {
+            "code" : "2184",
+            "display" : "Hydrocephaly-low insertion umbilicus syndrome"
+          },
+          {
+            "code" : "2185",
+            "display" : "Congenital hydrocephalus"
+          },
+          {
+            "code" : "2186",
+            "display" : "Hydrocephalus-blue sclerae-nephropathy syndrome"
+          },
+          {
+            "code" : "2189",
+            "display" : "Hydrolethalus"
+          },
+          {
+            "code" : "2195",
+            "display" : "Dicarboxylic aminoaciduria"
+          },
+          {
+            "code" : "2196",
+            "display" : "Primary hypomagnesemia with hypercalciuria and nephrocalcinosis with severe ocular involvement"
+          },
+          {
+            "code" : "2197",
+            "display" : "Idiopathic hypercalciuria"
+          },
+          {
+            "code" : "2198",
+            "display" : "Palmoplantar keratoderma-esophageal carcinoma syndrome"
+          },
+          {
+            "code" : "2199",
+            "display" : "Epidermolytic palmoplantar keratoderma"
+          },
+          {
+            "code" : "2200",
+            "display" : "Focal palmoplantar and gingival keratoderma"
+          },
+          {
+            "code" : "2201",
+            "display" : "Palmoplantar keratoderma-spastic paralysis syndrome"
+          },
+          {
+            "code" : "2202",
+            "display" : "Palmoplantar keratoderma-deafness syndrome"
+          },
+          {
+            "code" : "2203",
+            "display" : "Hyperlysinemia"
+          },
+          {
+            "code" : "2204",
+            "display" : "Dysplastic cortical hyperostosis, Kozlowski-Tsuruta type"
+          },
+          {
+            "code" : "2206",
+            "display" : "Ankylosing vertebral hyperostosis with tylosis"
+          },
+          {
+            "code" : "2209",
+            "display" : "Maternal phenylketonuria"
+          },
+          {
+            "code" : "2211",
+            "display" : "Hypertelorism-hypospadias-polysyndactyly syndrome"
+          },
+          {
+            "code" : "2213",
+            "display" : "Hypertelorism-microtia-facial clefting syndrome"
+          },
+          {
+            "code" : "2215",
+            "display" : "Multiple pterygium-malignant hyperthermia syndrome"
+          },
+          {
+            "code" : "2216",
+            "display" : "Maternal hyperthermia-induced birth defects"
+          },
+          {
+            "code" : "2218",
+            "display" : "Cervical hypertrichosis-peripheral neuropathy syndrome"
+          },
+          {
+            "code" : "2220",
+            "display" : "Hypertrichosis cubiti"
+          },
+          {
+            "code" : "2221",
+            "display" : "Acquired hypertrichosis lanuginosa"
+          },
+          {
+            "code" : "2222",
+            "display" : "Hypertrichosis lanuginosa congenita"
+          },
+          {
+            "code" : "2224",
+            "display" : "Hypertryptophanemia"
+          },
+          {
+            "code" : "2228",
+            "display" : "Hypodontia-dysplasia of nails syndrome"
+          },
+          {
+            "code" : "2229",
+            "display" : "Dilated cardiomyopathy-hypergonadotropic hypogonadism syndrome"
+          },
+          {
+            "code" : "2230",
+            "display" : "Hypogonadotropic hypogonadism-frontoparietal alopecia syndrome"
+          },
+          {
+            "code" : "2232",
+            "display" : "Primary hypergonadotropic hypogonadism-partial alopecia syndrome"
+          },
+          {
+            "code" : "2233",
+            "display" : "Hypogonadism-mitral valve prolapse-intellectual disability syndrome"
+          },
+          {
+            "code" : "2234",
+            "display" : "Male hypergonadotropic hypogonadism-intellectual disability-skeletal anomalies syndrome"
+          },
+          {
+            "code" : "2235",
+            "display" : "Hypogonadotropic hypogonadism-retinitis pigmentosa syndrome"
+          },
+          {
+            "code" : "2237",
+            "display" : "Hypoparathyroidism-sensorineural deafness-renal disease syndrome"
+          },
+          {
+            "code" : "2238",
+            "display" : "Familial isolated hypoparathyroidism"
+          },
+          {
+            "code" : "2239",
+            "display" : "Familial isolated hypoparathyroidism due to agenesis of parathyroid gland"
+          },
+          {
+            "code" : "2241",
+            "display" : "Megacystis-microcolon-intestinal hypoperistalsis syndrome"
+          },
+          {
+            "code" : "2246",
+            "display" : "Cerebellar hypoplasia-tapetoretinal degeneration syndrome"
+          },
+          {
+            "code" : "2248",
+            "display" : "Hypoplastic left heart syndrome"
+          },
+          {
+            "code" : "2249",
+            "display" : "Ulna hypoplasia-intellectual disability syndrome"
+          },
+          {
+            "code" : "2250",
+            "display" : "Hyposmia-nasal and ocular hypoplasia-hypogonadotropic hypogonadism syndrome"
+          },
+          {
+            "code" : "2251",
+            "display" : "Thumb deformity-alopecia-pigmentation anomaly syndrome"
+          },
+          {
+            "code" : "2252",
+            "display" : "Radial hypoplasia-triphalangeal thumbs-hypospadias-maxillary diastema syndrome"
+          },
+          {
+            "code" : "2253",
+            "display" : "Foveal hypoplasia-presenile cataract syndrome"
+          },
+          {
+            "code" : "2254",
+            "display" : "Pontocerebellar hypoplasia type 1"
+          },
+          {
+            "code" : "2255",
+            "display" : "Pancreatic hypoplasia-diabetes-congenital heart disease syndrome"
+          },
+          {
+            "code" : "2256",
+            "display" : "Fibulo-ulnar hypoplasia-renal anomalies syndrome"
+          },
+          {
+            "code" : "2257",
+            "display" : "Primary pulmonary hypoplasia"
+          },
+          {
+            "code" : "2260",
+            "display" : "Oligomeganephronia"
+          },
+          {
+            "code" : "2261",
+            "display" : "Hypospadias-intellectual disability, Goldblatt type syndrome"
+          },
+          {
+            "code" : "2266",
+            "display" : "Hypotrichosis-intellectual disability, Lopes type"
+          },
+          {
+            "code" : "2268",
+            "display" : "ICF syndrome"
+          },
+          {
+            "code" : "2269",
+            "display" : "Ichthyosis-alopecia-eclabion-ectropion-intellectual disability syndrome"
+          },
+          {
+            "code" : "2271",
+            "display" : "Congenital ichthyosis-microcephalus-tetraplegia syndrome"
+          },
+          {
+            "code" : "2272",
+            "display" : "Ichthyosis-oral and digital anomalies syndrome"
+          },
+          {
+            "code" : "2273",
+            "display" : "Ichthyosis follicularis-alopecia-photophobia syndrome"
+          },
+          {
+            "code" : "2274",
+            "display" : "Ichthyosis-hepatosplenomegaly-cerebellar degeneration syndrome"
+          },
+          {
+            "code" : "2278",
+            "display" : "Ichthyosis-intellectual disability-dwarfism-renal impairment syndrome"
+          },
+          {
+            "code" : "2282",
+            "display" : "Dysmorphism-short stature-deafness-difference of sex development syndrome"
+          },
+          {
+            "code" : "2285",
+            "display" : "Primary basilar invagination"
+          },
+          {
+            "code" : "2287",
+            "display" : "Fused mandibular incisors"
+          },
+          {
+            "code" : "2289",
+            "display" : "Neuronal intranuclear inclusion disease"
+          },
+          {
+            "code" : "2290",
+            "display" : "Microvillus inclusion disease"
+          },
+          {
+            "code" : "2291",
+            "display" : "Congenital velopharyngeal incompetence"
+          },
+          {
+            "code" : "2295",
+            "display" : "Familial articular hypermobility syndrome"
+          },
+          {
+            "code" : "2297",
+            "display" : "Insulin-resistance syndrome type A"
+          },
+          {
+            "code" : "2298",
+            "display" : "Insulin-resistance syndrome type B"
+          },
+          {
+            "code" : "2299",
+            "display" : "Aortic arch interruption"
+          },
+          {
+            "code" : "2300",
+            "display" : "Multiple intestinal atresia"
+          },
+          {
+            "code" : "2301",
+            "display" : "Congenital short bowel syndrome"
+          },
+          {
+            "code" : "2302",
+            "display" : "Asbestos intoxication"
+          },
+          {
+            "code" : "2305",
+            "display" : "Isotretinoin syndrome"
+          },
+          {
+            "code" : "2306",
+            "display" : "Isotretinoin-like syndrome"
+          },
+          {
+            "code" : "2307",
+            "display" : "IVIC syndrome"
+          },
+          {
+            "code" : "2308",
+            "display" : "Jacobsen syndrome"
+          },
+          {
+            "code" : "2309",
+            "display" : "Pachyonychia congenita"
+          },
+          {
+            "code" : "2310",
+            "display" : "Absence deformity of leg-cataract syndrome"
+          },
+          {
+            "code" : "2311",
+            "display" : "Autosomal recessive spondylocostal dysostosis"
+          },
+          {
+            "code" : "2312",
+            "display" : "Transient familial neonatal hyperbilirubinemia"
+          },
+          {
+            "code" : "2314",
+            "display" : "Autosomal dominant hyper-IgE syndrome due to STAT3 deficiency"
+          },
+          {
+            "code" : "2315",
+            "display" : "Johanson-Blizzard syndrome"
+          },
+          {
+            "code" : "2316",
+            "display" : "Johnson neuroectodermal syndrome"
+          },
+          {
+            "code" : "2318",
+            "display" : "Joubert syndrome with oculorenal defect"
+          },
+          {
+            "code" : "2319",
+            "display" : "Juberg-Hayward syndrome"
+          },
+          {
+            "code" : "2321",
+            "display" : "Jung syndrome"
+          },
+          {
+            "code" : "2322",
+            "display" : "Kabuki syndrome"
+          },
+          {
+            "code" : "2323",
+            "display" : "Sanjad-Sakati syndrome"
+          },
+          {
+            "code" : "2324",
+            "display" : "Osteopenia-intellectual disability-sparse hair syndrome"
+          },
+          {
+            "code" : "2325",
+            "display" : "Epidermolysis bullosa simplex with anodontia/hypodontia"
+          },
+          {
+            "code" : "2326",
+            "display" : "Kallmann syndrome-heart disease syndrome"
+          },
+          {
+            "code" : "2328",
+            "display" : "Kapur-Toriello syndrome"
+          },
+          {
+            "code" : "2329",
+            "display" : "Karsch-Neugebauer syndrome"
+          },
+          {
+            "code" : "2330",
+            "display" : "Kasabach-Merritt phenomenon"
+          },
+          {
+            "code" : "2331",
+            "display" : "Kawasaki disease"
+          },
+          {
+            "code" : "2332",
+            "display" : "KBG syndrome"
+          },
+          {
+            "code" : "2333",
+            "display" : "Kenny-Caffey syndrome"
+          },
+          {
+            "code" : "2334",
+            "display" : "Autosomal dominant keratitis"
+          },
+          {
+            "code" : "2337",
+            "display" : "Diffuse palmoplantar keratoderma, Bothnian type"
+          },
+          {
+            "code" : "2339",
+            "display" : "Keratosis follicularis-dwarfism-cerebral atrophy syndrome"
+          },
+          {
+            "code" : "2340",
+            "display" : "Keratosis follicularis spinulosa decalvans"
+          },
+          {
+            "code" : "2342",
+            "display" : "Haim-Munk syndrome"
+          },
+          {
+            "code" : "2345",
+            "display" : "Isolated Klippel-Feil syndrome"
+          },
+          {
+            "code" : "2347",
+            "display" : "Lethal Kniest-like dysplasia"
+          },
+          {
+            "code" : "2348",
+            "display" : "Familial partial lipodystrophy, Dunnigan type"
+          },
+          {
+            "code" : "2349",
+            "display" : "Muscular pseudohypertrophy-hypothyroidism syndrome"
+          },
+          {
+            "code" : "2351",
+            "display" : "Kousseff syndrome"
+          },
+          {
+            "code" : "2353",
+            "display" : "Schilbach-Rott syndrome"
+          },
+          {
+            "code" : "2356",
+            "display" : "Arachnoid cyst"
+          },
+          {
+            "code" : "2357",
+            "display" : "Bronchogenic cyst"
+          },
+          {
+            "code" : "2363",
+            "display" : "Lacrimoauriculodentodigital syndrome"
+          },
+          {
+            "code" : "2364",
+            "display" : "Glycogen storage disease due to lactate dehydrogenase deficiency"
+          },
+          {
+            "code" : "2368",
+            "display" : "Gastroschisis"
+          },
+          {
+            "code" : "2369",
+            "display" : "Limb body wall complex"
+          },
+          {
+            "code" : "2370",
+            "display" : "Larsen-like osseous dysplasia-short stature syndrome"
+          },
+          {
+            "code" : "2371",
+            "display" : "Lethal Larsen-like syndrome"
+          },
+          {
+            "code" : "2372",
+            "display" : "Laryngocele"
+          },
+          {
+            "code" : "2373",
+            "display" : "Congenital laryngomalacia"
+          },
+          {
+            "code" : "2374",
+            "display" : "Isolated congenital laryngeal web"
+          },
+          {
+            "code" : "2375",
+            "display" : "Laryngeal abductor paralysis-intellectual disability syndrome"
+          },
+          {
+            "code" : "2377",
+            "display" : "Laurence-Moon syndrome"
+          },
+          {
+            "code" : "2378",
+            "display" : "Laurin-Sandrow syndrome"
+          },
+          {
+            "code" : "2379",
+            "display" : "Early-onset parkinsonism-intellectual disability syndrome"
+          },
+          {
+            "code" : "2380",
+            "display" : "Legg-Calvé-Perthes disease"
+          },
+          {
+            "code" : "2382",
+            "display" : "Lennox-Gastaut syndrome"
+          },
+          {
+            "code" : "2386",
+            "display" : "Leukoencephalopathy-palmoplantar keratoderma syndrome"
+          },
+          {
+            "code" : "2387",
+            "display" : "Leukonychia totalis"
+          },
+          {
+            "code" : "2388",
+            "display" : "Choreoacanthocytosis"
+          },
+          {
+            "code" : "2390",
+            "display" : "Lichtenstein syndrome"
+          },
+          {
+            "code" : "2391",
+            "display" : "Congenitally short costocoracoid ligament"
+          },
+          {
+            "code" : "2394",
+            "display" : "Pyruvate dehydrogenase E3 deficiency"
+          },
+          {
+            "code" : "2396",
+            "display" : "Encephalocraniocutaneous lipomatosis"
+          },
+          {
+            "code" : "2398",
+            "display" : "Multiple symmetric lipomatosis"
+          },
+          {
+            "code" : "2399",
+            "display" : "Nasopalpebral lipoma-coloboma syndrome"
+          },
+          {
+            "code" : "2400",
+            "display" : "Peripheral motor neuropathy-dysautonomia syndrome"
+          },
+          {
+            "code" : "2404",
+            "display" : "Loiasis"
+          },
+          {
+            "code" : "2405",
+            "display" : "Thickened earlobes-conductive deafness syndrome"
+          },
+          {
+            "code" : "2406",
+            "display" : "Locked-in syndrome"
+          },
+          {
+            "code" : "2407",
+            "display" : "Laryngo-onycho-cutaneous syndrome"
+          },
+          {
+            "code" : "2408",
+            "display" : "Lowe-Kohn-Cohen syndrome"
+          },
+          {
+            "code" : "2409",
+            "display" : "Lowry-MacLean syndrome"
+          },
+          {
+            "code" : "2410",
+            "display" : "Hypergonadotropic hypogonadism-cataract syndrome"
+          },
+          {
+            "code" : "2412",
+            "display" : "Dislocation of the hip-dysmorphism syndrome"
+          },
+          {
+            "code" : "2414",
+            "display" : "Congenital pulmonary lymphangiectasia"
+          },
+          {
+            "code" : "2420",
+            "display" : "Primary pulmonary lymphoma"
+          },
+          {
+            "code" : "2427",
+            "display" : "Macrocephaly-short stature-paraplegia syndrome"
+          },
+          {
+            "code" : "2429",
+            "display" : "Macrocephaly-spastic paraplegia-dysmorphism syndrome"
+          },
+          {
+            "code" : "2430",
+            "display" : "Congenital macroglossia"
+          },
+          {
+            "code" : "2432",
+            "display" : "Macrosomia-microphthalmia-cleft palate syndrome"
+          },
+          {
+            "code" : "2435",
+            "display" : "Hypo- and hypermelanotic cutaneous macules-retarded growth-intellectual disability syndrome"
+          },
+          {
+            "code" : "2437",
+            "display" : "Czeizel-Losonci syndrome"
+          },
+          {
+            "code" : "2438",
+            "display" : "Hand-foot-genital syndrome"
+          },
+          {
+            "code" : "2439",
+            "display" : "Patterson-Stevenson-Fontaine syndrome"
+          },
+          {
+            "code" : "2440",
+            "display" : "Isolated split hand-split foot malformation"
+          },
+          {
+            "code" : "2444",
+            "display" : "Congenital pulmonary airway malformation"
+          },
+          {
+            "code" : "2451",
+            "display" : "Mucocutaneous venous malformations"
+          },
+          {
+            "code" : "2456",
+            "display" : "Familial supernumerary nipples"
+          },
+          {
+            "code" : "2457",
+            "display" : "Mandibuloacral dysplasia"
+          },
+          {
+            "code" : "2459",
+            "display" : "Mansonelliasis"
+          },
+          {
+            "code" : "2460",
+            "display" : "Van den Ende-Gupta syndrome"
+          },
+          {
+            "code" : "2461",
+            "display" : "Marden-Walker syndrome"
+          },
+          {
+            "code" : "2462",
+            "display" : "Shprintzen-Goldberg syndrome"
+          },
+          {
+            "code" : "2463",
+            "display" : "Marfanoid habitus-autosomal recessive intellectual disability syndrome"
+          },
+          {
+            "code" : "2464",
+            "display" : "Marfanoid syndrome, De Silva type"
+          },
+          {
+            "code" : "2466",
+            "display" : "MASA syndrome"
+          },
+          {
+            "code" : "2470",
+            "display" : "Matthew-Wood syndrome"
+          },
+          {
+            "code" : "2471",
+            "display" : "McDonough syndrome"
+          },
+          {
+            "code" : "2473",
+            "display" : "McKusick-Kaufman syndrome"
+          },
+          {
+            "code" : "2475",
+            "display" : "White forelock with malformations"
+          },
+          {
+            "code" : "2476",
+            "display" : "Dysraphism-cleft lip/palate-limb reduction defects syndrome"
+          },
+          {
+            "code" : "2477",
+            "display" : "Megalencephaly"
+          },
+          {
+            "code" : "2478",
+            "display" : "Megalencephalic leukoencephalopathy with subcortical cysts"
+          },
+          {
+            "code" : "2479",
+            "display" : "Megalocornea-intellectual disability syndrome"
+          },
+          {
+            "code" : "2481",
+            "display" : "Neurocutaneous melanocytosis"
+          },
+          {
+            "code" : "2482",
+            "display" : "Melhem-Fahl syndrome"
+          },
+          {
+            "code" : "2483",
+            "display" : "Melkersson-Rosenthal syndrome"
+          },
+          {
+            "code" : "2484",
+            "display" : "Melnick-Needles syndrome"
+          },
+          {
+            "code" : "2485",
+            "display" : "Melorheostosis"
+          },
+          {
+            "code" : "2487",
+            "display" : "Lower limb malformation-hypospadias syndrome"
+          },
+          {
+            "code" : "2489",
+            "display" : "Upper limb defect-eye and ear abnormalities syndrome"
+          },
+          {
+            "code" : "2491",
+            "display" : "Müllerian duct anomalies-limb anomalies syndrome"
+          },
+          {
+            "code" : "2492",
+            "display" : "FATCO syndrome"
+          },
+          {
+            "code" : "2494",
+            "display" : "Ménétrier disease"
+          },
+          {
+            "code" : "2495",
+            "display" : "Meningioma"
+          },
+          {
+            "code" : "2496",
+            "display" : "Mesomelia-synostoses syndrome"
+          },
+          {
+            "code" : "2497",
+            "display" : "Upper limb mesomelic dysplasia, type Fryns"
+          },
+          {
+            "code" : "2498",
+            "display" : "Syndactyly type 8"
+          },
+          {
+            "code" : "2499",
+            "display" : "Metachondromatosis"
+          },
+          {
+            "code" : "2500",
+            "display" : "Acrogeria"
+          },
+          {
+            "code" : "2501",
+            "display" : "Metaphyseal chondrodysplasia, Spahr type"
+          },
+          {
+            "code" : "2502",
+            "display" : "Metaphyseal dysostosis-intellectual disability-conductive deafness syndrome"
+          },
+          {
+            "code" : "2504",
+            "display" : "Metaphyseal dysplasia-maxillary hypoplasia-brachydacty syndrome"
+          },
+          {
+            "code" : "2505",
+            "display" : "Multiple benign circumferential skin creases on limbs"
+          },
+          {
+            "code" : "2508",
+            "display" : "Corpus callosum agenesis-abnormal genitalia syndrome"
+          },
+          {
+            "code" : "2510",
+            "display" : "Micro syndrome"
+          },
+          {
+            "code" : "2511",
+            "display" : "Microbrachycephaly-ptosis-cleft lip syndrome"
+          },
+          {
+            "code" : "2512",
+            "display" : "Autosomal recessive primary microcephaly"
+          },
+          {
+            "code" : "2513",
+            "display" : "Microcephaly-albinism-digital anomalies syndrome"
+          },
+          {
+            "code" : "2514",
+            "display" : "Autosomal dominant primary microcephaly"
+          },
+          {
+            "code" : "2515",
+            "display" : "Microcephaly-cardiomyopathy syndrome"
+          },
+          {
+            "code" : "2516",
+            "display" : "Microcephaly-cardiac defect-lung malsegmentation syndrome"
+          },
+          {
+            "code" : "2518",
+            "display" : "Autosomal recessive chorioretinopathy-microcephaly syndrome"
+          },
+          {
+            "code" : "2519",
+            "display" : "Microcephaly-seizures-intellectual disability-heart disease syndrome"
+          },
+          {
+            "code" : "2521",
+            "display" : "Microcephaly-cleft palate-abnormal retinal pigmentation syndrome"
+          },
+          {
+            "code" : "2522",
+            "display" : "Microcephaly-cervical spine fusion anomalies syndrome"
+          },
+          {
+            "code" : "2523",
+            "display" : "Microcephaly-brain defect-spasticity-hypernatremia syndrome"
+          },
+          {
+            "code" : "2524",
+            "display" : "Pontocerebellar hypoplasia type 2"
+          },
+          {
+            "code" : "2526",
+            "display" : "Microcephaly-lymphedema-chorioretinopathy syndrome"
+          },
+          {
+            "code" : "2528",
+            "display" : "Microcephaly-microcornea syndrome, Seemanova type"
+          },
+          {
+            "code" : "2533",
+            "display" : "Microcephaly-deafness-intellectual disability syndrome"
+          },
+          {
+            "code" : "2536",
+            "display" : "Microcornea-glaucoma-absent frontal sinuses syndrome"
+          },
+          {
+            "code" : "2538",
+            "display" : "Microgastria-limb reduction defect syndrome"
+          },
+          {
+            "code" : "2547",
+            "display" : "Microphthalmia-microtia-fetal akinesia syndrome"
+          },
+          {
+            "code" : "2549",
+            "display" : "Oculoauriculovertebral spectrum with radial defects"
+          },
+          {
+            "code" : "2551",
+            "display" : "Microspherophakia-metaphyseal dysplasia syndrome"
+          },
+          {
+            "code" : "2552",
+            "display" : "Microsporidiosis"
+          },
+          {
+            "code" : "2554",
+            "display" : "Ear-patella-short stature syndrome"
+          },
+          {
+            "code" : "2556",
+            "display" : "Microphthalmia with linear skin defects syndrome"
+          },
+          {
+            "code" : "2557",
+            "display" : "Mietens syndrome"
+          },
+          {
+            "code" : "2558",
+            "display" : "Mikati-Najjar-Sahli syndrome"
+          },
+          {
+            "code" : "2560",
+            "display" : "Moebius syndrome-axonal neuropathy-hypogonadotropic hypogonadism syndrome"
+          },
+          {
+            "code" : "2561",
+            "display" : "Pyramidal molars-abnormal upper lip syndrome"
+          },
+          {
+            "code" : "2563",
+            "display" : "MOMO syndrome"
+          },
+          {
+            "code" : "2564",
+            "display" : "Tetramelic monodactyly"
+          },
+          {
+            "code" : "2565",
+            "display" : "Mononen-Karnes-Senac syndrome"
+          },
+          {
+            "code" : "2566",
+            "display" : "Chronic Epstein-Barr virus infection syndrome"
+          },
+          {
+            "code" : "2570",
+            "display" : "Lethal intrauterine growth restriction-cortical malformation-congenital contractures syndrome"
+          },
+          {
+            "code" : "2571",
+            "display" : "X-linked immunoneurologic disorder"
+          },
+          {
+            "code" : "2572",
+            "display" : "Spastic ataxia-corneal dystrophy syndrome"
+          },
+          {
+            "code" : "2573",
+            "display" : "Moyamoya disease"
+          },
+          {
+            "code" : "2574",
+            "display" : "Moynahan syndrome"
+          },
+          {
+            "code" : "2575",
+            "display" : "Cystic fibrosis-gastritis-megaloblastic anemia syndrome"
+          },
+          {
+            "code" : "2576",
+            "display" : "Mulibrey nanism"
+          },
+          {
+            "code" : "2578",
+            "display" : "Mayer-Rokitansky-Küster-Hauser syndrome type 2"
+          },
+          {
+            "code" : "2579",
+            "display" : "Muscular atrophy-ataxia-retinitis pigmentosa-diabetes mellitus syndrome"
+          },
+          {
+            "code" : "2582",
+            "display" : "Myalgia-eosinophilia syndrome associated with tryptophan"
+          },
+          {
+            "code" : "2583",
+            "display" : "Mycetoma"
+          },
+          {
+            "code" : "2584",
+            "display" : "Classic mycosis fungoides"
+          },
+          {
+            "code" : "2585",
+            "display" : "Ataxia-pancytopenia syndrome"
+          },
+          {
+            "code" : "2587",
+            "display" : "Myeloperoxidase deficiency"
+          },
+          {
+            "code" : "2588",
+            "display" : "Myhre syndrome"
+          },
+          {
+            "code" : "2589",
+            "display" : "Myoclonus-cerebellar ataxia-deafness syndrome"
+          },
+          {
+            "code" : "2590",
+            "display" : "Spinal muscular atrophy-progressive myoclonic epilepsy syndrome"
+          },
+          {
+            "code" : "2591",
+            "display" : "Infantile myofibromatosis"
+          },
+          {
+            "code" : "2593",
+            "display" : "Tubular aggregate myopathy"
+          },
+          {
+            "code" : "2596",
+            "display" : "Myopathy and diabetes mellitus"
+          },
+          {
+            "code" : "2597",
+            "display" : "Mitochondrial myopathy-lactic acidosis-deafness syndrome"
+          },
+          {
+            "code" : "2598",
+            "display" : "Mitochondrial myopathy and sideroblastic anemia"
+          },
+          {
+            "code" : "2604",
+            "display" : "Familial visceral myopathy"
+          },
+          {
+            "code" : "2608",
+            "display" : "N syndrome"
+          },
+          {
+            "code" : "2609",
+            "display" : "Isolated complex I deficiency"
+          },
+          {
+            "code" : "2611",
+            "display" : "Linear verrucous nevus syndrome"
+          },
+          {
+            "code" : "2612",
+            "display" : "Linear nevus sebaceus syndrome"
+          },
+          {
+            "code" : "2613",
+            "display" : "Nail-patella-like renal disease"
+          },
+          {
+            "code" : "2614",
+            "display" : "Nail-patella syndrome"
+          },
+          {
+            "code" : "2616",
+            "display" : "3M syndrome"
+          },
+          {
+            "code" : "2617",
+            "display" : "Microcephalic primordial dwarfism, Montreal type"
+          },
+          {
+            "code" : "2619",
+            "display" : "Brachydactylous dwarfism, Mseleni type"
+          },
+          {
+            "code" : "2623",
+            "display" : "Geleophysic dysplasia"
+          },
+          {
+            "code" : "2631",
+            "display" : "Mesomelic dwarfism-cleft palate-camptodactyly syndrome"
+          },
+          {
+            "code" : "2632",
+            "display" : "Langer mesomelic dysplasia"
+          },
+          {
+            "code" : "2633",
+            "display" : "Mesomelic dysplasia, Nievergelt type"
+          },
+          {
+            "code" : "2634",
+            "display" : "Mesomelic dwarfism, Reinhardt-Pfeiffer type"
+          },
+          {
+            "code" : "2635",
+            "display" : "Metatropic dysplasia"
+          },
+          {
+            "code" : "2636",
+            "display" : "Microcephalic osteodysplastic primordial dwarfism types I and III"
+          },
+          {
+            "code" : "2637",
+            "display" : "Microcephalic osteodysplastic primordial dwarfism type II"
+          },
+          {
+            "code" : "2639",
+            "display" : "Fibular aplasia-complex brachydactyly syndrome"
+          },
+          {
+            "code" : "2643",
+            "display" : "Microcephalic primordial dwarfism, Toriello type"
+          },
+          {
+            "code" : "2645",
+            "display" : "Osteoglosphonic dysplasia"
+          },
+          {
+            "code" : "2655",
+            "display" : "Thanatophoric dysplasia"
+          },
+          {
+            "code" : "2658",
+            "display" : "Lenz-Majewski hyperostotic dwarfism"
+          },
+          {
+            "code" : "2662",
+            "display" : "Keipert syndrome"
+          },
+          {
+            "code" : "2663",
+            "display" : "Nathalie syndrome"
+          },
+          {
+            "code" : "2665",
+            "display" : "Congenital mesoblastic nephroma"
+          },
+          {
+            "code" : "2666",
+            "display" : "Adult familial nephronophthisis-spastic quadriparesia syndrome"
+          },
+          {
+            "code" : "2668",
+            "display" : "Nephropathy-deafness-hyperparathyroidism syndrome"
+          },
+          {
+            "code" : "2669",
+            "display" : "Nephrosis-deafness-urinary tract-digital malformations syndrome"
+          },
+          {
+            "code" : "2670",
+            "display" : "Pierson syndrome"
+          },
+          {
+            "code" : "2671",
+            "display" : "Neu-Laxova syndrome"
+          },
+          {
+            "code" : "2672",
+            "display" : "Neuhauser-Eichner-Opitz syndrome"
+          },
+          {
+            "code" : "2673",
+            "display" : "Neurofaciodigitorenal syndrome"
+          },
+          {
+            "code" : "2674",
+            "display" : "Cyprus facial-neuromusculoskeletal syndrome"
+          },
+          {
+            "code" : "2678",
+            "display" : "Familial isolated café-au-lait macules"
+          },
+          {
+            "code" : "2680",
+            "display" : "Hypomyelination neuropathy-arthrogryposis syndrome"
+          },
+          {
+            "code" : "2686",
+            "display" : "Cyclic neutropenia"
+          },
+          {
+            "code" : "2688",
+            "display" : "Adult idiopathic neutropenia"
+          },
+          {
+            "code" : "2690",
+            "display" : "Neutropenia-monocytopenia-deafness syndrome"
+          },
+          {
+            "code" : "2695",
+            "display" : "Bifid nose"
+          },
+          {
+            "code" : "2697",
+            "display" : "Arthrogryposis-renal dysfunction-cholestasis syndrome"
+          },
+          {
+            "code" : "2698",
+            "display" : "Knuckle pads-leukonychia-sensorineural deafness-palmoplantar hyperkeratosis syndrome"
+          },
+          {
+            "code" : "2699",
+            "display" : "Median nodule of the upper lip"
+          },
+          {
+            "code" : "2700",
+            "display" : "Noma"
+          },
+          {
+            "code" : "2701",
+            "display" : "Noonan syndrome-like disorder with loose anagen hair"
+          },
+          {
+            "code" : "2703",
+            "display" : "Port-wine nevi-mega cisterna magna-hydrocephalus syndrome"
+          },
+          {
+            "code" : "2704",
+            "display" : "Urofacial syndrome"
+          },
+          {
+            "code" : "2707",
+            "display" : "Oculocerebrofacial syndrome, Kaufman type"
+          },
+          {
+            "code" : "2709",
+            "display" : "Oculodental syndrome, Rutherfurd type"
+          },
+          {
+            "code" : "2710",
+            "display" : "Oculodentodigital dysplasia"
+          },
+          {
+            "code" : "2712",
+            "display" : "Oculofaciocardiodental syndrome"
+          },
+          {
+            "code" : "2713",
+            "display" : "Oculoosteocutaneous syndrome"
+          },
+          {
+            "code" : "2714",
+            "display" : "Oculo-palato-cerebral syndrome"
+          },
+          {
+            "code" : "2715",
+            "display" : "Severe oculo-renal-cerebellar syndrome"
+          },
+          {
+            "code" : "2717",
+            "display" : "Oculotrichoanal syndrome"
+          },
+          {
+            "code" : "2718",
+            "display" : "Oculotrichodysplasia"
+          },
+          {
+            "code" : "2719",
+            "display" : "Oculocerebral hypopigmentation syndrome, Cross type"
+          },
+          {
+            "code" : "2720",
+            "display" : "Oculocerebral hypopigmentation syndrome, Preus type"
+          },
+          {
+            "code" : "2721",
+            "display" : "Odonto-onycho-dermal dysplasia"
+          },
+          {
+            "code" : "2722",
+            "display" : "Odonto-onycho dysplasia-alopecia syndrome"
+          },
+          {
+            "code" : "2723",
+            "display" : "Odontotrichomelic syndrome"
+          },
+          {
+            "code" : "2724",
+            "display" : "Odontomatosis-aortae esophagus stenosis syndrome"
+          },
+          {
+            "code" : "2728",
+            "display" : "Blepharophimosis-intellectual disability syndrome, Ohdo type"
+          },
+          {
+            "code" : "2730",
+            "display" : "Postaxial tetramelic oligodactyly"
+          },
+          {
+            "code" : "2732",
+            "display" : "Olivopontocerebellar atrophy-deafness syndrome"
+          },
+          {
+            "code" : "2733",
+            "display" : "Omodysplasia"
+          },
+          {
+            "code" : "2736",
+            "display" : "Lethal omphalocele-cleft palate syndrome"
+          },
+          {
+            "code" : "2737",
+            "display" : "Onchocerciasis"
+          },
+          {
+            "code" : "2741",
+            "display" : "Ophthalmomandibulomelic dysplasia"
+          },
+          {
+            "code" : "2743",
+            "display" : "Ophthalmoplegia-intellectual disability-lingua scrotalis syndrome"
+          },
+          {
+            "code" : "2744",
+            "display" : "Horizontal gaze palsy with progressive scoliosis"
+          },
+          {
+            "code" : "2745",
+            "display" : "Opitz GBBB syndrome"
+          },
+          {
+            "code" : "2746",
+            "display" : "Opsismodysplasia"
+          },
+          {
+            "code" : "2750",
+            "display" : "Orofaciodigital syndrome type 1"
+          },
+          {
+            "code" : "2751",
+            "display" : "Orofaciodigital syndrome type 2"
+          },
+          {
+            "code" : "2753",
+            "display" : "Orofaciodigital syndrome type 4"
+          },
+          {
+            "code" : "2754",
+            "display" : "Orofaciodigital syndrome type 6"
+          },
+          {
+            "code" : "2755",
+            "display" : "Orofaciodigital syndrome type 8"
+          },
+          {
+            "code" : "2759",
+            "display" : "Imperforate oropharynx-costovertebral anomalies syndrome"
+          },
+          {
+            "code" : "2760",
+            "display" : "OSLAM syndrome"
+          },
+          {
+            "code" : "2762",
+            "display" : "Progressive osseous heteroplasia"
+          },
+          {
+            "code" : "2763",
+            "display" : "Osteocraniostenosis"
+          },
+          {
+            "code" : "2764",
+            "display" : "Osteochondritis dissecans"
+          },
+          {
+            "code" : "2767",
+            "display" : "Carpotarsal osteochondromatosis"
+          },
+          {
+            "code" : "2768",
+            "display" : "Blount disease"
+          },
+          {
+            "code" : "2769",
+            "display" : "Familial osteodysplasia, Anderson type"
+          },
+          {
+            "code" : "2770",
+            "display" : "Nasu-Hakola disease"
+          },
+          {
+            "code" : "2771",
+            "display" : "Bruck syndrome"
+          },
+          {
+            "code" : "2772",
+            "display" : "Congenital osteogenesis imperfecta-microcephaly-cataracts syndrome"
+          },
+          {
+            "code" : "2773",
+            "display" : "Osteogenesis imperfecta-retinopathy-seizures-intellectual disability syndrome"
+          },
+          {
+            "code" : "2774",
+            "display" : "Multicentric carpo-tarsal osteolysis with or without nephropathy"
+          },
+          {
+            "code" : "2776",
+            "display" : "Autosomal recessive distal osteolysis syndrome"
+          },
+          {
+            "code" : "2777",
+            "display" : "Osteomesopyknosis"
+          },
+          {
+            "code" : "2779",
+            "display" : "Osteopathia striata-pigmentary dermopathy-white forelock syndrome"
+          },
+          {
+            "code" : "2780",
+            "display" : "Osteopathia striata-cranial sclerosis syndrome"
+          },
+          {
+            "code" : "2783",
+            "display" : "Autosomal dominant osteopetrosis type 1"
+          },
+          {
+            "code" : "2785",
+            "display" : "Osteopetrosis with renal tubular acidosis"
+          },
+          {
+            "code" : "2786",
+            "display" : "Osteoporosis-oculocutaneous hypopigmentation syndrome"
+          },
+          {
+            "code" : "2787",
+            "display" : "Osteoporosis-macrocephaly-blindness-joint hyperlaxity syndrome"
+          },
+          {
+            "code" : "2788",
+            "display" : "Osteoporosis-pseudoglioma syndrome"
+          },
+          {
+            "code" : "2789",
+            "display" : "Lateral meningocele syndrome"
+          },
+          {
+            "code" : "2790",
+            "display" : "Endosteal hyperostosis, Worth type"
+          },
+          {
+            "code" : "2791",
+            "display" : "Otodental syndrome"
+          },
+          {
+            "code" : "2792",
+            "display" : "Otofaciocervical syndrome"
+          },
+          {
+            "code" : "2793",
+            "display" : "Otoonychoperoneal syndrome"
+          },
+          {
+            "code" : "2795",
+            "display" : "Fowler urethral sphincter dysfunction syndrome"
+          },
+          {
+            "code" : "2796",
+            "display" : "Pachydermoperiostosis"
+          },
+          {
+            "code" : "2798",
+            "display" : "Pachygyria-intellectual disability-epilepsy syndrome"
+          },
+          {
+            "code" : "2800",
+            "display" : "Extramammary Paget disease"
+          },
+          {
+            "code" : "2801",
+            "display" : "Juvenile Paget disease"
+          },
+          {
+            "code" : "2802",
+            "display" : "X-linked sideroblastic anemia and spinocerebellar ataxia"
+          },
+          {
+            "code" : "2804",
+            "display" : "W syndrome"
+          },
+          {
+            "code" : "2805",
+            "display" : "Partial pancreatic agenesis"
+          },
+          {
+            "code" : "2806",
+            "display" : "Subacute sclerosing leukoencephalitis"
+          },
+          {
+            "code" : "2807",
+            "display" : "Papilloma of choroid plexus"
+          },
+          {
+            "code" : "2808",
+            "display" : "Laryngeal abductor paralysis"
+          },
+          {
+            "code" : "2809",
+            "display" : "Familial recurrent peripheral facial palsy"
+          },
+          {
+            "code" : "2812",
+            "display" : "Parana hard skin syndrome"
+          },
+          {
+            "code" : "2815",
+            "display" : "Spastic paraparesis-deafness syndrome"
+          },
+          {
+            "code" : "2818",
+            "display" : "Spastic paraplegia-glaucoma-intellectual disability syndrome"
+          },
+          {
+            "code" : "2819",
+            "display" : "Spastic paraplegia-facial-cutaneous lesions syndrome"
+          },
+          {
+            "code" : "2820",
+            "display" : "Spastic paraplegia-nephritis-deafness syndrome"
+          },
+          {
+            "code" : "2821",
+            "display" : "Spastic paraplegia-neuropathy-poikiloderma syndrome"
+          },
+          {
+            "code" : "2822",
+            "display" : "Autosomal recessive spastic paraplegia type 11"
+          },
+          {
+            "code" : "2824",
+            "display" : "Paraplegia-intellectual disability-hyperkeratosis syndrome"
+          },
+          {
+            "code" : "2825",
+            "display" : "PARC syndrome"
+          },
+          {
+            "code" : "2826",
+            "display" : "Spastic paraplegia-precocious puberty syndrome"
+          },
+          {
+            "code" : "2828",
+            "display" : "Young-onset Parkinson disease"
+          },
+          {
+            "code" : "2831",
+            "display" : "Rhizomelic dysplasia, Patterson-Lowry type"
+          },
+          {
+            "code" : "2832",
+            "display" : "Short tarsus-absence of lower eyelashes syndrome"
+          },
+          {
+            "code" : "2833",
+            "display" : "Stiff skin syndrome"
+          },
+          {
+            "code" : "2834",
+            "display" : "Wrinkly skin syndrome"
+          },
+          {
+            "code" : "2835",
+            "display" : "Pectus excavatum-macrocephaly-dysplastic nails syndrome"
+          },
+          {
+            "code" : "2836",
+            "display" : "PEHO syndrome"
+          },
+          {
+            "code" : "2838",
+            "display" : "Renal caliceal diverticuli-deafness syndrome"
+          },
+          {
+            "code" : "2839",
+            "display" : "Pelvis-shoulder dysplasia"
+          },
+          {
+            "code" : "2840",
+            "display" : "Pelvic dysplasia-arthrogryposis of lower limbs syndrome"
+          },
+          {
+            "code" : "2841",
+            "display" : "Hailey-Hailey disease"
+          },
+          {
+            "code" : "2842",
+            "display" : "Penoscrotal transposition"
+          },
+          {
+            "code" : "2843",
+            "display" : "Pentosuria"
+          },
+          {
+            "code" : "2847",
+            "display" : "Pericardial and diaphragmatic defect"
+          },
+          {
+            "code" : "2848",
+            "display" : "Camptodactyly-arthropathy-coxa-vara-pericarditis syndrome"
+          },
+          {
+            "code" : "2849",
+            "display" : "Perlman syndrome"
+          },
+          {
+            "code" : "2850",
+            "display" : "Alopecia-intellectual disability syndrome"
+          },
+          {
+            "code" : "2854",
+            "display" : "Fuhrmann syndrome"
+          },
+          {
+            "code" : "2855",
+            "display" : "Perrault syndrome"
+          },
+          {
+            "code" : "2856",
+            "display" : "Persistent Müllerian duct syndrome"
+          },
+          {
+            "code" : "2863",
+            "display" : "Short stature-wormian bones-dextrocardia syndrome"
+          },
+          {
+            "code" : "2865",
+            "display" : "Short stature-webbed neck-heart disease syndrome"
+          },
+          {
+            "code" : "2866",
+            "display" : "Short stature-deafness-neutrophil dysfunction-dysmorphism syndrome"
+          },
+          {
+            "code" : "2867",
+            "display" : "Short stature, Brussels type"
+          },
+          {
+            "code" : "2868",
+            "display" : "Short stature-valvular heart disease-characteristic facies syndrome"
+          },
+          {
+            "code" : "2869",
+            "display" : "Peutz-Jeghers syndrome"
+          },
+          {
+            "code" : "2871",
+            "display" : "Pfeiffer-Palm-Teller syndrome"
+          },
+          {
+            "code" : "2872",
+            "display" : "Cardiocranial syndrome, Pfeiffer type"
+          },
+          {
+            "code" : "2874",
+            "display" : "Phakomatosis pigmentokeratotica"
+          },
+          {
+            "code" : "2875",
+            "display" : "Phakomatosis pigmentovascularis"
+          },
+          {
+            "code" : "2876",
+            "display" : "PHAVER syndrome"
+          },
+          {
+            "code" : "2879",
+            "display" : "Phocomelia, Schinzel type"
+          },
+          {
+            "code" : "2880",
+            "display" : "Phosphoenolpyruvate carboxykinase deficiency"
+          },
+          {
+            "code" : "2881",
+            "display" : "Cutaneous photosensitivity-lethal colitis syndrome"
+          },
+          {
+            "code" : "2882",
+            "display" : "Sitosterolemia"
+          },
+          {
+            "code" : "2884",
+            "display" : "Piebaldism"
+          },
+          {
+            "code" : "2885",
+            "display" : "Piebald trait-neurologic defects syndrome"
+          },
+          {
+            "code" : "2886",
+            "display" : "TARP syndrome"
+          },
+          {
+            "code" : "2888",
+            "display" : "Pierre Robin syndrome-faciodigital anomaly syndrome"
+          },
+          {
+            "code" : "2889",
+            "display" : "Pili torti"
+          },
+          {
+            "code" : "2890",
+            "display" : "Pili torti-onychodysplasia syndrome"
+          },
+          {
+            "code" : "2891",
+            "display" : "Pili torti-developmental delay-neurological abnormalities syndrome"
+          },
+          {
+            "code" : "2892",
+            "display" : "Pilodental dysplasia-refractive errors syndrome"
+          },
+          {
+            "code" : "2896",
+            "display" : "Pitt-Hopkins syndrome"
+          },
+          {
+            "code" : "2897",
+            "display" : "Pityriasis rubra pilaris"
+          },
+          {
+            "code" : "2898",
+            "display" : "X-linked intellectual disability-plagiocephaly syndrome"
+          },
+          {
+            "code" : "2899",
+            "display" : "Brachyolmia-amelogenesis imperfecta syndrome"
+          },
+          {
+            "code" : "2900",
+            "display" : "Leri pleonosteosis"
+          },
+          {
+            "code" : "2901",
+            "display" : "Neuralgic amyotrophy"
+          },
+          {
+            "code" : "2902",
+            "display" : "Idiopathic chronic eosinophilic pneumonia"
+          },
+          {
+            "code" : "2903",
+            "display" : "Familial spontaneous pneumothorax"
+          },
+          {
+            "code" : "2905",
+            "display" : "POEMS syndrome"
+          },
+          {
+            "code" : "2907",
+            "display" : "Hereditary acrokeratotic poikiloderma"
+          },
+          {
+            "code" : "2908",
+            "display" : "Kindler epidermolysis bullosa"
+          },
+          {
+            "code" : "2909",
+            "display" : "Rothmund-Thomson syndrome"
+          },
+          {
+            "code" : "2911",
+            "display" : "Poland syndrome"
+          },
+          {
+            "code" : "2912",
+            "display" : "Poliomyelitis"
+          },
+          {
+            "code" : "2916",
+            "display" : "Postaxial polydactyly-dental and vertebral anomalies syndrome"
+          },
+          {
+            "code" : "2917",
+            "display" : "Polydactyly-myopia syndrome"
+          },
+          {
+            "code" : "2919",
+            "display" : "Orofaciodigital syndrome type 5"
+          },
+          {
+            "code" : "2920",
+            "display" : "Oliver syndrome"
+          },
+          {
+            "code" : "2921",
+            "display" : "Preaxial polydactyly-colobomata-intellectual disability syndrome"
+          },
+          {
+            "code" : "2924",
+            "display" : "Isolated polycystic liver disease"
+          },
+          {
+            "code" : "2926",
+            "display" : "Digital extensor muscle aplasia-polyneuropathy"
+          },
+          {
+            "code" : "2928",
+            "display" : "Polyneuropathy-intellectual disability-acromicria-premature menopause syndrome"
+          },
+          {
+            "code" : "2929",
+            "display" : "Juvenile polyposis syndrome"
+          },
+          {
+            "code" : "2930",
+            "display" : "Cronkhite-Canada syndrome"
+          },
+          {
+            "code" : "2932",
+            "display" : "Chronic inflammatory demyelinating polyneuropathy"
+          },
+          {
+            "code" : "2934",
+            "display" : "Polysyndactyly-cardiac malformation syndrome"
+          },
+          {
+            "code" : "2935",
+            "display" : "Crossed polysyndactyly"
+          },
+          {
+            "code" : "2940",
+            "display" : "Porencephaly"
+          },
+          {
+            "code" : "2941",
+            "display" : "Porencephaly-cerebellar hypoplasia-internal malformations syndrome"
+          },
+          {
+            "code" : "2942",
+            "display" : "Postpoliomyelitis syndrome"
+          },
+          {
+            "code" : "2946",
+            "display" : "Brachydactyly-long thumb syndrome"
+          },
+          {
+            "code" : "2947",
+            "display" : "Triphalangeal thumbs-brachyectrodactyly syndrome"
+          },
+          {
+            "code" : "2951",
+            "display" : "Absent thumb-short stature-immunodeficiency syndrome"
+          },
+          {
+            "code" : "2952",
+            "display" : "Adducted thumbs-arthrogryposis syndrome, Christian type"
+          },
+          {
+            "code" : "2953",
+            "display" : "Musculocontractural Ehlers-Danlos syndrome"
+          },
+          {
+            "code" : "2956",
+            "display" : "Acrodysplasia scoliosis"
+          },
+          {
+            "code" : "2957",
+            "display" : "Guttmacher syndrome"
+          },
+          {
+            "code" : "2958",
+            "display" : "X-linked intellectual disability-dysmorphism-cerebral atrophy syndrome"
+          },
+          {
+            "code" : "2959",
+            "display" : "Progeria-short stature-pigmented nevi syndrome"
+          },
+          {
+            "code" : "2962",
+            "display" : "De Barsy syndrome"
+          },
+          {
+            "code" : "2963",
+            "display" : "Progeroid syndrome, Petty type"
+          },
+          {
+            "code" : "2964",
+            "display" : "Autosomal dominant prognathism"
+          },
+          {
+            "code" : "2965",
+            "display" : "Prolactinoma"
+          },
+          {
+            "code" : "2966",
+            "display" : "Properdin deficiency"
+          },
+          {
+            "code" : "2967",
+            "display" : "Transcobalamin I deficiency"
+          },
+          {
+            "code" : "2968",
+            "display" : "Leukocyte adhesion deficiency"
+          },
+          {
+            "code" : "2969",
+            "display" : "Proteus-like syndrome"
+          },
+          {
+            "code" : "2970",
+            "display" : "Prune belly syndrome"
+          },
+          {
+            "code" : "2971",
+            "display" : "Peroxisomal acyl-CoA oxidase deficiency"
+          },
+          {
+            "code" : "2972",
+            "display" : "Non-eruption of teeth-maxillary hypoplasia-genu valgum syndrome"
+          },
+          {
+            "code" : "2973",
+            "display" : "46,XX difference of sex development-anorectal anomalies syndrome"
+          },
+          {
+            "code" : "2975",
+            "display" : "46,XX difference of sex development-skeletal anomalies syndrome"
+          },
+          {
+            "code" : "2976",
+            "display" : "Pseudoleprechaunism syndrome, Patterson type"
+          },
+          {
+            "code" : "2978",
+            "display" : "Chronic intestinal pseudoobstruction"
+          },
+          {
+            "code" : "2980",
+            "display" : "Acrootoocular syndrome"
+          },
+          {
+            "code" : "2983",
+            "display" : "Difference of sex development-intellectual disability syndrome"
+          },
+          {
+            "code" : "2985",
+            "display" : "Pseudoprogeria syndrome"
+          },
+          {
+            "code" : "2987",
+            "display" : "Antecubital pterygium syndrome"
+          },
+          {
+            "code" : "2988",
+            "display" : "Pterygium colli-intellectual disability-digital anomalies syndrome"
+          },
+          {
+            "code" : "2989",
+            "display" : "Familial pterygium of the conjunctiva"
+          },
+          {
+            "code" : "2990",
+            "display" : "Autosomal recessive multiple pterygium syndrome"
+          },
+          {
+            "code" : "2994",
+            "display" : "Short stature-craniofacial anomalies-genital hypoplasia syndrome"
+          },
+          {
+            "code" : "2995",
+            "display" : "Baraitser-Winter cerebrofrontofacial syndrome"
+          },
+          {
+            "code" : "2997",
+            "display" : "Ptosis-vocal cord paralysis syndrome"
+          },
+          {
+            "code" : "2999",
+            "display" : "Ptosis-strabismus-ectopic pupils syndrome"
+          },
+          {
+            "code" : "3000",
+            "display" : "Familial peripheral male-limited precocious puberty"
+          },
+          {
+            "code" : "3002",
+            "display" : "Immune thrombocytopenia"
+          },
+          {
+            "code" : "3003",
+            "display" : "Pyknoachondrogenesis"
+          },
+          {
+            "code" : "3004",
+            "display" : "Mirror polydactyly-vertebral segmentation-limbs defects syndrome"
+          },
+          {
+            "code" : "3005",
+            "display" : "Pyle disease"
+          },
+          {
+            "code" : "3006",
+            "display" : "Pyridoxine-dependent epilepsy"
+          },
+          {
+            "code" : "3008",
+            "display" : "Pyruvate carboxylase deficiency"
+          },
+          {
+            "code" : "3010",
+            "display" : "Qazi-Markouizos syndrome"
+          },
+          {
+            "code" : "3011",
+            "display" : "Spastic tetraplegia-retinitis pigmentosa-intellectual disability syndrome"
+          },
+          {
+            "code" : "3015",
+            "display" : "Radio-renal syndrome"
+          },
+          {
+            "code" : "3016",
+            "display" : "Absent radius-anogenital anomalies syndrome"
+          },
+          {
+            "code" : "3018",
+            "display" : "Retinal ischemic syndrome-digestive tract small vessel hyalinosis-diffuse cerebral calcifications syndrome"
+          },
+          {
+            "code" : "3019",
+            "display" : "Ramon syndrome"
+          },
+          {
+            "code" : "3020",
+            "display" : "Ramsay Hunt syndrome"
+          },
+          {
+            "code" : "3021",
+            "display" : "RAPADILINO syndrome"
+          },
+          {
+            "code" : "3023",
+            "display" : "External auditory canal atresia-vertical talus-hypertelorism syndrome"
+          },
+          {
+            "code" : "3026",
+            "display" : "Radial ray hypoplasia-choanal atresia syndrome"
+          },
+          {
+            "code" : "3027",
+            "display" : "Caudal regression syndrome"
+          },
+          {
+            "code" : "3032",
+            "display" : "NPHP3-related Meckel-like syndrome"
+          },
+          {
+            "code" : "3033",
+            "display" : "Renal tubular dysgenesis"
+          },
+          {
+            "code" : "3034",
+            "display" : "Delayed membranous cranial ossification"
+          },
+          {
+            "code" : "3035",
+            "display" : "Growth delay-hydrocephaly-lung hypoplasia syndrome"
+          },
+          {
+            "code" : "3038",
+            "display" : "Delayed speech-facial asymmetry-strabismus-ear lobe creases syndrome"
+          },
+          {
+            "code" : "3041",
+            "display" : "Intellectual disability-balding-patella luxation-acromicria syndrome"
+          },
+          {
+            "code" : "3042",
+            "display" : "Intellectual disability-cataracts-calcified pinnae-myopathy syndrome"
+          },
+          {
+            "code" : "3044",
+            "display" : "Intellectual disability-dysmorphism-hypogonadism-diabetes mellitus syndrome"
+          },
+          {
+            "code" : "3047",
+            "display" : "Blepharophimosis-intellectual disability syndrome, SBBYS type"
+          },
+          {
+            "code" : "3051",
+            "display" : "Nicolaides-Baraitser syndrome"
+          },
+          {
+            "code" : "3052",
+            "display" : "X-linked intellectual disability-seizures-psoriasis syndrome"
+          },
+          {
+            "code" : "3055",
+            "display" : "X-linked intellectual disability-hypogonadism-ichthyosis-obesity-short stature syndrome"
+          },
+          {
+            "code" : "3057",
+            "display" : "Monoamine oxidase A deficiency"
+          },
+          {
+            "code" : "3063",
+            "display" : "X-linked intellectual disability, Snyder type"
+          },
+          {
+            "code" : "3068",
+            "display" : "Intellectual disability-myopathy-short stature-endocrine defect syndrome"
+          },
+          {
+            "code" : "3071",
+            "display" : "Costello syndrome"
+          },
+          {
+            "code" : "3074",
+            "display" : "Intellectual disability-short stature-hypertelorism syndrome"
+          },
+          {
+            "code" : "3077",
+            "display" : "X-linked intellectual disability-psychosis-macroorchidism syndrome"
+          },
+          {
+            "code" : "3078",
+            "display" : "Severe X-linked intellectual disability, Gustavson type"
+          },
+          {
+            "code" : "3079",
+            "display" : "Intellectual disability, Buenos-Aires type"
+          },
+          {
+            "code" : "3080",
+            "display" : "Intellectual disability, Wolff type"
+          },
+          {
+            "code" : "3082",
+            "display" : "Intellectual disability-polydactyly-uncombable hair syndrome"
+          },
+          {
+            "code" : "3085",
+            "display" : "Retinitis pigmentosa-intellectual disability-deafness-hypogonadism syndrome"
+          },
+          {
+            "code" : "3086",
+            "display" : "Autosomal dominant vitreoretinochoroidopathy"
+          },
+          {
+            "code" : "3088",
+            "display" : "Revesz syndrome"
+          },
+          {
+            "code" : "3092",
+            "display" : "Fixed subaortic stenosis"
+          },
+          {
+            "code" : "3093",
+            "display" : "Congenital aortic valve stenosis"
+          },
+          {
+            "code" : "3095",
+            "display" : "Atypical Rett syndrome"
+          },
+          {
+            "code" : "3096",
+            "display" : "Reye syndrome"
+          },
+          {
+            "code" : "3097",
+            "display" : "Meacham syndrome"
+          },
+          {
+            "code" : "3098",
+            "display" : "Rhizomelic syndrome, Urbach type"
+          },
+          {
+            "code" : "3099",
+            "display" : "Rheumatic fever"
+          },
+          {
+            "code" : "3101",
+            "display" : "Richieri Costa-da Silva syndrome"
+          },
+          {
+            "code" : "3102",
+            "display" : "Richieri Costa-Pereira syndrome"
+          },
+          {
+            "code" : "3103",
+            "display" : "Roberts syndrome"
+          },
+          {
+            "code" : "3104",
+            "display" : "Robin sequence-oligodactyly syndrome"
+          },
+          {
+            "code" : "3107",
+            "display" : "Autosomal dominant Robinow syndrome"
+          },
+          {
+            "code" : "3109",
+            "display" : "Mayer-Rokitansky-Küster-Hauser syndrome"
+          },
+          {
+            "code" : "3110",
+            "display" : "Rombo syndrome"
+          },
+          {
+            "code" : "3111",
+            "display" : "Rotor syndrome"
+          },
+          {
+            "code" : "3115",
+            "display" : "Roussy-Lévy syndrome"
+          },
+          {
+            "code" : "3121",
+            "display" : "Ruvalcaba syndrome"
+          },
+          {
+            "code" : "3124",
+            "display" : "Saccharopinuria"
+          },
+          {
+            "code" : "3129",
+            "display" : "Sarcosinemia"
+          },
+          {
+            "code" : "3130",
+            "display" : "Satoyoshi syndrome"
+          },
+          {
+            "code" : "3132",
+            "display" : "Say-Barber-Miller syndrome"
+          },
+          {
+            "code" : "3134",
+            "display" : "SCARF syndrome"
+          },
+          {
+            "code" : "3137",
+            "display" : "Alpha-N-acetylgalactosaminidase deficiency"
+          },
+          {
+            "code" : "3138",
+            "display" : "Ulnar-mammary syndrome"
+          },
+          {
+            "code" : "3143",
+            "display" : "Autoimmune polyendocrinopathy type 2"
+          },
+          {
+            "code" : "3144",
+            "display" : "Schneckenbecken dysplasia"
+          },
+          {
+            "code" : "3145",
+            "display" : "Arginine vasopressin resistance-intracranial calcification-short stature-facial dysmorphism syndrome"
+          },
+          {
+            "code" : "3148",
+            "display" : "Malignant peripheral nerve sheath tumor"
+          },
+          {
+            "code" : "3151",
+            "display" : "Multiple sclerosis-ichthyosis-factor VIII deficiency syndrome"
+          },
+          {
+            "code" : "3152",
+            "display" : "Sclerosteosis"
+          },
+          {
+            "code" : "3156",
+            "display" : "Senior-Loken syndrome"
+          },
+          {
+            "code" : "3157",
+            "display" : "Septo-optic dysplasia spectrum"
+          },
+          {
+            "code" : "3161",
+            "display" : "Congenital pulmonary sequestration"
+          },
+          {
+            "code" : "3162",
+            "display" : "Sézary syndrome"
+          },
+          {
+            "code" : "3163",
+            "display" : "SHORT syndrome"
+          },
+          {
+            "code" : "3164",
+            "display" : "Omphalocele syndrome, Shprintzen-Goldberg type"
+          },
+          {
+            "code" : "3165",
+            "display" : "Eosinophilic fasciitis"
+          },
+          {
+            "code" : "3166",
+            "display" : "Sialuria"
+          },
+          {
+            "code" : "3167",
+            "display" : "Siegler-Brewer-Carey syndrome"
+          },
+          {
+            "code" : "3168",
+            "display" : "Sillence syndrome"
+          },
+          {
+            "code" : "3169",
+            "display" : "Sirenomelia"
+          },
+          {
+            "code" : "3172",
+            "display" : "Eyebrow duplication-syndactyly syndrome"
+          },
+          {
+            "code" : "3173",
+            "display" : "Infantile spasms-broad thumbs syndrome"
+          },
+          {
+            "code" : "3175",
+            "display" : "X-linked spasticity-intellectual disability-epilepsy syndrome"
+          },
+          {
+            "code" : "3176",
+            "display" : "Spina bifida-hypospadias syndrome"
+          },
+          {
+            "code" : "3177",
+            "display" : "Spinocerebellar degeneration-corneal dystrophy syndrome"
+          },
+          {
+            "code" : "3180",
+            "display" : "Spondylocamptodactyly syndrome"
+          },
+          {
+            "code" : "3181",
+            "display" : "Sprengel deformity"
+          },
+          {
+            "code" : "3184",
+            "display" : "Steatocystoma multiplex-natal teeth syndrome"
+          },
+          {
+            "code" : "3186",
+            "display" : "Holoprosencephaly-radial heart renal anomalies syndrome"
+          },
+          {
+            "code" : "3189",
+            "display" : "Congenital pulmonary valvar stenosis"
+          },
+          {
+            "code" : "3190",
+            "display" : "Subpulmonary stenosis"
+          },
+          {
+            "code" : "3191",
+            "display" : "Subaortic stenosis-short stature syndrome"
+          },
+          {
+            "code" : "3192",
+            "display" : "Supravalvular pulmonary stenosis"
+          },
+          {
+            "code" : "3193",
+            "display" : "Supravalvular aortic stenosis"
+          },
+          {
+            "code" : "3194",
+            "display" : "Corneodermatoosseous syndrome"
+          },
+          {
+            "code" : "3196",
+            "display" : "Steroid dehydrogenase deficiency-dental anomalies syndrome"
+          },
+          {
+            "code" : "3197",
+            "display" : "Hereditary hyperekplexia"
+          },
+          {
+            "code" : "3198",
+            "display" : "Stiff person spectrum disorder"
+          },
+          {
+            "code" : "3199",
+            "display" : "Stimmler syndrome"
+          },
+          {
+            "code" : "3200",
+            "display" : "Arthrogryposis-ectodermal dysplasia syndrome"
+          },
+          {
+            "code" : "3201",
+            "display" : "Ventricular extrasystoles with syncopal episodes-perodactyly-Robin sequence syndrome"
+          },
+          {
+            "code" : "3202",
+            "display" : "Dehydrated hereditary stomatocytosis"
+          },
+          {
+            "code" : "3203",
+            "display" : "Overhydrated hereditary stomatocytosis"
+          },
+          {
+            "code" : "3204",
+            "display" : "Stormorken-Sjaastad-Langslet syndrome"
+          },
+          {
+            "code" : "3205",
+            "display" : "Sturge-Weber syndrome"
+          },
+          {
+            "code" : "3206",
+            "display" : "Stüve-Wiedemann syndrome"
+          },
+          {
+            "code" : "3207",
+            "display" : "White matter hypoplasia-corpus callosum agenesis-intellectual disability syndrome"
+          },
+          {
+            "code" : "3208",
+            "display" : "Isolated succinate-CoQ reductase deficiency"
+          },
+          {
+            "code" : "3214",
+            "display" : "Deaf blind hypopigmentation syndrome, Yemenite type"
+          },
+          {
+            "code" : "3216",
+            "display" : "Conductive deafness-malformed external ear syndrome"
+          },
+          {
+            "code" : "3217",
+            "display" : "Deafness-small bowel diverticulosis-neuropathy syndrome"
+          },
+          {
+            "code" : "3218",
+            "display" : "Deafness-epiphyseal dysplasia-short stature syndrome"
+          },
+          {
+            "code" : "3219",
+            "display" : "Fountain syndrome"
+          },
+          {
+            "code" : "3220",
+            "display" : "Deafness-enamel hypoplasia-nail defects syndrome"
+          },
+          {
+            "code" : "3222",
+            "display" : "Phosphoribosylpyrophosphate synthetase superactivity"
+          },
+          {
+            "code" : "3224",
+            "display" : "Deafness-genital anomalies-metacarpal and metatarsal synostosis syndrome"
+          },
+          {
+            "code" : "3225",
+            "display" : "Hearing loss-familial salivary gland insensitivity to aldosterone syndrome"
+          },
+          {
+            "code" : "3230",
+            "display" : "Deafness-oligodontia syndrome"
+          },
+          {
+            "code" : "3232",
+            "display" : "Deafness-ear malformation-facial palsy syndrome"
+          },
+          {
+            "code" : "3233",
+            "display" : "Cochleosaccular degeneration-cataract syndrome"
+          },
+          {
+            "code" : "3235",
+            "display" : "Progressive deafness with stapes fixation"
+          },
+          {
+            "code" : "3236",
+            "display" : "Conductive deafness-ptosis-skeletal anomalies syndrome"
+          },
+          {
+            "code" : "3237",
+            "display" : "Multiple synostoses syndrome"
+          },
+          {
+            "code" : "3238",
+            "display" : "Cardiospondylocarpofacial syndrome"
+          },
+          {
+            "code" : "3239",
+            "display" : "Deafness-vitiligo-achalasia syndrome"
+          },
+          {
+            "code" : "3240",
+            "display" : "Early-onset progressive leukoencephalopathy-central nervous system calcification-deafness-visual impairment syndrome"
+          },
+          {
+            "code" : "3241",
+            "display" : "Deafness-craniofacial syndrome"
+          },
+          {
+            "code" : "3242",
+            "display" : "Renpenning syndrome"
+          },
+          {
+            "code" : "3243",
+            "display" : "Sweet syndrome"
+          },
+          {
+            "code" : "3246",
+            "display" : "Symphalangism with multiple anomalies of hands and feet"
+          },
+          {
+            "code" : "3248",
+            "display" : "Isolated distal symphalangism"
+          },
+          {
+            "code" : "3250",
+            "display" : "Proximal symphalangism"
+          },
+          {
+            "code" : "3253",
+            "display" : "Cleft lip/palate-ectodermal dysplasia syndrome"
+          },
+          {
+            "code" : "3255",
+            "display" : "Filippi syndrome"
+          },
+          {
+            "code" : "3258",
+            "display" : "Cenani-Lenz syndrome"
+          },
+          {
+            "code" : "3259",
+            "display" : "Syndactyly-polydactyly-ear lobe syndrome"
+          },
+          {
+            "code" : "3260",
+            "display" : "Idiopathic hypereosinophilic syndrome"
+          },
+          {
+            "code" : "3261",
+            "display" : "Autoimmune lymphoproliferative syndrome"
+          },
+          {
+            "code" : "3262",
+            "display" : "Dobrow syndrome"
+          },
+          {
+            "code" : "3263",
+            "display" : "Syngnathia-cleft palate syndrome"
+          },
+          {
+            "code" : "3265",
+            "display" : "Isolated humero-radial synostosis"
+          },
+          {
+            "code" : "3266",
+            "display" : "Isolated humero-radio-ulnar synostosis"
+          },
+          {
+            "code" : "3268",
+            "display" : "Radioulnar synostosis-microcephaly-scoliosis syndrome"
+          },
+          {
+            "code" : "3269",
+            "display" : "Isolated radio-ulnar synostosis"
+          },
+          {
+            "code" : "3270",
+            "display" : "Radioulnar synostosis-developmental delay-hypotonia syndrome"
+          },
+          {
+            "code" : "3273",
+            "display" : "Synovial sarcoma"
+          },
+          {
+            "code" : "3275",
+            "display" : "Spondylocarpotarsal synostosis"
+          },
+          {
+            "code" : "3282",
+            "display" : "Multifocal atrial tachycardia"
+          },
+          {
+            "code" : "3283",
+            "display" : "His bundle tachycardia"
+          },
+          {
+            "code" : "3286",
+            "display" : "Catecholaminergic polymorphic ventricular tachycardia"
+          },
+          {
+            "code" : "3287",
+            "display" : "Takayasu arteritis"
+          },
+          {
+            "code" : "3291",
+            "display" : "Teebi-Shaltout syndrome"
+          },
+          {
+            "code" : "3292",
+            "display" : "Tel Hashomer camptodactyly syndrome"
+          },
+          {
+            "code" : "3293",
+            "display" : "Telecanthus-hypertelorism-strabismus-pes cavus syndrome"
+          },
+          {
+            "code" : "3294",
+            "display" : "Extensor tendons of finger anomalies"
+          },
+          {
+            "code" : "3299",
+            "display" : "Tetanus"
+          },
+          {
+            "code" : "3301",
+            "display" : "Tetraamelia-multiple malformations syndrome"
+          },
+          {
+            "code" : "3303",
+            "display" : "Tetralogy of Fallot"
+          },
+          {
+            "code" : "3304",
+            "display" : "Fallot complex-intellectual disability-growth delay syndrome"
+          },
+          {
+            "code" : "3305",
+            "display" : "Tetraploidy"
+          },
+          {
+            "code" : "3306",
+            "display" : "Inverted duplicated chromosome 15 syndrome"
+          },
+          {
+            "code" : "3307",
+            "display" : "Tetrasomy 18p"
+          },
+          {
+            "code" : "3309",
+            "display" : "Tetrasomy 5p"
+          },
+          {
+            "code" : "3310",
+            "display" : "Tetrasomy 9p"
+          },
+          {
+            "code" : "3312",
+            "display" : "Thalidomide embryopathy"
+          },
+          {
+            "code" : "3314",
+            "display" : "Thiemann disease, familial form"
+          },
+          {
+            "code" : "3316",
+            "display" : "Thomas syndrome"
+          },
+          {
+            "code" : "3317",
+            "display" : "Thoracolaryngopelvic dysplasia"
+          },
+          {
+            "code" : "3318",
+            "display" : "Essential thrombocythemia"
+          },
+          {
+            "code" : "3319",
+            "display" : "Congenital amegakaryocytic thrombocytopenia"
+          },
+          {
+            "code" : "3320",
+            "display" : "Thrombocytopenia-absent radius syndrome"
+          },
+          {
+            "code" : "3322",
+            "display" : "Hoyeraal-Hreidarsson syndrome"
+          },
+          {
+            "code" : "3324",
+            "display" : "Familial thrombomodulin anomalies"
+          },
+          {
+            "code" : "3325",
+            "display" : "Heparin-induced thrombocytopenia"
+          },
+          {
+            "code" : "3326",
+            "display" : "Thymic-renal-anal-lung dysplasia"
+          },
+          {
+            "code" : "3327",
+            "display" : "Thyrocerebrorenal syndrome"
+          },
+          {
+            "code" : "3328",
+            "display" : "Absent tibia-polydactyly-arachnoid cyst syndrome"
+          },
+          {
+            "code" : "3329",
+            "display" : "Tibial aplasia-ectrodactyly syndrome"
+          },
+          {
+            "code" : "3337",
+            "display" : "Primary Fanconi renotubular syndrome"
+          },
+          {
+            "code" : "3338",
+            "display" : "Toriello-Carey syndrome"
+          },
+          {
+            "code" : "3339",
+            "display" : "Oculoectodermal syndrome"
+          },
+          {
+            "code" : "3341",
+            "display" : "Torticollis-keloids-cryptorchidism-renal dysplasia syndrome"
+          },
+          {
+            "code" : "3342",
+            "display" : "Arterial tortuosity syndrome"
+          },
+          {
+            "code" : "3343",
+            "display" : "Toxocariasis"
+          },
+          {
+            "code" : "3344",
+            "display" : "Weismann-Netter syndrome"
+          },
+          {
+            "code" : "3346",
+            "display" : "Tracheal agenesis"
+          },
+          {
+            "code" : "3347",
+            "display" : "Mounier-Kühn syndrome"
+          },
+          {
+            "code" : "3348",
+            "display" : "Tracheobronchopathia osteochondroplastica"
+          },
+          {
+            "code" : "3350",
+            "display" : "Tremor-nystagmus-duodenal ulcer syndrome"
+          },
+          {
+            "code" : "3351",
+            "display" : "Trichodental syndrome"
+          },
+          {
+            "code" : "3352",
+            "display" : "Tricho-dento-osseous syndrome"
+          },
+          {
+            "code" : "3353",
+            "display" : "Trichodermodysplasia-dental alterations syndrome"
+          },
+          {
+            "code" : "3355",
+            "display" : "Trichoodontoonychial dysplasia"
+          },
+          {
+            "code" : "3361",
+            "display" : "Trichodysplasia-xeroderma syndrome"
+          },
+          {
+            "code" : "3363",
+            "display" : "Trichomegaly-retina pigmentary degeneration-dwarfism syndrome"
+          },
+          {
+            "code" : "3365",
+            "display" : "Trigonocephaly-broad thumbs syndrome"
+          },
+          {
+            "code" : "3366",
+            "display" : "Non-syndromic metopic craniosynostosis"
+          },
+          {
+            "code" : "3368",
+            "display" : "Trigonocephaly-bifid nose-acral anomalies syndrome"
+          },
+          {
+            "code" : "3369",
+            "display" : "Trigonocephaly-short stature-developmental delay syndrome"
+          },
+          {
+            "code" : "3374",
+            "display" : "Unilateral ocular duplication"
+          },
+          {
+            "code" : "3375",
+            "display" : "Trisomy X"
+          },
+          {
+            "code" : "3376",
+            "display" : "Triploidy"
+          },
+          {
+            "code" : "3377",
+            "display" : "Trismus-pseudocamptodactyly syndrome"
+          },
+          {
+            "code" : "3378",
+            "display" : "Trisomy 13"
+          },
+          {
+            "code" : "3379",
+            "display" : "Distal duplication 17q"
+          },
+          {
+            "code" : "3380",
+            "display" : "Trisomy 18"
+          },
+          {
+            "code" : "3383",
+            "display" : "Humerus trochlea aplasia"
+          },
+          {
+            "code" : "3384",
+            "display" : "Common arterial trunk"
+          },
+          {
+            "code" : "3385",
+            "display" : "African trypanosomiasis"
+          },
+          {
+            "code" : "3386",
+            "display" : "American trypanosomiasis"
+          },
+          {
+            "code" : "3387",
+            "display" : "Isolated anterior cervical hypertrichosis"
+          },
+          {
+            "code" : "3392",
+            "display" : "Tularemia"
+          },
+          {
+            "code" : "3400",
+            "display" : "Aorto-ventricular tunnel"
+          },
+          {
+            "code" : "3402",
+            "display" : "Transient tyrosinemia of the newborn"
+          },
+          {
+            "code" : "3403",
+            "display" : "Uhl anomaly"
+          },
+          {
+            "code" : "3404",
+            "display" : "Ulbright-Hodes syndrome"
+          },
+          {
+            "code" : "3405",
+            "display" : "Umbilical cord ulceration-intestinal atresia syndrome"
+          },
+          {
+            "code" : "3406",
+            "display" : "Ulerythema ophryogenesis"
+          },
+          {
+            "code" : "3408",
+            "display" : "Upington disease"
+          },
+          {
+            "code" : "3409",
+            "display" : "Urban-Rogers-Meyer syndrome"
+          },
+          {
+            "code" : "3411",
+            "display" : "Double uterus-hemivagina-renal agenesis syndrome"
+          },
+          {
+            "code" : "3412",
+            "display" : "VACTERL with hydrocephalus"
+          },
+          {
+            "code" : "3416",
+            "display" : "Hyperostosis corticalis generalisata"
+          },
+          {
+            "code" : "3417",
+            "display" : "Van den Bosch syndrome"
+          },
+          {
+            "code" : "3424",
+            "display" : "Velo-facial-skeletal syndrome"
+          },
+          {
+            "code" : "3426",
+            "display" : "Double outlet right ventricle"
+          },
+          {
+            "code" : "3427",
+            "display" : "Double outlet left ventricle"
+          },
+          {
+            "code" : "3429",
+            "display" : "Verloove Vanhorick-Brubakk syndrome"
+          },
+          {
+            "code" : "3433",
+            "display" : "Microcephaly-brachydactyly-kyphoscoliosis syndrome"
+          },
+          {
+            "code" : "3434",
+            "display" : "MMEP syndrome"
+          },
+          {
+            "code" : "3437",
+            "display" : "Vogt-Koyanagi-Harada disease"
+          },
+          {
+            "code" : "3439",
+            "display" : "Von Voss-Cherstvoy syndrome"
+          },
+          {
+            "code" : "3440",
+            "display" : "Waardenburg syndrome"
+          },
+          {
+            "code" : "3447",
+            "display" : "Weaver syndrome"
+          },
+          {
+            "code" : "3448",
+            "display" : "Weaver-Williams syndrome"
+          },
+          {
+            "code" : "3449",
+            "display" : "Weill-Marchesani syndrome"
+          },
+          {
+            "code" : "3451",
+            "display" : "Infantile spasms syndrome"
+          },
+          {
+            "code" : "3452",
+            "display" : "Whipple disease"
+          },
+          {
+            "code" : "3453",
+            "display" : "Autoimmune polyendocrinopathy type 1"
+          },
+          {
+            "code" : "3454",
+            "display" : "Intellectual disability-developmental delay-contractures syndrome"
+          },
+          {
+            "code" : "3455",
+            "display" : "Wiedemann-Rautenstrauch syndrome"
+          },
+          {
+            "code" : "3456",
+            "display" : "Wildervanck syndrome"
+          },
+          {
+            "code" : "3459",
+            "display" : "Wilson-Turner syndrome"
+          },
+          {
+            "code" : "3463",
+            "display" : "Wolfram syndrome"
+          },
+          {
+            "code" : "3464",
+            "display" : "Woodhouse-Sakati syndrome"
+          },
+          {
+            "code" : "3465",
+            "display" : "Worster-Drought syndrome"
+          },
+          {
+            "code" : "3466",
+            "display" : "WT limb-blood syndrome"
+          },
+          {
+            "code" : "3467",
+            "display" : "Hereditary xanthinuria"
+          },
+          {
+            "code" : "3469",
+            "display" : "XK aprosencephaly syndrome"
+          },
+          {
+            "code" : "3471",
+            "display" : "Young syndrome"
+          },
+          {
+            "code" : "3472",
+            "display" : "Yunis-Varon syndrome"
+          },
+          {
+            "code" : "3473",
+            "display" : "Zimmermann-Laband syndrome"
+          },
+          {
+            "code" : "3474",
+            "display" : "CHIME syndrome"
+          },
+          {
+            "code" : "25968",
+            "display" : "Benign occipital epilepsy"
+          },
+          {
+            "code" : "25980",
+            "display" : "X-linked myopathy with excessive autophagy"
+          },
+          {
+            "code" : "26106",
+            "display" : "Hereditary diffuse gastric cancer"
+          },
+          {
+            "code" : "26137",
+            "display" : "Juvenile temporal arteritis"
+          },
+          {
+            "code" : "26348",
+            "display" : "Acquired prothrombin deficiency"
+          },
+          {
+            "code" : "26349",
+            "display" : "Protein S acquired deficiency"
+          },
+          {
+            "code" : "26790",
+            "display" : "Pseudomyxoma peritonei"
+          },
+          {
+            "code" : "26791",
+            "display" : "Multiple acyl-CoA dehydrogenase deficiency"
+          },
+          {
+            "code" : "26792",
+            "display" : "Short chain acyl-CoA dehydrogenase deficiency"
+          },
+          {
+            "code" : "26793",
+            "display" : "Very long chain acyl-CoA dehydrogenase deficiency"
+          },
+          {
+            "code" : "28378",
+            "display" : "Tyrosinemia type 2"
+          },
+          {
+            "code" : "29072",
+            "display" : "Hereditary pheochromocytoma-paraganglioma"
+          },
+          {
+            "code" : "29073",
+            "display" : "Multiple myeloma"
+          },
+          {
+            "code" : "29207",
+            "display" : "Reactive arthritis"
+          },
+          {
+            "code" : "29822",
+            "display" : "Spontaneous periodic hypothermia"
+          },
+          {
+            "code" : "30391",
+            "display" : "Isolated biliary atresia"
+          },
+          {
+            "code" : "30924",
+            "display" : "Primary hypomagnesemia with secondary hypocalcemia"
+          },
+          {
+            "code" : "30925",
+            "display" : "Hereditary arginine vasopressin deficiency"
+          },
+          {
+            "code" : "31043",
+            "display" : "Primary hypomagnesemia with hypercalciuria and nephrocalcinosis without severe ocular involvement"
+          },
+          {
+            "code" : "31112",
+            "display" : "Dermatofibrosarcoma protuberans"
+          },
+          {
+            "code" : "31150",
+            "display" : "Tangier disease"
+          },
+          {
+            "code" : "31202",
+            "display" : "Melioidosis"
+          },
+          {
+            "code" : "31204",
+            "display" : "Nocardiosis"
+          },
+          {
+            "code" : "31205",
+            "display" : "Rat-bite fever"
+          },
+          {
+            "code" : "31709",
+            "display" : "Infantile convulsions and choreoathetosis"
+          },
+          {
+            "code" : "31824",
+            "display" : "Colchicine poisoning"
+          },
+          {
+            "code" : "31825",
+            "display" : "Methanol poisoning"
+          },
+          {
+            "code" : "31826",
+            "display" : "Ethylene glycol poisoning"
+          },
+          {
+            "code" : "31827",
+            "display" : "Paraquat poisoning"
+          },
+          {
+            "code" : "31828",
+            "display" : "Digitalis poisoning"
+          },
+          {
+            "code" : "31837",
+            "display" : "Pulmonary venoocclusive disease"
+          },
+          {
+            "code" : "32960",
+            "display" : "Tumor necrosis factor receptor 1 associated periodic syndrome"
+          },
+          {
+            "code" : "33001",
+            "display" : "Lymphedema-distichiasis syndrome"
+          },
+          {
+            "code" : "33067",
+            "display" : "Metaphyseal chondrodysplasia, Jansen type"
+          },
+          {
+            "code" : "33069",
+            "display" : "Dravet syndrome"
+          },
+          {
+            "code" : "33108",
+            "display" : "Lethal multiple pterygium syndrome"
+          },
+          {
+            "code" : "33110",
+            "display" : "Autosomal agammaglobulinemia"
+          },
+          {
+            "code" : "33111",
+            "display" : "Granulomatous slack skin"
+          },
+          {
+            "code" : "33208",
+            "display" : "Idiopathic hypersomnia"
+          },
+          {
+            "code" : "33226",
+            "display" : "Waldenström macroglobulinemia"
+          },
+          {
+            "code" : "33276",
+            "display" : "Kaposi sarcoma"
+          },
+          {
+            "code" : "33314",
+            "display" : "Jessner lymphocytic infiltration of the skin"
+          },
+          {
+            "code" : "33355",
+            "display" : "Reticular dysgenesis"
+          },
+          {
+            "code" : "33364",
+            "display" : "Trichothiodystrophy"
+          },
+          {
+            "code" : "33402",
+            "display" : "Pediatric hepatocellular carcinoma"
+          },
+          {
+            "code" : "33408",
+            "display" : "Bullous lichen planus"
+          },
+          {
+            "code" : "33445",
+            "display" : "Neuroectodermal melanolysosomal disease"
+          },
+          {
+            "code" : "33475",
+            "display" : "Meningococcal meningitis"
+          },
+          {
+            "code" : "33543",
+            "display" : "Kleine-Levin syndrome"
+          },
+          {
+            "code" : "33572",
+            "display" : "5-oxoprolinase deficiency"
+          },
+          {
+            "code" : "33573",
+            "display" : "Gamma-glutamyl transpeptidase deficiency"
+          },
+          {
+            "code" : "33574",
+            "display" : "Glutamate-cysteine ligase deficiency"
+          },
+          {
+            "code" : "33577",
+            "display" : "Nodular non-suppurative panniculitis"
+          },
+          {
+            "code" : "34145",
+            "display" : "Immunoglobulin A nephropathy"
+          },
+          {
+            "code" : "34149",
+            "display" : "Autosomal dominant tubulointerstitial kidney disease"
+          },
+          {
+            "code" : "34217",
+            "display" : "Naxos disease"
+          },
+          {
+            "code" : "34514",
+            "display" : "Telethonin-related limb-girdle muscular dystrophy R7"
+          },
+          {
+            "code" : "34515",
+            "display" : "FKRP-related limb-girdle muscular dystrophy R9"
+          },
+          {
+            "code" : "34516",
+            "display" : "DNAJB6-related limb-girdle muscular dystrophy D1"
+          },
+          {
+            "code" : "34520",
+            "display" : "Congenital muscular dystrophy with integrin alpha-7 deficiency"
+          },
+          {
+            "code" : "34528",
+            "display" : "Autosomal dominant primary hypomagnesemia with hypocalciuria"
+          },
+          {
+            "code" : "34587",
+            "display" : "Danon disease"
+          },
+          {
+            "code" : "34592",
+            "display" : "Immunodeficiency by defective expression of MHC class I"
+          },
+          {
+            "code" : "35062",
+            "display" : "Severe disseminated cytomegalovirus infection in immunocompetent patients"
+          },
+          {
+            "code" : "35063",
+            "display" : "Fulminant viral hepatitis"
+          },
+          {
+            "code" : "35069",
+            "display" : "Infantile neuroaxonal dystrophy"
+          },
+          {
+            "code" : "35078",
+            "display" : "T-B+ severe combined immunodeficiency due to JAK3 deficiency"
+          },
+          {
+            "code" : "35093",
+            "display" : "Non-syndromic sagittal craniosynostosis"
+          },
+          {
+            "code" : "35099",
+            "display" : "Non-syndromic bicoronal craniosynostosis"
+          },
+          {
+            "code" : "35107",
+            "display" : "Desmosterolosis"
+          },
+          {
+            "code" : "35120",
+            "display" : "Hemolytic anemia due to pyrimidine 5' nucleotidase deficiency"
+          },
+          {
+            "code" : "35121",
+            "display" : "Lysosomal acid phosphatase deficiency"
+          },
+          {
+            "code" : "35122",
+            "display" : "Congenital sucrase-isomaltase deficiency"
+          },
+          {
+            "code" : "35125",
+            "display" : "Epidermal nevus syndrome"
+          },
+          {
+            "code" : "35173",
+            "display" : "X-linked dominant chondrodysplasia punctata"
+          },
+          {
+            "code" : "35612",
+            "display" : "Nanophthalmos"
+          },
+          {
+            "code" : "35664",
+            "display" : "ALDH18A1-related De Barsy syndrome"
+          },
+          {
+            "code" : "35686",
+            "display" : "Serpiginous choroiditis"
+          },
+          {
+            "code" : "35687",
+            "display" : "Erdheim-Chester disease"
+          },
+          {
+            "code" : "35689",
+            "display" : "Primary lateral sclerosis"
+          },
+          {
+            "code" : "35701",
+            "display" : "3-hydroxy-3-methylglutaryl-CoA synthase deficiency"
+          },
+          {
+            "code" : "35704",
+            "display" : "L-Arginine:glycine amidinotransferase deficiency"
+          },
+          {
+            "code" : "35706",
+            "display" : "Glutaric acidemia type 3"
+          },
+          {
+            "code" : "35708",
+            "display" : "Aromatic L-amino acid decarboxylase deficiency"
+          },
+          {
+            "code" : "35710",
+            "display" : "Glucose-galactose malabsorption"
+          },
+          {
+            "code" : "35737",
+            "display" : "Morning glory disc anomaly"
+          },
+          {
+            "code" : "35858",
+            "display" : "Imerslund-Gräsbeck syndrome"
+          },
+          {
+            "code" : "35878",
+            "display" : "Hyperinsulinism-hyperammonemia syndrome"
+          },
+          {
+            "code" : "35889",
+            "display" : "Acute opioid intoxication"
+          },
+          {
+            "code" : "35909",
+            "display" : "Combined deficiency of factor V and factor VIII"
+          },
+          {
+            "code" : "36234",
+            "display" : "Bacterial toxic-shock syndrome"
+          },
+          {
+            "code" : "36235",
+            "display" : "Staphylococcal scarlet fever"
+          },
+          {
+            "code" : "36236",
+            "display" : "Staphylococcal scalded skin syndrome"
+          },
+          {
+            "code" : "36237",
+            "display" : "Bullous impetigo"
+          },
+          {
+            "code" : "36238",
+            "display" : "Staphylococcal necrotizing pneumonia"
+          },
+          {
+            "code" : "36258",
+            "display" : "Buerger disease"
+          },
+          {
+            "code" : "36273",
+            "display" : "Gastric linitis plastica"
+          },
+          {
+            "code" : "36355",
+            "display" : "Bleeding disorder due to P2Y12 defect"
+          },
+          {
+            "code" : "36367",
+            "display" : "Distal deletion 1q"
+          },
+          {
+            "code" : "36382",
+            "display" : "Familial cervical artery dissection"
+          },
+          {
+            "code" : "36383",
+            "display" : "COL4A1/2-related familial vascular leukoencephalopathy"
+          },
+          {
+            "code" : "36386",
+            "display" : "Hereditary sensory and autonomic neuropathy type 1"
+          },
+          {
+            "code" : "36387",
+            "display" : "Generalized epilepsy with febrile seizures-plus"
+          },
+          {
+            "code" : "36397",
+            "display" : "Adiposis dolorosa"
+          },
+          {
+            "code" : "36412",
+            "display" : "Hypocomplementemic urticarial vasculitis"
+          },
+          {
+            "code" : "36426",
+            "display" : "Stevens-Johnson syndrome"
+          },
+          {
+            "code" : "36899",
+            "display" : "Myoclonus-dystonia syndrome"
+          },
+          {
+            "code" : "36913",
+            "display" : "Autoimmune hypoparathyroidism"
+          },
+          {
+            "code" : "37042",
+            "display" : "Immune dysregulation-polyendocrinopathy-enteropathy-X-linked syndrome"
+          },
+          {
+            "code" : "37202",
+            "display" : "Interstitial cystitis"
+          },
+          {
+            "code" : "37553",
+            "display" : "Andersen-Tawil syndrome"
+          },
+          {
+            "code" : "37559",
+            "display" : "Acquired kinky hair syndrome"
+          },
+          {
+            "code" : "37612",
+            "display" : "Episodic ataxia type 1"
+          },
+          {
+            "code" : "37748",
+            "display" : "Schnitzler syndrome"
+          },
+          {
+            "code" : "38874",
+            "display" : "Dihydropyrimidinuria"
+          },
+          {
+            "code" : "39041",
+            "display" : "Omenn syndrome"
+          },
+          {
+            "code" : "39044",
+            "display" : "Uveal melanoma"
+          },
+          {
+            "code" : "39812",
+            "display" : "Graft versus host disease"
+          },
+          {
+            "code" : "40366",
+            "display" : "Acitretin/etretinate embryopathy"
+          },
+          {
+            "code" : "40923",
+            "display" : "Eales disease"
+          },
+          {
+            "code" : "41751",
+            "display" : "Bietti crystalline dystrophy"
+          },
+          {
+            "code" : "42062",
+            "display" : "Iminoglycinuria"
+          },
+          {
+            "code" : "42642",
+            "display" : "PFAPA syndrome"
+          },
+          {
+            "code" : "42665",
+            "display" : "Tietz syndrome"
+          },
+          {
+            "code" : "42775",
+            "display" : "PHACE syndrome"
+          },
+          {
+            "code" : "43115",
+            "display" : "Hereditary myopathy with lactic acidosis due to ISCU deficiency"
+          },
+          {
+            "code" : "43116",
+            "display" : "Serotonin syndrome"
+          },
+          {
+            "code" : "43117",
+            "display" : "Acute tricyclic antidepressant poisoning"
+          },
+          {
+            "code" : "43119",
+            "display" : "Acute poisoning by drugs with membrane-stabilizing effect"
+          },
+          {
+            "code" : "43393",
+            "display" : "Lambert-Eaton myasthenic syndrome"
+          },
+          {
+            "code" : "44890",
+            "display" : "Gastrointestinal stromal tumor"
+          },
+          {
+            "code" : "45358",
+            "display" : "Congenital fibrosis of extraocular muscles"
+          },
+          {
+            "code" : "45448",
+            "display" : "Miyoshi myopathy"
+          },
+          {
+            "code" : "45452",
+            "display" : "Idiopathic neonatal atrial flutter"
+          },
+          {
+            "code" : "45453",
+            "display" : "Incessant infant ventricular tachycardia"
+          },
+          {
+            "code" : "46059",
+            "display" : "Lathosterolosis"
+          },
+          {
+            "code" : "46135",
+            "display" : "Primary central nervous system lymphoma"
+          },
+          {
+            "code" : "46348",
+            "display" : "Paroxysmal extreme pain disorder"
+          },
+          {
+            "code" : "46486",
+            "display" : "Mucous membrane pemphigoid"
+          },
+          {
+            "code" : "46487",
+            "display" : "Epidermolysis bullosa acquisita"
+          },
+          {
+            "code" : "46488",
+            "display" : "Linear IgA dermatosis"
+          },
+          {
+            "code" : "46532",
+            "display" : "Hereditary persistence of fetal hemoglobin-beta-thalassemia syndrome"
+          },
+          {
+            "code" : "46627",
+            "display" : "Char syndrome"
+          },
+          {
+            "code" : "46724",
+            "display" : "Cerebral arteriovenous malformation"
+          },
+          {
+            "code" : "47044",
+            "display" : "Hereditary papillary renal cell carcinoma"
+          },
+          {
+            "code" : "47045",
+            "display" : "Familial cold urticaria"
+          },
+          {
+            "code" : "47159",
+            "display" : "Proximal renal tubular acidosis"
+          },
+          {
+            "code" : "47612",
+            "display" : "Felty syndrome"
+          },
+          {
+            "code" : "48104",
+            "display" : "Pyoderma gangrenosum"
+          },
+          {
+            "code" : "48162",
+            "display" : "Lewis-Sumner syndrome"
+          },
+          {
+            "code" : "48372",
+            "display" : "Nodular regenerative hyperplasia of the liver"
+          },
+          {
+            "code" : "48377",
+            "display" : "Subcorneal pustular dermatosis"
+          },
+          {
+            "code" : "48431",
+            "display" : "Congenital cataracts-facial dysmorphism-neuropathy syndrome"
+          },
+          {
+            "code" : "48435",
+            "display" : "Postinfectious vasculitis"
+          },
+          {
+            "code" : "48652",
+            "display" : "Phelan-McDermid syndrome"
+          },
+          {
+            "code" : "48686",
+            "display" : "Primary effusion lymphoma"
+          },
+          {
+            "code" : "48736",
+            "display" : "Embryonal carcinoma of the central nervous system"
+          },
+          {
+            "code" : "48818",
+            "display" : "Aceruloplasminemia"
+          },
+          {
+            "code" : "48918",
+            "display" : "Focal myositis"
+          },
+          {
+            "code" : "49041",
+            "display" : "IgG4-related retroperitoneal fibrosis"
+          },
+          {
+            "code" : "49042",
+            "display" : "Dentinogenesis imperfecta"
+          },
+          {
+            "code" : "49382",
+            "display" : "Achromatopsia"
+          },
+          {
+            "code" : "49566",
+            "display" : "Acquired purpura fulminans"
+          },
+          {
+            "code" : "49804",
+            "display" : "Lichen amyloidosis"
+          },
+          {
+            "code" : "49827",
+            "display" : "Thiamine-responsive megaloblastic anemia syndrome"
+          },
+          {
+            "code" : "50251",
+            "display" : "Pleural mesothelioma"
+          },
+          {
+            "code" : "50809",
+            "display" : "Talo-patello-scaphoid osteolysis"
+          },
+          {
+            "code" : "50810",
+            "display" : "Microlissencephaly-micromelia syndrome"
+          },
+          {
+            "code" : "50811",
+            "display" : "Lipodystrophy-intellectual disability-deafness syndrome"
+          },
+          {
+            "code" : "50812",
+            "display" : "Zellweger-like syndrome without peroxisomal anomalies"
+          },
+          {
+            "code" : "50814",
+            "display" : "Craniolenticulosutural dysplasia"
+          },
+          {
+            "code" : "50815",
+            "display" : "Branchiogenic deafness syndrome"
+          },
+          {
+            "code" : "50817",
+            "display" : "Duane anomaly-myopathy-scoliosis syndrome"
+          },
+          {
+            "code" : "50839",
+            "display" : "Cat-scratch disease"
+          },
+          {
+            "code" : "50918",
+            "display" : "Kikuchi-Fujimoto disease"
+          },
+          {
+            "code" : "50942",
+            "display" : "Striate palmoplantar keratoderma"
+          },
+          {
+            "code" : "50943",
+            "display" : "Keratolytic winter erythema"
+          },
+          {
+            "code" : "50944",
+            "display" : "Schöpf-Schulz-Passarge syndrome"
+          },
+          {
+            "code" : "50945",
+            "display" : "Blomstrand lethal chondrodysplasia"
+          },
+          {
+            "code" : "51083",
+            "display" : "Familial short QT syndrome"
+          },
+          {
+            "code" : "51084",
+            "display" : "Torsade-de-pointes syndrome with short coupling interval"
+          },
+          {
+            "code" : "51188",
+            "display" : "Ethylmalonic encephalopathy"
+          },
+          {
+            "code" : "51208",
+            "display" : "Formiminoglutamic aciduria"
+          },
+          {
+            "code" : "51608",
+            "display" : "Generalized arterial calcification of infancy"
+          },
+          {
+            "code" : "51636",
+            "display" : "WHIM syndrome"
+          },
+          {
+            "code" : "51890",
+            "display" : "Anterior cutaneous nerve entrapment syndrome"
+          },
+          {
+            "code" : "52022",
+            "display" : "Potocki-Shaffer syndrome"
+          },
+          {
+            "code" : "52047",
+            "display" : "Braddock syndrome"
+          },
+          {
+            "code" : "52054",
+            "display" : "Craniosynostosis-intracranial calcifications syndrome"
+          },
+          {
+            "code" : "52055",
+            "display" : "Corpus callosum agenesis-intellectual disability-coloboma-micrognathia syndrome"
+          },
+          {
+            "code" : "52056",
+            "display" : "Ulnar/fibula ray defect-brachydactyly syndrome"
+          },
+          {
+            "code" : "52368",
+            "display" : "Mohr-Tranebjaerg syndrome"
+          },
+          {
+            "code" : "52416",
+            "display" : "Mantle cell lymphoma"
+          },
+          {
+            "code" : "52417",
+            "display" : "MALT lymphoma"
+          },
+          {
+            "code" : "52427",
+            "display" : "Retinitis punctata albescens"
+          },
+          {
+            "code" : "52429",
+            "display" : "Branchiootic syndrome"
+          },
+          {
+            "code" : "52430",
+            "display" : "Inclusion body myopathy with Paget disease of bone and frontotemporal dementia"
+          },
+          {
+            "code" : "52503",
+            "display" : "X-linked creatine transporter deficiency"
+          },
+          {
+            "code" : "52530",
+            "display" : "Pseudo-von Willebrand disease"
+          },
+          {
+            "code" : "52901",
+            "display" : "Isolated follicle stimulating hormone deficiency"
+          },
+          {
+            "code" : "52994",
+            "display" : "Orbital leiomyoma"
+          },
+          {
+            "code" : "53035",
+            "display" : "Caroli disease"
+          },
+          {
+            "code" : "53271",
+            "display" : "Muenke syndrome"
+          },
+          {
+            "code" : "53296",
+            "display" : "Familial cutaneous collagenoma"
+          },
+          {
+            "code" : "53347",
+            "display" : "Brody myopathy"
+          },
+          {
+            "code" : "53351",
+            "display" : "X-linked dystonia-parkinsonism"
+          },
+          {
+            "code" : "53372",
+            "display" : "Hereditary geniospasm"
+          },
+          {
+            "code" : "53540",
+            "display" : "Goldmann-Favre syndrome"
+          },
+          {
+            "code" : "53583",
+            "display" : "Paroxysmal dystonic choreathetosis with episodic ataxia and spasticity"
+          },
+          {
+            "code" : "53689",
+            "display" : "Congenital chloride diarrhea"
+          },
+          {
+            "code" : "53690",
+            "display" : "Congenital lactase deficiency"
+          },
+          {
+            "code" : "53691",
+            "display" : "Congenital cornea plana"
+          },
+          {
+            "code" : "53693",
+            "display" : "GRACILE syndrome"
+          },
+          {
+            "code" : "53696",
+            "display" : "Arthrogryposis-anterior horn cell disease syndrome"
+          },
+          {
+            "code" : "53697",
+            "display" : "Gnathodiaphyseal dysplasia"
+          },
+          {
+            "code" : "53698",
+            "display" : "Myosin storage myopathy"
+          },
+          {
+            "code" : "53715",
+            "display" : "Familial tumoral calcinosis"
+          },
+          {
+            "code" : "53719",
+            "display" : "Wyburn-Mason syndrome"
+          },
+          {
+            "code" : "53721",
+            "display" : "Spinal arteriovenous metameric syndrome"
+          },
+          {
+            "code" : "54028",
+            "display" : "Plummer-Vinson syndrome"
+          },
+          {
+            "code" : "54057",
+            "display" : "Thrombotic thrombocytopenic purpura"
+          },
+          {
+            "code" : "54247",
+            "display" : "Posterior cortical atrophy"
+          },
+          {
+            "code" : "54251",
+            "display" : "Aseptic abscess syndrome"
+          },
+          {
+            "code" : "54260",
+            "display" : "Left ventricular noncompaction"
+          },
+          {
+            "code" : "54272",
+            "display" : "Hepatocellular adenoma"
+          },
+          {
+            "code" : "54368",
+            "display" : "Sarcocystosis"
+          },
+          {
+            "code" : "54370",
+            "display" : "Primary membranoproliferative glomerulonephritis"
+          },
+          {
+            "code" : "54595",
+            "display" : "Craniopharyngioma"
+          },
+          {
+            "code" : "55595",
+            "display" : "TNP03-related limb-girdle muscular dystrophy D2"
+          },
+          {
+            "code" : "55596",
+            "display" : "HNRNPDL-related limb-girdle muscular dystrophy D3"
+          },
+          {
+            "code" : "55654",
+            "display" : "Hypotrichosis simplex"
+          },
+          {
+            "code" : "55655",
+            "display" : "Pneumococcal meningitis"
+          },
+          {
+            "code" : "55880",
+            "display" : "Chondrosarcoma"
+          },
+          {
+            "code" : "55881",
+            "display" : "Adamantinoma"
+          },
+          {
+            "code" : "56304",
+            "display" : "Atelosteogenesis type II"
+          },
+          {
+            "code" : "56305",
+            "display" : "Atelosteogenesis type III"
+          },
+          {
+            "code" : "56425",
+            "display" : "Cold agglutinin disease"
+          },
+          {
+            "code" : "57145",
+            "display" : "SUNCT syndrome"
+          },
+          {
+            "code" : "57196",
+            "display" : "Medial condensing osteitis of the clavicle"
+          },
+          {
+            "code" : "57777",
+            "display" : "Cirrhotic cardiomyopathy"
+          },
+          {
+            "code" : "57782",
+            "display" : "Mazabraud syndrome"
+          },
+          {
+            "code" : "58017",
+            "display" : "Classic hairy cell leukemia"
+          },
+          {
+            "code" : "58040",
+            "display" : "Osteoblastoma"
+          },
+          {
+            "code" : "59135",
+            "display" : "Laing early-onset distal myopathy"
+          },
+          {
+            "code" : "59181",
+            "display" : "Sorsby pseudoinflammatory fundus dystrophy"
+          },
+          {
+            "code" : "59298",
+            "display" : "Schilder disease"
+          },
+          {
+            "code" : "59303",
+            "display" : "Neonatal ichthyosis-sclerosing cholangitis syndrome"
+          },
+          {
+            "code" : "59306",
+            "display" : "McLeod neuroacanthocytosis syndrome"
+          },
+          {
+            "code" : "59315",
+            "display" : "Rhombencephalosynapsis"
+          },
+          {
+            "code" : "60014",
+            "display" : "Argyria"
+          },
+          {
+            "code" : "60015",
+            "display" : "Enlarged parietal foramina"
+          },
+          {
+            "code" : "60025",
+            "display" : "Pulmonary alveolar microlithiasis"
+          },
+          {
+            "code" : "60026",
+            "display" : "Pulmonary nodular lymphoid hyperplasia"
+          },
+          {
+            "code" : "60030",
+            "display" : "Loeys-Dietz syndrome"
+          },
+          {
+            "code" : "60032",
+            "display" : "Recurrent respiratory papillomatosis"
+          },
+          {
+            "code" : "60033",
+            "display" : "Idiopathic bronchiectasis"
+          },
+          {
+            "code" : "60039",
+            "display" : "Pudendal nerve entrapment syndrome"
+          },
+          {
+            "code" : "60040",
+            "display" : "Megalencephaly-capillary malformation-polymicrogyria syndrome"
+          },
+          {
+            "code" : "60041",
+            "display" : "Congenital heart block"
+          },
+          {
+            "code" : "63259",
+            "display" : "Iniencephaly"
+          },
+          {
+            "code" : "63260",
+            "display" : "Craniorachischisis"
+          },
+          {
+            "code" : "63269",
+            "display" : "Antley-Bixler syndrome with genital anomaly and disorder of steroidogenesis"
+          },
+          {
+            "code" : "63273",
+            "display" : "Distal myopathy with posterior leg and anterior hand involvement"
+          },
+          {
+            "code" : "63275",
+            "display" : "Pemphigoid gestationis"
+          },
+          {
+            "code" : "63442",
+            "display" : "Angel-shaped phalango-epiphyseal dysplasia"
+          },
+          {
+            "code" : "63446",
+            "display" : "Acrocapitofemoral dysplasia"
+          },
+          {
+            "code" : "63455",
+            "display" : "Paraneoplastic pemphigus"
+          },
+          {
+            "code" : "63862",
+            "display" : "Schisis association"
+          },
+          {
+            "code" : "63999",
+            "display" : "IgG4-related mediastinitis"
+          },
+          {
+            "code" : "64280",
+            "display" : "Childhood absence epilepsy"
+          },
+          {
+            "code" : "64542",
+            "display" : "Acrofacial dysostosis, Kennedy-Teebi type"
+          },
+          {
+            "code" : "64545",
+            "display" : "Benign idiopathic neonatal seizures"
+          },
+          {
+            "code" : "64686",
+            "display" : "Tolosa-Hunt syndrome"
+          },
+          {
+            "code" : "64692",
+            "display" : "Bartonella bacilliformis infection"
+          },
+          {
+            "code" : "64694",
+            "display" : "Trench fever"
+          },
+          {
+            "code" : "64720",
+            "display" : "Leiomyosarcoma"
+          },
+          {
+            "code" : "64722",
+            "display" : "Granulomatous mastitis"
+          },
+          {
+            "code" : "64734",
+            "display" : "Iridocorneal endothelial syndrome"
+          },
+          {
+            "code" : "64739",
+            "display" : "Ovarian hyperstimulation syndrome"
+          },
+          {
+            "code" : "64741",
+            "display" : "Pulmonary blastoma"
+          },
+          {
+            "code" : "64742",
+            "display" : "Pleuropulmonary blastoma"
+          },
+          {
+            "code" : "64743",
+            "display" : "Hepatoportal sclerosis"
+          },
+          {
+            "code" : "64744",
+            "display" : "IgG4-related thyroid disease"
+          },
+          {
+            "code" : "64745",
+            "display" : "Pruritic urticarial papules and plaques of pregnancy"
+          },
+          {
+            "code" : "64748",
+            "display" : "Dejerine-Sottas syndrome"
+          },
+          {
+            "code" : "64751",
+            "display" : "Hereditary motor and sensory neuropathy type 5"
+          },
+          {
+            "code" : "64752",
+            "display" : "Hereditary sensory and autonomic neuropathy type 5"
+          },
+          {
+            "code" : "64753",
+            "display" : "Spinocerebellar ataxia with axonal neuropathy type 2"
+          },
+          {
+            "code" : "64754",
+            "display" : "Nevus comedonicus syndrome"
+          },
+          {
+            "code" : "64755",
+            "display" : "Becker nevus syndrome"
+          },
+          {
+            "code" : "65282",
+            "display" : "Carvajal syndrome"
+          },
+          {
+            "code" : "65283",
+            "display" : "Timothy syndrome"
+          },
+          {
+            "code" : "65284",
+            "display" : "Biotin-thiamine-responsive basal ganglia disease"
+          },
+          {
+            "code" : "65285",
+            "display" : "Lhermitte-Duclos disease"
+          },
+          {
+            "code" : "65286",
+            "display" : "3q29 microdeletion syndrome"
+          },
+          {
+            "code" : "65287",
+            "display" : "Beta-ureidopropionase deficiency"
+          },
+          {
+            "code" : "65288",
+            "display" : "Permanent neonatal diabetes mellitus-pancreatic and cerebellar agenesis syndrome"
+          },
+          {
+            "code" : "65681",
+            "display" : "Vaginal atresia"
+          },
+          {
+            "code" : "65682",
+            "display" : "Benign recurrent intrahepatic cholestasis"
+          },
+          {
+            "code" : "65683",
+            "display" : "Isolated focal cortical dysplasia"
+          },
+          {
+            "code" : "65684",
+            "display" : "Monomelic amyotrophy"
+          },
+          {
+            "code" : "65720",
+            "display" : "Arthrogryposis-severe scoliosis syndrome"
+          },
+          {
+            "code" : "65743",
+            "display" : "Autosomal dominant multiple pterygium syndrome"
+          },
+          {
+            "code" : "65748",
+            "display" : "Multiple self-healing squamous epithelioma"
+          },
+          {
+            "code" : "65759",
+            "display" : "Carpenter syndrome"
+          },
+          {
+            "code" : "66518",
+            "display" : "Short fifth metacarpals-insulin resistance syndrome"
+          },
+          {
+            "code" : "66529",
+            "display" : "Tako-Tsubo cardiomyopathy"
+          },
+          {
+            "code" : "66624",
+            "display" : "PANDAS"
+          },
+          {
+            "code" : "66625",
+            "display" : "Cerebrooculonasal syndrome"
+          },
+          {
+            "code" : "66627",
+            "display" : "Tenosynovial giant cell tumor"
+          },
+          {
+            "code" : "66628",
+            "display" : "Obesity due to congenital leptin deficiency"
+          },
+          {
+            "code" : "66629",
+            "display" : "Goldberg-Shprintzen megacolon syndrome"
+          },
+          {
+            "code" : "66630",
+            "display" : "Congenital pseudoarthrosis of the clavicle"
+          },
+          {
+            "code" : "66631",
+            "display" : "CEDNIK syndrome"
+          },
+          {
+            "code" : "66633",
+            "display" : "Sensorineural hearing loss-early graying-essential tremor syndrome"
+          },
+          {
+            "code" : "66634",
+            "display" : "Dilated cardiomyopathy with ataxia"
+          },
+          {
+            "code" : "66637",
+            "display" : "Diaphanospondylodysostosis"
+          },
+          {
+            "code" : "66661",
+            "display" : "Mast cell sarcoma"
+          },
+          {
+            "code" : "66662",
+            "display" : "Extracutaneous mastocytoma"
+          },
+          {
+            "code" : "67036",
+            "display" : "Autosomal dominant optic atrophy and cataract"
+          },
+          {
+            "code" : "67038",
+            "display" : "B-cell chronic lymphocytic leukemia"
+          },
+          {
+            "code" : "67039",
+            "display" : "Segmental odontomaxillary dysplasia"
+          },
+          {
+            "code" : "67041",
+            "display" : "Hyaluronidase deficiency"
+          },
+          {
+            "code" : "67042",
+            "display" : "Late-onset retinal degeneration"
+          },
+          {
+            "code" : "67043",
+            "display" : "Amoebic keratitis"
+          },
+          {
+            "code" : "67044",
+            "display" : "Thrombocytopenia with congenital dyserythropoietic anemia"
+          },
+          {
+            "code" : "67045",
+            "display" : "X-linked intellectual disability with isolated growth hormone deficiency"
+          },
+          {
+            "code" : "67046",
+            "display" : "3-methylglutaconic aciduria type 1"
+          },
+          {
+            "code" : "67047",
+            "display" : "3-methylglutaconic aciduria type 3"
+          },
+          {
+            "code" : "67048",
+            "display" : "3-methylglutaconic aciduria type 4"
+          },
+          {
+            "code" : "69061",
+            "display" : "Idiopathic steroid-sensitive nephrotic syndrome"
+          },
+          {
+            "code" : "69063",
+            "display" : "Congenital membranous nephropathy due to fetomaternal anti-neutral endopeptidase alloimmunization"
+          },
+          {
+            "code" : "69076",
+            "display" : "Familial renal glucosuria"
+          },
+          {
+            "code" : "69077",
+            "display" : "Rhabdoid tumor"
+          },
+          {
+            "code" : "69078",
+            "display" : "Liposarcoma"
+          },
+          {
+            "code" : "69082",
+            "display" : "Odonto-tricho-ungual-digito-palmar syndrome"
+          },
+          {
+            "code" : "69083",
+            "display" : "Ectodermal dysplasia with natal teeth, Turnpenny type"
+          },
+          {
+            "code" : "69084",
+            "display" : "Pure hair and nail ectodermal dysplasia"
+          },
+          {
+            "code" : "69085",
+            "display" : "Limb-mammary syndrome"
+          },
+          {
+            "code" : "69087",
+            "display" : "Naegeli-Franceschetti-Jadassohn syndrome"
+          },
+          {
+            "code" : "69088",
+            "display" : "Anhidrotic ectodermal dysplasia-immunodeficiency-osteopetrosis-lymphedema syndrome"
+          },
+          {
+            "code" : "69125",
+            "display" : "Anonychia with flexural pigmentation"
+          },
+          {
+            "code" : "69126",
+            "display" : "PAPA syndrome"
+          },
+          {
+            "code" : "69663",
+            "display" : "Low phospholipid-associated cholelithiasis"
+          },
+          {
+            "code" : "69665",
+            "display" : "Intrahepatic cholestasis of pregnancy"
+          },
+          {
+            "code" : "69723",
+            "display" : "Tyrosinemia type 3"
+          },
+          {
+            "code" : "69735",
+            "display" : "Hypotrichosis-lymphedema-telangiectasia-renal defect syndrome"
+          },
+          {
+            "code" : "69736",
+            "display" : "Bilateral acute depigmentation of the iris"
+          },
+          {
+            "code" : "69737",
+            "display" : "Bosley-Salih-Alorainy syndrome"
+          },
+          {
+            "code" : "69739",
+            "display" : "Athabaskan brainstem dysgenesis syndrome"
+          },
+          {
+            "code" : "69744",
+            "display" : "Circumscribed palmoplantar hypokeratosis"
+          },
+          {
+            "code" : "69745",
+            "display" : "Warty dyskeratoma"
+          },
+          {
+            "code" : "70472",
+            "display" : "Congenital lactic acidosis, Saguenay-Lac-Saint-Jean type"
+          },
+          {
+            "code" : "70475",
+            "display" : "Radiation proctitis"
+          },
+          {
+            "code" : "70476",
+            "display" : "Vernal keratoconjunctivitis"
+          },
+          {
+            "code" : "70567",
+            "display" : "Cholangiocarcinoma"
+          },
+          {
+            "code" : "70568",
+            "display" : "Post-transplant lymphoproliferative disease"
+          },
+          {
+            "code" : "70573",
+            "display" : "Small cell lung cancer"
+          },
+          {
+            "code" : "70578",
+            "display" : "Adult acute respiratory distress syndrome"
+          },
+          {
+            "code" : "70587",
+            "display" : "Infant acute respiratory distress syndrome"
+          },
+          {
+            "code" : "70588",
+            "display" : "Meconium aspiration syndrome"
+          },
+          {
+            "code" : "70589",
+            "display" : "Bronchopulmonary dysplasia"
+          },
+          {
+            "code" : "70590",
+            "display" : "Infantile apnea"
+          },
+          {
+            "code" : "70591",
+            "display" : "Chronic thromboembolic pulmonary hypertension"
+          },
+          {
+            "code" : "70592",
+            "display" : "Immunodeficiency due to interleukin-1 receptor-associated kinase-4 deficiency"
+          },
+          {
+            "code" : "70593",
+            "display" : "Immunodeficiency due to selective anti-polysaccharide antibody deficiency"
+          },
+          {
+            "code" : "70594",
+            "display" : "Dopa-responsive dystonia due to sepiapterin reductase deficiency"
+          },
+          {
+            "code" : "70595",
+            "display" : "Sensory ataxic neuropathy-dysarthria-ophthalmoparesis syndrome"
+          },
+          {
+            "code" : "70596",
+            "display" : "Congenital Epstein-Barr virus infection"
+          },
+          {
+            "code" : "71211",
+            "display" : "Neuromyelitis optica spectrum disorder"
+          },
+          {
+            "code" : "71212",
+            "display" : "Hyperinsulinism due to short chain 3-hydroxylacyl-CoA dehydrogenase deficiency"
+          },
+          {
+            "code" : "71213",
+            "display" : "Retinal capillary malformation"
+          },
+          {
+            "code" : "71267",
+            "display" : "Dentinogenesis imperfecta-short stature-hearing loss-intellectual disability syndrome"
+          },
+          {
+            "code" : "71271",
+            "display" : "Split hand-split foot-deafness syndrome"
+          },
+          {
+            "code" : "71272",
+            "display" : "Sandifer syndrome"
+          },
+          {
+            "code" : "71273",
+            "display" : "Renal nutcracker syndrome"
+          },
+          {
+            "code" : "71274",
+            "display" : "Disseminated peritoneal leiomyomatosis"
+          },
+          {
+            "code" : "71275",
+            "display" : "Rh deficiency syndrome"
+          },
+          {
+            "code" : "71276",
+            "display" : "Silent sinus syndrome"
+          },
+          {
+            "code" : "71277",
+            "display" : "Classic glucose transporter type 1 deficiency syndrome"
+          },
+          {
+            "code" : "71278",
+            "display" : "Congenital brain dysgenesis due to glutamine synthetase deficiency"
+          },
+          {
+            "code" : "71279",
+            "display" : "CANOMAD syndrome"
+          },
+          {
+            "code" : "71289",
+            "display" : "Radio-ulnar synostosis-amegakaryocytic thrombocytopenia syndrome"
+          },
+          {
+            "code" : "71290",
+            "display" : "Familial platelet disorder with associated myeloid malignancy"
+          },
+          {
+            "code" : "71493",
+            "display" : "Familial thrombocytosis"
+          },
+          {
+            "code" : "71505",
+            "display" : "Cancer-associated retinopathy"
+          },
+          {
+            "code" : "71517",
+            "display" : "Rapid-onset dystonia-parkinsonism"
+          },
+          {
+            "code" : "71518",
+            "display" : "Benign paroxysmal torticollis of infancy"
+          },
+          {
+            "code" : "71519",
+            "display" : "Psychogenic movement disorders"
+          },
+          {
+            "code" : "71526",
+            "display" : "Obesity due to pro-opiomelanocortin deficiency"
+          },
+          {
+            "code" : "71528",
+            "display" : "Obesity due to prohormone convertase I deficiency"
+          },
+          {
+            "code" : "71529",
+            "display" : "Obesity due to melanocortin 4 receptor deficiency"
+          },
+          {
+            "code" : "73223",
+            "display" : "Global developmental delay-osteopenia-ectodermal defect syndrome"
+          },
+          {
+            "code" : "73224",
+            "display" : "Kidney tubulopathy-dilated cardiomyopathy syndrome"
+          },
+          {
+            "code" : "73229",
+            "display" : "HANAC syndrome"
+          },
+          {
+            "code" : "73230",
+            "display" : "Ossification anomalies-psychomotor developmental delay syndrome"
+          },
+          {
+            "code" : "73245",
+            "display" : "Spinal muscular atrophy-Dandy-Walker malformation-cataracts syndrome"
+          },
+          {
+            "code" : "73246",
+            "display" : "Visceral neuropathy-brain anomalies-facial dysmorphism-developmental delay syndrome"
+          },
+          {
+            "code" : "73256",
+            "display" : "Central neurocytoma"
+          },
+          {
+            "code" : "73260",
+            "display" : "Paracoccidioidomycosis"
+          },
+          {
+            "code" : "73263",
+            "display" : "Zygomycosis"
+          },
+          {
+            "code" : "73267",
+            "display" : "Non-24-hour sleep-wake syndrome"
+          },
+          {
+            "code" : "73271",
+            "display" : "Bleeding diathesis due to a collagen receptor defect"
+          },
+          {
+            "code" : "73272",
+            "display" : "Growth delay due to insulin-like growth factor type 1 deficiency"
+          },
+          {
+            "code" : "73273",
+            "display" : "Growth delay due to insulin-like growth factor I resistance"
+          },
+          {
+            "code" : "73423",
+            "display" : "Acute ackee fruit intoxication"
+          },
+          {
+            "code" : "75233",
+            "display" : "Wolman disease"
+          },
+          {
+            "code" : "75234",
+            "display" : "Cholesteryl ester storage disease"
+          },
+          {
+            "code" : "75249",
+            "display" : "Familial isolated restrictive cardiomyopathy"
+          },
+          {
+            "code" : "75325",
+            "display" : "Osteosclerosis-ichthyosis-premature ovarian failure syndrome"
+          },
+          {
+            "code" : "75326",
+            "display" : "Familial isolated retinal arteriolar tortuosity"
+          },
+          {
+            "code" : "75327",
+            "display" : "North Carolina macular dystrophy"
+          },
+          {
+            "code" : "75373",
+            "display" : "Progressive bifocal chorioretinal atrophy"
+          },
+          {
+            "code" : "75374",
+            "display" : "Bradyopsia"
+          },
+          {
+            "code" : "75376",
+            "display" : "Familial drusen"
+          },
+          {
+            "code" : "75377",
+            "display" : "Central areolar choroidal dystrophy"
+          },
+          {
+            "code" : "75378",
+            "display" : "Oligocone trichromacy"
+          },
+          {
+            "code" : "75381",
+            "display" : "Cystoid macular dystrophy"
+          },
+          {
+            "code" : "75382",
+            "display" : "Oguchi disease"
+          },
+          {
+            "code" : "75389",
+            "display" : "Brain malformation-congenital heart disease-postaxial polydactyly syndrome"
+          },
+          {
+            "code" : "75391",
+            "display" : "Primary immunodeficiency with natural-killer cell deficiency and adrenal insufficiency"
+          },
+          {
+            "code" : "75392",
+            "display" : "Periodontal Ehlers-Danlos syndrome"
+          },
+          {
+            "code" : "75496",
+            "display" : "B4GALT7-related spondylodysplastic Ehlers-Danlos syndrome"
+          },
+          {
+            "code" : "75497",
+            "display" : "X-linked Ehlers-Danlos syndrome"
+          },
+          {
+            "code" : "75508",
+            "display" : "Angioosteohypotrophic syndrome"
+          },
+          {
+            "code" : "75563",
+            "display" : "X-linked sideroblastic anemia"
+          },
+          {
+            "code" : "75564",
+            "display" : "Acquired idiopathic sideroblastic anemia"
+          },
+          {
+            "code" : "75565",
+            "display" : "Tropical endomyocardial fibrosis"
+          },
+          {
+            "code" : "75566",
+            "display" : "Loeffler endocarditis"
+          },
+          {
+            "code" : "75567",
+            "display" : "Primary progressive freezing gait"
+          },
+          {
+            "code" : "75840",
+            "display" : "Ullrich congenital muscular dystrophy"
+          },
+          {
+            "code" : "75857",
+            "display" : "6q terminal deletion syndrome"
+          },
+          {
+            "code" : "75858",
+            "display" : "MORM syndrome"
+          },
+          {
+            "code" : "77258",
+            "display" : "Trichorhinophalangeal syndrome type 1"
+          },
+          {
+            "code" : "77259",
+            "display" : "Gaucher disease type 1"
+          },
+          {
+            "code" : "77260",
+            "display" : "Gaucher disease type 2"
+          },
+          {
+            "code" : "77261",
+            "display" : "Gaucher disease type 3"
+          },
+          {
+            "code" : "77292",
+            "display" : "Infantile neurovisceral acid sphingomyelinase deficiency"
+          },
+          {
+            "code" : "77293",
+            "display" : "Chronic visceral acid sphingomyelinase deficiency"
+          },
+          {
+            "code" : "77295",
+            "display" : "Odontoleukodystrophy"
+          },
+          {
+            "code" : "77296",
+            "display" : "Morgagni-Stewart-Morel syndrome"
+          },
+          {
+            "code" : "77297",
+            "display" : "Majeed syndrome"
+          },
+          {
+            "code" : "77298",
+            "display" : "Anophthalmia/microphthalmia-esophageal atresia syndrome"
+          },
+          {
+            "code" : "77299",
+            "display" : "Microphthalmia-brain atrophy syndrome"
+          },
+          {
+            "code" : "77300",
+            "display" : "Auricular abnormalities-cleft lip with or without cleft palate-ocular abnormalities syndrome"
+          },
+          {
+            "code" : "77301",
+            "display" : "Monosomy 9q22.3"
+          },
+          {
+            "code" : "79076",
+            "display" : "Juvenile polyposis of infancy"
+          },
+          {
+            "code" : "79078",
+            "display" : "IgG4-related dacryoadenitis and sialadenitis"
+          },
+          {
+            "code" : "79083",
+            "display" : "PPARG-related familial partial lipodystrophy"
+          },
+          {
+            "code" : "79084",
+            "display" : "Familial partial lipodystrophy, Köbberling type"
+          },
+          {
+            "code" : "79085",
+            "display" : "AKT2-related familial partial lipodystrophy"
+          },
+          {
+            "code" : "79086",
+            "display" : "Acquired generalized lipodystrophy"
+          },
+          {
+            "code" : "79087",
+            "display" : "Acquired partial lipodystrophy"
+          },
+          {
+            "code" : "79091",
+            "display" : "Hereditary inclusion body myopathy-joint contractures-ophthalmoplegia syndrome"
+          },
+          {
+            "code" : "79093",
+            "display" : "Foix-Alajouanine syndrome"
+          },
+          {
+            "code" : "79094",
+            "display" : "Grange syndrome"
+          },
+          {
+            "code" : "79095",
+            "display" : "Congenital bile acid synthesis defect type 4"
+          },
+          {
+            "code" : "79096",
+            "display" : "Pyridoxal phosphate-responsive seizures"
+          },
+          {
+            "code" : "79097",
+            "display" : "Folinic acid-responsive seizures"
+          },
+          {
+            "code" : "79098",
+            "display" : "Sympathetic ophthalmia"
+          },
+          {
+            "code" : "79099",
+            "display" : "Interstitial granulomatous dermatitis with arthritis"
+          },
+          {
+            "code" : "79100",
+            "display" : "Atrophoderma vermiculata"
+          },
+          {
+            "code" : "79101",
+            "display" : "Hyperprolinemia type 2"
+          },
+          {
+            "code" : "79102",
+            "display" : "Thyrotoxic periodic paralysis"
+          },
+          {
+            "code" : "79105",
+            "display" : "Myxofibrosarcoma"
+          },
+          {
+            "code" : "79106",
+            "display" : "Eiken syndrome"
+          },
+          {
+            "code" : "79107",
+            "display" : "Developmental malformations-deafness-dystonia syndrome"
+          },
+          {
+            "code" : "79113",
+            "display" : "Mandibulofacial dysostosis-microcephaly syndrome"
+          },
+          {
+            "code" : "79118",
+            "display" : "Neonatal diabetes-congenital hypothyroidism-congenital glaucoma-hepatic fibrosis-polycystic kidneys syndrome"
+          },
+          {
+            "code" : "79124",
+            "display" : "Hepatic veno-occlusive disease-immunodeficiency syndrome"
+          },
+          {
+            "code" : "79126",
+            "display" : "Acute interstitial pneumonia"
+          },
+          {
+            "code" : "79127",
+            "display" : "Respiratory bronchiolitis-interstitial lung disease syndrome"
+          },
+          {
+            "code" : "79128",
+            "display" : "Lymphoid interstitial pneumonia"
+          },
+          {
+            "code" : "79129",
+            "display" : "Trichodysplasia-amelogenesis imperfecta syndrome"
+          },
+          {
+            "code" : "79133",
+            "display" : "Focal facial dermal dysplasia type I"
+          },
+          {
+            "code" : "79134",
+            "display" : "DEND syndrome"
+          },
+          {
+            "code" : "79135",
+            "display" : "Episodic ataxia type 3"
+          },
+          {
+            "code" : "79136",
+            "display" : "Episodic ataxia type 4"
+          },
+          {
+            "code" : "79137",
+            "display" : "Generalized epilepsy-paroxysmal dyskinesia syndrome"
+          },
+          {
+            "code" : "79138",
+            "display" : "Bickerstaff brainstem encephalitis"
+          },
+          {
+            "code" : "79139",
+            "display" : "Japanese encephalitis"
+          },
+          {
+            "code" : "79140",
+            "display" : "Cutaneous neuroendocrine carcinoma"
+          },
+          {
+            "code" : "79141",
+            "display" : "Hereditary painful callosities"
+          },
+          {
+            "code" : "79143",
+            "display" : "Isolated congenital anonychia"
+          },
+          {
+            "code" : "79144",
+            "display" : "Isolated congenital onychodysplasia"
+          },
+          {
+            "code" : "79145",
+            "display" : "Dowling-Degos disease"
+          },
+          {
+            "code" : "79146",
+            "display" : "Familial progressive hyperpigmentation"
+          },
+          {
+            "code" : "79147",
+            "display" : "Familial reactive perforating collagenosis"
+          },
+          {
+            "code" : "79148",
+            "display" : "Elastosis perforans serpiginosa"
+          },
+          {
+            "code" : "79149",
+            "display" : "Dermochondrocorneal dystrophy"
+          },
+          {
+            "code" : "79150",
+            "display" : "Linear and whorled nevoid hypermelanosis"
+          },
+          {
+            "code" : "79151",
+            "display" : "Acrokeratosis verruciformis of Hopf"
+          },
+          {
+            "code" : "79152",
+            "display" : "Disseminated superficial actinic porokeratosis"
+          },
+          {
+            "code" : "79153",
+            "display" : "Idiopathic trachyonychia"
+          },
+          {
+            "code" : "79154",
+            "display" : "2-aminoadipic 2-oxoadipic aciduria"
+          },
+          {
+            "code" : "79155",
+            "display" : "Hydroxykynureninuria"
+          },
+          {
+            "code" : "79156",
+            "display" : "Seizures-intellectual disability due to hydroxylysinuria syndrome"
+          },
+          {
+            "code" : "79157",
+            "display" : "2-methylbutyryl-CoA dehydrogenase deficiency"
+          },
+          {
+            "code" : "79159",
+            "display" : "Isobutyryl-CoA dehydrogenase deficiency"
+          },
+          {
+            "code" : "79230",
+            "display" : "HJV or HAMP-related hemochromatosis"
+          },
+          {
+            "code" : "79233",
+            "display" : "Hypoxanthine guanine phosphoribosyltransferase partial deficiency"
+          },
+          {
+            "code" : "79234",
+            "display" : "Crigler-Najjar syndrome type 1"
+          },
+          {
+            "code" : "79235",
+            "display" : "Crigler-Najjar syndrome type 2"
+          },
+          {
+            "code" : "79237",
+            "display" : "Galactokinase deficiency"
+          },
+          {
+            "code" : "79238",
+            "display" : "Galactose epimerase deficiency"
+          },
+          {
+            "code" : "79239",
+            "display" : "Classic galactosemia"
+          },
+          {
+            "code" : "79240",
+            "display" : "Glycogen storage disease due to liver and muscle phosphorylase kinase deficiency"
+          },
+          {
+            "code" : "79241",
+            "display" : "Biotinidase deficiency"
+          },
+          {
+            "code" : "79242",
+            "display" : "Holocarboxylase synthetase deficiency"
+          },
+          {
+            "code" : "79243",
+            "display" : "Pyruvate dehydrogenase E1-alpha deficiency"
+          },
+          {
+            "code" : "79244",
+            "display" : "Pyruvate dehydrogenase E2 deficiency"
+          },
+          {
+            "code" : "79246",
+            "display" : "Pyruvate dehydrogenase phosphatase deficiency"
+          },
+          {
+            "code" : "79253",
+            "display" : "Mild phenylketonuria"
+          },
+          {
+            "code" : "79254",
+            "display" : "Classic phenylketonuria"
+          },
+          {
+            "code" : "79255",
+            "display" : "GM1 gangliosidosis type 1"
+          },
+          {
+            "code" : "79256",
+            "display" : "GM1 gangliosidosis type 2"
+          },
+          {
+            "code" : "79257",
+            "display" : "GM1 gangliosidosis type 3"
+          },
+          {
+            "code" : "79258",
+            "display" : "Glycogen storage disease due to glucose-6-phosphatase deficiency type Ia"
+          },
+          {
+            "code" : "79259",
+            "display" : "Glycogen storage disease due to glucose-6-phosphatase deficiency type Ib"
+          },
+          {
+            "code" : "79269",
+            "display" : "Sanfilippo syndrome type A"
+          },
+          {
+            "code" : "79270",
+            "display" : "Sanfilippo syndrome type B"
+          },
+          {
+            "code" : "79271",
+            "display" : "Sanfilippo syndrome type C"
+          },
+          {
+            "code" : "79272",
+            "display" : "Sanfilippo syndrome type D"
+          },
+          {
+            "code" : "79273",
+            "display" : "Hereditary coproporphyria"
+          },
+          {
+            "code" : "79276",
+            "display" : "Acute intermittent porphyria"
+          },
+          {
+            "code" : "79277",
+            "display" : "Congenital erythropoietic porphyria"
+          },
+          {
+            "code" : "79278",
+            "display" : "Autosomal erythropoietic protoporphyria"
+          },
+          {
+            "code" : "79279",
+            "display" : "Alpha-N-acetylgalactosaminidase deficiency type 1"
+          },
+          {
+            "code" : "79280",
+            "display" : "Alpha-N-acetylgalactosaminidase deficiency type 2"
+          },
+          {
+            "code" : "79281",
+            "display" : "Alpha-N-acetylgalactosaminidase deficiency type 3"
+          },
+          {
+            "code" : "79282",
+            "display" : "Methylmalonic acidemia with homocystinuria, type cblC"
+          },
+          {
+            "code" : "79283",
+            "display" : "Methylmalonic acidemia with homocystinuria, type cblD"
+          },
+          {
+            "code" : "79284",
+            "display" : "Methylmalonic acidemia with homocystinuria type cblF"
+          },
+          {
+            "code" : "79292",
+            "display" : "Fish-eye disease"
+          },
+          {
+            "code" : "79293",
+            "display" : "Familial LCAT deficiency"
+          },
+          {
+            "code" : "79299",
+            "display" : "Congenital glucokinase-related hyperinsulinism"
+          },
+          {
+            "code" : "79301",
+            "display" : "Congenital bile acid synthesis defect type 1"
+          },
+          {
+            "code" : "79302",
+            "display" : "Congenital bile acid synthesis defect type 3"
+          },
+          {
+            "code" : "79303",
+            "display" : "Congenital bile acid synthesis defect type 2"
+          },
+          {
+            "code" : "79304",
+            "display" : "Progressive familial intrahepatic cholestasis type 2"
+          },
+          {
+            "code" : "79305",
+            "display" : "Progressive familial intrahepatic cholestasis type 3"
+          },
+          {
+            "code" : "79306",
+            "display" : "Progressive familial intrahepatic cholestasis type 1"
+          },
+          {
+            "code" : "79310",
+            "display" : "Vitamin B12-responsive methylmalonic acidemia type cblA"
+          },
+          {
+            "code" : "79311",
+            "display" : "Vitamin B12-responsive methylmalonic acidemia type cblB"
+          },
+          {
+            "code" : "79312",
+            "display" : "Vitamin B12-unresponsive methylmalonic acidemia type mut-"
+          },
+          {
+            "code" : "79314",
+            "display" : "L-2-hydroxyglutaric aciduria"
+          },
+          {
+            "code" : "79315",
+            "display" : "D-2-hydroxyglutaric aciduria"
+          },
+          {
+            "code" : "79318",
+            "display" : "PMM2-CDG"
+          },
+          {
+            "code" : "79319",
+            "display" : "MPI-CDG"
+          },
+          {
+            "code" : "79320",
+            "display" : "ALG6-CDG"
+          },
+          {
+            "code" : "79321",
+            "display" : "ALG3-CDG"
+          },
+          {
+            "code" : "79322",
+            "display" : "DPM1-CDG"
+          },
+          {
+            "code" : "79323",
+            "display" : "MPDU1-CDG"
+          },
+          {
+            "code" : "79324",
+            "display" : "ALG12-CDG"
+          },
+          {
+            "code" : "79325",
+            "display" : "ALG8-CDG"
+          },
+          {
+            "code" : "79326",
+            "display" : "ALG2-CDG"
+          },
+          {
+            "code" : "79327",
+            "display" : "ALG1-CDG"
+          },
+          {
+            "code" : "79328",
+            "display" : "ALG9-CDG"
+          },
+          {
+            "code" : "79329",
+            "display" : "MGAT2-CDG"
+          },
+          {
+            "code" : "79330",
+            "display" : "MOGS-CDG"
+          },
+          {
+            "code" : "79332",
+            "display" : "B4GALT1-CDG"
+          },
+          {
+            "code" : "79333",
+            "display" : "COG7-CDG"
+          },
+          {
+            "code" : "79345",
+            "display" : "Brachytelephalangic chondrodysplasia punctata"
+          },
+          {
+            "code" : "79346",
+            "display" : "Chondrodysplasia punctata, tibial-metacarpal type"
+          },
+          {
+            "code" : "79347",
+            "display" : "Chondrodysplasia punctata, Toriello type"
+          },
+          {
+            "code" : "79350",
+            "display" : "3-phosphoserine phosphatase deficiency, infantile/juvenile form"
+          },
+          {
+            "code" : "79351",
+            "display" : "3-phosphoglycerate dehydrogenase deficiency, infantile/juvenile form"
+          },
+          {
+            "code" : "79394",
+            "display" : "Congenital ichthyosiform erythroderma"
+          },
+          {
+            "code" : "79395",
+            "display" : "Keratoderma hereditarium mutilans with ichthyosis"
+          },
+          {
+            "code" : "79396",
+            "display" : "Autosomal dominant generalized epidermolysis bullosa simplex, severe form"
+          },
+          {
+            "code" : "79397",
+            "display" : "Epidermolysis bullosa simplex with mottled pigmentation"
+          },
+          {
+            "code" : "79399",
+            "display" : "Autosomal dominant generalized epidermolysis bullosa simplex, intermediate form"
+          },
+          {
+            "code" : "79400",
+            "display" : "Localized epidermolysis bullosa simplex"
+          },
+          {
+            "code" : "79401",
+            "display" : "PLEC-related intermediate epidermolysis bullosa simplex without extracutaneous involvement"
+          },
+          {
+            "code" : "79402",
+            "display" : "Intermediate generalized junctional epidermolysis bullosa"
+          },
+          {
+            "code" : "79403",
+            "display" : "Junctional epidermolysis bullosa with pyloric atresia"
+          },
+          {
+            "code" : "79404",
+            "display" : "Severe generalized junctional epidermolysis bullosa"
+          },
+          {
+            "code" : "79405",
+            "display" : "Junctional epidermolysis bullosa inversa"
+          },
+          {
+            "code" : "79406",
+            "display" : "Late-onset junctional epidermolysis bullosa"
+          },
+          {
+            "code" : "79408",
+            "display" : "Autosomal recessive generalized dystrophic epidermolysis bullosa, severe form"
+          },
+          {
+            "code" : "79409",
+            "display" : "Recessive dystrophic epidermolysis bullosa inversa"
+          },
+          {
+            "code" : "79410",
+            "display" : "Localized dystrophic epidermolysis bullosa, pretibial form"
+          },
+          {
+            "code" : "79411",
+            "display" : "Self-improving dystrophic epidermolysis bullosa"
+          },
+          {
+            "code" : "79414",
+            "display" : "Woolly hair nevus"
+          },
+          {
+            "code" : "79430",
+            "display" : "Hermansky-Pudlak syndrome"
+          },
+          {
+            "code" : "79431",
+            "display" : "Oculocutaneous albinism type 1A"
+          },
+          {
+            "code" : "79432",
+            "display" : "Oculocutaneous albinism type 2"
+          },
+          {
+            "code" : "79433",
+            "display" : "Oculocutaneous albinism type 3"
+          },
+          {
+            "code" : "79434",
+            "display" : "Oculocutaneous albinism type 1B"
+          },
+          {
+            "code" : "79435",
+            "display" : "Oculocutaneous albinism type 4"
+          },
+          {
+            "code" : "79443",
+            "display" : "Pseudohypoparathyroidism type 1A"
+          },
+          {
+            "code" : "79444",
+            "display" : "Pseudohypoparathyroidism type 1C"
+          },
+          {
+            "code" : "79445",
+            "display" : "Pseudopseudohypoparathyroidism"
+          },
+          {
+            "code" : "79447",
+            "display" : "X-linked lethal multiple pterygium syndrome"
+          },
+          {
+            "code" : "79452",
+            "display" : "Milroy disease"
+          },
+          {
+            "code" : "79455",
+            "display" : "Cutaneous mastocytoma"
+          },
+          {
+            "code" : "79456",
+            "display" : "Diffuse cutaneous mastocytosis"
+          },
+          {
+            "code" : "79457",
+            "display" : "Maculopapular cutaneous mastocytosis"
+          },
+          {
+            "code" : "79466",
+            "display" : "Inflammatory linear verrucous epidermal nevus"
+          },
+          {
+            "code" : "79467",
+            "display" : "Verrucous nevus"
+          },
+          {
+            "code" : "79468",
+            "display" : "Acanthokeratolytic verrucous nevus"
+          },
+          {
+            "code" : "79473",
+            "display" : "Variegate porphyria"
+          },
+          {
+            "code" : "79474",
+            "display" : "Atypical Werner syndrome"
+          },
+          {
+            "code" : "79476",
+            "display" : "Griscelli syndrome type 1"
+          },
+          {
+            "code" : "79477",
+            "display" : "Griscelli syndrome type 2"
+          },
+          {
+            "code" : "79478",
+            "display" : "Griscelli syndrome type 3"
+          },
+          {
+            "code" : "79479",
+            "display" : "Pemphigus vegetans"
+          },
+          {
+            "code" : "79480",
+            "display" : "Pemphigus erythematosus"
+          },
+          {
+            "code" : "79481",
+            "display" : "Pemphigus foliaceus"
+          },
+          {
+            "code" : "79483",
+            "display" : "Phakomatosis cesioflammea"
+          },
+          {
+            "code" : "79484",
+            "display" : "Phakomatosis cesiomarmorata"
+          },
+          {
+            "code" : "79485",
+            "display" : "Phakomatosis spilorosea"
+          },
+          {
+            "code" : "79489",
+            "display" : "Macrocystic lymphatic malformation"
+          },
+          {
+            "code" : "79490",
+            "display" : "Microcystic lymphatic malformation"
+          },
+          {
+            "code" : "79492",
+            "display" : "Pili gemini"
+          },
+          {
+            "code" : "79493",
+            "display" : "Brooke-Spiegler syndrome"
+          },
+          {
+            "code" : "79495",
+            "display" : "X-linked congenital generalized hypertrichosis"
+          },
+          {
+            "code" : "79499",
+            "display" : "Autosomal dominant deafness-onychodystrophy syndrome"
+          },
+          {
+            "code" : "79500",
+            "display" : "DOORS syndrome"
+          },
+          {
+            "code" : "79501",
+            "display" : "Punctate palmoplantar keratoderma type 1"
+          },
+          {
+            "code" : "79502",
+            "display" : "Punctate palmoplantar keratoderma type 2"
+          },
+          {
+            "code" : "79503",
+            "display" : "Ichthyosis hystrix of Curth-Macklin"
+          },
+          {
+            "code" : "79506",
+            "display" : "Cholesterol-ester transfer protein deficiency"
+          },
+          {
+            "code" : "79507",
+            "display" : "Hypotonia-failure to thrive-microcephaly syndrome"
+          },
+          {
+            "code" : "79643",
+            "display" : "Autosomal recessive hyperinsulinism due to SUR1 deficiency"
+          },
+          {
+            "code" : "79644",
+            "display" : "Autosomal recessive hyperinsulinism due to Kir6.2 deficiency"
+          },
+          {
+            "code" : "79651",
+            "display" : "Mild hyperphenylalaninemia"
+          },
+          {
+            "code" : "79665",
+            "display" : "Gardner syndrome"
+          },
+          {
+            "code" : "83311",
+            "display" : "Rocky Mountain spotted fever"
+          },
+          {
+            "code" : "83312",
+            "display" : "Rickettsialpox"
+          },
+          {
+            "code" : "83313",
+            "display" : "Boutonneuse fever"
+          },
+          {
+            "code" : "83314",
+            "display" : "Epidemic typhus"
+          },
+          {
+            "code" : "83315",
+            "display" : "Murine typhus"
+          },
+          {
+            "code" : "83316",
+            "display" : "Pseudotyphus of California"
+          },
+          {
+            "code" : "83317",
+            "display" : "Scrub typhus"
+          },
+          {
+            "code" : "83330",
+            "display" : "Proximal spinal muscular atrophy type 1"
+          },
+          {
+            "code" : "83418",
+            "display" : "Proximal spinal muscular atrophy type 2"
+          },
+          {
+            "code" : "83419",
+            "display" : "Proximal spinal muscular atrophy type 3"
+          },
+          {
+            "code" : "83420",
+            "display" : "Proximal spinal muscular atrophy type 4"
+          },
+          {
+            "code" : "83450",
+            "display" : "Regional odontodysplasia"
+          },
+          {
+            "code" : "83451",
+            "display" : "Florid cemento-osseous dysplasia"
+          },
+          {
+            "code" : "83452",
+            "display" : "Complex regional pain syndrome"
+          },
+          {
+            "code" : "83453",
+            "display" : "Vulvovaginal gingival syndrome"
+          },
+          {
+            "code" : "83454",
+            "display" : "Glomuvenous malformation"
+          },
+          {
+            "code" : "83461",
+            "display" : "Congenital primary aphakia"
+          },
+          {
+            "code" : "83463",
+            "display" : "Microtia"
+          },
+          {
+            "code" : "83465",
+            "display" : "Narcolepsy type 2"
+          },
+          {
+            "code" : "83467",
+            "display" : "Morvan syndrome"
+          },
+          {
+            "code" : "83468",
+            "display" : "Solitary bone cyst"
+          },
+          {
+            "code" : "83469",
+            "display" : "Desmoplastic small round cell tumor"
+          },
+          {
+            "code" : "83471",
+            "display" : "T-cell immunodeficiency with thymic aplasia"
+          },
+          {
+            "code" : "83472",
+            "display" : "CAMOS syndrome"
+          },
+          {
+            "code" : "83473",
+            "display" : "Megalencephaly-polymicrogyria-postaxial polydactyly-hydrocephalus syndrome"
+          },
+          {
+            "code" : "83476",
+            "display" : "West-Nile encephalitis"
+          },
+          {
+            "code" : "83482",
+            "display" : "Mycoplasma encephalitis"
+          },
+          {
+            "code" : "83483",
+            "display" : "La Crosse encephalitis"
+          },
+          {
+            "code" : "83484",
+            "display" : "St. Louis encephalitis"
+          },
+          {
+            "code" : "83593",
+            "display" : "Western equine encephalitis"
+          },
+          {
+            "code" : "83594",
+            "display" : "Eastern equine encephalitis"
+          },
+          {
+            "code" : "83595",
+            "display" : "Colorado tick fever"
+          },
+          {
+            "code" : "83597",
+            "display" : "Acute disseminated encephalomyelitis"
+          },
+          {
+            "code" : "83600",
+            "display" : "Encephalitis lethargica"
+          },
+          {
+            "code" : "83601",
+            "display" : "Steroid-responsive encephalopathy associated with autoimmune thyroiditis"
+          },
+          {
+            "code" : "83616",
+            "display" : "Rubella panencephalitis"
+          },
+          {
+            "code" : "83617",
+            "display" : "Agammaglobulinemia-microcephaly-craniosynostosis-severe dermatitis syndrome"
+          },
+          {
+            "code" : "83619",
+            "display" : "Macrostomia-preauricular tags-external ophthalmoplegia syndrome"
+          },
+          {
+            "code" : "83620",
+            "display" : "Enteric anendocrinosis"
+          },
+          {
+            "code" : "83628",
+            "display" : "LUMBAR syndrome"
+          },
+          {
+            "code" : "83629",
+            "display" : "Leukoencephalopathy-spondyloepimetaphyseal dysplasia syndrome"
+          },
+          {
+            "code" : "83639",
+            "display" : "Hypercoagulability syndrome due to glycosylphosphatidylinositol deficiency"
+          },
+          {
+            "code" : "83642",
+            "display" : "Microcytic anemia with liver iron overload"
+          },
+          {
+            "code" : "84064",
+            "display" : "Syndromic diarrhea"
+          },
+          {
+            "code" : "84065",
+            "display" : "Idiopathic malabsorption due to bile acid synthesis defects"
+          },
+          {
+            "code" : "84081",
+            "display" : "Senior-Boichis syndrome"
+          },
+          {
+            "code" : "84085",
+            "display" : "Hinman syndrome"
+          },
+          {
+            "code" : "84087",
+            "display" : "Collagen type III glomerulopathy"
+          },
+          {
+            "code" : "84090",
+            "display" : "Fibronectin glomerulopathy"
+          },
+          {
+            "code" : "84093",
+            "display" : "Hereditary thermosensitive neuropathy"
+          },
+          {
+            "code" : "84132",
+            "display" : "Desmin-related myopathy with Mallory body-like inclusions"
+          },
+          {
+            "code" : "84142",
+            "display" : "Isaacs syndrome"
+          },
+          {
+            "code" : "85110",
+            "display" : "Familial encephalopathy with neuroserpin inclusion bodies"
+          },
+          {
+            "code" : "85112",
+            "display" : "Palmoplantar keratoderma-XX sex reversal-predisposition to squamous cell carcinoma syndrome"
+          },
+          {
+            "code" : "85128",
+            "display" : "Bothnia retinal dystrophy"
+          },
+          {
+            "code" : "85136",
+            "display" : "Cystic leukoencephalopathy without megalencephaly"
+          },
+          {
+            "code" : "85138",
+            "display" : "Addison disease"
+          },
+          {
+            "code" : "85146",
+            "display" : "Neurogenic scapuloperoneal syndrome, Kaeser type"
+          },
+          {
+            "code" : "85162",
+            "display" : "Facial onset sensory and motor neuronopathy"
+          },
+          {
+            "code" : "85163",
+            "display" : "Hypomyelination-congenital cataract syndrome"
+          },
+          {
+            "code" : "85164",
+            "display" : "Camptodactyly-tall stature-scoliosis-hearing loss syndrome"
+          },
+          {
+            "code" : "85165",
+            "display" : "Severe achondroplasia-developmental delay-acanthosis nigricans syndrome"
+          },
+          {
+            "code" : "85166",
+            "display" : "Platyspondylic dysplasia, Torrance type"
+          },
+          {
+            "code" : "85167",
+            "display" : "Spondylometaphyseal dysplasia-cone-rod dystrophy syndrome"
+          },
+          {
+            "code" : "85168",
+            "display" : "Craniofacial conodysplasia"
+          },
+          {
+            "code" : "85169",
+            "display" : "Familial digital arthropathy-brachydactyly"
+          },
+          {
+            "code" : "85170",
+            "display" : "Mesomelic dysplasia, Savarirayan type"
+          },
+          {
+            "code" : "85172",
+            "display" : "Microcephalic osteodysplastic dysplasia, Saul-Wilson type"
+          },
+          {
+            "code" : "85173",
+            "display" : "IMAGe syndrome"
+          },
+          {
+            "code" : "85174",
+            "display" : "Pseudodiastrophic dysplasia"
+          },
+          {
+            "code" : "85175",
+            "display" : "Astley-Kendall dysplasia"
+          },
+          {
+            "code" : "85179",
+            "display" : "Infantile osteopetrosis with neuroaxonal dysplasia"
+          },
+          {
+            "code" : "85182",
+            "display" : "Diaphyseal medullary stenosis-bone malignancy syndrome"
+          },
+          {
+            "code" : "85184",
+            "display" : "Craniometadiaphyseal dysplasia, wormian bone type"
+          },
+          {
+            "code" : "85186",
+            "display" : "Endosteal sclerosis-cerebellar hypoplasia syndrome"
+          },
+          {
+            "code" : "85188",
+            "display" : "Metaphyseal dysplasia, Braun-Tinschert type"
+          },
+          {
+            "code" : "85191",
+            "display" : "Singleton-Merten dysplasia"
+          },
+          {
+            "code" : "85192",
+            "display" : "Calvarial doughnut lesions-bone fragility syndrome"
+          },
+          {
+            "code" : "85193",
+            "display" : "Idiopathic juvenile osteoporosis"
+          },
+          {
+            "code" : "85194",
+            "display" : "Spondylo-ocular syndrome"
+          },
+          {
+            "code" : "85195",
+            "display" : "Familial expansile osteolysis"
+          },
+          {
+            "code" : "85197",
+            "display" : "Genochondromatosis type 1"
+          },
+          {
+            "code" : "85198",
+            "display" : "Dysspondyloenchondromatosis"
+          },
+          {
+            "code" : "85199",
+            "display" : "Craniosynostosis-anal anomalies-porokeratosis syndrome"
+          },
+          {
+            "code" : "85201",
+            "display" : "Genitopatellar syndrome"
+          },
+          {
+            "code" : "85202",
+            "display" : "Keutel syndrome"
+          },
+          {
+            "code" : "85203",
+            "display" : "Acropectoral syndrome"
+          },
+          {
+            "code" : "85212",
+            "display" : "Fetal Gaucher disease"
+          },
+          {
+            "code" : "85273",
+            "display" : "X-linked intellectual disability, Abidi type"
+          },
+          {
+            "code" : "85274",
+            "display" : "Syndromic X-linked intellectual disability 7"
+          },
+          {
+            "code" : "85275",
+            "display" : "Microphthalmia-ankyloblepharon-intellectual disability syndrome"
+          },
+          {
+            "code" : "85276",
+            "display" : "X-linked intellectual disability, Armfield type"
+          },
+          {
+            "code" : "85277",
+            "display" : "X-linked intellectual disability, Cantagrel type"
+          },
+          {
+            "code" : "85278",
+            "display" : "Christianson syndrome"
+          },
+          {
+            "code" : "85279",
+            "display" : "KDM5C-related syndromic X-linked intellectual disability"
+          },
+          {
+            "code" : "85280",
+            "display" : "X-linked intellectual disability-cubitus valgus-dysmorphism syndrome"
+          },
+          {
+            "code" : "85282",
+            "display" : "MEHMO syndrome"
+          },
+          {
+            "code" : "85283",
+            "display" : "X-linked intellectual disability, Miles-Carpenter type"
+          },
+          {
+            "code" : "85284",
+            "display" : "BRESEK syndrome"
+          },
+          {
+            "code" : "85285",
+            "display" : "X-linked intellectual disability, Schimke type"
+          },
+          {
+            "code" : "85286",
+            "display" : "X-linked intellectual disability, Shashi type"
+          },
+          {
+            "code" : "85287",
+            "display" : "X-linked intellectual disability, Siderius type"
+          },
+          {
+            "code" : "85288",
+            "display" : "X-linked intellectual disability, Stocco Dos Santos type"
+          },
+          {
+            "code" : "85290",
+            "display" : "X-linked intellectual disability, Wilson type"
+          },
+          {
+            "code" : "85292",
+            "display" : "X-linked spinocerebellar ataxia type 4"
+          },
+          {
+            "code" : "85293",
+            "display" : "X-linked intellectual disability, Cabezas type"
+          },
+          {
+            "code" : "85294",
+            "display" : "X-linked epilepsy-learning disabilities-behavior disorders syndrome"
+          },
+          {
+            "code" : "85295",
+            "display" : "HSD10 disease, atypical type"
+          },
+          {
+            "code" : "85297",
+            "display" : "X-linked spinocerebellar ataxia type 3"
+          },
+          {
+            "code" : "85317",
+            "display" : "X-linked intellectual disability-hypogammaglobulinemia-progressive neurological deterioration syndrome"
+          },
+          {
+            "code" : "85319",
+            "display" : "X-linked intellectual disability-epilepsy-progressive joint contractures-dysmorphism syndrome"
+          },
+          {
+            "code" : "85320",
+            "display" : "X-linked intellectual disability-macrocephaly-macroorchidism syndrome"
+          },
+          {
+            "code" : "85321",
+            "display" : "Deafness-intellectual disability syndrome, Martin-Probst type"
+          },
+          {
+            "code" : "85322",
+            "display" : "X-linked intellectual disability, Pai type"
+          },
+          {
+            "code" : "85323",
+            "display" : "X-linked intellectual disability, Seemanova type"
+          },
+          {
+            "code" : "85324",
+            "display" : "X-linked intellectual disability, Shrimpton type"
+          },
+          {
+            "code" : "85325",
+            "display" : "X-linked intellectual disability, Stevenson type"
+          },
+          {
+            "code" : "85326",
+            "display" : "X-linked intellectual disability, Stoll type"
+          },
+          {
+            "code" : "85327",
+            "display" : "X-linked intellectual disability-acromegaly-hyperactivity syndrome"
+          },
+          {
+            "code" : "85329",
+            "display" : "X-linked intellectual disability-hypotonia-facial dysmorphism-aggressive behavior syndrome"
+          },
+          {
+            "code" : "85332",
+            "display" : "X-linked intellectual disability-retinitis pigmentosa syndrome"
+          },
+          {
+            "code" : "85334",
+            "display" : "X-linked neurodegenerative syndrome, Bertini type"
+          },
+          {
+            "code" : "85335",
+            "display" : "Fried syndrome"
+          },
+          {
+            "code" : "85336",
+            "display" : "X-linked neurodegenerative syndrome, Hamel type"
+          },
+          {
+            "code" : "85338",
+            "display" : "X-linked intellectual disability-ataxia-apraxia syndrome"
+          },
+          {
+            "code" : "85408",
+            "display" : "Rheumatoid factor-negative polyarticular juvenile idiopathic arthritis"
+          },
+          {
+            "code" : "85410",
+            "display" : "Oligoarticular juvenile idiopathic arthritis"
+          },
+          {
+            "code" : "85414",
+            "display" : "Systemic-onset juvenile idiopathic arthritis"
+          },
+          {
+            "code" : "85435",
+            "display" : "Rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"
+          },
+          {
+            "code" : "85436",
+            "display" : "Psoriasis-related juvenile idiopathic arthritis"
+          },
+          {
+            "code" : "85438",
+            "display" : "Enthesitis-related juvenile idiopathic arthritis"
+          },
+          {
+            "code" : "85442",
+            "display" : "Short stature-pituitary and cerebellar defects-small sella turcica syndrome"
+          },
+          {
+            "code" : "85443",
+            "display" : "AL amyloidosis"
+          },
+          {
+            "code" : "85445",
+            "display" : "AA amyloidosis"
+          },
+          {
+            "code" : "85446",
+            "display" : "Wild type ABeta2M amyloidosis"
+          },
+          {
+            "code" : "85447",
+            "display" : "ATTRV30M amyloidosis"
+          },
+          {
+            "code" : "85448",
+            "display" : "AGel amyloidosis"
+          },
+          {
+            "code" : "85450",
+            "display" : "Hereditary amyloidosis with primary renal involvement"
+          },
+          {
+            "code" : "85451",
+            "display" : "ATTRV122I amyloidosis"
+          },
+          {
+            "code" : "85453",
+            "display" : "X-linked reticulate pigmentary disorder"
+          },
+          {
+            "code" : "85458",
+            "display" : "Cerebral Amyloid Angiopathy"
+          },
+          {
+            "code" : "86309",
+            "display" : "DPAGT1-CDG"
+          },
+          {
+            "code" : "86788",
+            "display" : "X-linked severe congenital neutropenia"
+          },
+          {
+            "code" : "86789",
+            "display" : "Isolated patella aplasia/hypoplasia"
+          },
+          {
+            "code" : "86797",
+            "display" : "Atypical lichen myxedematosus"
+          },
+          {
+            "code" : "86812",
+            "display" : "POMT1-related limb-girdle muscular dystrophy R11"
+          },
+          {
+            "code" : "86813",
+            "display" : "Helicoid peripapillary chorioretinal degeneration"
+          },
+          {
+            "code" : "86814",
+            "display" : "Benign adult familial myoclonic epilepsy"
+          },
+          {
+            "code" : "86815",
+            "display" : "Aplasia of lacrimal and salivary glands"
+          },
+          {
+            "code" : "86816",
+            "display" : "Congenital analbuminemia"
+          },
+          {
+            "code" : "86817",
+            "display" : "Hemolytic anemia due to adenylate kinase deficiency"
+          },
+          {
+            "code" : "86818",
+            "display" : "Alport syndrome-intellectual disability-midface hypoplasia-elliptocytosis syndrome"
+          },
+          {
+            "code" : "86819",
+            "display" : "Atrichia with papular lesions"
+          },
+          {
+            "code" : "86820",
+            "display" : "Familial avascular necrosis of femoral head"
+          },
+          {
+            "code" : "86821",
+            "display" : "Lissencephaly type 3-familial fetal akinesia sequence syndrome"
+          },
+          {
+            "code" : "86822",
+            "display" : "Lissencephaly type 3-metacarpal bone dysplasia syndrome"
+          },
+          {
+            "code" : "86829",
+            "display" : "Chronic neutrophilic leukemia"
+          },
+          {
+            "code" : "86830",
+            "display" : "Chronic myeloproliferative disease, unclassifiable"
+          },
+          {
+            "code" : "86834",
+            "display" : "Juvenile myelomonocytic leukemia"
+          },
+          {
+            "code" : "86839",
+            "display" : "Myelodysplastic neoplasm with increased blasts"
+          },
+          {
+            "code" : "86841",
+            "display" : "Myelodysplastic syndrome associated with isolated del(5q) chromosome abnormality"
+          },
+          {
+            "code" : "86843",
+            "display" : "Acute panmyelosis with myelofibrosis"
+          },
+          {
+            "code" : "86845",
+            "display" : "Acute myeloid leukaemia with myelodysplasia-related features"
+          },
+          {
+            "code" : "86849",
+            "display" : "Acute basophilic leukemia"
+          },
+          {
+            "code" : "86850",
+            "display" : "Myeloid sarcoma"
+          },
+          {
+            "code" : "86852",
+            "display" : "B-cell prolymphocytic leukemia"
+          },
+          {
+            "code" : "86854",
+            "display" : "Splenic marginal zone lymphoma"
+          },
+          {
+            "code" : "86855",
+            "display" : "Plasmacytoma"
+          },
+          {
+            "code" : "86861",
+            "display" : "Non-amyloid monoclonal immunoglobulin deposition disease"
+          },
+          {
+            "code" : "86864",
+            "display" : "Heavy chain disease"
+          },
+          {
+            "code" : "86867",
+            "display" : "Nodal marginal zone B-cell lymphoma"
+          },
+          {
+            "code" : "86869",
+            "display" : "Lymphomatoid granulomatosis"
+          },
+          {
+            "code" : "86870",
+            "display" : "Blastic plasmacytoid dendritic cell neoplasm"
+          },
+          {
+            "code" : "86871",
+            "display" : "T-cell prolymphocytic leukemia"
+          },
+          {
+            "code" : "86872",
+            "display" : "T-cell large granular lymphocyte leukemia"
+          },
+          {
+            "code" : "86873",
+            "display" : "Aggressive NK-cell leukemia"
+          },
+          {
+            "code" : "86875",
+            "display" : "Adult T-cell leukemia/lymphoma"
+          },
+          {
+            "code" : "86879",
+            "display" : "Extranodal nasal NK/T cell lymphoma"
+          },
+          {
+            "code" : "86880",
+            "display" : "Enteropathy-associated T-cell lymphoma"
+          },
+          {
+            "code" : "86882",
+            "display" : "Hepatosplenic T-cell lymphoma"
+          },
+          {
+            "code" : "86884",
+            "display" : "Subcutaneous panniculitis-like T-cell lymphoma"
+          },
+          {
+            "code" : "86885",
+            "display" : "Primary cutaneous peripheral T-cell lymphoma not otherwise specified"
+          },
+          {
+            "code" : "86886",
+            "display" : "Angioimmunoblastic T-cell lymphoma"
+          },
+          {
+            "code" : "86893",
+            "display" : "Nodular lymphocyte predominant Hodgkin lymphoma"
+          },
+          {
+            "code" : "86896",
+            "display" : "Histiocytic sarcoma"
+          },
+          {
+            "code" : "86897",
+            "display" : "Langerhans cell sarcoma"
+          },
+          {
+            "code" : "86900",
+            "display" : "Interdigitating dendritic cell sarcoma"
+          },
+          {
+            "code" : "86902",
+            "display" : "Follicular dendritic cell sarcoma"
+          },
+          {
+            "code" : "86903",
+            "display" : "Dendritic cell sarcoma not otherwise specified"
+          },
+          {
+            "code" : "86904",
+            "display" : "Methotrexate-associated lymphoproliferative disorders"
+          },
+          {
+            "code" : "86906",
+            "display" : "Hypothalamic hamartomas with gelastic seizures"
+          },
+          {
+            "code" : "86908",
+            "display" : "Idiopathic hemiconvulsion-hemiplegia syndrome"
+          },
+          {
+            "code" : "86909",
+            "display" : "Myoclonic epilepsy of infancy"
+          },
+          {
+            "code" : "86911",
+            "display" : "Epilepsy with myoclonic absences"
+          },
+          {
+            "code" : "86913",
+            "display" : "Myoclonic epilepsy in non-progressive encephalopathies"
+          },
+          {
+            "code" : "86914",
+            "display" : "Lymphedema-cerebral arteriovenous anomaly-primary pulmonary hypertension syndrome"
+          },
+          {
+            "code" : "86915",
+            "display" : "Lymphedema-atrial septal defects-facial changes syndrome"
+          },
+          {
+            "code" : "86918",
+            "display" : "Diffuse palmoplantar keratoderma-acrocyanosis syndrome"
+          },
+          {
+            "code" : "86919",
+            "display" : "Keratosis palmaris et plantaris-clinodactyly syndrome"
+          },
+          {
+            "code" : "86920",
+            "display" : "Dermatopathia pigmentosa reticularis"
+          },
+          {
+            "code" : "86923",
+            "display" : "Hereditary palmoplantar keratoderma, Gamborg-Nielsen type"
+          },
+          {
+            "code" : "87503",
+            "display" : "Mal de Meleda"
+          },
+          {
+            "code" : "87876",
+            "display" : "Sialidosis type 2"
+          },
+          {
+            "code" : "87884",
+            "display" : "Non-syndromic genetic deafness"
+          },
+          {
+            "code" : "88616",
+            "display" : "Autosomal recessive non-syndromic intellectual disability"
+          },
+          {
+            "code" : "88618",
+            "display" : "S-adenosylhomocysteine hydrolase deficiency"
+          },
+          {
+            "code" : "88619",
+            "display" : "Familial acute necrotizing encephalopathy"
+          },
+          {
+            "code" : "88620",
+            "display" : "Isolated congenital anosmia"
+          },
+          {
+            "code" : "88621",
+            "display" : "Ichthyosis-prematurity syndrome"
+          },
+          {
+            "code" : "88628",
+            "display" : "Posterior column ataxia-retinitis pigmentosa syndrome"
+          },
+          {
+            "code" : "88629",
+            "display" : "Tritanopia"
+          },
+          {
+            "code" : "88630",
+            "display" : "Terminal osseous dysplasia-pigmentary defects syndrome"
+          },
+          {
+            "code" : "88633",
+            "display" : "Superior limbic keratoconjunctivitis"
+          },
+          {
+            "code" : "88635",
+            "display" : "Vacuolar myopathy with sarcoplasmic reticulum protein aggregates"
+          },
+          {
+            "code" : "88637",
+            "display" : "Hypomyelination-hypogonadotropic hypogonadism-hypodontia syndrome"
+          },
+          {
+            "code" : "88639",
+            "display" : "Neurodegeneration due to 3-hydroxyisobutyryl-CoA hydrolase deficiency"
+          },
+          {
+            "code" : "88642",
+            "display" : "Congenital insensitivity to pain-anosmia-neuropathic arthropathy"
+          },
+          {
+            "code" : "88643",
+            "display" : "Obesity-colitis-hypothyroidism-cardiac hypertrophy-developmental delay syndrome"
+          },
+          {
+            "code" : "88644",
+            "display" : "Autosomal recessive ataxia, Beauce type"
+          },
+          {
+            "code" : "88659",
+            "display" : "Autosomal dominant progressive nephropathy with hypertension"
+          },
+          {
+            "code" : "88660",
+            "display" : "Hypertension due to gain-of-function mutations in the mineralocorticoid receptor"
+          },
+          {
+            "code" : "88661",
+            "display" : "Amelogenesis imperfecta"
+          },
+          {
+            "code" : "88917",
+            "display" : "X-linked Alport syndrome"
+          },
+          {
+            "code" : "88918",
+            "display" : "Autosomal dominant Alport syndrome"
+          },
+          {
+            "code" : "88919",
+            "display" : "Autosomal recessive Alport syndrome"
+          },
+          {
+            "code" : "88924",
+            "display" : "Autosomal dominant polycystic kidney disease type 1 with tuberous sclerosis"
+          },
+          {
+            "code" : "88938",
+            "display" : "Pseudohypoaldosteronism type 2A"
+          },
+          {
+            "code" : "88939",
+            "display" : "Pseudohypoaldosteronism type 2B"
+          },
+          {
+            "code" : "88940",
+            "display" : "Pseudohypoaldosteronism type 2C"
+          },
+          {
+            "code" : "88949",
+            "display" : "MUC1-related autosomal dominant tubulointerstitial kidney disease"
+          },
+          {
+            "code" : "88950",
+            "display" : "UMOD-related autosomal dominant tubulointerstitial kidney disease"
+          },
+          {
+            "code" : "89838",
+            "display" : "Autosomal recessive generalized epidermolysis bullosa simplex"
+          },
+          {
+            "code" : "89842",
+            "display" : "Autosomal recessive generalized dystrophic epidermolysis bullosa, intermediate form"
+          },
+          {
+            "code" : "89843",
+            "display" : "Dystrophic epidermolysis bullosa pruriginosa"
+          },
+          {
+            "code" : "89844",
+            "display" : "Lissencephaly syndrome, Norman-Roberts type"
+          },
+          {
+            "code" : "89936",
+            "display" : "X-linked hypophosphatemia"
+          },
+          {
+            "code" : "89937",
+            "display" : "Autosomal dominant hypophosphatemic rickets"
+          },
+          {
+            "code" : "89938",
+            "display" : "Bartter syndrome type 4"
+          },
+          {
+            "code" : "90000",
+            "display" : "Erythema elevatum diutinum"
+          },
+          {
+            "code" : "90001",
+            "display" : "X-linked cone dysfunction syndrome with myopia"
+          },
+          {
+            "code" : "90002",
+            "display" : "Undifferentiated connective tissue syndrome"
+          },
+          {
+            "code" : "90003",
+            "display" : "Inflammatory pseudotumor of the liver"
+          },
+          {
+            "code" : "90020",
+            "display" : "Parkinson-dementia complex of Guam"
+          },
+          {
+            "code" : "90021",
+            "display" : "Radiation myelitis"
+          },
+          {
+            "code" : "90023",
+            "display" : "Primary immunodeficiency syndrome due to P14/LAMTOR2 deficiency"
+          },
+          {
+            "code" : "90024",
+            "display" : "Deafness with labyrinthine aplasia, microtia, and microdontia"
+          },
+          {
+            "code" : "90026",
+            "display" : "Primary erythromelalgia"
+          },
+          {
+            "code" : "90030",
+            "display" : "Hemolytic anemia due to glutathione reductase deficiency"
+          },
+          {
+            "code" : "90031",
+            "display" : "Non-spherocytic hemolytic anemia due to hexokinase deficiency"
+          },
+          {
+            "code" : "90033",
+            "display" : "Autoimmune hemolytic anemia, warm type"
+          },
+          {
+            "code" : "90035",
+            "display" : "Paroxysmal cold hemoglobinuria"
+          },
+          {
+            "code" : "90036",
+            "display" : "Mixed-type autoimmune hemolytic anemia"
+          },
+          {
+            "code" : "90037",
+            "display" : "Drug-induced autoimmune hemolytic anemia"
+          },
+          {
+            "code" : "90038",
+            "display" : "Shiga toxin-associated hemolytic uremic syndrome"
+          },
+          {
+            "code" : "90039",
+            "display" : "Hemoglobin D disease"
+          },
+          {
+            "code" : "90041",
+            "display" : "Gaisböck syndrome"
+          },
+          {
+            "code" : "90042",
+            "display" : "Primary familial polycythemia"
+          },
+          {
+            "code" : "90044",
+            "display" : "Familial pseudohyperkalemia"
+          },
+          {
+            "code" : "90045",
+            "display" : "Hereditary folate malabsorption"
+          },
+          {
+            "code" : "90050",
+            "display" : "Retinopathy of prematurity"
+          },
+          {
+            "code" : "90051",
+            "display" : "Sepsis in premature infants"
+          },
+          {
+            "code" : "90052",
+            "display" : "Recurrent hepatitis C virus induced liver disease in liver transplant recipients"
+          },
+          {
+            "code" : "90053",
+            "display" : "Complications after hematopoietic stem cell transplantation"
+          },
+          {
+            "code" : "90056",
+            "display" : "Moderate and severe traumatic brain injury"
+          },
+          {
+            "code" : "90058",
+            "display" : "Spinal cord injury"
+          },
+          {
+            "code" : "90059",
+            "display" : "Sudden sensorineural hearing loss"
+          },
+          {
+            "code" : "90060",
+            "display" : "Diffuse alveolar hemorrhage"
+          },
+          {
+            "code" : "90062",
+            "display" : "Acute liver failure"
+          },
+          {
+            "code" : "90064",
+            "display" : "Acute peripheral arterial occlusion"
+          },
+          {
+            "code" : "90065",
+            "display" : "Acquired aneurysmal subarachnoid hemorrhage"
+          },
+          {
+            "code" : "90066",
+            "display" : "Pneumonia caused by Pseudomonas aeruginosa infection"
+          },
+          {
+            "code" : "90068",
+            "display" : "Cocaine intoxication"
+          },
+          {
+            "code" : "90069",
+            "display" : "Systemic monochloroacetate poisoning"
+          },
+          {
+            "code" : "90073",
+            "display" : "Hepatitis B reinfection following liver transplantation"
+          },
+          {
+            "code" : "90076",
+            "display" : "Partial deep dermal and full thickness burns"
+          },
+          {
+            "code" : "90078",
+            "display" : "Invasive infections due to vancomycin-resistant enterococci"
+          },
+          {
+            "code" : "90080",
+            "display" : "Scarring in glaucoma filtration surgical procedures"
+          },
+          {
+            "code" : "90081",
+            "display" : "AIDS wasting syndrome"
+          },
+          {
+            "code" : "90103",
+            "display" : "Charcot-Marie-Tooth disease-deafness-intellectual disability syndrome"
+          },
+          {
+            "code" : "90117",
+            "display" : "Hereditary motor and sensory neuropathy, Okinawa type"
+          },
+          {
+            "code" : "90118",
+            "display" : "Severe early-onset axonal neuropathy due to MFN2 deficiency"
+          },
+          {
+            "code" : "90119",
+            "display" : "Hereditary motor and sensory neuropathy with acrodystrophy"
+          },
+          {
+            "code" : "90120",
+            "display" : "Hereditary motor and sensory neuropathy type 6"
+          },
+          {
+            "code" : "90153",
+            "display" : "Mandibuloacral dysplasia with type A lipodystrophy"
+          },
+          {
+            "code" : "90154",
+            "display" : "Mandibuloacral dysplasia with type B lipodystrophy"
+          },
+          {
+            "code" : "90156",
+            "display" : "Centrifugal lipodystrophy"
+          },
+          {
+            "code" : "90157",
+            "display" : "Drug-induced localized lipodystrophy"
+          },
+          {
+            "code" : "90158",
+            "display" : "Idiopathic localized lipodystrophy"
+          },
+          {
+            "code" : "90159",
+            "display" : "Panniculitis-induced localized lipodystrophy"
+          },
+          {
+            "code" : "90160",
+            "display" : "Pressure-induced localized lipoatrophy"
+          },
+          {
+            "code" : "90186",
+            "display" : "Meige disease"
+          },
+          {
+            "code" : "90280",
+            "display" : "Chilblain lupus"
+          },
+          {
+            "code" : "90281",
+            "display" : "Discoid lupus erythematosus"
+          },
+          {
+            "code" : "90282",
+            "display" : "Hypertrophic or verrucous lupus erythematosus"
+          },
+          {
+            "code" : "90283",
+            "display" : "Lupus erythematosus tumidus"
+          },
+          {
+            "code" : "90285",
+            "display" : "Lupus erythematosus panniculitis"
+          },
+          {
+            "code" : "90289",
+            "display" : "Localized scleroderma"
+          },
+          {
+            "code" : "90291",
+            "display" : "Systemic sclerosis"
+          },
+          {
+            "code" : "90301",
+            "display" : "Acanthosis nigricans-insulin resistance-muscle cramps-acral enlargement syndrome"
+          },
+          {
+            "code" : "90307",
+            "display" : "Parkes Weber syndrome"
+          },
+          {
+            "code" : "90308",
+            "display" : "Klippel-Trénaunay syndrome"
+          },
+          {
+            "code" : "90321",
+            "display" : "Cockayne syndrome type 1"
+          },
+          {
+            "code" : "90322",
+            "display" : "Cockayne syndrome type 2"
+          },
+          {
+            "code" : "90324",
+            "display" : "Cockayne syndrome type 3"
+          },
+          {
+            "code" : "90340",
+            "display" : "Blau syndrome"
+          },
+          {
+            "code" : "90342",
+            "display" : "Xeroderma pigmentosum variant"
+          },
+          {
+            "code" : "90348",
+            "display" : "Autosomal dominant cutis laxa"
+          },
+          {
+            "code" : "90349",
+            "display" : "Autosomal recessive cutis laxa type 1"
+          },
+          {
+            "code" : "90354",
+            "display" : "Brittle cornea syndrome"
+          },
+          {
+            "code" : "90362",
+            "display" : "Primary intestinal lymphangiectasia"
+          },
+          {
+            "code" : "90363",
+            "display" : "Secondary intestinal lymphangiectasia"
+          },
+          {
+            "code" : "90368",
+            "display" : "Hypotrichosis simplex of the scalp"
+          },
+          {
+            "code" : "90389",
+            "display" : "Telangiectasia macularis eruptiva perstans"
+          },
+          {
+            "code" : "90390",
+            "display" : "Anonychia-onychodystrophy syndrome"
+          },
+          {
+            "code" : "90393",
+            "display" : "Nodular lichen myxedematosus"
+          },
+          {
+            "code" : "90394",
+            "display" : "Discrete papular lichen myxedematosus"
+          },
+          {
+            "code" : "90395",
+            "display" : "Papular mucinosis of infancy"
+          },
+          {
+            "code" : "90396",
+            "display" : "Acral persistent papular mucinosis"
+          },
+          {
+            "code" : "90397",
+            "display" : "Self-healing papular mucinosis"
+          },
+          {
+            "code" : "90398",
+            "display" : "Localized lichen myxedematosus with mixed features of different subtypes"
+          },
+          {
+            "code" : "90399",
+            "display" : "Localized lichen myxedematosus with monoclonal gammopathy or systemic symptoms"
+          },
+          {
+            "code" : "90400",
+            "display" : "Scleromyxedema without monoclonal gammopathy"
+          },
+          {
+            "code" : "90625",
+            "display" : "Rare X-linked non-syndromic sensorineural deafness type DFN"
+          },
+          {
+            "code" : "90635",
+            "display" : "Rare autosomal dominant non-syndromic sensorineural deafness type DFNA"
+          },
+          {
+            "code" : "90636",
+            "display" : "Rare autosomal recessive non-syndromic sensorineural deafness type DFNB"
+          },
+          {
+            "code" : "90641",
+            "display" : "Rare mitochondrial non-syndromic sensorineural deafness"
+          },
+          {
+            "code" : "90646",
+            "display" : "Deafness-hypogonadism syndrome"
+          },
+          {
+            "code" : "90647",
+            "display" : "Jervell and Lange-Nielsen syndrome"
+          },
+          {
+            "code" : "90650",
+            "display" : "Otopalatodigital syndrome type 1"
+          },
+          {
+            "code" : "90652",
+            "display" : "Otopalatodigital syndrome type 2"
+          },
+          {
+            "code" : "90653",
+            "display" : "Stickler syndrome type 1"
+          },
+          {
+            "code" : "90654",
+            "display" : "Stickler syndrome type 2"
+          },
+          {
+            "code" : "90658",
+            "display" : "Charcot-Marie-Tooth disease type 1E"
+          },
+          {
+            "code" : "90673",
+            "display" : "Hypothyroidism due to TSH receptor mutations"
+          },
+          {
+            "code" : "90674",
+            "display" : "Isolated thyroid-stimulating hormone deficiency"
+          },
+          {
+            "code" : "90695",
+            "display" : "Non-acquired panhypopituitarism"
+          },
+          {
+            "code" : "90790",
+            "display" : "Congenital lipoid adrenal hyperplasia due to STAR deficency"
+          },
+          {
+            "code" : "90791",
+            "display" : "Congenital adrenal hyperplasia due to 3-beta-hydroxysteroid dehydrogenase deficiency"
+          },
+          {
+            "code" : "90793",
+            "display" : "Congenital adrenal hyperplasia due to 17-alpha-hydroxylase deficiency"
+          },
+          {
+            "code" : "90794",
+            "display" : "Classic congenital adrenal hyperplasia due to 21-hydroxylase deficiency"
+          },
+          {
+            "code" : "90795",
+            "display" : "Congenital adrenal hyperplasia due to 11-beta-hydroxylase deficiency"
+          },
+          {
+            "code" : "90796",
+            "display" : "46,XY difference of sex development due to isolated 17,20-lyase deficiency"
+          },
+          {
+            "code" : "90797",
+            "display" : "Partial androgen insensitivity syndrome"
+          },
+          {
+            "code" : "91127",
+            "display" : "Adenovirus infection in immunocompromised patients"
+          },
+          {
+            "code" : "91130",
+            "display" : "Cardiomyopathy-hypotonia-lactic acidosis syndrome"
+          },
+          {
+            "code" : "91131",
+            "display" : "DK1-CDG"
+          },
+          {
+            "code" : "91132",
+            "display" : "Ichthyosis-hypotrichosis syndrome"
+          },
+          {
+            "code" : "91135",
+            "display" : "Body skin hyperlaxity due to vitamin K-dependent coagulation factor deficiency"
+          },
+          {
+            "code" : "91136",
+            "display" : "Acquired monoclonal Ig light chain-associated Fanconi syndrome"
+          },
+          {
+            "code" : "91138",
+            "display" : "Cryoglobulinemic vasculitis"
+          },
+          {
+            "code" : "91139",
+            "display" : "Simple cryoglobulinemia"
+          },
+          {
+            "code" : "91140",
+            "display" : "Unspecified juvenile idiopathic arthritis"
+          },
+          {
+            "code" : "91347",
+            "display" : "TSH-secreting pituitary adenoma"
+          },
+          {
+            "code" : "91348",
+            "display" : "Functioning gonadotropic adenoma"
+          },
+          {
+            "code" : "91349",
+            "display" : "Non-functioning pituitary adenoma"
+          },
+          {
+            "code" : "91350",
+            "display" : "Pituitary deficiency due to Rathke cleft cysts"
+          },
+          {
+            "code" : "91351",
+            "display" : "Pituitary dermoid and epidermoid cysts"
+          },
+          {
+            "code" : "91352",
+            "display" : "Germinoma of the central nervous system"
+          },
+          {
+            "code" : "91354",
+            "display" : "Pituitary deficiency due to empty sella turcica syndrome"
+          },
+          {
+            "code" : "91355",
+            "display" : "Sheehan syndrome"
+          },
+          {
+            "code" : "91358",
+            "display" : "Congenital esophageal diverticulum"
+          },
+          {
+            "code" : "91359",
+            "display" : "Chronic pneumonitis of infancy"
+          },
+          {
+            "code" : "91364",
+            "display" : "Non-specific interstitial pneumonia"
+          },
+          {
+            "code" : "91387",
+            "display" : "Familial thoracic aortic aneurysm and aortic dissection"
+          },
+          {
+            "code" : "91396",
+            "display" : "Isolated cryptophthalmia"
+          },
+          {
+            "code" : "91397",
+            "display" : "Isolated ankyloblepharon filiforme adnatum"
+          },
+          {
+            "code" : "91411",
+            "display" : "Congenital ptosis"
+          },
+          {
+            "code" : "91412",
+            "display" : "Marcus-Gunn syndrome"
+          },
+          {
+            "code" : "91413",
+            "display" : "Congenital Horner syndrome"
+          },
+          {
+            "code" : "91414",
+            "display" : "Pilomatrixoma"
+          },
+          {
+            "code" : "91416",
+            "display" : "Isolated congenital alacrima"
+          },
+          {
+            "code" : "91481",
+            "display" : "Ring dermoid of cornea"
+          },
+          {
+            "code" : "91483",
+            "display" : "Rieger anomaly"
+          },
+          {
+            "code" : "91489",
+            "display" : "Isolated congenital megalocornea"
+          },
+          {
+            "code" : "91490",
+            "display" : "Isolated congenital sclerocornea"
+          },
+          {
+            "code" : "91491",
+            "display" : "Congenital ectropion uveae"
+          },
+          {
+            "code" : "91492",
+            "display" : "Early onset non-syndromic cataract"
+          },
+          {
+            "code" : "91494",
+            "display" : "Macular coloboma-cleft palate-hallux valgus syndrome"
+          },
+          {
+            "code" : "91495",
+            "display" : "Persistent hyperplastic primary vitreous"
+          },
+          {
+            "code" : "91496",
+            "display" : "Snowflake vitreoretinal degeneration"
+          },
+          {
+            "code" : "91498",
+            "display" : "Familial congenital palsy of trochlear nerve"
+          },
+          {
+            "code" : "91500",
+            "display" : "Tubulointerstitial nephritis and uveitis syndrome"
+          },
+          {
+            "code" : "91546",
+            "display" : "Lyme disease"
+          },
+          {
+            "code" : "91547",
+            "display" : "Relapsing fever"
+          },
+          {
+            "code" : "92050",
+            "display" : "Congenital tufting enteropathy"
+          },
+          {
+            "code" : "93100",
+            "display" : "Renal agenesis, unilateral"
+          },
+          {
+            "code" : "93101",
+            "display" : "Renal hypoplasia"
+          },
+          {
+            "code" : "93108",
+            "display" : "Renal dysplasia"
+          },
+          {
+            "code" : "93109",
+            "display" : "Congenital megacalycosis"
+          },
+          {
+            "code" : "93110",
+            "display" : "Posterior urethral valve"
+          },
+          {
+            "code" : "93111",
+            "display" : "HNF1B-related autosomal dominant tubulointerstitial kidney disease"
+          },
+          {
+            "code" : "93114",
+            "display" : "Autosomal dominant intermediate Charcot-Marie-Tooth disease type E"
+          },
+          {
+            "code" : "93126",
+            "display" : "Pauci-immune glomerulonephritis"
+          },
+          {
+            "code" : "93160",
+            "display" : "Hypocalcemic vitamin D-resistant rickets"
+          },
+          {
+            "code" : "93164",
+            "display" : "Transient pseudohypoaldosteronism"
+          },
+          {
+            "code" : "93172",
+            "display" : "Renal dysplasia, unilateral"
+          },
+          {
+            "code" : "93173",
+            "display" : "Renal dysplasia, bilateral"
+          },
+          {
+            "code" : "93176",
+            "display" : "Unilateral congenital megacalycosis"
+          },
+          {
+            "code" : "93177",
+            "display" : "Congenital bilateral megacalycosis"
+          },
+          {
+            "code" : "93256",
+            "display" : "Fragile X-associated tremor/ataxia syndrome"
+          },
+          {
+            "code" : "93258",
+            "display" : "Pfeiffer syndrome type 1"
+          },
+          {
+            "code" : "93259",
+            "display" : "Pfeiffer syndrome type 2"
+          },
+          {
+            "code" : "93260",
+            "display" : "Pfeiffer syndrome type 3"
+          },
+          {
+            "code" : "93262",
+            "display" : "Crouzon syndrome-acanthosis nigricans syndrome"
+          },
+          {
+            "code" : "93267",
+            "display" : "Cloverleaf skull-multiple congenital anomalies syndrome"
+          },
+          {
+            "code" : "93268",
+            "display" : "Short rib-polydactyly syndrome, Beemer-Langer type"
+          },
+          {
+            "code" : "93269",
+            "display" : "Short rib-polydactyly syndrome, Majewski type"
+          },
+          {
+            "code" : "93270",
+            "display" : "Short rib-polydactyly syndrome, Saldino-Noonan type"
+          },
+          {
+            "code" : "93271",
+            "display" : "Short rib-polydactyly syndrome, Verma-Naumoff type"
+          },
+          {
+            "code" : "93274",
+            "display" : "Thanatophoric dysplasia type 2"
+          },
+          {
+            "code" : "93276",
+            "display" : "Polyostotic fibrous dysplasia"
+          },
+          {
+            "code" : "93277",
+            "display" : "Monostotic fibrous dysplasia"
+          },
+          {
+            "code" : "93279",
+            "display" : "Mild spondyloepiphyseal dysplasia due to COL2A1 mutation with early-onset osteoarthritis"
+          },
+          {
+            "code" : "93282",
+            "display" : "Spondyloepimetaphyseal dysplasia, PAPSS2 type"
+          },
+          {
+            "code" : "93283",
+            "display" : "Spondyloepiphyseal dysplasia, Kimberley type"
+          },
+          {
+            "code" : "93284",
+            "display" : "Spondyloepiphyseal dysplasia tarda"
+          },
+          {
+            "code" : "93292",
+            "display" : "Adenoma of pancreas"
+          },
+          {
+            "code" : "93293",
+            "display" : "Okihiro syndrome"
+          },
+          {
+            "code" : "93296",
+            "display" : "Achondrogenesis type 2"
+          },
+          {
+            "code" : "93297",
+            "display" : "Hypochondrogenesis"
+          },
+          {
+            "code" : "93298",
+            "display" : "Achondrogenesis type 1B"
+          },
+          {
+            "code" : "93299",
+            "display" : "Achondrogenesis type 1A"
+          },
+          {
+            "code" : "93302",
+            "display" : "Brachyolmia, Maroteaux type"
+          },
+          {
+            "code" : "93304",
+            "display" : "Autosomal dominant brachyolmia"
+          },
+          {
+            "code" : "93307",
+            "display" : "Multiple epiphyseal dysplasia type 4"
+          },
+          {
+            "code" : "93308",
+            "display" : "Multiple epiphyseal dysplasia type 1"
+          },
+          {
+            "code" : "93311",
+            "display" : "Multiple epiphyseal dysplasia type 5"
+          },
+          {
+            "code" : "93314",
+            "display" : "Spondylometaphyseal dysplasia, Kozlowski type"
+          },
+          {
+            "code" : "93315",
+            "display" : "Spondylometaphyseal dysplasia, 'corner fracture' type"
+          },
+          {
+            "code" : "93316",
+            "display" : "Spondylometaphyseal dysplasia, Schmidt type"
+          },
+          {
+            "code" : "93317",
+            "display" : "Spondylometaphyseal dysplasia, Sedaghatian type"
+          },
+          {
+            "code" : "93320",
+            "display" : "Isolated ulnar hemimelia"
+          },
+          {
+            "code" : "93321",
+            "display" : "Isolated radial hemimelia"
+          },
+          {
+            "code" : "93322",
+            "display" : "Isolated tibial hemimelia"
+          },
+          {
+            "code" : "93323",
+            "display" : "Isolated fibular hemimelia"
+          },
+          {
+            "code" : "93324",
+            "display" : "Autosomal recessive Kenny-Caffey syndrome"
+          },
+          {
+            "code" : "93325",
+            "display" : "Autosomal dominant Kenny-Caffey syndrome"
+          },
+          {
+            "code" : "93328",
+            "display" : "Autosomal dominant omodysplasia"
+          },
+          {
+            "code" : "93329",
+            "display" : "Autosomal recessive omodysplasia"
+          },
+          {
+            "code" : "93333",
+            "display" : "Pelviscapular dysplasia"
+          },
+          {
+            "code" : "93334",
+            "display" : "Postaxial polydactyly type A"
+          },
+          {
+            "code" : "93335",
+            "display" : "Postaxial polydactyly type B"
+          },
+          {
+            "code" : "93336",
+            "display" : "Polydactyly of a triphalangeal thumb"
+          },
+          {
+            "code" : "93337",
+            "display" : "Polydactyly of an index finger"
+          },
+          {
+            "code" : "93338",
+            "display" : "Polysyndactyly"
+          },
+          {
+            "code" : "93339",
+            "display" : "Polydactyly of a biphalangeal thumb and/or hallux"
+          },
+          {
+            "code" : "93346",
+            "display" : "Spondyloepimetaphyseal dysplasia congenita, Strudwick type"
+          },
+          {
+            "code" : "93347",
+            "display" : "Anauxetic dysplasia"
+          },
+          {
+            "code" : "93349",
+            "display" : "X-linked spondyloepimetaphyseal dysplasia"
+          },
+          {
+            "code" : "93351",
+            "display" : "Spondyloepimetaphyseal dysplasia, Irapa type"
+          },
+          {
+            "code" : "93352",
+            "display" : "Spondyloepimetaphyseal dysplasia, Shohat type"
+          },
+          {
+            "code" : "93356",
+            "display" : "Spondyloepimetaphyseal dysplasia, Missouri type"
+          },
+          {
+            "code" : "93357",
+            "display" : "SPONASTRIME dysplasia"
+          },
+          {
+            "code" : "93358",
+            "display" : "Spondyloepimetaphyseal dysplasia-short limb-abnormal calcification syndrome"
+          },
+          {
+            "code" : "93360",
+            "display" : "Spondyloepimetaphyseal dysplasia with joint laxity, leptodactylic type"
+          },
+          {
+            "code" : "93372",
+            "display" : "Familial hypocalciuric hypercalcemia type 1"
+          },
+          {
+            "code" : "93382",
+            "display" : "Brachydactyly type A6"
+          },
+          {
+            "code" : "93383",
+            "display" : "Brachydactyly type B"
+          },
+          {
+            "code" : "93384",
+            "display" : "Brachydactyly type C"
+          },
+          {
+            "code" : "93387",
+            "display" : "Brachydactyly type E"
+          },
+          {
+            "code" : "93388",
+            "display" : "Brachydactyly type A1"
+          },
+          {
+            "code" : "93394",
+            "display" : "Brachydactyly type A4"
+          },
+          {
+            "code" : "93396",
+            "display" : "Brachydactyly type A2"
+          },
+          {
+            "code" : "93397",
+            "display" : "Brachydactyly type A7"
+          },
+          {
+            "code" : "93398",
+            "display" : "Genochondromatosis type 2"
+          },
+          {
+            "code" : "93399",
+            "display" : "Juvenile sialidosis type 2"
+          },
+          {
+            "code" : "93400",
+            "display" : "Congenital sialidosis type 2"
+          },
+          {
+            "code" : "93402",
+            "display" : "Syndactyly type 1"
+          },
+          {
+            "code" : "93403",
+            "display" : "Syndactyly type 2"
+          },
+          {
+            "code" : "93404",
+            "display" : "Syndactyly type 3"
+          },
+          {
+            "code" : "93405",
+            "display" : "Syndactyly type 4"
+          },
+          {
+            "code" : "93406",
+            "display" : "Syndactyly type 5"
+          },
+          {
+            "code" : "93409",
+            "display" : "Brachydactyly-syndactyly, Zhao type"
+          },
+          {
+            "code" : "93473",
+            "display" : "Hurler syndrome"
+          },
+          {
+            "code" : "93474",
+            "display" : "Scheie syndrome"
+          },
+          {
+            "code" : "93476",
+            "display" : "Hurler-Scheie syndrome"
+          },
+          {
+            "code" : "93552",
+            "display" : "Pediatric systemic lupus erythematosus"
+          },
+          {
+            "code" : "93554",
+            "display" : "Mixed cryoglobulinemia type II"
+          },
+          {
+            "code" : "93555",
+            "display" : "Mixed cryoglobulinemia type III"
+          },
+          {
+            "code" : "93556",
+            "display" : "Heavy chain deposition disease"
+          },
+          {
+            "code" : "93557",
+            "display" : "Light and heavy chain deposition disease"
+          },
+          {
+            "code" : "93558",
+            "display" : "Light chain deposition disease"
+          },
+          {
+            "code" : "93560",
+            "display" : "AApoAI amyloidosis"
+          },
+          {
+            "code" : "93561",
+            "display" : "ALys amyloidosis"
+          },
+          {
+            "code" : "93562",
+            "display" : "AFib amyloidosis"
+          },
+          {
+            "code" : "93568",
+            "display" : "Juvenile polymyositis"
+          },
+          {
+            "code" : "93571",
+            "display" : "Dense deposit disease"
+          },
+          {
+            "code" : "93581",
+            "display" : "Atypical hemolytic uremic syndrome with anti-factor H antibodies"
+          },
+          {
+            "code" : "93583",
+            "display" : "Congenital thrombotic thrombocytopenic purpura"
+          },
+          {
+            "code" : "93585",
+            "display" : "Immune-mediated thrombotic thrombocytopenic purpura"
+          },
+          {
+            "code" : "93589",
+            "display" : "Late-onset nephronophthisis"
+          },
+          {
+            "code" : "93591",
+            "display" : "Infantile nephronophthisis"
+          },
+          {
+            "code" : "93592",
+            "display" : "Juvenile nephronophthisis"
+          },
+          {
+            "code" : "93598",
+            "display" : "Primary hyperoxaluria type 1"
+          },
+          {
+            "code" : "93599",
+            "display" : "Primary hyperoxaluria type 2"
+          },
+          {
+            "code" : "93600",
+            "display" : "Primary hyperoxaluria type 3"
+          },
+          {
+            "code" : "93601",
+            "display" : "Xanthinuria type I"
+          },
+          {
+            "code" : "93602",
+            "display" : "Xanthinuria type II"
+          },
+          {
+            "code" : "93605",
+            "display" : "Bartter syndrome type 3"
+          },
+          {
+            "code" : "93606",
+            "display" : "Nephrogenic syndrome of inappropriate antidiuresis"
+          },
+          {
+            "code" : "93607",
+            "display" : "Autosomal recessive proximal renal tubular acidosis"
+          },
+          {
+            "code" : "93608",
+            "display" : "Autosomal dominant distal renal tubular acidosis"
+          },
+          {
+            "code" : "93610",
+            "display" : "Distal renal tubular acidosis with anemia"
+          },
+          {
+            "code" : "93612",
+            "display" : "Cystinuria type A"
+          },
+          {
+            "code" : "93613",
+            "display" : "Cystinuria type B"
+          },
+          {
+            "code" : "93616",
+            "display" : "Hemoglobin H disease"
+          },
+          {
+            "code" : "93622",
+            "display" : "Dent disease type 1"
+          },
+          {
+            "code" : "93623",
+            "display" : "Dent disease type 2"
+          },
+          {
+            "code" : "93672",
+            "display" : "Juvenile dermatomyositis"
+          },
+          {
+            "code" : "93685",
+            "display" : "Unicentric Castleman disease"
+          },
+          {
+            "code" : "93921",
+            "display" : "Full schwannomatosis"
+          },
+          {
+            "code" : "93924",
+            "display" : "Lobar holoprosencephaly"
+          },
+          {
+            "code" : "93925",
+            "display" : "Alobar holoprosencephaly"
+          },
+          {
+            "code" : "93926",
+            "display" : "Midline interhemispheric variant of holoprosencephaly"
+          },
+          {
+            "code" : "93928",
+            "display" : "Isolated epispadias"
+          },
+          {
+            "code" : "93929",
+            "display" : "Cloacal exstrophy"
+          },
+          {
+            "code" : "93930",
+            "display" : "Bladder exstrophy"
+          },
+          {
+            "code" : "93932",
+            "display" : "FG syndrome type 1"
+          },
+          {
+            "code" : "93938",
+            "display" : "Laryngotracheoesophageal cleft type 1"
+          },
+          {
+            "code" : "93939",
+            "display" : "Laryngotracheoesophageal cleft type 2"
+          },
+          {
+            "code" : "93940",
+            "display" : "Laryngotracheoesophageal cleft type 3"
+          },
+          {
+            "code" : "93941",
+            "display" : "Laryngotracheoesophageal cleft type 4"
+          },
+          {
+            "code" : "93945",
+            "display" : "X-linked intellectual disability, Porteous type"
+          },
+          {
+            "code" : "93946",
+            "display" : "Hamel cerebro-palato-cardiac syndrome"
+          },
+          {
+            "code" : "93947",
+            "display" : "X-linked intellectual disability, Golabi-Ito-Hall type"
+          },
+          {
+            "code" : "93950",
+            "display" : "X-linked intellectual disability, Sutherland-Haan type"
+          },
+          {
+            "code" : "93952",
+            "display" : "X-linked intellectual disability, Hedera type"
+          },
+          {
+            "code" : "93953",
+            "display" : "Familial thyroglossal duct cyst"
+          },
+          {
+            "code" : "93958",
+            "display" : "Oromandibular dystonia"
+          },
+          {
+            "code" : "93964",
+            "display" : "Blepharospasm-oromandibular dystonia syndrome"
+          },
+          {
+            "code" : "93969",
+            "display" : "Open spinal dysraphism with a myelomeningocele"
+          },
+          {
+            "code" : "93976",
+            "display" : "Anotia"
+          },
+          {
+            "code" : "94056",
+            "display" : "Isolated humero-ulnar synostosis"
+          },
+          {
+            "code" : "94058",
+            "display" : "Neovascular glaucoma"
+          },
+          {
+            "code" : "94059",
+            "display" : "Uremic pruritus"
+          },
+          {
+            "code" : "94063",
+            "display" : "12q14 microdeletion syndrome"
+          },
+          {
+            "code" : "94064",
+            "display" : "Deafness-infertility syndrome"
+          },
+          {
+            "code" : "94065",
+            "display" : "15q24 microdeletion syndrome"
+          },
+          {
+            "code" : "94066",
+            "display" : "Severe intellectual disability-epilepsy-anal anomalies-distal phalangeal hypoplasia"
+          },
+          {
+            "code" : "94068",
+            "display" : "Spondyloepiphyseal dysplasia congenita"
+          },
+          {
+            "code" : "94080",
+            "display" : "Non-functioning paraganglioma"
+          },
+          {
+            "code" : "94083",
+            "display" : "Partington syndrome"
+          },
+          {
+            "code" : "94086",
+            "display" : "Blue diaper syndrome"
+          },
+          {
+            "code" : "94087",
+            "display" : "Cytophagic histiocytic panniculitis"
+          },
+          {
+            "code" : "94088",
+            "display" : "Hereditary renal hypouricemia"
+          },
+          {
+            "code" : "94089",
+            "display" : "Pseudohypoparathyroidism type 1B"
+          },
+          {
+            "code" : "94090",
+            "display" : "Pseudohypoparathyroidism type 2"
+          },
+          {
+            "code" : "94091",
+            "display" : "Mills syndrome"
+          },
+          {
+            "code" : "94093",
+            "display" : "Neuroleptic malignant syndrome"
+          },
+          {
+            "code" : "94122",
+            "display" : "Cerebellar ataxia, Cayman type"
+          },
+          {
+            "code" : "94124",
+            "display" : "Spinocerebellar ataxia with axonal neuropathy type 1"
+          },
+          {
+            "code" : "94125",
+            "display" : "Recessive mitochondrial ataxia syndrome"
+          },
+          {
+            "code" : "94147",
+            "display" : "Spinocerebellar ataxia type 7"
+          },
+          {
+            "code" : "94150",
+            "display" : "Anonychia congenita totalis"
+          },
+          {
+            "code" : "95159",
+            "display" : "Hepatoerythropoietic porphyria"
+          },
+          {
+            "code" : "95232",
+            "display" : "Lissencephaly due to LIS1 mutation"
+          },
+          {
+            "code" : "95409",
+            "display" : "Acute adrenal insufficiency"
+          },
+          {
+            "code" : "95427",
+            "display" : "Secondary short bowel syndrome"
+          },
+          {
+            "code" : "95428",
+            "display" : "COG8-CDG"
+          },
+          {
+            "code" : "95429",
+            "display" : "Angioma serpiginosum"
+          },
+          {
+            "code" : "95430",
+            "display" : "Congenital tracheomalacia"
+          },
+          {
+            "code" : "95431",
+            "display" : "Twin to twin transfusion syndrome"
+          },
+          {
+            "code" : "95433",
+            "display" : "Autosomal recessive spinocerebellar ataxia-blindness-deafness syndrome"
+          },
+          {
+            "code" : "95434",
+            "display" : "Autosomal recessive cerebellar ataxia-movement disorder syndrome"
+          },
+          {
+            "code" : "95443",
+            "display" : "Mesocardia"
+          },
+          {
+            "code" : "95448",
+            "display" : "Congenital aortic valve atresia"
+          },
+          {
+            "code" : "95455",
+            "display" : "Stevens-Johnson syndrome/toxic epidermal necrolysis spectrum"
+          },
+          {
+            "code" : "95457",
+            "display" : "Tricuspid valve agenesis"
+          },
+          {
+            "code" : "95459",
+            "display" : "Congenital tricuspid stenosis"
+          },
+          {
+            "code" : "95461",
+            "display" : "Straddling or overriding tricuspid valve"
+          },
+          {
+            "code" : "95462",
+            "display" : "Accessory tricuspid valve tissue"
+          },
+          {
+            "code" : "95465",
+            "display" : "Cleft mitral valve"
+          },
+          {
+            "code" : "95474",
+            "display" : "Double-orifice mitral valve"
+          },
+          {
+            "code" : "95486",
+            "display" : "Premature closure of the arterial duct"
+          },
+          {
+            "code" : "95491",
+            "display" : "Congenital coronary artery aneurysm"
+          },
+          {
+            "code" : "95494",
+            "display" : "Combined pituitary hormone deficiencies, genetic forms"
+          },
+          {
+            "code" : "95496",
+            "display" : "Pituitary stalk interruption syndrome"
+          },
+          {
+            "code" : "95507",
+            "display" : "Congenital anomaly of hepatic vein"
+          },
+          {
+            "code" : "95512",
+            "display" : "Adenohypophysitis"
+          },
+          {
+            "code" : "95513",
+            "display" : "Panhypophysitis"
+          },
+          {
+            "code" : "95613",
+            "display" : "Pituitary apoplexy"
+          },
+          {
+            "code" : "95619",
+            "display" : "Post-traumatic pituitary deficiency"
+          },
+          {
+            "code" : "95626",
+            "display" : "Acquired arginine vasopressin deficiency"
+          },
+          {
+            "code" : "95699",
+            "display" : "Congenital adrenal hyperplasia due to cytochrome P450 oxidoreductase deficiency"
+          },
+          {
+            "code" : "95700",
+            "display" : "Familial adrenal hypoplasia with absent pituitary luteinizing hormone"
+          },
+          {
+            "code" : "95702",
+            "display" : "X-linked adrenal hypoplasia congenita"
+          },
+          {
+            "code" : "95706",
+            "display" : "Non-syndromic posterior hypospadias"
+          },
+          {
+            "code" : "95707",
+            "display" : "Idiopathic isolated micropenis"
+          },
+          {
+            "code" : "95712",
+            "display" : "Thyroid ectopia"
+          },
+          {
+            "code" : "95713",
+            "display" : "Athyreosis"
+          },
+          {
+            "code" : "95715",
+            "display" : "Congenital hypothyroidism due to transplacental passage of TSH-binding inhibitory antibodies"
+          },
+          {
+            "code" : "95716",
+            "display" : "Familial thyroid dyshormonogenesis"
+          },
+          {
+            "code" : "95717",
+            "display" : "Idiopathic congenital hypothyroidism"
+          },
+          {
+            "code" : "95719",
+            "display" : "Thyroid hemiagenesis"
+          },
+          {
+            "code" : "95720",
+            "display" : "Thyroid hypoplasia"
+          },
+          {
+            "code" : "95854",
+            "display" : "Levocardia"
+          },
+          {
+            "code" : "96055",
+            "display" : "Tetrasomy 21"
+          },
+          {
+            "code" : "96059",
+            "display" : "Mosaic trisomy 4"
+          },
+          {
+            "code" : "96060",
+            "display" : "Mosaic trisomy 5"
+          },
+          {
+            "code" : "96061",
+            "display" : "Mosaic trisomy 8"
+          },
+          {
+            "code" : "96063",
+            "display" : "Mosaic trisomy 10"
+          },
+          {
+            "code" : "96068",
+            "display" : "Mosaic trisomy 22"
+          },
+          {
+            "code" : "96069",
+            "display" : "Distal duplication 1p36"
+          },
+          {
+            "code" : "96070",
+            "display" : "Distal duplication 2p"
+          },
+          {
+            "code" : "96071",
+            "display" : "Distal duplication 3p"
+          },
+          {
+            "code" : "96072",
+            "display" : "4p16.3 microduplication syndrome"
+          },
+          {
+            "code" : "96074",
+            "display" : "Distal duplication 7p"
+          },
+          {
+            "code" : "96076",
+            "display" : "Beckwith-Wiedemann syndrome due to 11p15 microduplication"
+          },
+          {
+            "code" : "96078",
+            "display" : "16p13.3 microduplication syndrome"
+          },
+          {
+            "code" : "96092",
+            "display" : "8p inverted duplication/deletion syndrome"
+          },
+          {
+            "code" : "96094",
+            "display" : "Distal duplication 2q"
+          },
+          {
+            "code" : "96095",
+            "display" : "3q26 microduplication syndrome"
+          },
+          {
+            "code" : "96096",
+            "display" : "Distal duplication 4q"
+          },
+          {
+            "code" : "96097",
+            "display" : "Distal duplication 5q"
+          },
+          {
+            "code" : "96098",
+            "display" : "Distal duplication 6q"
+          },
+          {
+            "code" : "96100",
+            "display" : "Distal duplication 8q"
+          },
+          {
+            "code" : "96101",
+            "display" : "Distal duplication 9q"
+          },
+          {
+            "code" : "96102",
+            "display" : "Distal duplication 10q"
+          },
+          {
+            "code" : "96103",
+            "display" : "Distal duplication 11q"
+          },
+          {
+            "code" : "96105",
+            "display" : "Distal duplication 13q"
+          },
+          {
+            "code" : "96106",
+            "display" : "Distal duplication 16q"
+          },
+          {
+            "code" : "96107",
+            "display" : "Distal duplication 20q"
+          },
+          {
+            "code" : "96109",
+            "display" : "Distal duplication 22q"
+          },
+          {
+            "code" : "96112",
+            "display" : "Non-distal duplication 9q"
+          },
+          {
+            "code" : "96121",
+            "display" : "7q11.23 microduplication syndrome"
+          },
+          {
+            "code" : "96123",
+            "display" : "Monosomy 22"
+          },
+          {
+            "code" : "96125",
+            "display" : "Distal deletion 6p"
+          },
+          {
+            "code" : "96126",
+            "display" : "Distal deletion 7p"
+          },
+          {
+            "code" : "96129",
+            "display" : "Distal deletion 19p"
+          },
+          {
+            "code" : "96145",
+            "display" : "Distal deletion 4q"
+          },
+          {
+            "code" : "96147",
+            "display" : "Kleefstra syndrome due to 9q34 microdeletion"
+          },
+          {
+            "code" : "96148",
+            "display" : "Distal deletion 10q"
+          },
+          {
+            "code" : "96149",
+            "display" : "Distal deletion 12q"
+          },
+          {
+            "code" : "96150",
+            "display" : "Distal deletion 14q"
+          },
+          {
+            "code" : "96160",
+            "display" : "Non-distal deletion 12q"
+          },
+          {
+            "code" : "96167",
+            "display" : "Recombinant 8 syndrome"
+          },
+          {
+            "code" : "96168",
+            "display" : "Monosomy 13q34"
+          },
+          {
+            "code" : "96169",
+            "display" : "Koolen-De Vries syndrome"
+          },
+          {
+            "code" : "96170",
+            "display" : "Emanuel syndrome"
+          },
+          {
+            "code" : "96171",
+            "display" : "Ring chromosome 2 syndrome"
+          },
+          {
+            "code" : "96172",
+            "display" : "Ring chromosome 3 syndrome"
+          },
+          {
+            "code" : "96173",
+            "display" : "Ring chromosome 9 syndrome"
+          },
+          {
+            "code" : "96175",
+            "display" : "Ring chromosome 11 syndrome"
+          },
+          {
+            "code" : "96176",
+            "display" : "Ring chromosome 13 syndrome"
+          },
+          {
+            "code" : "96177",
+            "display" : "Ring chromosome 15 syndrome"
+          },
+          {
+            "code" : "96178",
+            "display" : "Ring chromosome 16 syndrome"
+          },
+          {
+            "code" : "96179",
+            "display" : "Maternal uniparental disomy of chromosome 2"
+          },
+          {
+            "code" : "96180",
+            "display" : "Maternal uniparental disomy of chromosome 4"
+          },
+          {
+            "code" : "96181",
+            "display" : "Maternal uniparental disomy of chromosome 6"
+          },
+          {
+            "code" : "96182",
+            "display" : "Silver-Russell syndrome due to maternal uniparental disomy of chromosome 7"
+          },
+          {
+            "code" : "96183",
+            "display" : "Maternal uniparental disomy of chromosome 9"
+          },
+          {
+            "code" : "96184",
+            "display" : "Temple syndrome due to maternal uniparental disomy of chromosome 14"
+          },
+          {
+            "code" : "96185",
+            "display" : "Maternal uniparental disomy of chromosome 16"
+          },
+          {
+            "code" : "96186",
+            "display" : "Maternal uniparental disomy of chromosome 20"
+          },
+          {
+            "code" : "96187",
+            "display" : "Maternal uniparental disomy of chromosome 21"
+          },
+          {
+            "code" : "96188",
+            "display" : "Maternal uniparental disomy of chromosome 22"
+          },
+          {
+            "code" : "96190",
+            "display" : "Paternal uniparental disomy of chromosome 5"
+          },
+          {
+            "code" : "96191",
+            "display" : "Paternal uniparental disomy of chromosome 6"
+          },
+          {
+            "code" : "96192",
+            "display" : "Paternal uniparental disomy of chromosome 7"
+          },
+          {
+            "code" : "96193",
+            "display" : "Beckwith-Wiedemann syndrome due to paternal uniparental disomy of chromosome 11"
+          },
+          {
+            "code" : "96194",
+            "display" : "Paternal uniparental disomy of chromosome 20"
+          },
+          {
+            "code" : "96195",
+            "display" : "Paternal uniparental disomy of chromosome 21"
+          },
+          {
+            "code" : "96201",
+            "display" : "X small rings"
+          },
+          {
+            "code" : "96253",
+            "display" : "Cushing disease"
+          },
+          {
+            "code" : "96263",
+            "display" : "48,XXXY syndrome"
+          },
+          {
+            "code" : "96264",
+            "display" : "49,XXXXY syndrome"
+          },
+          {
+            "code" : "96265",
+            "display" : "Leydig cell hypoplasia due to complete LH resistance"
+          },
+          {
+            "code" : "96266",
+            "display" : "Leydig cell hypoplasia due to partial LH resistance"
+          },
+          {
+            "code" : "96269",
+            "display" : "Isolated partial vaginal agenesis"
+          },
+          {
+            "code" : "96334",
+            "display" : "Kagami-Ogata syndrome due to paternal uniparental disomy of chromosome 14"
+          },
+          {
+            "code" : "97214",
+            "display" : "Eisenmenger syndrome"
+          },
+          {
+            "code" : "97229",
+            "display" : "Riboflavin transporter deficiency"
+          },
+          {
+            "code" : "97230",
+            "display" : "Solar urticaria"
+          },
+          {
+            "code" : "97232",
+            "display" : "Fingerprint body myopathy"
+          },
+          {
+            "code" : "97234",
+            "display" : "Glycogen storage disease due to phosphoglycerate mutase deficiency"
+          },
+          {
+            "code" : "97238",
+            "display" : "Rippling muscle disease"
+          },
+          {
+            "code" : "97239",
+            "display" : "Reducing body myopathy"
+          },
+          {
+            "code" : "97240",
+            "display" : "Zebra body myopathy"
+          },
+          {
+            "code" : "97244",
+            "display" : "Rigid spine syndrome"
+          },
+          {
+            "code" : "97249",
+            "display" : "Pontocerebellar hypoplasia type 3"
+          },
+          {
+            "code" : "97252",
+            "display" : "Mega-cisterna magna"
+          },
+          {
+            "code" : "97261",
+            "display" : "GRFoma"
+          },
+          {
+            "code" : "97278",
+            "display" : "PPoma"
+          },
+          {
+            "code" : "97279",
+            "display" : "Insulinoma"
+          },
+          {
+            "code" : "97280",
+            "display" : "Glucagonoma"
+          },
+          {
+            "code" : "97282",
+            "display" : "VIPoma"
+          },
+          {
+            "code" : "97283",
+            "display" : "Somatostatinoma"
+          },
+          {
+            "code" : "97285",
+            "display" : "Thyroid lymphoma"
+          },
+          {
+            "code" : "97286",
+            "display" : "Carney-Stratakis syndrome"
+          },
+          {
+            "code" : "97287",
+            "display" : "Bronchial neuroendocrine tumor"
+          },
+          {
+            "code" : "97289",
+            "display" : "Thymic neuroendocrine tumor"
+          },
+          {
+            "code" : "97290",
+            "display" : "Familial papillary thyroid carcinoma with renal papillary neoplasia"
+          },
+          {
+            "code" : "97292",
+            "display" : "Cardiogenic shock"
+          },
+          {
+            "code" : "97297",
+            "display" : "Bohring-Opitz syndrome"
+          },
+          {
+            "code" : "97330",
+            "display" : "Thoracic outlet syndrome"
+          },
+          {
+            "code" : "97332",
+            "display" : "Kienbock disease"
+          },
+          {
+            "code" : "97335",
+            "display" : "Osgood-Schlatter disease"
+          },
+          {
+            "code" : "97336",
+            "display" : "Panner disease"
+          },
+          {
+            "code" : "97337",
+            "display" : "Sinding-Larsen-Johansson disease"
+          },
+          {
+            "code" : "97338",
+            "display" : "Melanoma of soft tissue"
+          },
+          {
+            "code" : "97339",
+            "display" : "Dural sinus malformation"
+          },
+          {
+            "code" : "97340",
+            "display" : "Hunter-McAlpine syndrome"
+          },
+          {
+            "code" : "97341",
+            "display" : "Persistent placoid maculopathy"
+          },
+          {
+            "code" : "97345",
+            "display" : "ABri amyloidosis"
+          },
+          {
+            "code" : "97346",
+            "display" : "ADan amyloidosis"
+          },
+          {
+            "code" : "97349",
+            "display" : "Postencephalitic parkinsonism"
+          },
+          {
+            "code" : "97352",
+            "display" : "Pellagra"
+          },
+          {
+            "code" : "97353",
+            "display" : "Dementia pugilistica"
+          },
+          {
+            "code" : "97355",
+            "display" : "Caribbean parkinsonism"
+          },
+          {
+            "code" : "97360",
+            "display" : "Robinow syndrome"
+          },
+          {
+            "code" : "97361",
+            "display" : "Renal hypoplasia, unilateral"
+          },
+          {
+            "code" : "97362",
+            "display" : "Renal hypoplasia, bilateral"
+          },
+          {
+            "code" : "97363",
+            "display" : "Unilateral multicystic dysplastic kidney"
+          },
+          {
+            "code" : "97364",
+            "display" : "Bilateral multicystic dysplastic kidney"
+          },
+          {
+            "code" : "97366",
+            "display" : "Multiloculated renal cyst"
+          },
+          {
+            "code" : "97367",
+            "display" : "Renal tubular dysgenesis due to twin-twin transfusion"
+          },
+          {
+            "code" : "97368",
+            "display" : "Drug-related renal tubular dysgenesis"
+          },
+          {
+            "code" : "97369",
+            "display" : "Renal tubular dysgenesis of genetic origin"
+          },
+          {
+            "code" : "97548",
+            "display" : "Right sided atrial isomerism"
+          },
+          {
+            "code" : "97560",
+            "display" : "Primary membranous glomerulonephritis"
+          },
+          {
+            "code" : "97563",
+            "display" : "Pauci-immune glomerulonephritis with ANCA"
+          },
+          {
+            "code" : "97564",
+            "display" : "Pauci-immune glomerulonephritis without ANCA"
+          },
+          {
+            "code" : "97566",
+            "display" : "Non-amyloid fibrillary glomerulopathy"
+          },
+          {
+            "code" : "97567",
+            "display" : "Immunotactoid glomerulopathy"
+          },
+          {
+            "code" : "97598",
+            "display" : "Congenital renal artery stenosis"
+          },
+          {
+            "code" : "97678",
+            "display" : "Maternal uniparental disomy of chromosome 13"
+          },
+          {
+            "code" : "97685",
+            "display" : "17q11 microdeletion syndrome"
+          },
+          {
+            "code" : "98267",
+            "display" : "Genetic non-syndromic obesity"
+          },
+          {
+            "code" : "98434",
+            "display" : "Hereditary combined deficiency of vitamin K-dependent clotting factors"
+          },
+          {
+            "code" : "98606",
+            "display" : "Syndromic orbital border hypoplasia"
+          },
+          {
+            "code" : "98619",
+            "display" : "Rare isolated myopia"
+          },
+          {
+            "code" : "98673",
+            "display" : "Autosomal dominant optic atrophy, classic form"
+          },
+          {
+            "code" : "98676",
+            "display" : "Autosomal recessive isolated optic atrophy"
+          },
+          {
+            "code" : "98686",
+            "display" : "Congenital trochlear nerve palsy"
+          },
+          {
+            "code" : "98754",
+            "display" : "Prader-Willi syndrome due to maternal uniparental disomy of chromosome 15"
+          },
+          {
+            "code" : "98755",
+            "display" : "Spinocerebellar ataxia type 1"
+          },
+          {
+            "code" : "98756",
+            "display" : "Spinocerebellar ataxia type 2"
+          },
+          {
+            "code" : "98757",
+            "display" : "Spinocerebellar ataxia type 3"
+          },
+          {
+            "code" : "98758",
+            "display" : "Spinocerebellar ataxia type 6"
+          },
+          {
+            "code" : "98759",
+            "display" : "Spinocerebellar ataxia type 17"
+          },
+          {
+            "code" : "98760",
+            "display" : "Spinocerebellar ataxia type 8"
+          },
+          {
+            "code" : "98761",
+            "display" : "Spinocerebellar ataxia type 10"
+          },
+          {
+            "code" : "98762",
+            "display" : "Spinocerebellar ataxia type 12"
+          },
+          {
+            "code" : "98763",
+            "display" : "Spinocerebellar ataxia type 14"
+          },
+          {
+            "code" : "98764",
+            "display" : "Spinocerebellar ataxia type 27"
+          },
+          {
+            "code" : "98765",
+            "display" : "Spinocerebellar ataxia type 4"
+          },
+          {
+            "code" : "98766",
+            "display" : "Spinocerebellar ataxia type 5"
+          },
+          {
+            "code" : "98767",
+            "display" : "Spinocerebellar ataxia type 11"
+          },
+          {
+            "code" : "98768",
+            "display" : "Spinocerebellar ataxia type 13"
+          },
+          {
+            "code" : "98769",
+            "display" : "Spinocerebellar ataxia type 15/16"
+          },
+          {
+            "code" : "98771",
+            "display" : "Spinocerebellar ataxia type 18"
+          },
+          {
+            "code" : "98772",
+            "display" : "Spinocerebellar ataxia type 19/22"
+          },
+          {
+            "code" : "98773",
+            "display" : "Spinocerebellar ataxia type 21"
+          },
+          {
+            "code" : "98784",
+            "display" : "Autosomal dominant nocturnal frontal lobe epilepsy"
+          },
+          {
+            "code" : "98791",
+            "display" : "Alpha-thalassemia-intellectual disability syndrome linked to chromosome 16"
+          },
+          {
+            "code" : "98793",
+            "display" : "Prader-Willi syndrome due to paternal 15q11q13 deletion"
+          },
+          {
+            "code" : "98794",
+            "display" : "Angelman syndrome due to maternal 15q11q13 deletion"
+          },
+          {
+            "code" : "98795",
+            "display" : "Angelman syndrome due to paternal uniparental disomy of chromosome 15"
+          },
+          {
+            "code" : "98797",
+            "display" : "Isochromosomy Yp"
+          },
+          {
+            "code" : "98798",
+            "display" : "Isochromosomy Yq"
+          },
+          {
+            "code" : "98805",
+            "display" : "Primary dystonia, DYT4 type"
+          },
+          {
+            "code" : "98806",
+            "display" : "Primary dystonia, DYT6 type"
+          },
+          {
+            "code" : "98807",
+            "display" : "Primary dystonia, DYT13 type"
+          },
+          {
+            "code" : "98808",
+            "display" : "Autosomal dominant dopa-responsive dystonia"
+          },
+          {
+            "code" : "98809",
+            "display" : "Paroxysmal kinesigenic dyskinesia"
+          },
+          {
+            "code" : "98810",
+            "display" : "Paroxysmal non-kinesigenic dyskinesia"
+          },
+          {
+            "code" : "98811",
+            "display" : "Paroxysmal exertion-induced dyskinesia"
+          },
+          {
+            "code" : "98813",
+            "display" : "Hypohidrotic ectodermal dysplasia with immunodeficiency"
+          },
+          {
+            "code" : "98815",
+            "display" : "Benign childhood occipital epilepsy, Panayiotopoulos type"
+          },
+          {
+            "code" : "98816",
+            "display" : "Benign childhood occipital epilepsy, Gastaut type"
+          },
+          {
+            "code" : "98818",
+            "display" : "Landau-Kleffner syndrome"
+          },
+          {
+            "code" : "98819",
+            "display" : "Familial temporal lobe epilepsy"
+          },
+          {
+            "code" : "98820",
+            "display" : "Familial focal epilepsy with variable foci"
+          },
+          {
+            "code" : "98823",
+            "display" : "Chronic myelomonocytic leukemia"
+          },
+          {
+            "code" : "98824",
+            "display" : "Atypical chronic myeloid leukemia"
+          },
+          {
+            "code" : "98825",
+            "display" : "Unclassified myelodysplastic/myeloproliferative disease"
+          },
+          {
+            "code" : "98826",
+            "display" : "Myelodysplastic neoplasm with low blasts"
+          },
+          {
+            "code" : "98827",
+            "display" : "Unclassified myelodysplastic syndrome"
+          },
+          {
+            "code" : "98829",
+            "display" : "Acute myeloid leukemia with abnormal bone marrow eosinophils inv(16)(p13q22) or t(16;16)(p13;q22)"
+          },
+          {
+            "code" : "98831",
+            "display" : "Acute myeloid leukemia with 11q23 abnormalities"
+          },
+          {
+            "code" : "98832",
+            "display" : "Acute myeloid leukemia with minimal differentiation"
+          },
+          {
+            "code" : "98833",
+            "display" : "Acute myeloblastic leukemia without maturation"
+          },
+          {
+            "code" : "98834",
+            "display" : "Acute myeloblastic leukemia with maturation"
+          },
+          {
+            "code" : "98835",
+            "display" : "Acute undifferentiated leukemia"
+          },
+          {
+            "code" : "98838",
+            "display" : "Primary mediastinal large B-cell lymphoma"
+          },
+          {
+            "code" : "98839",
+            "display" : "Intravascular large B-cell lymphoma"
+          },
+          {
+            "code" : "98841",
+            "display" : "Anaplastic large cell lymphoma"
+          },
+          {
+            "code" : "98842",
+            "display" : "Lymphomatoid papulosis"
+          },
+          {
+            "code" : "98843",
+            "display" : "Classic Hodgkin lymphoma, nodular sclerosis type"
+          },
+          {
+            "code" : "98844",
+            "display" : "Classic Hodgkin lymphoma, mixed cellularity type"
+          },
+          {
+            "code" : "98845",
+            "display" : "Classic Hodgkin lymphoma, lymphocyte-rich type"
+          },
+          {
+            "code" : "98846",
+            "display" : "Classic Hodgkin lymphoma, lymphocyte-depleted type"
+          },
+          {
+            "code" : "98848",
+            "display" : "Indolent systemic mastocytosis"
+          },
+          {
+            "code" : "98849",
+            "display" : "Systemic mastocytosis with associated hematologic neoplasm"
+          },
+          {
+            "code" : "98850",
+            "display" : "Aggressive systemic mastocytosis"
+          },
+          {
+            "code" : "98851",
+            "display" : "Mast cell leukemia"
+          },
+          {
+            "code" : "98852",
+            "display" : "Desquamative interstitial pneumonia"
+          },
+          {
+            "code" : "98853",
+            "display" : "Autosomal dominant Emery-Dreifuss muscular dystrophy"
+          },
+          {
+            "code" : "98855",
+            "display" : "Autosomal recessive Emery-Dreifuss muscular dystrophy"
+          },
+          {
+            "code" : "98856",
+            "display" : "Charcot-Marie-Tooth disease type 2B1"
+          },
+          {
+            "code" : "98863",
+            "display" : "X-linked Emery-Dreifuss muscular dystrophy"
+          },
+          {
+            "code" : "98868",
+            "display" : "Southeast Asian ovalocytosis"
+          },
+          {
+            "code" : "98869",
+            "display" : "Congenital dyserythropoietic anemia type I"
+          },
+          {
+            "code" : "98870",
+            "display" : "Congenital dyserythropoietic anemia type III"
+          },
+          {
+            "code" : "98871",
+            "display" : "Transient erythroblastopenia of childhood"
+          },
+          {
+            "code" : "98872",
+            "display" : "Primary acquired pure red cell aplasia"
+          },
+          {
+            "code" : "98873",
+            "display" : "Congenital dyserythropoietic anemia type II"
+          },
+          {
+            "code" : "98878",
+            "display" : "Hemophilia A"
+          },
+          {
+            "code" : "98879",
+            "display" : "Hemophilia B"
+          },
+          {
+            "code" : "98880",
+            "display" : "Familial afibrinogenemia"
+          },
+          {
+            "code" : "98881",
+            "display" : "Familial dysfibrinogenemia"
+          },
+          {
+            "code" : "98885",
+            "display" : "Bleeding diathesis due to glycoprotein VI deficiency"
+          },
+          {
+            "code" : "98886",
+            "display" : "Bleeding diathesis due to integrin alpha2-beta1 deficiency"
+          },
+          {
+            "code" : "98889",
+            "display" : "Bilateral perisylvian polymicrogyria"
+          },
+          {
+            "code" : "98890",
+            "display" : "Early-onset X-linked optic atrophy"
+          },
+          {
+            "code" : "98892",
+            "display" : "Periventricular nodular heterotopia"
+          },
+          {
+            "code" : "98893",
+            "display" : "Congenital muscular dystrophy type 1B"
+          },
+          {
+            "code" : "98895",
+            "display" : "Becker muscular dystrophy"
+          },
+          {
+            "code" : "98896",
+            "display" : "Duchenne muscular dystrophy"
+          },
+          {
+            "code" : "98897",
+            "display" : "Oculopharyngodistal myopathy"
+          },
+          {
+            "code" : "98902",
+            "display" : "Amish nemaline myopathy"
+          },
+          {
+            "code" : "98904",
+            "display" : "Congenital myopathy with excess of thin filaments"
+          },
+          {
+            "code" : "98905",
+            "display" : "Congenital multicore myopathy with external ophthalmoplegia"
+          },
+          {
+            "code" : "98907",
+            "display" : "Neutral lipid storage disease with ichthyosis"
+          },
+          {
+            "code" : "98908",
+            "display" : "Neutral lipid storage disease with myopathy"
+          },
+          {
+            "code" : "98909",
+            "display" : "Desminopathy"
+          },
+          {
+            "code" : "98911",
+            "display" : "Distal myotilinopathy"
+          },
+          {
+            "code" : "98912",
+            "display" : "Late-onset distal myopathy, Markesbery-Griggs type"
+          },
+          {
+            "code" : "98913",
+            "display" : "Postsynaptic congenital myasthenic syndromes"
+          },
+          {
+            "code" : "98914",
+            "display" : "Presynaptic congenital myasthenic syndromes"
+          },
+          {
+            "code" : "98915",
+            "display" : "Synaptic congenital myasthenic syndromes"
+          },
+          {
+            "code" : "98916",
+            "display" : "Acute inflammatory demyelinating polyradiculoneuropathy"
+          },
+          {
+            "code" : "98917",
+            "display" : "Acute motor and sensory axonal neuropathy"
+          },
+          {
+            "code" : "98918",
+            "display" : "Acute motor axonal neuropathy"
+          },
+          {
+            "code" : "98919",
+            "display" : "Miller Fisher syndrome"
+          },
+          {
+            "code" : "98920",
+            "display" : "Spinal muscular atrophy with respiratory distress type 1"
+          },
+          {
+            "code" : "98922",
+            "display" : "Blake pouch cyst"
+          },
+          {
+            "code" : "98933",
+            "display" : "Multiple system atrophy, parkinsonian type"
+          },
+          {
+            "code" : "98934",
+            "display" : "Huntington disease-like 2"
+          },
+          {
+            "code" : "98938",
+            "display" : "Colobomatous microphthalmia"
+          },
+          {
+            "code" : "98942",
+            "display" : "Coloboma of choroid and retina"
+          },
+          {
+            "code" : "98943",
+            "display" : "Coloboma of eye lens"
+          },
+          {
+            "code" : "98944",
+            "display" : "Coloboma of iris"
+          },
+          {
+            "code" : "98945",
+            "display" : "Coloboma of macula"
+          },
+          {
+            "code" : "98946",
+            "display" : "Coloboma of eyelid"
+          },
+          {
+            "code" : "98947",
+            "display" : "Coloboma of optic disc"
+          },
+          {
+            "code" : "98948",
+            "display" : "Congenital symblepharon"
+          },
+          {
+            "code" : "98949",
+            "display" : "Complete cryptophthalmia"
+          },
+          {
+            "code" : "98950",
+            "display" : "Partial cryptophthalmia"
+          },
+          {
+            "code" : "98951",
+            "display" : "Inverse Marcus-Gunn phenomenon"
+          },
+          {
+            "code" : "98954",
+            "display" : "Meesmann corneal dystrophy"
+          },
+          {
+            "code" : "98955",
+            "display" : "Lisch epithelial corneal dystrophy"
+          },
+          {
+            "code" : "98956",
+            "display" : "Epithelial basement membrane dystrophy"
+          },
+          {
+            "code" : "98957",
+            "display" : "Gelatinous drop-like corneal dystrophy"
+          },
+          {
+            "code" : "98958",
+            "display" : "Climatic droplet keratopathy"
+          },
+          {
+            "code" : "98959",
+            "display" : "Subepithelial mucinous corneal dystrophy"
+          },
+          {
+            "code" : "98960",
+            "display" : "Thiel-Behnke corneal dystrophy"
+          },
+          {
+            "code" : "98961",
+            "display" : "Reis-Bücklers corneal dystrophy"
+          },
+          {
+            "code" : "98962",
+            "display" : "Granular corneal dystrophy type I"
+          },
+          {
+            "code" : "98963",
+            "display" : "Granular corneal dystrophy type II"
+          },
+          {
+            "code" : "98964",
+            "display" : "Lattice corneal dystrophy type I"
+          },
+          {
+            "code" : "98967",
+            "display" : "Schnyder corneal dystrophy"
+          },
+          {
+            "code" : "98969",
+            "display" : "Macular corneal dystrophy"
+          },
+          {
+            "code" : "98970",
+            "display" : "Fleck corneal dystrophy"
+          },
+          {
+            "code" : "98971",
+            "display" : "Posterior amorphous corneal dystrophy"
+          },
+          {
+            "code" : "98972",
+            "display" : "Central cloudy dystrophy of François"
+          },
+          {
+            "code" : "98973",
+            "display" : "Posterior polymorphous corneal dystrophy"
+          },
+          {
+            "code" : "98974",
+            "display" : "Fuchs endothelial corneal dystrophy"
+          },
+          {
+            "code" : "98976",
+            "display" : "Congenital glaucoma"
+          },
+          {
+            "code" : "98977",
+            "display" : "Juvenile glaucoma"
+          },
+          {
+            "code" : "98978",
+            "display" : "Axenfeld anomaly"
+          },
+          {
+            "code" : "98979",
+            "display" : "Chandler syndrome"
+          },
+          {
+            "code" : "98980",
+            "display" : "Cogan-Reese syndrome"
+          },
+          {
+            "code" : "98981",
+            "display" : "Essential iris atrophy"
+          },
+          {
+            "code" : "98984",
+            "display" : "Pulverulent cataract"
+          },
+          {
+            "code" : "98985",
+            "display" : "Early-onset sutural cataract"
+          },
+          {
+            "code" : "98988",
+            "display" : "Early-onset anterior polar cataract"
+          },
+          {
+            "code" : "98989",
+            "display" : "Cerulean cataract"
+          },
+          {
+            "code" : "98990",
+            "display" : "Coralliform cataract"
+          },
+          {
+            "code" : "98991",
+            "display" : "Early-onset nuclear cataract"
+          },
+          {
+            "code" : "98992",
+            "display" : "Early-onset partial cataract"
+          },
+          {
+            "code" : "98993",
+            "display" : "Early-onset posterior polar cataract"
+          },
+          {
+            "code" : "98994",
+            "display" : "Total early-onset cataract"
+          },
+          {
+            "code" : "98995",
+            "display" : "Early-onset zonular cataract"
+          },
+          {
+            "code" : "99000",
+            "display" : "Adult-onset foveomacular vitelliform dystrophy"
+          },
+          {
+            "code" : "99001",
+            "display" : "Butterfly-shaped pigment dystrophy"
+          },
+          {
+            "code" : "99002",
+            "display" : "Reticular dystrophy of the retinal pigment epithelium"
+          },
+          {
+            "code" : "99003",
+            "display" : "Multifocal pattern dystrophy simulating fundus flavimaculatus"
+          },
+          {
+            "code" : "99004",
+            "display" : "Fundus pulverulentus"
+          },
+          {
+            "code" : "99013",
+            "display" : "Spastic paraplegia type 7"
+          },
+          {
+            "code" : "99014",
+            "display" : "X-linked Charcot-Marie-Tooth disease type 5"
+          },
+          {
+            "code" : "99015",
+            "display" : "Spastic paraplegia type 2"
+          },
+          {
+            "code" : "99027",
+            "display" : "Adult-onset autosomal dominant leukodystrophy"
+          },
+          {
+            "code" : "99042",
+            "display" : "Congenitally uncorrected transposition of the great arteries with coarctation"
+          },
+          {
+            "code" : "99043",
+            "display" : "Double outlet right ventricle with subaortic or doubly committed ventricular septal defect with pulmonary stenosis"
+          },
+          {
+            "code" : "99045",
+            "display" : "Double outlet right ventricle with subpulmonary ventricular septal defect"
+          },
+          {
+            "code" : "99046",
+            "display" : "Double outlet right ventricle with non-committed subpulmonary ventricular septal defect"
+          },
+          {
+            "code" : "99048",
+            "display" : "Pulmonary valve agenesis-intact ventricular septum-persistent ductus arteriosus syndrome"
+          },
+          {
+            "code" : "99049",
+            "display" : "Pulmonary artery coming from patent ductus arteriosus"
+          },
+          {
+            "code" : "99050",
+            "display" : "Abnormal origin of right or left pulmonary artery from the aorta"
+          },
+          {
+            "code" : "99051",
+            "display" : "Discrete fixed membranous subaortic stenosis"
+          },
+          {
+            "code" : "99052",
+            "display" : "Discrete fibromuscular subaortic stenosis"
+          },
+          {
+            "code" : "99053",
+            "display" : "Tunnel subaortic stenosis"
+          },
+          {
+            "code" : "99054",
+            "display" : "Valvular pulmonary stenosis"
+          },
+          {
+            "code" : "99055",
+            "display" : "Congenital anomaly of the tricuspid valve chordae"
+          },
+          {
+            "code" : "99056",
+            "display" : "Parachute tricuspid valve"
+          },
+          {
+            "code" : "99057",
+            "display" : "Congenital mitral stenosis"
+          },
+          {
+            "code" : "99058",
+            "display" : "Hypoplasia of the mitral valve annulus"
+          },
+          {
+            "code" : "99059",
+            "display" : "Congenital supravalvular mitral ring"
+          },
+          {
+            "code" : "99060",
+            "display" : "Congenital unguarded mitral orifice"
+          },
+          {
+            "code" : "99061",
+            "display" : "Accessory mitral valve tissue"
+          },
+          {
+            "code" : "99062",
+            "display" : "Mitral valve agenesis"
+          },
+          {
+            "code" : "99063",
+            "display" : "Shone complex"
+          },
+          {
+            "code" : "99064",
+            "display" : "Straddling and/or overriding mitral valve"
+          },
+          {
+            "code" : "99067",
+            "display" : "Complete atrioventricular septal defect with ventricular hypoplasia"
+          },
+          {
+            "code" : "99068",
+            "display" : "Complete atrioventricular septal defect-tetralogy of Fallot"
+          },
+          {
+            "code" : "99070",
+            "display" : "Aorto-right ventricular tunnel"
+          },
+          {
+            "code" : "99071",
+            "display" : "Aorto-left ventricular tunnel"
+          },
+          {
+            "code" : "99072",
+            "display" : "Congenital patent ductus arteriosus aneurysm"
+          },
+          {
+            "code" : "99075",
+            "display" : "Encircling double aortic arch"
+          },
+          {
+            "code" : "99076",
+            "display" : "Persistent fifth aortic arch"
+          },
+          {
+            "code" : "99077",
+            "display" : "Kommerell diverticulum"
+          },
+          {
+            "code" : "99078",
+            "display" : "Neuhauser anomaly"
+          },
+          {
+            "code" : "99079",
+            "display" : "Cervical aortic arch"
+          },
+          {
+            "code" : "99081",
+            "display" : "Right aortic arch"
+          },
+          {
+            "code" : "99082",
+            "display" : "Dysphagia lusoria"
+          },
+          {
+            "code" : "99083",
+            "display" : "Pulmonary artery hypoplasia"
+          },
+          {
+            "code" : "99084",
+            "display" : "Peripheral pulmonary stenosis"
+          },
+          {
+            "code" : "99087",
+            "display" : "Coronary ostial stenosis or atresia"
+          },
+          {
+            "code" : "99089",
+            "display" : "Abnormal number of coronary ostia"
+          },
+          {
+            "code" : "99090",
+            "display" : "Malposition of a coronary ostium"
+          },
+          {
+            "code" : "99092",
+            "display" : "Interventricular septum aneurysm"
+          },
+          {
+            "code" : "99094",
+            "display" : "Laubry-Pezzi syndrome"
+          },
+          {
+            "code" : "99095",
+            "display" : "Congenital Gerbode defect"
+          },
+          {
+            "code" : "99098",
+            "display" : "Cor triatriatum dexter"
+          },
+          {
+            "code" : "99099",
+            "display" : "Cor triatriatum sinister"
+          },
+          {
+            "code" : "99100",
+            "display" : "Juxtaposition of the atrial appendages"
+          },
+          {
+            "code" : "99101",
+            "display" : "Ectasia of the right atrial appendage"
+          },
+          {
+            "code" : "99102",
+            "display" : "Ectasia of the left atrial appendage"
+          },
+          {
+            "code" : "99103",
+            "display" : "Atrial septal defect, ostium secundum type"
+          },
+          {
+            "code" : "99104",
+            "display" : "Atrial septal defect, coronary sinus type"
+          },
+          {
+            "code" : "99105",
+            "display" : "Atrial septal defect, sinus venosus type"
+          },
+          {
+            "code" : "99106",
+            "display" : "Atrial septal defect, ostium primum type"
+          },
+          {
+            "code" : "99107",
+            "display" : "Atrial septal aneurysm"
+          },
+          {
+            "code" : "99109",
+            "display" : "Persistent left superior vena cava connecting through coronary sinus to left-sided atrium"
+          },
+          {
+            "code" : "99110",
+            "display" : "Right superior vena cava connecting to left-sided atrium"
+          },
+          {
+            "code" : "99111",
+            "display" : "Persistent left superior vena cava connecting to the roof of left-sided atrium"
+          },
+          {
+            "code" : "99112",
+            "display" : "Absence of innominate vein"
+          },
+          {
+            "code" : "99113",
+            "display" : "Subaortic course of innominate vein"
+          },
+          {
+            "code" : "99114",
+            "display" : "Agenesis of the superior vena cava"
+          },
+          {
+            "code" : "99117",
+            "display" : "Coronary sinus stenosis"
+          },
+          {
+            "code" : "99118",
+            "display" : "Coronary sinus atresia"
+          },
+          {
+            "code" : "99119",
+            "display" : "Right inferior vena cava connecting to left-sided atrium"
+          },
+          {
+            "code" : "99120",
+            "display" : "Persistent eustachian valve"
+          },
+          {
+            "code" : "99121",
+            "display" : "Azygos continuation of the inferior vena cava"
+          },
+          {
+            "code" : "99122",
+            "display" : "Congenital stenosis of the inferior vena cava"
+          },
+          {
+            "code" : "99123",
+            "display" : "Inferior vena cava interruption without azygos continuation"
+          },
+          {
+            "code" : "99124",
+            "display" : "Congenital partial pulmonary venous return anomaly"
+          },
+          {
+            "code" : "99125",
+            "display" : "Congenital total pulmonary venous return anomaly"
+          },
+          {
+            "code" : "99126",
+            "display" : "Congenital pulmonary vein atresia"
+          },
+          {
+            "code" : "99129",
+            "display" : "Congenital complete agenesis of pericardium"
+          },
+          {
+            "code" : "99130",
+            "display" : "Congenital partial agenesis of pericardium"
+          },
+          {
+            "code" : "99131",
+            "display" : "Pleuro-pericardial cyst"
+          },
+          {
+            "code" : "99135",
+            "display" : "6-phosphogluconate dehydrogenase deficiency"
+          },
+          {
+            "code" : "99138",
+            "display" : "Hemolytic anemia due to erythrocyte adenosine deaminase overproduction"
+          },
+          {
+            "code" : "99139",
+            "display" : "Unstable hemoglobin disease"
+          },
+          {
+            "code" : "99141",
+            "display" : "Lymphedema-posterior choanal atresia syndrome"
+          },
+          {
+            "code" : "99147",
+            "display" : "Acquired von Willebrand syndrome"
+          },
+          {
+            "code" : "99169",
+            "display" : "Epiblepharon"
+          },
+          {
+            "code" : "99170",
+            "display" : "Tarsal kink syndrome"
+          },
+          {
+            "code" : "99171",
+            "display" : "Isolated congenital ectropion"
+          },
+          {
+            "code" : "99172",
+            "display" : "Euryblepharon"
+          },
+          {
+            "code" : "99176",
+            "display" : "Congenital eyelid retraction"
+          },
+          {
+            "code" : "99177",
+            "display" : "Isolated distichiasis"
+          },
+          {
+            "code" : "99179",
+            "display" : "Kandori fleck retina"
+          },
+          {
+            "code" : "99226",
+            "display" : "Monosomy X"
+          },
+          {
+            "code" : "99228",
+            "display" : "Mosaic monosomy X"
+          },
+          {
+            "code" : "99324",
+            "display" : "Paternal uniparental disomy of chromosome 13"
+          },
+          {
+            "code" : "99329",
+            "display" : "48,XYYY syndrome"
+          },
+          {
+            "code" : "99330",
+            "display" : "49,XYYYY syndrome"
+          },
+          {
+            "code" : "99361",
+            "display" : "Familial medullary thyroid carcinoma"
+          },
+          {
+            "code" : "99413",
+            "display" : "Turner syndrome due to structural X chromosome anomalies"
+          },
+          {
+            "code" : "99429",
+            "display" : "Complete androgen insensitivity syndrome"
+          },
+          {
+            "code" : "99642",
+            "display" : "Spondyloepimetaphyseal dysplasia, Handigodu type"
+          },
+          {
+            "code" : "99646",
+            "display" : "Metaphyseal chondromatosis with D-2-hydroxyglutaric aciduria"
+          },
+          {
+            "code" : "99657",
+            "display" : "Primary dystonia, DYT2 type"
+          },
+          {
+            "code" : "99672",
+            "display" : "Fried's tooth and nail syndrome"
+          },
+          {
+            "code" : "99688",
+            "display" : "Dermotrichic syndrome"
+          },
+          {
+            "code" : "99701",
+            "display" : "Mesial temporal lobe epilepsy with hippocampal sclerosis"
+          },
+          {
+            "code" : "99704",
+            "display" : "Early-onset obesity-hyperphagia-severe developmental delay syndrome"
+          },
+          {
+            "code" : "99710",
+            "display" : "Punctate acrokeratoderma freckle-like pigmentation"
+          },
+          {
+            "code" : "99718",
+            "display" : "Leber plus disease"
+          },
+          {
+            "code" : "99725",
+            "display" : "Pituitary gigantism"
+          },
+          {
+            "code" : "99731",
+            "display" : "Isolated sulfite oxidase deficiency"
+          },
+          {
+            "code" : "99732",
+            "display" : "Sulfite oxidase deficiency due to molybdenum cofactor deficiency"
+          },
+          {
+            "code" : "99734",
+            "display" : "Myotonia fluctuans"
+          },
+          {
+            "code" : "99735",
+            "display" : "Myotonia permanens"
+          },
+          {
+            "code" : "99736",
+            "display" : "Acetazolamide-responsive myotonia"
+          },
+          {
+            "code" : "99741",
+            "display" : "King-Denborough syndrome"
+          },
+          {
+            "code" : "99742",
+            "display" : "Amish lethal microcephaly"
+          },
+          {
+            "code" : "99745",
+            "display" : "Typhoid"
+          },
+          {
+            "code" : "99748",
+            "display" : "Pontiac fever"
+          },
+          {
+            "code" : "99749",
+            "display" : "Kostmann syndrome"
+          },
+          {
+            "code" : "99750",
+            "display" : "Atypical progressive supranuclear palsy syndrome"
+          },
+          {
+            "code" : "99756",
+            "display" : "Alveolar rhabdomyosarcoma"
+          },
+          {
+            "code" : "99757",
+            "display" : "Embryonal rhabdomyosarcoma"
+          },
+          {
+            "code" : "99771",
+            "display" : "Bifid uvula"
+          },
+          {
+            "code" : "99772",
+            "display" : "Cleft velum"
+          },
+          {
+            "code" : "99776",
+            "display" : "Mosaic trisomy 9"
+          },
+          {
+            "code" : "99789",
+            "display" : "Dentin dysplasia type I"
+          },
+          {
+            "code" : "99791",
+            "display" : "Dentin dysplasia type II"
+          },
+          {
+            "code" : "99792",
+            "display" : "Dentin dysplasia-sclerotic bones syndrome"
+          },
+          {
+            "code" : "99796",
+            "display" : "Subcortical band heterotopia"
+          },
+          {
+            "code" : "99797",
+            "display" : "Anodontia"
+          },
+          {
+            "code" : "99798",
+            "display" : "Oligodontia"
+          },
+          {
+            "code" : "99802",
+            "display" : "Hemimegalencephaly"
+          },
+          {
+            "code" : "99803",
+            "display" : "Haddad syndrome"
+          },
+          {
+            "code" : "99806",
+            "display" : "Oculootodental syndrome"
+          },
+          {
+            "code" : "99807",
+            "display" : "PEHO-like syndrome"
+          },
+          {
+            "code" : "99810",
+            "display" : "Familial porencephaly"
+          },
+          {
+            "code" : "99811",
+            "display" : "Neuronal intestinal pseudoobstruction"
+          },
+          {
+            "code" : "99812",
+            "display" : "LIG4 syndrome"
+          },
+          {
+            "code" : "99818",
+            "display" : "Turcot syndrome with polyposis"
+          },
+          {
+            "code" : "99819",
+            "display" : "Familial gestational hyperthyroidism"
+          },
+          {
+            "code" : "99824",
+            "display" : "Lassa fever"
+          },
+          {
+            "code" : "99825",
+            "display" : "Nipah virus disease"
+          },
+          {
+            "code" : "99826",
+            "display" : "Marburg hemorrhagic fever"
+          },
+          {
+            "code" : "99827",
+            "display" : "Crimean-Congo hemorrhagic fever"
+          },
+          {
+            "code" : "99828",
+            "display" : "Dengue fever"
+          },
+          {
+            "code" : "99829",
+            "display" : "Yellow fever"
+          },
+          {
+            "code" : "99832",
+            "display" : "Resistance to thyrotropin-releasing hormone syndrome"
+          },
+          {
+            "code" : "99842",
+            "display" : "Leukocyte adhesion deficiency type I"
+          },
+          {
+            "code" : "99843",
+            "display" : "Leukocyte adhesion deficiency type II"
+          },
+          {
+            "code" : "99844",
+            "display" : "Leukocyte adhesion deficiency type III"
+          },
+          {
+            "code" : "99845",
+            "display" : "Genetic recurrent myoglobinuria"
+          },
+          {
+            "code" : "99846",
+            "display" : "Autosomal dominant myoglobinuria"
+          },
+          {
+            "code" : "99849",
+            "display" : "Glycogen storage disease due to muscle beta-enolase deficiency"
+          },
+          {
+            "code" : "99852",
+            "display" : "Ravine syndrome"
+          },
+          {
+            "code" : "99853",
+            "display" : "Ovarioleukodystrophy"
+          },
+          {
+            "code" : "99854",
+            "display" : "Cree leukoencephalopathy"
+          },
+          {
+            "code" : "99856",
+            "display" : "Primary syringomyelia"
+          },
+          {
+            "code" : "99857",
+            "display" : "Secondary syringomyelia"
+          },
+          {
+            "code" : "99858",
+            "display" : "Idiopathic syringomyelia"
+          },
+          {
+            "code" : "99860",
+            "display" : "Precursor B-cell acute lymphoblastic leukemia"
+          },
+          {
+            "code" : "99861",
+            "display" : "Precursor T-cell acute lymphoblastic leukemia"
+          },
+          {
+            "code" : "99865",
+            "display" : "Spermatocytic seminoma"
+          },
+          {
+            "code" : "99867",
+            "display" : "Thymoma"
+          },
+          {
+            "code" : "99868",
+            "display" : "Thymic carcinoma"
+          },
+          {
+            "code" : "99869",
+            "display" : "Thymic neuroendocrine carcinoma"
+          },
+          {
+            "code" : "99879",
+            "display" : "Familial isolated hyperparathyroidism"
+          },
+          {
+            "code" : "99880",
+            "display" : "Hyperparathyroidism-jaw tumor syndrome"
+          },
+          {
+            "code" : "99885",
+            "display" : "Isolated permanent neonatal diabetes mellitus"
+          },
+          {
+            "code" : "99886",
+            "display" : "Transient neonatal diabetes mellitus"
+          },
+          {
+            "code" : "99887",
+            "display" : "Acute megakaryoblastic leukemia in children with Down syndrome"
+          },
+          {
+            "code" : "99889",
+            "display" : "Cushing syndrome due to ectopic ACTH secretion"
+          },
+          {
+            "code" : "99898",
+            "display" : "Mendelian susceptibility to mycobacterial diseases due to complete IFNgammaR1 deficiency"
+          },
+          {
+            "code" : "99901",
+            "display" : "Acyl-CoA dehydrogenase 9 deficiency"
+          },
+          {
+            "code" : "99903",
+            "display" : "Spirillary rat-bite fever"
+          },
+          {
+            "code" : "99905",
+            "display" : "Streptobacillary rat-bite fever"
+          },
+          {
+            "code" : "99906",
+            "display" : "Farmer's lung disease"
+          },
+          {
+            "code" : "99907",
+            "display" : "House allergic alveolitis"
+          },
+          {
+            "code" : "99908",
+            "display" : "Pigeon-breeder lung disease"
+          },
+          {
+            "code" : "99912",
+            "display" : "Ovarian dysgerminoma"
+          },
+          {
+            "code" : "99914",
+            "display" : "Gynandroblastoma"
+          },
+          {
+            "code" : "99915",
+            "display" : "Malignant granulosa cell tumor of the ovary"
+          },
+          {
+            "code" : "99916",
+            "display" : "Malignant Sertoli-Leydig cell tumor of the ovary"
+          },
+          {
+            "code" : "99917",
+            "display" : "Theca steroid-producing cell malignant tumor of ovary, not further specified"
+          },
+          {
+            "code" : "99918",
+            "display" : "Streptococcal toxic-shock syndrome"
+          },
+          {
+            "code" : "99919",
+            "display" : "Staphylococcal toxic-shock syndrome"
+          },
+          {
+            "code" : "99920",
+            "display" : "Acute graft versus host disease"
+          },
+          {
+            "code" : "99921",
+            "display" : "Chronic graft versus host disease"
+          },
+          {
+            "code" : "99922",
+            "display" : "Ocular cicatricial pemphigoid"
+          },
+          {
+            "code" : "99925",
+            "display" : "Invasive mole"
+          },
+          {
+            "code" : "99926",
+            "display" : "Gestational choriocarcinoma"
+          },
+          {
+            "code" : "99927",
+            "display" : "Hydatidiform mole"
+          },
+          {
+            "code" : "99928",
+            "display" : "Placental site trophoblastic tumor"
+          },
+          {
+            "code" : "99930",
+            "display" : "Secondary pulmonary hemosiderosis"
+          },
+          {
+            "code" : "99931",
+            "display" : "Idiopathic pulmonary hemosiderosis"
+          },
+          {
+            "code" : "99932",
+            "display" : "Heiner syndrome"
+          },
+          {
+            "code" : "99933",
+            "display" : "Pleuropulmonary blastoma type 1"
+          },
+          {
+            "code" : "99934",
+            "display" : "Pleuropulmonary blastoma type 2"
+          },
+          {
+            "code" : "99935",
+            "display" : "Pleuropulmonary blastoma type 3"
+          },
+          {
+            "code" : "99936",
+            "display" : "Autosomal dominant Charcot-Marie-Tooth disease type 2B"
+          },
+          {
+            "code" : "99937",
+            "display" : "Autosomal dominant Charcot-Marie-Tooth disease type 2C"
+          },
+          {
+            "code" : "99938",
+            "display" : "Autosomal dominant Charcot-Marie-Tooth disease type 2D"
+          },
+          {
+            "code" : "99939",
+            "display" : "Autosomal dominant Charcot-Marie-Tooth disease type 2E"
+          },
+          {
+            "code" : "99940",
+            "display" : "Autosomal dominant Charcot-Marie-Tooth disease type 2F"
+          },
+          {
+            "code" : "99941",
+            "display" : "Autosomal dominant Charcot-Marie-Tooth disease type 2G"
+          },
+          {
+            "code" : "99942",
+            "display" : "Autosomal dominant Charcot-Marie-Tooth disease type 2I"
+          },
+          {
+            "code" : "99943",
+            "display" : "Autosomal dominant Charcot-Marie-Tooth disease type 2J"
+          },
+          {
+            "code" : "99944",
+            "display" : "Autosomal dominant Charcot-Marie-Tooth disease type 2K"
+          },
+          {
+            "code" : "99945",
+            "display" : "Autosomal dominant Charcot-Marie-Tooth disease type 2L"
+          },
+          {
+            "code" : "99946",
+            "display" : "Autosomal dominant Charcot-Marie-Tooth disease type 2A1"
+          },
+          {
+            "code" : "99947",
+            "display" : "Autosomal dominant Charcot-Marie-Tooth disease type 2A2"
+          },
+          {
+            "code" : "99948",
+            "display" : "Charcot-Marie-Tooth disease type 4A"
+          },
+          {
+            "code" : "99949",
+            "display" : "Charcot-Marie-Tooth disease type 4C"
+          },
+          {
+            "code" : "99950",
+            "display" : "Charcot-Marie-Tooth disease type 4D"
+          },
+          {
+            "code" : "99951",
+            "display" : "Charcot-Marie-Tooth disease type 4E"
+          },
+          {
+            "code" : "99952",
+            "display" : "Charcot-Marie-Tooth disease type 4F"
+          },
+          {
+            "code" : "99953",
+            "display" : "Charcot-Marie-Tooth disease type 4G"
+          },
+          {
+            "code" : "99954",
+            "display" : "Charcot-Marie-Tooth disease type 4H"
+          },
+          {
+            "code" : "99955",
+            "display" : "Charcot-Marie-Tooth disease type 4B1"
+          },
+          {
+            "code" : "99956",
+            "display" : "Charcot-Marie-Tooth disease type 4B2"
+          },
+          {
+            "code" : "99960",
+            "display" : "Benign recurrent intrahepatic cholestasis type 1"
+          },
+          {
+            "code" : "99961",
+            "display" : "Benign recurrent intrahepatic cholestasis type 2"
+          },
+          {
+            "code" : "99965",
+            "display" : "O'Sullivan-McLeod syndrome"
+          },
+          {
+            "code" : "99966",
+            "display" : "Atypical teratoid rhabdoid tumor"
+          },
+          {
+            "code" : "99967",
+            "display" : "Myxoid/round cell liposarcoma"
+          },
+          {
+            "code" : "99969",
+            "display" : "Pleomorphic liposarcoma"
+          },
+          {
+            "code" : "99970",
+            "display" : "Dedifferentiated liposarcoma"
+          },
+          {
+            "code" : "99971",
+            "display" : "Well-differentiated liposarcoma"
+          },
+          {
+            "code" : "99976",
+            "display" : "Adenocarcinoma of the esophagus"
+          },
+          {
+            "code" : "99977",
+            "display" : "Squamous cell carcinoma of the esophagus"
+          },
+          {
+            "code" : "99978",
+            "display" : "Klatskin tumor"
+          },
+          {
+            "code" : "99981",
+            "display" : "Apnea of prematurity"
+          },
+          {
+            "code" : "99989",
+            "display" : "Intermediate DEND syndrome"
+          },
+          {
+            "code" : "99990",
+            "display" : "Brill-Zinsser disease"
+          },
+          {
+            "code" : "99991",
+            "display" : "Relapsing epidemic typhus"
+          },
+          {
+            "code" : "99994",
+            "display" : "Complex regional pain syndrome type 2"
+          },
+          {
+            "code" : "99995",
+            "display" : "Complex regional pain syndrome type 1"
+          },
+          {
+            "code" : "100000",
+            "display" : "Reticular perineurioma"
+          },
+          {
+            "code" : "100001",
+            "display" : "Sclerosing perineurioma"
+          },
+          {
+            "code" : "100002",
+            "display" : "Extraneural perineurioma"
+          },
+          {
+            "code" : "100003",
+            "display" : "Intraneural perineurioma"
+          },
+          {
+            "code" : "100006",
+            "display" : "ABeta amyloidosis, Dutch type"
+          },
+          {
+            "code" : "100008",
+            "display" : "ACys amyloidosis"
+          },
+          {
+            "code" : "100011",
+            "display" : "Lissencephaly with cerebellar hypoplasia type A"
+          },
+          {
+            "code" : "100012",
+            "display" : "Lissencephaly with cerebellar hypoplasia type B"
+          },
+          {
+            "code" : "100013",
+            "display" : "Lissencephaly with cerebellar hypoplasia type C"
+          },
+          {
+            "code" : "100014",
+            "display" : "Lissencephaly with cerebellar hypoplasia type D"
+          },
+          {
+            "code" : "100015",
+            "display" : "Lissencephaly with cerebellar hypoplasia type E"
+          },
+          {
+            "code" : "100016",
+            "display" : "Lissencephaly with cerebellar hypoplasia type F"
+          },
+          {
+            "code" : "100019",
+            "display" : "Myelodysplastic neoplasm with increased blasts type 1"
+          },
+          {
+            "code" : "100020",
+            "display" : "Myelodysplastic neoplasm with increased blasts type 2"
+          },
+          {
+            "code" : "100021",
+            "display" : "Primary plasmacytoma of the bone"
+          },
+          {
+            "code" : "100022",
+            "display" : "Extramedullary soft tissue plasmacytoma"
+          },
+          {
+            "code" : "100024",
+            "display" : "Mu-heavy chain disease"
+          },
+          {
+            "code" : "100025",
+            "display" : "Alpha-heavy chain disease"
+          },
+          {
+            "code" : "100026",
+            "display" : "Gamma-heavy chain disease"
+          },
+          {
+            "code" : "100031",
+            "display" : "Hypoplastic amelogenesis imperfecta"
+          },
+          {
+            "code" : "100032",
+            "display" : "Hypocalcified amelogenesis imperfecta"
+          },
+          {
+            "code" : "100033",
+            "display" : "Hypomaturation amelogenesis imperfecta"
+          },
+          {
+            "code" : "100034",
+            "display" : "Hypomaturation-hypoplastic amelogenesis imperfecta with taurodontism"
+          },
+          {
+            "code" : "100035",
+            "display" : "Solitary necrotic nodule of the liver"
+          },
+          {
+            "code" : "100043",
+            "display" : "Autosomal dominant intermediate Charcot-Marie-Tooth disease type A"
+          },
+          {
+            "code" : "100044",
+            "display" : "Autosomal dominant intermediate Charcot-Marie-Tooth disease type B"
+          },
+          {
+            "code" : "100045",
+            "display" : "Autosomal dominant intermediate Charcot-Marie-Tooth disease type C"
+          },
+          {
+            "code" : "100046",
+            "display" : "Autosomal dominant intermediate Charcot-Marie-Tooth disease type D"
+          },
+          {
+            "code" : "100047",
+            "display" : "Esophageal duplication cyst"
+          },
+          {
+            "code" : "100048",
+            "display" : "Tubular duplication of the esophagus"
+          },
+          {
+            "code" : "100050",
+            "display" : "Hereditary angioedema type 1"
+          },
+          {
+            "code" : "100051",
+            "display" : "Hereditary angioedema type 2"
+          },
+          {
+            "code" : "100054",
+            "display" : "F12-related hereditary angioedema with normal C1Inh"
+          },
+          {
+            "code" : "100055",
+            "display" : "Acquired angioedema type 2"
+          },
+          {
+            "code" : "100056",
+            "display" : "Acquired angioedema type 1"
+          },
+          {
+            "code" : "100057",
+            "display" : "Renin-angiotensin-aldosterone system-blocker-induced angioedema"
+          },
+          {
+            "code" : "100067",
+            "display" : "Waterhouse-Friderichsen syndrome"
+          },
+          {
+            "code" : "100069",
+            "display" : "Semantic dementia"
+          },
+          {
+            "code" : "100070",
+            "display" : "Progressive non-fluent aphasia"
+          },
+          {
+            "code" : "100071",
+            "display" : "Mosaic trisomy 3"
+          },
+          {
+            "code" : "100073",
+            "display" : "Neurogenic thoracic outlet syndrome"
+          },
+          {
+            "code" : "100075",
+            "display" : "Neuroendocrine tumor of stomach"
+          },
+          {
+            "code" : "100078",
+            "display" : "Ileal neuroendocrine tumor"
+          },
+          {
+            "code" : "100079",
+            "display" : "Neuroendocrine neoplasm of appendix"
+          },
+          {
+            "code" : "100080",
+            "display" : "Neuroendocrine tumor of the colon"
+          },
+          {
+            "code" : "100081",
+            "display" : "Neuroendocrine tumor of the rectum"
+          },
+          {
+            "code" : "100082",
+            "display" : "Neuroendocrine tumor of anal canal"
+          },
+          {
+            "code" : "100083",
+            "display" : "Laryngeal neuroendocrine tumor"
+          },
+          {
+            "code" : "100084",
+            "display" : "Middle ear neuroendocrine tumor"
+          },
+          {
+            "code" : "100085",
+            "display" : "Primary hepatic neuroendocrine carcinoma"
+          },
+          {
+            "code" : "100086",
+            "display" : "Gallbladder neuroendocrine tumor"
+          },
+          {
+            "code" : "100093",
+            "display" : "Carcinoid syndrome"
+          },
+          {
+            "code" : "100924",
+            "display" : "Porphyria due to ALA dehydratase deficiency"
+          },
+          {
+            "code" : "100973",
+            "display" : "FRAXE intellectual disability"
+          },
+          {
+            "code" : "100974",
+            "display" : "FRAXF syndrome"
+          },
+          {
+            "code" : "100976",
+            "display" : "Bathing suit ichthyosis"
+          },
+          {
+            "code" : "100978",
+            "display" : "Cloverleaf skull-asphyxiating thoracic dysplasia syndrome"
+          },
+          {
+            "code" : "100984",
+            "display" : "Autosomal dominant spastic paraplegia type 3"
+          },
+          {
+            "code" : "100985",
+            "display" : "Autosomal dominant spastic paraplegia type 4"
+          },
+          {
+            "code" : "100986",
+            "display" : "Autosomal recessive spastic paraplegia type 5A"
+          },
+          {
+            "code" : "100988",
+            "display" : "Autosomal dominant spastic paraplegia type 6"
+          },
+          {
+            "code" : "100989",
+            "display" : "Autosomal dominant spastic paraplegia type 8"
+          },
+          {
+            "code" : "100991",
+            "display" : "Autosomal dominant spastic paraplegia type 10"
+          },
+          {
+            "code" : "100993",
+            "display" : "Autosomal dominant spastic paraplegia type 12"
+          },
+          {
+            "code" : "100994",
+            "display" : "Autosomal dominant spastic paraplegia type 13"
+          },
+          {
+            "code" : "100995",
+            "display" : "Autosomal recessive spastic paraplegia type 14"
+          },
+          {
+            "code" : "100996",
+            "display" : "Autosomal recessive spastic paraplegia type 15"
+          },
+          {
+            "code" : "100997",
+            "display" : "X-linked spastic paraplegia type 16"
+          },
+          {
+            "code" : "100998",
+            "display" : "Autosomal dominant spastic paraplegia type 17"
+          },
+          {
+            "code" : "100999",
+            "display" : "Autosomal dominant spastic paraplegia type 19"
+          },
+          {
+            "code" : "101000",
+            "display" : "Autosomal recessive spastic paraplegia type 20"
+          },
+          {
+            "code" : "101001",
+            "display" : "Autosomal recessive spastic paraplegia type 21"
+          },
+          {
+            "code" : "101003",
+            "display" : "Autosomal recessive spastic paraplegia type 23"
+          },
+          {
+            "code" : "101004",
+            "display" : "Autosomal recessive spastic paraplegia type 24"
+          },
+          {
+            "code" : "101005",
+            "display" : "Autosomal recessive spastic paraplegia type 25"
+          },
+          {
+            "code" : "101006",
+            "display" : "Autosomal recessive spastic paraplegia type 26"
+          },
+          {
+            "code" : "101007",
+            "display" : "Autosomal recessive spastic paraplegia type 27"
+          },
+          {
+            "code" : "101008",
+            "display" : "Autosomal recessive spastic paraplegia type 28"
+          },
+          {
+            "code" : "101009",
+            "display" : "Autosomal dominant spastic paraplegia type 29"
+          },
+          {
+            "code" : "101010",
+            "display" : "Autosomal spastic paraplegia type 30"
+          },
+          {
+            "code" : "101011",
+            "display" : "Autosomal dominant spastic paraplegia type 31"
+          },
+          {
+            "code" : "101016",
+            "display" : "Romano-Ward syndrome"
+          },
+          {
+            "code" : "101023",
+            "display" : "Cleft hard palate"
+          },
+          {
+            "code" : "101028",
+            "display" : "Transaldolase deficiency"
+          },
+          {
+            "code" : "101029",
+            "display" : "Sub-cortical nodular heterotopia"
+          },
+          {
+            "code" : "101030",
+            "display" : "Subependymal nodular heterotopia"
+          },
+          {
+            "code" : "101039",
+            "display" : "Female restricted epilepsy with intellectual disability"
+          },
+          {
+            "code" : "101041",
+            "display" : "Familial hypofibrinogenemia"
+          },
+          {
+            "code" : "101043",
+            "display" : "Congenital aortic valve dysplasia"
+          },
+          {
+            "code" : "101046",
+            "display" : "Autosomal dominant epilepsy with auditory features"
+          },
+          {
+            "code" : "101049",
+            "display" : "Familial hypocalciuric hypercalcemia type 2"
+          },
+          {
+            "code" : "101050",
+            "display" : "Familial hypocalciuric hypercalcemia type 3"
+          },
+          {
+            "code" : "101063",
+            "display" : "Situs inversus totalis"
+          },
+          {
+            "code" : "101068",
+            "display" : "Congenital stromal corneal dystrophy"
+          },
+          {
+            "code" : "101070",
+            "display" : "Bilateral frontoparietal polymicrogyria"
+          },
+          {
+            "code" : "101071",
+            "display" : "Unilateral hemispheric polymicrogyria"
+          },
+          {
+            "code" : "101075",
+            "display" : "X-linked Charcot-Marie-Tooth disease type 1"
+          },
+          {
+            "code" : "101076",
+            "display" : "X-linked Charcot-Marie-Tooth disease type 2"
+          },
+          {
+            "code" : "101077",
+            "display" : "X-linked Charcot-Marie-Tooth disease type 3"
+          },
+          {
+            "code" : "101078",
+            "display" : "X-linked Charcot-Marie-Tooth disease type 4"
+          },
+          {
+            "code" : "101081",
+            "display" : "Charcot-Marie-Tooth disease type 1A"
+          },
+          {
+            "code" : "101082",
+            "display" : "Charcot-Marie-Tooth disease type 1B"
+          },
+          {
+            "code" : "101083",
+            "display" : "Charcot-Marie-Tooth disease type 1C"
+          },
+          {
+            "code" : "101084",
+            "display" : "Charcot-Marie-Tooth disease type 1D"
+          },
+          {
+            "code" : "101085",
+            "display" : "Charcot-Marie-Tooth disease type 1F"
+          },
+          {
+            "code" : "101088",
+            "display" : "X-linked hyper-IgM syndrome"
+          },
+          {
+            "code" : "101089",
+            "display" : "Hyper-IgM syndrome type 2"
+          },
+          {
+            "code" : "101090",
+            "display" : "Hyper-IgM syndrome type 3"
+          },
+          {
+            "code" : "101091",
+            "display" : "Hyper-IgM syndrome type 4"
+          },
+          {
+            "code" : "101092",
+            "display" : "Hyper-IgM syndrome type 5"
+          },
+          {
+            "code" : "101097",
+            "display" : "Autosomal recessive Charcot-Marie-Tooth disease with hoarseness"
+          },
+          {
+            "code" : "101101",
+            "display" : "Charcot-Marie-Tooth disease type 2B2"
+          },
+          {
+            "code" : "101102",
+            "display" : "Charcot-Marie-Tooth disease type 2H"
+          },
+          {
+            "code" : "101104",
+            "display" : "Marin-Amat syndrome"
+          },
+          {
+            "code" : "101108",
+            "display" : "Spinocerebellar ataxia type 23"
+          },
+          {
+            "code" : "101109",
+            "display" : "Spinocerebellar ataxia type 28"
+          },
+          {
+            "code" : "101110",
+            "display" : "Spinocerebellar ataxia type 20"
+          },
+          {
+            "code" : "101111",
+            "display" : "Spinocerebellar ataxia type 25"
+          },
+          {
+            "code" : "101112",
+            "display" : "Spinocerebellar ataxia type 26"
+          },
+          {
+            "code" : "101150",
+            "display" : "Autosomal recessive dopa-responsive dystonia"
+          },
+          {
+            "code" : "101206",
+            "display" : "Pulmonary valve agenesis-tetralogy of Fallot-absence of ductus arteriosus syndrome"
+          },
+          {
+            "code" : "101330",
+            "display" : "Porphyria cutanea tarda"
+          },
+          {
+            "code" : "101334",
+            "display" : "African tick typhus"
+          },
+          {
+            "code" : "101351",
+            "display" : "Familial isolated congenital asplenia"
+          },
+          {
+            "code" : "101685",
+            "display" : "Rare non-syndromic intellectual disability"
+          },
+          {
+            "code" : "101932",
+            "display" : "Anomaly of the mitral subvalvular apparatus"
+          },
+          {
+            "code" : "102379",
+            "display" : "Acute myeloid leukemia and myelodysplastic syndromes related to alkylating agent"
+          },
+          {
+            "code" : "102381",
+            "display" : "Acute myeloid leukemia and myelodysplastic syndromes related to topoisomerase type 2 inhibitor"
+          },
+          {
+            "code" : "102724",
+            "display" : "Acute myeloid leukemia with t(8;21)(q22;q22) translocation"
+          },
+          {
+            "code" : "103907",
+            "display" : "Chronic diarrhea due to glucoamylase deficiency"
+          },
+          {
+            "code" : "103908",
+            "display" : "Congenital sodium diarrhea"
+          },
+          {
+            "code" : "103909",
+            "display" : "Trehalase deficiency"
+          },
+          {
+            "code" : "103910",
+            "display" : "Congenital enterocyte heparan sulfate deficiency"
+          },
+          {
+            "code" : "103918",
+            "display" : "Tropical pancreatitis"
+          },
+          {
+            "code" : "103920",
+            "display" : "Undetermined colitis"
+          },
+          {
+            "code" : "104075",
+            "display" : "Adenocarcinoma of the small intestine"
+          },
+          {
+            "code" : "104076",
+            "display" : "Leiomyosarcoma of small intestine"
+          },
+          {
+            "code" : "104077",
+            "display" : "Myopathic intestinal pseudoobstruction"
+          },
+          {
+            "code" : "104078",
+            "display" : "Unclassified intestinal pseudoobstruction"
+          },
+          {
+            "code" : "137577",
+            "display" : "Neonatal hypoxic and ischemic brain injury"
+          },
+          {
+            "code" : "137583",
+            "display" : "Vulvar intraepithelial neoplasia"
+          },
+          {
+            "code" : "137593",
+            "display" : "Infectious epithelial keratitis"
+          },
+          {
+            "code" : "137596",
+            "display" : "Neurotrophic keratopathy"
+          },
+          {
+            "code" : "137599",
+            "display" : "Herpes simplex virus stromal keratitis"
+          },
+          {
+            "code" : "137602",
+            "display" : "Corneal endotheliitis"
+          },
+          {
+            "code" : "137605",
+            "display" : "Legius syndrome"
+          },
+          {
+            "code" : "137608",
+            "display" : "Segmental outgrowth-lipomatosis-arteriovenous malformation-epidermal nevus syndrome"
+          },
+          {
+            "code" : "137617",
+            "display" : "Nephrogenic systemic fibrosis"
+          },
+          {
+            "code" : "137622",
+            "display" : "Intractable diarrhea-choanal atresia-eye anomalies syndrome"
+          },
+          {
+            "code" : "137625",
+            "display" : "Glycogen storage disease due to muscle and heart glycogen synthase deficiency"
+          },
+          {
+            "code" : "137628",
+            "display" : "Cardiac anomalies-heterotaxy syndrome"
+          },
+          {
+            "code" : "137631",
+            "display" : "Lung fibrosis-immunodeficiency-46,XX gonadal dysgenesis syndrome"
+          },
+          {
+            "code" : "137634",
+            "display" : "Overgrowth-macrocephaly-facial dysmorphism syndrome"
+          },
+          {
+            "code" : "137639",
+            "display" : "Hypomyelinating leukodystrophy-ataxia-hypodontia-hypomyelination syndrome"
+          },
+          {
+            "code" : "137667",
+            "display" : "Capillary malformation-arteriovenous malformation"
+          },
+          {
+            "code" : "137672",
+            "display" : "Pellucid marginal degeneration"
+          },
+          {
+            "code" : "137675",
+            "display" : "Histiocytoid cardiomyopathy"
+          },
+          {
+            "code" : "137678",
+            "display" : "Spondyloepiphyseal dysplasia with metatarsal shortening"
+          },
+          {
+            "code" : "137681",
+            "display" : "Hepatoencephalopathy due to combined oxidative phosphorylation defect type 1"
+          },
+          {
+            "code" : "137686",
+            "display" : "Asherman syndrome"
+          },
+          {
+            "code" : "137698",
+            "display" : "Cytomegalovirus disease in patients with impaired cell mediated immunity deemed at risk"
+          },
+          {
+            "code" : "137754",
+            "display" : "Aminoacylase 1 deficiency"
+          },
+          {
+            "code" : "137776",
+            "display" : "Lethal congenital contracture syndrome type 2"
+          },
+          {
+            "code" : "137783",
+            "display" : "Lethal congenital contracture syndrome type 3"
+          },
+          {
+            "code" : "137810",
+            "display" : "Nodular cutaneous amyloidosis"
+          },
+          {
+            "code" : "137814",
+            "display" : "Macular amyloidosis"
+          },
+          {
+            "code" : "137817",
+            "display" : "Arachnoiditis"
+          },
+          {
+            "code" : "137820",
+            "display" : "Extrapelvic endometriosis"
+          },
+          {
+            "code" : "137831",
+            "display" : "X-linked intellectual disability-cerebellar hypoplasia syndrome"
+          },
+          {
+            "code" : "137834",
+            "display" : "Frank-Ter Haar syndrome"
+          },
+          {
+            "code" : "137839",
+            "display" : "Lemierre syndrome"
+          },
+          {
+            "code" : "137867",
+            "display" : "Madras motor neuron disease"
+          },
+          {
+            "code" : "137888",
+            "display" : "Auriculocondylar syndrome"
+          },
+          {
+            "code" : "137893",
+            "display" : "Male infertility due to large-headed multiflagellar polyploid spermatozoa"
+          },
+          {
+            "code" : "137898",
+            "display" : "Leukoencephalopathy with brain stem and spinal cord involvement-high lactate syndrome"
+          },
+          {
+            "code" : "137908",
+            "display" : "Hypotonia with lactic acidemia and hyperammonemia"
+          },
+          {
+            "code" : "137914",
+            "display" : "Choanal atresia"
+          },
+          {
+            "code" : "137917",
+            "display" : "Choanal atresia, unilateral"
+          },
+          {
+            "code" : "137920",
+            "display" : "Choanal atresia, bilateral"
+          },
+          {
+            "code" : "137926",
+            "display" : "Primary laryngeal lymphangioma"
+          },
+          {
+            "code" : "137929",
+            "display" : "Neonatal brainstem dysfunction"
+          },
+          {
+            "code" : "137932",
+            "display" : "Congenital laryngeal palsy"
+          },
+          {
+            "code" : "137935",
+            "display" : "Airway infantile hemangioma"
+          },
+          {
+            "code" : "139396",
+            "display" : "X-linked cerebral adrenoleukodystrophy"
+          },
+          {
+            "code" : "139399",
+            "display" : "Adrenomyeloneuropathy"
+          },
+          {
+            "code" : "139402",
+            "display" : "Drug reaction with eosinophilia and systemic symptoms"
+          },
+          {
+            "code" : "139406",
+            "display" : "Encephalopathy due to prosaposin deficiency"
+          },
+          {
+            "code" : "139411",
+            "display" : "Carney triad"
+          },
+          {
+            "code" : "139414",
+            "display" : "Congenital panfollicular nevus"
+          },
+          {
+            "code" : "139417",
+            "display" : "Acute transverse myelitis"
+          },
+          {
+            "code" : "139423",
+            "display" : "Idiopathic acute transverse myelitis"
+          },
+          {
+            "code" : "139426",
+            "display" : "Perioral myoclonia with absences"
+          },
+          {
+            "code" : "139431",
+            "display" : "Epilepsy with eyelid myoclonia"
+          },
+          {
+            "code" : "139436",
+            "display" : "Multicentric reticulohistiocytosis"
+          },
+          {
+            "code" : "139441",
+            "display" : "Hypomyelination with atrophy of basal ganglia and cerebellum"
+          },
+          {
+            "code" : "139444",
+            "display" : "Leukoencephalopathy with bilateral anterior temporal lobe cysts"
+          },
+          {
+            "code" : "139447",
+            "display" : "Progressive cavitating leukoencephalopathy"
+          },
+          {
+            "code" : "139450",
+            "display" : "Microtia-eye coloboma-imperforation of the nasolacrimal duct syndrome"
+          },
+          {
+            "code" : "139455",
+            "display" : "Autosomal recessive bestrophinopathy"
+          },
+          {
+            "code" : "139466",
+            "display" : "SERKAL syndrome"
+          },
+          {
+            "code" : "139471",
+            "display" : "Microphthalmia with brain and digit anomalies"
+          },
+          {
+            "code" : "139474",
+            "display" : "17q11.2 microduplication syndrome"
+          },
+          {
+            "code" : "139480",
+            "display" : "Autosomal recessive spastic paraplegia type 39"
+          },
+          {
+            "code" : "139485",
+            "display" : "Autosomal recessive ataxia due to ubiquinone deficiency"
+          },
+          {
+            "code" : "139507",
+            "display" : "Dietary iron overload disease"
+          },
+          {
+            "code" : "139512",
+            "display" : "Neuropathy with hearing impairment"
+          },
+          {
+            "code" : "139515",
+            "display" : "Charcot-Marie-Tooth disease type 4J"
+          },
+          {
+            "code" : "139518",
+            "display" : "Distal hereditary motor neuropathy type 1"
+          },
+          {
+            "code" : "139525",
+            "display" : "Distal hereditary motor neuropathy type 2"
+          },
+          {
+            "code" : "139536",
+            "display" : "Distal hereditary motor neuropathy type 5"
+          },
+          {
+            "code" : "139547",
+            "display" : "Distal spinal muscular atrophy type 3"
+          },
+          {
+            "code" : "139552",
+            "display" : "Distal hereditary motor neuropathy, Jerash type"
+          },
+          {
+            "code" : "139557",
+            "display" : "X-linked distal spinal muscular atrophy type 3"
+          },
+          {
+            "code" : "139564",
+            "display" : "Hereditary sensory and autonomic neuropathy type 1B"
+          },
+          {
+            "code" : "139573",
+            "display" : "Hereditary sensory and autonomic neuropathy with deafness and global delay"
+          },
+          {
+            "code" : "139578",
+            "display" : "Mutilating hereditary sensory neuropathy with spastic paraplegia"
+          },
+          {
+            "code" : "139583",
+            "display" : "X-linked hereditary sensory and autonomic neuropathy with deafness"
+          },
+          {
+            "code" : "139589",
+            "display" : "Distal hereditary motor neuropathy type 7"
+          },
+          {
+            "code" : "140286",
+            "display" : "Secondary hypoparathyroidism due to impaired parathormon secretion"
+          },
+          {
+            "code" : "140436",
+            "display" : "Primary intraosseous venous malformation"
+          },
+          {
+            "code" : "140481",
+            "display" : "Autosomal dominant slowed nerve conduction velocity"
+          },
+          {
+            "code" : "140896",
+            "display" : "Severe acute respiratory syndrome"
+          },
+          {
+            "code" : "140905",
+            "display" : "Hyperlipidemia due to hepatic triacylglycerol lipase deficiency"
+          },
+          {
+            "code" : "140908",
+            "display" : "Brachydactyly type B2"
+          },
+          {
+            "code" : "140917",
+            "display" : "Stapes ankylosis with broad thumbs and toes"
+          },
+          {
+            "code" : "140922",
+            "display" : "Titin-related limb-girdle muscular dystrophy R10"
+          },
+          {
+            "code" : "140927",
+            "display" : "Benign familial neonatal-infantile seizures"
+          },
+          {
+            "code" : "140933",
+            "display" : "Linear atrophoderma of Moulin"
+          },
+          {
+            "code" : "140936",
+            "display" : "Lelis syndrome"
+          },
+          {
+            "code" : "140941",
+            "display" : "Short stature due to primary acid-labile subunit deficiency"
+          },
+          {
+            "code" : "140944",
+            "display" : "CLOVES syndrome"
+          },
+          {
+            "code" : "140949",
+            "display" : "Low-flow priapism"
+          },
+          {
+            "code" : "140952",
+            "display" : "Syndactyly-telecanthus-anogenital and renal malformations syndrome"
+          },
+          {
+            "code" : "140957",
+            "display" : "Autosomal dominant macrothrombocytopenia"
+          },
+          {
+            "code" : "140963",
+            "display" : "Bilateral microtia-deafness-cleft palate syndrome"
+          },
+          {
+            "code" : "140966",
+            "display" : "Palmoplantar keratoderma, Nagashima type"
+          },
+          {
+            "code" : "140969",
+            "display" : "Saldino-Mainzer syndrome"
+          },
+          {
+            "code" : "140976",
+            "display" : "RHYNS syndrome"
+          },
+          {
+            "code" : "140989",
+            "display" : "Primary angiitis of the central nervous system"
+          },
+          {
+            "code" : "141000",
+            "display" : "Orofaciodigital syndrome type 11"
+          },
+          {
+            "code" : "141007",
+            "display" : "Orofaciodigital syndrome type 9"
+          },
+          {
+            "code" : "141013",
+            "display" : "First branchial cleft anomaly"
+          },
+          {
+            "code" : "141022",
+            "display" : "Second branchial cleft anomaly"
+          },
+          {
+            "code" : "141030",
+            "display" : "Third branchial cleft anomaly"
+          },
+          {
+            "code" : "141037",
+            "display" : "Fourth branchial cleft anomaly"
+          },
+          {
+            "code" : "141046",
+            "display" : "Cervical dermoid cyst"
+          },
+          {
+            "code" : "141051",
+            "display" : "Facial dermoid cyst"
+          },
+          {
+            "code" : "141061",
+            "display" : "Commissural lip fistula"
+          },
+          {
+            "code" : "141064",
+            "display" : "Lower lip fistula"
+          },
+          {
+            "code" : "141067",
+            "display" : "Cervicofacial fibrochondroma"
+          },
+          {
+            "code" : "141071",
+            "display" : "Digestive duplication cyst of the tongue"
+          },
+          {
+            "code" : "141074",
+            "display" : "External auditory canal aplasia/hypoplasia"
+          },
+          {
+            "code" : "141077",
+            "display" : "Epignathus"
+          },
+          {
+            "code" : "141083",
+            "display" : "Nasolacrimal duct cyst"
+          },
+          {
+            "code" : "141091",
+            "display" : "Polyrrhinia"
+          },
+          {
+            "code" : "141096",
+            "display" : "Supernumerary nostril"
+          },
+          {
+            "code" : "141099",
+            "display" : "Proboscis lateralis"
+          },
+          {
+            "code" : "141103",
+            "display" : "Nasal dermoid cyst"
+          },
+          {
+            "code" : "141107",
+            "display" : "Nasopharyngeal teratoma"
+          },
+          {
+            "code" : "141112",
+            "display" : "Nasal glial heterotopia"
+          },
+          {
+            "code" : "141115",
+            "display" : "Nasal ganglioglioma"
+          },
+          {
+            "code" : "141118",
+            "display" : "Nasal encephalocele"
+          },
+          {
+            "code" : "141121",
+            "display" : "Congenital subglottic stenosis"
+          },
+          {
+            "code" : "141124",
+            "display" : "Congenital laryngeal cyst"
+          },
+          {
+            "code" : "141127",
+            "display" : "Congenital tracheal stenosis"
+          },
+          {
+            "code" : "141132",
+            "display" : "Oculo-auriculo-vertebral spectrum"
+          },
+          {
+            "code" : "141145",
+            "display" : "Hemifacial hyperplasia"
+          },
+          {
+            "code" : "141148",
+            "display" : "Hemifacial myohyperplasia"
+          },
+          {
+            "code" : "141152",
+            "display" : "Isolated congenital hypoglossia/aglossia"
+          },
+          {
+            "code" : "141163",
+            "display" : "Glossopalatine ankylosis"
+          },
+          {
+            "code" : "141168",
+            "display" : "Frontonasal arteriovenous malformation"
+          },
+          {
+            "code" : "141171",
+            "display" : "Maxillary arteriovenous malformation"
+          },
+          {
+            "code" : "141174",
+            "display" : "Mandibular arteriovenous malformation"
+          },
+          {
+            "code" : "141179",
+            "display" : "Non-involuting congenital hemangioma"
+          },
+          {
+            "code" : "141184",
+            "display" : "Rapidly involuting congenital hemangioma"
+          },
+          {
+            "code" : "141194",
+            "display" : "Cerebrofacial arteriovenous metameric syndrome type 1"
+          },
+          {
+            "code" : "141199",
+            "display" : "Cerebrofacial arteriovenous metameric syndrome type 3"
+          },
+          {
+            "code" : "141209",
+            "display" : "Diffuse lymphatic malformation"
+          },
+          {
+            "code" : "141214",
+            "display" : "Isolated congenital syngnathia"
+          },
+          {
+            "code" : "141219",
+            "display" : "Nasal dorsum fistula"
+          },
+          {
+            "code" : "141239",
+            "display" : "Median cleft of the upper lip and maxilla"
+          },
+          {
+            "code" : "141242",
+            "display" : "Paramedian nasal cleft"
+          },
+          {
+            "code" : "141258",
+            "display" : "Tessier number 4 facial cleft"
+          },
+          {
+            "code" : "141261",
+            "display" : "Tessier number 5 facial cleft"
+          },
+          {
+            "code" : "141265",
+            "display" : "Tessier number 6 facial cleft"
+          },
+          {
+            "code" : "141276",
+            "display" : "Tessier number 7 facial cleft"
+          },
+          {
+            "code" : "141288",
+            "display" : "Midline cervical cleft"
+          },
+          {
+            "code" : "141291",
+            "display" : "Cleft lip and alveolus"
+          },
+          {
+            "code" : "141333",
+            "display" : "Biemond syndrome type 2"
+          },
+          {
+            "code" : "155838",
+            "display" : "Pinnae fistula or cyst"
+          },
+          {
+            "code" : "155878",
+            "display" : "Submucosal cleft palate"
+          },
+          {
+            "code" : "155884",
+            "display" : "Coloboma of superior eyelid"
+          },
+          {
+            "code" : "155889",
+            "display" : "Coloboma of inferior eyelid"
+          },
+          {
+            "code" : "156728",
+            "display" : "Spondyloepimetaphyseal dysplasia, matrilin-3 type"
+          },
+          {
+            "code" : "156731",
+            "display" : "Dyssegmental dysplasia, Rolland-Desbuquois type"
+          },
+          {
+            "code" : "157215",
+            "display" : "Hereditary hypophosphatemic rickets with hypercalciuria"
+          },
+          {
+            "code" : "157713",
+            "display" : "Congenital or early infantile CACH syndrome"
+          },
+          {
+            "code" : "157716",
+            "display" : "Late infantile CACH syndrome"
+          },
+          {
+            "code" : "157719",
+            "display" : "Juvenile or adult CACH syndrome"
+          },
+          {
+            "code" : "157769",
+            "display" : "Situs ambiguus"
+          },
+          {
+            "code" : "157791",
+            "display" : "Epithelioid hemangioendothelioma"
+          },
+          {
+            "code" : "157794",
+            "display" : "Hereditary mixed polyposis syndrome"
+          },
+          {
+            "code" : "157798",
+            "display" : "Serrated polyposis syndrome"
+          },
+          {
+            "code" : "157801",
+            "display" : "Mesoaxial synostotic syndactyly with phalangeal reduction"
+          },
+          {
+            "code" : "157808",
+            "display" : "Isolated pseudoarthrosis of the limbs"
+          },
+          {
+            "code" : "157820",
+            "display" : "Cold-induced sweating syndrome"
+          },
+          {
+            "code" : "157823",
+            "display" : "Klüver-Bucy syndrome"
+          },
+          {
+            "code" : "157826",
+            "display" : "Congenital epulis"
+          },
+          {
+            "code" : "157832",
+            "display" : "Craniorhiny"
+          },
+          {
+            "code" : "157835",
+            "display" : "Paroxysmal hemicrania"
+          },
+          {
+            "code" : "157846",
+            "display" : "Neuroferritinopathy"
+          },
+          {
+            "code" : "157850",
+            "display" : "Pantothenate kinase-associated neurodegeneration"
+          },
+          {
+            "code" : "157941",
+            "display" : "Huntington disease-like 1"
+          },
+          {
+            "code" : "157946",
+            "display" : "Huntington disease-like 3"
+          },
+          {
+            "code" : "157949",
+            "display" : "Combined immunodeficiency with granulomatosis"
+          },
+          {
+            "code" : "157954",
+            "display" : "ANE syndrome"
+          },
+          {
+            "code" : "157962",
+            "display" : "Oculoauricular syndrome, Schorderet type"
+          },
+          {
+            "code" : "157965",
+            "display" : "SLC39A13-related spondylodysplastic Ehlers-Danlos syndrome"
+          },
+          {
+            "code" : "157973",
+            "display" : "Congenital muscular dystrophy due to LMNA mutation"
+          },
+          {
+            "code" : "157991",
+            "display" : "Generalized eruptive histiocytosis"
+          },
+          {
+            "code" : "157997",
+            "display" : "Benign cephalic histiocytosis"
+          },
+          {
+            "code" : "158000",
+            "display" : "Juvenile xanthogranuloma"
+          },
+          {
+            "code" : "158003",
+            "display" : "Xanthoma disseminatum"
+          },
+          {
+            "code" : "158008",
+            "display" : "Papular xanthoma"
+          },
+          {
+            "code" : "158011",
+            "display" : "Necrobiotic xanthogranuloma"
+          },
+          {
+            "code" : "158014",
+            "display" : "Rosaï-Dorfman disease"
+          },
+          {
+            "code" : "158019",
+            "display" : "Indeterminate cell histiocytosis"
+          },
+          {
+            "code" : "158022",
+            "display" : "Progressive nodular histiocytosis"
+          },
+          {
+            "code" : "158025",
+            "display" : "Hereditary progressive mucinous histiocytosis"
+          },
+          {
+            "code" : "158029",
+            "display" : "Sea-blue histiocytosis"
+          },
+          {
+            "code" : "158048",
+            "display" : "Hemophagocytic syndrome associated with an infection"
+          },
+          {
+            "code" : "158057",
+            "display" : "Acquired hemophagocytic lymphohistiocytosis associated with malignant disease"
+          },
+          {
+            "code" : "158061",
+            "display" : "Macrophage activation syndrome"
+          },
+          {
+            "code" : "158668",
+            "display" : "Ectodermal dysplasia-skin fragility syndrome"
+          },
+          {
+            "code" : "158673",
+            "display" : "Localized dystrophic epidermolysis bullosa, acral form"
+          },
+          {
+            "code" : "158676",
+            "display" : "Localized dystrophic epidermolysis bullosa, nails only"
+          },
+          {
+            "code" : "158681",
+            "display" : "Epidermolysis bullosa simplex with circinate migratory erythema"
+          },
+          {
+            "code" : "158684",
+            "display" : "Epidermolysis bullosa simplex with pyloric atresia"
+          },
+          {
+            "code" : "158687",
+            "display" : "Lethal acantholytic erosive disorder"
+          },
+          {
+            "code" : "158766",
+            "display" : "Typical urticaria pigmentosa"
+          },
+          {
+            "code" : "158769",
+            "display" : "Plaque-form urticaria pigmentosa"
+          },
+          {
+            "code" : "158772",
+            "display" : "Nodular urticaria pigmentosa"
+          },
+          {
+            "code" : "158775",
+            "display" : "Smoldering systemic mastocytosis"
+          },
+          {
+            "code" : "158778",
+            "display" : "Isolated bone marrow mastocytosis"
+          },
+          {
+            "code" : "160148",
+            "display" : "Cap polyposis"
+          },
+          {
+            "code" : "162516",
+            "display" : "Isolated congenital nasal pyriform aperture stenosis"
+          },
+          {
+            "code" : "162526",
+            "display" : "Isolated congenital auditory ossicle malformation"
+          },
+          {
+            "code" : "163525",
+            "display" : "Subacute cutaneous lupus erythematosus"
+          },
+          {
+            "code" : "163596",
+            "display" : "Hb Bart's hydrops fetalis"
+          },
+          {
+            "code" : "163634",
+            "display" : "Maffucci syndrome"
+          },
+          {
+            "code" : "163649",
+            "display" : "Spondyloepiphyseal dysplasia-craniosynostosis-cleft palate-cataracts-intellectual disability syndrome"
+          },
+          {
+            "code" : "163654",
+            "display" : "Spondyloepiphyseal dysplasia-brachydactyly-speech disorder syndrome"
+          },
+          {
+            "code" : "163662",
+            "display" : "Spondyloepiphyseal dysplasia, Reardon type"
+          },
+          {
+            "code" : "163665",
+            "display" : "Spondyloepiphyseal dysplasia tarda, Kohn type"
+          },
+          {
+            "code" : "163668",
+            "display" : "Spondyloepiphyseal dysplasia, MacDermot type"
+          },
+          {
+            "code" : "163681",
+            "display" : "CNTNAP2-related developmental and epileptic encephalopathy"
+          },
+          {
+            "code" : "163684",
+            "display" : "Leukoencephalopathy-dystonia-motor neuropathy syndrome"
+          },
+          {
+            "code" : "163690",
+            "display" : "Hypotonia-cystinuria syndrome"
+          },
+          {
+            "code" : "163693",
+            "display" : "2p21 microdeletion syndrome"
+          },
+          {
+            "code" : "163696",
+            "display" : "Action myoclonus-renal failure syndrome"
+          },
+          {
+            "code" : "163699",
+            "display" : "Alveolar soft tissue sarcoma"
+          },
+          {
+            "code" : "163703",
+            "display" : "Febrile infection-related epilepsy syndrome"
+          },
+          {
+            "code" : "163708",
+            "display" : "Cryptogenic late-onset epileptic spasms"
+          },
+          {
+            "code" : "163717",
+            "display" : "Benign familial mesial temporal lobe epilepsy"
+          },
+          {
+            "code" : "163721",
+            "display" : "Rolandic epilepsy-speech dyspraxia syndrome"
+          },
+          {
+            "code" : "163727",
+            "display" : "Rolandic epilepsy-paroxysmal exercise-induced dystonia-writer's cramp syndrome"
+          },
+          {
+            "code" : "163746",
+            "display" : "Peripheral demyelinating neuropathy-central dysmyelinating leukodystrophy-Waardenburg syndrome-Hirschsprung disease"
+          },
+          {
+            "code" : "163921",
+            "display" : "Posttransplant acute limbic encephalitis"
+          },
+          {
+            "code" : "163927",
+            "display" : "Pustulosis palmaris et plantaris"
+          },
+          {
+            "code" : "163931",
+            "display" : "Acrodermatitis continua of Hallopeau"
+          },
+          {
+            "code" : "163934",
+            "display" : "Atopic keratoconjunctivitis"
+          },
+          {
+            "code" : "163937",
+            "display" : "X-linked intellectual disability, Najm type"
+          },
+          {
+            "code" : "163956",
+            "display" : "X-linked intellectual disability, Nascimento type"
+          },
+          {
+            "code" : "163961",
+            "display" : "X-linked cerebral-cerebellar-coloboma syndrome"
+          },
+          {
+            "code" : "163966",
+            "display" : "X-linked dominant chondrodysplasia, Chassaing-Lacombe type"
+          },
+          {
+            "code" : "163971",
+            "display" : "X-linked intellectual disability, Cilliers type"
+          },
+          {
+            "code" : "163976",
+            "display" : "X-linked intellectual disability, Van Esch type"
+          },
+          {
+            "code" : "163979",
+            "display" : "X-linked intellectual disability-craniofacioskeletal syndrome"
+          },
+          {
+            "code" : "163985",
+            "display" : "Hyperekplexia-epilepsy syndrome"
+          },
+          {
+            "code" : "164726",
+            "display" : "Acute myeloid leukemia and myelodysplastic syndromes related to radiation"
+          },
+          {
+            "code" : "164736",
+            "display" : "Familial advanced sleep-phase syndrome"
+          },
+          {
+            "code" : "165805",
+            "display" : "Familial mesial temporal lobe epilepsy with febrile seizures"
+          },
+          {
+            "code" : "165955",
+            "display" : "Wound myiasis"
+          },
+          {
+            "code" : "165958",
+            "display" : "Cavitary myiasis"
+          },
+          {
+            "code" : "165991",
+            "display" : "Exercise-induced hyperinsulinism"
+          },
+          {
+            "code" : "166002",
+            "display" : "Multiple epiphyseal dysplasia due to collagen 9 anomaly"
+          },
+          {
+            "code" : "166016",
+            "display" : "Multiple epiphyseal dysplasia, Lowry type"
+          },
+          {
+            "code" : "166024",
+            "display" : "Multiple epiphyseal dysplasia-macrocephaly-facial dysmorphism syndrome"
+          },
+          {
+            "code" : "166029",
+            "display" : "Multiple epiphyseal dysplasia-severe proximal femoral dysplasia syndrome"
+          },
+          {
+            "code" : "166032",
+            "display" : "Multiple epiphyseal dysplasia-miniepiphyses syndrome"
+          },
+          {
+            "code" : "166035",
+            "display" : "Brachydactyly-short stature-retinitis pigmentosa syndrome"
+          },
+          {
+            "code" : "166038",
+            "display" : "Metaphyseal chondrodysplasia, Kaitila type"
+          },
+          {
+            "code" : "166063",
+            "display" : "Pontocerebellar hypoplasia type 4"
+          },
+          {
+            "code" : "166073",
+            "display" : "Pontocerebellar hypoplasia type 6"
+          },
+          {
+            "code" : "166078",
+            "display" : "Von Willebrand disease type 1"
+          },
+          {
+            "code" : "166081",
+            "display" : "Von Willebrand disease type 2"
+          },
+          {
+            "code" : "166084",
+            "display" : "Von Willebrand disease type 2A"
+          },
+          {
+            "code" : "166087",
+            "display" : "Von Willebrand disease type 2B"
+          },
+          {
+            "code" : "166090",
+            "display" : "Von Willebrand disease type 2M"
+          },
+          {
+            "code" : "166093",
+            "display" : "Von Willebrand disease type 2N"
+          },
+          {
+            "code" : "166096",
+            "display" : "Von Willebrand disease type 3"
+          },
+          {
+            "code" : "166100",
+            "display" : "Autosomal dominant otospondylomegaepiphyseal dysplasia"
+          },
+          {
+            "code" : "166105",
+            "display" : "FASTKD2-related infantile mitochondrial encephalomyopathy"
+          },
+          {
+            "code" : "166108",
+            "display" : "Intellectual disability, Birk-Barel type"
+          },
+          {
+            "code" : "166113",
+            "display" : "Bazex syndrome"
+          },
+          {
+            "code" : "166119",
+            "display" : "Isolated osteopoikilosis"
+          },
+          {
+            "code" : "166260",
+            "display" : "Dentinogenesis imperfecta type 2"
+          },
+          {
+            "code" : "166265",
+            "display" : "Dentinogenesis imperfecta type 3"
+          },
+          {
+            "code" : "166272",
+            "display" : "Odontochondrodysplasia"
+          },
+          {
+            "code" : "166277",
+            "display" : "Wormian bone-multiple fractures-dentinogenesis imperfecta-skeletal dysplasia"
+          },
+          {
+            "code" : "166282",
+            "display" : "Familial sick sinus syndrome"
+          },
+          {
+            "code" : "166286",
+            "display" : "Porokeratotic eccrine ostial and dermal duct nevus"
+          },
+          {
+            "code" : "166291",
+            "display" : "Dirofilariasis"
+          },
+          {
+            "code" : "166299",
+            "display" : "Benign partial epilepsy of infancy with complex partial seizures"
+          },
+          {
+            "code" : "166302",
+            "display" : "Benign partial epilepsy with secondarily generalized seizures in infancy"
+          },
+          {
+            "code" : "166305",
+            "display" : "Benign infantile seizures associated with mild gastroenteritis"
+          },
+          {
+            "code" : "166308",
+            "display" : "Benign infantile focal epilepsy with midline spikes and waves during sleep"
+          },
+          {
+            "code" : "166409",
+            "display" : "Photosensitive epilepsy"
+          },
+          {
+            "code" : "166412",
+            "display" : "Hot water reflex epilepsy"
+          },
+          {
+            "code" : "166415",
+            "display" : "Audiogenic seizures"
+          },
+          {
+            "code" : "166418",
+            "display" : "Eating reflex epilepsy"
+          },
+          {
+            "code" : "166421",
+            "display" : "Orgasm-induced seizures"
+          },
+          {
+            "code" : "166424",
+            "display" : "Thinking seizures"
+          },
+          {
+            "code" : "166427",
+            "display" : "Startle epilepsy"
+          },
+          {
+            "code" : "166430",
+            "display" : "Micturation-induced seizures"
+          },
+          {
+            "code" : "166433",
+            "display" : "Reading seizures"
+          },
+          {
+            "code" : "167635",
+            "display" : "Scleromyxedema"
+          },
+          {
+            "code" : "168443",
+            "display" : "Spondyloepimetaphyseal dysplasia-hypotrichosis syndrome"
+          },
+          {
+            "code" : "168451",
+            "display" : "Spondyloepimetaphyseal dysplasia-abnormal dentition syndrome"
+          },
+          {
+            "code" : "168454",
+            "display" : "Spondyloepimetaphyseal dysplasia, Geneviève type"
+          },
+          {
+            "code" : "168544",
+            "display" : "Spondylometaphyseal dysplasia, Golden type"
+          },
+          {
+            "code" : "168549",
+            "display" : "Axial spondylometaphyseal dysplasia"
+          },
+          {
+            "code" : "168552",
+            "display" : "Spondylometaphyseal dysplasia-bowed forearms-facial dysmorphism syndrome"
+          },
+          {
+            "code" : "168555",
+            "display" : "Spondylometaphyseal dysplasia, A4 type"
+          },
+          {
+            "code" : "168558",
+            "display" : "46,XY difference of sex development-adrenal insufficiency due to CYP11A1 deficiency"
+          },
+          {
+            "code" : "168563",
+            "display" : "46,XY gonadal dysgenesis-motor and sensory neuropathy syndrome"
+          },
+          {
+            "code" : "168566",
+            "display" : "Fatal mitochondrial disease due to combined oxidative phosphorylation defect type 3"
+          },
+          {
+            "code" : "168569",
+            "display" : "H syndrome"
+          },
+          {
+            "code" : "168572",
+            "display" : "Native American myopathy"
+          },
+          {
+            "code" : "168577",
+            "display" : "Hereditary cryohydrocytosis with reduced stomatin"
+          },
+          {
+            "code" : "168583",
+            "display" : "Hereditary North American Indian childhood cirrhosis"
+          },
+          {
+            "code" : "168588",
+            "display" : "Hyperandrogenism due to cortisone reductase deficiency"
+          },
+          {
+            "code" : "168593",
+            "display" : "Sudden infant death-dysgenesis of the testes syndrome"
+          },
+          {
+            "code" : "168598",
+            "display" : "Methionine adenosyltransferase I/III deficiency"
+          },
+          {
+            "code" : "168601",
+            "display" : "Congenital enteropathy due to enteropeptidase deficiency"
+          },
+          {
+            "code" : "168606",
+            "display" : "Seborrhea-like dermatitis with psoriasiform elements"
+          },
+          {
+            "code" : "168612",
+            "display" : "Congenital deficiency in alpha-fetoprotein"
+          },
+          {
+            "code" : "168615",
+            "display" : "Hereditary persistence of alpha-fetoprotein"
+          },
+          {
+            "code" : "168621",
+            "display" : "Dysplasia of head of femur, Meyer type"
+          },
+          {
+            "code" : "168624",
+            "display" : "Familial scaphocephaly syndrome, McGillivray type"
+          },
+          {
+            "code" : "168629",
+            "display" : "Autosomal thrombocytopenia with normal platelets"
+          },
+          {
+            "code" : "168632",
+            "display" : "Generalized basaloid follicular hamartoma syndrome"
+          },
+          {
+            "code" : "168782",
+            "display" : "Childhood disintegrative disorder"
+          },
+          {
+            "code" : "168796",
+            "display" : "Heart-hand syndrome, Slovenian type"
+          },
+          {
+            "code" : "168811",
+            "display" : "Malignant peritoneal mesothelioma"
+          },
+          {
+            "code" : "168816",
+            "display" : "Peritoneal inclusion cyst"
+          },
+          {
+            "code" : "168829",
+            "display" : "Primary peritoneal carcinoma"
+          },
+          {
+            "code" : "168940",
+            "display" : "Chronic eosinophilic leukemia"
+          },
+          {
+            "code" : "168947",
+            "display" : "Myeloid/lymphoid neoplasm associated with PDGFRA rearrangement"
+          },
+          {
+            "code" : "168950",
+            "display" : "Myeloid/lymphoid neoplasm associated with PDGFRB rearrangement"
+          },
+          {
+            "code" : "168953",
+            "display" : "Myeloid/lymphoid neoplasm associated with FGFR1 rearrangement"
+          },
+          {
+            "code" : "168960",
+            "display" : "Refractory anemia with excess blasts in transformation"
+          },
+          {
+            "code" : "168966",
+            "display" : "Composite lymphoma"
+          },
+          {
+            "code" : "168984",
+            "display" : "CLAPO syndrome"
+          },
+          {
+            "code" : "168999",
+            "display" : "Malignant melanoma of the mucosa"
+          },
+          {
+            "code" : "169079",
+            "display" : "Cernunnos-XLF deficiency"
+          },
+          {
+            "code" : "169082",
+            "display" : "Combined immunodeficiency due to CD3gamma deficiency"
+          },
+          {
+            "code" : "169085",
+            "display" : "Susceptibility to respiratory infections associated with CD8alpha chain mutation"
+          },
+          {
+            "code" : "169090",
+            "display" : "Combined immunodeficiency due to CRAC channel dysfunction"
+          },
+          {
+            "code" : "169095",
+            "display" : "Severe combined immunodeficiency due to FOXN1 deficiency"
+          },
+          {
+            "code" : "169100",
+            "display" : "Immunodeficiency due to CD25 deficiency"
+          },
+          {
+            "code" : "169105",
+            "display" : "Good syndrome"
+          },
+          {
+            "code" : "169110",
+            "display" : "Immunoglobulin heavy chain deficiency"
+          },
+          {
+            "code" : "169139",
+            "display" : "Transient hypogammaglobulinemia of infancy"
+          },
+          {
+            "code" : "169142",
+            "display" : "Recurrent infections due to specific granule deficiency"
+          },
+          {
+            "code" : "169147",
+            "display" : "Immunodeficiency due to a classical component pathway complement deficiency"
+          },
+          {
+            "code" : "169150",
+            "display" : "Immunodeficiency due to a late component of complement deficiency"
+          },
+          {
+            "code" : "169154",
+            "display" : "T-B+ severe combined immunodeficiency due to IL-7Ralpha deficiency"
+          },
+          {
+            "code" : "169157",
+            "display" : "T-B+ severe combined immunodeficiency due to CD45 deficiency"
+          },
+          {
+            "code" : "169160",
+            "display" : "T-B+ severe combined immunodeficiency due to CD3delta/CD3epsilon/CD3zeta"
+          },
+          {
+            "code" : "169186",
+            "display" : "Autosomal recessive centronuclear myopathy"
+          },
+          {
+            "code" : "169189",
+            "display" : "Autosomal dominant centronuclear myopathy"
+          },
+          {
+            "code" : "169464",
+            "display" : "Primary CD59 deficiency"
+          },
+          {
+            "code" : "169467",
+            "display" : "Recurrent Neisseria infections due to factor D deficiency"
+          },
+          {
+            "code" : "169793",
+            "display" : "Severe hemophilia B"
+          },
+          {
+            "code" : "169796",
+            "display" : "Moderate hemophilia B"
+          },
+          {
+            "code" : "169799",
+            "display" : "Mild hemophilia B"
+          },
+          {
+            "code" : "169802",
+            "display" : "Severe hemophilia A"
+          },
+          {
+            "code" : "169805",
+            "display" : "Moderate hemophilia A"
+          },
+          {
+            "code" : "169808",
+            "display" : "Mild hemophilia A"
+          },
+          {
+            "code" : "171220",
+            "display" : "Rectal duplication"
+          },
+          {
+            "code" : "171430",
+            "display" : "Severe congenital nemaline myopathy"
+          },
+          {
+            "code" : "171433",
+            "display" : "Intermediate nemaline myopathy"
+          },
+          {
+            "code" : "171436",
+            "display" : "Typical nemaline myopathy"
+          },
+          {
+            "code" : "171439",
+            "display" : "Childhood-onset nemaline myopathy"
+          },
+          {
+            "code" : "171442",
+            "display" : "Adult-onset nemaline myopathy"
+          },
+          {
+            "code" : "171445",
+            "display" : "Muscle filaminopathy"
+          },
+          {
+            "code" : "171607",
+            "display" : "X-linked spastic paraplegia type 34"
+          },
+          {
+            "code" : "171612",
+            "display" : "Autosomal dominant spastic paraplegia type 37"
+          },
+          {
+            "code" : "171617",
+            "display" : "Autosomal dominant spastic paraplegia type 38"
+          },
+          {
+            "code" : "171622",
+            "display" : "Autosomal recessive spastic paraplegia type 32"
+          },
+          {
+            "code" : "171629",
+            "display" : "Autosomal recessive spastic paraplegia type 35"
+          },
+          {
+            "code" : "171673",
+            "display" : "Limbal stem cell deficiency"
+          },
+          {
+            "code" : "171680",
+            "display" : "Lissencephaly due to TUBA1A mutation"
+          },
+          {
+            "code" : "171684",
+            "display" : "Idiopathic bilateral vestibulopathy"
+          },
+          {
+            "code" : "171690",
+            "display" : "Metabolic myopathy due to lactate transporter defect"
+          },
+          {
+            "code" : "171695",
+            "display" : "Parkinsonian-pyramidal syndrome"
+          },
+          {
+            "code" : "171700",
+            "display" : "Diffuse panbronchiolitis"
+          },
+          {
+            "code" : "171703",
+            "display" : "Microcephaly-polymicrogyria-corpus callosum agenesis syndrome"
+          },
+          {
+            "code" : "171706",
+            "display" : "Short stature-delayed bone age due to thyroid hormone metabolism deficiency"
+          },
+          {
+            "code" : "171709",
+            "display" : "Male infertility due to globozoospermia"
+          },
+          {
+            "code" : "171719",
+            "display" : "Cutis laxa-Marfanoid syndrome"
+          },
+          {
+            "code" : "171723",
+            "display" : "White sponge nevus"
+          },
+          {
+            "code" : "171829",
+            "display" : "6q16 microdeletion syndrome"
+          },
+          {
+            "code" : "171839",
+            "display" : "Craniosynostosis-hydrocephalus-Arnold-Chiari malformation type I-radioulnar synostosis syndrome"
+          },
+          {
+            "code" : "171844",
+            "display" : "Blindness-scoliosis-arachnodactyly syndrome"
+          },
+          {
+            "code" : "171848",
+            "display" : "Polyneuropathy-hearing loss-ataxia-retinitis pigmentosa-cataract syndrome"
+          },
+          {
+            "code" : "171851",
+            "display" : "MEDNIK syndrome"
+          },
+          {
+            "code" : "171863",
+            "display" : "Autosomal dominant spastic paraplegia type 42"
+          },
+          {
+            "code" : "171866",
+            "display" : "Spondyloepimetaphyseal dysplasia, aggrecan type"
+          },
+          {
+            "code" : "171871",
+            "display" : "Renal pseudohypoaldosteronism type 1"
+          },
+          {
+            "code" : "171876",
+            "display" : "Generalized pseudohypoaldosteronism type 1"
+          },
+          {
+            "code" : "171881",
+            "display" : "Cap myopathy"
+          },
+          {
+            "code" : "171886",
+            "display" : "Cylindrical spirals myopathy"
+          },
+          {
+            "code" : "171889",
+            "display" : "Myopathy with hexagonally cross-linked tubular arrays"
+          },
+          {
+            "code" : "171929",
+            "display" : "Trisomy 10p"
+          },
+          {
+            "code" : "177901",
+            "display" : "Prader-Willi syndrome due to paternal deletion of 15q11q13 type 1"
+          },
+          {
+            "code" : "177904",
+            "display" : "Prader-Willi syndrome due to paternal deletion of 15q11q13 type 2"
+          },
+          {
+            "code" : "177907",
+            "display" : "Prader-Willi syndrome due to translocation"
+          },
+          {
+            "code" : "177910",
+            "display" : "Prader-Willi syndrome due to imprinting mutation"
+          },
+          {
+            "code" : "177926",
+            "display" : "Bleeding disorder in hemophilia A carriers"
+          },
+          {
+            "code" : "177929",
+            "display" : "Bleeding disorder in hemophilia B carriers"
+          },
+          {
+            "code" : "178029",
+            "display" : "Arginine vasopressin deficiency"
+          },
+          {
+            "code" : "178145",
+            "display" : "Moderate multiminicore disease with hand involvement"
+          },
+          {
+            "code" : "178148",
+            "display" : "Antenatal multiminicore disease with arthrogryposis multiplex congenita"
+          },
+          {
+            "code" : "178303",
+            "display" : "8q22.1 microdeletion syndrome"
+          },
+          {
+            "code" : "178307",
+            "display" : "Reticulate acropigmentation of Kitamura"
+          },
+          {
+            "code" : "178311",
+            "display" : "Isolated sternocostoclavicular hyperostosis"
+          },
+          {
+            "code" : "178315",
+            "display" : "Undifferentiated embryonal sarcoma of the liver"
+          },
+          {
+            "code" : "178320",
+            "display" : "Acute lung injury"
+          },
+          {
+            "code" : "178333",
+            "display" : "Åland Islands eye disease"
+          },
+          {
+            "code" : "178338",
+            "display" : "UV-sensitive syndrome"
+          },
+          {
+            "code" : "178342",
+            "display" : "Inflammatory myofibroblastic tumor"
+          },
+          {
+            "code" : "178345",
+            "display" : "Aromatase excess syndrome"
+          },
+          {
+            "code" : "178355",
+            "display" : "Smith-McCort dysplasia"
+          },
+          {
+            "code" : "178364",
+            "display" : "Syndromic microphthalmia type 5"
+          },
+          {
+            "code" : "178377",
+            "display" : "Osteosclerosis-developmental delay-craniosynostosis syndrome"
+          },
+          {
+            "code" : "178382",
+            "display" : "Congenital vertical talus"
+          },
+          {
+            "code" : "178389",
+            "display" : "Osteopetrosis-hypogammaglobulinemia syndrome"
+          },
+          {
+            "code" : "178396",
+            "display" : "Hemorrhagic disease due to alpha-1-antitrypsin Pittsburgh mutation"
+          },
+          {
+            "code" : "178400",
+            "display" : "Distal myopathy with anterior tibial onset"
+          },
+          {
+            "code" : "178461",
+            "display" : "X-linked myopathy with postural muscle atrophy"
+          },
+          {
+            "code" : "178464",
+            "display" : "Hereditary myopathy with early respiratory failure"
+          },
+          {
+            "code" : "178469",
+            "display" : "Autosomal dominant non-syndromic intellectual disability"
+          },
+          {
+            "code" : "178475",
+            "display" : "Wound botulism"
+          },
+          {
+            "code" : "178478",
+            "display" : "Infant botulism"
+          },
+          {
+            "code" : "178481",
+            "display" : "Intestinal botulism"
+          },
+          {
+            "code" : "178487",
+            "display" : "Adult intestinal botulism"
+          },
+          {
+            "code" : "178506",
+            "display" : "Brain calcification, Rajab type"
+          },
+          {
+            "code" : "178509",
+            "display" : "Perry syndrome"
+          },
+          {
+            "code" : "178512",
+            "display" : "Folliculotropic mycosis fungoides"
+          },
+          {
+            "code" : "178517",
+            "display" : "Localized pagetoid reticulosis"
+          },
+          {
+            "code" : "178522",
+            "display" : "Primary cutaneous CD4+ small/medium-sized pleomorphic T-cell lymphoma"
+          },
+          {
+            "code" : "178528",
+            "display" : "Primary cutaneous aggressive epidermotropic CD8+ T-cell lymphoma"
+          },
+          {
+            "code" : "178533",
+            "display" : "Primary cutaneous gamma/delta-positive T-cell lymphoma"
+          },
+          {
+            "code" : "178536",
+            "display" : "Primary cutaneous marginal zone B-cell lymphoma"
+          },
+          {
+            "code" : "178540",
+            "display" : "Primary cutaneous follicle center lymphoma"
+          },
+          {
+            "code" : "178544",
+            "display" : "Primary cutaneous diffuse large B-cell lymphoma, leg type"
+          },
+          {
+            "code" : "179490",
+            "display" : "Obesity due to congenital leptin resistance"
+          },
+          {
+            "code" : "179494",
+            "display" : "Obesity due to leptin receptor gene deficiency"
+          },
+          {
+            "code" : "180074",
+            "display" : "True unicornuate uterus"
+          },
+          {
+            "code" : "180079",
+            "display" : "Pseudounicornuate uterus"
+          },
+          {
+            "code" : "180086",
+            "display" : "Didelphys uterus"
+          },
+          {
+            "code" : "180106",
+            "display" : "Bicervical bicornuate uterus and blind hemivagina"
+          },
+          {
+            "code" : "180111",
+            "display" : "Bicervical bicornuate uterus with patent cervix and vagina"
+          },
+          {
+            "code" : "180114",
+            "display" : "Unicervical bicornuate uterus"
+          },
+          {
+            "code" : "180126",
+            "display" : "Complete septate uterus"
+          },
+          {
+            "code" : "180129",
+            "display" : "Partial septate uterus"
+          },
+          {
+            "code" : "180139",
+            "display" : "Uterine hypoplasia"
+          },
+          {
+            "code" : "180142",
+            "display" : "Absence of uterine body"
+          },
+          {
+            "code" : "180145",
+            "display" : "Uterine cervical aplasia and agenesis"
+          },
+          {
+            "code" : "180154",
+            "display" : "Septate vagina"
+          },
+          {
+            "code" : "180157",
+            "display" : "Longitudinal vaginal septum"
+          },
+          {
+            "code" : "180160",
+            "display" : "Transverse vaginal septum"
+          },
+          {
+            "code" : "180176",
+            "display" : "Familial juvenile hypertrophy of the breast"
+          },
+          {
+            "code" : "180182",
+            "display" : "Supernumerary breasts"
+          },
+          {
+            "code" : "180188",
+            "display" : "Isolated congenital breast hypoplasia/aplasia"
+          },
+          {
+            "code" : "180226",
+            "display" : "Embryonal carcinoma"
+          },
+          {
+            "code" : "180229",
+            "display" : "Polyembryoma"
+          },
+          {
+            "code" : "180234",
+            "display" : "Mixed germ cell tumor"
+          },
+          {
+            "code" : "180237",
+            "display" : "Benign tumor of fallopian tubes"
+          },
+          {
+            "code" : "180242",
+            "display" : "Malignant tumor of fallopian tubes"
+          },
+          {
+            "code" : "180247",
+            "display" : "Vaginal carcinoma"
+          },
+          {
+            "code" : "180261",
+            "display" : "Phyllodes tumor of the breast"
+          },
+          {
+            "code" : "180267",
+            "display" : "Giant adenofibroma of the breast"
+          },
+          {
+            "code" : "180275",
+            "display" : "Paget disease of the nipple"
+          },
+          {
+            "code" : "182050",
+            "display" : "MYH9-related disease"
+          },
+          {
+            "code" : "182127",
+            "display" : "Extragonadal germinoma"
+          },
+          {
+            "code" : "183663",
+            "display" : "Hyper-IgM syndrome with susceptibility to opportunistic infections"
+          },
+          {
+            "code" : "183666",
+            "display" : "Hyper-IgM syndrome without susceptibility to opportunistic infections"
+          },
+          {
+            "code" : "183675",
+            "display" : "Recurrent infections associated with rare immunoglobulin isotypes deficiency"
+          },
+          {
+            "code" : "183678",
+            "display" : "Hermansky-Pudlak syndrome due to AP-3 deficiency"
+          },
+          {
+            "code" : "183707",
+            "display" : "Infantile LAD-like disease due to RAC2 deficiency"
+          },
+          {
+            "code" : "183713",
+            "display" : "Bacterial susceptibility due to TLR signaling pathway deficiency"
+          },
+          {
+            "code" : "189427",
+            "display" : "Cushing syndrome due to bilateral macronodular adrenocortical disease"
+          },
+          {
+            "code" : "189466",
+            "display" : "Familial isolated hypoparathyroidism due to impaired PTH secretion"
+          },
+          {
+            "code" : "199241",
+            "display" : "Pulmonary capillary hemangiomatosis"
+          },
+          {
+            "code" : "199244",
+            "display" : "Nelson syndrome"
+          },
+          {
+            "code" : "199247",
+            "display" : "Corticosteroid-binding globulin deficiency"
+          },
+          {
+            "code" : "199251",
+            "display" : "Ledderhose disease"
+          },
+          {
+            "code" : "199260",
+            "display" : "Calcifying aponeurotic fibroma"
+          },
+          {
+            "code" : "199267",
+            "display" : "Infantile digital fibromatosis"
+          },
+          {
+            "code" : "199276",
+            "display" : "Familial multiple lipomatosis"
+          },
+          {
+            "code" : "199279",
+            "display" : "Familial angiolipomatosis"
+          },
+          {
+            "code" : "199282",
+            "display" : "Harlequin syndrome"
+          },
+          {
+            "code" : "199285",
+            "display" : "Hereditary hypercarotenemia and vitamin A deficiency"
+          },
+          {
+            "code" : "199293",
+            "display" : "Congenital microgastria"
+          },
+          {
+            "code" : "199296",
+            "display" : "Congenital isolated ACTH deficiency"
+          },
+          {
+            "code" : "199299",
+            "display" : "Late-onset isolated ACTH deficiency"
+          },
+          {
+            "code" : "199302",
+            "display" : "Isolated cleft lip"
+          },
+          {
+            "code" : "199306",
+            "display" : "Cleft lip/palate"
+          },
+          {
+            "code" : "199310",
+            "display" : "Tetragametic chimerism"
+          },
+          {
+            "code" : "199315",
+            "display" : "Familial clubfoot with or without associated lower limb anomalies"
+          },
+          {
+            "code" : "199318",
+            "display" : "15q13.3 microdeletion syndrome"
+          },
+          {
+            "code" : "199323",
+            "display" : "Endophthalmitis"
+          },
+          {
+            "code" : "199326",
+            "display" : "Isolated autosomal dominant hypomagnesemia, Glaudemans type"
+          },
+          {
+            "code" : "199329",
+            "display" : "Congenital myopathy, Paradas type"
+          },
+          {
+            "code" : "199332",
+            "display" : "Endocrine-cerebro-osteodysplasia syndrome"
+          },
+          {
+            "code" : "199337",
+            "display" : "Pancreatic insufficiency-anemia-hyperostosis syndrome"
+          },
+          {
+            "code" : "199340",
+            "display" : "Muscular dystrophy, Selcen type"
+          },
+          {
+            "code" : "199343",
+            "display" : "EAST syndrome"
+          },
+          {
+            "code" : "199348",
+            "display" : "Thiamine-responsive encephalopathy"
+          },
+          {
+            "code" : "199351",
+            "display" : "Adult-onset dystonia-parkinsonism"
+          },
+          {
+            "code" : "199354",
+            "display" : "Cerebral autosomal recessive arteriopathy-subcortical infarcts-leukoencephalopathy"
+          },
+          {
+            "code" : "199627",
+            "display" : "Atypical autism"
+          },
+          {
+            "code" : "199630",
+            "display" : "Isolated cerebellar vermis hypoplasia"
+          },
+          {
+            "code" : "199642",
+            "display" : "Isolated congenital microcephaly"
+          },
+          {
+            "code" : "199647",
+            "display" : "Isolated encephalocele"
+          },
+          {
+            "code" : "200418",
+            "display" : "Immunodeficiency with factor I anomaly"
+          },
+          {
+            "code" : "200421",
+            "display" : "Immunodeficiency with factor H anomaly"
+          },
+          {
+            "code" : "206436",
+            "display" : "Infantile Krabbe disease"
+          },
+          {
+            "code" : "206443",
+            "display" : "Late-infantile/juvenile Krabbe disease"
+          },
+          {
+            "code" : "206448",
+            "display" : "Adult Krabbe disease"
+          },
+          {
+            "code" : "206470",
+            "display" : "Cystadenoma of childhood"
+          },
+          {
+            "code" : "206484",
+            "display" : "Gonadoblastoma"
+          },
+          {
+            "code" : "206489",
+            "display" : "Malignant germ cell tumor of the vagina"
+          },
+          {
+            "code" : "206492",
+            "display" : "Vulvovaginal rhabdomyosarcoma"
+          },
+          {
+            "code" : "206538",
+            "display" : "Malignant non-dysgerminomatous germ cell tumor of ovary"
+          },
+          {
+            "code" : "206546",
+            "display" : "Symptomatic form of muscular dystrophy of Duchenne and Becker in female carriers"
+          },
+          {
+            "code" : "206549",
+            "display" : "Anoctamin-5-related limb-girdle muscular dystrophy R12"
+          },
+          {
+            "code" : "206554",
+            "display" : "Fukutin-related limb-girdle muscular dystrophy R13"
+          },
+          {
+            "code" : "206559",
+            "display" : "POMT2-related limb-girdle muscular dystrophy R14"
+          },
+          {
+            "code" : "206564",
+            "display" : "POMGNT1-related limb-girdle muscular dystrophy R15"
+          },
+          {
+            "code" : "206569",
+            "display" : "Immune-mediated necrotizing myopathy"
+          },
+          {
+            "code" : "206572",
+            "display" : "Overlap myositis"
+          },
+          {
+            "code" : "206575",
+            "display" : "Rippling muscle disease with myasthenia gravis"
+          },
+          {
+            "code" : "206580",
+            "display" : "Autosomal recessive lower motor neuron disease with childhood onset"
+          },
+          {
+            "code" : "206583",
+            "display" : "Adult polyglucosan body disease"
+          },
+          {
+            "code" : "206586",
+            "display" : "Neurolymphomatosis"
+          },
+          {
+            "code" : "206594",
+            "display" : "Subacute inflammatory demyelinating polyneuropathy"
+          },
+          {
+            "code" : "206599",
+            "display" : "Isolated asymptomatic elevation of creatine phosphokinase"
+          },
+          {
+            "code" : "206991",
+            "display" : "Viral myositis"
+          },
+          {
+            "code" : "206994",
+            "display" : "Bacterial myositis"
+          },
+          {
+            "code" : "207000",
+            "display" : "Fungal myositis"
+          },
+          {
+            "code" : "208441",
+            "display" : "Bilateral parasagittal parieto-occipital polymicrogyria"
+          },
+          {
+            "code" : "208444",
+            "display" : "Bilateral frontal polymicrogyria"
+          },
+          {
+            "code" : "208447",
+            "display" : "Bilateral generalized polymicrogyria"
+          },
+          {
+            "code" : "208513",
+            "display" : "Spinocerebellar ataxia type 29"
+          },
+          {
+            "code" : "208524",
+            "display" : "Herpetiform pemphigus"
+          },
+          {
+            "code" : "208989",
+            "display" : "Non-paraneoplastic sensory ganglionopathy"
+          },
+          {
+            "code" : "208999",
+            "display" : "Paraneoplastic sensory ganglionopathy"
+          },
+          {
+            "code" : "209004",
+            "display" : "Axonal polyneuropathy associated with IgG/IgM/IgA monoclonal gammopathy"
+          },
+          {
+            "code" : "209335",
+            "display" : "Autosomal dominant adult-onset proximal spinal muscular atrophy"
+          },
+          {
+            "code" : "209341",
+            "display" : "DYNC1H1-related autosomal dominant childhood-onset proximal spinal muscular atrophy"
+          },
+          {
+            "code" : "209370",
+            "display" : "Severe neonatal-onset encephalopathy with microcephaly"
+          },
+          {
+            "code" : "209867",
+            "display" : "Autosomal dominant rhegmatogenous retinal detachment"
+          },
+          {
+            "code" : "209902",
+            "display" : "Hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency"
+          },
+          {
+            "code" : "209905",
+            "display" : "Brain-lung-thyroid syndrome"
+          },
+          {
+            "code" : "209908",
+            "display" : "Isolated childhood apraxia of speech"
+          },
+          {
+            "code" : "209916",
+            "display" : "Extraskeletal myxoid chondrosarcoma"
+          },
+          {
+            "code" : "209919",
+            "display" : "Idiopathic copper-associated cirrhosis"
+          },
+          {
+            "code" : "209932",
+            "display" : "Cone dystrophy with supernormal rod response"
+          },
+          {
+            "code" : "209943",
+            "display" : "IRVAN syndrome"
+          },
+          {
+            "code" : "209951",
+            "display" : "Autosomal spastic paraplegia type 18"
+          },
+          {
+            "code" : "209956",
+            "display" : "Idiopathic uveal effusion syndrome"
+          },
+          {
+            "code" : "209959",
+            "display" : "Phacoanaphylactic uveitis"
+          },
+          {
+            "code" : "209964",
+            "display" : "Solitary rectal ulcer syndrome"
+          },
+          {
+            "code" : "209967",
+            "display" : "Episodic ataxia type 6"
+          },
+          {
+            "code" : "209970",
+            "display" : "Episodic ataxia type 7"
+          },
+          {
+            "code" : "209973",
+            "display" : "Benign nocturnal alternating hemiplegia of childhood"
+          },
+          {
+            "code" : "209981",
+            "display" : "IRIDA syndrome"
+          },
+          {
+            "code" : "209989",
+            "display" : "Non-papillary transitional cell carcinoma of the bladder"
+          },
+          {
+            "code" : "210110",
+            "display" : "Intermediate osteopetrosis"
+          },
+          {
+            "code" : "210115",
+            "display" : "Sterile multifocal osteomyelitis with periostitis and pustulosis"
+          },
+          {
+            "code" : "210122",
+            "display" : "Congenital alveolar capillary dysplasia"
+          },
+          {
+            "code" : "210128",
+            "display" : "Urocanic aciduria"
+          },
+          {
+            "code" : "210133",
+            "display" : "Leukonychia totalis-acanthosis-nigricans-like lesions-abnormal hair syndrome"
+          },
+          {
+            "code" : "210136",
+            "display" : "Pulmonary fibrosis-hepatic hyperplasia-bone marrow hypoplasia syndrome"
+          },
+          {
+            "code" : "210141",
+            "display" : "Inherited congenital spastic tetraplegia"
+          },
+          {
+            "code" : "210144",
+            "display" : "Lethal polymalformative syndrome, Boissel type"
+          },
+          {
+            "code" : "210159",
+            "display" : "Adult hepatocellular carcinoma"
+          },
+          {
+            "code" : "210163",
+            "display" : "Congenital lethal myopathy, Compton-North type"
+          },
+          {
+            "code" : "210272",
+            "display" : "Mal de débarquement"
+          },
+          {
+            "code" : "210548",
+            "display" : "Macrocephaly-intellectual disability-autism syndrome"
+          },
+          {
+            "code" : "210571",
+            "display" : "Dystonia 16"
+          },
+          {
+            "code" : "210576",
+            "display" : "Congenital temporomandibular joint ankylosis"
+          },
+          {
+            "code" : "210584",
+            "display" : "Spindle cell hemangioma"
+          },
+          {
+            "code" : "211017",
+            "display" : "Spinocerebellar ataxia type 30"
+          },
+          {
+            "code" : "211067",
+            "display" : "Episodic ataxia type 5"
+          },
+          {
+            "code" : "213504",
+            "display" : "Adenocarcinoma of ovary"
+          },
+          {
+            "code" : "213512",
+            "display" : "Malignant mixed Müllerian tumor of the ovary"
+          },
+          {
+            "code" : "213528",
+            "display" : "Rare adenocarcinoma of the breast"
+          },
+          {
+            "code" : "213531",
+            "display" : "Metaplastic carcinoma of the breast"
+          },
+          {
+            "code" : "213557",
+            "display" : "Salivary gland type cancer of the breast"
+          },
+          {
+            "code" : "213600",
+            "display" : "Adenosarcoma of the corpus uteri"
+          },
+          {
+            "code" : "213605",
+            "display" : "Carcinofibroma of the corpus uteri"
+          },
+          {
+            "code" : "213610",
+            "display" : "Carcinosarcoma of the corpus uteri"
+          },
+          {
+            "code" : "213615",
+            "display" : "Rhabdomyosarcoma of the corpus uteri"
+          },
+          {
+            "code" : "213625",
+            "display" : "Leiomyosarcoma of the corpus uteri"
+          },
+          {
+            "code" : "213630",
+            "display" : "Primitive neuroectodermal tumor of the corpus uteri"
+          },
+          {
+            "code" : "213711",
+            "display" : "Endometrial stromal sarcoma"
+          },
+          {
+            "code" : "213716",
+            "display" : "Squamous cell carcinoma of the corpus uteri"
+          },
+          {
+            "code" : "213721",
+            "display" : "Undifferentiated carcinoma of the corpus uteri"
+          },
+          {
+            "code" : "213726",
+            "display" : "Serous carcinoma of the corpus uteri"
+          },
+          {
+            "code" : "213731",
+            "display" : "High-grade neuroendocrine carcinoma of the corpus uteri"
+          },
+          {
+            "code" : "213736",
+            "display" : "Low-grade neuroendocrine tumor of the corpus uteri"
+          },
+          {
+            "code" : "213746",
+            "display" : "Transitional cell carcinoma of the corpus uteri"
+          },
+          {
+            "code" : "213751",
+            "display" : "Malignant germ cell tumor of the corpus uteri"
+          },
+          {
+            "code" : "213767",
+            "display" : "Squamous cell carcinoma of the cervix uteri"
+          },
+          {
+            "code" : "213772",
+            "display" : "Adenocarcinoma of the cervix uteri"
+          },
+          {
+            "code" : "213777",
+            "display" : "High-grade neuroendocrine carcinoma of the cervix uteri"
+          },
+          {
+            "code" : "213787",
+            "display" : "Carcinosarcoma of the cervix uteri"
+          },
+          {
+            "code" : "213792",
+            "display" : "Adenosarcoma of the cervix uteri"
+          },
+          {
+            "code" : "213802",
+            "display" : "Rhabdomyosarcoma of the cervix uteri"
+          },
+          {
+            "code" : "213807",
+            "display" : "Leiomyosarcoma of the cervix uteri"
+          },
+          {
+            "code" : "213812",
+            "display" : "Primitive neuroectodermal tumor of the cervix uteri"
+          },
+          {
+            "code" : "213823",
+            "display" : "Adenoid cystic carcinoma of the cervix uteri"
+          },
+          {
+            "code" : "213828",
+            "display" : "Adenoid basal carcinoma of the cervix uteri"
+          },
+          {
+            "code" : "213833",
+            "display" : "Glassy cell carcinoma of the cervix uteri"
+          },
+          {
+            "code" : "213837",
+            "display" : "Malignant germ cell tumor of the cervix uteri"
+          },
+          {
+            "code" : "216694",
+            "display" : "Congenitally corrected transposition of the great arteries"
+          },
+          {
+            "code" : "216718",
+            "display" : "Isolated congenitally uncorrected transposition of the great arteries"
+          },
+          {
+            "code" : "216729",
+            "display" : "Congenitally uncorrected transposition of the great arteries with cardiac malformation"
+          },
+          {
+            "code" : "216796",
+            "display" : "Osteogenesis imperfecta type 1"
+          },
+          {
+            "code" : "216804",
+            "display" : "Osteogenesis imperfecta type 2"
+          },
+          {
+            "code" : "216812",
+            "display" : "Osteogenesis imperfecta type 3"
+          },
+          {
+            "code" : "216820",
+            "display" : "Osteogenesis imperfecta type 4"
+          },
+          {
+            "code" : "216828",
+            "display" : "Osteogenesis imperfecta type 5"
+          },
+          {
+            "code" : "216866",
+            "display" : "Classic pantothenate kinase-associated neurodegeneration"
+          },
+          {
+            "code" : "216873",
+            "display" : "Atypical pantothenate kinase-associated neurodegeneration"
+          },
+          {
+            "code" : "216972",
+            "display" : "Niemann-Pick disease type C, severe perinatal form"
+          },
+          {
+            "code" : "216975",
+            "display" : "Niemann-Pick disease type C, severe early infantile neurologic onset"
+          },
+          {
+            "code" : "216978",
+            "display" : "Niemann-Pick disease type C, late infantile neurologic onset"
+          },
+          {
+            "code" : "216981",
+            "display" : "Niemann-Pick disease type C, juvenile neurologic onset"
+          },
+          {
+            "code" : "216986",
+            "display" : "Niemann-Pick disease type C, adult neurologic onset"
+          },
+          {
+            "code" : "217008",
+            "display" : "Bockenheimer syndrome"
+          },
+          {
+            "code" : "217012",
+            "display" : "Spinocerebellar ataxia type 31"
+          },
+          {
+            "code" : "217017",
+            "display" : "Zechi-Ceide syndrome"
+          },
+          {
+            "code" : "217026",
+            "display" : "Microcephaly-facio-cardio-skeletal syndrome, Hadziselimovic type"
+          },
+          {
+            "code" : "217055",
+            "display" : "Autosomal recessive intermediate Charcot-Marie-Tooth disease type A"
+          },
+          {
+            "code" : "217059",
+            "display" : "Isolated nail clubbing"
+          },
+          {
+            "code" : "217064",
+            "display" : "5-fluorouracil poisoning"
+          },
+          {
+            "code" : "217067",
+            "display" : "Pouchitis"
+          },
+          {
+            "code" : "217080",
+            "display" : "Pulmonary fungal infections in patients deemed at risk"
+          },
+          {
+            "code" : "217085",
+            "display" : "Mucopolysaccharidosis type 2, severe form"
+          },
+          {
+            "code" : "217093",
+            "display" : "Mucopolysaccharidosis type 2, attenuated form"
+          },
+          {
+            "code" : "217253",
+            "display" : "NMDA receptor encephalitis"
+          },
+          {
+            "code" : "217260",
+            "display" : "Progressive multifocal leukoencephalopathy"
+          },
+          {
+            "code" : "217266",
+            "display" : "BNAR syndrome"
+          },
+          {
+            "code" : "217330",
+            "display" : "REN-related autosomal dominant tubulointerstitial kidney disease"
+          },
+          {
+            "code" : "217335",
+            "display" : "RIN2 syndrome"
+          },
+          {
+            "code" : "217340",
+            "display" : "17q21.31 microduplication syndrome"
+          },
+          {
+            "code" : "217346",
+            "display" : "19q13.11 microdeletion syndrome"
+          },
+          {
+            "code" : "217371",
+            "display" : "Acute infantile liver failure due to synthesis defect of mtDNA-encoded proteins"
+          },
+          {
+            "code" : "217377",
+            "display" : "Microduplication Xp11.22p11.23 syndrome"
+          },
+          {
+            "code" : "217382",
+            "display" : "Neurodegenerative syndrome due to cerebral folate transport deficiency"
+          },
+          {
+            "code" : "217385",
+            "display" : "17p13.3 microduplication syndrome"
+          },
+          {
+            "code" : "217390",
+            "display" : "Combined immunodeficiency due to DOCK8 deficiency"
+          },
+          {
+            "code" : "217396",
+            "display" : "Progressive polyneuropathy with bilateral striatal necrosis"
+          },
+          {
+            "code" : "217399",
+            "display" : "Congenital insensitivity to pain-hyperhidrosis-absence of cutaneous sensory innervation"
+          },
+          {
+            "code" : "217407",
+            "display" : "Hereditary hypotrichosis with recurrent skin vesicles"
+          },
+          {
+            "code" : "217467",
+            "display" : "Hereditary thrombophilia due to congenital histidine-rich (poly-L) glycoprotein deficiency"
+          },
+          {
+            "code" : "217557",
+            "display" : "Pulmonary interstitial glycogenosis"
+          },
+          {
+            "code" : "217560",
+            "display" : "Neuroendocrine cell hyperplasia of infancy"
+          },
+          {
+            "code" : "217563",
+            "display" : "Neonatal acute respiratory distress due to SP-B deficiency"
+          },
+          {
+            "code" : "217566",
+            "display" : "Chronic respiratory distress with surfactant metabolism deficiency"
+          },
+          {
+            "code" : "217622",
+            "display" : "Sensorineural deafness with dilated cardiomyopathy"
+          },
+          {
+            "code" : "217656",
+            "display" : "Inherited isolated arrhythmogenic cardiomyopathy"
+          },
+          {
+            "code" : "220295",
+            "display" : "Xeroderma pigmentosum-Cockayne syndrome complex"
+          },
+          {
+            "code" : "220386",
+            "display" : "Semilobar holoprosencephaly"
+          },
+          {
+            "code" : "220393",
+            "display" : "Diffuse cutaneous systemic sclerosis"
+          },
+          {
+            "code" : "220402",
+            "display" : "Limited cutaneous systemic sclerosis"
+          },
+          {
+            "code" : "220407",
+            "display" : "Limited systemic sclerosis"
+          },
+          {
+            "code" : "220436",
+            "display" : "Quebec platelet disorder"
+          },
+          {
+            "code" : "220443",
+            "display" : "Bleeding diathesis due to thromboxane synthesis deficiency"
+          },
+          {
+            "code" : "220448",
+            "display" : "Macrothrombocytopenia with mitral valve insufficiency"
+          },
+          {
+            "code" : "220460",
+            "display" : "Attenuated familial adenomatous polyposis"
+          },
+          {
+            "code" : "220465",
+            "display" : "Laron syndrome with immunodeficiency"
+          },
+          {
+            "code" : "220493",
+            "display" : "Joubert syndrome with ocular defect"
+          },
+          {
+            "code" : "220497",
+            "display" : "Joubert syndrome with renal defect"
+          },
+          {
+            "code" : "221008",
+            "display" : "Rothmund-Thomson syndrome type 1"
+          },
+          {
+            "code" : "221016",
+            "display" : "Rothmund-Thomson syndrome type 2"
+          },
+          {
+            "code" : "221039",
+            "display" : "Hereditary sclerosing poikiloderma, Weary type"
+          },
+          {
+            "code" : "221043",
+            "display" : "Hereditary fibrosing poikiloderma-tendon contractures-myopathy-pulmonary fibrosis syndrome"
+          },
+          {
+            "code" : "221046",
+            "display" : "Poikiloderma with neutropenia"
+          },
+          {
+            "code" : "221054",
+            "display" : "Acrocephalopolydactyly"
+          },
+          {
+            "code" : "221061",
+            "display" : "Familial cerebral cavernous malformation"
+          },
+          {
+            "code" : "221074",
+            "display" : "Marchiafava-Bignami disease"
+          },
+          {
+            "code" : "221078",
+            "display" : "Combined hyperactive dysfunction syndrome of the cranial nerves"
+          },
+          {
+            "code" : "221083",
+            "display" : "Hemifacial spasm"
+          },
+          {
+            "code" : "221091",
+            "display" : "Trigeminal neuralgia"
+          },
+          {
+            "code" : "221098",
+            "display" : "Glossopharyngeal neuralgia"
+          },
+          {
+            "code" : "221117",
+            "display" : "Gerstmann syndrome"
+          },
+          {
+            "code" : "221120",
+            "display" : "Pseudoaminopterin syndrome"
+          },
+          {
+            "code" : "221126",
+            "display" : "Fowler vasculopathy"
+          },
+          {
+            "code" : "221139",
+            "display" : "Combined immunodeficiency with facio-oculo-skeletal anomalies"
+          },
+          {
+            "code" : "221142",
+            "display" : "Confetti-like macular atrophy"
+          },
+          {
+            "code" : "221145",
+            "display" : "Cutis laxa with severe pulmonary, gastrointestinal and urinary anomalies"
+          },
+          {
+            "code" : "225123",
+            "display" : "TFR2-related hemochromatosis"
+          },
+          {
+            "code" : "225147",
+            "display" : "Sporadic infantile bilateral striatal necrosis"
+          },
+          {
+            "code" : "225154",
+            "display" : "Familial infantile bilateral striatal necrosis"
+          },
+          {
+            "code" : "226307",
+            "display" : "Hypothyroidism due to deficient transcription factors involved in pituitary development or function"
+          },
+          {
+            "code" : "226313",
+            "display" : "Congenital hypothyroidism due to maternal intake of antithyroid drugs"
+          },
+          {
+            "code" : "226316",
+            "display" : "Genetic transient congenital hypothyroidism"
+          },
+          {
+            "code" : "227510",
+            "display" : "Multiple system atrophy, cerebellar type"
+          },
+          {
+            "code" : "227535",
+            "display" : "Hereditary breast cancer"
+          },
+          {
+            "code" : "227796",
+            "display" : "Fundus albipunctatus"
+          },
+          {
+            "code" : "227972",
+            "display" : "Toxic oil syndrome"
+          },
+          {
+            "code" : "227976",
+            "display" : "Autosomal recessive optic atrophy, OPA7 type"
+          },
+          {
+            "code" : "227982",
+            "display" : "Autoimmune polyendocrinopathy type 3"
+          },
+          {
+            "code" : "227990",
+            "display" : "Autoimmune polyendocrinopathy type 4"
+          },
+          {
+            "code" : "228000",
+            "display" : "Idiopathic CD4 lymphocytopenia"
+          },
+          {
+            "code" : "228003",
+            "display" : "Severe combined immunodeficiency due to CORO1A deficiency"
+          },
+          {
+            "code" : "228012",
+            "display" : "Progressive sensorineural hearing loss-hypertrophic cardiomyopathy syndrome"
+          },
+          {
+            "code" : "228113",
+            "display" : "Anal fistula"
+          },
+          {
+            "code" : "228116",
+            "display" : "Hughes-Stovin syndrome"
+          },
+          {
+            "code" : "228119",
+            "display" : "Fusariosis"
+          },
+          {
+            "code" : "228123",
+            "display" : "Coccidioidomycosis"
+          },
+          {
+            "code" : "228140",
+            "display" : "Idiopathic ventricular fibrillation, non Brugada type"
+          },
+          {
+            "code" : "228157",
+            "display" : "Marburg acute multiple sclerosis"
+          },
+          {
+            "code" : "228165",
+            "display" : "Baló concentric sclerosis"
+          },
+          {
+            "code" : "228169",
+            "display" : "Autosomal dominant striatal neurodegeneration"
+          },
+          {
+            "code" : "228174",
+            "display" : "Autosomal dominant Charcot-Marie-Tooth disease type 2N"
+          },
+          {
+            "code" : "228179",
+            "display" : "Autosomal dominant Charcot-Marie-Tooth disease type 2M"
+          },
+          {
+            "code" : "228190",
+            "display" : "Patent ductus arteriosus-bicuspid aortic valve-hand anomalies syndrome"
+          },
+          {
+            "code" : "228227",
+            "display" : "Late-onset focal dermal elastosis"
+          },
+          {
+            "code" : "228236",
+            "display" : "Linear focal elastosis"
+          },
+          {
+            "code" : "228240",
+            "display" : "Elastoderma"
+          },
+          {
+            "code" : "228243",
+            "display" : "Elastofibroma dorsi"
+          },
+          {
+            "code" : "228247",
+            "display" : "Acquired pseudoxanthoma elasticum"
+          },
+          {
+            "code" : "228254",
+            "display" : "Elastoma"
+          },
+          {
+            "code" : "228264",
+            "display" : "Papular elastorrhexis"
+          },
+          {
+            "code" : "228272",
+            "display" : "Primary anetoderma"
+          },
+          {
+            "code" : "228277",
+            "display" : "Familial anetoderma"
+          },
+          {
+            "code" : "228285",
+            "display" : "Acquired cutis laxa"
+          },
+          {
+            "code" : "228290",
+            "display" : "White fibrous papulosis of the neck"
+          },
+          {
+            "code" : "228293",
+            "display" : "Pseudoxanthoma elasticum-like papillary dermal elastolysis"
+          },
+          {
+            "code" : "228299",
+            "display" : "Mid-dermal elastolysis"
+          },
+          {
+            "code" : "228302",
+            "display" : "Carnitine palmitoyl transferase II deficiency, myopathic form"
+          },
+          {
+            "code" : "228305",
+            "display" : "Carnitine palmitoyl transferase II deficiency, severe infantile form"
+          },
+          {
+            "code" : "228308",
+            "display" : "Carnitine palmitoyl transferase II deficiency, neonatal form"
+          },
+          {
+            "code" : "228329",
+            "display" : "CLN1 disease"
+          },
+          {
+            "code" : "228337",
+            "display" : "CLN10 disease"
+          },
+          {
+            "code" : "228343",
+            "display" : "CLN4 disease"
+          },
+          {
+            "code" : "228346",
+            "display" : "CLN3 disease"
+          },
+          {
+            "code" : "228349",
+            "display" : "CLN2 disease"
+          },
+          {
+            "code" : "228354",
+            "display" : "CLN8 disease"
+          },
+          {
+            "code" : "228360",
+            "display" : "CLN5 disease"
+          },
+          {
+            "code" : "228363",
+            "display" : "CLN6 disease"
+          },
+          {
+            "code" : "228366",
+            "display" : "CLN7 disease"
+          },
+          {
+            "code" : "228371",
+            "display" : "Foodborne botulism"
+          },
+          {
+            "code" : "228374",
+            "display" : "Charcot-Marie-Tooth disease type 2B5"
+          },
+          {
+            "code" : "228379",
+            "display" : "Virus-associated trichodysplasia spinulosa"
+          },
+          {
+            "code" : "228384",
+            "display" : "5q14.3 microdeletion syndrome"
+          },
+          {
+            "code" : "228387",
+            "display" : "Spondylo-megaepiphyseal-metaphyseal dysplasia"
+          },
+          {
+            "code" : "228390",
+            "display" : "Frontonasal dysplasia-alopecia-genital anomalies syndrome"
+          },
+          {
+            "code" : "228396",
+            "display" : "Ptosis-upper ocular movement limitation-absence of lacrimal punctum syndrome"
+          },
+          {
+            "code" : "228399",
+            "display" : "8q12 microduplication syndrome"
+          },
+          {
+            "code" : "228402",
+            "display" : "2q23.1 microdeletion syndrome"
+          },
+          {
+            "code" : "228410",
+            "display" : "Cardiac anomalies-short stature-joint hypermobility-facial dysmorphism syndrome"
+          },
+          {
+            "code" : "228415",
+            "display" : "5q35 microduplication syndrome"
+          },
+          {
+            "code" : "228423",
+            "display" : "GATA2 deficiency spectrum"
+          },
+          {
+            "code" : "228426",
+            "display" : "Syndromic multisystem autoimmune disease due to Itch deficiency"
+          },
+          {
+            "code" : "229717",
+            "display" : "Isolated agammaglobulinemia"
+          },
+          {
+            "code" : "230800",
+            "display" : "Toxin-mediated infectious botulism"
+          },
+          {
+            "code" : "230839",
+            "display" : "Classical-like Ehlers-Danlos syndrome type 1"
+          },
+          {
+            "code" : "230851",
+            "display" : "Cardiac-valvular Ehlers-Danlos syndrome"
+          },
+          {
+            "code" : "230857",
+            "display" : "Ehlers-Danlos/osteogenesis imperfecta syndrome"
+          },
+          {
+            "code" : "231013",
+            "display" : "Congenital trigeminal anesthesia"
+          },
+          {
+            "code" : "231031",
+            "display" : "Erythema palmare hereditarium"
+          },
+          {
+            "code" : "231040",
+            "display" : "Familial generalized lentiginosis"
+          },
+          {
+            "code" : "231080",
+            "display" : "High-grade dysplasia in patients with Barrett esophagus"
+          },
+          {
+            "code" : "231108",
+            "display" : "Rhabdoid tumor predisposition syndrome"
+          },
+          {
+            "code" : "231111",
+            "display" : "Drug-induced lupus erythematosus"
+          },
+          {
+            "code" : "231117",
+            "display" : "Beckwith-Wiedemann syndrome due to imprinting defect of 11p15"
+          },
+          {
+            "code" : "231120",
+            "display" : "Beckwith-Wiedemann syndrome due to CDKN1C mutation"
+          },
+          {
+            "code" : "231127",
+            "display" : "Beckwith-Wiedemann syndrome due to 11p15 microdeletion"
+          },
+          {
+            "code" : "231130",
+            "display" : "Beckwith-Wiedemann syndrome due to 11p15 translocation/inversion"
+          },
+          {
+            "code" : "231137",
+            "display" : "Silver-Russell syndrome due to 7p11.2p13 microduplication"
+          },
+          {
+            "code" : "231140",
+            "display" : "Silver-Russell syndrome due to an imprinting defect of 11p15"
+          },
+          {
+            "code" : "231144",
+            "display" : "Silver-Russell syndrome due to 11p15 microduplication"
+          },
+          {
+            "code" : "231147",
+            "display" : "Silver-Russell syndrome due to maternal uniparental disomy of chromosome 11"
+          },
+          {
+            "code" : "231154",
+            "display" : "Combined immunodeficiency due to partial RAG1 deficiency"
+          },
+          {
+            "code" : "231160",
+            "display" : "Familial cerebral saccular aneurysm"
+          },
+          {
+            "code" : "231169",
+            "display" : "Usher syndrome type 1"
+          },
+          {
+            "code" : "231178",
+            "display" : "Usher syndrome type 2"
+          },
+          {
+            "code" : "231183",
+            "display" : "Usher syndrome type 3"
+          },
+          {
+            "code" : "231214",
+            "display" : "Beta-thalassemia major"
+          },
+          {
+            "code" : "231222",
+            "display" : "Beta-thalassemia intermedia"
+          },
+          {
+            "code" : "231226",
+            "display" : "Dominant beta-thalassemia"
+          },
+          {
+            "code" : "231237",
+            "display" : "Delta-beta-thalassemia"
+          },
+          {
+            "code" : "231242",
+            "display" : "Hemoglobin C-beta-thalassemia syndrome"
+          },
+          {
+            "code" : "231249",
+            "display" : "Hemoglobin E-beta-thalassemia syndrome"
+          },
+          {
+            "code" : "231393",
+            "display" : "Beta-thalassemia-X-linked thrombocytopenia syndrome"
+          },
+          {
+            "code" : "231401",
+            "display" : "Alpha-thalassemia-myelodysplastic syndrome"
+          },
+          {
+            "code" : "231426",
+            "display" : "Pharyngeal-cervical-brachial variant of Guillain-Barré syndrome"
+          },
+          {
+            "code" : "231445",
+            "display" : "Paraparetic variant of Guillain-Barré syndrome"
+          },
+          {
+            "code" : "231450",
+            "display" : "Acute pure sensory neuropathy"
+          },
+          {
+            "code" : "231457",
+            "display" : "Acute pandysautonomia"
+          },
+          {
+            "code" : "231466",
+            "display" : "Acute sensory ataxic neuropathy"
+          },
+          {
+            "code" : "231500",
+            "display" : "Hermansky-Pudlak syndrome due to BLOC-3 deficiency"
+          },
+          {
+            "code" : "231512",
+            "display" : "Hermansky-Pudlak syndrome due to BLOC-2 deficiency"
+          },
+          {
+            "code" : "231531",
+            "display" : "Hermansky-Pudlak syndrome due to BLOC-1 deficiency"
+          },
+          {
+            "code" : "231556",
+            "display" : "Late-onset localized junctional epidermolysis bullosa-intellectual disability syndrome"
+          },
+          {
+            "code" : "231568",
+            "display" : "Autosomal dominant generalized dystrophic epidermolysis bullosa"
+          },
+          {
+            "code" : "231573",
+            "display" : "Congenital erosive and vesicular dermatosis"
+          },
+          {
+            "code" : "231580",
+            "display" : "Primary unilateral adrenal hyperplasia"
+          },
+          {
+            "code" : "231625",
+            "display" : "Adrenocortical carcinoma with pure aldosterone hypersecretion"
+          },
+          {
+            "code" : "231632",
+            "display" : "Ectopic aldosterone-producing tumor"
+          },
+          {
+            "code" : "231662",
+            "display" : "Isolated growth hormone deficiency type IA"
+          },
+          {
+            "code" : "231671",
+            "display" : "Isolated growth hormone deficiency type IB"
+          },
+          {
+            "code" : "231679",
+            "display" : "Isolated growth hormone deficiency type II"
+          },
+          {
+            "code" : "231692",
+            "display" : "Isolated growth hormone deficiency type III"
+          },
+          {
+            "code" : "231720",
+            "display" : "Non-acquired combined pituitary hormone deficiency-sensorineural hearing loss-spine abnormalities syndrome"
+          },
+          {
+            "code" : "231736",
+            "display" : "Microcornea-posterior megalolenticonus-persistent fetal vasculature-coloboma syndrome"
+          },
+          {
+            "code" : "231742",
+            "display" : "Epibulbar lipodermoid-preauricular appendage-polythelia syndrome"
+          },
+          {
+            "code" : "238269",
+            "display" : "AApoAII amyloidosis"
+          },
+          {
+            "code" : "238305",
+            "display" : "Infundibulo-neurohypophysitis"
+          },
+          {
+            "code" : "238329",
+            "display" : "Severe X-linked mitochondrial encephalomyopathy"
+          },
+          {
+            "code" : "238446",
+            "display" : "15q11q13 microduplication syndrome"
+          },
+          {
+            "code" : "238455",
+            "display" : "Infantile dystonia-parkinsonism"
+          },
+          {
+            "code" : "238459",
+            "display" : "SLC35A1-CDG"
+          },
+          {
+            "code" : "238468",
+            "display" : "Hypohidrotic ectodermal dysplasia"
+          },
+          {
+            "code" : "238475",
+            "display" : "Familial hypercholanemia"
+          },
+          {
+            "code" : "238505",
+            "display" : "Combined immunodeficiency due to CD27 deficiency"
+          },
+          {
+            "code" : "238523",
+            "display" : "Atypical hypotonia-cystinuria syndrome"
+          },
+          {
+            "code" : "238557",
+            "display" : "Chuvash erythrocytosis"
+          },
+          {
+            "code" : "238569",
+            "display" : "Immune dysregulation-inflammatory bowel disease-arthritis-recurrent infections syndrome"
+          },
+          {
+            "code" : "238578",
+            "display" : "Familial clubfoot due to 17q23.1q23.2 microduplication"
+          },
+          {
+            "code" : "238583",
+            "display" : "Hyperphenylalaninemia due to tetrahydrobiopterin deficiency"
+          },
+          {
+            "code" : "238593",
+            "display" : "IgG4-related mesenteritis"
+          },
+          {
+            "code" : "238606",
+            "display" : "Primary orthostatic tremor"
+          },
+          {
+            "code" : "238613",
+            "display" : "Beckwith-Wiedemann syndrome due to NSD1 mutation"
+          },
+          {
+            "code" : "238621",
+            "display" : "Ileal pouch anal anastomosis related faecal incontinence"
+          },
+          {
+            "code" : "238624",
+            "display" : "Idiopathic intracranial hypertension"
+          },
+          {
+            "code" : "238637",
+            "display" : "Megacystis-megaureter syndrome"
+          },
+          {
+            "code" : "238642",
+            "display" : "Primary megaureter, adult-onset form"
+          },
+          {
+            "code" : "238646",
+            "display" : "Congenital primary megaureter, obstructed form"
+          },
+          {
+            "code" : "238650",
+            "display" : "Congenital primary megaureter, refluxing form"
+          },
+          {
+            "code" : "238654",
+            "display" : "Congenital primary megaureter, nonrefluxing and unobstructed form"
+          },
+          {
+            "code" : "238666",
+            "display" : "Isolated congenital hypogonadotropic hypogonadism"
+          },
+          {
+            "code" : "238670",
+            "display" : "Isolated thyrotropin-releasing hormone deficiency"
+          },
+          {
+            "code" : "238688",
+            "display" : "Neonatal iodine exposure"
+          },
+          {
+            "code" : "238722",
+            "display" : "Familial congenital mirror movements"
+          },
+          {
+            "code" : "238744",
+            "display" : "Mammary-digital-nail syndrome"
+          },
+          {
+            "code" : "238750",
+            "display" : "4q21 microdeletion syndrome"
+          },
+          {
+            "code" : "238763",
+            "display" : "Glaucoma secondary to spherophakia/ectopia lentis and megalocornea"
+          },
+          {
+            "code" : "238769",
+            "display" : "1q44 microdeletion syndrome"
+          },
+          {
+            "code" : "240071",
+            "display" : "Classic progressive supranuclear palsy syndrome"
+          },
+          {
+            "code" : "240085",
+            "display" : "Progressive supranuclear palsy-predominant parkinsonism syndrome"
+          },
+          {
+            "code" : "240094",
+            "display" : "Progressive supranuclear palsy-pure akinesia with gait freezing syndrome"
+          },
+          {
+            "code" : "240103",
+            "display" : "Progressive supranuclear palsy-corticobasal syndrome"
+          },
+          {
+            "code" : "240112",
+            "display" : "Progressive supranuclear palsy-progressive non-fluent aphasia syndrome"
+          },
+          {
+            "code" : "240760",
+            "display" : "Nijmegen breakage syndrome-like disorder"
+          },
+          {
+            "code" : "243343",
+            "display" : "Dimethylglycine dehydrogenase deficiency"
+          },
+          {
+            "code" : "243367",
+            "display" : "Acute fatty liver of pregnancy"
+          },
+          {
+            "code" : "244242",
+            "display" : "HELLP syndrome"
+          },
+          {
+            "code" : "244275",
+            "display" : "De novo thrombotic microangiopathy after kidney transplantation"
+          },
+          {
+            "code" : "244283",
+            "display" : "Biliary atresia with splenic malformation syndrome"
+          },
+          {
+            "code" : "244305",
+            "display" : "Dominant hypophosphatemia with nephrolithiasis or osteoporosis"
+          },
+          {
+            "code" : "244310",
+            "display" : "RFT1-CDG"
+          },
+          {
+            "code" : "247165",
+            "display" : "Infantile mercury poisoning"
+          },
+          {
+            "code" : "247198",
+            "display" : "Progressive cerebello-cerebral atrophy"
+          },
+          {
+            "code" : "247203",
+            "display" : "Collecting duct carcinoma"
+          },
+          {
+            "code" : "247234",
+            "display" : "Sporadic adult-onset ataxia of unknown etiology"
+          },
+          {
+            "code" : "247245",
+            "display" : "Superficial siderosis"
+          },
+          {
+            "code" : "247257",
+            "display" : "Inhalational anthrax"
+          },
+          {
+            "code" : "247262",
+            "display" : "Hyperphosphatasia-intellectual disability syndrome"
+          },
+          {
+            "code" : "247353",
+            "display" : "Generalized pustular psoriasis"
+          },
+          {
+            "code" : "247378",
+            "display" : "Autosomal recessive secondary polycythemia not associated with VHL gene"
+          },
+          {
+            "code" : "247511",
+            "display" : "Autosomal dominant secondary polycythemia"
+          },
+          {
+            "code" : "247522",
+            "display" : "Primary ciliary dyskinesia-retinitis pigmentosa syndrome"
+          },
+          {
+            "code" : "247525",
+            "display" : "Citrullinemia type I"
+          },
+          {
+            "code" : "247546",
+            "display" : "Acute neonatal citrullinemia type I"
+          },
+          {
+            "code" : "247573",
+            "display" : "Late-onset citrullinemia type I"
+          },
+          {
+            "code" : "247585",
+            "display" : "Citrullinemia type II"
+          },
+          {
+            "code" : "247598",
+            "display" : "Neonatal intrahepatic cholestasis due to citrin deficiency"
+          },
+          {
+            "code" : "247604",
+            "display" : "Juvenile primary lateral sclerosis"
+          },
+          {
+            "code" : "247623",
+            "display" : "Perinatal lethal hypophosphatasia"
+          },
+          {
+            "code" : "247638",
+            "display" : "Prenatal benign hypophosphatasia"
+          },
+          {
+            "code" : "247651",
+            "display" : "Infantile hypophosphatasia"
+          },
+          {
+            "code" : "247667",
+            "display" : "Childhood-onset hypophosphatasia"
+          },
+          {
+            "code" : "247676",
+            "display" : "Adult hypophosphatasia"
+          },
+          {
+            "code" : "247685",
+            "display" : "Odontohypophosphatasia"
+          },
+          {
+            "code" : "247691",
+            "display" : "Retinal vasculopathy with cerebral leukoencephalopathy and systemic manifestations"
+          },
+          {
+            "code" : "247698",
+            "display" : "Multiple endocrine neoplasia type 2A"
+          },
+          {
+            "code" : "247709",
+            "display" : "Multiple endocrine neoplasia type 2B"
+          },
+          {
+            "code" : "247718",
+            "display" : "Inflammatory myopathy with abundant macrophages"
+          },
+          {
+            "code" : "247724",
+            "display" : "Idiopathic eosinophilic myositis"
+          },
+          {
+            "code" : "247762",
+            "display" : "Lipoblastoma"
+          },
+          {
+            "code" : "247768",
+            "display" : "Müllerian aplasia and hyperandrogenism"
+          },
+          {
+            "code" : "247775",
+            "display" : "Mayer-Rokitansky-Küster-Hauser syndrome type 1"
+          },
+          {
+            "code" : "247790",
+            "display" : "FTH1-related iron overload"
+          },
+          {
+            "code" : "247794",
+            "display" : "Juvenile cataract-microcornea-renal glucosuria syndrome"
+          },
+          {
+            "code" : "247798",
+            "display" : "MUTYH-related attenuated familial adenomatous polyposis"
+          },
+          {
+            "code" : "247806",
+            "display" : "APC-related attenuated familial adenomatous polyposis"
+          },
+          {
+            "code" : "247815",
+            "display" : "Autosomal recessive ataxia due to PEX10 deficiency"
+          },
+          {
+            "code" : "247820",
+            "display" : "Ectodermal dysplasia-pili torti-cutaneous syndactyly syndrome"
+          },
+          {
+            "code" : "247827",
+            "display" : "Ectodermal dysplasia-hyperhidrosis-cutaneous syndactyly syndrome"
+          },
+          {
+            "code" : "247834",
+            "display" : "Occult macular dystrophy"
+          },
+          {
+            "code" : "247868",
+            "display" : "NLRP12-associated hereditary periodic fever syndrome"
+          },
+          {
+            "code" : "248111",
+            "display" : "Juvenile Huntington disease"
+          },
+          {
+            "code" : "248340",
+            "display" : "Isolated delta-storage pool disease"
+          },
+          {
+            "code" : "248408",
+            "display" : "Familial hypodysfibrinogenemia"
+          },
+          {
+            "code" : "250831",
+            "display" : "Logopenic progressive aphasia"
+          },
+          {
+            "code" : "250923",
+            "display" : "Isolated aniridia"
+          },
+          {
+            "code" : "250932",
+            "display" : "Autosomal dominant optic atrophy and peripheral neuropathy"
+          },
+          {
+            "code" : "250972",
+            "display" : "Polymicrogyria with optic nerve hypoplasia"
+          },
+          {
+            "code" : "250977",
+            "display" : "AICA-ribosiduria"
+          },
+          {
+            "code" : "250984",
+            "display" : "Autosomal recessive Stickler syndrome"
+          },
+          {
+            "code" : "250989",
+            "display" : "1q21.1 microdeletion syndrome"
+          },
+          {
+            "code" : "250994",
+            "display" : "1q21.1 microduplication syndrome"
+          },
+          {
+            "code" : "250999",
+            "display" : "1q41q42 microdeletion syndrome"
+          },
+          {
+            "code" : "251004",
+            "display" : "Paternal uniparental disomy of chromosome 1"
+          },
+          {
+            "code" : "251009",
+            "display" : "Maternal uniparental disomy of chromosome 1"
+          },
+          {
+            "code" : "251014",
+            "display" : "2q31.1 microdeletion syndrome"
+          },
+          {
+            "code" : "251019",
+            "display" : "2q32q33 microdeletion syndrome"
+          },
+          {
+            "code" : "251028",
+            "display" : "SATB2-associated syndrome due to a chromosomal rearrangement"
+          },
+          {
+            "code" : "251038",
+            "display" : "3q29 microduplication syndrome"
+          },
+          {
+            "code" : "251043",
+            "display" : "Ring chromosome 5 syndrome"
+          },
+          {
+            "code" : "251046",
+            "display" : "6p22 microdeletion syndrome"
+          },
+          {
+            "code" : "251056",
+            "display" : "6q25.2q25.3 microdeletion syndrome"
+          },
+          {
+            "code" : "251061",
+            "display" : "7q31 microdeletion syndrome"
+          },
+          {
+            "code" : "251066",
+            "display" : "8p11.2 deletion syndrome"
+          },
+          {
+            "code" : "251071",
+            "display" : "8p23.1 microdeletion syndrome"
+          },
+          {
+            "code" : "251076",
+            "display" : "8p23.1 duplication syndrome"
+          },
+          {
+            "code" : "251262",
+            "display" : "Familial osteochondritis dissecans"
+          },
+          {
+            "code" : "251274",
+            "display" : "Familial hyperaldosteronism type III"
+          },
+          {
+            "code" : "251279",
+            "display" : "Microphthalmia-retinitis pigmentosa-foveoschisis-optic disc drusen syndrome"
+          },
+          {
+            "code" : "251282",
+            "display" : "Autosomal dominant spastic ataxia type 1"
+          },
+          {
+            "code" : "251287",
+            "display" : "Benign concentric annular macular dystrophy"
+          },
+          {
+            "code" : "251290",
+            "display" : "Parietal foramina with clavicular hypoplasia"
+          },
+          {
+            "code" : "251295",
+            "display" : "Pigmented paravenous retinochoroidal atrophy"
+          },
+          {
+            "code" : "251304",
+            "display" : "Infantile onset panniculitis with uveitis and systemic granulomatosis"
+          },
+          {
+            "code" : "251307",
+            "display" : "Idiopathic recurrent pericarditis"
+          },
+          {
+            "code" : "251325",
+            "display" : "Drug-induced vasculitis"
+          },
+          {
+            "code" : "251328",
+            "display" : "Unclassified vasculitis"
+          },
+          {
+            "code" : "251332",
+            "display" : "Unexplained long-lasting fever/inflammatory syndrome"
+          },
+          {
+            "code" : "251347",
+            "display" : "Ataxia-telangiectasia-like disorder"
+          },
+          {
+            "code" : "251359",
+            "display" : "Sickle cell-beta-thalassemia disease syndrome"
+          },
+          {
+            "code" : "251365",
+            "display" : "Sickle cell-hemoglobin C disease syndrome"
+          },
+          {
+            "code" : "251370",
+            "display" : "Sickle cell-hemoglobin D disease syndrome"
+          },
+          {
+            "code" : "251375",
+            "display" : "Sickle cell-hemoglobin E disease syndrome"
+          },
+          {
+            "code" : "251380",
+            "display" : "Hereditary persistence of fetal hemoglobin-sickle cell disease syndrome"
+          },
+          {
+            "code" : "251383",
+            "display" : "CK syndrome"
+          },
+          {
+            "code" : "251393",
+            "display" : "Localized junctional epidermolysis bullosa"
+          },
+          {
+            "code" : "251510",
+            "display" : "46,XY partial gonadal dysgenesis"
+          },
+          {
+            "code" : "251515",
+            "display" : "Distal arthrogryposis type 10"
+          },
+          {
+            "code" : "251523",
+            "display" : "Hyperzincemia and hypercalprotectinemia"
+          },
+          {
+            "code" : "251576",
+            "display" : "Gliosarcoma"
+          },
+          {
+            "code" : "251579",
+            "display" : "Giant cell glioblastoma"
+          },
+          {
+            "code" : "251582",
+            "display" : "Gliomatosis cerebri"
+          },
+          {
+            "code" : "251589",
+            "display" : "Anaplastic astrocytoma"
+          },
+          {
+            "code" : "251595",
+            "display" : "Diffuse astrocytoma"
+          },
+          {
+            "code" : "251598",
+            "display" : "Protoplasmic astrocytoma"
+          },
+          {
+            "code" : "251601",
+            "display" : "Fibrillary astrocytoma"
+          },
+          {
+            "code" : "251604",
+            "display" : "Gemistocytic astrocytoma"
+          },
+          {
+            "code" : "251607",
+            "display" : "Pleomorphic xanthoastrocytoma"
+          },
+          {
+            "code" : "251612",
+            "display" : "Pilocytic astrocytoma"
+          },
+          {
+            "code" : "251615",
+            "display" : "Pilomyxoid astrocytoma"
+          },
+          {
+            "code" : "251618",
+            "display" : "Subependymal giant cell astrocytoma"
+          },
+          {
+            "code" : "251623",
+            "display" : "Pituicytoma"
+          },
+          {
+            "code" : "251627",
+            "display" : "Oligodendroglioma"
+          },
+          {
+            "code" : "251630",
+            "display" : "Anaplastic oligodendroglioma"
+          },
+          {
+            "code" : "251636",
+            "display" : "Ependymoma"
+          },
+          {
+            "code" : "251639",
+            "display" : "Subependymoma"
+          },
+          {
+            "code" : "251643",
+            "display" : "Myxopapillary ependymoma"
+          },
+          {
+            "code" : "251646",
+            "display" : "Anaplastic ependymoma"
+          },
+          {
+            "code" : "251656",
+            "display" : "Oligoastrocytoma"
+          },
+          {
+            "code" : "251663",
+            "display" : "Anaplastic oligoastrocytoma"
+          },
+          {
+            "code" : "251671",
+            "display" : "Angiocentric glioma"
+          },
+          {
+            "code" : "251674",
+            "display" : "Chordoid glioma"
+          },
+          {
+            "code" : "251679",
+            "display" : "Astroblastoma"
+          },
+          {
+            "code" : "251855",
+            "display" : "Anaplastic/large cell medulloblastoma"
+          },
+          {
+            "code" : "251858",
+            "display" : "Medulloblastoma with extensive nodularity"
+          },
+          {
+            "code" : "251863",
+            "display" : "Desmoplastic/nodular medulloblastoma"
+          },
+          {
+            "code" : "251867",
+            "display" : "Classic medulloblastoma"
+          },
+          {
+            "code" : "251877",
+            "display" : "Ganglioneuroblastoma"
+          },
+          {
+            "code" : "251899",
+            "display" : "Choroid plexus carcinoma"
+          },
+          {
+            "code" : "251902",
+            "display" : "Atypical papilloma of choroid plexus"
+          },
+          {
+            "code" : "251909",
+            "display" : "Pineoblastoma"
+          },
+          {
+            "code" : "251912",
+            "display" : "Pineocytoma"
+          },
+          {
+            "code" : "251915",
+            "display" : "Papillary tumor of the pineal region"
+          },
+          {
+            "code" : "251919",
+            "display" : "Pineal parenchymal tumor of intermediate differentiation"
+          },
+          {
+            "code" : "251927",
+            "display" : "Extraventricular neurocytoma"
+          },
+          {
+            "code" : "251931",
+            "display" : "Cerebellar liponeurocytoma"
+          },
+          {
+            "code" : "251937",
+            "display" : "Gangliocytoma"
+          },
+          {
+            "code" : "251940",
+            "display" : "Desmoplastic infantile astrocytoma/ganglioglioma"
+          },
+          {
+            "code" : "251946",
+            "display" : "Dysembryoplastic neuroepithelial tumor"
+          },
+          {
+            "code" : "251949",
+            "display" : "Ganglioglioma"
+          },
+          {
+            "code" : "251957",
+            "display" : "Anaplastic ganglioglioma"
+          },
+          {
+            "code" : "251962",
+            "display" : "Papillary glioneuronal tumor"
+          },
+          {
+            "code" : "251975",
+            "display" : "Rosette-forming glioneuronal tumor"
+          },
+          {
+            "code" : "251992",
+            "display" : "Ganglioneuroma"
+          },
+          {
+            "code" : "252006",
+            "display" : "Yolk sac tumor of central nervous system"
+          },
+          {
+            "code" : "252015",
+            "display" : "Choriocarcinoma of the central nervous system"
+          },
+          {
+            "code" : "252018",
+            "display" : "Teratoma of the central nervous system"
+          },
+          {
+            "code" : "252021",
+            "display" : "Mixed germ cell tumor of central nervous system"
+          },
+          {
+            "code" : "252031",
+            "display" : "Diffuse leptomeningeal melanocytosis"
+          },
+          {
+            "code" : "252046",
+            "display" : "Meningeal melanocytoma"
+          },
+          {
+            "code" : "252050",
+            "display" : "Primary melanoma of the central nervous system"
+          },
+          {
+            "code" : "252054",
+            "display" : "Hemangioblastoma"
+          },
+          {
+            "code" : "252128",
+            "display" : "Malignant peripheral nerve sheath tumor with perineurial differentiation"
+          },
+          {
+            "code" : "252164",
+            "display" : "Benign schwannoma"
+          },
+          {
+            "code" : "252175",
+            "display" : "Vestibular schwannoma"
+          },
+          {
+            "code" : "252183",
+            "display" : "Neurofibroma"
+          },
+          {
+            "code" : "252202",
+            "display" : "Constitutional mismatch repair deficiency syndrome"
+          },
+          {
+            "code" : "252206",
+            "display" : "Melanoma and neural system tumor syndrome"
+          },
+          {
+            "code" : "252212",
+            "display" : "Malignant triton tumor"
+          },
+          {
+            "code" : "254334",
+            "display" : "Autosomal recessive intermediate Charcot-Marie-Tooth disease type B"
+          },
+          {
+            "code" : "254343",
+            "display" : "Autosomal recessive spastic ataxia-optic atrophy-dysarthria syndrome"
+          },
+          {
+            "code" : "254346",
+            "display" : "19p13.12 microdeletion syndrome"
+          },
+          {
+            "code" : "254351",
+            "display" : "Distal 7q11.23 microdeletion syndrome"
+          },
+          {
+            "code" : "254361",
+            "display" : "Plectin-related limb-girdle muscular dystrophy R17"
+          },
+          {
+            "code" : "254379",
+            "display" : "Linear lichen planus"
+          },
+          {
+            "code" : "254395",
+            "display" : "Actinic lichen planus"
+          },
+          {
+            "code" : "254411",
+            "display" : "Annular atrophic lichen planus"
+          },
+          {
+            "code" : "254424",
+            "display" : "Annular lichen planus"
+          },
+          {
+            "code" : "254449",
+            "display" : "Atrophic lichen planus"
+          },
+          {
+            "code" : "254463",
+            "display" : "Lichen planus pigmentosus"
+          },
+          {
+            "code" : "254478",
+            "display" : "Lichen planus pemphigoides"
+          },
+          {
+            "code" : "254492",
+            "display" : "Frontal fibrosing alopecia"
+          },
+          {
+            "code" : "254504",
+            "display" : "Inhalational botulism"
+          },
+          {
+            "code" : "254509",
+            "display" : "Iatrogenic botulism"
+          },
+          {
+            "code" : "254516",
+            "display" : "Temple syndrome"
+          },
+          {
+            "code" : "254519",
+            "display" : "Kagami-Ogata syndrome"
+          },
+          {
+            "code" : "254525",
+            "display" : "Temple syndrome due to paternal 14q32.2 microdeletion"
+          },
+          {
+            "code" : "254528",
+            "display" : "Kagami-Ogata syndrome due to maternal 14q32.2 microdeletion"
+          },
+          {
+            "code" : "254531",
+            "display" : "Temple syndrome due to paternal 14q32.2 hypomethylation"
+          },
+          {
+            "code" : "254534",
+            "display" : "Kagami-Ogata syndrome due to maternal 14q32.2 hypermethylation"
+          },
+          {
+            "code" : "254688",
+            "display" : "Complete hydatidiform mole"
+          },
+          {
+            "code" : "254693",
+            "display" : "Partial hydatidiform mole"
+          },
+          {
+            "code" : "254698",
+            "display" : "Epithelioid trophoblastic tumor"
+          },
+          {
+            "code" : "254704",
+            "display" : "Genetic hyperferritinemia without iron overload"
+          },
+          {
+            "code" : "254851",
+            "display" : "Mitochondrial DNA-related dystonia"
+          },
+          {
+            "code" : "254854",
+            "display" : "Pure mitochondrial myopathy"
+          },
+          {
+            "code" : "254857",
+            "display" : "Lethal infantile mitochondrial myopathy"
+          },
+          {
+            "code" : "254864",
+            "display" : "Mitochondrial myopathy with reversible cytochrome C oxidase deficiency"
+          },
+          {
+            "code" : "254875",
+            "display" : "Mitochondrial DNA depletion syndrome, myopathic form"
+          },
+          {
+            "code" : "254881",
+            "display" : "Spinocerebellar ataxia with epilepsy"
+          },
+          {
+            "code" : "254886",
+            "display" : "Autosomal recessive progressive external ophthalmoplegia"
+          },
+          {
+            "code" : "254892",
+            "display" : "Autosomal dominant progressive external ophthalmoplegia"
+          },
+          {
+            "code" : "254898",
+            "display" : "Deafness-encephaloneuropathy-obesity-valvulopathy syndrome"
+          },
+          {
+            "code" : "254902",
+            "display" : "Renal tubulopathy-encephalopathy-liver failure syndrome"
+          },
+          {
+            "code" : "254905",
+            "display" : "Isolated cytochrome C oxidase deficiency"
+          },
+          {
+            "code" : "254913",
+            "display" : "Isolated ATP synthase deficiency"
+          },
+          {
+            "code" : "254920",
+            "display" : "Combined oxidative phosphorylation defect type 2"
+          },
+          {
+            "code" : "254925",
+            "display" : "Combined oxidative phosphorylation defect type 4"
+          },
+          {
+            "code" : "254930",
+            "display" : "Combined oxidative phosphorylation defect type 7"
+          },
+          {
+            "code" : "255132",
+            "display" : "Adult-onset autosomal recessive sideroblastic anemia"
+          },
+          {
+            "code" : "255138",
+            "display" : "Pyruvate dehydrogenase E1-beta deficiency"
+          },
+          {
+            "code" : "255182",
+            "display" : "Pyruvate dehydrogenase E3-binding protein deficiency"
+          },
+          {
+            "code" : "255210",
+            "display" : "Mitochondrial DNA-associated Leigh syndrome"
+          },
+          {
+            "code" : "255229",
+            "display" : "Navajo neurohepatopathy"
+          },
+          {
+            "code" : "255235",
+            "display" : "Mitochondrial DNA depletion syndrome, encephalomyopathic form with renal tubulopathy"
+          },
+          {
+            "code" : "260305",
+            "display" : "Autosomal recessive sideroblastic anemia"
+          },
+          {
+            "code" : "261102",
+            "display" : "Distal 7q11.23 microduplication syndrome"
+          },
+          {
+            "code" : "261112",
+            "display" : "Monosomy 9p"
+          },
+          {
+            "code" : "261120",
+            "display" : "14q11.2 microdeletion syndrome"
+          },
+          {
+            "code" : "261144",
+            "display" : "FOXG1 syndrome due to 14q12 microdeletion"
+          },
+          {
+            "code" : "261183",
+            "display" : "15q11.2 microdeletion syndrome"
+          },
+          {
+            "code" : "261190",
+            "display" : "Cleft palate-congenital heart defect-intellectual disability syndrome due to 15q14 microdeletion"
+          },
+          {
+            "code" : "261197",
+            "display" : "Proximal 16p11.2 microdeletion syndrome"
+          },
+          {
+            "code" : "261204",
+            "display" : "16p11.2p12.2 microduplication syndrome"
+          },
+          {
+            "code" : "261211",
+            "display" : "16p11.2p12.2 microdeletion syndrome"
+          },
+          {
+            "code" : "261222",
+            "display" : "Distal 16p11.2 microdeletion syndrome"
+          },
+          {
+            "code" : "261229",
+            "display" : "14q11.2 microduplication syndrome"
+          },
+          {
+            "code" : "261236",
+            "display" : "16p13.11 microdeletion syndrome"
+          },
+          {
+            "code" : "261243",
+            "display" : "16p13.11 microduplication syndrome"
+          },
+          {
+            "code" : "261250",
+            "display" : "16q24.3 microdeletion syndrome"
+          },
+          {
+            "code" : "261257",
+            "display" : "Distal 17p13.3 microdeletion syndrome"
+          },
+          {
+            "code" : "261265",
+            "display" : "17q12 microdeletion syndrome"
+          },
+          {
+            "code" : "261272",
+            "display" : "17q12 microduplication syndrome"
+          },
+          {
+            "code" : "261279",
+            "display" : "17q23.1q23.2 microdeletion syndrome"
+          },
+          {
+            "code" : "261290",
+            "display" : "Trisomy 17p"
+          },
+          {
+            "code" : "261295",
+            "display" : "20p12.3 microdeletion syndrome"
+          },
+          {
+            "code" : "261304",
+            "display" : "Paternal 20q13.2q13.3 microdeletion syndrome"
+          },
+          {
+            "code" : "261311",
+            "display" : "20q13.33 microdeletion syndrome"
+          },
+          {
+            "code" : "261318",
+            "display" : "Trisomy 20p"
+          },
+          {
+            "code" : "261323",
+            "display" : "21q22.11q22.12 microdeletion syndrome"
+          },
+          {
+            "code" : "261330",
+            "display" : "Distal 22q11.2 microdeletion syndrome"
+          },
+          {
+            "code" : "261337",
+            "display" : "Distal 22q11.2 microduplication syndrome"
+          },
+          {
+            "code" : "261344",
+            "display" : "Trisomy 1q"
+          },
+          {
+            "code" : "261349",
+            "display" : "2p15p16.1 microdeletion syndrome"
+          },
+          {
+            "code" : "261476",
+            "display" : "Xp21 deletion syndrome"
+          },
+          {
+            "code" : "261483",
+            "display" : "Xq27.3q28 duplication syndrome"
+          },
+          {
+            "code" : "261494",
+            "display" : "Kleefstra syndrome"
+          },
+          {
+            "code" : "261501",
+            "display" : "Atypical Norrie disease due to Xp11.3 microdeletion"
+          },
+          {
+            "code" : "261519",
+            "display" : "Maternal uniparental disomy of chromosome X"
+          },
+          {
+            "code" : "261524",
+            "display" : "Paternal uniparental disomy of chromosome X"
+          },
+          {
+            "code" : "261529",
+            "display" : "Ring chromosome Y syndrome"
+          },
+          {
+            "code" : "261534",
+            "display" : "49,XXXYY syndrome"
+          },
+          {
+            "code" : "261537",
+            "display" : "Mowat-Wilson syndrome due to monosomy 2q22"
+          },
+          {
+            "code" : "261552",
+            "display" : "Mowat-Wilson syndrome due to a ZEB2 point mutation"
+          },
+          {
+            "code" : "261584",
+            "display" : "Familial adenomatous polyposis due to 5q22.2 microdeletion"
+          },
+          {
+            "code" : "261600",
+            "display" : "Alagille syndrome due to 20p12 microdeletion"
+          },
+          {
+            "code" : "261619",
+            "display" : "Alagille syndrome due to a JAG1 point mutation"
+          },
+          {
+            "code" : "261629",
+            "display" : "Alagille syndrome due to a NOTCH2 point mutation"
+          },
+          {
+            "code" : "261638",
+            "display" : "Okihiro syndrome due to 20q13 microdeletion"
+          },
+          {
+            "code" : "261647",
+            "display" : "Okihiro syndrome due to a point mutation"
+          },
+          {
+            "code" : "261652",
+            "display" : "Kleefstra syndrome due to a point mutation"
+          },
+          {
+            "code" : "263297",
+            "display" : "Glycogen storage disease with severe cardiomyopathy due to glycogenin deficiency"
+          },
+          {
+            "code" : "263310",
+            "display" : "Thymoma type A"
+          },
+          {
+            "code" : "263317",
+            "display" : "Thymoma type B"
+          },
+          {
+            "code" : "263324",
+            "display" : "Thymoma type AB"
+          },
+          {
+            "code" : "263331",
+            "display" : "Well-differentiated thymic neuroendocrine carcinoma"
+          },
+          {
+            "code" : "263335",
+            "display" : "Moderately-differentiated thymic neuroendocrine carcinoma"
+          },
+          {
+            "code" : "263339",
+            "display" : "Poorly differentiated thymic neuroendocrine carcinoma"
+          },
+          {
+            "code" : "263347",
+            "display" : "MRCS syndrome"
+          },
+          {
+            "code" : "263352",
+            "display" : "Postcardiotomy right ventricular failure"
+          },
+          {
+            "code" : "263410",
+            "display" : "Infantile spasms-psychomotor retardation-progressive brain atrophy-basal ganglia disease syndrome"
+          },
+          {
+            "code" : "263413",
+            "display" : "Angiosarcoma"
+          },
+          {
+            "code" : "263425",
+            "display" : "Nevus of Ota"
+          },
+          {
+            "code" : "263432",
+            "display" : "Nevus of Ito"
+          },
+          {
+            "code" : "263435",
+            "display" : "Congenital smooth muscle hamartoma"
+          },
+          {
+            "code" : "263455",
+            "display" : "Congenital hyperinsulinism due to HNF4A deficiency"
+          },
+          {
+            "code" : "263458",
+            "display" : "Hyperinsulinism due to INSR deficiency"
+          },
+          {
+            "code" : "263463",
+            "display" : "CHST3-related skeletal dysplasia"
+          },
+          {
+            "code" : "263479",
+            "display" : "Fuchs heterochromic iridocyclitis"
+          },
+          {
+            "code" : "263482",
+            "display" : "Spondyloepimetaphyseal dysplasia, Maroteaux type"
+          },
+          {
+            "code" : "263487",
+            "display" : "COG5-CDG"
+          },
+          {
+            "code" : "263494",
+            "display" : "DPM3-CDG"
+          },
+          {
+            "code" : "263501",
+            "display" : "COG4-CDG"
+          },
+          {
+            "code" : "263508",
+            "display" : "COG1-CDG"
+          },
+          {
+            "code" : "263516",
+            "display" : "Progressive myoclonic epilepsy type 3"
+          },
+          {
+            "code" : "263524",
+            "display" : "Acute necrotizing encephalopathy of childhood"
+          },
+          {
+            "code" : "263534",
+            "display" : "Acral peeling skin syndrome"
+          },
+          {
+            "code" : "263543",
+            "display" : "Generalized peeling skin syndrome"
+          },
+          {
+            "code" : "263548",
+            "display" : "Peeling skin syndrome type A"
+          },
+          {
+            "code" : "263553",
+            "display" : "Peeling skin syndrome type B"
+          },
+          {
+            "code" : "263662",
+            "display" : "Familial multiple meningioma"
+          },
+          {
+            "code" : "263665",
+            "display" : "NK-cell enteropathy"
+          },
+          {
+            "code" : "264200",
+            "display" : "14q22q23 microdeletion syndrome"
+          },
+          {
+            "code" : "264450",
+            "display" : "Trisomy 8p"
+          },
+          {
+            "code" : "264580",
+            "display" : "Glycogen storage disease due to liver phosphorylase kinase deficiency"
+          },
+          {
+            "code" : "264675",
+            "display" : "Hereditary pulmonary alveolar proteinosis"
+          },
+          {
+            "code" : "264688",
+            "display" : "Congenital chylothorax"
+          },
+          {
+            "code" : "264691",
+            "display" : "Isolated pulmonary capillaritis"
+          },
+          {
+            "code" : "264978",
+            "display" : "Drug or radiation exposure-related interstitial lung disease"
+          },
+          {
+            "code" : "268114",
+            "display" : "RAS-associated autoimmune leukoproliferative disease"
+          },
+          {
+            "code" : "268129",
+            "display" : "Spheroid body myopathy"
+          },
+          {
+            "code" : "268139",
+            "display" : "Intraocular medulloepithelioma"
+          },
+          {
+            "code" : "268145",
+            "display" : "Classic maple syrup urine disease"
+          },
+          {
+            "code" : "268162",
+            "display" : "Intermediate maple syrup urine disease"
+          },
+          {
+            "code" : "268173",
+            "display" : "Intermittent maple syrup urine disease"
+          },
+          {
+            "code" : "268184",
+            "display" : "Thiamine-responsive maple syrup urine disease"
+          },
+          {
+            "code" : "268249",
+            "display" : "Mycophenolate mofetil embryopathy"
+          },
+          {
+            "code" : "268261",
+            "display" : "DYRK1A-related intellectual disability syndrome due to 21q22.13q22.2 microdeletion"
+          },
+          {
+            "code" : "268316",
+            "display" : "Complication in hemodialysis"
+          },
+          {
+            "code" : "268322",
+            "display" : "Hereditary thrombocytopenia with normal platelets"
+          },
+          {
+            "code" : "268363",
+            "display" : "Open iniencephaly"
+          },
+          {
+            "code" : "268366",
+            "display" : "Closed iniencephaly"
+          },
+          {
+            "code" : "268810",
+            "display" : "Isolated posterior meningocele"
+          },
+          {
+            "code" : "268820",
+            "display" : "Cranial meningocele"
+          },
+          {
+            "code" : "268823",
+            "display" : "Occipital encephalocele"
+          },
+          {
+            "code" : "268826",
+            "display" : "Parietal encephalocele"
+          },
+          {
+            "code" : "268829",
+            "display" : "Basal encephalocele"
+          },
+          {
+            "code" : "268861",
+            "display" : "Primary tethered cord syndrome"
+          },
+          {
+            "code" : "268865",
+            "display" : "Neurenteric cyst"
+          },
+          {
+            "code" : "268868",
+            "display" : "Isolated amyelia"
+          },
+          {
+            "code" : "268882",
+            "display" : "Arnold-Chiari malformation type I"
+          },
+          {
+            "code" : "268920",
+            "display" : "Isolated megalencephaly"
+          },
+          {
+            "code" : "268936",
+            "display" : "Isolated arhinencephaly"
+          },
+          {
+            "code" : "268940",
+            "display" : "Bilateral polymicrogyria"
+          },
+          {
+            "code" : "268943",
+            "display" : "Unilateral polymicrogyria"
+          },
+          {
+            "code" : "268947",
+            "display" : "Unilateral focal polymicrogyria"
+          },
+          {
+            "code" : "268961",
+            "display" : "Isolated focal cortical dysplasia type I"
+          },
+          {
+            "code" : "268973",
+            "display" : "Isolated focal cortical dysplasia type Ia"
+          },
+          {
+            "code" : "268980",
+            "display" : "Isolated focal cortical dysplasia type Ib"
+          },
+          {
+            "code" : "268987",
+            "display" : "Isolated focal cortical dysplasia type Ic"
+          },
+          {
+            "code" : "268994",
+            "display" : "Isolated focal cortical dysplasia type II"
+          },
+          {
+            "code" : "269001",
+            "display" : "Isolated focal cortical dysplasia type IIa"
+          },
+          {
+            "code" : "269008",
+            "display" : "Isolated focal cortical dysplasia type IIb"
+          },
+          {
+            "code" : "269197",
+            "display" : "Glioependymal/ependymal cyst"
+          },
+          {
+            "code" : "269203",
+            "display" : "Isolated cerebellar vermis agenesis"
+          },
+          {
+            "code" : "269206",
+            "display" : "Isolated total cerebellar vermis agenesis"
+          },
+          {
+            "code" : "269209",
+            "display" : "Isolated partial cerebellar vermis agenesis"
+          },
+          {
+            "code" : "269212",
+            "display" : "Isolated Dandy-Walker malformation with hydrocephalus"
+          },
+          {
+            "code" : "269215",
+            "display" : "Isolated Dandy-Walker malformation without hydrocephalus"
+          },
+          {
+            "code" : "269218",
+            "display" : "Isolated unilateral hemispheric cerebellar hypoplasia"
+          },
+          {
+            "code" : "269221",
+            "display" : "Isolated bilateral hemispheric cerebellar hypoplasia"
+          },
+          {
+            "code" : "269229",
+            "display" : "Pontine tegmental cap dysplasia"
+          },
+          {
+            "code" : "269505",
+            "display" : "Congenital communicating hydrocephalus"
+          },
+          {
+            "code" : "269510",
+            "display" : "Congenital non-communicating hydrocephalus"
+          },
+          {
+            "code" : "271861",
+            "display" : "Hereditary ATTR amyloidosis"
+          },
+          {
+            "code" : "275517",
+            "display" : "Autoimmune lymphoproliferative syndrome-recurrent viral infections due to CASP8 deficiency"
+          },
+          {
+            "code" : "275523",
+            "display" : "Dianzani autoimmune lymphoproliferative disease"
+          },
+          {
+            "code" : "275543",
+            "display" : "L1 syndrome"
+          },
+          {
+            "code" : "275555",
+            "display" : "Preeclampsia"
+          },
+          {
+            "code" : "275761",
+            "display" : "Lysosomal acid lipase deficiency"
+          },
+          {
+            "code" : "275766",
+            "display" : "Idiopathic pulmonary arterial hypertension"
+          },
+          {
+            "code" : "275777",
+            "display" : "Heritable pulmonary arterial hypertension"
+          },
+          {
+            "code" : "275864",
+            "display" : "Behavioral variant of frontotemporal dementia"
+          },
+          {
+            "code" : "275872",
+            "display" : "Frontotemporal dementia with motor neuron disease"
+          },
+          {
+            "code" : "275944",
+            "display" : "Hemolytic disease of the newborn with Kell alloimmunization"
+          },
+          {
+            "code" : "276066",
+            "display" : "Bile acid CoA ligase deficiency and defective amidation"
+          },
+          {
+            "code" : "276145",
+            "display" : "Malignant epithelial tumor of salivary glands"
+          },
+          {
+            "code" : "276148",
+            "display" : "Benign epithelial tumor of salivary glands"
+          },
+          {
+            "code" : "276152",
+            "display" : "Multiple endocrine neoplasia type 4"
+          },
+          {
+            "code" : "276174",
+            "display" : "Idiopathic recurrent stupor"
+          },
+          {
+            "code" : "276183",
+            "display" : "Spinocerebellar ataxia type 32"
+          },
+          {
+            "code" : "276193",
+            "display" : "Spinocerebellar ataxia type 35"
+          },
+          {
+            "code" : "276198",
+            "display" : "Spinocerebellar ataxia type 36"
+          },
+          {
+            "code" : "276212",
+            "display" : "Mucopolysaccharidosis type 6, rapidly progressing"
+          },
+          {
+            "code" : "276223",
+            "display" : "Mucopolysaccharidosis type 6, slowly progressing"
+          },
+          {
+            "code" : "276234",
+            "display" : "Non-syndromic male infertility due to sperm motility disorder"
+          },
+          {
+            "code" : "276238",
+            "display" : "Machado-Joseph disease type 1"
+          },
+          {
+            "code" : "276241",
+            "display" : "Machado-Joseph disease type 2"
+          },
+          {
+            "code" : "276244",
+            "display" : "Machado-Joseph disease type 3"
+          },
+          {
+            "code" : "276280",
+            "display" : "Hemihyperplasia-multiple lipomatosis syndrome"
+          },
+          {
+            "code" : "276399",
+            "display" : "Familial multinodular goiter"
+          },
+          {
+            "code" : "276405",
+            "display" : "Hyperbiliverdinemia"
+          },
+          {
+            "code" : "276413",
+            "display" : "10q22.3q23.3 microdeletion syndrome"
+          },
+          {
+            "code" : "276422",
+            "display" : "10q22.3q23.3 microduplication syndrome"
+          },
+          {
+            "code" : "276429",
+            "display" : "Hypnic headache"
+          },
+          {
+            "code" : "276432",
+            "display" : "Ogden syndrome"
+          },
+          {
+            "code" : "276435",
+            "display" : "Lower motor neuron syndrome with late-adult onset"
+          },
+          {
+            "code" : "276556",
+            "display" : "Hyperinsulinism due to UCP2 deficiency"
+          },
+          {
+            "code" : "276575",
+            "display" : "Autosomal dominant hyperinsulinism due to SUR1 deficiency"
+          },
+          {
+            "code" : "276580",
+            "display" : "Autosomal dominant hyperinsulinism due to Kir6.2 deficiency"
+          },
+          {
+            "code" : "276598",
+            "display" : "Diazoxide-resistant focal hyperinsulinism due to SUR1 deficiency"
+          },
+          {
+            "code" : "276603",
+            "display" : "Diazoxide-resistant focal hyperinsulinism due to Kir6.2 deficiency"
+          },
+          {
+            "code" : "276608",
+            "display" : "Non-insulinoma pancreatogenous hypoglycemia syndrome"
+          },
+          {
+            "code" : "276621",
+            "display" : "Sporadic pheochromocytoma/secreting paraganglioma"
+          },
+          {
+            "code" : "276630",
+            "display" : "Symptomatic form of Coffin-Lowry syndrome in female carriers"
+          },
+          {
+            "code" : "279882",
+            "display" : "Spasmus nutans"
+          },
+          {
+            "code" : "279888",
+            "display" : "Acute endophthalmitis"
+          },
+          {
+            "code" : "279891",
+            "display" : "Chronic endophthalmitis"
+          },
+          {
+            "code" : "279894",
+            "display" : "Toxic maculopathy due to antimalarial drugs"
+          },
+          {
+            "code" : "279897",
+            "display" : "Primary oculocerebral lymphoma"
+          },
+          {
+            "code" : "279904",
+            "display" : "Primary intraocular lymphoma"
+          },
+          {
+            "code" : "279914",
+            "display" : "Intermediate uveitis"
+          },
+          {
+            "code" : "279919",
+            "display" : "Infectious posterior uveitis"
+          },
+          {
+            "code" : "279922",
+            "display" : "Infectious anterior uveitis"
+          },
+          {
+            "code" : "279925",
+            "display" : "Infectious panuveitis"
+          },
+          {
+            "code" : "279928",
+            "display" : "Paraneoplastic uveitis"
+          },
+          {
+            "code" : "279934",
+            "display" : "Mitochondrial DNA depletion syndrome, hepatocerebral form due to DGUOK deficiency"
+          },
+          {
+            "code" : "279943",
+            "display" : "Hereditary neutrophilia"
+          },
+          {
+            "code" : "279947",
+            "display" : "Postorgasmic illness syndrome"
+          },
+          {
+            "code" : "280062",
+            "display" : "Calciphylaxis"
+          },
+          {
+            "code" : "280065",
+            "display" : "Calciphylaxis cutis"
+          },
+          {
+            "code" : "280068",
+            "display" : "Visceral calciphylaxis"
+          },
+          {
+            "code" : "280071",
+            "display" : "ALG11-CDG"
+          },
+          {
+            "code" : "280133",
+            "display" : "Complement component 3 deficiency"
+          },
+          {
+            "code" : "280142",
+            "display" : "Severe combined immunodeficiency due to LCK deficiency"
+          },
+          {
+            "code" : "280183",
+            "display" : "Methylmalonic aciduria due to transcobalamin receptor defect"
+          },
+          {
+            "code" : "280195",
+            "display" : "Septopreoptic holoprosencephaly"
+          },
+          {
+            "code" : "280200",
+            "display" : "Microform holoprosencephaly"
+          },
+          {
+            "code" : "280205",
+            "display" : "Laryngotracheoesophageal cleft type 0"
+          },
+          {
+            "code" : "280210",
+            "display" : "Pelizaeus-Merzbacher disease, connatal form"
+          },
+          {
+            "code" : "280219",
+            "display" : "Pelizaeus-Merzbacher disease, classic form"
+          },
+          {
+            "code" : "280224",
+            "display" : "Pelizaeus-Merzbacher disease, transitional form"
+          },
+          {
+            "code" : "280229",
+            "display" : "Pelizaeus-Merzbacher disease in female carriers"
+          },
+          {
+            "code" : "280234",
+            "display" : "Null syndrome"
+          },
+          {
+            "code" : "280270",
+            "display" : "Pelizaeus-Merzbacher-like disease"
+          },
+          {
+            "code" : "280282",
+            "display" : "Pelizaeus-Merzbacher-like disease due to GJC2 mutation"
+          },
+          {
+            "code" : "280288",
+            "display" : "Pelizaeus-Merzbacher-like disease due to HSPD1 mutation"
+          },
+          {
+            "code" : "280293",
+            "display" : "Pelizaeus-Merzbacher-like disease due to AIMP1 mutation"
+          },
+          {
+            "code" : "280302",
+            "display" : "Autoimmune pancreatitis type 1"
+          },
+          {
+            "code" : "280315",
+            "display" : "Autoimmune pancreatitis type 2"
+          },
+          {
+            "code" : "280325",
+            "display" : "Distal deletion 12p"
+          },
+          {
+            "code" : "280333",
+            "display" : "Alpha-dystroglycan-related limb-girdle muscular dystrophy R16"
+          },
+          {
+            "code" : "280356",
+            "display" : "PLIN1-related familial partial lipodystrophy"
+          },
+          {
+            "code" : "280365",
+            "display" : "Autosomal semi-dominant severe lipodystrophic laminopathy"
+          },
+          {
+            "code" : "280379",
+            "display" : "Erythropoietic uroporphyria associated with myeloid malignancy"
+          },
+          {
+            "code" : "280384",
+            "display" : "Recessive intellectual disability-motor dysfunction-multiple joint contractures syndrome"
+          },
+          {
+            "code" : "280397",
+            "display" : "Familial Alzheimer-like prion disease"
+          },
+          {
+            "code" : "280403",
+            "display" : "Familial omphalocele syndrome with facial dysmorphism"
+          },
+          {
+            "code" : "280406",
+            "display" : "Familial steroid-resistant nephrotic syndrome with sensorineural deafness"
+          },
+          {
+            "code" : "280553",
+            "display" : "Fatal infantile hypertonic myofibrillar myopathy"
+          },
+          {
+            "code" : "280558",
+            "display" : "Warsaw breakage syndrome"
+          },
+          {
+            "code" : "280576",
+            "display" : "Nestor-Guillermo progeria syndrome"
+          },
+          {
+            "code" : "280586",
+            "display" : "Chondrodysplasia with joint dislocations, gPAPP type"
+          },
+          {
+            "code" : "280598",
+            "display" : "Hereditary sensorimotor neuropathy with hyperelastic skin"
+          },
+          {
+            "code" : "280615",
+            "display" : "Hemoglobinopathy Toms River"
+          },
+          {
+            "code" : "280620",
+            "display" : "Progressive myoclonic epilepsy type 6"
+          },
+          {
+            "code" : "280628",
+            "display" : "Familial progressive hyper- and hypopigmentation"
+          },
+          {
+            "code" : "280633",
+            "display" : "Multiple congenital anomalies-hypotonia-seizures syndrome"
+          },
+          {
+            "code" : "280640",
+            "display" : "Occipital pachygyria and polymicrogyria"
+          },
+          {
+            "code" : "280654",
+            "display" : "Autosomal recessive nail dysplasia"
+          },
+          {
+            "code" : "280671",
+            "display" : "Megaconial congenital muscular dystrophy"
+          },
+          {
+            "code" : "280679",
+            "display" : "Moyamoya angiopathy-short stature-facial dysmorphism-hypergonadotropic hypogonadism syndrome"
+          },
+          {
+            "code" : "280763",
+            "display" : "Severe intellectual disability and progressive spastic paraplegia"
+          },
+          {
+            "code" : "280774",
+            "display" : "Generalized essential telangiectasia"
+          },
+          {
+            "code" : "280779",
+            "display" : "Cutaneous collagenous vasculopathy"
+          },
+          {
+            "code" : "280785",
+            "display" : "Bullous diffuse cutaneous mastocytosis"
+          },
+          {
+            "code" : "280794",
+            "display" : "Pseudoxanthomatous diffuse cutaneous mastocytosis"
+          },
+          {
+            "code" : "280802",
+            "display" : "Intralobar congenital pulmonary sequestration"
+          },
+          {
+            "code" : "280811",
+            "display" : "Extralobar congenital pulmonary sequestration"
+          },
+          {
+            "code" : "280821",
+            "display" : "Communicating congenital bronchopulmonary-foregut malformation"
+          },
+          {
+            "code" : "280827",
+            "display" : "Congenital pulmonary airway malformation type 0"
+          },
+          {
+            "code" : "280832",
+            "display" : "Congenital pulmonary airway malformation type 1"
+          },
+          {
+            "code" : "280840",
+            "display" : "Congenital pulmonary airway malformation type 2"
+          },
+          {
+            "code" : "280847",
+            "display" : "Congenital pulmonary airway malformation type 3"
+          },
+          {
+            "code" : "280854",
+            "display" : "Congenital pulmonary airway malformation type 4"
+          },
+          {
+            "code" : "280917",
+            "display" : "Idiopathic posterior uveitis"
+          },
+          {
+            "code" : "280921",
+            "display" : "Idiopathic panuveitis"
+          },
+          {
+            "code" : "281090",
+            "display" : "Syndromic recessive X-linked ichthyosis"
+          },
+          {
+            "code" : "281122",
+            "display" : "Self-improving collodion baby"
+          },
+          {
+            "code" : "281127",
+            "display" : "Acral self-healing collodion baby"
+          },
+          {
+            "code" : "281139",
+            "display" : "Annular epidermolytic ichthyosis"
+          },
+          {
+            "code" : "281190",
+            "display" : "Congenital reticular ichthyosiform erythroderma"
+          },
+          {
+            "code" : "281201",
+            "display" : "Keratosis linearis-ichthyosis congenita-sclerosing keratoderma syndrome"
+          },
+          {
+            "code" : "282166",
+            "display" : "Inherited Creutzfeldt-Jakob disease"
+          },
+          {
+            "code" : "284139",
+            "display" : "Larsen-like syndrome, B3GAT3 type"
+          },
+          {
+            "code" : "284149",
+            "display" : "Craniosynostosis-dental anomalies"
+          },
+          {
+            "code" : "284160",
+            "display" : "8q21.11 microdeletion syndrome"
+          },
+          {
+            "code" : "284169",
+            "display" : "Facial dysmorphism-developmental delay-behavioral abnormalities syndrome due to 10p11.21p12.31 microdeletion"
+          },
+          {
+            "code" : "284180",
+            "display" : "Xp22.13p22.2 duplication syndrome"
+          },
+          {
+            "code" : "284227",
+            "display" : "TEMPI syndrome"
+          },
+          {
+            "code" : "284232",
+            "display" : "Autosomal dominant Charcot-Marie-Tooth disease type 2O"
+          },
+          {
+            "code" : "284247",
+            "display" : "Familial retinal arterial macroaneurysm"
+          },
+          {
+            "code" : "284271",
+            "display" : "Autosomal recessive cerebellar ataxia-psychomotor delay syndrome"
+          },
+          {
+            "code" : "284282",
+            "display" : "Autosomal recessive cerebellar ataxia-epilepsy-intellectual disability syndrome due to WWOX deficiency"
+          },
+          {
+            "code" : "284289",
+            "display" : "Adult-onset autosomal recessive cerebellar ataxia"
+          },
+          {
+            "code" : "284324",
+            "display" : "Childhood-onset autosomal recessive slowly progressive spinocerebellar ataxia"
+          },
+          {
+            "code" : "284332",
+            "display" : "Infantile-onset autosomal recessive nonprogressive cerebellar ataxia"
+          },
+          {
+            "code" : "284339",
+            "display" : "Pontocerebellar hypoplasia type 7"
+          },
+          {
+            "code" : "284343",
+            "display" : "DICER1 tumor-predisposition syndrome"
+          },
+          {
+            "code" : "284362",
+            "display" : "Fetal lung interstitial tumor"
+          },
+          {
+            "code" : "284388",
+            "display" : "Reversible cerebral vasoconstriction syndrome"
+          },
+          {
+            "code" : "284395",
+            "display" : "Well-differentiated fetal adenocarcinoma of the lung"
+          },
+          {
+            "code" : "284400",
+            "display" : "Small cell carcinoma of the bladder"
+          },
+          {
+            "code" : "284411",
+            "display" : "Glycerol kinase deficiency, juvenile form"
+          },
+          {
+            "code" : "284414",
+            "display" : "Glycerol kinase deficiency, adult form"
+          },
+          {
+            "code" : "284417",
+            "display" : "Phosphoserine aminotransferase deficiency, infantile/juvenile form"
+          },
+          {
+            "code" : "284426",
+            "display" : "Glycogen storage disease due to lactate dehydrogenase M-subunit deficiency"
+          },
+          {
+            "code" : "284435",
+            "display" : "Glycogen storage disease due to lactate dehydrogenase H-subunit deficiency"
+          },
+          {
+            "code" : "284448",
+            "display" : "CLIPPERS"
+          },
+          {
+            "code" : "284454",
+            "display" : "Acute zonal occult outer retinopathy"
+          },
+          {
+            "code" : "284460",
+            "display" : "Acute annular outer retinopathy"
+          },
+          {
+            "code" : "284963",
+            "display" : "Marfan syndrome type 1"
+          },
+          {
+            "code" : "284973",
+            "display" : "Marfan syndrome type 2"
+          },
+          {
+            "code" : "284979",
+            "display" : "Neonatal Marfan syndrome"
+          },
+          {
+            "code" : "284984",
+            "display" : "Aneurysm-osteoarthritis syndrome"
+          },
+          {
+            "code" : "289157",
+            "display" : "Hypocalcemic vitamin D-dependent rickets"
+          },
+          {
+            "code" : "289176",
+            "display" : "Autosomal recessive hypophosphatemic rickets"
+          },
+          {
+            "code" : "289266",
+            "display" : "Early-onset epileptic encephalopathy and intellectual disability due to GRIN2A mutation"
+          },
+          {
+            "code" : "289290",
+            "display" : "Hypermethioninemia encephalopathy due to adenosine kinase deficiency"
+          },
+          {
+            "code" : "289307",
+            "display" : "Developmental delay due to methylmalonate semialdehyde dehydrogenase deficiency"
+          },
+          {
+            "code" : "289326",
+            "display" : "Tropical spastic paraparesis"
+          },
+          {
+            "code" : "289347",
+            "display" : "Infective dermatitis associated with HTLV-1"
+          },
+          {
+            "code" : "289356",
+            "display" : "Primary non-gestational choriocarcinoma of ovary"
+          },
+          {
+            "code" : "289362",
+            "display" : "Non-central nervous system-localized embryonal carcinoma"
+          },
+          {
+            "code" : "289365",
+            "display" : "Familial vesicoureteral reflux"
+          },
+          {
+            "code" : "289377",
+            "display" : "Early-onset myopathy with fatal cardiomyopathy"
+          },
+          {
+            "code" : "289380",
+            "display" : "Myosclerosis"
+          },
+          {
+            "code" : "289385",
+            "display" : "Malignancy diagnosed during pregnancy"
+          },
+          {
+            "code" : "289390",
+            "display" : "Primary Sjögren syndrome"
+          },
+          {
+            "code" : "289465",
+            "display" : "Isolated congenital adermatoglyphia"
+          },
+          {
+            "code" : "289478",
+            "display" : "PASH syndrome"
+          },
+          {
+            "code" : "289483",
+            "display" : "Intellectual disability-alacrima-achalasia syndrome"
+          },
+          {
+            "code" : "289494",
+            "display" : "4H leukodystrophy"
+          },
+          {
+            "code" : "289499",
+            "display" : "Congenital cataract microcornea with corneal opacity"
+          },
+          {
+            "code" : "289504",
+            "display" : "Combined malonic and methylmalonic acidemia"
+          },
+          {
+            "code" : "289513",
+            "display" : "12q15q21.1 microdeletion syndrome"
+          },
+          {
+            "code" : "289522",
+            "display" : "Microtriplication 11q24.1"
+          },
+          {
+            "code" : "289539",
+            "display" : "BAP1-related tumor predisposition syndrome"
+          },
+          {
+            "code" : "289548",
+            "display" : "Inherited isolated adrenal insufficiency due to partial CYP11A1 deficiency"
+          },
+          {
+            "code" : "289553",
+            "display" : "Dysmorphism-conductive hearing loss-heart defect syndrome"
+          },
+          {
+            "code" : "289560",
+            "display" : "Mitochondrial membrane protein-associated neurodegeneration"
+          },
+          {
+            "code" : "289586",
+            "display" : "Exfoliative ichthyosis"
+          },
+          {
+            "code" : "289596",
+            "display" : "Juvenile nasopharyngeal angiofibroma"
+          },
+          {
+            "code" : "289601",
+            "display" : "Hereditary arterial and articular multiple calcification syndrome"
+          },
+          {
+            "code" : "289661",
+            "display" : "Epstein-Barr virus-positive diffuse large B-cell lymphoma"
+          },
+          {
+            "code" : "289666",
+            "display" : "Plasmablastic lymphoma"
+          },
+          {
+            "code" : "289682",
+            "display" : "Lymphoepithelial-like carcinoma"
+          },
+          {
+            "code" : "289685",
+            "display" : "Myopericytoma"
+          },
+          {
+            "code" : "289846",
+            "display" : "Glutathione synthetase deficiency with 5-oxoprolinuria"
+          },
+          {
+            "code" : "289849",
+            "display" : "Glutathione synthetase deficiency without 5-oxoprolinuria"
+          },
+          {
+            "code" : "289857",
+            "display" : "Neonatal glycine encephalopathy"
+          },
+          {
+            "code" : "289860",
+            "display" : "Infantile glycine encephalopathy"
+          },
+          {
+            "code" : "289863",
+            "display" : "Atypical glycine encephalopathy"
+          },
+          {
+            "code" : "289877",
+            "display" : "Transient hyperammonemia of the newborn"
+          },
+          {
+            "code" : "289891",
+            "display" : "Hypermethioninemia due to glycine N-methyltransferase deficiency"
+          },
+          {
+            "code" : "289916",
+            "display" : "Vitamin B12-unresponsive methylmalonic acidemia type mut0"
+          },
+          {
+            "code" : "293144",
+            "display" : "Familial clubfoot due to 5q31 microdeletion"
+          },
+          {
+            "code" : "293150",
+            "display" : "Familial clubfoot due to PITX1 point mutation"
+          },
+          {
+            "code" : "293165",
+            "display" : "Skin fragility-woolly hair-palmoplantar keratoderma syndrome"
+          },
+          {
+            "code" : "293168",
+            "display" : "Infantile-onset ascending hereditary spastic paralysis"
+          },
+          {
+            "code" : "293173",
+            "display" : "Acute generalized exanthematous pustulosis"
+          },
+          {
+            "code" : "293181",
+            "display" : "Malignant migrating focal seizures of infancy"
+          },
+          {
+            "code" : "293199",
+            "display" : "Pleomorphic rhabdomyosarcoma"
+          },
+          {
+            "code" : "293202",
+            "display" : "Epithelioid sarcoma"
+          },
+          {
+            "code" : "293208",
+            "display" : "Celiac artery compression syndrome"
+          },
+          {
+            "code" : "293284",
+            "display" : "Tetrahydrobiopterin-responsive hyperphenylalaninemia/phenylketonuria"
+          },
+          {
+            "code" : "293375",
+            "display" : "Grayson-Wilbrandt corneal dystrophy"
+          },
+          {
+            "code" : "293381",
+            "display" : "Epithelial recurrent erosion dystrophy"
+          },
+          {
+            "code" : "293462",
+            "display" : "Pre-Descemet corneal dystrophy"
+          },
+          {
+            "code" : "293603",
+            "display" : "Congenital hereditary endothelial dystrophy type II"
+          },
+          {
+            "code" : "293621",
+            "display" : "X-linked endothelial corneal dystrophy"
+          },
+          {
+            "code" : "293633",
+            "display" : "PYCR1-related De Barsy syndrome"
+          },
+          {
+            "code" : "293707",
+            "display" : "Blepharophimosis-intellectual disability syndrome, MKB type"
+          },
+          {
+            "code" : "293725",
+            "display" : "Blepharophimosis-intellectual disability syndrome, Verloes type"
+          },
+          {
+            "code" : "293807",
+            "display" : "Ketamine-induced biliary dilatation"
+          },
+          {
+            "code" : "293812",
+            "display" : "Fixed drug eruption"
+          },
+          {
+            "code" : "293822",
+            "display" : "MITF-related melanoma and renal cell carcinoma predisposition syndrome"
+          },
+          {
+            "code" : "293825",
+            "display" : "Congenital dyserythropoietic anemia type IV"
+          },
+          {
+            "code" : "293843",
+            "display" : "3MC syndrome"
+          },
+          {
+            "code" : "293864",
+            "display" : "Hypoplastic pancreas-intestinal atresia-hypoplastic gallbladder syndrome"
+          },
+          {
+            "code" : "293888",
+            "display" : "Inherited isolated arrhythmogenic cardiomyopathy, dominant-left variant"
+          },
+          {
+            "code" : "293899",
+            "display" : "Inherited isolated arrhythmogenic ventricular dysplasia, biventricular variant"
+          },
+          {
+            "code" : "293910",
+            "display" : "Inherited isolated arrhythmogenic cardiomyopathy, dominant-right variant"
+          },
+          {
+            "code" : "293925",
+            "display" : "Lethal occipital encephalocele-skeletal dysplasia syndrome"
+          },
+          {
+            "code" : "293936",
+            "display" : "EDICT syndrome"
+          },
+          {
+            "code" : "293939",
+            "display" : "Distal Xq28 microduplication syndrome"
+          },
+          {
+            "code" : "293948",
+            "display" : "1p21.3 microdeletion syndrome"
+          },
+          {
+            "code" : "293955",
+            "display" : "Childhood encephalopathy due to thiamine pyrophosphokinase deficiency"
+          },
+          {
+            "code" : "293958",
+            "display" : "Hypertelorism-preauricular sinus-punctual pits-deafness syndrome"
+          },
+          {
+            "code" : "293964",
+            "display" : "Hypoinsulinemic hypoglycemia and body hemihypertrophy"
+          },
+          {
+            "code" : "293967",
+            "display" : "Hypogonadotropic hypogonadism-severe microcephaly-sensorineural hearing loss-dysmorphism syndrome"
+          },
+          {
+            "code" : "293978",
+            "display" : "Deficiency in anterior pituitary function-variable immunodeficiency syndrome"
+          },
+          {
+            "code" : "293987",
+            "display" : "Rapid-onset childhood obesity-hypothalamic dysfunction-hypoventilation-autonomic dysregulation syndrome"
+          },
+          {
+            "code" : "294016",
+            "display" : "Microcephaly-capillary malformation syndrome"
+          },
+          {
+            "code" : "294023",
+            "display" : "Neonatal inflammatory skin and bowel disease"
+          },
+          {
+            "code" : "294026",
+            "display" : "Syndactyly-nystagmus syndrome due to 2q31.1 microduplication"
+          },
+          {
+            "code" : "294415",
+            "display" : "Renal-hepatic-pancreatic dysplasia"
+          },
+          {
+            "code" : "294422",
+            "display" : "Chronic intestinal failure"
+          },
+          {
+            "code" : "294967",
+            "display" : "Isolated amelia of upper limb"
+          },
+          {
+            "code" : "294969",
+            "display" : "Isolated amelia of lower limb"
+          },
+          {
+            "code" : "294971",
+            "display" : "Isolated tetra-amelia"
+          },
+          {
+            "code" : "294973",
+            "display" : "Isolated humeral agenesis/hypoplasia"
+          },
+          {
+            "code" : "294975",
+            "display" : "Isolated absence of upper arm and forearm with hand present"
+          },
+          {
+            "code" : "294977",
+            "display" : "Isolated absence of thigh and lower leg with foot present"
+          },
+          {
+            "code" : "294979",
+            "display" : "Isolated absence of both forearm and hand"
+          },
+          {
+            "code" : "294981",
+            "display" : "Isolated absence of both lower leg and foot"
+          },
+          {
+            "code" : "294983",
+            "display" : "Isolated acheiria"
+          },
+          {
+            "code" : "294986",
+            "display" : "Isolated apodia"
+          },
+          {
+            "code" : "294988",
+            "display" : "Isolated hypoplasia of thumb"
+          },
+          {
+            "code" : "295000",
+            "display" : "Amniotic band syndrome"
+          },
+          {
+            "code" : "295002",
+            "display" : "Isolated hyperphalangy"
+          },
+          {
+            "code" : "295004",
+            "display" : "Central polydactyly"
+          },
+          {
+            "code" : "295012",
+            "display" : "Syndactyly type 6"
+          },
+          {
+            "code" : "295014",
+            "display" : "Familial isolated clinodactyly of fingers"
+          },
+          {
+            "code" : "295016",
+            "display" : "Camptodactyly of fingers"
+          },
+          {
+            "code" : "295018",
+            "display" : "Congenital pseudoarthrosis of the tibia"
+          },
+          {
+            "code" : "295020",
+            "display" : "Congenital pseudoarthrosis of the femur"
+          },
+          {
+            "code" : "295022",
+            "display" : "Congenital pseudoarthrosis of the fibula"
+          },
+          {
+            "code" : "295024",
+            "display" : "Congenital pseudoarthrosis of the radius"
+          },
+          {
+            "code" : "295026",
+            "display" : "Congenital pseudoarthrosis of the ulna"
+          },
+          {
+            "code" : "295028",
+            "display" : "Isolated tibio-fibular synostosis"
+          },
+          {
+            "code" : "295030",
+            "display" : "True congenital shoulder dislocation"
+          },
+          {
+            "code" : "295032",
+            "display" : "Isolated congenital radial head dislocation"
+          },
+          {
+            "code" : "295034",
+            "display" : "Congenital knee dislocation"
+          },
+          {
+            "code" : "295036",
+            "display" : "Congenital patella dislocation"
+          },
+          {
+            "code" : "295044",
+            "display" : "Macrodactyly of fingers"
+          },
+          {
+            "code" : "295047",
+            "display" : "Macrodactyly of toes"
+          },
+          {
+            "code" : "295049",
+            "display" : "Upper limb hypertrophy"
+          },
+          {
+            "code" : "295051",
+            "display" : "Lower limb hypertrophy"
+          },
+          {
+            "code" : "295187",
+            "display" : "Zygodactyly type 1"
+          },
+          {
+            "code" : "295189",
+            "display" : "Zygodactyly type 2"
+          },
+          {
+            "code" : "295191",
+            "display" : "Zygodactyly type 3"
+          },
+          {
+            "code" : "295193",
+            "display" : "Zygodactyly type 4"
+          },
+          {
+            "code" : "295195",
+            "display" : "Synpolydactyly type 1"
+          },
+          {
+            "code" : "295197",
+            "display" : "Synpolydactyly type 2"
+          },
+          {
+            "code" : "295199",
+            "display" : "Synpolydactyly type 3"
+          },
+          {
+            "code" : "295201",
+            "display" : "Congenital vertical talus, unilateral"
+          },
+          {
+            "code" : "295203",
+            "display" : "Congenital vertical talus, bilateral"
+          },
+          {
+            "code" : "295225",
+            "display" : "Congenital elbow dislocation, unilateral"
+          },
+          {
+            "code" : "295227",
+            "display" : "Congenital elbow dislocation, bilateral"
+          },
+          {
+            "code" : "295229",
+            "display" : "Congenital genu recurvatum"
+          },
+          {
+            "code" : "295232",
+            "display" : "Congenital genu flexum"
+          },
+          {
+            "code" : "295239",
+            "display" : "Macrodactyly of fingers, unilateral"
+          },
+          {
+            "code" : "295241",
+            "display" : "Macrodactyly of fingers, bilateral"
+          },
+          {
+            "code" : "295243",
+            "display" : "Macrodactyly of toes, unilateral"
+          },
+          {
+            "code" : "295245",
+            "display" : "Macrodactyly of toes, bilateral"
+          },
+          {
+            "code" : "300179",
+            "display" : "Kyphoscoliotic Ehlers-Danlos syndrome due to FKBP22 deficiency"
+          },
+          {
+            "code" : "300284",
+            "display" : "Connective tissue disorder due to lysyl hydroxylase-3 deficiency"
+          },
+          {
+            "code" : "300293",
+            "display" : "Transient infantile hypertriglyceridemia and hepatosteatosis"
+          },
+          {
+            "code" : "300298",
+            "display" : "Severe congenital hypochromic anemia with ringed sideroblasts"
+          },
+          {
+            "code" : "300305",
+            "display" : "11p15.4 microduplication syndrome"
+          },
+          {
+            "code" : "300313",
+            "display" : "Congenital cataract-hearing loss-severe developmental delay syndrome"
+          },
+          {
+            "code" : "300319",
+            "display" : "Charcot-Marie-Tooth disease type 2P"
+          },
+          {
+            "code" : "300324",
+            "display" : "Persistent polyclonal B-cell lymphocytosis"
+          },
+          {
+            "code" : "300333",
+            "display" : "Nephrotic syndrome-epidermolysis bullosa-sensorineural deafness syndrome"
+          },
+          {
+            "code" : "300345",
+            "display" : "Autosomal systemic lupus erythematosus"
+          },
+          {
+            "code" : "300359",
+            "display" : "PLCG2-associated antibody deficiency and immune dysregulation"
+          },
+          {
+            "code" : "300373",
+            "display" : "X-linked acrogigantism"
+          },
+          {
+            "code" : "300382",
+            "display" : "Progeroid and marfanoid aspect-lipodystrophy syndrome"
+          },
+          {
+            "code" : "300385",
+            "display" : "Pituitary carcinoma"
+          },
+          {
+            "code" : "300493",
+            "display" : "Sagliker syndrome"
+          },
+          {
+            "code" : "300496",
+            "display" : "Multiple congenital anomalies-hypotonia-seizures syndrome type 2"
+          },
+          {
+            "code" : "300501",
+            "display" : "Painful orbital and systemic neurofibromas-marfanoid habitus syndrome"
+          },
+          {
+            "code" : "300504",
+            "display" : "Onychocytic matricoma"
+          },
+          {
+            "code" : "300512",
+            "display" : "Onychomatricoma"
+          },
+          {
+            "code" : "300525",
+            "display" : "Pseudohypoaldosteronism type 2D"
+          },
+          {
+            "code" : "300530",
+            "display" : "Pseudohypoaldosteronism type 2E"
+          },
+          {
+            "code" : "300536",
+            "display" : "DDOST-CDG"
+          },
+          {
+            "code" : "300547",
+            "display" : "Autosomal recessive infantile hypercalcemia"
+          },
+          {
+            "code" : "300552",
+            "display" : "Follicular cholangitis and pancreatitis"
+          },
+          {
+            "code" : "300557",
+            "display" : "Carcinoma of the ampulla of Vater"
+          },
+          {
+            "code" : "300564",
+            "display" : "Combined pulmonary fibrosis-emphysema syndrome"
+          },
+          {
+            "code" : "300570",
+            "display" : "Cortical dysgenesis with pontocerebellar hypoplasia due to TUBB3 mutation"
+          },
+          {
+            "code" : "300573",
+            "display" : "Polymicrogyria due to TUBB2B mutation"
+          },
+          {
+            "code" : "300576",
+            "display" : "Oligodontia-cancer predisposition syndrome"
+          },
+          {
+            "code" : "300605",
+            "display" : "Juvenile amyotrophic lateral sclerosis"
+          },
+          {
+            "code" : "300751",
+            "display" : "Familial dilated cardiomyopathy with conduction defect due to LMNA mutation"
+          },
+          {
+            "code" : "300849",
+            "display" : "Diffuse large B-cell lymphoma of the central nervous system"
+          },
+          {
+            "code" : "300857",
+            "display" : "T-cell/histiocyte rich large B cell lymphoma"
+          },
+          {
+            "code" : "300865",
+            "display" : "Primary cutaneous anaplastic large cell lymphoma"
+          },
+          {
+            "code" : "300869",
+            "display" : "Splenic diffuse red pulp small B-cell lymphoma"
+          },
+          {
+            "code" : "300878",
+            "display" : "Hairy cell leukemia variant"
+          },
+          {
+            "code" : "300888",
+            "display" : "Diffuse large B-cell lymphoma with chronic inflammation"
+          },
+          {
+            "code" : "300895",
+            "display" : "ALK-positive anaplastic large cell lymphoma"
+          },
+          {
+            "code" : "300903",
+            "display" : "ALK-negative anaplastic large cell lymphoma"
+          },
+          {
+            "code" : "306431",
+            "display" : "Adult-onset immunodeficiency with anti-interferon-gamma autoantibodies"
+          },
+          {
+            "code" : "306504",
+            "display" : "Interstitial lung disease-nephrotic syndrome-epidermolysis bullosa syndrome"
+          },
+          {
+            "code" : "306511",
+            "display" : "Autosomal recessive spastic paraplegia type 48"
+          },
+          {
+            "code" : "306516",
+            "display" : "Primary hypomagnesemia with hypercalciuria and nephrocalcinosis"
+          },
+          {
+            "code" : "306527",
+            "display" : "Isolated hereditary congenital facial paralysis"
+          },
+          {
+            "code" : "306530",
+            "display" : "Congenital hereditary facial paralysis-variable hearing loss syndrome"
+          },
+          {
+            "code" : "306542",
+            "display" : "Frontonasal dysplasia-severe microphthalmia-severe facial clefting syndrome"
+          },
+          {
+            "code" : "306547",
+            "display" : "Porencephaly-microcephaly-bilateral congenital cataract syndrome"
+          },
+          {
+            "code" : "306550",
+            "display" : "FADD-related immunodeficiency"
+          },
+          {
+            "code" : "306553",
+            "display" : "Myospherulosis"
+          },
+          {
+            "code" : "306558",
+            "display" : "Primary microcephaly-epilepsy-permanent neonatal diabetes syndrome"
+          },
+          {
+            "code" : "306577",
+            "display" : "Hereditary sodium channelopathy-related small fibers neuropathy"
+          },
+          {
+            "code" : "306617",
+            "display" : "X-linked complicated spastic paraplegia type 1"
+          },
+          {
+            "code" : "306644",
+            "display" : "Complication after organ transplantation"
+          },
+          {
+            "code" : "306658",
+            "display" : "Familial normophosphatemic tumoral calcinosis"
+          },
+          {
+            "code" : "306661",
+            "display" : "Familial hyperphosphatemic tumoral calcinosis/Hyperphosphatemic hyperostosis syndrome"
+          },
+          {
+            "code" : "306669",
+            "display" : "Hemiparkinsonism-hemiatrophy syndrome"
+          },
+          {
+            "code" : "306674",
+            "display" : "Kufor-Rakeb syndrome"
+          },
+          {
+            "code" : "306682",
+            "display" : "Manganese poisoning"
+          },
+          {
+            "code" : "306686",
+            "display" : "Delayed encephalopathy due to carbon monoxide poisoning"
+          },
+          {
+            "code" : "306692",
+            "display" : "Cyanide-induced parkinsonism-dystonia"
+          },
+          {
+            "code" : "306731",
+            "display" : "Sydenham chorea"
+          },
+          {
+            "code" : "306734",
+            "display" : "Primary dystonia, DYT21 type"
+          },
+          {
+            "code" : "306741",
+            "display" : "Hemidystonia-hemiatrophy syndrome"
+          },
+          {
+            "code" : "306776",
+            "display" : "Sporadic hyperekplexia"
+          },
+          {
+            "code" : "307766",
+            "display" : "Curly hair-acral keratoderma-caries syndrome"
+          },
+          {
+            "code" : "307936",
+            "display" : "Hypotrichosis-osteolysis-periodontitis-palmoplantar keratoderma syndrome"
+          },
+          {
+            "code" : "308013",
+            "display" : "Focal acral hyperkeratosis"
+          },
+          {
+            "code" : "308380",
+            "display" : "Methylcobalamin deficiency type cblDv1"
+          },
+          {
+            "code" : "308386",
+            "display" : "Sulfite oxidase deficiency due to molybdenum cofactor deficiency type A"
+          },
+          {
+            "code" : "308393",
+            "display" : "Sulfite oxidase deficiency due to molybdenum cofactor deficiency type B"
+          },
+          {
+            "code" : "308400",
+            "display" : "Sulfite oxidase deficiency due to molybdenum cofactor deficiency type C"
+          },
+          {
+            "code" : "308410",
+            "display" : "Autism-epilepsy syndrome due to branched chain ketoacid dehydrogenase kinase deficiency"
+          },
+          {
+            "code" : "308425",
+            "display" : "Methylmalonic acidemia due to methylmalonyl-CoA epimerase deficiency"
+          },
+          {
+            "code" : "308442",
+            "display" : "Vitamin B12-responsive methylmalonic acidemia, type cblDv2"
+          },
+          {
+            "code" : "308473",
+            "display" : "Erythrocyte galactose epimerase deficiency"
+          },
+          {
+            "code" : "308487",
+            "display" : "Generalized galactose epimerase deficiency"
+          },
+          {
+            "code" : "308552",
+            "display" : "Glycogen storage disease due to acid maltase deficiency, infantile onset"
+          },
+          {
+            "code" : "308621",
+            "display" : "Glycogen storage disease due to glycogen branching enzyme deficiency, progressive hepatic form"
+          },
+          {
+            "code" : "308638",
+            "display" : "Glycogen storage disease due to glycogen branching enzyme deficiency, non progressive hepatic form"
+          },
+          {
+            "code" : "308655",
+            "display" : "Glycogen storage disease due to glycogen branching enzyme deficiency, fatal perinatal neuromuscular form"
+          },
+          {
+            "code" : "308670",
+            "display" : "Glycogen storage disease due to glycogen branching enzyme deficiency, congenital neuromuscular form"
+          },
+          {
+            "code" : "308684",
+            "display" : "Glycogen storage disease due to glycogen branching enzyme deficiency, childhood combined hepatic and myopathic form"
+          },
+          {
+            "code" : "308698",
+            "display" : "Glycogen storage disease due to glycogen branching enzyme deficiency, childhood neuromuscular form"
+          },
+          {
+            "code" : "308712",
+            "display" : "Glycogen storage disease due to glycogen branching enzyme deficiency, adult neuromuscular form"
+          },
+          {
+            "code" : "309015",
+            "display" : "Familial lipoprotein lipase deficiency"
+          },
+          {
+            "code" : "309020",
+            "display" : "Familial apolipoprotein C-II deficiency"
+          },
+          {
+            "code" : "309025",
+            "display" : "Mevalonate kinase deficiency"
+          },
+          {
+            "code" : "309031",
+            "display" : "Pancreatic triacylglycerol lipase deficiency"
+          },
+          {
+            "code" : "309108",
+            "display" : "Pancreatic colipase deficiency"
+          },
+          {
+            "code" : "309111",
+            "display" : "Combined pancreatic lipase-colipase deficiency"
+          },
+          {
+            "code" : "309147",
+            "display" : "Hyper-beta-alaninemia"
+          },
+          {
+            "code" : "309155",
+            "display" : "Sandhoff disease, infantile form"
+          },
+          {
+            "code" : "309162",
+            "display" : "Sandhoff disease, juvenile form"
+          },
+          {
+            "code" : "309169",
+            "display" : "Sandhoff disease, adult form"
+          },
+          {
+            "code" : "309178",
+            "display" : "Tay-Sachs disease, infantile form"
+          },
+          {
+            "code" : "309185",
+            "display" : "Tay-Sachs disease, juvenile form"
+          },
+          {
+            "code" : "309192",
+            "display" : "Tay-Sachs disease, adult form"
+          },
+          {
+            "code" : "309246",
+            "display" : "GM2 gangliosidosis, AB variant"
+          },
+          {
+            "code" : "309252",
+            "display" : "Atypical Gaucher disease due to saposin C deficiency"
+          },
+          {
+            "code" : "309256",
+            "display" : "Metachromatic leukodystrophy, late infantile form"
+          },
+          {
+            "code" : "309263",
+            "display" : "Metachromatic leukodystrophy, juvenile form"
+          },
+          {
+            "code" : "309271",
+            "display" : "Metachromatic leukodystrophy, adult form"
+          },
+          {
+            "code" : "309282",
+            "display" : "Alpha-mannosidosis, infantile form"
+          },
+          {
+            "code" : "309288",
+            "display" : "Alpha-mannosidosis, adult form"
+          },
+          {
+            "code" : "309297",
+            "display" : "Mucopolysaccharidosis type 4A"
+          },
+          {
+            "code" : "309310",
+            "display" : "Mucopolysaccharidosis type 4B"
+          },
+          {
+            "code" : "309324",
+            "display" : "Free sialic acid storage disease, infantile form"
+          },
+          {
+            "code" : "309331",
+            "display" : "Intermediate severe Salla disease"
+          },
+          {
+            "code" : "309334",
+            "display" : "Salla disease"
+          },
+          {
+            "code" : "309789",
+            "display" : "Rhizomelic chondrodysplasia punctata type 1"
+          },
+          {
+            "code" : "309796",
+            "display" : "Rhizomelic chondrodysplasia punctata type 2"
+          },
+          {
+            "code" : "309803",
+            "display" : "Rhizomelic chondrodysplasia punctata type 3"
+          },
+          {
+            "code" : "309854",
+            "display" : "Cirrhosis-dystonia-polycythemia-hypermanganesemia syndrome"
+          },
+          {
+            "code" : "313772",
+            "display" : "Early-onset spastic ataxia-myoclonic epilepsy-neuropathy syndrome"
+          },
+          {
+            "code" : "313781",
+            "display" : "20p13 microdeletion syndrome"
+          },
+          {
+            "code" : "313795",
+            "display" : "Jawad syndrome"
+          },
+          {
+            "code" : "313800",
+            "display" : "Retinal dystrophy-optic nerve edema-splenomegaly-anhidrosis-migraine headache syndrome"
+          },
+          {
+            "code" : "313808",
+            "display" : "Adult-onset leukoencephalopathy with axonal spheroids and pigmented glia"
+          },
+          {
+            "code" : "313838",
+            "display" : "Coats plus syndrome"
+          },
+          {
+            "code" : "313846",
+            "display" : "Familial cutaneous telangiectasia and oropharyngeal cancer predisposition syndrome"
+          },
+          {
+            "code" : "313850",
+            "display" : "Infantile cerebellar-retinal degeneration"
+          },
+          {
+            "code" : "313855",
+            "display" : "FGFR2-related bent bone dysplasia"
+          },
+          {
+            "code" : "313884",
+            "display" : "12p12.1 microdeletion syndrome"
+          },
+          {
+            "code" : "313892",
+            "display" : "Developmental and speech delay due to SOX5 deficiency"
+          },
+          {
+            "code" : "313906",
+            "display" : "Congenital pancreatic cyst"
+          },
+          {
+            "code" : "313920",
+            "display" : "Epstein-Barr virus-associated gastric carcinoma"
+          },
+          {
+            "code" : "313936",
+            "display" : "PENS syndrome"
+          },
+          {
+            "code" : "313947",
+            "display" : "2q23.1 microduplication syndrome"
+          },
+          {
+            "code" : "314002",
+            "display" : "Contractures-webbed neck-micrognathia-hypoplastic nipples syndrome"
+          },
+          {
+            "code" : "314017",
+            "display" : "Idiopathic linear interstitial keratitis"
+          },
+          {
+            "code" : "314022",
+            "display" : "Gastric adenocarcinoma and proximal polyposis of the stomach"
+          },
+          {
+            "code" : "314029",
+            "display" : "High bone mass osteogenesis imperfecta"
+          },
+          {
+            "code" : "314034",
+            "display" : "7p22.1 microduplication syndrome"
+          },
+          {
+            "code" : "314041",
+            "display" : "Marfanoid habitus-inguinal hernia-advanced bone age syndrome"
+          },
+          {
+            "code" : "314051",
+            "display" : "Leukoencephalopathy-thalamus and brainstem anomalies-high lactate syndrome"
+          },
+          {
+            "code" : "314373",
+            "display" : "Chronic infantile diarrhea due to guanylate cyclase 2C overactivity"
+          },
+          {
+            "code" : "314376",
+            "display" : "Intestinal obstruction in the newborn due to guanylate cyclase 2C deficiency"
+          },
+          {
+            "code" : "314381",
+            "display" : "Hereditary sensory and autonomic neuropathy type 6"
+          },
+          {
+            "code" : "314389",
+            "display" : "Xq12-q13.3 duplication syndrome"
+          },
+          {
+            "code" : "314394",
+            "display" : "Short stature-onychodysplasia-facial dysmorphism-hypotrichosis syndrome"
+          },
+          {
+            "code" : "314399",
+            "display" : "Autosomal dominant aplasia and myelodysplasia"
+          },
+          {
+            "code" : "314404",
+            "display" : "Autosomal dominant cerebellar ataxia-deafness-narcolepsy syndrome"
+          },
+          {
+            "code" : "314419",
+            "display" : "Ameloblastoma"
+          },
+          {
+            "code" : "314422",
+            "display" : "Ameloblastic carcinoma"
+          },
+          {
+            "code" : "314432",
+            "display" : "Spigelian hernia-cryptorchidism syndrome"
+          },
+          {
+            "code" : "314451",
+            "display" : "Meigs syndrome"
+          },
+          {
+            "code" : "314459",
+            "display" : "Pseudo-Meigs syndrome"
+          },
+          {
+            "code" : "314466",
+            "display" : "Atypical Meigs syndrome"
+          },
+          {
+            "code" : "314473",
+            "display" : "Ovarian fibroma"
+          },
+          {
+            "code" : "314478",
+            "display" : "Ovarian fibrothecoma"
+          },
+          {
+            "code" : "314485",
+            "display" : "Young adult-onset distal hereditary motor neuropathy"
+          },
+          {
+            "code" : "314555",
+            "display" : "Facial dysmorphism-ocular anomalies-osteopenia-intellectual disability-dental anomalies syndrome"
+          },
+          {
+            "code" : "314566",
+            "display" : "Primary progressive apraxia of speech"
+          },
+          {
+            "code" : "314572",
+            "display" : "Autosomal recessive leukoencephalopathy-ischemic stroke-retinitis pigmentosa syndrome"
+          },
+          {
+            "code" : "314575",
+            "display" : "Intellectual disability-hypotonia-brachycephaly-pyloric stenosis-cryptorchidism syndrome"
+          },
+          {
+            "code" : "314585",
+            "display" : "15q overgrowth syndrome"
+          },
+          {
+            "code" : "314588",
+            "display" : "Distal triplication 15q"
+          },
+          {
+            "code" : "314597",
+            "display" : "Chudley-McCullough syndrome"
+          },
+          {
+            "code" : "314603",
+            "display" : "Autosomal recessive spastic ataxia with leukoencephalopathy"
+          },
+          {
+            "code" : "314613",
+            "display" : "Growing teratoma syndrome"
+          },
+          {
+            "code" : "314621",
+            "display" : "Duplication of the pituitary gland"
+          },
+          {
+            "code" : "314629",
+            "display" : "CLN11 disease"
+          },
+          {
+            "code" : "314632",
+            "display" : "CLN12 disease"
+          },
+          {
+            "code" : "314637",
+            "display" : "Mitochondrial hypertrophic cardiomyopathy with lactic acidosis due to MTO1 deficiency"
+          },
+          {
+            "code" : "314647",
+            "display" : "Non-progressive cerebellar ataxia with intellectual disability"
+          },
+          {
+            "code" : "314652",
+            "display" : "Variant ABeta2M amyloidosis"
+          },
+          {
+            "code" : "314655",
+            "display" : "Severe neonatal hypotonia-seizures-encephalopathy syndrome due to 5q31.3 microdeletion"
+          },
+          {
+            "code" : "314662",
+            "display" : "Segmental progressive overgrowth syndrome with fibroadipose hyperplasia"
+          },
+          {
+            "code" : "314667",
+            "display" : "TMEM165-CDG"
+          },
+          {
+            "code" : "314679",
+            "display" : "Cerebrofacioarticular syndrome"
+          },
+          {
+            "code" : "314684",
+            "display" : "Primary bone lymphoma"
+          },
+          {
+            "code" : "314689",
+            "display" : "Combined immunodeficiency due to STK4 deficiency"
+          },
+          {
+            "code" : "314697",
+            "display" : "Acquired porencephaly"
+          },
+          {
+            "code" : "314701",
+            "display" : "Primary systemic amyloidosis"
+          },
+          {
+            "code" : "314709",
+            "display" : "Primary localized amyloidosis"
+          },
+          {
+            "code" : "314718",
+            "display" : "Lethal arteriopathy syndrome due to fibulin-4 deficiency"
+          },
+          {
+            "code" : "314721",
+            "display" : "Atypical dentin dysplasia due to SMOC2 deficiency"
+          },
+          {
+            "code" : "314769",
+            "display" : "Somatomammotropinoma"
+          },
+          {
+            "code" : "314777",
+            "display" : "Familial isolated pituitary adenoma"
+          },
+          {
+            "code" : "314786",
+            "display" : "Silent pituitary adenoma"
+          },
+          {
+            "code" : "314790",
+            "display" : "Null pituitary adenoma"
+          },
+          {
+            "code" : "314795",
+            "display" : "SHOX-related short stature"
+          },
+          {
+            "code" : "314802",
+            "display" : "Short stature due to partial GHR deficiency"
+          },
+          {
+            "code" : "314811",
+            "display" : "Short stature due to GHSR deficiency"
+          },
+          {
+            "code" : "314889",
+            "display" : "Autosomal dominant proximal renal tubular acidosis"
+          },
+          {
+            "code" : "314911",
+            "display" : "Severe Canavan disease"
+          },
+          {
+            "code" : "314918",
+            "display" : "Mild Canavan disease"
+          },
+          {
+            "code" : "314950",
+            "display" : "Primary hypereosinophilic syndrome"
+          },
+          {
+            "code" : "314962",
+            "display" : "Secondary hypereosinophilic syndrome"
+          },
+          {
+            "code" : "314970",
+            "display" : "Lymphocytic hypereosinophilic syndrome"
+          },
+          {
+            "code" : "314978",
+            "display" : "X-linked non progressive cerebellar ataxia"
+          },
+          {
+            "code" : "314993",
+            "display" : "Cataract-congenital heart disease-neural tube defect syndrome"
+          },
+          {
+            "code" : "315306",
+            "display" : "Classic congenital adrenal hyperplasia due to 21-hydroxylase deficiency, salt wasting form"
+          },
+          {
+            "code" : "315311",
+            "display" : "Classic congenital adrenal hyperplasia due to 21-hydroxylase deficiency, simple virilizing form"
+          },
+          {
+            "code" : "317425",
+            "display" : "Severe combined immunodeficiency due to DNA-PKcs deficiency"
+          },
+          {
+            "code" : "317428",
+            "display" : "Combined immunodeficiency due to ORAI1 deficiency"
+          },
+          {
+            "code" : "317430",
+            "display" : "Combined immunodeficiency due to STIM1 deficiency"
+          },
+          {
+            "code" : "317473",
+            "display" : "Pancytopenia due to IKZF1 mutations"
+          },
+          {
+            "code" : "317476",
+            "display" : "XMEN"
+          },
+          {
+            "code" : "319160",
+            "display" : "Congenital myopathy with internal nuclei and atypical cores"
+          },
+          {
+            "code" : "319171",
+            "display" : "Distal 17p13.1 microdeletion syndrome"
+          },
+          {
+            "code" : "319182",
+            "display" : "Wiedemann-Steiner syndrome"
+          },
+          {
+            "code" : "319189",
+            "display" : "Familial cortical myoclonus"
+          },
+          {
+            "code" : "319192",
+            "display" : "Diencephalic-mesencephalic junction dysplasia"
+          },
+          {
+            "code" : "319195",
+            "display" : "Chondroectodermal dysplasia with night blindness"
+          },
+          {
+            "code" : "319199",
+            "display" : "Autosomal recessive spastic paraplegia type 53"
+          },
+          {
+            "code" : "319205",
+            "display" : "Bilateral massive adrenal hemorrhage"
+          },
+          {
+            "code" : "319213",
+            "display" : "Lujo hemorrhagic fever"
+          },
+          {
+            "code" : "319218",
+            "display" : "Ebola hemorrhagic fever"
+          },
+          {
+            "code" : "319223",
+            "display" : "Argentine hemorrhagic fever"
+          },
+          {
+            "code" : "319229",
+            "display" : "Bolivian hemorrhagic fever"
+          },
+          {
+            "code" : "319234",
+            "display" : "Venezuelan hemorrhagic fever"
+          },
+          {
+            "code" : "319239",
+            "display" : "Brazilian hemorrhagic fever"
+          },
+          {
+            "code" : "319244",
+            "display" : "Chapare hemorrhagic fever"
+          },
+          {
+            "code" : "319247",
+            "display" : "Hantavirus pulmonary syndrome"
+          },
+          {
+            "code" : "319251",
+            "display" : "Rift valley fever"
+          },
+          {
+            "code" : "319254",
+            "display" : "Kyasanur forest disease"
+          },
+          {
+            "code" : "319266",
+            "display" : "Omsk hemorrhagic fever"
+          },
+          {
+            "code" : "319276",
+            "display" : "Clear cell renal carcinoma"
+          },
+          {
+            "code" : "319287",
+            "display" : "Multilocular cystic renal neoplasm of low malignant potential"
+          },
+          {
+            "code" : "319298",
+            "display" : "Papillary renal cell carcinoma"
+          },
+          {
+            "code" : "319303",
+            "display" : "Chromophobe renal cell carcinoma"
+          },
+          {
+            "code" : "319308",
+            "display" : "MiT family translocation renal cell carcinoma"
+          },
+          {
+            "code" : "319319",
+            "display" : "Renal medullary carcinoma"
+          },
+          {
+            "code" : "319322",
+            "display" : "Mucinous tubular and spindle cell renal carcinoma"
+          },
+          {
+            "code" : "319325",
+            "display" : "Tubulocystic renal cell carcinoma"
+          },
+          {
+            "code" : "319332",
+            "display" : "Autosomal recessive myogenic arthrogryposis multiplex congenita"
+          },
+          {
+            "code" : "319340",
+            "display" : "Carney complex-trismus-pseudocamptodactyly syndrome"
+          },
+          {
+            "code" : "319462",
+            "display" : "Inherited cancer-predisposing syndrome due to biallelic BRCA2 mutations"
+          },
+          {
+            "code" : "319465",
+            "display" : "Inherited acute myeloid leukemia"
+          },
+          {
+            "code" : "319480",
+            "display" : "Acute myeloid leukemia with CEBPA somatic mutations"
+          },
+          {
+            "code" : "319487",
+            "display" : "Familial papillary or follicular thyroid carcinoma"
+          },
+          {
+            "code" : "319504",
+            "display" : "Combined oxidative phosphorylation defect type 8"
+          },
+          {
+            "code" : "319509",
+            "display" : "Combined oxidative phosphorylation defect type 9"
+          },
+          {
+            "code" : "319514",
+            "display" : "Combined oxidative phosphorylation defect type 13"
+          },
+          {
+            "code" : "319519",
+            "display" : "Combined oxidative phosphorylation defect type 14"
+          },
+          {
+            "code" : "319524",
+            "display" : "Combined oxidative phosphorylation defect type 15"
+          },
+          {
+            "code" : "319547",
+            "display" : "Mendelian susceptibility to mycobacterial diseases due to complete IFNgammaR2 deficiency"
+          },
+          {
+            "code" : "319552",
+            "display" : "Mendelian susceptibility to mycobacterial diseases due to complete IL12RB1 deficiency"
+          },
+          {
+            "code" : "319558",
+            "display" : "Mendelian susceptibility to mycobacterial diseases due to complete IL12B deficiency"
+          },
+          {
+            "code" : "319563",
+            "display" : "Mendelian susceptibility to mycobacterial diseases due to complete ISG15 deficiency"
+          },
+          {
+            "code" : "319569",
+            "display" : "Autosomal recessive mendelian susceptibility to mycobacterial diseases due to partial IFNgammaR1 deficiency"
+          },
+          {
+            "code" : "319574",
+            "display" : "Autosomal recessive mendelian susceptibility to mycobacterial diseases due to partial IFNgammaR2 deficiency"
+          },
+          {
+            "code" : "319581",
+            "display" : "Autosomal dominant mendelian susceptibility to mycobacterial diseases due to partial IFNgammaR1 deficiency"
+          },
+          {
+            "code" : "319589",
+            "display" : "Autosomal dominant mendelian susceptibility to mycobacterial diseases due to partial IFNgammaR2 deficiency"
+          },
+          {
+            "code" : "319595",
+            "display" : "Mendelian susceptibility to mycobacterial diseases due to partial STAT1 deficiency"
+          },
+          {
+            "code" : "319600",
+            "display" : "Mendelian susceptibility to mycobacterial diseases due to partial IRF8 deficiency"
+          },
+          {
+            "code" : "319605",
+            "display" : "X-linked mendelian susceptibility to mycobacterial diseases"
+          },
+          {
+            "code" : "319612",
+            "display" : "X-linked mendelian susceptibility to mycobacterial diseases due to IKBKG deficiency"
+          },
+          {
+            "code" : "319623",
+            "display" : "X-linked mendelian susceptibility to mycobacterial diseases due to CYBB deficiency"
+          },
+          {
+            "code" : "319635",
+            "display" : "Amyloidosis cutis dyschromia"
+          },
+          {
+            "code" : "319640",
+            "display" : "Retinal macular dystrophy type 2"
+          },
+          {
+            "code" : "319646",
+            "display" : "PGM1-CDG"
+          },
+          {
+            "code" : "319651",
+            "display" : "Constitutional megaloblastic anemia with severe neurologic disease"
+          },
+          {
+            "code" : "319667",
+            "display" : "Primary lymphoma of the conjunctiva"
+          },
+          {
+            "code" : "319671",
+            "display" : "Alazami syndrome"
+          },
+          {
+            "code" : "319675",
+            "display" : "Microcephalic primordial dwarfism, Dauber type"
+          },
+          {
+            "code" : "319678",
+            "display" : "Encephalopathy-hypertrophic cardiomyopathy-renal tubular disease syndrome"
+          },
+          {
+            "code" : "320355",
+            "display" : "Autosomal dominant spastic paraplegia type 41"
+          },
+          {
+            "code" : "320360",
+            "display" : "MT-ATP6-related mitochondrial spastic paraplegia"
+          },
+          {
+            "code" : "320365",
+            "display" : "Autosomal dominant spastic paraplegia type 36"
+          },
+          {
+            "code" : "320370",
+            "display" : "Autosomal recessive spastic paraplegia type 43"
+          },
+          {
+            "code" : "320375",
+            "display" : "Autosomal recessive spastic paraplegia type 55"
+          },
+          {
+            "code" : "320380",
+            "display" : "Autosomal recessive spastic paraplegia type 54"
+          },
+          {
+            "code" : "320385",
+            "display" : "Hereditary sensory and autonomic neuropathy due to TECPR2 mutation"
+          },
+          {
+            "code" : "320391",
+            "display" : "Autosomal recessive spastic paraplegia type 46"
+          },
+          {
+            "code" : "320396",
+            "display" : "Autosomal recessive spastic paraplegia type 45"
+          },
+          {
+            "code" : "320401",
+            "display" : "Autosomal recessive spastic paraplegia type 44"
+          },
+          {
+            "code" : "320406",
+            "display" : "Spastic paraplegia-optic atrophy-neuropathy syndrome"
+          },
+          {
+            "code" : "320411",
+            "display" : "Autosomal recessive spastic paraplegia type 56"
+          },
+          {
+            "code" : "324262",
+            "display" : "Autosomal recessive congenital cerebellar ataxia due to MGLUR1 deficiency"
+          },
+          {
+            "code" : "324290",
+            "display" : "Early-onset Lafora body disease"
+          },
+          {
+            "code" : "324294",
+            "display" : "T-cell immunodeficiency with epidermodysplasia verruciformis"
+          },
+          {
+            "code" : "324299",
+            "display" : "Multiple paragangliomas associated with polycythemia"
+          },
+          {
+            "code" : "324307",
+            "display" : "Severe lateral tibial bowing-short stature-mild winged scapula-mild facial dysmorphism syndrome"
+          },
+          {
+            "code" : "324313",
+            "display" : "9p13 microdeletion syndrome"
+          },
+          {
+            "code" : "324321",
+            "display" : "Sinoatrial node dysfunction and deafness"
+          },
+          {
+            "code" : "324353",
+            "display" : "Congenital achiasma"
+          },
+          {
+            "code" : "324364",
+            "display" : "Mixed sclerosing bone dystrophy with extra-skeletal manifestations"
+          },
+          {
+            "code" : "324381",
+            "display" : "Hereditary inclusion body myopathy type 4"
+          },
+          {
+            "code" : "324410",
+            "display" : "X-linked intellectual disability-cardiomegaly-congestive heart failure syndrome"
+          },
+          {
+            "code" : "324416",
+            "display" : "Muscular hypertrophy-hepatomegaly-polyhydramnios syndrome"
+          },
+          {
+            "code" : "324422",
+            "display" : "ALG13-CDG"
+          },
+          {
+            "code" : "324442",
+            "display" : "Autosomal recessive axonal neuropathy with neuromyotonia"
+          },
+          {
+            "code" : "324525",
+            "display" : "Hypertrophic cardiomyopathy with kidney anomalies due to mitochondrial DNA mutation"
+          },
+          {
+            "code" : "324530",
+            "display" : "Autoinflammation-PLCG2-associated antibody deficiency-immune dysregulation"
+          },
+          {
+            "code" : "324535",
+            "display" : "Combined oxidative phosphorylation defect type 11"
+          },
+          {
+            "code" : "324540",
+            "display" : "Aphonia-deafness-retinal dystrophy-bifid halluces-intellectual disability syndrome"
+          },
+          {
+            "code" : "324561",
+            "display" : "Hypopigmentation-punctate palmoplantar keratoderma syndrome"
+          },
+          {
+            "code" : "324569",
+            "display" : "Pontocerebellar hypoplasia type 8"
+          },
+          {
+            "code" : "324575",
+            "display" : "Hyperinsulinism due to HNF1A deficiency"
+          },
+          {
+            "code" : "324581",
+            "display" : "Benign Samaritan congenital myopathy"
+          },
+          {
+            "code" : "324585",
+            "display" : "Autosomal dominant intermediate Charcot-Marie-Tooth disease with neuropathic pain"
+          },
+          {
+            "code" : "324588",
+            "display" : "Familial dyskinesia and facial myokymia"
+          },
+          {
+            "code" : "324601",
+            "display" : "X-linked cleft palate and ankyloglossia"
+          },
+          {
+            "code" : "324604",
+            "display" : "Classic multiminicore myopathy"
+          },
+          {
+            "code" : "324611",
+            "display" : "Autosomal dominant Charcot-Marie-Tooth disease type 2 due to KIF5A mutation"
+          },
+          {
+            "code" : "324625",
+            "display" : "Chikungunya"
+          },
+          {
+            "code" : "324632",
+            "display" : "Hendra virus infection"
+          },
+          {
+            "code" : "324636",
+            "display" : "Autoerythrocyte sensitization syndrome"
+          },
+          {
+            "code" : "324648",
+            "display" : "Invasive non-typhoidal salmonellosis"
+          },
+          {
+            "code" : "324703",
+            "display" : "ABetaL34V amyloidosis"
+          },
+          {
+            "code" : "324708",
+            "display" : "ABeta amyloidosis, Iowa type"
+          },
+          {
+            "code" : "324713",
+            "display" : "ABeta amyloidosis, Italian type"
+          },
+          {
+            "code" : "324718",
+            "display" : "ABetaA21G amyloidosis"
+          },
+          {
+            "code" : "324723",
+            "display" : "ABeta amyloidosis, Arctic type"
+          },
+          {
+            "code" : "324737",
+            "display" : "SRD5A3-CDG"
+          },
+          {
+            "code" : "324964",
+            "display" : "Chronic nonbacterial osteomyelitis/Chronic recurrent multifocal osteomyelitis"
+          },
+          {
+            "code" : "324972",
+            "display" : "MAGIC syndrome"
+          },
+          {
+            "code" : "324977",
+            "display" : "Proteasome-associated autoinflammatory syndrome"
+          },
+          {
+            "code" : "325124",
+            "display" : "Testicular agenesis"
+          },
+          {
+            "code" : "325345",
+            "display" : "46,XY ovotesticular difference of sex development"
+          },
+          {
+            "code" : "325448",
+            "display" : "Leydig cell hypoplasia due to LHB deficiency"
+          },
+          {
+            "code" : "325524",
+            "display" : "Classic congenital lipoid adrenal hyperplasia due to STAR deficency"
+          },
+          {
+            "code" : "325529",
+            "display" : "Non-classic congenital lipoid adrenal hyperplasia due to STAR deficency"
+          },
+          {
+            "code" : "329173",
+            "display" : "Autoinflammatory syndrome with pyogenic bacterial infection and amylopectinosis"
+          },
+          {
+            "code" : "329178",
+            "display" : "Congenital muscular dystrophy with intellectual disability and severe epilepsy"
+          },
+          {
+            "code" : "329191",
+            "display" : "Tall stature-long halluces-multiple extra-epiphyses syndrome"
+          },
+          {
+            "code" : "329195",
+            "display" : "Developmental delay with autism spectrum disorder and gait instability"
+          },
+          {
+            "code" : "329211",
+            "display" : "Autosomal dominant neovascular inflammatory vitreoretinopathy"
+          },
+          {
+            "code" : "329217",
+            "display" : "Cerebral sinovenous thrombosis"
+          },
+          {
+            "code" : "329224",
+            "display" : "Schuurs-Hoeijmakers syndrome"
+          },
+          {
+            "code" : "329228",
+            "display" : "Microcephalic primordial dwarfism due to ZNF335 deficiency"
+          },
+          {
+            "code" : "329235",
+            "display" : "X-linked central congenital hypothyroidism with late-onset testicular enlargement"
+          },
+          {
+            "code" : "329242",
+            "display" : "Congenital chronic diarrhea with protein-losing enteropathy"
+          },
+          {
+            "code" : "329249",
+            "display" : "Severe early-onset obesity-insulin resistance syndrome due to SH2B1 deficiency"
+          },
+          {
+            "code" : "329258",
+            "display" : "Autosomal dominant Charcot-Marie-Tooth disease type 2Q"
+          },
+          {
+            "code" : "329284",
+            "display" : "Beta-propeller protein-associated neurodegeneration"
+          },
+          {
+            "code" : "329308",
+            "display" : "Fatty acid hydroxylase-associated neurodegeneration"
+          },
+          {
+            "code" : "329314",
+            "display" : "Adult-onset multiple mitochondrial DNA deletion syndrome due to DGUOK deficiency"
+          },
+          {
+            "code" : "329319",
+            "display" : "Thrombocythemia with distal limb defects"
+          },
+          {
+            "code" : "329324",
+            "display" : "Inverse Klippel-Trénaunay syndrome"
+          },
+          {
+            "code" : "329329",
+            "display" : "Autosomal recessive frontotemporal pachygyria"
+          },
+          {
+            "code" : "329332",
+            "display" : "Microcephaly-cerebellar hypoplasia-cardiac conduction defect syndrome"
+          },
+          {
+            "code" : "329336",
+            "display" : "Adult-onset chronic progressive external ophthalmoplegia with mitochondrial myopathy"
+          },
+          {
+            "code" : "329457",
+            "display" : "Distal arthrogryposis type 5D"
+          },
+          {
+            "code" : "329466",
+            "display" : "Autosomal dominant focal dystonia, DYT25 type"
+          },
+          {
+            "code" : "329469",
+            "display" : "Acute megakaryoblastic leukemia in children without Down syndrome"
+          },
+          {
+            "code" : "329475",
+            "display" : "Spastic paraplegia-Paget disease of bone syndrome"
+          },
+          {
+            "code" : "329478",
+            "display" : "Adult-onset distal myopathy due to VCP mutation"
+          },
+          {
+            "code" : "329481",
+            "display" : "Lipoprotein glomerulopathy"
+          },
+          {
+            "code" : "329802",
+            "display" : "5p13 microduplication syndrome"
+          },
+          {
+            "code" : "329813",
+            "display" : "Mosaic genome-wide paternal uniparental disomy"
+          },
+          {
+            "code" : "329874",
+            "display" : "Idiopathic giant cell myocarditis"
+          },
+          {
+            "code" : "329883",
+            "display" : "Non-hypoproteinemic hypertrophic gastropathy"
+          },
+          {
+            "code" : "329894",
+            "display" : "Juvenile overlap myositis"
+          },
+          {
+            "code" : "329903",
+            "display" : "Immunoglobulin-mediated membranoproliferative glomerulonephritis"
+          },
+          {
+            "code" : "329918",
+            "display" : "C3 glomerulopathy"
+          },
+          {
+            "code" : "329931",
+            "display" : "C3 glomerulonephritis"
+          },
+          {
+            "code" : "329942",
+            "display" : "Transient neonatal multiple acyl-CoA dehydrogenase deficiency"
+          },
+          {
+            "code" : "329967",
+            "display" : "Intermittent hydrarthrosis"
+          },
+          {
+            "code" : "329971",
+            "display" : "Generalized juvenile polyposis/juvenile polyposis coli"
+          },
+          {
+            "code" : "329977",
+            "display" : "Classic neuroendocrine tumor of appendix"
+          },
+          {
+            "code" : "329984",
+            "display" : "Goblet cell carcinoma"
+          },
+          {
+            "code" : "330001",
+            "display" : "Wild type ATTR amyloidosis"
+          },
+          {
+            "code" : "330012",
+            "display" : "High altitude pulmonary edema"
+          },
+          {
+            "code" : "330015",
+            "display" : "Lead poisoning"
+          },
+          {
+            "code" : "330021",
+            "display" : "Mercury poisoning"
+          },
+          {
+            "code" : "330029",
+            "display" : "Hypotrichosis-deafness syndrome"
+          },
+          {
+            "code" : "330032",
+            "display" : "Hemoglobin Lepore-beta-thalassemia syndrome"
+          },
+          {
+            "code" : "330041",
+            "display" : "Hemoglobin M disease"
+          },
+          {
+            "code" : "330050",
+            "display" : "DNM1L-related encephalopathy due to mitochondrial and peroxisomal fission defect"
+          },
+          {
+            "code" : "330054",
+            "display" : "Congenital cataract-progressive muscular hypotonia-hearing loss-developmental delay syndrome"
+          },
+          {
+            "code" : "330058",
+            "display" : "Hydroa vacciniforme"
+          },
+          {
+            "code" : "330061",
+            "display" : "Actinic prurigo"
+          },
+          {
+            "code" : "330064",
+            "display" : "Chronic actinic dermatitis"
+          },
+          {
+            "code" : "331176",
+            "display" : "Severe congenital neutropenia due to G6PC3 deficiency"
+          },
+          {
+            "code" : "331187",
+            "display" : "Immunodeficiency due to MASP-2 deficiency"
+          },
+          {
+            "code" : "331190",
+            "display" : "Immunodeficiency due to ficolin3 deficiency"
+          },
+          {
+            "code" : "331206",
+            "display" : "Severe combined immunodeficiency due to complete RAG1/2 deficiency"
+          },
+          {
+            "code" : "331226",
+            "display" : "Susceptibility to infection due to TYK2 deficiency"
+          },
+          {
+            "code" : "331235",
+            "display" : "Selective IgM deficiency"
+          },
+          {
+            "code" : "352328",
+            "display" : "MEGDEL syndrome"
+          },
+          {
+            "code" : "352333",
+            "display" : "Congenital ichthyosis-intellectual disability-spastic quadriplegia syndrome"
+          },
+          {
+            "code" : "352403",
+            "display" : "Spectrin-associated autosomal recessive cerebellar ataxia"
+          },
+          {
+            "code" : "352447",
+            "display" : "Progressive external ophthalmoplegia-myopathy-emaciation syndrome"
+          },
+          {
+            "code" : "352470",
+            "display" : "DNA2-related mitochondrial DNA deletion syndrome"
+          },
+          {
+            "code" : "352479",
+            "display" : "ISPD-related limb-girdle muscular dystrophy R20"
+          },
+          {
+            "code" : "352490",
+            "display" : "Autism spectrum disorder due to AUTS2 deficiency"
+          },
+          {
+            "code" : "352530",
+            "display" : "Intellectual disability-obesity-brain malformations-facial dysmorphism syndrome"
+          },
+          {
+            "code" : "352540",
+            "display" : "Oncogenic osteomalacia"
+          },
+          {
+            "code" : "352563",
+            "display" : "Infantile hypertrophic cardiomyopathy due to MRPL44 deficiency"
+          },
+          {
+            "code" : "352577",
+            "display" : "Bainbridge-Ropers syndrome"
+          },
+          {
+            "code" : "352582",
+            "display" : "Familial infantile myoclonic epilepsy"
+          },
+          {
+            "code" : "352587",
+            "display" : "Focal epilepsy-intellectual disability-cerebro-cerebellar malformation"
+          },
+          {
+            "code" : "352596",
+            "display" : "Progressive myoclonic epilepsy with dystonia"
+          },
+          {
+            "code" : "352629",
+            "display" : "16q24.1 microdeletion syndrome"
+          },
+          {
+            "code" : "352636",
+            "display" : "Phalangeal microgeodic syndrome"
+          },
+          {
+            "code" : "352641",
+            "display" : "Autosomal recessive cerebellar ataxia with late-onset spasticity"
+          },
+          {
+            "code" : "352649",
+            "display" : "Brain dopamine-serotonin vesicular transport disease"
+          },
+          {
+            "code" : "352654",
+            "display" : "Early-onset progressive neurodegeneration-blindness-ataxia-spasticity syndrome"
+          },
+          {
+            "code" : "352657",
+            "display" : "Hereditary benign intraepithelial dyskeratosis"
+          },
+          {
+            "code" : "352662",
+            "display" : "Corneal intraepithelial dyskeratosis-palmoplantar hyperkeratosis-laryngeal dyskeratosis syndrome"
+          },
+          {
+            "code" : "352665",
+            "display" : "Neurodevelopmental disorder-craniofacial dysmorphism-cardiac defect-skeletal anomalies syndrome due to 9q21.3 microdeletion"
+          },
+          {
+            "code" : "352670",
+            "display" : "Autosomal dominant intermediate Charcot-Marie-Tooth disease type F"
+          },
+          {
+            "code" : "352675",
+            "display" : "X-linked Charcot-Marie-Tooth disease type 6"
+          },
+          {
+            "code" : "352682",
+            "display" : "Cobblestone lissencephaly without muscular or ocular involvement"
+          },
+          {
+            "code" : "352709",
+            "display" : "CLN13 disease"
+          },
+          {
+            "code" : "352712",
+            "display" : "Facial dysmorphism-immunodeficiency-livedo-short stature syndrome"
+          },
+          {
+            "code" : "352718",
+            "display" : "Progressive retinal dystrophy due to retinol transport defect"
+          },
+          {
+            "code" : "352723",
+            "display" : "Attenuated Chédiak-Higashi syndrome"
+          },
+          {
+            "code" : "352731",
+            "display" : "Oculocutaneous albinism type 1"
+          },
+          {
+            "code" : "352734",
+            "display" : "Minimal pigment oculocutaneous albinism type 1"
+          },
+          {
+            "code" : "352737",
+            "display" : "Temperature-sensitive oculocutaneous albinism type 1"
+          },
+          {
+            "code" : "352745",
+            "display" : "Oculocutaneous albinism type 7"
+          },
+          {
+            "code" : "352763",
+            "display" : "Scleredema"
+          },
+          {
+            "code" : "353217",
+            "display" : "Epileptic encephalopathy with global cerebral demyelination"
+          },
+          {
+            "code" : "353220",
+            "display" : "Familial primary localized cutaneous amyloidosis"
+          },
+          {
+            "code" : "353253",
+            "display" : "Burning mouth syndrome"
+          },
+          {
+            "code" : "353277",
+            "display" : "Rubinstein-Taybi syndrome due to CREBBP mutations"
+          },
+          {
+            "code" : "353281",
+            "display" : "Rubinstein-Taybi syndrome due to 16p13.3 microdeletion"
+          },
+          {
+            "code" : "353284",
+            "display" : "Rubinstein-Taybi syndrome due to EP300 haploinsufficiency"
+          },
+          {
+            "code" : "353298",
+            "display" : "Roifman syndrome"
+          },
+          {
+            "code" : "353308",
+            "display" : "Pyruvate carboxylase deficiency, infantile type"
+          },
+          {
+            "code" : "353314",
+            "display" : "Pyruvate carboxylase deficiency, severe neonatal type"
+          },
+          {
+            "code" : "353320",
+            "display" : "Pyruvate carboxylase deficiency, benign type"
+          },
+          {
+            "code" : "353327",
+            "display" : "Congenital myasthenic syndromes with glycosylation defect"
+          },
+          {
+            "code" : "353334",
+            "display" : "Congenital retinal arteriovenous communication"
+          },
+          {
+            "code" : "353344",
+            "display" : "Idiopathic macular telangiectasia type 1"
+          },
+          {
+            "code" : "353351",
+            "display" : "Idiopathic macular telangiectasia type 3"
+          },
+          {
+            "code" : "353356",
+            "display" : "Vasoproliferative tumor of the retina"
+          },
+          {
+            "code" : "356947",
+            "display" : "3q26q27 microdeletion syndrome"
+          },
+          {
+            "code" : "356961",
+            "display" : "SLC35A2-CDG"
+          },
+          {
+            "code" : "356978",
+            "display" : "D,L-2-hydroxyglutaric aciduria"
+          },
+          {
+            "code" : "356996",
+            "display" : "ANK3-related intellectual disability-sleep disturbance syndrome"
+          },
+          {
+            "code" : "357001",
+            "display" : "19p13.13 microdeletion syndrome"
+          },
+          {
+            "code" : "357008",
+            "display" : "Hemolytic uremic syndrome with DGKE deficiency"
+          },
+          {
+            "code" : "357027",
+            "display" : "Hereditary retinoblastoma"
+          },
+          {
+            "code" : "357034",
+            "display" : "Non-hereditary retinoblastoma"
+          },
+          {
+            "code" : "357043",
+            "display" : "Amyotrophic lateral sclerosis type 4"
+          },
+          {
+            "code" : "357058",
+            "display" : "Autosomal recessive cutis laxa type 2A"
+          },
+          {
+            "code" : "357064",
+            "display" : "Autosomal recessive cutis laxa type 2B"
+          },
+          {
+            "code" : "357074",
+            "display" : "Autosomal recessive cutis laxa type 2, classic type"
+          },
+          {
+            "code" : "357107",
+            "display" : "Arterial thoracic outlet syndrome"
+          },
+          {
+            "code" : "357131",
+            "display" : "Venous thoracic outlet syndrome"
+          },
+          {
+            "code" : "357154",
+            "display" : "Oral submucous fibrosis"
+          },
+          {
+            "code" : "357158",
+            "display" : "Mandibulofacial dysostosis-macroblepharon-macrostomia syndrome"
+          },
+          {
+            "code" : "357175",
+            "display" : "Short ulna-dysmorphism-hypotonia-intellectual disability syndrome"
+          },
+          {
+            "code" : "357220",
+            "display" : "Primary essential cutis verticis gyrata"
+          },
+          {
+            "code" : "357225",
+            "display" : "Primary non-essential cutis verticis gyrata"
+          },
+          {
+            "code" : "357237",
+            "display" : "Combined immunodeficiency due to CARD11 deficiency"
+          },
+          {
+            "code" : "357329",
+            "display" : "Combined immunodeficiency due to IL21R deficiency"
+          },
+          {
+            "code" : "357332",
+            "display" : "Syndactyly-camptodactyly and clinodactyly of fifth fingers-bifid toes syndrome"
+          },
+          {
+            "code" : "363396",
+            "display" : "High myopia-sensorineural deafness syndrome"
+          },
+          {
+            "code" : "363400",
+            "display" : "Severe neurodegenerative syndrome with lipodystrophy"
+          },
+          {
+            "code" : "363409",
+            "display" : "Fetal akinesia-cerebral and retinal hemorrhage syndrome"
+          },
+          {
+            "code" : "363412",
+            "display" : "Hypomyelination with brain stem and spinal cord involvement and leg spasticity"
+          },
+          {
+            "code" : "363417",
+            "display" : "Temtamy preaxial brachydactyly syndrome"
+          },
+          {
+            "code" : "363424",
+            "display" : "Multiple mitochondrial dysfunctions syndrome type 3"
+          },
+          {
+            "code" : "363429",
+            "display" : "Autosomal recessive cerebellar ataxia-pyramidal signs-nystagmus-oculomotor apraxia syndrome"
+          },
+          {
+            "code" : "363432",
+            "display" : "Autosomal recessive congenital cerebellar ataxia due to GRID2 deficiency"
+          },
+          {
+            "code" : "363444",
+            "display" : "THOC6-related developmental delay-microcephaly-facial dysmorphism syndrome"
+          },
+          {
+            "code" : "363447",
+            "display" : "Autosomal dominant childhood-onset proximal spinal muscular atrophy"
+          },
+          {
+            "code" : "363454",
+            "display" : "BICD2-related autosomal dominant childhood-onset proximal spinal muscular atrophy"
+          },
+          {
+            "code" : "363478",
+            "display" : "Paratesticular adenocarcinoma"
+          },
+          {
+            "code" : "363483",
+            "display" : "Testicular teratoma"
+          },
+          {
+            "code" : "363489",
+            "display" : "Sex cord-stromal tumor of testis"
+          },
+          {
+            "code" : "363494",
+            "display" : "Non-seminomatous germ cell tumor of testis"
+          },
+          {
+            "code" : "363523",
+            "display" : "Hypohidrosis-enamel hypoplasia-palmoplantar keratoderma-intellectual disability syndrome"
+          },
+          {
+            "code" : "363528",
+            "display" : "Intellectual disability-strabismus syndrome"
+          },
+          {
+            "code" : "363534",
+            "display" : "Mitochondrial DNA depletion syndrome, hepatocerebrorenal form"
+          },
+          {
+            "code" : "363540",
+            "display" : "Leukoencephalopathy with mild cerebellar ataxia and white matter edema"
+          },
+          {
+            "code" : "363549",
+            "display" : "Acute encephalopathy with biphasic seizures and late reduced diffusion"
+          },
+          {
+            "code" : "363558",
+            "display" : "New-onset refractory status epilepticus"
+          },
+          {
+            "code" : "363611",
+            "display" : "CTCF-related neurodevelopmental disorder"
+          },
+          {
+            "code" : "363618",
+            "display" : "LMNA-related cardiocutaneous progeria syndrome"
+          },
+          {
+            "code" : "363623",
+            "display" : "GMPPB-related limb-girdle muscular dystrophy R19"
+          },
+          {
+            "code" : "363649",
+            "display" : "Mandibular hypoplasia-deafness-progeroid features-lipodystrophy syndrome"
+          },
+          {
+            "code" : "363654",
+            "display" : "X-linked parkinsonism-spasticity syndrome"
+          },
+          {
+            "code" : "363659",
+            "display" : "20q11.2 microduplication syndrome"
+          },
+          {
+            "code" : "363665",
+            "display" : "Acroosteolysis-keloid-like lesions-premature aging syndrome"
+          },
+          {
+            "code" : "363677",
+            "display" : "Childhood-onset autosomal recessive myopathy with external ophthalmoplegia"
+          },
+          {
+            "code" : "363680",
+            "display" : "2p13.2 microdeletion syndrome"
+          },
+          {
+            "code" : "363686",
+            "display" : "Severe intellectual disability-poor language-strabismus-grimacing face-long fingers syndrome"
+          },
+          {
+            "code" : "363694",
+            "display" : "Hyperuricemia-pulmonary hypertension-renal failure-alkalosis syndrome"
+          },
+          {
+            "code" : "363700",
+            "display" : "Neurofibromatosis type 1 due to NF1 mutation or intragenic deletion"
+          },
+          {
+            "code" : "363705",
+            "display" : "Craniofaciofrontodigital syndrome"
+          },
+          {
+            "code" : "363710",
+            "display" : "Spinocerebellar ataxia type 37"
+          },
+          {
+            "code" : "363717",
+            "display" : "Alexander disease type I"
+          },
+          {
+            "code" : "363722",
+            "display" : "Alexander disease type II"
+          },
+          {
+            "code" : "363727",
+            "display" : "X-linked dyserythropoietic anemia with abnormal platelets and neutropenia"
+          },
+          {
+            "code" : "363741",
+            "display" : "Colobomatous microphthalmia-obesity-hypogenitalism-intellectual disability syndrome"
+          },
+          {
+            "code" : "363746",
+            "display" : "Balint syndrome"
+          },
+          {
+            "code" : "363958",
+            "display" : "17q21.31 microdeletion syndrome"
+          },
+          {
+            "code" : "363965",
+            "display" : "Koolen-De Vries syndrome due to a point mutation"
+          },
+          {
+            "code" : "363969",
+            "display" : "Autosomal recessive cerebral atrophy"
+          },
+          {
+            "code" : "363972",
+            "display" : "Noonan syndrome-like disorder with juvenile myelomonocytic leukemia"
+          },
+          {
+            "code" : "363976",
+            "display" : "Giant cell tumor of bone"
+          },
+          {
+            "code" : "363981",
+            "display" : "Charcot-Marie-Tooth disease type 4B3"
+          },
+          {
+            "code" : "363989",
+            "display" : "Familial benign flecked retina"
+          },
+          {
+            "code" : "363992",
+            "display" : "Ichthyosis-short stature-brachydactyly-microspherophakia syndrome"
+          },
+          {
+            "code" : "363999",
+            "display" : "Non-immune hydrops fetalis"
+          },
+          {
+            "code" : "364013",
+            "display" : "Immune hydrops fetalis"
+          },
+          {
+            "code" : "364028",
+            "display" : "X-linked intellectual disability due to GRIA3 mutations"
+          },
+          {
+            "code" : "364033",
+            "display" : "Systemic Epstein-Barr virus-positive T-cell lymphoproliferative disease of childhood"
+          },
+          {
+            "code" : "364039",
+            "display" : "Hydroa vacciniforme-like lymphoma"
+          },
+          {
+            "code" : "364043",
+            "display" : "ALK-positive large B-cell lymphoma"
+          },
+          {
+            "code" : "364055",
+            "display" : "Severe early-childhood-onset retinal dystrophy"
+          },
+          {
+            "code" : "364063",
+            "display" : "Infantile epileptic-dyskinetic encephalopathy"
+          },
+          {
+            "code" : "364198",
+            "display" : "Bipartite talus"
+          },
+          {
+            "code" : "364577",
+            "display" : "Intellectual disability-brachydactyly-Pierre Robin syndrome"
+          },
+          {
+            "code" : "369837",
+            "display" : "Intellectual disability-seizures-hypophosphatasia-ophthalmic-skeletal anomalies syndrome"
+          },
+          {
+            "code" : "369840",
+            "display" : "TRAPPC11-related limb-girdle muscular dystrophy R18"
+          },
+          {
+            "code" : "369847",
+            "display" : "Intellectual disability-hyperkinetic movement-truncal ataxia syndrome"
+          },
+          {
+            "code" : "369852",
+            "display" : "Congenital neutropenia-myelofibrosis-nephromegaly syndrome"
+          },
+          {
+            "code" : "369861",
+            "display" : "Congenital sideroblastic anemia-B-cell immunodeficiency-periodic fever-developmental delay syndrome"
+          },
+          {
+            "code" : "369867",
+            "display" : "Autosomal recessive intermediate Charcot-Marie-Tooth disease type C"
+          },
+          {
+            "code" : "369873",
+            "display" : "Obesity due to SIM1 deficiency"
+          },
+          {
+            "code" : "369881",
+            "display" : "2p21 microdeletion syndrome without cystinuria"
+          },
+          {
+            "code" : "369891",
+            "display" : "Developmental delay-facial dysmorphism syndrome due to MED13L deficiency"
+          },
+          {
+            "code" : "369897",
+            "display" : "Mitochondrial DNA depletion syndrome, encephalomyopathic form with variable craniofacial anomalies"
+          },
+          {
+            "code" : "369913",
+            "display" : "Combined oxidative phosphorylation defect type 17"
+          },
+          {
+            "code" : "369920",
+            "display" : "Pontocerebellar hypoplasia type 9"
+          },
+          {
+            "code" : "369929",
+            "display" : "Primary hyperaldosteronism-seizures-neurological abnormalities syndrome"
+          },
+          {
+            "code" : "369939",
+            "display" : "Severe motor and intellectual disabilities-sensorineural deafness-dystonia syndrome"
+          },
+          {
+            "code" : "369942",
+            "display" : "CADDS"
+          },
+          {
+            "code" : "369950",
+            "display" : "Intellectual disability-seizures-macrocephaly-obesity syndrome"
+          },
+          {
+            "code" : "369955",
+            "display" : "Methylmalonic acidemia with homocystinuria, type cblJ"
+          },
+          {
+            "code" : "369962",
+            "display" : "Methylmalonic acidemia with homocystinuria, type cblX"
+          },
+          {
+            "code" : "369970",
+            "display" : "Microcornea-myopic chorioretinal atrophy-telecanthus syndrome"
+          },
+          {
+            "code" : "369979",
+            "display" : "Finger hyperphalangy-toe anomalies-severe pectus excavatum syndrome"
+          },
+          {
+            "code" : "369992",
+            "display" : "Severe dermatitis-multiple allergies-metabolic wasting syndrome"
+          },
+          {
+            "code" : "369999",
+            "display" : "Diffuse palmoplantar keratoderma with painful fissures"
+          },
+          {
+            "code" : "370002",
+            "display" : "Focal palmoplantar keratoderma with joint keratoses"
+          },
+          {
+            "code" : "370010",
+            "display" : "Intellectual disability-facial dysmorphism-hand anomalies syndrome"
+          },
+          {
+            "code" : "370015",
+            "display" : "Spondyloepimetaphyseal dysplasia, Isidor-Toutain type"
+          },
+          {
+            "code" : "370022",
+            "display" : "Ataxia-intellectual disability-oculomotor apraxia-cerebellar cysts syndrome"
+          },
+          {
+            "code" : "370026",
+            "display" : "Acute myeloid leukemia with t(8;16)(p11;p13) translocation"
+          },
+          {
+            "code" : "370034",
+            "display" : "Familial syringomyelia"
+          },
+          {
+            "code" : "370039",
+            "display" : "Angora hair nevus"
+          },
+          {
+            "code" : "370046",
+            "display" : "Didymosis aplasticosebacea"
+          },
+          {
+            "code" : "370052",
+            "display" : "SCALP syndrome"
+          },
+          {
+            "code" : "370059",
+            "display" : "NEVADA syndrome"
+          },
+          {
+            "code" : "370076",
+            "display" : "Fetal carbamazepine syndrome"
+          },
+          {
+            "code" : "370079",
+            "display" : "Proximal 16p11.2 microduplication syndrome"
+          },
+          {
+            "code" : "370088",
+            "display" : "Acute infantile liver failure-multisystemic involvement syndrome"
+          },
+          {
+            "code" : "370091",
+            "display" : "Oculocutaneous albinism type 5"
+          },
+          {
+            "code" : "370097",
+            "display" : "Oculocutaneous albinism type 6"
+          },
+          {
+            "code" : "370103",
+            "display" : "Primary dystonia, DYT17 type"
+          },
+          {
+            "code" : "370109",
+            "display" : "Ataxia-telangiectasia variant"
+          },
+          {
+            "code" : "370127",
+            "display" : "Medich giant platelet syndrome"
+          },
+          {
+            "code" : "370131",
+            "display" : "White platelet syndrome"
+          },
+          {
+            "code" : "370334",
+            "display" : "Extraskeletal Ewing sarcoma"
+          },
+          {
+            "code" : "370348",
+            "display" : "Peripheral primitive neuroectodermal tumor"
+          },
+          {
+            "code" : "370396",
+            "display" : "Small cell carcinoma of the ovary"
+          },
+          {
+            "code" : "370921",
+            "display" : "STT3A-CDG"
+          },
+          {
+            "code" : "370924",
+            "display" : "STT3B-CDG"
+          },
+          {
+            "code" : "370927",
+            "display" : "SSR4-CDG"
+          },
+          {
+            "code" : "370930",
+            "display" : "XYLT1-CDG"
+          },
+          {
+            "code" : "370933",
+            "display" : "GM3 synthase deficiency"
+          },
+          {
+            "code" : "370943",
+            "display" : "Autism spectrum disorder-epilepsy-arthrogryposis syndrome"
+          },
+          {
+            "code" : "370959",
+            "display" : "Congenital muscular dystrophy with cerebellar involvement"
+          },
+          {
+            "code" : "370968",
+            "display" : "Congenital muscular dystrophy with intellectual disability"
+          },
+          {
+            "code" : "370980",
+            "display" : "Congenital muscular dystrophy without intellectual disability"
+          },
+          {
+            "code" : "370997",
+            "display" : "Muscle-eye-brain disease with bilateral multicystic leucodystrophy"
+          },
+          {
+            "code" : "371007",
+            "display" : "Congenital muscular dystrophy with hyperlaxity"
+          },
+          {
+            "code" : "371364",
+            "display" : "Hypotonia-speech impairment-severe cognitive delay syndrome"
+          },
+          {
+            "code" : "371428",
+            "display" : "Multicentric osteolysis-nodulosis-arthropathy spectrum"
+          },
+          {
+            "code" : "391307",
+            "display" : "Severe intellectual disability-short stature-behavioral abnormalities-facial dysmorphism syndrome"
+          },
+          {
+            "code" : "391311",
+            "display" : "Susceptibility to viral and mycobacterial infections due to STAT1 deficiency"
+          },
+          {
+            "code" : "391316",
+            "display" : "Infantile-onset mesial temporal lobe epilepsy with severe cognitive regression"
+          },
+          {
+            "code" : "391320",
+            "display" : "East Texas bleeding disorder"
+          },
+          {
+            "code" : "391327",
+            "display" : "X-linked calvarial hyperostosis"
+          },
+          {
+            "code" : "391330",
+            "display" : "X-linked osteoporosis with fractures"
+          },
+          {
+            "code" : "391343",
+            "display" : "Fatal post-viral neurodegenerative disorder"
+          },
+          {
+            "code" : "391348",
+            "display" : "Growth and developmental delay-hypotonia-vision impairment-lactic acidosis syndrome"
+          },
+          {
+            "code" : "391351",
+            "display" : "SURF1-related Charcot-Marie-Tooth disease type 4"
+          },
+          {
+            "code" : "391366",
+            "display" : "Growth retardation-mild developmental delay-chronic hepatitis syndrome"
+          },
+          {
+            "code" : "391372",
+            "display" : "FOXP1 Syndrome"
+          },
+          {
+            "code" : "391376",
+            "display" : "Congenital microcephaly-severe encephalopathy-progressive cerebral atrophy syndrome"
+          },
+          {
+            "code" : "391384",
+            "display" : "Familial episodic pain syndrome"
+          },
+          {
+            "code" : "391389",
+            "display" : "Familial episodic pain syndrome with predominantly upper body involvement"
+          },
+          {
+            "code" : "391392",
+            "display" : "Familial episodic pain syndrome with predominantly lower limb involvement"
+          },
+          {
+            "code" : "391397",
+            "display" : "Hereditary sensory and autonomic neuropathy type 7"
+          },
+          {
+            "code" : "391408",
+            "display" : "Primary microcephaly-mild intellectual disability-young-onset diabetes syndrome"
+          },
+          {
+            "code" : "391411",
+            "display" : "Atypical juvenile parkinsonism"
+          },
+          {
+            "code" : "391417",
+            "display" : "HSD10 disease"
+          },
+          {
+            "code" : "391428",
+            "display" : "HSD10 disease, infantile type"
+          },
+          {
+            "code" : "391457",
+            "display" : "HSD10 disease, neonatal type"
+          },
+          {
+            "code" : "391474",
+            "display" : "Frontorhiny"
+          },
+          {
+            "code" : "391487",
+            "display" : "STAT1-related autoimmune enteropathy and endocrinopathy-susceptibility to chronic infections syndrome"
+          },
+          {
+            "code" : "391490",
+            "display" : "Adult-onset myasthenia gravis"
+          },
+          {
+            "code" : "391497",
+            "display" : "Juvenile myasthenia gravis"
+          },
+          {
+            "code" : "391504",
+            "display" : "Transient neonatal myasthenia gravis"
+          },
+          {
+            "code" : "391641",
+            "display" : "Feingold syndrome type 1"
+          },
+          {
+            "code" : "391646",
+            "display" : "Feingold syndrome type 2"
+          },
+          {
+            "code" : "391651",
+            "display" : "Glomus tumor"
+          },
+          {
+            "code" : "391655",
+            "display" : "Off-periods in Parkinson disease not responding to oral treatment"
+          },
+          {
+            "code" : "391665",
+            "display" : "Homozygous familial hypercholesterolemia"
+          },
+          {
+            "code" : "391673",
+            "display" : "Necrotizing enterocolitis"
+          },
+          {
+            "code" : "391677",
+            "display" : "Short stature-optic atrophy-Pelger-Huët anomaly syndrome"
+          },
+          {
+            "code" : "391723",
+            "display" : "Mucinous adenocarcinoma of the appendix"
+          },
+          {
+            "code" : "394529",
+            "display" : "Multiple acyl-CoA dehydrogenase deficiency, severe neonatal type"
+          },
+          {
+            "code" : "394532",
+            "display" : "Multiple acyl-CoA dehydrogenase deficiency, mild type"
+          },
+          {
+            "code" : "397587",
+            "display" : "Deep dermatophytosis"
+          },
+          {
+            "code" : "397590",
+            "display" : "Silver-Russell syndrome due to a point mutation"
+          },
+          {
+            "code" : "397593",
+            "display" : "Severe neonatal lactic acidosis due to NFS1-ISD11 complex deficiency"
+          },
+          {
+            "code" : "397596",
+            "display" : "Activated PI3K-delta syndrome"
+          },
+          {
+            "code" : "397606",
+            "display" : "PrP systemic amyloidosis"
+          },
+          {
+            "code" : "397612",
+            "display" : "Macrocephaly-developmental delay syndrome"
+          },
+          {
+            "code" : "397615",
+            "display" : "Obesity due to CEP19 deficiency"
+          },
+          {
+            "code" : "397618",
+            "display" : "Foveal hypoplasia-optic nerve decussation defect-anterior segment dysgenesis syndrome"
+          },
+          {
+            "code" : "397623",
+            "display" : "Short stature-auditory canal atresia-mandibular hypoplasia-skeletal anomalies syndrome"
+          },
+          {
+            "code" : "397685",
+            "display" : "Familial hyperprolactinemia"
+          },
+          {
+            "code" : "397692",
+            "display" : "Hereditary isolated aplastic anemia"
+          },
+          {
+            "code" : "397695",
+            "display" : "3q27.3 microdeletion syndrome"
+          },
+          {
+            "code" : "397709",
+            "display" : "Intellectual disability-coarse face-macrocephaly-cerebellar hypotrophy syndrome"
+          },
+          {
+            "code" : "397715",
+            "display" : "Joubert syndrome with Jeune asphyxiating thoracic dystrophy"
+          },
+          {
+            "code" : "397725",
+            "display" : "COASY protein-associated neurodegeneration"
+          },
+          {
+            "code" : "397735",
+            "display" : "Autosomal dominant Charcot-Marie-Tooth disease type 2U"
+          },
+          {
+            "code" : "397744",
+            "display" : "Peripheral neuropathy-myopathy-hoarseness-hearing loss syndrome"
+          },
+          {
+            "code" : "397750",
+            "display" : "Periodic paralysis with later-onset distal motor neuropathy"
+          },
+          {
+            "code" : "397755",
+            "display" : "Periodic paralysis with transient compartment-like syndrome"
+          },
+          {
+            "code" : "397758",
+            "display" : "Retinal dystrophy with inner retinal dysfunction and ganglion cell anomalies"
+          },
+          {
+            "code" : "397787",
+            "display" : "Severe combined immunodeficiency due to IKK2 deficiency"
+          },
+          {
+            "code" : "397922",
+            "display" : "Ferro-cerebro-cutaneous syndrome"
+          },
+          {
+            "code" : "397927",
+            "display" : "Sacral agenesis-abnormal ossification of the vertebral bodies-persistent notochordal canal syndrome"
+          },
+          {
+            "code" : "397933",
+            "display" : "Severe intellectual disability-progressive postnatal microcephaly-midline stereotypic hand movements syndrome"
+          },
+          {
+            "code" : "397937",
+            "display" : "Polyglucosan body myopathy type 1"
+          },
+          {
+            "code" : "397941",
+            "display" : "MAN1B1-CDG"
+          },
+          {
+            "code" : "397946",
+            "display" : "Autosomal spastic paraplegia type 58"
+          },
+          {
+            "code" : "397951",
+            "display" : "Microcephaly-thin corpus callosum-intellectual disability syndrome"
+          },
+          {
+            "code" : "397959",
+            "display" : "TCR-alpha-beta-positive T-cell deficiency"
+          },
+          {
+            "code" : "397964",
+            "display" : "Combined immunodeficiency due to MALT1 deficiency"
+          },
+          {
+            "code" : "397968",
+            "display" : "Charcot-Marie-Tooth disease type 2R"
+          },
+          {
+            "code" : "397973",
+            "display" : "Intellectual disability-obesity-prognathism-eye and skin anomalies syndrome"
+          },
+          {
+            "code" : "398053",
+            "display" : "Adenocarcinoma of the penis"
+          },
+          {
+            "code" : "398058",
+            "display" : "Squamous cell carcinoma of the penis"
+          },
+          {
+            "code" : "398063",
+            "display" : "Refractory celiac disease"
+          },
+          {
+            "code" : "398069",
+            "display" : "MAGEL2-related Prader-Willi-like syndrome"
+          },
+          {
+            "code" : "398079",
+            "display" : "SIM1-related Prader-Willi-like syndrome"
+          },
+          {
+            "code" : "398088",
+            "display" : "Hereditary cryohydrocytosis with normal stomatin"
+          },
+          {
+            "code" : "398097",
+            "display" : "Neonatal antiphospholipid syndrome"
+          },
+          {
+            "code" : "398109",
+            "display" : "Neonatal autoimmune hemolytic anemia"
+          },
+          {
+            "code" : "398117",
+            "display" : "Neonatal dermatomyositis"
+          },
+          {
+            "code" : "398124",
+            "display" : "Neonatal lupus erythematosus"
+          },
+          {
+            "code" : "398127",
+            "display" : "Neonatal scleroderma"
+          },
+          {
+            "code" : "398147",
+            "display" : "Persistent idiopathic facial pain"
+          },
+          {
+            "code" : "398156",
+            "display" : "Oculoauriculofrontonasal syndrome"
+          },
+          {
+            "code" : "398166",
+            "display" : "Focal facial dermal dysplasia"
+          },
+          {
+            "code" : "398173",
+            "display" : "Focal facial dermal dysplasia type II"
+          },
+          {
+            "code" : "398189",
+            "display" : "Focal facial dermal dysplasia type IV"
+          },
+          {
+            "code" : "398961",
+            "display" : "Mucinous adenocarcinoma of ovary"
+          },
+          {
+            "code" : "398971",
+            "display" : "Clear cell adenocarcinoma of the ovary"
+          },
+          {
+            "code" : "398987",
+            "display" : "Malignant teratoma of ovary"
+          },
+          {
+            "code" : "399058",
+            "display" : "Alpha-B crystallin-related late-onset myopathy"
+          },
+          {
+            "code" : "399081",
+            "display" : "KLHL9-related early-onset distal myopathy"
+          },
+          {
+            "code" : "399086",
+            "display" : "Finnish upper limb-onset distal myopathy"
+          },
+          {
+            "code" : "399096",
+            "display" : "Distal anoctaminopathy"
+          },
+          {
+            "code" : "399103",
+            "display" : "Distal nebulin myopathy"
+          },
+          {
+            "code" : "399175",
+            "display" : "Traumatic avascular necrosis"
+          },
+          {
+            "code" : "399180",
+            "display" : "Secondary non-traumatic avascular necrosis"
+          },
+          {
+            "code" : "399293",
+            "display" : "Osteonecrosis of the jaw"
+          },
+          {
+            "code" : "399307",
+            "display" : "Idiopathic avascular necrosis"
+          },
+          {
+            "code" : "399329",
+            "display" : "Epiphysiolysis of the hip"
+          },
+          {
+            "code" : "399805",
+            "display" : "Male infertility with azoospermia or oligozoospermia due to single gene mutation"
+          },
+          {
+            "code" : "399808",
+            "display" : "Male infertility with teratozoospermia due to single gene mutation"
+          },
+          {
+            "code" : "401764",
+            "display" : "Pancytopenia-developmental delay syndrome"
+          },
+          {
+            "code" : "401768",
+            "display" : "Proximal myopathy with extrapyramidal signs"
+          },
+          {
+            "code" : "401777",
+            "display" : "Optic atrophy-intellectual disability syndrome"
+          },
+          {
+            "code" : "401780",
+            "display" : "Autosomal recessive spastic paraplegia type 61"
+          },
+          {
+            "code" : "401785",
+            "display" : "Autosomal recessive spastic paraplegia type 62"
+          },
+          {
+            "code" : "401795",
+            "display" : "Autosomal recessive spastic paraplegia type 59"
+          },
+          {
+            "code" : "401800",
+            "display" : "Autosomal recessive spastic paraplegia type 60"
+          },
+          {
+            "code" : "401805",
+            "display" : "Autosomal recessive spastic paraplegia type 63"
+          },
+          {
+            "code" : "401810",
+            "display" : "Autosomal recessive spastic paraplegia type 64"
+          },
+          {
+            "code" : "401815",
+            "display" : "Autosomal recessive spastic paraplegia type 66"
+          },
+          {
+            "code" : "401820",
+            "display" : "Autosomal recessive spastic paraplegia type 67"
+          },
+          {
+            "code" : "401830",
+            "display" : "Autosomal recessive spastic paraplegia type 69"
+          },
+          {
+            "code" : "401835",
+            "display" : "Autosomal recessive spastic paraplegia type 70"
+          },
+          {
+            "code" : "401840",
+            "display" : "Autosomal recessive spastic paraplegia type 71"
+          },
+          {
+            "code" : "401849",
+            "display" : "Autosomal spastic paraplegia type 72"
+          },
+          {
+            "code" : "401859",
+            "display" : "Lipoic acid synthetase deficiency"
+          },
+          {
+            "code" : "401862",
+            "display" : "Lipoyl transferase 1 deficiency"
+          },
+          {
+            "code" : "401866",
+            "display" : "Childhood-onset spasticity with hyperglycinemia"
+          },
+          {
+            "code" : "401869",
+            "display" : "Multiple mitochondrial dysfunctions syndrome type 1"
+          },
+          {
+            "code" : "401874",
+            "display" : "Multiple mitochondrial dysfunctions syndrome type 2"
+          },
+          {
+            "code" : "401901",
+            "display" : "Huntington disease-like syndrome due to C9ORF72 expansions"
+          },
+          {
+            "code" : "401911",
+            "display" : "AXIN2-related attenuated familial adenomatous polyposis"
+          },
+          {
+            "code" : "401920",
+            "display" : "Fibrolamellar hepatocellular carcinoma"
+          },
+          {
+            "code" : "401923",
+            "display" : "9q31.1q31.3 microdeletion syndrome"
+          },
+          {
+            "code" : "401935",
+            "display" : "14q24.1q24.3 microdeletion syndrome"
+          },
+          {
+            "code" : "401942",
+            "display" : "Familial median cleft of the upper and lower lips"
+          },
+          {
+            "code" : "401945",
+            "display" : "Moyamoya disease with early-onset achalasia"
+          },
+          {
+            "code" : "401948",
+            "display" : "Hyperammonemic encephalopathy due to carbonic anhydrase VA deficiency"
+          },
+          {
+            "code" : "401953",
+            "display" : "Episodic ataxia with slurred speech"
+          },
+          {
+            "code" : "401959",
+            "display" : "Partial corpus callosum agenesis-cerebellar vermis hypoplasia with posterior fossa cysts syndrome"
+          },
+          {
+            "code" : "401964",
+            "display" : "Autosomal dominant Charcot-Marie-Tooth disease type 2 with giant axons"
+          },
+          {
+            "code" : "401973",
+            "display" : "MEND syndrome"
+          },
+          {
+            "code" : "401979",
+            "display" : "Autosomal recessive spondylometaphyseal dysplasia, Mégarbané type"
+          },
+          {
+            "code" : "401986",
+            "display" : "1p31p32 microdeletion syndrome"
+          },
+          {
+            "code" : "401996",
+            "display" : "Karyomegalic interstitial nephritis"
+          },
+          {
+            "code" : "402003",
+            "display" : "Autosomal dominant focal non-epidermolytic palmoplantar keratoderma with plantar blistering"
+          },
+          {
+            "code" : "402014",
+            "display" : "Acute myeloid leukemia with t(6;9)(p23;q34)"
+          },
+          {
+            "code" : "402017",
+            "display" : "Acute myeloid leukemia with t(9;11)(p22;q23)"
+          },
+          {
+            "code" : "402020",
+            "display" : "Acute myeloid leukemia with inv(3)(q21q26.2) or t(3;3)(q21;q26.2)"
+          },
+          {
+            "code" : "402023",
+            "display" : "Megakaryoblastic acute myeloid leukemia with t(1;22)(p13;q13)"
+          },
+          {
+            "code" : "402026",
+            "display" : "Acute myeloid leukemia with NPM1 somatic mutations"
+          },
+          {
+            "code" : "402035",
+            "display" : "Eosinophilic colitis"
+          },
+          {
+            "code" : "402041",
+            "display" : "Autosomal recessive distal renal tubular acidosis"
+          },
+          {
+            "code" : "402075",
+            "display" : "Familial bicuspid aortic valve"
+          },
+          {
+            "code" : "402082",
+            "display" : "Progressive myoclonic epilepsy type 5"
+          },
+          {
+            "code" : "402364",
+            "display" : "Infantile cerebral and cerebellar atrophy with postnatal progressive microcephaly"
+          },
+          {
+            "code" : "402823",
+            "display" : "Hepatitis delta"
+          },
+          {
+            "code" : "404437",
+            "display" : "Diffuse cerebral and cerebellar atrophy-intractable seizures-progressive microcephaly syndrome"
+          },
+          {
+            "code" : "404440",
+            "display" : "Intellectual disability-facial dysmorphism syndrome due to SETD5 haploinsufficiency"
+          },
+          {
+            "code" : "404443",
+            "display" : "Tatton-Brown-Rahman syndrome"
+          },
+          {
+            "code" : "404448",
+            "display" : "ADNP syndrome"
+          },
+          {
+            "code" : "404451",
+            "display" : "FBLN1-related developmental delay-central nervous system anomaly-syndactyly syndrome"
+          },
+          {
+            "code" : "404454",
+            "display" : "Alacrimia-choreoathetosis-liver dysfunction syndrome"
+          },
+          {
+            "code" : "404463",
+            "display" : "Multisystemic smooth muscle dysfunction syndrome"
+          },
+          {
+            "code" : "404466",
+            "display" : "Female infertility due to zona pellucida defect"
+          },
+          {
+            "code" : "404473",
+            "display" : "Severe intellectual disability-progressive spastic diplegia syndrome"
+          },
+          {
+            "code" : "404476",
+            "display" : "Global developmental delay-lung cysts-overgrowth-Wilms tumor syndrome"
+          },
+          {
+            "code" : "404493",
+            "display" : "Autosomal recessive cerebellar ataxia-epilepsy-intellectual disability syndrome due to TUD deficiency"
+          },
+          {
+            "code" : "404499",
+            "display" : "Autosomal recessive cerebellar ataxia-epilepsy-intellectual disability syndrome due to RUBCN deficiency"
+          },
+          {
+            "code" : "404507",
+            "display" : "Chondromyxoid fibroma"
+          },
+          {
+            "code" : "404511",
+            "display" : "Clear cell papillary renal cell carcinoma"
+          },
+          {
+            "code" : "404514",
+            "display" : "Acquired cystic disease-associated renal cell carcinoma"
+          },
+          {
+            "code" : "404521",
+            "display" : "Spinal muscular atrophy with respiratory distress type 2"
+          },
+          {
+            "code" : "404546",
+            "display" : "DITRA"
+          },
+          {
+            "code" : "404553",
+            "display" : "Adenosine deaminase 2 deficiency"
+          },
+          {
+            "code" : "404560",
+            "display" : "Familial atypical multiple mole melanoma syndrome"
+          },
+          {
+            "code" : "411493",
+            "display" : "Pontocerebellar hypoplasia type 10"
+          },
+          {
+            "code" : "411501",
+            "display" : "Williams-Campbell syndrome"
+          },
+          {
+            "code" : "411511",
+            "display" : "Angelman syndrome due to a point mutation"
+          },
+          {
+            "code" : "411515",
+            "display" : "Angelman syndrome due to imprinting defect in 15q11-q13"
+          },
+          {
+            "code" : "411527",
+            "display" : "Central retinal vein occlusion"
+          },
+          {
+            "code" : "411536",
+            "display" : "Mild phosphoribosylpyrophosphate synthetase superactivity"
+          },
+          {
+            "code" : "411543",
+            "display" : "Severe phosphoribosylpyrophosphate synthetase superactivity"
+          },
+          {
+            "code" : "411590",
+            "display" : "Wolfram-like syndrome"
+          },
+          {
+            "code" : "411593",
+            "display" : "Insulin autoimmune syndrome"
+          },
+          {
+            "code" : "411602",
+            "display" : "Hereditary late-onset Parkinson disease"
+          },
+          {
+            "code" : "411629",
+            "display" : "Infantile nephropathic cystinosis"
+          },
+          {
+            "code" : "411634",
+            "display" : "Juvenile nephropathic cystinosis"
+          },
+          {
+            "code" : "411641",
+            "display" : "Ocular cystinosis"
+          },
+          {
+            "code" : "411696",
+            "display" : "Proton-pump inhibitor-responsive esophageal eosinophilia"
+          },
+          {
+            "code" : "411703",
+            "display" : "Pulmonary non-tuberculous mycobacterial infection"
+          },
+          {
+            "code" : "411709",
+            "display" : "Renal agenesis"
+          },
+          {
+            "code" : "411712",
+            "display" : "Maternal riboflavin deficiency"
+          },
+          {
+            "code" : "411777",
+            "display" : "Generalized eruptive keratoacanthoma"
+          },
+          {
+            "code" : "411788",
+            "display" : "Familial isolated trichomegaly"
+          },
+          {
+            "code" : "411986",
+            "display" : "Early-onset epileptic encephalopathy-cortical blindness-intellectual disability-facial dysmorphism syndrome"
+          },
+          {
+            "code" : "412022",
+            "display" : "Facial dysmorphism-lens dislocation-anterior segment abnormalities-spontaneous filtering blebs syndrome"
+          },
+          {
+            "code" : "412035",
+            "display" : "13q12.3 microdeletion syndrome"
+          },
+          {
+            "code" : "412057",
+            "display" : "Autosomal recessive cerebellar ataxia due to STUB1 deficiency"
+          },
+          {
+            "code" : "412066",
+            "display" : "PRKAR1B-related neurodegenerative dementia with intermediate filaments"
+          },
+          {
+            "code" : "412069",
+            "display" : "AHDC1-related intellectual disability-obstructive sleep apnea-mild dysmorphism syndrome"
+          },
+          {
+            "code" : "412181",
+            "display" : "Epidermolysis bullosa simplex due to BP230 deficiency"
+          },
+          {
+            "code" : "412189",
+            "display" : "Epidermolysis bullosa simplex due to exophilin 5 deficiency"
+          },
+          {
+            "code" : "412206",
+            "display" : "Primary failure of tooth eruption"
+          },
+          {
+            "code" : "412217",
+            "display" : "Dystonia-aphonia syndrome"
+          },
+          {
+            "code" : "418945",
+            "display" : "Carcinoma of esophagus, salivary gland type"
+          },
+          {
+            "code" : "418951",
+            "display" : "Undifferentiated carcinoma of esophagus"
+          },
+          {
+            "code" : "418959",
+            "display" : "Squamous cell carcinoma of the stomach"
+          },
+          {
+            "code" : "420179",
+            "display" : "Malan overgrowth syndrome"
+          },
+          {
+            "code" : "420259",
+            "display" : "Secondary pulmonary alveolar proteinosis"
+          },
+          {
+            "code" : "420402",
+            "display" : "Semicircular canal dehiscence syndrome"
+          },
+          {
+            "code" : "420429",
+            "display" : "Glycogen storage disease due to acid maltase deficiency, late-onset"
+          },
+          {
+            "code" : "420485",
+            "display" : "Cranio-cervical dystonia with laryngeal and upper-limb involvement"
+          },
+          {
+            "code" : "420492",
+            "display" : "Adult-onset cervical dystonia, DYT23 type"
+          },
+          {
+            "code" : "420556",
+            "display" : "Visual snow syndrome"
+          },
+          {
+            "code" : "420561",
+            "display" : "Temple-Baraitser syndrome"
+          },
+          {
+            "code" : "420566",
+            "display" : "Bleeding disorder due to CalDAG-GEFI deficiency"
+          },
+          {
+            "code" : "420573",
+            "display" : "Severe combined immunodeficiency due to CTPS1 deficiency"
+          },
+          {
+            "code" : "420584",
+            "display" : "Postaxial polydactyly-anterior pituitary anomalies-facial dysmorphism syndrome"
+          },
+          {
+            "code" : "420611",
+            "display" : "Transient myeloproliferative syndrome"
+          },
+          {
+            "code" : "420686",
+            "display" : "Woolly hair-palmoplantar keratoderma syndrome"
+          },
+          {
+            "code" : "420699",
+            "display" : "Autosomal recessive severe congenital neutropenia due to CXCR2 deficiency"
+          },
+          {
+            "code" : "420702",
+            "display" : "Autosomal recessive severe congenital neutropenia due to CSF3R deficiency"
+          },
+          {
+            "code" : "420728",
+            "display" : "Combined oxidative phosphorylation defect type 20"
+          },
+          {
+            "code" : "420733",
+            "display" : "Combined oxidative phosphorylation defect type 21"
+          },
+          {
+            "code" : "420741",
+            "display" : "RIDDLE syndrome"
+          },
+          {
+            "code" : "420789",
+            "display" : "Autoimmune encephalopathy with parasomnia and obstructive sleep apnea"
+          },
+          {
+            "code" : "420794",
+            "display" : "Cono-spondylar dysplasia"
+          },
+          {
+            "code" : "422526",
+            "display" : "Hereditary clear cell renal cell carcinoma"
+          },
+          {
+            "code" : "423275",
+            "display" : "Spinocerebellar ataxia type 40"
+          },
+          {
+            "code" : "423296",
+            "display" : "Spinocerebellar ataxia type 38"
+          },
+          {
+            "code" : "423306",
+            "display" : "Microcephaly-short stature-intellectual disability-facial dysmorphism syndrome"
+          },
+          {
+            "code" : "423384",
+            "display" : "Severe congenital neutropenia due to JAGN1 deficiency"
+          },
+          {
+            "code" : "423454",
+            "display" : "Nail and teeth abnormalities-marginal palmoplantar keratoderma-oral hyperpigmentation syndrome"
+          },
+          {
+            "code" : "423461",
+            "display" : "Mucolipidosis type III alpha/beta"
+          },
+          {
+            "code" : "423470",
+            "display" : "Mucolipidosis type III gamma"
+          },
+          {
+            "code" : "423479",
+            "display" : "X-linked intellectual disability-limb spasticity-retinal dystrophy-arginine vasopressin deficiency"
+          },
+          {
+            "code" : "423693",
+            "display" : "Double outlet right ventricle with subaortic or doubly committed ventricular septal defect"
+          },
+          {
+            "code" : "423712",
+            "display" : "Double outlet right ventricle with atrioventricular septal defect, pulmonary stenosis, heterotaxy"
+          },
+          {
+            "code" : "423717",
+            "display" : "Cutaneous larva migrans"
+          },
+          {
+            "code" : "423786",
+            "display" : "Undifferentiated carcinoma of stomach"
+          },
+          {
+            "code" : "423894",
+            "display" : "Microcephaly-complex motor and sensory axonal neuropathy syndrome"
+          },
+          {
+            "code" : "423968",
+            "display" : "Squamous cell carcinoma of the small intestine"
+          },
+          {
+            "code" : "423994",
+            "display" : "Squamous cell carcinoma of the colon"
+          },
+          {
+            "code" : "424002",
+            "display" : "Squamous cell carcinoma of the rectum"
+          },
+          {
+            "code" : "424016",
+            "display" : "Adenocarcinoma of the anal canal"
+          },
+          {
+            "code" : "424019",
+            "display" : "Squamous cell carcinoma of the anal canal"
+          },
+          {
+            "code" : "424027",
+            "display" : "Progressive myoclonic epilepsy type 8"
+          },
+          {
+            "code" : "424039",
+            "display" : "Squamous cell carcinoma of pancreas"
+          },
+          {
+            "code" : "424046",
+            "display" : "Acinar cell carcinoma of pancreas"
+          },
+          {
+            "code" : "424053",
+            "display" : "Mucinous cystadenocarcinoma of the pancreas"
+          },
+          {
+            "code" : "424058",
+            "display" : "Intraductal papillary mucinous carcinoma of pancreas"
+          },
+          {
+            "code" : "424065",
+            "display" : "Solid pseudopapillary carcinoma of pancreas"
+          },
+          {
+            "code" : "424073",
+            "display" : "Serous cystadenocarcinoma of pancreas"
+          },
+          {
+            "code" : "424080",
+            "display" : "Undifferentiated carcinoma with osteoclast-like giant cells of pancreas"
+          },
+          {
+            "code" : "424099",
+            "display" : "Colobomatous microphthalmia-rhizomelic dysplasia syndrome"
+          },
+          {
+            "code" : "424107",
+            "display" : "Congenital myopathy with myasthenic-like onset"
+          },
+          {
+            "code" : "424261",
+            "display" : "TOR1AIP1-related limb-girdle muscular dystrophy"
+          },
+          {
+            "code" : "424943",
+            "display" : "Adenocarcinoma of the liver and intrahepatic biliary tract"
+          },
+          {
+            "code" : "424970",
+            "display" : "Undifferentiated carcinoma of liver and intrahepatic biliary tract"
+          },
+          {
+            "code" : "424975",
+            "display" : "Squamous cell carcinoma of liver and intrahepatic biliary tract"
+          },
+          {
+            "code" : "424982",
+            "display" : "Biliary cystadenocarcinoma"
+          },
+          {
+            "code" : "424991",
+            "display" : "Adenocarcinoma of the gallbladder and extrahepatic biliary tract"
+          },
+          {
+            "code" : "424996",
+            "display" : "Squamous cell carcinoma of gallbladder and extrahepatic biliary tract"
+          },
+          {
+            "code" : "425120",
+            "display" : "STING-associated vasculopathy with onset in infancy"
+          },
+          {
+            "code" : "431140",
+            "display" : "X-linked colobomatous microphthalmia-microcephaly-intellectual disability-short stature syndrome"
+          },
+          {
+            "code" : "431149",
+            "display" : "Combined immunodeficiency due to OX40 deficiency"
+          },
+          {
+            "code" : "431166",
+            "display" : "Primary immunodeficiency with post-measles-mumps-rubella vaccine viral infection"
+          },
+          {
+            "code" : "431255",
+            "display" : "Scapuloperoneal spinal muscular atrophy"
+          },
+          {
+            "code" : "431272",
+            "display" : "X-linked scapuloperoneal muscular dystrophy"
+          },
+          {
+            "code" : "431329",
+            "display" : "Autosomal recessive spastic paraplegia type 57"
+          },
+          {
+            "code" : "431341",
+            "display" : "Patent urachus"
+          },
+          {
+            "code" : "431344",
+            "display" : "Urachal sinus"
+          },
+          {
+            "code" : "431347",
+            "display" : "Urachal diverticulum"
+          },
+          {
+            "code" : "431361",
+            "display" : "Progressive encephalopathy with leukodystrophy due to DECR deficiency"
+          },
+          {
+            "code" : "434179",
+            "display" : "Orofaciodigital syndrome type 14"
+          },
+          {
+            "code" : "435329",
+            "display" : "Familial ossifying fibroma"
+          },
+          {
+            "code" : "435372",
+            "display" : "Anterior urethral valve"
+          },
+          {
+            "code" : "435387",
+            "display" : "Autosomal dominant Charcot-Marie-Tooth disease type 2Y"
+          },
+          {
+            "code" : "435438",
+            "display" : "Progressive myoclonic epilepsy type 7"
+          },
+          {
+            "code" : "435628",
+            "display" : "Keppen-Lubinsky syndrome"
+          },
+          {
+            "code" : "435638",
+            "display" : "3p25.3 microdeletion syndrome"
+          },
+          {
+            "code" : "435651",
+            "display" : "CIDEC-related familial partial lipodystrophy"
+          },
+          {
+            "code" : "435660",
+            "display" : "LIPE-related familial partial lipodystrophy"
+          },
+          {
+            "code" : "435804",
+            "display" : "Short stature-advanced bone age-early-onset osteoarthritis syndrome"
+          },
+          {
+            "code" : "435819",
+            "display" : "Autosomal dominant Charcot-Marie-Tooth disease type 2 due to TFG mutation"
+          },
+          {
+            "code" : "435845",
+            "display" : "Lethal neonatal spasticity-epileptic encephalopathy syndrome"
+          },
+          {
+            "code" : "435930",
+            "display" : "Colobomatous optic disc-macular atrophy-chorioretinopathy syndrome"
+          },
+          {
+            "code" : "435934",
+            "display" : "COG2-CDG"
+          },
+          {
+            "code" : "435938",
+            "display" : "X-linked microcephaly-growth retardation-prognathism-cryptorchidism syndrome"
+          },
+          {
+            "code" : "435953",
+            "display" : "Progeroid features-hepatocellular carcinoma predisposition syndrome"
+          },
+          {
+            "code" : "435988",
+            "display" : "Chronic atrial and intestinal dysrhythmia syndrome"
+          },
+          {
+            "code" : "435998",
+            "display" : "Autosomal recessive intermediate Charcot-Marie-Tooth disease type D"
+          },
+          {
+            "code" : "436003",
+            "display" : "Contractures-developmental delay-Pierre Robin syndrome"
+          },
+          {
+            "code" : "436141",
+            "display" : "HIDEA syndrome"
+          },
+          {
+            "code" : "436144",
+            "display" : "Intrauterine growth restriction-short stature-early adult-onset diabetes syndrome"
+          },
+          {
+            "code" : "436151",
+            "display" : "Intellectual disability-expressive aphasia-facial dysmorphism syndrome"
+          },
+          {
+            "code" : "436159",
+            "display" : "Autoimmune lymphoproliferative syndrome due to CTLA4 haploinsuffiency"
+          },
+          {
+            "code" : "436166",
+            "display" : "Periodic fever-infantile enterocolitis-autoinflammatory syndrome"
+          },
+          {
+            "code" : "436169",
+            "display" : "Thrombomodulin-related bleeding disorder"
+          },
+          {
+            "code" : "436174",
+            "display" : "Cataract-growth hormone deficiency-sensory neuropathy-sensorineural hearing loss-skeletal dysplasia syndrome"
+          },
+          {
+            "code" : "436182",
+            "display" : "Microcephalic primordial dwarfism-insulin resistance syndrome"
+          },
+          {
+            "code" : "436242",
+            "display" : "Familial atrial tachyarrhythmia-infra-Hisian cardiac conduction disease"
+          },
+          {
+            "code" : "436245",
+            "display" : "Retinitis pigmentosa-juvenile cataract-short stature-intellectual disability syndrome"
+          },
+          {
+            "code" : "436252",
+            "display" : "Combined immunodeficiency-enteropathy spectrum"
+          },
+          {
+            "code" : "436271",
+            "display" : "Non-progressive predominantly posterior cavitating leukoencephalopathy with peripheral neuropathy"
+          },
+          {
+            "code" : "436274",
+            "display" : "Pseudoxanthoma elasticum-like skin manifestations with retinitis pigmentosa"
+          },
+          {
+            "code" : "437552",
+            "display" : "Autosomal recessive primary immunodeficiency with defective spontaneous natural killer cell cytotoxicity"
+          },
+          {
+            "code" : "438075",
+            "display" : "Ketoacidosis due to monocarboxylate transporter-1 deficiency"
+          },
+          {
+            "code" : "438114",
+            "display" : "RARS-related autosomal recessive hypomyelinating leukodystrophy"
+          },
+          {
+            "code" : "438117",
+            "display" : "Steel syndrome"
+          },
+          {
+            "code" : "438134",
+            "display" : "PCNA-related progressive neurodegenerative photosensitivity syndrome"
+          },
+          {
+            "code" : "438159",
+            "display" : "STAT3-related early-onset multisystem autoimmune disease"
+          },
+          {
+            "code" : "438178",
+            "display" : "Fatty acyl-CoA reductase 1 deficiency"
+          },
+          {
+            "code" : "438207",
+            "display" : "Severe autosomal recessive macrothrombocytopenia"
+          },
+          {
+            "code" : "438213",
+            "display" : "PURA-related severe neonatal hypotonia-seizures-encephalopathy syndrome"
+          },
+          {
+            "code" : "438216",
+            "display" : "PURA-related severe neonatal hypotonia-seizures-encephalopathy syndrome due to a point mutation"
+          },
+          {
+            "code" : "438266",
+            "display" : "Progressive encephalomyelitis with rigidity and myoclonus"
+          },
+          {
+            "code" : "438274",
+            "display" : "GCGR-related hyperglucagonemia"
+          },
+          {
+            "code" : "438279",
+            "display" : "Human infection by orthopoxvirus"
+          },
+          {
+            "code" : "439167",
+            "display" : "Placental insufficiency"
+          },
+          {
+            "code" : "439175",
+            "display" : "Pediatric arterial ischemic stroke"
+          },
+          {
+            "code" : "439196",
+            "display" : "Zinc-responsive necrolytic acral erythema"
+          },
+          {
+            "code" : "439202",
+            "display" : "Non-recovering obstetric brachial plexus lesion"
+          },
+          {
+            "code" : "439212",
+            "display" : "Early-onset myopathy-areflexia-respiratory distress-dysphagia syndrome"
+          },
+          {
+            "code" : "439218",
+            "display" : "KCNQ2-related epileptic encephalopathy"
+          },
+          {
+            "code" : "439224",
+            "display" : "ALECT2 amyloidosis"
+          },
+          {
+            "code" : "439232",
+            "display" : "AApoAIV amyloidosis"
+          },
+          {
+            "code" : "439254",
+            "display" : "ITM2B amyloidosis"
+          },
+          {
+            "code" : "439729",
+            "display" : "Cutaneous polyarteritis nodosa"
+          },
+          {
+            "code" : "439737",
+            "display" : "Primary polyarteritis nodosa"
+          },
+          {
+            "code" : "439746",
+            "display" : "Secondary polyarteritis nodosa"
+          },
+          {
+            "code" : "439755",
+            "display" : "Single-organ polyarteritis nodosa"
+          },
+          {
+            "code" : "439762",
+            "display" : "Systemic polyarteritis nodosa"
+          },
+          {
+            "code" : "439822",
+            "display" : "PDE4D haploinsufficiency syndrome"
+          },
+          {
+            "code" : "439854",
+            "display" : "Fatal congenital hypertrophic cardiomyopathy due to glycogen storage disease"
+          },
+          {
+            "code" : "439881",
+            "display" : "Plastic bronchitis"
+          },
+          {
+            "code" : "439897",
+            "display" : "Lethal fetal cerebrorenogenitourinary agenesis/hypoplasia syndrome"
+          },
+          {
+            "code" : "440221",
+            "display" : "Congenital oculomotor nerve palsy"
+          },
+          {
+            "code" : "440233",
+            "display" : "Congenital abducens nerve palsy"
+          },
+          {
+            "code" : "440354",
+            "display" : "Autosomal dominant myopia-midfacial retrusion-sensorineural hearing loss-rhizomelic dysplasia syndrome"
+          },
+          {
+            "code" : "440368",
+            "display" : "Necrotizing soft tissue infection"
+          },
+          {
+            "code" : "440392",
+            "display" : "Interstitial lung disease due to SP-C deficiency"
+          },
+          {
+            "code" : "440402",
+            "display" : "Interstitial lung disease due to ABCA3 deficiency"
+          },
+          {
+            "code" : "440427",
+            "display" : "Severe early-onset pulmonary alveolar proteinosis due to MARS deficiency"
+          },
+          {
+            "code" : "440437",
+            "display" : "Familial colorectal cancer Type X"
+          },
+          {
+            "code" : "440706",
+            "display" : "Ribose-5-P isomerase deficiency"
+          },
+          {
+            "code" : "440713",
+            "display" : "Isolated sedoheptulokinase deficiency"
+          },
+          {
+            "code" : "440724",
+            "display" : "Extensive peripapillary myelinated nerve fibers"
+          },
+          {
+            "code" : "440727",
+            "display" : "Combined hamartoma of the retina and retinal pigment epithelium"
+          },
+          {
+            "code" : "440731",
+            "display" : "L-ferritin deficiency"
+          },
+          {
+            "code" : "440987",
+            "display" : "Isolated agenesis of gallbladder"
+          },
+          {
+            "code" : "441447",
+            "display" : "Early-onset posterior subcapsular cataract"
+          },
+          {
+            "code" : "441452",
+            "display" : "Early-onset lamellar cataract"
+          },
+          {
+            "code" : "442582",
+            "display" : "AH amyloidosis"
+          },
+          {
+            "code" : "442835",
+            "display" : "Non-specific early-onset epileptic encephalopathy"
+          },
+          {
+            "code" : "443057",
+            "display" : "Sporadic porphyria cutanea tarda"
+          },
+          {
+            "code" : "443062",
+            "display" : "Familial porphyria cutanea tarda"
+          },
+          {
+            "code" : "443070",
+            "display" : "Hemicrania continua"
+          },
+          {
+            "code" : "443073",
+            "display" : "Charcot-Marie-Tooth disease type 2S"
+          },
+          {
+            "code" : "443079",
+            "display" : "Central serous chorioretinopathy"
+          },
+          {
+            "code" : "443084",
+            "display" : "Baroreflex failure"
+          },
+          {
+            "code" : "443087",
+            "display" : "46,XY difference of sex development due to testicular 17,20-desmolase deficiency"
+          },
+          {
+            "code" : "443098",
+            "display" : "Hyperostosis cranialis interna"
+          },
+          {
+            "code" : "443101",
+            "display" : "Hypothalamic adipsic hypernatraemia syndrome"
+          },
+          {
+            "code" : "443159",
+            "display" : "Lymphoplasmacytic lymphoma without IgM production"
+          },
+          {
+            "code" : "443162",
+            "display" : "NDE1-related microhydranencephaly"
+          },
+          {
+            "code" : "443167",
+            "display" : "NUT midline carcinoma"
+          },
+          {
+            "code" : "443173",
+            "display" : "Postpartum psychosis"
+          },
+          {
+            "code" : "443180",
+            "display" : "Spontaneous intracranial hypotension"
+          },
+          {
+            "code" : "443192",
+            "display" : "Classic stiff person syndrome"
+          },
+          {
+            "code" : "443197",
+            "display" : "X-linked erythropoietic protoporphyria"
+          },
+          {
+            "code" : "443227",
+            "display" : "Paratyphoid fever"
+          },
+          {
+            "code" : "443236",
+            "display" : "Postural orthostatic tachycardia syndrome due to NET deficiency"
+          },
+          {
+            "code" : "443291",
+            "display" : "HIV-associated cancer"
+          },
+          {
+            "code" : "443804",
+            "display" : "Focal stiff limb syndrome"
+          },
+          {
+            "code" : "443811",
+            "display" : "PGM3-CDG"
+          },
+          {
+            "code" : "443950",
+            "display" : "DNAJB2-related Charcot-Marie-Tooth disease type 2"
+          },
+          {
+            "code" : "443988",
+            "display" : "Ventriculomegaly-cystic kidney disease"
+          },
+          {
+            "code" : "443995",
+            "display" : "Mandibulofacial dysostosis with alopecia"
+          },
+          {
+            "code" : "444002",
+            "display" : "11q22.2q22.3 microdeletion syndrome"
+          },
+          {
+            "code" : "444013",
+            "display" : "Combined oxidative phosphorylation defect type 23"
+          },
+          {
+            "code" : "444048",
+            "display" : "46,XX ovarian dysgenesis-short stature syndrome"
+          },
+          {
+            "code" : "444051",
+            "display" : "20q11.2 microdeletion syndrome"
+          },
+          {
+            "code" : "444069",
+            "display" : "Lethal fetal brain malformation-duodenal atresia-bilateral renal hypoplasia syndrome"
+          },
+          {
+            "code" : "444072",
+            "display" : "Cerebellar-facial-dental syndrome"
+          },
+          {
+            "code" : "444077",
+            "display" : "Cognitive impairment-coarse facies-heart defects-obesity-pulmonary involvement-short stature-skeletal dysplasia syndrome"
+          },
+          {
+            "code" : "444092",
+            "display" : "Autoimmune interstitial lung disease-arthritis syndrome"
+          },
+          {
+            "code" : "444099",
+            "display" : "Autosomal dominant spastic paraplegia type 73"
+          },
+          {
+            "code" : "444138",
+            "display" : "Peeling skin-leukonychia-acral punctate keratoses-cheilitis-knuckle pads syndrome"
+          },
+          {
+            "code" : "444316",
+            "display" : "Idiopathic phalangeal acro-osteolysis"
+          },
+          {
+            "code" : "444458",
+            "display" : "Combined oxidative phosphorylation defect type 24"
+          },
+          {
+            "code" : "444463",
+            "display" : "Autoimmune hemolytic anemia-autoimmune thrombocytopenia-primary immunodeficiency syndrome due to TPP2 deficiency"
+          },
+          {
+            "code" : "444490",
+            "display" : "Familial chylomicronemia syndrome"
+          },
+          {
+            "code" : "445018",
+            "display" : "Combined immunodeficiency due to LRBA deficiency"
+          },
+          {
+            "code" : "445038",
+            "display" : "3-methylglutaconic aciduria-neonatal cataract-neurologic involvement-congenital neutropenia syndrome"
+          },
+          {
+            "code" : "445062",
+            "display" : "Juvenile-onset diabetes mellitus-central and peripheral neurodegeneration syndrome"
+          },
+          {
+            "code" : "445110",
+            "display" : "Limb-girdle muscular dystrophy due to POMK deficiency"
+          },
+          {
+            "code" : "447731",
+            "display" : "NIK deficiency"
+          },
+          {
+            "code" : "447737",
+            "display" : "Combined immunodeficiency due to DOCK2 deficiency"
+          },
+          {
+            "code" : "447740",
+            "display" : "Susceptibility to localized juvenile periodontitis"
+          },
+          {
+            "code" : "447753",
+            "display" : "Autosomal dominant spastic paraplegia type 9A"
+          },
+          {
+            "code" : "447757",
+            "display" : "Autosomal dominant spastic paraplegia type 9B"
+          },
+          {
+            "code" : "447760",
+            "display" : "Autosomal recessive spastic paraplegia type 9B"
+          },
+          {
+            "code" : "447764",
+            "display" : "IgG4-related sclerosing cholangitis"
+          },
+          {
+            "code" : "447774",
+            "display" : "Secondary sclerosing cholangitis"
+          },
+          {
+            "code" : "447777",
+            "display" : "Keratocystic odontogenic tumor"
+          },
+          {
+            "code" : "447784",
+            "display" : "Mitochondrial pyruvate carrier deficiency"
+          },
+          {
+            "code" : "447788",
+            "display" : "Cerebral visual impairment"
+          },
+          {
+            "code" : "447795",
+            "display" : "Lipoyl transferase 2 deficiency"
+          },
+          {
+            "code" : "447877",
+            "display" : "Polymerase proofreading-related adenomatous polyposis"
+          },
+          {
+            "code" : "447881",
+            "display" : "Idiopathic dropped head syndrome"
+          },
+          {
+            "code" : "447893",
+            "display" : "Hypomyelination-cerebellar atrophy-hypoplasia of the corpus callosum syndrome"
+          },
+          {
+            "code" : "447896",
+            "display" : "Tremor-ataxia-central hypomyelination syndrome"
+          },
+          {
+            "code" : "447954",
+            "display" : "Combined oxidative phosphorylation defect type 25"
+          },
+          {
+            "code" : "447961",
+            "display" : "Pigmentation defects-palmoplantar keratoderma-skin carcinoma syndrome"
+          },
+          {
+            "code" : "447964",
+            "display" : "Autosomal dominant Charcot-Marie-Tooth disease type 2V"
+          },
+          {
+            "code" : "447974",
+            "display" : "Klippel-Feil anomaly-myopathy-facial dysmorphism syndrome"
+          },
+          {
+            "code" : "447977",
+            "display" : "Progressive scapulohumeroperoneal distal myopathy"
+          },
+          {
+            "code" : "447980",
+            "display" : "19p13.3 microduplication syndrome"
+          },
+          {
+            "code" : "447997",
+            "display" : "Spastic tetraplegia-thin corpus callosum-progressive postnatal microcephaly syndrome"
+          },
+          {
+            "code" : "448010",
+            "display" : "CAD-CDG"
+          },
+          {
+            "code" : "448237",
+            "display" : "Zika virus disease"
+          },
+          {
+            "code" : "448242",
+            "display" : "Autosomal recessive brachyolmia"
+          },
+          {
+            "code" : "448251",
+            "display" : "Progressive autosomal recessive ataxia-deafness syndrome"
+          },
+          {
+            "code" : "448264",
+            "display" : "Isolated focal non-epidermolytic palmoplantar keratoderma"
+          },
+          {
+            "code" : "448267",
+            "display" : "Regressive spondylometaphyseal dysplasia"
+          },
+          {
+            "code" : "448270",
+            "display" : "Ectopia cordis"
+          },
+          {
+            "code" : "449266",
+            "display" : "Pleural empyema"
+          },
+          {
+            "code" : "449280",
+            "display" : "Scedosporiosis"
+          },
+          {
+            "code" : "449285",
+            "display" : "Snakebite envenomation"
+          },
+          {
+            "code" : "449291",
+            "display" : "Symptomatic form of fragile X syndrome in female carriers"
+          },
+          {
+            "code" : "449395",
+            "display" : "IgG4-related kidney disease"
+          },
+          {
+            "code" : "449400",
+            "display" : "IgG4-related aortitis"
+          },
+          {
+            "code" : "449427",
+            "display" : "IgG4-related pachymeningitis"
+          },
+          {
+            "code" : "449432",
+            "display" : "IgG4-related submandibular gland disease"
+          },
+          {
+            "code" : "449563",
+            "display" : "IgG4-related ophthalmic disease"
+          },
+          {
+            "code" : "449566",
+            "display" : "Eosinophilic angiocentric fibrosis"
+          },
+          {
+            "code" : "450322",
+            "display" : "Polyclonal hyperviscosity syndrome"
+          },
+          {
+            "code" : "451602",
+            "display" : "Primary cutaneous plasmacytosis"
+          },
+          {
+            "code" : "451607",
+            "display" : "Cutaneous pseudolymphoma"
+          },
+          {
+            "code" : "451612",
+            "display" : "Familial congenital nasolacrimal duct obstruction"
+          },
+          {
+            "code" : "453499",
+            "display" : "Neurodevelopmental disorder-craniofacial dysmorphism-cardiac defect-skeletal anomalies syndrome"
+          },
+          {
+            "code" : "453504",
+            "display" : "Neurodevelopmental disorder-craniofacial dysmorphism-cardiac defect-skeletal anomalies syndrome due to a point mutation"
+          },
+          {
+            "code" : "453510",
+            "display" : "Congenital insensitivity to pain with severe intellectual disability"
+          },
+          {
+            "code" : "453521",
+            "display" : "Autosomal recessive cerebellar ataxia due to CWF19L1 deficiency"
+          },
+          {
+            "code" : "453533",
+            "display" : "Polyendocrine-polyneuropathy syndrome"
+          },
+          {
+            "code" : "454706",
+            "display" : "Progressive muscular atrophy"
+          },
+          {
+            "code" : "454710",
+            "display" : "Anti-p200 pemphigoid"
+          },
+          {
+            "code" : "454714",
+            "display" : "Plasma cell leukemia"
+          },
+          {
+            "code" : "454718",
+            "display" : "Holmes-Adie syndrome"
+          },
+          {
+            "code" : "454723",
+            "display" : "Endometrioid carcinoma of ovary"
+          },
+          {
+            "code" : "454742",
+            "display" : "Variably protease-sensitive prionopathy"
+          },
+          {
+            "code" : "454745",
+            "display" : "Kuru"
+          },
+          {
+            "code" : "454750",
+            "display" : "Isolated tracheoesophageal fistula"
+          },
+          {
+            "code" : "454821",
+            "display" : "Pleomorphic salivary gland adenoma"
+          },
+          {
+            "code" : "454831",
+            "display" : "Acute radiation syndrome"
+          },
+          {
+            "code" : "454836",
+            "display" : "Avian influenza"
+          },
+          {
+            "code" : "454840",
+            "display" : "NTHL1-related attenuated familial adenomatous polyposis"
+          },
+          {
+            "code" : "454887",
+            "display" : "Corticobasal syndrome"
+          },
+          {
+            "code" : "456298",
+            "display" : "1p35.2 microdeletion syndrome"
+          },
+          {
+            "code" : "456312",
+            "display" : "Infantile multisystem neurologic-endocrine-pancreatic disease"
+          },
+          {
+            "code" : "456318",
+            "display" : "Hereditary sensory neuropathy-deafness-dementia syndrome"
+          },
+          {
+            "code" : "456328",
+            "display" : "X-linked myotubular myopathy-abnormal genitalia syndrome"
+          },
+          {
+            "code" : "456333",
+            "display" : "Hereditary neuroendocrine tumor of small intestine"
+          },
+          {
+            "code" : "456369",
+            "display" : "Polyglucosan body myopathy type 2"
+          },
+          {
+            "code" : "457050",
+            "display" : "Autosomal dominant mitochondrial myopathy with exercise intolerance"
+          },
+          {
+            "code" : "457077",
+            "display" : "TAFRO syndrome"
+          },
+          {
+            "code" : "457083",
+            "display" : "Isolated splenogonadal fusion"
+          },
+          {
+            "code" : "457088",
+            "display" : "Predisposition to invasive fungal disease due to CARD9 deficiency"
+          },
+          {
+            "code" : "457095",
+            "display" : "Actinomycosis"
+          },
+          {
+            "code" : "457185",
+            "display" : "Neonatal encephalomyopathy-cardiomyopathy-respiratory distress syndrome"
+          },
+          {
+            "code" : "457193",
+            "display" : "Autosomal dominant intellectual disability-craniofacial anomalies-cardiac defects syndrome"
+          },
+          {
+            "code" : "457205",
+            "display" : "Infantile-onset axonal motor and sensory neuropathy-optic atrophy-neurodegenerative syndrome"
+          },
+          {
+            "code" : "457212",
+            "display" : "Progressive essential tremor-speech impairment-facial dysmorphism-intellectual disability-abnormal behavior syndrome"
+          },
+          {
+            "code" : "457223",
+            "display" : "Syndromic sensorineural deafness due to combined oxidative phosphorylation defect"
+          },
+          {
+            "code" : "457240",
+            "display" : "X-linked intellectual disability-short stature-overweight syndrome"
+          },
+          {
+            "code" : "457246",
+            "display" : "Clear cell sarcoma of kidney"
+          },
+          {
+            "code" : "457260",
+            "display" : "X-linked intellectual disability-hypotonia-movement disorder syndrome"
+          },
+          {
+            "code" : "457265",
+            "display" : "Progressive myoclonic epilepsy type 9"
+          },
+          {
+            "code" : "457279",
+            "display" : "Intellectual disability-macrocephaly-hypotonia-behavioral abnormalities syndrome"
+          },
+          {
+            "code" : "457284",
+            "display" : "Microcephaly-corpus callosum hypoplasia-intellectual disability-facial dysmorphism syndrome"
+          },
+          {
+            "code" : "457351",
+            "display" : "Microcephaly-intellectual disability-sensorineural hearing loss-epilepsy-abnormal muscle tone syndrome"
+          },
+          {
+            "code" : "457359",
+            "display" : "Megalencephaly-severe kyphoscoliosis-overgrowth syndrome"
+          },
+          {
+            "code" : "457365",
+            "display" : "Intellectual disability-muscle weakness-short stature-facial dysmorphism syndrome"
+          },
+          {
+            "code" : "457375",
+            "display" : "ITPA-related lethal infantile neurological disorder with cataract and cardiac involvement"
+          },
+          {
+            "code" : "457378",
+            "display" : "Complex lethal osteochondrodysplasia"
+          },
+          {
+            "code" : "457395",
+            "display" : "Progressive spondyloepimetaphyseal dysplasia-short stature-short fourth metatarsals-intellectual disability syndrome"
+          },
+          {
+            "code" : "457406",
+            "display" : "Multiple mitochondrial dysfunctions syndrome type 4"
+          },
+          {
+            "code" : "457485",
+            "display" : "Macrocephaly-intellectual disability-neurodevelopmental disorder-small thorax syndrome"
+          },
+          {
+            "code" : "458718",
+            "display" : "Idiopathic spontaneous coronary artery dissection"
+          },
+          {
+            "code" : "458758",
+            "display" : "Composite hemangioendothelioma"
+          },
+          {
+            "code" : "458763",
+            "display" : "Retiform hemangioendothelioma"
+          },
+          {
+            "code" : "458768",
+            "display" : "Papillary intralymphatic angioendothelioma"
+          },
+          {
+            "code" : "458785",
+            "display" : "Partially involuting congenital hemangioma"
+          },
+          {
+            "code" : "458792",
+            "display" : "Mixed cystic lymphatic malformation"
+          },
+          {
+            "code" : "458798",
+            "display" : "Spinocerebellar ataxia type 41"
+          },
+          {
+            "code" : "458803",
+            "display" : "Spinocerebellar ataxia type 42"
+          },
+          {
+            "code" : "459033",
+            "display" : "Ataxia-oculomotor apraxia type 4"
+          },
+          {
+            "code" : "459051",
+            "display" : "Spondyloepiphyseal dysplasia, Stanescu type"
+          },
+          {
+            "code" : "459056",
+            "display" : "Autosomal recessive spastic paraplegia type 75"
+          },
+          {
+            "code" : "459061",
+            "display" : "Craniofacial dysplasia-short stature-ectodermal anomalies-intellectual disability syndrome"
+          },
+          {
+            "code" : "459070",
+            "display" : "X-linked intellectual disability-cerebellar hypoplasia-spondylo-epiphyseal dysplasia syndrome"
+          },
+          {
+            "code" : "459074",
+            "display" : "Corpus callosum agenesis-macrocephaly-hypertelorism syndrome"
+          },
+          {
+            "code" : "464282",
+            "display" : "Spastic paraplegia-severe developmental delay-epilepsy syndrome"
+          },
+          {
+            "code" : "464288",
+            "display" : "Short stature-brachydactyly-obesity-global developmental delay syndrome"
+          },
+          {
+            "code" : "464306",
+            "display" : "DYRK1A-related intellectual disability syndrome"
+          },
+          {
+            "code" : "464311",
+            "display" : "Intellectual disability syndrome due to a DYRK1A point mutation"
+          },
+          {
+            "code" : "464318",
+            "display" : "Verrucous hemangioma"
+          },
+          {
+            "code" : "464321",
+            "display" : "Multifocal lymphangioendotheliomatosis-thrombocytopenia syndrome"
+          },
+          {
+            "code" : "464329",
+            "display" : "Kaposiform lymphangiomatosis"
+          },
+          {
+            "code" : "464336",
+            "display" : "BENTA disease"
+          },
+          {
+            "code" : "464343",
+            "display" : "Catastrophic antiphospholipid syndrome"
+          },
+          {
+            "code" : "464359",
+            "display" : "Benign metanephric tumor"
+          },
+          {
+            "code" : "464366",
+            "display" : "NEK9-related lethal skeletal dysplasia"
+          },
+          {
+            "code" : "464370",
+            "display" : "Neonatal alloimmune neutropenia"
+          },
+          {
+            "code" : "464440",
+            "display" : "Primary dystonia, DYT27 type"
+          },
+          {
+            "code" : "464443",
+            "display" : "COG6-CGD"
+          },
+          {
+            "code" : "464453",
+            "display" : "Acquired methemoglobinemia"
+          },
+          {
+            "code" : "464458",
+            "display" : "Paracetamol poisoning"
+          },
+          {
+            "code" : "464724",
+            "display" : "Fever-associated acute infantile liver failure syndrome"
+          },
+          {
+            "code" : "464738",
+            "display" : "Basel-Vanagaite-Smirin-Yosef syndrome"
+          },
+          {
+            "code" : "464756",
+            "display" : "Familial gastric type 1 neuroendocrine tumor"
+          },
+          {
+            "code" : "464760",
+            "display" : "Familial cavitary optic disc anomaly"
+          },
+          {
+            "code" : "465508",
+            "display" : "Symptomatic form of HFE-related hemochromatosis"
+          },
+          {
+            "code" : "465824",
+            "display" : "Fetal encasement syndrome"
+          },
+          {
+            "code" : "466026",
+            "display" : "Class I glucose-6-phosphate dehydrogenase deficiency"
+          },
+          {
+            "code" : "466650",
+            "display" : "Exercise-induced malignant hyperthermia"
+          },
+          {
+            "code" : "466670",
+            "display" : "Cyanide poisoning"
+          },
+          {
+            "code" : "466677",
+            "display" : "Scorpion envenomation"
+          },
+          {
+            "code" : "466682",
+            "display" : "Euthyroid Graves orbitopathy"
+          },
+          {
+            "code" : "466688",
+            "display" : "Severe intellectual disability-corpus callosum agenesis-facial dysmorphism-cerebellar ataxia syndrome"
+          },
+          {
+            "code" : "466695",
+            "display" : "Supratip dysplasia"
+          },
+          {
+            "code" : "466703",
+            "display" : "TMEM199-CDG"
+          },
+          {
+            "code" : "466718",
+            "display" : "Martinique crinkled retinal pigment epitheliopathy"
+          },
+          {
+            "code" : "466722",
+            "display" : "Autosomal recessive spastic paraplegia type 77"
+          },
+          {
+            "code" : "466729",
+            "display" : "Familial patent arterial duct"
+          },
+          {
+            "code" : "466768",
+            "display" : "Autosomal dominant Charcot-Marie-Tooth disease type 2Z"
+          },
+          {
+            "code" : "466775",
+            "display" : "Autosomal recessive Charcot-Marie-Tooth disease type 2X"
+          },
+          {
+            "code" : "466784",
+            "display" : "Neonatal severe cardiopulmonary failure due to mitochondrial methylation defect"
+          },
+          {
+            "code" : "466791",
+            "display" : "Macrocephaly-intellectual disability-left ventricular non compaction syndrome"
+          },
+          {
+            "code" : "466794",
+            "display" : "Acute infantile liver failure-cerebellar ataxia-peripheral sensory motor neuropathy syndrome"
+          },
+          {
+            "code" : "466806",
+            "display" : "Autosomal dominant thrombocytopenia with platelet secretion defect"
+          },
+          {
+            "code" : "466921",
+            "display" : "Childhood-onset progressive contractures-limb-girdle weakness-muscle dystrophy syndrome"
+          },
+          {
+            "code" : "466926",
+            "display" : "Seizures-scoliosis-macrocephaly syndrome"
+          },
+          {
+            "code" : "466934",
+            "display" : "VPS11-related autosomal recessive hypomyelinating leukodystrophy"
+          },
+          {
+            "code" : "466943",
+            "display" : "WAC-related facial dysmorphism-developmental delay-behavioral abnormalities syndrome"
+          },
+          {
+            "code" : "466950",
+            "display" : "Facial dysmorphism-developmental delay-behavioral abnormalities syndrome due to WAC point mutation"
+          },
+          {
+            "code" : "466962",
+            "display" : "SMARCA4-deficient sarcoma of thorax"
+          },
+          {
+            "code" : "467166",
+            "display" : "Tubulinopathy-associated dysgyria"
+          },
+          {
+            "code" : "467176",
+            "display" : "Severe hypotonia-psychomotor developmental delay-strabismus-cardiac septal defect syndrome"
+          },
+          {
+            "code" : "468620",
+            "display" : "Intellectual disability-epilepsy-extrapyramidal syndrome"
+          },
+          {
+            "code" : "468631",
+            "display" : "Microcephalic cortical malformations-short stature due to RTTN deficiency"
+          },
+          {
+            "code" : "468635",
+            "display" : "Cryptogenic multifocal ulcerous stenosing enteritis"
+          },
+          {
+            "code" : "468641",
+            "display" : "Chronic enteropathy associated with SLCO2A1 gene"
+          },
+          {
+            "code" : "468661",
+            "display" : "Autosomal recessive spastic paraplegia type 74"
+          },
+          {
+            "code" : "468666",
+            "display" : "Isolated generalized anhidrosis with normal sweat glands"
+          },
+          {
+            "code" : "468672",
+            "display" : "Colobomatous macrophthalmia-microcornea syndrome"
+          },
+          {
+            "code" : "468678",
+            "display" : "White-Sutton syndrome"
+          },
+          {
+            "code" : "468684",
+            "display" : "CCDC115-CDG"
+          },
+          {
+            "code" : "468699",
+            "display" : "SLC39A8-CDG"
+          },
+          {
+            "code" : "468717",
+            "display" : "Rhizomelic chondrodysplasia punctata type 5"
+          },
+          {
+            "code" : "468726",
+            "display" : "Severe primary trimethylaminuria"
+          },
+          {
+            "code" : "476084",
+            "display" : "BVES-related limb-girdle muscular dystrophy"
+          },
+          {
+            "code" : "476093",
+            "display" : "Autosomal dominant distal axonal motor neuropathy-myofibrillar myopathy syndrome"
+          },
+          {
+            "code" : "476096",
+            "display" : "Erythrokeratodermia-cardiomyopathy syndrome"
+          },
+          {
+            "code" : "476113",
+            "display" : "Combined immunodeficiency due to TFRC deficiency"
+          },
+          {
+            "code" : "476119",
+            "display" : "Autosomal dominant preaxial polydactyly-upperback hypertrichosis syndrome"
+          },
+          {
+            "code" : "476126",
+            "display" : "Micrognathia-recurrent infections-behavioral abnormalities-mild intellectual disability syndrome"
+          },
+          {
+            "code" : "476394",
+            "display" : "PMP2-related Charcot-Marie-Tooth disease type 1"
+          },
+          {
+            "code" : "476406",
+            "display" : "Congenital generalized hypercontractile muscle stiffness syndrome"
+          },
+          {
+            "code" : "477650",
+            "display" : "Fibroblastic rheumatism"
+          },
+          {
+            "code" : "477661",
+            "display" : "IL21-related infantile inflammatory bowel disease"
+          },
+          {
+            "code" : "477673",
+            "display" : "Postnatal microcephaly-infantile hypotonia-spastic diplegia-dysarthria-intellectual disability syndrome"
+          },
+          {
+            "code" : "477684",
+            "display" : "Combined oxidative phosphorylation defect type 26"
+          },
+          {
+            "code" : "477738",
+            "display" : "Pediatric multiple sclerosis"
+          },
+          {
+            "code" : "477742",
+            "display" : "Nodular fasciitis"
+          },
+          {
+            "code" : "477749",
+            "display" : "Pontine autosomal dominant microangiopathy with leukoencephalopathy"
+          },
+          {
+            "code" : "477774",
+            "display" : "Combined oxidative phosphorylation defect type 27"
+          },
+          {
+            "code" : "477781",
+            "display" : "Primary condylar hyperplasia"
+          },
+          {
+            "code" : "477787",
+            "display" : "Cytosolic phospholipase-A2 alpha deficiency associated bleeding disorder"
+          },
+          {
+            "code" : "477814",
+            "display" : "Progressive microcephaly-seizures-cortical blindness-developmental delay syndrome"
+          },
+          {
+            "code" : "477817",
+            "display" : "PMP22-RAI1 contiguous gene duplication syndrome"
+          },
+          {
+            "code" : "477831",
+            "display" : "Kosaki overgrowth syndrome"
+          },
+          {
+            "code" : "477857",
+            "display" : "Autosomal recessive mendelian susceptibility to mycobacterial diseases due to complete RORgamma receptor deficiency"
+          },
+          {
+            "code" : "477993",
+            "display" : "Palatal anomalies-widely spaced teeth-facial dysmorphism-developmental delay syndrome"
+          },
+          {
+            "code" : "478029",
+            "display" : "Combined oxidative phosphorylation defect type 29"
+          },
+          {
+            "code" : "478042",
+            "display" : "Combined oxidative phosphorylation defect type 30"
+          },
+          {
+            "code" : "478049",
+            "display" : "Lethal left ventricular non-compaction-seizures-hypotonia-cataract-developmental delay syndrome"
+          },
+          {
+            "code" : "478664",
+            "display" : "Hereditary sensory and autonomic neuropathy type 8"
+          },
+          {
+            "code" : "480476",
+            "display" : "Progressive familial intrahepatic cholestasis type 5"
+          },
+          {
+            "code" : "480483",
+            "display" : "Progressive familial intrahepatic cholestasis type 4"
+          },
+          {
+            "code" : "480491",
+            "display" : "MYO5B-related progressive familial intrahepatic cholestasis"
+          },
+          {
+            "code" : "480501",
+            "display" : "Choledochal cyst"
+          },
+          {
+            "code" : "480506",
+            "display" : "Primary intrahepatic lithiasis"
+          },
+          {
+            "code" : "480512",
+            "display" : "Idiopathic ductopenia"
+          },
+          {
+            "code" : "480520",
+            "display" : "Caroli syndrome"
+          },
+          {
+            "code" : "480524",
+            "display" : "Idiopathic peliosis hepatis"
+          },
+          {
+            "code" : "480528",
+            "display" : "Lethal hydranencephaly-diaphragmatic hernia syndrome"
+          },
+          {
+            "code" : "480531",
+            "display" : "Congenital portosystemic shunt"
+          },
+          {
+            "code" : "480536",
+            "display" : "MSH3-related attenuated familial adenomatous polyposis"
+          },
+          {
+            "code" : "480541",
+            "display" : "High grade B-cell lymphoma with MYC and/ or BCL2 and/or BCL6 rearrangement"
+          },
+          {
+            "code" : "480553",
+            "display" : "Aneurysmal bone cyst"
+          },
+          {
+            "code" : "480556",
+            "display" : "Isolated neonatal sclerosing cholangitis"
+          },
+          {
+            "code" : "480682",
+            "display" : "POGLUT1-related limb-girdle muscular dystrophy R21"
+          },
+          {
+            "code" : "480701",
+            "display" : "Facial diplegia with paresthesias"
+          },
+          {
+            "code" : "480851",
+            "display" : "Hereditary thrombocytopenia with early-onset myelofibrosis"
+          },
+          {
+            "code" : "480864",
+            "display" : "Recurrent metabolic encephalomyopathic crises-rhabdomyolysis-cardiac arrhythmia-intellectual disability syndrome"
+          },
+          {
+            "code" : "480880",
+            "display" : "X-linked female restricted facial dysmorphism-short stature-choanal atresia-intellectual disability"
+          },
+          {
+            "code" : "480898",
+            "display" : "Global developmental delay-visual anomalies-progressive cerebellar atrophy-truncal hypotonia syndrome"
+          },
+          {
+            "code" : "480907",
+            "display" : "X-linked intellectual disability-global development delay-facial dysmorphism-sacral caudal remnant syndrome"
+          },
+          {
+            "code" : "481152",
+            "display" : "PYCR2-related microcephaly-progressive leukoencephalopathy"
+          },
+          {
+            "code" : "481662",
+            "display" : "Familial Chilblain lupus"
+          },
+          {
+            "code" : "481665",
+            "display" : "USP18 deficiency"
+          },
+          {
+            "code" : "481986",
+            "display" : "Familial schizencephaly"
+          },
+          {
+            "code" : "482077",
+            "display" : "HTRA1-related autosomal dominant cerebral small vessel disease"
+          },
+          {
+            "code" : "482601",
+            "display" : "Adenylosuccinate synthetase-like 1-related distal myopathy"
+          },
+          {
+            "code" : "482606",
+            "display" : "X-linked keloid scarring-reduced joint mobility-increased optic cup-to-disc ratio syndrome"
+          },
+          {
+            "code" : "485275",
+            "display" : "Acquired schizencephaly"
+          },
+          {
+            "code" : "485350",
+            "display" : "CLCN4-related X-linked intellectual disability syndrome"
+          },
+          {
+            "code" : "485358",
+            "display" : "Propylthiouracil embryofetopathy"
+          },
+          {
+            "code" : "485405",
+            "display" : "16p12.1p12.3 triplication syndrome"
+          },
+          {
+            "code" : "485418",
+            "display" : "EMILIN-1-related connective tissue disease"
+          },
+          {
+            "code" : "485421",
+            "display" : "MFF-related encephalopathy due to mitochondrial and peroxisomal fission defect"
+          },
+          {
+            "code" : "485426",
+            "display" : "Isolated congenital hepatic fibrosis"
+          },
+          {
+            "code" : "486811",
+            "display" : "Prenatal-onset spinal muscular atrophy with congenital bone fractures"
+          },
+          {
+            "code" : "486815",
+            "display" : "Congenital muscular dystrophy-respiratory failure-skin abnormalities-joint hyperlaxity syndrome"
+          },
+          {
+            "code" : "487796",
+            "display" : "Takenouchi-Kosaki syndrome"
+          },
+          {
+            "code" : "487809",
+            "display" : "Pediatric collagenous gastritis"
+          },
+          {
+            "code" : "487814",
+            "display" : "Autosomal dominant Charcot-Marie-Tooth disease type 2 due to DGAT2 mutation"
+          },
+          {
+            "code" : "487825",
+            "display" : "Pierpont syndrome"
+          },
+          {
+            "code" : "488168",
+            "display" : "Microcephaly-congenital cataract-psoriasiform dermatitis syndrome"
+          },
+          {
+            "code" : "488191",
+            "display" : "Female infertility due to oocyte meiotic arrest"
+          },
+          {
+            "code" : "488197",
+            "display" : "Familial progressive retinal dystrophy-iris coloboma-congenital cataract syndrome"
+          },
+          {
+            "code" : "488232",
+            "display" : "Split-foot malformation-mesoaxial polydactyly syndrome"
+          },
+          {
+            "code" : "488239",
+            "display" : "Acute macular neuroretinopathy"
+          },
+          {
+            "code" : "488265",
+            "display" : "Osteofibrous dysplasia"
+          },
+          {
+            "code" : "488280",
+            "display" : "14q32 duplication syndrome"
+          },
+          {
+            "code" : "488333",
+            "display" : "Autosomal dominant Charcot-Marie-Tooth disease type 2W"
+          },
+          {
+            "code" : "488434",
+            "display" : "Camptodactyly syndrome, Guadalajara type 3"
+          },
+          {
+            "code" : "488437",
+            "display" : "SIX2-related frontonasal dysplasia"
+          },
+          {
+            "code" : "488586",
+            "display" : "Congenital amyoplasia"
+          },
+          {
+            "code" : "488594",
+            "display" : "Autosomal recessive spastic paraplegia type 76"
+          },
+          {
+            "code" : "488613",
+            "display" : "Global developmental delay-neuro-ophthalmological abnormalities-seizures-intellectual disability syndrome"
+          },
+          {
+            "code" : "488618",
+            "display" : "Transketolase deficiency"
+          },
+          {
+            "code" : "488627",
+            "display" : "Severe growth deficiency-strabismus-extensive dermal melanocytosis-intellectual disability syndrome"
+          },
+          {
+            "code" : "488632",
+            "display" : "TBCK-related intellectual disability syndrome"
+          },
+          {
+            "code" : "488635",
+            "display" : "Early-onset epilepsy-intellectual disability-brain anomalies syndrome"
+          },
+          {
+            "code" : "488642",
+            "display" : "TELO2-related intellectual disability-neurodevelopmental disorder"
+          },
+          {
+            "code" : "488647",
+            "display" : "DDX41-related hematologic malignancy predisposition syndrome"
+          },
+          {
+            "code" : "488650",
+            "display" : "Distal myopathy, Tateyama type"
+          },
+          {
+            "code" : "493342",
+            "display" : "Vibratory urticaria"
+          },
+          {
+            "code" : "494344",
+            "display" : "RERE-related neurodevelopmental syndrome"
+          },
+          {
+            "code" : "494418",
+            "display" : "Vulvar carcinoma"
+          },
+          {
+            "code" : "494421",
+            "display" : "Sacrococcygeal teratoma"
+          },
+          {
+            "code" : "494424",
+            "display" : "Extracranial carotid artery aneurysm"
+          },
+          {
+            "code" : "494428",
+            "display" : "Idiopathic pleuroparenchymal fibroelastosis"
+          },
+          {
+            "code" : "494433",
+            "display" : "MIRAGE syndrome"
+          },
+          {
+            "code" : "494439",
+            "display" : "Retinitis pigmentosa-hearing loss-premature aging-short stature-facial dysmorphism syndrome"
+          },
+          {
+            "code" : "494444",
+            "display" : "DIAPH1-related sensorineural hearing loss-thrombocytopenia syndrome"
+          },
+          {
+            "code" : "494448",
+            "display" : "Vulvar squamous cell carcinoma"
+          },
+          {
+            "code" : "494451",
+            "display" : "Vulvar basal cell carcinoma"
+          },
+          {
+            "code" : "494454",
+            "display" : "Vulvar adenocarcinoma"
+          },
+          {
+            "code" : "494526",
+            "display" : "Infantile-onset generalized dyskinesia with orofacial involvement"
+          },
+          {
+            "code" : "494541",
+            "display" : "Childhood-onset benign chorea with striatal involvement"
+          },
+          {
+            "code" : "494547",
+            "display" : "Squamous cell carcinoma of the hypopharynx"
+          },
+          {
+            "code" : "494550",
+            "display" : "Squamous cell carcinoma of the larynx"
+          },
+          {
+            "code" : "495274",
+            "display" : "Charcot-Marie-Tooth disease type 2T"
+          },
+          {
+            "code" : "495818",
+            "display" : "9q33.3q34.11 microdeletion syndrome"
+          },
+          {
+            "code" : "495844",
+            "display" : "C11ORF73-related autosomal recessive hypomyelinating leukodystrophy"
+          },
+          {
+            "code" : "495875",
+            "display" : "Congenital labioscrotal agenesis-cerebellar malformation-corneal dystrophy-facial dysmorphism syndrome"
+          },
+          {
+            "code" : "495879",
+            "display" : "Congenital agenesis of the scrotum"
+          },
+          {
+            "code" : "495930",
+            "display" : "Familial monosomy 7 syndrome"
+          },
+          {
+            "code" : "496641",
+            "display" : "Early-onset progressive diffuse brain atrophy-microcephaly-muscle weakness-optic atrophy syndrome"
+          },
+          {
+            "code" : "496686",
+            "display" : "Kyphosis-lateral tongue atrophy-myofibrillar myopathy syndrome"
+          },
+          {
+            "code" : "496689",
+            "display" : "Kyphoscoliosis-lateral tongue atrophy-hereditary spastic paraplegia syndrome"
+          },
+          {
+            "code" : "496693",
+            "display" : "Omphalocele-diaphragmatic hernia-cardiovascular anomalies-radial ray defect syndrome"
+          },
+          {
+            "code" : "496751",
+            "display" : "EVEN-plus syndrome"
+          },
+          {
+            "code" : "496756",
+            "display" : "Early-onset progressive encephalopathy-spastic ataxia-distal spinal muscular atrophy syndrome"
+          },
+          {
+            "code" : "496790",
+            "display" : "Ocular anomalies-axonal neuropathy-developmental delay syndrome"
+          },
+          {
+            "code" : "497188",
+            "display" : "Diffuse intrinsic pontine glioma"
+          },
+          {
+            "code" : "497737",
+            "display" : "Epidermolytic nevus"
+          },
+          {
+            "code" : "497757",
+            "display" : "MME-related autosomal dominant Charcot Marie Tooth disease type 2"
+          },
+          {
+            "code" : "497764",
+            "display" : "Spinocerebellar ataxia type 43"
+          },
+          {
+            "code" : "497906",
+            "display" : "Childhood-onset basal ganglia degeneration syndrome"
+          },
+          {
+            "code" : "498228",
+            "display" : "Phyllodes tumor of the prostate"
+          },
+          {
+            "code" : "498251",
+            "display" : "Menstrual cycle-dependent periodic fever"
+          },
+          {
+            "code" : "498359",
+            "display" : "Aquagenic palmoplantar keratoderma"
+          },
+          {
+            "code" : "498474",
+            "display" : "Hyaline fibromatosis syndrome"
+          },
+          {
+            "code" : "498481",
+            "display" : "LRP5-related primary osteoporosis"
+          },
+          {
+            "code" : "498485",
+            "display" : "Overgrowth-metaphyseal undermodeling-spondylar dysplasia syndrome"
+          },
+          {
+            "code" : "498488",
+            "display" : "Overgrowth syndrome with 2q37 translocation"
+          },
+          {
+            "code" : "498494",
+            "display" : "Mirror-image polydactyly"
+          },
+          {
+            "code" : "498497",
+            "display" : "Short rib-polydactyly syndrome type 5"
+          },
+          {
+            "code" : "498602",
+            "display" : "Sugarman brachydactyly"
+          },
+          {
+            "code" : "498693",
+            "display" : "MYBPC1-related autosomal recessive non-lethal arthrogryposis multiplex congenita syndrome"
+          },
+          {
+            "code" : "499009",
+            "display" : "Congenital syphilis"
+          },
+          {
+            "code" : "499085",
+            "display" : "Chronic relapsing inflammatory optic neuritis"
+          },
+          {
+            "code" : "499096",
+            "display" : "Isolated optic neuritis"
+          },
+          {
+            "code" : "499103",
+            "display" : "Recurrent idiopathic neuroretinitis"
+          },
+          {
+            "code" : "499107",
+            "display" : "Idiopathic optic perineuritis"
+          },
+          {
+            "code" : "499182",
+            "display" : "Pilomatrix carcinoma"
+          },
+          {
+            "code" : "500055",
+            "display" : "Hao-Fountain syndrome due to 16p13.2 microdeletion"
+          },
+          {
+            "code" : "500062",
+            "display" : "Infantile-onset periodic fever-panniculitis-dermatosis syndrome"
+          },
+          {
+            "code" : "500095",
+            "display" : "Tall stature-intellectual disability-renal anomalies syndrome"
+          },
+          {
+            "code" : "500135",
+            "display" : "Multinucleated neurons-anhydramnios-renal dysplasia-cerebellar hypoplasia-hydranencephaly syndrome"
+          },
+          {
+            "code" : "500144",
+            "display" : "Early-onset progressive encephalopathy-hearing loss-pons hypoplasia-brain atrophy syndrome"
+          },
+          {
+            "code" : "500150",
+            "display" : "Brain malformations-musculoskeletal abnormalities-facial dysmorphism-intellectual disability syndrome"
+          },
+          {
+            "code" : "500159",
+            "display" : "Microcephaly-corpus callosum and cerebellar vermis hypoplasia-facial dysmorphism-intellectual disability syndrom"
+          },
+          {
+            "code" : "500163",
+            "display" : "Witteveen-Kolk syndrome"
+          },
+          {
+            "code" : "500166",
+            "display" : "SIN3-related intellectual disability syndrome due to a point mutation"
+          },
+          {
+            "code" : "500180",
+            "display" : "Childhood-onset motor and cognitive regression syndrome with extrapyramidal movement disorder"
+          },
+          {
+            "code" : "500188",
+            "display" : "X-linked external auditory canal atresia-dilated internal auditory canal-facial dysmorphism syndrome"
+          },
+          {
+            "code" : "500464",
+            "display" : "Squamous cell carcinoma of the nasal cavity and paranasal sinuses"
+          },
+          {
+            "code" : "500478",
+            "display" : "Squamous cell carcinoma of the oropharynx"
+          },
+          {
+            "code" : "500481",
+            "display" : "Squamous cell carcinoma of salivary glands"
+          },
+          {
+            "code" : "500533",
+            "display" : "Polyhydramnios-megalencephaly-symptomatic epilepsy syndrome"
+          },
+          {
+            "code" : "500545",
+            "display" : "Severe neurodevelopmental disorder with feeding difficulties-stereotypic hand movement-bilateral cataract"
+          },
+          {
+            "code" : "500548",
+            "display" : "Osteosclerotic metaphyseal dysplasia"
+          },
+          {
+            "code" : "502305",
+            "display" : "Cochleovestibular malformation"
+          },
+          {
+            "code" : "502318",
+            "display" : "Cochlear nerve deficiency"
+          },
+          {
+            "code" : "502363",
+            "display" : "Squamous cell carcinoma of the oral cavity"
+          },
+          {
+            "code" : "502366",
+            "display" : "Squamous cell carcinoma of the lip"
+          },
+          {
+            "code" : "502423",
+            "display" : "Mitochondrial myopathy-cerebellar ataxia-pigmentary retinopathy syndrome"
+          },
+          {
+            "code" : "502430",
+            "display" : "Weiss-Kruszka Syndrome"
+          },
+          {
+            "code" : "502434",
+            "display" : "STAG1-related intellectual disability-facial dysmorphism-gastroesophageal reflux syndrome"
+          },
+          {
+            "code" : "502437",
+            "display" : "4q25 proximal deletion syndrome"
+          },
+          {
+            "code" : "502444",
+            "display" : "Alkaline ceramidase 3 deficiency"
+          },
+          {
+            "code" : "502499",
+            "display" : "Erythema multiforme major"
+          },
+          {
+            "code" : "504476",
+            "display" : "Cerebellar ataxia with neuropathy and bilateral vestibular areflexia syndrome"
+          },
+          {
+            "code" : "504523",
+            "display" : "Severe combined immunodeficiency due to LAT deficiency"
+          },
+          {
+            "code" : "504530",
+            "display" : "Combined immunodeficiency due to Moesin deficiency"
+          },
+          {
+            "code" : "505208",
+            "display" : "3-methylglutaconic aciduria type 8"
+          },
+          {
+            "code" : "505216",
+            "display" : "3-methylglutaconic aciduria type 9"
+          },
+          {
+            "code" : "505227",
+            "display" : "Combined immunodeficiency due to GINS1 deficiency"
+          },
+          {
+            "code" : "505237",
+            "display" : "Early-onset seizures-distal limb anomalies-facial dysmorphism-global developmental delay syndrome"
+          },
+          {
+            "code" : "505242",
+            "display" : "Psychomotor regression-oculomotor apraxia-movement disorder-nephropathy syndrome"
+          },
+          {
+            "code" : "505248",
+            "display" : "Mucopolysaccharidosis-like syndrome with congenital heart defects and hematopoietic disorders"
+          },
+          {
+            "code" : "505395",
+            "display" : "Ventilator-induced diaphragmatic dysfunction"
+          },
+          {
+            "code" : "505652",
+            "display" : "CDKL5-deficiency disorder"
+          },
+          {
+            "code" : "506075",
+            "display" : "Non-functioning neuroendocrine tumor of pancreas"
+          },
+          {
+            "code" : "506090",
+            "display" : "Serotonin-producing neuroendocrine tumor of pancreas"
+          },
+          {
+            "code" : "506098",
+            "display" : "Neuroendocrine carcinoma of pancreas"
+          },
+          {
+            "code" : "506112",
+            "display" : "Mixed neuroendocrine and non-neuroendocrine neoplasm of pancreas"
+          },
+          {
+            "code" : "506136",
+            "display" : "Neuroendocrine neoplasm of esophagus"
+          },
+          {
+            "code" : "506307",
+            "display" : "Stromme syndrome"
+          },
+          {
+            "code" : "506334",
+            "display" : "Familial steroid-resistant nephrotic syndrome with adrenal insufficiency"
+          },
+          {
+            "code" : "506353",
+            "display" : "Autosomal recessive complex spastic paraplegia due to Kennedy pathway dysfunction"
+          },
+          {
+            "code" : "506358",
+            "display" : "Gabriele-de Vries syndrome"
+          },
+          {
+            "code" : "506784",
+            "display" : "Stevens-Johnson syndrome/toxic epidermal necrolysis overlap syndrome"
+          },
+          {
+            "code" : "508093",
+            "display" : "MEPAN syndrome"
+          },
+          {
+            "code" : "508410",
+            "display" : "Familial intestinal malrotation"
+          },
+          {
+            "code" : "508476",
+            "display" : "Cleft lip and palate-craniofacial dysmorphism-congenital heart defect-hearing loss syndrome"
+          },
+          {
+            "code" : "508488",
+            "display" : "8q24.3 microdeletion syndrome"
+          },
+          {
+            "code" : "508498",
+            "display" : "Intellectual disability-cardiac anomalies-short stature-joint laxity syndrome"
+          },
+          {
+            "code" : "508501",
+            "display" : "Oral-facial-digital syndrome with short stature and brachymesophalangy"
+          },
+          {
+            "code" : "508512",
+            "display" : "Intrauterine growth restriction-congenital multiple café-au-lait macules-increased sister chromatid exchange syndrome"
+          },
+          {
+            "code" : "508523",
+            "display" : "Hyperphenylalaninemia due to DNAJC12 deficiency"
+          },
+          {
+            "code" : "508529",
+            "display" : "Intermediate epidermolysis bullosa simplex with cardiomyopathy"
+          },
+          {
+            "code" : "508533",
+            "display" : "Skeletal dysplasia-T-cell immunodeficiency-developmental delay syndrome"
+          },
+          {
+            "code" : "508542",
+            "display" : "Congenital progressive bone marrow failure-B-cell immunodeficiency-skeletal dysplasia syndrome"
+          },
+          {
+            "code" : "512017",
+            "display" : "Chronic lymphoproliferative disorder of natural killer cells"
+          },
+          {
+            "code" : "512103",
+            "display" : "Autosomal recessive epidermolytic ichthyosis"
+          },
+          {
+            "code" : "512260",
+            "display" : "Congenital cerebellar ataxia due to RNU12 mutation"
+          },
+          {
+            "code" : "513436",
+            "display" : "Autosomal recessive spastic paraplegia type 78"
+          },
+          {
+            "code" : "513456",
+            "display" : "Intellectual disability-seizures-abnormal gait-facial dysmorphism syndrome"
+          },
+          {
+            "code" : "514352",
+            "display" : "Congenital brachyesophagus-intrathoracic stomach-vertebral anomalies syndrome"
+          },
+          {
+            "code" : "519384",
+            "display" : "Congenital cystic eye"
+          },
+          {
+            "code" : "519386",
+            "display" : "Isolated congenital entropion"
+          },
+          {
+            "code" : "519388",
+            "display" : "Autosomal recessive anterior segment dysgenesis"
+          },
+          {
+            "code" : "519390",
+            "display" : "Isolated blepharochalasis"
+          },
+          {
+            "code" : "519392",
+            "display" : "Isolated iridoschisis"
+          },
+          {
+            "code" : "519396",
+            "display" : "Isolated microspherophakia"
+          },
+          {
+            "code" : "519398",
+            "display" : "Isolated foveal hypoplasia"
+          },
+          {
+            "code" : "519400",
+            "display" : "Peripapillary staphyloma"
+          },
+          {
+            "code" : "519402",
+            "display" : "Isolated megalopapilla"
+          },
+          {
+            "code" : "519404",
+            "display" : "Optic disc pit"
+          },
+          {
+            "code" : "519406",
+            "display" : "Thygeson superficial punctate keratitis"
+          },
+          {
+            "code" : "519408",
+            "display" : "Mooren ulcer"
+          },
+          {
+            "code" : "519410",
+            "display" : "Terrien marginal degeneration"
+          },
+          {
+            "code" : "519930",
+            "display" : "Fungal keratitis"
+          },
+          {
+            "code" : "521123",
+            "display" : "Radiation-induced plexopathy"
+          },
+          {
+            "code" : "521127",
+            "display" : "Osteoradionecrosis of the mandible"
+          },
+          {
+            "code" : "521219",
+            "display" : "Mirizzi syndrome"
+          },
+          {
+            "code" : "521258",
+            "display" : "Xq25 microduplication syndrome"
+          },
+          {
+            "code" : "521305",
+            "display" : "Proximal myopathy with focal depletion of mitochondria"
+          },
+          {
+            "code" : "521308",
+            "display" : "Frontonasal dysplasia-bifid nose-upper limb anomalies syndrome"
+          },
+          {
+            "code" : "521390",
+            "display" : "Spastic paraplegia-intellectual disability-nystagmus-obesity syndrome"
+          },
+          {
+            "code" : "521406",
+            "display" : "Dystonia-parkinsonism-hypermanganesemia syndrome"
+          },
+          {
+            "code" : "521411",
+            "display" : "Autosomal recessive axonal Charcot-Marie-Tooth disease due to copper metabolism defect"
+          },
+          {
+            "code" : "521414",
+            "display" : "Autosomal dominant Charcot-Marie-Tooth disease type 2DD"
+          },
+          {
+            "code" : "521426",
+            "display" : "PLAA-associated neurodevelopmental disorder"
+          },
+          {
+            "code" : "521432",
+            "display" : "Congenital cataract-severe neonatal hepatopathy-global developmental delay syndrome"
+          },
+          {
+            "code" : "521438",
+            "display" : "Congenital vertebral-cardiac-renal anomalies syndrome"
+          },
+          {
+            "code" : "521445",
+            "display" : "Microcephaly-facial dysmorphism-ocular anomalies-multiple congenital anomalies syndrome"
+          },
+          {
+            "code" : "521450",
+            "display" : "LAMA5-related multisystemic syndrome"
+          },
+          {
+            "code" : "522037",
+            "display" : "Primary autoimmune enteropathy"
+          },
+          {
+            "code" : "522077",
+            "display" : "Infantile hypotonia-oculomotor anomalies-hyperkinetic movements-developmental delay syndrome"
+          },
+          {
+            "code" : "525731",
+            "display" : "Pediatric-onset Graves disease"
+          },
+          {
+            "code" : "525738",
+            "display" : "Prepubertal anorexia nervosa"
+          },
+          {
+            "code" : "527276",
+            "display" : "Encephalopathy due to mitochondrial and peroxisomal fission defect"
+          },
+          {
+            "code" : "527450",
+            "display" : "Severe myopia-generalized joint laxity-short stature syndrome"
+          },
+          {
+            "code" : "527468",
+            "display" : "Diaphragmatic hernia-short bowel-asplenia syndrome"
+          },
+          {
+            "code" : "527497",
+            "display" : "NKX6-2-related autosomal recessive hypomyelinating leukodystrophy"
+          },
+          {
+            "code" : "528084",
+            "display" : "Non-specific syndromic intellectual disability"
+          },
+          {
+            "code" : "528091",
+            "display" : "Hydrops-lactic acidosis-sideroblastic anemia-multisystemic failure syndrome"
+          },
+          {
+            "code" : "528105",
+            "display" : "Hypohidrosis-electrolyte imbalance-lacrimal gland dysfunction-ichthyosis-xerostomia syndrome"
+          },
+          {
+            "code" : "528623",
+            "display" : "Hereditary angioedema with C1Inh deficiency"
+          },
+          {
+            "code" : "528647",
+            "display" : "Hereditary angioedema with normal C1Inh"
+          },
+          {
+            "code" : "528663",
+            "display" : "Acquired angioedema with C1Inh deficiency"
+          },
+          {
+            "code" : "529468",
+            "display" : "Monoclonal mast cell activation syndrome"
+          },
+          {
+            "code" : "529574",
+            "display" : "Duane retraction syndrome with congenital deafness"
+          },
+          {
+            "code" : "529665",
+            "display" : "Neurodevelopmental delay-seizures-ophthalmic anomalies-osteopenia-cerebellar atrophy syndrome"
+          },
+          {
+            "code" : "529799",
+            "display" : "Acute bilirubin encephalopathy"
+          },
+          {
+            "code" : "529808",
+            "display" : "Chronic bilirubin encephalopathy"
+          },
+          {
+            "code" : "529831",
+            "display" : "Letrozole toxicity"
+          },
+          {
+            "code" : "529852",
+            "display" : "Combined hepatocellular carcinoma and cholangiocarcinoma"
+          },
+          {
+            "code" : "529864",
+            "display" : "Secondary erythromelalgia"
+          },
+          {
+            "code" : "529962",
+            "display" : "17q24.2 microdeletion syndrome"
+          },
+          {
+            "code" : "529965",
+            "display" : "Intellectual disability-autism-speech apraxia-craniofacial dysmorphism syndrome"
+          },
+          {
+            "code" : "529970",
+            "display" : "Male infertility due to acephalic spermatozoa"
+          },
+          {
+            "code" : "529977",
+            "display" : "Immune dysregulation-inflammatory bowel disease-arthritis-recurrent infections-lymphopenia syndrome"
+          },
+          {
+            "code" : "529980",
+            "display" : "Inflammatory bowel disease-recurrent sinopulmonary infections syndrome"
+          },
+          {
+            "code" : "530033",
+            "display" : "Dermoid or epidermoid cyst of the central nervous system"
+          },
+          {
+            "code" : "530298",
+            "display" : "Progressive myoclonic epilepsy with neuroserpin inclusion bodies"
+          },
+          {
+            "code" : "530303",
+            "display" : "Progressive dementia with neuroserpin inclusion bodies"
+          },
+          {
+            "code" : "530792",
+            "display" : "RELA fusion-positive ependymoma"
+          },
+          {
+            "code" : "530838",
+            "display" : "KRT1-related diffuse nonepidermolytic keratoderma"
+          },
+          {
+            "code" : "530849",
+            "display" : "Familial apolipoprotein A5 deficiency"
+          },
+          {
+            "code" : "530983",
+            "display" : "Lamb-Shaffer syndrome"
+          },
+          {
+            "code" : "530995",
+            "display" : "Mixed phenotype acute leukemia"
+          },
+          {
+            "code" : "531151",
+            "display" : "9q21.13 microdeletion syndrome"
+          },
+          {
+            "code" : "535453",
+            "display" : "Familial lipase maturation factor 1 deficiency"
+          },
+          {
+            "code" : "535458",
+            "display" : "Familial GPIHBP1 deficiency"
+          },
+          {
+            "code" : "536467",
+            "display" : "B3GALT6-related spondylodysplastic Ehlers-Danlos syndrome"
+          },
+          {
+            "code" : "536471",
+            "display" : "Spondylodysplastic Ehlers-Danlos syndrome"
+          },
+          {
+            "code" : "536516",
+            "display" : "Myopathic Ehlers-Danlos syndrome"
+          },
+          {
+            "code" : "536532",
+            "display" : "Classical-like Ehlers-Danlos syndrome type 2"
+          },
+          {
+            "code" : "536545",
+            "display" : "Kyphoscoliotic Ehlers-Danlos syndrome"
+          },
+          {
+            "code" : "537072",
+            "display" : "PLG-related hereditary angioedema with normal C1Inh"
+          },
+          {
+            "code" : "538096",
+            "display" : "Autosomal recessive lethal neonatal axonal sensorimotor polyneuropathy"
+          },
+          {
+            "code" : "538101",
+            "display" : "Congenital axonal neuropathy with encephalopathy"
+          },
+          {
+            "code" : "538574",
+            "display" : "Palmoplantar keratoderma-hereditary motor and sensory neuropathy syndrome"
+          },
+          {
+            "code" : "538756",
+            "display" : "Familial multiple discoid fibromas"
+          },
+          {
+            "code" : "538863",
+            "display" : "Classic pyoderma gangrenosum"
+          },
+          {
+            "code" : "538866",
+            "display" : "Pustular pyoderma gangrenosum"
+          },
+          {
+            "code" : "538869",
+            "display" : "Bullous pyoderma gangrenosum"
+          },
+          {
+            "code" : "538872",
+            "display" : "Vegetative pyoderma gangrenosum"
+          },
+          {
+            "code" : "538931",
+            "display" : "X-linked lymphoproliferative disease due to SAP deficiency"
+          },
+          {
+            "code" : "538934",
+            "display" : "X-linked lymphoproliferative disease due to XIAP deficiency"
+          },
+          {
+            "code" : "538958",
+            "display" : "Combined immunodeficiency due to CD70 deficiency"
+          },
+          {
+            "code" : "538963",
+            "display" : "Combined immunodeficiency due to ITK deficiency"
+          },
+          {
+            "code" : "541423",
+            "display" : "Growth delay-intellectual disability-hepatopathy syndrome"
+          },
+          {
+            "code" : "541443",
+            "display" : "Anomalous aortic origin of the left coronary artery"
+          },
+          {
+            "code" : "541454",
+            "display" : "Anomalous aortic origin of the right coronary artery"
+          },
+          {
+            "code" : "541507",
+            "display" : "Anomalous origin of coronary artery from the pulmonary artery"
+          },
+          {
+            "code" : "542301",
+            "display" : "Combined immunodeficiency due to CARMIL2 deficiency"
+          },
+          {
+            "code" : "542306",
+            "display" : "GNB5-related intellectual disability-cardiac arrhythmia syndrome"
+          },
+          {
+            "code" : "542310",
+            "display" : "Leukoencephalopathy with calcifications and cysts"
+          },
+          {
+            "code" : "542323",
+            "display" : "CAR T cell therapy-associated cytokine release syndrome"
+          },
+          {
+            "code" : "542568",
+            "display" : "Quadricuspid aortic valve"
+          },
+          {
+            "code" : "542585",
+            "display" : "Auditory neuropathy-optic atrophy syndrome"
+          },
+          {
+            "code" : "542592",
+            "display" : "Necrobiosis lipoidica"
+          },
+          {
+            "code" : "542643",
+            "display" : "Livedoid vasculopathy"
+          },
+          {
+            "code" : "542657",
+            "display" : "Isolated hyperchlorhidrosis"
+          },
+          {
+            "code" : "543470",
+            "display" : "Optic atrophy-ataxia-peripheral neuropathy-global developmental delay syndrome"
+          },
+          {
+            "code" : "544254",
+            "display" : "SYNGAP1-related developmental and epileptic encephalopathy"
+          },
+          {
+            "code" : "544469",
+            "display" : "PRUNE1-related neurological syndrome"
+          },
+          {
+            "code" : "544472",
+            "display" : "Atypical hemolytic uremic syndrome with complement gene abnormality"
+          },
+          {
+            "code" : "544482",
+            "display" : "Infection-related hemolytic uremic syndrome"
+          },
+          {
+            "code" : "544488",
+            "display" : "Global developmental delay-alopecia-macrocephaly-facial dysmorphism-structural brain anomalies syndrome"
+          },
+          {
+            "code" : "544493",
+            "display" : "Streptococcus pneumoniae-associated hemolytic uremic syndrome"
+          },
+          {
+            "code" : "544503",
+            "display" : "RNF13-related severe early-onset epileptic encephalopathy"
+          },
+          {
+            "code" : "544578",
+            "display" : "Congenital primary megaureter, refluxing and obstructed form"
+          },
+          {
+            "code" : "544602",
+            "display" : "Congenital myopathy with reduced type 2 muscle fibers"
+          },
+          {
+            "code" : "544628",
+            "display" : "Atypical Fanconi syndrome-neonatal hyperinsulinism syndrome"
+          },
+          {
+            "code" : "555402",
+            "display" : "NAD(P)HX dehydratase deficiency"
+          },
+          {
+            "code" : "555407",
+            "display" : "NAD(P)HX epimerase deficiency"
+          },
+          {
+            "code" : "555434",
+            "display" : "Fibrohistiocytic inflammatory pseudotumor of the liver"
+          },
+          {
+            "code" : "555437",
+            "display" : "Lymphoplasmacytic inflammatory pseudotumor of the liver"
+          },
+          {
+            "code" : "555874",
+            "display" : "Congenital tricuspid valve dysplasia"
+          },
+          {
+            "code" : "555877",
+            "display" : "FLNA-related X-linked myxomatous valvular dysplasia"
+          },
+          {
+            "code" : "555905",
+            "display" : "IgA pemphigus"
+          },
+          {
+            "code" : "556030",
+            "display" : "Early-onset familial hypoaldosteronism"
+          },
+          {
+            "code" : "556037",
+            "display" : "Late-onset familial hypoaldosteronism"
+          },
+          {
+            "code" : "556955",
+            "display" : "Pancreatic agenesis-holoprosencephaly syndrome"
+          },
+          {
+            "code" : "556985",
+            "display" : "Early-onset calcifying leukoencephalopathy-skeletal dysplasia"
+          },
+          {
+            "code" : "557003",
+            "display" : "Oculoskeletodental syndrome"
+          },
+          {
+            "code" : "557056",
+            "display" : "Spastic ataxia-dysarthria due to glutaminase deficiency"
+          },
+          {
+            "code" : "557064",
+            "display" : "Neonatal epileptic encephalopathy due to glutaminase deficiency"
+          },
+          {
+            "code" : "558411",
+            "display" : "Idiopathic gastroparesis"
+          },
+          {
+            "code" : "561854",
+            "display" : "FOXG1 syndrome"
+          },
+          {
+            "code" : "562509",
+            "display" : "Heme oxygenase-1 deficiency"
+          },
+          {
+            "code" : "562528",
+            "display" : "Congenital limbs-face contractures-hypotonia-developmental delay syndrome"
+          },
+          {
+            "code" : "562538",
+            "display" : "Autosomal recessive extra-oral halitosis"
+          },
+          {
+            "code" : "562559",
+            "display" : "Anterior maxillary protrusion-strabismus-intellectual disability syndrome"
+          },
+          {
+            "code" : "562569",
+            "display" : "TMEM94-associated congenital heart defect-facial dysmorphism-developmental delay syndrome"
+          },
+          {
+            "code" : "562639",
+            "display" : "Primary biliary cholangitis/primary sclerosing cholangitis and autoimmune hepatitis overlap syndrome"
+          },
+          {
+            "code" : "563576",
+            "display" : "Autoimmune hepatitis type 1"
+          },
+          {
+            "code" : "563581",
+            "display" : "Autoimmune hepatitis type 2"
+          },
+          {
+            "code" : "563589",
+            "display" : "Seronegative autoimmune hepatitis"
+          },
+          {
+            "code" : "563609",
+            "display" : "Isolated anencephaly"
+          },
+          {
+            "code" : "563612",
+            "display" : "Isolated exencephaly"
+          },
+          {
+            "code" : "563666",
+            "display" : "Serous cystadenoma of childhood"
+          },
+          {
+            "code" : "563671",
+            "display" : "Mucinous cystadenoma of childhood"
+          },
+          {
+            "code" : "563676",
+            "display" : "Seromucinous cystadenoma of childhood"
+          },
+          {
+            "code" : "563684",
+            "display" : "Furuncular myiasis due to Dermatobia hominis"
+          },
+          {
+            "code" : "563687",
+            "display" : "Furuncular myiasis due to Cordylobia anthropophaga"
+          },
+          {
+            "code" : "563690",
+            "display" : "Furuncular myiasis due to Cordylobia rodhaini"
+          },
+          {
+            "code" : "563708",
+            "display" : "Syndromic congenital sodium diarrhea"
+          },
+          {
+            "code" : "563951",
+            "display" : "Isolated congenital aglossia"
+          },
+          {
+            "code" : "563954",
+            "display" : "Isolated congenital hypoglossia"
+          },
+          {
+            "code" : "563991",
+            "display" : "Osteochondrosis of the tarsal bone"
+          },
+          {
+            "code" : "564003",
+            "display" : "Osteochondrosis of the metatarsal bone"
+          },
+          {
+            "code" : "564178",
+            "display" : "Primary hypomagnesemia-refractory seizures-intellectual disability syndrome"
+          },
+          {
+            "code" : "565612",
+            "display" : "Primary triglyceride deposit cardiomyovasculopathy"
+          },
+          {
+            "code" : "565624",
+            "display" : "Combined oxidative phosphorylation defect type 39"
+          },
+          {
+            "code" : "565641",
+            "display" : "Primary desmosis coli"
+          },
+          {
+            "code" : "565782",
+            "display" : "Methotrexate toxicity"
+          },
+          {
+            "code" : "565788",
+            "display" : "Infantile inflammatory bowel disease with neurological involvement"
+          },
+          {
+            "code" : "565837",
+            "display" : "Laminin subunit alpha 2-related limb-girdle muscular dystrophy R23"
+          },
+          {
+            "code" : "565858",
+            "display" : "Craniosynostosis-microretrognathia-severe intellectual disability syndrome"
+          },
+          {
+            "code" : "565899",
+            "display" : "POMGNT2-related limb-girdle muscular dystrophy R24"
+          },
+          {
+            "code" : "565909",
+            "display" : "Calpain-3-related limb-girdle muscular dystrophy D4"
+          },
+          {
+            "code" : "566067",
+            "display" : "CEBPE-associated autoinflammation-immunodeficiency-neutrophil dysfunction syndrome"
+          },
+          {
+            "code" : "566175",
+            "display" : "Complement hyperactivation-angiopathic thrombosis-protein-losing enteropathy syndrome"
+          },
+          {
+            "code" : "566192",
+            "display" : "Congenital autosomal recessive small-platelet thrombocytopenia"
+          },
+          {
+            "code" : "566231",
+            "display" : "Resistance to thyroid hormone due to a mutation in thyroid hormone receptor alpha"
+          },
+          {
+            "code" : "566243",
+            "display" : "Resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"
+          },
+          {
+            "code" : "566393",
+            "display" : "Acute mast cell leukemia"
+          },
+          {
+            "code" : "566396",
+            "display" : "Chronic mast cell leukemia"
+          },
+          {
+            "code" : "566841",
+            "display" : "Liver adenomatosis"
+          },
+          {
+            "code" : "566847",
+            "display" : "Aprosencephaly/atelencephaly spectrum"
+          },
+          {
+            "code" : "566852",
+            "display" : "Atelencephaly"
+          },
+          {
+            "code" : "566857",
+            "display" : "Aprosencephaly"
+          },
+          {
+            "code" : "566862",
+            "display" : "Left sided atrial isomerism"
+          },
+          {
+            "code" : "566943",
+            "display" : "Mueller-Weiss syndrome"
+          },
+          {
+            "code" : "567502",
+            "display" : "B-cell immunodeficiency-limb anomaly-urogenital malformation syndrome"
+          },
+          {
+            "code" : "567544",
+            "display" : "Idiopathic non-lupus full-house nephropathy"
+          },
+          {
+            "code" : "567546",
+            "display" : "Idiopathic steroid-sensitive nephrotic syndrome with secondary steroid resistance"
+          },
+          {
+            "code" : "567548",
+            "display" : "Idiopathic steroid-resistant nephrotic syndrome"
+          },
+          {
+            "code" : "567550",
+            "display" : "Idiopathic multidrug-resistant nephrotic syndrome"
+          },
+          {
+            "code" : "567552",
+            "display" : "Idiopathic steroid-resistant nephrotic syndrome with sensitivity to second-line immunosuppressive therapy"
+          },
+          {
+            "code" : "567983",
+            "display" : "Parenteral nutrition-associated cholestasis"
+          },
+          {
+            "code" : "568051",
+            "display" : "GJC2-related late-onset primary lymphedema"
+          },
+          {
+            "code" : "568056",
+            "display" : "Warts-immunodeficiency-lymphedema-anogenital dysplasia syndrome"
+          },
+          {
+            "code" : "568062",
+            "display" : "PIEZO1-related generalized lymphatic dysplasia with non-immune hydrops fetalis"
+          },
+          {
+            "code" : "568065",
+            "display" : "EPHB4-related lymphatic-related hydrops fetalis"
+          },
+          {
+            "code" : "569164",
+            "display" : "Angiomatoid fibrous histiocytoma"
+          },
+          {
+            "code" : "569248",
+            "display" : "Microcystic stromal tumor"
+          },
+          {
+            "code" : "569274",
+            "display" : "Multiple mitochondrial dysfunctions syndrome type 5"
+          },
+          {
+            "code" : "569290",
+            "display" : "Multiple mitochondrial dysfunctions syndrome type 6"
+          },
+          {
+            "code" : "569816",
+            "display" : "CELSR1-related late-onset primary lymphedema"
+          },
+          {
+            "code" : "569821",
+            "display" : "Congenital primary lymphedema of Gordon"
+          },
+          {
+            "code" : "570371",
+            "display" : "Bartter syndrome type 5"
+          },
+          {
+            "code" : "570422",
+            "display" : "Galactose mutarotase deficiency"
+          },
+          {
+            "code" : "570431",
+            "display" : "Idiopathic multicentric Castleman disease"
+          },
+          {
+            "code" : "570438",
+            "display" : "HHV-8-associated multicentric Castleman disease"
+          },
+          {
+            "code" : "570470",
+            "display" : "Ricin poisoning"
+          },
+          {
+            "code" : "570491",
+            "display" : "QRSL1-related combined oxidative phosphorylation defect"
+          },
+          {
+            "code" : "570762",
+            "display" : "Infective endocarditis"
+          },
+          {
+            "code" : "572013",
+            "display" : "Posterior-predominant lissencephaly-broad flat pons and medulla-midline crossing defects syndrome"
+          },
+          {
+            "code" : "572333",
+            "display" : "Blepharophimosis-ptosis-epicanthus inversus syndrome plus"
+          },
+          {
+            "code" : "572354",
+            "display" : "Blepharophimosis-ptosis-epicanthus inversus syndrome type 1"
+          },
+          {
+            "code" : "572361",
+            "display" : "Blepharophimosis-ptosis-epicanthus inversus syndrome type 2"
+          },
+          {
+            "code" : "572385",
+            "display" : "Brachydactyly type B1"
+          },
+          {
+            "code" : "572428",
+            "display" : "Infantile-onset pulmonary alveolar proteinosis-hypogammaglobulinemia"
+          },
+          {
+            "code" : "572543",
+            "display" : "RFVT2-related riboflavin transporter deficiency"
+          },
+          {
+            "code" : "572550",
+            "display" : "RFVT3-related riboflavin transporter deficiency"
+          },
+          {
+            "code" : "572761",
+            "display" : "DONSON-related microcephaly-short stature-limb abnormalities spectrum"
+          },
+          {
+            "code" : "572768",
+            "display" : "Microcephaly-micromelia syndrome"
+          },
+          {
+            "code" : "572773",
+            "display" : "Microcephaly-short stature-limb abnormalities syndrome"
+          },
+          {
+            "code" : "572798",
+            "display" : "WARS2-related combined oxidative phosphorylation defect"
+          },
+          {
+            "code" : "573253",
+            "display" : "Split cord malformation type II"
+          },
+          {
+            "code" : "574918",
+            "display" : "Predisposition to severe viral infection due to IRF7 deficiency"
+          },
+          {
+            "code" : "574957",
+            "display" : "Autosomal recessive mendelian susceptibility to mycobacterial diseases due to partial JAK1 deficiency"
+          },
+          {
+            "code" : "575553",
+            "display" : "Cathepsin A-related arteriopathy-strokes-leukoencephalopathy"
+          },
+          {
+            "code" : "576074",
+            "display" : "Middle East respiratory syndrome"
+          },
+          {
+            "code" : "576227",
+            "display" : "Complete atrioventricular septal defect without ventricular hypoplasia"
+          },
+          {
+            "code" : "576232",
+            "display" : "Partial atrioventricular septal defect with ventricular hypoplasia"
+          },
+          {
+            "code" : "576235",
+            "display" : "Partial atrioventricular septal defect without ventricular hypoplasia"
+          },
+          {
+            "code" : "576242",
+            "display" : "Intermediate atrioventricular septal defect"
+          },
+          {
+            "code" : "576278",
+            "display" : "SATB2-associated syndrome"
+          },
+          {
+            "code" : "576283",
+            "display" : "SATB2-associated syndrome due to a pathogenic variant"
+          },
+          {
+            "code" : "576349",
+            "display" : "NLRC4-related familial cold autoinflammatory syndrome"
+          },
+          {
+            "code" : "576370",
+            "display" : "Variant Creutzfeldt-Jakob disease"
+          },
+          {
+            "code" : "576379",
+            "display" : "Iatrogenic Creutzfeldt-Jakob disease"
+          },
+          {
+            "code" : "580572",
+            "display" : "Intraductal tubulopapillary neoplasm of pancreas"
+          },
+          {
+            "code" : "580933",
+            "display" : "Lethal brain and heart developmental defects"
+          },
+          {
+            "code" : "580940",
+            "display" : "QRICH1-related intellectual disability-chondrodysplasia syndrome"
+          },
+          {
+            "code" : "580951",
+            "display" : "Punctate inner choroidopathy"
+          },
+          {
+            "code" : "581271",
+            "display" : "Cramp-fasciculation syndrome"
+          },
+          {
+            "code" : "583097",
+            "display" : "Congenital infiltrating lipomatosis of the face"
+          },
+          {
+            "code" : "583595",
+            "display" : "Serine biosynthesis pathway deficiency, infantile/juvenile form"
+          },
+          {
+            "code" : "583602",
+            "display" : "Neu-Laxova syndrome due to phosphoserine aminotransferase deficiency"
+          },
+          {
+            "code" : "583607",
+            "display" : "Neu-Laxova syndrome due to 3-phosphoglycerate dehydrogenase deficiency"
+          },
+          {
+            "code" : "583612",
+            "display" : "Neu-Laxova syndrome due to 3-phosphoserine phosphatase deficiency"
+          },
+          {
+            "code" : "583856",
+            "display" : "Isolated splenic vein thrombosis"
+          },
+          {
+            "code" : "583861",
+            "display" : "Isolated mesenteric vein thrombosis"
+          },
+          {
+            "code" : "585867",
+            "display" : "Acute myeloid leukemia with t(9;22)(q34.1;q11.2)"
+          },
+          {
+            "code" : "585877",
+            "display" : "B-lymphoblastic leukemia/lymphoma with recurrent genetic abnormality"
+          },
+          {
+            "code" : "585909",
+            "display" : "B-lymphoblastic leukemia/lymphoma with t(9;22)(q34.1;q11.2)"
+          },
+          {
+            "code" : "585918",
+            "display" : "B-lymphoblastic leukemia/lymphoma with t(v;11q23.3)"
+          },
+          {
+            "code" : "585929",
+            "display" : "B-lymphoblastic leukemia/lymphoma with t(12;21)(p13.2;q22.1)"
+          },
+          {
+            "code" : "585936",
+            "display" : "B-lymphoblastic leukemia/lymphoma with hyperdiploidy"
+          },
+          {
+            "code" : "585942",
+            "display" : "B-lymphoblastic leukemia/lymphoma with hypodiploidy"
+          },
+          {
+            "code" : "585948",
+            "display" : "B-lymphoblastic leukemia/lymphoma with t(5;14)(q31.1;q32.3)"
+          },
+          {
+            "code" : "585956",
+            "display" : "B-lymphoblastic leukemia/lymphoma with t(1;19)(q23;p13.3)"
+          },
+          {
+            "code" : "586130",
+            "display" : "Sporadic fatal insomnia"
+          },
+          {
+            "code" : "589435",
+            "display" : "Spondylometaphyseal dysplasia-corneal dystrophy syndrome"
+          },
+          {
+            "code" : "589442",
+            "display" : "Short stature-skeletal dysplasia-retinal degeneration-intellectual disability-sensorineural hearing loss syndrome"
+          },
+          {
+            "code" : "589515",
+            "display" : "PUM1-associated developmental disability-ataxia-seizure syndrome"
+          },
+          {
+            "code" : "589522",
+            "display" : "Spinocerebellar ataxia type 46"
+          },
+          {
+            "code" : "589527",
+            "display" : "Spinocerebellar ataxia type 45"
+          },
+          {
+            "code" : "589534",
+            "display" : "Mixed phenotype acute leukemia with t(9;22)(q34.1;q11.2)"
+          },
+          {
+            "code" : "589542",
+            "display" : "Myeloid/lymphoid neoplasm associated with JAK2 rearrangement"
+          },
+          {
+            "code" : "589547",
+            "display" : "GRIN2B-related developmental delay, intellectual disability and autism spectrum disorder"
+          },
+          {
+            "code" : "589595",
+            "display" : "Mixed phenotype acute leukemia with t(v;11q23.3)"
+          },
+          {
+            "code" : "589608",
+            "display" : "Linear hypopigmentation and craniofacial asymmetry with acral, ocular and brain anomalies"
+          },
+          {
+            "code" : "589618",
+            "display" : "Dystonia 28"
+          },
+          {
+            "code" : "589821",
+            "display" : "Congenital-onset Steinert myotonic dystrophy"
+          },
+          {
+            "code" : "589824",
+            "display" : "Childhood-onset Steinert myotonic dystrophy"
+          },
+          {
+            "code" : "589827",
+            "display" : "Juvenile-onset Steinert myotonic dystrophy"
+          },
+          {
+            "code" : "589830",
+            "display" : "Adult-onset Steinert myotonic dystrophy"
+          },
+          {
+            "code" : "589833",
+            "display" : "Late-onset Steinert myotonic dystrophy"
+          },
+          {
+            "code" : "589856",
+            "display" : "Choanal atresia-athelia-hypothyroidism-delayed puberty-short stature syndrome"
+          },
+          {
+            "code" : "589905",
+            "display" : "PHIP-related behavioral problems-intellectual disability-obesity-dysmorphic features syndrome"
+          },
+          {
+            "code" : "590539",
+            "display" : "Isolated melanotic schwannoma"
+          },
+          {
+            "code" : "592564",
+            "display" : "GNAO1-related developmental delay-seizures-movement disorder spectrum"
+          },
+          {
+            "code" : "592570",
+            "display" : "TRAF7-associated heart defect-digital anomalies-facial dysmorphism-motor and speech delay syndrome"
+          },
+          {
+            "code" : "592574",
+            "display" : "Menke-Hennekam syndrome"
+          },
+          {
+            "code" : "592850",
+            "display" : "Neuromyelitis optica spectrum disorder with anti-AQP4 antibodies"
+          },
+          {
+            "code" : "592856",
+            "display" : "Neuromyelitis optica spectrum disorder with anti-MOG antibodies"
+          },
+          {
+            "code" : "592869",
+            "display" : "Neuromyelitis optica spectrum disorder without anti-MOG and without anti-AQP4 antibodies"
+          },
+          {
+            "code" : "592873",
+            "display" : "Acute transverse myelitis with anti-MOG antibodies"
+          },
+          {
+            "code" : "592894",
+            "display" : "Acute disseminated encephalomyelitis with anti-MOG antibodies"
+          },
+          {
+            "code" : "592900",
+            "display" : "Acute disseminated encephalomyelitis without anti-MOG antibodies"
+          },
+          {
+            "code" : "595098",
+            "display" : "Timothy syndrome type 1"
+          },
+          {
+            "code" : "595105",
+            "display" : "Timothy syndrome type 2"
+          },
+          {
+            "code" : "595109",
+            "display" : "Atypical Timothy syndrome"
+          },
+          {
+            "code" : "595133",
+            "display" : "Perivascular epithelioid cell neoplasm"
+          },
+          {
+            "code" : "595356",
+            "display" : "Localized dystrophic epidermolysis bullosa"
+          },
+          {
+            "code" : "596008",
+            "display" : "Antley-Bixler syndrome without genital anomaly or disorder of steroidogenesis"
+          },
+          {
+            "code" : "596448",
+            "display" : "IgG4-related systemic disease"
+          },
+          {
+            "code" : "596753",
+            "display" : "VEXAS syndrome"
+          },
+          {
+            "code" : "596759",
+            "display" : "Combined immunodeficiency due to RELA haploinsufficiency"
+          },
+          {
+            "code" : "596937",
+            "display" : "Portosinusoidal vascular disease"
+          },
+          {
+            "code" : "596941",
+            "display" : "Incomplete septal cirrhosis"
+          },
+          {
+            "code" : "597201",
+            "display" : "TRIM22-related inflammatory bowel disease"
+          },
+          {
+            "code" : "597623",
+            "display" : "IRF2BPL-related regressive neurodevelopmental disorder-dystonia-seizures syndrome"
+          },
+          {
+            "code" : "597733",
+            "display" : "Oculocutaneous albinism type 8"
+          },
+          {
+            "code" : "597738",
+            "display" : "Luscan-Lumish syndrome"
+          },
+          {
+            "code" : "597743",
+            "display" : "SETD2-related microcephaly-severe intellectual disability-multiple congenital anomalies syndrome"
+          },
+          {
+            "code" : "597746",
+            "display" : "Blepharophimosis-intellectual disability syndrome/genitopatellar overlap syndrome"
+          },
+          {
+            "code" : "597874",
+            "display" : "MTHFS-related developmental delay-microcephaly-short stature-epilepsy syndrome"
+          },
+          {
+            "code" : "597887",
+            "display" : "ALPI-related inflammatory bowel disease"
+          },
+          {
+            "code" : "597939",
+            "display" : "Euthyroid dysprealbuminemic hyperthyroxinemia"
+          },
+          {
+            "code" : "598164",
+            "display" : "FOXG1 syndrome due to intragenic alteration"
+          },
+          {
+            "code" : "598216",
+            "display" : "Upper tract urothelial carcinoma"
+          },
+          {
+            "code" : "598363",
+            "display" : "Multisystem inflammatory syndrome in children and adults"
+          },
+          {
+            "code" : "598603",
+            "display" : "Facial dysmorphism-hypertrichosis-epilepsy-intellectual disability/developmental delay-gingival overgrowth syndrome"
+          },
+          {
+            "code" : "599082",
+            "display" : "CHD3-related developmental delay-speech delay-intellectual disability-abnormalities of vision-facial dysmorphism syndrome"
+          },
+          {
+            "code" : "599373",
+            "display" : "STXBP1-related encephalopathy"
+          },
+          {
+            "code" : "599376",
+            "display" : "Hypomyelination of early myelinating structures"
+          },
+          {
+            "code" : "599418",
+            "display" : "Hereditary angioedema with normal C1Inh not related to F12 or PLG variant"
+          },
+          {
+            "code" : "599480",
+            "display" : "Acquired hemophilia A"
+          },
+          {
+            "code" : "599485",
+            "display" : "Acquired hemophilia B"
+          },
+          {
+            "code" : "599490",
+            "display" : "Acquired factor V deficiency"
+          },
+          {
+            "code" : "599495",
+            "display" : "Acquired factor VII deficiency"
+          },
+          {
+            "code" : "599501",
+            "display" : "Acquired factor X deficiency"
+          },
+          {
+            "code" : "599507",
+            "display" : "Acquired factor XI deficiency"
+          },
+          {
+            "code" : "599513",
+            "display" : "Acquired factor XIII deficiency"
+          },
+          {
+            "code" : "599519",
+            "display" : "Factor V short isoforms-related bleeding disorder"
+          },
+          {
+            "code" : "599579",
+            "display" : "Factor V Amsterdam bleeding disorder"
+          },
+          {
+            "code" : "600194",
+            "display" : "Factor V Atlanta bleeding disorder"
+          },
+          {
+            "code" : "600663",
+            "display" : "NRXN1-related severe neurodevelopmental disorder-motor stereotypies-chronic constipation-sleep-wake cycle disturbance"
+          },
+          {
+            "code" : "600668",
+            "display" : "CCNK-related neurodevelopmental disorder-severe intellectual disability-facial dysmorphism syndrome"
+          },
+          {
+            "code" : "600691",
+            "display" : "Combined deficiency of factor VII and factor X"
+          },
+          {
+            "code" : "600731",
+            "display" : "Clark-Baraitser syndrome"
+          },
+          {
+            "code" : "600952",
+            "display" : "Non-syndromic anorectal malformation with perineal fistula"
+          },
+          {
+            "code" : "600961",
+            "display" : "Non-syndromic anorectal malformation with rectourethral fistula"
+          },
+          {
+            "code" : "600966",
+            "display" : "Non-syndromic anorectal malformation with rectourethral fistula, bulbar type"
+          },
+          {
+            "code" : "600975",
+            "display" : "Non-syndromic anorectal malformation with rectourethral fistula, prostatic type"
+          },
+          {
+            "code" : "600984",
+            "display" : "Non-syndromic anorectal malformation with rectovesical fistula"
+          },
+          {
+            "code" : "600993",
+            "display" : "Non-syndromic anorectal malformation with vestibular fistula"
+          },
+          {
+            "code" : "600998",
+            "display" : "Non-syndromic cloacal malformation"
+          },
+          {
+            "code" : "601002",
+            "display" : "Non-syndromic anorectal malformation without fistula"
+          },
+          {
+            "code" : "601008",
+            "display" : "Non-syndromic anorectal malformation with anal stenosis"
+          },
+          {
+            "code" : "601013",
+            "display" : "Non-syndromic anorectal malformation with pouch colon"
+          },
+          {
+            "code" : "601018",
+            "display" : "Non-syndromic anorectal malformation with rectal atresia"
+          },
+          {
+            "code" : "601023",
+            "display" : "Non-syndromic anorectal malformation with rectal stenosis"
+          },
+          {
+            "code" : "601028",
+            "display" : "Non-syndromic anorectal malformation with rectovaginal fistula"
+          },
+          {
+            "code" : "601033",
+            "display" : "Non-syndromic anorectal malformation with H-type fistula"
+          },
+          {
+            "code" : "603448",
+            "display" : "Cerebellar hypoplasia-intellectual disability-congenital microcephaly-dystonia-anemia-growth retardation syndrome"
+          },
+          {
+            "code" : "603494",
+            "display" : "Coloboma-osteopetrosis-microphthalmia-macrocephaly-albinism-deafness syndrome"
+          },
+          {
+            "code" : "603515",
+            "display" : "Isolated female hypospadias"
+          },
+          {
+            "code" : "603684",
+            "display" : "KLHL7-related Bohring-Opitz-like and Crisponi/Cold-induced sweating-like overlap syndrome"
+          },
+          {
+            "code" : "603689",
+            "display" : "KLHL7-related Bohring-Opitz-like syndrome"
+          },
+          {
+            "code" : "603694",
+            "display" : "KLHL7-related Crisponi/cold-induced sweating-like syndrome"
+          },
+          {
+            "code" : "604680",
+            "display" : "Symptomatic form of X-linked centronuclear myopathy in female carriers"
+          },
+          {
+            "code" : "610569",
+            "display" : "KIAA1109-related early lethal congenital brain malformations-arthrogryposis syndrome"
+          },
+          {
+            "code" : "610573",
+            "display" : "CLCN6-related childhood-onset progressive neurodegeneration-peripheral neuropathy syndrome"
+          },
+          {
+            "code" : "611201",
+            "display" : "Oculogastrointestinal-neurodevelopmental syndrome"
+          },
+          {
+            "code" : "611207",
+            "display" : "Spondyloepiphyseal dysplasia-sensorineural hearing loss-intellectual disability-Leber congenital amaurosis syndrome"
+          },
+          {
+            "code" : "611216",
+            "display" : "Aplastic anemia-intellectual disability-dwarfism syndrome"
+          },
+          {
+            "code" : "611223",
+            "display" : "EN1-related dorsoventral syndrome"
+          },
+          {
+            "code" : "611237",
+            "display" : "Parkinsonism with polyneuropathy"
+          },
+          {
+            "code" : "611247",
+            "display" : "Pontocerebellar hypoplasia type 11"
+          },
+          {
+            "code" : "611256",
+            "display" : "Pontocerebellar hypoplasia type 12"
+          },
+          {
+            "code" : "613267",
+            "display" : "Pontocerebellar hypoplasia type 13"
+          },
+          {
+            "code" : "613274",
+            "display" : "Pontocerebellar hypoplasia type 14"
+          },
+          {
+            "code" : "615938",
+            "display" : "Spastic paraparesis-cataracts-speech delay syndrome"
+          },
+          {
+            "code" : "615943",
+            "display" : "Granuloma faciale"
+          },
+          {
+            "code" : "615954",
+            "display" : "Lethal pontocerebellar hypoplasia-hypotonia-respiratory insufficiency syndrome"
+          },
+          {
+            "code" : "615964",
+            "display" : "Acute reversible leukoencephalopathy with increased urinary alpha-ketoglutarate"
+          },
+          {
+            "code" : "615970",
+            "display" : "Chronic intervillositis of unknown etiology"
+          },
+          {
+            "code" : "615983",
+            "display" : "Lethal pontocerebellar hypoplasia-hypotonia-respiratory insufficiency syndrome due to a point mutation"
+          },
+          {
+            "code" : "615986",
+            "display" : "Lethal pontocerebellar hypoplasia-hypotonia-respiratory insufficiency syndrome due to biallelic deletions in the ATAD3 gene cluster"
+          },
+          {
+            "code" : "616874",
+            "display" : "Rare disorder without a determined diagnosis after full investigation"
+          },
+          {
+            "code" : "617294",
+            "display" : "Twin anemia-polycythemia sequence"
+          },
+          {
+            "code" : "617297",
+            "display" : "Twin-reversed arterial perfusion sequence"
+          },
+          {
+            "code" : "617301",
+            "display" : "Selective intrauterine growth restriction"
+          },
+          {
+            "code" : "617304",
+            "display" : "Amniotic fluid embolism"
+          },
+          {
+            "code" : "617408",
+            "display" : "Classic eosinophilic pustular folliculitis"
+          },
+          {
+            "code" : "617440",
+            "display" : "Painful legs and moving toes syndrome"
+          },
+          {
+            "code" : "617449",
+            "display" : "Congenital aphakia-iris hypoplasia-microphthalmia-microcornea syndrome"
+          },
+          {
+            "code" : "617910",
+            "display" : "Conjunctival malignant melanoma"
+          },
+          {
+            "code" : "617916",
+            "display" : "Diffuse idiopathic pulmonary neuroendocrine cell hyperplasia"
+          },
+          {
+            "code" : "617919",
+            "display" : "F12-associated cold autoinflammatory syndrome"
+          },
+          {
+            "code" : "617930",
+            "display" : "Hemophilia B Leyden"
+          },
+          {
+            "code" : "618891",
+            "display" : "Chronic neurovisceral acid sphingomyelinase deficiency"
+          },
+          {
+            "code" : "619233",
+            "display" : "Hereditary persistence of fetal hemoglobin-intellectual disability syndrome"
+          },
+          {
+            "code" : "619363",
+            "display" : "NOCARH syndrome"
+          },
+          {
+            "code" : "619367",
+            "display" : "SAMD9L-associated autoinflammatory syndrome"
+          },
+          {
+            "code" : "619941",
+            "display" : "Congenital neutropenia-combined immunodeficiency due to MKL1 deficiency"
+          },
+          {
+            "code" : "619948",
+            "display" : "Early-onset autoimmunity-autoinflammation-immunodeficiency syndrome due to SOCS1 haploinsufficiency"
+          },
+          {
+            "code" : "619953",
+            "display" : "Familial hyperinflammatory lymphoproliferative immunodeficiency"
+          },
+          {
+            "code" : "619972",
+            "display" : "CADINS disease"
+          },
+          {
+            "code" : "619979",
+            "display" : "Developmental delay-immunodeficiency-leukoencephalopathy-hypohomocysteinemia syndrome"
+          },
+          {
+            "code" : "620102",
+            "display" : "Non-syndromic unicoronal craniosynostosis"
+          },
+          {
+            "code" : "620113",
+            "display" : "Non-syndromic unilambdoid craniosynostosis"
+          },
+          {
+            "code" : "620139",
+            "display" : "Non-syndromic unifrontosphenoidal craniosynostosis"
+          },
+          {
+            "code" : "620146",
+            "display" : "Non-syndromic unisquamosal craniosynostosis"
+          },
+          {
+            "code" : "620158",
+            "display" : "Non-syndromic non-specific multisutural craniosynostosis"
+          },
+          {
+            "code" : "620178",
+            "display" : "Non-syndromic bilambdoid craniosynostosis"
+          },
+          {
+            "code" : "620186",
+            "display" : "Non-syndromic unicoronal and sagittal craniosynostosis"
+          },
+          {
+            "code" : "620192",
+            "display" : "Non-syndromic metopic and sagittal craniosynostosis"
+          },
+          {
+            "code" : "620198",
+            "display" : "Non-syndromic bicoronal and metopic craniosynostosis"
+          },
+          {
+            "code" : "620205",
+            "display" : "Non-syndromic bicoronal and sagittal craniosynostosis"
+          },
+          {
+            "code" : "620212",
+            "display" : "Non-syndromic pansynostosis"
+          },
+          {
+            "code" : "620217",
+            "display" : "Bartter syndrome type 1"
+          },
+          {
+            "code" : "620220",
+            "display" : "Bartter syndrome type 2"
+          },
+          {
+            "code" : "620363",
+            "display" : "Primary hypomagnesemia-generalized seizures-intellectual disability-obesity syndrome"
+          },
+          {
+            "code" : "620368",
+            "display" : "EGF-related primary hypomagnesemia with intellectual disability"
+          },
+          {
+            "code" : "620371",
+            "display" : "Gitelman-like kidney tubulopathy due to mitochondrial DNA mutation"
+          },
+          {
+            "code" : "621758",
+            "display" : "Fibrosis-neurodegeneration-cerebral angiomatosis syndrome"
+          },
+          {
+            "code" : "622099",
+            "display" : "Superior mesenteric artery syndrome"
+          },
+          {
+            "code" : "622925",
+            "display" : "X-linked severe syndromic thoracic aortic aneurysm and dissection"
+          },
+          {
+            "code" : "622934",
+            "display" : "SBDS-related severe neonatal spondylometaphyseal dysplasia"
+          },
+          {
+            "code" : "623615",
+            "display" : "Autoimmune limbic encephalitis"
+          },
+          {
+            "code" : "623626",
+            "display" : "Paraneoplastic cerebellar degeneration"
+          },
+          {
+            "code" : "623695",
+            "display" : "MIR140-related spondyloepiphyseal dysplasia"
+          },
+          {
+            "code" : "623789",
+            "display" : "Body integrity dysphoria"
+          },
+          {
+            "code" : "623801",
+            "display" : "Acute flaccid myelitis"
+          },
+          {
+            "code" : "624166",
+            "display" : "Non-specific autoimmune supratentorial encephalitis with characteristic antibodies"
+          },
+          {
+            "code" : "624178",
+            "display" : "Non-specific autoimmune supratentorial encephalitis without characteristic antibodies"
+          },
+          {
+            "code" : "624190",
+            "display" : "Paraneoplastic isolated brainstem encephalitis"
+          },
+          {
+            "code" : "624199",
+            "display" : "Non-specific autoimmune brainstem encephalitis with characteristic antibodies"
+          },
+          {
+            "code" : "624216",
+            "display" : "Non-specific autoimmune brainstem encephalitis without characteristic antibodies"
+          },
+          {
+            "code" : "624244",
+            "display" : "Postinfectious cerebellitis"
+          },
+          {
+            "code" : "624259",
+            "display" : "Non-specific autoimmune cerebellar ataxia with characteristic antibodies"
+          },
+          {
+            "code" : "624268",
+            "display" : "Non-specific autoimmune cerebellar ataxia without characteristic antibodies"
+          },
+          {
+            "code" : "631068",
+            "display" : "Autosomal dominant spastic paraplegia type 80"
+          },
+          {
+            "code" : "631073",
+            "display" : "Autosomal recessive spastic paraplegia type 82"
+          },
+          {
+            "code" : "631076",
+            "display" : "Autosomal recessive spastic paraplegia type 83"
+          },
+          {
+            "code" : "631079",
+            "display" : "Autosomal recessive spastic paraplegia type 84"
+          },
+          {
+            "code" : "631082",
+            "display" : "Autosomal recessive spastic paraplegia type 85"
+          },
+          {
+            "code" : "631085",
+            "display" : "Autosomal recessive spastic paraplegia type 86"
+          },
+          {
+            "code" : "631088",
+            "display" : "Autosomal recessive spastic paraplegia type 87"
+          },
+          {
+            "code" : "631095",
+            "display" : "Spinocerebellar ataxia type 44"
+          },
+          {
+            "code" : "631103",
+            "display" : "Spinocerebellar ataxia type 48"
+          },
+          {
+            "code" : "631106",
+            "display" : "Spinocerebellar ataxia type 49"
+          },
+          {
+            "code" : "631248",
+            "display" : "Mitchell Syndrome"
+          },
+          {
+            "code" : "631251",
+            "display" : "Cancer of unknown primary site"
+          },
+          {
+            "code" : "632603",
+            "display" : "Mesomelic dysplasia-digital anomalies-intellectual disability syndrome"
+          },
+          {
+            "code" : "633004",
+            "display" : "KDM3B-related intellectual disability-facial dysmorphism-short stature syndrome"
+          },
+          {
+            "code" : "633014",
+            "display" : "SLC12A2-related developmental delay-intellectual disability-sensorineural deafness syndrome"
+          },
+          {
+            "code" : "633021",
+            "display" : "SLC12A2-related autosomal recessive neonatal-developmental delay-intellectual disability-feeding difficulty-sensorineural deafness syndrome"
+          },
+          {
+            "code" : "633024",
+            "display" : "SLC12A2-related autosomal dominant infantile-developmental delay-intellectual disability-sensorineural deafness syndrome"
+          },
+          {
+            "code" : "633028",
+            "display" : "CPE-related Prader-Willi-like syndrome"
+          },
+          {
+            "code" : "633035",
+            "display" : "Intellectual disability-early-onset cataract-microcephaly syndrome"
+          },
+          {
+            "code" : "633076",
+            "display" : "Split cord malformation, composite type"
+          },
+          {
+            "code" : "633099",
+            "display" : "PAICS deficiency"
+          },
+          {
+            "code" : "633124",
+            "display" : "Invasive scopulariopsis infection"
+          },
+          {
+            "code" : "633211",
+            "display" : "Preaxial digit brachydactyly-webbed fingers"
+          },
+          {
+            "code" : "633228",
+            "display" : "Isolated proximal femoral focal deficiency"
+          },
+          {
+            "code" : "634461",
+            "display" : "Mosaic neurofibromatosis type 1"
+          },
+          {
+            "code" : "634475",
+            "display" : "Mosaic NF2-related schwannomatosis"
+          },
+          {
+            "code" : "634492",
+            "display" : "Mosaic schwannomatosis"
+          },
+          {
+            "code" : "634511",
+            "display" : "Mosaic Legius syndrome"
+          },
+          {
+            "code" : "636941",
+            "display" : "Vascular Ehlers-Danlos-polymicrogyria syndrome"
+          },
+          {
+            "code" : "636945",
+            "display" : "Invasive candidiasis"
+          },
+          {
+            "code" : "636950",
+            "display" : "Glaucomatocyclitic crisis disease"
+          },
+          {
+            "code" : "636955",
+            "display" : "Endemic pemphigus foliaceus"
+          },
+          {
+            "code" : "636965",
+            "display" : "Autosomal dominant myosin storage myopathy"
+          },
+          {
+            "code" : "636970",
+            "display" : "Autosomal recessive myosin storage myopathy"
+          },
+          {
+            "code" : "637013",
+            "display" : "SMARCA2-related blepharophimosis-intellectual disability syndrome"
+          },
+          {
+            "code" : "637051",
+            "display" : "Borna virus encephalitis"
+          },
+          {
+            "code" : "637061",
+            "display" : "Isolated optic nerve hypoplasia"
+          },
+          {
+            "code" : "637064",
+            "display" : "Isolated optic nerve aplasia"
+          },
+          {
+            "code" : "641350",
+            "display" : "Immunotherapy induced hypophysitis"
+          },
+          {
+            "code" : "641353",
+            "display" : "Infantile neurodegeneration-progressive spasticity-intellectual disability-white matter lesions syndrome"
+          },
+          {
+            "code" : "641361",
+            "display" : "Neurodevelopmental delay-hypotonia-cerebellar ataxia-cardiac conduction defects syndrome"
+          },
+          {
+            "code" : "641368",
+            "display" : "Autosomal recessive hyper-IgE syndrome due to ZNF341 deficiency"
+          },
+          {
+            "code" : "641372",
+            "display" : "B-lymphoblastic leukemia/lymphoma with t(7;9)(q11.2;p13.2)"
+          },
+          {
+            "code" : "641375",
+            "display" : "B-lymphoblastic leukemia/lymphoma with t(17;19)"
+          },
+          {
+            "code" : "641380",
+            "display" : "PAPASH syndrome"
+          },
+          {
+            "code" : "641385",
+            "display" : "PASS syndrome"
+          },
+          {
+            "code" : "641390",
+            "display" : "PsAPASH syndrome"
+          },
+          {
+            "code" : "641396",
+            "display" : "Central nervous system tuberculosis"
+          },
+          {
+            "code" : "641496",
+            "display" : "Childhood-onset schizophrenia"
+          },
+          {
+            "code" : "641829",
+            "display" : "Neonatal compartment syndrome"
+          },
+          {
+            "code" : "642071",
+            "display" : "Primary pulmonary vein stenosis"
+          },
+          {
+            "code" : "642085",
+            "display" : "EXOC6B-related spondyloepimetaphyseal dysplasia with joint laxity"
+          },
+          {
+            "code" : "642099",
+            "display" : "Spondyloepimetaphyseal dysplasia with joint laxity, Beighton type"
+          },
+          {
+            "code" : "642671",
+            "display" : "Familial hyperaldosteronism type IV"
+          },
+          {
+            "code" : "642675",
+            "display" : "CHD8 overgrowth syndrome"
+          },
+          {
+            "code" : "642691",
+            "display" : "Fragile X-associated primary ovarian insufficiency"
+          },
+          {
+            "code" : "642747",
+            "display" : "PUM1-related cerebellar ataxia"
+          },
+          {
+            "code" : "642763",
+            "display" : "Autosomal dominant intellectual disability-craniofacial dysmorphism-macrocephaly-hypotonia syndrome due to H1-4 mutation"
+          },
+          {
+            "code" : "642788",
+            "display" : "Cushing syndrome due to cortisol-producing adrenocortical adenoma"
+          },
+          {
+            "code" : "642945",
+            "display" : "Perrault syndrome type 1"
+          },
+          {
+            "code" : "642954",
+            "display" : "Autosomal recessive ataxia due to PEX16 deficiency"
+          },
+          {
+            "code" : "642965",
+            "display" : "Autosomal recessive ataxia due to PEX2 deficiency"
+          },
+          {
+            "code" : "642976",
+            "display" : "Perrault syndrome type 2"
+          },
+          {
+            "code" : "643503",
+            "display" : "Marfanoid habitus-facial dysmorphism-skeletal abnormality-heart defect syndrome"
+          },
+          {
+            "code" : "643538",
+            "display" : "Hao-Fountain syndrome due to USP7 mutation"
+          },
+          {
+            "code" : "643549",
+            "display" : "Hao-Fountain syndrome"
+          },
+          {
+            "code" : "645188",
+            "display" : "Spinal dermal sinus"
+          },
+          {
+            "code" : "645285",
+            "display" : "Chaotic conus spinal cord lipoma"
+          },
+          {
+            "code" : "645288",
+            "display" : "Terminal extramedullary conus spinal cord lipoma"
+          },
+          {
+            "code" : "645291",
+            "display" : "Transitional extramedullary conus spinal cord lipoma"
+          },
+          {
+            "code" : "645294",
+            "display" : "Posterior extramedullary conus spinal cord lipoma"
+          },
+          {
+            "code" : "645297",
+            "display" : "Extramedullary conus spinal cord lipoma"
+          },
+          {
+            "code" : "645300",
+            "display" : "Lipomatous non-saccular limited dorsal myeloschisis"
+          },
+          {
+            "code" : "645310",
+            "display" : "Fibroneural non-saccular limited dorsal myeloschisis"
+          },
+          {
+            "code" : "645322",
+            "display" : "Isolated transitional filum lipoma"
+          },
+          {
+            "code" : "645325",
+            "display" : "Isolated filum lipoma"
+          },
+          {
+            "code" : "645334",
+            "display" : "Retained medullary cord"
+          },
+          {
+            "code" : "645337",
+            "display" : "Terminal myelocystocele"
+          },
+          {
+            "code" : "645340",
+            "display" : "Non-terminal myelocystocele"
+          },
+          {
+            "code" : "645343",
+            "display" : "Non-saccular limited dorsal myeloschisis"
+          },
+          {
+            "code" : "645350",
+            "display" : "Segmental arterial mediolysis"
+          },
+          {
+            "code" : "645354",
+            "display" : "Saccular limited dorsal myeloschisis"
+          },
+          {
+            "code" : "645359",
+            "display" : "Intramedullary non-dysraphic spinal cord lipoma"
+          },
+          {
+            "code" : "645362",
+            "display" : "Dorsal spinal cord lipoma"
+          },
+          {
+            "code" : "645378",
+            "display" : "Myelic limited dorsal malformation"
+          },
+          {
+            "code" : "645383",
+            "display" : "True myelomeningocele"
+          },
+          {
+            "code" : "645388",
+            "display" : "Hemi-myelomeningocele"
+          },
+          {
+            "code" : "645393",
+            "display" : "Hemi-myeloschisis"
+          },
+          {
+            "code" : "645398",
+            "display" : "Myeloschisis"
+          },
+          {
+            "code" : "645401",
+            "display" : "True myeloschisis"
+          },
+          {
+            "code" : "645613",
+            "display" : "Classical dermatomyositis"
+          },
+          {
+            "code" : "645617",
+            "display" : "Amyopathic dermatomyositis"
+          },
+          {
+            "code" : "645626",
+            "display" : "Adermatopathic dermatomyositis"
+          },
+          {
+            "code" : "645749",
+            "display" : "Congenital esophageal stenosis"
+          },
+          {
+            "code" : "645793",
+            "display" : "Spontaneous intestinal perforation"
+          },
+          {
+            "code" : "645807",
+            "display" : "Primary tuberculous lymphadenitis"
+          },
+          {
+            "code" : "645814",
+            "display" : "Primary pulmonary tuberculosis"
+          },
+          {
+            "code" : "645822",
+            "display" : "Primary bone and joint tuberculosis"
+          },
+          {
+            "code" : "645849",
+            "display" : "Primary cutaneous tuberculosis"
+          },
+          {
+            "code" : "645854",
+            "display" : "Multifocal tuberculosis"
+          },
+          {
+            "code" : "645859",
+            "display" : "Primary tuberculosis of the digestive system"
+          },
+          {
+            "code" : "645874",
+            "display" : "Primary genito-urinary tuberculosis"
+          },
+          {
+            "code" : "646113",
+            "display" : "Intermediate collagen VI-related muscular dystrophy"
+          },
+          {
+            "code" : "646136",
+            "display" : "Dysplastic cortical hyperostosis, Al-Gazali type"
+          },
+          {
+            "code" : "646139",
+            "display" : "Dysplastic cortical hyperostosis"
+          },
+          {
+            "code" : "646278",
+            "display" : "CDK13-related developmental delay-intellectual disability-facial dysmorphism-congenital heart defects syndrome"
+          },
+          {
+            "code" : "647667",
+            "display" : "Mandibuloacral dysplasia associated to MTX2"
+          },
+          {
+            "code" : "647676",
+            "display" : "Multiple epiphyseal dysplasia type 7"
+          },
+          {
+            "code" : "647681",
+            "display" : "Craniosynostosis-facial dysmorphism-Chiari-1 malformation-developmental and language delay syndrome"
+          },
+          {
+            "code" : "647772",
+            "display" : "Isolated primary pigmented nodular adrenocortical disease"
+          },
+          {
+            "code" : "647782",
+            "display" : "Isolated micronodular adrenocortical disease"
+          },
+          {
+            "code" : "647788",
+            "display" : "Neurodevelopmental delay-intellectual disability-ataxia-feeding difficulty syndrome"
+          },
+          {
+            "code" : "647794",
+            "display" : "Isolated persistent urogenital sinus"
+          },
+          {
+            "code" : "647799",
+            "display" : "MYT1L-related developmental delay-intellectual disability-obesity syndrome"
+          },
+          {
+            "code" : "647804",
+            "display" : "Combined immunodeficiency due to FCHO1 deficiency"
+          },
+          {
+            "code" : "647811",
+            "display" : "Cardiac-urogenital syndrome"
+          },
+          {
+            "code" : "647815",
+            "display" : "Keratitis fugax hereditaria"
+          },
+          {
+            "code" : "647823",
+            "display" : "Idiopathic pregnancy-associated osteoporosis"
+          },
+          {
+            "code" : "647834",
+            "display" : "SLC40A1-related hemochromatosis"
+          },
+          {
+            "code" : "647916",
+            "display" : "Conjoined twins"
+          },
+          {
+            "code" : "648562",
+            "display" : "Ferroportin disease"
+          },
+          {
+            "code" : "648581",
+            "display" : "Digenic hemochromatosis"
+          },
+          {
+            "code" : "648665",
+            "display" : "Infectious scleritis"
+          },
+          {
+            "code" : "648675",
+            "display" : "Idiopathic scleritis"
+          },
+          {
+            "code" : "648681",
+            "display" : "Immune-mediated scleritis"
+          },
+          {
+            "code" : "648684",
+            "display" : "Central retinal artery occlusion"
+          },
+          {
+            "code" : "648919",
+            "display" : "Idiopathic catatonia"
+          },
+          {
+            "code" : "648992",
+            "display" : "Non-syndromic bridging bronchus"
+          },
+          {
+            "code" : "649010",
+            "display" : "Non-syndromic congenital bronchial atresia"
+          },
+          {
+            "code" : "649029",
+            "display" : "Isolated left bronchial isomerism"
+          },
+          {
+            "code" : "650077",
+            "display" : "Genetic central precocious puberty in female"
+          },
+          {
+            "code" : "650082",
+            "display" : "Secondary central precocious puberty in female"
+          },
+          {
+            "code" : "650087",
+            "display" : "Primary central precocious puberty in male"
+          },
+          {
+            "code" : "650092",
+            "display" : "Secondary central precocious puberty in male"
+          },
+          {
+            "code" : "650097",
+            "display" : "Genetic central precocious puberty in male"
+          },
+          {
+            "code" : "650102",
+            "display" : "Non-genetic central precocious puberty in male"
+          },
+          {
+            "code" : "652487",
+            "display" : "Developmental delay-overweight-facial dysmorphism-behavioral abnormalities syndrome"
+          },
+          {
+            "code" : "652514",
+            "display" : "Cleft palate-congenital heart defect-intellectual disability syndrome due to MEIS2 mutation"
+          },
+          {
+            "code" : "652519",
+            "display" : "Cleft palate-congenital heart defect-intellectual disability syndrome"
+          },
+          {
+            "code" : "652522",
+            "display" : "Periodic fever-immunodeficiency-thrombocytopenia syndrome"
+          },
+          {
+            "code" : "652528",
+            "display" : "Non-syndromic supernumerary kidneys"
+          },
+          {
+            "code" : "652532",
+            "display" : "Adult-onset progressive leukoencephalopathy-early-onset deafness"
+          },
+          {
+            "code" : "652650",
+            "display" : "Nodal T-follicular helper cell lymphoma, follicular type"
+          },
+          {
+            "code" : "652658",
+            "display" : "Monomorphic epitheliotropic intestinal T-cell lymphoma"
+          },
+          {
+            "code" : "652668",
+            "display" : "Primary superior vena cava aneurysm"
+          },
+          {
+            "code" : "652678",
+            "display" : "Primary inferior vena cava aneurysm"
+          },
+          {
+            "code" : "652681",
+            "display" : "Idiopathic subglottic stenosis"
+          },
+          {
+            "code" : "653698",
+            "display" : "Lymphocytic mastitis"
+          },
+          {
+            "code" : "653709",
+            "display" : "Cone rod dystrophy-short stature syndrome"
+          },
+          {
+            "code" : "653712",
+            "display" : "CHD4-related neurodevelopmental disorder"
+          },
+          {
+            "code" : "653722",
+            "display" : "Digenic Alport syndrome"
+          },
+          {
+            "code" : "653725",
+            "display" : "Autosomal recessive limb-girdle muscular dystrophy, type 28"
+          },
+          {
+            "code" : "653728",
+            "display" : "Congenital insensitivity to pain syndrome, Marsili type"
+          },
+          {
+            "code" : "653751",
+            "display" : "X-linked combined immunodeficiency due to SASH3 deficiency"
+          },
+          {
+            "code" : "653767",
+            "display" : "Jansen-de Vries syndrome"
+          },
+          {
+            "code" : "653880",
+            "display" : "Mitochondrial short-chain enoyl-CoA hydratase 1 deficiency"
+          },
+          {
+            "code" : "656071",
+            "display" : "Atrophic papulosis"
+          },
+          {
+            "code" : "656085",
+            "display" : "Benign atrophic papulosis"
+          },
+          {
+            "code" : "656126",
+            "display" : "Segmental spinal dysgenesis"
+          },
+          {
+            "code" : "656130",
+            "display" : "PBX1-related congenital anomalies of kidney and urinary tract syndrome"
+          },
+          {
+            "code" : "656135",
+            "display" : "Intellectual disability-cupped ears syndrome"
+          },
+          {
+            "code" : "656279",
+            "display" : "1p36.33 duplication syndrome"
+          },
+          {
+            "code" : "656283",
+            "display" : "Autosomal recessive combined immunodeficiency due to complete IL6ST deficiency"
+          },
+          {
+            "code" : "656300",
+            "display" : "Autosomal recessive combined immunodeficiency due to partial IL6ST deficiency"
+          },
+          {
+            "code" : "656313",
+            "display" : "Autosomal dominant combined immunodeficiency due to partial IL6ST deficiency"
+          },
+          {
+            "code" : "656326",
+            "display" : "Autosomal recessive combined immunodeficiency due to IL6R deficiency"
+          },
+          {
+            "code" : "656417",
+            "display" : "Embryonal tumor with multilayered rosettes"
+          },
+          {
+            "code" : "656912",
+            "display" : "Autosomal dominant combined immunodeficiency due to ERBIN deficiency"
+          },
+          {
+            "code" : "658540",
+            "display" : "16q22 deletion syndrome"
+          },
+          {
+            "code" : "658549",
+            "display" : "Idiopathic small fibers neuropathy"
+          },
+          {
+            "code" : "658574",
+            "display" : "Isolated pulmonary artery sling"
+          },
+          {
+            "code" : "658584",
+            "display" : "Rowell syndrome"
+          },
+          {
+            "code" : "658590",
+            "display" : "Eyelid sebaceous carcinoma"
+          },
+          {
+            "code" : "658595",
+            "display" : "DNMT3A-related microcephalic dwarfism"
+          },
+          {
+            "code" : "658602",
+            "display" : "Transplant-related bronchiolitis obliterans"
+          },
+          {
+            "code" : "658612",
+            "display" : "Non-transplant-related bronchiolitis obliterans"
+          },
+          {
+            "code" : "658778",
+            "display" : "COQ7-related distal hereditary motor neuropathy"
+          },
+          {
+            "code" : "658805",
+            "display" : "Greig cephalopolysyndactyly-contiguous gene syndrome"
+          },
+          {
+            "code" : "658810",
+            "display" : "Atrophoderma of Pasini and Pierini"
+          },
+          {
+            "code" : "658813",
+            "display" : "Combined immunodeficiency-megaloblastic anemia due to methylenetetrahydrofolate dehydrogenase 1 deficiency"
+          },
+          {
+            "code" : "658843",
+            "display" : "Developmental delay-ataxia-hypotonia-facial dysmorphism syndrome"
+          },
+          {
+            "code" : "658909",
+            "display" : "Fasciolopsiasis"
+          },
+          {
+            "code" : "658913",
+            "display" : "Paragonimiasis"
+          },
+          {
+            "code" : "658917",
+            "display" : "Clonorchiasis"
+          },
+          {
+            "code" : "658946",
+            "display" : "Early-onset immune dysregulation with autoimmunity due to DOCK11 partial deficiency"
+          },
+          {
+            "code" : "658951",
+            "display" : "Early-onset immune dysregulation due to DOCK11 complete deficiency"
+          },
+          {
+            "code" : "659396",
+            "display" : "Cohen-Gibson syndrome"
+          },
+          {
+            "code" : "659463",
+            "display" : "Imagawa-Matsumoto syndrome"
+          },
+          {
+            "code" : "659609",
+            "display" : "Facial dysmorphism-global developmental delay-hypotonia-polymicrogyria syndrome"
+          },
+          {
+            "code" : "659626",
+            "display" : "Single isolated optic neuritis"
+          },
+          {
+            "code" : "659634",
+            "display" : "Relapsing isolated optic neuritis"
+          },
+          {
+            "code" : "659642",
+            "display" : "Rauch-Steindl syndrome"
+          },
+          {
+            "code" : "659672",
+            "display" : "Harderoporphyria"
+          },
+          {
+            "code" : "659702",
+            "display" : "Intrauterine growth retardation-micrognathia-short stature-facial dysmorphism-rhizomelic shortening syndrome"
+          },
+          {
+            "code" : "659707",
+            "display" : "Yersinia pseudotuberculosis infection"
+          },
+          {
+            "code" : "659744",
+            "display" : "Ocular surface squamous neoplasia"
+          },
+          {
+            "code" : "659756",
+            "display" : "Oroya fever"
+          },
+          {
+            "code" : "659759",
+            "display" : "Verruga peruana"
+          },
+          {
+            "code" : "659873",
+            "display" : "Wormian bones-micrognathia-abnormal dentition-progeroid syndrome"
+          },
+          {
+            "code" : "659904",
+            "display" : "Multiple congenital anomalies-neurodevelopmental delay-ocular abnormalities syndrome"
+          },
+          {
+            "code" : "659908",
+            "display" : "Glanders"
+          },
+          {
+            "code" : "659975",
+            "display" : "Sensorineural hearing loss-spastic quadriplegia-intellectual disability syndrome"
+          },
+          {
+            "code" : "660012",
+            "display" : "Developmental delay-language impairment-dopa responsive dystonia-parkinsonism syndrome due to a NR4A2 point mutation"
+          },
+          {
+            "code" : "660017",
+            "display" : "Developmental delay-language impairment-dopa responsive dystonia-parkinsonism syndrome"
+          },
+          {
+            "code" : "660021",
+            "display" : "Orofacial clefting-cardiac anomalies-facial dysmorphism syndrome"
+          },
+          {
+            "code" : "660053",
+            "display" : "Psittacosis"
+          },
+          {
+            "code" : "661412",
+            "display" : "Megaloblastic anemia-immunodeficiency due to folate transporter 1 deficiency"
+          },
+          {
+            "code" : "661526",
+            "display" : "MBD4-related tumor predisposition syndrome"
+          },
+          {
+            "code" : "662169",
+            "display" : "Phelan-McDermid syndrome due to 22q13.3 deletion"
+          },
+          {
+            "code" : "662172",
+            "display" : "Phelan-McDermid syndrome due to SHANK3 mutation"
+          },
+          {
+            "code" : "662175",
+            "display" : "Macrocephaly-congenital heart disease-facial dysmorphism-intellectual disability syndrome"
+          },
+          {
+            "code" : "662179",
+            "display" : "Microcephaly-hearing loss-facial dysmorphism-intellectual disability syndrome"
+          },
+          {
+            "code" : "662184",
+            "display" : "Congenital muscular dystrophy-cataract-intellectual disability syndrome"
+          },
+          {
+            "code" : "662189",
+            "display" : "Neurodevelopmental disorder-brain malformation-facial dysmorphism-brachydactyly syndrome"
+          },
+          {
+            "code" : "662198",
+            "display" : "Neurodevelopmental delay-intellectual disability-skeletal defects syndrome"
+          },
+          {
+            "code" : "662207",
+            "display" : "Neurodevelopmental delay-brain malformations-skeletal defects-intellectual disability syndrome"
+          },
+          {
+            "code" : "662216",
+            "display" : "Mucopolysaccharidosis type 10"
+          },
+          {
+            "code" : "662229",
+            "display" : "Episodic memory defect leukoencephalopathy"
+          },
+          {
+            "code" : "662234",
+            "display" : "Neurodevelopmental delay-congenital heart defects-intellectual disability syndrome"
+          },
+          {
+            "code" : "662240",
+            "display" : "Frey syndrome"
+          },
+          {
+            "code" : "662255",
+            "display" : "Grisel syndrome"
+          },
+          {
+            "code" : "662367",
+            "display" : "NESCAV syndrome"
+          },
+          {
+            "code" : "662376",
+            "display" : "Gastric duplication"
+          },
+          {
+            "code" : "662388",
+            "display" : "Gallbladder duplication"
+          },
+          {
+            "code" : "662392",
+            "display" : "Colonic duplication"
+          },
+          {
+            "code" : "662405",
+            "display" : "Pyloric duplication"
+          },
+          {
+            "code" : "662456",
+            "display" : "Small intestine duplication"
+          },
+          {
+            "code" : "662473",
+            "display" : "Duodenal duplication"
+          },
+          {
+            "code" : "662480",
+            "display" : "Jujeno-ileal duplication"
+          },
+          {
+            "code" : "662721",
+            "display" : "Placenta accreta spectrum disorder"
+          },
+          {
+            "code" : "662762",
+            "display" : "Motor delay-microcephaly-speech impairment-ocular abnormalities syndrome"
+          },
+          {
+            "code" : "662786",
+            "display" : "Vasa previa"
+          },
+          {
+            "code" : "662829",
+            "display" : "Intellectual disability-speech delay-dysmorphic features-T cell abnormalities syndrome"
+          },
+          {
+            "code" : "662934",
+            "display" : "Acute megakaryoblastic leukemia in adult"
+          },
+          {
+            "code" : "664372",
+            "display" : "Soft and hard cleft palate"
+          },
+          {
+            "code" : "664377",
+            "display" : "MGP-related spondyloepiphyseal dysplasia"
+          },
+          {
+            "code" : "664401",
+            "display" : "Cardiac anomalies-short stature-joint hypermobility-facial dysmorphism syndrome due to TAB2 mutation"
+          },
+          {
+            "code" : "664404",
+            "display" : "6q25.1 microdeletion syndrome"
+          },
+          {
+            "code" : "664410",
+            "display" : "Brain abnormalities-severe developmental delay-facial dysmorphism-intellectual disability syndrome"
+          },
+          {
+            "code" : "664416",
+            "display" : "Brain abnormalities-severe developmental delay-facial dysmorphism-intellectual disability syndrome due to MEF2C mutation"
+          },
+          {
+            "code" : "664430",
+            "display" : "Neurodevelopmental disorder-slit-like lateral ventricles-intellectual disability syndrome"
+          },
+          {
+            "code" : "664438",
+            "display" : "Gingival fibromatosis-aortic root dilatation-facial dysmorphism-intellectual disability syndrome"
+          },
+          {
+            "code" : "664500",
+            "display" : "Hermansky-Pudlak syndrome due to AP3B1 deficiency"
+          },
+          {
+            "code" : "664511",
+            "display" : "Early-onset severe Hermansky-Pudlak syndrome with hearing loss, due to AP3D1 deficiency"
+          },
+          {
+            "code" : "664699",
+            "display" : "EBV-induced lymphoproliferative disease due to RASGRP1 deficiency"
+          },
+          {
+            "code" : "664711",
+            "display" : "EBV-induced lymphoproliferative disease due to PRKCD deficiency"
+          },
+          {
+            "code" : "664726",
+            "display" : "EBV-induced lymphoproliferative disease due to CD137 deficiency"
+          },
+          {
+            "code" : "664729",
+            "display" : "EBV-induced lymphoproliferative disease due to TET2 deficiency"
+          },
+          {
+            "code" : "664787",
+            "display" : "Nicolau syndrome"
+          },
+          {
+            "code" : "664901",
+            "display" : "Trigeminal trophic syndrome"
+          },
+          {
+            "code" : "664912",
+            "display" : "Neonatal renal venous thrombosis"
+          },
+          {
+            "code" : "664923",
+            "display" : "Congenital arthrogryposis-microcephaly-facial dysmorphism-severe neurodevelopmental delay syndrome"
+          },
+          {
+            "code" : "665044",
+            "display" : "Common arterial trunk with aortic dominance"
+          },
+          {
+            "code" : "665058",
+            "display" : "Common arterial trunk with pulmonary dominance and interrupted aortic arch"
+          },
+          {
+            "code" : "667589",
+            "display" : "Isolated congenital femoral bifurcation"
+          },
+          {
+            "code" : "667662",
+            "display" : "Breast implant-associated anaplastic large cell lymphoma"
+          },
+          {
+            "code" : "667678",
+            "display" : "Intraoral basal cell carcinoma"
+          },
+          {
+            "code" : "672979",
+            "display" : "Craniosynostosis-facial dysmorphism-brachydactyly syndrome"
+          },
+          {
+            "code" : "672985",
+            "display" : "Craniosynostosis-skeletal and cerebellar anomalies-learning disabilities syndrome"
+          },
+          {
+            "code" : "673525",
+            "display" : "Intravascular papillary endothelial hyperplasia"
+          },
+          {
+            "code" : "673538",
+            "display" : "Littoral cell hemangioma of the spleen"
+          },
+          {
+            "code" : "673543",
+            "display" : "Papillary hemangioma"
+          },
+          {
+            "code" : "673556",
+            "display" : "Pseudomyogenic hemangioendothelioma"
+          },
+          {
+            "code" : "673568",
+            "display" : "Eccrine angiomatous hamartoma"
+          },
+          {
+            "code" : "673574",
+            "display" : "Reactive angioendotheliomatosis"
+          },
+          {
+            "code" : "673580",
+            "display" : "Classic pilocytic astrocytoma"
+          },
+          {
+            "code" : "673585",
+            "display" : "Pilocytic astrocytoma with histological features of anaplasia"
+          },
+          {
+            "code" : "674653",
+            "display" : "Actinomyopathy-associated syndromic thrombocytopenia"
+          },
+          {
+            "code" : "674762",
+            "display" : "Early-onset autoinflammatory syndrome due to A20 haploinsufficiency"
+          },
+          {
+            "code" : "674924",
+            "display" : "Isolated retinal racemose hemangioma"
+          },
+          {
+            "code" : "674930",
+            "display" : "Perifoveal exudative vascular anomalous complex"
+          },
+          {
+            "code" : "674935",
+            "display" : "Torpedo Maculopathy"
+          },
+          {
+            "code" : "674943",
+            "display" : "Isolated angioid streaks"
+          },
+          {
+            "code" : "674947",
+            "display" : "Diffuse unilateral subacute neuroretinitis"
+          },
+          {
+            "code" : "674953",
+            "display" : "Multiple evanescent white dot syndrome"
+          },
+          {
+            "code" : "674958",
+            "display" : "Stellate multiform amelanotic choroidopathy"
+          },
+          {
+            "code" : "674965",
+            "display" : "Choroidal osteoma"
+          },
+          {
+            "code" : "674968",
+            "display" : "Bilateral diffuse uveal melanocytic proliferation disease"
+          },
+          {
+            "code" : "675216",
+            "display" : "Spinocerebellar ataxia type 27B"
+          },
+          {
+            "code" : "675359",
+            "display" : "Anastomosing haemangioma"
+          },
+          {
+            "code" : "675362",
+            "display" : "Hobnail hemangioma"
+          },
+          {
+            "code" : "675369",
+            "display" : "Microvenular haemangioma"
+          },
+          {
+            "code" : "675380",
+            "display" : "Isolated segmental infantile hemangioma"
+          },
+          {
+            "code" : "675396",
+            "display" : "Epithelioid hemangioma"
+          },
+          {
+            "code" : "675404",
+            "display" : "May-Thurner syndrome"
+          },
+          {
+            "code" : "675597",
+            "display" : "Acquired elastotic haemangioma"
+          },
+          {
+            "code" : "675628",
+            "display" : "TLR8-related inflammation-severe neutropenia-bone marrow failure-lymphoproliferation syndrome"
+          },
+          {
+            "code" : "675767",
+            "display" : "Severe congenital neutropenia-developmental delay-pancreatic insufficiency syndrome due to SRP54 deficiency"
+          },
+          {
+            "code" : "675775",
+            "display" : "Severe congenital myelofibrosis-pancytopenia-intellectual disability-neurologic and ophthalmic abnormalities syndrome"
+          },
+          {
+            "code" : "675782",
+            "display" : "Progressive hypotonia-intellectual disability-facial dysmorphism syndrome due to FYVE-defective RBSN"
+          },
+          {
+            "code" : "675814",
+            "display" : "Adenomatoid tumour of the pleura"
+          },
+          {
+            "code" : "675822",
+            "display" : "Well-differentiated papillary mesothelial tumour of the pleura"
+          },
+          {
+            "code" : "675833",
+            "display" : "Localized pleural mesothelioma"
+          },
+          {
+            "code" : "675837",
+            "display" : "Diffused pleural mesothelioma"
+          },
+          {
+            "code" : "675841",
+            "display" : "Pleural mesothelioma in situ"
+          },
+          {
+            "code" : "675976",
+            "display" : "Adenomatoid tumour of the peritoneum"
+          },
+          {
+            "code" : "676033",
+            "display" : "Well-differentiated papillary mesothelial tumour of the peritoneum"
+          },
+          {
+            "code" : "676036",
+            "display" : "Peritoneal mesothelioma in situ"
+          },
+          {
+            "code" : "676039",
+            "display" : "Combined immunodeficiency due to FOXN1 haploinsufficiency"
+          },
+          {
+            "code" : "676125",
+            "display" : "X-linked immune dysregulation with inflammatory bowel disease due to ELF4 deficiency"
+          }
+        ]
+      }
+    ]
+  }
+}
+
+```

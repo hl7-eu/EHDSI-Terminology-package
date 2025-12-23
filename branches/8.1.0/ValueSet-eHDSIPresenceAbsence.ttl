@@ -1,0 +1,153 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIPresenceAbsence> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "eHDSIPresenceAbsence"] ; # 
+  fhir:url [ fhir:v "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIPresenceAbsence"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.77" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "0.2.0"] ; # 
+  fhir:name [ fhir:v "eHDSIPresenceAbsence"] ; # 
+  fhir:title [ fhir:v "eHDSI Presence Absence"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2025-02-08T05:43:06+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 Europe"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 Europe" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://hl7europe.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "The Value Set is used to describe presence and absence findings (qualifier values) of the Laboratory Test Results"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "441614007" ] ;
+         fhir:display [ fhir:v "Present one plus out of three plus" ]
+       ] [
+         fhir:code [ fhir:v "441521003" ] ;
+         fhir:display [ fhir:v "Present three plus out of three plus" ]
+       ] [
+         fhir:code [ fhir:v "441517005" ] ;
+         fhir:display [ fhir:v "Present two plus out of three plus" ]
+       ] [
+         fhir:code [ fhir:v "260415000" ] ;
+         fhir:display [ fhir:v "Not detected" ]
+       ] [
+         fhir:code [ fhir:v "260392004" ] ;
+         fhir:display [ fhir:v "Non-patent" ]
+       ] [
+         fhir:code [ fhir:v "260385009" ] ;
+         fhir:display [ fhir:v "Negative" ]
+       ] [
+         fhir:code [ fhir:v "260373001" ] ;
+         fhir:display [ fhir:v "Detected" ]
+       ] [
+         fhir:code [ fhir:v "260350009" ] ;
+         fhir:display [ fhir:v "++++" ]
+       ] [
+         fhir:code [ fhir:v "260349009" ] ;
+         fhir:display [ fhir:v "+++" ]
+       ] [
+         fhir:code [ fhir:v "260348001" ] ;
+         fhir:display [ fhir:v "++" ]
+       ] [
+         fhir:code [ fhir:v "260347006" ] ;
+         fhir:display [ fhir:v "+" ]
+       ] [
+         fhir:code [ fhir:v "52101004" ] ;
+         fhir:display [ fhir:v "Present" ]
+       ] [
+         fhir:code [ fhir:v "10828004" ] ;
+         fhir:display [ fhir:v "Positive" ]
+       ] [
+         fhir:code [ fhir:v "2667000" ] ;
+         fhir:display [ fhir:v "Absent" ]
+       ] [
+         fhir:code [ fhir:v "895231008" ] ;
+         fhir:display [ fhir:v "Not detected in pooled specimen" ]
+       ] [
+         fhir:code [ fhir:v "720735008" ] ;
+         fhir:display [ fhir:v "Presumptive positive" ]
+       ] [
+         fhir:code [ fhir:v "373067005" ] ;
+         fhir:display [ fhir:v "No" ]
+       ] [
+         fhir:code [ fhir:v "373066001" ] ;
+         fhir:display [ fhir:v "Yes" ]
+       ] [
+         fhir:code [ fhir:v "264887000" ] ;
+         fhir:display [ fhir:v "Not isolated" ]
+       ] [
+         fhir:code [ fhir:v "264868006" ] ;
+         fhir:display [ fhir:v "No growth" ]
+       ] [
+         fhir:code [ fhir:v "260413007" ] ;
+         fhir:display [ fhir:v "None" ]
+       ] [
+         fhir:code [ fhir:v "260408008" ] ;
+         fhir:display [ fhir:v "Weakly positive" ]
+       ] [
+         fhir:code [ fhir:v "260405006" ] ;
+         fhir:display [ fhir:v "Trace" ]
+       ] [
+         fhir:code [ fhir:v "260389003" ] ;
+         fhir:display [ fhir:v "No reaction" ]
+       ] [
+         fhir:code [ fhir:v "46651001" ] ;
+         fhir:display [ fhir:v "Isolated" ]
+       ] [
+         fhir:code [ fhir:v "419984006" ] ;
+         fhir:display [ fhir:v "Inconclusive" ]
+       ] [
+         fhir:code [ fhir:v "42425007" ] ;
+         fhir:display [ fhir:v "Equivocal" ]
+       ] [
+         fhir:code [ fhir:v "82334004" ] ;
+         fhir:display [ fhir:v "Indeterminate" ]
+       ] [
+         fhir:code [ fhir:v "62482003" ] ;
+         fhir:display [ fhir:v "Low" ]
+       ] [
+         fhir:code [ fhir:v "11214006" ] ;
+         fhir:display [ fhir:v "Reactive" ]
+       ] [
+         fhir:code [ fhir:v "131194007" ] ;
+         fhir:display [ fhir:v "Non-Reactive" ]
+       ] [
+         fhir:code [ fhir:v "280416009" ] ;
+         fhir:display [ fhir:v "Indeterminate result" ]
+       ] [
+         fhir:code [ fhir:v "75540009" ] ;
+         fhir:display [ fhir:v "High" ]
+       ] [
+         fhir:code [ fhir:v "455371000124106" ] ;
+         fhir:display [ fhir:v "Invalid result" ]
+       ] [
+         fhir:code [ fhir:v "89292003" ] ;
+         fhir:display [ fhir:v "Rare" ]
+       ] [
+         fhir:code [ fhir:v "262008008" ] ;
+         fhir:display [ fhir:v "Not performed" ]
+       ] [
+         fhir:code [ fhir:v "17621005" ] ;
+         fhir:display [ fhir:v "Normal" ]
+       ] [
+         fhir:code [ fhir:v "277025001" ] ;
+         fhir:display [ fhir:v "Proven" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

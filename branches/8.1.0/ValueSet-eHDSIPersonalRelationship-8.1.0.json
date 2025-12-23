@@ -1,0 +1,245 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "eHDSIPersonalRelationship-8.1.0",
+  "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIPersonalRelationship",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.38"
+  }],
+  "version" : "8.1.0",
+  "name" : "eHDSIPersonalRelationship",
+  "title" : "eHDSI PersonalRelationship",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-11-18T20:02:38+00:00",
+  "publisher" : "HL7 Europe",
+  "contact" : [{
+    "name" : "HL7 Europe",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://hl7europe.org"
+    }]
+  }],
+  "description" : "The Value Set is used (optionally) to code the type of contact relationship between a person and the patient.",
+  "compose" : {
+    "include" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+      "concept" : [{
+        "code" : "AUNT",
+        "display" : "aunt"
+      },
+      {
+        "code" : "CHILD",
+        "display" : "Child"
+      },
+      {
+        "code" : "CHLDADOPT",
+        "display" : "adopted child"
+      },
+      {
+        "code" : "CHLDFOST",
+        "display" : "foster child"
+      },
+      {
+        "code" : "CHLDINLAW",
+        "display" : "child in-law"
+      },
+      {
+        "code" : "COUSN",
+        "display" : "cousin"
+      },
+      {
+        "code" : "DAU",
+        "display" : "natural daughter"
+      },
+      {
+        "code" : "DAUADOPT",
+        "display" : "adopted daughter"
+      },
+      {
+        "code" : "DAUC",
+        "display" : "daughter"
+      },
+      {
+        "code" : "DAUFOST",
+        "display" : "foster daughter"
+      },
+      {
+        "code" : "DAUINLAW",
+        "display" : "daughter in-law"
+      },
+      {
+        "code" : "DOMPART",
+        "display" : "domestic partner"
+      },
+      {
+        "code" : "FAMMEMB",
+        "display" : "Family Member"
+      },
+      {
+        "code" : "FRND",
+        "display" : "unrelated friend"
+      },
+      {
+        "code" : "FTH",
+        "display" : "Father"
+      },
+      {
+        "code" : "FTHINLAW",
+        "display" : "father-in-law"
+      },
+      {
+        "code" : "GGRPRN",
+        "display" : "great grandparent"
+      },
+      {
+        "code" : "GRNDCHILD",
+        "display" : "grandchild"
+      },
+      {
+        "code" : "GRPRN",
+        "display" : "Grandparent"
+      },
+      {
+        "code" : "MTH",
+        "display" : "Mother"
+      },
+      {
+        "code" : "MTHINLAW",
+        "display" : "mother-in-law"
+      },
+      {
+        "code" : "NBOR",
+        "display" : "neighbor"
+      },
+      {
+        "code" : "NCHILD",
+        "display" : "natural child"
+      },
+      {
+        "code" : "NIENEPH",
+        "display" : "niece/nephew"
+      },
+      {
+        "code" : "PRN",
+        "display" : "Parent"
+      },
+      {
+        "code" : "PRNINLAW",
+        "display" : "parent in-law"
+      },
+      {
+        "code" : "ROOM",
+        "display" : "Roommate"
+      },
+      {
+        "code" : "SIB",
+        "display" : "Sibling"
+      },
+      {
+        "code" : "SIGOTHR",
+        "display" : "significant other"
+      },
+      {
+        "code" : "SON",
+        "display" : "natural son"
+      },
+      {
+        "code" : "SONADOPT",
+        "display" : "adopted son"
+      },
+      {
+        "code" : "SONC",
+        "display" : "son"
+      },
+      {
+        "code" : "SONFOST",
+        "display" : "foster son"
+      },
+      {
+        "code" : "SONINLAW",
+        "display" : "son in-law"
+      },
+      {
+        "code" : "SPS",
+        "display" : "spouse"
+      },
+      {
+        "code" : "STPCHLD",
+        "display" : "step child"
+      },
+      {
+        "code" : "STPDAU",
+        "display" : "stepdaughter"
+      },
+      {
+        "code" : "STPSON",
+        "display" : "stepson"
+      },
+      {
+        "code" : "UNCLE",
+        "display" : "uncle"
+      },
+      {
+        "code" : "EXT",
+        "display" : "extended family member"
+      },
+      {
+        "code" : "GGRFTH",
+        "display" : "great grandfather"
+      },
+      {
+        "code" : "GGRMTH",
+        "display" : "great grandmother"
+      },
+      {
+        "code" : "GRNDDAU",
+        "display" : "granddaughter"
+      },
+      {
+        "code" : "GRNDSON",
+        "display" : "grandson"
+      },
+      {
+        "code" : "GRFTH",
+        "display" : "Grandfather"
+      },
+      {
+        "code" : "GRMTH",
+        "display" : "Grandmother"
+      },
+      {
+        "code" : "BROINLAW",
+        "display" : "brother-in-law"
+      },
+      {
+        "code" : "SISINLAW",
+        "display" : "sister-in-law"
+      },
+      {
+        "code" : "NEPHEW",
+        "display" : "nephew"
+      },
+      {
+        "code" : "NIECE",
+        "display" : "niece"
+      },
+      {
+        "code" : "BRO",
+        "display" : "Brother"
+      },
+      {
+        "code" : "SIS",
+        "display" : "Sister"
+      },
+      {
+        "code" : "HUSB",
+        "display" : "husband"
+      },
+      {
+        "code" : "WIFE",
+        "display" : "wife"
+      }]
+    }]
+  }
+}

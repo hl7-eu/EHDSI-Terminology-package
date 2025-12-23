@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>eHDSI Medical Device - eHDSI Terminologies v0.2.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"3.30"}
+    h3,h4,h5,h6{--heading-prefix:"3.30"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">eHDSI Terminologies</span>
+            <br/>
+            <span style="display:inline-block;">0.2.0 - ci-build
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Artifacts
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="artifacts.html">Profiles</a>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>eHDSI Medical Device</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">eHDSI Terminologies, published by HL7 Europe. This guide is not an authorized publication; it is the continuous build for version 0.2.0 built by the FHIR (HL7® FHIR® Standard) CI Build. This version is based on the current content of <a href="https://github.com/hl7-eu/EHDSI-Terminology-package/tree/8.1.0">https://github.com/hl7-eu/EHDSI-Terminology-package/tree/8.1.0</a> and changes regularly. See the <a href="http://hl7europe.org/fhir/terminology/ehdsi/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="ValueSet-eHDSIMedicalDevice.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-eHDSIMedicalDevice.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-eHDSIMedicalDevice.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+  <a name="root"> </a>
+  <h2 id="root">ValueSet: eHDSI Medical Device
+
+  </h2>
+  
+  <table class="colsd">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIMedicalDevice<button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIMedicalDevice"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">0.2.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIMedicalDevice|0.2.0"/></span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          Draft
+          
+            as of 2025-02-08
+          
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">eHDSIMedicalDevice</span></td>
+    </tr>
+
+    <tr>
+      <td colspan="5">
+        <i>Other Identifiers:</i> UUID:1.3.6.1.4.1.12559.11.10.1.3.1.42.8
+      </td>
+    </tr>
+
+
+
+
+  </table>
+
+<p>
+<p>nan</p>
+
+</p>
+
+
+  <p>
+    <b>References</b>
+  </p>
+  
+<p>This value set is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)</p>
+
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <a name="definition"> </a>
+
+<!-- Content Logical Definition heading in the fragment -->
+  <h3>Logical Definition (CLD)</h3>
+<div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet eHDSIMedicalDevice</b></p><a name="eHDSIMedicalDevice"> </a><a name="hceHDSIMedicalDevice"> </a><a name="eHDSIMedicalDevice-en-US"> </a><p>This value set includes codes based on the following rules:</p>
+<ul><li>Include these codes as defined in <code>urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.44.6</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>A100101</td><td>ONE PIECE COLOSTOMY BAGS</td></tr><tr><td>A10010101</td><td>ONE-PIECE COLOSTOMY BAGS FOR NON-RETRACTED STOMA, FLAT</td></tr><tr><td>A1001010101</td><td>ONE-PIECE COLOSTOMY BAGS FOR NON-RETRACTED STOMA, FLAT, W/O TISSUE COVER</td></tr><tr><td>A1001010102</td><td>ONE-PIECE COLOSTOMY BAGS FOR NON-RETRACTED STOMA, FLAT, WITH TISSUE COVER</td></tr><tr><td>A10010102</td><td>ONE-PIECE COLOSTOMY BAGS FOR RETRACTED STOMA, CONVEX</td></tr><tr><td>A1001010201</td><td>ONE-PIECE COLOSTOMY BAGS FOR RETRACTED STOMA, CONVEX, W/O TISSUE COVER</td></tr><tr><td>A1001010202</td><td>ONE-PIECE COLOSTOMY BAGS FOR RETRACTED STOMA, CONVEX, WITH TISSUE COVER</td></tr><tr><td>A100102</td><td>ONE PIECE ILEOSTOMY BAGS</td></tr><tr><td>A10010201</td><td>ONE-PIECE ILEOSTOMY BAGS FOR NON-RETRACTED STOMA, FLAT</td></tr><tr><td>A1001020101</td><td>ONE-PIECE ILEOSTOMY BAGS FOR NON-RETRACTED STOMA, FLAT, W/O TISSUE COVER</td></tr><tr><td>A1001020102</td><td>ONE-PIECE ILEOSTOMY BAGS FOR NON-RETRACTED STOMA, FLAT, WITH TISSUE COVER</td></tr><tr><td>A10010202</td><td>ONE-PIECE ILEOSTOMY BAGS FOR RETRACTED STOMA, CONVEX</td></tr><tr><td>A1001020201</td><td>ONE-PIECE ILEOSTOMY BAGS FOR RETRACTED STOMA, CONVEX, W/O TISSUE COVER</td></tr><tr><td>A1001020202</td><td>ONE-PIECE ILEOSTOMY BAGS FOR RETRACTED STOMA, CONVEX, WITH TISSUE COVER</td></tr><tr><td>A100103</td><td>ONE PIECE UROSTOMY BAGS</td></tr><tr><td>A10010301</td><td>ONE-PIECE UROSTOMY BAGS FOR NON-RETRACTED STOMA, FLAT</td></tr><tr><td>A1001030101</td><td>ONE-PIECE UROSTOMY BAGS FOR NON-RETRACTED STOMA, FLAT, W/O TISSUE COVER</td></tr><tr><td>A1001030102</td><td>ONE-PIECE UROSTOMY BAGS FOR NON-RETRACTED STOMA, FLAT, WITH TISSUE COVER</td></tr><tr><td>A10010302</td><td>ONE-PIECE UROSTOMY BAGS FOR RETRACTED STOMA, CONVEX</td></tr><tr><td>A1001030201</td><td>ONE-PIECE UROSTOMY BAGS FOR RETRACTED STOMA, CONVEX, W/O TISSUE COVER</td></tr><tr><td>A1001030202</td><td>ONE-PIECE UROSTOMY BAGS FOR RETRACTED STOMA, CONVEX, WITH TISSUE COVER</td></tr><tr><td>A100104</td><td>EXPANSION CAPS FOR ABDOMINAL OSTOMY SYSTEMS - ONE PIECE</td></tr><tr><td>A100199</td><td>DEVICES FOR ABDOMINAL OSTOMY - ONE PIECE - OTHER</td></tr><tr><td>A1002</td><td>ABDOMINAL OOSTOMY DEVICES, TWO PIECE</td></tr><tr><td>A100201</td><td>ABDOMINAL OSTOMY PLATES</td></tr><tr><td>A10020101</td><td>COLOSTOMY PLATES</td></tr><tr><td>A1002010101</td><td>COLOSTOMY PLATES, WITH NON-RETRACTED STOMA</td></tr><tr><td>A1002010102</td><td>COLOSTOMY PLATES, WITH RETRACTED STOMA</td></tr><tr><td>A10020102</td><td>ILEOSTOMY PLATES</td></tr><tr><td>A1002010201</td><td>ILEOSTOMY PLATES, WITH NON-RETRACTED STOMA</td></tr><tr><td>A1002010202</td><td>ILEOSTOMY PLATES, WITH RETRACTED STOMA</td></tr><tr><td>A10020103</td><td>UROSTOMY PLATES</td></tr><tr><td>A1002010301</td><td>UROSTOMY PLATES, WITH NON-RETRACTED STOMA</td></tr><tr><td>A1002010302</td><td>UROSTOMY PLATES WITH RETRACTED STOMA</td></tr><tr><td>A10020104</td><td>UNIVERSAL PLATES FOR ABDOMINAL STOMA (COLO-, ILEO-, UROSTOMY)</td></tr><tr><td>A1002010401</td><td>UNIVERSAL PLATES FOR ABDOMINAL STOMA (COLO-, ILEO-, UROSTOMY) WITH NON-INTROFLEX STOMA</td></tr><tr><td>A1002010402</td><td>UNIVERSAL PLATES FOR ABDOMINAL STOMA (COLO-, ILEO-, UROSTOMY) WITH INTROFLEX STOMA</td></tr><tr><td>A100202</td><td>COLOSTOMY BAGS FOR TWO-PART SYSTEMS</td></tr><tr><td>A10020201</td><td>OLOSTOMY BAGS FOR TWO-PART SYSTEMS, W/O TISSUE COVER</td></tr><tr><td>A10020202</td><td>COLOSTOMY BAGS FOR TWO-PART SYSTEMS, WITH TISSUE COVER</td></tr><tr><td>A100203</td><td>ILEOSTOMY BAGS FOR TWO-PART SYSTEMS</td></tr><tr><td>A10020301</td><td>ILEOSTOMY BAGS FOR TWO-PART SYSTEMS, W/O TISSUE COVER</td></tr><tr><td>A10020302</td><td>ILEOSTOMY BAGS FOR TWO-PART SYSTEMS, WITH TISSUE COVER</td></tr><tr><td>A100204</td><td>UROSTOMY BAGS FOR TWO-PART SYSTEMS</td></tr><tr><td>A10020401</td><td>UROSTOMY BAGS FOR TWO-PART SYSTEMS, W/O TISSUE COVER</td></tr><tr><td>A10020402</td><td>UROSTOMY BAGS FOR TWO-PART SYSTEMS, WITH TISSUE COVER</td></tr><tr><td>A100205</td><td>EXPANSION CAPS FOR TWO-PIECE ABDOMINAL OSTOMY SYSTEMS</td></tr><tr><td>A100299</td><td>TWO-PIECE ABDOMINAL OSTOMY DEVICES - OTHER</td></tr><tr><td>A108001</td><td>RINGS / BEZELS / PLATES FOR PERISTOMAL SKIN</td></tr><tr><td>A108002</td><td>PROTECTIVE CREAMS / GELS FOR PERISTOMAL SKIN</td></tr><tr><td>A108003</td><td>PROTECTIVE POWDERS FOR PERISTOMAL SKIN</td></tr><tr><td>A108004</td><td>PROTECTIVE FILMS / SPRAYS FOR PERISTOMAL SKIN</td></tr><tr><td>A108006</td><td>ABDOMINAL OSTOMY SUPPORT BELTS</td></tr><tr><td>A1099</td><td>ABDOMINAL OSTOMY DEVICES - OTHER</td></tr><tr><td>C010204</td><td>SUBCUTANEOUS IMPLANTABLE VENOUS ACCESS PORT SYSTEMS</td></tr><tr><td>C01020401</td><td>SUBCUTANEOUS IMPLANTABLE VENOUS ACCESS PORT SYSTEMS, SINGLE-CHAMBER</td></tr><tr><td>C01020402</td><td>SUBCUTANEOUS IMPLANTABLE VENOUS ACCESS PORT SYSTEMS, DUAL-CHAMBER OR DOUBLE-LUMEN</td></tr><tr><td>C01020499</td><td>SUBCUTANEOUS IMPLANTABLE VENOUS ACCESS PORT SYSTEMS - OTHER</td></tr><tr><td>C0104020208</td><td>TRANSJUGULAR INTRAHEPATIC PORTOSYSTEMIC SHUNT (TIPS) PERCUTANEOUS SYSTEMS</td></tr><tr><td>C019006</td><td>CAROTID ARTERY SHUNTS</td></tr><tr><td>C019016</td><td>PERITONEOVENOUS SHUNTS</td></tr><tr><td>C03900202</td><td>INTRACORONARY SHUNTS</td></tr><tr><td>G0205</td><td>DEVICES FOR THE SURGICAL OBESITY THERAPY</td></tr><tr><td>G020501</td><td>GASTRIC BANDS</td></tr><tr><td>G020502</td><td>GASTRIC CALIBRATION TUBES</td></tr><tr><td>G020503</td><td>GASTRIC BAND SYSTEM ADJUSTMENT SETS</td></tr><tr><td>G020599</td><td>DEVICES FOR THE SURGICAL THERAPY OF OBESITY - OTHER</td></tr><tr><td>G030601</td><td>INTRAGASTRIC BALLOON SYSTEMS</td></tr><tr><td>G030603</td><td>INTESTINAL COATING YSTEMS FOR ABSORPTION REDUCTION</td></tr><tr><td>G030699</td><td>DEVICES FOR THE NON-SURGICAL TREATMENT OF OBESITY - OTHER</td></tr><tr><td>G04</td><td>ORALLY ADMINISTERED GASTROINTESTINAL DEVICES</td></tr><tr><td>G0401</td><td>ORALLY ADMINISTERED DEVICES FOR THE THERAPY OF GASTRO-INTESTINAL DISORDERS</td></tr><tr><td>G0402</td><td>ORALLY ADMINISTERED DEVICES FOR APPETITE CONTROL AND REDUCTION OF INTESTINAL ABSORPTION</td></tr><tr><td>G0499</td><td>ORALLY ADMINISTERED GASTROINTESTINAL DEVICES - OTHER</td></tr><tr><td>J01</td><td>CARDIAC FUNCTIONALITY IMPLANTABLE DEVICES</td></tr><tr><td>J0101</td><td>IMPLANTABLE PACEMAKERS</td></tr><tr><td>J010101</td><td>IMPLANTABLE SINGLE CHAMBER PACEMAKERS</td></tr><tr><td>J01010101</td><td>IMPLANTABLE SINGLE CHAMBER PACEMAKERS (SC)</td></tr><tr><td>J01010102</td><td>IMPLANTABLE SINGLE CHAMBER PACEMAKERS WITH SENSOR (SR)</td></tr><tr><td>J010102</td><td>IMPLANTABLE SINGLE LEAD PACEMAKERS</td></tr><tr><td>J01010201</td><td>IMPLANTABLE SINGLE LEAD VDD PACEMAKERS</td></tr><tr><td>J01010202</td><td>IMPLANTABLE SINGLE LEAD VDDR PACEMAKERS WITH SENSOR</td></tr><tr><td>J010103</td><td>IMPLANTABLE DUAL CHAMBER PACEMAKERS</td></tr><tr><td>J01010301</td><td>IMPLANTABLE DUAL CHAMBER PACEMAKERS (DC)</td></tr><tr><td>J01010302</td><td>IMPLANTABLE DUAL CHAMBER PACEMAKERS WITH SENSOR (DR)</td></tr><tr><td>J010104</td><td>IMPLANTABLE TRIPLE CHAMBER PACEMAKERS</td></tr><tr><td>J01010401</td><td>IMPLANTABLE TRIPLE CHAMBER PACEMAKERS FOR CARDIAC RESYNCHRONIZATION (TR)</td></tr><tr><td>J010105</td><td>IMPLANTABLE PACEMAKERS WITH INCORPORATED ELECTRODES (LEADLESS)</td></tr><tr><td>J010180</td><td>IMPLANTABLE PACEMAKERS - ACCESSORIES</td></tr><tr><td>J010199</td><td>IMPLANTABLE PACEMAKERS - OTHER</td></tr><tr><td>J0102</td><td>IMPLANTABLE CARDIAC DIAGNOSTIC DEVICES</td></tr><tr><td>J010201</td><td>IMPLANTABLE DIAGNOSTIC ARRHYTHMIAS RECORDING CARDIAC DEVICES</td></tr><tr><td>J010280</td><td>CARDIAC DIAGNOSTIC DEVICES - ACCESSORIES</td></tr><tr><td>J010299</td><td>CARDIAC DIAGNOSTIC DEVICES - OTHER</td></tr><tr><td>J0103</td><td>IMPLANTABLE VENTRICULAR ASSISTANCE SYSTEMS</td></tr><tr><td>J010301</td><td>IMPLANTABLE MONOVENTRICULAR AND BIVENTRICULAR ASSISTANCE SYSTEMS</td></tr><tr><td>J01030101</td><td>IMPLANTABLE RIGHT MONOVENTRICULAR ASSISTANCE SYSTEMS (RVAD)</td></tr><tr><td>J01030102</td><td>IMPLANTABLE LEFT MONOVENTRICULAR ASSISTANCE SYSTEMS (LVAD)</td></tr><tr><td>J01030103</td><td>IMPLANTABLE BIVENTRICULAR ASSISTANCE SYSTEMS (BIVAD)</td></tr><tr><td>J010380</td><td>IMPLANTABLE VENTRICULAR ASSISTANCE SYSTEMS - ACCESSORIES</td></tr><tr><td>J010399</td><td>IMPLANTABLE VENTRICULAR ASSISTANCE SYSTEMS - OTHER</td></tr><tr><td>J0104</td><td>IMPLANTABLE ARTIFICIAL HEART AND IMPLANT KITS</td></tr><tr><td>J010401</td><td>IMPLANTABLE ARTIFICIAL HEART AND IMPLANT KITS</td></tr><tr><td>J010480</td><td>IMPLANTABLE ARTIFICIAL HEART AND IMPLANT KITS - ACCESSORIES</td></tr><tr><td>J010499</td><td>IMPLANTABLE ARTIFICIAL HEART AND IMPLANT KITS - OTHER</td></tr><tr><td>J0105</td><td>IMPLANTABLE DEFIBRILLATORS</td></tr><tr><td>J010501</td><td>IMPLANTABLE SINGLE CHAMBER DEFIBRILLATORS</td></tr><tr><td>J01050101</td><td>IMPLANTABLE SINGLE CHAMBER DEFIBRILLATORS, WITH SENSORS</td></tr><tr><td>J010502</td><td>IMPLANTABLE DUAL CHAMBER DEFIBRILLATORS</td></tr><tr><td>J01050201</td><td>IMPLANTABLE DUAL CHAMBER DEFIBRILLATORS, WITH SENSORS</td></tr><tr><td>J010503</td><td>IMPLANTABLE TRIPLE CHAMBER DEFIBRILLATORS</td></tr><tr><td>J01050301</td><td>IMPLANTABLE TRIPLE CHAMBER DEFIBRILLATORS, WITH SENSORS</td></tr><tr><td>J010504</td><td>SUBCUTANEOUS IMPLANTABLE DEFIBRILLATORS</td></tr><tr><td>J010580</td><td>IMPLANTABLE DEFIBRILLATORS - ACCESSORIES</td></tr><tr><td>J010599</td><td>IMPLANTABLE DEFIBRILLATORS - OTHER</td></tr><tr><td>J0106</td><td>CARDIAC CONTRACTILITY MODULATION IMPLANTABLE DEVICES</td></tr><tr><td>J0107</td><td>ACTIVE IMPLANTABLE CARDIAC DEVICES REMOTE MONITORING SYSTEMS</td></tr><tr><td>J010701</td><td>PULMONARY BLOOD PRESSURE REMOTE MONITORING SYSTEMS (INCLUDING SENSORS)</td></tr><tr><td>J010702</td><td>PACEMAKER AND IMPLANTABLE DEFIBRILLATOR REMOTE MONITORING SYSTEMS</td></tr><tr><td>J010780</td><td>ACTIVE IMPLANTABLE CARDIAC DEVICES REMOTE MONITORING SYSTEMS - HARDWARE ACCESSORIES</td></tr><tr><td>J010782</td><td>ACTIVE IMPLANTABLE CARDIAC DEVICES REMOTE MONITORING SYSTEMS - SOFTWARE ACCESSORIES</td></tr><tr><td>J010799</td><td>ACTIVE IMPLANTABLE CARDIAC DEVICES REMOTE MONITORING SYSTEMS - OTHER</td></tr><tr><td>J0190</td><td>IMPLANTABLE CARDIAC DEVICES - VARIOUS</td></tr><tr><td>J019001</td><td>PERMANENT CARDIAC LEADS</td></tr><tr><td>J01900101</td><td>PERMANENT PACEMAKER LEADS (WITH OR W/O STEROID-ELUTION)</td></tr><tr><td>J0190010101</td><td>ENDOCARDIAL ATRIAL AND VENTRICULAR LEADS, UNIPOLAR</td></tr><tr><td>J019001010101</td><td>ATRIAL LEADS, PASSIVE FIXATION</td></tr><tr><td>J019001010102</td><td>VENTRICULAR LEADS, PASSIVE FIXATION</td></tr><tr><td>J0190010102</td><td>ENDOCARDIAL ATRIAL AND VENTRICULAR LEADS, BIPOLAR (WITH ACTIVE OR PASSIVE FIXATION)</td></tr><tr><td>J0190010103</td><td>LEFT VENTRICULAR LEADS WITH CORONARY SINUS CANNULATION SYSTEM (TRIPLE CHAMBER P.M.)</td></tr><tr><td>J0190010104</td><td>ENDOCARDIAL PACEMAKER LEADS, SINGLE-LEAD</td></tr><tr><td>J0190010105</td><td>EPICARDIAL PERMANENT CARDIAC LEADS</td></tr><tr><td>J01900102</td><td>PERMANENT DEFIBRILLATOR LEADS (STEROID RELEASE INCLUDED)</td></tr><tr><td>J0190010201</td><td>PERMANENT PACING AND DEFIBRILLATION RIGHT VENTRICULAR LEADS (WITH ACTIVE AND PASSIVE FIXATION)</td></tr><tr><td>J019001020101</td><td>PERMANENT CARDIAC DEFIBRILLATOR LEADS, SINGLE COIL</td></tr><tr><td>J019001020102</td><td>PERMANENT CARDIAC DEFIBRILLATOR LEADS, DOUBLE COIL</td></tr><tr><td>J019001020199</td><td>PERMANENT PACING AND DEFIBRILLATION RIGHT VENTRICULAR LEADS - OTHER</td></tr><tr><td>J0190010202</td><td>PERMANENT SUBCUTANEOUS DEFIBRILLATOR LEADS</td></tr><tr><td>J01900180</td><td>PERMANENT CARDIAC LEADS - ACCESSORIES</td></tr><tr><td>J01900199</td><td>PERMANENT CARDIAC LEADS - OTHER</td></tr><tr><td>J019002</td><td>IMPLANTABLE CARDIAC DEVICES PROGRAMMERS AND ACCESSORIES</td></tr><tr><td>J01900203</td><td>IMPLANTABLE CARDIAC DEVICES PROGRAMMERS</td></tr><tr><td>J01900280</td><td>IMPLANTABLE CARDIAC DEVICES PROGRAMMERS - HARDWARE ACCESSORY</td></tr><tr><td>J01900282</td><td>IMPLANTABLE CARDIAC DEVICES PROGRAMMERS - SOFTWARE ACCESSORY</td></tr><tr><td>J01900285</td><td>IMPLANTABLE CARDIAC DEVICES PROGRAMMERS - CONSUMABLES</td></tr><tr><td>J019003</td><td>ACTIVE-IMPLANTABLE CARDIAC SYSTEMS MAGNETISED DEVICES</td></tr><tr><td>J019004</td><td>ACTIVE-IMPLANTABLE CARDIAC SYSTEMS ADAPTORS</td></tr><tr><td>J019005</td><td>CARDIAC LEADS EXTRACTION SYSTEMS</td></tr><tr><td>J019099</td><td>IMPLANTABLE CARDIAC DEVICES - OTHER</td></tr><tr><td>J02</td><td>IMPLANTABLE NEUROSTIMULATORS</td></tr><tr><td>J0201</td><td>CEREBRAL IMPLANTABLE NEUROSTIMULATORS</td></tr><tr><td>J020101</td><td>DEEP BRAIN STIMULATION (DBS) IMPLANTABLE NEUROSTIMULATORS</td></tr><tr><td>J02010101</td><td>DEEP BRAIN STIMULATION (DBS) IMPLANTABLE NEUROSTIMULATORS, RECHARGEABLE</td></tr><tr><td>J02010102</td><td>DEEP BRAIN STIMULATION (DBS) IMPLANTABLE NEUROSTIMULATORS, NOT RECHARGEABLE</td></tr><tr><td>J020102</td><td>DEEP BRAIN STIMULATION (DBS) LEADS</td></tr><tr><td>J020180</td><td>CEREBRAL IMPLANTABLE NEUROSTIMULATORS - ACCESSORIES</td></tr><tr><td>J020199</td><td>CEREBRAL IMPLANTABLE NEUROSTIMULATORS - OTHER</td></tr><tr><td>J0202</td><td>SPINAL IMPLANTABLE NEUROSTIMULATORS</td></tr><tr><td>J020201</td><td>RADIOFREQUENCY IMPLANTABLE SPINAL NEUROSTIMULATORS</td></tr><tr><td>J020202</td><td>FULLY IMPLANTABLE SPINAL NEUROSTIMULATORS</td></tr><tr><td>J02020201</td><td>FULLY IMPLANTABLE SPINAL NEUROSTIMULATORS, RECHARGEABLE</td></tr><tr><td>J02020202</td><td>FULLY IMPLANTABLE SPINAL NEUROSTIMULATORSS, NOT RECHARGEABLE</td></tr><tr><td>J020203</td><td>SPINAL NEUROSTIMULATION LEADS</td></tr><tr><td>J020280</td><td>SPINAL IMPLANTABLE NEUROSTIMULATORS - ACCESSORIES</td></tr><tr><td>J020299</td><td>SPINAL IMPLANTABLE NEUROSTIMULATORS - OTHER</td></tr><tr><td>J0203</td><td>VAGAL IMPLANTABLE NEUROSTIMULATORS</td></tr><tr><td>J020301</td><td>DRUG-RESISTANT EPILEPSY NON-SURGICAL THERAPY IMPLANTABLE NEUROSTIMULATORS</td></tr><tr><td>J020302</td><td>VAGAL NEUROSTIMULATION LEADS</td></tr><tr><td>J020380</td><td>VAGAL IMPLANTABLE NEUROSTIMULATORS - ACCESSORIES</td></tr><tr><td>J020399</td><td>VAGAL IMPLANTABLE NEUROSTIMULATORS - OTHER</td></tr><tr><td>J0204</td><td>SACRAL SPINE IMPLANTABLE NEUROSTIMULATORS</td></tr><tr><td>J020401</td><td>BLADDER INCONTINENCE NEUROSTIMULATORS</td></tr><tr><td>J020402</td><td>INTESTINAL INCONTINENCE NEUROSTIMULATORS</td></tr><tr><td>J020403</td><td>SACRAL SPINE NEUROSTIMULATION LEADS</td></tr><tr><td>J020480</td><td>SACRAL SPINE IMPLANTABLE NEUROSTIMULATORS - ACCESSORIES</td></tr><tr><td>J020499</td><td>SACRAL SPINE IMPLANTABLE NEUROSTIMULATORS - OTHER</td></tr><tr><td>J0206</td><td>FRENIC NERVE IMPLANTABLE NEUROSTIMULATORS</td></tr><tr><td>J0207</td><td>NEUROSTIMULATORS PROGRAMMERS AND ACCESSORIES</td></tr><tr><td>J020701</td><td>NEUROSTIMULATORS PROGRAMMERS</td></tr><tr><td>J020780</td><td>NEUROSTIMULATORS PROGRAMMERS - HARDWARE ACCESSORIES</td></tr><tr><td>J020782</td><td>NEUROSTIMULATORS PROGRAMMERS - SOFTWARE ACCESSORIES</td></tr><tr><td>J020785</td><td>NEUROSTIMULATORS PROGRAMMERS - CONSUMABLES</td></tr><tr><td>J0208</td><td>GASTRIC IMPLANTABLE NEUROSTIMULATORS</td></tr><tr><td>J020801</td><td>INFERIOR ESOPHAGEAL SPHINCTER IMPLANTABLE NEUROSTIMULATORS</td></tr><tr><td>J020802</td><td>GASTRIC IMPLANTABLE OBESITY TREATMENT NEUROSTIMULATORS</td></tr><tr><td>J020803</td><td>GASTRIC IMPLANTABLE NAUSEA THERAPY NEUROSTIMULATORS</td></tr><tr><td>J020804</td><td>GASTRIC NEUROSTIMULATION LEADS</td></tr><tr><td>J0209</td><td>CAROTID SINUS IMPLANTABLE NEUROSTIMULATORS AND LEADS</td></tr><tr><td>J0210</td><td>PERIPHERAL NERVE IMPLANTABLE NEUROSTIMULATORS AND PAIN THERAPY LEADS</td></tr><tr><td>J0211</td><td>SLEEP APNEA TREATMENT IMPLANTABLE NEUROSTIMULATORS AND LEADS</td></tr><tr><td>J0280</td><td>IMPLANTABLE NEUROSTIMULATORS - ACCESSORIES</td></tr><tr><td>J0299</td><td>IMPLANTABLE NEUROSTIMULATORS - OTHER</td></tr><tr><td>J03</td><td>AUDITORY ACTIVE-IMPLANTABLE DEVICES</td></tr><tr><td>J0301</td><td>COCHLEAR IMPLANTABLE DEVICES</td></tr><tr><td>J0302</td><td>MIDDLE EAR ACTIVE-IMPLANTABLE DEVICES</td></tr><tr><td>J0303</td><td>PROFOUND DEAFNESS BRAINSTEM ACTIVE-IMPLANTABLE DEVICES</td></tr><tr><td>J0380</td><td>AUDITORY ACTIVE-IMPLANTABLE DEVICES - ACCESSORIES</td></tr><tr><td>J0399</td><td>AUDITORY ACTIVE-IMPLANTABLE DEVICES - OTHER</td></tr><tr><td>J04</td><td>IMPLANTABLE PUMPS</td></tr><tr><td>J0401</td><td>IMPLANTABLE PUMPS, ELECTRONIC</td></tr><tr><td>J0402</td><td>IMPLANTABLE PUMPS, MECHANICAL</td></tr><tr><td>J0403</td><td>IMPLANTABLE PUMPS PROGRAMMERS AND ACCESSORIES</td></tr><tr><td>J040301</td><td>IMPLANTABLE PUMPS PROGRAMMERS</td></tr><tr><td>J040380</td><td>IMPLANTABLE PUMPS PROGRAMMERS - HARDWARE ACCESSORIES</td></tr><tr><td>J040382</td><td>IMPLANTABLE PUMPS PROGRAMMERS - SOFTWARE ACCESSORIES</td></tr><tr><td>J040385</td><td>IMPLANTABLE PUMPS PROGRAMMERS - CONSUMABLES</td></tr><tr><td>J0480</td><td>IMPLANTABLE PUMPS - ACCESSORIES</td></tr><tr><td>J0499</td><td>IMPLANTABLE PUMPS - OTHER</td></tr><tr><td>J05</td><td>BRACHYTHERAPY IMPLANTABLE DEVICES</td></tr><tr><td>J0501</td><td>BRACHYTHERAPY SOURCES</td></tr><tr><td>J0502</td><td>BRACHYTHERAPY ADMINISTRATION KITS</td></tr><tr><td>J0580</td><td>IMPLANTABLE BRACHYTHERAPY DEVICES - ACCESSORIES</td></tr><tr><td>J06</td><td>ACTIVE IMPLANTABLE GLUCOSE MONITORING SYSTEMS</td></tr><tr><td>J0601</td><td>IMPLANTABLE GLUCOSE MONITORING SENSORS</td></tr><tr><td>J0602</td><td>ACTIVE IMPLANTABLE GLUCOSE MONITORING SYSTEM TRANSMITTERS</td></tr><tr><td>J0680</td><td>ACTIVE IMPLANTABLE GLUCOSE MONITORING SYSTEMS - ACCESSORIES</td></tr><tr><td>J07</td><td>OPHTHALMOLOGICAL USE ACTIVE IMPLANTABLE DEVICES</td></tr><tr><td>J0701</td><td>ACTIVE RETINAL IMPLANTABLE DEVICES</td></tr><tr><td>J0702</td><td>INTRAOCULAR PRESSURE MONITORING IMPLANTABLE DEVICES</td></tr><tr><td>J0780</td><td>OPHTHALMOLOGICAL USE ACTIVE IMPLANTABLE DEVICES - ACCESSORIES</td></tr><tr><td>J0799</td><td>OPHTHALMOLOGICAL USE ACTIVE IMPLANTABLE DEVICES - OTHER</td></tr><tr><td>J99</td><td>ACTIVE-IMPLANTABLE DEVICES - OTHER</td></tr><tr><td>N0101</td><td>NEUROPHYSIOLOGY DEVICES</td></tr><tr><td>N010101</td><td>ELECTROMYOGRAPHIC ELECTRODES</td></tr><tr><td>N010102</td><td>ELECTROENCEPHALOGRAPHIC ELECTRODES</td></tr><tr><td>N01010201</td><td>EEG INTRACRANIC ELECTRODES</td></tr><tr><td>N0101020101</td><td>EEG CORTICAL ELECTRODES</td></tr><tr><td>N0101020102</td><td>EEG DEPTH ELECTRODES</td></tr><tr><td>N0101020199</td><td>EEG INTRACRANIC ELECTRODES - OTHER</td></tr><tr><td>N01010202</td><td>EEG EXTRACRANIC ELECTRODES</td></tr><tr><td>N01010203</td><td>EEG HEADSETS</td></tr><tr><td>N01010299</td><td>EEG ELECTRODES - OTHER</td></tr><tr><td>N010103</td><td>BIPOLAR NERVOUS ELECTROSTIMULATORS, BATTERY-POWERED</td></tr><tr><td>N010180</td><td>NEUROPHYSIOLOGY DEVICES - ACCESSORIES</td></tr><tr><td>N010199</td><td>NEUROPHYSIOLOGY DEVICES - OTHER</td></tr><tr><td>N0102</td><td>NEUROLOGIC PHYSIOTHERAPHY DEVICES</td></tr><tr><td>N010201</td><td>TENS SYSTEM ELECTRODES</td></tr><tr><td>N010202</td><td>STIMULATION POINT LOCATORS</td></tr><tr><td>N010280</td><td>NEUROLOGICAL PHYSIOTHERAPY DEVICES - ACCESSORIES</td></tr><tr><td>N01028001</td><td>SPONGES FOR THE APPLICATION OF CUTANEOUS NEUROLOGICAL ELECTRODES</td></tr><tr><td>N01028002</td><td>NEUROLOGICAL PHYSIOTHERAPY CONNECTORS</td></tr><tr><td>N01028003</td><td>NEUROLOGICAL ELECTRODES BANDS</td></tr><tr><td>N01028099</td><td>NEUROLOGICAL PHYSIOTHERAPY DEVICES - ACCESSORIES - OTHER</td></tr><tr><td>N010299</td><td>NEUROLOGIC PHYSIOTHERAPHY DEVICES - OTHER</td></tr><tr><td>N010301</td><td>VENTRICULAR-PERITONEAL SHUNTS</td></tr><tr><td>N010302</td><td>VENTRICULAR-ATRIAL SHUNTS</td></tr><tr><td>N020301</td><td>LUMBO-PERITONEAL SHUNTS</td></tr><tr><td>P01</td><td>FACIAL AND ODONTOLOGICAL PROSTHESES</td></tr><tr><td>P0101</td><td>FACIAL PROSTHESES</td></tr><tr><td>P010101</td><td>CHIN PROSTHESES</td></tr><tr><td>P010102</td><td>ZYGOMATIC PROSTHESES</td></tr><tr><td>P010103</td><td>MANDIBULAR PROSTHESES</td></tr><tr><td>P010199</td><td>FACIAL PROSTHESES - OTHER</td></tr><tr><td>P0102</td><td>ODONTOLOGICAL PROSTHESES</td></tr><tr><td>P010201</td><td>DENTAL IMPLANTS AND ACCESSORIES</td></tr><tr><td>P01020101</td><td>DENTAL IMPLANTS</td></tr><tr><td>P01020180</td><td>DENTAL IMPLANTS - ACCESSORIES</td></tr><tr><td>P010299</td><td>ODONTOLOGICAL PROSTHESES - OTHER</td></tr><tr><td>P0180</td><td>FACIAL AND ODONTOLOGICAL PROSTHESES - ACCESSORIES</td></tr><tr><td>P0199</td><td>FACIAL AND ODONTOLOGICAL PROSTHESES - OTHER</td></tr><tr><td>P02</td><td>ENT PROSTHESES</td></tr><tr><td>P0201</td><td>OTOLOGIC PROSTHESES</td></tr><tr><td>P020101</td><td>MIDDLE EAR IMPLANTS</td></tr><tr><td>P02010101</td><td>OSSICULAR PROSTHESES (PORP AND TORP)</td></tr><tr><td>P02010102</td><td>STAPEDIOPLASTIC PROSTHESES</td></tr><tr><td>P02010103</td><td>EUSTACHIAN TUBE PROSTHESIS</td></tr><tr><td>P02010199</td><td>MIDDLE EAR IMPLANTS - OTHER</td></tr><tr><td>P020102</td><td>EXTERNAL-MIDDLE EAR IMPLANTS</td></tr><tr><td>P02010201</td><td>TRANSTYMPANIC DRAINAGE PROSTHESES (VENTILATION TUBES)</td></tr><tr><td>P02010202</td><td>TYMPANIC PROSTHESES</td></tr><tr><td>P02010299</td><td>EXTERNAL-MIDDLE EAR IMPLANTS- OTHER</td></tr><tr><td>P020103</td><td>EXTERNAL EAR PROSTHESES</td></tr><tr><td>P020180</td><td>OTOLOGIC PROSTHESES - ACCESSORIES</td></tr><tr><td>P020199</td><td>OTOLOGIC PROSTHESES - OTHER</td></tr><tr><td>P0202</td><td>RHINOLOGY PROSTHESES</td></tr><tr><td>P020201</td><td>NASAL SEPTAL PLUGGERS</td></tr><tr><td>P020202</td><td>NASAL SINUS STENTS</td></tr><tr><td>P020203</td><td>NASAL SPLINTS</td></tr><tr><td>P020299</td><td>RHINOLOGY PROSTHESES - OTHER</td></tr><tr><td>P0203</td><td>PHARYNGO-OESOPHAGEAL PROSTHESES</td></tr><tr><td>P020301</td><td>PHARYNX PROSTHESES</td></tr><tr><td>P020399</td><td>PHARYNGO-OOESOPHAGEAL PROSTHESES - OTHER</td></tr><tr><td>P0204</td><td>LARYNX PROSTHESES</td></tr><tr><td>P0205</td><td>PHONATION PROSTHESES</td></tr><tr><td>P0280</td><td>ENT PROSTHESES- ACCESSORIES</td></tr><tr><td>P0299</td><td>ENT PROSTHESES - OTHER</td></tr><tr><td>P03</td><td>OCULAR PROSTHESES</td></tr><tr><td>P0301</td><td>INTRAOCULAR LENSES (IOL)</td></tr><tr><td>P030101</td><td>IOLs, PHAKIC</td></tr><tr><td>P03010103</td><td>IOLs, PHAKIC, MONOFOCAL</td></tr><tr><td>P0301010301</td><td>IOLs, PHAKIC, MONOFOCAL, SPHERICAL</td></tr><tr><td>P030101030101</td><td>IOLs, PHAKIC, MONOFOCAL, SPHERICAL, HYDROPHOBIC ACRYLIC</td></tr><tr><td>P030101030102</td><td>IOLs, PHAKIC, MONOFOCAL, SPHERICAL, HYDROPHILIC ACRYLIC</td></tr><tr><td>P030101030103</td><td>IOLs, PHAKIC, MONOFOCAL, SPHERICAL, SILICONE</td></tr><tr><td>P030101030104</td><td>IOLs, PHAKIC, MONOFOCAL, SPHERICAL, PMMA</td></tr><tr><td>P030101030199</td><td>IOLs, PHAKIC, MONOFOCAL, SPHERICAL - OTHER</td></tr><tr><td>P0301010302</td><td>IOLs, PHAKIC, MONOFOCAL, ASPHERIC</td></tr><tr><td>P030101030201</td><td>IOLs, PHAKIC, MONOFOCAL, ASPHERIC, HYDROPHOBIC ACRYLIC</td></tr><tr><td>P030101030202</td><td>IOLs, PHAKIC, MONOFOCAL, ASPHERIC, HYDROPHILIC ACRYLIC</td></tr><tr><td>P030101030203</td><td>IOLs, PHAKIC, MONOFOCAL, ASPHERIC, SILICONE</td></tr><tr><td>P030101030299</td><td>IOLs, PHAKIC, MONOFOCAL, ASPHERIC - OTHER</td></tr><tr><td>P0301010303</td><td>IOLs, PHAKIC, MONOFOCAL, TORIC</td></tr><tr><td>P030101030301</td><td>IOLs, PHAKIC, MONOFOCAL, TORIC, HYDROPHOBIC ACRYLIC</td></tr><tr><td>P030101030302</td><td>IOLs, PHAKIC, MONOFOCAL, TORIC, HYDROPHILIC ACRYLIC</td></tr><tr><td>P030101030303</td><td>IOLs, PHAKIC, MONOFOCAL, TORIC, SILICONE</td></tr><tr><td>P030101030399</td><td>IOLs, PHAKIC, MONOFOCAL, TORIC - OTHER</td></tr><tr><td>P03010104</td><td>IOLs, PHAKIC, MULTIFOCAL</td></tr><tr><td>P0301010401</td><td>IOLs, PHAKIC, MULTIFOCAL, SPHERICAL</td></tr><tr><td>P030101040101</td><td>IOLs, PHAKIC, MULTIFOCAL, SPHERICAL, HYDROPHOBIC ACRYLIC</td></tr><tr><td>P030101040102</td><td>IOLs, PHAKIC, MULTIFOCAL, SPHERICAL, HYDROPHILIC ACRYLIC</td></tr><tr><td>P030101040103</td><td>IOLs, PHAKIC, MULTIFOCAL, SPHERICAL, SILICONE</td></tr><tr><td>P030101040199</td><td>IOLs, PHAKIC, MULTIFOCAL, SPHERICAL - OTHER</td></tr><tr><td>P0301010402</td><td>IOLs, PHAKIC, MULTIFOCAL, ASPHERIC</td></tr><tr><td>P030101040201</td><td>IOLs, PHAKIC, MULTIFOCAL, ASPHERIC, HYDROPHOBIC ACRYLIC</td></tr><tr><td>P030101040202</td><td>IOLs, PHAKIC, MULTIFOCAL, ASPHERIC, HYDROPHILIC ACRYLIC</td></tr><tr><td>P030101040203</td><td>IOLs, PHAKIC, MULTIFOCAL, ASPHERIC, SILICONE</td></tr><tr><td>P030101040299</td><td>IOLs, PHAKIC, MULTIFOCAL, ASPHERIC - OTHER</td></tr><tr><td>P0301010403</td><td>IOLs, PHAKIC, MULTIFOCAL, TORIC</td></tr><tr><td>P030101040301</td><td>IOLs, PHAKIC, MULTIFOCAL, TORIC, HYDROPHOBIC ACRYLIC</td></tr><tr><td>P030101040302</td><td>IOLs, PHAKIC, MULTIFOCAL, TORIC, HYDROPHILIC ACRYLIC</td></tr><tr><td>P030101040303</td><td>IOLs, PHAKIC, MULTIFOCAL, TORIC, SILICONE</td></tr><tr><td>P030101040399</td><td>IOLs, PHAKIC, MULTIFOCAL, TORIC - OTHER</td></tr><tr><td>P030102</td><td>IOLs, APHAKIC</td></tr><tr><td>P03010209</td><td>IOLs, APHAKIC, MONOFOCAL</td></tr><tr><td>P0301020901</td><td>IOLs, APHAKIC, MONOFOCAL, SPHERICAL</td></tr><tr><td>P030102090101</td><td>IOLs, APHAKIC, MONOFOCAL, SPHERICAL, HYDROPHOBIC ACRYLIC</td></tr><tr><td>P030102090102</td><td>IOLs, APHAKIC, MONOFOCAL, SPHERICAL, HYDROPHILIC ACRYLIC</td></tr><tr><td>P030102090103</td><td>IOLs, APHAKIC, MONOFOCAL, SPHERICAL, SILICONE</td></tr><tr><td>P030102090104</td><td>IOLs, APHAKIC, MONOFOCAL, SPHERICAL, PMMA</td></tr><tr><td>P030102090199</td><td>IOLs, APHAKIC, MONOFOCAL, SPHERICAL - OTHER</td></tr><tr><td>P0301020902</td><td>IOLs, APHAKIC, MONOFOCAL, ASPHERIC</td></tr><tr><td>P030102090201</td><td>IOLs, APHAKIC, MONOFOCAL, ASPHERIC, HYDROPHOBIC ACRYLIC</td></tr><tr><td>P030102090202</td><td>IOLs, APHAKIC, MONOFOCAL, ASPHERIC, HYDROPHILIC ACRYLIC</td></tr><tr><td>P030102090203</td><td>IOLs, APHAKIC, MONOFOCAL, ASPHERIC, SILICONE</td></tr><tr><td>P030102090299</td><td>IOLs, APHAKIC, MONOFOCAL, ASPHERIC - OTHER</td></tr><tr><td>P0301020903</td><td>IOLs, APHAKIC, MONOFOCAL, TORIC</td></tr><tr><td>P030102090301</td><td>IOLs, APHAKIC, MONOFOCAL, TORIC, HYDROPHOBIC ACRYLIC</td></tr><tr><td>P030102090302</td><td>IOLs, APHAKIC, MONOFOCAL, TORIC, HYDROPHILIC ACRYLIC</td></tr><tr><td>P030102090303</td><td>IOLs, APHAKIC, MONOFOCAL, TORIC, SILICONE</td></tr><tr><td>P030102090399</td><td>IOLs, APHAKIC, MONOFOCAL, TORIC - OTHER</td></tr><tr><td>P03010210</td><td>IOLs, APHAKIC, MULTIFOCAL</td></tr><tr><td>P0301021001</td><td>IOLs, APHAKIC, MULTIFOCAL, SPHERICAL</td></tr><tr><td>P030102100101</td><td>IOLs, APHAKIC, MULTIFOCAL, SPHERICAL, HYDROPHOBIC ACRYLIC</td></tr><tr><td>P030102100102</td><td>IOLs, APHAKIC, MULTIFOCAL, SPHERICAL, HYDROPHILIC ACRYLIC</td></tr><tr><td>P030102100103</td><td>IOLs, APHAKIC, MULTIFOCAL, SPHERICAL, SILICONE</td></tr><tr><td>P030102100199</td><td>IOLs, APHAKIC, MULTIFOCAL, SPHERICAL - OTHER</td></tr><tr><td>P0301021002</td><td>IOLs, APHAKIC, MULTIFOCAL, ASPHERIC</td></tr><tr><td>P030102100201</td><td>IOLs, APHAKIC, MULTIFOCAL, ASPHERIC, HYDROPHOBIC ACRYLIC</td></tr><tr><td>P030102100202</td><td>IOLs, APHAKIC, MULTIFOCAL, ASPHERIC, HYDROPHILIC ACRYLIC</td></tr><tr><td>P030102100203</td><td>IOLs, APHAKIC, MULTIFOCAL, ASPHERIC, SILICONE</td></tr><tr><td>P030102100299</td><td>IOLs, APHAKIC, MULTIFOCAL, ASPHERIC - OTHER</td></tr><tr><td>P0301021003</td><td>IOLs, APHAKIC, MULTIFOCAL, TORIC</td></tr><tr><td>P030102100301</td><td>IOLs, APHAKIC, MULTIFOCAL, TORIC, HYDROPHOBIC ACRYLIC</td></tr><tr><td>P030102100302</td><td>IOLs, APHAKIC, MULTIFOCAL, TORIC, HYDROPHILIC ACRYLIC</td></tr><tr><td>P030102100303</td><td>IOLs, APHAKIC, MULTIFOCAL, TORIC, SILICONE</td></tr><tr><td>P030102100399</td><td>IOLs, APHAKIC, MULTIFOCAL, TORIC - OTHER</td></tr><tr><td>P03010211</td><td>IOLs, APHAKIC, ACCOMMODATIVE</td></tr><tr><td>P0301021101</td><td>IOLs, APHAKIC, ACCOMMODATIVE, SPHERICAL</td></tr><tr><td>P030102110101</td><td>IOLs, APHAKIC, ACCOMMODATIVE, SPHERICAL, HYDROPHOBIC ACRYLIC</td></tr><tr><td>P030102110102</td><td>IOLs, APHAKIC, ACCOMMODATIVE, SPHERICAL, HYDROPHILIC ACRYLIC</td></tr><tr><td>P030102110103</td><td>IOLs, APHAKIC, ACCOMMODATIVE, SPHERICAL, SILICONE</td></tr><tr><td>P030102110199</td><td>IOLs, APHAKIC, ACCOMMODATIVE, SPHERICAL - OTHER</td></tr><tr><td>P0301021102</td><td>IOLs, APHAKIC, ACCOMMODATIVE, ASPHERIC</td></tr><tr><td>P030102110201</td><td>IOLs, APHAKIC, ACCOMMODATIVE, ASPHERIC, HYDROPHOBIC ACRYLIC</td></tr><tr><td>P030102110202</td><td>IOLs, APHAKIC, ACCOMMODATIVE, ASPHERIC, HYDROPHILIC ACRYLIC</td></tr><tr><td>P030102110203</td><td>IOLs, APHAKIC, ACCOMMODATIVE, ASPHERIC, SILICONE</td></tr><tr><td>P030102110299</td><td>IOLs, APHAKIC, ACCOMMODATIVE, ASPHERIC - OTHER</td></tr><tr><td>P0301021103</td><td>IOLs, APHAKIC, ACCOMMODATIVE, TORIC</td></tr><tr><td>P030102110301</td><td>IOLs, APHAKIC, ACCOMMODATIVE, TORIC, HYDROPHOBIC ACRYLIC</td></tr><tr><td>P030102110302</td><td>IOLs, APHAKIC, ACCOMMODATIVE, TORIC, HYDROPHILIC ACRYLIC</td></tr><tr><td>P030102110303</td><td>IOLs, APHAKIC, ACCOMMODATIVE, TORIC, SILICONE</td></tr><tr><td>P030102110399</td><td>IOLs, APHAKIC, ACCOMMODATIVE, TORIC - OTHER</td></tr><tr><td>P030190</td><td>INTRAOCULAR LENSES (IOL) - VARIOUS</td></tr><tr><td>P03019001</td><td>MACULOPATHY LOW VISION CORRECTION LENSES</td></tr><tr><td>P030199</td><td>INTRAOCULAR LENSES (IOL) - OTHER</td></tr><tr><td>P0380</td><td>OCULAR PROSTHESES - ACCESSORIES</td></tr><tr><td>P0399</td><td>OCULAR PROSTHESES - OTHER</td></tr><tr><td>P04</td><td>RESPIRATORY PROSTHESES</td></tr><tr><td>P0401</td><td>TRACHEOBRONCHIAL PROSTHESES</td></tr><tr><td>P0480</td><td>RESPIRATORY PROSTHESES - ACCESSORIES</td></tr><tr><td>P0499</td><td>RESPIRATORY PROSTHESES - OTHER</td></tr><tr><td>P05</td><td>OESOPHAGEAL AND GASTROINTESTINAL PROSTHESES</td></tr><tr><td>P0501</td><td>OESOPHAGEAL PROSTHESES</td></tr><tr><td>P050101</td><td>GASTRO-ESOPHAGEAL REFLUX CORRECTION PROSTHESES</td></tr><tr><td>P050199</td><td>ESOPHAGEAL PROSTHESES - OTHER</td></tr><tr><td>P0502</td><td>BILIARY AND PANCREATIC PROSTHESES</td></tr><tr><td>P0503</td><td>COLONIC AND DUODENAL PROSTHESES</td></tr><tr><td>P0504</td><td>FAECAL INCONTINENCE PROSTHESES</td></tr><tr><td>P050401</td><td>ANAL SPHINCTERS</td></tr><tr><td>P050499</td><td>FAECAL INCONTINENCE PROSTHESES - OTHER</td></tr><tr><td>P0580</td><td>OESOPHAGEAL AND GASTROINTESTINAL PROSTHESES - ACCESSORIES</td></tr><tr><td>P058001</td><td>OESOPHAGEAL AND GASTROINTESTINAL PROSTHESES POSITIONING DEVICES</td></tr><tr><td>P058099</td><td>OESOPHAGEAL AND GASTROINTESTINAL PROSTHESES - OTHER ACCESSORIES</td></tr><tr><td>P0599</td><td>PROSTHESES, OESOPHAGEAL AND GASTROINTESTINAL PROSTHESES - OTHER</td></tr><tr><td>P06</td><td>BREAST IMPLANTS</td></tr><tr><td>P0601</td><td>PERMANENT, NON-EXPANDABLE BREAST IMPLANTS</td></tr><tr><td>P060101</td><td>BREAST PROSTHESES, ROUND</td></tr><tr><td>P06010101</td><td>BREAST IMPLANTS, ROUND, SALINE</td></tr><tr><td>P0601010101</td><td>BREAST IMPLANTS, ROUND, SALINE, WITH SMOOTH SURFACE</td></tr><tr><td>P0601010102</td><td>BREAST IMPLANTS, ROUND, SALINE, WITH TEXTURED SURFACE</td></tr><tr><td>P0601010199</td><td>BREAST IMPLANTS, ROUND, SALINE - OTHER</td></tr><tr><td>P06010102</td><td>BREAST IMPLANTS, ROUND, MADE OF SILICONE</td></tr><tr><td>P0601010201</td><td>BREAST IMPLANTS, ROUND, MADE OF SILICONE, WITH SMOOTH SURFACE</td></tr><tr><td>P0601010202</td><td>BREAST IMPLANTS, ROUND, MADE OF SILICONE, WITH TEXTURED SURFACE</td></tr><tr><td>P0601010299</td><td>BREAST IMPLANTS, ROUND, MADE OF SILICONE - OTHER</td></tr><tr><td>P060102</td><td>BREAST IMPLANTS, ANATOMIC</td></tr><tr><td>P06010201</td><td>BREAST IMPLANTS, ANATOMICAL, SALINE</td></tr><tr><td>P0601020101</td><td>BREAST IMPLANTS, ANATOMICAL, SALINE, WITH SMOOTH SURFACE</td></tr><tr><td>P0601020102</td><td>BREAST IMPLANTS, ANATOMICAL, SALINE, WITH TEXTURED SURFACE</td></tr><tr><td>P0601020199</td><td>BREAST IMPLANTS, ANATOMICAL, SALINE - OTHER</td></tr><tr><td>P06010202</td><td>BREAST IMPLANTS, ANATOMICAL, MADE OF SILICONE</td></tr><tr><td>P0601020201</td><td>BREAST IMPLANTS, ANATOMICAL, MADE OF SILICONE, WITH SMOOTH SURFACE</td></tr><tr><td>P0601020202</td><td>BREAST IMPLANTS, ANATOMICAL, MADE OF SILICONE, WITH TEXTURED SURFACE</td></tr><tr><td>P0601020299</td><td>BREAST IMPLANTS, ANATOMICAL, MADE OF SILICONE - OTHER</td></tr><tr><td>P060199</td><td>BREAST IMPLANTS, STANDARD - OTHER</td></tr><tr><td>P0602</td><td>BREAST IMPLANTS, EXPANDER</td></tr><tr><td>P060201</td><td>BREAST IMPLANTS, BECKER TYPE</td></tr><tr><td>P060299</td><td>BREAST IMPLANTS, EXPANDER - OTHER</td></tr><tr><td>P0680</td><td>BREAST IMPLANTS - ACCESSORIES</td></tr><tr><td>P0699</td><td>BREAST IMPLANTS - OTHER</td></tr><tr><td>P07</td><td>VASCULAR AND CARDIAC PROSTHESES</td></tr><tr><td>P0701</td><td>VASCULAR PROSTHESES</td></tr><tr><td>P070101</td><td>BIOLOGICAL VASCULAR PROSTHESES</td></tr><tr><td>P07010101</td><td>PERICARDIUM VASCULAR PROSTHESES</td></tr><tr><td>P0701010101</td><td>PERICARDIUM VASCULAR PROSTHESES, STRAIGHT</td></tr><tr><td>P0701010102</td><td>PERICARDIUM VASCULAR PROSTHESES, BIFURCATED</td></tr><tr><td>P07010102</td><td>HOMOLOGOUS VASCULAR PROSTHESES,</td></tr><tr><td>P0701010201</td><td>HOMOLOGOUS VASCULAR PROSTHESES, STRAIGHT</td></tr><tr><td>P0701010202</td><td>HOMOLOGOUS VASCULAR PROSTHESES, BIFURCATED</td></tr><tr><td>P07010199</td><td>BIOLOGICAL VASCULAR PROSTHESES - OTHER</td></tr><tr><td>P070102</td><td>VASCULAR PROSTHESES, SYNTHETIC</td></tr><tr><td>P07010201</td><td>DACRON VASCULAR PROSTHESES</td></tr><tr><td>P0701020101</td><td>DACRON VASCULAR PROSTHESES, STRAIGHT</td></tr><tr><td>P070102010101</td><td>DACRON VASCULAR PROSTHESES, STRAIGHT, KNITTED</td></tr><tr><td>P070102010102</td><td>DACRON VASCULAR PROSTHESES, STRAIGHT, WOVEN</td></tr><tr><td>P0701020102</td><td>DACRON VASCULAR PROSTHESES, MULTIFURCATED</td></tr><tr><td>P070102010201</td><td>DACRON VASCULAR PROSTHESES, MULTIFURCATED (AORTIC ARCH (ALSO COLLATERAL AND MULTIPLE) AND THORACIC-ABDOMINAL)</td></tr><tr><td>P070102010202</td><td>DACRON VASCULAR PROSTHESES, WOVEN, MULTIFURCATED</td></tr><tr><td>P07010202</td><td>PTFE VASCULAR PROSTHESES</td></tr><tr><td>P0701020201</td><td>PTFE VASCULAR PROSTHESES, STRAIGHT</td></tr><tr><td>P070102020101</td><td>PTFE VASCULAR PROSTHESES, STRAIGHT, SIMPLE</td></tr><tr><td>P070102020102</td><td>PTFE VASCULAR PROSTHESES, STRAIGHT, REINFORCED</td></tr><tr><td>P0701020202</td><td>PTFE VASCULAR PROSTHESES, BIFURCATED</td></tr><tr><td>P070102020201</td><td>PTFE VASCULAR PROSTHESES, BIFURCATED, SIMPLE</td></tr><tr><td>P070102020202</td><td>PTFE VASCULAR PROSTHESES, BIFURCATED, REINFORCED</td></tr><tr><td>P07010299</td><td>VASCULAR PROSTHESES, SYNTHETIC - OTHER</td></tr><tr><td>P070180</td><td>VASCULAR PROSTHESES - ACCESSORIES</td></tr><tr><td>P0702</td><td>VASCULAR PATCHES</td></tr><tr><td>P070201</td><td>BIOLOGICAL VASCULAR PATCHES</td></tr><tr><td>P07020101</td><td>PERICARDIUM VASCULAR PATCHES</td></tr><tr><td>P07020102</td><td>SIS (SMALL INTESTINAL SUBMUCOSA) VASCULAR PATCHES</td></tr><tr><td>P07020199</td><td>BIOLOGICAL VASCULAR PATCHES - OTHER</td></tr><tr><td>P070202</td><td>SYNTHETIC VASCULAR PATCHES</td></tr><tr><td>P07020201</td><td>DACRON VASCULAR PATCHES</td></tr><tr><td>P07020202</td><td>PTFE VASCULAR PATCHES</td></tr><tr><td>P07020203</td><td>PET VASCULAR PATCHES</td></tr><tr><td>P07020204</td><td>PU VASCULAR PATCHES</td></tr><tr><td>P07020299</td><td>SYNTHETIC VASCULAR PATCHES - OTHER</td></tr><tr><td>P0703</td><td>CARDIAC VALVES</td></tr><tr><td>P070301</td><td>BIOLOGICAL CARDIAC VALVES</td></tr><tr><td>P07030101</td><td>BIOLOGICAL CARDIAC VALVES FOR SURGICAL IMPLANT WITH SUPPORT</td></tr><tr><td>P0703010101</td><td>STENTED BIOLOGICAL HEART VALVES FOR SURGICAL IMPLANT - VALVE TISSUE OF ANIMAL ORIGIN</td></tr><tr><td>P070301010101</td><td>STENTED AORTIC BIOLOGICAL VALVES FOR SURGICAL IMPLANT - VALVE TISSUE OF ANIMAL ORIGIN</td></tr><tr><td>P070301010102</td><td>STENTED MITRAL BIOLOGICAL VALVES FOR SURGICAL IMPLANT - VALVE TISSUE OF ANIMAL ORIGIN</td></tr><tr><td>P070301010103</td><td>STENTED PULMONARY BIOLOGICAL VALVES FOR SURGICAL IMPLANT - VALVE TISSUE OF ANIMAL ORIGIN</td></tr><tr><td>P070301010104</td><td>STENTED TRICUSPID BIOLOGICAL VALVES FOR SURGICAL IMPLANT - VALVE TISSUE OF ANIMAL ORIGIN</td></tr><tr><td>P0703010102</td><td>STENTED BIOLOGICAL HEART VALVES FOR SURGICAL IMPLANT - NON-VALVE TISSUE OF ANIMAL ORIGIN</td></tr><tr><td>P070301010201</td><td>STENTED AORTIC BIOLOGICAL VALVES FOR SURGICAL IMPLANT - NON-VALVE TISSUE OF ANIMAL ORIGIN</td></tr><tr><td>P070301010202</td><td>STENTED MITRAL BIOLOGICAL VALVES FOR SURGICAL IMPLANT - NON-VALVE TISSUE OF ANIMAL ORIGIN</td></tr><tr><td>P070301010203</td><td>STENTED PULMONARY BIOLOGICAL VALVES FOR SURGICAL IMPLANT - NON-VALVE TISSUE OF ANIMAL ORIGIN</td></tr><tr><td>P070301010204</td><td>STENTED TRICUSPID BIOLOGICAL VALVES FOR SURGICAL IMPLANT - NON-VALVE TISSUE OF ANIMAL ORIGIN</td></tr><tr><td>P07030102</td><td>STENTLESS BIOLOGICAL HEART VALVES FOR SURGICAL IMPLANT</td></tr><tr><td>P0703010201</td><td>STENTLESS BIOLOGICAL HEART VALVES FOR SURGICAL IMPLANT - VALVE TISSUE OF ANIMAL ORIGIN</td></tr><tr><td>P0703010202</td><td>STENTLESS BIOLOGICAL HEART VALVES FOR SURGICAL IMPLANT - TISSUE OF ANIMAL ORIGIN</td></tr><tr><td>P07030103</td><td>BIOLOGICAL HEART VALVES FOR PERCUTANEOUS IMPLANTATION, WITH SUPPORT</td></tr><tr><td>P0703010301</td><td>STENTED BIOLOGICAL HEART VALVES FOR PERCUTANEOUS IMPLANT - VALVE TISSUE OF ANIMAL ORIGIN</td></tr><tr><td>P070301030101</td><td>STENTED BIOLOGICAL AORTIC VALVES FOR PERCUTANEOUS IMPLANT - VALVE TISSUE OF ANIMAL ORIGIN</td></tr><tr><td>P070301030102</td><td>STENTED BIOLOGICAL MITRAL VALVES FOR PERCUTANEOUS IMPLANT - VALVE TISSUE OF ANIMAL ORIGIN</td></tr><tr><td>P070301030103</td><td>STENTED BIOLOGICAL PULMONARY VALVES FOR PERCUTANEOUS IMPLANT - VALVE TISSUE OF ANIMAL ORIGIN</td></tr><tr><td>P070301030104</td><td>STENTED BIOLOGICAL TRICUSPID VALVES FOR PERCUTANEOUS IMPLANT - VALVE TISSUE OF ANIMAL ORIGIN</td></tr><tr><td>P0703010302</td><td>BIOLOGICAL HEART VALVES WITH SUPPORT FOR PERCUTANEOUS IMPLANT - NON-VALVE TISSUE OF ANIMAL ORIGIN</td></tr><tr><td>P070301030201</td><td>STENTED BIOLOGICAL AORTIC VALVES FOR PERCUTANEOUS IMPLANT - NON-VALVE TISSUE OF ANIMAL ORIGIN</td></tr><tr><td>P070301030202</td><td>STENTED BIOLOGICAL MITRAL VALVES FOR PERCUTANEOUS IMPLANT - NON-VALVE TISSUE OF ANIMAL ORIGIN</td></tr><tr><td>P070301030203</td><td>STENTED BIOLOGICAL PULMONARY VALVES FOR PERCUTANEOUS IMPLANT - NON-VALVE TISSUE OF ANIMAL ORIGIN</td></tr><tr><td>P070301030204</td><td>STENTED BIOLOGICAL TRICUSPID VALVES FOR PERCUTANEOUS IMPLANT - NON-VALVE TISSUE OF ANIMAL ORIGIN</td></tr><tr><td>P07030104</td><td>BIOLOGICAL VALVES, BICAVAL</td></tr><tr><td>P07030199</td><td>BIOLOGICAL HEART VALVES - OTHER</td></tr><tr><td>P070302</td><td>MECHANICAL HEART VALVES</td></tr><tr><td>P07030201</td><td>MECHANICAL HEART VALVES, BALL-VALVES</td></tr><tr><td>P07030202</td><td>MECHANICAL HEART VALVES, SINGLE-DISC</td></tr><tr><td>P07030203</td><td>MECHANICAL HEART VALVES DOUBLE-DISC</td></tr><tr><td>P0703020301</td><td>BILEAFLET MECHANICAL AORTIC VALVES</td></tr><tr><td>P0703020302</td><td>BILEAFLET MECHANICAL MITRAL VALVES</td></tr><tr><td>P0703020399</td><td>BILEAFLET MECHANICAL HEART VALVES - OTHER</td></tr><tr><td>P07030299</td><td>MECHANICAL HEART VALVES - OTHER</td></tr><tr><td>P070303</td><td>HEART VALVE TUBES</td></tr><tr><td>P07030301</td><td>BIOLOGICAL HEART VALVE TUBES</td></tr><tr><td>P07030302</td><td>MECHANICAL HEART VALVE TUBES</td></tr><tr><td>P07030399</td><td>HEART VALVE TUBES - OTHER</td></tr><tr><td>P070304</td><td>HEART VALVE RINGS</td></tr><tr><td>P07030401</td><td>FLEXIBLE OR UNSUPPORTED HEART VALVE RINGS</td></tr><tr><td>P07030402</td><td>RIGID OR SEMI-RIGID HEART VALVE RINGS WITH SUPPORT</td></tr><tr><td>P07030403</td><td>INCOMPLETE SEMI-RIGID HEART VALVE RINGS</td></tr><tr><td>P07030499</td><td>HEART VALVE RINGS - OTHER</td></tr><tr><td>P070380</td><td>HEART VALVES - ACCESSORIES</td></tr><tr><td>P07038001</td><td>HEART VALVE IMPLANT SIZERS</td></tr><tr><td>P07038002</td><td>CARDIAC VALVE TRANSCATHETER IMPLANT ACCESSORIES</td></tr><tr><td>P07038003</td><td>MECHANICAL HEART VALVE IMPLANT ACCESSORIES</td></tr><tr><td>P07038004</td><td>HEART VALVE RECONSTRUCTION IMPLANTS</td></tr><tr><td>P07038099</td><td>HEART VALVE ACCESSORIES - OTHER</td></tr><tr><td>P070399</td><td>CARDIAC VALVES - OTHER</td></tr><tr><td>P0704</td><td>VASCULAR AND CARDIAC ENDOPROSTHESES</td></tr><tr><td>P070401</td><td>VASCULAR ENDOPROSTHESES</td></tr><tr><td>P07040101</td><td>DACRON VASCULAR ENDOPROSTHESES</td></tr><tr><td>P0704010101</td><td>DACRON VASCULAR ENDOPROSTHESES, STRAIGHT</td></tr><tr><td>P070401010101</td><td>DACRON VASCULAR ENDOPROSTHESES, STRAIGHT - ABDOMINAL</td></tr><tr><td>P070401010102</td><td>DACRON VASCULAR ENDOPROSTHESES, STRAIGHT - THORACIC</td></tr><tr><td>P070401010199</td><td>DACRON VASCULAR ENDOPROSTHESES, STRAIGHT - OTHER</td></tr><tr><td>P0704010102</td><td>DACRON VASCULAR ENDOPROSTHESES, BIFURCATED</td></tr><tr><td>P0704010103</td><td>DACRON VASCULAR ENDOPROSTHESES, AUXILIARY</td></tr><tr><td>P07040102</td><td>PTFE VASCULAR ENDOPROSTHESES</td></tr><tr><td>P0704010201</td><td>PTFE VASCULAR ENDOPROSTHESES, STRAIGHT</td></tr><tr><td>P070401020101</td><td>PTFE VASCULAR ENDOPROSTHESES, STRAIGHT - ABDOMINAL</td></tr><tr><td>P070401020102</td><td>PTFE VASCULAR ENDOPROSTHESES, STRAIGHT - THORACIC</td></tr><tr><td>P070401020103</td><td>PTFE VASCULAR ENDOPROSTHESES, STRAIGHT - PERIPHERAL</td></tr><tr><td>P070401020199</td><td>PTFE VASCULAR ENDOPROSTHESES, STRAIGHT - OTHER</td></tr><tr><td>P0704010202</td><td>PTFE VASCULAR ENDOPROSTHESES, BIFURCATED</td></tr><tr><td>P0704010203</td><td>PTFE VASCULAR ENDOPROSTHESES, AUXILIARY</td></tr><tr><td>P07040199</td><td>VASCULAR ENDOPROSTHESES - OTHER</td></tr><tr><td>P070402</td><td>VASCULAR STENTS</td></tr><tr><td>P07040201</td><td>CORONARY STENTS</td></tr><tr><td>P0704020101</td><td>CORONARY BARE METAL STENTS (BMS)</td></tr><tr><td>P070402010101</td><td>STAINLESS STEEL CORONARY BARE METAL STENTS (BMS)</td></tr><tr><td>P070402010102</td><td>METALLIC NON-STAINLESS STEEL CORONARY STENTS</td></tr><tr><td>P070402010199</td><td>CORONARY BARE METAL STENTS (BMS) - OTHER</td></tr><tr><td>P0704020102</td><td>COATED CORONARY STENTS</td></tr><tr><td>P0704020103</td><td>CORONARY DRUG ELUTING STENTS (DES)</td></tr><tr><td>P070402010301</td><td>CORONARY DRUG ELUTING STENTS (DES) WITH POLYMERS</td></tr><tr><td>P070402010302</td><td>CORONARY DRUG ELUTING STENTS (DES) WITHOUT POLYMERS</td></tr><tr><td>P0704020104</td><td>CORONARY STENTS, ABSORBABLE</td></tr><tr><td>P0704020105</td><td>CORONARY STENTS, BIOACTIVE</td></tr><tr><td>P0704020199</td><td>CORONARY STENTS - OTHER</td></tr><tr><td>P07040202</td><td>PERIPHERAL VASCULAR STENTS</td></tr><tr><td>P0704020201</td><td>PERIPHERAL VASCULAR STENTS, BMS</td></tr><tr><td>P070402020101</td><td>STAINLESS STEEL PERIPHERAL VASCULAR BARE METAL STENTS</td></tr><tr><td>P070402020102</td><td>NON-STAINLESS STEEL PERIPHERAL VASCULAR BARE METAL STENTS</td></tr><tr><td>P070402020199</td><td>PERIPHERAL VASCULAR BARE STENTS - OTHER</td></tr><tr><td>P0704020202</td><td>PERIPHERAL VASCULAR COATED STENTS</td></tr><tr><td>P0704020203</td><td>PERIPHERAL VASCULAR DRUG ELUTING STENTS (DES)</td></tr><tr><td>P0704020204</td><td>PERIPHERAL VASCULAR STENTS, BIOACTIVE</td></tr><tr><td>P0704020299</td><td>PERIPHERAL VASCULAR STENTS - OTHER</td></tr><tr><td>P070403</td><td>CARDIAC AND CORONARY DEFECT OCCLUDERS</td></tr><tr><td>P07040301</td><td>CARDIAC OCCLUDERS, VENTRICULAR SEPTAL DEFECTS</td></tr><tr><td>P07040302</td><td>CARDIAC OCCLUDERS, ATRIAL SEPTAL DEFECTS</td></tr><tr><td>P07040303</td><td>CARDIAC OCCLUDERS, FORAMEN OVALE AND BOTALLO DUCT</td></tr><tr><td>P07040399</td><td>HEART AND CORONARY DEFECT OCCLUDERS - OTHER</td></tr><tr><td>P070404</td><td>LEFT ATRIAL APPENDAGE OCCLUDERS</td></tr><tr><td>P0780</td><td>VASCULAR AND CARDIAC PROSTHESES - ACCESSORIES</td></tr><tr><td>P0799</td><td>VASCULAR AND CARDIAC PROSTHESES - OTHER</td></tr><tr><td>P08</td><td>UROGENITAL PROSTHESES</td></tr><tr><td>P0801</td><td>URINARY INCONTINENCE PROSTHESES</td></tr><tr><td>P080102</td><td>ARTIFICIAL URINARY SPHINCTERS</td></tr><tr><td>P080199</td><td>URINARY INCONTINENCE PROSTHESES - OTHER</td></tr><tr><td>P0802</td><td>MALE GENITAL SYSTEM PROSTHESES</td></tr><tr><td>P080201</td><td>TESTICLE PROSTHESES</td></tr><tr><td>P080202</td><td>PENILE PROSTHESES</td></tr><tr><td>P080299</td><td>MALE GENITAL SYSTEM PROSTHESES - OTHER</td></tr><tr><td>P0803</td><td>URINARY OBSTRUCTION PROSTHESES</td></tr><tr><td>P080301</td><td>URETHRAL PROSTHESES</td></tr><tr><td>P08030101</td><td>TRANS-PROSTATIC URETHRAL PROSTHESES</td></tr><tr><td>P08030102</td><td>VAS DEFERENS PROSTHESES</td></tr><tr><td>P08030199</td><td>ENDOURETHRAL PROSTHESES - OTHER</td></tr><tr><td>P080302</td><td>URETERAL PROSTHESES</td></tr><tr><td>P080399</td><td>URINARY OBSTRUCTION PROSTHESES - OTHER</td></tr><tr><td>P0804</td><td>FEMALE GENITAL SYSTEM PROSTHESES</td></tr><tr><td>P080401</td><td>FALLOPIAN TUBE PROSTHESES</td></tr><tr><td>P080499</td><td>FEMALE GENITAL SYSTEM PROSTHESES - OTHER</td></tr><tr><td>P0805</td><td>URINARY TRACT IMPLANTABLE VALVES</td></tr><tr><td>P0880</td><td>UROGENITAL PROSTHESES - ACCESSORIES</td></tr><tr><td>P0899</td><td>UROGENITAL PROSTHESES - OTHER</td></tr><tr><td>P09</td><td>ORTHOPAEDIC PROSTHESES, OSTEOSYNTHESIS DEVICES, DEVICES FOR TENDON AND LIGAMENT SYNTHESIS</td></tr><tr><td>P0901</td><td>SHOULDER PROSTHESES</td></tr><tr><td>P090103</td><td>GLENOID COMPONENTS</td></tr><tr><td>P09010301</td><td>SHOULDER PROSTHESIS AND METAGLENE METAL BACK</td></tr><tr><td>P09010302</td><td>ANATOMICAL SHOULDER PROSTHESIS INSERTS</td></tr><tr><td>P09010303</td><td>GLENOSPHERES</td></tr><tr><td>P09010304</td><td>MONOBLOCK GLENOIDS</td></tr><tr><td>P09010399</td><td>GLENOID COMPONENTS - OTHER</td></tr><tr><td>P090104</td><td>SHOULDER PROSTHESES HUMERAL COMPONENTS</td></tr><tr><td>P09010401</td><td>EPIPHYSARY HUMERAL COMPONENTS</td></tr><tr><td>P0901040101</td><td>EPIPHYSARY HUMERAL COMPONENTS FOR ANATOMICAL PROSTHESES</td></tr><tr><td>P090104010101</td><td>EPIPHYSARY HUMERAL COMPONENTS FOR ANATOMICAL PROSTHESES - HUMERAL HEADS</td></tr><tr><td>P090104010102</td><td>EPIPHYSARY HUMERAL COMPONENTS FOR RESURFACING ANATOMICAL PROSTHESES</td></tr><tr><td>P0901040102</td><td>EPIPHYSARY HUMERAL COMPONENTS FOR REVERSE PROSTHESES</td></tr><tr><td>P090104010201</td><td>EPIPHYSARY HUMERAL COMPONENTS FOR REVERSE PROSTHESES - INSERTS</td></tr><tr><td>P090104010202</td><td>EPIPHYSARY HUMERAL COMPONENTS FOR REVERSE PROSTHESES - HUMERAL CUPS</td></tr><tr><td>P0901040199</td><td>EPIPHYSARY HUMERAL COMPONENTS - OTHER</td></tr><tr><td>P09010402</td><td>DIAPHYSARY HUMERAL COMPONENTS</td></tr><tr><td>P0901040201</td><td>SHOULDER PROSTHESES NON MODULAR STEMS</td></tr><tr><td>P0901040202</td><td>SHOULDER PROSTHESES MODULAR STEMS</td></tr><tr><td>P0901040203</td><td>MONOBLOCK DIAPHYSARY HUMERAL COMPONENTS (STEM + EPIPHYSARY COMPONENT)</td></tr><tr><td>P090104020301</td><td>MONOBLOCK DIAPHYSARY HUMERAL COMPONENTS FOR ANATOMICAL PROSTHESIS (STEM + HEAD)</td></tr><tr><td>P090104020302</td><td>MONOBLOCK DIAPHYSARY HUMERAL COMPONENTS FOR REVERSE PROSTHESIS (STEM + CUP)</td></tr><tr><td>P0901040204</td><td>SHOULDER PROSTHESES REVISION STEMS</td></tr><tr><td>P0901040205</td><td>SHOULDER PROSTHESES LARGE RESECTIONS STEMS</td></tr><tr><td>P0901040299</td><td>DIAPHYSARY HUMERAL COMPONENTS - OTHER</td></tr><tr><td>P09010403</td><td>SHOULDER PROSTHESES SPACERS</td></tr><tr><td>P09010499</td><td>HUMERAL COMPONENTS FOR SHOULDER PROSTHESES - OTHER</td></tr><tr><td>P090180</td><td>SHOULDER PROSTHESES - ACCESSORIES</td></tr><tr><td>P09018001</td><td>SHOULDER PROSTHESES FIXING SCREWS</td></tr><tr><td>P09018002</td><td>SHOULDER PROSTHESES ADAPTERS (INCLUDING CONES AND SLEEVES)</td></tr><tr><td>P0901800201</td><td>GLENOID COMPONENTS ADAPTERS</td></tr><tr><td>P0901800202</td><td>HUMERAL COMPONENTS ADAPTERS</td></tr><tr><td>P09018003</td><td>SHOULDER PROSTHESES ENDOMIDOLLAR CAPS</td></tr><tr><td>P09018099</td><td>SHOULDER PROSTHESES - ACCESSORIES - OTHER</td></tr><tr><td>P090199</td><td>SHOULDER PROSTHESES - OTHER</td></tr><tr><td>P0902</td><td>ELBOW PROSTHESES</td></tr><tr><td>P090203</td><td>ELBOW PROSTHESES HUMERAL COMPONENTS</td></tr><tr><td>P090204</td><td>ELBOW PROSTHESES RADIAL COMPONENTS</td></tr><tr><td>P090205</td><td>ELBOW PROSTHESES ULNAR COMPONENTS</td></tr><tr><td>P090280</td><td>ELBOW PROSTHESES - ACCESSORIES</td></tr><tr><td>P090299</td><td>ELBOW PROSTHESES - OTHER</td></tr><tr><td>P0903</td><td>WRIST PROSTHESES</td></tr><tr><td>P090303</td><td>WRIST PROSTHESES CARPAL COMPONENTS</td></tr><tr><td>P090304</td><td>WRIST PROSTHESES RADIAL-ULNAR COMPONENTS</td></tr><tr><td>P09030401</td><td>WRIST PROSTHESES RADIAL COMPONENTS</td></tr><tr><td>P09030402</td><td>WRIST PROSTHESES ULNAR COMPONENTS</td></tr><tr><td>P090305</td><td>TOTAL WRIST PROSTHESES</td></tr><tr><td>P090380</td><td>WRIST PROSTHESES - ACCESSORIES</td></tr><tr><td>P090399</td><td>WRIST PROSTHESES - OTHER</td></tr><tr><td>P0904</td><td>HAND PROSTHESES</td></tr><tr><td>P090403</td><td>HAND PROSTHESES INTERPHALANGE COMPONENTS</td></tr><tr><td>P090404</td><td>HAND PROSTHESES TRAPEZIO-METACARPAL COMPONENTS</td></tr><tr><td>P090480</td><td>HAND PROSTHESES - ACCESSORIES</td></tr><tr><td>P090499</td><td>HAND PROSTHESES - OTHER</td></tr><tr><td>P0905</td><td>ANKLE PROSTHESES</td></tr><tr><td>P090506</td><td>ANKLE PROSTHESIS WITH MOBILE INSERT</td></tr><tr><td>P09050601</td><td>ANKLE PROSTHESES WITH CEMENTED MOBILE INSERT</td></tr><tr><td>P0905060101</td><td>ANKLE PROSTHESES WITH CEMENTED MOBILE INSERT - TIBIAL COMPONENTS</td></tr><tr><td>P0905060102</td><td>ANKLE PROSTHESES WITH CEMENTED MOBILE INSERT - TALAR COMPONENTS</td></tr><tr><td>P09050602</td><td>ANKLE PROSTHESES WITH UNCEMENTED MOBILE INSERT</td></tr><tr><td>P0905060201</td><td>ANKLE PROSTHESES WITH UNCEMENTED MOBILE INSERT - TIBIAL COMPONENTS</td></tr><tr><td>P0905060202</td><td>ANKLE PROSTHESES WITH UNCEMENTED MOBILE INSERT - TALAR COMPONENTS</td></tr><tr><td>P09050603</td><td>ANKLE PROSTHESES MOBILE INSERTS</td></tr><tr><td>P090507</td><td>ANKLE PROSTHESIS WITH FIXED INSERT</td></tr><tr><td>P09050701</td><td>ANKLE PROSTHESES WITH CEMENTED FIXED INSERT</td></tr><tr><td>P0905070101</td><td>ANKLE PROSTHESES WITH CEMENTED FIXED INSERT - TIBIAL COMPONENTS</td></tr><tr><td>P0905070102</td><td>ANKLE PROSTHESES WITH CEMENTED FIXED INSERT - TALAR COMPONENTS</td></tr><tr><td>P09050702</td><td>ANKLE PROSTHESES WITH UNCEMENTED FIXED INSERT</td></tr><tr><td>P0905070201</td><td>ANKLE PROSTHESES WITH UNCEMENTED FIXED INSERT - TIBIAL COMPONENTS</td></tr><tr><td>P0905070202</td><td>ANKLE PROSTHESES WITH UNCEMENTED FIXED INSERT - TALAR COMPONENTS</td></tr><tr><td>P09050703</td><td>ANKLE PROSTHESES FIXED INSERTS</td></tr><tr><td>P090508</td><td>ANKLE PROSTHESES SPACERS</td></tr><tr><td>P090580</td><td>ANKLE PROSTHESES - ACCESSORIES</td></tr><tr><td>P09058001</td><td>ANKLE PROSTHESES TIBIAL STEMS</td></tr><tr><td>P09058099</td><td>ANKLE PROSTHESES - ACCESSORIES - OTHER</td></tr><tr><td>P090599</td><td>ANKLE PROSTHESES - OTHER</td></tr><tr><td>P0906</td><td>FOOT PROSTHESES</td></tr><tr><td>P090603</td><td>FOOT PROSTHESES INTERPHALANGEAL COMPONENTS</td></tr><tr><td>P090604</td><td>FOOT PROSTHESES METATARSALPHALANGEAL COMPONENTS</td></tr><tr><td>P090605</td><td>FOOT ENDORTHESIS</td></tr><tr><td>P090680</td><td>FOOT PROSTHESES - ACCESSORIES</td></tr><tr><td>P090699</td><td>FOOT PROSTHESES - OTHER</td></tr><tr><td>P0907</td><td>SPINE STABILISATION PROSTHESES AND SYSTEMS</td></tr><tr><td>P090701</td><td>SPINAL FUSION SYSTEMS</td></tr><tr><td>P09070101</td><td>SPINAL CAGES</td></tr><tr><td>P09070199</td><td>SPINAL FUSION SYSTEMS - OTHER</td></tr><tr><td>P090702</td><td>INTERVERTEBRAL DISCS REPLACEMENT SYSTEMS</td></tr><tr><td>P09070201</td><td>DISC PROSTHESES</td></tr><tr><td>P090703</td><td>IMPLANTABLE VERTEBRAL STABILISATION OR FIXATION SYSTEMS</td></tr><tr><td>P09070301</td><td>CERVICAL FIXATION SYSTEMS</td></tr><tr><td>P09070302</td><td>THORACOLUMBOSACRAL FIXATION SYSTEMS</td></tr><tr><td>P09070304</td><td>SPINE FIXATION SYSTEM CONNECTORS</td></tr><tr><td>P09070305</td><td>SPINAL STABILISERS, DYNAMIC TYPE</td></tr><tr><td>P09070399</td><td>IMPLANTABLE SPINAL STABILISATION OR FIXATION SYSTEMS - OTHER</td></tr><tr><td>P090780</td><td>SPINAL PROSTHESES AND STABILISATION SYSTEMS - ACCESSORIES</td></tr><tr><td>P090799</td><td>SPINAL PROSTHESES AND STABILISATION SYSTEMS - OTHER</td></tr><tr><td>P0908</td><td>HIP PROSTHESES</td></tr><tr><td>P090803</td><td>HIP PROSTHESES ACETABULAR COMPONENTS</td></tr><tr><td>P09080301</td><td>PRIMARY IMPLANT ACETABULAR CUPS</td></tr><tr><td>P0908030101</td><td>PRIMARY IMPLANT CEMENTED ACETABULAR CUPS</td></tr><tr><td>P090803010101</td><td>PRIMARY IMPLANT CEMENTED METAL ACETABULAR CUPS</td></tr><tr><td>P090803010102</td><td>PRIMARY IMPLANT CEMENTED POLYETHYLENE ACETABULAR CUPS, ONE-PIECE</td></tr><tr><td>P090803010199</td><td>PRIMARY IMPLANT CEMENTED ACETABULAR CUPS - OTHER</td></tr><tr><td>P0908030102</td><td>PRIMARY IMPLANT UNCEMENTED ACETABULAR CUPS</td></tr><tr><td>P090803010201</td><td>PRIMARY IMPLANT UNCEMENTED METAL ACETABULAR CUPS</td></tr><tr><td>P090803010202</td><td>PRIMARY IMPLANT UNCEMENTED ONE-PIECE POLYETHYLENE ACETABULAR CUPS</td></tr><tr><td>P090803010203</td><td>PRIMARY IMPLANT UNCEMENTED ONE-PIECE METAL ACETABULAR CUPS</td></tr><tr><td>P090803010299</td><td>PRIMARY IMPLANT UNCEMENTED ACETABULAR CUPS - OTHER</td></tr><tr><td>P09080302</td><td>HIP RESURFACING ACETABULAR COMPONENTS</td></tr><tr><td>P09080303</td><td>REVISION SURGERY ACETABULAR CUPS</td></tr><tr><td>P0908030301</td><td>REVISION SURGERY CEMENTED ACETABULAR CUPS</td></tr><tr><td>P0908030302</td><td>REVISION SURGERY UNCEMENTED ACETABULAR CUPS</td></tr><tr><td>P09080304</td><td>HIP PROSTHESES ACETABULAR INSERTS</td></tr><tr><td>P0908030401</td><td>HIP PROSTHESES POLYETHYLENE ACETABULAR INSERTS</td></tr><tr><td>P090803040101</td><td>STANDARD POLYETHYLENE HIP PROSTHESES INSERTS</td></tr><tr><td>P090803040102</td><td>ECCENTRIC POLYETHYLENE HIP PROSTHESES INSERTS</td></tr><tr><td>P090803040103</td><td>RETENTIVE POLYETHYLENE HIP PROSTHESES INSERTS,&nbsp;ANTI-DISLOCATION</td></tr><tr><td>P0908030402</td><td>HIP PROSTHESES CERAMIC ACETABULAR INSERTS</td></tr><tr><td>P0908030403</td><td>HIP PROSTHESES METAL ACETABULAR INSERTS</td></tr><tr><td>P0908030499</td><td>HIP PROSTHESES ACETABULAR INSERTS - OTHER</td></tr><tr><td>P09080305</td><td>DUAL-MOBILITY ACETABULAR COMPONENTS</td></tr><tr><td>P0908030501</td><td>DOUBLE-MOBILITY ACETABULAR CUPS</td></tr><tr><td>P090803050101</td><td>CEMENTED DOUBLE-MOBILITY ACETABULAR CUPS</td></tr><tr><td>P090803050102</td><td>UNCEMENTED DOUBLE-MOBILITY ACETABULAR CUPS</td></tr><tr><td>P0908030502</td><td>DOUBLE-MOBILITY ACETABULAR COMPONENTS INSERTS</td></tr><tr><td>P09080306</td><td>PRE-ASSEMBLED ACETABULAR COMPONENTS (ACETABULAR CUP + INSERT)</td></tr><tr><td>P0908030601</td><td>PRE-ASSEMBLED ACETABULAR COMPONENTS WITH CERAMIC INSERT</td></tr><tr><td>P0908030602</td><td>PRE-ASSEMBLED ACETABULAR COMPONENTS WITH POLYETHYLENE INSERTS</td></tr><tr><td>P0908030699</td><td>PRE-ASSEMBLED ACETABULAR COMPONENTS - OTHER</td></tr><tr><td>P090804</td><td>HIP PROSTHESES FEMORAL COMPONENTS</td></tr><tr><td>P09080401</td><td>PRIMARY IMPLANT FEMORAL STEMS</td></tr><tr><td>P0908040101</td><td>PRIMARY IMPLANT CEMENTED FEMORAL STEMS</td></tr><tr><td>P090804010101</td><td>CEMENTED FEMORAL STEMS FOR PRIMARY IMPLANT, WITH FIXED NECK,&nbsp;STRAIGHT</td></tr><tr><td>P090804010102</td><td>CEMENTED FEMORAL STEMS FOR PRIMARY IMPLANT, WITH FIXED NECK, ANATOMICAL</td></tr><tr><td>P090804010105</td><td>CEMENTED FEMORAL STEMS FOR PRIMARY IMPLANT, WITH FIXED NECK, FOR PRESERVATION</td></tr><tr><td>P090804010106</td><td>CEMENTED FEMORAL STEMS FOR PRIMARY IMPLANT, WITH MODULAR NECK, STRAIGHT</td></tr><tr><td>P090804010107</td><td>CEMENTED FEMORAL STEMS FOR PRIMARY IMPLANT, WITH MODULAR NECK, ANATOMICAL</td></tr><tr><td>P0908040102</td><td>PRIMARY IMPLANT UNCEMENTED FEMORAL STEMS</td></tr><tr><td>P090804010201</td><td>UNCEMENTED FEMORAL STEMS FOR PRIMARY IMPLANT, WITH FIXED NECK, STRAIGHT</td></tr><tr><td>P090804010202</td><td>UNCEMENTED FEMORAL STEMS FOR PRIMARY IMPLANT, WITH FIXED NECK, ANATOMICAL</td></tr><tr><td>P090804010205</td><td>UNCEMENTED FEMORAL STEMS FOR PRIMARY IMPLANT, WITH FIXED NECK, FOR PRESERVATION</td></tr><tr><td>P090804010206</td><td>UNCEMENTED FEMORAL STEMS FOR PRIMARY IMPLANT, WITH MODULAR NECK, STRAIGHT</td></tr><tr><td>P090804010207</td><td>UNCEMENTED FEMORAL STEMS FOR PRIMARY IMPLANT, WITH MODULAR NECK, ANATOMICAL</td></tr><tr><td>P09080402</td><td>HIP RESURFACING FEMORAL COMPONENTS</td></tr><tr><td>P09080403</td><td>REVISION SURGERY FEMORAL STEMS</td></tr><tr><td>P0908040301</td><td>REVISION SURGERY CEMENTED FEMORAL STEMS</td></tr><tr><td>P090804030101</td><td>REVISION CEMENTED FEMORAL STEMS, WITH FIXED NECK</td></tr><tr><td>P090804030102</td><td>REVISION CEMENTED FEMORAL STEMS, WITH MODULAR NECK</td></tr><tr><td>P0908040302</td><td>REVISION UNCEMENTED FEMORAL STEMS</td></tr><tr><td>P090804030201</td><td>REVISION UNCEMENTED FEMORAL STEMS, WITH FIXED NECK</td></tr><tr><td>P090804030202</td><td>REVISION UNCEMENTED FEMORAL STEMS, WITH MODULAR NECK</td></tr><tr><td>P09080404</td><td>LARGE RESECTIONS FEMORAL STEMS</td></tr><tr><td>P09080405</td><td>FEMORAL HEADS</td></tr><tr><td>P0908040501</td><td>FEMORAL HEADS FOR PRIMARY IMPLANT OF PARTIAL PROSTHESES</td></tr><tr><td>P090804050101</td><td>CERAMIC FEMORAL HEADS, PARTIAL HIP REPLACEMENT</td></tr><tr><td>P090804050102</td><td>METAL FEMORAL HEADS, PARTIAL HIP REPLACEMENT</td></tr><tr><td>P090804050199</td><td>FEMORAL HEADS FOR PRIMARY IMPLANT OF PARTIAL PROSTHESES - OTHER</td></tr><tr><td>P0908040502</td><td>FEMORAL HEADS FOR PRIMARY IMPLANT OF TOTAL PROSTHESES</td></tr><tr><td>P090804050201</td><td>CERAMIC FEMORAL HEADS, TOTAL HIP REPLACEMENT</td></tr><tr><td>P090804050202</td><td>METAL FEMORAL HEADS, TOTAL HIP REPLACEMENT</td></tr><tr><td>P090804050299</td><td>FEMORAL HEADS FOR PRIMARY IMPLANT OF TOTAL PROSTHESES - OTHER</td></tr><tr><td>P0908040503</td><td>HIP PROSTHESES, BI-ARTICULAR CUPS</td></tr><tr><td>P0908040504</td><td>REVISION FEMORAL HEADS</td></tr><tr><td>P09080406</td><td>ONE-PIECE FEMORAL PROSTHESES (STEM+HEAD)</td></tr><tr><td>P09080407</td><td>MODULAR NECKS</td></tr><tr><td>P090805</td><td>HIP PROSTHESES SPACERS</td></tr><tr><td>P090880</td><td>HIP PROSTHESES - ACCESSORIES</td></tr><tr><td>P09088001</td><td>ACETABULAR RINGS</td></tr><tr><td>P09088002</td><td>ACETABULAR MESHES</td></tr><tr><td>P09088003</td><td>HIP PROSTHESES AUGMENTS</td></tr><tr><td>P09088004</td><td>HIP PROSTHESES ADAPTERS (INCLUDING CONES AND SLEEVES)</td></tr><tr><td>P09088005</td><td>HIP PROSTHESES CENTRALIZERS</td></tr><tr><td>P09088006</td><td>FEMORAL INTRAMEDULLARY CAPS</td></tr><tr><td>P09088007</td><td>HIP PROSTHESES FIXING SCREWS</td></tr><tr><td>P09088099</td><td>HIP PROSTHESES - OTHER ACCESSORIES</td></tr><tr><td>P090899</td><td>HIP PROSTHESES - OTHER</td></tr><tr><td>P0909</td><td>KNEE PROSTHESES</td></tr><tr><td>P090903</td><td>BICOMPARTMENTAL PRIMARY IMPLANT KNEE PROSTHESES</td></tr><tr><td>P09090301</td><td>BICOMPARTMENTAL PRIMARY IMPLANT FEMORAL COMPONENTS</td></tr><tr><td>P0909030101</td><td>BICOMPARTMENTAL PRIMARY IMPLANT CEMENTED FEMORAL COMPONENTS</td></tr><tr><td>P0909030102</td><td>BICOMPARTMENTAL PRIMARY IMPLANT UNCEMENTED FEMORAL COMPONENTS</td></tr><tr><td>P0909030103</td><td>BICOMPARTMENTAL PRIMARY IMPLANT CEMENTABLE FEMORAL COMPONENTS</td></tr><tr><td>P09090302</td><td>BICOMPARTMENTAL PRIMARY IMPLANT TIBIAL COMPONENTS</td></tr><tr><td>P0909030201</td><td>BICOMPARTMENTAL PRIMARY IMPLANT TIBIAL PLATES</td></tr><tr><td>P090903020101</td><td>BICOMPARTMENTAL PRIMARY IMPLANT CEMENTED MOBILE BEARING TIBIAL PLATES</td></tr><tr><td>P090903020102</td><td>BICOMPARTMENTAL PRIMARY IMPLANT UNCEMENTED MOBILE BEARING TIBIAL PLATES</td></tr><tr><td>P090903020103</td><td>BICOMPARTMENTAL PRIMARY IMPLANT CEMENTABLE MOBILE BEARING TIBIAL PLATES</td></tr><tr><td>P090903020104</td><td>BICOMPARTMENTAL PRIMARY IMPLANT CEMENTED FIXED BEARING TIBIAL PLATES</td></tr><tr><td>P090903020105</td><td>BICOMPARTMENTAL PRIMARY IMPLANT UNCEMENTED FIXED BEARING TIBIAL PLATES</td></tr><tr><td>P090903020106</td><td>BICOMPARTMENTAL PRIMARY IMPLANT CEMENTABLE FIXED BEARING TIBIAL PLATES</td></tr><tr><td>P0909030202</td><td>BICOMPARTMENTAL PRIMARY IMPLANT TIBIAL INSERTS</td></tr><tr><td>P090903020201</td><td>BICOMPARTMENTAL PRIMARY IMPLANT MOBILE BEARING TIBIAL INSERTS</td></tr><tr><td>P090903020202</td><td>BICOMPARTMENTAL PRIMARY IMPLANT FIXED BEARING TIBIAL INSERTS</td></tr><tr><td>P0909030203</td><td>BICOMPARTMENTAL PRIMARY IMPLANT TIBIAL COMPONENTS, MONOBLOCK</td></tr><tr><td>P090903020301</td><td>BICOMPARTMENTAL PRIMARY IMPLANT TIBIAL COMPONENTS, MONOBLOCK MADE OF POLYETHYLENE</td></tr><tr><td>P090903020399</td><td>BICOMPARTMENTAL PRIMARY IMPLANT TIBIAL COMPONENTS, MONOBLOCK - OTHER</td></tr><tr><td>P090904</td><td>UNICOMPARTMENTAL KNEE PROSTHESES (UNICONDYLAR)</td></tr><tr><td>P09090401</td><td>UNICOMPARTMENTAL KNEE PROSTHESES FEMORAL COMPONENTS (UNICONDYLAR)</td></tr><tr><td>P0909040101</td><td>UNICOMPARTMENTAL KNEE PROSTHESES FEMORAL COMPONENTS (UNICONDYLAR), CEMENTED</td></tr><tr><td>P0909040102</td><td>UNICOMPARTMENTAL KNEE PROSTHESES FEMORAL COMPONENTS (UNICONDYLAR), UNCEMENTED</td></tr><tr><td>P09090402</td><td>UNICOMPARTMENTAL KNEE PROSTHESES TIBIAL COMPONENTS</td></tr><tr><td>P0909040201</td><td>UNICOMPARTMENTAL KNEE PROSTHESES TIBIAL PLATES</td></tr><tr><td>P090904020101</td><td>MOBILE CEMENTED UNICOMPARTMENTAL PRIMARY IMPLANT TIBIAL PLATES</td></tr><tr><td>P090904020102</td><td>MOBILE UNCEMENTED UNICOMPARTMENTAL PRIMARY IMPLANT TIBIAL PLATES</td></tr><tr><td>P090904020103</td><td>FIXED CEMENTED UNICOMPARTMENTAL PRIMARY IMPLANT TIBIAL PLATES</td></tr><tr><td>P090904020104</td><td>FIXED UNCEMENTED UNICOMPARTMENTAL PRIMARY IMPLANT TIBIAL PLATES</td></tr><tr><td>P0909040202</td><td>UNICOMPARTMENTAL KNEE REPLACEMENT TIBIAL INSERTS</td></tr><tr><td>P090904020201</td><td>MOBILE UNICOMPARTMENTAL KNEE PROSTHESES TIBIAL INSERTS</td></tr><tr><td>P090904020202</td><td>UNICOMPARTMENTAL KNEE PROSTHESES TIBIAL INSERTS, FIXED</td></tr><tr><td>P0909040203</td><td>PRE-ASSEMBLED UNICOMPARTMENTAL KNEE PROSTHESES TIBIAL COMPONENTS (INSERT + TIBIAL PLATE)</td></tr><tr><td>P090904020301</td><td>KNEE PROSTHESES TIBIAL COMPONENTS, PREASSEMBLED, CEMENTED</td></tr><tr><td>P090904020302</td><td>UNICOMPARTMENTAL KNEE PROSTHESES TIBIAL COMPONENTS, PREASSEMBLED, UNCEMENTED</td></tr><tr><td>P0909040204</td><td>UNICOMPARTMENTAL KNEE PROSTHESES TIBIAL COMPONENTS, MONOBLOCK</td></tr><tr><td>P090904020401</td><td>UNICOMPARTMENTAL KNEE PROSTHESES TIBIAL COMPONENTS, MONOBLOCK, MADE OF POLYETHYLENE</td></tr><tr><td>P090904020499</td><td>UNICOMPARTMENTAL KNEE PROSTHESES TIBIAL COMPONENTS, MONOBLOCK - OTHER</td></tr><tr><td>P090905</td><td>REVISION KNEE PROSTHESES</td></tr><tr><td>P09090501</td><td>REVISION KNEE PROSTHESES FEMORAL COMPONENTS</td></tr><tr><td>P09090502</td><td>REVISION KNEE PROSTHESES TIBIAL COMPONENTS</td></tr><tr><td>P0909050201</td><td>REVISION KNEE PROSTHESES TIBIAL PLATES</td></tr><tr><td>P090905020101</td><td>REVISION KNEE PROSTHESES MOBILE BEARING TIBIAL PLATES</td></tr><tr><td>P090905020102</td><td>REVISION KNEE PROSTHESES FIXED BEARING TIBIAL PLATES</td></tr><tr><td>P0909050202</td><td>REVISION KNEE PROSTHESES TIBIAL INSERTS</td></tr><tr><td>P090905020201</td><td>REVISION KNEE PROSTHESES MOBILE BEARING TIBIAL INSERTS</td></tr><tr><td>P090905020202</td><td>REVISION KNEE PROSTHESES FIXED BEARING TIBIAL INSERTS</td></tr><tr><td>P090906</td><td>KNEE PROSTHESES FOR LARGE RESECTIONS</td></tr><tr><td>P090907</td><td>PATELLO-FEMORAL KNEE PROSTHESES</td></tr><tr><td>P09090701</td><td>FEMORAL TROCHLEA RESURFACING COMPONENTS</td></tr><tr><td>P09090702</td><td>PATELLAR COMPONENTS</td></tr><tr><td>P0909070201</td><td>PATELLAR COMPONENTS, MONOBLOCK</td></tr><tr><td>P0909070202</td><td>PATELLAR COMPONENTS, MODULAR</td></tr><tr><td>P090908</td><td>KNEE PROSTHESES SPACERS</td></tr><tr><td>P090980</td><td>KNEE PROSTHESES - ACCESSORIES</td></tr><tr><td>P09098001</td><td>KNEE PROSTHESES AUGMENTS</td></tr><tr><td>P09098002</td><td>KNEE PROSTHESES ADAPTERS (INCLUDING CONES AND SLEEVES)</td></tr><tr><td>P09098003</td><td>KNEE PROSTHESES OBTURATORS AND PLUGS</td></tr><tr><td>P09098004</td><td>KNEE PROSTHESES CENTRALISERS</td></tr><tr><td>P09098006</td><td>KNEE PROSTHESES STEMS</td></tr><tr><td>P0909800601</td><td>KNEE PROSTHESES FEMORAL STEMS</td></tr><tr><td>P0909800602</td><td>KNEE PROSTHESES TIBIAL STEMS</td></tr><tr><td>P09098099</td><td>KNEE PROSTHESES - ACCESSORIES&nbsp;- OTHER</td></tr><tr><td>P090999</td><td>KNEE PROSTHESES - OTHER</td></tr><tr><td>P0910</td><td>LIGAMENT PROSTHESES</td></tr><tr><td>P0912</td><td>OSTEOSYNTHESIS DEVICES, DEVICES FOR TENDON AND LIGAMENT SYNTHESIS</td></tr><tr><td>P091201</td><td>OSTEOSYNTHESIS STAPLES AND ANCHORS</td></tr><tr><td>P09120101</td><td>OSTEOSYNTHESIS STAPLES</td></tr><tr><td>P09120102</td><td>ANCHORS, TENDON AND LIGAMENT SYNTHESIS</td></tr><tr><td>P091202</td><td>BONE FIXATION NAILS</td></tr><tr><td>P09120201</td><td>INTRAMEDULLARY NAILS</td></tr><tr><td>P09120202</td><td>INTRAMEDULLARY NAILS IN COMPLEX SYSTEMS</td></tr><tr><td>P09120299</td><td>OSTEOSYNTHESIS NAILS - OTHER</td></tr><tr><td>P091203</td><td>BONE FIXATION WIRES</td></tr><tr><td>P09120301</td><td>KIRSCHNER BONE WIRES</td></tr><tr><td>P09120302</td><td>CERCLAGE DEVICES, WIRES AND BINDERS</td></tr><tr><td>P09120399</td><td>BONE FIXATION WIRES - OTHER</td></tr><tr><td>P091204</td><td>EXTERNAL BONE FIXATION SYSTEMS</td></tr><tr><td>P09120401</td><td>BONE FIXATION SYSTEMS</td></tr><tr><td>P0912040101</td><td>RADIAL BONE FIXATION SYSTEMS</td></tr><tr><td>P0912040102</td><td>AXIAL BONE FIXATION SYSTEMS</td></tr><tr><td>P09120402</td><td>SCREWS</td></tr><tr><td>P09120403</td><td>OSTEOSYNTHESIS DISTRACTORS</td></tr><tr><td>P09120499</td><td>EXTERNAL BONE FIXATION SYSTEMS - OTHER</td></tr><tr><td>P091205</td><td>BONE FIXATION PLATES</td></tr><tr><td>P09120501</td><td>OSTEOSYNTHESIS COMPRESSION PLATES</td></tr><tr><td>P09120502</td><td>OSTEOSYNTHESIS NEUTRALISATION AND SUPPORT PLATES</td></tr><tr><td>P09120503</td><td>OSTEOSYNTHESIS SCREW-PLATE SYSTEMS</td></tr><tr><td>P09120504</td><td>OSTEOSYNTHESIS BLADE-PLATE SYSTEMS</td></tr><tr><td>P09120599</td><td>BONE FIXATION PLATES - OTHER</td></tr><tr><td>P091206</td><td>BONE FIXATION SCREWS, TENDON AND LIGAMENT SYNTHESIS SCREWS</td></tr><tr><td>P09120601</td><td>CORTICAL SCREWS</td></tr><tr><td>P09120602</td><td>CANCELLOUS SCREWS</td></tr><tr><td>P09120603</td><td>CANNULATED SCREWS</td></tr><tr><td>P09120604</td><td>OSTEOSYNTHESIS NAIL-SCREW SYSTEMS</td></tr><tr><td>P09120605</td><td>INTERFERENCE SCREWS</td></tr><tr><td>P09120606</td><td>OSTEOSYNTHESIS DEVICES, BIODEGRADABLE SCREWS AND BARS</td></tr><tr><td>P09120699</td><td>BONE FIXATION SCREWS, TENDON AND LIGAMENT SYNTHESIS SCREWS - OTHER</td></tr><tr><td>P091280</td><td>OSTEOSYNTHESIS DEVICES, DEVICES FOR TENDON AND LIGAMENT SYNTHESIS - ACCESSORIES</td></tr><tr><td>P091299</td><td>OSTEOSYNTHESIS DEVICES, DEVICES FOR TENDON AND LIGAMENT SYNTHESIS - OTHER</td></tr><tr><td>P0913</td><td>ORTHOPAEDIC IMPLANT INSTRUMENTS, SINGLE-USE</td></tr><tr><td>P091301</td><td>ORTHOPAEDIC IMPLANT REAMERS, SINGLE-USE</td></tr><tr><td>P091302</td><td>ORTHOPAEDIC IMPLANT BLADES, SINGLE-USE</td></tr><tr><td>P091303</td><td>ORTHOPAEDIC IMPLANT DRILL BITS, SINGLE-USE</td></tr><tr><td>P091304</td><td>CRANIAL PERFORATORS, SINGLE-USE</td></tr><tr><td>P091305</td><td>BONE SAWS, SINGLE-USE</td></tr><tr><td>P091399</td><td>ORTHOPAEDIC IMPLANT INSTRUMENTS, SINGLE-USE - OTHER</td></tr><tr><td>P0990</td><td>ORTHOPAEDIC PROSTHESES - VARIOUS</td></tr><tr><td>P099001</td><td>ORTHOPAEDIC PROSTHESES CEMENTS AND ACCESSORIES FOR MIXING</td></tr><tr><td>P099002</td><td>ORTHOPAEDIC CEMENT PREPARATION AND APPLICATION DEVICES AND KITS</td></tr><tr><td>P099003</td><td>ORTHOPAEDIC PROSTHESES FIXING ELEMENTS - NOT OTHERWISE CLASSIFIED</td></tr><tr><td>P0999</td><td>ORTHOPAEDIC PROSTHESES, OSTEOSYNTHESIS DEVICES, DEVICES FOR TENDON AND LIGAMENT SYNTHESIS - OTHER</td></tr><tr><td>P10</td><td>EXTRA-VASCULAR SUPPORT PROSTHESES</td></tr><tr><td>P1001</td><td>LOWER LIMB EXTRAVENOUS VALVE SUPPORT PROSTHESES</td></tr><tr><td>P1002</td><td>CORONARY BYPASS EXTRAVENOUS SUPPORTS</td></tr><tr><td>P1099</td><td>EXTRAVASCULAR SUPPORT PROSTHESES - OTHER</td></tr><tr><td>P90</td><td>IMPLANTABLE PROSTHETIC AND OSTEOSYNTHESIS DEVICES - VARIOUS</td></tr><tr><td>P9001</td><td>TEMPORARY TISSUE EXPANDERS</td></tr><tr><td>P900101</td><td>CYLINDRICAL TISSUE EXPANDERS</td></tr><tr><td>P900102</td><td>ELLIPTICAL TISSUE EXPANDERS</td></tr><tr><td>P900103</td><td>BREAST TISSUE EXPANDERS</td></tr><tr><td>P900104</td><td>RECTANGULAR TISSUE EXPANDERS</td></tr><tr><td>P900105</td><td>ROUND TISSUE EXPANDERS</td></tr><tr><td>P900106</td><td>SEMILUNAR OR CRESCENT TISSUE EXPANDERS</td></tr><tr><td>P900199</td><td>TISSUE EXPANDERS - OTHER</td></tr><tr><td>P9002</td><td>SURGICAL MESHES</td></tr><tr><td>P900201</td><td>POLYGLYCOLIC ACID AND ASSOCIATIONS MESHES</td></tr><tr><td>P900202</td><td>POLYPROPYLENE SURGICAL MESHES</td></tr><tr><td>P900203</td><td>PTFE SURGICAL MESHES</td></tr><tr><td>P900204</td><td>SURGICAL MESHES, MORE THAN ONE COMPONENT</td></tr><tr><td>P900205</td><td>POLYESTER SURGICAL MESHES</td></tr><tr><td>P900206</td><td>METALLIC SURGICAL MESHES</td></tr><tr><td>P900299</td><td>SURGICAL MESHES - OTHER</td></tr><tr><td>P9003</td><td>TISSUE PATCHES</td></tr><tr><td>P900301</td><td>PTFE TISSUE PATCHES</td></tr><tr><td>P900302</td><td>POLYESTER TISSUE PATCHES</td></tr><tr><td>P900399</td><td>TISSUE PATCHES - OTHER</td></tr><tr><td>P9004</td><td>STRUCTURES FILLING, REPLACEMENT AND RECONSTRUCTION DEVICES</td></tr><tr><td>P900401</td><td>BONE AND TENDON REPLACEMENT DEVICES</td></tr><tr><td>P900402</td><td>RESORBABLE FILLING AND RECONSTRUCTION DEVICES</td></tr><tr><td>P900403</td><td>NON-RESORBABLE FILLING AND RECONSTRUCTION DEVICES</td></tr><tr><td>P900404</td><td>AUTOLOGOUS GRAFT SUPPORTS</td></tr><tr><td>P9099</td><td>IMPLANTABLE PROSTHETIC DEVICES - OTHER</td></tr><tr><td>Q010205</td><td>PRE-FORMED RESINS AND DENTAL CROWNS</td></tr><tr><td>Q01020501</td><td>DENTISTRY RESINS</td></tr><tr><td>Q0102050101</td><td>TEMPORARY TEETH RESINS</td></tr><tr><td>Q0102050102</td><td>DENTAL REBASING RESINS</td></tr><tr><td>Q0102050199</td><td>DENTISTRY RESINS - OTHER</td></tr><tr><td>Q01020502</td><td>PRE-FORMED DENTAL CROWNS</td></tr><tr><td>Q010206</td><td>DENTAL PROSTHESES (FOR DENTAL IMPLANTS SEE P010201)</td></tr><tr><td>Q01020601</td><td>MOBILE DENTAL PROSTHESES</td></tr><tr><td>Q01020602</td><td>COMBINED DENTAL PROSTHESES</td></tr><tr><td>Q01020603</td><td>SKELETAL DENTAL PROSTHESES</td></tr><tr><td>Q01020604</td><td>ORTHODONTIC DENTAL PROSTHESES</td></tr><tr><td>Q01020605</td><td>TEMPORARY DENTAL PROSTHESES</td></tr><tr><td>Q0104</td><td>ORTHODONTIC DEVICES</td></tr><tr><td>Q010401</td><td>ORTHODONTIC FACE BOWS</td></tr><tr><td>Q010402</td><td>ORTHODONTIC BANDS</td></tr><tr><td>Q010403</td><td>ORTHODONTIC BRACKETS AND BUTTONS</td></tr><tr><td>Q010404</td><td>ORTHODONTIC ELASTICS, CHAINS AND SPRINGS</td></tr><tr><td>Q010405</td><td>ORTHODONTIC WIRES</td></tr><tr><td>Q010406</td><td>ORTHODONTIC LIGATURES</td></tr><tr><td>Q010407</td><td>ORTHODONTIC CEMENTS</td></tr><tr><td>Q010499</td><td>ORTHODONTIC DEVICES - OTHER</td></tr><tr><td>Q0209</td><td>STRABISMUS DEVICES</td></tr><tr><td>Q0210</td><td>CORRECTIVE OPTICAL DEVICES</td></tr><tr><td>Q021001</td><td>OPHTHALMIC LENSES</td></tr><tr><td>Q02100101</td><td>ORGANIC OPHTHALMIC LENSES (PLASTIC MATERIALS)</td></tr><tr><td>Q0210010101</td><td>MONOFOCAL ORGANIC OPHTHALMIC LENSES</td></tr><tr><td>Q0210010102</td><td>MULTIFOCAL ORGANIC OPHTHALMIC LENSES (BIFOCAL, TRIFOCAL)</td></tr><tr><td>Q0210010103</td><td>PROGRESSIVE ORGANIC OPHTHALMIC LENSES</td></tr><tr><td>Q0210010199</td><td>ORGANIC OPHTHALMIC LENSES - OTHER</td></tr><tr><td>Q02100102</td><td>MINERAL OPHTHALMIC LENSES (GLASS)</td></tr><tr><td>Q0210010201</td><td>MONOFOCAL MINERAL OPHTHALMIC LENSES</td></tr><tr><td>Q0210010202</td><td>MULTIFOCAL MINERAL OPHTHALMIC LENSES (BIFOCAL, TRIFOCAL)</td></tr><tr><td>Q0210010203</td><td>PROGRESSIVE MINERAL OPHTHALMIC LENSES</td></tr><tr><td>Q0210010299</td><td>MINERAL OPHTHALMIC LENSES - OTHER</td></tr><tr><td>Q021002</td><td>SPECTACLE FRAMES WITHOUT LENSES</td></tr><tr><td>Q02100201</td><td>METAL SPECTACLE FRAMES WITHOUT LENSES</td></tr><tr><td>Q02100202</td><td>PLASTIC SPECTACLE FRAMES WITHOUT LENSES</td></tr><tr><td>Q02100203</td><td>METAL AND PLASTIC SPECTACLE FRAMES WITHOUT LENSES</td></tr><tr><td>Q02100299</td><td>SPECTACLE FRAMES WITHOUT LENSES - OTHER</td></tr><tr><td>Q021003</td><td>READY TO WEAR SPECTACLES</td></tr><tr><td>Q02100301</td><td>READY TO WEAR SPECTACLES WITH ORGANIC LENSES</td></tr><tr><td>Q0210030101</td><td>READY TO WEAR METAL SPECTACLES WITH ORGANIC LENSES</td></tr><tr><td>Q0210030102</td><td>READY TO WEAR PLASTIC SPECTACLES WITH ORGANIC LENSES</td></tr><tr><td>Q0210030103</td><td>READY TO WEAR METAL AND PLASTIC SPECTACLES WITH ORGANIC LENSES</td></tr><tr><td>Q0210030199</td><td>READY TO WEAR SPECTACLES WITH ORGANIC LENSES - OTHER</td></tr><tr><td>Q02100302</td><td>READY TO WEAR SPECTACLES WITH MINERAL LENSES</td></tr><tr><td>Q0210030201</td><td>READY TO WEAR METAL SPECTACLES WITH MINERAL LENSES</td></tr><tr><td>Q0210030202</td><td>READY TO WEAR PLASTIC SPECTACLES WITH MINERAL LENSES</td></tr><tr><td>Q0210030203</td><td>READY TO WEAR METAL AND PLASTIC SEPECTACLES WITH MINERAL LENSES</td></tr><tr><td>Q0210030299</td><td>READY TO WEAR SPECTACLES WITH MINERAL LENSES - OTHER</td></tr><tr><td>Q021004</td><td>CONTACT LENSES</td></tr><tr><td>Q02100401</td><td>CONTACT LENSES - HYDROGEL</td></tr><tr><td>Q0210040101</td><td>CONTACT LENSES - HYDROGEL, SINGLE-USE</td></tr><tr><td>Q021004010101</td><td>CONTACT LENSES - HYDROGEL, DAILY SINGLE-USE</td></tr><tr><td>Q021004010102</td><td>CONTACT LENSES - HYDROGEL, EXTENDED SINGLE-USE</td></tr><tr><td>Q0210040102</td><td>CONTACT LENSES - HYDROGEL, REUSABLE</td></tr><tr><td>Q02100402</td><td>CONTACT LENSES - NON HYDROGEL</td></tr><tr><td>Q02100499</td><td>CONTACT LENSES - OTHER</td></tr><tr><td>Q021099</td><td>CORRECTIVE OPTICAL DEVICES - OTHER</td></tr><tr><td>Q03040102</td><td>ENDOLYMPHATIC SHUNTS</td></tr><tr><td>U07</td><td>DEVICES FOR THE TREATMENT OF INCONTINENCE</td></tr><tr><td>U0701</td><td>INTERNAL SYSTEMS FOR THE TREATMENT OF INCONTINENCE</td></tr><tr><td>U070101</td><td>SLING SYSTEMS FOR THE TREATMENT OF INCONTINENCE</td></tr><tr><td>U070199</td><td>INTERNAL SYSTEMS FOR THE TREATMENT OF INCONTINENCE - OTHER</td></tr><tr><td>U0702</td><td>EXTERNAL DEVICES FOR THE TREATMENT OF INCONTINENCE</td></tr><tr><td>U070201</td><td>SHEATH CATHETER FOR THE TREATMENT OF INCONTINENCE</td></tr><tr><td>U070299</td><td>EXTERNAL DEVICES FOR THE TREATMENT OF INCONTINENCE - OTHER</td></tr><tr><td>U0703</td><td>PELVIC FLOOR REHABILITATION DEVICES</td></tr><tr><td>U070301</td><td>PELVIC FLOOR REHABILITATION DEVICES, BIOFEEDBACK, SINGLE-USE</td></tr><tr><td>U070302</td><td>PELVIC FLOOR REHABILITATION DEVICES, FUNCTIONAL ELECTROSTIMULATION, SINGLE-USE</td></tr><tr><td>U070399</td><td>PELVIC FLOOR REHABILITATION DEVICES - OTHER</td></tr><tr><td>U0780</td><td>DEVICES FOR THE TREATMENT OF INCONTINENCE - ACCESSORIES</td></tr><tr><td>U0799</td><td>DEVICES FOR THE TREATMENT OF INCONTINENCE - OTHER</td></tr><tr><td>U089005</td><td>PESSARIANS</td></tr><tr><td>U1102</td><td>DEVICES FOR FEMALE CONTRACEPTION</td></tr><tr><td>U110201</td><td>INTRAUTERINE COILS</td></tr><tr><td>U110202</td><td>VAGINAL DIAPHRAGMS</td></tr><tr><td>U110203</td><td>FEMALE CONDOMS</td></tr><tr><td>U110299</td><td>DEVICES FOR FEMALE CONTRACEPTION - OTHER</td></tr><tr><td>Y06</td><td>EXTERNAL PROSTHESES AND ORTHOSES</td></tr><tr><td>Y0603</td><td>SPINE ORTHOSES</td></tr><tr><td>Y060303</td><td>SACROILIAC SPINE ORTHOSES</td></tr><tr><td>Y060306</td><td>THORACOLUMBAR ORTHOSES</td></tr><tr><td>Y060307</td><td>THORACIC ORTHOSES</td></tr><tr><td>Y060308</td><td>LUMBOSACRAL SPINE ORTHOSES</td></tr><tr><td>Y060309</td><td>THORACOLUMBOSACRAL SPINE ORTHOSES</td></tr><tr><td>Y060312</td><td>CERVICAL SPINE ORTHOSES</td></tr><tr><td>Y060315</td><td>CERVICOTHORACIC SPINE ORTHOSES</td></tr><tr><td>Y060318</td><td>CERVICOTHORACOLUMBOSACRAL SPINE ORTHOSES</td></tr><tr><td>Y060380</td><td>SPINAL ORTHOSES - ACCESSORIES</td></tr><tr><td>Y060399</td><td>SPINE ORTHOSES - OTHER</td></tr><tr><td>Y0604</td><td>ABDOMINAL ORTHOSES</td></tr><tr><td>Y060403</td><td>ABDOMINAL MUSCLES SUPPORTS</td></tr><tr><td>Y060406</td><td>ABDOMINAL HERNIA SUPPORTS</td></tr><tr><td>Y060499</td><td>ABDOMINAL ORTHOSES - OTHER</td></tr><tr><td>Y0606</td><td>UPPER EXTREMITY ORTHOSES (SPLINTS AND BRACES)</td></tr><tr><td>Y060603</td><td>FINGERS ORTHOSES</td></tr><tr><td>Y060606</td><td>HAND ORTHOSES</td></tr><tr><td>Y060609</td><td>WRIST (FOREARM) ORTHOSES</td></tr><tr><td>Y060612</td><td>WRIST-HAND ORTHOSES</td></tr><tr><td>Y060613</td><td>WRIST-HAND-FINGERS ORTHOSES</td></tr><tr><td>Y060615</td><td>ELBOW ORTHOSES</td></tr><tr><td>Y060618</td><td>ELBOW-WRIST ORTHOSES</td></tr><tr><td>Y060619</td><td>ELBOW-WRIST-HAND ORTHOSES</td></tr><tr><td>Y060621</td><td>SHOULDER ORTHOSES</td></tr><tr><td>Y060624</td><td>SHOULDER-ELBOW ORTHOSES</td></tr><tr><td>Y060627</td><td>SHOULDER-ELBOW - WRIST ORTHOSES</td></tr><tr><td>Y060630</td><td>SHOULDER-ELBOW-WRIST- HAND ORTHOSES</td></tr><tr><td>Y060680</td><td>UPPER LIMB ORTHOSES - ACCESSORIES</td></tr><tr><td>Y060699</td><td>ORTHOSES, UPPER EXTREMITY - OTHER</td></tr><tr><td>Y0612</td><td>ORTHOSIS, LOWER EXTREMITY (INSOLES, LIFTS, SPLINTS, BRACES, CLAMPS)</td></tr><tr><td>Y061203</td><td>ORTHOSES, FOOT (INCLUDING INSOLES AND INSERTS)</td></tr><tr><td>Y061206</td><td>ANKLE-FOOT ORTHOSES</td></tr><tr><td>Y06120601</td><td>PASSIVE ANKLE-FOOT ORTHOSES</td></tr><tr><td>Y06120602</td><td>ENERGY RETURN ANKLE-FOOT ORTHOSES</td></tr><tr><td>Y061209</td><td>KNEE ORTHOSES</td></tr><tr><td>Y061212</td><td>KNEE-ANKLE-FOOT ORTHOSES</td></tr><tr><td>Y06121201</td><td>PASSIVE KNEE-ANKLE-FOOT ORTHOSES</td></tr><tr><td>Y06121202</td><td>ENERGY RETURN ORTHOSES FOR KNEE-ANKLE-FOOT</td></tr><tr><td>Y06121203</td><td>ACTIVE KNEE-ANKLE-FOOT ORTHOSES</td></tr><tr><td>Y061215</td><td>HIP ORTHOSES (INCLUDING ABDUCTION ORTHOSES)</td></tr><tr><td>Y061216</td><td>HIP-KNEE ORTHOSES</td></tr><tr><td>Y061217</td><td>THIGH ORTHOSES</td></tr><tr><td>Y061218</td><td>HIP-KNEE-ANKLE-FOOT ORTHOSES</td></tr><tr><td>Y061219</td><td>CHEST-LUMB-SACRAL-HIP-KNEE-ANKLE-FOOT ORTHOSES</td></tr><tr><td>Y061280</td><td>LOWER LIMB ORTHOSES - ACCESSORIES</td></tr><tr><td>Y061299</td><td>LOWER EXTREMITY ORTHOSES - OTHER</td></tr><tr><td>Y0618</td><td>UPPER EXTREMITY PROSTHESES</td></tr><tr><td>Y061803</td><td>PARTIAL HAND PROSTHESES (INCLUDING FINGERS PROSTHESES)</td></tr><tr><td>Y061806</td><td>WRIST DISARTICULATION PROSTHESES</td></tr><tr><td>Y061809</td><td>TRANSRADIAL PROSTHESES (FOR AMPUTATION UNDER ELBOW)</td></tr><tr><td>Y061812</td><td>ELBOW DISARTICULATION PROSTHESES</td></tr><tr><td>Y061815</td><td>TRANSHUMERAL PROSTHESES (FOR AMPUTATION ABOVE ELBOW)</td></tr><tr><td>Y061818</td><td>SHOULDER DISARTICULATION PROSTHESES</td></tr><tr><td>Y061899</td><td>UPPER EXTREMITY PROSTHESES - OTHER</td></tr><tr><td>Y0624</td><td>LOWER EXTREMITY PROSTHESES</td></tr><tr><td>Y062403</td><td>FOOT PARTIAL PROSTHESES (INCLUDING TOE PROSTHESES)</td></tr><tr><td>Y062409</td><td>TRANSTIBIAL PROSTHESES (FOR AMPUTATION UNDER KNEE)</td></tr><tr><td>Y062412</td><td>KNEE DISARTICULATION PROSTHESES</td></tr><tr><td>Y062415</td><td>TRANSFEMORAL PROSTHESES (FOR AMPUTATION ABOVE KNEE)</td></tr><tr><td>Y062418</td><td>HIP DISARTICULATION PROSTHESES</td></tr><tr><td>Y062499</td><td>LOWER EXTREMITY PROSTHESES - OTHER</td></tr><tr><td>Y0627</td><td>COSMETIC AND NON-FUNCTIONAL LOWER LIMB PROSTHESES</td></tr><tr><td>Y062703</td><td>AESTHETIC FILLERS, CALF AND THIGH</td></tr><tr><td>Y0630</td><td>NON-EXTREMITY PROSTHESES</td></tr><tr><td>Y063018</td><td>EXTERNAL BREAST PROSTHESES</td></tr><tr><td>Y063021</td><td>OCULAR PROSTHESES</td></tr><tr><td>Y063099</td><td>NON-EXTREMITY PROSTHESES - OTHER</td></tr><tr><td>Y0633</td><td>ORTHOTIC SHOES</td></tr><tr><td>Y063303</td><td>READY-MADE ORTHOTIC SHOES</td></tr><tr><td>Y0699</td><td>EXTERNAL PROSTHESES AND ORTHOSES - OTHER</td></tr></table></li>
+<li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a>
+<table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr>
+<tr><td><a href="http://snomed.info/id/102303004">102303004</a></td>
+<td>Vascular prosthesis</td></tr>
+<tr><td><a href="http://snomed.info/id/102314001">102314001</a></td>
+<td>Embolization coil</td></tr>
+<tr><td><a href="http://snomed.info/id/102319006">102319006</a></td>
+<td>Percutaneous transluminal angioplasty balloon</td></tr>
+<tr><td><a href="http://snomed.info/id/118374007">118374007</a></td>
+<td>Silicone implant</td></tr>
+<tr><td><a href="http://snomed.info/id/118375008">118375008</a></td>
+<td>Cardiac septum prosthesis</td></tr>
+<tr><td><a href="http://snomed.info/id/118378005">118378005</a></td>
+<td>Pacemaker pulse generator</td></tr>
+<tr><td><a href="http://snomed.info/id/118425005">118425005</a></td>
+<td>Ventricular reservoir</td></tr>
+<tr><td><a href="http://snomed.info/id/14106009">14106009</a></td>
+<td>Cardiac pacemaker</td></tr>
+<tr><td><a href="http://snomed.info/id/14789005">14789005</a></td>
+<td>Prosthetic implant</td></tr>
+<tr><td><a href="http://snomed.info/id/15447007">15447007</a></td>
+<td>Joint prosthesis</td></tr>
+<tr><td><a href="http://snomed.info/id/16349000">16349000</a></td>
+<td>Orthopedic device</td></tr>
+<tr><td><a href="http://snomed.info/id/17107009">17107009</a></td>
+<td>Mitral valve prosthesis</td></tr>
+<tr><td><a href="http://snomed.info/id/19923001">19923001</a></td>
+<td>Catheter</td></tr>
+<tr><td><a href="http://snomed.info/id/2282003">2282003</a></td>
+<td>Breast prosthesis</td></tr>
+<tr><td><a href="http://snomed.info/id/25510005">25510005</a></td>
+<td>Cardiac valve prosthesis</td></tr>
+<tr><td><a href="http://snomed.info/id/257275005">257275005</a></td>
+<td>Spinal cage</td></tr>
+<tr><td><a href="http://snomed.info/id/257281002">257281002</a></td>
+<td>Conduit</td></tr>
+<tr><td><a href="http://snomed.info/id/257282009">257282009</a></td>
+<td>Non-valved conduit</td></tr>
+<tr><td><a href="http://snomed.info/id/257283004">257283004</a></td>
+<td>Valved cardiac conduit</td></tr>
+<tr><td><a href="http://snomed.info/id/257296003">257296003</a></td>
+<td>Fixator</td></tr>
+<tr><td><a href="http://snomed.info/id/257327003">257327003</a></td>
+<td>DHS plate</td></tr>
+<tr><td><a href="http://snomed.info/id/257343005">257343005</a></td>
+<td>Xenograft cardiac valve</td></tr>
+<tr><td><a href="http://snomed.info/id/257351008">257351008</a></td>
+<td>Shunt</td></tr>
+<tr><td><a href="http://snomed.info/id/257362008">257362008</a></td>
+<td>Plastic stent</td></tr>
+<tr><td><a href="http://snomed.info/id/257363003">257363003</a></td>
+<td>Metal stent</td></tr>
+<tr><td><a href="http://snomed.info/id/257366006">257366006</a></td>
+<td>JJ-stent</td></tr>
+<tr><td><a href="http://snomed.info/id/257409000">257409000</a></td>
+<td>Vena cava filter</td></tr>
+<tr><td><a href="http://snomed.info/id/258593008">258593008</a></td>
+<td>Ventricular shunt</td></tr>
+<tr><td><a href="http://snomed.info/id/25937001">25937001</a></td>
+<td>Neurostimulator</td></tr>
+<tr><td><a href="http://snomed.info/id/261161001">261161001</a></td>
+<td>Posterior chamber lens</td></tr>
+<tr><td><a href="http://snomed.info/id/264824009">264824009</a></td>
+<td>Cardiac conduit</td></tr>
+<tr><td><a href="http://snomed.info/id/268460000">268460000</a></td>
+<td>Intrauterine contraceptive device</td></tr>
+<tr><td><a href="http://snomed.info/id/271003">271003</a></td>
+<td>Bone plate</td></tr>
+<tr><td><a href="http://snomed.info/id/272287005">272287005</a></td>
+<td>Inlay dental restoration</td></tr>
+<tr><td><a href="http://snomed.info/id/272307009">272307009</a></td>
+<td>Endosseous oral implant</td></tr>
+<tr><td><a href="http://snomed.info/id/27606000">27606000</a></td>
+<td>Dental prosthesis</td></tr>
+<tr><td><a href="http://snomed.info/id/286558002">286558002</a></td>
+<td>Ureteric stent</td></tr>
+<tr><td><a href="http://snomed.info/id/286576009">286576009</a></td>
+<td>Urethral stent</td></tr>
+<tr><td><a href="http://snomed.info/id/303277008">303277008</a></td>
+<td>Fallopian tube prosthesis</td></tr>
+<tr><td><a href="http://snomed.info/id/303490004">303490004</a></td>
+<td>Cardiovascular implant</td></tr>
+<tr><td><a href="http://snomed.info/id/303497001">303497001</a></td>
+<td>Urogenital implant</td></tr>
+<tr><td><a href="http://snomed.info/id/303499003">303499003</a></td>
+<td>Gastrointestinal implant</td></tr>
+<tr><td><a href="http://snomed.info/id/303500007">303500007</a></td>
+<td>Auditory implant</td></tr>
+<tr><td><a href="http://snomed.info/id/303503009">303503009</a></td>
+<td>Musculoskeletal implant</td></tr>
+<tr><td><a href="http://snomed.info/id/303515008">303515008</a></td>
+<td>Orbital implant</td></tr>
+<tr><td><a href="http://snomed.info/id/303533002">303533002</a></td>
+<td>Hip joint implant</td></tr>
+<tr><td><a href="http://snomed.info/id/303572003">303572003</a></td>
+<td>Total elbow joint replacement prosthesis</td></tr>
+<tr><td><a href="http://snomed.info/id/303608005">303608005</a></td>
+<td>Ophthalmological implant</td></tr>
+<tr><td><a href="http://snomed.info/id/303610007">303610007</a></td>
+<td>Musculoskeletal prosthesis</td></tr>
+<tr><td><a href="http://snomed.info/id/303617005">303617005</a></td>
+<td>Vascular implant</td></tr>
+<tr><td><a href="http://snomed.info/id/303618000">303618000</a></td>
+<td>Nervous system implant</td></tr>
+<tr><td><a href="http://snomed.info/id/303619008">303619008</a></td>
+<td>Cardiac implant</td></tr>
+<tr><td><a href="http://snomed.info/id/303726000">303726000</a></td>
+<td>Shoulder joint prosthesis</td></tr>
+<tr><td><a href="http://snomed.info/id/303947005">303947005</a></td>
+<td>Rod fixation system</td></tr>
+<tr><td><a href="http://snomed.info/id/304070008">304070008</a></td>
+<td>Body wall implant</td></tr>
+<tr><td><a href="http://snomed.info/id/304075003">304075003</a></td>
+<td>Female genital implant</td></tr>
+<tr><td><a href="http://snomed.info/id/304120007">304120007</a></td>
+<td>Total hip replacement prosthesis</td></tr>
+<tr><td><a href="http://snomed.info/id/304121006">304121006</a></td>
+<td>Femoral head prosthesis</td></tr>
+<tr><td><a href="http://snomed.info/id/304124003">304124003</a></td>
+<td>Shoulder joint implant</td></tr>
+<tr><td><a href="http://snomed.info/id/304125002">304125002</a></td>
+<td>Total shoulder replacement prosthesis</td></tr>
+<tr><td><a href="http://snomed.info/id/304185004">304185004</a></td>
+<td>Foot joint implant</td></tr>
+<tr><td><a href="http://snomed.info/id/304186003">304186003</a></td>
+<td>Hand joint implant</td></tr>
+<tr><td><a href="http://snomed.info/id/31031000">31031000</a></td>
+<td>Orthopedic internal fixation system</td></tr>
+<tr><td><a href="http://snomed.info/id/313062001">313062001</a></td>
+<td>Total knee joint prosthesis</td></tr>
+<tr><td><a href="http://snomed.info/id/313236002">313236002</a></td>
+<td>Intraocular lens implant</td></tr>
+<tr><td><a href="http://snomed.info/id/314521005">314521005</a></td>
+<td>Upper limb joint prosthesis</td></tr>
+<tr><td><a href="http://snomed.info/id/314522003">314522003</a></td>
+<td>Lower limb joint prosthesis</td></tr>
+<tr><td><a href="http://snomed.info/id/314523008">314523008</a></td>
+<td>Joint implant</td></tr>
+<tr><td><a href="http://snomed.info/id/339648008">339648008</a></td>
+<td>Colostomy bag</td></tr>
+<tr><td><a href="http://snomed.info/id/344088002">344088002</a></td>
+<td>Urostomy bag</td></tr>
+<tr><td><a href="http://snomed.info/id/34759008">34759008</a></td>
+<td>Urethral catheter</td></tr>
+<tr><td><a href="http://snomed.info/id/360041000">360041000</a></td>
+<td>Implanted drug delivery system</td></tr>
+<tr><td><a href="http://snomed.info/id/360044008">360044008</a></td>
+<td>Intraluminal vascular device</td></tr>
+<tr><td><a href="http://snomed.info/id/360046005">360046005</a></td>
+<td>Arterial stent</td></tr>
+<tr><td><a href="http://snomed.info/id/360058005">360058005</a></td>
+<td>Intraventricular pump</td></tr>
+<tr><td><a href="http://snomed.info/id/360063009">360063009</a></td>
+<td>Prosthetic cardiac annuloplasty ring</td></tr>
+<tr><td><a href="http://snomed.info/id/360070009">360070009</a></td>
+<td>Laryngeal implant</td></tr>
+<tr><td><a href="http://snomed.info/id/360100007">360100007</a></td>
+<td>Tracheal stent</td></tr>
+<tr><td><a href="http://snomed.info/id/360103009">360103009</a></td>
+<td>Intracochlear prosthesis</td></tr>
+<tr><td><a href="http://snomed.info/id/360104003">360104003</a></td>
+<td>Extracochlear prosthesis</td></tr>
+<tr><td><a href="http://snomed.info/id/360123005">360123005</a></td>
+<td>Biliary stent</td></tr>
+<tr><td><a href="http://snomed.info/id/360129009">360129009</a></td>
+<td>Cardiac pacemaker lead</td></tr>
+<tr><td><a href="http://snomed.info/id/360145006">360145006</a></td>
+<td>Bone prosthesis</td></tr>
+<tr><td><a href="http://snomed.info/id/360329004">360329004</a></td>
+<td>Dacron graft</td></tr>
+<tr><td><a href="http://snomed.info/id/361140007">361140007</a></td>
+<td>Cardiac assist implant</td></tr>
+<tr><td><a href="http://snomed.info/id/386014009">386014009</a></td>
+<td>Surgical staple</td></tr>
+<tr><td><a href="http://snomed.info/id/386124003">386124003</a></td>
+<td>Transseptal catheter</td></tr>
+<tr><td><a href="http://snomed.info/id/398013009">398013009</a></td>
+<td>Implantable venous access port</td></tr>
+<tr><td><a href="http://snomed.info/id/40388003">40388003</a></td>
+<td>Implant</td></tr>
+<tr><td><a href="http://snomed.info/id/407744008">407744008</a></td>
+<td>Stoma appliance</td></tr>
+<tr><td><a href="http://snomed.info/id/408099007">408099007</a></td>
+<td>Suture</td></tr>
+<tr><td><a href="http://snomed.info/id/411114003">411114003</a></td>
+<td>Drug coated stent</td></tr>
+<tr><td><a href="http://snomed.info/id/413766009">413766009</a></td>
+<td>Carotid stent</td></tr>
+<tr><td><a href="http://snomed.info/id/414580007">414580007</a></td>
+<td>Laryngeal keel</td></tr>
+<tr><td><a href="http://snomed.info/id/417136005">417136005</a></td>
+<td>Ileostomy bag</td></tr>
+<tr><td><a href="http://snomed.info/id/421168009">421168009</a></td>
+<td>Eye sphere implant</td></tr>
+<tr><td><a href="http://snomed.info/id/423449009">423449009</a></td>
+<td>Pulmonary valve prosthesis, device</td></tr>
+<tr><td><a href="http://snomed.info/id/424921004">424921004</a></td>
+<td>Permanent cardiac pacemaker, device</td></tr>
+<tr><td><a href="http://snomed.info/id/429798007">429798007</a></td>
+<td>Artificial vertebral disc</td></tr>
+<tr><td><a href="http://snomed.info/id/43252007">43252007</a></td>
+<td>Cochlear prosthesis</td></tr>
+<tr><td><a href="http://snomed.info/id/45633005">45633005</a></td>
+<td>Peritoneal dialyzer</td></tr>
+<tr><td><a href="http://snomed.info/id/465380004">465380004</a></td>
+<td>Silicone gel-filled breast implant</td></tr>
+<tr><td><a href="http://snomed.info/id/469997005">469997005</a></td>
+<td>Maxillofacial prosthesis</td></tr>
+<tr><td><a href="http://snomed.info/id/52124006">52124006</a></td>
+<td>Central venous catheter</td></tr>
+<tr><td><a href="http://snomed.info/id/53671008">53671008</a></td>
+<td>Gastric balloon</td></tr>
+<tr><td><a href="http://snomed.info/id/53996008">53996008</a></td>
+<td>Penile prosthesis</td></tr>
+<tr><td><a href="http://snomed.info/id/6012004">6012004</a></td>
+<td>Hearing aid</td></tr>
+<tr><td><a href="http://snomed.info/id/63112008">63112008</a></td>
+<td>Bone wire</td></tr>
+<tr><td><a href="http://snomed.info/id/63289001">63289001</a></td>
+<td>Surgical metal nail, device</td></tr>
+<tr><td><a href="http://snomed.info/id/65818007">65818007</a></td>
+<td>Stent</td></tr>
+<tr><td><a href="http://snomed.info/id/67270000">67270000</a></td>
+<td>Hip prosthesis</td></tr>
+<tr><td><a href="http://snomed.info/id/68183006">68183006</a></td>
+<td>Bone screw</td></tr>
+<tr><td><a href="http://snomed.info/id/702215009">702215009</a></td>
+<td>Intracardiac pacemaker</td></tr>
+<tr><td><a href="http://snomed.info/id/703201004">703201004</a></td>
+<td>Tricuspid valve prosthesis</td></tr>
+<tr><td><a href="http://snomed.info/id/705861008">705861008</a></td>
+<td>Implantable joint prosthesis</td></tr>
+<tr><td><a href="http://snomed.info/id/705865004">705865004</a></td>
+<td>Implantable ankle prosthesis</td></tr>
+<tr><td><a href="http://snomed.info/id/705904002">705904002</a></td>
+<td>Orthopedic fixation system</td></tr>
+<tr><td><a href="http://snomed.info/id/705908004">705908004</a></td>
+<td>Orthopedic fixation plate</td></tr>
+<tr><td><a href="http://snomed.info/id/705959003">705959003</a></td>
+<td>Embolization implant</td></tr>
+<tr><td><a href="http://snomed.info/id/705991002">705991002</a></td>
+<td>Mechanical cardiac valve prosthesis</td></tr>
+<tr><td><a href="http://snomed.info/id/714577002">714577002</a></td>
+<td>Graft, device</td></tr>
+<tr><td><a href="http://snomed.info/id/72506001">72506001</a></td>
+<td>Implantable defibrillator</td></tr>
+<tr><td><a href="http://snomed.info/id/74444006">74444006</a></td>
+<td>Limb prosthesis</td></tr>
+<tr><td><a href="http://snomed.info/id/75780002">75780002</a></td>
+<td>Artificial kidney</td></tr>
+<tr><td><a href="http://snomed.info/id/77444004">77444004</a></td>
+<td>Bone pin</td></tr>
+<tr><td><a href="http://snomed.info/id/77777004">77777004</a></td>
+<td>Bone staple</td></tr>
+<tr><td><a href="http://snomed.info/id/79593001">79593001</a></td>
+<td>Transvenous electrode</td></tr>
+<tr><td><a href="http://snomed.info/id/84683006">84683006</a></td>
+<td>Aortic valve prosthesis</td></tr>
+<tr><td><a href="http://snomed.info/id/860577005">860577005</a></td>
+<td>Aortic valve bioprosthesis</td></tr>
+<tr><td><a href="http://snomed.info/id/860578000">860578000</a></td>
+<td>Mitral valve bioprosthesis</td></tr>
+<tr><td><a href="http://snomed.info/id/860586000">860586000</a></td>
+<td>Pulmonary valve bioprosthesis</td></tr>
+<tr><td><a href="http://snomed.info/id/90134004">90134004</a></td>
+<td>Metal periosteal implant</td></tr></table></li></ul></div>
+
+  <p>&#160;</p>
+  <a name="expansion"> </a>
+  <h3 id="expansion">Expansion</h3>
+
+  <p style="border: maroon 1px solid; background-color: #FFCCCC; font-weight: bold; padding: 8px" title="No Expansion for this valueset (Unknown Code System&lt;!-- [Unable to expand imported value set: Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.44.6, Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.44.6] --&gt;)">No Expansion for this valueset (Unknown Code System<!-- [Unable to expand imported value set: Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.44.6, Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.44.6] -->)</p>
+
+
+  <hr/>
+  <p>
+    Explanation of the columns that may appear on this page:
+  </p>
+  <table class="grid">
+    <tr>
+      <td>Level</td>
+      <td>A few code lists that FHIR defines are hierarchical - each code is assigned a level.
+          In this scheme, some codes are under other codes, and imply that the code they are under also applies</td>
+    </tr>
+    <tr>
+      <td>System</td>
+      <td>The source of the definition of the code (when the value set draws in codes defined elsewhere)</td>
+    </tr>
+    <tr>
+      <td>Code</td>
+      <td>The code (used as the code in the resource instance)</td>
+    </tr>
+    <tr>
+      <td>Display</td>
+      <td>The display (used in the <i>display</i> element of a <a href="http://hl7.org/fhir/R4/datatypes.html#Coding">Coding</a>). If there is no display, implementers should not simply display the code, but map the concept into their application</td>
+    </tr>
+    <tr>
+      <td>Definition</td>
+      <td>An explanation of the meaning of the concept</td>
+    </tr>
+    <tr>
+      <td>Comments</td>
+      <td>Additional notes about how to use the code</td>
+    </tr>
+  </table>
+
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+  
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7europe.org">HL7 Europe</a>.  Package hl7.eu.terminology.ehdsi#0.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sat, Feb 8, 2025 05:43+0000">2025-02-08</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

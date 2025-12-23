@@ -1,0 +1,4769 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="eHDSIMedicalDevice"/>
+  <url value="http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIMedicalDevice"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.8"/>
+  </identifier>
+  <version value="0.2.0"/>
+  <name value="eHDSIMedicalDevice"/>
+  <title value="eHDSI Medical Device"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2025-02-08T05:43:06+00:00"/>
+  <publisher value="HL7 Europe"/>
+  <contact>
+    <name value="HL7 Europe"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7europe.org"/>
+    </telecom>
+  </contact>
+  <description value="nan"/>
+  <compose>
+    <include>
+      <system value="urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.44.6"/>
+      <concept>
+        <code value="A100101"/>
+        <display value="ONE PIECE COLOSTOMY BAGS"/>
+      </concept>
+      <concept>
+        <code value="A10010101"/>
+        <display value="ONE-PIECE COLOSTOMY BAGS FOR NON-RETRACTED STOMA, FLAT"/>
+      </concept>
+      <concept>
+        <code value="A1001010101"/>
+        <display value="ONE-PIECE COLOSTOMY BAGS FOR NON-RETRACTED STOMA, FLAT, W/O TISSUE COVER"/>
+      </concept>
+      <concept>
+        <code value="A1001010102"/>
+        <display value="ONE-PIECE COLOSTOMY BAGS FOR NON-RETRACTED STOMA, FLAT, WITH TISSUE COVER"/>
+      </concept>
+      <concept>
+        <code value="A10010102"/>
+        <display value="ONE-PIECE COLOSTOMY BAGS FOR RETRACTED STOMA, CONVEX"/>
+      </concept>
+      <concept>
+        <code value="A1001010201"/>
+        <display value="ONE-PIECE COLOSTOMY BAGS FOR RETRACTED STOMA, CONVEX, W/O TISSUE COVER"/>
+      </concept>
+      <concept>
+        <code value="A1001010202"/>
+        <display value="ONE-PIECE COLOSTOMY BAGS FOR RETRACTED STOMA, CONVEX, WITH TISSUE COVER"/>
+      </concept>
+      <concept>
+        <code value="A100102"/>
+        <display value="ONE PIECE ILEOSTOMY BAGS"/>
+      </concept>
+      <concept>
+        <code value="A10010201"/>
+        <display value="ONE-PIECE ILEOSTOMY BAGS FOR NON-RETRACTED STOMA, FLAT"/>
+      </concept>
+      <concept>
+        <code value="A1001020101"/>
+        <display value="ONE-PIECE ILEOSTOMY BAGS FOR NON-RETRACTED STOMA, FLAT, W/O TISSUE COVER"/>
+      </concept>
+      <concept>
+        <code value="A1001020102"/>
+        <display value="ONE-PIECE ILEOSTOMY BAGS FOR NON-RETRACTED STOMA, FLAT, WITH TISSUE COVER"/>
+      </concept>
+      <concept>
+        <code value="A10010202"/>
+        <display value="ONE-PIECE ILEOSTOMY BAGS FOR RETRACTED STOMA, CONVEX"/>
+      </concept>
+      <concept>
+        <code value="A1001020201"/>
+        <display value="ONE-PIECE ILEOSTOMY BAGS FOR RETRACTED STOMA, CONVEX, W/O TISSUE COVER"/>
+      </concept>
+      <concept>
+        <code value="A1001020202"/>
+        <display value="ONE-PIECE ILEOSTOMY BAGS FOR RETRACTED STOMA, CONVEX, WITH TISSUE COVER"/>
+      </concept>
+      <concept>
+        <code value="A100103"/>
+        <display value="ONE PIECE UROSTOMY BAGS"/>
+      </concept>
+      <concept>
+        <code value="A10010301"/>
+        <display value="ONE-PIECE UROSTOMY BAGS FOR NON-RETRACTED STOMA, FLAT"/>
+      </concept>
+      <concept>
+        <code value="A1001030101"/>
+        <display value="ONE-PIECE UROSTOMY BAGS FOR NON-RETRACTED STOMA, FLAT, W/O TISSUE COVER"/>
+      </concept>
+      <concept>
+        <code value="A1001030102"/>
+        <display value="ONE-PIECE UROSTOMY BAGS FOR NON-RETRACTED STOMA, FLAT, WITH TISSUE COVER"/>
+      </concept>
+      <concept>
+        <code value="A10010302"/>
+        <display value="ONE-PIECE UROSTOMY BAGS FOR RETRACTED STOMA, CONVEX"/>
+      </concept>
+      <concept>
+        <code value="A1001030201"/>
+        <display value="ONE-PIECE UROSTOMY BAGS FOR RETRACTED STOMA, CONVEX, W/O TISSUE COVER"/>
+      </concept>
+      <concept>
+        <code value="A1001030202"/>
+        <display value="ONE-PIECE UROSTOMY BAGS FOR RETRACTED STOMA, CONVEX, WITH TISSUE COVER"/>
+      </concept>
+      <concept>
+        <code value="A100104"/>
+        <display value="EXPANSION CAPS FOR ABDOMINAL OSTOMY SYSTEMS - ONE PIECE"/>
+      </concept>
+      <concept>
+        <code value="A100199"/>
+        <display value="DEVICES FOR ABDOMINAL OSTOMY - ONE PIECE - OTHER"/>
+      </concept>
+      <concept>
+        <code value="A1002"/>
+        <display value="ABDOMINAL OOSTOMY DEVICES, TWO PIECE"/>
+      </concept>
+      <concept>
+        <code value="A100201"/>
+        <display value="ABDOMINAL OSTOMY PLATES"/>
+      </concept>
+      <concept>
+        <code value="A10020101"/>
+        <display value="COLOSTOMY PLATES"/>
+      </concept>
+      <concept>
+        <code value="A1002010101"/>
+        <display value="COLOSTOMY PLATES, WITH NON-RETRACTED STOMA"/>
+      </concept>
+      <concept>
+        <code value="A1002010102"/>
+        <display value="COLOSTOMY PLATES, WITH RETRACTED STOMA"/>
+      </concept>
+      <concept>
+        <code value="A10020102"/>
+        <display value="ILEOSTOMY PLATES"/>
+      </concept>
+      <concept>
+        <code value="A1002010201"/>
+        <display value="ILEOSTOMY PLATES, WITH NON-RETRACTED STOMA"/>
+      </concept>
+      <concept>
+        <code value="A1002010202"/>
+        <display value="ILEOSTOMY PLATES, WITH RETRACTED STOMA"/>
+      </concept>
+      <concept>
+        <code value="A10020103"/>
+        <display value="UROSTOMY PLATES"/>
+      </concept>
+      <concept>
+        <code value="A1002010301"/>
+        <display value="UROSTOMY PLATES, WITH NON-RETRACTED STOMA"/>
+      </concept>
+      <concept>
+        <code value="A1002010302"/>
+        <display value="UROSTOMY PLATES WITH RETRACTED STOMA"/>
+      </concept>
+      <concept>
+        <code value="A10020104"/>
+        <display value="UNIVERSAL PLATES FOR ABDOMINAL STOMA (COLO-, ILEO-, UROSTOMY)"/>
+      </concept>
+      <concept>
+        <code value="A1002010401"/>
+        <display value="UNIVERSAL PLATES FOR ABDOMINAL STOMA (COLO-, ILEO-, UROSTOMY) WITH NON-INTROFLEX STOMA"/>
+      </concept>
+      <concept>
+        <code value="A1002010402"/>
+        <display value="UNIVERSAL PLATES FOR ABDOMINAL STOMA (COLO-, ILEO-, UROSTOMY) WITH INTROFLEX STOMA"/>
+      </concept>
+      <concept>
+        <code value="A100202"/>
+        <display value="COLOSTOMY BAGS FOR TWO-PART SYSTEMS"/>
+      </concept>
+      <concept>
+        <code value="A10020201"/>
+        <display value="OLOSTOMY BAGS FOR TWO-PART SYSTEMS, W/O TISSUE COVER"/>
+      </concept>
+      <concept>
+        <code value="A10020202"/>
+        <display value="COLOSTOMY BAGS FOR TWO-PART SYSTEMS, WITH TISSUE COVER"/>
+      </concept>
+      <concept>
+        <code value="A100203"/>
+        <display value="ILEOSTOMY BAGS FOR TWO-PART SYSTEMS"/>
+      </concept>
+      <concept>
+        <code value="A10020301"/>
+        <display value="ILEOSTOMY BAGS FOR TWO-PART SYSTEMS, W/O TISSUE COVER"/>
+      </concept>
+      <concept>
+        <code value="A10020302"/>
+        <display value="ILEOSTOMY BAGS FOR TWO-PART SYSTEMS, WITH TISSUE COVER"/>
+      </concept>
+      <concept>
+        <code value="A100204"/>
+        <display value="UROSTOMY BAGS FOR TWO-PART SYSTEMS"/>
+      </concept>
+      <concept>
+        <code value="A10020401"/>
+        <display value="UROSTOMY BAGS FOR TWO-PART SYSTEMS, W/O TISSUE COVER"/>
+      </concept>
+      <concept>
+        <code value="A10020402"/>
+        <display value="UROSTOMY BAGS FOR TWO-PART SYSTEMS, WITH TISSUE COVER"/>
+      </concept>
+      <concept>
+        <code value="A100205"/>
+        <display value="EXPANSION CAPS FOR TWO-PIECE ABDOMINAL OSTOMY SYSTEMS"/>
+      </concept>
+      <concept>
+        <code value="A100299"/>
+        <display value="TWO-PIECE ABDOMINAL OSTOMY DEVICES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="A108001"/>
+        <display value="RINGS / BEZELS / PLATES FOR PERISTOMAL SKIN"/>
+      </concept>
+      <concept>
+        <code value="A108002"/>
+        <display value="PROTECTIVE CREAMS / GELS FOR PERISTOMAL SKIN"/>
+      </concept>
+      <concept>
+        <code value="A108003"/>
+        <display value="PROTECTIVE POWDERS FOR PERISTOMAL SKIN"/>
+      </concept>
+      <concept>
+        <code value="A108004"/>
+        <display value="PROTECTIVE FILMS / SPRAYS FOR PERISTOMAL SKIN"/>
+      </concept>
+      <concept>
+        <code value="A108006"/>
+        <display value="ABDOMINAL OSTOMY SUPPORT BELTS"/>
+      </concept>
+      <concept>
+        <code value="A1099"/>
+        <display value="ABDOMINAL OSTOMY DEVICES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="C010204"/>
+        <display value="SUBCUTANEOUS IMPLANTABLE VENOUS ACCESS PORT SYSTEMS"/>
+      </concept>
+      <concept>
+        <code value="C01020401"/>
+        <display value="SUBCUTANEOUS IMPLANTABLE VENOUS ACCESS PORT SYSTEMS, SINGLE-CHAMBER"/>
+      </concept>
+      <concept>
+        <code value="C01020402"/>
+        <display value="SUBCUTANEOUS IMPLANTABLE VENOUS ACCESS PORT SYSTEMS, DUAL-CHAMBER OR DOUBLE-LUMEN"/>
+      </concept>
+      <concept>
+        <code value="C01020499"/>
+        <display value="SUBCUTANEOUS IMPLANTABLE VENOUS ACCESS PORT SYSTEMS - OTHER"/>
+      </concept>
+      <concept>
+        <code value="C0104020208"/>
+        <display value="TRANSJUGULAR INTRAHEPATIC PORTOSYSTEMIC SHUNT (TIPS) PERCUTANEOUS SYSTEMS"/>
+      </concept>
+      <concept>
+        <code value="C019006"/>
+        <display value="CAROTID ARTERY SHUNTS"/>
+      </concept>
+      <concept>
+        <code value="C019016"/>
+        <display value="PERITONEOVENOUS SHUNTS"/>
+      </concept>
+      <concept>
+        <code value="C03900202"/>
+        <display value="INTRACORONARY SHUNTS"/>
+      </concept>
+      <concept>
+        <code value="G0205"/>
+        <display value="DEVICES FOR THE SURGICAL OBESITY THERAPY"/>
+      </concept>
+      <concept>
+        <code value="G020501"/>
+        <display value="GASTRIC BANDS"/>
+      </concept>
+      <concept>
+        <code value="G020502"/>
+        <display value="GASTRIC CALIBRATION TUBES"/>
+      </concept>
+      <concept>
+        <code value="G020503"/>
+        <display value="GASTRIC BAND SYSTEM ADJUSTMENT SETS"/>
+      </concept>
+      <concept>
+        <code value="G020599"/>
+        <display value="DEVICES FOR THE SURGICAL THERAPY OF OBESITY - OTHER"/>
+      </concept>
+      <concept>
+        <code value="G030601"/>
+        <display value="INTRAGASTRIC BALLOON SYSTEMS"/>
+      </concept>
+      <concept>
+        <code value="G030603"/>
+        <display value="INTESTINAL COATING YSTEMS FOR ABSORPTION REDUCTION"/>
+      </concept>
+      <concept>
+        <code value="G030699"/>
+        <display value="DEVICES FOR THE NON-SURGICAL TREATMENT OF OBESITY - OTHER"/>
+      </concept>
+      <concept>
+        <code value="G04"/>
+        <display value="ORALLY ADMINISTERED GASTROINTESTINAL DEVICES"/>
+      </concept>
+      <concept>
+        <code value="G0401"/>
+        <display value="ORALLY ADMINISTERED DEVICES FOR THE THERAPY OF GASTRO-INTESTINAL DISORDERS"/>
+      </concept>
+      <concept>
+        <code value="G0402"/>
+        <display value="ORALLY ADMINISTERED DEVICES FOR APPETITE CONTROL AND REDUCTION OF INTESTINAL ABSORPTION"/>
+      </concept>
+      <concept>
+        <code value="G0499"/>
+        <display value="ORALLY ADMINISTERED GASTROINTESTINAL DEVICES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="J01"/>
+        <display value="CARDIAC FUNCTIONALITY IMPLANTABLE DEVICES"/>
+      </concept>
+      <concept>
+        <code value="J0101"/>
+        <display value="IMPLANTABLE PACEMAKERS"/>
+      </concept>
+      <concept>
+        <code value="J010101"/>
+        <display value="IMPLANTABLE SINGLE CHAMBER PACEMAKERS"/>
+      </concept>
+      <concept>
+        <code value="J01010101"/>
+        <display value="IMPLANTABLE SINGLE CHAMBER PACEMAKERS (SC)"/>
+      </concept>
+      <concept>
+        <code value="J01010102"/>
+        <display value="IMPLANTABLE SINGLE CHAMBER PACEMAKERS WITH SENSOR (SR)"/>
+      </concept>
+      <concept>
+        <code value="J010102"/>
+        <display value="IMPLANTABLE SINGLE LEAD PACEMAKERS"/>
+      </concept>
+      <concept>
+        <code value="J01010201"/>
+        <display value="IMPLANTABLE SINGLE LEAD VDD PACEMAKERS"/>
+      </concept>
+      <concept>
+        <code value="J01010202"/>
+        <display value="IMPLANTABLE SINGLE LEAD VDDR PACEMAKERS WITH SENSOR"/>
+      </concept>
+      <concept>
+        <code value="J010103"/>
+        <display value="IMPLANTABLE DUAL CHAMBER PACEMAKERS"/>
+      </concept>
+      <concept>
+        <code value="J01010301"/>
+        <display value="IMPLANTABLE DUAL CHAMBER PACEMAKERS (DC)"/>
+      </concept>
+      <concept>
+        <code value="J01010302"/>
+        <display value="IMPLANTABLE DUAL CHAMBER PACEMAKERS WITH SENSOR (DR)"/>
+      </concept>
+      <concept>
+        <code value="J010104"/>
+        <display value="IMPLANTABLE TRIPLE CHAMBER PACEMAKERS"/>
+      </concept>
+      <concept>
+        <code value="J01010401"/>
+        <display value="IMPLANTABLE TRIPLE CHAMBER PACEMAKERS FOR CARDIAC RESYNCHRONIZATION (TR)"/>
+      </concept>
+      <concept>
+        <code value="J010105"/>
+        <display value="IMPLANTABLE PACEMAKERS WITH INCORPORATED ELECTRODES (LEADLESS)"/>
+      </concept>
+      <concept>
+        <code value="J010180"/>
+        <display value="IMPLANTABLE PACEMAKERS - ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="J010199"/>
+        <display value="IMPLANTABLE PACEMAKERS - OTHER"/>
+      </concept>
+      <concept>
+        <code value="J0102"/>
+        <display value="IMPLANTABLE CARDIAC DIAGNOSTIC DEVICES"/>
+      </concept>
+      <concept>
+        <code value="J010201"/>
+        <display value="IMPLANTABLE DIAGNOSTIC ARRHYTHMIAS RECORDING CARDIAC DEVICES"/>
+      </concept>
+      <concept>
+        <code value="J010280"/>
+        <display value="CARDIAC DIAGNOSTIC DEVICES - ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="J010299"/>
+        <display value="CARDIAC DIAGNOSTIC DEVICES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="J0103"/>
+        <display value="IMPLANTABLE VENTRICULAR ASSISTANCE SYSTEMS"/>
+      </concept>
+      <concept>
+        <code value="J010301"/>
+        <display value="IMPLANTABLE MONOVENTRICULAR AND BIVENTRICULAR ASSISTANCE SYSTEMS"/>
+      </concept>
+      <concept>
+        <code value="J01030101"/>
+        <display value="IMPLANTABLE RIGHT MONOVENTRICULAR ASSISTANCE SYSTEMS (RVAD)"/>
+      </concept>
+      <concept>
+        <code value="J01030102"/>
+        <display value="IMPLANTABLE LEFT MONOVENTRICULAR ASSISTANCE SYSTEMS (LVAD)"/>
+      </concept>
+      <concept>
+        <code value="J01030103"/>
+        <display value="IMPLANTABLE BIVENTRICULAR ASSISTANCE SYSTEMS (BIVAD)"/>
+      </concept>
+      <concept>
+        <code value="J010380"/>
+        <display value="IMPLANTABLE VENTRICULAR ASSISTANCE SYSTEMS - ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="J010399"/>
+        <display value="IMPLANTABLE VENTRICULAR ASSISTANCE SYSTEMS - OTHER"/>
+      </concept>
+      <concept>
+        <code value="J0104"/>
+        <display value="IMPLANTABLE ARTIFICIAL HEART AND IMPLANT KITS"/>
+      </concept>
+      <concept>
+        <code value="J010401"/>
+        <display value="IMPLANTABLE ARTIFICIAL HEART AND IMPLANT KITS"/>
+      </concept>
+      <concept>
+        <code value="J010480"/>
+        <display value="IMPLANTABLE ARTIFICIAL HEART AND IMPLANT KITS - ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="J010499"/>
+        <display value="IMPLANTABLE ARTIFICIAL HEART AND IMPLANT KITS - OTHER"/>
+      </concept>
+      <concept>
+        <code value="J0105"/>
+        <display value="IMPLANTABLE DEFIBRILLATORS"/>
+      </concept>
+      <concept>
+        <code value="J010501"/>
+        <display value="IMPLANTABLE SINGLE CHAMBER DEFIBRILLATORS"/>
+      </concept>
+      <concept>
+        <code value="J01050101"/>
+        <display value="IMPLANTABLE SINGLE CHAMBER DEFIBRILLATORS, WITH SENSORS"/>
+      </concept>
+      <concept>
+        <code value="J010502"/>
+        <display value="IMPLANTABLE DUAL CHAMBER DEFIBRILLATORS"/>
+      </concept>
+      <concept>
+        <code value="J01050201"/>
+        <display value="IMPLANTABLE DUAL CHAMBER DEFIBRILLATORS, WITH SENSORS"/>
+      </concept>
+      <concept>
+        <code value="J010503"/>
+        <display value="IMPLANTABLE TRIPLE CHAMBER DEFIBRILLATORS"/>
+      </concept>
+      <concept>
+        <code value="J01050301"/>
+        <display value="IMPLANTABLE TRIPLE CHAMBER DEFIBRILLATORS, WITH SENSORS"/>
+      </concept>
+      <concept>
+        <code value="J010504"/>
+        <display value="SUBCUTANEOUS IMPLANTABLE DEFIBRILLATORS"/>
+      </concept>
+      <concept>
+        <code value="J010580"/>
+        <display value="IMPLANTABLE DEFIBRILLATORS - ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="J010599"/>
+        <display value="IMPLANTABLE DEFIBRILLATORS - OTHER"/>
+      </concept>
+      <concept>
+        <code value="J0106"/>
+        <display value="CARDIAC CONTRACTILITY MODULATION IMPLANTABLE DEVICES"/>
+      </concept>
+      <concept>
+        <code value="J0107"/>
+        <display value="ACTIVE IMPLANTABLE CARDIAC DEVICES REMOTE MONITORING SYSTEMS"/>
+      </concept>
+      <concept>
+        <code value="J010701"/>
+        <display value="PULMONARY BLOOD PRESSURE REMOTE MONITORING SYSTEMS (INCLUDING SENSORS)"/>
+      </concept>
+      <concept>
+        <code value="J010702"/>
+        <display value="PACEMAKER AND IMPLANTABLE DEFIBRILLATOR REMOTE MONITORING SYSTEMS"/>
+      </concept>
+      <concept>
+        <code value="J010780"/>
+        <display value="ACTIVE IMPLANTABLE CARDIAC DEVICES REMOTE MONITORING SYSTEMS - HARDWARE ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="J010782"/>
+        <display value="ACTIVE IMPLANTABLE CARDIAC DEVICES REMOTE MONITORING SYSTEMS - SOFTWARE ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="J010799"/>
+        <display value="ACTIVE IMPLANTABLE CARDIAC DEVICES REMOTE MONITORING SYSTEMS - OTHER"/>
+      </concept>
+      <concept>
+        <code value="J0190"/>
+        <display value="IMPLANTABLE CARDIAC DEVICES - VARIOUS"/>
+      </concept>
+      <concept>
+        <code value="J019001"/>
+        <display value="PERMANENT CARDIAC LEADS"/>
+      </concept>
+      <concept>
+        <code value="J01900101"/>
+        <display value="PERMANENT PACEMAKER LEADS (WITH OR W/O STEROID-ELUTION)"/>
+      </concept>
+      <concept>
+        <code value="J0190010101"/>
+        <display value="ENDOCARDIAL ATRIAL AND VENTRICULAR LEADS, UNIPOLAR"/>
+      </concept>
+      <concept>
+        <code value="J019001010101"/>
+        <display value="ATRIAL LEADS, PASSIVE FIXATION"/>
+      </concept>
+      <concept>
+        <code value="J019001010102"/>
+        <display value="VENTRICULAR LEADS, PASSIVE FIXATION"/>
+      </concept>
+      <concept>
+        <code value="J0190010102"/>
+        <display value="ENDOCARDIAL ATRIAL AND VENTRICULAR LEADS, BIPOLAR (WITH ACTIVE OR PASSIVE FIXATION)"/>
+      </concept>
+      <concept>
+        <code value="J0190010103"/>
+        <display value="LEFT VENTRICULAR LEADS WITH CORONARY SINUS CANNULATION SYSTEM (TRIPLE CHAMBER P.M.)"/>
+      </concept>
+      <concept>
+        <code value="J0190010104"/>
+        <display value="ENDOCARDIAL PACEMAKER LEADS, SINGLE-LEAD"/>
+      </concept>
+      <concept>
+        <code value="J0190010105"/>
+        <display value="EPICARDIAL PERMANENT CARDIAC LEADS"/>
+      </concept>
+      <concept>
+        <code value="J01900102"/>
+        <display value="PERMANENT DEFIBRILLATOR LEADS (STEROID RELEASE INCLUDED)"/>
+      </concept>
+      <concept>
+        <code value="J0190010201"/>
+        <display value="PERMANENT PACING AND DEFIBRILLATION RIGHT VENTRICULAR LEADS (WITH ACTIVE AND PASSIVE FIXATION)"/>
+      </concept>
+      <concept>
+        <code value="J019001020101"/>
+        <display value="PERMANENT CARDIAC DEFIBRILLATOR LEADS, SINGLE COIL"/>
+      </concept>
+      <concept>
+        <code value="J019001020102"/>
+        <display value="PERMANENT CARDIAC DEFIBRILLATOR LEADS, DOUBLE COIL"/>
+      </concept>
+      <concept>
+        <code value="J019001020199"/>
+        <display value="PERMANENT PACING AND DEFIBRILLATION RIGHT VENTRICULAR LEADS - OTHER"/>
+      </concept>
+      <concept>
+        <code value="J0190010202"/>
+        <display value="PERMANENT SUBCUTANEOUS DEFIBRILLATOR LEADS"/>
+      </concept>
+      <concept>
+        <code value="J01900180"/>
+        <display value="PERMANENT CARDIAC LEADS - ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="J01900199"/>
+        <display value="PERMANENT CARDIAC LEADS - OTHER"/>
+      </concept>
+      <concept>
+        <code value="J019002"/>
+        <display value="IMPLANTABLE CARDIAC DEVICES PROGRAMMERS AND ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="J01900203"/>
+        <display value="IMPLANTABLE CARDIAC DEVICES PROGRAMMERS"/>
+      </concept>
+      <concept>
+        <code value="J01900280"/>
+        <display value="IMPLANTABLE CARDIAC DEVICES PROGRAMMERS - HARDWARE ACCESSORY"/>
+      </concept>
+      <concept>
+        <code value="J01900282"/>
+        <display value="IMPLANTABLE CARDIAC DEVICES PROGRAMMERS - SOFTWARE ACCESSORY"/>
+      </concept>
+      <concept>
+        <code value="J01900285"/>
+        <display value="IMPLANTABLE CARDIAC DEVICES PROGRAMMERS - CONSUMABLES"/>
+      </concept>
+      <concept>
+        <code value="J019003"/>
+        <display value="ACTIVE-IMPLANTABLE CARDIAC SYSTEMS MAGNETISED DEVICES"/>
+      </concept>
+      <concept>
+        <code value="J019004"/>
+        <display value="ACTIVE-IMPLANTABLE CARDIAC SYSTEMS ADAPTORS"/>
+      </concept>
+      <concept>
+        <code value="J019005"/>
+        <display value="CARDIAC LEADS EXTRACTION SYSTEMS"/>
+      </concept>
+      <concept>
+        <code value="J019099"/>
+        <display value="IMPLANTABLE CARDIAC DEVICES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="J02"/>
+        <display value="IMPLANTABLE NEUROSTIMULATORS"/>
+      </concept>
+      <concept>
+        <code value="J0201"/>
+        <display value="CEREBRAL IMPLANTABLE NEUROSTIMULATORS"/>
+      </concept>
+      <concept>
+        <code value="J020101"/>
+        <display value="DEEP BRAIN STIMULATION (DBS) IMPLANTABLE NEUROSTIMULATORS"/>
+      </concept>
+      <concept>
+        <code value="J02010101"/>
+        <display value="DEEP BRAIN STIMULATION (DBS) IMPLANTABLE NEUROSTIMULATORS, RECHARGEABLE"/>
+      </concept>
+      <concept>
+        <code value="J02010102"/>
+        <display value="DEEP BRAIN STIMULATION (DBS) IMPLANTABLE NEUROSTIMULATORS, NOT RECHARGEABLE"/>
+      </concept>
+      <concept>
+        <code value="J020102"/>
+        <display value="DEEP BRAIN STIMULATION (DBS) LEADS"/>
+      </concept>
+      <concept>
+        <code value="J020180"/>
+        <display value="CEREBRAL IMPLANTABLE NEUROSTIMULATORS - ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="J020199"/>
+        <display value="CEREBRAL IMPLANTABLE NEUROSTIMULATORS - OTHER"/>
+      </concept>
+      <concept>
+        <code value="J0202"/>
+        <display value="SPINAL IMPLANTABLE NEUROSTIMULATORS"/>
+      </concept>
+      <concept>
+        <code value="J020201"/>
+        <display value="RADIOFREQUENCY IMPLANTABLE SPINAL NEUROSTIMULATORS"/>
+      </concept>
+      <concept>
+        <code value="J020202"/>
+        <display value="FULLY IMPLANTABLE SPINAL NEUROSTIMULATORS"/>
+      </concept>
+      <concept>
+        <code value="J02020201"/>
+        <display value="FULLY IMPLANTABLE SPINAL NEUROSTIMULATORS, RECHARGEABLE"/>
+      </concept>
+      <concept>
+        <code value="J02020202"/>
+        <display value="FULLY IMPLANTABLE SPINAL NEUROSTIMULATORSS, NOT RECHARGEABLE"/>
+      </concept>
+      <concept>
+        <code value="J020203"/>
+        <display value="SPINAL NEUROSTIMULATION LEADS"/>
+      </concept>
+      <concept>
+        <code value="J020280"/>
+        <display value="SPINAL IMPLANTABLE NEUROSTIMULATORS - ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="J020299"/>
+        <display value="SPINAL IMPLANTABLE NEUROSTIMULATORS - OTHER"/>
+      </concept>
+      <concept>
+        <code value="J0203"/>
+        <display value="VAGAL IMPLANTABLE NEUROSTIMULATORS"/>
+      </concept>
+      <concept>
+        <code value="J020301"/>
+        <display value="DRUG-RESISTANT EPILEPSY NON-SURGICAL THERAPY IMPLANTABLE NEUROSTIMULATORS"/>
+      </concept>
+      <concept>
+        <code value="J020302"/>
+        <display value="VAGAL NEUROSTIMULATION LEADS"/>
+      </concept>
+      <concept>
+        <code value="J020380"/>
+        <display value="VAGAL IMPLANTABLE NEUROSTIMULATORS - ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="J020399"/>
+        <display value="VAGAL IMPLANTABLE NEUROSTIMULATORS - OTHER"/>
+      </concept>
+      <concept>
+        <code value="J0204"/>
+        <display value="SACRAL SPINE IMPLANTABLE NEUROSTIMULATORS"/>
+      </concept>
+      <concept>
+        <code value="J020401"/>
+        <display value="BLADDER INCONTINENCE NEUROSTIMULATORS"/>
+      </concept>
+      <concept>
+        <code value="J020402"/>
+        <display value="INTESTINAL INCONTINENCE NEUROSTIMULATORS"/>
+      </concept>
+      <concept>
+        <code value="J020403"/>
+        <display value="SACRAL SPINE NEUROSTIMULATION LEADS"/>
+      </concept>
+      <concept>
+        <code value="J020480"/>
+        <display value="SACRAL SPINE IMPLANTABLE NEUROSTIMULATORS - ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="J020499"/>
+        <display value="SACRAL SPINE IMPLANTABLE NEUROSTIMULATORS - OTHER"/>
+      </concept>
+      <concept>
+        <code value="J0206"/>
+        <display value="FRENIC NERVE IMPLANTABLE NEUROSTIMULATORS"/>
+      </concept>
+      <concept>
+        <code value="J0207"/>
+        <display value="NEUROSTIMULATORS PROGRAMMERS AND ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="J020701"/>
+        <display value="NEUROSTIMULATORS PROGRAMMERS"/>
+      </concept>
+      <concept>
+        <code value="J020780"/>
+        <display value="NEUROSTIMULATORS PROGRAMMERS - HARDWARE ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="J020782"/>
+        <display value="NEUROSTIMULATORS PROGRAMMERS - SOFTWARE ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="J020785"/>
+        <display value="NEUROSTIMULATORS PROGRAMMERS - CONSUMABLES"/>
+      </concept>
+      <concept>
+        <code value="J0208"/>
+        <display value="GASTRIC IMPLANTABLE NEUROSTIMULATORS"/>
+      </concept>
+      <concept>
+        <code value="J020801"/>
+        <display value="INFERIOR ESOPHAGEAL SPHINCTER IMPLANTABLE NEUROSTIMULATORS"/>
+      </concept>
+      <concept>
+        <code value="J020802"/>
+        <display value="GASTRIC IMPLANTABLE OBESITY TREATMENT NEUROSTIMULATORS"/>
+      </concept>
+      <concept>
+        <code value="J020803"/>
+        <display value="GASTRIC IMPLANTABLE NAUSEA THERAPY NEUROSTIMULATORS"/>
+      </concept>
+      <concept>
+        <code value="J020804"/>
+        <display value="GASTRIC NEUROSTIMULATION LEADS"/>
+      </concept>
+      <concept>
+        <code value="J0209"/>
+        <display value="CAROTID SINUS IMPLANTABLE NEUROSTIMULATORS AND LEADS"/>
+      </concept>
+      <concept>
+        <code value="J0210"/>
+        <display value="PERIPHERAL NERVE IMPLANTABLE NEUROSTIMULATORS AND PAIN THERAPY LEADS"/>
+      </concept>
+      <concept>
+        <code value="J0211"/>
+        <display value="SLEEP APNEA TREATMENT IMPLANTABLE NEUROSTIMULATORS AND LEADS"/>
+      </concept>
+      <concept>
+        <code value="J0280"/>
+        <display value="IMPLANTABLE NEUROSTIMULATORS - ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="J0299"/>
+        <display value="IMPLANTABLE NEUROSTIMULATORS - OTHER"/>
+      </concept>
+      <concept>
+        <code value="J03"/>
+        <display value="AUDITORY ACTIVE-IMPLANTABLE DEVICES"/>
+      </concept>
+      <concept>
+        <code value="J0301"/>
+        <display value="COCHLEAR IMPLANTABLE DEVICES"/>
+      </concept>
+      <concept>
+        <code value="J0302"/>
+        <display value="MIDDLE EAR ACTIVE-IMPLANTABLE DEVICES"/>
+      </concept>
+      <concept>
+        <code value="J0303"/>
+        <display value="PROFOUND DEAFNESS BRAINSTEM ACTIVE-IMPLANTABLE DEVICES"/>
+      </concept>
+      <concept>
+        <code value="J0380"/>
+        <display value="AUDITORY ACTIVE-IMPLANTABLE DEVICES - ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="J0399"/>
+        <display value="AUDITORY ACTIVE-IMPLANTABLE DEVICES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="J04"/>
+        <display value="IMPLANTABLE PUMPS"/>
+      </concept>
+      <concept>
+        <code value="J0401"/>
+        <display value="IMPLANTABLE PUMPS, ELECTRONIC"/>
+      </concept>
+      <concept>
+        <code value="J0402"/>
+        <display value="IMPLANTABLE PUMPS, MECHANICAL"/>
+      </concept>
+      <concept>
+        <code value="J0403"/>
+        <display value="IMPLANTABLE PUMPS PROGRAMMERS AND ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="J040301"/>
+        <display value="IMPLANTABLE PUMPS PROGRAMMERS"/>
+      </concept>
+      <concept>
+        <code value="J040380"/>
+        <display value="IMPLANTABLE PUMPS PROGRAMMERS - HARDWARE ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="J040382"/>
+        <display value="IMPLANTABLE PUMPS PROGRAMMERS - SOFTWARE ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="J040385"/>
+        <display value="IMPLANTABLE PUMPS PROGRAMMERS - CONSUMABLES"/>
+      </concept>
+      <concept>
+        <code value="J0480"/>
+        <display value="IMPLANTABLE PUMPS - ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="J0499"/>
+        <display value="IMPLANTABLE PUMPS - OTHER"/>
+      </concept>
+      <concept>
+        <code value="J05"/>
+        <display value="BRACHYTHERAPY IMPLANTABLE DEVICES"/>
+      </concept>
+      <concept>
+        <code value="J0501"/>
+        <display value="BRACHYTHERAPY SOURCES"/>
+      </concept>
+      <concept>
+        <code value="J0502"/>
+        <display value="BRACHYTHERAPY ADMINISTRATION KITS"/>
+      </concept>
+      <concept>
+        <code value="J0580"/>
+        <display value="IMPLANTABLE BRACHYTHERAPY DEVICES - ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="J06"/>
+        <display value="ACTIVE IMPLANTABLE GLUCOSE MONITORING SYSTEMS"/>
+      </concept>
+      <concept>
+        <code value="J0601"/>
+        <display value="IMPLANTABLE GLUCOSE MONITORING SENSORS"/>
+      </concept>
+      <concept>
+        <code value="J0602"/>
+        <display value="ACTIVE IMPLANTABLE GLUCOSE MONITORING SYSTEM TRANSMITTERS"/>
+      </concept>
+      <concept>
+        <code value="J0680"/>
+        <display value="ACTIVE IMPLANTABLE GLUCOSE MONITORING SYSTEMS - ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="J07"/>
+        <display value="OPHTHALMOLOGICAL USE ACTIVE IMPLANTABLE DEVICES"/>
+      </concept>
+      <concept>
+        <code value="J0701"/>
+        <display value="ACTIVE RETINAL IMPLANTABLE DEVICES"/>
+      </concept>
+      <concept>
+        <code value="J0702"/>
+        <display value="INTRAOCULAR PRESSURE MONITORING IMPLANTABLE DEVICES"/>
+      </concept>
+      <concept>
+        <code value="J0780"/>
+        <display value="OPHTHALMOLOGICAL USE ACTIVE IMPLANTABLE DEVICES - ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="J0799"/>
+        <display value="OPHTHALMOLOGICAL USE ACTIVE IMPLANTABLE DEVICES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="J99"/>
+        <display value="ACTIVE-IMPLANTABLE DEVICES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="N0101"/>
+        <display value="NEUROPHYSIOLOGY DEVICES"/>
+      </concept>
+      <concept>
+        <code value="N010101"/>
+        <display value="ELECTROMYOGRAPHIC ELECTRODES"/>
+      </concept>
+      <concept>
+        <code value="N010102"/>
+        <display value="ELECTROENCEPHALOGRAPHIC ELECTRODES"/>
+      </concept>
+      <concept>
+        <code value="N01010201"/>
+        <display value="EEG INTRACRANIC ELECTRODES"/>
+      </concept>
+      <concept>
+        <code value="N0101020101"/>
+        <display value="EEG CORTICAL ELECTRODES"/>
+      </concept>
+      <concept>
+        <code value="N0101020102"/>
+        <display value="EEG DEPTH ELECTRODES"/>
+      </concept>
+      <concept>
+        <code value="N0101020199"/>
+        <display value="EEG INTRACRANIC ELECTRODES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="N01010202"/>
+        <display value="EEG EXTRACRANIC ELECTRODES"/>
+      </concept>
+      <concept>
+        <code value="N01010203"/>
+        <display value="EEG HEADSETS"/>
+      </concept>
+      <concept>
+        <code value="N01010299"/>
+        <display value="EEG ELECTRODES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="N010103"/>
+        <display value="BIPOLAR NERVOUS ELECTROSTIMULATORS, BATTERY-POWERED"/>
+      </concept>
+      <concept>
+        <code value="N010180"/>
+        <display value="NEUROPHYSIOLOGY DEVICES - ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="N010199"/>
+        <display value="NEUROPHYSIOLOGY DEVICES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="N0102"/>
+        <display value="NEUROLOGIC PHYSIOTHERAPHY DEVICES"/>
+      </concept>
+      <concept>
+        <code value="N010201"/>
+        <display value="TENS SYSTEM ELECTRODES"/>
+      </concept>
+      <concept>
+        <code value="N010202"/>
+        <display value="STIMULATION POINT LOCATORS"/>
+      </concept>
+      <concept>
+        <code value="N010280"/>
+        <display value="NEUROLOGICAL PHYSIOTHERAPY DEVICES - ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="N01028001"/>
+        <display value="SPONGES FOR THE APPLICATION OF CUTANEOUS NEUROLOGICAL ELECTRODES"/>
+      </concept>
+      <concept>
+        <code value="N01028002"/>
+        <display value="NEUROLOGICAL PHYSIOTHERAPY CONNECTORS"/>
+      </concept>
+      <concept>
+        <code value="N01028003"/>
+        <display value="NEUROLOGICAL ELECTRODES BANDS"/>
+      </concept>
+      <concept>
+        <code value="N01028099"/>
+        <display value="NEUROLOGICAL PHYSIOTHERAPY DEVICES - ACCESSORIES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="N010299"/>
+        <display value="NEUROLOGIC PHYSIOTHERAPHY DEVICES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="N010301"/>
+        <display value="VENTRICULAR-PERITONEAL SHUNTS"/>
+      </concept>
+      <concept>
+        <code value="N010302"/>
+        <display value="VENTRICULAR-ATRIAL SHUNTS"/>
+      </concept>
+      <concept>
+        <code value="N020301"/>
+        <display value="LUMBO-PERITONEAL SHUNTS"/>
+      </concept>
+      <concept>
+        <code value="P01"/>
+        <display value="FACIAL AND ODONTOLOGICAL PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P0101"/>
+        <display value="FACIAL PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P010101"/>
+        <display value="CHIN PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P010102"/>
+        <display value="ZYGOMATIC PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P010103"/>
+        <display value="MANDIBULAR PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P010199"/>
+        <display value="FACIAL PROSTHESES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P0102"/>
+        <display value="ODONTOLOGICAL PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P010201"/>
+        <display value="DENTAL IMPLANTS AND ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="P01020101"/>
+        <display value="DENTAL IMPLANTS"/>
+      </concept>
+      <concept>
+        <code value="P01020180"/>
+        <display value="DENTAL IMPLANTS - ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="P010299"/>
+        <display value="ODONTOLOGICAL PROSTHESES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P0180"/>
+        <display value="FACIAL AND ODONTOLOGICAL PROSTHESES - ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="P0199"/>
+        <display value="FACIAL AND ODONTOLOGICAL PROSTHESES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P02"/>
+        <display value="ENT PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P0201"/>
+        <display value="OTOLOGIC PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P020101"/>
+        <display value="MIDDLE EAR IMPLANTS"/>
+      </concept>
+      <concept>
+        <code value="P02010101"/>
+        <display value="OSSICULAR PROSTHESES (PORP AND TORP)"/>
+      </concept>
+      <concept>
+        <code value="P02010102"/>
+        <display value="STAPEDIOPLASTIC PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P02010103"/>
+        <display value="EUSTACHIAN TUBE PROSTHESIS"/>
+      </concept>
+      <concept>
+        <code value="P02010199"/>
+        <display value="MIDDLE EAR IMPLANTS - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P020102"/>
+        <display value="EXTERNAL-MIDDLE EAR IMPLANTS"/>
+      </concept>
+      <concept>
+        <code value="P02010201"/>
+        <display value="TRANSTYMPANIC DRAINAGE PROSTHESES (VENTILATION TUBES)"/>
+      </concept>
+      <concept>
+        <code value="P02010202"/>
+        <display value="TYMPANIC PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P02010299"/>
+        <display value="EXTERNAL-MIDDLE EAR IMPLANTS- OTHER"/>
+      </concept>
+      <concept>
+        <code value="P020103"/>
+        <display value="EXTERNAL EAR PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P020180"/>
+        <display value="OTOLOGIC PROSTHESES - ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="P020199"/>
+        <display value="OTOLOGIC PROSTHESES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P0202"/>
+        <display value="RHINOLOGY PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P020201"/>
+        <display value="NASAL SEPTAL PLUGGERS"/>
+      </concept>
+      <concept>
+        <code value="P020202"/>
+        <display value="NASAL SINUS STENTS"/>
+      </concept>
+      <concept>
+        <code value="P020203"/>
+        <display value="NASAL SPLINTS"/>
+      </concept>
+      <concept>
+        <code value="P020299"/>
+        <display value="RHINOLOGY PROSTHESES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P0203"/>
+        <display value="PHARYNGO-OESOPHAGEAL PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P020301"/>
+        <display value="PHARYNX PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P020399"/>
+        <display value="PHARYNGO-OOESOPHAGEAL PROSTHESES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P0204"/>
+        <display value="LARYNX PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P0205"/>
+        <display value="PHONATION PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P0280"/>
+        <display value="ENT PROSTHESES- ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="P0299"/>
+        <display value="ENT PROSTHESES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P03"/>
+        <display value="OCULAR PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P0301"/>
+        <display value="INTRAOCULAR LENSES (IOL)"/>
+      </concept>
+      <concept>
+        <code value="P030101"/>
+        <display value="IOLs, PHAKIC"/>
+      </concept>
+      <concept>
+        <code value="P03010103"/>
+        <display value="IOLs, PHAKIC, MONOFOCAL"/>
+      </concept>
+      <concept>
+        <code value="P0301010301"/>
+        <display value="IOLs, PHAKIC, MONOFOCAL, SPHERICAL"/>
+      </concept>
+      <concept>
+        <code value="P030101030101"/>
+        <display value="IOLs, PHAKIC, MONOFOCAL, SPHERICAL, HYDROPHOBIC ACRYLIC"/>
+      </concept>
+      <concept>
+        <code value="P030101030102"/>
+        <display value="IOLs, PHAKIC, MONOFOCAL, SPHERICAL, HYDROPHILIC ACRYLIC"/>
+      </concept>
+      <concept>
+        <code value="P030101030103"/>
+        <display value="IOLs, PHAKIC, MONOFOCAL, SPHERICAL, SILICONE"/>
+      </concept>
+      <concept>
+        <code value="P030101030104"/>
+        <display value="IOLs, PHAKIC, MONOFOCAL, SPHERICAL, PMMA"/>
+      </concept>
+      <concept>
+        <code value="P030101030199"/>
+        <display value="IOLs, PHAKIC, MONOFOCAL, SPHERICAL - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P0301010302"/>
+        <display value="IOLs, PHAKIC, MONOFOCAL, ASPHERIC"/>
+      </concept>
+      <concept>
+        <code value="P030101030201"/>
+        <display value="IOLs, PHAKIC, MONOFOCAL, ASPHERIC, HYDROPHOBIC ACRYLIC"/>
+      </concept>
+      <concept>
+        <code value="P030101030202"/>
+        <display value="IOLs, PHAKIC, MONOFOCAL, ASPHERIC, HYDROPHILIC ACRYLIC"/>
+      </concept>
+      <concept>
+        <code value="P030101030203"/>
+        <display value="IOLs, PHAKIC, MONOFOCAL, ASPHERIC, SILICONE"/>
+      </concept>
+      <concept>
+        <code value="P030101030299"/>
+        <display value="IOLs, PHAKIC, MONOFOCAL, ASPHERIC - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P0301010303"/>
+        <display value="IOLs, PHAKIC, MONOFOCAL, TORIC"/>
+      </concept>
+      <concept>
+        <code value="P030101030301"/>
+        <display value="IOLs, PHAKIC, MONOFOCAL, TORIC, HYDROPHOBIC ACRYLIC"/>
+      </concept>
+      <concept>
+        <code value="P030101030302"/>
+        <display value="IOLs, PHAKIC, MONOFOCAL, TORIC, HYDROPHILIC ACRYLIC"/>
+      </concept>
+      <concept>
+        <code value="P030101030303"/>
+        <display value="IOLs, PHAKIC, MONOFOCAL, TORIC, SILICONE"/>
+      </concept>
+      <concept>
+        <code value="P030101030399"/>
+        <display value="IOLs, PHAKIC, MONOFOCAL, TORIC - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P03010104"/>
+        <display value="IOLs, PHAKIC, MULTIFOCAL"/>
+      </concept>
+      <concept>
+        <code value="P0301010401"/>
+        <display value="IOLs, PHAKIC, MULTIFOCAL, SPHERICAL"/>
+      </concept>
+      <concept>
+        <code value="P030101040101"/>
+        <display value="IOLs, PHAKIC, MULTIFOCAL, SPHERICAL, HYDROPHOBIC ACRYLIC"/>
+      </concept>
+      <concept>
+        <code value="P030101040102"/>
+        <display value="IOLs, PHAKIC, MULTIFOCAL, SPHERICAL, HYDROPHILIC ACRYLIC"/>
+      </concept>
+      <concept>
+        <code value="P030101040103"/>
+        <display value="IOLs, PHAKIC, MULTIFOCAL, SPHERICAL, SILICONE"/>
+      </concept>
+      <concept>
+        <code value="P030101040199"/>
+        <display value="IOLs, PHAKIC, MULTIFOCAL, SPHERICAL - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P0301010402"/>
+        <display value="IOLs, PHAKIC, MULTIFOCAL, ASPHERIC"/>
+      </concept>
+      <concept>
+        <code value="P030101040201"/>
+        <display value="IOLs, PHAKIC, MULTIFOCAL, ASPHERIC, HYDROPHOBIC ACRYLIC"/>
+      </concept>
+      <concept>
+        <code value="P030101040202"/>
+        <display value="IOLs, PHAKIC, MULTIFOCAL, ASPHERIC, HYDROPHILIC ACRYLIC"/>
+      </concept>
+      <concept>
+        <code value="P030101040203"/>
+        <display value="IOLs, PHAKIC, MULTIFOCAL, ASPHERIC, SILICONE"/>
+      </concept>
+      <concept>
+        <code value="P030101040299"/>
+        <display value="IOLs, PHAKIC, MULTIFOCAL, ASPHERIC - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P0301010403"/>
+        <display value="IOLs, PHAKIC, MULTIFOCAL, TORIC"/>
+      </concept>
+      <concept>
+        <code value="P030101040301"/>
+        <display value="IOLs, PHAKIC, MULTIFOCAL, TORIC, HYDROPHOBIC ACRYLIC"/>
+      </concept>
+      <concept>
+        <code value="P030101040302"/>
+        <display value="IOLs, PHAKIC, MULTIFOCAL, TORIC, HYDROPHILIC ACRYLIC"/>
+      </concept>
+      <concept>
+        <code value="P030101040303"/>
+        <display value="IOLs, PHAKIC, MULTIFOCAL, TORIC, SILICONE"/>
+      </concept>
+      <concept>
+        <code value="P030101040399"/>
+        <display value="IOLs, PHAKIC, MULTIFOCAL, TORIC - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P030102"/>
+        <display value="IOLs, APHAKIC"/>
+      </concept>
+      <concept>
+        <code value="P03010209"/>
+        <display value="IOLs, APHAKIC, MONOFOCAL"/>
+      </concept>
+      <concept>
+        <code value="P0301020901"/>
+        <display value="IOLs, APHAKIC, MONOFOCAL, SPHERICAL"/>
+      </concept>
+      <concept>
+        <code value="P030102090101"/>
+        <display value="IOLs, APHAKIC, MONOFOCAL, SPHERICAL, HYDROPHOBIC ACRYLIC"/>
+      </concept>
+      <concept>
+        <code value="P030102090102"/>
+        <display value="IOLs, APHAKIC, MONOFOCAL, SPHERICAL, HYDROPHILIC ACRYLIC"/>
+      </concept>
+      <concept>
+        <code value="P030102090103"/>
+        <display value="IOLs, APHAKIC, MONOFOCAL, SPHERICAL, SILICONE"/>
+      </concept>
+      <concept>
+        <code value="P030102090104"/>
+        <display value="IOLs, APHAKIC, MONOFOCAL, SPHERICAL, PMMA"/>
+      </concept>
+      <concept>
+        <code value="P030102090199"/>
+        <display value="IOLs, APHAKIC, MONOFOCAL, SPHERICAL - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P0301020902"/>
+        <display value="IOLs, APHAKIC, MONOFOCAL, ASPHERIC"/>
+      </concept>
+      <concept>
+        <code value="P030102090201"/>
+        <display value="IOLs, APHAKIC, MONOFOCAL, ASPHERIC, HYDROPHOBIC ACRYLIC"/>
+      </concept>
+      <concept>
+        <code value="P030102090202"/>
+        <display value="IOLs, APHAKIC, MONOFOCAL, ASPHERIC, HYDROPHILIC ACRYLIC"/>
+      </concept>
+      <concept>
+        <code value="P030102090203"/>
+        <display value="IOLs, APHAKIC, MONOFOCAL, ASPHERIC, SILICONE"/>
+      </concept>
+      <concept>
+        <code value="P030102090299"/>
+        <display value="IOLs, APHAKIC, MONOFOCAL, ASPHERIC - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P0301020903"/>
+        <display value="IOLs, APHAKIC, MONOFOCAL, TORIC"/>
+      </concept>
+      <concept>
+        <code value="P030102090301"/>
+        <display value="IOLs, APHAKIC, MONOFOCAL, TORIC, HYDROPHOBIC ACRYLIC"/>
+      </concept>
+      <concept>
+        <code value="P030102090302"/>
+        <display value="IOLs, APHAKIC, MONOFOCAL, TORIC, HYDROPHILIC ACRYLIC"/>
+      </concept>
+      <concept>
+        <code value="P030102090303"/>
+        <display value="IOLs, APHAKIC, MONOFOCAL, TORIC, SILICONE"/>
+      </concept>
+      <concept>
+        <code value="P030102090399"/>
+        <display value="IOLs, APHAKIC, MONOFOCAL, TORIC - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P03010210"/>
+        <display value="IOLs, APHAKIC, MULTIFOCAL"/>
+      </concept>
+      <concept>
+        <code value="P0301021001"/>
+        <display value="IOLs, APHAKIC, MULTIFOCAL, SPHERICAL"/>
+      </concept>
+      <concept>
+        <code value="P030102100101"/>
+        <display value="IOLs, APHAKIC, MULTIFOCAL, SPHERICAL, HYDROPHOBIC ACRYLIC"/>
+      </concept>
+      <concept>
+        <code value="P030102100102"/>
+        <display value="IOLs, APHAKIC, MULTIFOCAL, SPHERICAL, HYDROPHILIC ACRYLIC"/>
+      </concept>
+      <concept>
+        <code value="P030102100103"/>
+        <display value="IOLs, APHAKIC, MULTIFOCAL, SPHERICAL, SILICONE"/>
+      </concept>
+      <concept>
+        <code value="P030102100199"/>
+        <display value="IOLs, APHAKIC, MULTIFOCAL, SPHERICAL - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P0301021002"/>
+        <display value="IOLs, APHAKIC, MULTIFOCAL, ASPHERIC"/>
+      </concept>
+      <concept>
+        <code value="P030102100201"/>
+        <display value="IOLs, APHAKIC, MULTIFOCAL, ASPHERIC, HYDROPHOBIC ACRYLIC"/>
+      </concept>
+      <concept>
+        <code value="P030102100202"/>
+        <display value="IOLs, APHAKIC, MULTIFOCAL, ASPHERIC, HYDROPHILIC ACRYLIC"/>
+      </concept>
+      <concept>
+        <code value="P030102100203"/>
+        <display value="IOLs, APHAKIC, MULTIFOCAL, ASPHERIC, SILICONE"/>
+      </concept>
+      <concept>
+        <code value="P030102100299"/>
+        <display value="IOLs, APHAKIC, MULTIFOCAL, ASPHERIC - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P0301021003"/>
+        <display value="IOLs, APHAKIC, MULTIFOCAL, TORIC"/>
+      </concept>
+      <concept>
+        <code value="P030102100301"/>
+        <display value="IOLs, APHAKIC, MULTIFOCAL, TORIC, HYDROPHOBIC ACRYLIC"/>
+      </concept>
+      <concept>
+        <code value="P030102100302"/>
+        <display value="IOLs, APHAKIC, MULTIFOCAL, TORIC, HYDROPHILIC ACRYLIC"/>
+      </concept>
+      <concept>
+        <code value="P030102100303"/>
+        <display value="IOLs, APHAKIC, MULTIFOCAL, TORIC, SILICONE"/>
+      </concept>
+      <concept>
+        <code value="P030102100399"/>
+        <display value="IOLs, APHAKIC, MULTIFOCAL, TORIC - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P03010211"/>
+        <display value="IOLs, APHAKIC, ACCOMMODATIVE"/>
+      </concept>
+      <concept>
+        <code value="P0301021101"/>
+        <display value="IOLs, APHAKIC, ACCOMMODATIVE, SPHERICAL"/>
+      </concept>
+      <concept>
+        <code value="P030102110101"/>
+        <display value="IOLs, APHAKIC, ACCOMMODATIVE, SPHERICAL, HYDROPHOBIC ACRYLIC"/>
+      </concept>
+      <concept>
+        <code value="P030102110102"/>
+        <display value="IOLs, APHAKIC, ACCOMMODATIVE, SPHERICAL, HYDROPHILIC ACRYLIC"/>
+      </concept>
+      <concept>
+        <code value="P030102110103"/>
+        <display value="IOLs, APHAKIC, ACCOMMODATIVE, SPHERICAL, SILICONE"/>
+      </concept>
+      <concept>
+        <code value="P030102110199"/>
+        <display value="IOLs, APHAKIC, ACCOMMODATIVE, SPHERICAL - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P0301021102"/>
+        <display value="IOLs, APHAKIC, ACCOMMODATIVE, ASPHERIC"/>
+      </concept>
+      <concept>
+        <code value="P030102110201"/>
+        <display value="IOLs, APHAKIC, ACCOMMODATIVE, ASPHERIC, HYDROPHOBIC ACRYLIC"/>
+      </concept>
+      <concept>
+        <code value="P030102110202"/>
+        <display value="IOLs, APHAKIC, ACCOMMODATIVE, ASPHERIC, HYDROPHILIC ACRYLIC"/>
+      </concept>
+      <concept>
+        <code value="P030102110203"/>
+        <display value="IOLs, APHAKIC, ACCOMMODATIVE, ASPHERIC, SILICONE"/>
+      </concept>
+      <concept>
+        <code value="P030102110299"/>
+        <display value="IOLs, APHAKIC, ACCOMMODATIVE, ASPHERIC - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P0301021103"/>
+        <display value="IOLs, APHAKIC, ACCOMMODATIVE, TORIC"/>
+      </concept>
+      <concept>
+        <code value="P030102110301"/>
+        <display value="IOLs, APHAKIC, ACCOMMODATIVE, TORIC, HYDROPHOBIC ACRYLIC"/>
+      </concept>
+      <concept>
+        <code value="P030102110302"/>
+        <display value="IOLs, APHAKIC, ACCOMMODATIVE, TORIC, HYDROPHILIC ACRYLIC"/>
+      </concept>
+      <concept>
+        <code value="P030102110303"/>
+        <display value="IOLs, APHAKIC, ACCOMMODATIVE, TORIC, SILICONE"/>
+      </concept>
+      <concept>
+        <code value="P030102110399"/>
+        <display value="IOLs, APHAKIC, ACCOMMODATIVE, TORIC - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P030190"/>
+        <display value="INTRAOCULAR LENSES (IOL) - VARIOUS"/>
+      </concept>
+      <concept>
+        <code value="P03019001"/>
+        <display value="MACULOPATHY LOW VISION CORRECTION LENSES"/>
+      </concept>
+      <concept>
+        <code value="P030199"/>
+        <display value="INTRAOCULAR LENSES (IOL) - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P0380"/>
+        <display value="OCULAR PROSTHESES - ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="P0399"/>
+        <display value="OCULAR PROSTHESES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P04"/>
+        <display value="RESPIRATORY PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P0401"/>
+        <display value="TRACHEOBRONCHIAL PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P0480"/>
+        <display value="RESPIRATORY PROSTHESES - ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="P0499"/>
+        <display value="RESPIRATORY PROSTHESES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P05"/>
+        <display value="OESOPHAGEAL AND GASTROINTESTINAL PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P0501"/>
+        <display value="OESOPHAGEAL PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P050101"/>
+        <display value="GASTRO-ESOPHAGEAL REFLUX CORRECTION PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P050199"/>
+        <display value="ESOPHAGEAL PROSTHESES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P0502"/>
+        <display value="BILIARY AND PANCREATIC PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P0503"/>
+        <display value="COLONIC AND DUODENAL PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P0504"/>
+        <display value="FAECAL INCONTINENCE PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P050401"/>
+        <display value="ANAL SPHINCTERS"/>
+      </concept>
+      <concept>
+        <code value="P050499"/>
+        <display value="FAECAL INCONTINENCE PROSTHESES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P0580"/>
+        <display value="OESOPHAGEAL AND GASTROINTESTINAL PROSTHESES - ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="P058001"/>
+        <display value="OESOPHAGEAL AND GASTROINTESTINAL PROSTHESES POSITIONING DEVICES"/>
+      </concept>
+      <concept>
+        <code value="P058099"/>
+        <display value="OESOPHAGEAL AND GASTROINTESTINAL PROSTHESES - OTHER ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="P0599"/>
+        <display value="PROSTHESES, OESOPHAGEAL AND GASTROINTESTINAL PROSTHESES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P06"/>
+        <display value="BREAST IMPLANTS"/>
+      </concept>
+      <concept>
+        <code value="P0601"/>
+        <display value="PERMANENT, NON-EXPANDABLE BREAST IMPLANTS"/>
+      </concept>
+      <concept>
+        <code value="P060101"/>
+        <display value="BREAST PROSTHESES, ROUND"/>
+      </concept>
+      <concept>
+        <code value="P06010101"/>
+        <display value="BREAST IMPLANTS, ROUND, SALINE"/>
+      </concept>
+      <concept>
+        <code value="P0601010101"/>
+        <display value="BREAST IMPLANTS, ROUND, SALINE, WITH SMOOTH SURFACE"/>
+      </concept>
+      <concept>
+        <code value="P0601010102"/>
+        <display value="BREAST IMPLANTS, ROUND, SALINE, WITH TEXTURED SURFACE"/>
+      </concept>
+      <concept>
+        <code value="P0601010199"/>
+        <display value="BREAST IMPLANTS, ROUND, SALINE - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P06010102"/>
+        <display value="BREAST IMPLANTS, ROUND, MADE OF SILICONE"/>
+      </concept>
+      <concept>
+        <code value="P0601010201"/>
+        <display value="BREAST IMPLANTS, ROUND, MADE OF SILICONE, WITH SMOOTH SURFACE"/>
+      </concept>
+      <concept>
+        <code value="P0601010202"/>
+        <display value="BREAST IMPLANTS, ROUND, MADE OF SILICONE, WITH TEXTURED SURFACE"/>
+      </concept>
+      <concept>
+        <code value="P0601010299"/>
+        <display value="BREAST IMPLANTS, ROUND, MADE OF SILICONE - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P060102"/>
+        <display value="BREAST IMPLANTS, ANATOMIC"/>
+      </concept>
+      <concept>
+        <code value="P06010201"/>
+        <display value="BREAST IMPLANTS, ANATOMICAL, SALINE"/>
+      </concept>
+      <concept>
+        <code value="P0601020101"/>
+        <display value="BREAST IMPLANTS, ANATOMICAL, SALINE, WITH SMOOTH SURFACE"/>
+      </concept>
+      <concept>
+        <code value="P0601020102"/>
+        <display value="BREAST IMPLANTS, ANATOMICAL, SALINE, WITH TEXTURED SURFACE"/>
+      </concept>
+      <concept>
+        <code value="P0601020199"/>
+        <display value="BREAST IMPLANTS, ANATOMICAL, SALINE - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P06010202"/>
+        <display value="BREAST IMPLANTS, ANATOMICAL, MADE OF SILICONE"/>
+      </concept>
+      <concept>
+        <code value="P0601020201"/>
+        <display value="BREAST IMPLANTS, ANATOMICAL, MADE OF SILICONE, WITH SMOOTH SURFACE"/>
+      </concept>
+      <concept>
+        <code value="P0601020202"/>
+        <display value="BREAST IMPLANTS, ANATOMICAL, MADE OF SILICONE, WITH TEXTURED SURFACE"/>
+      </concept>
+      <concept>
+        <code value="P0601020299"/>
+        <display value="BREAST IMPLANTS, ANATOMICAL, MADE OF SILICONE - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P060199"/>
+        <display value="BREAST IMPLANTS, STANDARD - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P0602"/>
+        <display value="BREAST IMPLANTS, EXPANDER"/>
+      </concept>
+      <concept>
+        <code value="P060201"/>
+        <display value="BREAST IMPLANTS, BECKER TYPE"/>
+      </concept>
+      <concept>
+        <code value="P060299"/>
+        <display value="BREAST IMPLANTS, EXPANDER - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P0680"/>
+        <display value="BREAST IMPLANTS - ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="P0699"/>
+        <display value="BREAST IMPLANTS - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P07"/>
+        <display value="VASCULAR AND CARDIAC PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P0701"/>
+        <display value="VASCULAR PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P070101"/>
+        <display value="BIOLOGICAL VASCULAR PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P07010101"/>
+        <display value="PERICARDIUM VASCULAR PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P0701010101"/>
+        <display value="PERICARDIUM VASCULAR PROSTHESES, STRAIGHT"/>
+      </concept>
+      <concept>
+        <code value="P0701010102"/>
+        <display value="PERICARDIUM VASCULAR PROSTHESES, BIFURCATED"/>
+      </concept>
+      <concept>
+        <code value="P07010102"/>
+        <display value="HOMOLOGOUS VASCULAR PROSTHESES,"/>
+      </concept>
+      <concept>
+        <code value="P0701010201"/>
+        <display value="HOMOLOGOUS VASCULAR PROSTHESES, STRAIGHT"/>
+      </concept>
+      <concept>
+        <code value="P0701010202"/>
+        <display value="HOMOLOGOUS VASCULAR PROSTHESES, BIFURCATED"/>
+      </concept>
+      <concept>
+        <code value="P07010199"/>
+        <display value="BIOLOGICAL VASCULAR PROSTHESES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P070102"/>
+        <display value="VASCULAR PROSTHESES, SYNTHETIC"/>
+      </concept>
+      <concept>
+        <code value="P07010201"/>
+        <display value="DACRON VASCULAR PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P0701020101"/>
+        <display value="DACRON VASCULAR PROSTHESES, STRAIGHT"/>
+      </concept>
+      <concept>
+        <code value="P070102010101"/>
+        <display value="DACRON VASCULAR PROSTHESES, STRAIGHT, KNITTED"/>
+      </concept>
+      <concept>
+        <code value="P070102010102"/>
+        <display value="DACRON VASCULAR PROSTHESES, STRAIGHT, WOVEN"/>
+      </concept>
+      <concept>
+        <code value="P0701020102"/>
+        <display value="DACRON VASCULAR PROSTHESES, MULTIFURCATED"/>
+      </concept>
+      <concept>
+        <code value="P070102010201"/>
+        <display value="DACRON VASCULAR PROSTHESES, MULTIFURCATED (AORTIC ARCH (ALSO COLLATERAL AND MULTIPLE) AND THORACIC-ABDOMINAL)"/>
+      </concept>
+      <concept>
+        <code value="P070102010202"/>
+        <display value="DACRON VASCULAR PROSTHESES, WOVEN, MULTIFURCATED"/>
+      </concept>
+      <concept>
+        <code value="P07010202"/>
+        <display value="PTFE VASCULAR PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P0701020201"/>
+        <display value="PTFE VASCULAR PROSTHESES, STRAIGHT"/>
+      </concept>
+      <concept>
+        <code value="P070102020101"/>
+        <display value="PTFE VASCULAR PROSTHESES, STRAIGHT, SIMPLE"/>
+      </concept>
+      <concept>
+        <code value="P070102020102"/>
+        <display value="PTFE VASCULAR PROSTHESES, STRAIGHT, REINFORCED"/>
+      </concept>
+      <concept>
+        <code value="P0701020202"/>
+        <display value="PTFE VASCULAR PROSTHESES, BIFURCATED"/>
+      </concept>
+      <concept>
+        <code value="P070102020201"/>
+        <display value="PTFE VASCULAR PROSTHESES, BIFURCATED, SIMPLE"/>
+      </concept>
+      <concept>
+        <code value="P070102020202"/>
+        <display value="PTFE VASCULAR PROSTHESES, BIFURCATED, REINFORCED"/>
+      </concept>
+      <concept>
+        <code value="P07010299"/>
+        <display value="VASCULAR PROSTHESES, SYNTHETIC - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P070180"/>
+        <display value="VASCULAR PROSTHESES - ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="P0702"/>
+        <display value="VASCULAR PATCHES"/>
+      </concept>
+      <concept>
+        <code value="P070201"/>
+        <display value="BIOLOGICAL VASCULAR PATCHES"/>
+      </concept>
+      <concept>
+        <code value="P07020101"/>
+        <display value="PERICARDIUM VASCULAR PATCHES"/>
+      </concept>
+      <concept>
+        <code value="P07020102"/>
+        <display value="SIS (SMALL INTESTINAL SUBMUCOSA) VASCULAR PATCHES"/>
+      </concept>
+      <concept>
+        <code value="P07020199"/>
+        <display value="BIOLOGICAL VASCULAR PATCHES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P070202"/>
+        <display value="SYNTHETIC VASCULAR PATCHES"/>
+      </concept>
+      <concept>
+        <code value="P07020201"/>
+        <display value="DACRON VASCULAR PATCHES"/>
+      </concept>
+      <concept>
+        <code value="P07020202"/>
+        <display value="PTFE VASCULAR PATCHES"/>
+      </concept>
+      <concept>
+        <code value="P07020203"/>
+        <display value="PET VASCULAR PATCHES"/>
+      </concept>
+      <concept>
+        <code value="P07020204"/>
+        <display value="PU VASCULAR PATCHES"/>
+      </concept>
+      <concept>
+        <code value="P07020299"/>
+        <display value="SYNTHETIC VASCULAR PATCHES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P0703"/>
+        <display value="CARDIAC VALVES"/>
+      </concept>
+      <concept>
+        <code value="P070301"/>
+        <display value="BIOLOGICAL CARDIAC VALVES"/>
+      </concept>
+      <concept>
+        <code value="P07030101"/>
+        <display value="BIOLOGICAL CARDIAC VALVES FOR SURGICAL IMPLANT WITH SUPPORT"/>
+      </concept>
+      <concept>
+        <code value="P0703010101"/>
+        <display value="STENTED BIOLOGICAL HEART VALVES FOR SURGICAL IMPLANT - VALVE TISSUE OF ANIMAL ORIGIN"/>
+      </concept>
+      <concept>
+        <code value="P070301010101"/>
+        <display value="STENTED AORTIC BIOLOGICAL VALVES FOR SURGICAL IMPLANT - VALVE TISSUE OF ANIMAL ORIGIN"/>
+      </concept>
+      <concept>
+        <code value="P070301010102"/>
+        <display value="STENTED MITRAL BIOLOGICAL VALVES FOR SURGICAL IMPLANT - VALVE TISSUE OF ANIMAL ORIGIN"/>
+      </concept>
+      <concept>
+        <code value="P070301010103"/>
+        <display value="STENTED PULMONARY BIOLOGICAL VALVES FOR SURGICAL IMPLANT - VALVE TISSUE OF ANIMAL ORIGIN"/>
+      </concept>
+      <concept>
+        <code value="P070301010104"/>
+        <display value="STENTED TRICUSPID BIOLOGICAL VALVES FOR SURGICAL IMPLANT - VALVE TISSUE OF ANIMAL ORIGIN"/>
+      </concept>
+      <concept>
+        <code value="P0703010102"/>
+        <display value="STENTED BIOLOGICAL HEART VALVES FOR SURGICAL IMPLANT - NON-VALVE TISSUE OF ANIMAL ORIGIN"/>
+      </concept>
+      <concept>
+        <code value="P070301010201"/>
+        <display value="STENTED AORTIC BIOLOGICAL VALVES FOR SURGICAL IMPLANT - NON-VALVE TISSUE OF ANIMAL ORIGIN"/>
+      </concept>
+      <concept>
+        <code value="P070301010202"/>
+        <display value="STENTED MITRAL BIOLOGICAL VALVES FOR SURGICAL IMPLANT - NON-VALVE TISSUE OF ANIMAL ORIGIN"/>
+      </concept>
+      <concept>
+        <code value="P070301010203"/>
+        <display value="STENTED PULMONARY BIOLOGICAL VALVES FOR SURGICAL IMPLANT - NON-VALVE TISSUE OF ANIMAL ORIGIN"/>
+      </concept>
+      <concept>
+        <code value="P070301010204"/>
+        <display value="STENTED TRICUSPID BIOLOGICAL VALVES FOR SURGICAL IMPLANT - NON-VALVE TISSUE OF ANIMAL ORIGIN"/>
+      </concept>
+      <concept>
+        <code value="P07030102"/>
+        <display value="STENTLESS BIOLOGICAL HEART VALVES FOR SURGICAL IMPLANT"/>
+      </concept>
+      <concept>
+        <code value="P0703010201"/>
+        <display value="STENTLESS BIOLOGICAL HEART VALVES FOR SURGICAL IMPLANT - VALVE TISSUE OF ANIMAL ORIGIN"/>
+      </concept>
+      <concept>
+        <code value="P0703010202"/>
+        <display value="STENTLESS BIOLOGICAL HEART VALVES FOR SURGICAL IMPLANT - TISSUE OF ANIMAL ORIGIN"/>
+      </concept>
+      <concept>
+        <code value="P07030103"/>
+        <display value="BIOLOGICAL HEART VALVES FOR PERCUTANEOUS IMPLANTATION, WITH SUPPORT"/>
+      </concept>
+      <concept>
+        <code value="P0703010301"/>
+        <display value="STENTED BIOLOGICAL HEART VALVES FOR PERCUTANEOUS IMPLANT - VALVE TISSUE OF ANIMAL ORIGIN"/>
+      </concept>
+      <concept>
+        <code value="P070301030101"/>
+        <display value="STENTED BIOLOGICAL AORTIC VALVES FOR PERCUTANEOUS IMPLANT - VALVE TISSUE OF ANIMAL ORIGIN"/>
+      </concept>
+      <concept>
+        <code value="P070301030102"/>
+        <display value="STENTED BIOLOGICAL MITRAL VALVES FOR PERCUTANEOUS IMPLANT - VALVE TISSUE OF ANIMAL ORIGIN"/>
+      </concept>
+      <concept>
+        <code value="P070301030103"/>
+        <display value="STENTED BIOLOGICAL PULMONARY VALVES FOR PERCUTANEOUS IMPLANT - VALVE TISSUE OF ANIMAL ORIGIN"/>
+      </concept>
+      <concept>
+        <code value="P070301030104"/>
+        <display value="STENTED BIOLOGICAL TRICUSPID VALVES FOR PERCUTANEOUS IMPLANT - VALVE TISSUE OF ANIMAL ORIGIN"/>
+      </concept>
+      <concept>
+        <code value="P0703010302"/>
+        <display value="BIOLOGICAL HEART VALVES WITH SUPPORT FOR PERCUTANEOUS IMPLANT - NON-VALVE TISSUE OF ANIMAL ORIGIN"/>
+      </concept>
+      <concept>
+        <code value="P070301030201"/>
+        <display value="STENTED BIOLOGICAL AORTIC VALVES FOR PERCUTANEOUS IMPLANT - NON-VALVE TISSUE OF ANIMAL ORIGIN"/>
+      </concept>
+      <concept>
+        <code value="P070301030202"/>
+        <display value="STENTED BIOLOGICAL MITRAL VALVES FOR PERCUTANEOUS IMPLANT - NON-VALVE TISSUE OF ANIMAL ORIGIN"/>
+      </concept>
+      <concept>
+        <code value="P070301030203"/>
+        <display value="STENTED BIOLOGICAL PULMONARY VALVES FOR PERCUTANEOUS IMPLANT - NON-VALVE TISSUE OF ANIMAL ORIGIN"/>
+      </concept>
+      <concept>
+        <code value="P070301030204"/>
+        <display value="STENTED BIOLOGICAL TRICUSPID VALVES FOR PERCUTANEOUS IMPLANT - NON-VALVE TISSUE OF ANIMAL ORIGIN"/>
+      </concept>
+      <concept>
+        <code value="P07030104"/>
+        <display value="BIOLOGICAL VALVES, BICAVAL"/>
+      </concept>
+      <concept>
+        <code value="P07030199"/>
+        <display value="BIOLOGICAL HEART VALVES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P070302"/>
+        <display value="MECHANICAL HEART VALVES"/>
+      </concept>
+      <concept>
+        <code value="P07030201"/>
+        <display value="MECHANICAL HEART VALVES, BALL-VALVES"/>
+      </concept>
+      <concept>
+        <code value="P07030202"/>
+        <display value="MECHANICAL HEART VALVES, SINGLE-DISC"/>
+      </concept>
+      <concept>
+        <code value="P07030203"/>
+        <display value="MECHANICAL HEART VALVES DOUBLE-DISC"/>
+      </concept>
+      <concept>
+        <code value="P0703020301"/>
+        <display value="BILEAFLET MECHANICAL AORTIC VALVES"/>
+      </concept>
+      <concept>
+        <code value="P0703020302"/>
+        <display value="BILEAFLET MECHANICAL MITRAL VALVES"/>
+      </concept>
+      <concept>
+        <code value="P0703020399"/>
+        <display value="BILEAFLET MECHANICAL HEART VALVES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P07030299"/>
+        <display value="MECHANICAL HEART VALVES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P070303"/>
+        <display value="HEART VALVE TUBES"/>
+      </concept>
+      <concept>
+        <code value="P07030301"/>
+        <display value="BIOLOGICAL HEART VALVE TUBES"/>
+      </concept>
+      <concept>
+        <code value="P07030302"/>
+        <display value="MECHANICAL HEART VALVE TUBES"/>
+      </concept>
+      <concept>
+        <code value="P07030399"/>
+        <display value="HEART VALVE TUBES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P070304"/>
+        <display value="HEART VALVE RINGS"/>
+      </concept>
+      <concept>
+        <code value="P07030401"/>
+        <display value="FLEXIBLE OR UNSUPPORTED HEART VALVE RINGS"/>
+      </concept>
+      <concept>
+        <code value="P07030402"/>
+        <display value="RIGID OR SEMI-RIGID HEART VALVE RINGS WITH SUPPORT"/>
+      </concept>
+      <concept>
+        <code value="P07030403"/>
+        <display value="INCOMPLETE SEMI-RIGID HEART VALVE RINGS"/>
+      </concept>
+      <concept>
+        <code value="P07030499"/>
+        <display value="HEART VALVE RINGS - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P070380"/>
+        <display value="HEART VALVES - ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="P07038001"/>
+        <display value="HEART VALVE IMPLANT SIZERS"/>
+      </concept>
+      <concept>
+        <code value="P07038002"/>
+        <display value="CARDIAC VALVE TRANSCATHETER IMPLANT ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="P07038003"/>
+        <display value="MECHANICAL HEART VALVE IMPLANT ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="P07038004"/>
+        <display value="HEART VALVE RECONSTRUCTION IMPLANTS"/>
+      </concept>
+      <concept>
+        <code value="P07038099"/>
+        <display value="HEART VALVE ACCESSORIES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P070399"/>
+        <display value="CARDIAC VALVES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P0704"/>
+        <display value="VASCULAR AND CARDIAC ENDOPROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P070401"/>
+        <display value="VASCULAR ENDOPROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P07040101"/>
+        <display value="DACRON VASCULAR ENDOPROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P0704010101"/>
+        <display value="DACRON VASCULAR ENDOPROSTHESES, STRAIGHT"/>
+      </concept>
+      <concept>
+        <code value="P070401010101"/>
+        <display value="DACRON VASCULAR ENDOPROSTHESES, STRAIGHT - ABDOMINAL"/>
+      </concept>
+      <concept>
+        <code value="P070401010102"/>
+        <display value="DACRON VASCULAR ENDOPROSTHESES, STRAIGHT - THORACIC"/>
+      </concept>
+      <concept>
+        <code value="P070401010199"/>
+        <display value="DACRON VASCULAR ENDOPROSTHESES, STRAIGHT - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P0704010102"/>
+        <display value="DACRON VASCULAR ENDOPROSTHESES, BIFURCATED"/>
+      </concept>
+      <concept>
+        <code value="P0704010103"/>
+        <display value="DACRON VASCULAR ENDOPROSTHESES, AUXILIARY"/>
+      </concept>
+      <concept>
+        <code value="P07040102"/>
+        <display value="PTFE VASCULAR ENDOPROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P0704010201"/>
+        <display value="PTFE VASCULAR ENDOPROSTHESES, STRAIGHT"/>
+      </concept>
+      <concept>
+        <code value="P070401020101"/>
+        <display value="PTFE VASCULAR ENDOPROSTHESES, STRAIGHT - ABDOMINAL"/>
+      </concept>
+      <concept>
+        <code value="P070401020102"/>
+        <display value="PTFE VASCULAR ENDOPROSTHESES, STRAIGHT - THORACIC"/>
+      </concept>
+      <concept>
+        <code value="P070401020103"/>
+        <display value="PTFE VASCULAR ENDOPROSTHESES, STRAIGHT - PERIPHERAL"/>
+      </concept>
+      <concept>
+        <code value="P070401020199"/>
+        <display value="PTFE VASCULAR ENDOPROSTHESES, STRAIGHT - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P0704010202"/>
+        <display value="PTFE VASCULAR ENDOPROSTHESES, BIFURCATED"/>
+      </concept>
+      <concept>
+        <code value="P0704010203"/>
+        <display value="PTFE VASCULAR ENDOPROSTHESES, AUXILIARY"/>
+      </concept>
+      <concept>
+        <code value="P07040199"/>
+        <display value="VASCULAR ENDOPROSTHESES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P070402"/>
+        <display value="VASCULAR STENTS"/>
+      </concept>
+      <concept>
+        <code value="P07040201"/>
+        <display value="CORONARY STENTS"/>
+      </concept>
+      <concept>
+        <code value="P0704020101"/>
+        <display value="CORONARY BARE METAL STENTS (BMS)"/>
+      </concept>
+      <concept>
+        <code value="P070402010101"/>
+        <display value="STAINLESS STEEL CORONARY BARE METAL STENTS (BMS)"/>
+      </concept>
+      <concept>
+        <code value="P070402010102"/>
+        <display value="METALLIC NON-STAINLESS STEEL CORONARY STENTS"/>
+      </concept>
+      <concept>
+        <code value="P070402010199"/>
+        <display value="CORONARY BARE METAL STENTS (BMS) - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P0704020102"/>
+        <display value="COATED CORONARY STENTS"/>
+      </concept>
+      <concept>
+        <code value="P0704020103"/>
+        <display value="CORONARY DRUG ELUTING STENTS (DES)"/>
+      </concept>
+      <concept>
+        <code value="P070402010301"/>
+        <display value="CORONARY DRUG ELUTING STENTS (DES) WITH POLYMERS"/>
+      </concept>
+      <concept>
+        <code value="P070402010302"/>
+        <display value="CORONARY DRUG ELUTING STENTS (DES) WITHOUT POLYMERS"/>
+      </concept>
+      <concept>
+        <code value="P0704020104"/>
+        <display value="CORONARY STENTS, ABSORBABLE"/>
+      </concept>
+      <concept>
+        <code value="P0704020105"/>
+        <display value="CORONARY STENTS, BIOACTIVE"/>
+      </concept>
+      <concept>
+        <code value="P0704020199"/>
+        <display value="CORONARY STENTS - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P07040202"/>
+        <display value="PERIPHERAL VASCULAR STENTS"/>
+      </concept>
+      <concept>
+        <code value="P0704020201"/>
+        <display value="PERIPHERAL VASCULAR STENTS, BMS"/>
+      </concept>
+      <concept>
+        <code value="P070402020101"/>
+        <display value="STAINLESS STEEL PERIPHERAL VASCULAR BARE METAL STENTS"/>
+      </concept>
+      <concept>
+        <code value="P070402020102"/>
+        <display value="NON-STAINLESS STEEL PERIPHERAL VASCULAR BARE METAL STENTS"/>
+      </concept>
+      <concept>
+        <code value="P070402020199"/>
+        <display value="PERIPHERAL VASCULAR BARE STENTS - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P0704020202"/>
+        <display value="PERIPHERAL VASCULAR COATED STENTS"/>
+      </concept>
+      <concept>
+        <code value="P0704020203"/>
+        <display value="PERIPHERAL VASCULAR DRUG ELUTING STENTS (DES)"/>
+      </concept>
+      <concept>
+        <code value="P0704020204"/>
+        <display value="PERIPHERAL VASCULAR STENTS, BIOACTIVE"/>
+      </concept>
+      <concept>
+        <code value="P0704020299"/>
+        <display value="PERIPHERAL VASCULAR STENTS - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P070403"/>
+        <display value="CARDIAC AND CORONARY DEFECT OCCLUDERS"/>
+      </concept>
+      <concept>
+        <code value="P07040301"/>
+        <display value="CARDIAC OCCLUDERS, VENTRICULAR SEPTAL DEFECTS"/>
+      </concept>
+      <concept>
+        <code value="P07040302"/>
+        <display value="CARDIAC OCCLUDERS, ATRIAL SEPTAL DEFECTS"/>
+      </concept>
+      <concept>
+        <code value="P07040303"/>
+        <display value="CARDIAC OCCLUDERS, FORAMEN OVALE AND BOTALLO DUCT"/>
+      </concept>
+      <concept>
+        <code value="P07040399"/>
+        <display value="HEART AND CORONARY DEFECT OCCLUDERS - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P070404"/>
+        <display value="LEFT ATRIAL APPENDAGE OCCLUDERS"/>
+      </concept>
+      <concept>
+        <code value="P0780"/>
+        <display value="VASCULAR AND CARDIAC PROSTHESES - ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="P0799"/>
+        <display value="VASCULAR AND CARDIAC PROSTHESES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P08"/>
+        <display value="UROGENITAL PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P0801"/>
+        <display value="URINARY INCONTINENCE PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P080102"/>
+        <display value="ARTIFICIAL URINARY SPHINCTERS"/>
+      </concept>
+      <concept>
+        <code value="P080199"/>
+        <display value="URINARY INCONTINENCE PROSTHESES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P0802"/>
+        <display value="MALE GENITAL SYSTEM PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P080201"/>
+        <display value="TESTICLE PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P080202"/>
+        <display value="PENILE PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P080299"/>
+        <display value="MALE GENITAL SYSTEM PROSTHESES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P0803"/>
+        <display value="URINARY OBSTRUCTION PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P080301"/>
+        <display value="URETHRAL PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P08030101"/>
+        <display value="TRANS-PROSTATIC URETHRAL PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P08030102"/>
+        <display value="VAS DEFERENS PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P08030199"/>
+        <display value="ENDOURETHRAL PROSTHESES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P080302"/>
+        <display value="URETERAL PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P080399"/>
+        <display value="URINARY OBSTRUCTION PROSTHESES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P0804"/>
+        <display value="FEMALE GENITAL SYSTEM PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P080401"/>
+        <display value="FALLOPIAN TUBE PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P080499"/>
+        <display value="FEMALE GENITAL SYSTEM PROSTHESES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P0805"/>
+        <display value="URINARY TRACT IMPLANTABLE VALVES"/>
+      </concept>
+      <concept>
+        <code value="P0880"/>
+        <display value="UROGENITAL PROSTHESES - ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="P0899"/>
+        <display value="UROGENITAL PROSTHESES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P09"/>
+        <display value="ORTHOPAEDIC PROSTHESES, OSTEOSYNTHESIS DEVICES, DEVICES FOR TENDON AND LIGAMENT SYNTHESIS"/>
+      </concept>
+      <concept>
+        <code value="P0901"/>
+        <display value="SHOULDER PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P090103"/>
+        <display value="GLENOID COMPONENTS"/>
+      </concept>
+      <concept>
+        <code value="P09010301"/>
+        <display value="SHOULDER PROSTHESIS AND METAGLENE METAL BACK"/>
+      </concept>
+      <concept>
+        <code value="P09010302"/>
+        <display value="ANATOMICAL SHOULDER PROSTHESIS INSERTS"/>
+      </concept>
+      <concept>
+        <code value="P09010303"/>
+        <display value="GLENOSPHERES"/>
+      </concept>
+      <concept>
+        <code value="P09010304"/>
+        <display value="MONOBLOCK GLENOIDS"/>
+      </concept>
+      <concept>
+        <code value="P09010399"/>
+        <display value="GLENOID COMPONENTS - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P090104"/>
+        <display value="SHOULDER PROSTHESES HUMERAL COMPONENTS"/>
+      </concept>
+      <concept>
+        <code value="P09010401"/>
+        <display value="EPIPHYSARY HUMERAL COMPONENTS"/>
+      </concept>
+      <concept>
+        <code value="P0901040101"/>
+        <display value="EPIPHYSARY HUMERAL COMPONENTS FOR ANATOMICAL PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P090104010101"/>
+        <display value="EPIPHYSARY HUMERAL COMPONENTS FOR ANATOMICAL PROSTHESES - HUMERAL HEADS"/>
+      </concept>
+      <concept>
+        <code value="P090104010102"/>
+        <display value="EPIPHYSARY HUMERAL COMPONENTS FOR RESURFACING ANATOMICAL PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P0901040102"/>
+        <display value="EPIPHYSARY HUMERAL COMPONENTS FOR REVERSE PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P090104010201"/>
+        <display value="EPIPHYSARY HUMERAL COMPONENTS FOR REVERSE PROSTHESES - INSERTS"/>
+      </concept>
+      <concept>
+        <code value="P090104010202"/>
+        <display value="EPIPHYSARY HUMERAL COMPONENTS FOR REVERSE PROSTHESES - HUMERAL CUPS"/>
+      </concept>
+      <concept>
+        <code value="P0901040199"/>
+        <display value="EPIPHYSARY HUMERAL COMPONENTS - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P09010402"/>
+        <display value="DIAPHYSARY HUMERAL COMPONENTS"/>
+      </concept>
+      <concept>
+        <code value="P0901040201"/>
+        <display value="SHOULDER PROSTHESES NON MODULAR STEMS"/>
+      </concept>
+      <concept>
+        <code value="P0901040202"/>
+        <display value="SHOULDER PROSTHESES MODULAR STEMS"/>
+      </concept>
+      <concept>
+        <code value="P0901040203"/>
+        <display value="MONOBLOCK DIAPHYSARY HUMERAL COMPONENTS (STEM + EPIPHYSARY COMPONENT)"/>
+      </concept>
+      <concept>
+        <code value="P090104020301"/>
+        <display value="MONOBLOCK DIAPHYSARY HUMERAL COMPONENTS FOR ANATOMICAL PROSTHESIS (STEM + HEAD)"/>
+      </concept>
+      <concept>
+        <code value="P090104020302"/>
+        <display value="MONOBLOCK DIAPHYSARY HUMERAL COMPONENTS FOR REVERSE PROSTHESIS (STEM + CUP)"/>
+      </concept>
+      <concept>
+        <code value="P0901040204"/>
+        <display value="SHOULDER PROSTHESES REVISION STEMS"/>
+      </concept>
+      <concept>
+        <code value="P0901040205"/>
+        <display value="SHOULDER PROSTHESES LARGE RESECTIONS STEMS"/>
+      </concept>
+      <concept>
+        <code value="P0901040299"/>
+        <display value="DIAPHYSARY HUMERAL COMPONENTS - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P09010403"/>
+        <display value="SHOULDER PROSTHESES SPACERS"/>
+      </concept>
+      <concept>
+        <code value="P09010499"/>
+        <display value="HUMERAL COMPONENTS FOR SHOULDER PROSTHESES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P090180"/>
+        <display value="SHOULDER PROSTHESES - ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="P09018001"/>
+        <display value="SHOULDER PROSTHESES FIXING SCREWS"/>
+      </concept>
+      <concept>
+        <code value="P09018002"/>
+        <display value="SHOULDER PROSTHESES ADAPTERS (INCLUDING CONES AND SLEEVES)"/>
+      </concept>
+      <concept>
+        <code value="P0901800201"/>
+        <display value="GLENOID COMPONENTS ADAPTERS"/>
+      </concept>
+      <concept>
+        <code value="P0901800202"/>
+        <display value="HUMERAL COMPONENTS ADAPTERS"/>
+      </concept>
+      <concept>
+        <code value="P09018003"/>
+        <display value="SHOULDER PROSTHESES ENDOMIDOLLAR CAPS"/>
+      </concept>
+      <concept>
+        <code value="P09018099"/>
+        <display value="SHOULDER PROSTHESES - ACCESSORIES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P090199"/>
+        <display value="SHOULDER PROSTHESES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P0902"/>
+        <display value="ELBOW PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P090203"/>
+        <display value="ELBOW PROSTHESES HUMERAL COMPONENTS"/>
+      </concept>
+      <concept>
+        <code value="P090204"/>
+        <display value="ELBOW PROSTHESES RADIAL COMPONENTS"/>
+      </concept>
+      <concept>
+        <code value="P090205"/>
+        <display value="ELBOW PROSTHESES ULNAR COMPONENTS"/>
+      </concept>
+      <concept>
+        <code value="P090280"/>
+        <display value="ELBOW PROSTHESES - ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="P090299"/>
+        <display value="ELBOW PROSTHESES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P0903"/>
+        <display value="WRIST PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P090303"/>
+        <display value="WRIST PROSTHESES CARPAL COMPONENTS"/>
+      </concept>
+      <concept>
+        <code value="P090304"/>
+        <display value="WRIST PROSTHESES RADIAL-ULNAR COMPONENTS"/>
+      </concept>
+      <concept>
+        <code value="P09030401"/>
+        <display value="WRIST PROSTHESES RADIAL COMPONENTS"/>
+      </concept>
+      <concept>
+        <code value="P09030402"/>
+        <display value="WRIST PROSTHESES ULNAR COMPONENTS"/>
+      </concept>
+      <concept>
+        <code value="P090305"/>
+        <display value="TOTAL WRIST PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P090380"/>
+        <display value="WRIST PROSTHESES - ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="P090399"/>
+        <display value="WRIST PROSTHESES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P0904"/>
+        <display value="HAND PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P090403"/>
+        <display value="HAND PROSTHESES INTERPHALANGE COMPONENTS"/>
+      </concept>
+      <concept>
+        <code value="P090404"/>
+        <display value="HAND PROSTHESES TRAPEZIO-METACARPAL COMPONENTS"/>
+      </concept>
+      <concept>
+        <code value="P090480"/>
+        <display value="HAND PROSTHESES - ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="P090499"/>
+        <display value="HAND PROSTHESES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P0905"/>
+        <display value="ANKLE PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P090506"/>
+        <display value="ANKLE PROSTHESIS WITH MOBILE INSERT"/>
+      </concept>
+      <concept>
+        <code value="P09050601"/>
+        <display value="ANKLE PROSTHESES WITH CEMENTED MOBILE INSERT"/>
+      </concept>
+      <concept>
+        <code value="P0905060101"/>
+        <display value="ANKLE PROSTHESES WITH CEMENTED MOBILE INSERT - TIBIAL COMPONENTS"/>
+      </concept>
+      <concept>
+        <code value="P0905060102"/>
+        <display value="ANKLE PROSTHESES WITH CEMENTED MOBILE INSERT - TALAR COMPONENTS"/>
+      </concept>
+      <concept>
+        <code value="P09050602"/>
+        <display value="ANKLE PROSTHESES WITH UNCEMENTED MOBILE INSERT"/>
+      </concept>
+      <concept>
+        <code value="P0905060201"/>
+        <display value="ANKLE PROSTHESES WITH UNCEMENTED MOBILE INSERT - TIBIAL COMPONENTS"/>
+      </concept>
+      <concept>
+        <code value="P0905060202"/>
+        <display value="ANKLE PROSTHESES WITH UNCEMENTED MOBILE INSERT - TALAR COMPONENTS"/>
+      </concept>
+      <concept>
+        <code value="P09050603"/>
+        <display value="ANKLE PROSTHESES MOBILE INSERTS"/>
+      </concept>
+      <concept>
+        <code value="P090507"/>
+        <display value="ANKLE PROSTHESIS WITH FIXED INSERT"/>
+      </concept>
+      <concept>
+        <code value="P09050701"/>
+        <display value="ANKLE PROSTHESES WITH CEMENTED FIXED INSERT"/>
+      </concept>
+      <concept>
+        <code value="P0905070101"/>
+        <display value="ANKLE PROSTHESES WITH CEMENTED FIXED INSERT - TIBIAL COMPONENTS"/>
+      </concept>
+      <concept>
+        <code value="P0905070102"/>
+        <display value="ANKLE PROSTHESES WITH CEMENTED FIXED INSERT - TALAR COMPONENTS"/>
+      </concept>
+      <concept>
+        <code value="P09050702"/>
+        <display value="ANKLE PROSTHESES WITH UNCEMENTED FIXED INSERT"/>
+      </concept>
+      <concept>
+        <code value="P0905070201"/>
+        <display value="ANKLE PROSTHESES WITH UNCEMENTED FIXED INSERT - TIBIAL COMPONENTS"/>
+      </concept>
+      <concept>
+        <code value="P0905070202"/>
+        <display value="ANKLE PROSTHESES WITH UNCEMENTED FIXED INSERT - TALAR COMPONENTS"/>
+      </concept>
+      <concept>
+        <code value="P09050703"/>
+        <display value="ANKLE PROSTHESES FIXED INSERTS"/>
+      </concept>
+      <concept>
+        <code value="P090508"/>
+        <display value="ANKLE PROSTHESES SPACERS"/>
+      </concept>
+      <concept>
+        <code value="P090580"/>
+        <display value="ANKLE PROSTHESES - ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="P09058001"/>
+        <display value="ANKLE PROSTHESES TIBIAL STEMS"/>
+      </concept>
+      <concept>
+        <code value="P09058099"/>
+        <display value="ANKLE PROSTHESES - ACCESSORIES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P090599"/>
+        <display value="ANKLE PROSTHESES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P0906"/>
+        <display value="FOOT PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P090603"/>
+        <display value="FOOT PROSTHESES INTERPHALANGEAL COMPONENTS"/>
+      </concept>
+      <concept>
+        <code value="P090604"/>
+        <display value="FOOT PROSTHESES METATARSALPHALANGEAL COMPONENTS"/>
+      </concept>
+      <concept>
+        <code value="P090605"/>
+        <display value="FOOT ENDORTHESIS"/>
+      </concept>
+      <concept>
+        <code value="P090680"/>
+        <display value="FOOT PROSTHESES - ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="P090699"/>
+        <display value="FOOT PROSTHESES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P0907"/>
+        <display value="SPINE STABILISATION PROSTHESES AND SYSTEMS"/>
+      </concept>
+      <concept>
+        <code value="P090701"/>
+        <display value="SPINAL FUSION SYSTEMS"/>
+      </concept>
+      <concept>
+        <code value="P09070101"/>
+        <display value="SPINAL CAGES"/>
+      </concept>
+      <concept>
+        <code value="P09070199"/>
+        <display value="SPINAL FUSION SYSTEMS - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P090702"/>
+        <display value="INTERVERTEBRAL DISCS REPLACEMENT SYSTEMS"/>
+      </concept>
+      <concept>
+        <code value="P09070201"/>
+        <display value="DISC PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P090703"/>
+        <display value="IMPLANTABLE VERTEBRAL STABILISATION OR FIXATION SYSTEMS"/>
+      </concept>
+      <concept>
+        <code value="P09070301"/>
+        <display value="CERVICAL FIXATION SYSTEMS"/>
+      </concept>
+      <concept>
+        <code value="P09070302"/>
+        <display value="THORACOLUMBOSACRAL FIXATION SYSTEMS"/>
+      </concept>
+      <concept>
+        <code value="P09070304"/>
+        <display value="SPINE FIXATION SYSTEM CONNECTORS"/>
+      </concept>
+      <concept>
+        <code value="P09070305"/>
+        <display value="SPINAL STABILISERS, DYNAMIC TYPE"/>
+      </concept>
+      <concept>
+        <code value="P09070399"/>
+        <display value="IMPLANTABLE SPINAL STABILISATION OR FIXATION SYSTEMS - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P090780"/>
+        <display value="SPINAL PROSTHESES AND STABILISATION SYSTEMS - ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="P090799"/>
+        <display value="SPINAL PROSTHESES AND STABILISATION SYSTEMS - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P0908"/>
+        <display value="HIP PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P090803"/>
+        <display value="HIP PROSTHESES ACETABULAR COMPONENTS"/>
+      </concept>
+      <concept>
+        <code value="P09080301"/>
+        <display value="PRIMARY IMPLANT ACETABULAR CUPS"/>
+      </concept>
+      <concept>
+        <code value="P0908030101"/>
+        <display value="PRIMARY IMPLANT CEMENTED ACETABULAR CUPS"/>
+      </concept>
+      <concept>
+        <code value="P090803010101"/>
+        <display value="PRIMARY IMPLANT CEMENTED METAL ACETABULAR CUPS"/>
+      </concept>
+      <concept>
+        <code value="P090803010102"/>
+        <display value="PRIMARY IMPLANT CEMENTED POLYETHYLENE ACETABULAR CUPS, ONE-PIECE"/>
+      </concept>
+      <concept>
+        <code value="P090803010199"/>
+        <display value="PRIMARY IMPLANT CEMENTED ACETABULAR CUPS - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P0908030102"/>
+        <display value="PRIMARY IMPLANT UNCEMENTED ACETABULAR CUPS"/>
+      </concept>
+      <concept>
+        <code value="P090803010201"/>
+        <display value="PRIMARY IMPLANT UNCEMENTED METAL ACETABULAR CUPS"/>
+      </concept>
+      <concept>
+        <code value="P090803010202"/>
+        <display value="PRIMARY IMPLANT UNCEMENTED ONE-PIECE POLYETHYLENE ACETABULAR CUPS"/>
+      </concept>
+      <concept>
+        <code value="P090803010203"/>
+        <display value="PRIMARY IMPLANT UNCEMENTED ONE-PIECE METAL ACETABULAR CUPS"/>
+      </concept>
+      <concept>
+        <code value="P090803010299"/>
+        <display value="PRIMARY IMPLANT UNCEMENTED ACETABULAR CUPS - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P09080302"/>
+        <display value="HIP RESURFACING ACETABULAR COMPONENTS"/>
+      </concept>
+      <concept>
+        <code value="P09080303"/>
+        <display value="REVISION SURGERY ACETABULAR CUPS"/>
+      </concept>
+      <concept>
+        <code value="P0908030301"/>
+        <display value="REVISION SURGERY CEMENTED ACETABULAR CUPS"/>
+      </concept>
+      <concept>
+        <code value="P0908030302"/>
+        <display value="REVISION SURGERY UNCEMENTED ACETABULAR CUPS"/>
+      </concept>
+      <concept>
+        <code value="P09080304"/>
+        <display value="HIP PROSTHESES ACETABULAR INSERTS"/>
+      </concept>
+      <concept>
+        <code value="P0908030401"/>
+        <display value="HIP PROSTHESES POLYETHYLENE ACETABULAR INSERTS"/>
+      </concept>
+      <concept>
+        <code value="P090803040101"/>
+        <display value="STANDARD POLYETHYLENE HIP PROSTHESES INSERTS"/>
+      </concept>
+      <concept>
+        <code value="P090803040102"/>
+        <display value="ECCENTRIC POLYETHYLENE HIP PROSTHESES INSERTS"/>
+      </concept>
+      <concept>
+        <code value="P090803040103"/>
+        <display value="RETENTIVE POLYETHYLENE HIP PROSTHESES INSERTS, ANTI-DISLOCATION"/>
+      </concept>
+      <concept>
+        <code value="P0908030402"/>
+        <display value="HIP PROSTHESES CERAMIC ACETABULAR INSERTS"/>
+      </concept>
+      <concept>
+        <code value="P0908030403"/>
+        <display value="HIP PROSTHESES METAL ACETABULAR INSERTS"/>
+      </concept>
+      <concept>
+        <code value="P0908030499"/>
+        <display value="HIP PROSTHESES ACETABULAR INSERTS - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P09080305"/>
+        <display value="DUAL-MOBILITY ACETABULAR COMPONENTS"/>
+      </concept>
+      <concept>
+        <code value="P0908030501"/>
+        <display value="DOUBLE-MOBILITY ACETABULAR CUPS"/>
+      </concept>
+      <concept>
+        <code value="P090803050101"/>
+        <display value="CEMENTED DOUBLE-MOBILITY ACETABULAR CUPS"/>
+      </concept>
+      <concept>
+        <code value="P090803050102"/>
+        <display value="UNCEMENTED DOUBLE-MOBILITY ACETABULAR CUPS"/>
+      </concept>
+      <concept>
+        <code value="P0908030502"/>
+        <display value="DOUBLE-MOBILITY ACETABULAR COMPONENTS INSERTS"/>
+      </concept>
+      <concept>
+        <code value="P09080306"/>
+        <display value="PRE-ASSEMBLED ACETABULAR COMPONENTS (ACETABULAR CUP + INSERT)"/>
+      </concept>
+      <concept>
+        <code value="P0908030601"/>
+        <display value="PRE-ASSEMBLED ACETABULAR COMPONENTS WITH CERAMIC INSERT"/>
+      </concept>
+      <concept>
+        <code value="P0908030602"/>
+        <display value="PRE-ASSEMBLED ACETABULAR COMPONENTS WITH POLYETHYLENE INSERTS"/>
+      </concept>
+      <concept>
+        <code value="P0908030699"/>
+        <display value="PRE-ASSEMBLED ACETABULAR COMPONENTS - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P090804"/>
+        <display value="HIP PROSTHESES FEMORAL COMPONENTS"/>
+      </concept>
+      <concept>
+        <code value="P09080401"/>
+        <display value="PRIMARY IMPLANT FEMORAL STEMS"/>
+      </concept>
+      <concept>
+        <code value="P0908040101"/>
+        <display value="PRIMARY IMPLANT CEMENTED FEMORAL STEMS"/>
+      </concept>
+      <concept>
+        <code value="P090804010101"/>
+        <display value="CEMENTED FEMORAL STEMS FOR PRIMARY IMPLANT, WITH FIXED NECK, STRAIGHT"/>
+      </concept>
+      <concept>
+        <code value="P090804010102"/>
+        <display value="CEMENTED FEMORAL STEMS FOR PRIMARY IMPLANT, WITH FIXED NECK, ANATOMICAL"/>
+      </concept>
+      <concept>
+        <code value="P090804010105"/>
+        <display value="CEMENTED FEMORAL STEMS FOR PRIMARY IMPLANT, WITH FIXED NECK, FOR PRESERVATION"/>
+      </concept>
+      <concept>
+        <code value="P090804010106"/>
+        <display value="CEMENTED FEMORAL STEMS FOR PRIMARY IMPLANT, WITH MODULAR NECK, STRAIGHT"/>
+      </concept>
+      <concept>
+        <code value="P090804010107"/>
+        <display value="CEMENTED FEMORAL STEMS FOR PRIMARY IMPLANT, WITH MODULAR NECK, ANATOMICAL"/>
+      </concept>
+      <concept>
+        <code value="P0908040102"/>
+        <display value="PRIMARY IMPLANT UNCEMENTED FEMORAL STEMS"/>
+      </concept>
+      <concept>
+        <code value="P090804010201"/>
+        <display value="UNCEMENTED FEMORAL STEMS FOR PRIMARY IMPLANT, WITH FIXED NECK, STRAIGHT"/>
+      </concept>
+      <concept>
+        <code value="P090804010202"/>
+        <display value="UNCEMENTED FEMORAL STEMS FOR PRIMARY IMPLANT, WITH FIXED NECK, ANATOMICAL"/>
+      </concept>
+      <concept>
+        <code value="P090804010205"/>
+        <display value="UNCEMENTED FEMORAL STEMS FOR PRIMARY IMPLANT, WITH FIXED NECK, FOR PRESERVATION"/>
+      </concept>
+      <concept>
+        <code value="P090804010206"/>
+        <display value="UNCEMENTED FEMORAL STEMS FOR PRIMARY IMPLANT, WITH MODULAR NECK, STRAIGHT"/>
+      </concept>
+      <concept>
+        <code value="P090804010207"/>
+        <display value="UNCEMENTED FEMORAL STEMS FOR PRIMARY IMPLANT, WITH MODULAR NECK, ANATOMICAL"/>
+      </concept>
+      <concept>
+        <code value="P09080402"/>
+        <display value="HIP RESURFACING FEMORAL COMPONENTS"/>
+      </concept>
+      <concept>
+        <code value="P09080403"/>
+        <display value="REVISION SURGERY FEMORAL STEMS"/>
+      </concept>
+      <concept>
+        <code value="P0908040301"/>
+        <display value="REVISION SURGERY CEMENTED FEMORAL STEMS"/>
+      </concept>
+      <concept>
+        <code value="P090804030101"/>
+        <display value="REVISION CEMENTED FEMORAL STEMS, WITH FIXED NECK"/>
+      </concept>
+      <concept>
+        <code value="P090804030102"/>
+        <display value="REVISION CEMENTED FEMORAL STEMS, WITH MODULAR NECK"/>
+      </concept>
+      <concept>
+        <code value="P0908040302"/>
+        <display value="REVISION UNCEMENTED FEMORAL STEMS"/>
+      </concept>
+      <concept>
+        <code value="P090804030201"/>
+        <display value="REVISION UNCEMENTED FEMORAL STEMS, WITH FIXED NECK"/>
+      </concept>
+      <concept>
+        <code value="P090804030202"/>
+        <display value="REVISION UNCEMENTED FEMORAL STEMS, WITH MODULAR NECK"/>
+      </concept>
+      <concept>
+        <code value="P09080404"/>
+        <display value="LARGE RESECTIONS FEMORAL STEMS"/>
+      </concept>
+      <concept>
+        <code value="P09080405"/>
+        <display value="FEMORAL HEADS"/>
+      </concept>
+      <concept>
+        <code value="P0908040501"/>
+        <display value="FEMORAL HEADS FOR PRIMARY IMPLANT OF PARTIAL PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P090804050101"/>
+        <display value="CERAMIC FEMORAL HEADS, PARTIAL HIP REPLACEMENT"/>
+      </concept>
+      <concept>
+        <code value="P090804050102"/>
+        <display value="METAL FEMORAL HEADS, PARTIAL HIP REPLACEMENT"/>
+      </concept>
+      <concept>
+        <code value="P090804050199"/>
+        <display value="FEMORAL HEADS FOR PRIMARY IMPLANT OF PARTIAL PROSTHESES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P0908040502"/>
+        <display value="FEMORAL HEADS FOR PRIMARY IMPLANT OF TOTAL PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P090804050201"/>
+        <display value="CERAMIC FEMORAL HEADS, TOTAL HIP REPLACEMENT"/>
+      </concept>
+      <concept>
+        <code value="P090804050202"/>
+        <display value="METAL FEMORAL HEADS, TOTAL HIP REPLACEMENT"/>
+      </concept>
+      <concept>
+        <code value="P090804050299"/>
+        <display value="FEMORAL HEADS FOR PRIMARY IMPLANT OF TOTAL PROSTHESES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P0908040503"/>
+        <display value="HIP PROSTHESES, BI-ARTICULAR CUPS"/>
+      </concept>
+      <concept>
+        <code value="P0908040504"/>
+        <display value="REVISION FEMORAL HEADS"/>
+      </concept>
+      <concept>
+        <code value="P09080406"/>
+        <display value="ONE-PIECE FEMORAL PROSTHESES (STEM+HEAD)"/>
+      </concept>
+      <concept>
+        <code value="P09080407"/>
+        <display value="MODULAR NECKS"/>
+      </concept>
+      <concept>
+        <code value="P090805"/>
+        <display value="HIP PROSTHESES SPACERS"/>
+      </concept>
+      <concept>
+        <code value="P090880"/>
+        <display value="HIP PROSTHESES - ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="P09088001"/>
+        <display value="ACETABULAR RINGS"/>
+      </concept>
+      <concept>
+        <code value="P09088002"/>
+        <display value="ACETABULAR MESHES"/>
+      </concept>
+      <concept>
+        <code value="P09088003"/>
+        <display value="HIP PROSTHESES AUGMENTS"/>
+      </concept>
+      <concept>
+        <code value="P09088004"/>
+        <display value="HIP PROSTHESES ADAPTERS (INCLUDING CONES AND SLEEVES)"/>
+      </concept>
+      <concept>
+        <code value="P09088005"/>
+        <display value="HIP PROSTHESES CENTRALIZERS"/>
+      </concept>
+      <concept>
+        <code value="P09088006"/>
+        <display value="FEMORAL INTRAMEDULLARY CAPS"/>
+      </concept>
+      <concept>
+        <code value="P09088007"/>
+        <display value="HIP PROSTHESES FIXING SCREWS"/>
+      </concept>
+      <concept>
+        <code value="P09088099"/>
+        <display value="HIP PROSTHESES - OTHER ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="P090899"/>
+        <display value="HIP PROSTHESES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P0909"/>
+        <display value="KNEE PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P090903"/>
+        <display value="BICOMPARTMENTAL PRIMARY IMPLANT KNEE PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P09090301"/>
+        <display value="BICOMPARTMENTAL PRIMARY IMPLANT FEMORAL COMPONENTS"/>
+      </concept>
+      <concept>
+        <code value="P0909030101"/>
+        <display value="BICOMPARTMENTAL PRIMARY IMPLANT CEMENTED FEMORAL COMPONENTS"/>
+      </concept>
+      <concept>
+        <code value="P0909030102"/>
+        <display value="BICOMPARTMENTAL PRIMARY IMPLANT UNCEMENTED FEMORAL COMPONENTS"/>
+      </concept>
+      <concept>
+        <code value="P0909030103"/>
+        <display value="BICOMPARTMENTAL PRIMARY IMPLANT CEMENTABLE FEMORAL COMPONENTS"/>
+      </concept>
+      <concept>
+        <code value="P09090302"/>
+        <display value="BICOMPARTMENTAL PRIMARY IMPLANT TIBIAL COMPONENTS"/>
+      </concept>
+      <concept>
+        <code value="P0909030201"/>
+        <display value="BICOMPARTMENTAL PRIMARY IMPLANT TIBIAL PLATES"/>
+      </concept>
+      <concept>
+        <code value="P090903020101"/>
+        <display value="BICOMPARTMENTAL PRIMARY IMPLANT CEMENTED MOBILE BEARING TIBIAL PLATES"/>
+      </concept>
+      <concept>
+        <code value="P090903020102"/>
+        <display value="BICOMPARTMENTAL PRIMARY IMPLANT UNCEMENTED MOBILE BEARING TIBIAL PLATES"/>
+      </concept>
+      <concept>
+        <code value="P090903020103"/>
+        <display value="BICOMPARTMENTAL PRIMARY IMPLANT CEMENTABLE MOBILE BEARING TIBIAL PLATES"/>
+      </concept>
+      <concept>
+        <code value="P090903020104"/>
+        <display value="BICOMPARTMENTAL PRIMARY IMPLANT CEMENTED FIXED BEARING TIBIAL PLATES"/>
+      </concept>
+      <concept>
+        <code value="P090903020105"/>
+        <display value="BICOMPARTMENTAL PRIMARY IMPLANT UNCEMENTED FIXED BEARING TIBIAL PLATES"/>
+      </concept>
+      <concept>
+        <code value="P090903020106"/>
+        <display value="BICOMPARTMENTAL PRIMARY IMPLANT CEMENTABLE FIXED BEARING TIBIAL PLATES"/>
+      </concept>
+      <concept>
+        <code value="P0909030202"/>
+        <display value="BICOMPARTMENTAL PRIMARY IMPLANT TIBIAL INSERTS"/>
+      </concept>
+      <concept>
+        <code value="P090903020201"/>
+        <display value="BICOMPARTMENTAL PRIMARY IMPLANT MOBILE BEARING TIBIAL INSERTS"/>
+      </concept>
+      <concept>
+        <code value="P090903020202"/>
+        <display value="BICOMPARTMENTAL PRIMARY IMPLANT FIXED BEARING TIBIAL INSERTS"/>
+      </concept>
+      <concept>
+        <code value="P0909030203"/>
+        <display value="BICOMPARTMENTAL PRIMARY IMPLANT TIBIAL COMPONENTS, MONOBLOCK"/>
+      </concept>
+      <concept>
+        <code value="P090903020301"/>
+        <display value="BICOMPARTMENTAL PRIMARY IMPLANT TIBIAL COMPONENTS, MONOBLOCK MADE OF POLYETHYLENE"/>
+      </concept>
+      <concept>
+        <code value="P090903020399"/>
+        <display value="BICOMPARTMENTAL PRIMARY IMPLANT TIBIAL COMPONENTS, MONOBLOCK - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P090904"/>
+        <display value="UNICOMPARTMENTAL KNEE PROSTHESES (UNICONDYLAR)"/>
+      </concept>
+      <concept>
+        <code value="P09090401"/>
+        <display value="UNICOMPARTMENTAL KNEE PROSTHESES FEMORAL COMPONENTS (UNICONDYLAR)"/>
+      </concept>
+      <concept>
+        <code value="P0909040101"/>
+        <display value="UNICOMPARTMENTAL KNEE PROSTHESES FEMORAL COMPONENTS (UNICONDYLAR), CEMENTED"/>
+      </concept>
+      <concept>
+        <code value="P0909040102"/>
+        <display value="UNICOMPARTMENTAL KNEE PROSTHESES FEMORAL COMPONENTS (UNICONDYLAR), UNCEMENTED"/>
+      </concept>
+      <concept>
+        <code value="P09090402"/>
+        <display value="UNICOMPARTMENTAL KNEE PROSTHESES TIBIAL COMPONENTS"/>
+      </concept>
+      <concept>
+        <code value="P0909040201"/>
+        <display value="UNICOMPARTMENTAL KNEE PROSTHESES TIBIAL PLATES"/>
+      </concept>
+      <concept>
+        <code value="P090904020101"/>
+        <display value="MOBILE CEMENTED UNICOMPARTMENTAL PRIMARY IMPLANT TIBIAL PLATES"/>
+      </concept>
+      <concept>
+        <code value="P090904020102"/>
+        <display value="MOBILE UNCEMENTED UNICOMPARTMENTAL PRIMARY IMPLANT TIBIAL PLATES"/>
+      </concept>
+      <concept>
+        <code value="P090904020103"/>
+        <display value="FIXED CEMENTED UNICOMPARTMENTAL PRIMARY IMPLANT TIBIAL PLATES"/>
+      </concept>
+      <concept>
+        <code value="P090904020104"/>
+        <display value="FIXED UNCEMENTED UNICOMPARTMENTAL PRIMARY IMPLANT TIBIAL PLATES"/>
+      </concept>
+      <concept>
+        <code value="P0909040202"/>
+        <display value="UNICOMPARTMENTAL KNEE REPLACEMENT TIBIAL INSERTS"/>
+      </concept>
+      <concept>
+        <code value="P090904020201"/>
+        <display value="MOBILE UNICOMPARTMENTAL KNEE PROSTHESES TIBIAL INSERTS"/>
+      </concept>
+      <concept>
+        <code value="P090904020202"/>
+        <display value="UNICOMPARTMENTAL KNEE PROSTHESES TIBIAL INSERTS, FIXED"/>
+      </concept>
+      <concept>
+        <code value="P0909040203"/>
+        <display value="PRE-ASSEMBLED UNICOMPARTMENTAL KNEE PROSTHESES TIBIAL COMPONENTS (INSERT + TIBIAL PLATE)"/>
+      </concept>
+      <concept>
+        <code value="P090904020301"/>
+        <display value="KNEE PROSTHESES TIBIAL COMPONENTS, PREASSEMBLED, CEMENTED"/>
+      </concept>
+      <concept>
+        <code value="P090904020302"/>
+        <display value="UNICOMPARTMENTAL KNEE PROSTHESES TIBIAL COMPONENTS, PREASSEMBLED, UNCEMENTED"/>
+      </concept>
+      <concept>
+        <code value="P0909040204"/>
+        <display value="UNICOMPARTMENTAL KNEE PROSTHESES TIBIAL COMPONENTS, MONOBLOCK"/>
+      </concept>
+      <concept>
+        <code value="P090904020401"/>
+        <display value="UNICOMPARTMENTAL KNEE PROSTHESES TIBIAL COMPONENTS, MONOBLOCK, MADE OF POLYETHYLENE"/>
+      </concept>
+      <concept>
+        <code value="P090904020499"/>
+        <display value="UNICOMPARTMENTAL KNEE PROSTHESES TIBIAL COMPONENTS, MONOBLOCK - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P090905"/>
+        <display value="REVISION KNEE PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P09090501"/>
+        <display value="REVISION KNEE PROSTHESES FEMORAL COMPONENTS"/>
+      </concept>
+      <concept>
+        <code value="P09090502"/>
+        <display value="REVISION KNEE PROSTHESES TIBIAL COMPONENTS"/>
+      </concept>
+      <concept>
+        <code value="P0909050201"/>
+        <display value="REVISION KNEE PROSTHESES TIBIAL PLATES"/>
+      </concept>
+      <concept>
+        <code value="P090905020101"/>
+        <display value="REVISION KNEE PROSTHESES MOBILE BEARING TIBIAL PLATES"/>
+      </concept>
+      <concept>
+        <code value="P090905020102"/>
+        <display value="REVISION KNEE PROSTHESES FIXED BEARING TIBIAL PLATES"/>
+      </concept>
+      <concept>
+        <code value="P0909050202"/>
+        <display value="REVISION KNEE PROSTHESES TIBIAL INSERTS"/>
+      </concept>
+      <concept>
+        <code value="P090905020201"/>
+        <display value="REVISION KNEE PROSTHESES MOBILE BEARING TIBIAL INSERTS"/>
+      </concept>
+      <concept>
+        <code value="P090905020202"/>
+        <display value="REVISION KNEE PROSTHESES FIXED BEARING TIBIAL INSERTS"/>
+      </concept>
+      <concept>
+        <code value="P090906"/>
+        <display value="KNEE PROSTHESES FOR LARGE RESECTIONS"/>
+      </concept>
+      <concept>
+        <code value="P090907"/>
+        <display value="PATELLO-FEMORAL KNEE PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P09090701"/>
+        <display value="FEMORAL TROCHLEA RESURFACING COMPONENTS"/>
+      </concept>
+      <concept>
+        <code value="P09090702"/>
+        <display value="PATELLAR COMPONENTS"/>
+      </concept>
+      <concept>
+        <code value="P0909070201"/>
+        <display value="PATELLAR COMPONENTS, MONOBLOCK"/>
+      </concept>
+      <concept>
+        <code value="P0909070202"/>
+        <display value="PATELLAR COMPONENTS, MODULAR"/>
+      </concept>
+      <concept>
+        <code value="P090908"/>
+        <display value="KNEE PROSTHESES SPACERS"/>
+      </concept>
+      <concept>
+        <code value="P090980"/>
+        <display value="KNEE PROSTHESES - ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="P09098001"/>
+        <display value="KNEE PROSTHESES AUGMENTS"/>
+      </concept>
+      <concept>
+        <code value="P09098002"/>
+        <display value="KNEE PROSTHESES ADAPTERS (INCLUDING CONES AND SLEEVES)"/>
+      </concept>
+      <concept>
+        <code value="P09098003"/>
+        <display value="KNEE PROSTHESES OBTURATORS AND PLUGS"/>
+      </concept>
+      <concept>
+        <code value="P09098004"/>
+        <display value="KNEE PROSTHESES CENTRALISERS"/>
+      </concept>
+      <concept>
+        <code value="P09098006"/>
+        <display value="KNEE PROSTHESES STEMS"/>
+      </concept>
+      <concept>
+        <code value="P0909800601"/>
+        <display value="KNEE PROSTHESES FEMORAL STEMS"/>
+      </concept>
+      <concept>
+        <code value="P0909800602"/>
+        <display value="KNEE PROSTHESES TIBIAL STEMS"/>
+      </concept>
+      <concept>
+        <code value="P09098099"/>
+        <display value="KNEE PROSTHESES - ACCESSORIES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P090999"/>
+        <display value="KNEE PROSTHESES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P0910"/>
+        <display value="LIGAMENT PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P0912"/>
+        <display value="OSTEOSYNTHESIS DEVICES, DEVICES FOR TENDON AND LIGAMENT SYNTHESIS"/>
+      </concept>
+      <concept>
+        <code value="P091201"/>
+        <display value="OSTEOSYNTHESIS STAPLES AND ANCHORS"/>
+      </concept>
+      <concept>
+        <code value="P09120101"/>
+        <display value="OSTEOSYNTHESIS STAPLES"/>
+      </concept>
+      <concept>
+        <code value="P09120102"/>
+        <display value="ANCHORS, TENDON AND LIGAMENT SYNTHESIS"/>
+      </concept>
+      <concept>
+        <code value="P091202"/>
+        <display value="BONE FIXATION NAILS"/>
+      </concept>
+      <concept>
+        <code value="P09120201"/>
+        <display value="INTRAMEDULLARY NAILS"/>
+      </concept>
+      <concept>
+        <code value="P09120202"/>
+        <display value="INTRAMEDULLARY NAILS IN COMPLEX SYSTEMS"/>
+      </concept>
+      <concept>
+        <code value="P09120299"/>
+        <display value="OSTEOSYNTHESIS NAILS - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P091203"/>
+        <display value="BONE FIXATION WIRES"/>
+      </concept>
+      <concept>
+        <code value="P09120301"/>
+        <display value="KIRSCHNER BONE WIRES"/>
+      </concept>
+      <concept>
+        <code value="P09120302"/>
+        <display value="CERCLAGE DEVICES, WIRES AND BINDERS"/>
+      </concept>
+      <concept>
+        <code value="P09120399"/>
+        <display value="BONE FIXATION WIRES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P091204"/>
+        <display value="EXTERNAL BONE FIXATION SYSTEMS"/>
+      </concept>
+      <concept>
+        <code value="P09120401"/>
+        <display value="BONE FIXATION SYSTEMS"/>
+      </concept>
+      <concept>
+        <code value="P0912040101"/>
+        <display value="RADIAL BONE FIXATION SYSTEMS"/>
+      </concept>
+      <concept>
+        <code value="P0912040102"/>
+        <display value="AXIAL BONE FIXATION SYSTEMS"/>
+      </concept>
+      <concept>
+        <code value="P09120402"/>
+        <display value="SCREWS"/>
+      </concept>
+      <concept>
+        <code value="P09120403"/>
+        <display value="OSTEOSYNTHESIS DISTRACTORS"/>
+      </concept>
+      <concept>
+        <code value="P09120499"/>
+        <display value="EXTERNAL BONE FIXATION SYSTEMS - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P091205"/>
+        <display value="BONE FIXATION PLATES"/>
+      </concept>
+      <concept>
+        <code value="P09120501"/>
+        <display value="OSTEOSYNTHESIS COMPRESSION PLATES"/>
+      </concept>
+      <concept>
+        <code value="P09120502"/>
+        <display value="OSTEOSYNTHESIS NEUTRALISATION AND SUPPORT PLATES"/>
+      </concept>
+      <concept>
+        <code value="P09120503"/>
+        <display value="OSTEOSYNTHESIS SCREW-PLATE SYSTEMS"/>
+      </concept>
+      <concept>
+        <code value="P09120504"/>
+        <display value="OSTEOSYNTHESIS BLADE-PLATE SYSTEMS"/>
+      </concept>
+      <concept>
+        <code value="P09120599"/>
+        <display value="BONE FIXATION PLATES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P091206"/>
+        <display value="BONE FIXATION SCREWS, TENDON AND LIGAMENT SYNTHESIS SCREWS"/>
+      </concept>
+      <concept>
+        <code value="P09120601"/>
+        <display value="CORTICAL SCREWS"/>
+      </concept>
+      <concept>
+        <code value="P09120602"/>
+        <display value="CANCELLOUS SCREWS"/>
+      </concept>
+      <concept>
+        <code value="P09120603"/>
+        <display value="CANNULATED SCREWS"/>
+      </concept>
+      <concept>
+        <code value="P09120604"/>
+        <display value="OSTEOSYNTHESIS NAIL-SCREW SYSTEMS"/>
+      </concept>
+      <concept>
+        <code value="P09120605"/>
+        <display value="INTERFERENCE SCREWS"/>
+      </concept>
+      <concept>
+        <code value="P09120606"/>
+        <display value="OSTEOSYNTHESIS DEVICES, BIODEGRADABLE SCREWS AND BARS"/>
+      </concept>
+      <concept>
+        <code value="P09120699"/>
+        <display value="BONE FIXATION SCREWS, TENDON AND LIGAMENT SYNTHESIS SCREWS - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P091280"/>
+        <display value="OSTEOSYNTHESIS DEVICES, DEVICES FOR TENDON AND LIGAMENT SYNTHESIS - ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="P091299"/>
+        <display value="OSTEOSYNTHESIS DEVICES, DEVICES FOR TENDON AND LIGAMENT SYNTHESIS - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P0913"/>
+        <display value="ORTHOPAEDIC IMPLANT INSTRUMENTS, SINGLE-USE"/>
+      </concept>
+      <concept>
+        <code value="P091301"/>
+        <display value="ORTHOPAEDIC IMPLANT REAMERS, SINGLE-USE"/>
+      </concept>
+      <concept>
+        <code value="P091302"/>
+        <display value="ORTHOPAEDIC IMPLANT BLADES, SINGLE-USE"/>
+      </concept>
+      <concept>
+        <code value="P091303"/>
+        <display value="ORTHOPAEDIC IMPLANT DRILL BITS, SINGLE-USE"/>
+      </concept>
+      <concept>
+        <code value="P091304"/>
+        <display value="CRANIAL PERFORATORS, SINGLE-USE"/>
+      </concept>
+      <concept>
+        <code value="P091305"/>
+        <display value="BONE SAWS, SINGLE-USE"/>
+      </concept>
+      <concept>
+        <code value="P091399"/>
+        <display value="ORTHOPAEDIC IMPLANT INSTRUMENTS, SINGLE-USE - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P0990"/>
+        <display value="ORTHOPAEDIC PROSTHESES - VARIOUS"/>
+      </concept>
+      <concept>
+        <code value="P099001"/>
+        <display value="ORTHOPAEDIC PROSTHESES CEMENTS AND ACCESSORIES FOR MIXING"/>
+      </concept>
+      <concept>
+        <code value="P099002"/>
+        <display value="ORTHOPAEDIC CEMENT PREPARATION AND APPLICATION DEVICES AND KITS"/>
+      </concept>
+      <concept>
+        <code value="P099003"/>
+        <display value="ORTHOPAEDIC PROSTHESES FIXING ELEMENTS - NOT OTHERWISE CLASSIFIED"/>
+      </concept>
+      <concept>
+        <code value="P0999"/>
+        <display value="ORTHOPAEDIC PROSTHESES, OSTEOSYNTHESIS DEVICES, DEVICES FOR TENDON AND LIGAMENT SYNTHESIS - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P10"/>
+        <display value="EXTRA-VASCULAR SUPPORT PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P1001"/>
+        <display value="LOWER LIMB EXTRAVENOUS VALVE SUPPORT PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="P1002"/>
+        <display value="CORONARY BYPASS EXTRAVENOUS SUPPORTS"/>
+      </concept>
+      <concept>
+        <code value="P1099"/>
+        <display value="EXTRAVASCULAR SUPPORT PROSTHESES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P90"/>
+        <display value="IMPLANTABLE PROSTHETIC AND OSTEOSYNTHESIS DEVICES - VARIOUS"/>
+      </concept>
+      <concept>
+        <code value="P9001"/>
+        <display value="TEMPORARY TISSUE EXPANDERS"/>
+      </concept>
+      <concept>
+        <code value="P900101"/>
+        <display value="CYLINDRICAL TISSUE EXPANDERS"/>
+      </concept>
+      <concept>
+        <code value="P900102"/>
+        <display value="ELLIPTICAL TISSUE EXPANDERS"/>
+      </concept>
+      <concept>
+        <code value="P900103"/>
+        <display value="BREAST TISSUE EXPANDERS"/>
+      </concept>
+      <concept>
+        <code value="P900104"/>
+        <display value="RECTANGULAR TISSUE EXPANDERS"/>
+      </concept>
+      <concept>
+        <code value="P900105"/>
+        <display value="ROUND TISSUE EXPANDERS"/>
+      </concept>
+      <concept>
+        <code value="P900106"/>
+        <display value="SEMILUNAR OR CRESCENT TISSUE EXPANDERS"/>
+      </concept>
+      <concept>
+        <code value="P900199"/>
+        <display value="TISSUE EXPANDERS - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P9002"/>
+        <display value="SURGICAL MESHES"/>
+      </concept>
+      <concept>
+        <code value="P900201"/>
+        <display value="POLYGLYCOLIC ACID AND ASSOCIATIONS MESHES"/>
+      </concept>
+      <concept>
+        <code value="P900202"/>
+        <display value="POLYPROPYLENE SURGICAL MESHES"/>
+      </concept>
+      <concept>
+        <code value="P900203"/>
+        <display value="PTFE SURGICAL MESHES"/>
+      </concept>
+      <concept>
+        <code value="P900204"/>
+        <display value="SURGICAL MESHES, MORE THAN ONE COMPONENT"/>
+      </concept>
+      <concept>
+        <code value="P900205"/>
+        <display value="POLYESTER SURGICAL MESHES"/>
+      </concept>
+      <concept>
+        <code value="P900206"/>
+        <display value="METALLIC SURGICAL MESHES"/>
+      </concept>
+      <concept>
+        <code value="P900299"/>
+        <display value="SURGICAL MESHES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P9003"/>
+        <display value="TISSUE PATCHES"/>
+      </concept>
+      <concept>
+        <code value="P900301"/>
+        <display value="PTFE TISSUE PATCHES"/>
+      </concept>
+      <concept>
+        <code value="P900302"/>
+        <display value="POLYESTER TISSUE PATCHES"/>
+      </concept>
+      <concept>
+        <code value="P900399"/>
+        <display value="TISSUE PATCHES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="P9004"/>
+        <display value="STRUCTURES FILLING, REPLACEMENT AND RECONSTRUCTION DEVICES"/>
+      </concept>
+      <concept>
+        <code value="P900401"/>
+        <display value="BONE AND TENDON REPLACEMENT DEVICES"/>
+      </concept>
+      <concept>
+        <code value="P900402"/>
+        <display value="RESORBABLE FILLING AND RECONSTRUCTION DEVICES"/>
+      </concept>
+      <concept>
+        <code value="P900403"/>
+        <display value="NON-RESORBABLE FILLING AND RECONSTRUCTION DEVICES"/>
+      </concept>
+      <concept>
+        <code value="P900404"/>
+        <display value="AUTOLOGOUS GRAFT SUPPORTS"/>
+      </concept>
+      <concept>
+        <code value="P9099"/>
+        <display value="IMPLANTABLE PROSTHETIC DEVICES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="Q010205"/>
+        <display value="PRE-FORMED RESINS AND DENTAL CROWNS"/>
+      </concept>
+      <concept>
+        <code value="Q01020501"/>
+        <display value="DENTISTRY RESINS"/>
+      </concept>
+      <concept>
+        <code value="Q0102050101"/>
+        <display value="TEMPORARY TEETH RESINS"/>
+      </concept>
+      <concept>
+        <code value="Q0102050102"/>
+        <display value="DENTAL REBASING RESINS"/>
+      </concept>
+      <concept>
+        <code value="Q0102050199"/>
+        <display value="DENTISTRY RESINS - OTHER"/>
+      </concept>
+      <concept>
+        <code value="Q01020502"/>
+        <display value="PRE-FORMED DENTAL CROWNS"/>
+      </concept>
+      <concept>
+        <code value="Q010206"/>
+        <display value="DENTAL PROSTHESES (FOR DENTAL IMPLANTS SEE P010201)"/>
+      </concept>
+      <concept>
+        <code value="Q01020601"/>
+        <display value="MOBILE DENTAL PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="Q01020602"/>
+        <display value="COMBINED DENTAL PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="Q01020603"/>
+        <display value="SKELETAL DENTAL PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="Q01020604"/>
+        <display value="ORTHODONTIC DENTAL PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="Q01020605"/>
+        <display value="TEMPORARY DENTAL PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="Q0104"/>
+        <display value="ORTHODONTIC DEVICES"/>
+      </concept>
+      <concept>
+        <code value="Q010401"/>
+        <display value="ORTHODONTIC FACE BOWS"/>
+      </concept>
+      <concept>
+        <code value="Q010402"/>
+        <display value="ORTHODONTIC BANDS"/>
+      </concept>
+      <concept>
+        <code value="Q010403"/>
+        <display value="ORTHODONTIC BRACKETS AND BUTTONS"/>
+      </concept>
+      <concept>
+        <code value="Q010404"/>
+        <display value="ORTHODONTIC ELASTICS, CHAINS AND SPRINGS"/>
+      </concept>
+      <concept>
+        <code value="Q010405"/>
+        <display value="ORTHODONTIC WIRES"/>
+      </concept>
+      <concept>
+        <code value="Q010406"/>
+        <display value="ORTHODONTIC LIGATURES"/>
+      </concept>
+      <concept>
+        <code value="Q010407"/>
+        <display value="ORTHODONTIC CEMENTS"/>
+      </concept>
+      <concept>
+        <code value="Q010499"/>
+        <display value="ORTHODONTIC DEVICES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="Q0209"/>
+        <display value="STRABISMUS DEVICES"/>
+      </concept>
+      <concept>
+        <code value="Q0210"/>
+        <display value="CORRECTIVE OPTICAL DEVICES"/>
+      </concept>
+      <concept>
+        <code value="Q021001"/>
+        <display value="OPHTHALMIC LENSES"/>
+      </concept>
+      <concept>
+        <code value="Q02100101"/>
+        <display value="ORGANIC OPHTHALMIC LENSES (PLASTIC MATERIALS)"/>
+      </concept>
+      <concept>
+        <code value="Q0210010101"/>
+        <display value="MONOFOCAL ORGANIC OPHTHALMIC LENSES"/>
+      </concept>
+      <concept>
+        <code value="Q0210010102"/>
+        <display value="MULTIFOCAL ORGANIC OPHTHALMIC LENSES (BIFOCAL, TRIFOCAL)"/>
+      </concept>
+      <concept>
+        <code value="Q0210010103"/>
+        <display value="PROGRESSIVE ORGANIC OPHTHALMIC LENSES"/>
+      </concept>
+      <concept>
+        <code value="Q0210010199"/>
+        <display value="ORGANIC OPHTHALMIC LENSES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="Q02100102"/>
+        <display value="MINERAL OPHTHALMIC LENSES (GLASS)"/>
+      </concept>
+      <concept>
+        <code value="Q0210010201"/>
+        <display value="MONOFOCAL MINERAL OPHTHALMIC LENSES"/>
+      </concept>
+      <concept>
+        <code value="Q0210010202"/>
+        <display value="MULTIFOCAL MINERAL OPHTHALMIC LENSES (BIFOCAL, TRIFOCAL)"/>
+      </concept>
+      <concept>
+        <code value="Q0210010203"/>
+        <display value="PROGRESSIVE MINERAL OPHTHALMIC LENSES"/>
+      </concept>
+      <concept>
+        <code value="Q0210010299"/>
+        <display value="MINERAL OPHTHALMIC LENSES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="Q021002"/>
+        <display value="SPECTACLE FRAMES WITHOUT LENSES"/>
+      </concept>
+      <concept>
+        <code value="Q02100201"/>
+        <display value="METAL SPECTACLE FRAMES WITHOUT LENSES"/>
+      </concept>
+      <concept>
+        <code value="Q02100202"/>
+        <display value="PLASTIC SPECTACLE FRAMES WITHOUT LENSES"/>
+      </concept>
+      <concept>
+        <code value="Q02100203"/>
+        <display value="METAL AND PLASTIC SPECTACLE FRAMES WITHOUT LENSES"/>
+      </concept>
+      <concept>
+        <code value="Q02100299"/>
+        <display value="SPECTACLE FRAMES WITHOUT LENSES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="Q021003"/>
+        <display value="READY TO WEAR SPECTACLES"/>
+      </concept>
+      <concept>
+        <code value="Q02100301"/>
+        <display value="READY TO WEAR SPECTACLES WITH ORGANIC LENSES"/>
+      </concept>
+      <concept>
+        <code value="Q0210030101"/>
+        <display value="READY TO WEAR METAL SPECTACLES WITH ORGANIC LENSES"/>
+      </concept>
+      <concept>
+        <code value="Q0210030102"/>
+        <display value="READY TO WEAR PLASTIC SPECTACLES WITH ORGANIC LENSES"/>
+      </concept>
+      <concept>
+        <code value="Q0210030103"/>
+        <display value="READY TO WEAR METAL AND PLASTIC SPECTACLES WITH ORGANIC LENSES"/>
+      </concept>
+      <concept>
+        <code value="Q0210030199"/>
+        <display value="READY TO WEAR SPECTACLES WITH ORGANIC LENSES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="Q02100302"/>
+        <display value="READY TO WEAR SPECTACLES WITH MINERAL LENSES"/>
+      </concept>
+      <concept>
+        <code value="Q0210030201"/>
+        <display value="READY TO WEAR METAL SPECTACLES WITH MINERAL LENSES"/>
+      </concept>
+      <concept>
+        <code value="Q0210030202"/>
+        <display value="READY TO WEAR PLASTIC SPECTACLES WITH MINERAL LENSES"/>
+      </concept>
+      <concept>
+        <code value="Q0210030203"/>
+        <display value="READY TO WEAR METAL AND PLASTIC SEPECTACLES WITH MINERAL LENSES"/>
+      </concept>
+      <concept>
+        <code value="Q0210030299"/>
+        <display value="READY TO WEAR SPECTACLES WITH MINERAL LENSES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="Q021004"/>
+        <display value="CONTACT LENSES"/>
+      </concept>
+      <concept>
+        <code value="Q02100401"/>
+        <display value="CONTACT LENSES - HYDROGEL"/>
+      </concept>
+      <concept>
+        <code value="Q0210040101"/>
+        <display value="CONTACT LENSES - HYDROGEL, SINGLE-USE"/>
+      </concept>
+      <concept>
+        <code value="Q021004010101"/>
+        <display value="CONTACT LENSES - HYDROGEL, DAILY SINGLE-USE"/>
+      </concept>
+      <concept>
+        <code value="Q021004010102"/>
+        <display value="CONTACT LENSES - HYDROGEL, EXTENDED SINGLE-USE"/>
+      </concept>
+      <concept>
+        <code value="Q0210040102"/>
+        <display value="CONTACT LENSES - HYDROGEL, REUSABLE"/>
+      </concept>
+      <concept>
+        <code value="Q02100402"/>
+        <display value="CONTACT LENSES - NON HYDROGEL"/>
+      </concept>
+      <concept>
+        <code value="Q02100499"/>
+        <display value="CONTACT LENSES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="Q021099"/>
+        <display value="CORRECTIVE OPTICAL DEVICES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="Q03040102"/>
+        <display value="ENDOLYMPHATIC SHUNTS"/>
+      </concept>
+      <concept>
+        <code value="U07"/>
+        <display value="DEVICES FOR THE TREATMENT OF INCONTINENCE"/>
+      </concept>
+      <concept>
+        <code value="U0701"/>
+        <display value="INTERNAL SYSTEMS FOR THE TREATMENT OF INCONTINENCE"/>
+      </concept>
+      <concept>
+        <code value="U070101"/>
+        <display value="SLING SYSTEMS FOR THE TREATMENT OF INCONTINENCE"/>
+      </concept>
+      <concept>
+        <code value="U070199"/>
+        <display value="INTERNAL SYSTEMS FOR THE TREATMENT OF INCONTINENCE - OTHER"/>
+      </concept>
+      <concept>
+        <code value="U0702"/>
+        <display value="EXTERNAL DEVICES FOR THE TREATMENT OF INCONTINENCE"/>
+      </concept>
+      <concept>
+        <code value="U070201"/>
+        <display value="SHEATH CATHETER FOR THE TREATMENT OF INCONTINENCE"/>
+      </concept>
+      <concept>
+        <code value="U070299"/>
+        <display value="EXTERNAL DEVICES FOR THE TREATMENT OF INCONTINENCE - OTHER"/>
+      </concept>
+      <concept>
+        <code value="U0703"/>
+        <display value="PELVIC FLOOR REHABILITATION DEVICES"/>
+      </concept>
+      <concept>
+        <code value="U070301"/>
+        <display value="PELVIC FLOOR REHABILITATION DEVICES, BIOFEEDBACK, SINGLE-USE"/>
+      </concept>
+      <concept>
+        <code value="U070302"/>
+        <display value="PELVIC FLOOR REHABILITATION DEVICES, FUNCTIONAL ELECTROSTIMULATION, SINGLE-USE"/>
+      </concept>
+      <concept>
+        <code value="U070399"/>
+        <display value="PELVIC FLOOR REHABILITATION DEVICES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="U0780"/>
+        <display value="DEVICES FOR THE TREATMENT OF INCONTINENCE - ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="U0799"/>
+        <display value="DEVICES FOR THE TREATMENT OF INCONTINENCE - OTHER"/>
+      </concept>
+      <concept>
+        <code value="U089005"/>
+        <display value="PESSARIANS"/>
+      </concept>
+      <concept>
+        <code value="U1102"/>
+        <display value="DEVICES FOR FEMALE CONTRACEPTION"/>
+      </concept>
+      <concept>
+        <code value="U110201"/>
+        <display value="INTRAUTERINE COILS"/>
+      </concept>
+      <concept>
+        <code value="U110202"/>
+        <display value="VAGINAL DIAPHRAGMS"/>
+      </concept>
+      <concept>
+        <code value="U110203"/>
+        <display value="FEMALE CONDOMS"/>
+      </concept>
+      <concept>
+        <code value="U110299"/>
+        <display value="DEVICES FOR FEMALE CONTRACEPTION - OTHER"/>
+      </concept>
+      <concept>
+        <code value="Y06"/>
+        <display value="EXTERNAL PROSTHESES AND ORTHOSES"/>
+      </concept>
+      <concept>
+        <code value="Y0603"/>
+        <display value="SPINE ORTHOSES"/>
+      </concept>
+      <concept>
+        <code value="Y060303"/>
+        <display value="SACROILIAC SPINE ORTHOSES"/>
+      </concept>
+      <concept>
+        <code value="Y060306"/>
+        <display value="THORACOLUMBAR ORTHOSES"/>
+      </concept>
+      <concept>
+        <code value="Y060307"/>
+        <display value="THORACIC ORTHOSES"/>
+      </concept>
+      <concept>
+        <code value="Y060308"/>
+        <display value="LUMBOSACRAL SPINE ORTHOSES"/>
+      </concept>
+      <concept>
+        <code value="Y060309"/>
+        <display value="THORACOLUMBOSACRAL SPINE ORTHOSES"/>
+      </concept>
+      <concept>
+        <code value="Y060312"/>
+        <display value="CERVICAL SPINE ORTHOSES"/>
+      </concept>
+      <concept>
+        <code value="Y060315"/>
+        <display value="CERVICOTHORACIC SPINE ORTHOSES"/>
+      </concept>
+      <concept>
+        <code value="Y060318"/>
+        <display value="CERVICOTHORACOLUMBOSACRAL SPINE ORTHOSES"/>
+      </concept>
+      <concept>
+        <code value="Y060380"/>
+        <display value="SPINAL ORTHOSES - ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="Y060399"/>
+        <display value="SPINE ORTHOSES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="Y0604"/>
+        <display value="ABDOMINAL ORTHOSES"/>
+      </concept>
+      <concept>
+        <code value="Y060403"/>
+        <display value="ABDOMINAL MUSCLES SUPPORTS"/>
+      </concept>
+      <concept>
+        <code value="Y060406"/>
+        <display value="ABDOMINAL HERNIA SUPPORTS"/>
+      </concept>
+      <concept>
+        <code value="Y060499"/>
+        <display value="ABDOMINAL ORTHOSES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="Y0606"/>
+        <display value="UPPER EXTREMITY ORTHOSES (SPLINTS AND BRACES)"/>
+      </concept>
+      <concept>
+        <code value="Y060603"/>
+        <display value="FINGERS ORTHOSES"/>
+      </concept>
+      <concept>
+        <code value="Y060606"/>
+        <display value="HAND ORTHOSES"/>
+      </concept>
+      <concept>
+        <code value="Y060609"/>
+        <display value="WRIST (FOREARM) ORTHOSES"/>
+      </concept>
+      <concept>
+        <code value="Y060612"/>
+        <display value="WRIST-HAND ORTHOSES"/>
+      </concept>
+      <concept>
+        <code value="Y060613"/>
+        <display value="WRIST-HAND-FINGERS ORTHOSES"/>
+      </concept>
+      <concept>
+        <code value="Y060615"/>
+        <display value="ELBOW ORTHOSES"/>
+      </concept>
+      <concept>
+        <code value="Y060618"/>
+        <display value="ELBOW-WRIST ORTHOSES"/>
+      </concept>
+      <concept>
+        <code value="Y060619"/>
+        <display value="ELBOW-WRIST-HAND ORTHOSES"/>
+      </concept>
+      <concept>
+        <code value="Y060621"/>
+        <display value="SHOULDER ORTHOSES"/>
+      </concept>
+      <concept>
+        <code value="Y060624"/>
+        <display value="SHOULDER-ELBOW ORTHOSES"/>
+      </concept>
+      <concept>
+        <code value="Y060627"/>
+        <display value="SHOULDER-ELBOW - WRIST ORTHOSES"/>
+      </concept>
+      <concept>
+        <code value="Y060630"/>
+        <display value="SHOULDER-ELBOW-WRIST- HAND ORTHOSES"/>
+      </concept>
+      <concept>
+        <code value="Y060680"/>
+        <display value="UPPER LIMB ORTHOSES - ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="Y060699"/>
+        <display value="ORTHOSES, UPPER EXTREMITY - OTHER"/>
+      </concept>
+      <concept>
+        <code value="Y0612"/>
+        <display value="ORTHOSIS, LOWER EXTREMITY (INSOLES, LIFTS, SPLINTS, BRACES, CLAMPS)"/>
+      </concept>
+      <concept>
+        <code value="Y061203"/>
+        <display value="ORTHOSES, FOOT (INCLUDING INSOLES AND INSERTS)"/>
+      </concept>
+      <concept>
+        <code value="Y061206"/>
+        <display value="ANKLE-FOOT ORTHOSES"/>
+      </concept>
+      <concept>
+        <code value="Y06120601"/>
+        <display value="PASSIVE ANKLE-FOOT ORTHOSES"/>
+      </concept>
+      <concept>
+        <code value="Y06120602"/>
+        <display value="ENERGY RETURN ANKLE-FOOT ORTHOSES"/>
+      </concept>
+      <concept>
+        <code value="Y061209"/>
+        <display value="KNEE ORTHOSES"/>
+      </concept>
+      <concept>
+        <code value="Y061212"/>
+        <display value="KNEE-ANKLE-FOOT ORTHOSES"/>
+      </concept>
+      <concept>
+        <code value="Y06121201"/>
+        <display value="PASSIVE KNEE-ANKLE-FOOT ORTHOSES"/>
+      </concept>
+      <concept>
+        <code value="Y06121202"/>
+        <display value="ENERGY RETURN ORTHOSES FOR KNEE-ANKLE-FOOT"/>
+      </concept>
+      <concept>
+        <code value="Y06121203"/>
+        <display value="ACTIVE KNEE-ANKLE-FOOT ORTHOSES"/>
+      </concept>
+      <concept>
+        <code value="Y061215"/>
+        <display value="HIP ORTHOSES (INCLUDING ABDUCTION ORTHOSES)"/>
+      </concept>
+      <concept>
+        <code value="Y061216"/>
+        <display value="HIP-KNEE ORTHOSES"/>
+      </concept>
+      <concept>
+        <code value="Y061217"/>
+        <display value="THIGH ORTHOSES"/>
+      </concept>
+      <concept>
+        <code value="Y061218"/>
+        <display value="HIP-KNEE-ANKLE-FOOT ORTHOSES"/>
+      </concept>
+      <concept>
+        <code value="Y061219"/>
+        <display value="CHEST-LUMB-SACRAL-HIP-KNEE-ANKLE-FOOT ORTHOSES"/>
+      </concept>
+      <concept>
+        <code value="Y061280"/>
+        <display value="LOWER LIMB ORTHOSES - ACCESSORIES"/>
+      </concept>
+      <concept>
+        <code value="Y061299"/>
+        <display value="LOWER EXTREMITY ORTHOSES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="Y0618"/>
+        <display value="UPPER EXTREMITY PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="Y061803"/>
+        <display value="PARTIAL HAND PROSTHESES (INCLUDING FINGERS PROSTHESES)"/>
+      </concept>
+      <concept>
+        <code value="Y061806"/>
+        <display value="WRIST DISARTICULATION PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="Y061809"/>
+        <display value="TRANSRADIAL PROSTHESES (FOR AMPUTATION UNDER ELBOW)"/>
+      </concept>
+      <concept>
+        <code value="Y061812"/>
+        <display value="ELBOW DISARTICULATION PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="Y061815"/>
+        <display value="TRANSHUMERAL PROSTHESES (FOR AMPUTATION ABOVE ELBOW)"/>
+      </concept>
+      <concept>
+        <code value="Y061818"/>
+        <display value="SHOULDER DISARTICULATION PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="Y061899"/>
+        <display value="UPPER EXTREMITY PROSTHESES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="Y0624"/>
+        <display value="LOWER EXTREMITY PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="Y062403"/>
+        <display value="FOOT PARTIAL PROSTHESES (INCLUDING TOE PROSTHESES)"/>
+      </concept>
+      <concept>
+        <code value="Y062409"/>
+        <display value="TRANSTIBIAL PROSTHESES (FOR AMPUTATION UNDER KNEE)"/>
+      </concept>
+      <concept>
+        <code value="Y062412"/>
+        <display value="KNEE DISARTICULATION PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="Y062415"/>
+        <display value="TRANSFEMORAL PROSTHESES (FOR AMPUTATION ABOVE KNEE)"/>
+      </concept>
+      <concept>
+        <code value="Y062418"/>
+        <display value="HIP DISARTICULATION PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="Y062499"/>
+        <display value="LOWER EXTREMITY PROSTHESES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="Y0627"/>
+        <display value="COSMETIC AND NON-FUNCTIONAL LOWER LIMB PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="Y062703"/>
+        <display value="AESTHETIC FILLERS, CALF AND THIGH"/>
+      </concept>
+      <concept>
+        <code value="Y0630"/>
+        <display value="NON-EXTREMITY PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="Y063018"/>
+        <display value="EXTERNAL BREAST PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="Y063021"/>
+        <display value="OCULAR PROSTHESES"/>
+      </concept>
+      <concept>
+        <code value="Y063099"/>
+        <display value="NON-EXTREMITY PROSTHESES - OTHER"/>
+      </concept>
+      <concept>
+        <code value="Y0633"/>
+        <display value="ORTHOTIC SHOES"/>
+      </concept>
+      <concept>
+        <code value="Y063303"/>
+        <display value="READY-MADE ORTHOTIC SHOES"/>
+      </concept>
+      <concept>
+        <code value="Y0699"/>
+        <display value="EXTERNAL PROSTHESES AND ORTHOSES - OTHER"/>
+      </concept>
+    </include>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="102303004"/>
+        <display value="Vascular prosthesis"/>
+      </concept>
+      <concept>
+        <code value="102314001"/>
+        <display value="Embolization coil"/>
+      </concept>
+      <concept>
+        <code value="102319006"/>
+        <display value="Percutaneous transluminal angioplasty balloon"/>
+      </concept>
+      <concept>
+        <code value="118374007"/>
+        <display value="Silicone implant"/>
+      </concept>
+      <concept>
+        <code value="118375008"/>
+        <display value="Cardiac septum prosthesis"/>
+      </concept>
+      <concept>
+        <code value="118378005"/>
+        <display value="Pacemaker pulse generator"/>
+      </concept>
+      <concept>
+        <code value="118425005"/>
+        <display value="Ventricular reservoir"/>
+      </concept>
+      <concept>
+        <code value="14106009"/>
+        <display value="Cardiac pacemaker"/>
+      </concept>
+      <concept>
+        <code value="14789005"/>
+        <display value="Prosthetic implant"/>
+      </concept>
+      <concept>
+        <code value="15447007"/>
+        <display value="Joint prosthesis"/>
+      </concept>
+      <concept>
+        <code value="16349000"/>
+        <display value="Orthopedic device"/>
+      </concept>
+      <concept>
+        <code value="17107009"/>
+        <display value="Mitral valve prosthesis"/>
+      </concept>
+      <concept>
+        <code value="19923001"/>
+        <display value="Catheter"/>
+      </concept>
+      <concept>
+        <code value="2282003"/>
+        <display value="Breast prosthesis"/>
+      </concept>
+      <concept>
+        <code value="25510005"/>
+        <display value="Cardiac valve prosthesis"/>
+      </concept>
+      <concept>
+        <code value="257275005"/>
+        <display value="Spinal cage"/>
+      </concept>
+      <concept>
+        <code value="257281002"/>
+        <display value="Conduit"/>
+      </concept>
+      <concept>
+        <code value="257282009"/>
+        <display value="Non-valved conduit"/>
+      </concept>
+      <concept>
+        <code value="257283004"/>
+        <display value="Valved cardiac conduit"/>
+      </concept>
+      <concept>
+        <code value="257296003"/>
+        <display value="Fixator"/>
+      </concept>
+      <concept>
+        <code value="257327003"/>
+        <display value="DHS plate"/>
+      </concept>
+      <concept>
+        <code value="257343005"/>
+        <display value="Xenograft cardiac valve"/>
+      </concept>
+      <concept>
+        <code value="257351008"/>
+        <display value="Shunt"/>
+      </concept>
+      <concept>
+        <code value="257362008"/>
+        <display value="Plastic stent"/>
+      </concept>
+      <concept>
+        <code value="257363003"/>
+        <display value="Metal stent"/>
+      </concept>
+      <concept>
+        <code value="257366006"/>
+        <display value="JJ-stent"/>
+      </concept>
+      <concept>
+        <code value="257409000"/>
+        <display value="Vena cava filter"/>
+      </concept>
+      <concept>
+        <code value="258593008"/>
+        <display value="Ventricular shunt"/>
+      </concept>
+      <concept>
+        <code value="25937001"/>
+        <display value="Neurostimulator"/>
+      </concept>
+      <concept>
+        <code value="261161001"/>
+        <display value="Posterior chamber lens"/>
+      </concept>
+      <concept>
+        <code value="264824009"/>
+        <display value="Cardiac conduit"/>
+      </concept>
+      <concept>
+        <code value="268460000"/>
+        <display value="Intrauterine contraceptive device"/>
+      </concept>
+      <concept>
+        <code value="271003"/>
+        <display value="Bone plate"/>
+      </concept>
+      <concept>
+        <code value="272287005"/>
+        <display value="Inlay dental restoration"/>
+      </concept>
+      <concept>
+        <code value="272307009"/>
+        <display value="Endosseous oral implant"/>
+      </concept>
+      <concept>
+        <code value="27606000"/>
+        <display value="Dental prosthesis"/>
+      </concept>
+      <concept>
+        <code value="286558002"/>
+        <display value="Ureteric stent"/>
+      </concept>
+      <concept>
+        <code value="286576009"/>
+        <display value="Urethral stent"/>
+      </concept>
+      <concept>
+        <code value="303277008"/>
+        <display value="Fallopian tube prosthesis"/>
+      </concept>
+      <concept>
+        <code value="303490004"/>
+        <display value="Cardiovascular implant"/>
+      </concept>
+      <concept>
+        <code value="303497001"/>
+        <display value="Urogenital implant"/>
+      </concept>
+      <concept>
+        <code value="303499003"/>
+        <display value="Gastrointestinal implant"/>
+      </concept>
+      <concept>
+        <code value="303500007"/>
+        <display value="Auditory implant"/>
+      </concept>
+      <concept>
+        <code value="303503009"/>
+        <display value="Musculoskeletal implant"/>
+      </concept>
+      <concept>
+        <code value="303515008"/>
+        <display value="Orbital implant"/>
+      </concept>
+      <concept>
+        <code value="303533002"/>
+        <display value="Hip joint implant"/>
+      </concept>
+      <concept>
+        <code value="303572003"/>
+        <display value="Total elbow joint replacement prosthesis"/>
+      </concept>
+      <concept>
+        <code value="303608005"/>
+        <display value="Ophthalmological implant"/>
+      </concept>
+      <concept>
+        <code value="303610007"/>
+        <display value="Musculoskeletal prosthesis"/>
+      </concept>
+      <concept>
+        <code value="303617005"/>
+        <display value="Vascular implant"/>
+      </concept>
+      <concept>
+        <code value="303618000"/>
+        <display value="Nervous system implant"/>
+      </concept>
+      <concept>
+        <code value="303619008"/>
+        <display value="Cardiac implant"/>
+      </concept>
+      <concept>
+        <code value="303726000"/>
+        <display value="Shoulder joint prosthesis"/>
+      </concept>
+      <concept>
+        <code value="303947005"/>
+        <display value="Rod fixation system"/>
+      </concept>
+      <concept>
+        <code value="304070008"/>
+        <display value="Body wall implant"/>
+      </concept>
+      <concept>
+        <code value="304075003"/>
+        <display value="Female genital implant"/>
+      </concept>
+      <concept>
+        <code value="304120007"/>
+        <display value="Total hip replacement prosthesis"/>
+      </concept>
+      <concept>
+        <code value="304121006"/>
+        <display value="Femoral head prosthesis"/>
+      </concept>
+      <concept>
+        <code value="304124003"/>
+        <display value="Shoulder joint implant"/>
+      </concept>
+      <concept>
+        <code value="304125002"/>
+        <display value="Total shoulder replacement prosthesis"/>
+      </concept>
+      <concept>
+        <code value="304185004"/>
+        <display value="Foot joint implant"/>
+      </concept>
+      <concept>
+        <code value="304186003"/>
+        <display value="Hand joint implant"/>
+      </concept>
+      <concept>
+        <code value="31031000"/>
+        <display value="Orthopedic internal fixation system"/>
+      </concept>
+      <concept>
+        <code value="313062001"/>
+        <display value="Total knee joint prosthesis"/>
+      </concept>
+      <concept>
+        <code value="313236002"/>
+        <display value="Intraocular lens implant"/>
+      </concept>
+      <concept>
+        <code value="314521005"/>
+        <display value="Upper limb joint prosthesis"/>
+      </concept>
+      <concept>
+        <code value="314522003"/>
+        <display value="Lower limb joint prosthesis"/>
+      </concept>
+      <concept>
+        <code value="314523008"/>
+        <display value="Joint implant"/>
+      </concept>
+      <concept>
+        <code value="339648008"/>
+        <display value="Colostomy bag"/>
+      </concept>
+      <concept>
+        <code value="344088002"/>
+        <display value="Urostomy bag"/>
+      </concept>
+      <concept>
+        <code value="34759008"/>
+        <display value="Urethral catheter"/>
+      </concept>
+      <concept>
+        <code value="360041000"/>
+        <display value="Implanted drug delivery system"/>
+      </concept>
+      <concept>
+        <code value="360044008"/>
+        <display value="Intraluminal vascular device"/>
+      </concept>
+      <concept>
+        <code value="360046005"/>
+        <display value="Arterial stent"/>
+      </concept>
+      <concept>
+        <code value="360058005"/>
+        <display value="Intraventricular pump"/>
+      </concept>
+      <concept>
+        <code value="360063009"/>
+        <display value="Prosthetic cardiac annuloplasty ring"/>
+      </concept>
+      <concept>
+        <code value="360070009"/>
+        <display value="Laryngeal implant"/>
+      </concept>
+      <concept>
+        <code value="360100007"/>
+        <display value="Tracheal stent"/>
+      </concept>
+      <concept>
+        <code value="360103009"/>
+        <display value="Intracochlear prosthesis"/>
+      </concept>
+      <concept>
+        <code value="360104003"/>
+        <display value="Extracochlear prosthesis"/>
+      </concept>
+      <concept>
+        <code value="360123005"/>
+        <display value="Biliary stent"/>
+      </concept>
+      <concept>
+        <code value="360129009"/>
+        <display value="Cardiac pacemaker lead"/>
+      </concept>
+      <concept>
+        <code value="360145006"/>
+        <display value="Bone prosthesis"/>
+      </concept>
+      <concept>
+        <code value="360329004"/>
+        <display value="Dacron graft"/>
+      </concept>
+      <concept>
+        <code value="361140007"/>
+        <display value="Cardiac assist implant"/>
+      </concept>
+      <concept>
+        <code value="386014009"/>
+        <display value="Surgical staple"/>
+      </concept>
+      <concept>
+        <code value="386124003"/>
+        <display value="Transseptal catheter"/>
+      </concept>
+      <concept>
+        <code value="398013009"/>
+        <display value="Implantable venous access port"/>
+      </concept>
+      <concept>
+        <code value="40388003"/>
+        <display value="Implant"/>
+      </concept>
+      <concept>
+        <code value="407744008"/>
+        <display value="Stoma appliance"/>
+      </concept>
+      <concept>
+        <code value="408099007"/>
+        <display value="Suture"/>
+      </concept>
+      <concept>
+        <code value="411114003"/>
+        <display value="Drug coated stent"/>
+      </concept>
+      <concept>
+        <code value="413766009"/>
+        <display value="Carotid stent"/>
+      </concept>
+      <concept>
+        <code value="414580007"/>
+        <display value="Laryngeal keel"/>
+      </concept>
+      <concept>
+        <code value="417136005"/>
+        <display value="Ileostomy bag"/>
+      </concept>
+      <concept>
+        <code value="421168009"/>
+        <display value="Eye sphere implant"/>
+      </concept>
+      <concept>
+        <code value="423449009"/>
+        <display value="Pulmonary valve prosthesis, device"/>
+      </concept>
+      <concept>
+        <code value="424921004"/>
+        <display value="Permanent cardiac pacemaker, device"/>
+      </concept>
+      <concept>
+        <code value="429798007"/>
+        <display value="Artificial vertebral disc"/>
+      </concept>
+      <concept>
+        <code value="43252007"/>
+        <display value="Cochlear prosthesis"/>
+      </concept>
+      <concept>
+        <code value="45633005"/>
+        <display value="Peritoneal dialyzer"/>
+      </concept>
+      <concept>
+        <code value="465380004"/>
+        <display value="Silicone gel-filled breast implant"/>
+      </concept>
+      <concept>
+        <code value="469997005"/>
+        <display value="Maxillofacial prosthesis"/>
+      </concept>
+      <concept>
+        <code value="52124006"/>
+        <display value="Central venous catheter"/>
+      </concept>
+      <concept>
+        <code value="53671008"/>
+        <display value="Gastric balloon"/>
+      </concept>
+      <concept>
+        <code value="53996008"/>
+        <display value="Penile prosthesis"/>
+      </concept>
+      <concept>
+        <code value="6012004"/>
+        <display value="Hearing aid"/>
+      </concept>
+      <concept>
+        <code value="63112008"/>
+        <display value="Bone wire"/>
+      </concept>
+      <concept>
+        <code value="63289001"/>
+        <display value="Surgical metal nail, device"/>
+      </concept>
+      <concept>
+        <code value="65818007"/>
+        <display value="Stent"/>
+      </concept>
+      <concept>
+        <code value="67270000"/>
+        <display value="Hip prosthesis"/>
+      </concept>
+      <concept>
+        <code value="68183006"/>
+        <display value="Bone screw"/>
+      </concept>
+      <concept>
+        <code value="702215009"/>
+        <display value="Intracardiac pacemaker"/>
+      </concept>
+      <concept>
+        <code value="703201004"/>
+        <display value="Tricuspid valve prosthesis"/>
+      </concept>
+      <concept>
+        <code value="705861008"/>
+        <display value="Implantable joint prosthesis"/>
+      </concept>
+      <concept>
+        <code value="705865004"/>
+        <display value="Implantable ankle prosthesis"/>
+      </concept>
+      <concept>
+        <code value="705904002"/>
+        <display value="Orthopedic fixation system"/>
+      </concept>
+      <concept>
+        <code value="705908004"/>
+        <display value="Orthopedic fixation plate"/>
+      </concept>
+      <concept>
+        <code value="705959003"/>
+        <display value="Embolization implant"/>
+      </concept>
+      <concept>
+        <code value="705991002"/>
+        <display value="Mechanical cardiac valve prosthesis"/>
+      </concept>
+      <concept>
+        <code value="714577002"/>
+        <display value="Graft, device"/>
+      </concept>
+      <concept>
+        <code value="72506001"/>
+        <display value="Implantable defibrillator"/>
+      </concept>
+      <concept>
+        <code value="74444006"/>
+        <display value="Limb prosthesis"/>
+      </concept>
+      <concept>
+        <code value="75780002"/>
+        <display value="Artificial kidney"/>
+      </concept>
+      <concept>
+        <code value="77444004"/>
+        <display value="Bone pin"/>
+      </concept>
+      <concept>
+        <code value="77777004"/>
+        <display value="Bone staple"/>
+      </concept>
+      <concept>
+        <code value="79593001"/>
+        <display value="Transvenous electrode"/>
+      </concept>
+      <concept>
+        <code value="84683006"/>
+        <display value="Aortic valve prosthesis"/>
+      </concept>
+      <concept>
+        <code value="860577005"/>
+        <display value="Aortic valve bioprosthesis"/>
+      </concept>
+      <concept>
+        <code value="860578000"/>
+        <display value="Mitral valve bioprosthesis"/>
+      </concept>
+      <concept>
+        <code value="860586000"/>
+        <display value="Pulmonary valve bioprosthesis"/>
+      </concept>
+      <concept>
+        <code value="90134004"/>
+        <display value="Metal periosteal implant"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

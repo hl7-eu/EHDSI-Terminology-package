@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="eHDSIBodySiteLaterality-8.1.0"/>
+  <url value="http://terminology.ehdsi.eu/ValueSet/eHDSIBodySiteLaterality"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.68"/>
+  </identifier>
+  <version value="0.2.0"/>
+  <name value="eHDSIBodySiteLaterality"/>
+  <title value="eHDSI Body Site Laterality"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-12-23T10:21:27+00:00"/>
+  <publisher value="HL7 Europe"/>
+  <contact>
+    <name value="HL7 Europe"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7europe.org"/>
+    </telecom>
+  </contact>
+  <description value="This Value Set is used for the body structure site laterality qualifier. It indicates the body site laterality from which a laboratory specimen is collected."/>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="7771000"/>
+        <display value="Left"/>
+      </concept>
+      <concept>
+        <code value="24028007"/>
+        <display value="Right"/>
+      </concept>
+      <concept>
+        <code value="51440002"/>
+        <display value="Right and left"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

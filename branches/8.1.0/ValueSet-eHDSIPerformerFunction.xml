@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="eHDSIPerformerFunction"/>
+  <url value="http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIPerformerFunction"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.76"/>
+  </identifier>
+  <version value="0.2.0"/>
+  <name value="eHDSIPerformerFunction"/>
+  <title value="eHDSI Performer Function"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2025-02-08T05:43:06+00:00"/>
+  <publisher value="HL7 Europe"/>
+  <contact>
+    <name value="HL7 Europe"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7europe.org"/>
+    </telecom>
+  </contact>
+  <description value="Laboratory Performer Function"/>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"/>
+      <concept>
+        <code value="TRANS"/>
+        <display value="Transcriber"/>
+      </concept>
+      <concept>
+        <code value="PART"/>
+        <display value="Participation"/>
+      </concept>
+      <concept>
+        <code value="ATND"/>
+        <display value="attender"/>
+      </concept>
+      <concept>
+        <code value="CON"/>
+        <display value="consultant"/>
+      </concept>
+      <concept>
+        <code value="AUT"/>
+        <display value="author (originator)"/>
+      </concept>
+      <concept>
+        <code value="INF"/>
+        <display value="informant"/>
+      </concept>
+      <concept>
+        <code value="ENT"/>
+        <display value="data entry person"/>
+      </concept>
+      <concept>
+        <code value="WIT"/>
+        <display value="witness"/>
+      </concept>
+      <concept>
+        <code value="PPRF"/>
+        <display value="primary performer"/>
+      </concept>
+      <concept>
+        <code value="SPRF"/>
+        <display value="secondary performer"/>
+      </concept>
+      <concept>
+        <code value="RESP"/>
+        <display value="responsible party"/>
+      </concept>
+      <concept>
+        <code value="VRF"/>
+        <display value="verifier"/>
+      </concept>
+      <concept>
+        <code value="AUTHEN"/>
+        <display value="authenticator"/>
+      </concept>
+      <concept>
+        <code value="LA"/>
+        <display value="legal authenticator"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

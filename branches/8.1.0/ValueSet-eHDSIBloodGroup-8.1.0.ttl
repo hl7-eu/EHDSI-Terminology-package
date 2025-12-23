@@ -1,0 +1,85 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIBloodGroup-8.1.0> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "eHDSIBloodGroup-8.1.0"] ; # 
+  fhir:url [
+     fhir:v "http://terminology.ehdsi.eu/ValueSet/eHDSIBloodGroup"^^xsd:anyURI ;
+     fhir:l <http://terminology.ehdsi.eu/ValueSet/eHDSIBloodGroup>
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [
+       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
+       fhir:l <urn:ietf:rfc:3986>
+     ] ;
+     fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.20" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "8.1.0"] ; # 
+  fhir:name [ fhir:v "eHDSIBloodGroup"] ; # 
+  fhir:title [ fhir:v "eHDSI Blood Group"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-11-18T20:02:38+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 Europe"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 Europe" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://hl7europe.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "The Value Set is used to code the value of patient’s blood group + Rh"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+         fhir:l <http://snomed.info/sct>
+       ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "112144000" ] ;
+         fhir:display [ fhir:v "Blood group A" ]
+       ] [
+         fhir:code [ fhir:v "278152006" ] ;
+         fhir:display [ fhir:v "Blood group A Rh(D) negative" ]
+       ] [
+         fhir:code [ fhir:v "278149003" ] ;
+         fhir:display [ fhir:v "Blood group A Rh(D) positive" ]
+       ] [
+         fhir:code [ fhir:v "165743006" ] ;
+         fhir:display [ fhir:v "Blood group AB" ]
+       ] [
+         fhir:code [ fhir:v "278154007" ] ;
+         fhir:display [ fhir:v "Blood group AB Rh(D) negative" ]
+       ] [
+         fhir:code [ fhir:v "278151004" ] ;
+         fhir:display [ fhir:v "Blood group AB Rh(D) positive" ]
+       ] [
+         fhir:code [ fhir:v "112149005" ] ;
+         fhir:display [ fhir:v "Blood group B" ]
+       ] [
+         fhir:code [ fhir:v "278153001" ] ;
+         fhir:display [ fhir:v "Blood group B Rh(D) negative" ]
+       ] [
+         fhir:code [ fhir:v "278150003" ] ;
+         fhir:display [ fhir:v "Blood group B Rh(D) positive" ]
+       ] [
+         fhir:code [ fhir:v "58460004" ] ;
+         fhir:display [ fhir:v "Blood group O" ]
+       ] [
+         fhir:code [ fhir:v "278148006" ] ;
+         fhir:display [ fhir:v "Blood group O Rh(D) negative" ]
+       ] [
+         fhir:code [ fhir:v "278147001" ] ;
+         fhir:display [ fhir:v "Blood group O Rh(D) positive" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

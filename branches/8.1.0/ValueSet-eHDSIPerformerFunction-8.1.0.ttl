@@ -1,0 +1,91 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIPerformerFunction-8.1.0> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "eHDSIPerformerFunction-8.1.0"] ; # 
+  fhir:url [
+     fhir:v "http://terminology.ehdsi.eu/ValueSet/eHDSIPerformerFunction"^^xsd:anyURI ;
+     fhir:l <http://terminology.ehdsi.eu/ValueSet/eHDSIPerformerFunction>
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [
+       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
+       fhir:l <urn:ietf:rfc:3986>
+     ] ;
+     fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.76" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "8.1.0"] ; # 
+  fhir:name [ fhir:v "eHDSIPerformerFunction"] ; # 
+  fhir:title [ fhir:v "eHDSI Performer Function"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-11-18T20:02:38+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 Europe"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 Europe" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://hl7europe.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Laboratory Performer Function"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ParticipationType"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ParticipationType>
+       ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "TRANS" ] ;
+         fhir:display [ fhir:v "Transcriber" ]
+       ] [
+         fhir:code [ fhir:v "PART" ] ;
+         fhir:display [ fhir:v "Participation" ]
+       ] [
+         fhir:code [ fhir:v "ATND" ] ;
+         fhir:display [ fhir:v "attender" ]
+       ] [
+         fhir:code [ fhir:v "CON" ] ;
+         fhir:display [ fhir:v "consultant" ]
+       ] [
+         fhir:code [ fhir:v "AUT" ] ;
+         fhir:display [ fhir:v "author (originator)" ]
+       ] [
+         fhir:code [ fhir:v "INF" ] ;
+         fhir:display [ fhir:v "informant" ]
+       ] [
+         fhir:code [ fhir:v "ENT" ] ;
+         fhir:display [ fhir:v "data entry person" ]
+       ] [
+         fhir:code [ fhir:v "WIT" ] ;
+         fhir:display [ fhir:v "witness" ]
+       ] [
+         fhir:code [ fhir:v "PPRF" ] ;
+         fhir:display [ fhir:v "primary performer" ]
+       ] [
+         fhir:code [ fhir:v "SPRF" ] ;
+         fhir:display [ fhir:v "secondary performer" ]
+       ] [
+         fhir:code [ fhir:v "RESP" ] ;
+         fhir:display [ fhir:v "responsible party" ]
+       ] [
+         fhir:code [ fhir:v "VRF" ] ;
+         fhir:display [ fhir:v "verifier" ]
+       ] [
+         fhir:code [ fhir:v "AUTHEN" ] ;
+         fhir:display [ fhir:v "authenticator" ]
+       ] [
+         fhir:code [ fhir:v "LA" ] ;
+         fhir:display [ fhir:v "legal authenticator" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

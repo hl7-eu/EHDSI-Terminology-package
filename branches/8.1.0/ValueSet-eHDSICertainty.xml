@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="eHDSICertainty"/>
+  <url value="http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSICertainty"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.64"/>
+  </identifier>
+  <version value="0.2.0"/>
+  <name value="eHDSICertainty"/>
+  <title value="eHDSI Certainty"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2025-02-08T05:43:06+00:00"/>
+  <publisher value="HL7 Europe"/>
+  <contact>
+    <name value="HL7 Europe"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7europe.org"/>
+    </telecom>
+  </contact>
+  <description value="Value Set is used to support or decline the clinical status of the condition or diagnosis"/>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/condition-ver-status"/>
+      <concept>
+        <code value="unconfirmed"/>
+        <display value="Unconfirmed"/>
+      </concept>
+      <concept>
+        <code value="provisional"/>
+        <display value="Provisional"/>
+      </concept>
+      <concept>
+        <code value="differential"/>
+        <display value="Differential"/>
+      </concept>
+      <concept>
+        <code value="confirmed"/>
+        <display value="Confirmed"/>
+      </concept>
+      <concept>
+        <code value="refuted"/>
+        <display value="Refuted"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

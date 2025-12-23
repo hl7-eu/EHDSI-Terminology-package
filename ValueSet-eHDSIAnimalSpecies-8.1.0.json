@@ -1,0 +1,57 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "eHDSIAnimalSpecies-8.1.0",
+  "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIAnimalSpecies",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.72"
+  }],
+  "version" : "0.2.0",
+  "name" : "eHDSIAnimalSpecies",
+  "title" : "eHDSI Animal Species",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-12-23T10:21:27+00:00",
+  "publisher" : "HL7 Europe",
+  "contact" : [{
+    "name" : "HL7 Europe",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://hl7europe.org"
+    }]
+  }],
+  "description" : "The Value Set is used to code the animal species of specimen subject (animal of the patient)",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "125097000",
+        "display" : "Capra hircus"
+      },
+      {
+        "code" : "125099002",
+        "display" : "Ovis aries"
+      },
+      {
+        "code" : "34618005",
+        "display" : "Bos taurus"
+      },
+      {
+        "code" : "388445009",
+        "display" : "Equus"
+      },
+      {
+        "code" : "125076001",
+        "display" : "Domestic Guinea pig"
+      },
+      {
+        "code" : "448169003",
+        "display" : "Domestic cat"
+      },
+      {
+        "code" : "448771007",
+        "display" : "Domestic dog"
+      }]
+    }]
+  }
+}

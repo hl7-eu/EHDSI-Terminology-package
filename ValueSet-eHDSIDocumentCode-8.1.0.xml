@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="eHDSIDocumentCode-8.1.0"/>
+  <url value="http://terminology.ehdsi.eu/ValueSet/eHDSIDocumentCode"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.32"/>
+  </identifier>
+  <version value="0.2.0"/>
+  <name value="eHDSIDocumentCode"/>
+  <title value="eHDSI Document Code"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-12-23T10:21:27+00:00"/>
+  <publisher value="HL7 Europe"/>
+  <contact>
+    <name value="HL7 Europe"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7europe.org"/>
+    </telecom>
+  </contact>
+  <description value="Defines to which category the document belongs to : summary, prescription, or dispensation."/>
+  <compose>
+    <include>
+      <system value="http://loinc.org"/>
+      <concept>
+        <code value="34133-9"/>
+        <display value="Summary of episode note"/>
+      </concept>
+      <concept>
+        <code value="56445-0"/>
+        <display value="Medication summary Document"/>
+      </concept>
+      <concept>
+        <code value="57016-8"/>
+        <display value="Privacy policy acknowledgment Document"/>
+      </concept>
+      <concept>
+        <code value="57833-6"/>
+        <display value="Prescription for medication"/>
+      </concept>
+      <concept>
+        <code value="60591-5"/>
+        <display value="Patient summary Document"/>
+      </concept>
+      <concept>
+        <code value="60593-1"/>
+        <display value="Medication dispensed.extended Document"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

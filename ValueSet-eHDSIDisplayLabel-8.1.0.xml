@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="eHDSIDisplayLabel-8.1.0"/>
+  <url value="http://terminology.ehdsi.eu/ValueSet/eHDSIDisplayLabel"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.46"/>
+  </identifier>
+  <version value="0.2.0"/>
+  <name value="eHDSIDisplayLabel"/>
+  <title value="eHDSI Display Label"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-12-23T10:21:27+00:00"/>
+  <publisher value="HL7 Europe"/>
+  <contact>
+    <name value="HL7 Europe"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7europe.org"/>
+    </telecom>
+  </contact>
+  <description value="The Value Set is used to denominate all the labels and messages adopted for the eHDSI CDA display"/>
+  <compose>
+    <include>
+      <system value="urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.44.4"/>
+      <concept>
+        <code value="1"/>
+        <display value="Active Ingredient"/>
+      </concept>
+      <concept>
+        <code value="2"/>
+        <display value="Active Problem"/>
+      </concept>
+      <concept>
+        <code value="3"/>
+        <display value="Address"/>
+      </concept>
+      <concept>
+        <code value="4"/>
+        <display value="Advise to the dispenser"/>
+      </concept>
+      <concept>
+        <code value="5"/>
+        <display value="Agent"/>
+      </concept>
+      <concept>
+        <code value="6"/>
+        <display value="at"/>
+      </concept>
+      <concept>
+        <code value="7"/>
+        <display value="Author (HCP)"/>
+      </concept>
+      <concept>
+        <code value="8"/>
+        <display value="Authoring Device"/>
+      </concept>
+      <concept>
+        <code value="9"/>
+        <display value="Brand Name"/>
+      </concept>
+      <concept>
+        <code value="10"/>
+        <display value="Clinical Manifestation"/>
+      </concept>
+      <concept>
+        <code value="11"/>
+        <display value="Closed/Inactive Problem"/>
+      </concept>
+      <concept>
+        <code value="12"/>
+        <display value="Contact Information"/>
+      </concept>
+      <concept>
+        <code value="13"/>
+        <display value="Country"/>
+      </concept>
+      <concept>
+        <code value="16"/>
+        <display value="Custodian"/>
+      </concept>
+      <concept>
+        <code value="17"/>
+        <display value="Date"/>
+      </concept>
+      <concept>
+        <code value="18"/>
+        <display value="Date To"/>
+      </concept>
+      <concept>
+        <code value="19"/>
+        <display value="Date of Birth"/>
+      </concept>
+      <concept>
+        <code value="20"/>
+        <display value="Date of Prescription"/>
+      </concept>
+      <concept>
+        <code value="21"/>
+        <display value="Device/Implant"/>
+      </concept>
+      <concept>
+        <code value="22"/>
+        <display value="Dispense"/>
+      </concept>
+      <concept>
+        <code value="23"/>
+        <display value="Dispensed Package Size"/>
+      </concept>
+      <concept>
+        <code value="24"/>
+        <display value="Dispensed Product"/>
+      </concept>
+      <concept>
+        <code value="25"/>
+        <display value="Dose Form"/>
+      </concept>
+      <concept>
+        <code value="26"/>
+        <display value="End Date"/>
+      </concept>
+      <concept>
+        <code value="27"/>
+        <display value="Every"/>
+      </concept>
+      <concept>
+        <code value="28"/>
+        <display value="Facility ID"/>
+      </concept>
+      <concept>
+        <code value="29"/>
+        <display value="Facility Name"/>
+      </concept>
+      <concept>
+        <code value="30"/>
+        <display value="Family Name"/>
+      </concept>
+      <concept>
+        <code value="31"/>
+        <display value="for"/>
+      </concept>
+      <concept>
+        <code value="32"/>
+        <display value="Frequency of Intakes"/>
+      </concept>
+      <concept>
+        <code value="33"/>
+        <display value="Gender"/>
+      </concept>
+      <concept>
+        <code value="34"/>
+        <display value="Given Name"/>
+      </concept>
+      <concept>
+        <code value="35"/>
+        <display value="Guardian"/>
+      </concept>
+      <concept>
+        <code value="36"/>
+        <display value="Implant Date"/>
+      </concept>
+      <concept>
+        <code value="37"/>
+        <display value="Instructions to patient"/>
+      </concept>
+      <concept>
+        <code value="38"/>
+        <display value="Is substitution of brand name allowed?"/>
+      </concept>
+      <concept>
+        <code value="40"/>
+        <display value="Legal Authenticator"/>
+      </concept>
+      <concept>
+        <code value="41"/>
+        <display value="National Insurance Number"/>
+      </concept>
+      <concept>
+        <code value="42"/>
+        <display value="No"/>
+      </concept>
+      <concept>
+        <code value="43"/>
+        <display value="Number of Packages"/>
+      </concept>
+      <concept>
+        <code value="44"/>
+        <display value="Observation Type"/>
+      </concept>
+      <concept>
+        <code value="45"/>
+        <display value="Onset Date"/>
+      </concept>
+      <concept>
+        <code value="46"/>
+        <display value="Organisation Identifier"/>
+      </concept>
+      <concept>
+        <code value="47"/>
+        <display value="Organisation Name"/>
+      </concept>
+      <concept>
+        <code value="49"/>
+        <display value="Other Contacts"/>
+      </concept>
+      <concept>
+        <code value="50"/>
+        <display value="Package Size"/>
+      </concept>
+      <concept>
+        <code value="51"/>
+        <display value="Patient"/>
+      </concept>
+      <concept>
+        <code value="53"/>
+        <display value="per unit"/>
+      </concept>
+      <concept>
+        <code value="54"/>
+        <display value="Preferred HCP/Legal organization to contact"/>
+      </concept>
+      <concept>
+        <code value="55"/>
+        <display value="Prefix"/>
+      </concept>
+      <concept>
+        <code value="56"/>
+        <display value="Prescriber"/>
+      </concept>
+      <concept>
+        <code value="58"/>
+        <display value="Prescription ID"/>
+      </concept>
+      <concept>
+        <code value="62"/>
+        <display value="Procedure"/>
+      </concept>
+      <concept>
+        <code value="63"/>
+        <display value="Procedure Date"/>
+      </concept>
+      <concept>
+        <code value="64"/>
+        <display value="Profession"/>
+      </concept>
+      <concept>
+        <code value="65"/>
+        <display value="Reaction Type"/>
+      </concept>
+      <concept>
+        <code value="66"/>
+        <display value="Regional/National Health ID"/>
+      </concept>
+      <concept>
+        <code value="67"/>
+        <display value="Route of Administration"/>
+      </concept>
+      <concept>
+        <code value="68"/>
+        <display value="See details"/>
+      </concept>
+      <concept>
+        <code value="69"/>
+        <display value="Specialty"/>
+      </concept>
+      <concept>
+        <code value="70"/>
+        <display value="Strength"/>
+      </concept>
+      <concept>
+        <code value="71"/>
+        <display value="Substitute"/>
+      </concept>
+      <concept>
+        <code value="72"/>
+        <display value="The Active Problem section is missing !"/>
+      </concept>
+      <concept>
+        <code value="73"/>
+        <display value="The Allergies, Adverse Reactions, Alerts section is missing !"/>
+      </concept>
+      <concept>
+        <code value="74"/>
+        <display value="The Medical Devices and Implants section is missing !"/>
+      </concept>
+      <concept>
+        <code value="75"/>
+        <display value="The Medication Summary section is missing !"/>
+      </concept>
+      <concept>
+        <code value="76"/>
+        <display value="The History of Procedures section is missing !"/>
+      </concept>
+      <concept>
+        <code value="77"/>
+        <display value="unit(s)"/>
+      </concept>
+      <concept>
+        <code value="78"/>
+        <display value="Units per Intake"/>
+      </concept>
+      <concept>
+        <code value="79"/>
+        <display value="Vaccination"/>
+      </concept>
+      <concept>
+        <code value="80"/>
+        <display value="Vaccination Date"/>
+      </concept>
+      <concept>
+        <code value="81"/>
+        <display value="Yes"/>
+      </concept>
+      <concept>
+        <code value="84"/>
+        <display value="Observation Value"/>
+      </concept>
+      <concept>
+        <code value="85"/>
+        <display value="Date From"/>
+      </concept>
+      <concept>
+        <code value="108"/>
+        <display value="Original narrative"/>
+      </concept>
+      <concept>
+        <code value="109"/>
+        <display value="Translated coded"/>
+      </concept>
+      <concept>
+        <code value="110"/>
+        <display value="Clinical Sections"/>
+      </concept>
+      <concept>
+        <code value="112"/>
+        <display value="Code System"/>
+      </concept>
+      <concept>
+        <code value="113"/>
+        <display value="Code"/>
+      </concept>
+      <concept>
+        <code value="114"/>
+        <display value="Name"/>
+      </concept>
+      <concept>
+        <code value="115"/>
+        <display value="Dispensed Number of Packages"/>
+      </concept>
+      <concept>
+        <code value="116"/>
+        <display value="If substitution of brand name is marked as not allowed, pharmacists may still consider dispensing the national equivalent even though the brand name might be slightly different.&#xD;&#xA;This is a known situation: the same pharmaceutical company is marketing the same medicinal product in different countries with slightly different names due to marketing reasons.&#xD;&#xA;If the pharmacist is certain that this is the case, the systems allows the input of the new brand name."/>
+      </concept>
+      <concept>
+        <code value="117"/>
+        <display value="Original Document Language"/>
+      </concept>
+      <concept>
+        <code value="118"/>
+        <display value="Diagnostic Date"/>
+      </concept>
+      <concept>
+        <code value="119"/>
+        <display value="Blood Group"/>
+      </concept>
+      <concept>
+        <code value="122"/>
+        <display value="Administered"/>
+      </concept>
+      <concept>
+        <code value="123"/>
+        <display value="Severity"/>
+      </concept>
+      <concept>
+        <code value="124"/>
+        <display value="Marketing Authorization Holder"/>
+      </concept>
+      <concept>
+        <code value="125"/>
+        <display value="Primary Patient Identifier"/>
+      </concept>
+      <concept>
+        <code value="126"/>
+        <display value="Secondary Patient Identifier"/>
+      </concept>
+      <concept>
+        <code value="127"/>
+        <display value="Represented Organization"/>
+      </concept>
+      <concept>
+        <code value="128"/>
+        <display value="Medicinal Product"/>
+      </concept>
+      <concept>
+        <code value="129"/>
+        <display value="Prescription Details"/>
+      </concept>
+      <concept>
+        <code value="130"/>
+        <display value="Dispensation Details"/>
+      </concept>
+      <concept>
+        <code value="131"/>
+        <display value="Creation Date of the Document"/>
+      </concept>
+      <concept>
+        <code value="132"/>
+        <display value="Last Update of the Information"/>
+      </concept>
+      <concept>
+        <code value="133"/>
+        <display value="There is no information available regarding the subject's allergy conditions"/>
+      </concept>
+      <concept>
+        <code value="134"/>
+        <display value="The subject has no known allergy conditions"/>
+      </concept>
+      <concept>
+        <code value="138"/>
+        <display value="There is no information available regarding implanted or external devices for the subject"/>
+      </concept>
+      <concept>
+        <code value="139"/>
+        <display value="There are no devices known to be implanted in or used by the subject that have to be reported in this record. This can mean either that there are none known, or that those known are not relevant for the purpose of this record"/>
+      </concept>
+      <concept>
+        <code value="140"/>
+        <display value="There is no information available about the subject's medication use or administration"/>
+      </concept>
+      <concept>
+        <code value="141"/>
+        <display value="There are no medications for the subject that have to be reported in this record. This can mean either that there are none known, or that those known are not relevant for the purpose of this record"/>
+      </concept>
+      <concept>
+        <code value="142"/>
+        <display value="There is no information available about the subject's current health problems or disability"/>
+      </concept>
+      <concept>
+        <code value="143"/>
+        <display value="The subject is not known to have any health problems or disabilities that have to be reported in this record. This can mean either that there are none known, or that those known are not relevant for the purpose of this record"/>
+      </concept>
+      <concept>
+        <code value="144"/>
+        <display value="There is no information available about the subject's past history of procedures"/>
+      </concept>
+      <concept>
+        <code value="145"/>
+        <display value="The subject has no history of procedures that have to be reported in this record. This can mean either that there are none known, or that those known are not relevant for the purpose of this record"/>
+      </concept>
+      <concept>
+        <code value="146"/>
+        <display value="Missing Information"/>
+      </concept>
+      <concept>
+        <code value="147"/>
+        <display value="From"/>
+      </concept>
+      <concept>
+        <code value="148"/>
+        <display value="Until"/>
+      </concept>
+      <concept>
+        <code value="149"/>
+        <display value="Around"/>
+      </concept>
+      <concept>
+        <code value="150"/>
+        <display value="Duration of Treatment"/>
+      </concept>
+      <concept>
+        <code value="151"/>
+        <display value="The date of the organizer should match the date of the observations"/>
+      </concept>
+      <concept>
+        <code value="152"/>
+        <display value="Dose Number in Series"/>
+      </concept>
+      <concept>
+        <code value="153"/>
+        <display value="Unmapped concept. Nationally used concept for which no translations are available and no safe mappings are possible"/>
+      </concept>
+      <concept>
+        <code value="154"/>
+        <display value="Body Site"/>
+      </concept>
+      <concept>
+        <code value="155"/>
+        <display value="Duration"/>
+      </concept>
+      <concept>
+        <code value="156"/>
+        <display value="Criticality"/>
+      </concept>
+      <concept>
+        <code value="157"/>
+        <display value="Allergy Status"/>
+      </concept>
+      <concept>
+        <code value="158"/>
+        <display value="Certainty"/>
+      </concept>
+      <concept>
+        <code value="159"/>
+        <display value="Result Type"/>
+      </concept>
+      <concept>
+        <code value="160"/>
+        <display value="Result Value"/>
+      </concept>
+      <concept>
+        <code value="161"/>
+        <display value="Performer"/>
+      </concept>
+      <concept>
+        <code value="162"/>
+        <display value="Reporter"/>
+      </concept>
+      <concept>
+        <code value="163"/>
+        <display value="Functional Assessment Date"/>
+      </concept>
+      <concept>
+        <code value="164"/>
+        <display value="Functional Assessment"/>
+      </concept>
+      <concept>
+        <code value="166"/>
+        <display value="Functional Assessment Result"/>
+      </concept>
+      <concept>
+        <code value="167"/>
+        <display value="Problem Status"/>
+      </concept>
+      <concept>
+        <code value="169"/>
+        <display value="Batch/lot number"/>
+      </concept>
+      <concept>
+        <code value="170"/>
+        <display value="Administering Center"/>
+      </concept>
+      <concept>
+        <code value="171"/>
+        <display value="Health Professional Identification"/>
+      </concept>
+      <concept>
+        <code value="172"/>
+        <display value="Country of Vaccination"/>
+      </concept>
+      <concept>
+        <code value="173"/>
+        <display value="Medication Reason"/>
+      </concept>
+      <concept>
+        <code value="174"/>
+        <display value="Current Pregnancy Status"/>
+      </concept>
+      <concept>
+        <code value="175"/>
+        <display value="Observation Date"/>
+      </concept>
+      <concept>
+        <code value="176"/>
+        <display value="Status"/>
+      </concept>
+      <concept>
+        <code value="177"/>
+        <display value="History of Previous Pregnancies"/>
+      </concept>
+      <concept>
+        <code value="178"/>
+        <display value="Outcome"/>
+      </concept>
+      <concept>
+        <code value="179"/>
+        <display value="Number of Children"/>
+      </concept>
+      <concept>
+        <code value="180"/>
+        <display value="Outcome Dates"/>
+      </concept>
+      <concept>
+        <code value="182"/>
+        <display value="Organization Contact Information"/>
+      </concept>
+      <concept>
+        <code value="184"/>
+        <display value="Medicinal Product Identifier"/>
+      </concept>
+      <concept>
+        <code value="185"/>
+        <display value="Medicinal Product Package Identifier"/>
+      </concept>
+      <concept>
+        <code value="186"/>
+        <display value="Pharmaceutical Product Identifier"/>
+      </concept>
+      <concept>
+        <code value="202"/>
+        <display value="Mark the checkbox if brand name (when allowed) has been substituted or package size has been changed"/>
+      </concept>
+      <concept>
+        <code value="187"/>
+        <display value="Address"/>
+      </concept>
+      <concept>
+        <code value="188"/>
+        <display value="Telecom"/>
+      </concept>
+      <concept>
+        <code value="189"/>
+        <display value="Part"/>
+      </concept>
+      <concept>
+        <code value="190"/>
+        <display value="Time(s) per"/>
+      </concept>
+      <concept>
+        <code value="191"/>
+        <display value="Packaging Details"/>
+      </concept>
+      <concept>
+        <code value="192"/>
+        <display value="Description"/>
+      </concept>
+      <concept>
+        <code value="193"/>
+        <display value="Original"/>
+      </concept>
+      <concept>
+        <code value="194"/>
+        <display value="English"/>
+      </concept>
+      <concept>
+        <code value="195"/>
+        <display value="Translated"/>
+      </concept>
+      <concept>
+        <code value="196"/>
+        <display value="Info"/>
+      </concept>
+      <concept>
+        <code value="197"/>
+        <display value="No information"/>
+      </concept>
+      <concept>
+        <code value="198"/>
+        <display value="Rare Diseases"/>
+      </concept>
+      <concept>
+        <code value="199"/>
+        <display value="Diagnosis Assertion Status"/>
+      </concept>
+      <concept>
+        <code value="200"/>
+        <display value="Related Health Professional"/>
+      </concept>
+      <concept>
+        <code value="201"/>
+        <display value="Related External Resource"/>
+      </concept>
+      <concept>
+        <code value="203"/>
+        <display value="Device ID"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

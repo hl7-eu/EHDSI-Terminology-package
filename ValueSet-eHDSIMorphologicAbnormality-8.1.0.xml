@@ -1,0 +1,3074 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="eHDSIMorphologicAbnormality-8.1.0"/>
+  <url value="http://terminology.ehdsi.eu/ValueSet/eHDSIMorphologicAbnormality"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.69"/>
+  </identifier>
+  <version value="0.2.0"/>
+  <name value="eHDSIMorphologicAbnormality"/>
+  <title value="eHDSI Morphologic Abnormality"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-12-23T10:21:27+00:00"/>
+  <publisher value="HL7 Europe"/>
+  <contact>
+    <name value="HL7 Europe"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7europe.org"/>
+    </telecom>
+  </contact>
+  <description value="The Value Set is used to code the morphological abnormalities of the anatomical location where the material is taken."/>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="16227651000119102"/>
+        <display value="Catheter exit site"/>
+      </concept>
+      <concept>
+        <code value="16225231000119104"/>
+        <display value="Pilonidal cyst"/>
+      </concept>
+      <concept>
+        <code value="16224871000119101"/>
+        <display value="Morton's neuroma"/>
+      </concept>
+      <concept>
+        <code value="1251594002"/>
+        <display value="Urine retention"/>
+      </concept>
+      <concept>
+        <code value="1251519006"/>
+        <display value="Myelodysplastic neoplasm with low blasts"/>
+      </concept>
+      <concept>
+        <code value="1240414004"/>
+        <display value="Malignant neoplasm"/>
+      </concept>
+      <concept>
+        <code value="1237295003"/>
+        <display value="Retracted structure"/>
+      </concept>
+      <concept>
+        <code value="1237086002"/>
+        <display value="Blood retention"/>
+      </concept>
+      <concept>
+        <code value="1187428006"/>
+        <display value="Thymoma"/>
+      </concept>
+      <concept>
+        <code value="1187425009"/>
+        <display value="Carcinoma"/>
+      </concept>
+      <concept>
+        <code value="1187396000"/>
+        <display value="Sarcoma"/>
+      </concept>
+      <concept>
+        <code value="1187383001"/>
+        <display value="Gastrointestinal stromal tumor"/>
+      </concept>
+      <concept>
+        <code value="1187375007"/>
+        <display value="Adenoma"/>
+      </concept>
+      <concept>
+        <code value="1187332001"/>
+        <display value="Adenocarcinoma"/>
+      </concept>
+      <concept>
+        <code value="1187306007"/>
+        <display value="Clear cell renal cell carcinoma"/>
+      </concept>
+      <concept>
+        <code value="1187227004"/>
+        <display value="Benign adenomatous neoplasm"/>
+      </concept>
+      <concept>
+        <code value="1187225007"/>
+        <display value="Malignant epithelial neoplasm"/>
+      </concept>
+      <concept>
+        <code value="1187138006"/>
+        <display value="Carcinoma in situ"/>
+      </concept>
+      <concept>
+        <code value="1187137001"/>
+        <display value="Squamous intraepithelial neoplasia"/>
+      </concept>
+      <concept>
+        <code value="1187136005"/>
+        <display value="Primary cutaneous T-cell lymphoma"/>
+      </concept>
+      <concept>
+        <code value="1187107005"/>
+        <display value="Plasmacytoma"/>
+      </concept>
+      <concept>
+        <code value="1186968006"/>
+        <display value="Malignant adenomatous neoplasm"/>
+      </concept>
+      <concept>
+        <code value="1186904005"/>
+        <display value="Ependymoma"/>
+      </concept>
+      <concept>
+        <code value="1179374007"/>
+        <display value="Kaposi sarcoma"/>
+      </concept>
+      <concept>
+        <code value="1172709000"/>
+        <display value="Lymphoid leukemia"/>
+      </concept>
+      <concept>
+        <code value="1172592001"/>
+        <display value="Non-Hodgkin lymphoma"/>
+      </concept>
+      <concept>
+        <code value="1163436007"/>
+        <display value="Neuroma"/>
+      </concept>
+      <concept>
+        <code value="1163405004"/>
+        <display value="Osteosarcoma"/>
+      </concept>
+      <concept>
+        <code value="1163403006"/>
+        <display value="Pigmented nevus"/>
+      </concept>
+      <concept>
+        <code value="1163375002"/>
+        <display value="Glioblastoma"/>
+      </concept>
+      <concept>
+        <code value="1163214006"/>
+        <display value="Pressure injury"/>
+      </concept>
+      <concept>
+        <code value="1163043007"/>
+        <display value="Malignant lymphoma"/>
+      </concept>
+      <concept>
+        <code value="1163022006"/>
+        <display value="Leiomyosarcoma"/>
+      </concept>
+      <concept>
+        <code value="1163016002"/>
+        <display value="Chondrosarcoma"/>
+      </concept>
+      <concept>
+        <code value="1163005009"/>
+        <display value="Hodgkin lymphoma"/>
+      </concept>
+      <concept>
+        <code value="1162928000"/>
+        <display value="Acute myeloid leukemia"/>
+      </concept>
+      <concept>
+        <code value="1162893000"/>
+        <display value="Squamous cell carcinoma in situ"/>
+      </concept>
+      <concept>
+        <code value="1162890002"/>
+        <display value="Leiomyoma"/>
+      </concept>
+      <concept>
+        <code value="1162815008"/>
+        <display value="Liposarcoma"/>
+      </concept>
+      <concept>
+        <code value="1162814007"/>
+        <display value="Non-infiltrating intraductal carcinoma"/>
+      </concept>
+      <concept>
+        <code value="1162768007"/>
+        <display value="Leukemia"/>
+      </concept>
+      <concept>
+        <code value="1162767002"/>
+        <display value="Squamous cell carcinoma"/>
+      </concept>
+      <concept>
+        <code value="1162765005"/>
+        <display value="Malignant seminoma"/>
+      </concept>
+      <concept>
+        <code value="1162635006"/>
+        <display value="Malignant melanoma"/>
+      </concept>
+      <concept>
+        <code value="1162588009"/>
+        <display value="Chronic myeloid leukemia"/>
+      </concept>
+      <concept>
+        <code value="1162576007"/>
+        <display value="Plasma cell myeloma"/>
+      </concept>
+      <concept>
+        <code value="1162492000"/>
+        <display value="Tumor bed"/>
+      </concept>
+      <concept>
+        <code value="1157139005"/>
+        <display value="Malignant carcinoid tumor"/>
+      </concept>
+      <concept>
+        <code value="1157073002"/>
+        <display value="Benign papilloma"/>
+      </concept>
+      <concept>
+        <code value="1157050005"/>
+        <display value="Benign fibroma"/>
+      </concept>
+      <concept>
+        <code value="1157043006"/>
+        <display value="Astrocytoma"/>
+      </concept>
+      <concept>
+        <code value="1156974002"/>
+        <display value="Oligodendroglioma"/>
+      </concept>
+      <concept>
+        <code value="1156930004"/>
+        <display value="Benign neurofibroma"/>
+      </concept>
+      <concept>
+        <code value="1156923005"/>
+        <display value="Medulloblastoma"/>
+      </concept>
+      <concept>
+        <code value="1156905002"/>
+        <display value="Null cell pituitary adenoma"/>
+      </concept>
+      <concept>
+        <code value="1156873009"/>
+        <display value="Benign fibroadenoma"/>
+      </concept>
+      <concept>
+        <code value="1156661006"/>
+        <display value="Benign adrenal cortical adenoma"/>
+      </concept>
+      <concept>
+        <code value="1156654007"/>
+        <display value="Benign tubular adenoma"/>
+      </concept>
+      <concept>
+        <code value="1148561000"/>
+        <display value="Bleeding superficial ulcer"/>
+      </concept>
+      <concept>
+        <code value="1052347005"/>
+        <display value="Bullous eruption"/>
+      </concept>
+      <concept>
+        <code value="1003500000"/>
+        <display value="Osteoporotic compression fracture"/>
+      </concept>
+      <concept>
+        <code value="895217008"/>
+        <display value="Lichen sclerosus"/>
+      </concept>
+      <concept>
+        <code value="874935005"/>
+        <display value="Focal glandular and stromal hyperplasia"/>
+      </concept>
+      <concept>
+        <code value="874913002"/>
+        <display value="Multinodular hyperplasia"/>
+      </concept>
+      <concept>
+        <code value="863926008"/>
+        <display value="Angiosarcoma"/>
+      </concept>
+      <concept>
+        <code value="863913009"/>
+        <display value="Open amputated structure"/>
+      </concept>
+      <concept>
+        <code value="846575004"/>
+        <display value="Angioedema"/>
+      </concept>
+      <concept>
+        <code value="789563006"/>
+        <display value="Arterial ulcer"/>
+      </concept>
+      <concept>
+        <code value="785284009"/>
+        <display value="Arachnoid cyst"/>
+      </concept>
+      <concept>
+        <code value="783806000"/>
+        <display value="Vascular malformation"/>
+      </concept>
+      <concept>
+        <code value="783804002"/>
+        <display value="Abnormal communication"/>
+      </concept>
+      <concept>
+        <code value="783747005"/>
+        <display value="Third degree laceration"/>
+      </concept>
+      <concept>
+        <code value="783746001"/>
+        <display value="Second degree laceration"/>
+      </concept>
+      <concept>
+        <code value="783727002"/>
+        <display value="First degree laceration"/>
+      </concept>
+      <concept>
+        <code value="783710005"/>
+        <display value="Superficial laceration"/>
+      </concept>
+      <concept>
+        <code value="782173000"/>
+        <display value="Agenesis"/>
+      </concept>
+      <concept>
+        <code value="771487004"/>
+        <display value="Compound fracture of multiple bones"/>
+      </concept>
+      <concept>
+        <code value="771486008"/>
+        <display value="Closed fracture of multiple bones"/>
+      </concept>
+      <concept>
+        <code value="771485007"/>
+        <display value="Fracture of multiple bones"/>
+      </concept>
+      <concept>
+        <code value="770951006"/>
+        <display value="Superficial bite wound"/>
+      </concept>
+      <concept>
+        <code value="767376003"/>
+        <display value="Lentigo"/>
+      </concept>
+      <concept>
+        <code value="766235003"/>
+        <display value="Cavovarus deformity"/>
+      </concept>
+      <concept>
+        <code value="722799005"/>
+        <display value="Secondary non-active caries"/>
+      </concept>
+      <concept>
+        <code value="722798002"/>
+        <display value="Primary non-active caries"/>
+      </concept>
+      <concept>
+        <code value="722797007"/>
+        <display value="Secondary active caries"/>
+      </concept>
+      <concept>
+        <code value="722796003"/>
+        <display value="Primary active caries"/>
+      </concept>
+      <concept>
+        <code value="722192005"/>
+        <display value="Localized swelling"/>
+      </concept>
+      <concept>
+        <code value="719880007"/>
+        <display value="Acute lymphoid follicular inflammation"/>
+      </concept>
+      <concept>
+        <code value="718355007"/>
+        <display value="Torsion deformity"/>
+      </concept>
+      <concept>
+        <code value="716577004"/>
+        <display value="Preauricular sinus"/>
+      </concept>
+      <concept>
+        <code value="708578007"/>
+        <display value="Active caries"/>
+      </concept>
+      <concept>
+        <code value="708577002"/>
+        <display value="Non-active caries"/>
+      </concept>
+      <concept>
+        <code value="708576006"/>
+        <display value="Primary caries"/>
+      </concept>
+      <concept>
+        <code value="708575005"/>
+        <display value="Secondary caries"/>
+      </concept>
+      <concept>
+        <code value="708574009"/>
+        <display value="Non-cavitated caries"/>
+      </concept>
+      <concept>
+        <code value="708573003"/>
+        <display value="Cavitated caries"/>
+      </concept>
+      <concept>
+        <code value="708539008"/>
+        <display value="Concussive injury"/>
+      </concept>
+      <concept>
+        <code value="708529002"/>
+        <display value="Lesion of degenerative abnormality"/>
+      </concept>
+      <concept>
+        <code value="708528005"/>
+        <display value="Narrowing"/>
+      </concept>
+      <concept>
+        <code value="708041002"/>
+        <display value="Mechanical lesion"/>
+      </concept>
+      <concept>
+        <code value="708039003"/>
+        <display value="Inflammatory lesion"/>
+      </concept>
+      <concept>
+        <code value="708027006"/>
+        <display value="Valvular stenosis with valvular insufficiency"/>
+      </concept>
+      <concept>
+        <code value="708024004"/>
+        <display value="Valvular insufficiency"/>
+      </concept>
+      <concept>
+        <code value="707598004"/>
+        <display value="Malocclusion"/>
+      </concept>
+      <concept>
+        <code value="707496003"/>
+        <display value="Inflammation and consolidation"/>
+      </concept>
+      <concept>
+        <code value="703707001"/>
+        <display value="Ewing sarcoma / peripheral neuroectodermal tumor"/>
+      </concept>
+      <concept>
+        <code value="699289006"/>
+        <display value="Lichenoid inflammation"/>
+      </concept>
+      <concept>
+        <code value="609445005"/>
+        <display value="Entrapment with compression"/>
+      </concept>
+      <concept>
+        <code value="609345009"/>
+        <display value="Disrupted surgical incision wound"/>
+      </concept>
+      <concept>
+        <code value="450910000"/>
+        <display value="ALK positive large B-cell lymphoma"/>
+      </concept>
+      <concept>
+        <code value="449735000"/>
+        <display value="Structural change due to ischemia"/>
+      </concept>
+      <concept>
+        <code value="447136001"/>
+        <display value="Palisading granuloma"/>
+      </concept>
+      <concept>
+        <code value="446944008"/>
+        <display value="Immunoglobulin A deposit"/>
+      </concept>
+      <concept>
+        <code value="446569001"/>
+        <display value="Microthrombus"/>
+      </concept>
+      <concept>
+        <code value="444329004"/>
+        <display value="Surgically constructed pathway from inferior vena cava to mitral valve"/>
+      </concept>
+      <concept>
+        <code value="444177009"/>
+        <display value="Surgically constructed pathway from superior vena cava to mitral valve"/>
+      </concept>
+      <concept>
+        <code value="443907004"/>
+        <display value="Surgically constructed pathway from pulmonary veins to tricuspid valve"/>
+      </concept>
+      <concept>
+        <code value="443809000"/>
+        <display value="Surgically constructed convergence of inferior and superior vena cava pathways into common pathway superior to atrioventricular valve"/>
+      </concept>
+      <concept>
+        <code value="443789005"/>
+        <display value="Surgically constructed bidirectional pathway from superior vena cava to pulmonary artery"/>
+      </concept>
+      <concept>
+        <code value="443726001"/>
+        <display value="Neoaortic root"/>
+      </concept>
+      <concept>
+        <code value="443724003"/>
+        <display value="Fontan fenestration"/>
+      </concept>
+      <concept>
+        <code value="443696003"/>
+        <display value="Left ventricle to pulmonary artery conduit anastomosis"/>
+      </concept>
+      <concept>
+        <code value="443625008"/>
+        <display value="Fontan pulmonary artery connection"/>
+      </concept>
+      <concept>
+        <code value="443445009"/>
+        <display value="Cor triatriatum orifice"/>
+      </concept>
+      <concept>
+        <code value="443444008"/>
+        <display value="Right superior vena cava"/>
+      </concept>
+      <concept>
+        <code value="443329006"/>
+        <display value="Bulboventricular foramen"/>
+      </concept>
+      <concept>
+        <code value="443328003"/>
+        <display value="Right ventricle to pulmonary artery conduit anastomosis"/>
+      </concept>
+      <concept>
+        <code value="443327008"/>
+        <display value="Hemi-Fontan pathway"/>
+      </concept>
+      <concept>
+        <code value="443326004"/>
+        <display value="Fontan inferior vena cava pathway"/>
+      </concept>
+      <concept>
+        <code value="443298009"/>
+        <display value="Fontan pathway"/>
+      </concept>
+      <concept>
+        <code value="443297004"/>
+        <display value="Pulmonary vein to atrium connection"/>
+      </concept>
+      <concept>
+        <code value="443283007"/>
+        <display value="Neoaortic valve"/>
+      </concept>
+      <concept>
+        <code value="443260009"/>
+        <display value="Rastelli interventricular tunnel"/>
+      </concept>
+      <concept>
+        <code value="443208000"/>
+        <display value="Pulmonary vein confluence to atrium connection"/>
+      </concept>
+      <concept>
+        <code value="443096004"/>
+        <display value="Surgically constructed connection of aorta to pulmonary artery"/>
+      </concept>
+      <concept>
+        <code value="442894007"/>
+        <display value="Deposition of calcium pyrophosphate crystals, calcified structure"/>
+      </concept>
+      <concept>
+        <code value="442672001"/>
+        <display value="Swelling"/>
+      </concept>
+      <concept>
+        <code value="442085002"/>
+        <display value="Greenstick fracture"/>
+      </concept>
+      <concept>
+        <code value="442021009"/>
+        <display value="Enlargement"/>
+      </concept>
+      <concept>
+        <code value="441901008"/>
+        <display value="Inverted diverticulum"/>
+      </concept>
+      <concept>
+        <code value="441850003"/>
+        <display value="Appendiceal stump"/>
+      </concept>
+      <concept>
+        <code value="438074005"/>
+        <display value="Vaginal cuff"/>
+      </concept>
+      <concept>
+        <code value="427657002"/>
+        <display value="Ileal pouch"/>
+      </concept>
+      <concept>
+        <code value="426912003"/>
+        <display value="Splinter foreign body"/>
+      </concept>
+      <concept>
+        <code value="423699002"/>
+        <display value="Enchondroma"/>
+      </concept>
+      <concept>
+        <code value="419670003"/>
+        <display value="Epidermoid cyst"/>
+      </concept>
+      <concept>
+        <code value="419351001"/>
+        <display value="Sinus"/>
+      </concept>
+      <concept>
+        <code value="419093005"/>
+        <display value="Trichilemmal cyst"/>
+      </concept>
+      <concept>
+        <code value="418560003"/>
+        <display value="Absence"/>
+      </concept>
+      <concept>
+        <code value="417992006"/>
+        <display value="Sebaceous cyst"/>
+      </concept>
+      <concept>
+        <code value="417271000"/>
+        <display value="Hydatidiform mole, benign"/>
+      </concept>
+      <concept>
+        <code value="416939005"/>
+        <display value="Proliferative mass"/>
+      </concept>
+      <concept>
+        <code value="416502004"/>
+        <display value="Suture line"/>
+      </concept>
+      <concept>
+        <code value="415588005"/>
+        <display value="Stoma AND/OR site of stoma"/>
+      </concept>
+      <concept>
+        <code value="415582006"/>
+        <display value="Stenosis"/>
+      </concept>
+      <concept>
+        <code value="414794006"/>
+        <display value="Myeloid proliferation"/>
+      </concept>
+      <concept>
+        <code value="414655002"/>
+        <display value="Mature (peripheral) T-cell neoplasm"/>
+      </concept>
+      <concept>
+        <code value="414629003"/>
+        <display value="Lymphoproliferative disorder"/>
+      </concept>
+      <concept>
+        <code value="414450004"/>
+        <display value="Idiopathic hypereosinophilic syndrome"/>
+      </concept>
+      <concept>
+        <code value="414403008"/>
+        <display value="Hernia"/>
+      </concept>
+      <concept>
+        <code value="414402003"/>
+        <display value="Hernial opening"/>
+      </concept>
+      <concept>
+        <code value="410723003"/>
+        <display value="Wound dehiscence"/>
+      </concept>
+      <concept>
+        <code value="409781003"/>
+        <display value="Focal chronic inflammation"/>
+      </concept>
+      <concept>
+        <code value="409777003"/>
+        <display value="Chronic inflammatory morphology"/>
+      </concept>
+      <concept>
+        <code value="409776007"/>
+        <display value="Acute inflammatory morphology"/>
+      </concept>
+      <concept>
+        <code value="409774005"/>
+        <display value="Inflammatory morphology"/>
+      </concept>
+      <concept>
+        <code value="408764000"/>
+        <display value="Filtering bleb"/>
+      </concept>
+      <concept>
+        <code value="408737001"/>
+        <display value="Malposition"/>
+      </concept>
+      <concept>
+        <code value="406102004"/>
+        <display value="Dysplasia with neoplasia"/>
+      </concept>
+      <concept>
+        <code value="405719001"/>
+        <display value="Chronic ulcer"/>
+      </concept>
+      <concept>
+        <code value="400183000"/>
+        <display value="Exfoliative lesion"/>
+      </concept>
+      <concept>
+        <code value="400177003"/>
+        <display value="Neoplasm and/or hamartoma"/>
+      </concept>
+      <concept>
+        <code value="400163001"/>
+        <display value="Malignant fibromatous neoplasm"/>
+      </concept>
+      <concept>
+        <code value="400061001"/>
+        <display value="Abrasion"/>
+      </concept>
+      <concept>
+        <code value="400048001"/>
+        <display value="Excoriation"/>
+      </concept>
+      <concept>
+        <code value="399898009"/>
+        <display value="Misalignment"/>
+      </concept>
+      <concept>
+        <code value="397423009"/>
+        <display value="Transjugular intrahepatic portosystemic shunt"/>
+      </concept>
+      <concept>
+        <code value="397350003"/>
+        <display value="Extranodal marginal zone B-cell lymphoma of mucosa-associated lymphoid tissue"/>
+      </concept>
+      <concept>
+        <code value="396351009"/>
+        <display value="Congenital septal defect"/>
+      </concept>
+      <concept>
+        <code value="396339007"/>
+        <display value="Thrombus"/>
+      </concept>
+      <concept>
+        <code value="396224008"/>
+        <display value="Endometriosis"/>
+      </concept>
+      <concept>
+        <code value="386152007"/>
+        <display value="Hydrocele"/>
+      </concept>
+      <concept>
+        <code value="385627004"/>
+        <display value="Cellulitis"/>
+      </concept>
+      <concept>
+        <code value="384709000"/>
+        <display value="Sprain"/>
+      </concept>
+      <concept>
+        <code value="372158004"/>
+        <display value="Malignant melanoma, metastatic"/>
+      </concept>
+      <concept>
+        <code value="372152003"/>
+        <display value="Sarcoma, metastatic"/>
+      </concept>
+      <concept>
+        <code value="371520008"/>
+        <display value="Developmental failure of fusion"/>
+      </concept>
+      <concept>
+        <code value="367647000"/>
+        <display value="Fibrocystic change"/>
+      </concept>
+      <concept>
+        <code value="367646009"/>
+        <display value="Pus"/>
+      </concept>
+      <concept>
+        <code value="367644007"/>
+        <display value="Simple cyst"/>
+      </concept>
+      <concept>
+        <code value="367643001"/>
+        <display value="Cyst"/>
+      </concept>
+      <concept>
+        <code value="363563002"/>
+        <display value="Entrapment"/>
+      </concept>
+      <concept>
+        <code value="361687001"/>
+        <display value="Renal pelvis stoma"/>
+      </concept>
+      <concept>
+        <code value="314926009"/>
+        <display value="T-cell lymphoma morphology"/>
+      </concept>
+      <concept>
+        <code value="314923001"/>
+        <display value="Low grade B-cell lymphoma morphology"/>
+      </concept>
+      <concept>
+        <code value="312317000"/>
+        <display value="Arteriovenous graft"/>
+      </concept>
+      <concept>
+        <code value="312288001"/>
+        <display value="Vascular graft"/>
+      </concept>
+      <concept>
+        <code value="308497004"/>
+        <display value="Strain - lesion"/>
+      </concept>
+      <concept>
+        <code value="308492005"/>
+        <display value="Contusion - lesion"/>
+      </concept>
+      <concept>
+        <code value="307575002"/>
+        <display value="Benign pheochromocytoma"/>
+      </concept>
+      <concept>
+        <code value="281600005"/>
+        <display value="Intestinal stoma"/>
+      </concept>
+      <concept>
+        <code value="280699007"/>
+        <display value="Abdominal stoma"/>
+      </concept>
+      <concept>
+        <code value="272726003"/>
+        <display value="Gastrostomy"/>
+      </concept>
+      <concept>
+        <code value="272725004"/>
+        <display value="External stoma"/>
+      </concept>
+      <concept>
+        <code value="264600004"/>
+        <display value="Peripheral artery graft"/>
+      </concept>
+      <concept>
+        <code value="264585001"/>
+        <display value="Colostomy - stoma"/>
+      </concept>
+      <concept>
+        <code value="264364002"/>
+        <display value="Ileostomy - stoma"/>
+      </concept>
+      <concept>
+        <code value="264293000"/>
+        <display value="Coronary artery graft"/>
+      </concept>
+      <concept>
+        <code value="263722006"/>
+        <display value="Complete rupture"/>
+      </concept>
+      <concept>
+        <code value="263697003"/>
+        <display value="Bucket handle tear"/>
+      </concept>
+      <concept>
+        <code value="259681001"/>
+        <display value="Macrocytic erythrocyte"/>
+      </concept>
+      <concept>
+        <code value="253086004"/>
+        <display value="Cellular schwannoma"/>
+      </concept>
+      <concept>
+        <code value="253057002"/>
+        <display value="Benign lymphangioma"/>
+      </concept>
+      <concept>
+        <code value="253053003"/>
+        <display value="Benign hemangioma"/>
+      </concept>
+      <concept>
+        <code value="252994001"/>
+        <display value="Benign squamous cell tumor"/>
+      </concept>
+      <concept>
+        <code value="245860003"/>
+        <display value="Urinary conduit site"/>
+      </concept>
+      <concept>
+        <code value="245857005"/>
+        <display value="Stoma"/>
+      </concept>
+      <concept>
+        <code value="189982000"/>
+        <display value="Reticulosarcoma morphology"/>
+      </concept>
+      <concept>
+        <code value="189607006"/>
+        <display value="Carcinoid tumor - morphology"/>
+      </concept>
+      <concept>
+        <code value="177658007"/>
+        <display value="Fibrinous inflammation"/>
+      </concept>
+      <concept>
+        <code value="177418003"/>
+        <display value="Ruptured cyst"/>
+      </concept>
+      <concept>
+        <code value="174637007"/>
+        <display value="Angiectasia"/>
+      </concept>
+      <concept>
+        <code value="134352000"/>
+        <display value="Incised wound - morphology"/>
+      </concept>
+      <concept>
+        <code value="134328007"/>
+        <display value="Lipoma"/>
+      </concept>
+      <concept>
+        <code value="134222005"/>
+        <display value="Penetrating wound"/>
+      </concept>
+      <concept>
+        <code value="133855003"/>
+        <display value="Radial scar"/>
+      </concept>
+      <concept>
+        <code value="133853005"/>
+        <display value="Epiretinal membrane"/>
+      </concept>
+      <concept>
+        <code value="129263008"/>
+        <display value="Impacted tooth"/>
+      </concept>
+      <concept>
+        <code value="129258009"/>
+        <display value="Redundant tissue"/>
+      </concept>
+      <concept>
+        <code value="129256008"/>
+        <display value="Torsion"/>
+      </concept>
+      <concept>
+        <code value="128859003"/>
+        <display value="Villous adenoma"/>
+      </concept>
+      <concept>
+        <code value="128844009"/>
+        <display value="Essential thrombocythemia"/>
+      </concept>
+      <concept>
+        <code value="128843003"/>
+        <display value="Primary myelofibrosis"/>
+      </concept>
+      <concept>
+        <code value="128841001"/>
+        <display value="Polycythemia vera"/>
+      </concept>
+      <concept>
+        <code value="128831004"/>
+        <display value="Chronic myelomonocytic leukemia"/>
+      </concept>
+      <concept>
+        <code value="128822004"/>
+        <display value="Precursor cell lymphoblastic leukemia"/>
+      </concept>
+      <concept>
+        <code value="128799007"/>
+        <display value="Hodgkin lymphoma, lymphocyte-rich"/>
+      </concept>
+      <concept>
+        <code value="128765009"/>
+        <display value="Adenomyoepithelioma"/>
+      </concept>
+      <concept>
+        <code value="128738002"/>
+        <display value="Myofibroblastoma"/>
+      </concept>
+      <concept>
+        <code value="128736003"/>
+        <display value="Solitary fibrous tumor"/>
+      </concept>
+      <concept>
+        <code value="128717008"/>
+        <display value="Thymic carcinoma"/>
+      </concept>
+      <concept>
+        <code value="128696009"/>
+        <display value="Intraductal micropapillary carcinoma"/>
+      </concept>
+      <concept>
+        <code value="128651002"/>
+        <display value="Lactating adenoma"/>
+      </concept>
+      <concept>
+        <code value="128632008"/>
+        <display value="Non-small cell carcinoma"/>
+      </concept>
+      <concept>
+        <code value="128623006"/>
+        <display value="Myelodysplastic neoplasm"/>
+      </concept>
+      <concept>
+        <code value="128617001"/>
+        <display value="Arteriovenous fistula"/>
+      </concept>
+      <concept>
+        <code value="128589000"/>
+        <display value="Systemic collateral artery to lung"/>
+      </concept>
+      <concept>
+        <code value="128586007"/>
+        <display value="Pulmonary chamber of cor triatriatum"/>
+      </concept>
+      <concept>
+        <code value="128585006"/>
+        <display value="Anomalous pulmonary vein"/>
+      </concept>
+      <concept>
+        <code value="128305008"/>
+        <display value="Opacity"/>
+      </concept>
+      <concept>
+        <code value="127962001"/>
+        <display value="Meckel's diverticulum"/>
+      </concept>
+      <concept>
+        <code value="127581004"/>
+        <display value="Mastocytosis"/>
+      </concept>
+      <concept>
+        <code value="127579001"/>
+        <display value="Meningeal neoplasm (morphology)"/>
+      </concept>
+      <concept>
+        <code value="127562007"/>
+        <display value="Varus deformity"/>
+      </concept>
+      <concept>
+        <code value="127561000"/>
+        <display value="Valgus deformity"/>
+      </concept>
+      <concept>
+        <code value="125671007"/>
+        <display value="Rupture"/>
+      </concept>
+      <concept>
+        <code value="125568005"/>
+        <display value="Focal fibromatosis"/>
+      </concept>
+      <concept>
+        <code value="125524008"/>
+        <display value="Diffuse hyperplasia"/>
+      </concept>
+      <concept>
+        <code value="125358004"/>
+        <display value="Diffuse fibroelastosis"/>
+      </concept>
+      <concept>
+        <code value="125357009"/>
+        <display value="Focal fibroelastosis"/>
+      </concept>
+      <concept>
+        <code value="125285008"/>
+        <display value="Multiple diverticula"/>
+      </concept>
+      <concept>
+        <code value="125284007"/>
+        <display value="Single diverticulum"/>
+      </concept>
+      <concept>
+        <code value="125274006"/>
+        <display value="Multiple aneurysms"/>
+      </concept>
+      <concept>
+        <code value="125273000"/>
+        <display value="Calcified aneurysm"/>
+      </concept>
+      <concept>
+        <code value="125272005"/>
+        <display value="Expanding aneurysm"/>
+      </concept>
+      <concept>
+        <code value="125271003"/>
+        <display value="Thrombosed aneurysm"/>
+      </concept>
+      <concept>
+        <code value="125263002"/>
+        <display value="Sliding hernia"/>
+      </concept>
+      <concept>
+        <code value="125245002"/>
+        <display value="Retained foreign body"/>
+      </concept>
+      <concept>
+        <code value="123749006"/>
+        <display value="Chronic proliferative inflammation"/>
+      </concept>
+      <concept>
+        <code value="123631004"/>
+        <display value="Diffuse acute inflammation"/>
+      </concept>
+      <concept>
+        <code value="123630003"/>
+        <display value="Focal acute inflammation"/>
+      </concept>
+      <concept>
+        <code value="123250005"/>
+        <display value="Synovial cyst"/>
+      </concept>
+      <concept>
+        <code value="118622000"/>
+        <display value="Fistula"/>
+      </concept>
+      <concept>
+        <code value="116208002"/>
+        <display value="Abscess of wound"/>
+      </concept>
+      <concept>
+        <code value="115240006"/>
+        <display value="Glioma"/>
+      </concept>
+      <concept>
+        <code value="115238001"/>
+        <display value="Giant cell tumor"/>
+      </concept>
+      <concept>
+        <code value="115233005"/>
+        <display value="Germ cell neoplasm"/>
+      </concept>
+      <concept>
+        <code value="115227001"/>
+        <display value="Lipomatous neoplasm"/>
+      </concept>
+      <concept>
+        <code value="112681002"/>
+        <display value="Intradermal nevus"/>
+      </concept>
+      <concept>
+        <code value="112674009"/>
+        <display value="Fibrosis"/>
+      </concept>
+      <concept>
+        <code value="112656000"/>
+        <display value="Deposition of calcium hydroxyapatite crystals"/>
+      </concept>
+      <concept>
+        <code value="112654002"/>
+        <display value="Deposition of sodium urate crystals"/>
+      </concept>
+      <concept>
+        <code value="112649006"/>
+        <display value="Hemorrhagic inflammation"/>
+      </concept>
+      <concept>
+        <code value="112641009"/>
+        <display value="Telangiectasis"/>
+      </concept>
+      <concept>
+        <code value="112638000"/>
+        <display value="Displacement"/>
+      </concept>
+      <concept>
+        <code value="112633009"/>
+        <display value="Surgical wound"/>
+      </concept>
+      <concept>
+        <code value="111017005"/>
+        <display value="Injection site scar"/>
+      </concept>
+      <concept>
+        <code value="110451006"/>
+        <display value="Spindle cell nodule"/>
+      </concept>
+      <concept>
+        <code value="110450007"/>
+        <display value="Langerhans' cell histiocytosis"/>
+      </concept>
+      <concept>
+        <code value="110445001"/>
+        <display value="Focal hyperkeratosis"/>
+      </concept>
+      <concept>
+        <code value="110433005"/>
+        <display value="Inflammatory thrombosis"/>
+      </concept>
+      <concept>
+        <code value="110426005"/>
+        <display value="Aphtha"/>
+      </concept>
+      <concept>
+        <code value="108369006"/>
+        <display value="Neoplasm"/>
+      </concept>
+      <concept>
+        <code value="107675007"/>
+        <display value="Chromosomal morphology"/>
+      </concept>
+      <concept>
+        <code value="107671003"/>
+        <display value="Vascular sclerosis"/>
+      </concept>
+      <concept>
+        <code value="107669003"/>
+        <display value="Degenerative abnormality"/>
+      </concept>
+      <concept>
+        <code value="103691009"/>
+        <display value="Acute myeloid leukemia with maturation"/>
+      </concept>
+      <concept>
+        <code value="103681003"/>
+        <display value="Impaired tissue repair"/>
+      </concept>
+      <concept>
+        <code value="103678008"/>
+        <display value="Endometriotic cyst"/>
+      </concept>
+      <concept>
+        <code value="103641005"/>
+        <display value="Reactive cellular changes associated with atrophy"/>
+      </concept>
+      <concept>
+        <code value="103627001"/>
+        <display value="Cystic inflammation"/>
+      </concept>
+      <concept>
+        <code value="103614000"/>
+        <display value="Follicular cyst"/>
+      </concept>
+      <concept>
+        <code value="91431006"/>
+        <display value="Supernumerary structure"/>
+      </concept>
+      <concept>
+        <code value="91369002"/>
+        <display value="Bloody discharge"/>
+      </concept>
+      <concept>
+        <code value="91182001"/>
+        <display value="Perforated ulcer"/>
+      </concept>
+      <concept>
+        <code value="90738007"/>
+        <display value="Obstruction by torsion"/>
+      </concept>
+      <concept>
+        <code value="90510001"/>
+        <display value="Extension deformity"/>
+      </concept>
+      <concept>
+        <code value="90120004"/>
+        <display value="Mycosis fungoides"/>
+      </concept>
+      <concept>
+        <code value="89757007"/>
+        <display value="Macular rash"/>
+      </concept>
+      <concept>
+        <code value="89753006"/>
+        <display value="Calcium calculus"/>
+      </concept>
+      <concept>
+        <code value="89740008"/>
+        <display value="Lobular carcinoma"/>
+      </concept>
+      <concept>
+        <code value="89031001"/>
+        <display value="Hypopigmentation"/>
+      </concept>
+      <concept>
+        <code value="89010004"/>
+        <display value="Rhabdomyolysis"/>
+      </concept>
+      <concept>
+        <code value="88565003"/>
+        <display value="Flexion deformity"/>
+      </concept>
+      <concept>
+        <code value="88295005"/>
+        <display value="Urate calculus"/>
+      </concept>
+      <concept>
+        <code value="88270009"/>
+        <display value="Intercellular edema"/>
+      </concept>
+      <concept>
+        <code value="88195001"/>
+        <display value="Alveolar soft part sarcoma"/>
+      </concept>
+      <concept>
+        <code value="87913009"/>
+        <display value="Malignant phyllodes tumor"/>
+      </concept>
+      <concept>
+        <code value="87737001"/>
+        <display value="Signet ring cell carcinoma"/>
+      </concept>
+      <concept>
+        <code value="87642003"/>
+        <display value="Dislocation"/>
+      </concept>
+      <concept>
+        <code value="87364003"/>
+        <display value="Neuroblastoma"/>
+      </concept>
+      <concept>
+        <code value="86732001"/>
+        <display value="Hyperplastic scar"/>
+      </concept>
+      <concept>
+        <code value="86251006"/>
+        <display value="Neoplasm of uncertain behavior"/>
+      </concept>
+      <concept>
+        <code value="86217007"/>
+        <display value="Avascular necrosis"/>
+      </concept>
+      <concept>
+        <code value="85804007"/>
+        <display value="Congestion"/>
+      </concept>
+      <concept>
+        <code value="85726003"/>
+        <display value="Mixed aneurysm"/>
+      </concept>
+      <concept>
+        <code value="85659009"/>
+        <display value="Aneurysm"/>
+      </concept>
+      <concept>
+        <code value="85431000"/>
+        <display value="Fusiform aneurysm"/>
+      </concept>
+      <concept>
+        <code value="85243001"/>
+        <display value="Minor laceration"/>
+      </concept>
+      <concept>
+        <code value="84499006"/>
+        <display value="Chronic inflammation"/>
+      </concept>
+      <concept>
+        <code value="84050003"/>
+        <display value="Glandular and stromal hyperplasia"/>
+      </concept>
+      <concept>
+        <code value="82711006"/>
+        <display value="Infiltrating duct carcinoma"/>
+      </concept>
+      <concept>
+        <code value="82646005"/>
+        <display value="Glomerulosclerosis"/>
+      </concept>
+      <concept>
+        <code value="82515000"/>
+        <display value="Vesicle"/>
+      </concept>
+      <concept>
+        <code value="82513007"/>
+        <display value="Myeloid metaplasia"/>
+      </concept>
+      <concept>
+        <code value="82375006"/>
+        <display value="Adenomatous polyp"/>
+      </concept>
+      <concept>
+        <code value="82014009"/>
+        <display value="Peripheral edema"/>
+      </concept>
+      <concept>
+        <code value="81845009"/>
+        <display value="Follicular hyperkeratosis"/>
+      </concept>
+      <concept>
+        <code value="81669005"/>
+        <display value="Neurofibromatosis"/>
+      </concept>
+      <concept>
+        <code value="81450008"/>
+        <display value="Intercapillary glomerulosclerosis"/>
+      </concept>
+      <concept>
+        <code value="81409000"/>
+        <display value="Coarctation"/>
+      </concept>
+      <concept>
+        <code value="81274009"/>
+        <display value="Apocrine metaplasia"/>
+      </concept>
+      <concept>
+        <code value="81037000"/>
+        <display value="Lacunar infarct"/>
+      </concept>
+      <concept>
+        <code value="81018009"/>
+        <display value="Radiation injury"/>
+      </concept>
+      <concept>
+        <code value="80400009"/>
+        <display value="External hyperostosis"/>
+      </concept>
+      <concept>
+        <code value="79654002"/>
+        <display value="Edema"/>
+      </concept>
+      <concept>
+        <code value="79644001"/>
+        <display value="Pigment alteration"/>
+      </concept>
+      <concept>
+        <code value="79108005"/>
+        <display value="Sclerosing inflammation"/>
+      </concept>
+      <concept>
+        <code value="78989007"/>
+        <display value="Trisomy"/>
+      </concept>
+      <concept>
+        <code value="78441005"/>
+        <display value="Osteopenia"/>
+      </concept>
+      <concept>
+        <code value="78197004"/>
+        <display value="Comedocarcinoma, noninfiltrating"/>
+      </concept>
+      <concept>
+        <code value="78195007"/>
+        <display value="Occlusive thrombus"/>
+      </concept>
+      <concept>
+        <code value="77986002"/>
+        <display value="Melanoma in situ"/>
+      </concept>
+      <concept>
+        <code value="77643000"/>
+        <display value="Ecchymosis"/>
+      </concept>
+      <concept>
+        <code value="77284006"/>
+        <display value="Lobular carcinoma in situ"/>
+      </concept>
+      <concept>
+        <code value="77126004"/>
+        <display value="Abnormal caruncle"/>
+      </concept>
+      <concept>
+        <code value="76909002"/>
+        <display value="Ewing's sarcoma"/>
+      </concept>
+      <concept>
+        <code value="76555007"/>
+        <display value="Disruption"/>
+      </concept>
+      <concept>
+        <code value="76197007"/>
+        <display value="Hyperplasia"/>
+      </concept>
+      <concept>
+        <code value="76093008"/>
+        <display value="Anterior displacement"/>
+      </concept>
+      <concept>
+        <code value="76060004"/>
+        <display value="Esthesioneuroblastoma"/>
+      </concept>
+      <concept>
+        <code value="76000001"/>
+        <display value="Aneurysmal bone cyst"/>
+      </concept>
+      <concept>
+        <code value="75889009"/>
+        <display value="Acute and chronic inflammation"/>
+      </concept>
+      <concept>
+        <code value="75823008"/>
+        <display value="Discharge"/>
+      </concept>
+      <concept>
+        <code value="75797008"/>
+        <display value="Syrinx"/>
+      </concept>
+      <concept>
+        <code value="75753009"/>
+        <display value="Blood clot"/>
+      </concept>
+      <concept>
+        <code value="75616009"/>
+        <display value="Reticulin fibrosis"/>
+      </concept>
+      <concept>
+        <code value="75567003"/>
+        <display value="Anterior closed dislocation"/>
+      </concept>
+      <concept>
+        <code value="74937006"/>
+        <display value="Complicated atheromatous plaque"/>
+      </concept>
+      <concept>
+        <code value="74654000"/>
+        <display value="Mantle cell lymphoma"/>
+      </concept>
+      <concept>
+        <code value="74571009"/>
+        <display value="Bile pigmentation"/>
+      </concept>
+      <concept>
+        <code value="74532006"/>
+        <display value="Malignant glioma"/>
+      </concept>
+      <concept>
+        <code value="74364000"/>
+        <display value="Small cell carcinoma"/>
+      </concept>
+      <concept>
+        <code value="74280008"/>
+        <display value="Glycogen-rich carcinoma"/>
+      </concept>
+      <concept>
+        <code value="73728008"/>
+        <display value="Maturation acceleration"/>
+      </concept>
+      <concept>
+        <code value="73219006"/>
+        <display value="Angiolipoma"/>
+      </concept>
+      <concept>
+        <code value="72756009"/>
+        <display value="Aseptic necrosis"/>
+      </concept>
+      <concept>
+        <code value="72704001"/>
+        <display value="Fracture"/>
+      </concept>
+      <concept>
+        <code value="72587008"/>
+        <display value="Sting"/>
+      </concept>
+      <concept>
+        <code value="72495009"/>
+        <display value="Mucinous adenocarcinoma"/>
+      </concept>
+      <concept>
+        <code value="72166006"/>
+        <display value="Fibroelastosis"/>
+      </concept>
+      <concept>
+        <code value="72095004"/>
+        <display value="Vesicular inflammation"/>
+      </concept>
+      <concept>
+        <code value="71911007"/>
+        <display value="Healed infarct"/>
+      </concept>
+      <concept>
+        <code value="71447003"/>
+        <display value="Paget's disease, extramammary (except Paget's disease of bone)"/>
+      </concept>
+      <concept>
+        <code value="71379006"/>
+        <display value="Erythroplakia"/>
+      </concept>
+      <concept>
+        <code value="71307009"/>
+        <display value="Ganglion cyst"/>
+      </concept>
+      <concept>
+        <code value="71232009"/>
+        <display value="Borderline phyllodes tumor"/>
+      </concept>
+      <concept>
+        <code value="71173004"/>
+        <display value="Compression"/>
+      </concept>
+      <concept>
+        <code value="71072006"/>
+        <display value="Angiodysplasia"/>
+      </concept>
+      <concept>
+        <code value="70984001"/>
+        <display value="Serpentine aneurysm"/>
+      </concept>
+      <concept>
+        <code value="70831001"/>
+        <display value="Papular rash"/>
+      </concept>
+      <concept>
+        <code value="70819003"/>
+        <display value="Erythema"/>
+      </concept>
+      <concept>
+        <code value="70594002"/>
+        <display value="Amelanotic melanoma"/>
+      </concept>
+      <concept>
+        <code value="70310009"/>
+        <display value="Schistocyte"/>
+      </concept>
+      <concept>
+        <code value="70179006"/>
+        <display value="Cholangiocarcinoma"/>
+      </concept>
+      <concept>
+        <code value="70048005"/>
+        <display value="Superficial foreign body"/>
+      </concept>
+      <concept>
+        <code value="70033004"/>
+        <display value="Torus"/>
+      </concept>
+      <concept>
+        <code value="69310004"/>
+        <display value="Intestinal metaplasia"/>
+      </concept>
+      <concept>
+        <code value="68790008"/>
+        <display value="Amyloid deposition"/>
+      </concept>
+      <concept>
+        <code value="67824002"/>
+        <display value="Lymphosarcoma"/>
+      </concept>
+      <concept>
+        <code value="67798003"/>
+        <display value="Congenital premature fusion"/>
+      </concept>
+      <concept>
+        <code value="67617000"/>
+        <display value="Intraductal hyperplasia"/>
+      </concept>
+      <concept>
+        <code value="67409000"/>
+        <display value="Fecal impaction"/>
+      </concept>
+      <concept>
+        <code value="66954000"/>
+        <display value="Bone cyst"/>
+      </concept>
+      <concept>
+        <code value="66696003"/>
+        <display value="Empyema"/>
+      </concept>
+      <concept>
+        <code value="66146003"/>
+        <display value="Sarcoid type granuloma"/>
+      </concept>
+      <concept>
+        <code value="65692009"/>
+        <display value="Spindle cell carcinoma"/>
+      </concept>
+      <concept>
+        <code value="65413006"/>
+        <display value="Caries"/>
+      </concept>
+      <concept>
+        <code value="64770007"/>
+        <display value="Nodular regeneration"/>
+      </concept>
+      <concept>
+        <code value="64305001"/>
+        <display value="Urticaria"/>
+      </concept>
+      <concept>
+        <code value="64204000"/>
+        <display value="Squamous cell carcinoma, metastatic"/>
+      </concept>
+      <concept>
+        <code value="63280002"/>
+        <display value="Dendritic ulcer"/>
+      </concept>
+      <concept>
+        <code value="63264007"/>
+        <display value="Carcinosarcoma"/>
+      </concept>
+      <concept>
+        <code value="63211008"/>
+        <display value="Synovial sarcoma"/>
+      </concept>
+      <concept>
+        <code value="63130001"/>
+        <display value="Surgical scar"/>
+      </concept>
+      <concept>
+        <code value="62814004"/>
+        <display value="Chronic ulcerative inflammation"/>
+      </concept>
+      <concept>
+        <code value="62570005"/>
+        <display value="Microcytic hypochromic erythrocyte"/>
+      </concept>
+      <concept>
+        <code value="62312006"/>
+        <display value="Acute exudative inflammation"/>
+      </concept>
+      <concept>
+        <code value="62189002"/>
+        <display value="Ulcerated atheromatous plaque"/>
+      </concept>
+      <concept>
+        <code value="62064005"/>
+        <display value="Mesothelioma, malignant"/>
+      </concept>
+      <concept>
+        <code value="62047007"/>
+        <display value="Hyperplastic polyp"/>
+      </concept>
+      <concept>
+        <code value="61814002"/>
+        <display value="Dysplastic nevus"/>
+      </concept>
+      <concept>
+        <code value="61494005"/>
+        <display value="Impaction"/>
+      </concept>
+      <concept>
+        <code value="61295008"/>
+        <display value="Congenital abnormal number"/>
+      </concept>
+      <concept>
+        <code value="61051007"/>
+        <display value="Anteroposterior abnormal curvature"/>
+      </concept>
+      <concept>
+        <code value="60963005"/>
+        <display value="Dystrophic calcification"/>
+      </concept>
+      <concept>
+        <code value="60549007"/>
+        <display value="Multiple endocrine adenomas"/>
+      </concept>
+      <concept>
+        <code value="59984009"/>
+        <display value="Prolapsed varices"/>
+      </concept>
+      <concept>
+        <code value="59843005"/>
+        <display value="Furuncle"/>
+      </concept>
+      <concept>
+        <code value="59576002"/>
+        <display value="Growth retardation"/>
+      </concept>
+      <concept>
+        <code value="59091005"/>
+        <display value="Open wound"/>
+      </concept>
+      <concept>
+        <code value="58909005"/>
+        <display value="Amputated structure"/>
+      </concept>
+      <concept>
+        <code value="58898007"/>
+        <display value="Acute serous inflammation"/>
+      </concept>
+      <concept>
+        <code value="58405006"/>
+        <display value="Keloid"/>
+      </concept>
+      <concept>
+        <code value="57977008"/>
+        <display value="Chronic fibrosis"/>
+      </concept>
+      <concept>
+        <code value="57754000"/>
+        <display value="Varicose aneurysm"/>
+      </concept>
+      <concept>
+        <code value="57697001"/>
+        <display value="Growth alteration"/>
+      </concept>
+      <concept>
+        <code value="57597008"/>
+        <display value="Adenosis"/>
+      </concept>
+      <concept>
+        <code value="57596004"/>
+        <display value="Oxyphilic adenocarcinoma"/>
+      </concept>
+      <concept>
+        <code value="57174000"/>
+        <display value="Focal amyloid"/>
+      </concept>
+      <concept>
+        <code value="57141000"/>
+        <display value="Apocrine adenocarcinoma"/>
+      </concept>
+      <concept>
+        <code value="57052009"/>
+        <display value="Bleeding varices"/>
+      </concept>
+      <concept>
+        <code value="57048009"/>
+        <display value="Contracture"/>
+      </concept>
+      <concept>
+        <code value="56768003"/>
+        <display value="Gunshot wound"/>
+      </concept>
+      <concept>
+        <code value="56468002"/>
+        <display value="Venous hemangioma"/>
+      </concept>
+      <concept>
+        <code value="56457002"/>
+        <display value="Congenital atresia"/>
+      </concept>
+      <concept>
+        <code value="56381008"/>
+        <display value="Calculus"/>
+      </concept>
+      <concept>
+        <code value="56246009"/>
+        <display value="Hypertrophy"/>
+      </concept>
+      <concept>
+        <code value="56208002"/>
+        <display value="Ulcer"/>
+      </concept>
+      <concept>
+        <code value="56021002"/>
+        <display value="Seroma"/>
+      </concept>
+      <concept>
+        <code value="55641003"/>
+        <display value="Infarct"/>
+      </concept>
+      <concept>
+        <code value="55584005"/>
+        <display value="Embolus"/>
+      </concept>
+      <concept>
+        <code value="55470003"/>
+        <display value="Acute infarct"/>
+      </concept>
+      <concept>
+        <code value="55199003"/>
+        <display value="Hypoplasia"/>
+      </concept>
+      <concept>
+        <code value="55150002"/>
+        <display value="Follicular lymphoma"/>
+      </concept>
+      <concept>
+        <code value="55075001"/>
+        <display value="Bleeding ulcer"/>
+      </concept>
+      <concept>
+        <code value="55021007"/>
+        <display value="Follicular adenoma"/>
+      </concept>
+      <concept>
+        <code value="54493002"/>
+        <display value="Intramural hematoma"/>
+      </concept>
+      <concept>
+        <code value="54087003"/>
+        <display value="Hairy cell leukemia"/>
+      </concept>
+      <concept>
+        <code value="54002007"/>
+        <display value="Saccular aneurysm"/>
+      </concept>
+      <concept>
+        <code value="53788007"/>
+        <display value="Vesicular rash"/>
+      </concept>
+      <concept>
+        <code value="53654007"/>
+        <display value="Fibrosarcoma"/>
+      </concept>
+      <concept>
+        <code value="53237008"/>
+        <display value="Anaplastic large cell lymphoma, T cell and Null cell type"/>
+      </concept>
+      <concept>
+        <code value="53151000"/>
+        <display value="Fatty streaks"/>
+      </concept>
+      <concept>
+        <code value="52988006"/>
+        <display value="Lesion"/>
+      </concept>
+      <concept>
+        <code value="52856002"/>
+        <display value="Cylindroid aneurysm"/>
+      </concept>
+      <concept>
+        <code value="52329006"/>
+        <display value="Fracture, open"/>
+      </concept>
+      <concept>
+        <code value="52299001"/>
+        <display value="Osteochondroma"/>
+      </concept>
+      <concept>
+        <code value="52248008"/>
+        <display value="Hodgkin lymphoma, nodular sclerosis"/>
+      </concept>
+      <concept>
+        <code value="52090005"/>
+        <display value="Malunion of fracture"/>
+      </concept>
+      <concept>
+        <code value="51936002"/>
+        <display value="Deposition of foreign material"/>
+      </concept>
+      <concept>
+        <code value="51697005"/>
+        <display value="Cutaneous hamartoma"/>
+      </concept>
+      <concept>
+        <code value="51670003"/>
+        <display value="Mural thrombus"/>
+      </concept>
+      <concept>
+        <code value="51668007"/>
+        <display value="Mycotic aneurysm"/>
+      </concept>
+      <concept>
+        <code value="51404004"/>
+        <display value="Fibrous bands"/>
+      </concept>
+      <concept>
+        <code value="51398009"/>
+        <display value="Hamartoma"/>
+      </concept>
+      <concept>
+        <code value="51092000"/>
+        <display value="B-cell chronic lymphocytic leukemia/small lymphocytic lymphoma"/>
+      </concept>
+      <concept>
+        <code value="51083003"/>
+        <display value="Pigment deposition"/>
+      </concept>
+      <concept>
+        <code value="50978000"/>
+        <display value="Leukoplakia"/>
+      </concept>
+      <concept>
+        <code value="50960005"/>
+        <display value="Hemorrhage"/>
+      </concept>
+      <concept>
+        <code value="50916005"/>
+        <display value="Fibrosing adenosis"/>
+      </concept>
+      <concept>
+        <code value="50399007"/>
+        <display value="Closed dislocation"/>
+      </concept>
+      <concept>
+        <code value="50173008"/>
+        <display value="Complete obstruction"/>
+      </concept>
+      <concept>
+        <code value="50091001"/>
+        <display value="Petechia"/>
+      </concept>
+      <concept>
+        <code value="49938009"/>
+        <display value="Drepanocyte"/>
+      </concept>
+      <concept>
+        <code value="49409001"/>
+        <display value="Compound nevus"/>
+      </concept>
+      <concept>
+        <code value="49247009"/>
+        <display value="Protein deposition"/>
+      </concept>
+      <concept>
+        <code value="49210009"/>
+        <display value="Posterior closed dislocation"/>
+      </concept>
+      <concept>
+        <code value="49158009"/>
+        <display value="Emphysema"/>
+      </concept>
+      <concept>
+        <code value="48707006"/>
+        <display value="Growth acceleration"/>
+      </concept>
+      <concept>
+        <code value="48554007"/>
+        <display value="Enterochromaffin cell carcinoid"/>
+      </concept>
+      <concept>
+        <code value="48434008"/>
+        <display value="Atheroma"/>
+      </concept>
+      <concept>
+        <code value="48333001"/>
+        <display value="Burn injury"/>
+      </concept>
+      <concept>
+        <code value="48010006"/>
+        <display value="Melanosis"/>
+      </concept>
+      <concept>
+        <code value="47725002"/>
+        <display value="Maculopapular rash"/>
+      </concept>
+      <concept>
+        <code value="47631006"/>
+        <display value="Adventitial degeneration"/>
+      </concept>
+      <concept>
+        <code value="47488001"/>
+        <display value="Intracystic papillary adenoma"/>
+      </concept>
+      <concept>
+        <code value="47393002"/>
+        <display value="Fissure"/>
+      </concept>
+      <concept>
+        <code value="47284001"/>
+        <display value="Aggressive fibromatosis"/>
+      </concept>
+      <concept>
+        <code value="47212006"/>
+        <display value="Linear atrophy"/>
+      </concept>
+      <concept>
+        <code value="47002008"/>
+        <display value="Pustule"/>
+      </concept>
+      <concept>
+        <code value="46675001"/>
+        <display value="Osteoporotic fracture"/>
+      </concept>
+      <concept>
+        <code value="46595003"/>
+        <display value="Deposition"/>
+      </concept>
+      <concept>
+        <code value="46541008"/>
+        <display value="Second degree burn injury"/>
+      </concept>
+      <concept>
+        <code value="46212000"/>
+        <display value="Juvenile fibroadenoma"/>
+      </concept>
+      <concept>
+        <code value="45959006"/>
+        <display value="Acute suppurative inflammation"/>
+      </concept>
+      <concept>
+        <code value="45771005"/>
+        <display value="Acute bleeding ulcer"/>
+      </concept>
+      <concept>
+        <code value="45647009"/>
+        <display value="Granuloma"/>
+      </concept>
+      <concept>
+        <code value="45559001"/>
+        <display value="Focal fibrosis"/>
+      </concept>
+      <concept>
+        <code value="45486003"/>
+        <display value="Aplasia"/>
+      </concept>
+      <concept>
+        <code value="45027002"/>
+        <display value="Inversion"/>
+      </concept>
+      <concept>
+        <code value="45024009"/>
+        <display value="Hepatoblastoma"/>
+      </concept>
+      <concept>
+        <code value="44328006"/>
+        <display value="Granulomatosis"/>
+      </concept>
+      <concept>
+        <code value="44132006"/>
+        <display value="Abscess morphology"/>
+      </concept>
+      <concept>
+        <code value="43865008"/>
+        <display value="Acute hemorrhagic inflammation"/>
+      </concept>
+      <concept>
+        <code value="43846000"/>
+        <display value="Sclerosis"/>
+      </concept>
+      <concept>
+        <code value="43526002"/>
+        <display value="Operative site"/>
+      </concept>
+      <concept>
+        <code value="43327007"/>
+        <display value="Acantholysis"/>
+      </concept>
+      <concept>
+        <code value="43299000"/>
+        <display value="Miliary aneurysm"/>
+      </concept>
+      <concept>
+        <code value="43127003"/>
+        <display value="Lewy bodies"/>
+      </concept>
+      <concept>
+        <code value="42717009"/>
+        <display value="Teratoma, benign"/>
+      </concept>
+      <concept>
+        <code value="42685002"/>
+        <display value="Adhesion"/>
+      </concept>
+      <concept>
+        <code value="42577003"/>
+        <display value="Stab wound"/>
+      </concept>
+      <concept>
+        <code value="42508007"/>
+        <display value="Fracture, closed, comminuted"/>
+      </concept>
+      <concept>
+        <code value="42182000"/>
+        <display value="Cystic medial necrosis"/>
+      </concept>
+      <concept>
+        <code value="42164003"/>
+        <display value="Posterior displacement"/>
+      </concept>
+      <concept>
+        <code value="41919003"/>
+        <display value="Juvenile carcinoma of the breast"/>
+      </concept>
+      <concept>
+        <code value="41915009"/>
+        <display value="Stasis ulcer"/>
+      </concept>
+      <concept>
+        <code value="41796003"/>
+        <display value="Anastomosis"/>
+      </concept>
+      <concept>
+        <code value="41699000"/>
+        <display value="Effusion"/>
+      </concept>
+      <concept>
+        <code value="41605001"/>
+        <display value="Ulcerative inflammation"/>
+      </concept>
+      <concept>
+        <code value="41570003"/>
+        <display value="Carbuncle"/>
+      </concept>
+      <concept>
+        <code value="41444002"/>
+        <display value="Invagination"/>
+      </concept>
+      <concept>
+        <code value="41329004"/>
+        <display value="Polyp"/>
+      </concept>
+      <concept>
+        <code value="41086002"/>
+        <display value="Congenital smallness"/>
+      </concept>
+      <concept>
+        <code value="41034006"/>
+        <display value="Suppurative inflammation"/>
+      </concept>
+      <concept>
+        <code value="40829002"/>
+        <display value="Acute edema"/>
+      </concept>
+      <concept>
+        <code value="40772000"/>
+        <display value="Fibrous plaque"/>
+      </concept>
+      <concept>
+        <code value="40518009"/>
+        <display value="Acute superficial ulcer"/>
+      </concept>
+      <concept>
+        <code value="40411000"/>
+        <display value="Follicular lymphoma, grade 3"/>
+      </concept>
+      <concept>
+        <code value="40009002"/>
+        <display value="Craniopharyngioma"/>
+      </concept>
+      <concept>
+        <code value="39718000"/>
+        <display value="Congenital failure to migrate"/>
+      </concept>
+      <concept>
+        <code value="39391009"/>
+        <display value="Chronic serous inflammation"/>
+      </concept>
+      <concept>
+        <code value="39000009"/>
+        <display value="Hemangiosarcoma"/>
+      </concept>
+      <concept>
+        <code value="38785003"/>
+        <display value="Air leakage"/>
+      </concept>
+      <concept>
+        <code value="38716007"/>
+        <display value="Atherosclerosis"/>
+      </concept>
+      <concept>
+        <code value="38542009"/>
+        <display value="Nodular glomerulosclerosis"/>
+      </concept>
+      <concept>
+        <code value="38109001"/>
+        <display value="Osseous metaplasia"/>
+      </concept>
+      <concept>
+        <code value="38045000"/>
+        <display value="Cold injury"/>
+      </concept>
+      <concept>
+        <code value="37904008"/>
+        <display value="Chronic bleeding ulcer"/>
+      </concept>
+      <concept>
+        <code value="37782003"/>
+        <display value="Damage"/>
+      </concept>
+      <concept>
+        <code value="37719003"/>
+        <display value="Milium"/>
+      </concept>
+      <concept>
+        <code value="37279009"/>
+        <display value="Amyloid tumor"/>
+      </concept>
+      <concept>
+        <code value="37205004"/>
+        <display value="Superficial wound"/>
+      </concept>
+      <concept>
+        <code value="37068007"/>
+        <display value="Lateral displacement"/>
+      </concept>
+      <concept>
+        <code value="37058002"/>
+        <display value="Foreign body giant cell granuloma"/>
+      </concept>
+      <concept>
+        <code value="36850000"/>
+        <display value="Retention"/>
+      </concept>
+      <concept>
+        <code value="36639000"/>
+        <display value="Psoriasiform rash"/>
+      </concept>
+      <concept>
+        <code value="36504009"/>
+        <display value="Ankylosis"/>
+      </concept>
+      <concept>
+        <code value="36390009"/>
+        <display value="Chronic suppurative inflammation"/>
+      </concept>
+      <concept>
+        <code value="36195005"/>
+        <display value="Nodular hyperplasia"/>
+      </concept>
+      <concept>
+        <code value="36191001"/>
+        <display value="Perforation"/>
+      </concept>
+      <concept>
+        <code value="36024000"/>
+        <display value="Gangrene"/>
+      </concept>
+      <concept>
+        <code value="35933005"/>
+        <display value="Laceration"/>
+      </concept>
+      <concept>
+        <code value="35828005"/>
+        <display value="Malacia"/>
+      </concept>
+      <concept>
+        <code value="35601003"/>
+        <display value="Monoclonal gammopathy of undetermined significance"/>
+      </concept>
+      <concept>
+        <code value="35566002"/>
+        <display value="Hematoma"/>
+      </concept>
+      <concept>
+        <code value="34882000"/>
+        <display value="Giant fibroadenoma"/>
+      </concept>
+      <concept>
+        <code value="34807008"/>
+        <display value="Congenital incomplete expansion"/>
+      </concept>
+      <concept>
+        <code value="34494002"/>
+        <display value="Communicating cerebrospinal fluid retention"/>
+      </concept>
+      <concept>
+        <code value="34360000"/>
+        <display value="Fibrous histiocytoma, malignant"/>
+      </concept>
+      <concept>
+        <code value="34337008"/>
+        <display value="Prolactinoma"/>
+      </concept>
+      <concept>
+        <code value="34058006"/>
+        <display value="Bowing deformity"/>
+      </concept>
+      <concept>
+        <code value="33889003"/>
+        <display value="Atypical lobular hyperplasia"/>
+      </concept>
+      <concept>
+        <code value="33851008"/>
+        <display value="Subacute necrosis"/>
+      </concept>
+      <concept>
+        <code value="33593002"/>
+        <display value="Vascular wall degeneration"/>
+      </concept>
+      <concept>
+        <code value="33377007"/>
+        <display value="Cavernous hemangioma"/>
+      </concept>
+      <concept>
+        <code value="33080003"/>
+        <display value="Fracture, ununited"/>
+      </concept>
+      <concept>
+        <code value="32968003"/>
+        <display value="Inflammatory carcinoma"/>
+      </concept>
+      <concept>
+        <code value="32913002"/>
+        <display value="Medullary carcinoma"/>
+      </concept>
+      <concept>
+        <code value="32693004"/>
+        <display value="Demyelination"/>
+      </concept>
+      <concept>
+        <code value="32651000"/>
+        <display value="Arteriolosclerosis with fibrinoid necrosis"/>
+      </concept>
+      <concept>
+        <code value="32416003"/>
+        <display value="Atypical hyperplasia"/>
+      </concept>
+      <concept>
+        <code value="31980008"/>
+        <display value="Necrotizing inflammation"/>
+      </concept>
+      <concept>
+        <code value="31807009"/>
+        <display value="Persistent embryonic structure"/>
+      </concept>
+      <concept>
+        <code value="31739005"/>
+        <display value="Lateral abnormal curvature"/>
+      </concept>
+      <concept>
+        <code value="31653004"/>
+        <display value="Fibromuscular dysplasia"/>
+      </concept>
+      <concept>
+        <code value="31186001"/>
+        <display value="Chondroma"/>
+      </concept>
+      <concept>
+        <code value="31113003"/>
+        <display value="Diverticulum"/>
+      </concept>
+      <concept>
+        <code value="31069005"/>
+        <display value="Fibroepithelial polyp"/>
+      </concept>
+      <concept>
+        <code value="30962008"/>
+        <display value="Acute myelomonocytic leukemia"/>
+      </concept>
+      <concept>
+        <code value="30924005"/>
+        <display value="Rhabdomyosarcoma"/>
+      </concept>
+      <concept>
+        <code value="30812002"/>
+        <display value="Overriding structures"/>
+      </concept>
+      <concept>
+        <code value="30425001"/>
+        <display value="Osteolysis"/>
+      </concept>
+      <concept>
+        <code value="30285000"/>
+        <display value="Verruca"/>
+      </concept>
+      <concept>
+        <code value="30217000"/>
+        <display value="Proliferation"/>
+      </concept>
+      <concept>
+        <code value="30213001"/>
+        <display value="Lymphatic edema"/>
+      </concept>
+      <concept>
+        <code value="30156004"/>
+        <display value="Cribriform carcinoma"/>
+      </concept>
+      <concept>
+        <code value="30098003"/>
+        <display value="Hyperemia"/>
+      </concept>
+      <concept>
+        <code value="29696001"/>
+        <display value="Prolapse"/>
+      </concept>
+      <concept>
+        <code value="29483008"/>
+        <display value="Calcified atheromatous plaque"/>
+      </concept>
+      <concept>
+        <code value="29185008"/>
+        <display value="Fatty degeneration"/>
+      </concept>
+      <concept>
+        <code value="28960008"/>
+        <display value="Arteriosclerosis"/>
+      </concept>
+      <concept>
+        <code value="28950004"/>
+        <display value="Acute promyelocytic leukemia with PML::RARA fusion"/>
+      </concept>
+      <concept>
+        <code value="28727003"/>
+        <display value="Odontogenic cyst"/>
+      </concept>
+      <concept>
+        <code value="28087009"/>
+        <display value="Delayed union of fracture"/>
+      </concept>
+      <concept>
+        <code value="27925004"/>
+        <display value="Nodule"/>
+      </concept>
+      <concept>
+        <code value="27881006"/>
+        <display value="Bony callus"/>
+      </concept>
+      <concept>
+        <code value="27876002"/>
+        <display value="Multiple infarcts"/>
+      </concept>
+      <concept>
+        <code value="27551008"/>
+        <display value="Stricture"/>
+      </concept>
+      <concept>
+        <code value="27515001"/>
+        <display value="Avulsion"/>
+      </concept>
+      <concept>
+        <code value="27367001"/>
+        <display value="Wrinkle"/>
+      </concept>
+      <concept>
+        <code value="27317008"/>
+        <display value="Complete transposition"/>
+      </concept>
+      <concept>
+        <code value="27266007"/>
+        <display value="Pseudo-obstruction"/>
+      </concept>
+      <concept>
+        <code value="27090000"/>
+        <display value="Transitional cell carcinoma"/>
+      </concept>
+      <concept>
+        <code value="27058005"/>
+        <display value="Necrotizing granulomatous inflammation"/>
+      </concept>
+      <concept>
+        <code value="26996000"/>
+        <display value="Hyperkeratosis"/>
+      </concept>
+      <concept>
+        <code value="26696002"/>
+        <display value="Chemical burn"/>
+      </concept>
+      <concept>
+        <code value="26396009"/>
+        <display value="Subluxation"/>
+      </concept>
+      <concept>
+        <code value="26317001"/>
+        <display value="Acute ulcer"/>
+      </concept>
+      <concept>
+        <code value="26036001"/>
+        <display value="Obstruction"/>
+      </concept>
+      <concept>
+        <code value="25910003"/>
+        <display value="Papillary carcinoma"/>
+      </concept>
+      <concept>
+        <code value="25889007"/>
+        <display value="Benign fibrous histiocytoma"/>
+      </concept>
+      <concept>
+        <code value="25723000"/>
+        <display value="Dysplasia"/>
+      </concept>
+      <concept>
+        <code value="25694009"/>
+        <display value="Papule"/>
+      </concept>
+      <concept>
+        <code value="25499005"/>
+        <display value="Seborrheic keratosis"/>
+      </concept>
+      <concept>
+        <code value="25370001"/>
+        <display value="Hepatocellular carcinoma"/>
+      </concept>
+      <concept>
+        <code value="25322007"/>
+        <display value="Dilatation"/>
+      </concept>
+      <concept>
+        <code value="25201003"/>
+        <display value="Epidermal nevus"/>
+      </concept>
+      <concept>
+        <code value="25081006"/>
+        <display value="Nephroblastoma"/>
+      </concept>
+      <concept>
+        <code value="24811005"/>
+        <display value="Serous inflammation"/>
+      </concept>
+      <concept>
+        <code value="24551003"/>
+        <display value="Arteriovenous malformation"/>
+      </concept>
+      <concept>
+        <code value="24531002"/>
+        <display value="Complex caries"/>
+      </concept>
+      <concept>
+        <code value="24389009"/>
+        <display value="Injection site granuloma"/>
+      </concept>
+      <concept>
+        <code value="24072005"/>
+        <display value="Acute leukemia"/>
+      </concept>
+      <concept>
+        <code value="24016004"/>
+        <display value="Corrected transposition"/>
+      </concept>
+      <concept>
+        <code value="23382007"/>
+        <display value="Stress fracture"/>
+      </concept>
+      <concept>
+        <code value="22694002"/>
+        <display value="Adenocarcinoma with apocrine metaplasia"/>
+      </concept>
+      <concept>
+        <code value="22687000"/>
+        <display value="Large cell carcinoma"/>
+      </concept>
+      <concept>
+        <code value="22641006"/>
+        <display value="Serous effusion"/>
+      </concept>
+      <concept>
+        <code value="22640007"/>
+        <display value="Pathologic fracture"/>
+      </concept>
+      <concept>
+        <code value="22427006"/>
+        <display value="Elastoid degeneration"/>
+      </concept>
+      <concept>
+        <code value="22341001"/>
+        <display value="Thrombosed varices"/>
+      </concept>
+      <concept>
+        <code value="22217002"/>
+        <display value="Mixed glioma"/>
+      </concept>
+      <concept>
+        <code value="22197008"/>
+        <display value="Burkitt cell leukemia"/>
+      </concept>
+      <concept>
+        <code value="22039006"/>
+        <display value="Ruptured aneurysm"/>
+      </concept>
+      <concept>
+        <code value="22036004"/>
+        <display value="Pseudoaneurysm"/>
+      </concept>
+      <concept>
+        <code value="22024005"/>
+        <display value="Lipoadenoma"/>
+      </concept>
+      <concept>
+        <code value="21947006"/>
+        <display value="Compression fracture"/>
+      </concept>
+      <concept>
+        <code value="21465002"/>
+        <display value="Abnormally short and broad growth"/>
+      </concept>
+      <concept>
+        <code value="21326004"/>
+        <display value="Combined small cell carcinoma"/>
+      </concept>
+      <concept>
+        <code value="21008007"/>
+        <display value="Cystadenocarcinoma"/>
+      </concept>
+      <concept>
+        <code value="20946005"/>
+        <display value="Fracture, closed"/>
+      </concept>
+      <concept>
+        <code value="20776008"/>
+        <display value="Adenolymphoma"/>
+      </concept>
+      <concept>
+        <code value="20741006"/>
+        <display value="Hydrops"/>
+      </concept>
+      <concept>
+        <code value="20717008"/>
+        <display value="Atherosclerotic fibrous plaque"/>
+      </concept>
+      <concept>
+        <code value="20601007"/>
+        <display value="Flattening deformity"/>
+      </concept>
+      <concept>
+        <code value="20456003"/>
+        <display value="Loose body"/>
+      </concept>
+      <concept>
+        <code value="20369000"/>
+        <display value="Chronic mucous inflammation"/>
+      </concept>
+      <concept>
+        <code value="20365006"/>
+        <display value="Squamous intraepithelial neoplasia, high grade"/>
+      </concept>
+      <concept>
+        <code value="19952003"/>
+        <display value="Elastic vascular sclerosis"/>
+      </concept>
+      <concept>
+        <code value="19940005"/>
+        <display value="Lichenification"/>
+      </concept>
+      <concept>
+        <code value="19929002"/>
+        <display value="Angiomyolipoma"/>
+      </concept>
+      <concept>
+        <code value="19928005"/>
+        <display value="Fibromatosis"/>
+      </concept>
+      <concept>
+        <code value="19921004"/>
+        <display value="Crushing injury (morphology)"/>
+      </concept>
+      <concept>
+        <code value="19909003"/>
+        <display value="Complement deposit"/>
+      </concept>
+      <concept>
+        <code value="19897006"/>
+        <display value="Malignant peripheral nerve sheath tumor"/>
+      </concept>
+      <concept>
+        <code value="19685008"/>
+        <display value="Stasis"/>
+      </concept>
+      <concept>
+        <code value="19672005"/>
+        <display value="Condyloma"/>
+      </concept>
+      <concept>
+        <code value="19633006"/>
+        <display value="Mucous cyst"/>
+      </concept>
+      <concept>
+        <code value="19571008"/>
+        <display value="Multiple open wounds"/>
+      </concept>
+      <concept>
+        <code value="19340000"/>
+        <display value="Malignant lymphoma, lymphoplasmacytic"/>
+      </concept>
+      <concept>
+        <code value="19227008"/>
+        <display value="Foreign body"/>
+      </concept>
+      <concept>
+        <code value="18802003"/>
+        <display value="External fistula"/>
+      </concept>
+      <concept>
+        <code value="18695008"/>
+        <display value="Hyaline body"/>
+      </concept>
+      <concept>
+        <code value="18655006"/>
+        <display value="Depigmentation"/>
+      </concept>
+      <concept>
+        <code value="18126004"/>
+        <display value="Diverticulitis"/>
+      </concept>
+      <concept>
+        <code value="18115005"/>
+        <display value="Pathologic calcification"/>
+      </concept>
+      <concept>
+        <code value="18016009"/>
+        <display value="Phlebosclerosis"/>
+      </concept>
+      <concept>
+        <code value="17941002"/>
+        <display value="Arteriolosclerosis"/>
+      </concept>
+      <concept>
+        <code value="17672001"/>
+        <display value="Accumulation of fluid"/>
+      </concept>
+      <concept>
+        <code value="17372009"/>
+        <display value="Granuloma pyogenicum"/>
+      </concept>
+      <concept>
+        <code value="17307002"/>
+        <display value="Transudate"/>
+      </concept>
+      <concept>
+        <code value="16759001"/>
+        <display value="Chronic eosinophilic inflammation"/>
+      </concept>
+      <concept>
+        <code value="16640008"/>
+        <display value="Separation"/>
+      </concept>
+      <concept>
+        <code value="16277007"/>
+        <display value="Collapse"/>
+      </concept>
+      <concept>
+        <code value="16080000"/>
+        <display value="Fibrin deposition"/>
+      </concept>
+      <concept>
+        <code value="15690004"/>
+        <display value="Tortuosity"/>
+      </concept>
+      <concept>
+        <code value="15498001"/>
+        <display value="Superficial ulcer"/>
+      </concept>
+      <concept>
+        <code value="15074003"/>
+        <display value="Neurogenic ulcer"/>
+      </concept>
+      <concept>
+        <code value="14799000"/>
+        <display value="Neoplasm, metastatic"/>
+      </concept>
+      <concept>
+        <code value="14350002"/>
+        <display value="Angiomatosis"/>
+      </concept>
+      <concept>
+        <code value="14156004"/>
+        <display value="Racemose aneurysm"/>
+      </concept>
+      <concept>
+        <code value="13924000"/>
+        <display value="Wound"/>
+      </concept>
+      <concept>
+        <code value="13713005"/>
+        <display value="Thromboembolus"/>
+      </concept>
+      <concept>
+        <code value="13705009"/>
+        <display value="Partial obstruction"/>
+      </concept>
+      <concept>
+        <code value="13467000"/>
+        <display value="Pseudocyst"/>
+      </concept>
+      <concept>
+        <code value="13331008"/>
+        <display value="Atrophy"/>
+      </concept>
+      <concept>
+        <code value="13018008"/>
+        <display value="Neovascularization"/>
+      </concept>
+      <concept>
+        <code value="12856003"/>
+        <display value="Varix"/>
+      </concept>
+      <concept>
+        <code value="12835000"/>
+        <display value="Multiple injuries"/>
+      </concept>
+      <concept>
+        <code value="12794006"/>
+        <display value="Nonsuppurative inflammation"/>
+      </concept>
+      <concept>
+        <code value="12747003"/>
+        <display value="Microcalcification"/>
+      </concept>
+      <concept>
+        <code value="12582004"/>
+        <display value="Internal fistula"/>
+      </concept>
+      <concept>
+        <code value="12402003"/>
+        <display value="Scar"/>
+      </concept>
+      <concept>
+        <code value="12393003"/>
+        <display value="Purpura"/>
+      </concept>
+      <concept>
+        <code value="12169001"/>
+        <display value="Granular cell tumor"/>
+      </concept>
+      <concept>
+        <code value="12167004"/>
+        <display value="Lymphocyst"/>
+      </concept>
+      <concept>
+        <code value="12143007"/>
+        <display value="Embryonic cyst"/>
+      </concept>
+      <concept>
+        <code value="11671000"/>
+        <display value="Adenoid cystic carcinoma"/>
+      </concept>
+      <concept>
+        <code value="11639007"/>
+        <display value="Puncture"/>
+      </concept>
+      <concept>
+        <code value="11224003"/>
+        <display value="Chronic membranous inflammation"/>
+      </concept>
+      <concept>
+        <code value="10690002"/>
+        <display value="Atheromatous embolus"/>
+      </concept>
+      <concept>
+        <code value="10376009"/>
+        <display value="Papillary carcinoma in situ"/>
+      </concept>
+      <concept>
+        <code value="10122001"/>
+        <display value="Accretion"/>
+      </concept>
+      <concept>
+        <code value="9499001"/>
+        <display value="Multiple polyps"/>
+      </concept>
+      <concept>
+        <code value="9196004"/>
+        <display value="Staghorn calculus"/>
+      </concept>
+      <concept>
+        <code value="8360001"/>
+        <display value="Pleomorphic adenoma"/>
+      </concept>
+      <concept>
+        <code value="7939003"/>
+        <display value="Localized edema"/>
+      </concept>
+      <concept>
+        <code value="7010000"/>
+        <display value="Carcinomatosis"/>
+      </concept>
+      <concept>
+        <code value="7003006"/>
+        <display value="Chronic hemorrhage"/>
+      </concept>
+      <concept>
+        <code value="6660000"/>
+        <display value="Atypical intraductal hyperplasia"/>
+      </concept>
+      <concept>
+        <code value="6574001"/>
+        <display value="Necrosis"/>
+      </concept>
+      <concept>
+        <code value="6266001"/>
+        <display value="Granulomatous inflammation"/>
+      </concept>
+      <concept>
+        <code value="6219000"/>
+        <display value="Neoplasm, malignant, uncertain whether primary or metastatic"/>
+      </concept>
+      <concept>
+        <code value="6081001"/>
+        <display value="Deformity"/>
+      </concept>
+      <concept>
+        <code value="5755004"/>
+        <display value="Cystic hyperplasia"/>
+      </concept>
+      <concept>
+        <code value="5399005"/>
+        <display value="Dissecting hemorrhage"/>
+      </concept>
+      <concept>
+        <code value="5257006"/>
+        <display value="Follicular adenocarcinoma"/>
+      </concept>
+      <concept>
+        <code value="5244003"/>
+        <display value="Intraductal papilloma"/>
+      </concept>
+      <concept>
+        <code value="5242004"/>
+        <display value="Synechia"/>
+      </concept>
+      <concept>
+        <code value="5052009"/>
+        <display value="Merkel cell carcinoma"/>
+      </concept>
+      <concept>
+        <code value="4950009"/>
+        <display value="Sezary syndrome"/>
+      </concept>
+      <concept>
+        <code value="4830009"/>
+        <display value="Hyperpigmentation"/>
+      </concept>
+      <concept>
+        <code value="4797003"/>
+        <display value="Papillary adenocarcinoma"/>
+      </concept>
+      <concept>
+        <code value="4720007"/>
+        <display value="Dystrophy"/>
+      </concept>
+      <concept>
+        <code value="4631006"/>
+        <display value="Tubular adenocarcinoma"/>
+      </concept>
+      <concept>
+        <code value="4538007"/>
+        <display value="Papulovesicular rash"/>
+      </concept>
+      <concept>
+        <code value="4532008"/>
+        <display value="Acute inflammation"/>
+      </concept>
+      <concept>
+        <code value="4196002"/>
+        <display value="Eversion"/>
+      </concept>
+      <concept>
+        <code value="4147007"/>
+        <display value="Mass"/>
+      </concept>
+      <concept>
+        <code value="3898006"/>
+        <display value="Neoplasm, benign"/>
+      </concept>
+      <concept>
+        <code value="3875003"/>
+        <display value="Tophus"/>
+      </concept>
+      <concept>
+        <code value="3839000"/>
+        <display value="Lipid-rich carcinoma"/>
+      </concept>
+      <concept>
+        <code value="3679006"/>
+        <display value="Polycystic change"/>
+      </concept>
+      <concept>
+        <code value="3404009"/>
+        <display value="Bite wound"/>
+      </concept>
+      <concept>
+        <code value="3380003"/>
+        <display value="Superficial injury"/>
+      </concept>
+      <concept>
+        <code value="2985005"/>
+        <display value="Paget's disease, mammary"/>
+      </concept>
+      <concept>
+        <code value="2763006"/>
+        <display value="Comedo"/>
+      </concept>
+      <concept>
+        <code value="2557004"/>
+        <display value="Chronic leukemia"/>
+      </concept>
+      <concept>
+        <code value="2227007"/>
+        <display value="Adrenal cortical carcinoma"/>
+      </concept>
+      <concept>
+        <code value="2052000"/>
+        <display value="Acute necrosis"/>
+      </concept>
+      <concept>
+        <code value="1806006"/>
+        <display value="Eruption"/>
+      </concept>
+      <concept>
+        <code value="1736008"/>
+        <display value="Anteversion"/>
+      </concept>
+      <concept>
+        <code value="1522000"/>
+        <display value="Plaque"/>
+      </concept>
+      <concept>
+        <code value="1338007"/>
+        <display value="Basal cell carcinoma"/>
+      </concept>
+      <concept>
+        <code value="985004"/>
+        <display value="Schwannoma"/>
+      </concept>
+      <concept>
+        <code value="856006"/>
+        <display value="Actinic keratosis"/>
+      </concept>
+      <concept>
+        <code value="803009"/>
+        <display value="Paraganglioma"/>
+      </concept>
+      <concept>
+        <code value="575006"/>
+        <display value="Cholesteatoma"/>
+      </concept>
+      <concept>
+        <code value="339008"/>
+        <display value="Blister"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

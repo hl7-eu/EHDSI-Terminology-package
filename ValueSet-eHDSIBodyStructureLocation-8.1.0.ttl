@@ -1,0 +1,100 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIBodyStructureLocation-8.1.0> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "eHDSIBodyStructureLocation-8.1.0"] ; # 
+  fhir:url [
+     fhir:v "http://terminology.ehdsi.eu/ValueSet/eHDSIBodyStructureLocation"^^xsd:anyURI ;
+     fhir:l <http://terminology.ehdsi.eu/ValueSet/eHDSIBodyStructureLocation>
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [
+       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
+       fhir:l <urn:ietf:rfc:3986>
+     ] ;
+     fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.80" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "0.2.0"] ; # 
+  fhir:name [ fhir:v "eHDSIBodyStructureLocation"] ; # 
+  fhir:title [ fhir:v "eHDSI Body Structure Location Qualifier"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-12-23T10:21:27+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 Europe"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 Europe" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://hl7europe.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This Value Set is used for the body structure location qualifier. Concepts modifying the anatomic location."] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+         fhir:l <http://snomed.info/sct>
+       ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "49370004" ] ;
+         fhir:display [ fhir:v "Lateral" ]
+       ] [
+         fhir:code [ fhir:v "264217000" ] ;
+         fhir:display [ fhir:v "Superior" ]
+       ] [
+         fhir:code [ fhir:v "261089000" ] ;
+         fhir:display [ fhir:v "Inferior" ]
+       ] [
+         fhir:code [ fhir:v "255551008" ] ;
+         fhir:display [ fhir:v "Posterior" ]
+       ] [
+         fhir:code [ fhir:v "7771000" ] ;
+         fhir:display [ fhir:v "Left" ]
+       ] [
+         fhir:code [ fhir:v "24028007" ] ;
+         fhir:display [ fhir:v "Right" ]
+       ] [
+         fhir:code [ fhir:v "261183002" ] ;
+         fhir:display [ fhir:v "Upper" ]
+       ] [
+         fhir:code [ fhir:v "261122009" ] ;
+         fhir:display [ fhir:v "Lower" ]
+       ] [
+         fhir:code [ fhir:v "255561001" ] ;
+         fhir:display [ fhir:v "Medial" ]
+       ] [
+         fhir:code [ fhir:v "46053002" ] ;
+         fhir:display [ fhir:v "Distal" ]
+       ] [
+         fhir:code [ fhir:v "40415009" ] ;
+         fhir:display [ fhir:v "Proximal" ]
+       ] [
+         fhir:code [ fhir:v "255549009" ] ;
+         fhir:display [ fhir:v "Anterior" ]
+       ] [
+         fhir:code [ fhir:v "26283006" ] ;
+         fhir:display [ fhir:v "Superficial" ]
+       ] [
+         fhir:code [ fhir:v "795002" ] ;
+         fhir:display [ fhir:v "Deep" ]
+       ] [
+         fhir:code [ fhir:v "57195005" ] ;
+         fhir:display [ fhir:v "Basal" ]
+       ] [
+         fhir:code [ fhir:v "3583002" ] ;
+         fhir:display [ fhir:v "Caudal" ]
+       ] [
+         fhir:code [ fhir:v "66787007" ] ;
+         fhir:display [ fhir:v "Cephalic" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

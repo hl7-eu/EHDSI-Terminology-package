@@ -1,0 +1,238 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIReactionAllergy-8.1.0> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "eHDSIReactionAllergy-8.1.0"] ; # 
+  fhir:url [
+     fhir:v "http://terminology.ehdsi.eu/ValueSet/eHDSIReactionAllergy"^^xsd:anyURI ;
+     fhir:l <http://terminology.ehdsi.eu/ValueSet/eHDSIReactionAllergy>
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [
+       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
+       fhir:l <urn:ietf:rfc:3986>
+     ] ;
+     fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.11" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "0.2.0"] ; # 
+  fhir:name [ fhir:v "eHDSIReactionAllergy"] ; # 
+  fhir:title [ fhir:v "eHDSI Reaction Allergy"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-12-23T10:21:27+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 Europe"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 Europe" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://hl7europe.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Value Set is used to encode clinical manifestation of the allergic reaction."] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+         fhir:l <http://snomed.info/sct>
+       ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "39579001" ] ;
+         fhir:display [ fhir:v "Anaphylaxis" ]
+       ] [
+         fhir:code [ fhir:v "195967001" ] ;
+         fhir:display [ fhir:v "Asthma" ]
+       ] [
+         fhir:code [ fhir:v "24079001" ] ;
+         fhir:display [ fhir:v "Atopic dermatitis" ]
+       ] [
+         fhir:code [ fhir:v "4386001" ] ;
+         fhir:display [ fhir:v "Bronchospasm" ]
+       ] [
+         fhir:code [ fhir:v "271759003" ] ;
+         fhir:display [ fhir:v "Bullous eruption" ]
+       ] [
+         fhir:code [ fhir:v "698247007" ] ;
+         fhir:display [ fhir:v "Cardiac arrhythmia" ]
+       ] [
+         fhir:code [ fhir:v "410430005" ] ;
+         fhir:display [ fhir:v "Cardiorespiratory arrest" ]
+       ] [
+         fhir:code [ fhir:v "9826008" ] ;
+         fhir:display [ fhir:v "Conjunctivitis" ]
+       ] [
+         fhir:code [ fhir:v "49727002" ] ;
+         fhir:display [ fhir:v "Cough" ]
+       ] [
+         fhir:code [ fhir:v "702809001" ] ;
+         fhir:display [ fhir:v "Drug reaction with eosinophilia and systemic symptoms" ]
+       ] [
+         fhir:code [ fhir:v "162290004" ] ;
+         fhir:display [ fhir:v "Dry eyes" ]
+       ] [
+         fhir:code [ fhir:v "43116000" ] ;
+         fhir:display [ fhir:v "Eczema" ]
+       ] [
+         fhir:code [ fhir:v "418363000" ] ;
+         fhir:display [ fhir:v "Itching of skin" ]
+       ] [
+         fhir:code [ fhir:v "422587007" ] ;
+         fhir:display [ fhir:v "Nausea" ]
+       ] [
+         fhir:code [ fhir:v "271757001" ] ;
+         fhir:display [ fhir:v "Papular eruption" ]
+       ] [
+         fhir:code [ fhir:v "70076002" ] ;
+         fhir:display [ fhir:v "Rhinitis" ]
+       ] [
+         fhir:code [ fhir:v "91175000" ] ;
+         fhir:display [ fhir:v "Seizure" ]
+       ] [
+         fhir:code [ fhir:v "76067001" ] ;
+         fhir:display [ fhir:v "Sneezing" ]
+       ] [
+         fhir:code [ fhir:v "73442001" ] ;
+         fhir:display [ fhir:v "Stevens-Johnson syndrome" ]
+       ] [
+         fhir:code [ fhir:v "23924001" ] ;
+         fhir:display [ fhir:v "Tight chest" ]
+       ] [
+         fhir:code [ fhir:v "126485001" ] ;
+         fhir:display [ fhir:v "Urticaria" ]
+       ] [
+         fhir:code [ fhir:v "31996006" ] ;
+         fhir:display [ fhir:v "Vasculitis" ]
+       ] [
+         fhir:code [ fhir:v "247472004" ] ;
+         fhir:display [ fhir:v "Weal" ]
+       ] [
+         fhir:code [ fhir:v "41291007" ] ;
+         fhir:display [ fhir:v "Angioedema" ]
+       ] [
+         fhir:code [ fhir:v "62315008" ] ;
+         fhir:display [ fhir:v "Diarrhea" ]
+       ] [
+         fhir:code [ fhir:v "267036007" ] ;
+         fhir:display [ fhir:v "Dyspnea" ]
+       ] [
+         fhir:code [ fhir:v "51599000" ] ;
+         fhir:display [ fhir:v "Edema of larynx" ]
+       ] [
+         fhir:code [ fhir:v "781682005" ] ;
+         fhir:display [ fhir:v "Hyperemia of eye" ]
+       ] [
+         fhir:code [ fhir:v "271807003" ] ;
+         fhir:display [ fhir:v "Eruption" ]
+       ] [
+         fhir:code [ fhir:v "768962006" ] ;
+         fhir:display [ fhir:v "Lyell syndrome" ]
+       ] [
+         fhir:code [ fhir:v "422400008" ] ;
+         fhir:display [ fhir:v "Vomiting" ]
+       ] [
+         fhir:code [ fhir:v "281239006" ] ;
+         fhir:display [ fhir:v "Acute asthma" ]
+       ] [
+         fhir:code [ fhir:v "195951007" ] ;
+         fhir:display [ fhir:v "Acute exacerbation of chronic obstructive airways disease" ]
+       ] [
+         fhir:code [ fhir:v "44416002" ] ;
+         fhir:display [ fhir:v "Airway constriction" ]
+       ] [
+         fhir:code [ fhir:v "402407004" ] ;
+         fhir:display [ fhir:v "Angioedema of tongue" ]
+       ] [
+         fhir:code [ fhir:v "7231009" ] ;
+         fhir:display [ fhir:v "Bullous dermatosis" ]
+       ] [
+         fhir:code [ fhir:v "40275004" ] ;
+         fhir:display [ fhir:v "Contact dermatitis" ]
+       ] [
+         fhir:code [ fhir:v "230145002" ] ;
+         fhir:display [ fhir:v "Difficulty breathing" ]
+       ] [
+         fhir:code [ fhir:v "386789004" ] ;
+         fhir:display [ fhir:v "Eosinophil count raised" ]
+       ] [
+         fhir:code [ fhir:v "247441003" ] ;
+         fhir:display [ fhir:v "Erythema" ]
+       ] [
+         fhir:code [ fhir:v "444827008" ] ;
+         fhir:display [ fhir:v "Erythema of skin" ]
+       ] [
+         fhir:code [ fhir:v "399992009" ] ;
+         fhir:display [ fhir:v "Erythroderma" ]
+       ] [
+         fhir:code [ fhir:v "271811009" ] ;
+         fhir:display [ fhir:v "Face goes red" ]
+       ] [
+         fhir:code [ fhir:v "373932008" ] ;
+         fhir:display [ fhir:v "Feels hot" ]
+       ] [
+         fhir:code [ fhir:v "276444007" ] ;
+         fhir:display [ fhir:v "Generalized pruritus" ]
+       ] [
+         fhir:code [ fhir:v "60555002" ] ;
+         fhir:display [ fhir:v "Hypersensitivity angiitis" ]
+       ] [
+         fhir:code [ fhir:v "191306005" ] ;
+         fhir:display [ fhir:v "Immunoglobulin A vasculitis" ]
+       ] [
+         fhir:code [ fhir:v "418290006" ] ;
+         fhir:display [ fhir:v "Itching" ]
+       ] [
+         fhir:code [ fhir:v "74776002" ] ;
+         fhir:display [ fhir:v "Itching of eye" ]
+       ] [
+         fhir:code [ fhir:v "271756005" ] ;
+         fhir:display [ fhir:v "Macular eruption" ]
+       ] [
+         fhir:code [ fhir:v "247471006" ] ;
+         fhir:display [ fhir:v "Maculopapular eruption" ]
+       ] [
+         fhir:code [ fhir:v "247470007" ] ;
+         fhir:display [ fhir:v "Morbilliform eruption" ]
+       ] [
+         fhir:code [ fhir:v "35001004" ] ;
+         fhir:display [ fhir:v "Non-allergic anaphylaxis" ]
+       ] [
+         fhir:code [ fhir:v "2129002" ] ;
+         fhir:display [ fhir:v "Edema of pharynx" ]
+       ] [
+         fhir:code [ fhir:v "81950002" ] ;
+         fhir:display [ fhir:v "Edema of the tongue" ]
+       ] [
+         fhir:code [ fhir:v "432807008" ] ;
+         fhir:display [ fhir:v "Pollen-food allergy" ]
+       ] [
+         fhir:code [ fhir:v "22649008" ] ;
+         fhir:display [ fhir:v "Photodermatitis" ]
+       ] [
+         fhir:code [ fhir:v "90128006" ] ;
+         fhir:display [ fhir:v "Photosensitivity" ]
+       ] [
+         fhir:code [ fhir:v "64144002" ] ;
+         fhir:display [ fhir:v "Pruritic rash" ]
+       ] [
+         fhir:code [ fhir:v "279333002" ] ;
+         fhir:display [ fhir:v "Pruritus of skin" ]
+       ] [
+         fhir:code [ fhir:v "271825005" ] ;
+         fhir:display [ fhir:v "Respiratory distress" ]
+       ] [
+         fhir:code [ fhir:v "421262002" ] ;
+         fhir:display [ fhir:v "Tongue swelling" ]
+       ] [
+         fhir:code [ fhir:v "79893008" ] ;
+         fhir:display [ fhir:v "Vesicular eruption" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

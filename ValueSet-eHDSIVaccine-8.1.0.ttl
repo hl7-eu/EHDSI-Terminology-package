@@ -1,0 +1,715 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIVaccine-8.1.0> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "eHDSIVaccine-8.1.0"] ; # 
+  fhir:url [
+     fhir:v "http://terminology.ehdsi.eu/ValueSet/eHDSIVaccine"^^xsd:anyURI ;
+     fhir:l <http://terminology.ehdsi.eu/ValueSet/eHDSIVaccine>
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [
+       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
+       fhir:l <urn:ietf:rfc:3986>
+     ] ;
+     fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.28" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "0.2.0"] ; # 
+  fhir:name [ fhir:v "eHDSIVaccine"] ; # 
+  fhir:title [ fhir:v "eHDSI Vaccine"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-12-23T10:21:27+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 Europe"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 Europe" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://hl7europe.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "The Value Set is used to identify the patient's vaccinations in the Patient Summary"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+         fhir:l <http://snomed.info/sct>
+       ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "1001000221103" ] ;
+         fhir:display [ fhir:v "Inactivated whole Vibrio cholerae antigen only vaccine product in oral dose form" ]
+       ] [
+         fhir:code [ fhir:v "1011000221100" ] ;
+         fhir:display [ fhir:v "Live attenuated Vibrio cholerae antigen only vaccine product in oral dose form" ]
+       ] [
+         fhir:code [ fhir:v "1031000221108" ] ;
+         fhir:display [ fhir:v "Human poliovirus antigen-containing vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "1051000221104" ] ;
+         fhir:display [ fhir:v "Live attenuated Human poliovirus serotypes 1 and 3 antigens only vaccine product in oral dose form" ]
+       ] [
+         fhir:code [ fhir:v "1052328007" ] ;
+         fhir:display [ fhir:v "Streptococcus pneumoniae Danish serotype 4, 6B, 9V, 14, 18C, 19F, and 23F capsular polysaccharide antigens conjugated only vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "1081000221109" ] ;
+         fhir:display [ fhir:v "Live attenuated Rotavirus antigen only vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "1101000221104" ] ;
+         fhir:display [ fhir:v "Clostridium tetani toxoid antigen-containing vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "1119254000" ] ;
+         fhir:display [ fhir:v "Streptococcus pneumoniae Danish serotype 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, and 23F capsular polysaccharide antigens only vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "1119305005" ] ;
+         fhir:display [ fhir:v "SARS-CoV-2 antigen vaccine" ]
+       ] [
+         fhir:code [ fhir:v "1119349007" ] ;
+         fhir:display [ fhir:v "SARS-CoV-2 mRNA vaccine" ]
+       ] [
+         fhir:code [ fhir:v "1121000221106" ] ;
+         fhir:display [ fhir:v "Live attenuated Yellow fever virus antigen only vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "1131000221109" ] ;
+         fhir:display [ fhir:v "Vaccine product containing only inactivated whole Rabies lyssavirus antigen" ]
+       ] [
+         fhir:code [ fhir:v "1157024006" ] ;
+         fhir:display [ fhir:v "Inactivated whole SARS-CoV-2 antigen vaccine" ]
+       ] [
+         fhir:code [ fhir:v "1162643001" ] ;
+         fhir:display [ fhir:v "SARS-CoV-2 recombinant spike protein antigen vaccine" ]
+       ] [
+         fhir:code [ fhir:v "1181000221105" ] ;
+         fhir:display [ fhir:v "Influenza virus antigen only vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "1801000221105" ] ;
+         fhir:display [ fhir:v "Streptococcus pneumoniae capsular polysaccharide antigen conjugated only vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "1861000221106" ] ;
+         fhir:display [ fhir:v "Bacillus Calmette-Guerin antigen only vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "1981000221108" ] ;
+         fhir:display [ fhir:v "Neisseria meningitidis serogroup B antigen only vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "2171000221104" ] ;
+         fhir:display [ fhir:v "Salmonella enterica subspecies enterica serovar Typhi capsular polysaccharide unconjugated antigen only vaccine product in parenteral dose form" ]
+       ] [
+         fhir:code [ fhir:v "2221000221107" ] ;
+         fhir:display [ fhir:v "Live attenuated Human alphaherpesvirus 3 only vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "28531000087107" ] ;
+         fhir:display [ fhir:v "COVID-19 vaccine" ]
+       ] [
+         fhir:code [ fhir:v "29061000087103" ] ;
+         fhir:display [ fhir:v "COVID-19 non-replicating viral vector vaccine" ]
+       ] [
+         fhir:code [ fhir:v "37146000" ] ;
+         fhir:display [ fhir:v "Typhus vaccine" ]
+       ] [
+         fhir:code [ fhir:v "409568008" ] ;
+         fhir:display [ fhir:v "Pentavalent botulinum toxoid vaccine" ]
+       ] [
+         fhir:code [ fhir:v "428601009" ] ;
+         fhir:display [ fhir:v "Paratyphoid vaccine" ]
+       ] [
+         fhir:code [ fhir:v "601000221108" ] ;
+         fhir:display [ fhir:v "Bordetella pertussis antigen-containing vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "774618008" ] ;
+         fhir:display [ fhir:v "Whole cell Bordetella pertussis and Clostridium tetani toxoid adsorbed and Corynebacterium diphtheriae toxoid antigens only vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "775641005" ] ;
+         fhir:display [ fhir:v "Clostridium tetani toxoid adsorbed and Corynebacterium diphtheriae toxoid antigens only vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "777725002" ] ;
+         fhir:display [ fhir:v "Clostridium tetani toxoid antigen adsorbed only vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "836368004" ] ;
+         fhir:display [ fhir:v "Bacteria antigen-containing vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "836369007" ] ;
+         fhir:display [ fhir:v "Virus antigen-containing vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "836374004" ] ;
+         fhir:display [ fhir:v "Hepatitis B virus antigen-containing vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "836375003" ] ;
+         fhir:display [ fhir:v "Hepatitis A virus antigen-containing vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "836377006" ] ;
+         fhir:display [ fhir:v "Influenza virus antigen-containing vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "836378001" ] ;
+         fhir:display [ fhir:v "Japanese encephalitis virus antigen-containing vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "836379009" ] ;
+         fhir:display [ fhir:v "Human papillomavirus antigen-containing vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "836380007" ] ;
+         fhir:display [ fhir:v "Haemophilus influenzae type B antigen-containing vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "836381006" ] ;
+         fhir:display [ fhir:v "Corynebacterium diphtheriae antigen-containing vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "836382004" ] ;
+         fhir:display [ fhir:v "Measles morbillivirus antigen-containing vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "836383009" ] ;
+         fhir:display [ fhir:v "Vibrio cholerae antigen-containing vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "836384003" ] ;
+         fhir:display [ fhir:v "Bacillus anthracis antigen-containing vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "836385002" ] ;
+         fhir:display [ fhir:v "Yellow fever virus antigen-containing vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "836387005" ] ;
+         fhir:display [ fhir:v "Rotavirus antigen-containing vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "836388000" ] ;
+         fhir:display [ fhir:v "Rubella virus antigen-containing vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "836389008" ] ;
+         fhir:display [ fhir:v "Vaccinia virus antigen-containing vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "836390004" ] ;
+         fhir:display [ fhir:v "Salmonella enterica subspecies enterica serovar Typhi antigen-containing vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "836393002" ] ;
+         fhir:display [ fhir:v "Rabies lyssavirus antigen-containing vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "836397001" ] ;
+         fhir:display [ fhir:v "Coxiella burnetii antigen-containing vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "836398006" ] ;
+         fhir:display [ fhir:v "Streptococcus pneumoniae antigen-containing vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "836401009" ] ;
+         fhir:display [ fhir:v "Neisseria meningitidis antigen-containing vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "836402002" ] ;
+         fhir:display [ fhir:v "Bacillus Calmette-Guerin antigen-containing vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "836403007" ] ;
+         fhir:display [ fhir:v "Tick-borne encephalitis virus antigen-containing vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "836495005" ] ;
+         fhir:display [ fhir:v "Human alphaherpesvirus 3 antigen-containing vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "836498007" ] ;
+         fhir:display [ fhir:v "Mumps orthorubulavirus antigen-containing vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "836500008" ] ;
+         fhir:display [ fhir:v "Haemophilus influenzae type B and Neisseria meningitidis serogroup C antigens only vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "840549009" ] ;
+         fhir:display [ fhir:v "Yersinia pestis antigen-containing vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "840563003" ] ;
+         fhir:display [ fhir:v "Dengue virus antigen-containing vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "840599008" ] ;
+         fhir:display [ fhir:v "Borrelia burgdorferi antigen-containing vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "863911006" ] ;
+         fhir:display [ fhir:v "Clostridium tetani antigen-containing vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "871726005" ] ;
+         fhir:display [ fhir:v "Rabies lyssavirus antigen only vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "871737006" ] ;
+         fhir:display [ fhir:v "Mumps orthorubulavirus antigen only vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "871738001" ] ;
+         fhir:display [ fhir:v "Live attenuated Mumps orthorubulavirus antigen only vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "871739009" ] ;
+         fhir:display [ fhir:v "Human poliovirus antigen only vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "871740006" ] ;
+         fhir:display [ fhir:v "Inactivated whole Human poliovirus antigen only vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "871742003" ] ;
+         fhir:display [ fhir:v "Clostridium tetani antigen only vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "871751006" ] ;
+         fhir:display [ fhir:v "Hepatitis A virus antigen only vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "871759008" ] ;
+         fhir:display [ fhir:v "Acellular Bordetella pertussis only vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "871764007" ] ;
+         fhir:display [ fhir:v "Haemophilus influenzae type b antigen only vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "871765008" ] ;
+         fhir:display [ fhir:v "Measles morbillivirus antigen only vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "871768005" ] ;
+         fhir:display [ fhir:v "Influenza virus antigen only vaccine product in nasal dose form" ]
+       ] [
+         fhir:code [ fhir:v "871772009" ] ;
+         fhir:display [ fhir:v "Influenza A virus subtype H1N1 antigen only vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "871803007" ] ;
+         fhir:display [ fhir:v "Hepatitis A and Hepatitis B virus antigens only vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "871804001" ] ;
+         fhir:display [ fhir:v "Hepatitis A virus and Salmonella enterica subspecies enterica serovar Typhi antigens only vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "871806004" ] ;
+         fhir:display [ fhir:v "Haemophilus influenzae type B and Hepatitis B virus antigens only vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "871826000" ] ;
+         fhir:display [ fhir:v "Clostridium tetani and Corynebacterium diphtheriae antigens only vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "871831003" ] ;
+         fhir:display [ fhir:v "Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens only vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "871837004" ] ;
+         fhir:display [ fhir:v "Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens only vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "871839001" ] ;
+         fhir:display [ fhir:v "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B antigens only vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "871866001" ] ;
+         fhir:display [ fhir:v "Neisseria meningitidis serogroup C only vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "871871008" ] ;
+         fhir:display [ fhir:v "Neisseria meningitidis serogroup A and C only vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "871873006" ] ;
+         fhir:display [ fhir:v "Neisseria meningitidis serogroup A, C, W135 and Y only vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "871875004" ] ;
+         fhir:display [ fhir:v "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens only vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "871876003" ] ;
+         fhir:display [ fhir:v "Acellular Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae antigens only vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "871878002" ] ;
+         fhir:display [ fhir:v "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Human poliovirus antigens only vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "871887006" ] ;
+         fhir:display [ fhir:v "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Human poliovirus antigens only vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "871889009" ] ;
+         fhir:display [ fhir:v "Acellular Bordetella pertussis and Corynebacterium diphtheriae and Hepatitis B virus and inactivated whole Human poliovirus antigens only vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "871895005" ] ;
+         fhir:display [ fhir:v "Bordetella pertussis and Clostridium tetani and Corynebacterium diphtheriae and Haemophilus influenzae type B and Hepatitis B virus and Human poliovirus antigens only vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "871908002" ] ;
+         fhir:display [ fhir:v "Human alphaherpesvirus 3 and Measles morbillivirus and Mumps orthorubulavirus and Rubella virus antigens only vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "871918007" ] ;
+         fhir:display [ fhir:v "Rickettsia antigen-containing vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "871921009" ] ;
+         fhir:display [ fhir:v "Staphylococcus toxoid vaccine" ]
+       ] [
+         fhir:code [ fhir:v "921000221108" ] ;
+         fhir:display [ fhir:v "Neisseria meningitidis antigen only vaccine product" ]
+       ] [
+         fhir:code [ fhir:v "971000221109" ] ;
+         fhir:display [ fhir:v "Live attenuated Salmonella enterica subspecies enterica serovar Typhi antigen only vaccine product in oral dose form" ]
+       ] [
+         fhir:code [ fhir:v "981000221107" ] ;
+         fhir:display [ fhir:v "Streptococcus pneumoniae antigen only vaccine product" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://www.whocc.no/atc"^^xsd:anyURI ;
+         fhir:l <http://www.whocc.no/atc>
+       ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "J07AC" ] ;
+         fhir:display [ fhir:v "Anthrax vaccines" ]
+       ] [
+         fhir:code [ fhir:v "J07AC01" ] ;
+         fhir:display [ fhir:v "anthrax antigen" ]
+       ] [
+         fhir:code [ fhir:v "J07AD" ] ;
+         fhir:display [ fhir:v "Brucellosis vaccines" ]
+       ] [
+         fhir:code [ fhir:v "J07AD01" ] ;
+         fhir:display [ fhir:v "brucella antigen" ]
+       ] [
+         fhir:code [ fhir:v "J07AE" ] ;
+         fhir:display [ fhir:v "Cholera vaccines" ]
+       ] [
+         fhir:code [ fhir:v "J07AE01" ] ;
+         fhir:display [ fhir:v "cholera, inactivated, whole cell" ]
+       ] [
+         fhir:code [ fhir:v "J07AE02" ] ;
+         fhir:display [ fhir:v "cholera, live attenuated" ]
+       ] [
+         fhir:code [ fhir:v "J07AE51" ] ;
+         fhir:display [ fhir:v "cholera, combinations with typhoid vaccine, inactivated, whole cell" ]
+       ] [
+         fhir:code [ fhir:v "J07AF" ] ;
+         fhir:display [ fhir:v "Diphtheria vaccines" ]
+       ] [
+         fhir:code [ fhir:v "J07AF01" ] ;
+         fhir:display [ fhir:v "diphtheria toxoid" ]
+       ] [
+         fhir:code [ fhir:v "J07AG" ] ;
+         fhir:display [ fhir:v "Haemophilus influenzae B vaccines" ]
+       ] [
+         fhir:code [ fhir:v "J07AG01" ] ;
+         fhir:display [ fhir:v "haemophilus influenzae B, purified antigen conjugated" ]
+       ] [
+         fhir:code [ fhir:v "J07AG51" ] ;
+         fhir:display [ fhir:v "haemophilus influenzae B, combinations with toxoids" ]
+       ] [
+         fhir:code [ fhir:v "J07AG52" ] ;
+         fhir:display [ fhir:v "haemophilus influenzae B, combinations with pertussis and toxoids" ]
+       ] [
+         fhir:code [ fhir:v "J07AG53" ] ;
+         fhir:display [ fhir:v "haemophilus influenzae B, combinations with meningococcus C, conjugated" ]
+       ] [
+         fhir:code [ fhir:v "J07AG54" ] ;
+         fhir:display [ fhir:v "haemophilus influenza B, combinations with meningococcus C,Y, conjugated" ]
+       ] [
+         fhir:code [ fhir:v "J07AH" ] ;
+         fhir:display [ fhir:v "Meningococcal vaccines" ]
+       ] [
+         fhir:code [ fhir:v "J07AH01" ] ;
+         fhir:display [ fhir:v "meningococcus A, purified polysaccharides antigen" ]
+       ] [
+         fhir:code [ fhir:v "J07AH02" ] ;
+         fhir:display [ fhir:v "other meningococcal monovalent purified polysaccharides antigen" ]
+       ] [
+         fhir:code [ fhir:v "J07AH03" ] ;
+         fhir:display [ fhir:v "meningococcus A,C, bivalent purified polysaccharides antigen" ]
+       ] [
+         fhir:code [ fhir:v "J07AH04" ] ;
+         fhir:display [ fhir:v "meningococcus A,C,Y,W-135, tetravalent purified polysaccharides antigen" ]
+       ] [
+         fhir:code [ fhir:v "J07AH05" ] ;
+         fhir:display [ fhir:v "other meningococcal polyvalent purified polysaccharides antigen" ]
+       ] [
+         fhir:code [ fhir:v "J07AH06" ] ;
+         fhir:display [ fhir:v "meningococcus B, outer membrane vesicle vaccine" ]
+       ] [
+         fhir:code [ fhir:v "J07AH07" ] ;
+         fhir:display [ fhir:v "meningococcus C, purified polysaccharides antigen conjugated" ]
+       ] [
+         fhir:code [ fhir:v "J07AH08" ] ;
+         fhir:display [ fhir:v "meningococcus A,C,Y,W-135, tetravalent purified polysaccharides antigen conjugated" ]
+       ] [
+         fhir:code [ fhir:v "J07AH09" ] ;
+         fhir:display [ fhir:v "meningococcus B, multicomponent vaccine" ]
+       ] [
+         fhir:code [ fhir:v "J07AH10" ] ;
+         fhir:display [ fhir:v "meningococcus A, purified polysaccharides antigen conjugated" ]
+       ] [
+         fhir:code [ fhir:v "J07AH11" ] ;
+         fhir:display [ fhir:v "meningococcus A,B,C,Y,W-135, pentavalent purified polysaccharides antigen conjugated and factor H binding protein" ]
+       ] [
+         fhir:code [ fhir:v "J07AJ" ] ;
+         fhir:display [ fhir:v "Pertussis vaccines" ]
+       ] [
+         fhir:code [ fhir:v "J07AJ01" ] ;
+         fhir:display [ fhir:v "pertussis, inactivated, whole cell" ]
+       ] [
+         fhir:code [ fhir:v "J07AJ02" ] ;
+         fhir:display [ fhir:v "pertussis, purified antigen" ]
+       ] [
+         fhir:code [ fhir:v "J07AJ51" ] ;
+         fhir:display [ fhir:v "pertussis, inactivated, whole cell, combinations with toxoids" ]
+       ] [
+         fhir:code [ fhir:v "J07AJ52" ] ;
+         fhir:display [ fhir:v "pertussis, purified antigen, combinations with toxoids" ]
+       ] [
+         fhir:code [ fhir:v "J07AK" ] ;
+         fhir:display [ fhir:v "Plague vaccines" ]
+       ] [
+         fhir:code [ fhir:v "J07AK01" ] ;
+         fhir:display [ fhir:v "plague, inactivated, whole cell" ]
+       ] [
+         fhir:code [ fhir:v "J07AL" ] ;
+         fhir:display [ fhir:v "Pneumococcal vaccines" ]
+       ] [
+         fhir:code [ fhir:v "J07AL01" ] ;
+         fhir:display [ fhir:v "pneumococcus, purified polysaccharides antigen" ]
+       ] [
+         fhir:code [ fhir:v "J07AL02" ] ;
+         fhir:display [ fhir:v "pneumococcus, purified polysaccharides antigen conjugated" ]
+       ] [
+         fhir:code [ fhir:v "J07AL52" ] ;
+         fhir:display [ fhir:v "pneumococcus purified polysaccharides antigen and haemophilus influenzae, conjugated" ]
+       ] [
+         fhir:code [ fhir:v "J07AM" ] ;
+         fhir:display [ fhir:v "Tetanus vaccines" ]
+       ] [
+         fhir:code [ fhir:v "J07AM01" ] ;
+         fhir:display [ fhir:v "tetanus toxoid" ]
+       ] [
+         fhir:code [ fhir:v "J07AM51" ] ;
+         fhir:display [ fhir:v "tetanus toxoid, combinations with diphtheria toxoid" ]
+       ] [
+         fhir:code [ fhir:v "J07AM52" ] ;
+         fhir:display [ fhir:v "tetanus toxoid, combinations with tetanus immunoglobulin" ]
+       ] [
+         fhir:code [ fhir:v "J07AN" ] ;
+         fhir:display [ fhir:v "Tuberculosis vaccines" ]
+       ] [
+         fhir:code [ fhir:v "J07AN01" ] ;
+         fhir:display [ fhir:v "tuberculosis, live attenuated" ]
+       ] [
+         fhir:code [ fhir:v "J07AP" ] ;
+         fhir:display [ fhir:v "Typhoid vaccines" ]
+       ] [
+         fhir:code [ fhir:v "J07AP01" ] ;
+         fhir:display [ fhir:v "typhoid, oral, live attenuated" ]
+       ] [
+         fhir:code [ fhir:v "J07AP02" ] ;
+         fhir:display [ fhir:v "typhoid, inactivated, whole cell" ]
+       ] [
+         fhir:code [ fhir:v "J07AP03" ] ;
+         fhir:display [ fhir:v "typhoid, purified polysaccharide antigen" ]
+       ] [
+         fhir:code [ fhir:v "J07AP10" ] ;
+         fhir:display [ fhir:v "typhoid, combinations with paratyphi types" ]
+       ] [
+         fhir:code [ fhir:v "J07AR" ] ;
+         fhir:display [ fhir:v "Typhus (exanthematicus) vaccines" ]
+       ] [
+         fhir:code [ fhir:v "J07AR01" ] ;
+         fhir:display [ fhir:v "typhus exanthematicus, inactivated, whole cell" ]
+       ] [
+         fhir:code [ fhir:v "J07AX" ] ;
+         fhir:display [ fhir:v "Other bacterial vaccines" ]
+       ] [
+         fhir:code [ fhir:v "J07AX01" ] ;
+         fhir:display [ fhir:v "leptospira vaccines" ]
+       ] [
+         fhir:code [ fhir:v "J07BA" ] ;
+         fhir:display [ fhir:v "Encephalitis vaccines" ]
+       ] [
+         fhir:code [ fhir:v "J07BA01" ] ;
+         fhir:display [ fhir:v "encephalitis, tick borne, inactivated, whole virus" ]
+       ] [
+         fhir:code [ fhir:v "J07BA02" ] ;
+         fhir:display [ fhir:v "encephalitis, Japanese, inactivated, whole virus" ]
+       ] [
+         fhir:code [ fhir:v "J07BA03" ] ;
+         fhir:display [ fhir:v "encephalitis, Japanese, live attenuated" ]
+       ] [
+         fhir:code [ fhir:v "J07BB" ] ;
+         fhir:display [ fhir:v "Influenza vaccines" ]
+       ] [
+         fhir:code [ fhir:v "J07BB01" ] ;
+         fhir:display [ fhir:v "influenza, inactivated, whole virus" ]
+       ] [
+         fhir:code [ fhir:v "J07BB02" ] ;
+         fhir:display [ fhir:v "influenza, inactivated, split virus or surface antigen" ]
+       ] [
+         fhir:code [ fhir:v "J07BB03" ] ;
+         fhir:display [ fhir:v "influenza, live attenuated" ]
+       ] [
+         fhir:code [ fhir:v "J07BB04" ] ;
+         fhir:display [ fhir:v "influenza, virus like particles" ]
+       ] [
+         fhir:code [ fhir:v "J07BB05" ] ;
+         fhir:display [ fhir:v "influenza, RNA-based vaccine" ]
+       ] [
+         fhir:code [ fhir:v "J07BC" ] ;
+         fhir:display [ fhir:v "Hepatitis vaccines" ]
+       ] [
+         fhir:code [ fhir:v "J07BC01" ] ;
+         fhir:display [ fhir:v "hepatitis B, purified antigen" ]
+       ] [
+         fhir:code [ fhir:v "J07BC02" ] ;
+         fhir:display [ fhir:v "hepatitis A, inactivated, whole virus" ]
+       ] [
+         fhir:code [ fhir:v "J07BC20" ] ;
+         fhir:display [ fhir:v "combinations" ]
+       ] [
+         fhir:code [ fhir:v "J07BD" ] ;
+         fhir:display [ fhir:v "Measles vaccines" ]
+       ] [
+         fhir:code [ fhir:v "J07BD01" ] ;
+         fhir:display [ fhir:v "measles, live attenuated" ]
+       ] [
+         fhir:code [ fhir:v "J07BD51" ] ;
+         fhir:display [ fhir:v "measles, combinations with mumps, live attenuated" ]
+       ] [
+         fhir:code [ fhir:v "J07BD52" ] ;
+         fhir:display [ fhir:v "measles, combinations with mumps and rubella, live attenuated" ]
+       ] [
+         fhir:code [ fhir:v "J07BD53" ] ;
+         fhir:display [ fhir:v "measles, combinations with rubella, live attenuated" ]
+       ] [
+         fhir:code [ fhir:v "J07BD54" ] ;
+         fhir:display [ fhir:v "measles, combinations with mumps, rubella and varicella, live attenuated" ]
+       ] [
+         fhir:code [ fhir:v "J07BE" ] ;
+         fhir:display [ fhir:v "Mumps vaccines" ]
+       ] [
+         fhir:code [ fhir:v "J07BE01" ] ;
+         fhir:display [ fhir:v "mumps, live attenuated" ]
+       ] [
+         fhir:code [ fhir:v "J07BF" ] ;
+         fhir:display [ fhir:v "Poliomyelitis vaccines" ]
+       ] [
+         fhir:code [ fhir:v "J07BF01" ] ;
+         fhir:display [ fhir:v "poliomyelitis oral, monovalent, live attenuated" ]
+       ] [
+         fhir:code [ fhir:v "J07BF02" ] ;
+         fhir:display [ fhir:v "poliomyelitis oral, trivalent, live attenuated" ]
+       ] [
+         fhir:code [ fhir:v "J07BF03" ] ;
+         fhir:display [ fhir:v "poliomyelitis, trivalent, inactivated, whole virus" ]
+       ] [
+         fhir:code [ fhir:v "J07BF04" ] ;
+         fhir:display [ fhir:v "poliomyelitis oral, bivalent, live attenuated" ]
+       ] [
+         fhir:code [ fhir:v "J07BG" ] ;
+         fhir:display [ fhir:v "Rabies vaccines" ]
+       ] [
+         fhir:code [ fhir:v "J07BG01" ] ;
+         fhir:display [ fhir:v "rabies, inactivated, whole virus" ]
+       ] [
+         fhir:code [ fhir:v "J07BH" ] ;
+         fhir:display [ fhir:v "Rota virus diarrhea vaccines" ]
+       ] [
+         fhir:code [ fhir:v "J07BH01" ] ;
+         fhir:display [ fhir:v "rota virus, live attenuated" ]
+       ] [
+         fhir:code [ fhir:v "J07BH02" ] ;
+         fhir:display [ fhir:v "rota virus, pentavalent, live, reassorted" ]
+       ] [
+         fhir:code [ fhir:v "J07BJ" ] ;
+         fhir:display [ fhir:v "Rubella vaccines" ]
+       ] [
+         fhir:code [ fhir:v "J07BJ01" ] ;
+         fhir:display [ fhir:v "rubella, live attenuated" ]
+       ] [
+         fhir:code [ fhir:v "J07BJ51" ] ;
+         fhir:display [ fhir:v "rubella, combinations with mumps, live attenuated" ]
+       ] [
+         fhir:code [ fhir:v "J07BK" ] ;
+         fhir:display [ fhir:v "Varicella zoster vaccines" ]
+       ] [
+         fhir:code [ fhir:v "J07BK01" ] ;
+         fhir:display [ fhir:v "varicella, live attenuated" ]
+       ] [
+         fhir:code [ fhir:v "J07BK02" ] ;
+         fhir:display [ fhir:v "zoster, live attenuated" ]
+       ] [
+         fhir:code [ fhir:v "J07BK03" ] ;
+         fhir:display [ fhir:v "zoster, purified antigen" ]
+       ] [
+         fhir:code [ fhir:v "J07BL" ] ;
+         fhir:display [ fhir:v "Yellow fever vaccines" ]
+       ] [
+         fhir:code [ fhir:v "J07BL01" ] ;
+         fhir:display [ fhir:v "yellow fever, live attenuated" ]
+       ] [
+         fhir:code [ fhir:v "J07BM" ] ;
+         fhir:display [ fhir:v "Papillomavirus vaccines" ]
+       ] [
+         fhir:code [ fhir:v "J07BM01" ] ;
+         fhir:display [ fhir:v "papillomavirus (human types 6, 11, 16, 18)" ]
+       ] [
+         fhir:code [ fhir:v "J07BM02" ] ;
+         fhir:display [ fhir:v "papillomavirus (human types 16, 18)" ]
+       ] [
+         fhir:code [ fhir:v "J07BM03" ] ;
+         fhir:display [ fhir:v "papillomavirus (human types 6, 11, 16, 18, 31, 33, 45, 52, 58)" ]
+       ] [
+         fhir:code [ fhir:v "J07BN" ] ;
+         fhir:display [ fhir:v "Covid-19 vaccines" ]
+       ] [
+         fhir:code [ fhir:v "J07BN01" ] ;
+         fhir:display [ fhir:v "covid-19, RNA-based vaccine" ]
+       ] [
+         fhir:code [ fhir:v "J07BN02" ] ;
+         fhir:display [ fhir:v "covid-19, viral vector, non-replicating" ]
+       ] [
+         fhir:code [ fhir:v "J07BN03" ] ;
+         fhir:display [ fhir:v "covid-19, inactivated virus" ]
+       ] [
+         fhir:code [ fhir:v "J07BN04" ] ;
+         fhir:display [ fhir:v "covid-19, protein subunit" ]
+       ] [
+         fhir:code [ fhir:v "J07BN05" ] ;
+         fhir:display [ fhir:v "covid-19, virus-like particles" ]
+       ] [
+         fhir:code [ fhir:v "J07BX" ] ;
+         fhir:display [ fhir:v "Other viral vaccines" ]
+       ] [
+         fhir:code [ fhir:v "J07BX01" ] ;
+         fhir:display [ fhir:v "smallpox and monkeypox vaccines" ]
+       ] [
+         fhir:code [ fhir:v "J07BX02" ] ;
+         fhir:display [ fhir:v "ebola vaccines" ]
+       ] [
+         fhir:code [ fhir:v "J07BX04" ] ;
+         fhir:display [ fhir:v "dengue virus vaccines" ]
+       ] [
+         fhir:code [ fhir:v "J07BX05" ] ;
+         fhir:display [ fhir:v "respiratory syncytial virus vaccines" ]
+       ] [
+         fhir:code [ fhir:v "J07BX06" ] ;
+         fhir:display [ fhir:v "enterovirus 71 vaccines" ]
+       ] [
+         fhir:code [ fhir:v "J07CA" ] ;
+         fhir:display [ fhir:v "Bacterial and viral vaccines, combined" ]
+       ] [
+         fhir:code [ fhir:v "J07CA01" ] ;
+         fhir:display [ fhir:v "diphtheria-poliomyelitis-tetanus" ]
+       ] [
+         fhir:code [ fhir:v "J07CA02" ] ;
+         fhir:display [ fhir:v "diphtheria-pertussis-poliomyelitis-tetanus" ]
+       ] [
+         fhir:code [ fhir:v "J07CA03" ] ;
+         fhir:display [ fhir:v "diphtheria-rubella-tetanus" ]
+       ] [
+         fhir:code [ fhir:v "J07CA04" ] ;
+         fhir:display [ fhir:v "haemophilus influenzae B and poliomyelitis" ]
+       ] [
+         fhir:code [ fhir:v "J07CA05" ] ;
+         fhir:display [ fhir:v "diphtheria-hepatitis B-pertussis-tetanus" ]
+       ] [
+         fhir:code [ fhir:v "J07CA06" ] ;
+         fhir:display [ fhir:v "diphtheria-haemophilus influenzae B-pertussis-poliomyelitis-tetanus" ]
+       ] [
+         fhir:code [ fhir:v "J07CA07" ] ;
+         fhir:display [ fhir:v "diphtheria-hepatitis B-tetanus" ]
+       ] [
+         fhir:code [ fhir:v "J07CA08" ] ;
+         fhir:display [ fhir:v "haemophilus influenzae B and hepatitis B" ]
+       ] [
+         fhir:code [ fhir:v "J07CA09" ] ;
+         fhir:display [ fhir:v "diphtheria-haemophilus influenzae B-pertussis-poliomyelitis-tetanus-hepatitis B" ]
+       ] [
+         fhir:code [ fhir:v "J07CA10" ] ;
+         fhir:display [ fhir:v "typhoid-hepatitis A" ]
+       ] [
+         fhir:code [ fhir:v "J07CA11" ] ;
+         fhir:display [ fhir:v "diphtheria-haemophilus influenzae B-pertussis-tetanus-hepatitis B" ]
+       ] [
+         fhir:code [ fhir:v "J07CA12" ] ;
+         fhir:display [ fhir:v "diphtheria-pertussis-poliomyelitis-tetanus-hepatitis B" ]
+       ] [
+         fhir:code [ fhir:v "J07CA13" ] ;
+         fhir:display [ fhir:v "diphtheria-haemophilus influenzae B-pertussis-tetanus-hepatitis B-meningococcus A + C" ]
+       ] [
+         fhir:code [ fhir:v "J07XA" ] ;
+         fhir:display [ fhir:v "Parasitic vaccines" ]
+       ] [
+         fhir:code [ fhir:v "J07XA01" ] ;
+         fhir:display [ fhir:v "malaria vaccines" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

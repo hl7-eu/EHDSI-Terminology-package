@@ -1,0 +1,61 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "eHDSIOutcomeOfPregnancy-8.1.0",
+  "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIOutcomeOfPregnancy",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.62"
+  }],
+  "version" : "8.1.0",
+  "name" : "eHDSIOutcomeOfPregnancy",
+  "title" : "eHDSI Outcome of Pregnancy",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-11-18T20:02:38+00:00",
+  "publisher" : "HL7 Europe",
+  "contact" : [{
+    "name" : "HL7 Europe",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://hl7europe.org"
+    }]
+  }],
+  "description" : "The Value Set is used to code the outcome of previous pregnancy",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "34801009",
+        "display" : "Ectopic pregnancy"
+      },
+      {
+        "code" : "417044008",
+        "display" : "Hydatidiform mole, benign"
+      },
+      {
+        "code" : "276507005",
+        "display" : "Fetal death"
+      },
+      {
+        "code" : "281050002",
+        "display" : "Livebirth"
+      },
+      {
+        "code" : "17369002",
+        "display" : "Miscarriage"
+      },
+      {
+        "code" : "276506001",
+        "display" : "Newborn death"
+      },
+      {
+        "code" : "237364002",
+        "display" : "Stillbirth"
+      },
+      {
+        "code" : "57797005",
+        "display" : "Termination of pregnancy"
+      }]
+    }]
+  }
+}

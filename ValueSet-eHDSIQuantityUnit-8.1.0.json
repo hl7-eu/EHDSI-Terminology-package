@@ -1,0 +1,233 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "eHDSIQuantityUnit-8.1.0",
+  "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIQuantityUnit",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.56"
+  }],
+  "version" : "0.2.0",
+  "name" : "eHDSIQuantityUnit",
+  "title" : "eHDSI Quantity Unit",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-12-23T10:21:27+00:00",
+  "publisher" : "HL7 Europe",
+  "contact" : [{
+    "name" : "HL7 Europe",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://hl7europe.org"
+    }]
+  }],
+  "description" : "The Value Set is used to describe the discrete countible entity in which a pharmaceutical product or manufactured item is presented.",
+  "compose" : {
+    "include" : [{
+      "system" : "http://standardterms.edqm.eu",
+      "concept" : [{
+        "code" : "15001000",
+        "display" : "Actuation"
+      },
+      {
+        "code" : "15002000",
+        "display" : "Ampoule"
+      },
+      {
+        "code" : "15004000",
+        "display" : "Applicator"
+      },
+      {
+        "code" : "15005000",
+        "display" : "Bag"
+      },
+      {
+        "code" : "15006000",
+        "display" : "Barrel"
+      },
+      {
+        "code" : "15007000",
+        "display" : "Blister"
+      },
+      {
+        "code" : "15008000",
+        "display" : "Block"
+      },
+      {
+        "code" : "15009000",
+        "display" : "Bottle"
+      },
+      {
+        "code" : "15011000",
+        "display" : "Cachet"
+      },
+      {
+        "code" : "15012000",
+        "display" : "Capsule"
+      },
+      {
+        "code" : "15013000",
+        "display" : "Cartridge"
+      },
+      {
+        "code" : "15016000",
+        "display" : "Container"
+      },
+      {
+        "code" : "15017000",
+        "display" : "Cup"
+      },
+      {
+        "code" : "15018000",
+        "display" : "Cylinder"
+      },
+      {
+        "code" : "15021000",
+        "display" : "Dressing"
+      },
+      {
+        "code" : "15022000",
+        "display" : "Drop"
+      },
+      {
+        "code" : "15023000",
+        "display" : "Film"
+      },
+      {
+        "code" : "15024000",
+        "display" : "Chewing gum"
+      },
+      {
+        "code" : "15025000",
+        "display" : "Implant"
+      },
+      {
+        "code" : "15026000",
+        "display" : "Inhaler"
+      },
+      {
+        "code" : "15027000",
+        "display" : "Insert"
+      },
+      {
+        "code" : "15028000",
+        "display" : "Jar"
+      },
+      {
+        "code" : "15029000",
+        "display" : "Lozenge"
+      },
+      {
+        "code" : "15030000",
+        "display" : "Lyophilisate"
+      },
+      {
+        "code" : "15031000",
+        "display" : "Matrix"
+      },
+      {
+        "code" : "15033000",
+        "display" : "Pad"
+      },
+      {
+        "code" : "15035000",
+        "display" : "Pastille"
+      },
+      {
+        "code" : "15036000",
+        "display" : "Patch"
+      },
+      {
+        "code" : "15037000",
+        "display" : "Pen"
+      },
+      {
+        "code" : "15039000",
+        "display" : "Pessary"
+      },
+      {
+        "code" : "15040000",
+        "display" : "Pillule"
+      },
+      {
+        "code" : "15041000",
+        "display" : "Pipette"
+      },
+      {
+        "code" : "15042000",
+        "display" : "Plaster"
+      },
+      {
+        "code" : "15043000",
+        "display" : "Plug"
+      },
+      {
+        "code" : "15044000",
+        "display" : "Pouch"
+      },
+      {
+        "code" : "15045000",
+        "display" : "Sachet"
+      },
+      {
+        "code" : "15046000",
+        "display" : "Sponge"
+      },
+      {
+        "code" : "15047000",
+        "display" : "Spoonful"
+      },
+      {
+        "code" : "15048000",
+        "display" : "Stick"
+      },
+      {
+        "code" : "15049000",
+        "display" : "Straw"
+      },
+      {
+        "code" : "15050000",
+        "display" : "Strip"
+      },
+      {
+        "code" : "15051000",
+        "display" : "Suppository"
+      },
+      {
+        "code" : "15052000",
+        "display" : "Syringe"
+      },
+      {
+        "code" : "15053000",
+        "display" : "System"
+      },
+      {
+        "code" : "15054000",
+        "display" : "Tablet"
+      },
+      {
+        "code" : "15056000",
+        "display" : "Tampon"
+      },
+      {
+        "code" : "15057000",
+        "display" : "Thread"
+      },
+      {
+        "code" : "15058000",
+        "display" : "Tube"
+      },
+      {
+        "code" : "15059000",
+        "display" : "Vessel"
+      },
+      {
+        "code" : "15060000",
+        "display" : "Vial"
+      },
+      {
+        "code" : "15062000",
+        "display" : "Swab"
+      }]
+    }]
+  }
+}

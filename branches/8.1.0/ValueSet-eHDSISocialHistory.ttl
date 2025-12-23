@@ -1,0 +1,63 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSISocialHistory> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "eHDSISocialHistory"] ; # 
+  fhir:url [ fhir:v "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSISocialHistory"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.14" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "0.2.0"] ; # 
+  fhir:name [ fhir:v "eHDSISocialHistory"] ; # 
+  fhir:title [ fhir:v "eHDSI Social History"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2025-02-08T05:43:06+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 Europe"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 Europe" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://hl7europe.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "The Value Set is used to code the different elements of the patient's social history."] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "364703007" ] ;
+         fhir:display [ fhir:v "Employment detail" ]
+       ] [
+         fhir:code [ fhir:v "256235009" ] ;
+         fhir:display [ fhir:v "Exercise" ]
+       ] [
+         fhir:code [ fhir:v "364393001" ] ;
+         fhir:display [ fhir:v "Nutritional observable" ]
+       ] [
+         fhir:code [ fhir:v "229819007" ] ;
+         fhir:display [ fhir:v "Tobacco use and exposure" ]
+       ] [
+         fhir:code [ fhir:v "425400000" ] ;
+         fhir:display [ fhir:v "Toxic exposure status" ]
+       ] [
+         fhir:code [ fhir:v "363908000" ] ;
+         fhir:display [ fhir:v "Details of drug misuse behaviour" ]
+       ] [
+         fhir:code [ fhir:v "228272008" ] ;
+         fhir:display [ fhir:v "Health-related behaviour" ]
+       ] [
+         fhir:code [ fhir:v "897148007" ] ;
+         fhir:display [ fhir:v "Alcoholic beverage intake" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

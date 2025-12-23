@@ -1,0 +1,202 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIQuantityUnit-8.1.0> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "eHDSIQuantityUnit-8.1.0"] ; # 
+  fhir:url [
+     fhir:v "http://terminology.ehdsi.eu/ValueSet/eHDSIQuantityUnit"^^xsd:anyURI ;
+     fhir:l <http://terminology.ehdsi.eu/ValueSet/eHDSIQuantityUnit>
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [
+       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
+       fhir:l <urn:ietf:rfc:3986>
+     ] ;
+     fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.56" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "0.2.0"] ; # 
+  fhir:name [ fhir:v "eHDSIQuantityUnit"] ; # 
+  fhir:title [ fhir:v "eHDSI Quantity Unit"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-12-23T10:21:27+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 Europe"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 Europe" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://hl7europe.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "The Value Set is used to describe the discrete countible entity in which a pharmaceutical product or manufactured item is presented."] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://standardterms.edqm.eu"^^xsd:anyURI ;
+         fhir:l <http://standardterms.edqm.eu>
+       ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "15001000" ] ;
+         fhir:display [ fhir:v "Actuation" ]
+       ] [
+         fhir:code [ fhir:v "15002000" ] ;
+         fhir:display [ fhir:v "Ampoule" ]
+       ] [
+         fhir:code [ fhir:v "15004000" ] ;
+         fhir:display [ fhir:v "Applicator" ]
+       ] [
+         fhir:code [ fhir:v "15005000" ] ;
+         fhir:display [ fhir:v "Bag" ]
+       ] [
+         fhir:code [ fhir:v "15006000" ] ;
+         fhir:display [ fhir:v "Barrel" ]
+       ] [
+         fhir:code [ fhir:v "15007000" ] ;
+         fhir:display [ fhir:v "Blister" ]
+       ] [
+         fhir:code [ fhir:v "15008000" ] ;
+         fhir:display [ fhir:v "Block" ]
+       ] [
+         fhir:code [ fhir:v "15009000" ] ;
+         fhir:display [ fhir:v "Bottle" ]
+       ] [
+         fhir:code [ fhir:v "15011000" ] ;
+         fhir:display [ fhir:v "Cachet" ]
+       ] [
+         fhir:code [ fhir:v "15012000" ] ;
+         fhir:display [ fhir:v "Capsule" ]
+       ] [
+         fhir:code [ fhir:v "15013000" ] ;
+         fhir:display [ fhir:v "Cartridge" ]
+       ] [
+         fhir:code [ fhir:v "15016000" ] ;
+         fhir:display [ fhir:v "Container" ]
+       ] [
+         fhir:code [ fhir:v "15017000" ] ;
+         fhir:display [ fhir:v "Cup" ]
+       ] [
+         fhir:code [ fhir:v "15018000" ] ;
+         fhir:display [ fhir:v "Cylinder" ]
+       ] [
+         fhir:code [ fhir:v "15021000" ] ;
+         fhir:display [ fhir:v "Dressing" ]
+       ] [
+         fhir:code [ fhir:v "15022000" ] ;
+         fhir:display [ fhir:v "Drop" ]
+       ] [
+         fhir:code [ fhir:v "15023000" ] ;
+         fhir:display [ fhir:v "Film" ]
+       ] [
+         fhir:code [ fhir:v "15024000" ] ;
+         fhir:display [ fhir:v "Chewing gum" ]
+       ] [
+         fhir:code [ fhir:v "15025000" ] ;
+         fhir:display [ fhir:v "Implant" ]
+       ] [
+         fhir:code [ fhir:v "15026000" ] ;
+         fhir:display [ fhir:v "Inhaler" ]
+       ] [
+         fhir:code [ fhir:v "15027000" ] ;
+         fhir:display [ fhir:v "Insert" ]
+       ] [
+         fhir:code [ fhir:v "15028000" ] ;
+         fhir:display [ fhir:v "Jar" ]
+       ] [
+         fhir:code [ fhir:v "15029000" ] ;
+         fhir:display [ fhir:v "Lozenge" ]
+       ] [
+         fhir:code [ fhir:v "15030000" ] ;
+         fhir:display [ fhir:v "Lyophilisate" ]
+       ] [
+         fhir:code [ fhir:v "15031000" ] ;
+         fhir:display [ fhir:v "Matrix" ]
+       ] [
+         fhir:code [ fhir:v "15033000" ] ;
+         fhir:display [ fhir:v "Pad" ]
+       ] [
+         fhir:code [ fhir:v "15035000" ] ;
+         fhir:display [ fhir:v "Pastille" ]
+       ] [
+         fhir:code [ fhir:v "15036000" ] ;
+         fhir:display [ fhir:v "Patch" ]
+       ] [
+         fhir:code [ fhir:v "15037000" ] ;
+         fhir:display [ fhir:v "Pen" ]
+       ] [
+         fhir:code [ fhir:v "15039000" ] ;
+         fhir:display [ fhir:v "Pessary" ]
+       ] [
+         fhir:code [ fhir:v "15040000" ] ;
+         fhir:display [ fhir:v "Pillule" ]
+       ] [
+         fhir:code [ fhir:v "15041000" ] ;
+         fhir:display [ fhir:v "Pipette" ]
+       ] [
+         fhir:code [ fhir:v "15042000" ] ;
+         fhir:display [ fhir:v "Plaster" ]
+       ] [
+         fhir:code [ fhir:v "15043000" ] ;
+         fhir:display [ fhir:v "Plug" ]
+       ] [
+         fhir:code [ fhir:v "15044000" ] ;
+         fhir:display [ fhir:v "Pouch" ]
+       ] [
+         fhir:code [ fhir:v "15045000" ] ;
+         fhir:display [ fhir:v "Sachet" ]
+       ] [
+         fhir:code [ fhir:v "15046000" ] ;
+         fhir:display [ fhir:v "Sponge" ]
+       ] [
+         fhir:code [ fhir:v "15047000" ] ;
+         fhir:display [ fhir:v "Spoonful" ]
+       ] [
+         fhir:code [ fhir:v "15048000" ] ;
+         fhir:display [ fhir:v "Stick" ]
+       ] [
+         fhir:code [ fhir:v "15049000" ] ;
+         fhir:display [ fhir:v "Straw" ]
+       ] [
+         fhir:code [ fhir:v "15050000" ] ;
+         fhir:display [ fhir:v "Strip" ]
+       ] [
+         fhir:code [ fhir:v "15051000" ] ;
+         fhir:display [ fhir:v "Suppository" ]
+       ] [
+         fhir:code [ fhir:v "15052000" ] ;
+         fhir:display [ fhir:v "Syringe" ]
+       ] [
+         fhir:code [ fhir:v "15053000" ] ;
+         fhir:display [ fhir:v "System" ]
+       ] [
+         fhir:code [ fhir:v "15054000" ] ;
+         fhir:display [ fhir:v "Tablet" ]
+       ] [
+         fhir:code [ fhir:v "15056000" ] ;
+         fhir:display [ fhir:v "Tampon" ]
+       ] [
+         fhir:code [ fhir:v "15057000" ] ;
+         fhir:display [ fhir:v "Thread" ]
+       ] [
+         fhir:code [ fhir:v "15058000" ] ;
+         fhir:display [ fhir:v "Tube" ]
+       ] [
+         fhir:code [ fhir:v "15059000" ] ;
+         fhir:display [ fhir:v "Vessel" ]
+       ] [
+         fhir:code [ fhir:v "15060000" ] ;
+         fhir:display [ fhir:v "Vial" ]
+       ] [
+         fhir:code [ fhir:v "15062000" ] ;
+         fhir:display [ fhir:v "Swab" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

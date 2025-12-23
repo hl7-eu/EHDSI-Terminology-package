@@ -1,0 +1,796 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSICountry-8.1.0> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "eHDSICountry-8.1.0"] ; # 
+  fhir:url [
+     fhir:v "http://terminology.ehdsi.eu/ValueSet/eHDSICountry"^^xsd:anyURI ;
+     fhir:l <http://terminology.ehdsi.eu/ValueSet/eHDSICountry>
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [
+       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
+       fhir:l <urn:ietf:rfc:3986>
+     ] ;
+     fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.4" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "0.2.0"] ; # 
+  fhir:name [ fhir:v "eHDSICountry"] ; # 
+  fhir:title [ fhir:v "eHDSI Country"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-12-23T10:21:27+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 Europe"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 Europe" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://hl7europe.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "The Value Set is used to identify the nationality of all persons and organizations."] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/5.3.0/CodeSystem-ISO3166Part1.html"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/5.3.0/CodeSystem-ISO3166Part1.html>
+       ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "AD" ] ;
+         fhir:display [ fhir:v "ANDORRA" ]
+       ] [
+         fhir:code [ fhir:v "AE" ] ;
+         fhir:display [ fhir:v "UNITED ARAB EMIRATES" ]
+       ] [
+         fhir:code [ fhir:v "AF" ] ;
+         fhir:display [ fhir:v "AFGHANISTAN" ]
+       ] [
+         fhir:code [ fhir:v "AG" ] ;
+         fhir:display [ fhir:v "ANTIGUA AND BARBUDA" ]
+       ] [
+         fhir:code [ fhir:v "AI" ] ;
+         fhir:display [ fhir:v "ANGUILLA" ]
+       ] [
+         fhir:code [ fhir:v "AL" ] ;
+         fhir:display [ fhir:v "ALBANIA" ]
+       ] [
+         fhir:code [ fhir:v "AM" ] ;
+         fhir:display [ fhir:v "ARMENIA" ]
+       ] [
+         fhir:code [ fhir:v "AO" ] ;
+         fhir:display [ fhir:v "ANGOLA" ]
+       ] [
+         fhir:code [ fhir:v "AQ" ] ;
+         fhir:display [ fhir:v "ANTARCTICA" ]
+       ] [
+         fhir:code [ fhir:v "AR" ] ;
+         fhir:display [ fhir:v "ARGENTINA" ]
+       ] [
+         fhir:code [ fhir:v "AS" ] ;
+         fhir:display [ fhir:v "AMERICAN SAMOA" ]
+       ] [
+         fhir:code [ fhir:v "AT" ] ;
+         fhir:display [ fhir:v "AUSTRIA" ]
+       ] [
+         fhir:code [ fhir:v "AU" ] ;
+         fhir:display [ fhir:v "AUSTRALIA" ]
+       ] [
+         fhir:code [ fhir:v "AW" ] ;
+         fhir:display [ fhir:v "ARUBA" ]
+       ] [
+         fhir:code [ fhir:v "AX" ] ;
+         fhir:display [ fhir:v "ÅLAND ISLANDS" ]
+       ] [
+         fhir:code [ fhir:v "AZ" ] ;
+         fhir:display [ fhir:v "AZERBAIJAN" ]
+       ] [
+         fhir:code [ fhir:v "BA" ] ;
+         fhir:display [ fhir:v "BOSNIA AND HERZEGOVINA" ]
+       ] [
+         fhir:code [ fhir:v "BB" ] ;
+         fhir:display [ fhir:v "BARBADOS" ]
+       ] [
+         fhir:code [ fhir:v "BD" ] ;
+         fhir:display [ fhir:v "BANGLADESH" ]
+       ] [
+         fhir:code [ fhir:v "BE" ] ;
+         fhir:display [ fhir:v "BELGIUM" ]
+       ] [
+         fhir:code [ fhir:v "BF" ] ;
+         fhir:display [ fhir:v "BURKINA FASO" ]
+       ] [
+         fhir:code [ fhir:v "BG" ] ;
+         fhir:display [ fhir:v "BULGARIA" ]
+       ] [
+         fhir:code [ fhir:v "BH" ] ;
+         fhir:display [ fhir:v "BAHRAIN" ]
+       ] [
+         fhir:code [ fhir:v "BI" ] ;
+         fhir:display [ fhir:v "BURUNDI" ]
+       ] [
+         fhir:code [ fhir:v "BJ" ] ;
+         fhir:display [ fhir:v "BENIN" ]
+       ] [
+         fhir:code [ fhir:v "BL" ] ;
+         fhir:display [ fhir:v "SAINT BARTHÉLEMY" ]
+       ] [
+         fhir:code [ fhir:v "BM" ] ;
+         fhir:display [ fhir:v "BERMUDA" ]
+       ] [
+         fhir:code [ fhir:v "BN" ] ;
+         fhir:display [ fhir:v "BRUNEI DARUSSALAM" ]
+       ] [
+         fhir:code [ fhir:v "BO" ] ;
+         fhir:display [ fhir:v "BOLIVIA (PLURINATIONAL STATE OF)" ]
+       ] [
+         fhir:code [ fhir:v "BQ" ] ;
+         fhir:display [ fhir:v "BONAIRE, SINT EUSTATIUS AND SABA" ]
+       ] [
+         fhir:code [ fhir:v "BR" ] ;
+         fhir:display [ fhir:v "BRAZIL" ]
+       ] [
+         fhir:code [ fhir:v "BS" ] ;
+         fhir:display [ fhir:v "BAHAMAS" ]
+       ] [
+         fhir:code [ fhir:v "BT" ] ;
+         fhir:display [ fhir:v "BHUTAN" ]
+       ] [
+         fhir:code [ fhir:v "BV" ] ;
+         fhir:display [ fhir:v "BOUVET ISLAND" ]
+       ] [
+         fhir:code [ fhir:v "BW" ] ;
+         fhir:display [ fhir:v "BOTSWANA" ]
+       ] [
+         fhir:code [ fhir:v "BY" ] ;
+         fhir:display [ fhir:v "BELARUS" ]
+       ] [
+         fhir:code [ fhir:v "BZ" ] ;
+         fhir:display [ fhir:v "BELIZE" ]
+       ] [
+         fhir:code [ fhir:v "CA" ] ;
+         fhir:display [ fhir:v "CANADA" ]
+       ] [
+         fhir:code [ fhir:v "CC" ] ;
+         fhir:display [ fhir:v "COCOS (KEELING) ISLANDS" ]
+       ] [
+         fhir:code [ fhir:v "CD" ] ;
+         fhir:display [ fhir:v "CONGO, DEMOCRATIC REPUBLIC OF" ]
+       ] [
+         fhir:code [ fhir:v "CF" ] ;
+         fhir:display [ fhir:v "CENTRAL AFRICAN REPUBLIC" ]
+       ] [
+         fhir:code [ fhir:v "CG" ] ;
+         fhir:display [ fhir:v "CONGO" ]
+       ] [
+         fhir:code [ fhir:v "CH" ] ;
+         fhir:display [ fhir:v "SWITZERLAND" ]
+       ] [
+         fhir:code [ fhir:v "CI" ] ;
+         fhir:display [ fhir:v "COTE D'IVOIRE" ]
+       ] [
+         fhir:code [ fhir:v "CK" ] ;
+         fhir:display [ fhir:v "COOK ISLANDS" ]
+       ] [
+         fhir:code [ fhir:v "CL" ] ;
+         fhir:display [ fhir:v "CHILE" ]
+       ] [
+         fhir:code [ fhir:v "CM" ] ;
+         fhir:display [ fhir:v "CAMEROON" ]
+       ] [
+         fhir:code [ fhir:v "CN" ] ;
+         fhir:display [ fhir:v "CHINA" ]
+       ] [
+         fhir:code [ fhir:v "CO" ] ;
+         fhir:display [ fhir:v "COLOMBIA" ]
+       ] [
+         fhir:code [ fhir:v "CR" ] ;
+         fhir:display [ fhir:v "COSTA RICA" ]
+       ] [
+         fhir:code [ fhir:v "CU" ] ;
+         fhir:display [ fhir:v "CUBA" ]
+       ] [
+         fhir:code [ fhir:v "CV" ] ;
+         fhir:display [ fhir:v "CAPE VERDE" ]
+       ] [
+         fhir:code [ fhir:v "CW" ] ;
+         fhir:display [ fhir:v "CURAÇAO" ]
+       ] [
+         fhir:code [ fhir:v "CX" ] ;
+         fhir:display [ fhir:v "CHRISTMAS ISLAND" ]
+       ] [
+         fhir:code [ fhir:v "CY" ] ;
+         fhir:display [ fhir:v "CYPRUS" ]
+       ] [
+         fhir:code [ fhir:v "CZ" ] ;
+         fhir:display [ fhir:v "CZECH REPUBLIC" ]
+       ] [
+         fhir:code [ fhir:v "DE" ] ;
+         fhir:display [ fhir:v "GERMANY" ]
+       ] [
+         fhir:code [ fhir:v "DJ" ] ;
+         fhir:display [ fhir:v "DJIBOUTI" ]
+       ] [
+         fhir:code [ fhir:v "DK" ] ;
+         fhir:display [ fhir:v "DENMARK" ]
+       ] [
+         fhir:code [ fhir:v "DM" ] ;
+         fhir:display [ fhir:v "DOMINICA" ]
+       ] [
+         fhir:code [ fhir:v "DO" ] ;
+         fhir:display [ fhir:v "DOMINICAN REPUBLIC" ]
+       ] [
+         fhir:code [ fhir:v "DZ" ] ;
+         fhir:display [ fhir:v "ALGERIA" ]
+       ] [
+         fhir:code [ fhir:v "EC" ] ;
+         fhir:display [ fhir:v "ECUADOR" ]
+       ] [
+         fhir:code [ fhir:v "EE" ] ;
+         fhir:display [ fhir:v "ESTONIA" ]
+       ] [
+         fhir:code [ fhir:v "EG" ] ;
+         fhir:display [ fhir:v "EGYPT" ]
+       ] [
+         fhir:code [ fhir:v "EH" ] ;
+         fhir:display [ fhir:v "WESTERN SAHARA" ]
+       ] [
+         fhir:code [ fhir:v "ER" ] ;
+         fhir:display [ fhir:v "ERITREA" ]
+       ] [
+         fhir:code [ fhir:v "ES" ] ;
+         fhir:display [ fhir:v "SPAIN" ]
+       ] [
+         fhir:code [ fhir:v "ET" ] ;
+         fhir:display [ fhir:v "ETHIOPIA" ]
+       ] [
+         fhir:code [ fhir:v "FI" ] ;
+         fhir:display [ fhir:v "FINLAND" ]
+       ] [
+         fhir:code [ fhir:v "FJ" ] ;
+         fhir:display [ fhir:v "FIJI" ]
+       ] [
+         fhir:code [ fhir:v "FK" ] ;
+         fhir:display [ fhir:v "FALKLAND ISLANDS (MALVINAS)" ]
+       ] [
+         fhir:code [ fhir:v "FM" ] ;
+         fhir:display [ fhir:v "MICRONESIA (FEDERATED STATES OF)" ]
+       ] [
+         fhir:code [ fhir:v "FO" ] ;
+         fhir:display [ fhir:v "FAROE ISLANDS" ]
+       ] [
+         fhir:code [ fhir:v "FR" ] ;
+         fhir:display [ fhir:v "FRANCE" ]
+       ] [
+         fhir:code [ fhir:v "GA" ] ;
+         fhir:display [ fhir:v "GABON" ]
+       ] [
+         fhir:code [ fhir:v "GB" ] ;
+         fhir:display [ fhir:v "UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND" ]
+       ] [
+         fhir:code [ fhir:v "GD" ] ;
+         fhir:display [ fhir:v "GRENADA" ]
+       ] [
+         fhir:code [ fhir:v "GE" ] ;
+         fhir:display [ fhir:v "GEORGIA" ]
+       ] [
+         fhir:code [ fhir:v "GF" ] ;
+         fhir:display [ fhir:v "FRENCH GUIANA" ]
+       ] [
+         fhir:code [ fhir:v "GG" ] ;
+         fhir:display [ fhir:v "GUERNSEY" ]
+       ] [
+         fhir:code [ fhir:v "GH" ] ;
+         fhir:display [ fhir:v "GHANA" ]
+       ] [
+         fhir:code [ fhir:v "GI" ] ;
+         fhir:display [ fhir:v "GIBRALTAR" ]
+       ] [
+         fhir:code [ fhir:v "GL" ] ;
+         fhir:display [ fhir:v "GREENLAND" ]
+       ] [
+         fhir:code [ fhir:v "GM" ] ;
+         fhir:display [ fhir:v "GAMBIA" ]
+       ] [
+         fhir:code [ fhir:v "GN" ] ;
+         fhir:display [ fhir:v "GUINEA" ]
+       ] [
+         fhir:code [ fhir:v "GP" ] ;
+         fhir:display [ fhir:v "GUADELOUPE" ]
+       ] [
+         fhir:code [ fhir:v "GQ" ] ;
+         fhir:display [ fhir:v "EQUATORIAL GUINEA" ]
+       ] [
+         fhir:code [ fhir:v "GR" ] ;
+         fhir:display [ fhir:v "GREECE" ]
+       ] [
+         fhir:code [ fhir:v "GS" ] ;
+         fhir:display [ fhir:v "SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS" ]
+       ] [
+         fhir:code [ fhir:v "GT" ] ;
+         fhir:display [ fhir:v "GUATEMALA" ]
+       ] [
+         fhir:code [ fhir:v "GU" ] ;
+         fhir:display [ fhir:v "GUAM" ]
+       ] [
+         fhir:code [ fhir:v "GW" ] ;
+         fhir:display [ fhir:v "GUINEA-BISSAU" ]
+       ] [
+         fhir:code [ fhir:v "GY" ] ;
+         fhir:display [ fhir:v "GUYANA" ]
+       ] [
+         fhir:code [ fhir:v "HK" ] ;
+         fhir:display [ fhir:v "HONG KONG" ]
+       ] [
+         fhir:code [ fhir:v "HM" ] ;
+         fhir:display [ fhir:v "HEARD ISLAND AND MCDONALD ISLANDS" ]
+       ] [
+         fhir:code [ fhir:v "HN" ] ;
+         fhir:display [ fhir:v "HONDURAS" ]
+       ] [
+         fhir:code [ fhir:v "HR" ] ;
+         fhir:display [ fhir:v "CROATIA" ]
+       ] [
+         fhir:code [ fhir:v "HT" ] ;
+         fhir:display [ fhir:v "HAITI" ]
+       ] [
+         fhir:code [ fhir:v "HU" ] ;
+         fhir:display [ fhir:v "HUNGARY" ]
+       ] [
+         fhir:code [ fhir:v "ID" ] ;
+         fhir:display [ fhir:v "INDONESIA" ]
+       ] [
+         fhir:code [ fhir:v "IE" ] ;
+         fhir:display [ fhir:v "IRELAND" ]
+       ] [
+         fhir:code [ fhir:v "IL" ] ;
+         fhir:display [ fhir:v "ISRAEL" ]
+       ] [
+         fhir:code [ fhir:v "IM" ] ;
+         fhir:display [ fhir:v "ISLE OF MAN" ]
+       ] [
+         fhir:code [ fhir:v "IN" ] ;
+         fhir:display [ fhir:v "INDIA" ]
+       ] [
+         fhir:code [ fhir:v "IO" ] ;
+         fhir:display [ fhir:v "BRITISH INDIAN OCEAN TERRITORY" ]
+       ] [
+         fhir:code [ fhir:v "IQ" ] ;
+         fhir:display [ fhir:v "IRAQ" ]
+       ] [
+         fhir:code [ fhir:v "IR" ] ;
+         fhir:display [ fhir:v "IRAN (ISLAMIC REPUBLIC OF)" ]
+       ] [
+         fhir:code [ fhir:v "IS" ] ;
+         fhir:display [ fhir:v "ICELAND" ]
+       ] [
+         fhir:code [ fhir:v "IT" ] ;
+         fhir:display [ fhir:v "ITALY" ]
+       ] [
+         fhir:code [ fhir:v "JE" ] ;
+         fhir:display [ fhir:v "JERSEY" ]
+       ] [
+         fhir:code [ fhir:v "JM" ] ;
+         fhir:display [ fhir:v "JAMAICA" ]
+       ] [
+         fhir:code [ fhir:v "JO" ] ;
+         fhir:display [ fhir:v "JORDAN" ]
+       ] [
+         fhir:code [ fhir:v "JP" ] ;
+         fhir:display [ fhir:v "JAPAN" ]
+       ] [
+         fhir:code [ fhir:v "KE" ] ;
+         fhir:display [ fhir:v "KENYA" ]
+       ] [
+         fhir:code [ fhir:v "KG" ] ;
+         fhir:display [ fhir:v "KYRGYZSTAN" ]
+       ] [
+         fhir:code [ fhir:v "KH" ] ;
+         fhir:display [ fhir:v "CAMBODIA" ]
+       ] [
+         fhir:code [ fhir:v "KI" ] ;
+         fhir:display [ fhir:v "KIRIBATI" ]
+       ] [
+         fhir:code [ fhir:v "KM" ] ;
+         fhir:display [ fhir:v "COMOROS" ]
+       ] [
+         fhir:code [ fhir:v "KN" ] ;
+         fhir:display [ fhir:v "SAINT KITTS AND NEVIS" ]
+       ] [
+         fhir:code [ fhir:v "KP" ] ;
+         fhir:display [ fhir:v "KOREA (DEMOCRATIC PEOPLE'S REPUBLIC OF)" ]
+       ] [
+         fhir:code [ fhir:v "KR" ] ;
+         fhir:display [ fhir:v "KOREA, REPUBLIC OF" ]
+       ] [
+         fhir:code [ fhir:v "KW" ] ;
+         fhir:display [ fhir:v "KUWAIT" ]
+       ] [
+         fhir:code [ fhir:v "KY" ] ;
+         fhir:display [ fhir:v "CAYMAN ISLANDS" ]
+       ] [
+         fhir:code [ fhir:v "KZ" ] ;
+         fhir:display [ fhir:v "KAZAKHSTAN" ]
+       ] [
+         fhir:code [ fhir:v "LA" ] ;
+         fhir:display [ fhir:v "LAO PEOPLE'S DEMOCRATIC REPUBLIC" ]
+       ] [
+         fhir:code [ fhir:v "LB" ] ;
+         fhir:display [ fhir:v "LEBANON" ]
+       ] [
+         fhir:code [ fhir:v "LC" ] ;
+         fhir:display [ fhir:v "SAINT LUCIA" ]
+       ] [
+         fhir:code [ fhir:v "LI" ] ;
+         fhir:display [ fhir:v "LIECHTENSTEIN" ]
+       ] [
+         fhir:code [ fhir:v "LK" ] ;
+         fhir:display [ fhir:v "SRI LANKA" ]
+       ] [
+         fhir:code [ fhir:v "LR" ] ;
+         fhir:display [ fhir:v "LIBERIA" ]
+       ] [
+         fhir:code [ fhir:v "LS" ] ;
+         fhir:display [ fhir:v "LESOTHO" ]
+       ] [
+         fhir:code [ fhir:v "LT" ] ;
+         fhir:display [ fhir:v "LITHUANIA" ]
+       ] [
+         fhir:code [ fhir:v "LU" ] ;
+         fhir:display [ fhir:v "LUXEMBOURG" ]
+       ] [
+         fhir:code [ fhir:v "LV" ] ;
+         fhir:display [ fhir:v "LATVIA" ]
+       ] [
+         fhir:code [ fhir:v "LY" ] ;
+         fhir:display [ fhir:v "LIBYA" ]
+       ] [
+         fhir:code [ fhir:v "MA" ] ;
+         fhir:display [ fhir:v "MOROCCO" ]
+       ] [
+         fhir:code [ fhir:v "MC" ] ;
+         fhir:display [ fhir:v "MONACO" ]
+       ] [
+         fhir:code [ fhir:v "MD" ] ;
+         fhir:display [ fhir:v "MOLDOVA, REPUBLIC OF" ]
+       ] [
+         fhir:code [ fhir:v "ME" ] ;
+         fhir:display [ fhir:v "MONTENEGRO" ]
+       ] [
+         fhir:code [ fhir:v "MF" ] ;
+         fhir:display [ fhir:v "SAINT MARTIN (FRENCH PART)" ]
+       ] [
+         fhir:code [ fhir:v "MG" ] ;
+         fhir:display [ fhir:v "MADAGASCAR" ]
+       ] [
+         fhir:code [ fhir:v "MH" ] ;
+         fhir:display [ fhir:v "MARSHALL ISLANDS" ]
+       ] [
+         fhir:code [ fhir:v "MK" ] ;
+         fhir:display [ fhir:v "MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF" ]
+       ] [
+         fhir:code [ fhir:v "ML" ] ;
+         fhir:display [ fhir:v "MALI" ]
+       ] [
+         fhir:code [ fhir:v "MM" ] ;
+         fhir:display [ fhir:v "MYANMAR" ]
+       ] [
+         fhir:code [ fhir:v "MN" ] ;
+         fhir:display [ fhir:v "MONGOLIA" ]
+       ] [
+         fhir:code [ fhir:v "MO" ] ;
+         fhir:display [ fhir:v "MACAO" ]
+       ] [
+         fhir:code [ fhir:v "MP" ] ;
+         fhir:display [ fhir:v "NORTHERN MARIANA ISLANDS" ]
+       ] [
+         fhir:code [ fhir:v "MQ" ] ;
+         fhir:display [ fhir:v "MARTINIQUE" ]
+       ] [
+         fhir:code [ fhir:v "MR" ] ;
+         fhir:display [ fhir:v "MAURITANIA" ]
+       ] [
+         fhir:code [ fhir:v "MS" ] ;
+         fhir:display [ fhir:v "MONTSERRAT" ]
+       ] [
+         fhir:code [ fhir:v "MT" ] ;
+         fhir:display [ fhir:v "MALTA" ]
+       ] [
+         fhir:code [ fhir:v "MU" ] ;
+         fhir:display [ fhir:v "MAURITIUS" ]
+       ] [
+         fhir:code [ fhir:v "MV" ] ;
+         fhir:display [ fhir:v "MALDIVES" ]
+       ] [
+         fhir:code [ fhir:v "MW" ] ;
+         fhir:display [ fhir:v "MALAWI" ]
+       ] [
+         fhir:code [ fhir:v "MX" ] ;
+         fhir:display [ fhir:v "MEXICO" ]
+       ] [
+         fhir:code [ fhir:v "MY" ] ;
+         fhir:display [ fhir:v "MALAYSIA" ]
+       ] [
+         fhir:code [ fhir:v "MZ" ] ;
+         fhir:display [ fhir:v "MOZAMBIQUE" ]
+       ] [
+         fhir:code [ fhir:v "nan" ] ;
+         fhir:display [ fhir:v "NAMIBIA" ]
+       ] [
+         fhir:code [ fhir:v "NC" ] ;
+         fhir:display [ fhir:v "NEW CALEDONIA" ]
+       ] [
+         fhir:code [ fhir:v "NE" ] ;
+         fhir:display [ fhir:v "NIGER" ]
+       ] [
+         fhir:code [ fhir:v "NF" ] ;
+         fhir:display [ fhir:v "NORFOLK ISLAND" ]
+       ] [
+         fhir:code [ fhir:v "NG" ] ;
+         fhir:display [ fhir:v "NIGERIA" ]
+       ] [
+         fhir:code [ fhir:v "NI" ] ;
+         fhir:display [ fhir:v "NICARAGUA" ]
+       ] [
+         fhir:code [ fhir:v "NL" ] ;
+         fhir:display [ fhir:v "NETHERLANDS" ]
+       ] [
+         fhir:code [ fhir:v "NO" ] ;
+         fhir:display [ fhir:v "NORWAY" ]
+       ] [
+         fhir:code [ fhir:v "NP" ] ;
+         fhir:display [ fhir:v "NEPAL" ]
+       ] [
+         fhir:code [ fhir:v "NR" ] ;
+         fhir:display [ fhir:v "NAURU" ]
+       ] [
+         fhir:code [ fhir:v "NU" ] ;
+         fhir:display [ fhir:v "NIUE" ]
+       ] [
+         fhir:code [ fhir:v "NZ" ] ;
+         fhir:display [ fhir:v "NEW ZEALAND" ]
+       ] [
+         fhir:code [ fhir:v "OM" ] ;
+         fhir:display [ fhir:v "OMAN" ]
+       ] [
+         fhir:code [ fhir:v "PA" ] ;
+         fhir:display [ fhir:v "PANAMA" ]
+       ] [
+         fhir:code [ fhir:v "PE" ] ;
+         fhir:display [ fhir:v "PERU" ]
+       ] [
+         fhir:code [ fhir:v "PF" ] ;
+         fhir:display [ fhir:v "FRENCH POLYNESIA" ]
+       ] [
+         fhir:code [ fhir:v "PG" ] ;
+         fhir:display [ fhir:v "PAPUA NEW GUINEA" ]
+       ] [
+         fhir:code [ fhir:v "PH" ] ;
+         fhir:display [ fhir:v "PHILIPPINES" ]
+       ] [
+         fhir:code [ fhir:v "PK" ] ;
+         fhir:display [ fhir:v "PAKISTAN" ]
+       ] [
+         fhir:code [ fhir:v "PL" ] ;
+         fhir:display [ fhir:v "POLAND" ]
+       ] [
+         fhir:code [ fhir:v "PM" ] ;
+         fhir:display [ fhir:v "SAINT PIERRE AND MIQUELON" ]
+       ] [
+         fhir:code [ fhir:v "PN" ] ;
+         fhir:display [ fhir:v "PITCAIRN" ]
+       ] [
+         fhir:code [ fhir:v "PR" ] ;
+         fhir:display [ fhir:v "PUERTO RICO" ]
+       ] [
+         fhir:code [ fhir:v "PS" ] ;
+         fhir:display [ fhir:v "PALESTINE, STATE OF" ]
+       ] [
+         fhir:code [ fhir:v "PT" ] ;
+         fhir:display [ fhir:v "PORTUGAL" ]
+       ] [
+         fhir:code [ fhir:v "PW" ] ;
+         fhir:display [ fhir:v "PALAU" ]
+       ] [
+         fhir:code [ fhir:v "PY" ] ;
+         fhir:display [ fhir:v "PARAGUAY" ]
+       ] [
+         fhir:code [ fhir:v "QA" ] ;
+         fhir:display [ fhir:v "QATAR" ]
+       ] [
+         fhir:code [ fhir:v "RE" ] ;
+         fhir:display [ fhir:v "REUNION" ]
+       ] [
+         fhir:code [ fhir:v "RO" ] ;
+         fhir:display [ fhir:v "ROMANIA" ]
+       ] [
+         fhir:code [ fhir:v "RS" ] ;
+         fhir:display [ fhir:v "SERBIA" ]
+       ] [
+         fhir:code [ fhir:v "RU" ] ;
+         fhir:display [ fhir:v "RUSSIAN FEDERATION" ]
+       ] [
+         fhir:code [ fhir:v "RW" ] ;
+         fhir:display [ fhir:v "RWANDA" ]
+       ] [
+         fhir:code [ fhir:v "SA" ] ;
+         fhir:display [ fhir:v "SAUDI ARABIA" ]
+       ] [
+         fhir:code [ fhir:v "SB" ] ;
+         fhir:display [ fhir:v "SOLOMON ISLANDS" ]
+       ] [
+         fhir:code [ fhir:v "SC" ] ;
+         fhir:display [ fhir:v "SEYCHELLES" ]
+       ] [
+         fhir:code [ fhir:v "SD" ] ;
+         fhir:display [ fhir:v "SUDAN" ]
+       ] [
+         fhir:code [ fhir:v "SE" ] ;
+         fhir:display [ fhir:v "SWEDEN" ]
+       ] [
+         fhir:code [ fhir:v "SG" ] ;
+         fhir:display [ fhir:v "SINGAPORE" ]
+       ] [
+         fhir:code [ fhir:v "SH" ] ;
+         fhir:display [ fhir:v "SAINT HELENA, ASCENSION AND TRISTAN DA CUNHA" ]
+       ] [
+         fhir:code [ fhir:v "SI" ] ;
+         fhir:display [ fhir:v "SLOVENIA" ]
+       ] [
+         fhir:code [ fhir:v "SJ" ] ;
+         fhir:display [ fhir:v "SVALBARD AND JAN MAYEN" ]
+       ] [
+         fhir:code [ fhir:v "SK" ] ;
+         fhir:display [ fhir:v "SLOVAKIA" ]
+       ] [
+         fhir:code [ fhir:v "SL" ] ;
+         fhir:display [ fhir:v "SIERRA LEONE" ]
+       ] [
+         fhir:code [ fhir:v "SM" ] ;
+         fhir:display [ fhir:v "SAN MARINO" ]
+       ] [
+         fhir:code [ fhir:v "SN" ] ;
+         fhir:display [ fhir:v "SENEGAL" ]
+       ] [
+         fhir:code [ fhir:v "SO" ] ;
+         fhir:display [ fhir:v "SOMALIA" ]
+       ] [
+         fhir:code [ fhir:v "SR" ] ;
+         fhir:display [ fhir:v "SURINAME" ]
+       ] [
+         fhir:code [ fhir:v "SS" ] ;
+         fhir:display [ fhir:v "SOUTH SUDAN" ]
+       ] [
+         fhir:code [ fhir:v "ST" ] ;
+         fhir:display [ fhir:v "SAO TOME AND PRINCIPE" ]
+       ] [
+         fhir:code [ fhir:v "SV" ] ;
+         fhir:display [ fhir:v "EL SALVADOR" ]
+       ] [
+         fhir:code [ fhir:v "SX" ] ;
+         fhir:display [ fhir:v "SINT MAARTEN (DUTCH PART)" ]
+       ] [
+         fhir:code [ fhir:v "SY" ] ;
+         fhir:display [ fhir:v "SYRIAN ARAB REPUBLIC" ]
+       ] [
+         fhir:code [ fhir:v "SZ" ] ;
+         fhir:display [ fhir:v "SWAZILAND" ]
+       ] [
+         fhir:code [ fhir:v "TC" ] ;
+         fhir:display [ fhir:v "TURKS AND CAICOS ISLANDS" ]
+       ] [
+         fhir:code [ fhir:v "TD" ] ;
+         fhir:display [ fhir:v "CHAD" ]
+       ] [
+         fhir:code [ fhir:v "TF" ] ;
+         fhir:display [ fhir:v "FRENCH SOUTHERN TERRITORIES" ]
+       ] [
+         fhir:code [ fhir:v "TG" ] ;
+         fhir:display [ fhir:v "TOGO" ]
+       ] [
+         fhir:code [ fhir:v "TH" ] ;
+         fhir:display [ fhir:v "THAILAND" ]
+       ] [
+         fhir:code [ fhir:v "TJ" ] ;
+         fhir:display [ fhir:v "TAJIKISTAN" ]
+       ] [
+         fhir:code [ fhir:v "TK" ] ;
+         fhir:display [ fhir:v "TOKELAU" ]
+       ] [
+         fhir:code [ fhir:v "TL" ] ;
+         fhir:display [ fhir:v "TIMOR-LESTE" ]
+       ] [
+         fhir:code [ fhir:v "TM" ] ;
+         fhir:display [ fhir:v "TURKMENISTAN" ]
+       ] [
+         fhir:code [ fhir:v "TN" ] ;
+         fhir:display [ fhir:v "TUNISIA" ]
+       ] [
+         fhir:code [ fhir:v "TO" ] ;
+         fhir:display [ fhir:v "TONGA" ]
+       ] [
+         fhir:code [ fhir:v "TR" ] ;
+         fhir:display [ fhir:v "TURKEY" ]
+       ] [
+         fhir:code [ fhir:v "TT" ] ;
+         fhir:display [ fhir:v "TRINIDAD AND TOBAGO" ]
+       ] [
+         fhir:code [ fhir:v "TV" ] ;
+         fhir:display [ fhir:v "TUVALU" ]
+       ] [
+         fhir:code [ fhir:v "TW" ] ;
+         fhir:display [ fhir:v "TAIWAN, PROVINCE OF CHINA" ]
+       ] [
+         fhir:code [ fhir:v "TZ" ] ;
+         fhir:display [ fhir:v "TANZANIA, UNITED REPUBLIC OF" ]
+       ] [
+         fhir:code [ fhir:v "UA" ] ;
+         fhir:display [ fhir:v "UKRAINE" ]
+       ] [
+         fhir:code [ fhir:v "UG" ] ;
+         fhir:display [ fhir:v "UGANDA" ]
+       ] [
+         fhir:code [ fhir:v "UM" ] ;
+         fhir:display [ fhir:v "UNITED STATES MINOR OUTLYING ISLANDS" ]
+       ] [
+         fhir:code [ fhir:v "US" ] ;
+         fhir:display [ fhir:v "UNITED STATES OF AMERICA" ]
+       ] [
+         fhir:code [ fhir:v "UY" ] ;
+         fhir:display [ fhir:v "URUGUAY" ]
+       ] [
+         fhir:code [ fhir:v "UZ" ] ;
+         fhir:display [ fhir:v "UZBEKISTAN" ]
+       ] [
+         fhir:code [ fhir:v "VA" ] ;
+         fhir:display [ fhir:v "HOLY SEE" ]
+       ] [
+         fhir:code [ fhir:v "VC" ] ;
+         fhir:display [ fhir:v "SAINT VINCENT AND THE GRENADINES" ]
+       ] [
+         fhir:code [ fhir:v "VE" ] ;
+         fhir:display [ fhir:v "VENEZUELA (BOLIVARIAN REPUBLIC OF)" ]
+       ] [
+         fhir:code [ fhir:v "VG" ] ;
+         fhir:display [ fhir:v "VIRGIN ISLANDS, BRITISH" ]
+       ] [
+         fhir:code [ fhir:v "VI" ] ;
+         fhir:display [ fhir:v "VIRGIN ISLANDS, U.S." ]
+       ] [
+         fhir:code [ fhir:v "VN" ] ;
+         fhir:display [ fhir:v "VIET NAM" ]
+       ] [
+         fhir:code [ fhir:v "VU" ] ;
+         fhir:display [ fhir:v "VANUATU" ]
+       ] [
+         fhir:code [ fhir:v "WF" ] ;
+         fhir:display [ fhir:v "WALLIS AND FUTUNA" ]
+       ] [
+         fhir:code [ fhir:v "WS" ] ;
+         fhir:display [ fhir:v "SAMOA" ]
+       ] [
+         fhir:code [ fhir:v "YE" ] ;
+         fhir:display [ fhir:v "YEMEN" ]
+       ] [
+         fhir:code [ fhir:v "YT" ] ;
+         fhir:display [ fhir:v "MAYOTTE" ]
+       ] [
+         fhir:code [ fhir:v "ZA" ] ;
+         fhir:display [ fhir:v "SOUTH AFRICA" ]
+       ] [
+         fhir:code [ fhir:v "ZM" ] ;
+         fhir:display [ fhir:v "ZAMBIA" ]
+       ] [
+         fhir:code [ fhir:v "ZW" ] ;
+         fhir:display [ fhir:v "ZIMBABWE" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

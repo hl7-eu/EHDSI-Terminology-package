@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="eHDSISection-8.1.0"/>
+  <url value="http://terminology.ehdsi.eu/ValueSet/eHDSISection"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.26"/>
+  </identifier>
+  <version value="8.1.0"/>
+  <name value="eHDSISection"/>
+  <title value="eHDSI Section"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-11-18T20:02:38+00:00"/>
+  <publisher value="HL7 Europe"/>
+  <contact>
+    <name value="HL7 Europe"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7europe.org"/>
+    </telecom>
+  </contact>
+  <description value="The Value Set is used for naming the sections used by the three CDA-documents"/>
+  <compose>
+    <include>
+      <system value="http://loinc.org"/>
+      <concept>
+        <code value="10160-0"/>
+        <display value="History of Medication use Narrative"/>
+      </concept>
+      <concept>
+        <code value="10162-6"/>
+        <display value="History of pregnancies Narrative"/>
+      </concept>
+      <concept>
+        <code value="10164-2"/>
+        <display value="History of Present illness Narrative"/>
+      </concept>
+      <concept>
+        <code value="11348-0"/>
+        <display value="History of Past illness Narrative"/>
+      </concept>
+      <concept>
+        <code value="11369-6"/>
+        <display value="History of Immunization Narrative"/>
+      </concept>
+      <concept>
+        <code value="11450-4"/>
+        <display value="Problem list - Reported"/>
+      </concept>
+      <concept>
+        <code value="18776-5"/>
+        <display value="Plan of care note"/>
+      </concept>
+      <concept>
+        <code value="29554-3"/>
+        <display value="Procedure Narrative"/>
+      </concept>
+      <concept>
+        <code value="29762-2"/>
+        <display value="Social history Narrative"/>
+      </concept>
+      <concept>
+        <code value="30954-2"/>
+        <display value="Relevant diagnostic tests/laboratory data Narrative"/>
+      </concept>
+      <concept>
+        <code value="42348-3"/>
+        <display value="Advance directives"/>
+      </concept>
+      <concept>
+        <code value="46264-8"/>
+        <display value="History of medical device use"/>
+      </concept>
+      <concept>
+        <code value="47420-5"/>
+        <display value="Functional status assessment note"/>
+      </concept>
+      <concept>
+        <code value="47519-4"/>
+        <display value="History of Procedures Document"/>
+      </concept>
+      <concept>
+        <code value="48765-2"/>
+        <display value="Allergies and adverse reactions Document"/>
+      </concept>
+      <concept>
+        <code value="57828-6"/>
+        <display value="Prescription list"/>
+      </concept>
+      <concept>
+        <code value="60590-7"/>
+        <display value="Medication dispensed.brief Document"/>
+      </concept>
+      <concept>
+        <code value="8716-3"/>
+        <display value="Vital signs"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

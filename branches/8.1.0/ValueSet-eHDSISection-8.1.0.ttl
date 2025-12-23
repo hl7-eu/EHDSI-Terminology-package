@@ -1,0 +1,103 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSISection-8.1.0> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "eHDSISection-8.1.0"] ; # 
+  fhir:url [
+     fhir:v "http://terminology.ehdsi.eu/ValueSet/eHDSISection"^^xsd:anyURI ;
+     fhir:l <http://terminology.ehdsi.eu/ValueSet/eHDSISection>
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [
+       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
+       fhir:l <urn:ietf:rfc:3986>
+     ] ;
+     fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.26" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "8.1.0"] ; # 
+  fhir:name [ fhir:v "eHDSISection"] ; # 
+  fhir:title [ fhir:v "eHDSI Section"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-11-18T20:02:38+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 Europe"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 Europe" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://hl7europe.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "The Value Set is used for naming the sections used by the three CDA-documents"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "10160-0" ] ;
+         fhir:display [ fhir:v "History of Medication use Narrative" ]
+       ] [
+         fhir:code [ fhir:v "10162-6" ] ;
+         fhir:display [ fhir:v "History of pregnancies Narrative" ]
+       ] [
+         fhir:code [ fhir:v "10164-2" ] ;
+         fhir:display [ fhir:v "History of Present illness Narrative" ]
+       ] [
+         fhir:code [ fhir:v "11348-0" ] ;
+         fhir:display [ fhir:v "History of Past illness Narrative" ]
+       ] [
+         fhir:code [ fhir:v "11369-6" ] ;
+         fhir:display [ fhir:v "History of Immunization Narrative" ]
+       ] [
+         fhir:code [ fhir:v "11450-4" ] ;
+         fhir:display [ fhir:v "Problem list - Reported" ]
+       ] [
+         fhir:code [ fhir:v "18776-5" ] ;
+         fhir:display [ fhir:v "Plan of care note" ]
+       ] [
+         fhir:code [ fhir:v "29554-3" ] ;
+         fhir:display [ fhir:v "Procedure Narrative" ]
+       ] [
+         fhir:code [ fhir:v "29762-2" ] ;
+         fhir:display [ fhir:v "Social history Narrative" ]
+       ] [
+         fhir:code [ fhir:v "30954-2" ] ;
+         fhir:display [ fhir:v "Relevant diagnostic tests/laboratory data Narrative" ]
+       ] [
+         fhir:code [ fhir:v "42348-3" ] ;
+         fhir:display [ fhir:v "Advance directives" ]
+       ] [
+         fhir:code [ fhir:v "46264-8" ] ;
+         fhir:display [ fhir:v "History of medical device use" ]
+       ] [
+         fhir:code [ fhir:v "47420-5" ] ;
+         fhir:display [ fhir:v "Functional status assessment note" ]
+       ] [
+         fhir:code [ fhir:v "47519-4" ] ;
+         fhir:display [ fhir:v "History of Procedures Document" ]
+       ] [
+         fhir:code [ fhir:v "48765-2" ] ;
+         fhir:display [ fhir:v "Allergies and adverse reactions Document" ]
+       ] [
+         fhir:code [ fhir:v "57828-6" ] ;
+         fhir:display [ fhir:v "Prescription list" ]
+       ] [
+         fhir:code [ fhir:v "60590-7" ] ;
+         fhir:display [ fhir:v "Medication dispensed.brief Document" ]
+       ] [
+         fhir:code [ fhir:v "8716-3" ] ;
+         fhir:display [ fhir:v "Vital signs" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

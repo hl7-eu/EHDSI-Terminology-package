@@ -1,0 +1,87 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSITimingEvent-8.1.0> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "eHDSITimingEvent-8.1.0"] ; # 
+  fhir:url [
+     fhir:v "http://terminology.ehdsi.eu/ValueSet/eHDSITimingEvent"^^xsd:anyURI ;
+     fhir:l <http://terminology.ehdsi.eu/ValueSet/eHDSITimingEvent>
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [
+       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
+       fhir:l <urn:ietf:rfc:3986>
+     ] ;
+     fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.41" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "8.1.0"] ; # 
+  fhir:name [ fhir:v "eHDSITimingEvent"] ; # 
+  fhir:title [ fhir:v "eHDSI Timing Event"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-11-18T20:02:38+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 Europe"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 Europe" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://hl7europe.org" ]
+     ] )
+  ] ) ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-TimingEvent"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-TimingEvent>
+       ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "AC" ] ;
+         fhir:display [ fhir:v "before meal (from lat. ante cibus)" ]
+       ] [
+         fhir:code [ fhir:v "ACD" ] ;
+         fhir:display [ fhir:v "before lunch (from lat. ante cibus diurnus)" ]
+       ] [
+         fhir:code [ fhir:v "ACM" ] ;
+         fhir:display [ fhir:v "before breakfast (from lat. ante cibus matutinus)" ]
+       ] [
+         fhir:code [ fhir:v "ACV" ] ;
+         fhir:display [ fhir:v "before dinner (from lat. ante cibus vespertinus)" ]
+       ] [
+         fhir:code [ fhir:v "HS" ] ;
+         fhir:display [ fhir:v "Prior to beginning a regular period of extended sleep (this would exclude naps). Note that this might occur at different times of day depending on a person's regular sleep schedule." ]
+       ] [
+         fhir:code [ fhir:v "IC" ] ;
+         fhir:display [ fhir:v "between meals (from lat. inter cibus)" ]
+       ] [
+         fhir:code [ fhir:v "ICD" ] ;
+         fhir:display [ fhir:v "between lunch and dinner" ]
+       ] [
+         fhir:code [ fhir:v "ICM" ] ;
+         fhir:display [ fhir:v "between breakfast and lunch" ]
+       ] [
+         fhir:code [ fhir:v "ICV" ] ;
+         fhir:display [ fhir:v "between dinner and the hour of sleep" ]
+       ] [
+         fhir:code [ fhir:v "PC" ] ;
+         fhir:display [ fhir:v "after meal (from lat. post cibus)" ]
+       ] [
+         fhir:code [ fhir:v "PCD" ] ;
+         fhir:display [ fhir:v "after lunch (from lat. post cibus diurnus)" ]
+       ] [
+         fhir:code [ fhir:v "PCM" ] ;
+         fhir:display [ fhir:v "after breakfast (from lat. post cibus matutinus)" ]
+       ] [
+         fhir:code [ fhir:v "PCV" ] ;
+         fhir:display [ fhir:v "after dinner (from lat. post cibus vespertinus)" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

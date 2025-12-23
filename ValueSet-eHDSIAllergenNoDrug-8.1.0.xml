@@ -1,0 +1,1910 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="eHDSIAllergenNoDrug-8.1.0"/>
+  <url value="http://terminology.ehdsi.eu/ValueSet/eHDSIAllergenNoDrug"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.19"/>
+  </identifier>
+  <version value="0.2.0"/>
+  <name value="eHDSIAllergenNoDrug"/>
+  <title value="eHDSI Allergen No Drug"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-12-23T10:21:27+00:00"/>
+  <publisher value="HL7 Europe"/>
+  <contact>
+    <name value="HL7 Europe"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7europe.org"/>
+    </telecom>
+  </contact>
+  <description value="The value set is used to code the patient's kind of adverse reactions against substance, food or drugs"/>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="432003"/>
+        <display value="Carminic acid stain"/>
+      </concept>
+      <concept>
+        <code value="2159007"/>
+        <display value="Azorubin S stain"/>
+      </concept>
+      <concept>
+        <code value="2309006"/>
+        <display value="Gold"/>
+      </concept>
+      <concept>
+        <code value="2799001"/>
+        <display value="Methylbenzethonium chloride"/>
+      </concept>
+      <concept>
+        <code value="3692009"/>
+        <display value="Sodium sulfite"/>
+      </concept>
+      <concept>
+        <code value="3718001"/>
+        <display value="Cow's milk"/>
+      </concept>
+      <concept>
+        <code value="3829006"/>
+        <display value="Iron"/>
+      </concept>
+      <concept>
+        <code value="6725000"/>
+        <display value="Methylene blue"/>
+      </concept>
+      <concept>
+        <code value="7434003"/>
+        <display value="Erythrosin B stain"/>
+      </concept>
+      <concept>
+        <code value="7791007"/>
+        <display value="Soybean protein"/>
+      </concept>
+      <concept>
+        <code value="8204009"/>
+        <display value="Polyester"/>
+      </concept>
+      <concept>
+        <code value="9010006"/>
+        <display value="Methyl blue stain"/>
+      </concept>
+      <concept>
+        <code value="9021002"/>
+        <display value="Carbaryl"/>
+      </concept>
+      <concept>
+        <code value="10827009"/>
+        <display value="Milk protein"/>
+      </concept>
+      <concept>
+        <code value="11526002"/>
+        <display value="Aspartame"/>
+      </concept>
+      <concept>
+        <code value="12503006"/>
+        <display value="Aluminum"/>
+      </concept>
+      <concept>
+        <code value="12510000"/>
+        <display value="Eucalyptus oil"/>
+      </concept>
+      <concept>
+        <code value="13577000"/>
+        <display value="Nut"/>
+      </concept>
+      <concept>
+        <code value="13652007"/>
+        <display value="Silicone"/>
+      </concept>
+      <concept>
+        <code value="14006006"/>
+        <display value="Ethylene oxide"/>
+      </concept>
+      <concept>
+        <code value="14321009"/>
+        <display value="Captafol"/>
+      </concept>
+      <concept>
+        <code value="14402002"/>
+        <display value="Wood"/>
+      </concept>
+      <concept>
+        <code value="15896008"/>
+        <display value="Methyl violet 2B stain"/>
+      </concept>
+      <concept>
+        <code value="16313001"/>
+        <display value="Tea"/>
+      </concept>
+      <concept>
+        <code value="17172002"/>
+        <display value="Dibromofluorescein stain"/>
+      </concept>
+      <concept>
+        <code value="17486007"/>
+        <display value="Mecrylate"/>
+      </concept>
+      <concept>
+        <code value="17693003"/>
+        <display value="Acriflavine stain"/>
+      </concept>
+      <concept>
+        <code value="19839007"/>
+        <display value="Sorbitol"/>
+      </concept>
+      <concept>
+        <code value="19893005"/>
+        <display value="Potassium dichromate"/>
+      </concept>
+      <concept>
+        <code value="21592006"/>
+        <display value="Tartrazine stain"/>
+      </concept>
+      <concept>
+        <code value="22242006"/>
+        <display value="Glutaraldehyde"/>
+      </concept>
+      <concept>
+        <code value="22836000"/>
+        <display value="Vegetable"/>
+      </concept>
+      <concept>
+        <code value="22931006"/>
+        <display value="Evans blue stain"/>
+      </concept>
+      <concept>
+        <code value="22968009"/>
+        <display value="Sunset yellow FCF stain"/>
+      </concept>
+      <concept>
+        <code value="23182003"/>
+        <display value="Cereal"/>
+      </concept>
+      <concept>
+        <code value="24102007"/>
+        <display value="Chlorothalonil"/>
+      </concept>
+      <concept>
+        <code value="24215009"/>
+        <display value="Picric acid"/>
+      </concept>
+      <concept>
+        <code value="25761002"/>
+        <display value="Glutamine"/>
+      </concept>
+      <concept>
+        <code value="27119002"/>
+        <display value="Trimellitic anhydride"/>
+      </concept>
+      <concept>
+        <code value="28230009"/>
+        <display value="Poultry"/>
+      </concept>
+      <concept>
+        <code value="28421003"/>
+        <display value="Sorbic acid"/>
+      </concept>
+      <concept>
+        <code value="28647000"/>
+        <display value="Meat"/>
+      </concept>
+      <concept>
+        <code value="29263009"/>
+        <display value="Coffee"/>
+      </concept>
+      <concept>
+        <code value="29522004"/>
+        <display value="Tolonium chloride"/>
+      </concept>
+      <concept>
+        <code value="31006001"/>
+        <display value="Kingdom Plantae"/>
+      </concept>
+      <concept>
+        <code value="31347007"/>
+        <display value="Licorice"/>
+      </concept>
+      <concept>
+        <code value="33008008"/>
+        <display value="Dust"/>
+      </concept>
+      <concept>
+        <code value="33396006"/>
+        <display value="Nickel"/>
+      </concept>
+      <concept>
+        <code value="35233000"/>
+        <display value="Polyvinyl chloride"/>
+      </concept>
+      <concept>
+        <code value="35605007"/>
+        <display value="Anhydrous lanolin"/>
+      </concept>
+      <concept>
+        <code value="35609001"/>
+        <display value="Azophloxin stain"/>
+      </concept>
+      <concept>
+        <code value="37017009"/>
+        <display value="Helminth"/>
+      </concept>
+      <concept>
+        <code value="37575004"/>
+        <display value="Carmoisine A stain"/>
+      </concept>
+      <concept>
+        <code value="38271009"/>
+        <display value="Saffron stain"/>
+      </concept>
+      <concept>
+        <code value="41750006"/>
+        <display value="Brazilin stain"/>
+      </concept>
+      <concept>
+        <code value="41967008"/>
+        <display value="Silver"/>
+      </concept>
+      <concept>
+        <code value="42416001"/>
+        <display value="Lanolin"/>
+      </concept>
+      <concept>
+        <code value="43230003"/>
+        <display value="Rubber"/>
+      </concept>
+      <concept>
+        <code value="43735007"/>
+        <display value="Sulfur"/>
+      </concept>
+      <concept>
+        <code value="44027008"/>
+        <display value="Seafood"/>
+      </concept>
+      <concept>
+        <code value="47703008"/>
+        <display value="Lactose"/>
+      </concept>
+      <concept>
+        <code value="48540004"/>
+        <display value="Patent blue V sodium salt stain"/>
+      </concept>
+      <concept>
+        <code value="50593009"/>
+        <display value="Casein"/>
+      </concept>
+      <concept>
+        <code value="51503008"/>
+        <display value="Rose oil"/>
+      </concept>
+      <concept>
+        <code value="51905005"/>
+        <display value="Mustard"/>
+      </concept>
+      <concept>
+        <code value="51963001"/>
+        <display value="Sulfite salt"/>
+      </concept>
+      <concept>
+        <code value="52454007"/>
+        <display value="Albumin"/>
+      </concept>
+      <concept>
+        <code value="52836003"/>
+        <display value="Paraformaldehyde"/>
+      </concept>
+      <concept>
+        <code value="54041009"/>
+        <display value="Safflower oil"/>
+      </concept>
+      <concept>
+        <code value="55700001"/>
+        <display value="Nylon"/>
+      </concept>
+      <concept>
+        <code value="56822005"/>
+        <display value="Quaternary ammonium salt"/>
+      </concept>
+      <concept>
+        <code value="57126000"/>
+        <display value="Glue"/>
+      </concept>
+      <concept>
+        <code value="57720001"/>
+        <display value="Anise oil"/>
+      </concept>
+      <concept>
+        <code value="59351004"/>
+        <display value="Citrate"/>
+      </concept>
+      <concept>
+        <code value="59533004"/>
+        <display value="Food additive"/>
+      </concept>
+      <concept>
+        <code value="59545008"/>
+        <display value="Pesticide"/>
+      </concept>
+      <concept>
+        <code value="61088005"/>
+        <display value="Plastic"/>
+      </concept>
+      <concept>
+        <code value="61789006"/>
+        <display value="Dye"/>
+      </concept>
+      <concept>
+        <code value="63338004"/>
+        <display value="Drug flavoring"/>
+      </concept>
+      <concept>
+        <code value="63766005"/>
+        <display value="Flour"/>
+      </concept>
+      <concept>
+        <code value="64601002"/>
+        <display value="Wood dust"/>
+      </concept>
+      <concept>
+        <code value="65123005"/>
+        <display value="Choline"/>
+      </concept>
+      <concept>
+        <code value="65345002"/>
+        <display value="Epoxy resin"/>
+      </concept>
+      <concept>
+        <code value="66562002"/>
+        <display value="Cigarette smoking tobacco"/>
+      </concept>
+      <concept>
+        <code value="66925006"/>
+        <display value="Copper"/>
+      </concept>
+      <concept>
+        <code value="67324005"/>
+        <display value="Rice"/>
+      </concept>
+      <concept>
+        <code value="68524009"/>
+        <display value="Tragacanth"/>
+      </concept>
+      <concept>
+        <code value="71463006"/>
+        <display value="Polyethylene"/>
+      </concept>
+      <concept>
+        <code value="72179002"/>
+        <display value="Oxybenzone"/>
+      </concept>
+      <concept>
+        <code value="72511004"/>
+        <display value="Fruit"/>
+      </concept>
+      <concept>
+        <code value="73892005"/>
+        <display value="Carmine stain"/>
+      </concept>
+      <concept>
+        <code value="75044009"/>
+        <display value="Sisal fiber"/>
+      </concept>
+      <concept>
+        <code value="75665004"/>
+        <display value="Monosodium glutamate"/>
+      </concept>
+      <concept>
+        <code value="77249007"/>
+        <display value="Phthalic anhydride"/>
+      </concept>
+      <concept>
+        <code value="79549001"/>
+        <display value="Cyanoacrylate"/>
+      </concept>
+      <concept>
+        <code value="80237000"/>
+        <display value="Cocoa butter"/>
+      </concept>
+      <concept>
+        <code value="81911001"/>
+        <display value="Chewing tobacco"/>
+      </concept>
+      <concept>
+        <code value="82566005"/>
+        <display value="Animal feed"/>
+      </concept>
+      <concept>
+        <code value="83595008"/>
+        <display value="Goat's milk"/>
+      </concept>
+      <concept>
+        <code value="83619009"/>
+        <display value="Polyvinyl alcohol"/>
+      </concept>
+      <concept>
+        <code value="84181009"/>
+        <display value="Styrene"/>
+      </concept>
+      <concept>
+        <code value="84212004"/>
+        <display value="Ethylenimine"/>
+      </concept>
+      <concept>
+        <code value="84791008"/>
+        <display value="Sodium metabisulfite"/>
+      </concept>
+      <concept>
+        <code value="85066006"/>
+        <display value="Azo black stain"/>
+      </concept>
+      <concept>
+        <code value="89811004"/>
+        <display value="Gluten"/>
+      </concept>
+      <concept>
+        <code value="89889006"/>
+        <display value="Cotton fiber"/>
+      </concept>
+      <concept>
+        <code value="102259006"/>
+        <display value="Citrus fruit"/>
+      </concept>
+      <concept>
+        <code value="102261002"/>
+        <display value="Strawberry"/>
+      </concept>
+      <concept>
+        <code value="102262009"/>
+        <display value="Chocolate"/>
+      </concept>
+      <concept>
+        <code value="102263004"/>
+        <display value="Eggs (edible)"/>
+      </concept>
+      <concept>
+        <code value="102264005"/>
+        <display value="Cheese"/>
+      </concept>
+      <concept>
+        <code value="102697003"/>
+        <display value="Lactalbumin"/>
+      </concept>
+      <concept>
+        <code value="105590001"/>
+        <display value="Substance"/>
+      </concept>
+      <concept>
+        <code value="111088007"/>
+        <display value="Latex"/>
+      </concept>
+      <concept>
+        <code value="111095003"/>
+        <display value="Formaldehyde"/>
+      </concept>
+      <concept>
+        <code value="115589000"/>
+        <display value="Ethanolamine"/>
+      </concept>
+      <concept>
+        <code value="116364004"/>
+        <display value="Diazonium salt"/>
+      </concept>
+      <concept>
+        <code value="116549003"/>
+        <display value="Organochlorine pesticide"/>
+      </concept>
+      <concept>
+        <code value="116637007"/>
+        <display value="Fungal antigen"/>
+      </concept>
+      <concept>
+        <code value="119417004"/>
+        <display value="Organophosphate insecticide"/>
+      </concept>
+      <concept>
+        <code value="125706008"/>
+        <display value="Sodium benzoate"/>
+      </concept>
+      <concept>
+        <code value="128488006"/>
+        <display value="House dust"/>
+      </concept>
+      <concept>
+        <code value="128489003"/>
+        <display value="Sand"/>
+      </concept>
+      <concept>
+        <code value="226491003"/>
+        <display value="Apple juice"/>
+      </concept>
+      <concept>
+        <code value="226723006"/>
+        <display value="Buckwheat - cereal"/>
+      </concept>
+      <concept>
+        <code value="226776001"/>
+        <display value="Dried cow's milk"/>
+      </concept>
+      <concept>
+        <code value="226791004"/>
+        <display value="Sheep milk"/>
+      </concept>
+      <concept>
+        <code value="226793001"/>
+        <display value="Soybean milk"/>
+      </concept>
+      <concept>
+        <code value="226915003"/>
+        <display value="Red meat"/>
+      </concept>
+      <concept>
+        <code value="226916002"/>
+        <display value="Beef"/>
+      </concept>
+      <concept>
+        <code value="226934003"/>
+        <display value="Pork"/>
+      </concept>
+      <concept>
+        <code value="226942002"/>
+        <display value="Lamb"/>
+      </concept>
+      <concept>
+        <code value="226955001"/>
+        <display value="Chicken - meat"/>
+      </concept>
+      <concept>
+        <code value="226963000"/>
+        <display value="Duck - meat"/>
+      </concept>
+      <concept>
+        <code value="226967004"/>
+        <display value="Turkey - meat"/>
+      </concept>
+      <concept>
+        <code value="227042005"/>
+        <display value="Bream"/>
+      </concept>
+      <concept>
+        <code value="227066004"/>
+        <display value="Hake"/>
+      </concept>
+      <concept>
+        <code value="227067008"/>
+        <display value="Halibut"/>
+      </concept>
+      <concept>
+        <code value="227072004"/>
+        <display value="Lemon sole"/>
+      </concept>
+      <concept>
+        <code value="227078000"/>
+        <display value="Monkfish"/>
+      </concept>
+      <concept>
+        <code value="227081005"/>
+        <display value="Red mullet"/>
+      </concept>
+      <concept>
+        <code value="227083008"/>
+        <display value="Plaice"/>
+      </concept>
+      <concept>
+        <code value="227099002"/>
+        <display value="Saithe"/>
+      </concept>
+      <concept>
+        <code value="227105000"/>
+        <display value="Turbot"/>
+      </concept>
+      <concept>
+        <code value="227106004"/>
+        <display value="Whiting"/>
+      </concept>
+      <concept>
+        <code value="227131003"/>
+        <display value="Pangas"/>
+      </concept>
+      <concept>
+        <code value="227136008"/>
+        <display value="Sardine"/>
+      </concept>
+      <concept>
+        <code value="227139001"/>
+        <display value="Sprats"/>
+      </concept>
+      <concept>
+        <code value="227144008"/>
+        <display value="Tuna fish"/>
+      </concept>
+      <concept>
+        <code value="227147001"/>
+        <display value="Cockles"/>
+      </concept>
+      <concept>
+        <code value="227150003"/>
+        <display value="Mussel"/>
+      </concept>
+      <concept>
+        <code value="227151004"/>
+        <display value="Prawns"/>
+      </concept>
+      <concept>
+        <code value="227156009"/>
+        <display value="Scampi"/>
+      </concept>
+      <concept>
+        <code value="227183005"/>
+        <display value="Fish roe"/>
+      </concept>
+      <concept>
+        <code value="227215000"/>
+        <display value="Artichoke"/>
+      </concept>
+      <concept>
+        <code value="227219006"/>
+        <display value="Eggplant"/>
+      </concept>
+      <concept>
+        <code value="227220000"/>
+        <display value="Beetroot"/>
+      </concept>
+      <concept>
+        <code value="227227002"/>
+        <display value="Savoy cabbage"/>
+      </concept>
+      <concept>
+        <code value="227229004"/>
+        <display value="White cabbage"/>
+      </concept>
+      <concept>
+        <code value="227230009"/>
+        <display value="Curly kale"/>
+      </concept>
+      <concept>
+        <code value="227313005"/>
+        <display value="Pulse vegetable"/>
+      </concept>
+      <concept>
+        <code value="227339008"/>
+        <display value="Beansprouts"/>
+      </concept>
+      <concept>
+        <code value="227346004"/>
+        <display value="Chick peas"/>
+      </concept>
+      <concept>
+        <code value="227350006"/>
+        <display value="Lentils"/>
+      </concept>
+      <concept>
+        <code value="227362005"/>
+        <display value="Red kidney beans"/>
+      </concept>
+      <concept>
+        <code value="227374009"/>
+        <display value="Herbs and spices"/>
+      </concept>
+      <concept>
+        <code value="227376006"/>
+        <display value="Anise seed"/>
+      </concept>
+      <concept>
+        <code value="227379004"/>
+        <display value="Bay leaf"/>
+      </concept>
+      <concept>
+        <code value="227382009"/>
+        <display value="Cardamom"/>
+      </concept>
+      <concept>
+        <code value="227383004"/>
+        <display value="Celery seed"/>
+      </concept>
+      <concept>
+        <code value="227385006"/>
+        <display value="Chili powder"/>
+      </concept>
+      <concept>
+        <code value="227387003"/>
+        <display value="Chive - herb"/>
+      </concept>
+      <concept>
+        <code value="227388008"/>
+        <display value="Cinnamon"/>
+      </concept>
+      <concept>
+        <code value="227389000"/>
+        <display value="Clove"/>
+      </concept>
+      <concept>
+        <code value="227390009"/>
+        <display value="Coriander leaf"/>
+      </concept>
+      <concept>
+        <code value="227391008"/>
+        <display value="Coriander seed"/>
+      </concept>
+      <concept>
+        <code value="227392001"/>
+        <display value="Cumin seed"/>
+      </concept>
+      <concept>
+        <code value="227395004"/>
+        <display value="Curry powder"/>
+      </concept>
+      <concept>
+        <code value="227396003"/>
+        <display value="Fennel"/>
+      </concept>
+      <concept>
+        <code value="227398002"/>
+        <display value="Fenugreek seed"/>
+      </concept>
+      <concept>
+        <code value="227400003"/>
+        <display value="Ginger"/>
+      </concept>
+      <concept>
+        <code value="227404007"/>
+        <display value="Mace"/>
+      </concept>
+      <concept>
+        <code value="227405008"/>
+        <display value="Marjoram"/>
+      </concept>
+      <concept>
+        <code value="227407000"/>
+        <display value="Oregano"/>
+      </concept>
+      <concept>
+        <code value="227408005"/>
+        <display value="Paprika"/>
+      </concept>
+      <concept>
+        <code value="227409002"/>
+        <display value="Poppy seed"/>
+      </concept>
+      <concept>
+        <code value="227410007"/>
+        <display value="Rosemary"/>
+      </concept>
+      <concept>
+        <code value="227411006"/>
+        <display value="Sage"/>
+      </concept>
+      <concept>
+        <code value="227413009"/>
+        <display value="Thyme"/>
+      </concept>
+      <concept>
+        <code value="227414003"/>
+        <display value="Turmeric"/>
+      </concept>
+      <concept>
+        <code value="227423000"/>
+        <display value="Date"/>
+      </concept>
+      <concept>
+        <code value="227425007"/>
+        <display value="Figs"/>
+      </concept>
+      <concept>
+        <code value="227435001"/>
+        <display value="Nectarine"/>
+      </concept>
+      <concept>
+        <code value="227444000"/>
+        <display value="Raspberries"/>
+      </concept>
+      <concept>
+        <code value="227447007"/>
+        <display value="Sharon fruit"/>
+      </concept>
+      <concept>
+        <code value="227493005"/>
+        <display value="Cashew nut"/>
+      </concept>
+      <concept>
+        <code value="227501001"/>
+        <display value="Macadamia nut"/>
+      </concept>
+      <concept>
+        <code value="227511008"/>
+        <display value="Pine nut"/>
+      </concept>
+      <concept>
+        <code value="227512001"/>
+        <display value="Pistachio nut"/>
+      </concept>
+      <concept>
+        <code value="227514000"/>
+        <display value="Pumpkin seed"/>
+      </concept>
+      <concept>
+        <code value="227515004"/>
+        <display value="Quinoa"/>
+      </concept>
+      <concept>
+        <code value="227538001"/>
+        <display value="Pickle"/>
+      </concept>
+      <concept>
+        <code value="227598003"/>
+        <display value="Honey"/>
+      </concept>
+      <concept>
+        <code value="228104004"/>
+        <display value="Butylated hydroxyanisole"/>
+      </concept>
+      <concept>
+        <code value="229934002"/>
+        <display value="Chick pea flour"/>
+      </concept>
+      <concept>
+        <code value="229941008"/>
+        <display value="Soybean flour"/>
+      </concept>
+      <concept>
+        <code value="229944000"/>
+        <display value="Wheat flour"/>
+      </concept>
+      <concept>
+        <code value="230034002"/>
+        <display value="Nuts and seeds"/>
+      </concept>
+      <concept>
+        <code value="255620007"/>
+        <display value="Food"/>
+      </concept>
+      <concept>
+        <code value="255640000"/>
+        <display value="Biocide"/>
+      </concept>
+      <concept>
+        <code value="255667006"/>
+        <display value="Paraffin"/>
+      </concept>
+      <concept>
+        <code value="255764006"/>
+        <display value="Freon"/>
+      </concept>
+      <concept>
+        <code value="255769001"/>
+        <display value="Hexahydrophthalic anhydride"/>
+      </concept>
+      <concept>
+        <code value="255772008"/>
+        <display value="Diphenylmethane di-isocyanate"/>
+      </concept>
+      <concept>
+        <code value="255775005"/>
+        <display value="Maleic anhydride"/>
+      </concept>
+      <concept>
+        <code value="255786007"/>
+        <display value="Toluene di-isocyanate"/>
+      </concept>
+      <concept>
+        <code value="255814009"/>
+        <display value="Tetrachlorophthalic anhydride"/>
+      </concept>
+      <concept>
+        <code value="255840003"/>
+        <display value="Colophony"/>
+      </concept>
+      <concept>
+        <code value="255842006"/>
+        <display value="Balsam of Peru"/>
+      </concept>
+      <concept>
+        <code value="255844007"/>
+        <display value="Paraben mix"/>
+      </concept>
+      <concept>
+        <code value="255859001"/>
+        <display value="Butylated hydroxytoluene"/>
+      </concept>
+      <concept>
+        <code value="255864002"/>
+        <display value="Ethyl 4-hydroxybenzoate"/>
+      </concept>
+      <concept>
+        <code value="255868004"/>
+        <display value="Methyl 4-hydroxybenzoate"/>
+      </concept>
+      <concept>
+        <code value="255871007"/>
+        <display value="Propyl 4-hydroxybenzoate"/>
+      </concept>
+      <concept>
+        <code value="255924000"/>
+        <display value="Eugenol"/>
+      </concept>
+      <concept>
+        <code value="256186006"/>
+        <display value="Balsam of Tolu"/>
+      </concept>
+      <concept>
+        <code value="256218005"/>
+        <display value="Yarrow extract"/>
+      </concept>
+      <concept>
+        <code value="256259004"/>
+        <display value="Pollen"/>
+      </concept>
+      <concept>
+        <code value="256260009"/>
+        <display value="Tree and shrub pollen"/>
+      </concept>
+      <concept>
+        <code value="256262001"/>
+        <display value="European white birch pollen"/>
+      </concept>
+      <concept>
+        <code value="256267007"/>
+        <display value="Pine pollen"/>
+      </concept>
+      <concept>
+        <code value="256270006"/>
+        <display value="Oak pollen"/>
+      </concept>
+      <concept>
+        <code value="256272003"/>
+        <display value="Elm pollen"/>
+      </concept>
+      <concept>
+        <code value="256277009"/>
+        <display value="Grass pollen"/>
+      </concept>
+      <concept>
+        <code value="256281009"/>
+        <display value="Timothy grass pollen"/>
+      </concept>
+      <concept>
+        <code value="256289006"/>
+        <display value="Chrysanthemum pollen"/>
+      </concept>
+      <concept>
+        <code value="256290002"/>
+        <display value="Dahlia pollen"/>
+      </concept>
+      <concept>
+        <code value="256292005"/>
+        <display value="Flower and weed pollen"/>
+      </concept>
+      <concept>
+        <code value="256293000"/>
+        <display value="Mugwort pollen"/>
+      </concept>
+      <concept>
+        <code value="256303006"/>
+        <display value="Ragweed pollen"/>
+      </concept>
+      <concept>
+        <code value="256305004"/>
+        <display value="Tree resin"/>
+      </concept>
+      <concept>
+        <code value="256306003"/>
+        <display value="Orange - fruit"/>
+      </concept>
+      <concept>
+        <code value="256307007"/>
+        <display value="Banana"/>
+      </concept>
+      <concept>
+        <code value="256313003"/>
+        <display value="Pineapple"/>
+      </concept>
+      <concept>
+        <code value="256315005"/>
+        <display value="Grapefruit"/>
+      </concept>
+      <concept>
+        <code value="256316006"/>
+        <display value="Tangerine"/>
+      </concept>
+      <concept>
+        <code value="256317002"/>
+        <display value="Grapes"/>
+      </concept>
+      <concept>
+        <code value="256318007"/>
+        <display value="Green bean"/>
+      </concept>
+      <concept>
+        <code value="256319004"/>
+        <display value="Carrot"/>
+      </concept>
+      <concept>
+        <code value="256326004"/>
+        <display value="Celery"/>
+      </concept>
+      <concept>
+        <code value="256329006"/>
+        <display value="Spinach"/>
+      </concept>
+      <concept>
+        <code value="256330001"/>
+        <display value="Herb"/>
+      </concept>
+      <concept>
+        <code value="256331002"/>
+        <display value="Dill"/>
+      </concept>
+      <concept>
+        <code value="256350002"/>
+        <display value="Almond"/>
+      </concept>
+      <concept>
+        <code value="256351003"/>
+        <display value="Brazil nut"/>
+      </concept>
+      <concept>
+        <code value="256352005"/>
+        <display value="Walnut - nut"/>
+      </concept>
+      <concept>
+        <code value="256353000"/>
+        <display value="Hazelnut"/>
+      </concept>
+      <concept>
+        <code value="256354006"/>
+        <display value="Bean"/>
+      </concept>
+      <concept>
+        <code value="256355007"/>
+        <display value="Soyabean"/>
+      </concept>
+      <concept>
+        <code value="256363008"/>
+        <display value="Animal material"/>
+      </concept>
+      <concept>
+        <code value="256417003"/>
+        <display value="Horse dander"/>
+      </concept>
+      <concept>
+        <code value="256419000"/>
+        <display value="Mouse epithelium"/>
+      </concept>
+      <concept>
+        <code value="256435007"/>
+        <display value="Feather"/>
+      </concept>
+      <concept>
+        <code value="256440004"/>
+        <display value="Wasp venom"/>
+      </concept>
+      <concept>
+        <code value="256443002"/>
+        <display value="Egg white"/>
+      </concept>
+      <concept>
+        <code value="256496006"/>
+        <display value="Gold alloy"/>
+      </concept>
+      <concept>
+        <code value="256501007"/>
+        <display value="Carbon fiber"/>
+      </concept>
+      <concept>
+        <code value="256504004"/>
+        <display value="Polycarbonate dental material"/>
+      </concept>
+      <concept>
+        <code value="256506002"/>
+        <display value="Stainless steel material"/>
+      </concept>
+      <concept>
+        <code value="256526003"/>
+        <display value="Cobalt-chromium alloy"/>
+      </concept>
+      <concept>
+        <code value="256579008"/>
+        <display value="Durapatite"/>
+      </concept>
+      <concept>
+        <code value="256596009"/>
+        <display value="Dental solder - gold"/>
+      </concept>
+      <concept>
+        <code value="256607001"/>
+        <display value="Dental die - heat hardened ceramic"/>
+      </concept>
+      <concept>
+        <code value="256633009"/>
+        <display value="Polypropylene"/>
+      </concept>
+      <concept>
+        <code value="259221006"/>
+        <display value="Methanol"/>
+      </concept>
+      <concept>
+        <code value="260108001"/>
+        <display value="Wormwood pollen"/>
+      </concept>
+      <concept>
+        <code value="260118006"/>
+        <display value="Wall pellitory pollen"/>
+      </concept>
+      <concept>
+        <code value="260126003"/>
+        <display value="Olive pollen"/>
+      </concept>
+      <concept>
+        <code value="260131001"/>
+        <display value="Gum pollen"/>
+      </concept>
+      <concept>
+        <code value="260152009"/>
+        <display value="Cat dander"/>
+      </concept>
+      <concept>
+        <code value="260153004"/>
+        <display value="Cow dander"/>
+      </concept>
+      <concept>
+        <code value="260154005"/>
+        <display value="Dog dander"/>
+      </concept>
+      <concept>
+        <code value="260156007"/>
+        <display value="Mouse urine proteins"/>
+      </concept>
+      <concept>
+        <code value="260167008"/>
+        <display value="Sesame seed"/>
+      </concept>
+      <concept>
+        <code value="260168003"/>
+        <display value="White bean"/>
+      </concept>
+      <concept>
+        <code value="260176001"/>
+        <display value="Kiwi fruit"/>
+      </concept>
+      <concept>
+        <code value="260177005"/>
+        <display value="Melon"/>
+      </concept>
+      <concept>
+        <code value="260179008"/>
+        <display value="Mango fruit"/>
+      </concept>
+      <concept>
+        <code value="260184002"/>
+        <display value="Pea"/>
+      </concept>
+      <concept>
+        <code value="260189007"/>
+        <display value="Pecan nut"/>
+      </concept>
+      <concept>
+        <code value="260204008"/>
+        <display value="Cotton seed"/>
+      </concept>
+      <concept>
+        <code value="260205009"/>
+        <display value="Sunflower seed"/>
+      </concept>
+      <concept>
+        <code value="261243003"/>
+        <display value="Brass"/>
+      </concept>
+      <concept>
+        <code value="261249004"/>
+        <display value="Nickel cobalt chromium"/>
+      </concept>
+      <concept>
+        <code value="261250004"/>
+        <display value="Nickel titanium"/>
+      </concept>
+      <concept>
+        <code value="261712009"/>
+        <display value="Acrylic polymer"/>
+      </concept>
+      <concept>
+        <code value="264287008"/>
+        <display value="Animal dander"/>
+      </concept>
+      <concept>
+        <code value="264295007"/>
+        <display value="Cow's milk protein"/>
+      </concept>
+      <concept>
+        <code value="264331002"/>
+        <display value="Grain"/>
+      </concept>
+      <concept>
+        <code value="264337003"/>
+        <display value="Seed"/>
+      </concept>
+      <concept>
+        <code value="276310004"/>
+        <display value="Animal hair"/>
+      </concept>
+      <concept>
+        <code value="277016007"/>
+        <display value="Alphachloralose"/>
+      </concept>
+      <concept>
+        <code value="278840001"/>
+        <display value="Shrimp"/>
+      </concept>
+      <concept>
+        <code value="280939008"/>
+        <display value="Insect venom"/>
+      </concept>
+      <concept>
+        <code value="286550009"/>
+        <display value="Hen's egg"/>
+      </concept>
+      <concept>
+        <code value="288326000"/>
+        <display value="Hornet venom"/>
+      </concept>
+      <concept>
+        <code value="288328004"/>
+        <display value="Bee venom"/>
+      </concept>
+      <concept>
+        <code value="288460008"/>
+        <display value="Bumble bee venom"/>
+      </concept>
+      <concept>
+        <code value="289122001"/>
+        <display value="Cosmetic material"/>
+      </concept>
+      <concept>
+        <code value="289949002"/>
+        <display value="Cypress pollen"/>
+      </concept>
+      <concept>
+        <code value="289955007"/>
+        <display value="Hop pollen"/>
+      </concept>
+      <concept>
+        <code value="290008007"/>
+        <display value="Thistle pollen"/>
+      </concept>
+      <concept>
+        <code value="301093003"/>
+        <display value="Organic acid anhydride"/>
+      </concept>
+      <concept>
+        <code value="301712000"/>
+        <display value="Quaternary ammonium compound"/>
+      </concept>
+      <concept>
+        <code value="303300008"/>
+        <display value="Egg protein"/>
+      </concept>
+      <concept>
+        <code value="303314008"/>
+        <display value="Scorpion venom"/>
+      </concept>
+      <concept>
+        <code value="303315009"/>
+        <display value="Spider venom"/>
+      </concept>
+      <concept>
+        <code value="311443003"/>
+        <display value="Coffee bean dust"/>
+      </concept>
+      <concept>
+        <code value="311731000"/>
+        <display value="Paraffin wax"/>
+      </concept>
+      <concept>
+        <code value="311846002"/>
+        <display value="Pyrethroid insecticide"/>
+      </concept>
+      <concept>
+        <code value="373780001"/>
+        <display value="Mescaline"/>
+      </concept>
+      <concept>
+        <code value="387239001"/>
+        <display value="Gentian violet"/>
+      </concept>
+      <concept>
+        <code value="387293003"/>
+        <display value="Anthralin"/>
+      </concept>
+      <concept>
+        <code value="391737006"/>
+        <display value="Almond oil"/>
+      </concept>
+      <concept>
+        <code value="395734009"/>
+        <display value="Guar gum"/>
+      </concept>
+      <concept>
+        <code value="396049000"/>
+        <display value="Ethyl-2-cyanoacrylate"/>
+      </concept>
+      <concept>
+        <code value="398705004"/>
+        <display value="Cannabis"/>
+      </concept>
+      <concept>
+        <code value="408742009"/>
+        <display value="Rose bengal"/>
+      </concept>
+      <concept>
+        <code value="409595003"/>
+        <display value="Biohazardous material"/>
+      </concept>
+      <concept>
+        <code value="410853002"/>
+        <display value="Perfluorochemical"/>
+      </concept>
+      <concept>
+        <code value="412056003"/>
+        <display value="Lima beans"/>
+      </concept>
+      <concept>
+        <code value="412060000"/>
+        <display value="Black pepper"/>
+      </concept>
+      <concept>
+        <code value="412061001"/>
+        <display value="Blueberries"/>
+      </concept>
+      <concept>
+        <code value="412068007"/>
+        <display value="Rye"/>
+      </concept>
+      <concept>
+        <code value="412070003"/>
+        <display value="Vanilla"/>
+      </concept>
+      <concept>
+        <code value="412071004"/>
+        <display value="Wheat"/>
+      </concept>
+      <concept>
+        <code value="412145001"/>
+        <display value="Hair dye"/>
+      </concept>
+      <concept>
+        <code value="412150007"/>
+        <display value="Insect debris"/>
+      </concept>
+      <concept>
+        <code value="412153009"/>
+        <display value="Rabbit dander"/>
+      </concept>
+      <concept>
+        <code value="412156001"/>
+        <display value="Silk"/>
+      </concept>
+      <concept>
+        <code value="412161004"/>
+        <display value="Wool"/>
+      </concept>
+      <concept>
+        <code value="412357001"/>
+        <display value="Corn"/>
+      </concept>
+      <concept>
+        <code value="412548006"/>
+        <display value="Indigotindisulfonate sodium"/>
+      </concept>
+      <concept>
+        <code value="415710007"/>
+        <display value="Terpene"/>
+      </concept>
+      <concept>
+        <code value="418266005"/>
+        <display value="Yellow paraffin"/>
+      </concept>
+      <concept>
+        <code value="418504009"/>
+        <display value="Oat"/>
+      </concept>
+      <concept>
+        <code value="418785009"/>
+        <display value="Perfume"/>
+      </concept>
+      <concept>
+        <code value="418920007"/>
+        <display value="Adhesive agent"/>
+      </concept>
+      <concept>
+        <code value="419420009"/>
+        <display value="Watermelon"/>
+      </concept>
+      <concept>
+        <code value="419604006"/>
+        <display value="Weed pollen"/>
+      </concept>
+      <concept>
+        <code value="419633007"/>
+        <display value="White paraffin"/>
+      </concept>
+      <concept>
+        <code value="421556008"/>
+        <display value="Capsicum - pepper"/>
+      </concept>
+      <concept>
+        <code value="425620007"/>
+        <display value="Metal"/>
+      </concept>
+      <concept>
+        <code value="430503006"/>
+        <display value="Glutamate"/>
+      </concept>
+      <concept>
+        <code value="431510009"/>
+        <display value="Formalin"/>
+      </concept>
+      <concept>
+        <code value="434162003"/>
+        <display value="Neutral buffered formalin"/>
+      </concept>
+      <concept>
+        <code value="472731004"/>
+        <display value="Ficus pollen"/>
+      </concept>
+      <concept>
+        <code value="698730007"/>
+        <display value="Rosa L. pollen"/>
+      </concept>
+      <concept>
+        <code value="702730004"/>
+        <display value="Jellyfish venom"/>
+      </concept>
+      <concept>
+        <code value="710039005"/>
+        <display value="Rape seed"/>
+      </concept>
+      <concept>
+        <code value="710171001"/>
+        <display value="Horse - meat"/>
+      </concept>
+      <concept>
+        <code value="710172008"/>
+        <display value="Hop"/>
+      </concept>
+      <concept>
+        <code value="710178007"/>
+        <display value="Linseed"/>
+      </concept>
+      <concept>
+        <code value="710179004"/>
+        <display value="Lupine seed"/>
+      </concept>
+      <concept>
+        <code value="710183004"/>
+        <display value="Rabbit - meat"/>
+      </concept>
+      <concept>
+        <code value="710184005"/>
+        <display value="Mutton"/>
+      </concept>
+      <concept>
+        <code value="710226003"/>
+        <display value="Rose hip"/>
+      </concept>
+      <concept>
+        <code value="710900003"/>
+        <display value="Sunflower pollen"/>
+      </concept>
+      <concept>
+        <code value="710902006"/>
+        <display value="Chamomile pollen"/>
+      </concept>
+      <concept>
+        <code value="710930006"/>
+        <display value="German cockroach protein"/>
+      </concept>
+      <concept>
+        <code value="710932003"/>
+        <display value="Moth protein"/>
+      </concept>
+      <concept>
+        <code value="710937009"/>
+        <display value="American cockroach protein"/>
+      </concept>
+      <concept>
+        <code value="710943006"/>
+        <display value="Cockroach protein"/>
+      </concept>
+      <concept>
+        <code value="711088004"/>
+        <display value="Swine urine protein"/>
+      </concept>
+      <concept>
+        <code value="711089007"/>
+        <display value="Mite protein"/>
+      </concept>
+      <concept>
+        <code value="711090003"/>
+        <display value="Acarus siro protein"/>
+      </concept>
+      <concept>
+        <code value="711092006"/>
+        <display value="Dermatophagoides farinae protein"/>
+      </concept>
+      <concept>
+        <code value="711094007"/>
+        <display value="Dermatophagoides pteronyssinus protein"/>
+      </concept>
+      <concept>
+        <code value="711096009"/>
+        <display value="Glycyphagus domesticus protein"/>
+      </concept>
+      <concept>
+        <code value="711097000"/>
+        <display value="Lepidoglyphus destructor protein"/>
+      </concept>
+      <concept>
+        <code value="711098005"/>
+        <display value="Tyrophagus putrescentiae protein"/>
+      </concept>
+      <concept>
+        <code value="711143002"/>
+        <display value="Methyltetrahydrophtalic anhydride"/>
+      </concept>
+      <concept>
+        <code value="711316002"/>
+        <display value="Daphnia protein"/>
+      </concept>
+      <concept>
+        <code value="711319009"/>
+        <display value="Tenebrio mollitor protein"/>
+      </concept>
+      <concept>
+        <code value="719108000"/>
+        <display value="Lupin flour"/>
+      </concept>
+      <concept>
+        <code value="720687003"/>
+        <display value="Dust mite protein"/>
+      </concept>
+      <concept>
+        <code value="726731009"/>
+        <display value="Swordfish"/>
+      </concept>
+      <concept>
+        <code value="726749009"/>
+        <display value="Sea bass"/>
+      </concept>
+      <concept>
+        <code value="726755004"/>
+        <display value="Leek"/>
+      </concept>
+      <concept>
+        <code value="726758002"/>
+        <display value="Endive"/>
+      </concept>
+      <concept>
+        <code value="726759005"/>
+        <display value="Cuttlefish"/>
+      </concept>
+      <concept>
+        <code value="726761001"/>
+        <display value="Chicory"/>
+      </concept>
+      <concept>
+        <code value="726763003"/>
+        <display value="Carp"/>
+      </concept>
+      <concept>
+        <code value="726764009"/>
+        <display value="Horsebean"/>
+      </concept>
+      <concept>
+        <code value="734881000"/>
+        <display value="Tomato"/>
+      </concept>
+      <concept>
+        <code value="735004000"/>
+        <display value="Sweet potato"/>
+      </concept>
+      <concept>
+        <code value="735006003"/>
+        <display value="Squid"/>
+      </concept>
+      <concept>
+        <code value="735009005"/>
+        <display value="Salmon"/>
+      </concept>
+      <concept>
+        <code value="735029006"/>
+        <display value="Shellfish"/>
+      </concept>
+      <concept>
+        <code value="735030001"/>
+        <display value="Garlic"/>
+      </concept>
+      <concept>
+        <code value="735034005"/>
+        <display value="Trout"/>
+      </concept>
+      <concept>
+        <code value="735035006"/>
+        <display value="Herring"/>
+      </concept>
+      <concept>
+        <code value="735042006"/>
+        <display value="Lettuce"/>
+      </concept>
+      <concept>
+        <code value="735043001"/>
+        <display value="Mackerel"/>
+      </concept>
+      <concept>
+        <code value="735045008"/>
+        <display value="Mushroom"/>
+      </concept>
+      <concept>
+        <code value="735046009"/>
+        <display value="Nutmeg"/>
+      </concept>
+      <concept>
+        <code value="735047000"/>
+        <display value="Onion"/>
+      </concept>
+      <concept>
+        <code value="735049002"/>
+        <display value="Peach"/>
+      </concept>
+      <concept>
+        <code value="735050002"/>
+        <display value="Pear"/>
+      </concept>
+      <concept>
+        <code value="735051003"/>
+        <display value="Plum"/>
+      </concept>
+      <concept>
+        <code value="735053000"/>
+        <display value="Potato"/>
+      </concept>
+      <concept>
+        <code value="735106000"/>
+        <display value="Basil"/>
+      </concept>
+      <concept>
+        <code value="735123009"/>
+        <display value="Broccoli"/>
+      </concept>
+      <concept>
+        <code value="735124003"/>
+        <display value="Barley"/>
+      </concept>
+      <concept>
+        <code value="735211005"/>
+        <display value="Coconut"/>
+      </concept>
+      <concept>
+        <code value="735212003"/>
+        <display value="Papaya"/>
+      </concept>
+      <concept>
+        <code value="735213008"/>
+        <display value="Cucumber"/>
+      </concept>
+      <concept>
+        <code value="735214002"/>
+        <display value="Apricot"/>
+      </concept>
+      <concept>
+        <code value="735215001"/>
+        <display value="Apple"/>
+      </concept>
+      <concept>
+        <code value="735245003"/>
+        <display value="Cod"/>
+      </concept>
+      <concept>
+        <code value="735246002"/>
+        <display value="Eel"/>
+      </concept>
+      <concept>
+        <code value="735248001"/>
+        <display value="Cherry"/>
+      </concept>
+      <concept>
+        <code value="735249009"/>
+        <display value="Avocado"/>
+      </concept>
+      <concept>
+        <code value="735336002"/>
+        <display value="Cauliflower"/>
+      </concept>
+      <concept>
+        <code value="735337006"/>
+        <display value="Anchovy"/>
+      </concept>
+      <concept>
+        <code value="735340006"/>
+        <display value="Lemon"/>
+      </concept>
+      <concept>
+        <code value="735341005"/>
+        <display value="Fish oil"/>
+      </concept>
+      <concept>
+        <code value="735959004"/>
+        <display value="Marine mollusk"/>
+      </concept>
+      <concept>
+        <code value="735971005"/>
+        <display value="Fish"/>
+      </concept>
+      <concept>
+        <code value="735972003"/>
+        <display value="Crayfish"/>
+      </concept>
+      <concept>
+        <code value="735974002"/>
+        <display value="European eel"/>
+      </concept>
+      <concept>
+        <code value="735977009"/>
+        <display value="Marine crustacean"/>
+      </concept>
+      <concept>
+        <code value="735979007"/>
+        <display value="Octopus"/>
+      </concept>
+      <concept>
+        <code value="736027000"/>
+        <display value="Scallop"/>
+      </concept>
+      <concept>
+        <code value="736030007"/>
+        <display value="Clam"/>
+      </concept>
+      <concept>
+        <code value="736031006"/>
+        <display value="Oyster"/>
+      </concept>
+      <concept>
+        <code value="736159005"/>
+        <display value="Crab"/>
+      </concept>
+      <concept>
+        <code value="736162008"/>
+        <display value="Lobster"/>
+      </concept>
+      <concept>
+        <code value="736258006"/>
+        <display value="Insect salivary substance"/>
+      </concept>
+      <concept>
+        <code value="762766007"/>
+        <display value="Edible substance"/>
+      </concept>
+      <concept>
+        <code value="762952008"/>
+        <display value="Peanut"/>
+      </concept>
+      <concept>
+        <code value="764166003"/>
+        <display value="Carbol-fuchsin"/>
+      </concept>
+      <concept>
+        <code value="765099008"/>
+        <display value="Pilchard"/>
+      </concept>
+      <concept>
+        <code value="767406000"/>
+        <display value="Sulfite and/or sulfite derivative"/>
+      </concept>
+      <concept>
+        <code value="770326002"/>
+        <display value="Mollusk"/>
+      </concept>
+      <concept>
+        <code value="771518004"/>
+        <display value="Stone fruit of genus Prunus"/>
+      </concept>
+      <concept>
+        <code value="772245002"/>
+        <display value="Wool alcohol"/>
+      </concept>
+      <concept>
+        <code value="773757000"/>
+        <display value="Ant venom"/>
+      </concept>
+      <concept>
+        <code value="782576004"/>
+        <display value="Tree pollen"/>
+      </concept>
+      <concept>
+        <code value="785344003"/>
+        <display value="Sisal dust"/>
+      </concept>
+      <concept>
+        <code value="1003736004"/>
+        <display value="Mammalian milk based food"/>
+      </concept>
+      <concept>
+        <code value="1003752001"/>
+        <display value="Hevea brasiliensis latex protein"/>
+      </concept>
+      <concept>
+        <code value="1137358000"/>
+        <display value="Piper - pepper"/>
+      </concept>
+      <concept>
+        <code value="1137359008"/>
+        <display value="Bell pepper"/>
+      </concept>
+      <concept>
+        <code value="442461000124102"/>
+        <display value="Hickory nut"/>
+      </concept>
+      <concept>
+        <code value="24515005"/>
+        <display value="Spice"/>
+      </concept>
+      <concept>
+        <code value="37663002"/>
+        <display value="Venom"/>
+      </concept>
+      <concept>
+        <code value="51386004"/>
+        <display value="Food preservative"/>
+      </concept>
+      <concept>
+        <code value="63045006"/>
+        <display value="Berry"/>
+      </concept>
+      <concept>
+        <code value="70813002"/>
+        <display value="Milk"/>
+      </concept>
+      <concept>
+        <code value="80259003"/>
+        <display value="Food flavoring agent"/>
+      </concept>
+      <concept>
+        <code value="87918000"/>
+        <display value="Mineral"/>
+      </concept>
+      <concept>
+        <code value="116274004"/>
+        <display value="Artificial sweetener"/>
+      </concept>
+      <concept>
+        <code value="227038007"/>
+        <display value="White fish"/>
+      </concept>
+      <concept>
+        <code value="227110001"/>
+        <display value="Fatty fish"/>
+      </concept>
+      <concept>
+        <code value="256248008"/>
+        <display value="Plant material"/>
+      </concept>
+      <concept>
+        <code value="256406004"/>
+        <display value="Animal epithelium"/>
+      </concept>
+      <concept>
+        <code value="289954006"/>
+        <display value="Fungal material"/>
+      </concept>
+      <concept>
+        <code value="735108004"/>
+        <display value="Cabbage"/>
+      </concept>
+      <concept>
+        <code value="442571000124108"/>
+        <display value="Tree nut"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,1965 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIDoseForm> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "eHDSIDoseForm"] ; # 
+  fhir:url [ fhir:v "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIDoseForm"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.2" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "0.2.0"] ; # 
+  fhir:name [ fhir:v "eHDSIDoseForm"] ; # 
+  fhir:title [ fhir:v "eHDSI Dose Form"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2025-02-08T05:43:06+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 Europe"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 Europe" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://hl7europe.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "nan"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://standardterms.edqm.eu"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "12102000" ] ;
+         fhir:display [ fhir:v "Anticoagulant and preservative solution for blood" ]
+       ] [
+         fhir:code [ fhir:v "11502000" ] ;
+         fhir:display [ fhir:v "Bladder irrigation" ]
+       ] [
+         fhir:code [ fhir:v "10520000" ] ;
+         fhir:display [ fhir:v "Collodion" ]
+       ] [
+         fhir:code [ fhir:v "13001000" ] ;
+         fhir:display [ fhir:v "Concentrate for concentrate for solution for infusion" ]
+       ] [
+         fhir:code [ fhir:v "13162000" ] ;
+         fhir:display [ fhir:v "Concentrate for cutaneous emulsion" ]
+       ] [
+         fhir:code [ fhir:v "10514000" ] ;
+         fhir:display [ fhir:v "Concentrate for cutaneous solution" ]
+       ] [
+         fhir:code [ fhir:v "50009000" ] ;
+         fhir:display [ fhir:v "Concentrate for cutaneous spray, emulsion" ]
+       ] [
+         fhir:code [ fhir:v "50009300" ] ;
+         fhir:display [ fhir:v "Concentrate for dispersion for infusion" ]
+       ] [
+         fhir:code [ fhir:v "13139000" ] ;
+         fhir:display [ fhir:v "Concentrate for dispersion for injection" ]
+       ] [
+         fhir:code [ fhir:v "50009500" ] ;
+         fhir:display [ fhir:v "Concentrate for emulsion for infusion" ]
+       ] [
+         fhir:code [ fhir:v "13152000" ] ;
+         fhir:display [ fhir:v "Concentrate for emulsion for injection" ]
+       ] [
+         fhir:code [ fhir:v "10302000" ] ;
+         fhir:display [ fhir:v "Concentrate for gargle" ]
+       ] [
+         fhir:code [ fhir:v "50009750" ] ;
+         fhir:display [ fhir:v "Concentrate for intravesical solution" ]
+       ] [
+         fhir:code [ fhir:v "13002000" ] ;
+         fhir:display [ fhir:v "Concentrate for nebuliser solution" ]
+       ] [
+         fhir:code [ fhir:v "50010000" ] ;
+         fhir:display [ fhir:v "Concentrate for oral solution" ]
+       ] [
+         fhir:code [ fhir:v "10100500" ] ;
+         fhir:display [ fhir:v "Concentrate for oral suspension" ]
+       ] [
+         fhir:code [ fhir:v "50011000" ] ;
+         fhir:display [ fhir:v "Concentrate for oral/rectal solution" ]
+       ] [
+         fhir:code [ fhir:v "13003000" ] ;
+         fhir:display [ fhir:v "Concentrate for oromucosal solution" ]
+       ] [
+         fhir:code [ fhir:v "11008000" ] ;
+         fhir:display [ fhir:v "Concentrate for rectal solution" ]
+       ] [
+         fhir:code [ fhir:v "11405000" ] ;
+         fhir:display [ fhir:v "Concentrate for solution for haemodialysis" ]
+       ] [
+         fhir:code [ fhir:v "11213000" ] ;
+         fhir:display [ fhir:v "Concentrate for solution for infusion" ]
+       ] [
+         fhir:code [ fhir:v "11209000" ] ;
+         fhir:display [ fhir:v "Concentrate for solution for injection" ]
+       ] [
+         fhir:code [ fhir:v "50079000" ] ;
+         fhir:display [ fhir:v "Concentrate for solution for injection/infusion" ]
+       ] [
+         fhir:code [ fhir:v "10600500" ] ;
+         fhir:display [ fhir:v "Concentrate for solution for intraocular irrigation" ]
+       ] [
+         fhir:code [ fhir:v "50013250" ] ;
+         fhir:display [ fhir:v "Concentrate for solution for peritoneal dialysis" ]
+       ] [
+         fhir:code [ fhir:v "13004000" ] ;
+         fhir:display [ fhir:v "Concentrate for suspension for injection" ]
+       ] [
+         fhir:code [ fhir:v "10516000" ] ;
+         fhir:display [ fhir:v "Cutaneous emulsion" ]
+       ] [
+         fhir:code [ fhir:v "10512000" ] ;
+         fhir:display [ fhir:v "Cutaneous liquid" ]
+       ] [
+         fhir:code [ fhir:v "10513000" ] ;
+         fhir:display [ fhir:v "Cutaneous solution" ]
+       ] [
+         fhir:code [ fhir:v "50015450" ] ;
+         fhir:display [ fhir:v "Cutaneous solution/concentrate for oromucosal solution" ]
+       ] [
+         fhir:code [ fhir:v "50015500" ] ;
+         fhir:display [ fhir:v "Cutaneous spray, emulsion" ]
+       ] [
+         fhir:code [ fhir:v "10509000" ] ;
+         fhir:display [ fhir:v "Cutaneous spray, solution" ]
+       ] [
+         fhir:code [ fhir:v "10510000" ] ;
+         fhir:display [ fhir:v "Cutaneous spray, suspension" ]
+       ] [
+         fhir:code [ fhir:v "10515000" ] ;
+         fhir:display [ fhir:v "Cutaneous suspension" ]
+       ] [
+         fhir:code [ fhir:v "13140000" ] ;
+         fhir:display [ fhir:v "Cutaneous/oromucosal solution" ]
+       ] [
+         fhir:code [ fhir:v "10408000" ] ;
+         fhir:display [ fhir:v "Dental emulsion" ]
+       ] [
+         fhir:code [ fhir:v "10406000" ] ;
+         fhir:display [ fhir:v "Dental solution" ]
+       ] [
+         fhir:code [ fhir:v "10407000" ] ;
+         fhir:display [ fhir:v "Dental suspension" ]
+       ] [
+         fhir:code [ fhir:v "12101000" ] ;
+         fhir:display [ fhir:v "Denture lacquer" ]
+       ] [
+         fhir:code [ fhir:v "13005000" ] ;
+         fhir:display [ fhir:v "Dispersion for concentrate for dispersion for infusion" ]
+       ] [
+         fhir:code [ fhir:v "50017500" ] ;
+         fhir:display [ fhir:v "Dispersion for infusion" ]
+       ] [
+         fhir:code [ fhir:v "50077000" ] ;
+         fhir:display [ fhir:v "Dispersion for injection" ]
+       ] [
+         fhir:code [ fhir:v "13049000" ] ;
+         fhir:display [ fhir:v "Dispersion for injection/infusion" ]
+       ] [
+         fhir:code [ fhir:v "10706000" ] ;
+         fhir:display [ fhir:v "Ear drops, emulsion" ]
+       ] [
+         fhir:code [ fhir:v "10704000" ] ;
+         fhir:display [ fhir:v "Ear drops, solution" ]
+       ] [
+         fhir:code [ fhir:v "10705000" ] ;
+         fhir:display [ fhir:v "Ear drops, suspension" ]
+       ] [
+         fhir:code [ fhir:v "10711000" ] ;
+         fhir:display [ fhir:v "Ear spray, emulsion" ]
+       ] [
+         fhir:code [ fhir:v "10709000" ] ;
+         fhir:display [ fhir:v "Ear spray, solution" ]
+       ] [
+         fhir:code [ fhir:v "10710000" ] ;
+         fhir:display [ fhir:v "Ear spray, suspension" ]
+       ] [
+         fhir:code [ fhir:v "10713000" ] ;
+         fhir:display [ fhir:v "Ear wash, emulsion" ]
+       ] [
+         fhir:code [ fhir:v "10712000" ] ;
+         fhir:display [ fhir:v "Ear wash, solution" ]
+       ] [
+         fhir:code [ fhir:v "50018000" ] ;
+         fhir:display [ fhir:v "Ear/eye drops, solution" ]
+       ] [
+         fhir:code [ fhir:v "50018500" ] ;
+         fhir:display [ fhir:v "Ear/eye drops, suspension" ]
+       ] [
+         fhir:code [ fhir:v "50019500" ] ;
+         fhir:display [ fhir:v "Ear/eye/nasal drops, solution" ]
+       ] [
+         fhir:code [ fhir:v "50020200" ] ;
+         fhir:display [ fhir:v "Ear/nasal drops, suspension" ]
+       ] [
+         fhir:code [ fhir:v "13008000" ] ;
+         fhir:display [ fhir:v "Emulsion for emulsion for injection" ]
+       ] [
+         fhir:code [ fhir:v "11211000" ] ;
+         fhir:display [ fhir:v "Emulsion for infusion" ]
+       ] [
+         fhir:code [ fhir:v "11203000" ] ;
+         fhir:display [ fhir:v "Emulsion for injection" ]
+       ] [
+         fhir:code [ fhir:v "50021000" ] ;
+         fhir:display [ fhir:v "Emulsion for injection/infusion" ]
+       ] [
+         fhir:code [ fhir:v "13091000" ] ;
+         fhir:display [ fhir:v "Emulsion for suspension for injection" ]
+       ] [
+         fhir:code [ fhir:v "13041000" ] ;
+         fhir:display [ fhir:v "Endosinusial solution" ]
+       ] [
+         fhir:code [ fhir:v "50022000" ] ;
+         fhir:display [ fhir:v "Endosinusial wash, suspension" ]
+       ] [
+         fhir:code [ fhir:v "11601000" ] ;
+         fhir:display [ fhir:v "Endotracheopulmonary instillation, solution" ]
+       ] [
+         fhir:code [ fhir:v "11603000" ] ;
+         fhir:display [ fhir:v "Endotracheopulmonary instillation, suspension" ]
+       ] [
+         fhir:code [ fhir:v "13042000" ] ;
+         fhir:display [ fhir:v "Epilesional solution" ]
+       ] [
+         fhir:code [ fhir:v "10604500" ] ;
+         fhir:display [ fhir:v "Eye drops, emulsion" ]
+       ] [
+         fhir:code [ fhir:v "13159000" ] ;
+         fhir:display [ fhir:v "Eye drops, prolonged-release solution" ]
+       ] [
+         fhir:code [ fhir:v "10604000" ] ;
+         fhir:display [ fhir:v "Eye drops, solution" ]
+       ] [
+         fhir:code [ fhir:v "10608000" ] ;
+         fhir:display [ fhir:v "Eye drops, solvent for reconstitution" ]
+       ] [
+         fhir:code [ fhir:v "10605000" ] ;
+         fhir:display [ fhir:v "Eye drops, suspension" ]
+       ] [
+         fhir:code [ fhir:v "10610000" ] ;
+         fhir:display [ fhir:v "Eye lotion" ]
+       ] [
+         fhir:code [ fhir:v "10611000" ] ;
+         fhir:display [ fhir:v "Eye lotion, solvent for reconstitution" ]
+       ] [
+         fhir:code [ fhir:v "10301000" ] ;
+         fhir:display [ fhir:v "Gargle" ]
+       ] [
+         fhir:code [ fhir:v "50024000" ] ;
+         fhir:display [ fhir:v "Gargle/mouthwash" ]
+       ] [
+         fhir:code [ fhir:v "50024500" ] ;
+         fhir:display [ fhir:v "Gargle/nasal wash" ]
+       ] [
+         fhir:code [ fhir:v "13133000" ] ;
+         fhir:display [ fhir:v "Gastro-resistant oral suspension" ]
+       ] [
+         fhir:code [ fhir:v "12111000" ] ;
+         fhir:display [ fhir:v "Gastroenteral emulsion" ]
+       ] [
+         fhir:code [ fhir:v "12108000" ] ;
+         fhir:display [ fhir:v "Gastroenteral solution" ]
+       ] [
+         fhir:code [ fhir:v "12110000" ] ;
+         fhir:display [ fhir:v "Gastroenteral suspension" ]
+       ] [
+         fhir:code [ fhir:v "10312000" ] ;
+         fhir:display [ fhir:v "Gingival solution" ]
+       ] [
+         fhir:code [ fhir:v "11303500" ] ;
+         fhir:display [ fhir:v "Implantation suspension" ]
+       ] [
+         fhir:code [ fhir:v "50081000" ] ;
+         fhir:display [ fhir:v "Inhalation solution" ]
+       ] [
+         fhir:code [ fhir:v "50032000" ] ;
+         fhir:display [ fhir:v "Inhalation vapour, emulsion" ]
+       ] [
+         fhir:code [ fhir:v "11117000" ] ;
+         fhir:display [ fhir:v "Inhalation vapour, liquid" ]
+       ] [
+         fhir:code [ fhir:v "11114000" ] ;
+         fhir:display [ fhir:v "Inhalation vapour, solution" ]
+       ] [
+         fhir:code [ fhir:v "13044000" ] ;
+         fhir:display [ fhir:v "Intraocular instillation solution" ]
+       ] [
+         fhir:code [ fhir:v "12111500" ] ;
+         fhir:display [ fhir:v "Intraperitoneal solution" ]
+       ] [
+         fhir:code [ fhir:v "11502500" ] ;
+         fhir:display [ fhir:v "Intravesical solution" ]
+       ] [
+         fhir:code [ fhir:v "50033400" ] ;
+         fhir:display [ fhir:v "Intravesical solution/solution for injection" ]
+       ] [
+         fhir:code [ fhir:v "13045000" ] ;
+         fhir:display [ fhir:v "Intravesical suspension" ]
+       ] [
+         fhir:code [ fhir:v "12113000" ] ;
+         fhir:display [ fhir:v "Irrigation solution" ]
+       ] [
+         fhir:code [ fhir:v "13016000" ] ;
+         fhir:display [ fhir:v "Laryngopharyngeal solution" ]
+       ] [
+         fhir:code [ fhir:v "13017000" ] ;
+         fhir:display [ fhir:v "Laryngopharyngeal spray, solution" ]
+       ] [
+         fhir:code [ fhir:v "10521000" ] ;
+         fhir:display [ fhir:v "Medicated nail lacquer" ]
+       ] [
+         fhir:code [ fhir:v "13135000" ] ;
+         fhir:display [ fhir:v "Modified-release oral suspension" ]
+       ] [
+         fhir:code [ fhir:v "10310000" ] ;
+         fhir:display [ fhir:v "Mouthwash" ]
+       ] [
+         fhir:code [ fhir:v "10806000" ] ;
+         fhir:display [ fhir:v "Nasal drops, emulsion" ]
+       ] [
+         fhir:code [ fhir:v "10804000" ] ;
+         fhir:display [ fhir:v "Nasal drops, solution" ]
+       ] [
+         fhir:code [ fhir:v "10805000" ] ;
+         fhir:display [ fhir:v "Nasal drops, suspension" ]
+       ] [
+         fhir:code [ fhir:v "10810000" ] ;
+         fhir:display [ fhir:v "Nasal spray, emulsion" ]
+       ] [
+         fhir:code [ fhir:v "10808000" ] ;
+         fhir:display [ fhir:v "Nasal spray, solution" ]
+       ] [
+         fhir:code [ fhir:v "50037400" ] ;
+         fhir:display [ fhir:v "Nasal spray, solution/oromucosal solution" ]
+       ] [
+         fhir:code [ fhir:v "10809000" ] ;
+         fhir:display [ fhir:v "Nasal spray, suspension" ]
+       ] [
+         fhir:code [ fhir:v "10811000" ] ;
+         fhir:display [ fhir:v "Nasal wash" ]
+       ] [
+         fhir:code [ fhir:v "50036500" ] ;
+         fhir:display [ fhir:v "Nasal/oromucosal solution" ]
+       ] [
+         fhir:code [ fhir:v "50036700" ] ;
+         fhir:display [ fhir:v "Nasal/oromucosal spray, solution" ]
+       ] [
+         fhir:code [ fhir:v "13129000" ] ;
+         fhir:display [ fhir:v "Nebuliser dispersion" ]
+       ] [
+         fhir:code [ fhir:v "11105000" ] ;
+         fhir:display [ fhir:v "Nebuliser emulsion" ]
+       ] [
+         fhir:code [ fhir:v "11101000" ] ;
+         fhir:display [ fhir:v "Nebuliser solution" ]
+       ] [
+         fhir:code [ fhir:v "11102000" ] ;
+         fhir:display [ fhir:v "Nebuliser suspension" ]
+       ] [
+         fhir:code [ fhir:v "10103000" ] ;
+         fhir:display [ fhir:v "Oral drops, emulsion" ]
+       ] [
+         fhir:code [ fhir:v "50037750" ] ;
+         fhir:display [ fhir:v "Oral drops, liquid" ]
+       ] [
+         fhir:code [ fhir:v "10101000" ] ;
+         fhir:display [ fhir:v "Oral drops, solution" ]
+       ] [
+         fhir:code [ fhir:v "10102000" ] ;
+         fhir:display [ fhir:v "Oral drops, suspension" ]
+       ] [
+         fhir:code [ fhir:v "10107000" ] ;
+         fhir:display [ fhir:v "Oral emulsion" ]
+       ] [
+         fhir:code [ fhir:v "10104000" ] ;
+         fhir:display [ fhir:v "Oral liquid" ]
+       ] [
+         fhir:code [ fhir:v "10105000" ] ;
+         fhir:display [ fhir:v "Oral solution" ]
+       ] [
+         fhir:code [ fhir:v "50038500" ] ;
+         fhir:display [ fhir:v "Oral solution/concentrate for nebuliser solution" ]
+       ] [
+         fhir:code [ fhir:v "10106000" ] ;
+         fhir:display [ fhir:v "Oral suspension" ]
+       ] [
+         fhir:code [ fhir:v "50037900" ] ;
+         fhir:display [ fhir:v "Oral/rectal solution" ]
+       ] [
+         fhir:code [ fhir:v "50038000" ] ;
+         fhir:display [ fhir:v "Oral/rectal suspension" ]
+       ] [
+         fhir:code [ fhir:v "10305000" ] ;
+         fhir:display [ fhir:v "Oromucosal solution" ]
+       ] [
+         fhir:code [ fhir:v "10308100" ] ;
+         fhir:display [ fhir:v "Oromucosal spray, emulsion" ]
+       ] [
+         fhir:code [ fhir:v "10308200" ] ;
+         fhir:display [ fhir:v "Oromucosal spray, solution" ]
+       ] [
+         fhir:code [ fhir:v "10308300" ] ;
+         fhir:display [ fhir:v "Oromucosal spray, suspension" ]
+       ] [
+         fhir:code [ fhir:v "10306000" ] ;
+         fhir:display [ fhir:v "Oromucosal suspension" ]
+       ] [
+         fhir:code [ fhir:v "50039500" ] ;
+         fhir:display [ fhir:v "Oromucosal/laryngopharyngeal solution" ]
+       ] [
+         fhir:code [ fhir:v "50040500" ] ;
+         fhir:display [ fhir:v "Oromucosal/laryngopharyngeal solution/spray, solution" ]
+       ] [
+         fhir:code [ fhir:v "11108000" ] ;
+         fhir:display [ fhir:v "Pressurised inhalation, emulsion" ]
+       ] [
+         fhir:code [ fhir:v "11106000" ] ;
+         fhir:display [ fhir:v "Pressurised inhalation, solution" ]
+       ] [
+         fhir:code [ fhir:v "11107000" ] ;
+         fhir:display [ fhir:v "Pressurised inhalation, suspension" ]
+       ] [
+         fhir:code [ fhir:v "13126000" ] ;
+         fhir:display [ fhir:v "Prolonged-release dispersion for injection" ]
+       ] [
+         fhir:code [ fhir:v "13134000" ] ;
+         fhir:display [ fhir:v "Prolonged-release oral suspension" ]
+       ] [
+         fhir:code [ fhir:v "13076000" ] ;
+         fhir:display [ fhir:v "Prolonged-release solution for injection" ]
+       ] [
+         fhir:code [ fhir:v "11208500" ] ;
+         fhir:display [ fhir:v "Prolonged-release suspension for injection" ]
+       ] [
+         fhir:code [ fhir:v "13128000" ] ;
+         fhir:display [ fhir:v "Prolonged-release wound solution" ]
+       ] [
+         fhir:code [ fhir:v "11007000" ] ;
+         fhir:display [ fhir:v "Rectal emulsion" ]
+       ] [
+         fhir:code [ fhir:v "11005000" ] ;
+         fhir:display [ fhir:v "Rectal solution" ]
+       ] [
+         fhir:code [ fhir:v "11006000" ] ;
+         fhir:display [ fhir:v "Rectal suspension" ]
+       ] [
+         fhir:code [ fhir:v "12115000" ] ;
+         fhir:display [ fhir:v "Sealant" ]
+       ] [
+         fhir:code [ fhir:v "10508000" ] ;
+         fhir:display [ fhir:v "Shampoo" ]
+       ] [
+         fhir:code [ fhir:v "12103000" ] ;
+         fhir:display [ fhir:v "Solution for blood fraction modification" ]
+       ] [
+         fhir:code [ fhir:v "11209500" ] ;
+         fhir:display [ fhir:v "Solution for cardioplegia" ]
+       ] [
+         fhir:code [ fhir:v "13107000" ] ;
+         fhir:display [ fhir:v "Solution for cardioplegia/organ preservation" ]
+       ] [
+         fhir:code [ fhir:v "10414000" ] ;
+         fhir:display [ fhir:v "Solution for dental cement" ]
+       ] [
+         fhir:code [ fhir:v "11403000" ] ;
+         fhir:display [ fhir:v "Solution for haemodiafiltration" ]
+       ] [
+         fhir:code [ fhir:v "11404000" ] ;
+         fhir:display [ fhir:v "Solution for haemodialysis" ]
+       ] [
+         fhir:code [ fhir:v "50057000" ] ;
+         fhir:display [ fhir:v "Solution for haemodialysis/haemofiltration" ]
+       ] [
+         fhir:code [ fhir:v "11402000" ] ;
+         fhir:display [ fhir:v "Solution for haemofiltration" ]
+       ] [
+         fhir:code [ fhir:v "11210000" ] ;
+         fhir:display [ fhir:v "Solution for infusion" ]
+       ] [
+         fhir:code [ fhir:v "11201000" ] ;
+         fhir:display [ fhir:v "Solution for injection" ]
+       ] [
+         fhir:code [ fhir:v "50060000" ] ;
+         fhir:display [ fhir:v "Solution for injection/infusion" ]
+       ] [
+         fhir:code [ fhir:v "13051000" ] ;
+         fhir:display [ fhir:v "Solution for injection/skin-prick test" ]
+       ] [
+         fhir:code [ fhir:v "50073500" ] ;
+         fhir:display [ fhir:v "Solution for intraocular irrigation" ]
+       ] [
+         fhir:code [ fhir:v "10518000" ] ;
+         fhir:display [ fhir:v "Solution for iontophoresis" ]
+       ] [
+         fhir:code [ fhir:v "12112000" ] ;
+         fhir:display [ fhir:v "Solution for organ preservation" ]
+       ] [
+         fhir:code [ fhir:v "11401000" ] ;
+         fhir:display [ fhir:v "Solution for peritoneal dialysis" ]
+       ] [
+         fhir:code [ fhir:v "12131000" ] ;
+         fhir:display [ fhir:v "Solution for provocation test" ]
+       ] [
+         fhir:code [ fhir:v "50061500" ] ;
+         fhir:display [ fhir:v "Solution for sealant" ]
+       ] [
+         fhir:code [ fhir:v "10548000" ] ;
+         fhir:display [ fhir:v "Solution for skin-prick test" ]
+       ] [
+         fhir:code [ fhir:v "10549000" ] ;
+         fhir:display [ fhir:v "Solution for skin-scratch test" ]
+       ] [
+         fhir:code [ fhir:v "13061000" ] ;
+         fhir:display [ fhir:v "Solution for solution for infusion" ]
+       ] [
+         fhir:code [ fhir:v "13033000" ] ;
+         fhir:display [ fhir:v "Solution for solution for injection" ]
+       ] [
+         fhir:code [ fhir:v "13047000" ] ;
+         fhir:display [ fhir:v "Solution for suspension for injection" ]
+       ] [
+         fhir:code [ fhir:v "11216000" ] ;
+         fhir:display [ fhir:v "Solvent for parenteral use" ]
+       ] [
+         fhir:code [ fhir:v "50076000" ] ;
+         fhir:display [ fhir:v "Solvent for solution for infusion" ]
+       ] [
+         fhir:code [ fhir:v "50074000" ] ;
+         fhir:display [ fhir:v "Solvent for solution for intraocular irrigation" ]
+       ] [
+         fhir:code [ fhir:v "13035000" ] ;
+         fhir:display [ fhir:v "Solvent for..." ]
+       ] [
+         fhir:code [ fhir:v "12114000" ] ;
+         fhir:display [ fhir:v "Stomach irrigation" ]
+       ] [
+         fhir:code [ fhir:v "10309100" ] ;
+         fhir:display [ fhir:v "Sublingual spray, emulsion" ]
+       ] [
+         fhir:code [ fhir:v "10309200" ] ;
+         fhir:display [ fhir:v "Sublingual spray, solution" ]
+       ] [
+         fhir:code [ fhir:v "10309300" ] ;
+         fhir:display [ fhir:v "Sublingual spray, suspension" ]
+       ] [
+         fhir:code [ fhir:v "13036000" ] ;
+         fhir:display [ fhir:v "Suspension for emulsion for injection" ]
+       ] [
+         fhir:code [ fhir:v "11202000" ] ;
+         fhir:display [ fhir:v "Suspension for injection" ]
+       ] [
+         fhir:code [ fhir:v "13037000" ] ;
+         fhir:display [ fhir:v "Suspension for oral suspension" ]
+       ] [
+         fhir:code [ fhir:v "13039000" ] ;
+         fhir:display [ fhir:v "Suspension for suspension for injection" ]
+       ] [
+         fhir:code [ fhir:v "10117000" ] ;
+         fhir:display [ fhir:v "Syrup" ]
+       ] [
+         fhir:code [ fhir:v "10546400" ] ;
+         fhir:display [ fhir:v "Transdermal solution" ]
+       ] [
+         fhir:code [ fhir:v "10546500" ] ;
+         fhir:display [ fhir:v "Transdermal spray, solution" ]
+       ] [
+         fhir:code [ fhir:v "13077000" ] ;
+         fhir:display [ fhir:v "Urethral emulsion" ]
+       ] [
+         fhir:code [ fhir:v "10907000" ] ;
+         fhir:display [ fhir:v "Vaginal emulsion" ]
+       ] [
+         fhir:code [ fhir:v "10905000" ] ;
+         fhir:display [ fhir:v "Vaginal solution" ]
+       ] [
+         fhir:code [ fhir:v "10906000" ] ;
+         fhir:display [ fhir:v "Vaginal suspension" ]
+       ] [
+         fhir:code [ fhir:v "13012000" ] ;
+         fhir:display [ fhir:v "Gas for dispersion for infusion" ]
+       ] [
+         fhir:code [ fhir:v "13013000" ] ;
+         fhir:display [ fhir:v "Gas for dispersion for injection" ]
+       ] [
+         fhir:code [ fhir:v "13050000" ] ;
+         fhir:display [ fhir:v "Gas for dispersion for injection/infusion" ]
+       ] [
+         fhir:code [ fhir:v "12301000" ] ;
+         fhir:display [ fhir:v "Medicinal gas, compressed" ]
+       ] [
+         fhir:code [ fhir:v "12302000" ] ;
+         fhir:display [ fhir:v "Medicinal gas, cryogenic" ]
+       ] [
+         fhir:code [ fhir:v "12303000" ] ;
+         fhir:display [ fhir:v "Medicinal gas, liquefied" ]
+       ] [
+         fhir:code [ fhir:v "10502000" ] ;
+         fhir:display [ fhir:v "Cream" ]
+       ] [
+         fhir:code [ fhir:v "10507000" ] ;
+         fhir:display [ fhir:v "Cutaneous foam" ]
+       ] [
+         fhir:code [ fhir:v "10505000" ] ;
+         fhir:display [ fhir:v "Cutaneous paste" ]
+       ] [
+         fhir:code [ fhir:v "50016000" ] ;
+         fhir:display [ fhir:v "Cutaneous spray, ointment" ]
+       ] [
+         fhir:code [ fhir:v "50015200" ] ;
+         fhir:display [ fhir:v "Cutaneous/nasal ointment" ]
+       ] [
+         fhir:code [ fhir:v "10401500" ] ;
+         fhir:display [ fhir:v "Dental cement" ]
+       ] [
+         fhir:code [ fhir:v "10402000" ] ;
+         fhir:display [ fhir:v "Dental gel" ]
+       ] [
+         fhir:code [ fhir:v "50017000" ] ;
+         fhir:display [ fhir:v "Dental paste" ]
+       ] [
+         fhir:code [ fhir:v "10701000" ] ;
+         fhir:display [ fhir:v "Ear cream" ]
+       ] [
+         fhir:code [ fhir:v "10702000" ] ;
+         fhir:display [ fhir:v "Ear gel" ]
+       ] [
+         fhir:code [ fhir:v "10703000" ] ;
+         fhir:display [ fhir:v "Ear ointment" ]
+       ] [
+         fhir:code [ fhir:v "50019000" ] ;
+         fhir:display [ fhir:v "Ear/eye ointment" ]
+       ] [
+         fhir:code [ fhir:v "11701000" ] ;
+         fhir:display [ fhir:v "Endocervical gel" ]
+       ] [
+         fhir:code [ fhir:v "10601000" ] ;
+         fhir:display [ fhir:v "Eye cream" ]
+       ] [
+         fhir:code [ fhir:v "10602000" ] ;
+         fhir:display [ fhir:v "Eye gel" ]
+       ] [
+         fhir:code [ fhir:v "10603000" ] ;
+         fhir:display [ fhir:v "Eye ointment" ]
+       ] [
+         fhir:code [ fhir:v "10503000" ] ;
+         fhir:display [ fhir:v "Gel" ]
+       ] [
+         fhir:code [ fhir:v "13014000" ] ;
+         fhir:display [ fhir:v "Gel for gel" ]
+       ] [
+         fhir:code [ fhir:v "11204000" ] ;
+         fhir:display [ fhir:v "Gel for injection" ]
+       ] [
+         fhir:code [ fhir:v "10315000" ] ;
+         fhir:display [ fhir:v "Gingival gel" ]
+       ] [
+         fhir:code [ fhir:v "10316000" ] ;
+         fhir:display [ fhir:v "Gingival paste" ]
+       ] [
+         fhir:code [ fhir:v "13043000" ] ;
+         fhir:display [ fhir:v "Implantation paste" ]
+       ] [
+         fhir:code [ fhir:v "11116000" ] ;
+         fhir:display [ fhir:v "Inhalation vapour, ointment" ]
+       ] [
+         fhir:code [ fhir:v "12120000" ] ;
+         fhir:display [ fhir:v "Intestinal gel" ]
+       ] [
+         fhir:code [ fhir:v "13113000" ] ;
+         fhir:display [ fhir:v "Intrauterine gel" ]
+       ] [
+         fhir:code [ fhir:v "10801000" ] ;
+         fhir:display [ fhir:v "Nasal cream" ]
+       ] [
+         fhir:code [ fhir:v "10802000" ] ;
+         fhir:display [ fhir:v "Nasal gel" ]
+       ] [
+         fhir:code [ fhir:v "10803000" ] ;
+         fhir:display [ fhir:v "Nasal ointment" ]
+       ] [
+         fhir:code [ fhir:v "10504000" ] ;
+         fhir:display [ fhir:v "Ointment" ]
+       ] [
+         fhir:code [ fhir:v "10108000" ] ;
+         fhir:display [ fhir:v "Oral gel" ]
+       ] [
+         fhir:code [ fhir:v "10109000" ] ;
+         fhir:display [ fhir:v "Oral paste" ]
+       ] [
+         fhir:code [ fhir:v "10314010" ] ;
+         fhir:display [ fhir:v "Oromucosal cream" ]
+       ] [
+         fhir:code [ fhir:v "10313000" ] ;
+         fhir:display [ fhir:v "Oromucosal gel" ]
+       ] [
+         fhir:code [ fhir:v "10314005" ] ;
+         fhir:display [ fhir:v "Oromucosal ointment" ]
+       ] [
+         fhir:code [ fhir:v "10314000" ] ;
+         fhir:display [ fhir:v "Oromucosal paste" ]
+       ] [
+         fhir:code [ fhir:v "10410000" ] ;
+         fhir:display [ fhir:v "Periodontal gel" ]
+       ] [
+         fhir:code [ fhir:v "10522000" ] ;
+         fhir:display [ fhir:v "Poultice" ]
+       ] [
+         fhir:code [ fhir:v "11001000" ] ;
+         fhir:display [ fhir:v "Rectal cream" ]
+       ] [
+         fhir:code [ fhir:v "11004000" ] ;
+         fhir:display [ fhir:v "Rectal foam" ]
+       ] [
+         fhir:code [ fhir:v "11002000" ] ;
+         fhir:display [ fhir:v "Rectal gel" ]
+       ] [
+         fhir:code [ fhir:v "11003000" ] ;
+         fhir:display [ fhir:v "Rectal ointment" ]
+       ] [
+         fhir:code [ fhir:v "10409000" ] ;
+         fhir:display [ fhir:v "Toothpaste" ]
+       ] [
+         fhir:code [ fhir:v "10546250" ] ;
+         fhir:display [ fhir:v "Transdermal gel" ]
+       ] [
+         fhir:code [ fhir:v "13102000" ] ;
+         fhir:display [ fhir:v "Transdermal ointment" ]
+       ] [
+         fhir:code [ fhir:v "11504000" ] ;
+         fhir:display [ fhir:v "Urethral gel" ]
+       ] [
+         fhir:code [ fhir:v "13123000" ] ;
+         fhir:display [ fhir:v "Urethral ointment" ]
+       ] [
+         fhir:code [ fhir:v "10901000" ] ;
+         fhir:display [ fhir:v "Vaginal cream" ]
+       ] [
+         fhir:code [ fhir:v "10904000" ] ;
+         fhir:display [ fhir:v "Vaginal foam" ]
+       ] [
+         fhir:code [ fhir:v "10902000" ] ;
+         fhir:display [ fhir:v "Vaginal gel" ]
+       ] [
+         fhir:code [ fhir:v "10903000" ] ;
+         fhir:display [ fhir:v "Vaginal ointment" ]
+       ] [
+         fhir:code [ fhir:v "10314011" ] ;
+         fhir:display [ fhir:v "Buccal film" ]
+       ] [
+         fhir:code [ fhir:v "10320000" ] ;
+         fhir:display [ fhir:v "Buccal tablet" ]
+       ] [
+         fhir:code [ fhir:v "10209000" ] ;
+         fhir:display [ fhir:v "Cachet" ]
+       ] [
+         fhir:code [ fhir:v "10210000" ] ;
+         fhir:display [ fhir:v "Capsule, hard" ]
+       ] [
+         fhir:code [ fhir:v "10211000" ] ;
+         fhir:display [ fhir:v "Capsule, soft" ]
+       ] [
+         fhir:code [ fhir:v "10214000" ] ;
+         fhir:display [ fhir:v "Chewable capsule, soft" ]
+       ] [
+         fhir:code [ fhir:v "10228000" ] ;
+         fhir:display [ fhir:v "Chewable tablet" ]
+       ] [
+         fhir:code [ fhir:v "50001000" ] ;
+         fhir:display [ fhir:v "Chewable/dispersible tablet" ]
+       ] [
+         fhir:code [ fhir:v "13046000" ] ;
+         fhir:display [ fhir:v "Coated granules" ]
+       ] [
+         fhir:code [ fhir:v "10220000" ] ;
+         fhir:display [ fhir:v "Coated tablet" ]
+       ] [
+         fhir:code [ fhir:v "10322000" ] ;
+         fhir:display [ fhir:v "Compressed lozenge" ]
+       ] [
+         fhir:code [ fhir:v "10517500" ] ;
+         fhir:display [ fhir:v "Cutaneous patch" ]
+       ] [
+         fhir:code [ fhir:v "10517000" ] ;
+         fhir:display [ fhir:v "Cutaneous powder" ]
+       ] [
+         fhir:code [ fhir:v "10511000" ] ;
+         fhir:display [ fhir:v "Cutaneous spray, powder" ]
+       ] [
+         fhir:code [ fhir:v "10523000" ] ;
+         fhir:display [ fhir:v "Cutaneous stick" ]
+       ] [
+         fhir:code [ fhir:v "10405000" ] ;
+         fhir:display [ fhir:v "Dental powder" ]
+       ] [
+         fhir:code [ fhir:v "10403000" ] ;
+         fhir:display [ fhir:v "Dental stick" ]
+       ] [
+         fhir:code [ fhir:v "10121000" ] ;
+         fhir:display [ fhir:v "Dispersible tablet" ]
+       ] [
+         fhir:code [ fhir:v "10121500" ] ;
+         fhir:display [ fhir:v "Dispersible tablets for dose dispenser" ]
+       ] [
+         fhir:code [ fhir:v "13006000" ] ;
+         fhir:display [ fhir:v "Ear drops, powder for suspension" ]
+       ] [
+         fhir:code [ fhir:v "10708000" ] ;
+         fhir:display [ fhir:v "Ear powder" ]
+       ] [
+         fhir:code [ fhir:v "10715000" ] ;
+         fhir:display [ fhir:v "Ear stick" ]
+       ] [
+         fhir:code [ fhir:v "10714000" ] ;
+         fhir:display [ fhir:v "Ear tampon" ]
+       ] [
+         fhir:code [ fhir:v "10205000" ] ;
+         fhir:display [ fhir:v "Effervescent granules" ]
+       ] [
+         fhir:code [ fhir:v "13007000" ] ;
+         fhir:display [ fhir:v "Effervescent granules for oral suspension" ]
+       ] [
+         fhir:code [ fhir:v "10203000" ] ;
+         fhir:display [ fhir:v "Effervescent powder" ]
+       ] [
+         fhir:code [ fhir:v "10222000" ] ;
+         fhir:display [ fhir:v "Effervescent tablet" ]
+       ] [
+         fhir:code [ fhir:v "10913000" ] ;
+         fhir:display [ fhir:v "Effervescent vaginal tablet" ]
+       ] [
+         fhir:code [ fhir:v "11602000" ] ;
+         fhir:display [ fhir:v "Endotracheopulmonary instillation, powder for solution" ]
+       ] [
+         fhir:code [ fhir:v "13009000" ] ;
+         fhir:display [ fhir:v "Endotracheopulmonary instillation, powder for suspension" ]
+       ] [
+         fhir:code [ fhir:v "13010000" ] ;
+         fhir:display [ fhir:v "Eye drops, powder for solution" ]
+       ] [
+         fhir:code [ fhir:v "13011000" ] ;
+         fhir:display [ fhir:v "Eye drops, powder for suspension" ]
+       ] [
+         fhir:code [ fhir:v "13154000" ] ;
+         fhir:display [ fhir:v "Film-coated granules" ]
+       ] [
+         fhir:code [ fhir:v "10221000" ] ;
+         fhir:display [ fhir:v "Film-coated tablet" ]
+       ] [
+         fhir:code [ fhir:v "10303000" ] ;
+         fhir:display [ fhir:v "Gargle, powder for solution" ]
+       ] [
+         fhir:code [ fhir:v "10304000" ] ;
+         fhir:display [ fhir:v "Gargle, tablet for solution" ]
+       ] [
+         fhir:code [ fhir:v "10212000" ] ;
+         fhir:display [ fhir:v "Gastro-resistant capsule, hard" ]
+       ] [
+         fhir:code [ fhir:v "10213000" ] ;
+         fhir:display [ fhir:v "Gastro-resistant capsule, soft" ]
+       ] [
+         fhir:code [ fhir:v "10206000" ] ;
+         fhir:display [ fhir:v "Gastro-resistant granules" ]
+       ] [
+         fhir:code [ fhir:v "10225000" ] ;
+         fhir:display [ fhir:v "Gastro-resistant tablet" ]
+       ] [
+         fhir:code [ fhir:v "10204000" ] ;
+         fhir:display [ fhir:v "Granules" ]
+       ] [
+         fhir:code [ fhir:v "10112000" ] ;
+         fhir:display [ fhir:v "Granules for oral solution" ]
+       ] [
+         fhir:code [ fhir:v "10113000" ] ;
+         fhir:display [ fhir:v "Granules for oral suspension" ]
+       ] [
+         fhir:code [ fhir:v "50029150" ] ;
+         fhir:display [ fhir:v "Granules for oral/rectal suspension" ]
+       ] [
+         fhir:code [ fhir:v "13015000" ] ;
+         fhir:display [ fhir:v "Granules for rectal suspension" ]
+       ] [
+         fhir:code [ fhir:v "13048000" ] ;
+         fhir:display [ fhir:v "Granules for suspension for injection" ]
+       ] [
+         fhir:code [ fhir:v "10119000" ] ;
+         fhir:display [ fhir:v "Granules for syrup" ]
+       ] [
+         fhir:code [ fhir:v "50029500" ] ;
+         fhir:display [ fhir:v "Granules for vaginal solution" ]
+       ] [
+         fhir:code [ fhir:v "10122000" ] ;
+         fhir:display [ fhir:v "Herbal tea" ]
+       ] [
+         fhir:code [ fhir:v "11301000" ] ;
+         fhir:display [ fhir:v "Implant" ]
+       ] [
+         fhir:code [ fhir:v "11303000" ] ;
+         fhir:display [ fhir:v "Implantation chain" ]
+       ] [
+         fhir:code [ fhir:v "11303300" ] ;
+         fhir:display [ fhir:v "Implantation matrix" ]
+       ] [
+         fhir:code [ fhir:v "11302000" ] ;
+         fhir:display [ fhir:v "Implantation tablet" ]
+       ] [
+         fhir:code [ fhir:v "13145000" ] ;
+         fhir:display [ fhir:v "Impregnated cutaneous swab" ]
+       ] [
+         fhir:code [ fhir:v "10525000" ] ;
+         fhir:display [ fhir:v "Impregnated dressing" ]
+       ] [
+         fhir:code [ fhir:v "12117000" ] ;
+         fhir:display [ fhir:v "Impregnated pad" ]
+       ] [
+         fhir:code [ fhir:v "12117500" ] ;
+         fhir:display [ fhir:v "Impregnated plug" ]
+       ] [
+         fhir:code [ fhir:v "11109000" ] ;
+         fhir:display [ fhir:v "Inhalation powder" ]
+       ] [
+         fhir:code [ fhir:v "11110000" ] ;
+         fhir:display [ fhir:v "Inhalation powder, hard capsule" ]
+       ] [
+         fhir:code [ fhir:v "11111000" ] ;
+         fhir:display [ fhir:v "Inhalation powder, pre-dispensed" ]
+       ] [
+         fhir:code [ fhir:v "50030000" ] ;
+         fhir:display [ fhir:v "Inhalation powder, tablet" ]
+       ] [
+         fhir:code [ fhir:v "11113000" ] ;
+         fhir:display [ fhir:v "Inhalation vapour, capsule" ]
+       ] [
+         fhir:code [ fhir:v "50031000" ] ;
+         fhir:display [ fhir:v "Inhalation vapour, effervescent tablet" ]
+       ] [
+         fhir:code [ fhir:v "50033000" ] ;
+         fhir:display [ fhir:v "Inhalation vapour, impregnated pad" ]
+       ] [
+         fhir:code [ fhir:v "50033100" ] ;
+         fhir:display [ fhir:v "Inhalation vapour, impregnated plug" ]
+       ] [
+         fhir:code [ fhir:v "11112000" ] ;
+         fhir:display [ fhir:v "Inhalation vapour, powder" ]
+       ] [
+         fhir:code [ fhir:v "11115000" ] ;
+         fhir:display [ fhir:v "Inhalation vapour, tablet" ]
+       ] [
+         fhir:code [ fhir:v "10202000" ] ;
+         fhir:display [ fhir:v "Instant herbal tea" ]
+       ] [
+         fhir:code [ fhir:v "10321000" ] ;
+         fhir:display [ fhir:v "Lozenge" ]
+       ] [
+         fhir:code [ fhir:v "13018000" ] ;
+         fhir:display [ fhir:v "Matrix for implantation matrix" ]
+       ] [
+         fhir:code [ fhir:v "10229000" ] ;
+         fhir:display [ fhir:v "Medicated chewing-gum" ]
+       ] [
+         fhir:code [ fhir:v "10506000" ] ;
+         fhir:display [ fhir:v "Medicated plaster" ]
+       ] [
+         fhir:code [ fhir:v "12119000" ] ;
+         fhir:display [ fhir:v "Medicated sponge" ]
+       ] [
+         fhir:code [ fhir:v "12130000" ] ;
+         fhir:display [ fhir:v "Medicated thread" ]
+       ] [
+         fhir:code [ fhir:v "10914000" ] ;
+         fhir:display [ fhir:v "Medicated vaginal tampon" ]
+       ] [
+         fhir:code [ fhir:v "10217000" ] ;
+         fhir:display [ fhir:v "Modified-release capsule, hard" ]
+       ] [
+         fhir:code [ fhir:v "10218000" ] ;
+         fhir:display [ fhir:v "Modified-release capsule, soft" ]
+       ] [
+         fhir:code [ fhir:v "10208000" ] ;
+         fhir:display [ fhir:v "Modified-release granules" ]
+       ] [
+         fhir:code [ fhir:v "10227000" ] ;
+         fhir:display [ fhir:v "Modified-release tablet" ]
+       ] [
+         fhir:code [ fhir:v "50036050" ] ;
+         fhir:display [ fhir:v "Mouthwash, powder for solution" ]
+       ] [
+         fhir:code [ fhir:v "10311000" ] ;
+         fhir:display [ fhir:v "Mouthwash, tablet for solution" ]
+       ] [
+         fhir:code [ fhir:v "10319000" ] ;
+         fhir:display [ fhir:v "Muco-adhesive buccal tablet" ]
+       ] [
+         fhir:code [ fhir:v "13020000" ] ;
+         fhir:display [ fhir:v "Nasal drops, powder for solution" ]
+       ] [
+         fhir:code [ fhir:v "10807000" ] ;
+         fhir:display [ fhir:v "Nasal powder" ]
+       ] [
+         fhir:code [ fhir:v "50037100" ] ;
+         fhir:display [ fhir:v "Nasal spray, powder for solution" ]
+       ] [
+         fhir:code [ fhir:v "10812000" ] ;
+         fhir:display [ fhir:v "Nasal stick" ]
+       ] [
+         fhir:code [ fhir:v "10612000" ] ;
+         fhir:display [ fhir:v "Ophthalmic insert" ]
+       ] [
+         fhir:code [ fhir:v "10613000" ] ;
+         fhir:display [ fhir:v "Ophthalmic strip" ]
+       ] [
+         fhir:code [ fhir:v "50037500" ] ;
+         fhir:display [ fhir:v "Oral drops, granules for solution" ]
+       ] [
+         fhir:code [ fhir:v "50082000" ] ;
+         fhir:display [ fhir:v "Oral drops, powder for suspension" ]
+       ] [
+         fhir:code [ fhir:v "10230000" ] ;
+         fhir:display [ fhir:v "Oral gum" ]
+       ] [
+         fhir:code [ fhir:v "13106000" ] ;
+         fhir:display [ fhir:v "Oral herbal material" ]
+       ] [
+         fhir:code [ fhir:v "10224000" ] ;
+         fhir:display [ fhir:v "Oral lyophilisate" ]
+       ] [
+         fhir:code [ fhir:v "10201000" ] ;
+         fhir:display [ fhir:v "Oral powder" ]
+       ] [
+         fhir:code [ fhir:v "10236100" ] ;
+         fhir:display [ fhir:v "Orodispersible film" ]
+       ] [
+         fhir:code [ fhir:v "10223000" ] ;
+         fhir:display [ fhir:v "Orodispersible tablet" ]
+       ] [
+         fhir:code [ fhir:v "10317000" ] ;
+         fhir:display [ fhir:v "Oromucosal capsule" ]
+       ] [
+         fhir:code [ fhir:v "13149000" ] ;
+         fhir:display [ fhir:v "Oromucosal film" ]
+       ] [
+         fhir:code [ fhir:v "50039000" ] ;
+         fhir:display [ fhir:v "Oromucosal patch" ]
+       ] [
+         fhir:code [ fhir:v "13141000" ] ;
+         fhir:display [ fhir:v "Oromucosal pouch" ]
+       ] [
+         fhir:code [ fhir:v "10323000" ] ;
+         fhir:display [ fhir:v "Pastille" ]
+       ] [
+         fhir:code [ fhir:v "10411000" ] ;
+         fhir:display [ fhir:v "Periodontal insert" ]
+       ] [
+         fhir:code [ fhir:v "10401000" ] ;
+         fhir:display [ fhir:v "Periodontal powder" ]
+       ] [
+         fhir:code [ fhir:v "10909000" ] ;
+         fhir:display [ fhir:v "Pessary" ]
+       ] [
+         fhir:code [ fhir:v "10231000" ] ;
+         fhir:display [ fhir:v "Pillules" ]
+       ] [
+         fhir:code [ fhir:v "10550000" ] ;
+         fhir:display [ fhir:v "Plaster for provocation test" ]
+       ] [
+         fhir:code [ fhir:v "11503000" ] ;
+         fhir:display [ fhir:v "Powder for bladder irrigation" ]
+       ] [
+         fhir:code [ fhir:v "50048750" ] ;
+         fhir:display [ fhir:v "Powder for concentrate for dispersion for infusion" ]
+       ] [
+         fhir:code [ fhir:v "50049100" ] ;
+         fhir:display [ fhir:v "Powder for concentrate for intravesical suspension" ]
+       ] [
+         fhir:code [ fhir:v "50049200" ] ;
+         fhir:display [ fhir:v "Powder for concentrate for solution for haemodialysis" ]
+       ] [
+         fhir:code [ fhir:v "50043000" ] ;
+         fhir:display [ fhir:v "Powder for concentrate for solution for infusion" ]
+       ] [
+         fhir:code [ fhir:v "50049250" ] ;
+         fhir:display [ fhir:v "Powder for concentrate for solution for injection/infusion" ]
+       ] [
+         fhir:code [ fhir:v "10514500" ] ;
+         fhir:display [ fhir:v "Powder for cutaneous solution" ]
+       ] [
+         fhir:code [ fhir:v "10413000" ] ;
+         fhir:display [ fhir:v "Powder for dental cement" ]
+       ] [
+         fhir:code [ fhir:v "13022000" ] ;
+         fhir:display [ fhir:v "Powder for dental gel" ]
+       ] [
+         fhir:code [ fhir:v "50049270" ] ;
+         fhir:display [ fhir:v "Powder for dental solution" ]
+       ] [
+         fhir:code [ fhir:v "11211500" ] ;
+         fhir:display [ fhir:v "Powder for dispersion for infusion" ]
+       ] [
+         fhir:code [ fhir:v "13023000" ] ;
+         fhir:display [ fhir:v "Powder for dispersion for injection" ]
+       ] [
+         fhir:code [ fhir:v "13040000" ] ;
+         fhir:display [ fhir:v "Powder for emulsion for injection" ]
+       ] [
+         fhir:code [ fhir:v "13024000" ] ;
+         fhir:display [ fhir:v "Powder for endocervical gel" ]
+       ] [
+         fhir:code [ fhir:v "13025000" ] ;
+         fhir:display [ fhir:v "Powder for endosinusial solution" ]
+       ] [
+         fhir:code [ fhir:v "50049300" ] ;
+         fhir:display [ fhir:v "Powder for epilesional solution" ]
+       ] [
+         fhir:code [ fhir:v "13021000" ] ;
+         fhir:display [ fhir:v "Powder for gel" ]
+       ] [
+         fhir:code [ fhir:v "13026000" ] ;
+         fhir:display [ fhir:v "Powder for gingival gel" ]
+       ] [
+         fhir:code [ fhir:v "13027000" ] ;
+         fhir:display [ fhir:v "Powder for implantation matrix" ]
+       ] [
+         fhir:code [ fhir:v "13028000" ] ;
+         fhir:display [ fhir:v "Powder for implantation paste" ]
+       ] [
+         fhir:code [ fhir:v "50049500" ] ;
+         fhir:display [ fhir:v "Powder for implantation suspension" ]
+       ] [
+         fhir:code [ fhir:v "13029000" ] ;
+         fhir:display [ fhir:v "Powder for intraocular instillation solution" ]
+       ] [
+         fhir:code [ fhir:v "50050000" ] ;
+         fhir:display [ fhir:v "Powder for intravesical solution" ]
+       ] [
+         fhir:code [ fhir:v "50050500" ] ;
+         fhir:display [ fhir:v "Powder for intravesical solution/solution for injection" ]
+       ] [
+         fhir:code [ fhir:v "50051000" ] ;
+         fhir:display [ fhir:v "Powder for intravesical suspension" ]
+       ] [
+         fhir:code [ fhir:v "11104000" ] ;
+         fhir:display [ fhir:v "Powder for nebuliser solution" ]
+       ] [
+         fhir:code [ fhir:v "11103000" ] ;
+         fhir:display [ fhir:v "Powder for nebuliser suspension" ]
+       ] [
+         fhir:code [ fhir:v "10110000" ] ;
+         fhir:display [ fhir:v "Powder for oral solution" ]
+       ] [
+         fhir:code [ fhir:v "10111000" ] ;
+         fhir:display [ fhir:v "Powder for oral suspension" ]
+       ] [
+         fhir:code [ fhir:v "50052000" ] ;
+         fhir:display [ fhir:v "Powder for oral/rectal suspension" ]
+       ] [
+         fhir:code [ fhir:v "11208400" ] ;
+         fhir:display [ fhir:v "Powder for prolonged-release suspension for injection" ]
+       ] [
+         fhir:code [ fhir:v "11009000" ] ;
+         fhir:display [ fhir:v "Powder for rectal solution" ]
+       ] [
+         fhir:code [ fhir:v "11010000" ] ;
+         fhir:display [ fhir:v "Powder for rectal suspension" ]
+       ] [
+         fhir:code [ fhir:v "13031000" ] ;
+         fhir:display [ fhir:v "Powder for sealant" ]
+       ] [
+         fhir:code [ fhir:v "11212000" ] ;
+         fhir:display [ fhir:v "Powder for solution for infusion" ]
+       ] [
+         fhir:code [ fhir:v "11205000" ] ;
+         fhir:display [ fhir:v "Powder for solution for injection" ]
+       ] [
+         fhir:code [ fhir:v "50053500" ] ;
+         fhir:display [ fhir:v "Powder for solution for injection/infusion" ]
+       ] [
+         fhir:code [ fhir:v "13052000" ] ;
+         fhir:display [ fhir:v "Powder for solution for injection/skin-prick test" ]
+       ] [
+         fhir:code [ fhir:v "50073000" ] ;
+         fhir:display [ fhir:v "Powder for solution for intraocular irrigation" ]
+       ] [
+         fhir:code [ fhir:v "10518500" ] ;
+         fhir:display [ fhir:v "Powder for solution for iontophoresis" ]
+       ] [
+         fhir:code [ fhir:v "13032000" ] ;
+         fhir:display [ fhir:v "Powder for solution for skin-prick test" ]
+       ] [
+         fhir:code [ fhir:v "11206000" ] ;
+         fhir:display [ fhir:v "Powder for suspension for injection" ]
+       ] [
+         fhir:code [ fhir:v "10118000" ] ;
+         fhir:display [ fhir:v "Powder for syrup" ]
+       ] [
+         fhir:code [ fhir:v "13111000" ] ;
+         fhir:display [ fhir:v "Powder for vaginal solution" ]
+       ] [
+         fhir:code [ fhir:v "10215000" ] ;
+         fhir:display [ fhir:v "Prolonged-release capsule, hard" ]
+       ] [
+         fhir:code [ fhir:v "10216000" ] ;
+         fhir:display [ fhir:v "Prolonged-release capsule, soft" ]
+       ] [
+         fhir:code [ fhir:v "10207000" ] ;
+         fhir:display [ fhir:v "Prolonged-release granules" ]
+       ] [
+         fhir:code [ fhir:v "13148000" ] ;
+         fhir:display [ fhir:v "Prolonged-release pessary" ]
+       ] [
+         fhir:code [ fhir:v "10226000" ] ;
+         fhir:display [ fhir:v "Prolonged-release tablet" ]
+       ] [
+         fhir:code [ fhir:v "11014000" ] ;
+         fhir:display [ fhir:v "Rectal capsule" ]
+       ] [
+         fhir:code [ fhir:v "11015000" ] ;
+         fhir:display [ fhir:v "Rectal tampon" ]
+       ] [
+         fhir:code [ fhir:v "12115100" ] ;
+         fhir:display [ fhir:v "Sealant matrix" ]
+       ] [
+         fhir:code [ fhir:v "12115200" ] ;
+         fhir:display [ fhir:v "Sealant powder" ]
+       ] [
+         fhir:code [ fhir:v "10120000" ] ;
+         fhir:display [ fhir:v "Soluble tablet" ]
+       ] [
+         fhir:code [ fhir:v "10317500" ] ;
+         fhir:display [ fhir:v "Sublingual film" ]
+       ] [
+         fhir:code [ fhir:v "13127000" ] ;
+         fhir:display [ fhir:v "Sublingual lyophilisate" ]
+       ] [
+         fhir:code [ fhir:v "13105000" ] ;
+         fhir:display [ fhir:v "Sublingual powder" ]
+       ] [
+         fhir:code [ fhir:v "10318000" ] ;
+         fhir:display [ fhir:v "Sublingual tablet" ]
+       ] [
+         fhir:code [ fhir:v "11013000" ] ;
+         fhir:display [ fhir:v "Suppository" ]
+       ] [
+         fhir:code [ fhir:v "10219000" ] ;
+         fhir:display [ fhir:v "Tablet" ]
+       ] [
+         fhir:code [ fhir:v "13066000" ] ;
+         fhir:display [ fhir:v "Tablet for cutaneous solution" ]
+       ] [
+         fhir:code [ fhir:v "11011000" ] ;
+         fhir:display [ fhir:v "Tablet for rectal solution" ]
+       ] [
+         fhir:code [ fhir:v "11012000" ] ;
+         fhir:display [ fhir:v "Tablet for rectal suspension" ]
+       ] [
+         fhir:code [ fhir:v "10908000" ] ;
+         fhir:display [ fhir:v "Tablet for vaginal solution" ]
+       ] [
+         fhir:code [ fhir:v "13118000" ] ;
+         fhir:display [ fhir:v "Tablet with sensor" ]
+       ] [
+         fhir:code [ fhir:v "10519000" ] ;
+         fhir:display [ fhir:v "Transdermal patch" ]
+       ] [
+         fhir:code [ fhir:v "11505000" ] ;
+         fhir:display [ fhir:v "Urethral stick" ]
+       ] [
+         fhir:code [ fhir:v "10910000" ] ;
+         fhir:display [ fhir:v "Vaginal capsule, hard" ]
+       ] [
+         fhir:code [ fhir:v "10911000" ] ;
+         fhir:display [ fhir:v "Vaginal capsule, soft" ]
+       ] [
+         fhir:code [ fhir:v "10912000" ] ;
+         fhir:display [ fhir:v "Vaginal tablet" ]
+       ] [
+         fhir:code [ fhir:v "12104000" ] ;
+         fhir:display [ fhir:v "Wound stick" ]
+       ] [
+         fhir:code [ fhir:v "10501000" ] ;
+         fhir:display [ fhir:v "Bath additive" ]
+       ] [
+         fhir:code [ fhir:v "11901000" ] ;
+         fhir:display [ fhir:v "Intrauterine delivery system" ]
+       ] [
+         fhir:code [ fhir:v "12107000" ] ;
+         fhir:display [ fhir:v "Kit for radiopharmaceutical preparation" ]
+       ] [
+         fhir:code [ fhir:v "12118000" ] ;
+         fhir:display [ fhir:v "Living tissue equivalent" ]
+       ] [
+         fhir:code [ fhir:v "13124000" ] ;
+         fhir:display [ fhir:v "Medicinal larvae" ]
+       ] [
+         fhir:code [ fhir:v "13115000" ] ;
+         fhir:display [ fhir:v "Medicinal leech" ]
+       ] [
+         fhir:code [ fhir:v "12106000" ] ;
+         fhir:display [ fhir:v "Radionuclide generator" ]
+       ] [
+         fhir:code [ fhir:v "12105000" ] ;
+         fhir:display [ fhir:v "Radiopharmaceutical precursor" ]
+       ] [
+         fhir:code [ fhir:v "50056500" ] ;
+         fhir:display [ fhir:v "Radiopharmaceutical precursor, solution" ]
+       ] [
+         fhir:code [ fhir:v "10547000" ] ;
+         fhir:display [ fhir:v "Transdermal system" ]
+       ] [
+         fhir:code [ fhir:v "10915000" ] ;
+         fhir:display [ fhir:v "Vaginal delivery system" ]
+       ] [
+         fhir:code [ fhir:v "50002000" ] ;
+         fhir:display [ fhir:v "Concentrate and solvent for concentrate for solution for infusion" ]
+       ] [
+         fhir:code [ fhir:v "50003000" ] ;
+         fhir:display [ fhir:v "Concentrate and solvent for cutaneous solution" ]
+       ] [
+         fhir:code [ fhir:v "13143000" ] ;
+         fhir:display [ fhir:v "Concentrate and solvent for dispersion for injection" ]
+       ] [
+         fhir:code [ fhir:v "13153000" ] ;
+         fhir:display [ fhir:v "Concentrate and solvent for emulsion for injection" ]
+       ] [
+         fhir:code [ fhir:v "13144000" ] ;
+         fhir:display [ fhir:v "Concentrate and solvent for intravesical solution" ]
+       ] [
+         fhir:code [ fhir:v "13160000" ] ;
+         fhir:display [ fhir:v "Concentrate and solvent for oral solution" ]
+       ] [
+         fhir:code [ fhir:v "50006000" ] ;
+         fhir:display [ fhir:v "Concentrate and solvent for solution for infusion" ]
+       ] [
+         fhir:code [ fhir:v "50007000" ] ;
+         fhir:display [ fhir:v "Concentrate and solvent for solution for injection" ]
+       ] [
+         fhir:code [ fhir:v "50007500" ] ;
+         fhir:display [ fhir:v "Concentrate and solvent for solution for injection/infusion" ]
+       ] [
+         fhir:code [ fhir:v "50008000" ] ;
+         fhir:display [ fhir:v "Concentrate and solvent for suspension for injection" ]
+       ] [
+         fhir:code [ fhir:v "10707000" ] ;
+         fhir:display [ fhir:v "Ear drops, powder and solvent for suspension" ]
+       ] [
+         fhir:code [ fhir:v "13157000" ] ;
+         fhir:display [ fhir:v "Effervescent granules and suspension for oral suspension" ]
+       ] [
+         fhir:code [ fhir:v "13119000" ] ;
+         fhir:display [ fhir:v "Effervescent powder and powder for oral suspension" ]
+       ] [
+         fhir:code [ fhir:v "13150000" ] ;
+         fhir:display [ fhir:v "Effervescent powder and suspension for oral suspension" ]
+       ] [
+         fhir:code [ fhir:v "50021500" ] ;
+         fhir:display [ fhir:v "Emulsion and suspension for emulsion for injection" ]
+       ] [
+         fhir:code [ fhir:v "11604000" ] ;
+         fhir:display [ fhir:v "Endotracheopulmonary instillation, powder and solvent for solution" ]
+       ] [
+         fhir:code [ fhir:v "11605000" ] ;
+         fhir:display [ fhir:v "Endotracheopulmonary instillation, powder and solvent for suspension" ]
+       ] [
+         fhir:code [ fhir:v "10606000" ] ;
+         fhir:display [ fhir:v "Eye drops, powder and solvent for solution" ]
+       ] [
+         fhir:code [ fhir:v "10607000" ] ;
+         fhir:display [ fhir:v "Eye drops, powder and solvent for suspension" ]
+       ] [
+         fhir:code [ fhir:v "50078000" ] ;
+         fhir:display [ fhir:v "Gas and solvent for dispersion for injection/infusion" ]
+       ] [
+         fhir:code [ fhir:v "50026500" ] ;
+         fhir:display [ fhir:v "Granules and solvent for oral suspension" ]
+       ] [
+         fhir:code [ fhir:v "50027000" ] ;
+         fhir:display [ fhir:v "Granules and solvent for suspension for injection" ]
+       ] [
+         fhir:code [ fhir:v "50047650" ] ;
+         fhir:display [ fhir:v "Nasal drops, powder and solvent for solution" ]
+       ] [
+         fhir:code [ fhir:v "50041200" ] ;
+         fhir:display [ fhir:v "Powder and gel for gel" ]
+       ] [
+         fhir:code [ fhir:v "10412000" ] ;
+         fhir:display [ fhir:v "Powder and solution for dental cement" ]
+       ] [
+         fhir:code [ fhir:v "50041500" ] ;
+         fhir:display [ fhir:v "Powder and solution for solution for injection" ]
+       ] [
+         fhir:code [ fhir:v "13121000" ] ;
+         fhir:display [ fhir:v "Powder and solution for suspension for injection" ]
+       ] [
+         fhir:code [ fhir:v "50042000" ] ;
+         fhir:display [ fhir:v "Powder and solvent for concentrate for solution for infusion" ]
+       ] [
+         fhir:code [ fhir:v "50044000" ] ;
+         fhir:display [ fhir:v "Powder and solvent for cutaneous solution" ]
+       ] [
+         fhir:code [ fhir:v "50071000" ] ;
+         fhir:display [ fhir:v "Powder and solvent for dental gel" ]
+       ] [
+         fhir:code [ fhir:v "50044500" ] ;
+         fhir:display [ fhir:v "Powder and solvent for dispersion for injection" ]
+       ] [
+         fhir:code [ fhir:v "50044700" ] ;
+         fhir:display [ fhir:v "Powder and solvent for emulsion for injection" ]
+       ] [
+         fhir:code [ fhir:v "11702000" ] ;
+         fhir:display [ fhir:v "Powder and solvent for endocervical gel" ]
+       ] [
+         fhir:code [ fhir:v "50045000" ] ;
+         fhir:display [ fhir:v "Powder and solvent for endosinusial solution" ]
+       ] [
+         fhir:code [ fhir:v "50045500" ] ;
+         fhir:display [ fhir:v "Powder and solvent for epilesional solution" ]
+       ] [
+         fhir:code [ fhir:v "50046000" ] ;
+         fhir:display [ fhir:v "Powder and solvent for gingival gel" ]
+       ] [
+         fhir:code [ fhir:v "11304000" ] ;
+         fhir:display [ fhir:v "Powder and solvent for implantation paste" ]
+       ] [
+         fhir:code [ fhir:v "50047000" ] ;
+         fhir:display [ fhir:v "Powder and solvent for intraocular instillation solution" ]
+       ] [
+         fhir:code [ fhir:v "50047500" ] ;
+         fhir:display [ fhir:v "Powder and solvent for intravesical solution" ]
+       ] [
+         fhir:code [ fhir:v "50047600" ] ;
+         fhir:display [ fhir:v "Powder and solvent for intravesical suspension" ]
+       ] [
+         fhir:code [ fhir:v "50047700" ] ;
+         fhir:display [ fhir:v "Powder and solvent for nebuliser solution" ]
+       ] [
+         fhir:code [ fhir:v "10114000" ] ;
+         fhir:display [ fhir:v "Powder and solvent for oral solution" ]
+       ] [
+         fhir:code [ fhir:v "10115000" ] ;
+         fhir:display [ fhir:v "Powder and solvent for oral suspension" ]
+       ] [
+         fhir:code [ fhir:v "50048000" ] ;
+         fhir:display [ fhir:v "Powder and solvent for prolonged-release suspension for injection" ]
+       ] [
+         fhir:code [ fhir:v "12116000" ] ;
+         fhir:display [ fhir:v "Powder and solvent for sealant" ]
+       ] [
+         fhir:code [ fhir:v "11214000" ] ;
+         fhir:display [ fhir:v "Powder and solvent for solution for infusion" ]
+       ] [
+         fhir:code [ fhir:v "11207000" ] ;
+         fhir:display [ fhir:v "Powder and solvent for solution for injection" ]
+       ] [
+         fhir:code [ fhir:v "50080000" ] ;
+         fhir:display [ fhir:v "Powder and solvent for solution for injection/infusion" ]
+       ] [
+         fhir:code [ fhir:v "50048270" ] ;
+         fhir:display [ fhir:v "Powder and solvent for solution for injection/skin-prick test" ]
+       ] [
+         fhir:code [ fhir:v "11208000" ] ;
+         fhir:display [ fhir:v "Powder and solvent for suspension for injection" ]
+       ] [
+         fhir:code [ fhir:v "10115500" ] ;
+         fhir:display [ fhir:v "Powder and solvent for syrup" ]
+       ] [
+         fhir:code [ fhir:v "50048500" ] ;
+         fhir:display [ fhir:v "Powder and suspension for suspension for injection" ]
+       ] [
+         fhir:code [ fhir:v "13062000" ] ;
+         fhir:display [ fhir:v "Powder for concentrate and solution for solution for infusion" ]
+       ] [
+         fhir:code [ fhir:v "50055350" ] ;
+         fhir:display [ fhir:v "Powder, solvent and matrix for implantation matrix" ]
+       ] [
+         fhir:code [ fhir:v "50062500" ] ;
+         fhir:display [ fhir:v "Suspension and solution for spray" ]
+       ] [
+         fhir:code [ fhir:v "50065000" ] ;
+         fhir:display [ fhir:v "Tablet and powder for oral solution" ]
+       ] [
+         fhir:code [ fhir:v "50064000" ] ;
+         fhir:display [ fhir:v "Tablet and solvent for rectal suspension" ]
+       ] [
+         fhir:code [ fhir:v "50001250" ] ;
+         fhir:display [ fhir:v "Coated granules in sachet" ]
+       ] [
+         fhir:code [ fhir:v "13103000" ] ;
+         fhir:display [ fhir:v "Cutaneous solution in single-dose container" ]
+       ] [
+         fhir:code [ fhir:v "13161000" ] ;
+         fhir:display [ fhir:v "Dispersion for injection in pre-filled syringe" ]
+       ] [
+         fhir:code [ fhir:v "50017200" ] ;
+         fhir:display [ fhir:v "Ear drops, solution in single-dose container" ]
+       ] [
+         fhir:code [ fhir:v "50017550" ] ;
+         fhir:display [ fhir:v "Ear drops, suspension in single-dose container" ]
+       ] [
+         fhir:code [ fhir:v "13095000" ] ;
+         fhir:display [ fhir:v "Emulsion for infusion in administration system" ]
+       ] [
+         fhir:code [ fhir:v "50021250" ] ;
+         fhir:display [ fhir:v "Emulsion for injection/infusion in pre-filled syringe" ]
+       ] [
+         fhir:code [ fhir:v "13104000" ] ;
+         fhir:display [ fhir:v "Eye drops, emulsion in single-dose container" ]
+       ] [
+         fhir:code [ fhir:v "50022500" ] ;
+         fhir:display [ fhir:v "Eye drops, prolonged-release solution in single-dose container" ]
+       ] [
+         fhir:code [ fhir:v "50023000" ] ;
+         fhir:display [ fhir:v "Eye drops, solution in single-dose container" ]
+       ] [
+         fhir:code [ fhir:v "50023100" ] ;
+         fhir:display [ fhir:v "Eye drops, suspension in single-dose container" ]
+       ] [
+         fhir:code [ fhir:v "50023300" ] ;
+         fhir:display [ fhir:v "Eye gel in single-dose container" ]
+       ] [
+         fhir:code [ fhir:v "50023400" ] ;
+         fhir:display [ fhir:v "Eye ointment in single-dose container" ]
+       ] [
+         fhir:code [ fhir:v "13155000" ] ;
+         fhir:display [ fhir:v "Film-coated granules in single-dose container" ]
+       ] [
+         fhir:code [ fhir:v "50023700" ] ;
+         fhir:display [ fhir:v "Film-coated tablet and gastro-resistant granules in sachet" ]
+       ] [
+         fhir:code [ fhir:v "50026400" ] ;
+         fhir:display [ fhir:v "Gel in pressurised container" ]
+       ] [
+         fhir:code [ fhir:v "13069000" ] ;
+         fhir:display [ fhir:v "Gel in sachet" ]
+       ] [
+         fhir:code [ fhir:v "50029170" ] ;
+         fhir:display [ fhir:v "Granules for oral solution in sachet" ]
+       ] [
+         fhir:code [ fhir:v "50029200" ] ;
+         fhir:display [ fhir:v "Granules for oral suspension in sachet" ]
+       ] [
+         fhir:code [ fhir:v "50029550" ] ;
+         fhir:display [ fhir:v "Granules in sachet" ]
+       ] [
+         fhir:code [ fhir:v "13090000" ] ;
+         fhir:display [ fhir:v "Granules in single-dose container" ]
+       ] [
+         fhir:code [ fhir:v "50029700" ] ;
+         fhir:display [ fhir:v "Herbal tea in bag" ]
+       ] [
+         fhir:code [ fhir:v "50029750" ] ;
+         fhir:display [ fhir:v "Implant in pre-filled syringe" ]
+       ] [
+         fhir:code [ fhir:v "50033500" ] ;
+         fhir:display [ fhir:v "Intravitreal implant in applicator" ]
+       ] [
+         fhir:code [ fhir:v "50036200" ] ;
+         fhir:display [ fhir:v "Nasal drops, solution in single-dose container" ]
+       ] [
+         fhir:code [ fhir:v "13120000" ] ;
+         fhir:display [ fhir:v "Nasal powder in single-dose container" ]
+       ] [
+         fhir:code [ fhir:v "50037250" ] ;
+         fhir:display [ fhir:v "Nasal spray, solution in single-dose container" ]
+       ] [
+         fhir:code [ fhir:v "50037600" ] ;
+         fhir:display [ fhir:v "Oral emulsion in sachet" ]
+       ] [
+         fhir:code [ fhir:v "50037700" ] ;
+         fhir:display [ fhir:v "Oral paste in sachet" ]
+       ] [
+         fhir:code [ fhir:v "50037800" ] ;
+         fhir:display [ fhir:v "Oral powder in sachet" ]
+       ] [
+         fhir:code [ fhir:v "13130000" ] ;
+         fhir:display [ fhir:v "Oral powder in single-dose container" ]
+       ] [
+         fhir:code [ fhir:v "13146000" ] ;
+         fhir:display [ fhir:v "Oral solution in multidose container with metering pump" ]
+       ] [
+         fhir:code [ fhir:v "50038600" ] ;
+         fhir:display [ fhir:v "Oral solution in sachet" ]
+       ] [
+         fhir:code [ fhir:v "50038650" ] ;
+         fhir:display [ fhir:v "Oral solution in single-dose container" ]
+       ] [
+         fhir:code [ fhir:v "13075000" ] ;
+         fhir:display [ fhir:v "Oral suspension in pre-filled oral applicator" ]
+       ] [
+         fhir:code [ fhir:v "50038700" ] ;
+         fhir:display [ fhir:v "Oral suspension in sachet" ]
+       ] [
+         fhir:code [ fhir:v "50041000" ] ;
+         fhir:display [ fhir:v "Pillules in single-dose container" ]
+       ] [
+         fhir:code [ fhir:v "50048010" ] ;
+         fhir:display [ fhir:v "Powder and solvent for prolonged-release suspension for injection in pre-filled pen" ]
+       ] [
+         fhir:code [ fhir:v "13057000" ] ;
+         fhir:display [ fhir:v "Powder and solvent for prolonged-release suspension for injection in pre-filled syringe" ]
+       ] [
+         fhir:code [ fhir:v "50048050" ] ;
+         fhir:display [ fhir:v "Powder and solvent for solution for injection in cartridge" ]
+       ] [
+         fhir:code [ fhir:v "50048150" ] ;
+         fhir:display [ fhir:v "Powder and solvent for solution for injection in pre-filled pen" ]
+       ] [
+         fhir:code [ fhir:v "50048250" ] ;
+         fhir:display [ fhir:v "Powder and solvent for solution for injection in pre-filled syringe" ]
+       ] [
+         fhir:code [ fhir:v "13108000" ] ;
+         fhir:display [ fhir:v "Powder and solvent for suspension for injection in multidose container" ]
+       ] [
+         fhir:code [ fhir:v "50048300" ] ;
+         fhir:display [ fhir:v "Powder and solvent for suspension for injection in pre-filled syringe" ]
+       ] [
+         fhir:code [ fhir:v "50052500" ] ;
+         fhir:display [ fhir:v "Powder for oral solution in sachet" ]
+       ] [
+         fhir:code [ fhir:v "13147000" ] ;
+         fhir:display [ fhir:v "Powder for oral suspension in sachet" ]
+       ] [
+         fhir:code [ fhir:v "13060000" ] ;
+         fhir:display [ fhir:v "Powder for oral/rectal suspension in sachet" ]
+       ] [
+         fhir:code [ fhir:v "50056200" ] ;
+         fhir:display [ fhir:v "Prolonged-release granules in sachet" ]
+       ] [
+         fhir:code [ fhir:v "13112000" ] ;
+         fhir:display [ fhir:v "Prolonged-release suspension for injection in pre-filled pen" ]
+       ] [
+         fhir:code [ fhir:v "50056250" ] ;
+         fhir:display [ fhir:v "Prolonged-release suspension for injection in pre-filled syringe" ]
+       ] [
+         fhir:code [ fhir:v "50056600" ] ;
+         fhir:display [ fhir:v "Solution and suspension for suspension for injection in pre-filled syringe" ]
+       ] [
+         fhir:code [ fhir:v "11210500" ] ;
+         fhir:display [ fhir:v "Solution for infusion in administration system" ]
+       ] [
+         fhir:code [ fhir:v "13122000" ] ;
+         fhir:display [ fhir:v "Solution for infusion in cartridge" ]
+       ] [
+         fhir:code [ fhir:v "50058500" ] ;
+         fhir:display [ fhir:v "Solution for infusion in pre-filled syringe" ]
+       ] [
+         fhir:code [ fhir:v "13053000" ] ;
+         fhir:display [ fhir:v "Solution for injection in administration system" ]
+       ] [
+         fhir:code [ fhir:v "50060100" ] ;
+         fhir:display [ fhir:v "Solution for injection in cartridge" ]
+       ] [
+         fhir:code [ fhir:v "13071000" ] ;
+         fhir:display [ fhir:v "Solution for injection in dose-dispenser cartridge" ]
+       ] [
+         fhir:code [ fhir:v "13109000" ] ;
+         fhir:display [ fhir:v "Solution for injection in multidose container" ]
+       ] [
+         fhir:code [ fhir:v "50060150" ] ;
+         fhir:display [ fhir:v "Solution for injection in needle-free injector" ]
+       ] [
+         fhir:code [ fhir:v "13068000" ] ;
+         fhir:display [ fhir:v "Solution for injection in pre-filled injector" ]
+       ] [
+         fhir:code [ fhir:v "50060200" ] ;
+         fhir:display [ fhir:v "Solution for injection in pre-filled pen" ]
+       ] [
+         fhir:code [ fhir:v "50060300" ] ;
+         fhir:display [ fhir:v "Solution for injection in pre-filled syringe" ]
+       ] [
+         fhir:code [ fhir:v "50060500" ] ;
+         fhir:display [ fhir:v "Solution for injection/infusion in pre-filled syringe" ]
+       ] [
+         fhir:code [ fhir:v "50063100" ] ;
+         fhir:display [ fhir:v "Suspension for injection in cartridge" ]
+       ] [
+         fhir:code [ fhir:v "13110000" ] ;
+         fhir:display [ fhir:v "Suspension for injection in multidose container" ]
+       ] [
+         fhir:code [ fhir:v "13064000" ] ;
+         fhir:display [ fhir:v "Suspension for injection in pre-filled injector" ]
+       ] [
+         fhir:code [ fhir:v "50063200" ] ;
+         fhir:display [ fhir:v "Suspension for injection in pre-filled pen" ]
+       ] [
+         fhir:code [ fhir:v "50063300" ] ;
+         fhir:display [ fhir:v "Suspension for injection in pre-filled syringe" ]
+       ] [
+         fhir:code [ fhir:v "13094000" ] ;
+         fhir:display [ fhir:v "Syrup in sachet" ]
+       ] [
+         fhir:code [ fhir:v "13137000" ] ;
+         fhir:display [ fhir:v "Transdermal gel in sachet" ]
+       ] [
+         fhir:code [ fhir:v "14013000" ] ;
+         fhir:display [ fhir:v "Capsule, hard + tablet" ]
+       ] [
+         fhir:code [ fhir:v "14012000" ] ;
+         fhir:display [ fhir:v "Capsule, soft + tablet" ]
+       ] [
+         fhir:code [ fhir:v "14001000" ] ;
+         fhir:display [ fhir:v "Cream + pessary" ]
+       ] [
+         fhir:code [ fhir:v "14009000" ] ;
+         fhir:display [ fhir:v "Cream + vaginal capsule, soft" ]
+       ] [
+         fhir:code [ fhir:v "14010000" ] ;
+         fhir:display [ fhir:v "Cream + vaginal tablet" ]
+       ] [
+         fhir:code [ fhir:v "14002000" ] ;
+         fhir:display [ fhir:v "Cutaneous solution + medicated sponge" ]
+       ] [
+         fhir:code [ fhir:v "14006000" ] ;
+         fhir:display [ fhir:v "Effervescent granules + film-coated tablet" ]
+       ] [
+         fhir:code [ fhir:v "14016000" ] ;
+         fhir:display [ fhir:v "Effervescent granules + gastro-resistant tablet" ]
+       ] [
+         fhir:code [ fhir:v "14007000" ] ;
+         fhir:display [ fhir:v "Effervescent tablet + film-coated tablet" ]
+       ] [
+         fhir:code [ fhir:v "14017000" ] ;
+         fhir:display [ fhir:v "Eye drops, solution + eye ointment" ]
+       ] [
+         fhir:code [ fhir:v "14011000" ] ;
+         fhir:display [ fhir:v "Film-coated tablet + pessary" ]
+       ] [
+         fhir:code [ fhir:v "14014000" ] ;
+         fhir:display [ fhir:v "Film-coated tablet + tablet" ]
+       ] [
+         fhir:code [ fhir:v "14003000" ] ;
+         fhir:display [ fhir:v "Gastro-resistant tablet + rectal suspension" ]
+       ] [
+         fhir:code [ fhir:v "14015000" ] ;
+         fhir:display [ fhir:v "Ointment + vaginal tablet" ]
+       ] [
+         fhir:code [ fhir:v "14008000" ] ;
+         fhir:display [ fhir:v "Tablet + vaginal tablet" ]
+       ] [
+         fhir:code [ fhir:v "14004000" ] ;
+         fhir:display [ fhir:v "Vaginal capsule, soft + vaginal cream" ]
+       ] [
+         fhir:code [ fhir:v "14005000" ] ;
+         fhir:display [ fhir:v "Vaginal cream + vaginal tablet" ]
+       ] [
+         fhir:code [ fhir:v "17040" ] ;
+         fhir:display [ fhir:v "Ear drops" ]
+       ] [
+         fhir:code [ fhir:v "17090" ] ;
+         fhir:display [ fhir:v "Ear spray" ]
+       ] [
+         fhir:code [ fhir:v "17120" ] ;
+         fhir:display [ fhir:v "Ear wash" ]
+       ] [
+         fhir:code [ fhir:v "15130" ] ;
+         fhir:display [ fhir:v "Cutaneous liquid" ]
+       ] [
+         fhir:code [ fhir:v "15090" ] ;
+         fhir:display [ fhir:v "Cutaneous spray" ]
+       ] [
+         fhir:code [ fhir:v "14050" ] ;
+         fhir:display [ fhir:v "Dental liquid" ]
+       ] [
+         fhir:code [ fhir:v "31080" ] ;
+         fhir:display [ fhir:v "Gastroenteral liquid" ]
+       ] [
+         fhir:code [ fhir:v "18040" ] ;
+         fhir:display [ fhir:v "Nasal drops" ]
+       ] [
+         fhir:code [ fhir:v "18080" ] ;
+         fhir:display [ fhir:v "Nasal spray" ]
+       ] [
+         fhir:code [ fhir:v "16040" ] ;
+         fhir:display [ fhir:v "Eye drops" ]
+       ] [
+         fhir:code [ fhir:v "12100" ] ;
+         fhir:display [ fhir:v "Capsule" ]
+       ] [
+         fhir:code [ fhir:v "12120" ] ;
+         fhir:display [ fhir:v "Gastro-resistant capsule" ]
+       ] [
+         fhir:code [ fhir:v "11010" ] ;
+         fhir:display [ fhir:v "Oral drops" ]
+       ] [
+         fhir:code [ fhir:v "11050" ] ;
+         fhir:display [ fhir:v "Oral liquid" ]
+       ] [
+         fhir:code [ fhir:v "12150" ] ;
+         fhir:display [ fhir:v "Prolonged-release capsule" ]
+       ] [
+         fhir:code [ fhir:v "12200" ] ;
+         fhir:display [ fhir:v "Tablet" ]
+       ] [
+         fhir:code [ fhir:v "13220" ] ;
+         fhir:display [ fhir:v "Lozenge" ]
+       ] [
+         fhir:code [ fhir:v "13050" ] ;
+         fhir:display [ fhir:v "Oromucosal liquid" ]
+       ] [
+         fhir:code [ fhir:v "13100" ] ;
+         fhir:display [ fhir:v "Oromucosal spray" ]
+       ] [
+         fhir:code [ fhir:v "13150" ] ;
+         fhir:display [ fhir:v "Sublingual spray" ]
+       ] [
+         fhir:code [ fhir:v "22100" ] ;
+         fhir:display [ fhir:v "Infusion" ]
+       ] [
+         fhir:code [ fhir:v "22010" ] ;
+         fhir:display [ fhir:v "Injection" ]
+       ] [
+         fhir:code [ fhir:v "31100" ] ;
+         fhir:display [ fhir:v "Injection/infusion" ]
+       ] [
+         fhir:code [ fhir:v "22030" ] ;
+         fhir:display [ fhir:v "Powder for concentrate" ]
+       ] [
+         fhir:code [ fhir:v "22120" ] ;
+         fhir:display [ fhir:v "Powder for infusion" ]
+       ] [
+         fhir:code [ fhir:v "22050" ] ;
+         fhir:display [ fhir:v "Powder for injection" ]
+       ] [
+         fhir:code [ fhir:v "22060" ] ;
+         fhir:display [ fhir:v "Powder for prolonged-release injection" ]
+       ] [
+         fhir:code [ fhir:v "22090" ] ;
+         fhir:display [ fhir:v "Sterile concentrate" ]
+       ] [
+         fhir:code [ fhir:v "26010" ] ;
+         fhir:display [ fhir:v "Endotracheopulmonary instillation" ]
+       ] [
+         fhir:code [ fhir:v "21100" ] ;
+         fhir:display [ fhir:v "Inhalation powder" ]
+       ] [
+         fhir:code [ fhir:v "21140" ] ;
+         fhir:display [ fhir:v "Inhalation vapour" ]
+       ] [
+         fhir:code [ fhir:v "21010" ] ;
+         fhir:display [ fhir:v "Nebuliser liquid" ]
+       ] [
+         fhir:code [ fhir:v "21060" ] ;
+         fhir:display [ fhir:v "Pressurised inhalation" ]
+       ] [
+         fhir:code [ fhir:v "20050" ] ;
+         fhir:display [ fhir:v "Enema" ]
+       ] [
+         fhir:code [ fhir:v "31030" ] ;
+         fhir:display [ fhir:v "Blood fraction modifier" ]
+       ] [
+         fhir:code [ fhir:v "19100" ] ;
+         fhir:display [ fhir:v "Vaginal capsule" ]
+       ] [
+         fhir:code [ fhir:v "19050" ] ;
+         fhir:display [ fhir:v "Vaginal liquid" ]
+       ] [
+         fhir:code [ fhir:v "13165000" ] ;
+         fhir:display [ fhir:v "Suspension for gel" ]
+       ] [
+         fhir:code [ fhir:v "13167000" ] ;
+         fhir:display [ fhir:v "Oromucosal drops, emulsion" ]
+       ] [
+         fhir:code [ fhir:v "13168000" ] ;
+         fhir:display [ fhir:v "Oromucosal drops, solution" ]
+       ] [
+         fhir:code [ fhir:v "13169000" ] ;
+         fhir:display [ fhir:v "Oromucosal drops, suspension" ]
+       ] [
+         fhir:code [ fhir:v "13175000" ] ;
+         fhir:display [ fhir:v "Prolonged-release chewable tablet" ]
+       ] [
+         fhir:code [ fhir:v "13176000" ] ;
+         fhir:display [ fhir:v "Powder for prolonged-release oral suspension" ]
+       ] [
+         fhir:code [ fhir:v "13177000" ] ;
+         fhir:display [ fhir:v "Granules for gastro-resistant oral suspension" ]
+       ] [
+         fhir:code [ fhir:v "13178000" ] ;
+         fhir:display [ fhir:v "Powder for gastro-resistant oral suspension" ]
+       ] [
+         fhir:code [ fhir:v "13179000" ] ;
+         fhir:display [ fhir:v "Granules for modified-release oral suspension" ]
+       ] [
+         fhir:code [ fhir:v "13180000" ] ;
+         fhir:display [ fhir:v "Granules for prolonged-release oral suspension" ]
+       ] [
+         fhir:code [ fhir:v "13184000" ] ;
+         fhir:display [ fhir:v "Powder for solution for provocation test" ]
+       ] [
+         fhir:code [ fhir:v "13186000" ] ;
+         fhir:display [ fhir:v "Implantation gel" ]
+       ] [
+         fhir:code [ fhir:v "13187000" ] ;
+         fhir:display [ fhir:v "Dispersion for implantation gel" ]
+       ] [
+         fhir:code [ fhir:v "13188000" ] ;
+         fhir:display [ fhir:v "Solution for implantation gel" ]
+       ] [
+         fhir:code [ fhir:v "13166000" ] ;
+         fhir:display [ fhir:v "Suspension and gel for gel" ]
+       ] [
+         fhir:code [ fhir:v "13170000" ] ;
+         fhir:display [ fhir:v "Dispersion, powder and solvent for concentrate for dispersion for infusion" ]
+       ] [
+         fhir:code [ fhir:v "13171000" ] ;
+         fhir:display [ fhir:v "Powder and effervescent powder for oral suspension" ]
+       ] [
+         fhir:code [ fhir:v "13172000" ] ;
+         fhir:display [ fhir:v "Powder and tablet for oral solution" ]
+       ] [
+         fhir:code [ fhir:v "13173000" ] ;
+         fhir:display [ fhir:v "Suspension and effervescent powder for oral suspension" ]
+       ] [
+         fhir:code [ fhir:v "13181000" ] ;
+         fhir:display [ fhir:v "Powder and solvent for gastro-resistant oral suspension" ]
+       ] [
+         fhir:code [ fhir:v "13185000" ] ;
+         fhir:display [ fhir:v "Powder and solvent for solution for provocation test" ]
+       ] [
+         fhir:code [ fhir:v "13189000" ] ;
+         fhir:display [ fhir:v "Dispersion and solution for implantation gel" ]
+       ] [
+         fhir:code [ fhir:v "50062000" ] ;
+         fhir:display [ fhir:v "Suspension and effervescent granules for oral suspension" ]
+       ] [
+         fhir:code [ fhir:v "31120" ] ;
+         fhir:display [ fhir:v "Oromucosal drops" ]
+       ] [
+         fhir:code [ fhir:v "13182000" ] ;
+         fhir:display [ fhir:v "Granules for gastro-resistant oral suspension in sachet" ]
+       ] [
+         fhir:code [ fhir:v "13183000" ] ;
+         fhir:display [ fhir:v "Granules for prolonged-release oral suspension in sachet" ]
+       ] [
+         fhir:code [ fhir:v "13192000" ] ;
+         fhir:display [ fhir:v "Intracameral implant in applicator" ]
+       ] [
+         fhir:code [ fhir:v "13194000" ] ;
+         fhir:display [ fhir:v "Prolonged-release solution for injection in pre-filled pen" ]
+       ] [
+         fhir:code [ fhir:v "13195000" ] ;
+         fhir:display [ fhir:v "Film-coated granules in sachet" ]
+       ] [
+         fhir:code [ fhir:v "13190000" ] ;
+         fhir:display [ fhir:v "Intracameral implant" ]
+       ] [
+         fhir:code [ fhir:v "13191000" ] ;
+         fhir:display [ fhir:v "Intravitreal implant" ]
+       ] [
+         fhir:code [ fhir:v "13196000" ] ;
+         fhir:display [ fhir:v "Sublingual solution" ]
+       ] [
+         fhir:code [ fhir:v "13197000" ] ;
+         fhir:display [ fhir:v "Granules in capsule for opening" ]
+       ] [
+         fhir:code [ fhir:v "13198000" ] ;
+         fhir:display [ fhir:v "Oral powder in capsule for opening" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

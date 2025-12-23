@@ -1,0 +1,3204 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIProcedure-8.1.0> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "eHDSIProcedure-8.1.0"] ; # 
+  fhir:url [
+     fhir:v "http://terminology.ehdsi.eu/ValueSet/eHDSIProcedure"^^xsd:anyURI ;
+     fhir:l <http://terminology.ehdsi.eu/ValueSet/eHDSIProcedure>
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [
+       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
+       fhir:l <urn:ietf:rfc:3986>
+     ] ;
+     fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.10" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "0.2.0"] ; # 
+  fhir:name [ fhir:v "eHDSIProcedure"] ; # 
+  fhir:title [ fhir:v "eHDSI Procedure"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-12-23T10:21:27+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 Europe"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 Europe" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://hl7europe.org" ]
+     ] )
+  ] ) ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+         fhir:l <http://snomed.info/sct>
+       ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "10197000" ] ;
+         fhir:display [ fhir:v "Psychiatric interview and evaluation" ]
+       ] [
+         fhir:code [ fhir:v "10326007" ] ;
+         fhir:display [ fhir:v "Coronary artery bypass with autogenous graft, three grafts" ]
+       ] [
+         fhir:code [ fhir:v "103716009" ] ;
+         fhir:display [ fhir:v "Placement of stent" ]
+       ] [
+         fhir:code [ fhir:v "103735009" ] ;
+         fhir:display [ fhir:v "Palliative care" ]
+       ] [
+         fhir:code [ fhir:v "103742009" ] ;
+         fhir:display [ fhir:v "Renewal of prescription" ]
+       ] [
+         fhir:code [ fhir:v "10458001" ] ;
+         fhir:display [ fhir:v "Evacuation of intracerebral haematoma" ]
+       ] [
+         fhir:code [ fhir:v "105373008" ] ;
+         fhir:display [ fhir:v "Percutaneous insertion of intravascular filter" ]
+       ] [
+         fhir:code [ fhir:v "105386004" ] ;
+         fhir:display [ fhir:v "Respite care of patient" ]
+       ] [
+         fhir:code [ fhir:v "105387008" ] ;
+         fhir:display [ fhir:v "Holiday relief care of patient" ]
+       ] [
+         fhir:code [ fhir:v "107733003" ] ;
+         fhir:display [ fhir:v "Introduction procedure" ]
+       ] [
+         fhir:code [ fhir:v "107907001" ] ;
+         fhir:display [ fhir:v "Operative procedure on digestive system" ]
+       ] [
+         fhir:code [ fhir:v "107936001" ] ;
+         fhir:display [ fhir:v "Operative procedure on small intestine" ]
+       ] [
+         fhir:code [ fhir:v "107938000" ] ;
+         fhir:display [ fhir:v "Small intestine excision" ]
+       ] [
+         fhir:code [ fhir:v "107957009" ] ;
+         fhir:display [ fhir:v "Operative procedure on digestive organ" ]
+       ] [
+         fhir:code [ fhir:v "107963000" ] ;
+         fhir:display [ fhir:v "Excision of liver" ]
+       ] [
+         fhir:code [ fhir:v "107987003" ] ;
+         fhir:display [ fhir:v "Endocrine system destructive procedure" ]
+       ] [
+         fhir:code [ fhir:v "108021004" ] ;
+         fhir:display [ fhir:v "Operative procedure on male genitourinary system" ]
+       ] [
+         fhir:code [ fhir:v "108022006" ] ;
+         fhir:display [ fhir:v "Kidney excision" ]
+       ] [
+         fhir:code [ fhir:v "108034003" ] ;
+         fhir:display [ fhir:v "Bladder excision" ]
+       ] [
+         fhir:code [ fhir:v "108101003" ] ;
+         fhir:display [ fhir:v "Obstetrics incision" ]
+       ] [
+         fhir:code [ fhir:v "108189003" ] ;
+         fhir:display [ fhir:v "Abdomen excision" ]
+       ] [
+         fhir:code [ fhir:v "108217004" ] ;
+         fhir:display [ fhir:v "Interview, history AND/OR physical examination" ]
+       ] [
+         fhir:code [ fhir:v "108231004" ] ;
+         fhir:display [ fhir:v "Analysis of electronic device used in cardiovascular system" ]
+       ] [
+         fhir:code [ fhir:v "108241001" ] ;
+         fhir:display [ fhir:v "Dialysis procedure" ]
+       ] [
+         fhir:code [ fhir:v "108290001" ] ;
+         fhir:display [ fhir:v "Radiation oncology AND/OR radiotherapy" ]
+       ] [
+         fhir:code [ fhir:v "108311000" ] ;
+         fhir:display [ fhir:v "Psychiatric procedure, interview AND/OR consultation" ]
+       ] [
+         fhir:code [ fhir:v "10836008" ] ;
+         fhir:display [ fhir:v "Decompression of spinal cord" ]
+       ] [
+         fhir:code [ fhir:v "10847001" ] ;
+         fhir:display [ fhir:v "Bronchoscopy" ]
+       ] [
+         fhir:code [ fhir:v "10849003" ] ;
+         fhir:display [ fhir:v "Removal of foreign body" ]
+       ] [
+         fhir:code [ fhir:v "11050006" ] ;
+         fhir:display [ fhir:v "Closure of vesicouterine fistula with hysterectomy" ]
+       ] [
+         fhir:code [ fhir:v "11101003" ] ;
+         fhir:display [ fhir:v "Percutaneous transluminal coronary angioplasty" ]
+       ] [
+         fhir:code [ fhir:v "112695004" ] ;
+         fhir:display [ fhir:v "Closure" ]
+       ] [
+         fhir:code [ fhir:v "112697007" ] ;
+         fhir:display [ fhir:v "Operation on musculoskeletal system" ]
+       ] [
+         fhir:code [ fhir:v "112698002" ] ;
+         fhir:display [ fhir:v "Operation on joint" ]
+       ] [
+         fhir:code [ fhir:v "112727005" ] ;
+         fhir:display [ fhir:v "Revision of hip replacement" ]
+       ] [
+         fhir:code [ fhir:v "112746006" ] ;
+         fhir:display [ fhir:v "Operative procedure on hand" ]
+       ] [
+         fhir:code [ fhir:v "112788002" ] ;
+         fhir:display [ fhir:v "Operation on accessory sinus" ]
+       ] [
+         fhir:code [ fhir:v "112802009" ] ;
+         fhir:display [ fhir:v "Cardiovascular surgical procedure" ]
+       ] [
+         fhir:code [ fhir:v "112811009" ] ;
+         fhir:display [ fhir:v "Atrioseptoplasty" ]
+       ] [
+         fhir:code [ fhir:v "112828007" ] ;
+         fhir:display [ fhir:v "Femoral-popliteal artery bypass graft" ]
+       ] [
+         fhir:code [ fhir:v "112871003" ] ;
+         fhir:display [ fhir:v "Anastomosis of large intestine to large intestine" ]
+       ] [
+         fhir:code [ fhir:v "112892003" ] ;
+         fhir:display [ fhir:v "Radical excision of iliac lymph nodes" ]
+       ] [
+         fhir:code [ fhir:v "11291002" ] ;
+         fhir:display [ fhir:v "Excision of lesion of omentum" ]
+       ] [
+         fhir:code [ fhir:v "112925006" ] ;
+         fhir:display [ fhir:v "Repair of obstetric laceration of vulva" ]
+       ] [
+         fhir:code [ fhir:v "11401008" ] ;
+         fhir:display [ fhir:v "Dilation and curettage of uterus" ]
+       ] [
+         fhir:code [ fhir:v "11429006" ] ;
+         fhir:display [ fhir:v "Consultation" ]
+       ] [
+         fhir:code [ fhir:v "1144279009" ] ;
+         fhir:display [ fhir:v "Fitting of complete denture" ]
+       ] [
+         fhir:code [ fhir:v "11466000" ] ;
+         fhir:display [ fhir:v "Caesarean section" ]
+       ] [
+         fhir:code [ fhir:v "116028008" ] ;
+         fhir:display [ fhir:v "Salpingo-oophorectomy" ]
+       ] [
+         fhir:code [ fhir:v "116140006" ] ;
+         fhir:display [ fhir:v "Total hysterectomy" ]
+       ] [
+         fhir:code [ fhir:v "116141005" ] ;
+         fhir:display [ fhir:v "Abdominal hysterectomy" ]
+       ] [
+         fhir:code [ fhir:v "116142003" ] ;
+         fhir:display [ fhir:v "Radical hysterectomy" ]
+       ] [
+         fhir:code [ fhir:v "116143008" ] ;
+         fhir:display [ fhir:v "Total abdominal hysterectomy" ]
+       ] [
+         fhir:code [ fhir:v "116144002" ] ;
+         fhir:display [ fhir:v "Total abdominal hysterectomy with bilateral salpingo-oophorectomy" ]
+       ] [
+         fhir:code [ fhir:v "116241004" ] ;
+         fhir:display [ fhir:v "Pancreaticoduodenectomy" ]
+       ] [
+         fhir:code [ fhir:v "1163360005" ] ;
+         fhir:display [ fhir:v "Surgical procedure on skeletal system" ]
+       ] [
+         fhir:code [ fhir:v "116361007" ] ;
+         fhir:display [ fhir:v "Creation of venovenous bypass" ]
+       ] [
+         fhir:code [ fhir:v "116859006" ] ;
+         fhir:display [ fhir:v "Transfusion of blood product" ]
+       ] [
+         fhir:code [ fhir:v "1172563000" ] ;
+         fhir:display [ fhir:v "Insertion of peritoneal dialysis catheter" ]
+       ] [
+         fhir:code [ fhir:v "1179121008" ] ;
+         fhir:display [ fhir:v "Insertion of atrial baffle" ]
+       ] [
+         fhir:code [ fhir:v "118153004" ] ;
+         fhir:display [ fhir:v "Gastrointestinal tract repair" ]
+       ] [
+         fhir:code [ fhir:v "118292001" ] ;
+         fhir:display [ fhir:v "Removal" ]
+       ] [
+         fhir:code [ fhir:v "118442004" ] ;
+         fhir:display [ fhir:v "Drainage of abscess" ]
+       ] [
+         fhir:code [ fhir:v "118470002" ] ;
+         fhir:display [ fhir:v "Internal skeletal fixation" ]
+       ] [
+         fhir:code [ fhir:v "118664000" ] ;
+         fhir:display [ fhir:v "Procedure on body system" ]
+       ] [
+         fhir:code [ fhir:v "118666003" ] ;
+         fhir:display [ fhir:v "Procedure on musculoskeletal system" ]
+       ] [
+         fhir:code [ fhir:v "118668002" ] ;
+         fhir:display [ fhir:v "Procedure on articular system" ]
+       ] [
+         fhir:code [ fhir:v "118672003" ] ;
+         fhir:display [ fhir:v "Procedure on cardiovascular system" ]
+       ] [
+         fhir:code [ fhir:v "118673008" ] ;
+         fhir:display [ fhir:v "Procedure on digestive system" ]
+       ] [
+         fhir:code [ fhir:v "118674002" ] ;
+         fhir:display [ fhir:v "Procedure on genitourinary system" ]
+       ] [
+         fhir:code [ fhir:v "118675001" ] ;
+         fhir:display [ fhir:v "Procedure on female genital system" ]
+       ] [
+         fhir:code [ fhir:v "118678004" ] ;
+         fhir:display [ fhir:v "Procedure on nervous system" ]
+       ] [
+         fhir:code [ fhir:v "118679007" ] ;
+         fhir:display [ fhir:v "Procedure on central nervous system" ]
+       ] [
+         fhir:code [ fhir:v "118681009" ] ;
+         fhir:display [ fhir:v "Procedure on endocrine system" ]
+       ] [
+         fhir:code [ fhir:v "118683007" ] ;
+         fhir:display [ fhir:v "Procedure on ear and related structures" ]
+       ] [
+         fhir:code [ fhir:v "118690002" ] ;
+         fhir:display [ fhir:v "Procedure on head" ]
+       ] [
+         fhir:code [ fhir:v "118693000" ] ;
+         fhir:display [ fhir:v "Procedure on neck" ]
+       ] [
+         fhir:code [ fhir:v "118694006" ] ;
+         fhir:display [ fhir:v "Procedure on trunk" ]
+       ] [
+         fhir:code [ fhir:v "118698009" ] ;
+         fhir:display [ fhir:v "Procedure on abdomen" ]
+       ] [
+         fhir:code [ fhir:v "118716003" ] ;
+         fhir:display [ fhir:v "Procedure on foot" ]
+       ] [
+         fhir:code [ fhir:v "118717007" ] ;
+         fhir:display [ fhir:v "Procedure on organ" ]
+       ] [
+         fhir:code [ fhir:v "118738001" ] ;
+         fhir:display [ fhir:v "Procedure on soft tissue" ]
+       ] [
+         fhir:code [ fhir:v "118745001" ] ;
+         fhir:display [ fhir:v "Procedure on joint" ]
+       ] [
+         fhir:code [ fhir:v "118754003" ] ;
+         fhir:display [ fhir:v "Procedure on gland" ]
+       ] [
+         fhir:code [ fhir:v "118766009" ] ;
+         fhir:display [ fhir:v "Procedure on thyroid gland" ]
+       ] [
+         fhir:code [ fhir:v "118795000" ] ;
+         fhir:display [ fhir:v "Procedure on pleura" ]
+       ] [
+         fhir:code [ fhir:v "118797008" ] ;
+         fhir:display [ fhir:v "Procedure on heart" ]
+       ] [
+         fhir:code [ fhir:v "118804001" ] ;
+         fhir:display [ fhir:v "Procedure on blood vessel" ]
+       ] [
+         fhir:code [ fhir:v "118821005" ] ;
+         fhir:display [ fhir:v "Procedure on digestive organ" ]
+       ] [
+         fhir:code [ fhir:v "118826000" ] ;
+         fhir:display [ fhir:v "Procedure on digestive tract" ]
+       ] [
+         fhir:code [ fhir:v "118830002" ] ;
+         fhir:display [ fhir:v "Procedure on stomach" ]
+       ] [
+         fhir:code [ fhir:v "118831003" ] ;
+         fhir:display [ fhir:v "Procedure on intestine" ]
+       ] [
+         fhir:code [ fhir:v "118832005" ] ;
+         fhir:display [ fhir:v "Procedure on small intestine" ]
+       ] [
+         fhir:code [ fhir:v "118835007" ] ;
+         fhir:display [ fhir:v "Procedure on ileum" ]
+       ] [
+         fhir:code [ fhir:v "118864003" ] ;
+         fhir:display [ fhir:v "Procedure on uterus" ]
+       ] [
+         fhir:code [ fhir:v "118885003" ] ;
+         fhir:display [ fhir:v "Procedure on brain" ]
+       ] [
+         fhir:code [ fhir:v "118949002" ] ;
+         fhir:display [ fhir:v "Procedure on extremity" ]
+       ] [
+         fhir:code [ fhir:v "118950002" ] ;
+         fhir:display [ fhir:v "Procedure on head AND/OR neck" ]
+       ] [
+         fhir:code [ fhir:v "118955007" ] ;
+         fhir:display [ fhir:v "Implantation to cardiovascular system" ]
+       ] [
+         fhir:code [ fhir:v "119283008" ] ;
+         fhir:display [ fhir:v "Open biopsy" ]
+       ] [
+         fhir:code [ fhir:v "119561005" ] ;
+         fhir:display [ fhir:v "Grafting procedure" ]
+       ] [
+         fhir:code [ fhir:v "119566000" ] ;
+         fhir:display [ fhir:v "Creation of cerebrospinal fluid shunt" ]
+       ] [
+         fhir:code [ fhir:v "119583009" ] ;
+         fhir:display [ fhir:v "Trunk excision" ]
+       ] [
+         fhir:code [ fhir:v "119594008" ] ;
+         fhir:display [ fhir:v "Neck destructive procedure" ]
+       ] [
+         fhir:code [ fhir:v "119614000" ] ;
+         fhir:display [ fhir:v "Hip joint reconstruction" ]
+       ] [
+         fhir:code [ fhir:v "119762001" ] ;
+         fhir:display [ fhir:v "Cardiovascular system transplantation" ]
+       ] [
+         fhir:code [ fhir:v "119922005" ] ;
+         fhir:display [ fhir:v "Biliary tract endoscopy" ]
+       ] [
+         fhir:code [ fhir:v "119954001" ] ;
+         fhir:display [ fhir:v "Adenoid excision" ]
+       ] [
+         fhir:code [ fhir:v "120001005" ] ;
+         fhir:display [ fhir:v "Testis excision" ]
+       ] [
+         fhir:code [ fhir:v "12132004" ] ;
+         fhir:display [ fhir:v "Langenbeck operation, cleft palate repair" ]
+       ] [
+         fhir:code [ fhir:v "122459003" ] ;
+         fhir:display [ fhir:v "Dissection procedure" ]
+       ] [
+         fhir:code [ fhir:v "122461007" ] ;
+         fhir:display [ fhir:v "Evacuation procedure" ]
+       ] [
+         fhir:code [ fhir:v "122462000" ] ;
+         fhir:display [ fhir:v "Drainage procedure" ]
+       ] [
+         fhir:code [ fhir:v "122465003" ] ;
+         fhir:display [ fhir:v "Reconstruction procedure" ]
+       ] [
+         fhir:code [ fhir:v "122470005" ] ;
+         fhir:display [ fhir:v "Reduction of closed fracture" ]
+       ] [
+         fhir:code [ fhir:v "122471009" ] ;
+         fhir:display [ fhir:v "Reduction of open fracture" ]
+       ] [
+         fhir:code [ fhir:v "122548005" ] ;
+         fhir:display [ fhir:v "Biopsy of breast" ]
+       ] [
+         fhir:code [ fhir:v "122945004" ] ;
+         fhir:display [ fhir:v "Procedure on skeletal system" ]
+       ] [
+         fhir:code [ fhir:v "123014005" ] ;
+         fhir:display [ fhir:v "Excision of pelvis" ]
+       ] [
+         fhir:code [ fhir:v "1231734007" ] ;
+         fhir:display [ fhir:v "Excision of breast" ]
+       ] [
+         fhir:code [ fhir:v "12398007" ] ;
+         fhir:display [ fhir:v "Excision of endometrial synechiae" ]
+       ] [
+         fhir:code [ fhir:v "125571002" ] ;
+         fhir:display [ fhir:v "Lobectomy" ]
+       ] [
+         fhir:code [ fhir:v "12658000" ] ;
+         fhir:display [ fhir:v "Operation on female genital organs" ]
+       ] [
+         fhir:code [ fhir:v "12660003" ] ;
+         fhir:display [ fhir:v "Repair of complete shoulder cuff avulsion, chronic" ]
+       ] [
+         fhir:code [ fhir:v "127601009" ] ;
+         fhir:display [ fhir:v "Hammer toe operation" ]
+       ] [
+         fhir:code [ fhir:v "12826007" ] ;
+         fhir:display [ fhir:v "Dorrance operation, push-back operation for cleft palate" ]
+       ] [
+         fhir:code [ fhir:v "128303001" ] ;
+         fhir:display [ fhir:v "Surgical removal" ]
+       ] [
+         fhir:code [ fhir:v "128312004" ] ;
+         fhir:display [ fhir:v "Procedure on female genital organ" ]
+       ] [
+         fhir:code [ fhir:v "128323000" ] ;
+         fhir:display [ fhir:v "Revision of implant" ]
+       ] [
+         fhir:code [ fhir:v "128927009" ] ;
+         fhir:display [ fhir:v "Procedure by method" ]
+       ] [
+         fhir:code [ fhir:v "128952006" ] ;
+         fhir:display [ fhir:v "Catheterization of both left and right heart with graft" ]
+       ] [
+         fhir:code [ fhir:v "129112001" ] ;
+         fhir:display [ fhir:v "Aspiration from trachea" ]
+       ] [
+         fhir:code [ fhir:v "129233004" ] ;
+         fhir:display [ fhir:v "Procedure on bone (organ)" ]
+       ] [
+         fhir:code [ fhir:v "129252005" ] ;
+         fhir:display [ fhir:v "Suprapubic cystostomy" ]
+       ] [
+         fhir:code [ fhir:v "12976005" ] ;
+         fhir:display [ fhir:v "Donor nephrectomy" ]
+       ] [
+         fhir:code [ fhir:v "13091001" ] ;
+         fhir:display [ fhir:v "Dilation and curettage" ]
+       ] [
+         fhir:code [ fhir:v "13254001" ] ;
+         fhir:display [ fhir:v "Abdominal hysterectomy with colpo-urethrocystopexy, Marshall-Marchetti-Krantz type" ]
+       ] [
+         fhir:code [ fhir:v "133858001" ] ;
+         fhir:display [ fhir:v "Preoperative procedure" ]
+       ] [
+         fhir:code [ fhir:v "133864008" ] ;
+         fhir:display [ fhir:v "Lithotripsy" ]
+       ] [
+         fhir:code [ fhir:v "133899007" ] ;
+         fhir:display [ fhir:v "Postoperative care" ]
+       ] [
+         fhir:code [ fhir:v "133906008" ] ;
+         fhir:display [ fhir:v "Postpartum care" ]
+       ] [
+         fhir:code [ fhir:v "134435003" ] ;
+         fhir:display [ fhir:v "Routine antenatal care" ]
+       ] [
+         fhir:code [ fhir:v "13529000" ] ;
+         fhir:display [ fhir:v "Nasal septoplasty" ]
+       ] [
+         fhir:code [ fhir:v "13619001" ] ;
+         fhir:display [ fhir:v "Thyroidectomy" ]
+       ] [
+         fhir:code [ fhir:v "13662000" ] ;
+         fhir:display [ fhir:v "Anastomosis of pulmonary-subclavian artery by Blalock-Taussig operation" ]
+       ] [
+         fhir:code [ fhir:v "13714004" ] ;
+         fhir:display [ fhir:v "Arthroscopy" ]
+       ] [
+         fhir:code [ fhir:v "13793006" ] ;
+         fhir:display [ fhir:v "Extracapsular extraction of lens" ]
+       ] [
+         fhir:code [ fhir:v "13910004" ] ;
+         fhir:display [ fhir:v "Combined anteroposterior colporrhaphy" ]
+       ] [
+         fhir:code [ fhir:v "14766002" ] ;
+         fhir:display [ fhir:v "Aspiration" ]
+       ] [
+         fhir:code [ fhir:v "150062003" ] ;
+         fhir:display [ fhir:v "Osteotomy" ]
+       ] [
+         fhir:code [ fhir:v "15018006" ] ;
+         fhir:display [ fhir:v "Laparoscopic repair of inguinal hernia" ]
+       ] [
+         fhir:code [ fhir:v "15023006" ] ;
+         fhir:display [ fhir:v "Thromboendarterectomy with graft of carotid artery by neck incision" ]
+       ] [
+         fhir:code [ fhir:v "152198000" ] ;
+         fhir:display [ fhir:v "Brachytherapy" ]
+       ] [
+         fhir:code [ fhir:v "15413009" ] ;
+         fhir:display [ fhir:v "High forceps delivery with episiotomy" ]
+       ] [
+         fhir:code [ fhir:v "15463004" ] ;
+         fhir:display [ fhir:v "Operation on thyroid gland" ]
+       ] [
+         fhir:code [ fhir:v "15617002" ] ;
+         fhir:display [ fhir:v "Ligation of varicose vein of lower limb" ]
+       ] [
+         fhir:code [ fhir:v "15726007" ] ;
+         fhir:display [ fhir:v "Fistulization of cerebral ventricle" ]
+       ] [
+         fhir:code [ fhir:v "16453004" ] ;
+         fhir:display [ fhir:v "Operation on stomach" ]
+       ] [
+         fhir:code [ fhir:v "16545005" ] ;
+         fhir:display [ fhir:v "Operation on nervous system" ]
+       ] [
+         fhir:code [ fhir:v "16564004" ] ;
+         fhir:display [ fhir:v "Hartmann operation, rectal resection" ]
+       ] [
+         fhir:code [ fhir:v "16965008" ] ;
+         fhir:display [ fhir:v "Insertion of intra-aortic balloon counterpulsation" ]
+       ] [
+         fhir:code [ fhir:v "171509005" ] ;
+         fhir:display [ fhir:v "Brain cerebrospinal fluid pathway operation" ]
+       ] [
+         fhir:code [ fhir:v "171841007" ] ;
+         fhir:display [ fhir:v "Endoscopic carpal tunnel release" ]
+       ] [
+         fhir:code [ fhir:v "172043006" ] ;
+         fhir:display [ fhir:v "Simple mastectomy" ]
+       ] [
+         fhir:code [ fhir:v "172049005" ] ;
+         fhir:display [ fhir:v "Quadrantectomy of breast" ]
+       ] [
+         fhir:code [ fhir:v "172132001" ] ;
+         fhir:display [ fhir:v "Enucleation of eyeball" ]
+       ] [
+         fhir:code [ fhir:v "172485001" ] ;
+         fhir:display [ fhir:v "Laser trabeculoplasty" ]
+       ] [
+         fhir:code [ fhir:v "172523009" ] ;
+         fhir:display [ fhir:v "Intracapsular extraction of lens" ]
+       ] [
+         fhir:code [ fhir:v "172524003" ] ;
+         fhir:display [ fhir:v "Forceps extraction of lens" ]
+       ] [
+         fhir:code [ fhir:v "172532006" ] ;
+         fhir:display [ fhir:v "YAG laser capsulotomy of lens" ]
+       ] [
+         fhir:code [ fhir:v "172555009" ] ;
+         fhir:display [ fhir:v "Anterior vitrectomy" ]
+       ] [
+         fhir:code [ fhir:v "172571009" ] ;
+         fhir:display [ fhir:v "Epiretinal dissection" ]
+       ] [
+         fhir:code [ fhir:v "172676009" ] ;
+         fhir:display [ fhir:v "Myringotomy and insertion of short-term tympanic ventilation tube" ]
+       ] [
+         fhir:code [ fhir:v "172679002" ] ;
+         fhir:display [ fhir:v "Myringotomy and insertion of T tube" ]
+       ] [
+         fhir:code [ fhir:v "172732009" ] ;
+         fhir:display [ fhir:v "Implantation of intracochlear prosthesis" ]
+       ] [
+         fhir:code [ fhir:v "172790004" ] ;
+         fhir:display [ fhir:v "Submucous resection of nasal septum" ]
+       ] [
+         fhir:code [ fhir:v "172805009" ] ;
+         fhir:display [ fhir:v "Cauterization of nasal turbinate" ]
+       ] [
+         fhir:code [ fhir:v "172812000" ] ;
+         fhir:display [ fhir:v "Cauterization of internal nose" ]
+       ] [
+         fhir:code [ fhir:v "172825008" ] ;
+         fhir:display [ fhir:v "Nasal polypectomy" ]
+       ] [
+         fhir:code [ fhir:v "17293009" ] ;
+         fhir:display [ fhir:v "Bilateral segmental vasectomy and ligation" ]
+       ] [
+         fhir:code [ fhir:v "173171007" ] ;
+         fhir:display [ fhir:v "Lobectomy of lung" ]
+       ] [
+         fhir:code [ fhir:v "173422009" ] ;
+         fhir:display [ fhir:v "Tonsillectomy" ]
+       ] [
+         fhir:code [ fhir:v "173747005" ] ;
+         fhir:display [ fhir:v "Roux-en-Y gastrojejunostomy" ]
+       ] [
+         fhir:code [ fhir:v "173830003" ] ;
+         fhir:display [ fhir:v "Irrigation of stomach" ]
+       ] [
+         fhir:code [ fhir:v "173977007" ] ;
+         fhir:display [ fhir:v "Creation of ileostomy" ]
+       ] [
+         fhir:code [ fhir:v "173984004" ] ;
+         fhir:display [ fhir:v "Attention to ileostomy" ]
+       ] [
+         fhir:code [ fhir:v "174036004" ] ;
+         fhir:display [ fhir:v "Emergency appendectomy" ]
+       ] [
+         fhir:code [ fhir:v "174396007" ] ;
+         fhir:display [ fhir:v "Pilonidal sinus operation" ]
+       ] [
+         fhir:code [ fhir:v "174776001" ] ;
+         fhir:display [ fhir:v "Total splenectomy" ]
+       ] [
+         fhir:code [ fhir:v "174822005" ] ;
+         fhir:display [ fhir:v "Atrial inversion operation using atrial wall" ]
+       ] [
+         fhir:code [ fhir:v "174826008" ] ;
+         fhir:display [ fhir:v "Arterial switch operation" ]
+       ] [
+         fhir:code [ fhir:v "174830006" ] ;
+         fhir:display [ fhir:v "Repair of total anomalous pulmonary venous connection" ]
+       ] [
+         fhir:code [ fhir:v "174836000" ] ;
+         fhir:display [ fhir:v "Repair of defect of the atrioventricular septum" ]
+       ] [
+         fhir:code [ fhir:v "174900004" ] ;
+         fhir:display [ fhir:v "Repair of partial anomalous pulmonary venous connection" ]
+       ] [
+         fhir:code [ fhir:v "174929002" ] ;
+         fhir:display [ fhir:v "Mechanical prosthetic aortic valve replacement" ]
+       ] [
+         fhir:code [ fhir:v "175095005" ] ;
+         fhir:display [ fhir:v "Open ablation of atrioventricular node" ]
+       ] [
+         fhir:code [ fhir:v "175125003" ] ;
+         fhir:display [ fhir:v "Percutaneous transluminal ablation of atrioventricular node" ]
+       ] [
+         fhir:code [ fhir:v "175135009" ] ;
+         fhir:display [ fhir:v "Introduction of cardiac pacemaker system via vein" ]
+       ] [
+         fhir:code [ fhir:v "175905003" ] ;
+         fhir:display [ fhir:v "Total nephrectomy" ]
+       ] [
+         fhir:code [ fhir:v "175907006" ] ;
+         fhir:display [ fhir:v "Nephroureterectomy" ]
+       ] [
+         fhir:code [ fhir:v "176258007" ] ;
+         fhir:display [ fhir:v "Open prostatectomy" ]
+       ] [
+         fhir:code [ fhir:v "17636008" ] ;
+         fhir:display [ fhir:v "Specimen collection" ]
+       ] [
+         fhir:code [ fhir:v "176548009" ] ;
+         fhir:display [ fhir:v "Standard circumcision" ]
+       ] [
+         fhir:code [ fhir:v "176766002" ] ;
+         fhir:display [ fhir:v "Avulsion of lesion of cervix uteri" ]
+       ] [
+         fhir:code [ fhir:v "176785004" ] ;
+         fhir:display [ fhir:v "Non-obstetric encircling suture of cervical os" ]
+       ] [
+         fhir:code [ fhir:v "176795006" ] ;
+         fhir:display [ fhir:v "Subtotal abdominal hysterectomy" ]
+       ] [
+         fhir:code [ fhir:v "176820000" ] ;
+         fhir:display [ fhir:v "Curettage of uterus" ]
+       ] [
+         fhir:code [ fhir:v "177141003" ] ;
+         fhir:display [ fhir:v "Elective cesarean section" ]
+       ] [
+         fhir:code [ fhir:v "177142005" ] ;
+         fhir:display [ fhir:v "Elective upper segment cesarean section" ]
+       ] [
+         fhir:code [ fhir:v "177143000" ] ;
+         fhir:display [ fhir:v "Elective lower segment cesarean section" ]
+       ] [
+         fhir:code [ fhir:v "177184002" ] ;
+         fhir:display [ fhir:v "Normal delivery procedure" ]
+       ] [
+         fhir:code [ fhir:v "177217006" ] ;
+         fhir:display [ fhir:v "Immediate repair of obstetric laceration" ]
+       ] [
+         fhir:code [ fhir:v "177218001" ] ;
+         fhir:display [ fhir:v "Immediate repair of obstetric laceration of uterus or cervix uteri" ]
+       ] [
+         fhir:code [ fhir:v "177219009" ] ;
+         fhir:display [ fhir:v "Immediate repair of obstetric laceration of perineum and sphincter of anus" ]
+       ] [
+         fhir:code [ fhir:v "177220003" ] ;
+         fhir:display [ fhir:v "Immediate repair of obstetric laceration of vagina and floor of pelvis" ]
+       ] [
+         fhir:code [ fhir:v "177221004" ] ;
+         fhir:display [ fhir:v "Immediate repair of minor obstetric laceration" ]
+       ] [
+         fhir:code [ fhir:v "177250006" ] ;
+         fhir:display [ fhir:v "Abdominoplasty" ]
+       ] [
+         fhir:code [ fhir:v "17744000" ] ;
+         fhir:display [ fhir:v "Subtotal hysterectomy after cesarean delivery" ]
+       ] [
+         fhir:code [ fhir:v "177694006" ] ;
+         fhir:display [ fhir:v "Incision and drainage of wound" ]
+       ] [
+         fhir:code [ fhir:v "177735003" ] ;
+         fhir:display [ fhir:v "Excision of wedge of nail" ]
+       ] [
+         fhir:code [ fhir:v "177765008" ] ;
+         fhir:display [ fhir:v "Opening of chest" ]
+       ] [
+         fhir:code [ fhir:v "177854007" ] ;
+         fhir:display [ fhir:v "Simple excision of inguinal hernial sac" ]
+       ] [
+         fhir:code [ fhir:v "177860007" ] ;
+         fhir:display [ fhir:v "Primary repair of inguinal hernia" ]
+       ] [
+         fhir:code [ fhir:v "177866001" ] ;
+         fhir:display [ fhir:v "Bilateral inguinal hernia repair" ]
+       ] [
+         fhir:code [ fhir:v "178095009" ] ;
+         fhir:display [ fhir:v "Excision of ganglion of wrist" ]
+       ] [
+         fhir:code [ fhir:v "178097001" ] ;
+         fhir:display [ fhir:v "Excision of ganglion of knee" ]
+       ] [
+         fhir:code [ fhir:v "178155009" ] ;
+         fhir:display [ fhir:v "Plastic repair of tendon" ]
+       ] [
+         fhir:code [ fhir:v "178283002" ] ;
+         fhir:display [ fhir:v "Block dissection of cervical lymph nodes" ]
+       ] [
+         fhir:code [ fhir:v "178517008" ] ;
+         fhir:display [ fhir:v "Primary excision of cervical intervertebral disc" ]
+       ] [
+         fhir:code [ fhir:v "17860005" ] ;
+         fhir:display [ fhir:v "Low forceps delivery with episiotomy" ]
+       ] [
+         fhir:code [ fhir:v "178618008" ] ;
+         fhir:display [ fhir:v "Primary lumbar discectomy" ]
+       ] [
+         fhir:code [ fhir:v "178668000" ] ;
+         fhir:display [ fhir:v "Percutaneous discectomy" ]
+       ] [
+         fhir:code [ fhir:v "178728009" ] ;
+         fhir:display [ fhir:v "Removal of ureteral stent" ]
+       ] [
+         fhir:code [ fhir:v "178814008" ] ;
+         fhir:display [ fhir:v "Spinal facet joint denervation" ]
+       ] [
+         fhir:code [ fhir:v "179342005" ] ;
+         fhir:display [ fhir:v "Knee joint operation" ]
+       ] [
+         fhir:code [ fhir:v "179381005" ] ;
+         fhir:display [ fhir:v "Arthroscopic partial medial meniscectomy" ]
+       ] [
+         fhir:code [ fhir:v "179382003" ] ;
+         fhir:display [ fhir:v "Arthroscopic total medial meniscectomy" ]
+       ] [
+         fhir:code [ fhir:v "179383008" ] ;
+         fhir:display [ fhir:v "Arthroscopic partial lateral meniscectomy" ]
+       ] [
+         fhir:code [ fhir:v "180030006" ] ;
+         fhir:display [ fhir:v "Amputation of the foot" ]
+       ] [
+         fhir:code [ fhir:v "180040009" ] ;
+         fhir:display [ fhir:v "Amputation lesser toe" ]
+       ] [
+         fhir:code [ fhir:v "18027006" ] ;
+         fhir:display [ fhir:v "Transplantation of liver" ]
+       ] [
+         fhir:code [ fhir:v "180284004" ] ;
+         fhir:display [ fhir:v "Donation of bone marrow" ]
+       ] [
+         fhir:code [ fhir:v "182678001" ] ;
+         fhir:display [ fhir:v "Hyposensitisation to allergens" ]
+       ] [
+         fhir:code [ fhir:v "182744004" ] ;
+         fhir:display [ fhir:v "Extracorporeal circulation procedure" ]
+       ] [
+         fhir:code [ fhir:v "182764009" ] ;
+         fhir:display [ fhir:v "Anticoagulant therapy" ]
+       ] [
+         fhir:code [ fhir:v "182832007" ] ;
+         fhir:display [ fhir:v "Management of drug regimen" ]
+       ] [
+         fhir:code [ fhir:v "182836005" ] ;
+         fhir:display [ fhir:v "Review of medication" ]
+       ] [
+         fhir:code [ fhir:v "18286008" ] ;
+         fhir:display [ fhir:v "Catheter ablation of tissue of heart" ]
+       ] [
+         fhir:code [ fhir:v "182964004" ] ;
+         fhir:display [ fhir:v "Terminal care" ]
+       ] [
+         fhir:code [ fhir:v "18302006" ] ;
+         fhir:display [ fhir:v "Hysterotomy and termination of pregnancy" ]
+       ] [
+         fhir:code [ fhir:v "183651009" ] ;
+         fhir:display [ fhir:v "Chemotherapy follow-up" ]
+       ] [
+         fhir:code [ fhir:v "183668008" ] ;
+         fhir:display [ fhir:v "Total avulsion of nail plate" ]
+       ] [
+         fhir:code [ fhir:v "185317003" ] ;
+         fhir:display [ fhir:v "Telephone encounter" ]
+       ] [
+         fhir:code [ fhir:v "185389009" ] ;
+         fhir:display [ fhir:v "Follow-up visit" ]
+       ] [
+         fhir:code [ fhir:v "18557009" ] ;
+         fhir:display [ fhir:v "Closure by suture" ]
+       ] [
+         fhir:code [ fhir:v "18629005" ] ;
+         fhir:display [ fhir:v "Administration of medication" ]
+       ] [
+         fhir:code [ fhir:v "18692006" ] ;
+         fhir:display [ fhir:v "Bypass gastroenterostomy" ]
+       ] [
+         fhir:code [ fhir:v "18949003" ] ;
+         fhir:display [ fhir:v "Change of dressing" ]
+       ] [
+         fhir:code [ fhir:v "19063003" ] ;
+         fhir:display [ fhir:v "Arthroplasty of knee" ]
+       ] [
+         fhir:code [ fhir:v "19273005" ] ;
+         fhir:display [ fhir:v "Repair of recurrent inguinal hernia" ]
+       ] [
+         fhir:code [ fhir:v "195565004" ] ;
+         fhir:display [ fhir:v "Dilation of esophagus" ]
+       ] [
+         fhir:code [ fhir:v "19578002" ] ;
+         fhir:display [ fhir:v "Arthrodesis" ]
+       ] [
+         fhir:code [ fhir:v "20418004" ] ;
+         fhir:display [ fhir:v "Wedge resection" ]
+       ] [
+         fhir:code [ fhir:v "20470003" ] ;
+         fhir:display [ fhir:v "Destructive procedure on thyroid gland" ]
+       ] [
+         fhir:code [ fhir:v "20701002" ] ;
+         fhir:display [ fhir:v "Open reduction of fracture with internal fixation" ]
+       ] [
+         fhir:code [ fhir:v "20805001" ] ;
+         fhir:display [ fhir:v "Rhinoseptoplasty" ]
+       ] [
+         fhir:code [ fhir:v "21371007" ] ;
+         fhir:display [ fhir:v "Operation on abdominal region" ]
+       ] [
+         fhir:code [ fhir:v "21525004" ] ;
+         fhir:display [ fhir:v "Excision of regional lymph nodes" ]
+       ] [
+         fhir:code [ fhir:v "21574003" ] ;
+         fhir:display [ fhir:v "Repair of aneurysm of abdominal aorta with graft" ]
+       ] [
+         fhir:code [ fhir:v "225100009" ] ;
+         fhir:display [ fhir:v "Replacing dentures" ]
+       ] [
+         fhir:code [ fhir:v "225113003" ] ;
+         fhir:display [ fhir:v "Timed urine collection" ]
+       ] [
+         fhir:code [ fhir:v "22523008" ] ;
+         fhir:display [ fhir:v "Vasectomy" ]
+       ] [
+         fhir:code [ fhir:v "225271002" ] ;
+         fhir:display [ fhir:v "Collection of mid-stream specimen of urine" ]
+       ] [
+         fhir:code [ fhir:v "225297008" ] ;
+         fhir:display [ fhir:v "Care planning and problem solving actions" ]
+       ] [
+         fhir:code [ fhir:v "225299006" ] ;
+         fhir:display [ fhir:v "Equipment-related procedure" ]
+       ] [
+         fhir:code [ fhir:v "225307000" ] ;
+         fhir:display [ fhir:v "Special observation" ]
+       ] [
+         fhir:code [ fhir:v "225308005" ] ;
+         fhir:display [ fhir:v "Observation regime" ]
+       ] [
+         fhir:code [ fhir:v "225355000" ] ;
+         fhir:display [ fhir:v "Care of patient states" ]
+       ] [
+         fhir:code [ fhir:v "225365006" ] ;
+         fhir:display [ fhir:v "Care regime" ]
+       ] [
+         fhir:code [ fhir:v "225372007" ] ;
+         fhir:display [ fhir:v "Total parenteral nutrition" ]
+       ] [
+         fhir:code [ fhir:v "226007004" ] ;
+         fhir:display [ fhir:v "Post-surgical wound care" ]
+       ] [
+         fhir:code [ fhir:v "228114008" ] ;
+         fhir:display [ fhir:v "Child health procedures" ]
+       ] [
+         fhir:code [ fhir:v "22890008" ] ;
+         fhir:display [ fhir:v "Augmentation mammoplasty" ]
+       ] [
+         fhir:code [ fhir:v "229065009" ] ;
+         fhir:display [ fhir:v "Exercise therapy" ]
+       ] [
+         fhir:code [ fhir:v "229912004" ] ;
+         fhir:display [ fhir:v "Enteral feeding" ]
+       ] [
+         fhir:code [ fhir:v "229917005" ] ;
+         fhir:display [ fhir:v "Gastrostomy feeding" ]
+       ] [
+         fhir:code [ fhir:v "230810008" ] ;
+         fhir:display [ fhir:v "Excision of tumor of brain meninges" ]
+       ] [
+         fhir:code [ fhir:v "231710008" ] ;
+         fhir:display [ fhir:v "Keratomileusis" ]
+       ] [
+         fhir:code [ fhir:v "231734003" ] ;
+         fhir:display [ fhir:v "Trabeculoplasty" ]
+       ] [
+         fhir:code [ fhir:v "231751005" ] ;
+         fhir:display [ fhir:v "Exchange of intraocular lens" ]
+       ] [
+         fhir:code [ fhir:v "232470004" ] ;
+         fhir:display [ fhir:v "Reconstruction of nose" ]
+       ] [
+         fhir:code [ fhir:v "232613003" ] ;
+         fhir:display [ fhir:v "Attention to tracheostomy" ]
+       ] [
+         fhir:code [ fhir:v "232632009" ] ;
+         fhir:display [ fhir:v "Wedge excision of lung" ]
+       ] [
+         fhir:code [ fhir:v "232658009" ] ;
+         fhir:display [ fhir:v "Double lung transplant" ]
+       ] [
+         fhir:code [ fhir:v "232717009" ] ;
+         fhir:display [ fhir:v "Coronary artery bypass graft" ]
+       ] [
+         fhir:code [ fhir:v "232720001" ] ;
+         fhir:display [ fhir:v "Coronary artery bypass grafts x 2" ]
+       ] [
+         fhir:code [ fhir:v "232721002" ] ;
+         fhir:display [ fhir:v "Coronary artery bypass grafts x 3" ]
+       ] [
+         fhir:code [ fhir:v "232722009" ] ;
+         fhir:display [ fhir:v "Coronary artery bypass grafts x 4" ]
+       ] [
+         fhir:code [ fhir:v "232723004" ] ;
+         fhir:display [ fhir:v "Coronary artery bypass grafts x 5" ]
+       ] [
+         fhir:code [ fhir:v "232834008" ] ;
+         fhir:display [ fhir:v "Balloon aortic valvotomy" ]
+       ] [
+         fhir:code [ fhir:v "232841002" ] ;
+         fhir:display [ fhir:v "Repair of implanted aortic paravalvular leak" ]
+       ] [
+         fhir:code [ fhir:v "232957001" ] ;
+         fhir:display [ fhir:v "Cardiac support procedure" ]
+       ] [
+         fhir:code [ fhir:v "233022006" ] ;
+         fhir:display [ fhir:v "Construction of conduit - right atrium to pulmonary trunk" ]
+       ] [
+         fhir:code [ fhir:v "233037005" ] ;
+         fhir:display [ fhir:v "Operation to close an interatrial communication" ]
+       ] [
+         fhir:code [ fhir:v "233134001" ] ;
+         fhir:display [ fhir:v "Damus-Stansel-Kaye operation" ]
+       ] [
+         fhir:code [ fhir:v "233139006" ] ;
+         fhir:display [ fhir:v "Norwood type operation" ]
+       ] [
+         fhir:code [ fhir:v "233143005" ] ;
+         fhir:display [ fhir:v "Construction of a cardiac conduit" ]
+       ] [
+         fhir:code [ fhir:v "233159005" ] ;
+         fhir:display [ fhir:v "Ablation operation for arrhythmia" ]
+       ] [
+         fhir:code [ fhir:v "233161001" ] ;
+         fhir:display [ fhir:v "Cryoablation operation for arrhythmia" ]
+       ] [
+         fhir:code [ fhir:v "233163003" ] ;
+         fhir:display [ fhir:v "Radiofrequency ablation operation for arrhythmia" ]
+       ] [
+         fhir:code [ fhir:v "233169004" ] ;
+         fhir:display [ fhir:v "Automatic defibrillator procedure" ]
+       ] [
+         fhir:code [ fhir:v "233170003" ] ;
+         fhir:display [ fhir:v "Implantation of automatic cardiac defibrillator" ]
+       ] [
+         fhir:code [ fhir:v "233171004" ] ;
+         fhir:display [ fhir:v "Removal of automatic cardiac defibrillator" ]
+       ] [
+         fhir:code [ fhir:v "233174007" ] ;
+         fhir:display [ fhir:v "Cardiac pacemaker procedure" ]
+       ] [
+         fhir:code [ fhir:v "233182007" ] ;
+         fhir:display [ fhir:v "Permanent cardiac pacemaker procedure" ]
+       ] [
+         fhir:code [ fhir:v "233184008" ] ;
+         fhir:display [ fhir:v "Maintenance procedure for cardiac pacemaker system" ]
+       ] [
+         fhir:code [ fhir:v "233185009" ] ;
+         fhir:display [ fhir:v "Reprogramming of cardiac pacemaker" ]
+       ] [
+         fhir:code [ fhir:v "233188006" ] ;
+         fhir:display [ fhir:v "Removal of cardiac pacing electrode" ]
+       ] [
+         fhir:code [ fhir:v "233199008" ] ;
+         fhir:display [ fhir:v "Closure of ductus arteriosus with clip" ]
+       ] [
+         fhir:code [ fhir:v "233224003" ] ;
+         fhir:display [ fhir:v "Central aortopulmonary shunt operation" ]
+       ] [
+         fhir:code [ fhir:v "233230003" ] ;
+         fhir:display [ fhir:v "Hemi-Fontan operation" ]
+       ] [
+         fhir:code [ fhir:v "233370007" ] ;
+         fhir:display [ fhir:v "Aortic aneurysm repair" ]
+       ] [
+         fhir:code [ fhir:v "233445008" ] ;
+         fhir:display [ fhir:v "Transjugular intrahepatic portosystemic shunt" ]
+       ] [
+         fhir:code [ fhir:v "233456008" ] ;
+         fhir:display [ fhir:v "Stripping of vein" ]
+       ] [
+         fhir:code [ fhir:v "233527006" ] ;
+         fhir:display [ fhir:v "Central venous cannula insertion" ]
+       ] [
+         fhir:code [ fhir:v "233553003" ] ;
+         fhir:display [ fhir:v "Vascular cannula removal" ]
+       ] [
+         fhir:code [ fhir:v "234319005" ] ;
+         fhir:display [ fhir:v "Splenectomy" ]
+       ] [
+         fhir:code [ fhir:v "234335003" ] ;
+         fhir:display [ fhir:v "Allogeneic unrelated bone marrow transplant" ]
+       ] [
+         fhir:code [ fhir:v "234336002" ] ;
+         fhir:display [ fhir:v "Haemopoietic stem cell transplant" ]
+       ] [
+         fhir:code [ fhir:v "234647001" ] ;
+         fhir:display [ fhir:v "Repair of cleft lip" ]
+       ] [
+         fhir:code [ fhir:v "234650003" ] ;
+         fhir:display [ fhir:v "Repair of bilateral cleft lip" ]
+       ] [
+         fhir:code [ fhir:v "234808001" ] ;
+         fhir:display [ fhir:v "Fit partial denture" ]
+       ] [
+         fhir:code [ fhir:v "234890003" ] ;
+         fhir:display [ fhir:v "Repair of cleft palate" ]
+       ] [
+         fhir:code [ fhir:v "234891004" ] ;
+         fhir:display [ fhir:v "Repair of cleft of hard palate" ]
+       ] [
+         fhir:code [ fhir:v "234892006" ] ;
+         fhir:display [ fhir:v "Repair of cleft of soft palate" ]
+       ] [
+         fhir:code [ fhir:v "235157009" ] ;
+         fhir:display [ fhir:v "Endoscopic brushings of GIT" ]
+       ] [
+         fhir:code [ fhir:v "235159007" ] ;
+         fhir:display [ fhir:v "Percutaneous endoscopic gastrostomy" ]
+       ] [
+         fhir:code [ fhir:v "235222001" ] ;
+         fhir:display [ fhir:v "Attention to gastrostomy" ]
+       ] [
+         fhir:code [ fhir:v "235462000" ] ;
+         fhir:display [ fhir:v "Live donor partial hepatectomy" ]
+       ] [
+         fhir:code [ fhir:v "235570008" ] ;
+         fhir:display [ fhir:v "Dilatation of bile duct" ]
+       ] [
+         fhir:code [ fhir:v "23580000" ] ;
+         fhir:display [ fhir:v "Hemisection of tooth" ]
+       ] [
+         fhir:code [ fhir:v "236258004" ] ;
+         fhir:display [ fhir:v "Needle biopsy of prostate" ]
+       ] [
+         fhir:code [ fhir:v "236886002" ] ;
+         fhir:display [ fhir:v "Hysterectomy" ]
+       ] [
+         fhir:code [ fhir:v "236887006" ] ;
+         fhir:display [ fhir:v "Laparoscopic hysterectomy" ]
+       ] [
+         fhir:code [ fhir:v "236946009" ] ;
+         fhir:display [ fhir:v "Macdonald's cervical cerclage" ]
+       ] [
+         fhir:code [ fhir:v "236947000" ] ;
+         fhir:display [ fhir:v "Shirodkar's cervical cerclage" ]
+       ] [
+         fhir:code [ fhir:v "236973005" ] ;
+         fhir:display [ fhir:v "Delivery procedure" ]
+       ] [
+         fhir:code [ fhir:v "236974004" ] ;
+         fhir:display [ fhir:v "Instrumental delivery" ]
+       ] [
+         fhir:code [ fhir:v "236985002" ] ;
+         fhir:display [ fhir:v "Emergency lower segment cesarean section" ]
+       ] [
+         fhir:code [ fhir:v "236986001" ] ;
+         fhir:display [ fhir:v "Emergency upper segment cesarean section" ]
+       ] [
+         fhir:code [ fhir:v "236987005" ] ;
+         fhir:display [ fhir:v "Emergency cesarean hysterectomy" ]
+       ] [
+         fhir:code [ fhir:v "236988000" ] ;
+         fhir:display [ fhir:v "Elective cesarean hysterectomy" ]
+       ] [
+         fhir:code [ fhir:v "236989008" ] ;
+         fhir:display [ fhir:v "Abdominal delivery for shoulder dystocia" ]
+       ] [
+         fhir:code [ fhir:v "236991000" ] ;
+         fhir:display [ fhir:v "Operation to facilitate delivery" ]
+       ] [
+         fhir:code [ fhir:v "23719005" ] ;
+         fhir:display [ fhir:v "Transplantation of bone marrow" ]
+       ] [
+         fhir:code [ fhir:v "237406004" ] ;
+         fhir:display [ fhir:v "Plastic operation on the breast" ]
+       ] [
+         fhir:code [ fhir:v "238192002" ] ;
+         fhir:display [ fhir:v "Repair of hernia of anterior abdominal wall" ]
+       ] [
+         fhir:code [ fhir:v "238318009" ] ;
+         fhir:display [ fhir:v "Continuous ambulatory peritoneal dialysis" ]
+       ] [
+         fhir:code [ fhir:v "239431009" ] ;
+         fhir:display [ fhir:v "Reconstruction of anterior cruciate ligament of knee joint" ]
+       ] [
+         fhir:code [ fhir:v "239503002" ] ;
+         fhir:display [ fhir:v "Resurfacing of the patella" ]
+       ] [
+         fhir:code [ fhir:v "23968004" ] ;
+         fhir:display [ fhir:v "Colectomy" ]
+       ] [
+         fhir:code [ fhir:v "240977001" ] ;
+         fhir:display [ fhir:v "Biopsy of skin" ]
+       ] [
+         fhir:code [ fhir:v "24139008" ] ;
+         fhir:display [ fhir:v "Cystoscopy" ]
+       ] [
+         fhir:code [ fhir:v "243120004" ] ;
+         fhir:display [ fhir:v "Regimes and therapies" ]
+       ] [
+         fhir:code [ fhir:v "243121000" ] ;
+         fhir:display [ fhir:v "Medical therapy" ]
+       ] [
+         fhir:code [ fhir:v "243306000" ] ;
+         fhir:display [ fhir:v "Ureteroileostomy" ]
+       ] [
+         fhir:code [ fhir:v "24420007" ] ;
+         fhir:display [ fhir:v "Sigmoidoscopy" ]
+       ] [
+         fhir:code [ fhir:v "24443003" ] ;
+         fhir:display [ fhir:v "Total thyroidectomy" ]
+       ] [
+         fhir:code [ fhir:v "24496007" ] ;
+         fhir:display [ fhir:v "Hemorrhoidectomy" ]
+       ] [
+         fhir:code [ fhir:v "248273008" ] ;
+         fhir:display [ fhir:v "Aspiration curettage of uterus after delivery" ]
+       ] [
+         fhir:code [ fhir:v "250980009" ] ;
+         fhir:display [ fhir:v "Cardioversion" ]
+       ] [
+         fhir:code [ fhir:v "25156005" ] ;
+         fhir:display [ fhir:v "Intravenous feeding of patient" ]
+       ] [
+         fhir:code [ fhir:v "25353009" ] ;
+         fhir:display [ fhir:v "Craniotomy" ]
+       ] [
+         fhir:code [ fhir:v "257822003" ] ;
+         fhir:display [ fhir:v "Extracapsular extraction" ]
+       ] [
+         fhir:code [ fhir:v "257833000" ] ;
+         fhir:display [ fhir:v "Internal fixation using staple" ]
+       ] [
+         fhir:code [ fhir:v "257834006" ] ;
+         fhir:display [ fhir:v "Internal fixation using screw" ]
+       ] [
+         fhir:code [ fhir:v "257835007" ] ;
+         fhir:display [ fhir:v "Internal fixation using plate" ]
+       ] [
+         fhir:code [ fhir:v "25789004" ] ;
+         fhir:display [ fhir:v "Lumbosacral arthrodesis" ]
+       ] [
+         fhir:code [ fhir:v "25811000" ] ;
+         fhir:display [ fhir:v "Bilateral complete salpingectomy" ]
+       ] [
+         fhir:code [ fhir:v "25828002" ] ;
+         fhir:display [ fhir:v "Mid forceps delivery with episiotomy" ]
+       ] [
+         fhir:code [ fhir:v "25953003" ] ;
+         fhir:display [ fhir:v "Colostomy management and care" ]
+       ] [
+         fhir:code [ fhir:v "2598006" ] ;
+         fhir:display [ fhir:v "Open heart surgery" ]
+       ] [
+         fhir:code [ fhir:v "260216002" ] ;
+         fhir:display [ fhir:v "ICCE" ]
+       ] [
+         fhir:code [ fhir:v "261537001" ] ;
+         fhir:display [ fhir:v "Insertion of interatrial baffle" ]
+       ] [
+         fhir:code [ fhir:v "261540001" ] ;
+         fhir:display [ fhir:v "Laminotomy" ]
+       ] [
+         fhir:code [ fhir:v "26212005" ] ;
+         fhir:display [ fhir:v "Replacement of aortic valve" ]
+       ] [
+         fhir:code [ fhir:v "26294005" ] ;
+         fhir:display [ fhir:v "Radical prostatectomy" ]
+       ] [
+         fhir:code [ fhir:v "26313002" ] ;
+         fhir:display [ fhir:v "Delivery by vacuum extraction with episiotomy" ]
+       ] [
+         fhir:code [ fhir:v "26390003" ] ;
+         fhir:display [ fhir:v "Total colectomy" ]
+       ] [
+         fhir:code [ fhir:v "26476002" ] ;
+         fhir:display [ fhir:v "Operation on bronchus" ]
+       ] [
+         fhir:code [ fhir:v "264957007" ] ;
+         fhir:display [ fhir:v "Insertion of pleural tube drain" ]
+       ] [
+         fhir:code [ fhir:v "264959005" ] ;
+         fhir:display [ fhir:v "Primary repair of femoral hernia" ]
+       ] [
+         fhir:code [ fhir:v "265056007" ] ;
+         fhir:display [ fhir:v "Vaginal hysterectomy" ]
+       ] [
+         fhir:code [ fhir:v "265060005" ] ;
+         fhir:display [ fhir:v "Endometrial ablation" ]
+       ] [
+         fhir:code [ fhir:v "265132005" ] ;
+         fhir:display [ fhir:v "Primary open reduction and internal fixation of proximal femoral fracture with screw/nail and plate device" ]
+       ] [
+         fhir:code [ fhir:v "265157000" ] ;
+         fhir:display [ fhir:v "Total prosthetic replacement of hip joint using cement" ]
+       ] [
+         fhir:code [ fhir:v "265160007" ] ;
+         fhir:display [ fhir:v "Total prosthetic replacement of hip joint not using cement" ]
+       ] [
+         fhir:code [ fhir:v "265170009" ] ;
+         fhir:display [ fhir:v "Total prosthetic replacement of knee joint using cement" ]
+       ] [
+         fhir:code [ fhir:v "265244003" ] ;
+         fhir:display [ fhir:v "Endocrine system and/or breast operations" ]
+       ] [
+         fhir:code [ fhir:v "265246001" ] ;
+         fhir:display [ fhir:v "Thyroid gland and/or parathyroid gland operations" ]
+       ] [
+         fhir:code [ fhir:v "265250008" ] ;
+         fhir:display [ fhir:v "Reduction mammoplasty, bilateral" ]
+       ] [
+         fhir:code [ fhir:v "265472007" ] ;
+         fhir:display [ fhir:v "Plastic repair of mitral valve" ]
+       ] [
+         fhir:code [ fhir:v "265473002" ] ;
+         fhir:display [ fhir:v "Plastic repair of aortic valve" ]
+       ] [
+         fhir:code [ fhir:v "265542003" ] ;
+         fhir:display [ fhir:v "Ligation of long saphenous vein" ]
+       ] [
+         fhir:code [ fhir:v "265636007" ] ;
+         fhir:display [ fhir:v "Cerclage of uterine cervix" ]
+       ] [
+         fhir:code [ fhir:v "265703000" ] ;
+         fhir:display [ fhir:v "Jaw and temporomandibular joint operations" ]
+       ] [
+         fhir:code [ fhir:v "265764009" ] ;
+         fhir:display [ fhir:v "Renal dialysis" ]
+       ] [
+         fhir:code [ fhir:v "26578004" ] ;
+         fhir:display [ fhir:v "Hysterotomy with removal of hydatidiform mole" ]
+       ] [
+         fhir:code [ fhir:v "265855005" ] ;
+         fhir:display [ fhir:v "Varicose vein stripping" ]
+       ] [
+         fhir:code [ fhir:v "266700009" ] ;
+         fhir:display [ fhir:v "Assisted breathing" ]
+       ] [
+         fhir:code [ fhir:v "266717002" ] ;
+         fhir:display [ fhir:v "Hormone replacement therapy" ]
+       ] [
+         fhir:code [ fhir:v "266740003" ] ;
+         fhir:display [ fhir:v "Orthoptic treatment" ]
+       ] [
+         fhir:code [ fhir:v "26786002" ] ;
+         fhir:display [ fhir:v "Scleral buckling" ]
+       ] [
+         fhir:code [ fhir:v "268481000" ] ;
+         fhir:display [ fhir:v "Child health care" ]
+       ] [
+         fhir:code [ fhir:v "271422003" ] ;
+         fhir:display [ fhir:v "Fit denture" ]
+       ] [
+         fhir:code [ fhir:v "272300006" ] ;
+         fhir:display [ fhir:v "Closed reduction of fracture of femur with internal fixation" ]
+       ] [
+         fhir:code [ fhir:v "27315000" ] ;
+         fhir:display [ fhir:v "Removal of breast implant" ]
+       ] [
+         fhir:code [ fhir:v "274022008" ] ;
+         fhir:display [ fhir:v "Repair of coarctation of aorta" ]
+       ] [
+         fhir:code [ fhir:v "274023003" ] ;
+         fhir:display [ fhir:v "Varicose vein operation" ]
+       ] [
+         fhir:code [ fhir:v "274026006" ] ;
+         fhir:display [ fhir:v "Gastrointestinal anastomosis procedure" ]
+       ] [
+         fhir:code [ fhir:v "274068006" ] ;
+         fhir:display [ fhir:v "Excision of lipoma" ]
+       ] [
+         fhir:code [ fhir:v "274330002" ] ;
+         fhir:display [ fhir:v "Surgical biopsy" ]
+       ] [
+         fhir:code [ fhir:v "274331003" ] ;
+         fhir:display [ fhir:v "Surgical biopsy of breast" ]
+       ] [
+         fhir:code [ fhir:v "274407009" ] ;
+         fhir:display [ fhir:v "Intrauterine device check" ]
+       ] [
+         fhir:code [ fhir:v "27480002" ] ;
+         fhir:display [ fhir:v "Excision of bunion" ]
+       ] [
+         fhir:code [ fhir:v "275001008" ] ;
+         fhir:display [ fhir:v "Myringotomy and insertion of long-term ventilation tube" ]
+       ] [
+         fhir:code [ fhir:v "275066000" ] ;
+         fhir:display [ fhir:v "Open insertion of Hickman central venous catheter" ]
+       ] [
+         fhir:code [ fhir:v "275227003" ] ;
+         fhir:display [ fhir:v "Myocardial revascularization" ]
+       ] [
+         fhir:code [ fhir:v "275305005" ] ;
+         fhir:display [ fhir:v "Antenatal/postnatal care" ]
+       ] [
+         fhir:code [ fhir:v "276239002" ] ;
+         fhir:display [ fhir:v "Therapy" ]
+       ] [
+         fhir:code [ fhir:v "276272002" ] ;
+         fhir:display [ fhir:v "Catheter procedure" ]
+       ] [
+         fhir:code [ fhir:v "276861004" ] ;
+         fhir:display [ fhir:v "Percutaneous balloon angioplasty of artery" ]
+       ] [
+         fhir:code [ fhir:v "277762005" ] ;
+         fhir:display [ fhir:v "Lumbar puncture" ]
+       ] [
+         fhir:code [ fhir:v "277764006" ] ;
+         fhir:display [ fhir:v "Fusion of posterior lumbar spine" ]
+       ] [
+         fhir:code [ fhir:v "278257006" ] ;
+         fhir:display [ fhir:v "Peripheral blood stem cell graft" ]
+       ] [
+         fhir:code [ fhir:v "278414003" ] ;
+         fhir:display [ fhir:v "Pain management" ]
+       ] [
+         fhir:code [ fhir:v "27842006" ] ;
+         fhir:display [ fhir:v "Radical excision of lymph nodes" ]
+       ] [
+         fhir:code [ fhir:v "278450005" ] ;
+         fhir:display [ fhir:v "Finger stick" ]
+       ] [
+         fhir:code [ fhir:v "27865001" ] ;
+         fhir:display [ fhir:v "Excision of bilateral breasts" ]
+       ] [
+         fhir:code [ fhir:v "280392009" ] ;
+         fhir:display [ fhir:v "Shunt procedure into peritoneum" ]
+       ] [
+         fhir:code [ fhir:v "280478004" ] ;
+         fhir:display [ fhir:v "Gastrointestinal and digestive anastomosis" ]
+       ] [
+         fhir:code [ fhir:v "281811000" ] ;
+         fhir:display [ fhir:v "Arthroscopic knee operation" ]
+       ] [
+         fhir:code [ fhir:v "282191000" ] ;
+         fhir:display [ fhir:v "Laminotomy for decompression and exploration" ]
+       ] [
+         fhir:code [ fhir:v "284181007" ] ;
+         fhir:display [ fhir:v "Incision and drainage of abscess" ]
+       ] [
+         fhir:code [ fhir:v "284532000" ] ;
+         fhir:display [ fhir:v "Myringotomy and insertion of tympanic ventilation tube" ]
+       ] [
+         fhir:code [ fhir:v "28510009" ] ;
+         fhir:display [ fhir:v "Replacement of tracheal stent" ]
+       ] [
+         fhir:code [ fhir:v "285570007" ] ;
+         fhir:display [ fhir:v "Taking of swab" ]
+       ] [
+         fhir:code [ fhir:v "285662005" ] ;
+         fhir:display [ fhir:v "Removal of plate from bone" ]
+       ] [
+         fhir:code [ fhir:v "285663000" ] ;
+         fhir:display [ fhir:v "Removal of bone screw from bone" ]
+       ] [
+         fhir:code [ fhir:v "287310004" ] ;
+         fhir:display [ fhir:v "Lung tumour excision" ]
+       ] [
+         fhir:code [ fhir:v "287664005" ] ;
+         fhir:display [ fhir:v "Bilateral tubal ligation" ]
+       ] [
+         fhir:code [ fhir:v "28768007" ] ;
+         fhir:display [ fhir:v "Incisional biopsy of breast mass" ]
+       ] [
+         fhir:code [ fhir:v "287708003" ] ;
+         fhir:display [ fhir:v "Transurethral bladder excision" ]
+       ] [
+         fhir:code [ fhir:v "287793003" ] ;
+         fhir:display [ fhir:v "Intestine bypass shunt" ]
+       ] [
+         fhir:code [ fhir:v "287977004" ] ;
+         fhir:display [ fhir:v "Dilation/incision of cervix - delivery aid" ]
+       ] [
+         fhir:code [ fhir:v "288042004" ] ;
+         fhir:display [ fhir:v "Hysterectomy and fetus removal" ]
+       ] [
+         fhir:code [ fhir:v "288043009" ] ;
+         fhir:display [ fhir:v "Hysterectomy in pregnancy" ]
+       ] [
+         fhir:code [ fhir:v "288161003" ] ;
+         fhir:display [ fhir:v "Orthopedic device application" ]
+       ] [
+         fhir:code [ fhir:v "28913000" ] ;
+         fhir:display [ fhir:v "Tonsillectomy and adenoidectomy" ]
+       ] [
+         fhir:code [ fhir:v "293820001" ] ;
+         fhir:display [ fhir:v "Keratoplasty" ]
+       ] [
+         fhir:code [ fhir:v "29672006" ] ;
+         fhir:display [ fhir:v "Partial oophorectomy" ]
+       ] [
+         fhir:code [ fhir:v "297279009" ] ;
+         fhir:display [ fhir:v "Administration of steroid" ]
+       ] [
+         fhir:code [ fhir:v "297709009" ] ;
+         fhir:display [ fhir:v "Open acromioplasty for decompression of rotator cuff" ]
+       ] [
+         fhir:code [ fhir:v "29827000" ] ;
+         fhir:display [ fhir:v "Bilateral salpingectomy with oophorectomy" ]
+       ] [
+         fhir:code [ fhir:v "300009002" ] ;
+         fhir:display [ fhir:v "Removal of acoustic neuroma" ]
+       ] [
+         fhir:code [ fhir:v "300589005" ] ;
+         fhir:display [ fhir:v "Excision of sebaceous cyst" ]
+       ] [
+         fhir:code [ fhir:v "30123000" ] ;
+         fhir:display [ fhir:v "Repair of atrial septal defect with prosthesis by closed heart technique" ]
+       ] [
+         fhir:code [ fhir:v "301784005" ] ;
+         fhir:display [ fhir:v "Ileostomy operation" ]
+       ] [
+         fhir:code [ fhir:v "301889008" ] ;
+         fhir:display [ fhir:v "Excision of malignant skin tumor" ]
+       ] [
+         fhir:code [ fhir:v "301890004" ] ;
+         fhir:display [ fhir:v "Excision of skin cyst" ]
+       ] [
+         fhir:code [ fhir:v "302152006" ] ;
+         fhir:display [ fhir:v "Small intestine stoma procedure" ]
+       ] [
+         fhir:code [ fhir:v "302171008" ] ;
+         fhir:display [ fhir:v "Adjust hearing aid settings" ]
+       ] [
+         fhir:code [ fhir:v "302190000" ] ;
+         fhir:display [ fhir:v "Abdominal hysterectomy and right salpingo-oophorectomy" ]
+       ] [
+         fhir:code [ fhir:v "302191001" ] ;
+         fhir:display [ fhir:v "Abdominal hysterectomy and left salpingo-oophorectomy" ]
+       ] [
+         fhir:code [ fhir:v "302343007" ] ;
+         fhir:display [ fhir:v "Insertion of prosthesis for breast" ]
+       ] [
+         fhir:code [ fhir:v "302369001" ] ;
+         fhir:display [ fhir:v "Clitoridectomy" ]
+       ] [
+         fhir:code [ fhir:v "302375005" ] ;
+         fhir:display [ fhir:v "Operative termination of pregnancy" ]
+       ] [
+         fhir:code [ fhir:v "302441008" ] ;
+         fhir:display [ fhir:v "Liposuction of subcutaneous tissue" ]
+       ] [
+         fhir:code [ fhir:v "302490008" ] ;
+         fhir:display [ fhir:v "Arthroscopic meniscectomy" ]
+       ] [
+         fhir:code [ fhir:v "302497006" ] ;
+         fhir:display [ fhir:v "Haemodialysis" ]
+       ] [
+         fhir:code [ fhir:v "302605004" ] ;
+         fhir:display [ fhir:v "Forced manual dilatation of anus" ]
+       ] [
+         fhir:code [ fhir:v "303633008" ] ;
+         fhir:display [ fhir:v "Irrigation of maxillary antrum" ]
+       ] [
+         fhir:code [ fhir:v "303648002" ] ;
+         fhir:display [ fhir:v "Excision of papilloma" ]
+       ] [
+         fhir:code [ fhir:v "303650005" ] ;
+         fhir:display [ fhir:v "Removal of mole of skin by excision" ]
+       ] [
+         fhir:code [ fhir:v "304039000" ] ;
+         fhir:display [ fhir:v "Skin flap operation" ]
+       ] [
+         fhir:code [ fhir:v "304040003" ] ;
+         fhir:display [ fhir:v "Grafting to skin" ]
+       ] [
+         fhir:code [ fhir:v "304384006" ] ;
+         fhir:display [ fhir:v "Complete repair of rotator cuff" ]
+       ] [
+         fhir:code [ fhir:v "30456009" ] ;
+         fhir:display [ fhir:v "Open heart valvuloplasty without replacement of valve" ]
+       ] [
+         fhir:code [ fhir:v "30542005" ] ;
+         fhir:display [ fhir:v "Implantation of umbrella into vena cava" ]
+       ] [
+         fhir:code [ fhir:v "30549001" ] ;
+         fhir:display [ fhir:v "Removal of suture" ]
+       ] [
+         fhir:code [ fhir:v "307273008" ] ;
+         fhir:display [ fhir:v "Cautery of wart" ]
+       ] [
+         fhir:code [ fhir:v "307279007" ] ;
+         fhir:display [ fhir:v "Prosthetic replacement of heart valve" ]
+       ] [
+         fhir:code [ fhir:v "307280005" ] ;
+         fhir:display [ fhir:v "Implantation of cardiac pacemaker" ]
+       ] [
+         fhir:code [ fhir:v "307546008" ] ;
+         fhir:display [ fhir:v "Operation on brain ventricle" ]
+       ] [
+         fhir:code [ fhir:v "307771009" ] ;
+         fhir:display [ fhir:v "Radical abdominal hysterectomy" ]
+       ] [
+         fhir:code [ fhir:v "307815000" ] ;
+         fhir:display [ fhir:v "Arthroplasty of hip without cement" ]
+       ] [
+         fhir:code [ fhir:v "308665009" ] ;
+         fhir:display [ fhir:v "Repair of pulmonary valve with tissue graft" ]
+       ] [
+         fhir:code [ fhir:v "308695001" ] ;
+         fhir:display [ fhir:v "Intracapsular cataract extraction and insertion of intraocular lens" ]
+       ] [
+         fhir:code [ fhir:v "308696000" ] ;
+         fhir:display [ fhir:v "Coarctation angioplasty" ]
+       ] [
+         fhir:code [ fhir:v "30880003" ] ;
+         fhir:display [ fhir:v "Trabeculectomy ab externo" ]
+       ] [
+         fhir:code [ fhir:v "30904006" ] ;
+         fhir:display [ fhir:v "Vascular surgery procedure" ]
+       ] [
+         fhir:code [ fhir:v "309430005" ] ;
+         fhir:display [ fhir:v "Excision of skin tag" ]
+       ] [
+         fhir:code [ fhir:v "309431009" ] ;
+         fhir:display [ fhir:v "Arthroscopy of knee" ]
+       ] [
+         fhir:code [ fhir:v "30956003" ] ;
+         fhir:display [ fhir:v "Subtotal thyroidectomy" ]
+       ] [
+         fhir:code [ fhir:v "309879006" ] ;
+         fhir:display [ fhir:v "Abdominal hysterocolpectomy" ]
+       ] [
+         fhir:code [ fhir:v "310582005" ] ;
+         fhir:display [ fhir:v "Implantation of intravenous dual chamber permanent cardiac pacemaker" ]
+       ] [
+         fhir:code [ fhir:v "311774002" ] ;
+         fhir:display [ fhir:v "Colonoscopic polypectomy" ]
+       ] [
+         fhir:code [ fhir:v "312235007" ] ;
+         fhir:display [ fhir:v "Radiolabeled antibody therapy" ]
+       ] [
+         fhir:code [ fhir:v "312775003" ] ;
+         fhir:display [ fhir:v "Debridement of ulcer" ]
+       ] [
+         fhir:code [ fhir:v "312876006" ] ;
+         fhir:display [ fhir:v "Taking urethral swab" ]
+       ] [
+         fhir:code [ fhir:v "312879004" ] ;
+         fhir:display [ fhir:v "Taking ear swab" ]
+       ] [
+         fhir:code [ fhir:v "312965008" ] ;
+         fhir:display [ fhir:v "Laser assisted in situ keratomileusis" ]
+       ] [
+         fhir:code [ fhir:v "312968005" ] ;
+         fhir:display [ fhir:v "Excision biopsy of skin lesion" ]
+       ] [
+         fhir:code [ fhir:v "313039003" ] ;
+         fhir:display [ fhir:v "Solid organ transplant" ]
+       ] [
+         fhir:code [ fhir:v "313270001" ] ;
+         fhir:display [ fhir:v "Percutaneous insertion of nephrostomy tube" ]
+       ] [
+         fhir:code [ fhir:v "314128006" ] ;
+         fhir:display [ fhir:v "Laparoscopic Nissen fundoplication using abdominal approach" ]
+       ] [
+         fhir:code [ fhir:v "31501000" ] ;
+         fhir:display [ fhir:v "Ethmoid sinusectomy" ]
+       ] [
+         fhir:code [ fhir:v "315059002" ] ;
+         fhir:display [ fhir:v "Laparoscopic salpingectomy" ]
+       ] [
+         fhir:code [ fhir:v "315308008" ] ;
+         fhir:display [ fhir:v "Dilatation of cervix for delivery" ]
+       ] [
+         fhir:code [ fhir:v "31932005" ] ;
+         fhir:display [ fhir:v "Tympanomastoidectomy" ]
+       ] [
+         fhir:code [ fhir:v "32413006" ] ;
+         fhir:display [ fhir:v "Transplantation of heart" ]
+       ] [
+         fhir:code [ fhir:v "32477003" ] ;
+         fhir:display [ fhir:v "Heart-lung transplant with recipient cardiectomy-pneumonectomy" ]
+       ] [
+         fhir:code [ fhir:v "3249005" ] ;
+         fhir:display [ fhir:v "Surgical construction of filtration bleb" ]
+       ] [
+         fhir:code [ fhir:v "33149006" ] ;
+         fhir:display [ fhir:v "Pancreatectomy" ]
+       ] [
+         fhir:code [ fhir:v "33195004" ] ;
+         fhir:display [ fhir:v "External beam radiation therapy procedure" ]
+       ] [
+         fhir:code [ fhir:v "33496007" ] ;
+         fhir:display [ fhir:v "Mammoplasty" ]
+       ] [
+         fhir:code [ fhir:v "34068001" ] ;
+         fhir:display [ fhir:v "Heart valve replacement" ]
+       ] [
+         fhir:code [ fhir:v "3418002" ] ;
+         fhir:display [ fhir:v "Chondrectomy of spine" ]
+       ] [
+         fhir:code [ fhir:v "34238000" ] ;
+         fhir:display [ fhir:v "Lumbar and lumbosacral fusion by posterior technique" ]
+       ] [
+         fhir:code [ fhir:v "34536000" ] ;
+         fhir:display [ fhir:v "Amniocentesis" ]
+       ] [
+         fhir:code [ fhir:v "34853001" ] ;
+         fhir:display [ fhir:v "Operation on intestine" ]
+       ] [
+         fhir:code [ fhir:v "34969007" ] ;
+         fhir:display [ fhir:v "Operation on retroperitoneum" ]
+       ] [
+         fhir:code [ fhir:v "3515001" ] ;
+         fhir:display [ fhir:v "Replacement of electronic heart device, pulse generator" ]
+       ] [
+         fhir:code [ fhir:v "35350000" ] ;
+         fhir:display [ fhir:v "Implantation of aortic valve prosthesis or synthetic device" ]
+       ] [
+         fhir:code [ fhir:v "35646002" ] ;
+         fhir:display [ fhir:v "Excision of lesion of skin" ]
+       ] [
+         fhir:code [ fhir:v "35860002" ] ;
+         fhir:display [ fhir:v "Repair by nailing" ]
+       ] [
+         fhir:code [ fhir:v "359551000" ] ;
+         fhir:display [ fhir:v "Angioplasty of vein" ]
+       ] [
+         fhir:code [ fhir:v "359608009" ] ;
+         fhir:display [ fhir:v "Implantation of cochlear prosthetic device, electrode and receiver" ]
+       ] [
+         fhir:code [ fhir:v "359612003" ] ;
+         fhir:display [ fhir:v "Implantation of cochlear prosthetic device" ]
+       ] [
+         fhir:code [ fhir:v "359623004" ] ;
+         fhir:display [ fhir:v "Total lobectomy of lung" ]
+       ] [
+         fhir:code [ fhir:v "35963001" ] ;
+         fhir:display [ fhir:v "Removal of staples" ]
+       ] [
+         fhir:code [ fhir:v "359715005" ] ;
+         fhir:display [ fhir:v "Upper gastrointestinal procedure" ]
+       ] [
+         fhir:code [ fhir:v "359718007" ] ;
+         fhir:display [ fhir:v "Upper digestive tract operation" ]
+       ] [
+         fhir:code [ fhir:v "359722002" ] ;
+         fhir:display [ fhir:v "Upper gastrointestinal operation" ]
+       ] [
+         fhir:code [ fhir:v "359887003" ] ;
+         fhir:display [ fhir:v "Nissen fundoplication" ]
+       ] [
+         fhir:code [ fhir:v "359901001" ] ;
+         fhir:display [ fhir:v "Neuroplasty and transposition of median nerve at carpal tunnel" ]
+       ] [
+         fhir:code [ fhir:v "359908007" ] ;
+         fhir:display [ fhir:v "Repair of paraesophageal diaphragmatic hernia" ]
+       ] [
+         fhir:code [ fhir:v "361222003" ] ;
+         fhir:display [ fhir:v "Wertheim-Meigs abdominal hysterectomy" ]
+       ] [
+         fhir:code [ fhir:v "361223008" ] ;
+         fhir:display [ fhir:v "Wertheim operation" ]
+       ] [
+         fhir:code [ fhir:v "36228007" ] ;
+         fhir:display [ fhir:v "Ophthalmic examination and evaluation" ]
+       ] [
+         fhir:code [ fhir:v "362958002" ] ;
+         fhir:display [ fhir:v "Procedure by site" ]
+       ] [
+         fhir:code [ fhir:v "363066000" ] ;
+         fhir:display [ fhir:v "Destructive procedure by anatomic site" ]
+       ] [
+         fhir:code [ fhir:v "363187007" ] ;
+         fhir:display [ fhir:v "Limb operation" ]
+       ] [
+         fhir:code [ fhir:v "363259005" ] ;
+         fhir:display [ fhir:v "Patient management procedure" ]
+       ] [
+         fhir:code [ fhir:v "363691001" ] ;
+         fhir:display [ fhir:v "Procedure categorized by device involved" ]
+       ] [
+         fhir:code [ fhir:v "36576007" ] ;
+         fhir:display [ fhir:v "Infusion" ]
+       ] [
+         fhir:code [ fhir:v "367336001" ] ;
+         fhir:display [ fhir:v "Chemotherapy" ]
+       ] [
+         fhir:code [ fhir:v "36969009" ] ;
+         fhir:display [ fhir:v "Placement of stent in coronary artery" ]
+       ] [
+         fhir:code [ fhir:v "36995006" ] ;
+         fhir:display [ fhir:v "Drainage of external ear" ]
+       ] [
+         fhir:code [ fhir:v "37053006" ] ;
+         fhir:display [ fhir:v "Open reduction of fracture of humerus with internal fixation" ]
+       ] [
+         fhir:code [ fhir:v "370611004" ] ;
+         fhir:display [ fhir:v "Excision of malignant neoplasm" ]
+       ] [
+         fhir:code [ fhir:v "370612006" ] ;
+         fhir:display [ fhir:v "Excision of neoplasm" ]
+       ] [
+         fhir:code [ fhir:v "371186005" ] ;
+         fhir:display [ fhir:v "Amputation of toe" ]
+       ] [
+         fhir:code [ fhir:v "3713005" ] ;
+         fhir:display [ fhir:v "Release for de Quervain's tenosynovitis of hand" ]
+       ] [
+         fhir:code [ fhir:v "371345007" ] ;
+         fhir:display [ fhir:v "Laser iridotomy" ]
+       ] [
+         fhir:code [ fhir:v "37153009" ] ;
+         fhir:display [ fhir:v "Implantation of heart valve with tissue graft" ]
+       ] [
+         fhir:code [ fhir:v "372246008" ] ;
+         fhir:display [ fhir:v "Intracranial procedure" ]
+       ] [
+         fhir:code [ fhir:v "37236007" ] ;
+         fhir:display [ fhir:v "Dermabrasion" ]
+       ] [
+         fhir:code [ fhir:v "372456005" ] ;
+         fhir:display [ fhir:v "Repair of obstetric laceration" ]
+       ] [
+         fhir:code [ fhir:v "373353005" ] ;
+         fhir:display [ fhir:v "Surgical procedure on eye proper" ]
+       ] [
+         fhir:code [ fhir:v "373385008" ] ;
+         fhir:display [ fhir:v "Surgical repair of head and neck structure" ]
+       ] [
+         fhir:code [ fhir:v "373415004" ] ;
+         fhir:display [ fhir:v "Implantation of posterior chamber intraocular lens" ]
+       ] [
+         fhir:code [ fhir:v "37508003" ] ;
+         fhir:display [ fhir:v "Operation on neck" ]
+       ] [
+         fhir:code [ fhir:v "37661000" ] ;
+         fhir:display [ fhir:v "Operation on digestive tract" ]
+       ] [
+         fhir:code [ fhir:v "37705003" ] ;
+         fhir:display [ fhir:v "Collection of sputum" ]
+       ] [
+         fhir:code [ fhir:v "38102005" ] ;
+         fhir:display [ fhir:v "Cholecystectomy" ]
+       ] [
+         fhir:code [ fhir:v "384641003" ] ;
+         fhir:display [ fhir:v "Repair of mitral valve" ]
+       ] [
+         fhir:code [ fhir:v "384642005" ] ;
+         fhir:display [ fhir:v "Mitral valvuloplasty" ]
+       ] [
+         fhir:code [ fhir:v "384643000" ] ;
+         fhir:display [ fhir:v "Repair of tricuspid valve" ]
+       ] [
+         fhir:code [ fhir:v "384676001" ] ;
+         fhir:display [ fhir:v "Operation on mouth" ]
+       ] [
+         fhir:code [ fhir:v "384692006" ] ;
+         fhir:display [ fhir:v "Intracavitary brachytherapy" ]
+       ] [
+         fhir:code [ fhir:v "384719006" ] ;
+         fhir:display [ fhir:v "Procedure on gastrointestinal tract" ]
+       ] [
+         fhir:code [ fhir:v "384723003" ] ;
+         fhir:display [ fhir:v "Radical mastectomy" ]
+       ] [
+         fhir:code [ fhir:v "38526002" ] ;
+         fhir:display [ fhir:v "Vaginoscopy with biopsy of cervix" ]
+       ] [
+         fhir:code [ fhir:v "385468004" ] ;
+         fhir:display [ fhir:v "Cataract extraction and insertion of intraocular lens" ]
+       ] [
+         fhir:code [ fhir:v "385487005" ] ;
+         fhir:display [ fhir:v "Surgical procedure on thorax" ]
+       ] [
+         fhir:code [ fhir:v "385488000" ] ;
+         fhir:display [ fhir:v "Surgical procedure on chest wall" ]
+       ] [
+         fhir:code [ fhir:v "385712009" ] ;
+         fhir:display [ fhir:v "Ostomy care" ]
+       ] [
+         fhir:code [ fhir:v "385715006" ] ;
+         fhir:display [ fhir:v "Cardiac care" ]
+       ] [
+         fhir:code [ fhir:v "385759002" ] ;
+         fhir:display [ fhir:v "Provision of community special services" ]
+       ] [
+         fhir:code [ fhir:v "385904005" ] ;
+         fhir:display [ fhir:v "Removal of ear wax" ]
+       ] [
+         fhir:code [ fhir:v "385984007" ] ;
+         fhir:display [ fhir:v "Growth and development treatments and procedures" ]
+       ] [
+         fhir:code [ fhir:v "386087005" ] ;
+         fhir:display [ fhir:v "Collection of aspirated sputum" ]
+       ] [
+         fhir:code [ fhir:v "386089008" ] ;
+         fhir:display [ fhir:v "Collection of coughed sputum" ]
+       ] [
+         fhir:code [ fhir:v "386099003" ] ;
+         fhir:display [ fhir:v "Spot urine procedure" ]
+       ] [
+         fhir:code [ fhir:v "386230005" ] ;
+         fhir:display [ fhir:v "Case management" ]
+       ] [
+         fhir:code [ fhir:v "386333005" ] ;
+         fhir:display [ fhir:v "Infant care" ]
+       ] [
+         fhir:code [ fhir:v "386340006" ] ;
+         fhir:display [ fhir:v "Intravenous therapy" ]
+       ] [
+         fhir:code [ fhir:v "386556002" ] ;
+         fhir:display [ fhir:v "Repair of middle ear" ]
+       ] [
+         fhir:code [ fhir:v "386607008" ] ;
+         fhir:display [ fhir:v "Iridotomy" ]
+       ] [
+         fhir:code [ fhir:v "386609006" ] ;
+         fhir:display [ fhir:v "Procedure on vein" ]
+       ] [
+         fhir:code [ fhir:v "386621005" ] ;
+         fhir:display [ fhir:v "Operation on gastrointestinal tract" ]
+       ] [
+         fhir:code [ fhir:v "386637004" ] ;
+         fhir:display [ fhir:v "Obstetric procedure" ]
+       ] [
+         fhir:code [ fhir:v "386638009" ] ;
+         fhir:display [ fhir:v "Obstetric operation" ]
+       ] [
+         fhir:code [ fhir:v "386649003" ] ;
+         fhir:display [ fhir:v "Partial hip replacement by prosthesis" ]
+       ] [
+         fhir:code [ fhir:v "386718000" ] ;
+         fhir:display [ fhir:v "Endoscopic retrograde cholangiopancreatography" ]
+       ] [
+         fhir:code [ fhir:v "386745004" ] ;
+         fhir:display [ fhir:v "Transurethral cystoscopy" ]
+       ] [
+         fhir:code [ fhir:v "386765006" ] ;
+         fhir:display [ fhir:v "Operation on mediastinum" ]
+       ] [
+         fhir:code [ fhir:v "386792000" ] ;
+         fhir:display [ fhir:v "Transurethral resection of bladder neoplasm" ]
+       ] [
+         fhir:code [ fhir:v "386802000" ] ;
+         fhir:display [ fhir:v "Endometrial biopsy" ]
+       ] [
+         fhir:code [ fhir:v "387643005" ] ;
+         fhir:display [ fhir:v "Partial hysterectomy" ]
+       ] [
+         fhir:code [ fhir:v "387644004" ] ;
+         fhir:display [ fhir:v "Supracervical hysterectomy" ]
+       ] [
+         fhir:code [ fhir:v "387711001" ] ;
+         fhir:display [ fhir:v "Pubiotomy to assist delivery" ]
+       ] [
+         fhir:code [ fhir:v "387713003" ] ;
+         fhir:display [ fhir:v "Surgical procedure" ]
+       ] [
+         fhir:code [ fhir:v "387714009" ] ;
+         fhir:display [ fhir:v "Operation on lung" ]
+       ] [
+         fhir:code [ fhir:v "387715005" ] ;
+         fhir:display [ fhir:v "Peritoneal lavage" ]
+       ] [
+         fhir:code [ fhir:v "387731002" ] ;
+         fhir:display [ fhir:v "Laminectomy" ]
+       ] [
+         fhir:code [ fhir:v "387740003" ] ;
+         fhir:display [ fhir:v "Removal of ovarian cyst" ]
+       ] [
+         fhir:code [ fhir:v "387760006" ] ;
+         fhir:display [ fhir:v "Infusion care" ]
+       ] [
+         fhir:code [ fhir:v "38829003" ] ;
+         fhir:display [ fhir:v "Partial excision" ]
+       ] [
+         fhir:code [ fhir:v "389095005" ] ;
+         fhir:display [ fhir:v "Contraception care" ]
+       ] [
+         fhir:code [ fhir:v "390906007" ] ;
+         fhir:display [ fhir:v "Follow-up encounter" ]
+       ] [
+         fhir:code [ fhir:v "391897002" ] ;
+         fhir:display [ fhir:v "Aspiration curettage of uterus for termination of pregnancy" ]
+       ] [
+         fhir:code [ fhir:v "391998006" ] ;
+         fhir:display [ fhir:v "Dilation and curettage of uterus after delivery" ]
+       ] [
+         fhir:code [ fhir:v "392000009" ] ;
+         fhir:display [ fhir:v "Hysterotomy for retained placenta" ]
+       ] [
+         fhir:code [ fhir:v "392003006" ] ;
+         fhir:display [ fhir:v "Colposcopy" ]
+       ] [
+         fhir:code [ fhir:v "392011001" ] ;
+         fhir:display [ fhir:v "Operation on skin" ]
+       ] [
+         fhir:code [ fhir:v "39202005" ] ;
+         fhir:display [ fhir:v "Coronary artery bypass with autogenous graft, four grafts" ]
+       ] [
+         fhir:code [ fhir:v "392021009" ] ;
+         fhir:display [ fhir:v "Lumpectomy of breast" ]
+       ] [
+         fhir:code [ fhir:v "392031002" ] ;
+         fhir:display [ fhir:v "Endarterectomy" ]
+       ] [
+         fhir:code [ fhir:v "392048005" ] ;
+         fhir:display [ fhir:v "Operation on urinary system" ]
+       ] [
+         fhir:code [ fhir:v "392090004" ] ;
+         fhir:display [ fhir:v "Operation on breast" ]
+       ] [
+         fhir:code [ fhir:v "392134007" ] ;
+         fhir:display [ fhir:v "Care regimes management" ]
+       ] [
+         fhir:code [ fhir:v "392230005" ] ;
+         fhir:display [ fhir:v "Catheterization of vein" ]
+       ] [
+         fhir:code [ fhir:v "392236004" ] ;
+         fhir:display [ fhir:v "Operative procedure on spinal structure" ]
+       ] [
+         fhir:code [ fhir:v "392446004" ] ;
+         fhir:display [ fhir:v "Attention to device, anastomosis AND/OR stoma" ]
+       ] [
+         fhir:code [ fhir:v "395218007" ] ;
+         fhir:display [ fhir:v "Implantation of internal cardiac defibrillator" ]
+       ] [
+         fhir:code [ fhir:v "395321006" ] ;
+         fhir:display [ fhir:v "Foley catheter long term use" ]
+       ] [
+         fhir:code [ fhir:v "39633000" ] ;
+         fhir:display [ fhir:v "Amputation of hallux" ]
+       ] [
+         fhir:code [ fhir:v "396490007" ] ;
+         fhir:display [ fhir:v "Myringoplasty" ]
+       ] [
+         fhir:code [ fhir:v "397117006" ] ;
+         fhir:display [ fhir:v "Amputation of lower limb" ]
+       ] [
+         fhir:code [ fhir:v "397193006" ] ;
+         fhir:display [ fhir:v "Percutaneous transluminal coronary angioplasty by rotoablation" ]
+       ] [
+         fhir:code [ fhir:v "397395005" ] ;
+         fhir:display [ fhir:v "Lavage of bronchus" ]
+       ] [
+         fhir:code [ fhir:v "397431004" ] ;
+         fhir:display [ fhir:v "Percutaneous transluminal coronary angioplasty with rotoablation, single vessel" ]
+       ] [
+         fhir:code [ fhir:v "397516006" ] ;
+         fhir:display [ fhir:v "Photorefractive keratoplasty" ]
+       ] [
+         fhir:code [ fhir:v "397760009" ] ;
+         fhir:display [ fhir:v "Tympanotomy" ]
+       ] [
+         fhir:code [ fhir:v "397862008" ] ;
+         fhir:display [ fhir:v "Tympanostomy" ]
+       ] [
+         fhir:code [ fhir:v "398010007" ] ;
+         fhir:display [ fhir:v "Prosthetic arthroplasty of hip" ]
+       ] [
+         fhir:code [ fhir:v "398027004" ] ;
+         fhir:display [ fhir:v "Excision of varicose vein of lower limb" ]
+       ] [
+         fhir:code [ fhir:v "398182006" ] ;
+         fhir:display [ fhir:v "Insertion of inferior vena caval filter" ]
+       ] [
+         fhir:code [ fhir:v "39845007" ] ;
+         fhir:display [ fhir:v "Anterior colporrhaphy" ]
+       ] [
+         fhir:code [ fhir:v "398740003" ] ;
+         fhir:display [ fhir:v "Colostomy" ]
+       ] [
+         fhir:code [ fhir:v "399141000" ] ;
+         fhir:display [ fhir:v "Male sterilization" ]
+       ] [
+         fhir:code [ fhir:v "399315003" ] ;
+         fhir:display [ fhir:v "Radionuclide therapy" ]
+       ] [
+         fhir:code [ fhir:v "399867007" ] ;
+         fhir:display [ fhir:v "Laser photocoagulation to retina" ]
+       ] [
+         fhir:code [ fhir:v "400053006" ] ;
+         fhir:display [ fhir:v "Amputation of limb" ]
+       ] [
+         fhir:code [ fhir:v "40059006" ] ;
+         fhir:display [ fhir:v "Creation of aortofemoral shunt" ]
+       ] [
+         fhir:code [ fhir:v "40219000" ] ;
+         fhir:display [ fhir:v "Delivery by Malstrom's extraction with episiotomy" ]
+       ] [
+         fhir:code [ fhir:v "40250003" ] ;
+         fhir:display [ fhir:v "Interatrial transposition of venous return" ]
+       ] [
+         fhir:code [ fhir:v "405525004" ] ;
+         fhir:display [ fhir:v "Repair of aneurysm of abdominal aorta" ]
+       ] [
+         fhir:code [ fhir:v "405784000" ] ;
+         fhir:display [ fhir:v "Pharmacological assessment" ]
+       ] [
+         fhir:code [ fhir:v "40617009" ] ;
+         fhir:display [ fhir:v "Artificial respiration" ]
+       ] [
+         fhir:code [ fhir:v "406224006" ] ;
+         fhir:display [ fhir:v "Reproductive care" ]
+       ] [
+         fhir:code [ fhir:v "406505007" ] ;
+         fhir:display [ fhir:v "Modified radical mastectomy" ]
+       ] [
+         fhir:code [ fhir:v "40654000" ] ;
+         fhir:display [ fhir:v "Operation on eyelid" ]
+       ] [
+         fhir:code [ fhir:v "40862005" ] ;
+         fhir:display [ fhir:v "Local excision of skin and subcutaneous tissue" ]
+       ] [
+         fhir:code [ fhir:v "408817009" ] ;
+         fhir:display [ fhir:v "Amniotomy at delivery" ]
+       ] [
+         fhir:code [ fhir:v "409023009" ] ;
+         fhir:display [ fhir:v "Professional / ancillary services care" ]
+       ] [
+         fhir:code [ fhir:v "409061007" ] ;
+         fhir:display [ fhir:v "Caretaking/parenting skills treatments and procedures" ]
+       ] [
+         fhir:code [ fhir:v "410083007" ] ;
+         fhir:display [ fhir:v "Rehabilitation therapy management" ]
+       ] [
+         fhir:code [ fhir:v "41059002" ] ;
+         fhir:display [ fhir:v "Cesarean hysterectomy" ]
+       ] [
+         fhir:code [ fhir:v "410614008" ] ;
+         fhir:display [ fhir:v "Construction" ]
+       ] [
+         fhir:code [ fhir:v "413144006" ] ;
+         fhir:display [ fhir:v "Abdominal hysterectomy with conservation of ovaries" ]
+       ] [
+         fhir:code [ fhir:v "41339005" ] ;
+         fhir:display [ fhir:v "Coronary angioplasty" ]
+       ] [
+         fhir:code [ fhir:v "413467001" ] ;
+         fhir:display [ fhir:v "Aftercare" ]
+       ] [
+         fhir:code [ fhir:v "41371003" ] ;
+         fhir:display [ fhir:v "Perineal prostatectomy" ]
+       ] [
+         fhir:code [ fhir:v "414088005" ] ;
+         fhir:display [ fhir:v "Emergency CABG" ]
+       ] [
+         fhir:code [ fhir:v "41453009" ] ;
+         fhir:display [ fhir:v "Strabismus surgery" ]
+       ] [
+         fhir:code [ fhir:v "414582004" ] ;
+         fhir:display [ fhir:v "Laser assisted subepithelial keratomileusis" ]
+       ] [
+         fhir:code [ fhir:v "415070008" ] ;
+         fhir:display [ fhir:v "Percutaneous coronary intervention" ]
+       ] [
+         fhir:code [ fhir:v "41817002" ] ;
+         fhir:display [ fhir:v "Closure of patent foramen ovale" ]
+       ] [
+         fhir:code [ fhir:v "418285008" ] ;
+         fhir:display [ fhir:v "Angioplasty of blood vessel" ]
+       ] [
+         fhir:code [ fhir:v "418576007" ] ;
+         fhir:display [ fhir:v "Harvesting of peripheral blood stem cells" ]
+       ] [
+         fhir:code [ fhir:v "418926001" ] ;
+         fhir:display [ fhir:v "Harvesting of stem cells" ]
+       ] [
+         fhir:code [ fhir:v "41976001" ] ;
+         fhir:display [ fhir:v "Cardiac catheterization" ]
+       ] [
+         fhir:code [ fhir:v "42034009" ] ;
+         fhir:display [ fhir:v "Enterostomy management and care" ]
+       ] [
+         fhir:code [ fhir:v "42101009" ] ;
+         fhir:display [ fhir:v "Penetrating keratoplasty" ]
+       ] [
+         fhir:code [ fhir:v "42262007" ] ;
+         fhir:display [ fhir:v "Total shoulder replacement" ]
+       ] [
+         fhir:code [ fhir:v "423827005" ] ;
+         fhir:display [ fhir:v "Endoscopy" ]
+       ] [
+         fhir:code [ fhir:v "424525001" ] ;
+         fhir:display [ fhir:v "Antenatal care" ]
+       ] [
+         fhir:code [ fhir:v "425196008" ] ;
+         fhir:display [ fhir:v "Insertion of peripherally inserted central catheter" ]
+       ] [
+         fhir:code [ fhir:v "425435003" ] ;
+         fhir:display [ fhir:v "Implantation of cardioverter defibrillator with one electrode lead" ]
+       ] [
+         fhir:code [ fhir:v "425767004" ] ;
+         fhir:display [ fhir:v "Implantation of radioactive seed into prostate" ]
+       ] [
+         fhir:code [ fhir:v "425843001" ] ;
+         fhir:display [ fhir:v "Allogeneic peripheral blood stem cell transplant" ]
+       ] [
+         fhir:code [ fhir:v "425934009" ] ;
+         fhir:display [ fhir:v "Cardioverter defibrillator procedure" ]
+       ] [
+         fhir:code [ fhir:v "425983008" ] ;
+         fhir:display [ fhir:v "Autologous peripheral blood stem cell transplant" ]
+       ] [
+         fhir:code [ fhir:v "426153007" ] ;
+         fhir:display [ fhir:v "Insertion of artificial airway" ]
+       ] [
+         fhir:code [ fhir:v "426931009" ] ;
+         fhir:display [ fhir:v "Subacute bacterial endocarditis prophylaxis" ]
+       ] [
+         fhir:code [ fhir:v "427107006" ] ;
+         fhir:display [ fhir:v "Excision of accessory uterus" ]
+       ] [
+         fhir:code [ fhir:v "427508005" ] ;
+         fhir:display [ fhir:v "Implantation of cardioverter defibrillator with two electrode leads" ]
+       ] [
+         fhir:code [ fhir:v "427752004" ] ;
+         fhir:display [ fhir:v "Excision of lamina of lumbar vertebra for decompression of spinal cord" ]
+       ] [
+         fhir:code [ fhir:v "427886002" ] ;
+         fhir:display [ fhir:v "Total cavopulmonary connection with lateral atrial tunnel" ]
+       ] [
+         fhir:code [ fhir:v "428488008" ] ;
+         fhir:display [ fhir:v "Placement of stent in anterior descending branch of left coronary artery" ]
+       ] [
+         fhir:code [ fhir:v "428613004" ] ;
+         fhir:display [ fhir:v "Correction of congenital cardiovascular deformity" ]
+       ] [
+         fhir:code [ fhir:v "428625001" ] ;
+         fhir:display [ fhir:v "Replacement of cardioverter defibrillator" ]
+       ] [
+         fhir:code [ fhir:v "428663009" ] ;
+         fhir:display [ fhir:v "Ablation of atrioventricular node" ]
+       ] [
+         fhir:code [ fhir:v "428817001" ] ;
+         fhir:display [ fhir:v "Insertion of stent into ureter" ]
+       ] [
+         fhir:code [ fhir:v "428989006" ] ;
+         fhir:display [ fhir:v "Operation on ganglion cyst" ]
+       ] [
+         fhir:code [ fhir:v "429446009" ] ;
+         fhir:display [ fhir:v "Insertion of catheter into blood vessel" ]
+       ] [
+         fhir:code [ fhir:v "429595007" ] ;
+         fhir:display [ fhir:v "Resection of neoplasm of heart" ]
+       ] [
+         fhir:code [ fhir:v "429616001" ] ;
+         fhir:display [ fhir:v "Aortopulmonary reconstruction with right ventricle to pulmonary arterial valveless conduit" ]
+       ] [
+         fhir:code [ fhir:v "429620002" ] ;
+         fhir:display [ fhir:v "Construction of left ventricle to aorta tunnel with right ventricle to pulmonary artery valved conduit" ]
+       ] [
+         fhir:code [ fhir:v "429639007" ] ;
+         fhir:display [ fhir:v "Percutaneous transluminal balloon angioplasty with insertion of stent into coronary artery" ]
+       ] [
+         fhir:code [ fhir:v "429653007" ] ;
+         fhir:display [ fhir:v "Repair of reducible inguinal hernia" ]
+       ] [
+         fhir:code [ fhir:v "430715008" ] ;
+         fhir:display [ fhir:v "Bariatric operative procedure" ]
+       ] [
+         fhir:code [ fhir:v "43075005" ] ;
+         fhir:display [ fhir:v "Partial resection of colon" ]
+       ] [
+         fhir:code [ fhir:v "431316002" ] ;
+         fhir:display [ fhir:v "Laparoscopic subtotal hysterectomy" ]
+       ] [
+         fhir:code [ fhir:v "431339008" ] ;
+         fhir:display [ fhir:v "Mechanical prosthetic mitral valve replacement" ]
+       ] [
+         fhir:code [ fhir:v "432102000" ] ;
+         fhir:display [ fhir:v "Administration of substance" ]
+       ] [
+         fhir:code [ fhir:v "432114008" ] ;
+         fhir:display [ fhir:v "Closure of atrial septal defect using fluoroscopic guidance" ]
+       ] [
+         fhir:code [ fhir:v "432394003" ] ;
+         fhir:display [ fhir:v "Repair of mitral valve using fluoroscopic guidance" ]
+       ] [
+         fhir:code [ fhir:v "432670006" ] ;
+         fhir:display [ fhir:v "Closure of patent foramen ovale using fluoroscopic guidance" ]
+       ] [
+         fhir:code [ fhir:v "4365001" ] ;
+         fhir:display [ fhir:v "Surgical repair" ]
+       ] [
+         fhir:code [ fhir:v "43815004" ] ;
+         fhir:display [ fhir:v "Implantation of cochlear prosthetic device, single channel" ]
+       ] [
+         fhir:code [ fhir:v "439740005" ] ;
+         fhir:display [ fhir:v "Postoperative follow-up visit" ]
+       ] [
+         fhir:code [ fhir:v "439958008" ] ;
+         fhir:display [ fhir:v "Sampling of cervix for Papanicolaou smear" ]
+       ] [
+         fhir:code [ fhir:v "44119001" ] ;
+         fhir:display [ fhir:v "Anastomosis of small intestine to small intestine" ]
+       ] [
+         fhir:code [ fhir:v "441612006" ] ;
+         fhir:display [ fhir:v "Repair of infrarenal abdominal aortic aneurysm with insertion of endovascular stent" ]
+       ] [
+         fhir:code [ fhir:v "44166002" ] ;
+         fhir:display [ fhir:v "Radical excision of skin lesion" ]
+       ] [
+         fhir:code [ fhir:v "441676000" ] ;
+         fhir:display [ fhir:v "Occlusion of patent ductus arteriosus using embolization coil" ]
+       ] [
+         fhir:code [ fhir:v "441873006" ] ;
+         fhir:display [ fhir:v "Percutaneous replacement of aortic valve using fluoroscopic guidance" ]
+       ] [
+         fhir:code [ fhir:v "442087005" ] ;
+         fhir:display [ fhir:v "Closure of ventricular septal defect using fluoroscopic guidance" ]
+       ] [
+         fhir:code [ fhir:v "442123009" ] ;
+         fhir:display [ fhir:v "Sano procedure" ]
+       ] [
+         fhir:code [ fhir:v "44218004" ] ;
+         fhir:display [ fhir:v "Implantation of cochlear electrode" ]
+       ] [
+         fhir:code [ fhir:v "442249009" ] ;
+         fhir:display [ fhir:v "Implantation of cardioverter defibrillator with three electrode leads" ]
+       ] [
+         fhir:code [ fhir:v "442309004" ] ;
+         fhir:display [ fhir:v "Insertion of tunnelled venous catheter" ]
+       ] [
+         fhir:code [ fhir:v "442460002" ] ;
+         fhir:display [ fhir:v "Procedure on wound" ]
+       ] [
+         fhir:code [ fhir:v "442558001" ] ;
+         fhir:display [ fhir:v "Partial amputation of hand" ]
+       ] [
+         fhir:code [ fhir:v "44337006" ] ;
+         fhir:display [ fhir:v "Incision of gallbladder" ]
+       ] [
+         fhir:code [ fhir:v "443434006" ] ;
+         fhir:display [ fhir:v "Replacement of dual chamber pulse generator" ]
+       ] [
+         fhir:code [ fhir:v "443681002" ] ;
+         fhir:display [ fhir:v "Total replacement of left knee joint" ]
+       ] [
+         fhir:code [ fhir:v "443682009" ] ;
+         fhir:display [ fhir:v "Total replacement of right knee joint" ]
+       ] [
+         fhir:code [ fhir:v "44378008" ] ;
+         fhir:display [ fhir:v "Partial colectomy with anastomosis" ]
+       ] [
+         fhir:code [ fhir:v "443829004" ] ;
+         fhir:display [ fhir:v "Percutaneous transluminal balloon angioplasty of coarctation of aorta with insertion of stent" ]
+       ] [
+         fhir:code [ fhir:v "443887000" ] ;
+         fhir:display [ fhir:v "Transapical implantation of aortic valve" ]
+       ] [
+         fhir:code [ fhir:v "443906008" ] ;
+         fhir:display [ fhir:v "Bypass of stomach with short limb Roux-en-Y gastroenterostomy" ]
+       ] [
+         fhir:code [ fhir:v "443989003" ] ;
+         fhir:display [ fhir:v "Bidirectional Glenn shunt procedure of left superior vena cava" ]
+       ] [
+         fhir:code [ fhir:v "444001009" ] ;
+         fhir:display [ fhir:v "Right Glenn shunt procedure" ]
+       ] [
+         fhir:code [ fhir:v "444034006" ] ;
+         fhir:display [ fhir:v "Bidirectional Glenn shunt procedure of right superior vena cava" ]
+       ] [
+         fhir:code [ fhir:v "444178004" ] ;
+         fhir:display [ fhir:v "Left Glenn shunt procedure" ]
+       ] [
+         fhir:code [ fhir:v "44441009" ] ;
+         fhir:display [ fhir:v "Flexible fibreoptic sigmoidoscopy" ]
+       ] [
+         fhir:code [ fhir:v "444566006" ] ;
+         fhir:display [ fhir:v "Replacement of cardiac pacemaker" ]
+       ] [
+         fhir:code [ fhir:v "444588006" ] ;
+         fhir:display [ fhir:v "Endovascular repair of abdominal aortic aneurysm" ]
+       ] [
+         fhir:code [ fhir:v "444783004" ] ;
+         fhir:display [ fhir:v "Screening colonoscopy" ]
+       ] [
+         fhir:code [ fhir:v "444813003" ] ;
+         fhir:display [ fhir:v "Prophylactic immunotherapy" ]
+       ] [
+         fhir:code [ fhir:v "445185007" ] ;
+         fhir:display [ fhir:v "Resurfacing of head of femur" ]
+       ] [
+         fhir:code [ fhir:v "445223007" ] ;
+         fhir:display [ fhir:v "Harvesting of stem cells for allotransplant" ]
+       ] [
+         fhir:code [ fhir:v "445429009" ] ;
+         fhir:display [ fhir:v "Cervical laminectomy" ]
+       ] [
+         fhir:code [ fhir:v "44558001" ] ;
+         fhir:display [ fhir:v "Repair of inguinal hernia" ]
+       ] [
+         fhir:code [ fhir:v "445982009" ] ;
+         fhir:display [ fhir:v "Endoscopy and biopsy of upper gastrointestinal tract" ]
+       ] [
+         fhir:code [ fhir:v "446775007" ] ;
+         fhir:display [ fhir:v "Collection of urine via indwelling urinary catheter" ]
+       ] [
+         fhir:code [ fhir:v "446860008" ] ;
+         fhir:display [ fhir:v "Collection of cerebrospinal fluid via ventriculoperitoneal shunt" ]
+       ] [
+         fhir:code [ fhir:v "44777001" ] ;
+         fhir:display [ fhir:v "Creation of conduit between right ventricle and pulmonary artery" ]
+       ] [
+         fhir:code [ fhir:v "448808006" ] ;
+         fhir:display [ fhir:v "Fusion of cervicothoracic region of spine by anterior approach" ]
+       ] [
+         fhir:code [ fhir:v "448942003" ] ;
+         fhir:display [ fhir:v "Fusion of lumbosacral region of spine by posterior approach" ]
+       ] [
+         fhir:code [ fhir:v "448943008" ] ;
+         fhir:display [ fhir:v "Fusion of thoracolumbar region of spine by anterior approach" ]
+       ] [
+         fhir:code [ fhir:v "448944002" ] ;
+         fhir:display [ fhir:v "Fusion of thoracolumbar region of spine by posterior approach" ]
+       ] [
+         fhir:code [ fhir:v "449048009" ] ;
+         fhir:display [ fhir:v "Fusion of lumbosacral region of spine by anterior approach" ]
+       ] [
+         fhir:code [ fhir:v "449320003" ] ;
+         fhir:display [ fhir:v "Ligation and stripping of varicose vein of lower limb" ]
+       ] [
+         fhir:code [ fhir:v "449389000" ] ;
+         fhir:display [ fhir:v "Placement of stent in cardiac conduit" ]
+       ] [
+         fhir:code [ fhir:v "44946007" ] ;
+         fhir:display [ fhir:v "Repair of umbilical hernia" ]
+       ] [
+         fhir:code [ fhir:v "450350009" ] ;
+         fhir:display [ fhir:v "Primary repair of cleft palate" ]
+       ] [
+         fhir:code [ fhir:v "450779000" ] ;
+         fhir:display [ fhir:v "Uncemented total replacement of joint" ]
+       ] [
+         fhir:code [ fhir:v "450874000" ] ;
+         fhir:display [ fhir:v "Collection of first stream urine specimen" ]
+       ] [
+         fhir:code [ fhir:v "45211000" ] ;
+         fhir:display [ fhir:v "Catheterization" ]
+       ] [
+         fhir:code [ fhir:v "45595009" ] ;
+         fhir:display [ fhir:v "Laparoscopic cholecystectomy" ]
+       ] [
+         fhir:code [ fhir:v "45681003" ] ;
+         fhir:display [ fhir:v "Incision, exploration and biopsy for determination of stage of disease" ]
+       ] [
+         fhir:code [ fhir:v "45921003" ] ;
+         fhir:display [ fhir:v "Removal of cardiac pacemaker electrodes with replacement" ]
+       ] [
+         fhir:code [ fhir:v "45993005" ] ;
+         fhir:display [ fhir:v "Cholecystectomy with exploration of common duct" ]
+       ] [
+         fhir:code [ fhir:v "46116005" ] ;
+         fhir:display [ fhir:v "Excision of malignant tumour of breast" ]
+       ] [
+         fhir:code [ fhir:v "46681009" ] ;
+         fhir:display [ fhir:v "Cerclage of cervix during pregnancy by abdominal approach" ]
+       ] [
+         fhir:code [ fhir:v "46706006" ] ;
+         fhir:display [ fhir:v "Replacement of intrauterine contraceptive device" ]
+       ] [
+         fhir:code [ fhir:v "47020004" ] ;
+         fhir:display [ fhir:v "Ventriculoperitoneal shunt" ]
+       ] [
+         fhir:code [ fhir:v "47058000" ] ;
+         fhir:display [ fhir:v "Heart transplant with recipient cardiectomy" ]
+       ] [
+         fhir:code [ fhir:v "472917009" ] ;
+         fhir:display [ fhir:v "Collection of device for submission as specimen" ]
+       ] [
+         fhir:code [ fhir:v "47411002" ] ;
+         fhir:display [ fhir:v "Implantation of penile prosthesis" ]
+       ] [
+         fhir:code [ fhir:v "47432005" ] ;
+         fhir:display [ fhir:v "Implantation of heart valve prosthesis or synthetic device" ]
+       ] [
+         fhir:code [ fhir:v "47534009" ] ;
+         fhir:display [ fhir:v "Decompression of median nerve" ]
+       ] [
+         fhir:code [ fhir:v "4770005" ] ;
+         fhir:display [ fhir:v "Colporrhaphy for repair of urethrocele" ]
+       ] [
+         fhir:code [ fhir:v "48387007" ] ;
+         fhir:display [ fhir:v "Incision of trachea" ]
+       ] [
+         fhir:code [ fhir:v "48835001" ] ;
+         fhir:display [ fhir:v "Esophagogastric fundoplasty" ]
+       ] [
+         fhir:code [ fhir:v "49209004" ] ;
+         fhir:display [ fhir:v "Subtotal gastrectomy" ]
+       ] [
+         fhir:code [ fhir:v "49273004" ] ;
+         fhir:display [ fhir:v "Laparoscopy with removal of adnexal structures" ]
+       ] [
+         fhir:code [ fhir:v "49509003" ] ;
+         fhir:display [ fhir:v "Operation on lymphatic structure" ]
+       ] [
+         fhir:code [ fhir:v "49795001" ] ;
+         fhir:display [ fhir:v "Total pneumonectomy" ]
+       ] [
+         fhir:code [ fhir:v "50049003" ] ;
+         fhir:display [ fhir:v "Urostomy management and care" ]
+       ] [
+         fhir:code [ fhir:v "50172003" ] ;
+         fhir:display [ fhir:v "Lumbar spinal fusion" ]
+       ] [
+         fhir:code [ fhir:v "50216001" ] ;
+         fhir:display [ fhir:v "Replacement of mitral valve with tissue graft" ]
+       ] [
+         fhir:code [ fhir:v "50445001" ] ;
+         fhir:display [ fhir:v "Mastoidectomy" ]
+       ] [
+         fhir:code [ fhir:v "50465008" ] ;
+         fhir:display [ fhir:v "Hernia repair" ]
+       ] [
+         fhir:code [ fhir:v "50590007" ] ;
+         fhir:display [ fhir:v "Trephine biopsy" ]
+       ] [
+         fhir:code [ fhir:v "50676004" ] ;
+         fhir:display [ fhir:v "Implantation of cochlear prosthetic device, multiple channels" ]
+       ] [
+         fhir:code [ fhir:v "50807007" ] ;
+         fhir:display [ fhir:v "Femoral-popliteal artery bypass graft with vein" ]
+       ] [
+         fhir:code [ fhir:v "51241000" ] ;
+         fhir:display [ fhir:v "Control of hemorrhage" ]
+       ] [
+         fhir:code [ fhir:v "51302004" ] ;
+         fhir:display [ fhir:v "Turbinectomy" ]
+       ] [
+         fhir:code [ fhir:v "51683002" ] ;
+         fhir:display [ fhir:v "Radial keratotomy" ]
+       ] [
+         fhir:code [ fhir:v "52052004" ] ;
+         fhir:display [ fhir:v "Rehabilitation therapy" ]
+       ] [
+         fhir:code [ fhir:v "52247003" ] ;
+         fhir:display [ fhir:v "Repair of aortic valve with tissue graft" ]
+       ] [
+         fhir:code [ fhir:v "52660002" ] ;
+         fhir:display [ fhir:v "Induced termination of pregnancy following intra-amniotic injection with hysterotomy" ]
+       ] [
+         fhir:code [ fhir:v "52734007" ] ;
+         fhir:display [ fhir:v "Total replacement of hip" ]
+       ] [
+         fhir:code [ fhir:v "52852000" ] ;
+         fhir:display [ fhir:v "Insertion of bilateral breast prostheses" ]
+       ] [
+         fhir:code [ fhir:v "53059001" ] ;
+         fhir:display [ fhir:v "Replacement of mitral valve" ]
+       ] [
+         fhir:code [ fhir:v "53266006" ] ;
+         fhir:display [ fhir:v "Operation on diaphragm" ]
+       ] [
+         fhir:code [ fhir:v "53304009" ] ;
+         fhir:display [ fhir:v "Parathyroidectomy" ]
+       ] [
+         fhir:code [ fhir:v "53442002" ] ;
+         fhir:display [ fhir:v "Gastrectomy" ]
+       ] [
+         fhir:code [ fhir:v "53610001" ] ;
+         fhir:display [ fhir:v "Nasal septoplasty with graft" ]
+       ] [
+         fhir:code [ fhir:v "53958007" ] ;
+         fhir:display [ fhir:v "Harvesting of donor material" ]
+       ] [
+         fhir:code [ fhir:v "53976000" ] ;
+         fhir:display [ fhir:v "Arthrodesis by anterior interbody technique of cervical region below C2 with bone graft" ]
+       ] [
+         fhir:code [ fhir:v "54261007" ] ;
+         fhir:display [ fhir:v "Excision of uterus and supporting structures" ]
+       ] [
+         fhir:code [ fhir:v "5431005" ] ;
+         fhir:display [ fhir:v "Percutaneous transluminal angioplasty" ]
+       ] [
+         fhir:code [ fhir:v "54357003" ] ;
+         fhir:display [ fhir:v "Partial excision of small intestine" ]
+       ] [
+         fhir:code [ fhir:v "54535009" ] ;
+         fhir:display [ fhir:v "Cone biopsy of cervix" ]
+       ] [
+         fhir:code [ fhir:v "54621003" ] ;
+         fhir:display [ fhir:v "Plastic repair with reduction" ]
+       ] [
+         fhir:code [ fhir:v "54866009" ] ;
+         fhir:display [ fhir:v "Initial implantation of cardiac single-chamber device" ]
+       ] [
+         fhir:code [ fhir:v "54885007" ] ;
+         fhir:display [ fhir:v "Extraction of cataract" ]
+       ] [
+         fhir:code [ fhir:v "54956002" ] ;
+         fhir:display [ fhir:v "Gastrostomy" ]
+       ] [
+         fhir:code [ fhir:v "54974006" ] ;
+         fhir:display [ fhir:v "Insertion of permanent pacemaker with transvenous electrodes, ventricular" ]
+       ] [
+         fhir:code [ fhir:v "55162003" ] ;
+         fhir:display [ fhir:v "Tooth extraction" ]
+       ] [
+         fhir:code [ fhir:v "55244002" ] ;
+         fhir:display [ fhir:v "Arthroscopically aided anterior cruciate ligament repair" ]
+       ] [
+         fhir:code [ fhir:v "55253009" ] ;
+         fhir:display [ fhir:v "Replacement of tricuspid valve with tissue graft" ]
+       ] [
+         fhir:code [ fhir:v "55705006" ] ;
+         fhir:display [ fhir:v "Spinal arthrodesis" ]
+       ] [
+         fhir:code [ fhir:v "56060000" ] ;
+         fhir:display [ fhir:v "Repair of musculotendinous cuff of shoulder" ]
+       ] [
+         fhir:code [ fhir:v "56062008" ] ;
+         fhir:display [ fhir:v "Repair of sliding inguinal hernia" ]
+       ] [
+         fhir:code [ fhir:v "56283009" ] ;
+         fhir:display [ fhir:v "Transplantation of small intestine" ]
+       ] [
+         fhir:code [ fhir:v "56306000" ] ;
+         fhir:display [ fhir:v "Cosmetic surgery" ]
+       ] [
+         fhir:code [ fhir:v "56361007" ] ;
+         fhir:display [ fhir:v "Excision of soft tissue" ]
+       ] [
+         fhir:code [ fhir:v "56757003" ] ;
+         fhir:display [ fhir:v "Scraping" ]
+       ] [
+         fhir:code [ fhir:v "56783008" ] ;
+         fhir:display [ fhir:v "Incision AND drainage" ]
+       ] [
+         fhir:code [ fhir:v "57168000" ] ;
+         fhir:display [ fhir:v "Operation on bone" ]
+       ] [
+         fhir:code [ fhir:v "57217008" ] ;
+         fhir:display [ fhir:v "Thompson operation, cleft lip repair" ]
+       ] [
+         fhir:code [ fhir:v "57271003" ] ;
+         fhir:display [ fhir:v "Extraperitoneal cesarean section" ]
+       ] [
+         fhir:code [ fhir:v "57411006" ] ;
+         fhir:display [ fhir:v "Colpoperineorrhaphy following delivery" ]
+       ] [
+         fhir:code [ fhir:v "57470004" ] ;
+         fhir:display [ fhir:v "Open reduction of fracture of femur with internal fixation" ]
+       ] [
+         fhir:code [ fhir:v "5781000" ] ;
+         fhir:display [ fhir:v "Operation on nasal septum" ]
+       ] [
+         fhir:code [ fhir:v "58076004" ] ;
+         fhir:display [ fhir:v "Refractive keratoplasty by laser surgery" ]
+       ] [
+         fhir:code [ fhir:v "58390007" ] ;
+         fhir:display [ fhir:v "Allogeneic bone marrow transplantation" ]
+       ] [
+         fhir:code [ fhir:v "58776007" ] ;
+         fhir:display [ fhir:v "Autologous bone marrow transplant" ]
+       ] [
+         fhir:code [ fhir:v "58863009" ] ;
+         fhir:display [ fhir:v "Initial implantation of cardiac dual-chamber device" ]
+       ] [
+         fhir:code [ fhir:v "59213002" ] ;
+         fhir:display [ fhir:v "Repair of ruptured supraspinatus tendon, acute" ]
+       ] [
+         fhir:code [ fhir:v "59214008" ] ;
+         fhir:display [ fhir:v "Reduction mammoplasty" ]
+       ] [
+         fhir:code [ fhir:v "59300005" ] ;
+         fhir:display [ fhir:v "Operation on spleen" ]
+       ] [
+         fhir:code [ fhir:v "59657005" ] ;
+         fhir:display [ fhir:v "Intestinal bypass for morbid obesity" ]
+       ] [
+         fhir:code [ fhir:v "59703009" ] ;
+         fhir:display [ fhir:v "Cervical arthrodesis by anterior technique" ]
+       ] [
+         fhir:code [ fhir:v "59712006" ] ;
+         fhir:display [ fhir:v "Evacuation of subdural haematoma" ]
+       ] [
+         fhir:code [ fhir:v "60177007" ] ;
+         fhir:display [ fhir:v "Mechanical vitrectomy" ]
+       ] [
+         fhir:code [ fhir:v "6025007" ] ;
+         fhir:display [ fhir:v "Laparoscopic appendicectomy" ]
+       ] [
+         fhir:code [ fhir:v "60656008" ] ;
+         fhir:display [ fhir:v "Corneal transplant" ]
+       ] [
+         fhir:code [ fhir:v "60689008" ] ;
+         fhir:display [ fhir:v "Home care of patient" ]
+       ] [
+         fhir:code [ fhir:v "608785007" ] ;
+         fhir:display [ fhir:v "Open reduction of fracture of radius and ulna with internal fixation" ]
+       ] [
+         fhir:code [ fhir:v "609230000" ] ;
+         fhir:display [ fhir:v "Laparoscopic bilateral salpingo-oophorectomy" ]
+       ] [
+         fhir:code [ fhir:v "609588000" ] ;
+         fhir:display [ fhir:v "Total knee replacement" ]
+       ] [
+         fhir:code [ fhir:v "609637006" ] ;
+         fhir:display [ fhir:v "Procedure on pelvic region of trunk" ]
+       ] [
+         fhir:code [ fhir:v "609638001" ] ;
+         fhir:display [ fhir:v "Operation on pelvic region of trunk" ]
+       ] [
+         fhir:code [ fhir:v "6148000" ] ;
+         fhir:display [ fhir:v "Chondrectomy of semilunar cartilage of knee" ]
+       ] [
+         fhir:code [ fhir:v "61498008" ] ;
+         fhir:display [ fhir:v "Complete external hemorrhoidectomy" ]
+       ] [
+         fhir:code [ fhir:v "61557004" ] ;
+         fhir:display [ fhir:v "Implantation of joint prosthesis" ]
+       ] [
+         fhir:code [ fhir:v "61586001" ] ;
+         fhir:display [ fhir:v "Delivery by vacuum extraction" ]
+       ] [
+         fhir:code [ fhir:v "61661004" ] ;
+         fhir:display [ fhir:v "Operative procedure on foot" ]
+       ] [
+         fhir:code [ fhir:v "61774002" ] ;
+         fhir:display [ fhir:v "Repair of rotator cuff by suture" ]
+       ] [
+         fhir:code [ fhir:v "62141006" ] ;
+         fhir:display [ fhir:v "Radical excision" ]
+       ] [
+         fhir:code [ fhir:v "62317000" ] ;
+         fhir:display [ fhir:v "Prosthodontic procedure" ]
+       ] [
+         fhir:code [ fhir:v "6240004" ] ;
+         fhir:display [ fhir:v "Operative procedure on knee" ]
+       ] [
+         fhir:code [ fhir:v "62438007" ] ;
+         fhir:display [ fhir:v "Transplantation of pancreas" ]
+       ] [
+         fhir:code [ fhir:v "62881002" ] ;
+         fhir:display [ fhir:v "Removal of cardiac pacemaker" ]
+       ] [
+         fhir:code [ fhir:v "62972009" ] ;
+         fhir:display [ fhir:v "Extraction" ]
+       ] [
+         fhir:code [ fhir:v "63016009" ] ;
+         fhir:display [ fhir:v "Complete cystectomy" ]
+       ] [
+         fhir:code [ fhir:v "63697000" ] ;
+         fhir:display [ fhir:v "Cardiopulmonary bypass operation" ]
+       ] [
+         fhir:code [ fhir:v "64253000" ] ;
+         fhir:display [ fhir:v "Implantation of heart assist system" ]
+       ] [
+         fhir:code [ fhir:v "64368001" ] ;
+         fhir:display [ fhir:v "Partial mastectomy" ]
+       ] [
+         fhir:code [ fhir:v "64597002" ] ;
+         fhir:display [ fhir:v "Destructive procedure" ]
+       ] [
+         fhir:code [ fhir:v "64915003" ] ;
+         fhir:display [ fhir:v "Operation on heart" ]
+       ] [
+         fhir:code [ fhir:v "64978007" ] ;
+         fhir:display [ fhir:v "Radionuclide therapy for hyperthyroidism" ]
+       ] [
+         fhir:code [ fhir:v "65200003" ] ;
+         fhir:display [ fhir:v "Insertion of intrauterine contraceptive device" ]
+       ] [
+         fhir:code [ fhir:v "65551008" ] ;
+         fhir:display [ fhir:v "Radical retropubic prostatectomy" ]
+       ] [
+         fhir:code [ fhir:v "65659003" ] ;
+         fhir:display [ fhir:v "Rotational atherectomy" ]
+       ] [
+         fhir:code [ fhir:v "65801008" ] ;
+         fhir:display [ fhir:v "Excision" ]
+       ] [
+         fhir:code [ fhir:v "65854006" ] ;
+         fhir:display [ fhir:v "Reexcision" ]
+       ] [
+         fhir:code [ fhir:v "66692001" ] ;
+         fhir:display [ fhir:v "Repair of ruptured supraspinatus tendon, chronic" ]
+       ] [
+         fhir:code [ fhir:v "66951008" ] ;
+         fhir:display [ fhir:v "Carotid endarterectomy" ]
+       ] [
+         fhir:code [ fhir:v "67557008" ] ;
+         fhir:display [ fhir:v "Laparoscopic cholecystectomy with exploration of common duct" ]
+       ] [
+         fhir:code [ fhir:v "67629009" ] ;
+         fhir:display [ fhir:v "Catheterisation of left heart" ]
+       ] [
+         fhir:code [ fhir:v "68254000" ] ;
+         fhir:display [ fhir:v "Removal of intrauterine device" ]
+       ] [
+         fhir:code [ fhir:v "68265005" ] ;
+         fhir:display [ fhir:v "Operation on the ear" ]
+       ] [
+         fhir:code [ fhir:v "6832004" ] ;
+         fhir:display [ fhir:v "Atherectomy" ]
+       ] [
+         fhir:code [ fhir:v "68432004" ] ;
+         fhir:display [ fhir:v "Open reduction of fracture of carpals and metacarpals with internal fixation" ]
+       ] [
+         fhir:code [ fhir:v "68457009" ] ;
+         fhir:display [ fhir:v "Percutaneous transluminal balloon angioplasty" ]
+       ] [
+         fhir:code [ fhir:v "6853008" ] ;
+         fhir:display [ fhir:v "Nasogastric tube aspiration" ]
+       ] [
+         fhir:code [ fhir:v "68660007" ] ;
+         fhir:display [ fhir:v "Punch biopsy" ]
+       ] [
+         fhir:code [ fhir:v "68667005" ] ;
+         fhir:display [ fhir:v "Insertion of permanent transvenous electrodes" ]
+       ] [
+         fhir:code [ fhir:v "68792000" ] ;
+         fhir:display [ fhir:v "Wardill operation, cleft palate repair" ]
+       ] [
+         fhir:code [ fhir:v "69130005" ] ;
+         fhir:display [ fhir:v "Stapedectomy" ]
+       ] [
+         fhir:code [ fhir:v "69380006" ] ;
+         fhir:display [ fhir:v "Venous catheterization for renal dialysis" ]
+       ] [
+         fhir:code [ fhir:v "69483009" ] ;
+         fhir:display [ fhir:v "Shunt of cerebral ventricle to extracranial site" ]
+       ] [
+         fhir:code [ fhir:v "69724002" ] ;
+         fhir:display [ fhir:v "Implantation of prosthetic intraocular lens" ]
+       ] [
+         fhir:code [ fhir:v "6976007" ] ;
+         fhir:display [ fhir:v "Craniocervical spinal fusion" ]
+       ] [
+         fhir:code [ fhir:v "697984004" ] ;
+         fhir:display [ fhir:v "Exteriorization of trachea" ]
+       ] [
+         fhir:code [ fhir:v "700000006" ] ;
+         fhir:display [ fhir:v "Vaginal delivery of fetus" ]
+       ] [
+         fhir:code [ fhir:v "70183006" ] ;
+         fhir:display [ fhir:v "Subcutaneous mastectomy" ]
+       ] [
+         fhir:code [ fhir:v "703142009" ] ;
+         fhir:display [ fhir:v "Prescription of contraception" ]
+       ] [
+         fhir:code [ fhir:v "703145006" ] ;
+         fhir:display [ fhir:v "Sterilization procedure" ]
+       ] [
+         fhir:code [ fhir:v "70536003" ] ;
+         fhir:display [ fhir:v "Transplant of kidney" ]
+       ] [
+         fhir:code [ fhir:v "70586009" ] ;
+         fhir:display [ fhir:v "Operation on brain" ]
+       ] [
+         fhir:code [ fhir:v "70777001" ] ;
+         fhir:display [ fhir:v "Urine specimen collection, catheterized" ]
+       ] [
+         fhir:code [ fhir:v "708614008" ] ;
+         fhir:display [ fhir:v "Laparoscopic lysis of adhesion of peritoneum" ]
+       ] [
+         fhir:code [ fhir:v "708651002" ] ;
+         fhir:display [ fhir:v "Partial excision of vertebra" ]
+       ] [
+         fhir:code [ fhir:v "70871006" ] ;
+         fhir:display [ fhir:v "Incisional biopsy" ]
+       ] [
+         fhir:code [ fhir:v "708983005" ] ;
+         fhir:display [ fhir:v "Laparoscopic bypass of stomach" ]
+       ] [
+         fhir:code [ fhir:v "709013008" ] ;
+         fhir:display [ fhir:v "Removal of implant device from bone" ]
+       ] [
+         fhir:code [ fhir:v "710785000" ] ;
+         fhir:display [ fhir:v "Laparoscopic repair of hernia" ]
+       ] [
+         fhir:code [ fhir:v "710955000" ] ;
+         fhir:display [ fhir:v "Biomedical equipment procedure" ]
+       ] [
+         fhir:code [ fhir:v "71192002" ] ;
+         fhir:display [ fhir:v "Peritoneal dialysis" ]
+       ] [
+         fhir:code [ fhir:v "713541000" ] ;
+         fhir:display [ fhir:v "Removal of entire genital organ" ]
+       ] [
+         fhir:code [ fhir:v "718348005" ] ;
+         fhir:display [ fhir:v "Cardiovascular care" ]
+       ] [
+         fhir:code [ fhir:v "72010008" ] ;
+         fhir:display [ fhir:v "Removal of internal fixation device" ]
+       ] [
+         fhir:code [ fhir:v "72310004" ] ;
+         fhir:display [ fhir:v "Circumcision" ]
+       ] [
+         fhir:code [ fhir:v "72342005" ] ;
+         fhir:display [ fhir:v "Shave biopsy" ]
+       ] [
+         fhir:code [ fhir:v "726429001" ] ;
+         fhir:display [ fhir:v "Radical mastectomy of left breast" ]
+       ] [
+         fhir:code [ fhir:v "726430006" ] ;
+         fhir:display [ fhir:v "Radical mastectomy of right breast" ]
+       ] [
+         fhir:code [ fhir:v "726436000" ] ;
+         fhir:display [ fhir:v "Modified radical mastectomy of right breast" ]
+       ] [
+         fhir:code [ fhir:v "726437009" ] ;
+         fhir:display [ fhir:v "Modified radical mastectomy of left breast" ]
+       ] [
+         fhir:code [ fhir:v "72791001" ] ;
+         fhir:display [ fhir:v "Laryngectomy" ]
+       ] [
+         fhir:code [ fhir:v "73416001" ] ;
+         fhir:display [ fhir:v "Urine specimen collection, clean catch" ]
+       ] [
+         fhir:code [ fhir:v "735023007" ] ;
+         fhir:display [ fhir:v "Fixation of left testis" ]
+       ] [
+         fhir:code [ fhir:v "735024001" ] ;
+         fhir:display [ fhir:v "Fixation of right testis" ]
+       ] [
+         fhir:code [ fhir:v "73536002" ] ;
+         fhir:display [ fhir:v "Myotomy of colon" ]
+       ] [
+         fhir:code [ fhir:v "73544002" ] ;
+         fhir:display [ fhir:v "Operation on heart valve" ]
+       ] [
+         fhir:code [ fhir:v "73632009" ] ;
+         fhir:display [ fhir:v "Laparoscopy" ]
+       ] [
+         fhir:code [ fhir:v "737067005" ] ;
+         fhir:display [ fhir:v "Repair of ventral hernia using graft" ]
+       ] [
+         fhir:code [ fhir:v "73759005" ] ;
+         fhir:display [ fhir:v "Duodenectomy" ]
+       ] [
+         fhir:code [ fhir:v "73761001" ] ;
+         fhir:display [ fhir:v "Colonoscopy" ]
+       ] [
+         fhir:code [ fhir:v "74011006" ] ;
+         fhir:display [ fhir:v "Open reduction of fracture of tibia and fibula with internal fixation" ]
+       ] [
+         fhir:code [ fhir:v "74406002" ] ;
+         fhir:display [ fhir:v "Open heart valvuloplasty of mitral valve without replacement" ]
+       ] [
+         fhir:code [ fhir:v "746051007" ] ;
+         fhir:display [ fhir:v "Endovascular insertion of drug coated stent" ]
+       ] [
+         fhir:code [ fhir:v "7476006" ] ;
+         fhir:display [ fhir:v "Special care of dentures" ]
+       ] [
+         fhir:code [ fhir:v "74770008" ] ;
+         fhir:display [ fhir:v "Exploratory laparotomy" ]
+       ] [
+         fhir:code [ fhir:v "74943008" ] ;
+         fhir:display [ fhir:v "Operation on trunk" ]
+       ] [
+         fhir:code [ fhir:v "75170007" ] ;
+         fhir:display [ fhir:v "Extraction of lens of eye" ]
+       ] [
+         fhir:code [ fhir:v "75176001" ] ;
+         fhir:display [ fhir:v "Tympanectomy" ]
+       ] [
+         fhir:code [ fhir:v "75506009" ] ;
+         fhir:display [ fhir:v "Construction of stoma" ]
+       ] [
+         fhir:code [ fhir:v "75732000" ] ;
+         fhir:display [ fhir:v "Vitrectomy" ]
+       ] [
+         fhir:code [ fhir:v "75835007" ] ;
+         fhir:display [ fhir:v "Laparoscopic-assisted vaginal hysterectomy" ]
+       ] [
+         fhir:code [ fhir:v "76009000" ] ;
+         fhir:display [ fhir:v "Esophagogastroduodenoscopy" ]
+       ] [
+         fhir:code [ fhir:v "76025005" ] ;
+         fhir:display [ fhir:v "Correction of ventricular septal defect" ]
+       ] [
+         fhir:code [ fhir:v "76334006" ] ;
+         fhir:display [ fhir:v "Immunological therapy" ]
+       ] [
+         fhir:code [ fhir:v "76611008" ] ;
+         fhir:display [ fhir:v "Atherectomy by laser" ]
+       ] [
+         fhir:code [ fhir:v "76810006" ] ;
+         fhir:display [ fhir:v "Diagnostic dilation and curettage of uterus" ]
+       ] [
+         fhir:code [ fhir:v "76876009" ] ;
+         fhir:display [ fhir:v "Bilateral oophorectomy" ]
+       ] [
+         fhir:code [ fhir:v "76956004" ] ;
+         fhir:display [ fhir:v "Amputation of finger, except thumb" ]
+       ] [
+         fhir:code [ fhir:v "771329004" ] ;
+         fhir:display [ fhir:v "Procedure on body region" ]
+       ] [
+         fhir:code [ fhir:v "771453009" ] ;
+         fhir:display [ fhir:v "Repair of abdominal aortic aneurysm with insertion of stent" ]
+       ] [
+         fhir:code [ fhir:v "771626001" ] ;
+         fhir:display [ fhir:v "Open repair of femoral hernia using sutures" ]
+       ] [
+         fhir:code [ fhir:v "77166000" ] ;
+         fhir:display [ fhir:v "Percutaneous balloon valvuloplasty of aortic valve" ]
+       ] [
+         fhir:code [ fhir:v "771663005" ] ;
+         fhir:display [ fhir:v "Open repair of umbilical hernia using sutures" ]
+       ] [
+         fhir:code [ fhir:v "771713005" ] ;
+         fhir:display [ fhir:v "Open repair of inguinal hernia using sutures" ]
+       ] [
+         fhir:code [ fhir:v "771719009" ] ;
+         fhir:display [ fhir:v "Open repair of epigastric hernia using sutures" ]
+       ] [
+         fhir:code [ fhir:v "77181006" ] ;
+         fhir:display [ fhir:v "Implantation of mitral valve prosthesis or synthetic device" ]
+       ] [
+         fhir:code [ fhir:v "773261007" ] ;
+         fhir:display [ fhir:v "Procedure related to reproduction" ]
+       ] [
+         fhir:code [ fhir:v "77343006" ] ;
+         fhir:display [ fhir:v "Angiography" ]
+       ] [
+         fhir:code [ fhir:v "77465005" ] ;
+         fhir:display [ fhir:v "Transplantation" ]
+       ] [
+         fhir:code [ fhir:v "77543007" ] ;
+         fhir:display [ fhir:v "Ligation of fallopian tube" ]
+       ] [
+         fhir:code [ fhir:v "781087000" ] ;
+         fhir:display [ fhir:v "Medical care" ]
+       ] [
+         fhir:code [ fhir:v "782901001" ] ;
+         fhir:display [ fhir:v "Insertion procedure" ]
+       ] [
+         fhir:code [ fhir:v "782902008" ] ;
+         fhir:display [ fhir:v "Implantation procedure" ]
+       ] [
+         fhir:code [ fhir:v "782971002" ] ;
+         fhir:display [ fhir:v "Bronchoalveolar lavage" ]
+       ] [
+         fhir:code [ fhir:v "78418002" ] ;
+         fhir:display [ fhir:v "Operation on heart and pericardium" ]
+       ] [
+         fhir:code [ fhir:v "78559005" ] ;
+         fhir:display [ fhir:v "Operative procedure on shoulder" ]
+       ] [
+         fhir:code [ fhir:v "78817002" ] ;
+         fhir:display [ fhir:v "Construction of anastomosis" ]
+       ] [
+         fhir:code [ fhir:v "788180009" ] ;
+         fhir:display [ fhir:v "Lower uterine segment cesarean section" ]
+       ] [
+         fhir:code [ fhir:v "7908000" ] ;
+         fhir:display [ fhir:v "Operation on ileum" ]
+       ] [
+         fhir:code [ fhir:v "79095000" ] ;
+         fhir:display [ fhir:v "Complete excision" ]
+       ] [
+         fhir:code [ fhir:v "79121003" ] ;
+         fhir:display [ fhir:v "Biopsy of stomach" ]
+       ] [
+         fhir:code [ fhir:v "79537002" ] ;
+         fhir:display [ fhir:v "Operation on endocrine system" ]
+       ] [
+         fhir:code [ fhir:v "79544006" ] ;
+         fhir:display [ fhir:v "Complete axillary lymphadenectomy" ]
+       ] [
+         fhir:code [ fhir:v "79733001" ] ;
+         fhir:display [ fhir:v "Amputation above-knee" ]
+       ] [
+         fhir:code [ fhir:v "79876008" ] ;
+         fhir:display [ fhir:v "Operation on uterus" ]
+       ] [
+         fhir:code [ fhir:v "79917009" ] ;
+         fhir:display [ fhir:v "Implantation of pulmonary valve prosthesis or synthetic device" ]
+       ] [
+         fhir:code [ fhir:v "80146002" ] ;
+         fhir:display [ fhir:v "Appendicectomy" ]
+       ] [
+         fhir:code [ fhir:v "80402001" ] ;
+         fhir:display [ fhir:v "Insertion of implantable venous access port" ]
+       ] [
+         fhir:code [ fhir:v "8069005" ] ;
+         fhir:display [ fhir:v "Implantation of tricuspid valve prosthesis or synthetic device" ]
+       ] [
+         fhir:code [ fhir:v "80779005" ] ;
+         fhir:display [ fhir:v "Repair of brain" ]
+       ] [
+         fhir:code [ fhir:v "81099000" ] ;
+         fhir:display [ fhir:v "Cervical arthrodesis" ]
+       ] [
+         fhir:code [ fhir:v "81516001" ] ;
+         fhir:display [ fhir:v "Partial nephrectomy" ]
+       ] [
+         fhir:code [ fhir:v "81723002" ] ;
+         fhir:display [ fhir:v "Amputation" ]
+       ] [
+         fhir:code [ fhir:v "8180007" ] ;
+         fhir:display [ fhir:v "Fiberoptic colonoscopy through colostomy" ]
+       ] [
+         fhir:code [ fhir:v "81870009" ] ;
+         fhir:display [ fhir:v "Parotidectomy" ]
+       ] [
+         fhir:code [ fhir:v "82035006" ] ;
+         fhir:display [ fhir:v "Resection of polyp" ]
+       ] [
+         fhir:code [ fhir:v "82078001" ] ;
+         fhir:display [ fhir:v "Collection of blood specimen for laboratory" ]
+       ] [
+         fhir:code [ fhir:v "83152002" ] ;
+         fhir:display [ fhir:v "Oophorectomy" ]
+       ] [
+         fhir:code [ fhir:v "83333004" ] ;
+         fhir:display [ fhir:v "Creation of cardiac pacemaker pocket new site in subcutaneous tissue" ]
+       ] [
+         fhir:code [ fhir:v "8378006" ] ;
+         fhir:display [ fhir:v "Trimming" ]
+       ] [
+         fhir:code [ fhir:v "84088001" ] ;
+         fhir:display [ fhir:v "Correction of atresia of external meatus of ear" ]
+       ] [
+         fhir:code [ fhir:v "84100007" ] ;
+         fhir:display [ fhir:v "History taking" ]
+       ] [
+         fhir:code [ fhir:v "84149000" ] ;
+         fhir:display [ fhir:v "Aspiration of cataract by phacoemulsification" ]
+       ] [
+         fhir:code [ fhir:v "84195007" ] ;
+         fhir:display [ fhir:v "Classical cesarean section" ]
+       ] [
+         fhir:code [ fhir:v "8422009" ] ;
+         fhir:display [ fhir:v "Destruction of hemorrhoids by sclerotherapy" ]
+       ] [
+         fhir:code [ fhir:v "84267003" ] ;
+         fhir:display [ fhir:v "Hysterotomy with removal of foreign body" ]
+       ] [
+         fhir:code [ fhir:v "84275009" ] ;
+         fhir:display [ fhir:v "Obstetrical hysterotomy" ]
+       ] [
+         fhir:code [ fhir:v "84282008" ] ;
+         fhir:display [ fhir:v "Hemorrhoidectomy by simple ligature" ]
+       ] [
+         fhir:code [ fhir:v "84877006" ] ;
+         fhir:display [ fhir:v "Arthroscopy of knee with meniscus repair" ]
+       ] [
+         fhir:code [ fhir:v "85419002" ] ;
+         fhir:display [ fhir:v "Orchidopexy" ]
+       ] [
+         fhir:code [ fhir:v "85548006" ] ;
+         fhir:display [ fhir:v "Episiotomy" ]
+       ] [
+         fhir:code [ fhir:v "85921004" ] ;
+         fhir:display [ fhir:v "Puncture procedure" ]
+       ] [
+         fhir:code [ fhir:v "86088003" ] ;
+         fhir:display [ fhir:v "Centesis" ]
+       ] [
+         fhir:code [ fhir:v "860930005" ] ;
+         fhir:display [ fhir:v "Surgery of cataract of left eye" ]
+       ] [
+         fhir:code [ fhir:v "860934001" ] ;
+         fhir:display [ fhir:v "Surgery of cataract of right eye" ]
+       ] [
+         fhir:code [ fhir:v "8616005" ] ;
+         fhir:display [ fhir:v "Rhinocheiloplasty repair for cleft lip" ]
+       ] [
+         fhir:code [ fhir:v "86259008" ] ;
+         fhir:display [ fhir:v "Biopsy of liver" ]
+       ] [
+         fhir:code [ fhir:v "86273004" ] ;
+         fhir:display [ fhir:v "Biopsy" ]
+       ] [
+         fhir:code [ fhir:v "86477000" ] ;
+         fhir:display [ fhir:v "Total hysterectomy with removal of both tubes and ovaries" ]
+       ] [
+         fhir:code [ fhir:v "86480004" ] ;
+         fhir:display [ fhir:v "Open reduction of fracture" ]
+       ] [
+         fhir:code [ fhir:v "86481000" ] ;
+         fhir:display [ fhir:v "Laparotomy" ]
+       ] [
+         fhir:code [ fhir:v "86553008" ] ;
+         fhir:display [ fhir:v "Immunosuppressive therapy" ]
+       ] [
+         fhir:code [ fhir:v "86743009" ] ;
+         fhir:display [ fhir:v "Local excision" ]
+       ] [
+         fhir:code [ fhir:v "86749008" ] ;
+         fhir:display [ fhir:v "Stripping and ligation" ]
+       ] [
+         fhir:code [ fhir:v "86800006" ] ;
+         fhir:display [ fhir:v "Operation on trachea" ]
+       ] [
+         fhir:code [ fhir:v "87021001" ] ;
+         fhir:display [ fhir:v "Mechanical vitrectomy by pars plana approach" ]
+       ] [
+         fhir:code [ fhir:v "87366001" ] ;
+         fhir:display [ fhir:v "Total elbow replacement" ]
+       ] [
+         fhir:code [ fhir:v "87591000" ] ;
+         fhir:display [ fhir:v "Curettage of skin lesion" ]
+       ] [
+         fhir:code [ fhir:v "87795007" ] ;
+         fhir:display [ fhir:v "Complete transurethral resection of prostate, including control of postoperative bleeding" ]
+       ] [
+         fhir:code [ fhir:v "8782006" ] ;
+         fhir:display [ fhir:v "Radical perineal prostatectomy" ]
+       ] [
+         fhir:code [ fhir:v "87825006" ] ;
+         fhir:display [ fhir:v "Initial implantation of electrode into cardiac atrium and ventricle" ]
+       ] [
+         fhir:code [ fhir:v "88039007" ] ;
+         fhir:display [ fhir:v "Transplant of lung" ]
+       ] [
+         fhir:code [ fhir:v "88088007" ] ;
+         fhir:display [ fhir:v "Radical excision with lymph node dissection" ]
+       ] [
+         fhir:code [ fhir:v "88312006" ] ;
+         fhir:display [ fhir:v "Amputation of leg through tibia and fibula" ]
+       ] [
+         fhir:code [ fhir:v "88722002" ] ;
+         fhir:display [ fhir:v "Initial implantation of electrode into cardiac atrium" ]
+       ] [
+         fhir:code [ fhir:v "8874001" ] ;
+         fhir:display [ fhir:v "Arthroscopy of knee with medial and lateral meniscectomy" ]
+       ] [
+         fhir:code [ fhir:v "8889005" ] ;
+         fhir:display [ fhir:v "Excisional biopsy" ]
+       ] [
+         fhir:code [ fhir:v "88937006" ] ;
+         fhir:display [ fhir:v "Prosthetic procedure" ]
+       ] [
+         fhir:code [ fhir:v "89053004" ] ;
+         fhir:display [ fhir:v "Vaginal cesarean section" ]
+       ] [
+         fhir:code [ fhir:v "8920006" ] ;
+         fhir:display [ fhir:v "Repair of retina for retinal detachment" ]
+       ] [
+         fhir:code [ fhir:v "89355001" ] ;
+         fhir:display [ fhir:v "Discectomy for intervertebral herniated disc, nucleus pulposus" ]
+       ] [
+         fhir:code [ fhir:v "89432003" ] ;
+         fhir:display [ fhir:v "Lemesurier operation, cleft lip repair" ]
+       ] [
+         fhir:code [ fhir:v "89522007" ] ;
+         fhir:display [ fhir:v "Colocolostomy" ]
+       ] [
+         fhir:code [ fhir:v "89540006" ] ;
+         fhir:display [ fhir:v "Segmental excision and ligation" ]
+       ] [
+         fhir:code [ fhir:v "89814007" ] ;
+         fhir:display [ fhir:v "Repair of ventricular septal defect with prosthesis" ]
+       ] [
+         fhir:code [ fhir:v "89901005" ] ;
+         fhir:display [ fhir:v "Operative procedure on head" ]
+       ] [
+         fhir:code [ fhir:v "90199006" ] ;
+         fhir:display [ fhir:v "Transurethral prostatectomy" ]
+       ] [
+         fhir:code [ fhir:v "90442009" ] ;
+         fhir:display [ fhir:v "Cerclage of cervix during pregnancy by vaginal approach" ]
+       ] [
+         fhir:code [ fhir:v "90470006" ] ;
+         fhir:display [ fhir:v "Prostatectomy" ]
+       ] [
+         fhir:code [ fhir:v "91251008" ] ;
+         fhir:display [ fhir:v "Physical therapy procedure" ]
+       ] [
+         fhir:code [ fhir:v "91602002" ] ;
+         fhir:display [ fhir:v "Thoracentesis" ]
+       ] [
+         fhir:code [ fhir:v "9888007" ] ;
+         fhir:display [ fhir:v "Excision of intracranial lesion" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

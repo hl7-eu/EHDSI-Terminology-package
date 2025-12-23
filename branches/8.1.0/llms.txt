@@ -1,0 +1,82 @@
+# hl7.eu.terminology.ehdsi#8.1.0: eHDSI Terminologies
+
+## Pages
+
+* [Home](index.md)
+* [Artifacts Summary](artifacts.md)
+* [Issues](issues.md)
+
+## Resources
+
+### CodeSystems
+
+* [Pharmaceutical dose form](CodeSystem-edqm-all.md)
+* [EMDN CodeSystem](CodeSystem-emdn.md)
+
+### ValueSets
+
+* [eHDSI Active Ingredient](ValueSet-eHDSIActiveIngredient-8.1.0.md)
+* [eHDSI Adverse Event Type](ValueSet-eHDSIAdverseEventType-8.1.0.md)
+* [eHDSI Allergen No Drug](ValueSet-eHDSIAllergenNoDrug-8.1.0.md)
+* [eHDSI Allergy Certainty](ValueSet-eHDSIAllergyCertainty-8.1.0.md)
+* [eHDSI Allergy Status](ValueSet-eHDSIAllergyStatus-8.1.0.md)
+* [eHDSI Animal Species](ValueSet-eHDSIAnimalSpecies-8.1.0.md)
+* [eHDSI Blood Group](ValueSet-eHDSIBloodGroup-8.1.0.md)
+* [eHDSI Blood Pressure](ValueSet-eHDSIBloodPressure-8.1.0.md)
+* [eHDSI Body Site](ValueSet-eHDSIBodySite-8.1.0.md)
+* [eHDSI Body Site Laterality](ValueSet-eHDSIBodySiteLaterality-8.1.0.md)
+* [eHDSI Body Structure Location Qualifier](ValueSet-eHDSIBodyStructureLocation-8.1.0.md)
+* [eHDSI Certainty](ValueSet-eHDSICertainty-8.1.0.md)
+* [eHDSI Code Prob](ValueSet-eHDSICodeProb-8.1.0.md)
+* [eHDSI Country](ValueSet-eHDSICountry-8.1.0.md)
+* [eHDSI Criticality](ValueSet-eHDSICriticality-8.1.0.md)
+* [eHDSI Current Pregnancy Status](ValueSet-eHDSICurrentPregnancyStatus-8.1.0.md)
+* [eHDSI Display Label](ValueSet-eHDSIDisplayLabel-8.1.0.md)
+* [eHDSI Document Code](ValueSet-eHDSIDocumentCode-8.1.0.md)
+* [eHDSI Dose Form](ValueSet-eHDSIDoseForm-8.1.0.md)
+* [eHDSI Exceptional Value](ValueSet-eHDSIExceptionalValue-8.1.0.md)
+* [eHDSI Healthcare Professional Role](ValueSet-eHDSIHealthcareProfessionalRole-8.1.0.md)
+* [eHDSI Hospital Discharge Report Type](ValueSet-eHDSIHospitalDischargeReportType-8.1.0.md)
+* [eHDSI Illness and Disorder](ValueSet-eHDSIIllnessandDisorder-8.1.0.md)
+* [eHDSI Laboratory Codes](ValueSet-eHDSILabCode-8.1.0.md)
+* [eHDSI Laboratory Specimen Type](ValueSet-eHDSILabSpecimenType-8.1.0.md)
+* [eHDSI Laboratory Study Types](ValueSet-eHDSILabStudyType-8.1.0.md)
+* [eHDSI Laboratory Technique](ValueSet-eHDSILabTechnique-8.1.0.md)
+* [eHDSI Laboratory Report Types](ValueSet-eHDSILaboratoryReportType-8.1.0.md)
+* [eHDSI Language](ValueSet-eHDSILanguage-8.1.0.md)
+* [eHDSI Medical Device](ValueSet-eHDSIMedicalDevice-8.1.0.md)
+* [eHDSI Medical Images Type](ValueSet-eHDSIMedicalImagesType-8.1.0.md)
+* [eHDSI Medical Imaging Report Type](ValueSet-eHDSIMedicalImagingReportType-8.1.0.md)
+* [eHDSI Microorganism](ValueSet-eHDSIMicroorganism-8.1.0.md)
+* [eHDSI Morphologic Abnormality](ValueSet-eHDSIMorphologicAbnormality-8.1.0.md)
+* [eHDSI Observation category](ValueSet-eHDSIObservationCategory-8.1.0.md)
+* [eHDSI Observation Interpretation](ValueSet-eHDSIObservationInterpretation-8.1.0.md)
+* [eHDSI Outcome of Pregnancy](ValueSet-eHDSIOutcomeOfPregnancy-8.1.0.md)
+* [eHDSI Package](ValueSet-eHDSIPackage-8.1.0.md)
+* [eHDSI Performer Function](ValueSet-eHDSIPerformerFunction-8.1.0.md)
+* [eHDSI PersonalRelationship](ValueSet-eHDSIPersonalRelationship-8.1.0.md)
+* [eHDSI PregnancyInformation](ValueSet-eHDSIPregnancyInformation-8.1.0.md)
+* [eHDSI Presence Absence](ValueSet-eHDSIPresenceAbsence-8.1.0.md)
+* [eHDSI Procedure](ValueSet-eHDSIProcedure-8.1.0.md)
+* [eHDSI Quantity Unit](ValueSet-eHDSIQuantityUnit-8.1.0.md)
+* [eHDSI Rare Disease](ValueSet-eHDSIRareDisease-8.1.0.md)
+* [eHDSI Reaction Allergy](ValueSet-eHDSIReactionAllergy-8.1.0.md)
+* [eHDSI Reference Range Applies To](ValueSet-eHDSIReferenceRangeAppliesTo-8.1.0.md)
+* [eHDSI Reference Range Meaning](ValueSet-eHDSIReferenceRangeMeaning-8.1.0.md)
+* [eHDSI Resolution Outcome](ValueSet-eHDSIResolutionOutcome-8.1.0.md)
+* [eHDSI Role Class](ValueSet-eHDSIRoleClass-8.1.0.md)
+* [eHDSI Route of Administration](ValueSet-eHDSIRouteofAdministration-8.1.0.md)
+* [eHDSI Section](ValueSet-eHDSISection-8.1.0.md)
+* [eHDSI Severity](ValueSet-eHDSISeverity-8.1.0.md)
+* [eHDSI Social History](ValueSet-eHDSISocialHistory-8.1.0.md)
+* [eHDSI Status Code](ValueSet-eHDSIStatusCode-8.1.0.md)
+* [eHDSI Substance](ValueSet-eHDSISubstance-8.1.0.md)
+* [eHDSI Substitution Code](ValueSet-eHDSISubstitutionCode-8.1.0.md)
+* [eHDSI Telecom Address](ValueSet-eHDSITelecomAddress-8.1.0.md)
+* [eHDSI Timing Event](ValueSet-eHDSITimingEvent-8.1.0.md)
+* [eHDSI Unit](ValueSet-eHDSIUnit-8.1.0.md)
+* [eHDSI Vaccine](ValueSet-eHDSIVaccine-8.1.0.md)
+
+### ImplementationGuides
+
+* [eHDSI Terminologies](index.md)

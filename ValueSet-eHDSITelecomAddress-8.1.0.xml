@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="eHDSITelecomAddress-8.1.0"/>
+  <url value="http://terminology.ehdsi.eu/ValueSet/eHDSITelecomAddress"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.40"/>
+  </identifier>
+  <version value="0.2.0"/>
+  <name value="eHDSITelecomAddress"/>
+  <title value="eHDSI Telecom Address"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-12-23T10:21:27+00:00"/>
+  <publisher value="HL7 Europe"/>
+  <contact>
+    <name value="HL7 Europe"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7europe.org"/>
+    </telecom>
+  </contact>
+  <description value="The Value Set is used (optionally) to code the usage of a phone number, email and all telecommunications. Can be used for all phone numbers mentioned in the three CDA-documents."/>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-AddressUse"/>
+      <concept>
+        <code value="AS"/>
+        <display value="answering service"/>
+      </concept>
+      <concept>
+        <code value="EC"/>
+        <display value="emergency contact"/>
+      </concept>
+      <concept>
+        <code value="H"/>
+        <display value="home address"/>
+      </concept>
+      <concept>
+        <code value="HP"/>
+        <display value="primary home"/>
+      </concept>
+      <concept>
+        <code value="HV"/>
+        <display value="vacation home"/>
+      </concept>
+      <concept>
+        <code value="MC"/>
+        <display value="mobile contact"/>
+      </concept>
+      <concept>
+        <code value="PG"/>
+        <display value="pager"/>
+      </concept>
+      <concept>
+        <code value="WP"/>
+        <display value="work place"/>
+      </concept>
+      <concept>
+        <code value="TMP"/>
+        <display value="temporary address"/>
+      </concept>
+      <concept>
+        <code value="PHYS"/>
+        <display value="physical visit address"/>
+      </concept>
+      <concept>
+        <code value="PST"/>
+        <display value="postal address"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,2332 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIMorphologicAbnormality-8.1.0> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "eHDSIMorphologicAbnormality-8.1.0"] ; # 
+  fhir:url [
+     fhir:v "http://terminology.ehdsi.eu/ValueSet/eHDSIMorphologicAbnormality"^^xsd:anyURI ;
+     fhir:l <http://terminology.ehdsi.eu/ValueSet/eHDSIMorphologicAbnormality>
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [
+       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
+       fhir:l <urn:ietf:rfc:3986>
+     ] ;
+     fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.69" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "0.2.0"] ; # 
+  fhir:name [ fhir:v "eHDSIMorphologicAbnormality"] ; # 
+  fhir:title [ fhir:v "eHDSI Morphologic Abnormality"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-12-23T10:21:27+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 Europe"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 Europe" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://hl7europe.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "The Value Set is used to code the morphological abnormalities of the anatomical location where the material is taken."] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+         fhir:l <http://snomed.info/sct>
+       ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "16227651000119102" ] ;
+         fhir:display [ fhir:v "Catheter exit site" ]
+       ] [
+         fhir:code [ fhir:v "16225231000119104" ] ;
+         fhir:display [ fhir:v "Pilonidal cyst" ]
+       ] [
+         fhir:code [ fhir:v "16224871000119101" ] ;
+         fhir:display [ fhir:v "Morton's neuroma" ]
+       ] [
+         fhir:code [ fhir:v "1251594002" ] ;
+         fhir:display [ fhir:v "Urine retention" ]
+       ] [
+         fhir:code [ fhir:v "1251519006" ] ;
+         fhir:display [ fhir:v "Myelodysplastic neoplasm with low blasts" ]
+       ] [
+         fhir:code [ fhir:v "1240414004" ] ;
+         fhir:display [ fhir:v "Malignant neoplasm" ]
+       ] [
+         fhir:code [ fhir:v "1237295003" ] ;
+         fhir:display [ fhir:v "Retracted structure" ]
+       ] [
+         fhir:code [ fhir:v "1237086002" ] ;
+         fhir:display [ fhir:v "Blood retention" ]
+       ] [
+         fhir:code [ fhir:v "1187428006" ] ;
+         fhir:display [ fhir:v "Thymoma" ]
+       ] [
+         fhir:code [ fhir:v "1187425009" ] ;
+         fhir:display [ fhir:v "Carcinoma" ]
+       ] [
+         fhir:code [ fhir:v "1187396000" ] ;
+         fhir:display [ fhir:v "Sarcoma" ]
+       ] [
+         fhir:code [ fhir:v "1187383001" ] ;
+         fhir:display [ fhir:v "Gastrointestinal stromal tumor" ]
+       ] [
+         fhir:code [ fhir:v "1187375007" ] ;
+         fhir:display [ fhir:v "Adenoma" ]
+       ] [
+         fhir:code [ fhir:v "1187332001" ] ;
+         fhir:display [ fhir:v "Adenocarcinoma" ]
+       ] [
+         fhir:code [ fhir:v "1187306007" ] ;
+         fhir:display [ fhir:v "Clear cell renal cell carcinoma" ]
+       ] [
+         fhir:code [ fhir:v "1187227004" ] ;
+         fhir:display [ fhir:v "Benign adenomatous neoplasm" ]
+       ] [
+         fhir:code [ fhir:v "1187225007" ] ;
+         fhir:display [ fhir:v "Malignant epithelial neoplasm" ]
+       ] [
+         fhir:code [ fhir:v "1187138006" ] ;
+         fhir:display [ fhir:v "Carcinoma in situ" ]
+       ] [
+         fhir:code [ fhir:v "1187137001" ] ;
+         fhir:display [ fhir:v "Squamous intraepithelial neoplasia" ]
+       ] [
+         fhir:code [ fhir:v "1187136005" ] ;
+         fhir:display [ fhir:v "Primary cutaneous T-cell lymphoma" ]
+       ] [
+         fhir:code [ fhir:v "1187107005" ] ;
+         fhir:display [ fhir:v "Plasmacytoma" ]
+       ] [
+         fhir:code [ fhir:v "1186968006" ] ;
+         fhir:display [ fhir:v "Malignant adenomatous neoplasm" ]
+       ] [
+         fhir:code [ fhir:v "1186904005" ] ;
+         fhir:display [ fhir:v "Ependymoma" ]
+       ] [
+         fhir:code [ fhir:v "1179374007" ] ;
+         fhir:display [ fhir:v "Kaposi sarcoma" ]
+       ] [
+         fhir:code [ fhir:v "1172709000" ] ;
+         fhir:display [ fhir:v "Lymphoid leukemia" ]
+       ] [
+         fhir:code [ fhir:v "1172592001" ] ;
+         fhir:display [ fhir:v "Non-Hodgkin lymphoma" ]
+       ] [
+         fhir:code [ fhir:v "1163436007" ] ;
+         fhir:display [ fhir:v "Neuroma" ]
+       ] [
+         fhir:code [ fhir:v "1163405004" ] ;
+         fhir:display [ fhir:v "Osteosarcoma" ]
+       ] [
+         fhir:code [ fhir:v "1163403006" ] ;
+         fhir:display [ fhir:v "Pigmented nevus" ]
+       ] [
+         fhir:code [ fhir:v "1163375002" ] ;
+         fhir:display [ fhir:v "Glioblastoma" ]
+       ] [
+         fhir:code [ fhir:v "1163214006" ] ;
+         fhir:display [ fhir:v "Pressure injury" ]
+       ] [
+         fhir:code [ fhir:v "1163043007" ] ;
+         fhir:display [ fhir:v "Malignant lymphoma" ]
+       ] [
+         fhir:code [ fhir:v "1163022006" ] ;
+         fhir:display [ fhir:v "Leiomyosarcoma" ]
+       ] [
+         fhir:code [ fhir:v "1163016002" ] ;
+         fhir:display [ fhir:v "Chondrosarcoma" ]
+       ] [
+         fhir:code [ fhir:v "1163005009" ] ;
+         fhir:display [ fhir:v "Hodgkin lymphoma" ]
+       ] [
+         fhir:code [ fhir:v "1162928000" ] ;
+         fhir:display [ fhir:v "Acute myeloid leukemia" ]
+       ] [
+         fhir:code [ fhir:v "1162893000" ] ;
+         fhir:display [ fhir:v "Squamous cell carcinoma in situ" ]
+       ] [
+         fhir:code [ fhir:v "1162890002" ] ;
+         fhir:display [ fhir:v "Leiomyoma" ]
+       ] [
+         fhir:code [ fhir:v "1162815008" ] ;
+         fhir:display [ fhir:v "Liposarcoma" ]
+       ] [
+         fhir:code [ fhir:v "1162814007" ] ;
+         fhir:display [ fhir:v "Non-infiltrating intraductal carcinoma" ]
+       ] [
+         fhir:code [ fhir:v "1162768007" ] ;
+         fhir:display [ fhir:v "Leukemia" ]
+       ] [
+         fhir:code [ fhir:v "1162767002" ] ;
+         fhir:display [ fhir:v "Squamous cell carcinoma" ]
+       ] [
+         fhir:code [ fhir:v "1162765005" ] ;
+         fhir:display [ fhir:v "Malignant seminoma" ]
+       ] [
+         fhir:code [ fhir:v "1162635006" ] ;
+         fhir:display [ fhir:v "Malignant melanoma" ]
+       ] [
+         fhir:code [ fhir:v "1162588009" ] ;
+         fhir:display [ fhir:v "Chronic myeloid leukemia" ]
+       ] [
+         fhir:code [ fhir:v "1162576007" ] ;
+         fhir:display [ fhir:v "Plasma cell myeloma" ]
+       ] [
+         fhir:code [ fhir:v "1162492000" ] ;
+         fhir:display [ fhir:v "Tumor bed" ]
+       ] [
+         fhir:code [ fhir:v "1157139005" ] ;
+         fhir:display [ fhir:v "Malignant carcinoid tumor" ]
+       ] [
+         fhir:code [ fhir:v "1157073002" ] ;
+         fhir:display [ fhir:v "Benign papilloma" ]
+       ] [
+         fhir:code [ fhir:v "1157050005" ] ;
+         fhir:display [ fhir:v "Benign fibroma" ]
+       ] [
+         fhir:code [ fhir:v "1157043006" ] ;
+         fhir:display [ fhir:v "Astrocytoma" ]
+       ] [
+         fhir:code [ fhir:v "1156974002" ] ;
+         fhir:display [ fhir:v "Oligodendroglioma" ]
+       ] [
+         fhir:code [ fhir:v "1156930004" ] ;
+         fhir:display [ fhir:v "Benign neurofibroma" ]
+       ] [
+         fhir:code [ fhir:v "1156923005" ] ;
+         fhir:display [ fhir:v "Medulloblastoma" ]
+       ] [
+         fhir:code [ fhir:v "1156905002" ] ;
+         fhir:display [ fhir:v "Null cell pituitary adenoma" ]
+       ] [
+         fhir:code [ fhir:v "1156873009" ] ;
+         fhir:display [ fhir:v "Benign fibroadenoma" ]
+       ] [
+         fhir:code [ fhir:v "1156661006" ] ;
+         fhir:display [ fhir:v "Benign adrenal cortical adenoma" ]
+       ] [
+         fhir:code [ fhir:v "1156654007" ] ;
+         fhir:display [ fhir:v "Benign tubular adenoma" ]
+       ] [
+         fhir:code [ fhir:v "1148561000" ] ;
+         fhir:display [ fhir:v "Bleeding superficial ulcer" ]
+       ] [
+         fhir:code [ fhir:v "1052347005" ] ;
+         fhir:display [ fhir:v "Bullous eruption" ]
+       ] [
+         fhir:code [ fhir:v "1003500000" ] ;
+         fhir:display [ fhir:v "Osteoporotic compression fracture" ]
+       ] [
+         fhir:code [ fhir:v "895217008" ] ;
+         fhir:display [ fhir:v "Lichen sclerosus" ]
+       ] [
+         fhir:code [ fhir:v "874935005" ] ;
+         fhir:display [ fhir:v "Focal glandular and stromal hyperplasia" ]
+       ] [
+         fhir:code [ fhir:v "874913002" ] ;
+         fhir:display [ fhir:v "Multinodular hyperplasia" ]
+       ] [
+         fhir:code [ fhir:v "863926008" ] ;
+         fhir:display [ fhir:v "Angiosarcoma" ]
+       ] [
+         fhir:code [ fhir:v "863913009" ] ;
+         fhir:display [ fhir:v "Open amputated structure" ]
+       ] [
+         fhir:code [ fhir:v "846575004" ] ;
+         fhir:display [ fhir:v "Angioedema" ]
+       ] [
+         fhir:code [ fhir:v "789563006" ] ;
+         fhir:display [ fhir:v "Arterial ulcer" ]
+       ] [
+         fhir:code [ fhir:v "785284009" ] ;
+         fhir:display [ fhir:v "Arachnoid cyst" ]
+       ] [
+         fhir:code [ fhir:v "783806000" ] ;
+         fhir:display [ fhir:v "Vascular malformation" ]
+       ] [
+         fhir:code [ fhir:v "783804002" ] ;
+         fhir:display [ fhir:v "Abnormal communication" ]
+       ] [
+         fhir:code [ fhir:v "783747005" ] ;
+         fhir:display [ fhir:v "Third degree laceration" ]
+       ] [
+         fhir:code [ fhir:v "783746001" ] ;
+         fhir:display [ fhir:v "Second degree laceration" ]
+       ] [
+         fhir:code [ fhir:v "783727002" ] ;
+         fhir:display [ fhir:v "First degree laceration" ]
+       ] [
+         fhir:code [ fhir:v "783710005" ] ;
+         fhir:display [ fhir:v "Superficial laceration" ]
+       ] [
+         fhir:code [ fhir:v "782173000" ] ;
+         fhir:display [ fhir:v "Agenesis" ]
+       ] [
+         fhir:code [ fhir:v "771487004" ] ;
+         fhir:display [ fhir:v "Compound fracture of multiple bones" ]
+       ] [
+         fhir:code [ fhir:v "771486008" ] ;
+         fhir:display [ fhir:v "Closed fracture of multiple bones" ]
+       ] [
+         fhir:code [ fhir:v "771485007" ] ;
+         fhir:display [ fhir:v "Fracture of multiple bones" ]
+       ] [
+         fhir:code [ fhir:v "770951006" ] ;
+         fhir:display [ fhir:v "Superficial bite wound" ]
+       ] [
+         fhir:code [ fhir:v "767376003" ] ;
+         fhir:display [ fhir:v "Lentigo" ]
+       ] [
+         fhir:code [ fhir:v "766235003" ] ;
+         fhir:display [ fhir:v "Cavovarus deformity" ]
+       ] [
+         fhir:code [ fhir:v "722799005" ] ;
+         fhir:display [ fhir:v "Secondary non-active caries" ]
+       ] [
+         fhir:code [ fhir:v "722798002" ] ;
+         fhir:display [ fhir:v "Primary non-active caries" ]
+       ] [
+         fhir:code [ fhir:v "722797007" ] ;
+         fhir:display [ fhir:v "Secondary active caries" ]
+       ] [
+         fhir:code [ fhir:v "722796003" ] ;
+         fhir:display [ fhir:v "Primary active caries" ]
+       ] [
+         fhir:code [ fhir:v "722192005" ] ;
+         fhir:display [ fhir:v "Localized swelling" ]
+       ] [
+         fhir:code [ fhir:v "719880007" ] ;
+         fhir:display [ fhir:v "Acute lymphoid follicular inflammation" ]
+       ] [
+         fhir:code [ fhir:v "718355007" ] ;
+         fhir:display [ fhir:v "Torsion deformity" ]
+       ] [
+         fhir:code [ fhir:v "716577004" ] ;
+         fhir:display [ fhir:v "Preauricular sinus" ]
+       ] [
+         fhir:code [ fhir:v "708578007" ] ;
+         fhir:display [ fhir:v "Active caries" ]
+       ] [
+         fhir:code [ fhir:v "708577002" ] ;
+         fhir:display [ fhir:v "Non-active caries" ]
+       ] [
+         fhir:code [ fhir:v "708576006" ] ;
+         fhir:display [ fhir:v "Primary caries" ]
+       ] [
+         fhir:code [ fhir:v "708575005" ] ;
+         fhir:display [ fhir:v "Secondary caries" ]
+       ] [
+         fhir:code [ fhir:v "708574009" ] ;
+         fhir:display [ fhir:v "Non-cavitated caries" ]
+       ] [
+         fhir:code [ fhir:v "708573003" ] ;
+         fhir:display [ fhir:v "Cavitated caries" ]
+       ] [
+         fhir:code [ fhir:v "708539008" ] ;
+         fhir:display [ fhir:v "Concussive injury" ]
+       ] [
+         fhir:code [ fhir:v "708529002" ] ;
+         fhir:display [ fhir:v "Lesion of degenerative abnormality" ]
+       ] [
+         fhir:code [ fhir:v "708528005" ] ;
+         fhir:display [ fhir:v "Narrowing" ]
+       ] [
+         fhir:code [ fhir:v "708041002" ] ;
+         fhir:display [ fhir:v "Mechanical lesion" ]
+       ] [
+         fhir:code [ fhir:v "708039003" ] ;
+         fhir:display [ fhir:v "Inflammatory lesion" ]
+       ] [
+         fhir:code [ fhir:v "708027006" ] ;
+         fhir:display [ fhir:v "Valvular stenosis with valvular insufficiency" ]
+       ] [
+         fhir:code [ fhir:v "708024004" ] ;
+         fhir:display [ fhir:v "Valvular insufficiency" ]
+       ] [
+         fhir:code [ fhir:v "707598004" ] ;
+         fhir:display [ fhir:v "Malocclusion" ]
+       ] [
+         fhir:code [ fhir:v "707496003" ] ;
+         fhir:display [ fhir:v "Inflammation and consolidation" ]
+       ] [
+         fhir:code [ fhir:v "703707001" ] ;
+         fhir:display [ fhir:v "Ewing sarcoma / peripheral neuroectodermal tumor" ]
+       ] [
+         fhir:code [ fhir:v "699289006" ] ;
+         fhir:display [ fhir:v "Lichenoid inflammation" ]
+       ] [
+         fhir:code [ fhir:v "609445005" ] ;
+         fhir:display [ fhir:v "Entrapment with compression" ]
+       ] [
+         fhir:code [ fhir:v "609345009" ] ;
+         fhir:display [ fhir:v "Disrupted surgical incision wound" ]
+       ] [
+         fhir:code [ fhir:v "450910000" ] ;
+         fhir:display [ fhir:v "ALK positive large B-cell lymphoma" ]
+       ] [
+         fhir:code [ fhir:v "449735000" ] ;
+         fhir:display [ fhir:v "Structural change due to ischemia" ]
+       ] [
+         fhir:code [ fhir:v "447136001" ] ;
+         fhir:display [ fhir:v "Palisading granuloma" ]
+       ] [
+         fhir:code [ fhir:v "446944008" ] ;
+         fhir:display [ fhir:v "Immunoglobulin A deposit" ]
+       ] [
+         fhir:code [ fhir:v "446569001" ] ;
+         fhir:display [ fhir:v "Microthrombus" ]
+       ] [
+         fhir:code [ fhir:v "444329004" ] ;
+         fhir:display [ fhir:v "Surgically constructed pathway from inferior vena cava to mitral valve" ]
+       ] [
+         fhir:code [ fhir:v "444177009" ] ;
+         fhir:display [ fhir:v "Surgically constructed pathway from superior vena cava to mitral valve" ]
+       ] [
+         fhir:code [ fhir:v "443907004" ] ;
+         fhir:display [ fhir:v "Surgically constructed pathway from pulmonary veins to tricuspid valve" ]
+       ] [
+         fhir:code [ fhir:v "443809000" ] ;
+         fhir:display [ fhir:v "Surgically constructed convergence of inferior and superior vena cava pathways into common pathway superior to atrioventricular valve" ]
+       ] [
+         fhir:code [ fhir:v "443789005" ] ;
+         fhir:display [ fhir:v "Surgically constructed bidirectional pathway from superior vena cava to pulmonary artery" ]
+       ] [
+         fhir:code [ fhir:v "443726001" ] ;
+         fhir:display [ fhir:v "Neoaortic root" ]
+       ] [
+         fhir:code [ fhir:v "443724003" ] ;
+         fhir:display [ fhir:v "Fontan fenestration" ]
+       ] [
+         fhir:code [ fhir:v "443696003" ] ;
+         fhir:display [ fhir:v "Left ventricle to pulmonary artery conduit anastomosis" ]
+       ] [
+         fhir:code [ fhir:v "443625008" ] ;
+         fhir:display [ fhir:v "Fontan pulmonary artery connection" ]
+       ] [
+         fhir:code [ fhir:v "443445009" ] ;
+         fhir:display [ fhir:v "Cor triatriatum orifice" ]
+       ] [
+         fhir:code [ fhir:v "443444008" ] ;
+         fhir:display [ fhir:v "Right superior vena cava" ]
+       ] [
+         fhir:code [ fhir:v "443329006" ] ;
+         fhir:display [ fhir:v "Bulboventricular foramen" ]
+       ] [
+         fhir:code [ fhir:v "443328003" ] ;
+         fhir:display [ fhir:v "Right ventricle to pulmonary artery conduit anastomosis" ]
+       ] [
+         fhir:code [ fhir:v "443327008" ] ;
+         fhir:display [ fhir:v "Hemi-Fontan pathway" ]
+       ] [
+         fhir:code [ fhir:v "443326004" ] ;
+         fhir:display [ fhir:v "Fontan inferior vena cava pathway" ]
+       ] [
+         fhir:code [ fhir:v "443298009" ] ;
+         fhir:display [ fhir:v "Fontan pathway" ]
+       ] [
+         fhir:code [ fhir:v "443297004" ] ;
+         fhir:display [ fhir:v "Pulmonary vein to atrium connection" ]
+       ] [
+         fhir:code [ fhir:v "443283007" ] ;
+         fhir:display [ fhir:v "Neoaortic valve" ]
+       ] [
+         fhir:code [ fhir:v "443260009" ] ;
+         fhir:display [ fhir:v "Rastelli interventricular tunnel" ]
+       ] [
+         fhir:code [ fhir:v "443208000" ] ;
+         fhir:display [ fhir:v "Pulmonary vein confluence to atrium connection" ]
+       ] [
+         fhir:code [ fhir:v "443096004" ] ;
+         fhir:display [ fhir:v "Surgically constructed connection of aorta to pulmonary artery" ]
+       ] [
+         fhir:code [ fhir:v "442894007" ] ;
+         fhir:display [ fhir:v "Deposition of calcium pyrophosphate crystals, calcified structure" ]
+       ] [
+         fhir:code [ fhir:v "442672001" ] ;
+         fhir:display [ fhir:v "Swelling" ]
+       ] [
+         fhir:code [ fhir:v "442085002" ] ;
+         fhir:display [ fhir:v "Greenstick fracture" ]
+       ] [
+         fhir:code [ fhir:v "442021009" ] ;
+         fhir:display [ fhir:v "Enlargement" ]
+       ] [
+         fhir:code [ fhir:v "441901008" ] ;
+         fhir:display [ fhir:v "Inverted diverticulum" ]
+       ] [
+         fhir:code [ fhir:v "441850003" ] ;
+         fhir:display [ fhir:v "Appendiceal stump" ]
+       ] [
+         fhir:code [ fhir:v "438074005" ] ;
+         fhir:display [ fhir:v "Vaginal cuff" ]
+       ] [
+         fhir:code [ fhir:v "427657002" ] ;
+         fhir:display [ fhir:v "Ileal pouch" ]
+       ] [
+         fhir:code [ fhir:v "426912003" ] ;
+         fhir:display [ fhir:v "Splinter foreign body" ]
+       ] [
+         fhir:code [ fhir:v "423699002" ] ;
+         fhir:display [ fhir:v "Enchondroma" ]
+       ] [
+         fhir:code [ fhir:v "419670003" ] ;
+         fhir:display [ fhir:v "Epidermoid cyst" ]
+       ] [
+         fhir:code [ fhir:v "419351001" ] ;
+         fhir:display [ fhir:v "Sinus" ]
+       ] [
+         fhir:code [ fhir:v "419093005" ] ;
+         fhir:display [ fhir:v "Trichilemmal cyst" ]
+       ] [
+         fhir:code [ fhir:v "418560003" ] ;
+         fhir:display [ fhir:v "Absence" ]
+       ] [
+         fhir:code [ fhir:v "417992006" ] ;
+         fhir:display [ fhir:v "Sebaceous cyst" ]
+       ] [
+         fhir:code [ fhir:v "417271000" ] ;
+         fhir:display [ fhir:v "Hydatidiform mole, benign" ]
+       ] [
+         fhir:code [ fhir:v "416939005" ] ;
+         fhir:display [ fhir:v "Proliferative mass" ]
+       ] [
+         fhir:code [ fhir:v "416502004" ] ;
+         fhir:display [ fhir:v "Suture line" ]
+       ] [
+         fhir:code [ fhir:v "415588005" ] ;
+         fhir:display [ fhir:v "Stoma AND/OR site of stoma" ]
+       ] [
+         fhir:code [ fhir:v "415582006" ] ;
+         fhir:display [ fhir:v "Stenosis" ]
+       ] [
+         fhir:code [ fhir:v "414794006" ] ;
+         fhir:display [ fhir:v "Myeloid proliferation" ]
+       ] [
+         fhir:code [ fhir:v "414655002" ] ;
+         fhir:display [ fhir:v "Mature (peripheral) T-cell neoplasm" ]
+       ] [
+         fhir:code [ fhir:v "414629003" ] ;
+         fhir:display [ fhir:v "Lymphoproliferative disorder" ]
+       ] [
+         fhir:code [ fhir:v "414450004" ] ;
+         fhir:display [ fhir:v "Idiopathic hypereosinophilic syndrome" ]
+       ] [
+         fhir:code [ fhir:v "414403008" ] ;
+         fhir:display [ fhir:v "Hernia" ]
+       ] [
+         fhir:code [ fhir:v "414402003" ] ;
+         fhir:display [ fhir:v "Hernial opening" ]
+       ] [
+         fhir:code [ fhir:v "410723003" ] ;
+         fhir:display [ fhir:v "Wound dehiscence" ]
+       ] [
+         fhir:code [ fhir:v "409781003" ] ;
+         fhir:display [ fhir:v "Focal chronic inflammation" ]
+       ] [
+         fhir:code [ fhir:v "409777003" ] ;
+         fhir:display [ fhir:v "Chronic inflammatory morphology" ]
+       ] [
+         fhir:code [ fhir:v "409776007" ] ;
+         fhir:display [ fhir:v "Acute inflammatory morphology" ]
+       ] [
+         fhir:code [ fhir:v "409774005" ] ;
+         fhir:display [ fhir:v "Inflammatory morphology" ]
+       ] [
+         fhir:code [ fhir:v "408764000" ] ;
+         fhir:display [ fhir:v "Filtering bleb" ]
+       ] [
+         fhir:code [ fhir:v "408737001" ] ;
+         fhir:display [ fhir:v "Malposition" ]
+       ] [
+         fhir:code [ fhir:v "406102004" ] ;
+         fhir:display [ fhir:v "Dysplasia with neoplasia" ]
+       ] [
+         fhir:code [ fhir:v "405719001" ] ;
+         fhir:display [ fhir:v "Chronic ulcer" ]
+       ] [
+         fhir:code [ fhir:v "400183000" ] ;
+         fhir:display [ fhir:v "Exfoliative lesion" ]
+       ] [
+         fhir:code [ fhir:v "400177003" ] ;
+         fhir:display [ fhir:v "Neoplasm and/or hamartoma" ]
+       ] [
+         fhir:code [ fhir:v "400163001" ] ;
+         fhir:display [ fhir:v "Malignant fibromatous neoplasm" ]
+       ] [
+         fhir:code [ fhir:v "400061001" ] ;
+         fhir:display [ fhir:v "Abrasion" ]
+       ] [
+         fhir:code [ fhir:v "400048001" ] ;
+         fhir:display [ fhir:v "Excoriation" ]
+       ] [
+         fhir:code [ fhir:v "399898009" ] ;
+         fhir:display [ fhir:v "Misalignment" ]
+       ] [
+         fhir:code [ fhir:v "397423009" ] ;
+         fhir:display [ fhir:v "Transjugular intrahepatic portosystemic shunt" ]
+       ] [
+         fhir:code [ fhir:v "397350003" ] ;
+         fhir:display [ fhir:v "Extranodal marginal zone B-cell lymphoma of mucosa-associated lymphoid tissue" ]
+       ] [
+         fhir:code [ fhir:v "396351009" ] ;
+         fhir:display [ fhir:v "Congenital septal defect" ]
+       ] [
+         fhir:code [ fhir:v "396339007" ] ;
+         fhir:display [ fhir:v "Thrombus" ]
+       ] [
+         fhir:code [ fhir:v "396224008" ] ;
+         fhir:display [ fhir:v "Endometriosis" ]
+       ] [
+         fhir:code [ fhir:v "386152007" ] ;
+         fhir:display [ fhir:v "Hydrocele" ]
+       ] [
+         fhir:code [ fhir:v "385627004" ] ;
+         fhir:display [ fhir:v "Cellulitis" ]
+       ] [
+         fhir:code [ fhir:v "384709000" ] ;
+         fhir:display [ fhir:v "Sprain" ]
+       ] [
+         fhir:code [ fhir:v "372158004" ] ;
+         fhir:display [ fhir:v "Malignant melanoma, metastatic" ]
+       ] [
+         fhir:code [ fhir:v "372152003" ] ;
+         fhir:display [ fhir:v "Sarcoma, metastatic" ]
+       ] [
+         fhir:code [ fhir:v "371520008" ] ;
+         fhir:display [ fhir:v "Developmental failure of fusion" ]
+       ] [
+         fhir:code [ fhir:v "367647000" ] ;
+         fhir:display [ fhir:v "Fibrocystic change" ]
+       ] [
+         fhir:code [ fhir:v "367646009" ] ;
+         fhir:display [ fhir:v "Pus" ]
+       ] [
+         fhir:code [ fhir:v "367644007" ] ;
+         fhir:display [ fhir:v "Simple cyst" ]
+       ] [
+         fhir:code [ fhir:v "367643001" ] ;
+         fhir:display [ fhir:v "Cyst" ]
+       ] [
+         fhir:code [ fhir:v "363563002" ] ;
+         fhir:display [ fhir:v "Entrapment" ]
+       ] [
+         fhir:code [ fhir:v "361687001" ] ;
+         fhir:display [ fhir:v "Renal pelvis stoma" ]
+       ] [
+         fhir:code [ fhir:v "314926009" ] ;
+         fhir:display [ fhir:v "T-cell lymphoma morphology" ]
+       ] [
+         fhir:code [ fhir:v "314923001" ] ;
+         fhir:display [ fhir:v "Low grade B-cell lymphoma morphology" ]
+       ] [
+         fhir:code [ fhir:v "312317000" ] ;
+         fhir:display [ fhir:v "Arteriovenous graft" ]
+       ] [
+         fhir:code [ fhir:v "312288001" ] ;
+         fhir:display [ fhir:v "Vascular graft" ]
+       ] [
+         fhir:code [ fhir:v "308497004" ] ;
+         fhir:display [ fhir:v "Strain - lesion" ]
+       ] [
+         fhir:code [ fhir:v "308492005" ] ;
+         fhir:display [ fhir:v "Contusion - lesion" ]
+       ] [
+         fhir:code [ fhir:v "307575002" ] ;
+         fhir:display [ fhir:v "Benign pheochromocytoma" ]
+       ] [
+         fhir:code [ fhir:v "281600005" ] ;
+         fhir:display [ fhir:v "Intestinal stoma" ]
+       ] [
+         fhir:code [ fhir:v "280699007" ] ;
+         fhir:display [ fhir:v "Abdominal stoma" ]
+       ] [
+         fhir:code [ fhir:v "272726003" ] ;
+         fhir:display [ fhir:v "Gastrostomy" ]
+       ] [
+         fhir:code [ fhir:v "272725004" ] ;
+         fhir:display [ fhir:v "External stoma" ]
+       ] [
+         fhir:code [ fhir:v "264600004" ] ;
+         fhir:display [ fhir:v "Peripheral artery graft" ]
+       ] [
+         fhir:code [ fhir:v "264585001" ] ;
+         fhir:display [ fhir:v "Colostomy - stoma" ]
+       ] [
+         fhir:code [ fhir:v "264364002" ] ;
+         fhir:display [ fhir:v "Ileostomy - stoma" ]
+       ] [
+         fhir:code [ fhir:v "264293000" ] ;
+         fhir:display [ fhir:v "Coronary artery graft" ]
+       ] [
+         fhir:code [ fhir:v "263722006" ] ;
+         fhir:display [ fhir:v "Complete rupture" ]
+       ] [
+         fhir:code [ fhir:v "263697003" ] ;
+         fhir:display [ fhir:v "Bucket handle tear" ]
+       ] [
+         fhir:code [ fhir:v "259681001" ] ;
+         fhir:display [ fhir:v "Macrocytic erythrocyte" ]
+       ] [
+         fhir:code [ fhir:v "253086004" ] ;
+         fhir:display [ fhir:v "Cellular schwannoma" ]
+       ] [
+         fhir:code [ fhir:v "253057002" ] ;
+         fhir:display [ fhir:v "Benign lymphangioma" ]
+       ] [
+         fhir:code [ fhir:v "253053003" ] ;
+         fhir:display [ fhir:v "Benign hemangioma" ]
+       ] [
+         fhir:code [ fhir:v "252994001" ] ;
+         fhir:display [ fhir:v "Benign squamous cell tumor" ]
+       ] [
+         fhir:code [ fhir:v "245860003" ] ;
+         fhir:display [ fhir:v "Urinary conduit site" ]
+       ] [
+         fhir:code [ fhir:v "245857005" ] ;
+         fhir:display [ fhir:v "Stoma" ]
+       ] [
+         fhir:code [ fhir:v "189982000" ] ;
+         fhir:display [ fhir:v "Reticulosarcoma morphology" ]
+       ] [
+         fhir:code [ fhir:v "189607006" ] ;
+         fhir:display [ fhir:v "Carcinoid tumor - morphology" ]
+       ] [
+         fhir:code [ fhir:v "177658007" ] ;
+         fhir:display [ fhir:v "Fibrinous inflammation" ]
+       ] [
+         fhir:code [ fhir:v "177418003" ] ;
+         fhir:display [ fhir:v "Ruptured cyst" ]
+       ] [
+         fhir:code [ fhir:v "174637007" ] ;
+         fhir:display [ fhir:v "Angiectasia" ]
+       ] [
+         fhir:code [ fhir:v "134352000" ] ;
+         fhir:display [ fhir:v "Incised wound - morphology" ]
+       ] [
+         fhir:code [ fhir:v "134328007" ] ;
+         fhir:display [ fhir:v "Lipoma" ]
+       ] [
+         fhir:code [ fhir:v "134222005" ] ;
+         fhir:display [ fhir:v "Penetrating wound" ]
+       ] [
+         fhir:code [ fhir:v "133855003" ] ;
+         fhir:display [ fhir:v "Radial scar" ]
+       ] [
+         fhir:code [ fhir:v "133853005" ] ;
+         fhir:display [ fhir:v "Epiretinal membrane" ]
+       ] [
+         fhir:code [ fhir:v "129263008" ] ;
+         fhir:display [ fhir:v "Impacted tooth" ]
+       ] [
+         fhir:code [ fhir:v "129258009" ] ;
+         fhir:display [ fhir:v "Redundant tissue" ]
+       ] [
+         fhir:code [ fhir:v "129256008" ] ;
+         fhir:display [ fhir:v "Torsion" ]
+       ] [
+         fhir:code [ fhir:v "128859003" ] ;
+         fhir:display [ fhir:v "Villous adenoma" ]
+       ] [
+         fhir:code [ fhir:v "128844009" ] ;
+         fhir:display [ fhir:v "Essential thrombocythemia" ]
+       ] [
+         fhir:code [ fhir:v "128843003" ] ;
+         fhir:display [ fhir:v "Primary myelofibrosis" ]
+       ] [
+         fhir:code [ fhir:v "128841001" ] ;
+         fhir:display [ fhir:v "Polycythemia vera" ]
+       ] [
+         fhir:code [ fhir:v "128831004" ] ;
+         fhir:display [ fhir:v "Chronic myelomonocytic leukemia" ]
+       ] [
+         fhir:code [ fhir:v "128822004" ] ;
+         fhir:display [ fhir:v "Precursor cell lymphoblastic leukemia" ]
+       ] [
+         fhir:code [ fhir:v "128799007" ] ;
+         fhir:display [ fhir:v "Hodgkin lymphoma, lymphocyte-rich" ]
+       ] [
+         fhir:code [ fhir:v "128765009" ] ;
+         fhir:display [ fhir:v "Adenomyoepithelioma" ]
+       ] [
+         fhir:code [ fhir:v "128738002" ] ;
+         fhir:display [ fhir:v "Myofibroblastoma" ]
+       ] [
+         fhir:code [ fhir:v "128736003" ] ;
+         fhir:display [ fhir:v "Solitary fibrous tumor" ]
+       ] [
+         fhir:code [ fhir:v "128717008" ] ;
+         fhir:display [ fhir:v "Thymic carcinoma" ]
+       ] [
+         fhir:code [ fhir:v "128696009" ] ;
+         fhir:display [ fhir:v "Intraductal micropapillary carcinoma" ]
+       ] [
+         fhir:code [ fhir:v "128651002" ] ;
+         fhir:display [ fhir:v "Lactating adenoma" ]
+       ] [
+         fhir:code [ fhir:v "128632008" ] ;
+         fhir:display [ fhir:v "Non-small cell carcinoma" ]
+       ] [
+         fhir:code [ fhir:v "128623006" ] ;
+         fhir:display [ fhir:v "Myelodysplastic neoplasm" ]
+       ] [
+         fhir:code [ fhir:v "128617001" ] ;
+         fhir:display [ fhir:v "Arteriovenous fistula" ]
+       ] [
+         fhir:code [ fhir:v "128589000" ] ;
+         fhir:display [ fhir:v "Systemic collateral artery to lung" ]
+       ] [
+         fhir:code [ fhir:v "128586007" ] ;
+         fhir:display [ fhir:v "Pulmonary chamber of cor triatriatum" ]
+       ] [
+         fhir:code [ fhir:v "128585006" ] ;
+         fhir:display [ fhir:v "Anomalous pulmonary vein" ]
+       ] [
+         fhir:code [ fhir:v "128305008" ] ;
+         fhir:display [ fhir:v "Opacity" ]
+       ] [
+         fhir:code [ fhir:v "127962001" ] ;
+         fhir:display [ fhir:v "Meckel's diverticulum" ]
+       ] [
+         fhir:code [ fhir:v "127581004" ] ;
+         fhir:display [ fhir:v "Mastocytosis" ]
+       ] [
+         fhir:code [ fhir:v "127579001" ] ;
+         fhir:display [ fhir:v "Meningeal neoplasm (morphology)" ]
+       ] [
+         fhir:code [ fhir:v "127562007" ] ;
+         fhir:display [ fhir:v "Varus deformity" ]
+       ] [
+         fhir:code [ fhir:v "127561000" ] ;
+         fhir:display [ fhir:v "Valgus deformity" ]
+       ] [
+         fhir:code [ fhir:v "125671007" ] ;
+         fhir:display [ fhir:v "Rupture" ]
+       ] [
+         fhir:code [ fhir:v "125568005" ] ;
+         fhir:display [ fhir:v "Focal fibromatosis" ]
+       ] [
+         fhir:code [ fhir:v "125524008" ] ;
+         fhir:display [ fhir:v "Diffuse hyperplasia" ]
+       ] [
+         fhir:code [ fhir:v "125358004" ] ;
+         fhir:display [ fhir:v "Diffuse fibroelastosis" ]
+       ] [
+         fhir:code [ fhir:v "125357009" ] ;
+         fhir:display [ fhir:v "Focal fibroelastosis" ]
+       ] [
+         fhir:code [ fhir:v "125285008" ] ;
+         fhir:display [ fhir:v "Multiple diverticula" ]
+       ] [
+         fhir:code [ fhir:v "125284007" ] ;
+         fhir:display [ fhir:v "Single diverticulum" ]
+       ] [
+         fhir:code [ fhir:v "125274006" ] ;
+         fhir:display [ fhir:v "Multiple aneurysms" ]
+       ] [
+         fhir:code [ fhir:v "125273000" ] ;
+         fhir:display [ fhir:v "Calcified aneurysm" ]
+       ] [
+         fhir:code [ fhir:v "125272005" ] ;
+         fhir:display [ fhir:v "Expanding aneurysm" ]
+       ] [
+         fhir:code [ fhir:v "125271003" ] ;
+         fhir:display [ fhir:v "Thrombosed aneurysm" ]
+       ] [
+         fhir:code [ fhir:v "125263002" ] ;
+         fhir:display [ fhir:v "Sliding hernia" ]
+       ] [
+         fhir:code [ fhir:v "125245002" ] ;
+         fhir:display [ fhir:v "Retained foreign body" ]
+       ] [
+         fhir:code [ fhir:v "123749006" ] ;
+         fhir:display [ fhir:v "Chronic proliferative inflammation" ]
+       ] [
+         fhir:code [ fhir:v "123631004" ] ;
+         fhir:display [ fhir:v "Diffuse acute inflammation" ]
+       ] [
+         fhir:code [ fhir:v "123630003" ] ;
+         fhir:display [ fhir:v "Focal acute inflammation" ]
+       ] [
+         fhir:code [ fhir:v "123250005" ] ;
+         fhir:display [ fhir:v "Synovial cyst" ]
+       ] [
+         fhir:code [ fhir:v "118622000" ] ;
+         fhir:display [ fhir:v "Fistula" ]
+       ] [
+         fhir:code [ fhir:v "116208002" ] ;
+         fhir:display [ fhir:v "Abscess of wound" ]
+       ] [
+         fhir:code [ fhir:v "115240006" ] ;
+         fhir:display [ fhir:v "Glioma" ]
+       ] [
+         fhir:code [ fhir:v "115238001" ] ;
+         fhir:display [ fhir:v "Giant cell tumor" ]
+       ] [
+         fhir:code [ fhir:v "115233005" ] ;
+         fhir:display [ fhir:v "Germ cell neoplasm" ]
+       ] [
+         fhir:code [ fhir:v "115227001" ] ;
+         fhir:display [ fhir:v "Lipomatous neoplasm" ]
+       ] [
+         fhir:code [ fhir:v "112681002" ] ;
+         fhir:display [ fhir:v "Intradermal nevus" ]
+       ] [
+         fhir:code [ fhir:v "112674009" ] ;
+         fhir:display [ fhir:v "Fibrosis" ]
+       ] [
+         fhir:code [ fhir:v "112656000" ] ;
+         fhir:display [ fhir:v "Deposition of calcium hydroxyapatite crystals" ]
+       ] [
+         fhir:code [ fhir:v "112654002" ] ;
+         fhir:display [ fhir:v "Deposition of sodium urate crystals" ]
+       ] [
+         fhir:code [ fhir:v "112649006" ] ;
+         fhir:display [ fhir:v "Hemorrhagic inflammation" ]
+       ] [
+         fhir:code [ fhir:v "112641009" ] ;
+         fhir:display [ fhir:v "Telangiectasis" ]
+       ] [
+         fhir:code [ fhir:v "112638000" ] ;
+         fhir:display [ fhir:v "Displacement" ]
+       ] [
+         fhir:code [ fhir:v "112633009" ] ;
+         fhir:display [ fhir:v "Surgical wound" ]
+       ] [
+         fhir:code [ fhir:v "111017005" ] ;
+         fhir:display [ fhir:v "Injection site scar" ]
+       ] [
+         fhir:code [ fhir:v "110451006" ] ;
+         fhir:display [ fhir:v "Spindle cell nodule" ]
+       ] [
+         fhir:code [ fhir:v "110450007" ] ;
+         fhir:display [ fhir:v "Langerhans' cell histiocytosis" ]
+       ] [
+         fhir:code [ fhir:v "110445001" ] ;
+         fhir:display [ fhir:v "Focal hyperkeratosis" ]
+       ] [
+         fhir:code [ fhir:v "110433005" ] ;
+         fhir:display [ fhir:v "Inflammatory thrombosis" ]
+       ] [
+         fhir:code [ fhir:v "110426005" ] ;
+         fhir:display [ fhir:v "Aphtha" ]
+       ] [
+         fhir:code [ fhir:v "108369006" ] ;
+         fhir:display [ fhir:v "Neoplasm" ]
+       ] [
+         fhir:code [ fhir:v "107675007" ] ;
+         fhir:display [ fhir:v "Chromosomal morphology" ]
+       ] [
+         fhir:code [ fhir:v "107671003" ] ;
+         fhir:display [ fhir:v "Vascular sclerosis" ]
+       ] [
+         fhir:code [ fhir:v "107669003" ] ;
+         fhir:display [ fhir:v "Degenerative abnormality" ]
+       ] [
+         fhir:code [ fhir:v "103691009" ] ;
+         fhir:display [ fhir:v "Acute myeloid leukemia with maturation" ]
+       ] [
+         fhir:code [ fhir:v "103681003" ] ;
+         fhir:display [ fhir:v "Impaired tissue repair" ]
+       ] [
+         fhir:code [ fhir:v "103678008" ] ;
+         fhir:display [ fhir:v "Endometriotic cyst" ]
+       ] [
+         fhir:code [ fhir:v "103641005" ] ;
+         fhir:display [ fhir:v "Reactive cellular changes associated with atrophy" ]
+       ] [
+         fhir:code [ fhir:v "103627001" ] ;
+         fhir:display [ fhir:v "Cystic inflammation" ]
+       ] [
+         fhir:code [ fhir:v "103614000" ] ;
+         fhir:display [ fhir:v "Follicular cyst" ]
+       ] [
+         fhir:code [ fhir:v "91431006" ] ;
+         fhir:display [ fhir:v "Supernumerary structure" ]
+       ] [
+         fhir:code [ fhir:v "91369002" ] ;
+         fhir:display [ fhir:v "Bloody discharge" ]
+       ] [
+         fhir:code [ fhir:v "91182001" ] ;
+         fhir:display [ fhir:v "Perforated ulcer" ]
+       ] [
+         fhir:code [ fhir:v "90738007" ] ;
+         fhir:display [ fhir:v "Obstruction by torsion" ]
+       ] [
+         fhir:code [ fhir:v "90510001" ] ;
+         fhir:display [ fhir:v "Extension deformity" ]
+       ] [
+         fhir:code [ fhir:v "90120004" ] ;
+         fhir:display [ fhir:v "Mycosis fungoides" ]
+       ] [
+         fhir:code [ fhir:v "89757007" ] ;
+         fhir:display [ fhir:v "Macular rash" ]
+       ] [
+         fhir:code [ fhir:v "89753006" ] ;
+         fhir:display [ fhir:v "Calcium calculus" ]
+       ] [
+         fhir:code [ fhir:v "89740008" ] ;
+         fhir:display [ fhir:v "Lobular carcinoma" ]
+       ] [
+         fhir:code [ fhir:v "89031001" ] ;
+         fhir:display [ fhir:v "Hypopigmentation" ]
+       ] [
+         fhir:code [ fhir:v "89010004" ] ;
+         fhir:display [ fhir:v "Rhabdomyolysis" ]
+       ] [
+         fhir:code [ fhir:v "88565003" ] ;
+         fhir:display [ fhir:v "Flexion deformity" ]
+       ] [
+         fhir:code [ fhir:v "88295005" ] ;
+         fhir:display [ fhir:v "Urate calculus" ]
+       ] [
+         fhir:code [ fhir:v "88270009" ] ;
+         fhir:display [ fhir:v "Intercellular edema" ]
+       ] [
+         fhir:code [ fhir:v "88195001" ] ;
+         fhir:display [ fhir:v "Alveolar soft part sarcoma" ]
+       ] [
+         fhir:code [ fhir:v "87913009" ] ;
+         fhir:display [ fhir:v "Malignant phyllodes tumor" ]
+       ] [
+         fhir:code [ fhir:v "87737001" ] ;
+         fhir:display [ fhir:v "Signet ring cell carcinoma" ]
+       ] [
+         fhir:code [ fhir:v "87642003" ] ;
+         fhir:display [ fhir:v "Dislocation" ]
+       ] [
+         fhir:code [ fhir:v "87364003" ] ;
+         fhir:display [ fhir:v "Neuroblastoma" ]
+       ] [
+         fhir:code [ fhir:v "86732001" ] ;
+         fhir:display [ fhir:v "Hyperplastic scar" ]
+       ] [
+         fhir:code [ fhir:v "86251006" ] ;
+         fhir:display [ fhir:v "Neoplasm of uncertain behavior" ]
+       ] [
+         fhir:code [ fhir:v "86217007" ] ;
+         fhir:display [ fhir:v "Avascular necrosis" ]
+       ] [
+         fhir:code [ fhir:v "85804007" ] ;
+         fhir:display [ fhir:v "Congestion" ]
+       ] [
+         fhir:code [ fhir:v "85726003" ] ;
+         fhir:display [ fhir:v "Mixed aneurysm" ]
+       ] [
+         fhir:code [ fhir:v "85659009" ] ;
+         fhir:display [ fhir:v "Aneurysm" ]
+       ] [
+         fhir:code [ fhir:v "85431000" ] ;
+         fhir:display [ fhir:v "Fusiform aneurysm" ]
+       ] [
+         fhir:code [ fhir:v "85243001" ] ;
+         fhir:display [ fhir:v "Minor laceration" ]
+       ] [
+         fhir:code [ fhir:v "84499006" ] ;
+         fhir:display [ fhir:v "Chronic inflammation" ]
+       ] [
+         fhir:code [ fhir:v "84050003" ] ;
+         fhir:display [ fhir:v "Glandular and stromal hyperplasia" ]
+       ] [
+         fhir:code [ fhir:v "82711006" ] ;
+         fhir:display [ fhir:v "Infiltrating duct carcinoma" ]
+       ] [
+         fhir:code [ fhir:v "82646005" ] ;
+         fhir:display [ fhir:v "Glomerulosclerosis" ]
+       ] [
+         fhir:code [ fhir:v "82515000" ] ;
+         fhir:display [ fhir:v "Vesicle" ]
+       ] [
+         fhir:code [ fhir:v "82513007" ] ;
+         fhir:display [ fhir:v "Myeloid metaplasia" ]
+       ] [
+         fhir:code [ fhir:v "82375006" ] ;
+         fhir:display [ fhir:v "Adenomatous polyp" ]
+       ] [
+         fhir:code [ fhir:v "82014009" ] ;
+         fhir:display [ fhir:v "Peripheral edema" ]
+       ] [
+         fhir:code [ fhir:v "81845009" ] ;
+         fhir:display [ fhir:v "Follicular hyperkeratosis" ]
+       ] [
+         fhir:code [ fhir:v "81669005" ] ;
+         fhir:display [ fhir:v "Neurofibromatosis" ]
+       ] [
+         fhir:code [ fhir:v "81450008" ] ;
+         fhir:display [ fhir:v "Intercapillary glomerulosclerosis" ]
+       ] [
+         fhir:code [ fhir:v "81409000" ] ;
+         fhir:display [ fhir:v "Coarctation" ]
+       ] [
+         fhir:code [ fhir:v "81274009" ] ;
+         fhir:display [ fhir:v "Apocrine metaplasia" ]
+       ] [
+         fhir:code [ fhir:v "81037000" ] ;
+         fhir:display [ fhir:v "Lacunar infarct" ]
+       ] [
+         fhir:code [ fhir:v "81018009" ] ;
+         fhir:display [ fhir:v "Radiation injury" ]
+       ] [
+         fhir:code [ fhir:v "80400009" ] ;
+         fhir:display [ fhir:v "External hyperostosis" ]
+       ] [
+         fhir:code [ fhir:v "79654002" ] ;
+         fhir:display [ fhir:v "Edema" ]
+       ] [
+         fhir:code [ fhir:v "79644001" ] ;
+         fhir:display [ fhir:v "Pigment alteration" ]
+       ] [
+         fhir:code [ fhir:v "79108005" ] ;
+         fhir:display [ fhir:v "Sclerosing inflammation" ]
+       ] [
+         fhir:code [ fhir:v "78989007" ] ;
+         fhir:display [ fhir:v "Trisomy" ]
+       ] [
+         fhir:code [ fhir:v "78441005" ] ;
+         fhir:display [ fhir:v "Osteopenia" ]
+       ] [
+         fhir:code [ fhir:v "78197004" ] ;
+         fhir:display [ fhir:v "Comedocarcinoma, noninfiltrating" ]
+       ] [
+         fhir:code [ fhir:v "78195007" ] ;
+         fhir:display [ fhir:v "Occlusive thrombus" ]
+       ] [
+         fhir:code [ fhir:v "77986002" ] ;
+         fhir:display [ fhir:v "Melanoma in situ" ]
+       ] [
+         fhir:code [ fhir:v "77643000" ] ;
+         fhir:display [ fhir:v "Ecchymosis" ]
+       ] [
+         fhir:code [ fhir:v "77284006" ] ;
+         fhir:display [ fhir:v "Lobular carcinoma in situ" ]
+       ] [
+         fhir:code [ fhir:v "77126004" ] ;
+         fhir:display [ fhir:v "Abnormal caruncle" ]
+       ] [
+         fhir:code [ fhir:v "76909002" ] ;
+         fhir:display [ fhir:v "Ewing's sarcoma" ]
+       ] [
+         fhir:code [ fhir:v "76555007" ] ;
+         fhir:display [ fhir:v "Disruption" ]
+       ] [
+         fhir:code [ fhir:v "76197007" ] ;
+         fhir:display [ fhir:v "Hyperplasia" ]
+       ] [
+         fhir:code [ fhir:v "76093008" ] ;
+         fhir:display [ fhir:v "Anterior displacement" ]
+       ] [
+         fhir:code [ fhir:v "76060004" ] ;
+         fhir:display [ fhir:v "Esthesioneuroblastoma" ]
+       ] [
+         fhir:code [ fhir:v "76000001" ] ;
+         fhir:display [ fhir:v "Aneurysmal bone cyst" ]
+       ] [
+         fhir:code [ fhir:v "75889009" ] ;
+         fhir:display [ fhir:v "Acute and chronic inflammation" ]
+       ] [
+         fhir:code [ fhir:v "75823008" ] ;
+         fhir:display [ fhir:v "Discharge" ]
+       ] [
+         fhir:code [ fhir:v "75797008" ] ;
+         fhir:display [ fhir:v "Syrinx" ]
+       ] [
+         fhir:code [ fhir:v "75753009" ] ;
+         fhir:display [ fhir:v "Blood clot" ]
+       ] [
+         fhir:code [ fhir:v "75616009" ] ;
+         fhir:display [ fhir:v "Reticulin fibrosis" ]
+       ] [
+         fhir:code [ fhir:v "75567003" ] ;
+         fhir:display [ fhir:v "Anterior closed dislocation" ]
+       ] [
+         fhir:code [ fhir:v "74937006" ] ;
+         fhir:display [ fhir:v "Complicated atheromatous plaque" ]
+       ] [
+         fhir:code [ fhir:v "74654000" ] ;
+         fhir:display [ fhir:v "Mantle cell lymphoma" ]
+       ] [
+         fhir:code [ fhir:v "74571009" ] ;
+         fhir:display [ fhir:v "Bile pigmentation" ]
+       ] [
+         fhir:code [ fhir:v "74532006" ] ;
+         fhir:display [ fhir:v "Malignant glioma" ]
+       ] [
+         fhir:code [ fhir:v "74364000" ] ;
+         fhir:display [ fhir:v "Small cell carcinoma" ]
+       ] [
+         fhir:code [ fhir:v "74280008" ] ;
+         fhir:display [ fhir:v "Glycogen-rich carcinoma" ]
+       ] [
+         fhir:code [ fhir:v "73728008" ] ;
+         fhir:display [ fhir:v "Maturation acceleration" ]
+       ] [
+         fhir:code [ fhir:v "73219006" ] ;
+         fhir:display [ fhir:v "Angiolipoma" ]
+       ] [
+         fhir:code [ fhir:v "72756009" ] ;
+         fhir:display [ fhir:v "Aseptic necrosis" ]
+       ] [
+         fhir:code [ fhir:v "72704001" ] ;
+         fhir:display [ fhir:v "Fracture" ]
+       ] [
+         fhir:code [ fhir:v "72587008" ] ;
+         fhir:display [ fhir:v "Sting" ]
+       ] [
+         fhir:code [ fhir:v "72495009" ] ;
+         fhir:display [ fhir:v "Mucinous adenocarcinoma" ]
+       ] [
+         fhir:code [ fhir:v "72166006" ] ;
+         fhir:display [ fhir:v "Fibroelastosis" ]
+       ] [
+         fhir:code [ fhir:v "72095004" ] ;
+         fhir:display [ fhir:v "Vesicular inflammation" ]
+       ] [
+         fhir:code [ fhir:v "71911007" ] ;
+         fhir:display [ fhir:v "Healed infarct" ]
+       ] [
+         fhir:code [ fhir:v "71447003" ] ;
+         fhir:display [ fhir:v "Paget's disease, extramammary (except Paget's disease of bone)" ]
+       ] [
+         fhir:code [ fhir:v "71379006" ] ;
+         fhir:display [ fhir:v "Erythroplakia" ]
+       ] [
+         fhir:code [ fhir:v "71307009" ] ;
+         fhir:display [ fhir:v "Ganglion cyst" ]
+       ] [
+         fhir:code [ fhir:v "71232009" ] ;
+         fhir:display [ fhir:v "Borderline phyllodes tumor" ]
+       ] [
+         fhir:code [ fhir:v "71173004" ] ;
+         fhir:display [ fhir:v "Compression" ]
+       ] [
+         fhir:code [ fhir:v "71072006" ] ;
+         fhir:display [ fhir:v "Angiodysplasia" ]
+       ] [
+         fhir:code [ fhir:v "70984001" ] ;
+         fhir:display [ fhir:v "Serpentine aneurysm" ]
+       ] [
+         fhir:code [ fhir:v "70831001" ] ;
+         fhir:display [ fhir:v "Papular rash" ]
+       ] [
+         fhir:code [ fhir:v "70819003" ] ;
+         fhir:display [ fhir:v "Erythema" ]
+       ] [
+         fhir:code [ fhir:v "70594002" ] ;
+         fhir:display [ fhir:v "Amelanotic melanoma" ]
+       ] [
+         fhir:code [ fhir:v "70310009" ] ;
+         fhir:display [ fhir:v "Schistocyte" ]
+       ] [
+         fhir:code [ fhir:v "70179006" ] ;
+         fhir:display [ fhir:v "Cholangiocarcinoma" ]
+       ] [
+         fhir:code [ fhir:v "70048005" ] ;
+         fhir:display [ fhir:v "Superficial foreign body" ]
+       ] [
+         fhir:code [ fhir:v "70033004" ] ;
+         fhir:display [ fhir:v "Torus" ]
+       ] [
+         fhir:code [ fhir:v "69310004" ] ;
+         fhir:display [ fhir:v "Intestinal metaplasia" ]
+       ] [
+         fhir:code [ fhir:v "68790008" ] ;
+         fhir:display [ fhir:v "Amyloid deposition" ]
+       ] [
+         fhir:code [ fhir:v "67824002" ] ;
+         fhir:display [ fhir:v "Lymphosarcoma" ]
+       ] [
+         fhir:code [ fhir:v "67798003" ] ;
+         fhir:display [ fhir:v "Congenital premature fusion" ]
+       ] [
+         fhir:code [ fhir:v "67617000" ] ;
+         fhir:display [ fhir:v "Intraductal hyperplasia" ]
+       ] [
+         fhir:code [ fhir:v "67409000" ] ;
+         fhir:display [ fhir:v "Fecal impaction" ]
+       ] [
+         fhir:code [ fhir:v "66954000" ] ;
+         fhir:display [ fhir:v "Bone cyst" ]
+       ] [
+         fhir:code [ fhir:v "66696003" ] ;
+         fhir:display [ fhir:v "Empyema" ]
+       ] [
+         fhir:code [ fhir:v "66146003" ] ;
+         fhir:display [ fhir:v "Sarcoid type granuloma" ]
+       ] [
+         fhir:code [ fhir:v "65692009" ] ;
+         fhir:display [ fhir:v "Spindle cell carcinoma" ]
+       ] [
+         fhir:code [ fhir:v "65413006" ] ;
+         fhir:display [ fhir:v "Caries" ]
+       ] [
+         fhir:code [ fhir:v "64770007" ] ;
+         fhir:display [ fhir:v "Nodular regeneration" ]
+       ] [
+         fhir:code [ fhir:v "64305001" ] ;
+         fhir:display [ fhir:v "Urticaria" ]
+       ] [
+         fhir:code [ fhir:v "64204000" ] ;
+         fhir:display [ fhir:v "Squamous cell carcinoma, metastatic" ]
+       ] [
+         fhir:code [ fhir:v "63280002" ] ;
+         fhir:display [ fhir:v "Dendritic ulcer" ]
+       ] [
+         fhir:code [ fhir:v "63264007" ] ;
+         fhir:display [ fhir:v "Carcinosarcoma" ]
+       ] [
+         fhir:code [ fhir:v "63211008" ] ;
+         fhir:display [ fhir:v "Synovial sarcoma" ]
+       ] [
+         fhir:code [ fhir:v "63130001" ] ;
+         fhir:display [ fhir:v "Surgical scar" ]
+       ] [
+         fhir:code [ fhir:v "62814004" ] ;
+         fhir:display [ fhir:v "Chronic ulcerative inflammation" ]
+       ] [
+         fhir:code [ fhir:v "62570005" ] ;
+         fhir:display [ fhir:v "Microcytic hypochromic erythrocyte" ]
+       ] [
+         fhir:code [ fhir:v "62312006" ] ;
+         fhir:display [ fhir:v "Acute exudative inflammation" ]
+       ] [
+         fhir:code [ fhir:v "62189002" ] ;
+         fhir:display [ fhir:v "Ulcerated atheromatous plaque" ]
+       ] [
+         fhir:code [ fhir:v "62064005" ] ;
+         fhir:display [ fhir:v "Mesothelioma, malignant" ]
+       ] [
+         fhir:code [ fhir:v "62047007" ] ;
+         fhir:display [ fhir:v "Hyperplastic polyp" ]
+       ] [
+         fhir:code [ fhir:v "61814002" ] ;
+         fhir:display [ fhir:v "Dysplastic nevus" ]
+       ] [
+         fhir:code [ fhir:v "61494005" ] ;
+         fhir:display [ fhir:v "Impaction" ]
+       ] [
+         fhir:code [ fhir:v "61295008" ] ;
+         fhir:display [ fhir:v "Congenital abnormal number" ]
+       ] [
+         fhir:code [ fhir:v "61051007" ] ;
+         fhir:display [ fhir:v "Anteroposterior abnormal curvature" ]
+       ] [
+         fhir:code [ fhir:v "60963005" ] ;
+         fhir:display [ fhir:v "Dystrophic calcification" ]
+       ] [
+         fhir:code [ fhir:v "60549007" ] ;
+         fhir:display [ fhir:v "Multiple endocrine adenomas" ]
+       ] [
+         fhir:code [ fhir:v "59984009" ] ;
+         fhir:display [ fhir:v "Prolapsed varices" ]
+       ] [
+         fhir:code [ fhir:v "59843005" ] ;
+         fhir:display [ fhir:v "Furuncle" ]
+       ] [
+         fhir:code [ fhir:v "59576002" ] ;
+         fhir:display [ fhir:v "Growth retardation" ]
+       ] [
+         fhir:code [ fhir:v "59091005" ] ;
+         fhir:display [ fhir:v "Open wound" ]
+       ] [
+         fhir:code [ fhir:v "58909005" ] ;
+         fhir:display [ fhir:v "Amputated structure" ]
+       ] [
+         fhir:code [ fhir:v "58898007" ] ;
+         fhir:display [ fhir:v "Acute serous inflammation" ]
+       ] [
+         fhir:code [ fhir:v "58405006" ] ;
+         fhir:display [ fhir:v "Keloid" ]
+       ] [
+         fhir:code [ fhir:v "57977008" ] ;
+         fhir:display [ fhir:v "Chronic fibrosis" ]
+       ] [
+         fhir:code [ fhir:v "57754000" ] ;
+         fhir:display [ fhir:v "Varicose aneurysm" ]
+       ] [
+         fhir:code [ fhir:v "57697001" ] ;
+         fhir:display [ fhir:v "Growth alteration" ]
+       ] [
+         fhir:code [ fhir:v "57597008" ] ;
+         fhir:display [ fhir:v "Adenosis" ]
+       ] [
+         fhir:code [ fhir:v "57596004" ] ;
+         fhir:display [ fhir:v "Oxyphilic adenocarcinoma" ]
+       ] [
+         fhir:code [ fhir:v "57174000" ] ;
+         fhir:display [ fhir:v "Focal amyloid" ]
+       ] [
+         fhir:code [ fhir:v "57141000" ] ;
+         fhir:display [ fhir:v "Apocrine adenocarcinoma" ]
+       ] [
+         fhir:code [ fhir:v "57052009" ] ;
+         fhir:display [ fhir:v "Bleeding varices" ]
+       ] [
+         fhir:code [ fhir:v "57048009" ] ;
+         fhir:display [ fhir:v "Contracture" ]
+       ] [
+         fhir:code [ fhir:v "56768003" ] ;
+         fhir:display [ fhir:v "Gunshot wound" ]
+       ] [
+         fhir:code [ fhir:v "56468002" ] ;
+         fhir:display [ fhir:v "Venous hemangioma" ]
+       ] [
+         fhir:code [ fhir:v "56457002" ] ;
+         fhir:display [ fhir:v "Congenital atresia" ]
+       ] [
+         fhir:code [ fhir:v "56381008" ] ;
+         fhir:display [ fhir:v "Calculus" ]
+       ] [
+         fhir:code [ fhir:v "56246009" ] ;
+         fhir:display [ fhir:v "Hypertrophy" ]
+       ] [
+         fhir:code [ fhir:v "56208002" ] ;
+         fhir:display [ fhir:v "Ulcer" ]
+       ] [
+         fhir:code [ fhir:v "56021002" ] ;
+         fhir:display [ fhir:v "Seroma" ]
+       ] [
+         fhir:code [ fhir:v "55641003" ] ;
+         fhir:display [ fhir:v "Infarct" ]
+       ] [
+         fhir:code [ fhir:v "55584005" ] ;
+         fhir:display [ fhir:v "Embolus" ]
+       ] [
+         fhir:code [ fhir:v "55470003" ] ;
+         fhir:display [ fhir:v "Acute infarct" ]
+       ] [
+         fhir:code [ fhir:v "55199003" ] ;
+         fhir:display [ fhir:v "Hypoplasia" ]
+       ] [
+         fhir:code [ fhir:v "55150002" ] ;
+         fhir:display [ fhir:v "Follicular lymphoma" ]
+       ] [
+         fhir:code [ fhir:v "55075001" ] ;
+         fhir:display [ fhir:v "Bleeding ulcer" ]
+       ] [
+         fhir:code [ fhir:v "55021007" ] ;
+         fhir:display [ fhir:v "Follicular adenoma" ]
+       ] [
+         fhir:code [ fhir:v "54493002" ] ;
+         fhir:display [ fhir:v "Intramural hematoma" ]
+       ] [
+         fhir:code [ fhir:v "54087003" ] ;
+         fhir:display [ fhir:v "Hairy cell leukemia" ]
+       ] [
+         fhir:code [ fhir:v "54002007" ] ;
+         fhir:display [ fhir:v "Saccular aneurysm" ]
+       ] [
+         fhir:code [ fhir:v "53788007" ] ;
+         fhir:display [ fhir:v "Vesicular rash" ]
+       ] [
+         fhir:code [ fhir:v "53654007" ] ;
+         fhir:display [ fhir:v "Fibrosarcoma" ]
+       ] [
+         fhir:code [ fhir:v "53237008" ] ;
+         fhir:display [ fhir:v "Anaplastic large cell lymphoma, T cell and Null cell type" ]
+       ] [
+         fhir:code [ fhir:v "53151000" ] ;
+         fhir:display [ fhir:v "Fatty streaks" ]
+       ] [
+         fhir:code [ fhir:v "52988006" ] ;
+         fhir:display [ fhir:v "Lesion" ]
+       ] [
+         fhir:code [ fhir:v "52856002" ] ;
+         fhir:display [ fhir:v "Cylindroid aneurysm" ]
+       ] [
+         fhir:code [ fhir:v "52329006" ] ;
+         fhir:display [ fhir:v "Fracture, open" ]
+       ] [
+         fhir:code [ fhir:v "52299001" ] ;
+         fhir:display [ fhir:v "Osteochondroma" ]
+       ] [
+         fhir:code [ fhir:v "52248008" ] ;
+         fhir:display [ fhir:v "Hodgkin lymphoma, nodular sclerosis" ]
+       ] [
+         fhir:code [ fhir:v "52090005" ] ;
+         fhir:display [ fhir:v "Malunion of fracture" ]
+       ] [
+         fhir:code [ fhir:v "51936002" ] ;
+         fhir:display [ fhir:v "Deposition of foreign material" ]
+       ] [
+         fhir:code [ fhir:v "51697005" ] ;
+         fhir:display [ fhir:v "Cutaneous hamartoma" ]
+       ] [
+         fhir:code [ fhir:v "51670003" ] ;
+         fhir:display [ fhir:v "Mural thrombus" ]
+       ] [
+         fhir:code [ fhir:v "51668007" ] ;
+         fhir:display [ fhir:v "Mycotic aneurysm" ]
+       ] [
+         fhir:code [ fhir:v "51404004" ] ;
+         fhir:display [ fhir:v "Fibrous bands" ]
+       ] [
+         fhir:code [ fhir:v "51398009" ] ;
+         fhir:display [ fhir:v "Hamartoma" ]
+       ] [
+         fhir:code [ fhir:v "51092000" ] ;
+         fhir:display [ fhir:v "B-cell chronic lymphocytic leukemia/small lymphocytic lymphoma" ]
+       ] [
+         fhir:code [ fhir:v "51083003" ] ;
+         fhir:display [ fhir:v "Pigment deposition" ]
+       ] [
+         fhir:code [ fhir:v "50978000" ] ;
+         fhir:display [ fhir:v "Leukoplakia" ]
+       ] [
+         fhir:code [ fhir:v "50960005" ] ;
+         fhir:display [ fhir:v "Hemorrhage" ]
+       ] [
+         fhir:code [ fhir:v "50916005" ] ;
+         fhir:display [ fhir:v "Fibrosing adenosis" ]
+       ] [
+         fhir:code [ fhir:v "50399007" ] ;
+         fhir:display [ fhir:v "Closed dislocation" ]
+       ] [
+         fhir:code [ fhir:v "50173008" ] ;
+         fhir:display [ fhir:v "Complete obstruction" ]
+       ] [
+         fhir:code [ fhir:v "50091001" ] ;
+         fhir:display [ fhir:v "Petechia" ]
+       ] [
+         fhir:code [ fhir:v "49938009" ] ;
+         fhir:display [ fhir:v "Drepanocyte" ]
+       ] [
+         fhir:code [ fhir:v "49409001" ] ;
+         fhir:display [ fhir:v "Compound nevus" ]
+       ] [
+         fhir:code [ fhir:v "49247009" ] ;
+         fhir:display [ fhir:v "Protein deposition" ]
+       ] [
+         fhir:code [ fhir:v "49210009" ] ;
+         fhir:display [ fhir:v "Posterior closed dislocation" ]
+       ] [
+         fhir:code [ fhir:v "49158009" ] ;
+         fhir:display [ fhir:v "Emphysema" ]
+       ] [
+         fhir:code [ fhir:v "48707006" ] ;
+         fhir:display [ fhir:v "Growth acceleration" ]
+       ] [
+         fhir:code [ fhir:v "48554007" ] ;
+         fhir:display [ fhir:v "Enterochromaffin cell carcinoid" ]
+       ] [
+         fhir:code [ fhir:v "48434008" ] ;
+         fhir:display [ fhir:v "Atheroma" ]
+       ] [
+         fhir:code [ fhir:v "48333001" ] ;
+         fhir:display [ fhir:v "Burn injury" ]
+       ] [
+         fhir:code [ fhir:v "48010006" ] ;
+         fhir:display [ fhir:v "Melanosis" ]
+       ] [
+         fhir:code [ fhir:v "47725002" ] ;
+         fhir:display [ fhir:v "Maculopapular rash" ]
+       ] [
+         fhir:code [ fhir:v "47631006" ] ;
+         fhir:display [ fhir:v "Adventitial degeneration" ]
+       ] [
+         fhir:code [ fhir:v "47488001" ] ;
+         fhir:display [ fhir:v "Intracystic papillary adenoma" ]
+       ] [
+         fhir:code [ fhir:v "47393002" ] ;
+         fhir:display [ fhir:v "Fissure" ]
+       ] [
+         fhir:code [ fhir:v "47284001" ] ;
+         fhir:display [ fhir:v "Aggressive fibromatosis" ]
+       ] [
+         fhir:code [ fhir:v "47212006" ] ;
+         fhir:display [ fhir:v "Linear atrophy" ]
+       ] [
+         fhir:code [ fhir:v "47002008" ] ;
+         fhir:display [ fhir:v "Pustule" ]
+       ] [
+         fhir:code [ fhir:v "46675001" ] ;
+         fhir:display [ fhir:v "Osteoporotic fracture" ]
+       ] [
+         fhir:code [ fhir:v "46595003" ] ;
+         fhir:display [ fhir:v "Deposition" ]
+       ] [
+         fhir:code [ fhir:v "46541008" ] ;
+         fhir:display [ fhir:v "Second degree burn injury" ]
+       ] [
+         fhir:code [ fhir:v "46212000" ] ;
+         fhir:display [ fhir:v "Juvenile fibroadenoma" ]
+       ] [
+         fhir:code [ fhir:v "45959006" ] ;
+         fhir:display [ fhir:v "Acute suppurative inflammation" ]
+       ] [
+         fhir:code [ fhir:v "45771005" ] ;
+         fhir:display [ fhir:v "Acute bleeding ulcer" ]
+       ] [
+         fhir:code [ fhir:v "45647009" ] ;
+         fhir:display [ fhir:v "Granuloma" ]
+       ] [
+         fhir:code [ fhir:v "45559001" ] ;
+         fhir:display [ fhir:v "Focal fibrosis" ]
+       ] [
+         fhir:code [ fhir:v "45486003" ] ;
+         fhir:display [ fhir:v "Aplasia" ]
+       ] [
+         fhir:code [ fhir:v "45027002" ] ;
+         fhir:display [ fhir:v "Inversion" ]
+       ] [
+         fhir:code [ fhir:v "45024009" ] ;
+         fhir:display [ fhir:v "Hepatoblastoma" ]
+       ] [
+         fhir:code [ fhir:v "44328006" ] ;
+         fhir:display [ fhir:v "Granulomatosis" ]
+       ] [
+         fhir:code [ fhir:v "44132006" ] ;
+         fhir:display [ fhir:v "Abscess morphology" ]
+       ] [
+         fhir:code [ fhir:v "43865008" ] ;
+         fhir:display [ fhir:v "Acute hemorrhagic inflammation" ]
+       ] [
+         fhir:code [ fhir:v "43846000" ] ;
+         fhir:display [ fhir:v "Sclerosis" ]
+       ] [
+         fhir:code [ fhir:v "43526002" ] ;
+         fhir:display [ fhir:v "Operative site" ]
+       ] [
+         fhir:code [ fhir:v "43327007" ] ;
+         fhir:display [ fhir:v "Acantholysis" ]
+       ] [
+         fhir:code [ fhir:v "43299000" ] ;
+         fhir:display [ fhir:v "Miliary aneurysm" ]
+       ] [
+         fhir:code [ fhir:v "43127003" ] ;
+         fhir:display [ fhir:v "Lewy bodies" ]
+       ] [
+         fhir:code [ fhir:v "42717009" ] ;
+         fhir:display [ fhir:v "Teratoma, benign" ]
+       ] [
+         fhir:code [ fhir:v "42685002" ] ;
+         fhir:display [ fhir:v "Adhesion" ]
+       ] [
+         fhir:code [ fhir:v "42577003" ] ;
+         fhir:display [ fhir:v "Stab wound" ]
+       ] [
+         fhir:code [ fhir:v "42508007" ] ;
+         fhir:display [ fhir:v "Fracture, closed, comminuted" ]
+       ] [
+         fhir:code [ fhir:v "42182000" ] ;
+         fhir:display [ fhir:v "Cystic medial necrosis" ]
+       ] [
+         fhir:code [ fhir:v "42164003" ] ;
+         fhir:display [ fhir:v "Posterior displacement" ]
+       ] [
+         fhir:code [ fhir:v "41919003" ] ;
+         fhir:display [ fhir:v "Juvenile carcinoma of the breast" ]
+       ] [
+         fhir:code [ fhir:v "41915009" ] ;
+         fhir:display [ fhir:v "Stasis ulcer" ]
+       ] [
+         fhir:code [ fhir:v "41796003" ] ;
+         fhir:display [ fhir:v "Anastomosis" ]
+       ] [
+         fhir:code [ fhir:v "41699000" ] ;
+         fhir:display [ fhir:v "Effusion" ]
+       ] [
+         fhir:code [ fhir:v "41605001" ] ;
+         fhir:display [ fhir:v "Ulcerative inflammation" ]
+       ] [
+         fhir:code [ fhir:v "41570003" ] ;
+         fhir:display [ fhir:v "Carbuncle" ]
+       ] [
+         fhir:code [ fhir:v "41444002" ] ;
+         fhir:display [ fhir:v "Invagination" ]
+       ] [
+         fhir:code [ fhir:v "41329004" ] ;
+         fhir:display [ fhir:v "Polyp" ]
+       ] [
+         fhir:code [ fhir:v "41086002" ] ;
+         fhir:display [ fhir:v "Congenital smallness" ]
+       ] [
+         fhir:code [ fhir:v "41034006" ] ;
+         fhir:display [ fhir:v "Suppurative inflammation" ]
+       ] [
+         fhir:code [ fhir:v "40829002" ] ;
+         fhir:display [ fhir:v "Acute edema" ]
+       ] [
+         fhir:code [ fhir:v "40772000" ] ;
+         fhir:display [ fhir:v "Fibrous plaque" ]
+       ] [
+         fhir:code [ fhir:v "40518009" ] ;
+         fhir:display [ fhir:v "Acute superficial ulcer" ]
+       ] [
+         fhir:code [ fhir:v "40411000" ] ;
+         fhir:display [ fhir:v "Follicular lymphoma, grade 3" ]
+       ] [
+         fhir:code [ fhir:v "40009002" ] ;
+         fhir:display [ fhir:v "Craniopharyngioma" ]
+       ] [
+         fhir:code [ fhir:v "39718000" ] ;
+         fhir:display [ fhir:v "Congenital failure to migrate" ]
+       ] [
+         fhir:code [ fhir:v "39391009" ] ;
+         fhir:display [ fhir:v "Chronic serous inflammation" ]
+       ] [
+         fhir:code [ fhir:v "39000009" ] ;
+         fhir:display [ fhir:v "Hemangiosarcoma" ]
+       ] [
+         fhir:code [ fhir:v "38785003" ] ;
+         fhir:display [ fhir:v "Air leakage" ]
+       ] [
+         fhir:code [ fhir:v "38716007" ] ;
+         fhir:display [ fhir:v "Atherosclerosis" ]
+       ] [
+         fhir:code [ fhir:v "38542009" ] ;
+         fhir:display [ fhir:v "Nodular glomerulosclerosis" ]
+       ] [
+         fhir:code [ fhir:v "38109001" ] ;
+         fhir:display [ fhir:v "Osseous metaplasia" ]
+       ] [
+         fhir:code [ fhir:v "38045000" ] ;
+         fhir:display [ fhir:v "Cold injury" ]
+       ] [
+         fhir:code [ fhir:v "37904008" ] ;
+         fhir:display [ fhir:v "Chronic bleeding ulcer" ]
+       ] [
+         fhir:code [ fhir:v "37782003" ] ;
+         fhir:display [ fhir:v "Damage" ]
+       ] [
+         fhir:code [ fhir:v "37719003" ] ;
+         fhir:display [ fhir:v "Milium" ]
+       ] [
+         fhir:code [ fhir:v "37279009" ] ;
+         fhir:display [ fhir:v "Amyloid tumor" ]
+       ] [
+         fhir:code [ fhir:v "37205004" ] ;
+         fhir:display [ fhir:v "Superficial wound" ]
+       ] [
+         fhir:code [ fhir:v "37068007" ] ;
+         fhir:display [ fhir:v "Lateral displacement" ]
+       ] [
+         fhir:code [ fhir:v "37058002" ] ;
+         fhir:display [ fhir:v "Foreign body giant cell granuloma" ]
+       ] [
+         fhir:code [ fhir:v "36850000" ] ;
+         fhir:display [ fhir:v "Retention" ]
+       ] [
+         fhir:code [ fhir:v "36639000" ] ;
+         fhir:display [ fhir:v "Psoriasiform rash" ]
+       ] [
+         fhir:code [ fhir:v "36504009" ] ;
+         fhir:display [ fhir:v "Ankylosis" ]
+       ] [
+         fhir:code [ fhir:v "36390009" ] ;
+         fhir:display [ fhir:v "Chronic suppurative inflammation" ]
+       ] [
+         fhir:code [ fhir:v "36195005" ] ;
+         fhir:display [ fhir:v "Nodular hyperplasia" ]
+       ] [
+         fhir:code [ fhir:v "36191001" ] ;
+         fhir:display [ fhir:v "Perforation" ]
+       ] [
+         fhir:code [ fhir:v "36024000" ] ;
+         fhir:display [ fhir:v "Gangrene" ]
+       ] [
+         fhir:code [ fhir:v "35933005" ] ;
+         fhir:display [ fhir:v "Laceration" ]
+       ] [
+         fhir:code [ fhir:v "35828005" ] ;
+         fhir:display [ fhir:v "Malacia" ]
+       ] [
+         fhir:code [ fhir:v "35601003" ] ;
+         fhir:display [ fhir:v "Monoclonal gammopathy of undetermined significance" ]
+       ] [
+         fhir:code [ fhir:v "35566002" ] ;
+         fhir:display [ fhir:v "Hematoma" ]
+       ] [
+         fhir:code [ fhir:v "34882000" ] ;
+         fhir:display [ fhir:v "Giant fibroadenoma" ]
+       ] [
+         fhir:code [ fhir:v "34807008" ] ;
+         fhir:display [ fhir:v "Congenital incomplete expansion" ]
+       ] [
+         fhir:code [ fhir:v "34494002" ] ;
+         fhir:display [ fhir:v "Communicating cerebrospinal fluid retention" ]
+       ] [
+         fhir:code [ fhir:v "34360000" ] ;
+         fhir:display [ fhir:v "Fibrous histiocytoma, malignant" ]
+       ] [
+         fhir:code [ fhir:v "34337008" ] ;
+         fhir:display [ fhir:v "Prolactinoma" ]
+       ] [
+         fhir:code [ fhir:v "34058006" ] ;
+         fhir:display [ fhir:v "Bowing deformity" ]
+       ] [
+         fhir:code [ fhir:v "33889003" ] ;
+         fhir:display [ fhir:v "Atypical lobular hyperplasia" ]
+       ] [
+         fhir:code [ fhir:v "33851008" ] ;
+         fhir:display [ fhir:v "Subacute necrosis" ]
+       ] [
+         fhir:code [ fhir:v "33593002" ] ;
+         fhir:display [ fhir:v "Vascular wall degeneration" ]
+       ] [
+         fhir:code [ fhir:v "33377007" ] ;
+         fhir:display [ fhir:v "Cavernous hemangioma" ]
+       ] [
+         fhir:code [ fhir:v "33080003" ] ;
+         fhir:display [ fhir:v "Fracture, ununited" ]
+       ] [
+         fhir:code [ fhir:v "32968003" ] ;
+         fhir:display [ fhir:v "Inflammatory carcinoma" ]
+       ] [
+         fhir:code [ fhir:v "32913002" ] ;
+         fhir:display [ fhir:v "Medullary carcinoma" ]
+       ] [
+         fhir:code [ fhir:v "32693004" ] ;
+         fhir:display [ fhir:v "Demyelination" ]
+       ] [
+         fhir:code [ fhir:v "32651000" ] ;
+         fhir:display [ fhir:v "Arteriolosclerosis with fibrinoid necrosis" ]
+       ] [
+         fhir:code [ fhir:v "32416003" ] ;
+         fhir:display [ fhir:v "Atypical hyperplasia" ]
+       ] [
+         fhir:code [ fhir:v "31980008" ] ;
+         fhir:display [ fhir:v "Necrotizing inflammation" ]
+       ] [
+         fhir:code [ fhir:v "31807009" ] ;
+         fhir:display [ fhir:v "Persistent embryonic structure" ]
+       ] [
+         fhir:code [ fhir:v "31739005" ] ;
+         fhir:display [ fhir:v "Lateral abnormal curvature" ]
+       ] [
+         fhir:code [ fhir:v "31653004" ] ;
+         fhir:display [ fhir:v "Fibromuscular dysplasia" ]
+       ] [
+         fhir:code [ fhir:v "31186001" ] ;
+         fhir:display [ fhir:v "Chondroma" ]
+       ] [
+         fhir:code [ fhir:v "31113003" ] ;
+         fhir:display [ fhir:v "Diverticulum" ]
+       ] [
+         fhir:code [ fhir:v "31069005" ] ;
+         fhir:display [ fhir:v "Fibroepithelial polyp" ]
+       ] [
+         fhir:code [ fhir:v "30962008" ] ;
+         fhir:display [ fhir:v "Acute myelomonocytic leukemia" ]
+       ] [
+         fhir:code [ fhir:v "30924005" ] ;
+         fhir:display [ fhir:v "Rhabdomyosarcoma" ]
+       ] [
+         fhir:code [ fhir:v "30812002" ] ;
+         fhir:display [ fhir:v "Overriding structures" ]
+       ] [
+         fhir:code [ fhir:v "30425001" ] ;
+         fhir:display [ fhir:v "Osteolysis" ]
+       ] [
+         fhir:code [ fhir:v "30285000" ] ;
+         fhir:display [ fhir:v "Verruca" ]
+       ] [
+         fhir:code [ fhir:v "30217000" ] ;
+         fhir:display [ fhir:v "Proliferation" ]
+       ] [
+         fhir:code [ fhir:v "30213001" ] ;
+         fhir:display [ fhir:v "Lymphatic edema" ]
+       ] [
+         fhir:code [ fhir:v "30156004" ] ;
+         fhir:display [ fhir:v "Cribriform carcinoma" ]
+       ] [
+         fhir:code [ fhir:v "30098003" ] ;
+         fhir:display [ fhir:v "Hyperemia" ]
+       ] [
+         fhir:code [ fhir:v "29696001" ] ;
+         fhir:display [ fhir:v "Prolapse" ]
+       ] [
+         fhir:code [ fhir:v "29483008" ] ;
+         fhir:display [ fhir:v "Calcified atheromatous plaque" ]
+       ] [
+         fhir:code [ fhir:v "29185008" ] ;
+         fhir:display [ fhir:v "Fatty degeneration" ]
+       ] [
+         fhir:code [ fhir:v "28960008" ] ;
+         fhir:display [ fhir:v "Arteriosclerosis" ]
+       ] [
+         fhir:code [ fhir:v "28950004" ] ;
+         fhir:display [ fhir:v "Acute promyelocytic leukemia with PML::RARA fusion" ]
+       ] [
+         fhir:code [ fhir:v "28727003" ] ;
+         fhir:display [ fhir:v "Odontogenic cyst" ]
+       ] [
+         fhir:code [ fhir:v "28087009" ] ;
+         fhir:display [ fhir:v "Delayed union of fracture" ]
+       ] [
+         fhir:code [ fhir:v "27925004" ] ;
+         fhir:display [ fhir:v "Nodule" ]
+       ] [
+         fhir:code [ fhir:v "27881006" ] ;
+         fhir:display [ fhir:v "Bony callus" ]
+       ] [
+         fhir:code [ fhir:v "27876002" ] ;
+         fhir:display [ fhir:v "Multiple infarcts" ]
+       ] [
+         fhir:code [ fhir:v "27551008" ] ;
+         fhir:display [ fhir:v "Stricture" ]
+       ] [
+         fhir:code [ fhir:v "27515001" ] ;
+         fhir:display [ fhir:v "Avulsion" ]
+       ] [
+         fhir:code [ fhir:v "27367001" ] ;
+         fhir:display [ fhir:v "Wrinkle" ]
+       ] [
+         fhir:code [ fhir:v "27317008" ] ;
+         fhir:display [ fhir:v "Complete transposition" ]
+       ] [
+         fhir:code [ fhir:v "27266007" ] ;
+         fhir:display [ fhir:v "Pseudo-obstruction" ]
+       ] [
+         fhir:code [ fhir:v "27090000" ] ;
+         fhir:display [ fhir:v "Transitional cell carcinoma" ]
+       ] [
+         fhir:code [ fhir:v "27058005" ] ;
+         fhir:display [ fhir:v "Necrotizing granulomatous inflammation" ]
+       ] [
+         fhir:code [ fhir:v "26996000" ] ;
+         fhir:display [ fhir:v "Hyperkeratosis" ]
+       ] [
+         fhir:code [ fhir:v "26696002" ] ;
+         fhir:display [ fhir:v "Chemical burn" ]
+       ] [
+         fhir:code [ fhir:v "26396009" ] ;
+         fhir:display [ fhir:v "Subluxation" ]
+       ] [
+         fhir:code [ fhir:v "26317001" ] ;
+         fhir:display [ fhir:v "Acute ulcer" ]
+       ] [
+         fhir:code [ fhir:v "26036001" ] ;
+         fhir:display [ fhir:v "Obstruction" ]
+       ] [
+         fhir:code [ fhir:v "25910003" ] ;
+         fhir:display [ fhir:v "Papillary carcinoma" ]
+       ] [
+         fhir:code [ fhir:v "25889007" ] ;
+         fhir:display [ fhir:v "Benign fibrous histiocytoma" ]
+       ] [
+         fhir:code [ fhir:v "25723000" ] ;
+         fhir:display [ fhir:v "Dysplasia" ]
+       ] [
+         fhir:code [ fhir:v "25694009" ] ;
+         fhir:display [ fhir:v "Papule" ]
+       ] [
+         fhir:code [ fhir:v "25499005" ] ;
+         fhir:display [ fhir:v "Seborrheic keratosis" ]
+       ] [
+         fhir:code [ fhir:v "25370001" ] ;
+         fhir:display [ fhir:v "Hepatocellular carcinoma" ]
+       ] [
+         fhir:code [ fhir:v "25322007" ] ;
+         fhir:display [ fhir:v "Dilatation" ]
+       ] [
+         fhir:code [ fhir:v "25201003" ] ;
+         fhir:display [ fhir:v "Epidermal nevus" ]
+       ] [
+         fhir:code [ fhir:v "25081006" ] ;
+         fhir:display [ fhir:v "Nephroblastoma" ]
+       ] [
+         fhir:code [ fhir:v "24811005" ] ;
+         fhir:display [ fhir:v "Serous inflammation" ]
+       ] [
+         fhir:code [ fhir:v "24551003" ] ;
+         fhir:display [ fhir:v "Arteriovenous malformation" ]
+       ] [
+         fhir:code [ fhir:v "24531002" ] ;
+         fhir:display [ fhir:v "Complex caries" ]
+       ] [
+         fhir:code [ fhir:v "24389009" ] ;
+         fhir:display [ fhir:v "Injection site granuloma" ]
+       ] [
+         fhir:code [ fhir:v "24072005" ] ;
+         fhir:display [ fhir:v "Acute leukemia" ]
+       ] [
+         fhir:code [ fhir:v "24016004" ] ;
+         fhir:display [ fhir:v "Corrected transposition" ]
+       ] [
+         fhir:code [ fhir:v "23382007" ] ;
+         fhir:display [ fhir:v "Stress fracture" ]
+       ] [
+         fhir:code [ fhir:v "22694002" ] ;
+         fhir:display [ fhir:v "Adenocarcinoma with apocrine metaplasia" ]
+       ] [
+         fhir:code [ fhir:v "22687000" ] ;
+         fhir:display [ fhir:v "Large cell carcinoma" ]
+       ] [
+         fhir:code [ fhir:v "22641006" ] ;
+         fhir:display [ fhir:v "Serous effusion" ]
+       ] [
+         fhir:code [ fhir:v "22640007" ] ;
+         fhir:display [ fhir:v "Pathologic fracture" ]
+       ] [
+         fhir:code [ fhir:v "22427006" ] ;
+         fhir:display [ fhir:v "Elastoid degeneration" ]
+       ] [
+         fhir:code [ fhir:v "22341001" ] ;
+         fhir:display [ fhir:v "Thrombosed varices" ]
+       ] [
+         fhir:code [ fhir:v "22217002" ] ;
+         fhir:display [ fhir:v "Mixed glioma" ]
+       ] [
+         fhir:code [ fhir:v "22197008" ] ;
+         fhir:display [ fhir:v "Burkitt cell leukemia" ]
+       ] [
+         fhir:code [ fhir:v "22039006" ] ;
+         fhir:display [ fhir:v "Ruptured aneurysm" ]
+       ] [
+         fhir:code [ fhir:v "22036004" ] ;
+         fhir:display [ fhir:v "Pseudoaneurysm" ]
+       ] [
+         fhir:code [ fhir:v "22024005" ] ;
+         fhir:display [ fhir:v "Lipoadenoma" ]
+       ] [
+         fhir:code [ fhir:v "21947006" ] ;
+         fhir:display [ fhir:v "Compression fracture" ]
+       ] [
+         fhir:code [ fhir:v "21465002" ] ;
+         fhir:display [ fhir:v "Abnormally short and broad growth" ]
+       ] [
+         fhir:code [ fhir:v "21326004" ] ;
+         fhir:display [ fhir:v "Combined small cell carcinoma" ]
+       ] [
+         fhir:code [ fhir:v "21008007" ] ;
+         fhir:display [ fhir:v "Cystadenocarcinoma" ]
+       ] [
+         fhir:code [ fhir:v "20946005" ] ;
+         fhir:display [ fhir:v "Fracture, closed" ]
+       ] [
+         fhir:code [ fhir:v "20776008" ] ;
+         fhir:display [ fhir:v "Adenolymphoma" ]
+       ] [
+         fhir:code [ fhir:v "20741006" ] ;
+         fhir:display [ fhir:v "Hydrops" ]
+       ] [
+         fhir:code [ fhir:v "20717008" ] ;
+         fhir:display [ fhir:v "Atherosclerotic fibrous plaque" ]
+       ] [
+         fhir:code [ fhir:v "20601007" ] ;
+         fhir:display [ fhir:v "Flattening deformity" ]
+       ] [
+         fhir:code [ fhir:v "20456003" ] ;
+         fhir:display [ fhir:v "Loose body" ]
+       ] [
+         fhir:code [ fhir:v "20369000" ] ;
+         fhir:display [ fhir:v "Chronic mucous inflammation" ]
+       ] [
+         fhir:code [ fhir:v "20365006" ] ;
+         fhir:display [ fhir:v "Squamous intraepithelial neoplasia, high grade" ]
+       ] [
+         fhir:code [ fhir:v "19952003" ] ;
+         fhir:display [ fhir:v "Elastic vascular sclerosis" ]
+       ] [
+         fhir:code [ fhir:v "19940005" ] ;
+         fhir:display [ fhir:v "Lichenification" ]
+       ] [
+         fhir:code [ fhir:v "19929002" ] ;
+         fhir:display [ fhir:v "Angiomyolipoma" ]
+       ] [
+         fhir:code [ fhir:v "19928005" ] ;
+         fhir:display [ fhir:v "Fibromatosis" ]
+       ] [
+         fhir:code [ fhir:v "19921004" ] ;
+         fhir:display [ fhir:v "Crushing injury (morphology)" ]
+       ] [
+         fhir:code [ fhir:v "19909003" ] ;
+         fhir:display [ fhir:v "Complement deposit" ]
+       ] [
+         fhir:code [ fhir:v "19897006" ] ;
+         fhir:display [ fhir:v "Malignant peripheral nerve sheath tumor" ]
+       ] [
+         fhir:code [ fhir:v "19685008" ] ;
+         fhir:display [ fhir:v "Stasis" ]
+       ] [
+         fhir:code [ fhir:v "19672005" ] ;
+         fhir:display [ fhir:v "Condyloma" ]
+       ] [
+         fhir:code [ fhir:v "19633006" ] ;
+         fhir:display [ fhir:v "Mucous cyst" ]
+       ] [
+         fhir:code [ fhir:v "19571008" ] ;
+         fhir:display [ fhir:v "Multiple open wounds" ]
+       ] [
+         fhir:code [ fhir:v "19340000" ] ;
+         fhir:display [ fhir:v "Malignant lymphoma, lymphoplasmacytic" ]
+       ] [
+         fhir:code [ fhir:v "19227008" ] ;
+         fhir:display [ fhir:v "Foreign body" ]
+       ] [
+         fhir:code [ fhir:v "18802003" ] ;
+         fhir:display [ fhir:v "External fistula" ]
+       ] [
+         fhir:code [ fhir:v "18695008" ] ;
+         fhir:display [ fhir:v "Hyaline body" ]
+       ] [
+         fhir:code [ fhir:v "18655006" ] ;
+         fhir:display [ fhir:v "Depigmentation" ]
+       ] [
+         fhir:code [ fhir:v "18126004" ] ;
+         fhir:display [ fhir:v "Diverticulitis" ]
+       ] [
+         fhir:code [ fhir:v "18115005" ] ;
+         fhir:display [ fhir:v "Pathologic calcification" ]
+       ] [
+         fhir:code [ fhir:v "18016009" ] ;
+         fhir:display [ fhir:v "Phlebosclerosis" ]
+       ] [
+         fhir:code [ fhir:v "17941002" ] ;
+         fhir:display [ fhir:v "Arteriolosclerosis" ]
+       ] [
+         fhir:code [ fhir:v "17672001" ] ;
+         fhir:display [ fhir:v "Accumulation of fluid" ]
+       ] [
+         fhir:code [ fhir:v "17372009" ] ;
+         fhir:display [ fhir:v "Granuloma pyogenicum" ]
+       ] [
+         fhir:code [ fhir:v "17307002" ] ;
+         fhir:display [ fhir:v "Transudate" ]
+       ] [
+         fhir:code [ fhir:v "16759001" ] ;
+         fhir:display [ fhir:v "Chronic eosinophilic inflammation" ]
+       ] [
+         fhir:code [ fhir:v "16640008" ] ;
+         fhir:display [ fhir:v "Separation" ]
+       ] [
+         fhir:code [ fhir:v "16277007" ] ;
+         fhir:display [ fhir:v "Collapse" ]
+       ] [
+         fhir:code [ fhir:v "16080000" ] ;
+         fhir:display [ fhir:v "Fibrin deposition" ]
+       ] [
+         fhir:code [ fhir:v "15690004" ] ;
+         fhir:display [ fhir:v "Tortuosity" ]
+       ] [
+         fhir:code [ fhir:v "15498001" ] ;
+         fhir:display [ fhir:v "Superficial ulcer" ]
+       ] [
+         fhir:code [ fhir:v "15074003" ] ;
+         fhir:display [ fhir:v "Neurogenic ulcer" ]
+       ] [
+         fhir:code [ fhir:v "14799000" ] ;
+         fhir:display [ fhir:v "Neoplasm, metastatic" ]
+       ] [
+         fhir:code [ fhir:v "14350002" ] ;
+         fhir:display [ fhir:v "Angiomatosis" ]
+       ] [
+         fhir:code [ fhir:v "14156004" ] ;
+         fhir:display [ fhir:v "Racemose aneurysm" ]
+       ] [
+         fhir:code [ fhir:v "13924000" ] ;
+         fhir:display [ fhir:v "Wound" ]
+       ] [
+         fhir:code [ fhir:v "13713005" ] ;
+         fhir:display [ fhir:v "Thromboembolus" ]
+       ] [
+         fhir:code [ fhir:v "13705009" ] ;
+         fhir:display [ fhir:v "Partial obstruction" ]
+       ] [
+         fhir:code [ fhir:v "13467000" ] ;
+         fhir:display [ fhir:v "Pseudocyst" ]
+       ] [
+         fhir:code [ fhir:v "13331008" ] ;
+         fhir:display [ fhir:v "Atrophy" ]
+       ] [
+         fhir:code [ fhir:v "13018008" ] ;
+         fhir:display [ fhir:v "Neovascularization" ]
+       ] [
+         fhir:code [ fhir:v "12856003" ] ;
+         fhir:display [ fhir:v "Varix" ]
+       ] [
+         fhir:code [ fhir:v "12835000" ] ;
+         fhir:display [ fhir:v "Multiple injuries" ]
+       ] [
+         fhir:code [ fhir:v "12794006" ] ;
+         fhir:display [ fhir:v "Nonsuppurative inflammation" ]
+       ] [
+         fhir:code [ fhir:v "12747003" ] ;
+         fhir:display [ fhir:v "Microcalcification" ]
+       ] [
+         fhir:code [ fhir:v "12582004" ] ;
+         fhir:display [ fhir:v "Internal fistula" ]
+       ] [
+         fhir:code [ fhir:v "12402003" ] ;
+         fhir:display [ fhir:v "Scar" ]
+       ] [
+         fhir:code [ fhir:v "12393003" ] ;
+         fhir:display [ fhir:v "Purpura" ]
+       ] [
+         fhir:code [ fhir:v "12169001" ] ;
+         fhir:display [ fhir:v "Granular cell tumor" ]
+       ] [
+         fhir:code [ fhir:v "12167004" ] ;
+         fhir:display [ fhir:v "Lymphocyst" ]
+       ] [
+         fhir:code [ fhir:v "12143007" ] ;
+         fhir:display [ fhir:v "Embryonic cyst" ]
+       ] [
+         fhir:code [ fhir:v "11671000" ] ;
+         fhir:display [ fhir:v "Adenoid cystic carcinoma" ]
+       ] [
+         fhir:code [ fhir:v "11639007" ] ;
+         fhir:display [ fhir:v "Puncture" ]
+       ] [
+         fhir:code [ fhir:v "11224003" ] ;
+         fhir:display [ fhir:v "Chronic membranous inflammation" ]
+       ] [
+         fhir:code [ fhir:v "10690002" ] ;
+         fhir:display [ fhir:v "Atheromatous embolus" ]
+       ] [
+         fhir:code [ fhir:v "10376009" ] ;
+         fhir:display [ fhir:v "Papillary carcinoma in situ" ]
+       ] [
+         fhir:code [ fhir:v "10122001" ] ;
+         fhir:display [ fhir:v "Accretion" ]
+       ] [
+         fhir:code [ fhir:v "9499001" ] ;
+         fhir:display [ fhir:v "Multiple polyps" ]
+       ] [
+         fhir:code [ fhir:v "9196004" ] ;
+         fhir:display [ fhir:v "Staghorn calculus" ]
+       ] [
+         fhir:code [ fhir:v "8360001" ] ;
+         fhir:display [ fhir:v "Pleomorphic adenoma" ]
+       ] [
+         fhir:code [ fhir:v "7939003" ] ;
+         fhir:display [ fhir:v "Localized edema" ]
+       ] [
+         fhir:code [ fhir:v "7010000" ] ;
+         fhir:display [ fhir:v "Carcinomatosis" ]
+       ] [
+         fhir:code [ fhir:v "7003006" ] ;
+         fhir:display [ fhir:v "Chronic hemorrhage" ]
+       ] [
+         fhir:code [ fhir:v "6660000" ] ;
+         fhir:display [ fhir:v "Atypical intraductal hyperplasia" ]
+       ] [
+         fhir:code [ fhir:v "6574001" ] ;
+         fhir:display [ fhir:v "Necrosis" ]
+       ] [
+         fhir:code [ fhir:v "6266001" ] ;
+         fhir:display [ fhir:v "Granulomatous inflammation" ]
+       ] [
+         fhir:code [ fhir:v "6219000" ] ;
+         fhir:display [ fhir:v "Neoplasm, malignant, uncertain whether primary or metastatic" ]
+       ] [
+         fhir:code [ fhir:v "6081001" ] ;
+         fhir:display [ fhir:v "Deformity" ]
+       ] [
+         fhir:code [ fhir:v "5755004" ] ;
+         fhir:display [ fhir:v "Cystic hyperplasia" ]
+       ] [
+         fhir:code [ fhir:v "5399005" ] ;
+         fhir:display [ fhir:v "Dissecting hemorrhage" ]
+       ] [
+         fhir:code [ fhir:v "5257006" ] ;
+         fhir:display [ fhir:v "Follicular adenocarcinoma" ]
+       ] [
+         fhir:code [ fhir:v "5244003" ] ;
+         fhir:display [ fhir:v "Intraductal papilloma" ]
+       ] [
+         fhir:code [ fhir:v "5242004" ] ;
+         fhir:display [ fhir:v "Synechia" ]
+       ] [
+         fhir:code [ fhir:v "5052009" ] ;
+         fhir:display [ fhir:v "Merkel cell carcinoma" ]
+       ] [
+         fhir:code [ fhir:v "4950009" ] ;
+         fhir:display [ fhir:v "Sezary syndrome" ]
+       ] [
+         fhir:code [ fhir:v "4830009" ] ;
+         fhir:display [ fhir:v "Hyperpigmentation" ]
+       ] [
+         fhir:code [ fhir:v "4797003" ] ;
+         fhir:display [ fhir:v "Papillary adenocarcinoma" ]
+       ] [
+         fhir:code [ fhir:v "4720007" ] ;
+         fhir:display [ fhir:v "Dystrophy" ]
+       ] [
+         fhir:code [ fhir:v "4631006" ] ;
+         fhir:display [ fhir:v "Tubular adenocarcinoma" ]
+       ] [
+         fhir:code [ fhir:v "4538007" ] ;
+         fhir:display [ fhir:v "Papulovesicular rash" ]
+       ] [
+         fhir:code [ fhir:v "4532008" ] ;
+         fhir:display [ fhir:v "Acute inflammation" ]
+       ] [
+         fhir:code [ fhir:v "4196002" ] ;
+         fhir:display [ fhir:v "Eversion" ]
+       ] [
+         fhir:code [ fhir:v "4147007" ] ;
+         fhir:display [ fhir:v "Mass" ]
+       ] [
+         fhir:code [ fhir:v "3898006" ] ;
+         fhir:display [ fhir:v "Neoplasm, benign" ]
+       ] [
+         fhir:code [ fhir:v "3875003" ] ;
+         fhir:display [ fhir:v "Tophus" ]
+       ] [
+         fhir:code [ fhir:v "3839000" ] ;
+         fhir:display [ fhir:v "Lipid-rich carcinoma" ]
+       ] [
+         fhir:code [ fhir:v "3679006" ] ;
+         fhir:display [ fhir:v "Polycystic change" ]
+       ] [
+         fhir:code [ fhir:v "3404009" ] ;
+         fhir:display [ fhir:v "Bite wound" ]
+       ] [
+         fhir:code [ fhir:v "3380003" ] ;
+         fhir:display [ fhir:v "Superficial injury" ]
+       ] [
+         fhir:code [ fhir:v "2985005" ] ;
+         fhir:display [ fhir:v "Paget's disease, mammary" ]
+       ] [
+         fhir:code [ fhir:v "2763006" ] ;
+         fhir:display [ fhir:v "Comedo" ]
+       ] [
+         fhir:code [ fhir:v "2557004" ] ;
+         fhir:display [ fhir:v "Chronic leukemia" ]
+       ] [
+         fhir:code [ fhir:v "2227007" ] ;
+         fhir:display [ fhir:v "Adrenal cortical carcinoma" ]
+       ] [
+         fhir:code [ fhir:v "2052000" ] ;
+         fhir:display [ fhir:v "Acute necrosis" ]
+       ] [
+         fhir:code [ fhir:v "1806006" ] ;
+         fhir:display [ fhir:v "Eruption" ]
+       ] [
+         fhir:code [ fhir:v "1736008" ] ;
+         fhir:display [ fhir:v "Anteversion" ]
+       ] [
+         fhir:code [ fhir:v "1522000" ] ;
+         fhir:display [ fhir:v "Plaque" ]
+       ] [
+         fhir:code [ fhir:v "1338007" ] ;
+         fhir:display [ fhir:v "Basal cell carcinoma" ]
+       ] [
+         fhir:code [ fhir:v "985004" ] ;
+         fhir:display [ fhir:v "Schwannoma" ]
+       ] [
+         fhir:code [ fhir:v "856006" ] ;
+         fhir:display [ fhir:v "Actinic keratosis" ]
+       ] [
+         fhir:code [ fhir:v "803009" ] ;
+         fhir:display [ fhir:v "Paraganglioma" ]
+       ] [
+         fhir:code [ fhir:v "575006" ] ;
+         fhir:display [ fhir:v "Cholesteatoma" ]
+       ] [
+         fhir:code [ fhir:v "339008" ] ;
+         fhir:display [ fhir:v "Blister" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

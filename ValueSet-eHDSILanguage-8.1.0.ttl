@@ -1,0 +1,1189 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSILanguage-8.1.0> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "eHDSILanguage-8.1.0"] ; # 
+  fhir:url [
+     fhir:v "http://terminology.ehdsi.eu/ValueSet/eHDSILanguage"^^xsd:anyURI ;
+     fhir:l <http://terminology.ehdsi.eu/ValueSet/eHDSILanguage>
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [
+       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
+       fhir:l <urn:ietf:rfc:3986>
+     ] ;
+     fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.6" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "0.2.0"] ; # 
+  fhir:name [ fhir:v "eHDSILanguage"] ; # 
+  fhir:title [ fhir:v "eHDSI Language"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-12-23T10:21:27+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 Europe"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 Europe" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://hl7europe.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "The Value Set is used to identify the language the document will be written with."] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ;
+         fhir:l <urn:ietf:bcp:47>
+       ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "af-NA" ] ;
+         fhir:display [ fhir:v "Afrikaans-NAMIBIA" ]
+       ] [
+         fhir:code [ fhir:v "af-ZA" ] ;
+         fhir:display [ fhir:v "Afrikaans-SOUTH AFRICA" ]
+       ] [
+         fhir:code [ fhir:v "ak-GH" ] ;
+         fhir:display [ fhir:v "Akan-GHANA" ]
+       ] [
+         fhir:code [ fhir:v "am-ET" ] ;
+         fhir:display [ fhir:v "Amharic-ETHIOPIA" ]
+       ] [
+         fhir:code [ fhir:v "ar-AE" ] ;
+         fhir:display [ fhir:v "Arabic-UNITED ARAB EMIRATES" ]
+       ] [
+         fhir:code [ fhir:v "ar-BH" ] ;
+         fhir:display [ fhir:v "Arabic-BAHRAIN" ]
+       ] [
+         fhir:code [ fhir:v "ar-DJ" ] ;
+         fhir:display [ fhir:v "Arabic-DJIBOUTI" ]
+       ] [
+         fhir:code [ fhir:v "ar-DZ" ] ;
+         fhir:display [ fhir:v "Arabic-ALGERIA" ]
+       ] [
+         fhir:code [ fhir:v "ar-EG" ] ;
+         fhir:display [ fhir:v "Arabic-EGYPT" ]
+       ] [
+         fhir:code [ fhir:v "ar-EH" ] ;
+         fhir:display [ fhir:v "Arabic-WESTERN SAHARA" ]
+       ] [
+         fhir:code [ fhir:v "ar-ER" ] ;
+         fhir:display [ fhir:v "Arabic-ERITREA" ]
+       ] [
+         fhir:code [ fhir:v "ar-IL" ] ;
+         fhir:display [ fhir:v "Arabic-ISRAEL" ]
+       ] [
+         fhir:code [ fhir:v "ar-IQ" ] ;
+         fhir:display [ fhir:v "Arabic-IRAQ" ]
+       ] [
+         fhir:code [ fhir:v "ar-JO" ] ;
+         fhir:display [ fhir:v "Arabic-JORDAN" ]
+       ] [
+         fhir:code [ fhir:v "ar-KM" ] ;
+         fhir:display [ fhir:v "Arabic-COMOROS" ]
+       ] [
+         fhir:code [ fhir:v "ar-KW" ] ;
+         fhir:display [ fhir:v "Arabic-KUWAIT" ]
+       ] [
+         fhir:code [ fhir:v "ar-LB" ] ;
+         fhir:display [ fhir:v "Arabic-LEBANON" ]
+       ] [
+         fhir:code [ fhir:v "ar-LY" ] ;
+         fhir:display [ fhir:v "Arabic-LIBYA" ]
+       ] [
+         fhir:code [ fhir:v "ar-MA" ] ;
+         fhir:display [ fhir:v "Arabic-MOROCCO" ]
+       ] [
+         fhir:code [ fhir:v "ar-MR" ] ;
+         fhir:display [ fhir:v "Arabic-MAURITANIA" ]
+       ] [
+         fhir:code [ fhir:v "ar-OM" ] ;
+         fhir:display [ fhir:v "Arabic-OMAN" ]
+       ] [
+         fhir:code [ fhir:v "ar-PS" ] ;
+         fhir:display [ fhir:v "Arabic-PALESTINE, STATE OF" ]
+       ] [
+         fhir:code [ fhir:v "ar-QA" ] ;
+         fhir:display [ fhir:v "Arabic-QATAR" ]
+       ] [
+         fhir:code [ fhir:v "ar-SA" ] ;
+         fhir:display [ fhir:v "Arabic-SAUDI ARABIA" ]
+       ] [
+         fhir:code [ fhir:v "ar-SD" ] ;
+         fhir:display [ fhir:v "Arabic-SUDAN" ]
+       ] [
+         fhir:code [ fhir:v "ar-SO" ] ;
+         fhir:display [ fhir:v "Arabic-SOMALIA" ]
+       ] [
+         fhir:code [ fhir:v "ar-SS" ] ;
+         fhir:display [ fhir:v "Arabic-SOUTH SUDAN" ]
+       ] [
+         fhir:code [ fhir:v "ar-SY" ] ;
+         fhir:display [ fhir:v "Arabic-SYRIAN ARAB REPUBLIC" ]
+       ] [
+         fhir:code [ fhir:v "ar-TD" ] ;
+         fhir:display [ fhir:v "Arabic-CHAD" ]
+       ] [
+         fhir:code [ fhir:v "ar-TN" ] ;
+         fhir:display [ fhir:v "Arabic-TUNISIA" ]
+       ] [
+         fhir:code [ fhir:v "ar-YE" ] ;
+         fhir:display [ fhir:v "Arabic-YEMEN" ]
+       ] [
+         fhir:code [ fhir:v "as-IN" ] ;
+         fhir:display [ fhir:v "Assamese-INDIA" ]
+       ] [
+         fhir:code [ fhir:v "az-AZ" ] ;
+         fhir:display [ fhir:v "Azerbaijani-AZERBAIJAN" ]
+       ] [
+         fhir:code [ fhir:v "be-BY" ] ;
+         fhir:display [ fhir:v "Belarusian-BELARUS" ]
+       ] [
+         fhir:code [ fhir:v "bg-BG" ] ;
+         fhir:display [ fhir:v "Bulgarian-BULGARIA" ]
+       ] [
+         fhir:code [ fhir:v "bm-ML" ] ;
+         fhir:display [ fhir:v "Bambara-MALI" ]
+       ] [
+         fhir:code [ fhir:v "bn-BD" ] ;
+         fhir:display [ fhir:v "Bengali-BANGLADESH" ]
+       ] [
+         fhir:code [ fhir:v "bn-IN" ] ;
+         fhir:display [ fhir:v "Bengali-INDIA" ]
+       ] [
+         fhir:code [ fhir:v "bo-CN" ] ;
+         fhir:display [ fhir:v "Tibetan-CHINA" ]
+       ] [
+         fhir:code [ fhir:v "bo-IN" ] ;
+         fhir:display [ fhir:v "Tibetan-INDIA" ]
+       ] [
+         fhir:code [ fhir:v "br-FR" ] ;
+         fhir:display [ fhir:v "Breton-FRANCE" ]
+       ] [
+         fhir:code [ fhir:v "bs-BA" ] ;
+         fhir:display [ fhir:v "Bosnian-BOSNIA AND HERZEGOVINA" ]
+       ] [
+         fhir:code [ fhir:v "ca-AD" ] ;
+         fhir:display [ fhir:v "Catalan; Valencian-ANDORRA" ]
+       ] [
+         fhir:code [ fhir:v "ca-ES" ] ;
+         fhir:display [ fhir:v "Catalan; Valencian-SPAIN" ]
+       ] [
+         fhir:code [ fhir:v "ca-FR" ] ;
+         fhir:display [ fhir:v "Catalan; Valencian-FRANCE" ]
+       ] [
+         fhir:code [ fhir:v "ca-IT" ] ;
+         fhir:display [ fhir:v "Catalan; Valencian-ITALY" ]
+       ] [
+         fhir:code [ fhir:v "cs-CZ" ] ;
+         fhir:display [ fhir:v "Czech-CZECH REPUBLIC" ]
+       ] [
+         fhir:code [ fhir:v "cy-GB" ] ;
+         fhir:display [ fhir:v "Welsh-UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND" ]
+       ] [
+         fhir:code [ fhir:v "da-DK" ] ;
+         fhir:display [ fhir:v "Danish-DENMARK" ]
+       ] [
+         fhir:code [ fhir:v "da-GL" ] ;
+         fhir:display [ fhir:v "Danish-GREENLAND" ]
+       ] [
+         fhir:code [ fhir:v "de-AT" ] ;
+         fhir:display [ fhir:v "German-AUSTRIA" ]
+       ] [
+         fhir:code [ fhir:v "de-BE" ] ;
+         fhir:display [ fhir:v "German-BELGIUM" ]
+       ] [
+         fhir:code [ fhir:v "de-CH" ] ;
+         fhir:display [ fhir:v "German-SWITZERLAND" ]
+       ] [
+         fhir:code [ fhir:v "de-DE" ] ;
+         fhir:display [ fhir:v "German-GERMANY" ]
+       ] [
+         fhir:code [ fhir:v "de-LI" ] ;
+         fhir:display [ fhir:v "German-LIECHTENSTEIN" ]
+       ] [
+         fhir:code [ fhir:v "de-LU" ] ;
+         fhir:display [ fhir:v "German-LUXEMBOURG" ]
+       ] [
+         fhir:code [ fhir:v "dz-BT" ] ;
+         fhir:display [ fhir:v "Dzongkha-BHUTAN" ]
+       ] [
+         fhir:code [ fhir:v "ee-GH" ] ;
+         fhir:display [ fhir:v "Ewe-GHANA" ]
+       ] [
+         fhir:code [ fhir:v "ee-TG" ] ;
+         fhir:display [ fhir:v "Ewe-TOGO" ]
+       ] [
+         fhir:code [ fhir:v "el-CY" ] ;
+         fhir:display [ fhir:v "Greek, Modern (1453-)-CYPRUS" ]
+       ] [
+         fhir:code [ fhir:v "el-GR" ] ;
+         fhir:display [ fhir:v "Greek, Modern (1453-)-GREECE" ]
+       ] [
+         fhir:code [ fhir:v "en-AG" ] ;
+         fhir:display [ fhir:v "English-ANTIGUA AND BARBUDA" ]
+       ] [
+         fhir:code [ fhir:v "en-AI" ] ;
+         fhir:display [ fhir:v "English-ANGUILLA" ]
+       ] [
+         fhir:code [ fhir:v "en-AS" ] ;
+         fhir:display [ fhir:v "English-AMERICAN SAMOA" ]
+       ] [
+         fhir:code [ fhir:v "en-AU" ] ;
+         fhir:display [ fhir:v "English-AUSTRALIA" ]
+       ] [
+         fhir:code [ fhir:v "en-BB" ] ;
+         fhir:display [ fhir:v "English-BARBADOS" ]
+       ] [
+         fhir:code [ fhir:v "en-BE" ] ;
+         fhir:display [ fhir:v "English-BELGIUM" ]
+       ] [
+         fhir:code [ fhir:v "en-BM" ] ;
+         fhir:display [ fhir:v "English-BERMUDA" ]
+       ] [
+         fhir:code [ fhir:v "en-BS" ] ;
+         fhir:display [ fhir:v "English-BAHAMAS" ]
+       ] [
+         fhir:code [ fhir:v "en-BW" ] ;
+         fhir:display [ fhir:v "English-BOTSWANA" ]
+       ] [
+         fhir:code [ fhir:v "en-BZ" ] ;
+         fhir:display [ fhir:v "English-BELIZE" ]
+       ] [
+         fhir:code [ fhir:v "en-CA" ] ;
+         fhir:display [ fhir:v "English-CANADA" ]
+       ] [
+         fhir:code [ fhir:v "en-CC" ] ;
+         fhir:display [ fhir:v "English-COCOS (KEELING) ISLANDS" ]
+       ] [
+         fhir:code [ fhir:v "en-CK" ] ;
+         fhir:display [ fhir:v "English-COOK ISLANDS" ]
+       ] [
+         fhir:code [ fhir:v "en-CM" ] ;
+         fhir:display [ fhir:v "English-CAMEROON" ]
+       ] [
+         fhir:code [ fhir:v "en-CX" ] ;
+         fhir:display [ fhir:v "English-CHRISTMAS ISLAND" ]
+       ] [
+         fhir:code [ fhir:v "en-DM" ] ;
+         fhir:display [ fhir:v "English-DOMINICA" ]
+       ] [
+         fhir:code [ fhir:v "en-ER" ] ;
+         fhir:display [ fhir:v "English-ERITREA" ]
+       ] [
+         fhir:code [ fhir:v "en-FJ" ] ;
+         fhir:display [ fhir:v "English-FIJI" ]
+       ] [
+         fhir:code [ fhir:v "en-FK" ] ;
+         fhir:display [ fhir:v "English-FALKLAND ISLANDS (MALVINAS)" ]
+       ] [
+         fhir:code [ fhir:v "en-FM" ] ;
+         fhir:display [ fhir:v "English-MICRONESIA (FEDERATED STATES OF)" ]
+       ] [
+         fhir:code [ fhir:v "en-GB" ] ;
+         fhir:display [ fhir:v "English-UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND" ]
+       ] [
+         fhir:code [ fhir:v "en-GD" ] ;
+         fhir:display [ fhir:v "English-GRENADA" ]
+       ] [
+         fhir:code [ fhir:v "en-GG" ] ;
+         fhir:display [ fhir:v "English-GUERNSEY" ]
+       ] [
+         fhir:code [ fhir:v "en-GH" ] ;
+         fhir:display [ fhir:v "English-GHANA" ]
+       ] [
+         fhir:code [ fhir:v "en-GI" ] ;
+         fhir:display [ fhir:v "English-GIBRALTAR" ]
+       ] [
+         fhir:code [ fhir:v "en-GM" ] ;
+         fhir:display [ fhir:v "English-GAMBIA" ]
+       ] [
+         fhir:code [ fhir:v "en-GU" ] ;
+         fhir:display [ fhir:v "English-GUAM" ]
+       ] [
+         fhir:code [ fhir:v "en-GY" ] ;
+         fhir:display [ fhir:v "English-GUYANA" ]
+       ] [
+         fhir:code [ fhir:v "en-HK" ] ;
+         fhir:display [ fhir:v "English-HONG KONG" ]
+       ] [
+         fhir:code [ fhir:v "en-IE" ] ;
+         fhir:display [ fhir:v "English-IRELAND" ]
+       ] [
+         fhir:code [ fhir:v "en-IM" ] ;
+         fhir:display [ fhir:v "English-ISLE OF MAN" ]
+       ] [
+         fhir:code [ fhir:v "en-IN" ] ;
+         fhir:display [ fhir:v "English-INDIA" ]
+       ] [
+         fhir:code [ fhir:v "en-IO" ] ;
+         fhir:display [ fhir:v "English-BRITISH INDIAN OCEAN TERRITORY" ]
+       ] [
+         fhir:code [ fhir:v "en-JE" ] ;
+         fhir:display [ fhir:v "English-JERSEY" ]
+       ] [
+         fhir:code [ fhir:v "en-JM" ] ;
+         fhir:display [ fhir:v "English-JAMAICA" ]
+       ] [
+         fhir:code [ fhir:v "en-KE" ] ;
+         fhir:display [ fhir:v "English-KENYA" ]
+       ] [
+         fhir:code [ fhir:v "en-KI" ] ;
+         fhir:display [ fhir:v "English-KIRIBATI" ]
+       ] [
+         fhir:code [ fhir:v "en-KN" ] ;
+         fhir:display [ fhir:v "English-SAINT KITTS AND NEVIS" ]
+       ] [
+         fhir:code [ fhir:v "en-KY" ] ;
+         fhir:display [ fhir:v "English-CAYMAN ISLANDS" ]
+       ] [
+         fhir:code [ fhir:v "en-LC" ] ;
+         fhir:display [ fhir:v "English-SAINT LUCIA" ]
+       ] [
+         fhir:code [ fhir:v "en-LR" ] ;
+         fhir:display [ fhir:v "English-LIBERIA" ]
+       ] [
+         fhir:code [ fhir:v "en-LS" ] ;
+         fhir:display [ fhir:v "English-LESOTHO" ]
+       ] [
+         fhir:code [ fhir:v "en-MG" ] ;
+         fhir:display [ fhir:v "English-MADAGASCAR" ]
+       ] [
+         fhir:code [ fhir:v "en-MH" ] ;
+         fhir:display [ fhir:v "English-MARSHALL ISLANDS" ]
+       ] [
+         fhir:code [ fhir:v "en-MO" ] ;
+         fhir:display [ fhir:v "English-MACAO" ]
+       ] [
+         fhir:code [ fhir:v "en-MP" ] ;
+         fhir:display [ fhir:v "English-NORTHERN MARIANA ISLANDS" ]
+       ] [
+         fhir:code [ fhir:v "en-MS" ] ;
+         fhir:display [ fhir:v "English-MONTSERRAT" ]
+       ] [
+         fhir:code [ fhir:v "en-MT" ] ;
+         fhir:display [ fhir:v "English-MALTA" ]
+       ] [
+         fhir:code [ fhir:v "en-MU" ] ;
+         fhir:display [ fhir:v "English-MAURITIUS" ]
+       ] [
+         fhir:code [ fhir:v "en-MW" ] ;
+         fhir:display [ fhir:v "English-MALAWI" ]
+       ] [
+         fhir:code [ fhir:v "en-MY" ] ;
+         fhir:display [ fhir:v "English-MALAYSIA" ]
+       ] [
+         fhir:code [ fhir:v "en-NA" ] ;
+         fhir:display [ fhir:v "English-NAMIBIA" ]
+       ] [
+         fhir:code [ fhir:v "en-NF" ] ;
+         fhir:display [ fhir:v "English-NORFOLK ISLAND" ]
+       ] [
+         fhir:code [ fhir:v "en-NG" ] ;
+         fhir:display [ fhir:v "English-NIGERIA" ]
+       ] [
+         fhir:code [ fhir:v "en-NR" ] ;
+         fhir:display [ fhir:v "English-NAURU" ]
+       ] [
+         fhir:code [ fhir:v "en-NU" ] ;
+         fhir:display [ fhir:v "English-NIUE" ]
+       ] [
+         fhir:code [ fhir:v "en-NZ" ] ;
+         fhir:display [ fhir:v "English-NEW ZEALAND" ]
+       ] [
+         fhir:code [ fhir:v "en-PG" ] ;
+         fhir:display [ fhir:v "English-PAPUA NEW GUINEA" ]
+       ] [
+         fhir:code [ fhir:v "en-PH" ] ;
+         fhir:display [ fhir:v "English-PHILIPPINES" ]
+       ] [
+         fhir:code [ fhir:v "en-PK" ] ;
+         fhir:display [ fhir:v "English-PAKISTAN" ]
+       ] [
+         fhir:code [ fhir:v "en-PN" ] ;
+         fhir:display [ fhir:v "English-PITCAIRN" ]
+       ] [
+         fhir:code [ fhir:v "en-PR" ] ;
+         fhir:display [ fhir:v "English-PUERTO RICO" ]
+       ] [
+         fhir:code [ fhir:v "en-PW" ] ;
+         fhir:display [ fhir:v "English-PALAU" ]
+       ] [
+         fhir:code [ fhir:v "en-RW" ] ;
+         fhir:display [ fhir:v "English-RWANDA" ]
+       ] [
+         fhir:code [ fhir:v "en-SB" ] ;
+         fhir:display [ fhir:v "English-SOLOMON ISLANDS" ]
+       ] [
+         fhir:code [ fhir:v "en-SC" ] ;
+         fhir:display [ fhir:v "English-SEYCHELLES" ]
+       ] [
+         fhir:code [ fhir:v "en-SD" ] ;
+         fhir:display [ fhir:v "English-SUDAN" ]
+       ] [
+         fhir:code [ fhir:v "en-SG" ] ;
+         fhir:display [ fhir:v "English-SINGAPORE" ]
+       ] [
+         fhir:code [ fhir:v "en-SH" ] ;
+         fhir:display [ fhir:v "English-SAINT HELENA, ASCENSION AND TRISTAN DA CUNHA" ]
+       ] [
+         fhir:code [ fhir:v "en-SL" ] ;
+         fhir:display [ fhir:v "English-SIERRA LEONE" ]
+       ] [
+         fhir:code [ fhir:v "en-SS" ] ;
+         fhir:display [ fhir:v "English-SOUTH SUDAN" ]
+       ] [
+         fhir:code [ fhir:v "en-SX" ] ;
+         fhir:display [ fhir:v "English-SINT MAARTEN (DUTCH PART)" ]
+       ] [
+         fhir:code [ fhir:v "en-SZ" ] ;
+         fhir:display [ fhir:v "English-SWAZILAND" ]
+       ] [
+         fhir:code [ fhir:v "en-TC" ] ;
+         fhir:display [ fhir:v "English-TURKS AND CAICOS ISLANDS" ]
+       ] [
+         fhir:code [ fhir:v "en-TK" ] ;
+         fhir:display [ fhir:v "English-TOKELAU" ]
+       ] [
+         fhir:code [ fhir:v "en-TO" ] ;
+         fhir:display [ fhir:v "English-TONGA" ]
+       ] [
+         fhir:code [ fhir:v "en-TT" ] ;
+         fhir:display [ fhir:v "English-TRINIDAD AND TOBAGO" ]
+       ] [
+         fhir:code [ fhir:v "en-TV" ] ;
+         fhir:display [ fhir:v "English-TUVALU" ]
+       ] [
+         fhir:code [ fhir:v "en-TZ" ] ;
+         fhir:display [ fhir:v "English-TANZANIA, UNITED REPUBLIC OF" ]
+       ] [
+         fhir:code [ fhir:v "en-UG" ] ;
+         fhir:display [ fhir:v "English-UGANDA" ]
+       ] [
+         fhir:code [ fhir:v "en-UM" ] ;
+         fhir:display [ fhir:v "English-UNITED STATES MINOR OUTLYING ISLANDS" ]
+       ] [
+         fhir:code [ fhir:v "en-US" ] ;
+         fhir:display [ fhir:v "English-UNITED STATES OF AMERICA" ]
+       ] [
+         fhir:code [ fhir:v "en-VC" ] ;
+         fhir:display [ fhir:v "English-SAINT VINCENT AND THE GRENADINES" ]
+       ] [
+         fhir:code [ fhir:v "en-VG" ] ;
+         fhir:display [ fhir:v "English-VIRGIN ISLANDS, BRITISH" ]
+       ] [
+         fhir:code [ fhir:v "en-VI" ] ;
+         fhir:display [ fhir:v "English-VIRGIN ISLANDS, U.S." ]
+       ] [
+         fhir:code [ fhir:v "en-VU" ] ;
+         fhir:display [ fhir:v "English-VANUATU" ]
+       ] [
+         fhir:code [ fhir:v "en-WS" ] ;
+         fhir:display [ fhir:v "English-SAMOA" ]
+       ] [
+         fhir:code [ fhir:v "en-ZA" ] ;
+         fhir:display [ fhir:v "English-SOUTH AFRICA" ]
+       ] [
+         fhir:code [ fhir:v "en-ZM" ] ;
+         fhir:display [ fhir:v "English-ZAMBIA" ]
+       ] [
+         fhir:code [ fhir:v "en-ZW" ] ;
+         fhir:display [ fhir:v "English-ZIMBABWE" ]
+       ] [
+         fhir:code [ fhir:v "es-AR" ] ;
+         fhir:display [ fhir:v "Spanish; Castilian-ARGENTINA" ]
+       ] [
+         fhir:code [ fhir:v "es-BO" ] ;
+         fhir:display [ fhir:v "Spanish; Castilian-BOLIVIA (PLURINATIONAL STATE OF)" ]
+       ] [
+         fhir:code [ fhir:v "es-CL" ] ;
+         fhir:display [ fhir:v "Spanish; Castilian-CHILE" ]
+       ] [
+         fhir:code [ fhir:v "es-CO" ] ;
+         fhir:display [ fhir:v "Spanish; Castilian-COLOMBIA" ]
+       ] [
+         fhir:code [ fhir:v "es-CR" ] ;
+         fhir:display [ fhir:v "Spanish; Castilian-COSTA RICA" ]
+       ] [
+         fhir:code [ fhir:v "es-CU" ] ;
+         fhir:display [ fhir:v "Spanish; Castilian-CUBA" ]
+       ] [
+         fhir:code [ fhir:v "es-DO" ] ;
+         fhir:display [ fhir:v "Spanish; Castilian-DOMINICAN REPUBLIC" ]
+       ] [
+         fhir:code [ fhir:v "es-EC" ] ;
+         fhir:display [ fhir:v "Spanish; Castilian-ECUADOR" ]
+       ] [
+         fhir:code [ fhir:v "es-ES" ] ;
+         fhir:display [ fhir:v "Spanish; Castilian-SPAIN" ]
+       ] [
+         fhir:code [ fhir:v "es-GQ" ] ;
+         fhir:display [ fhir:v "Spanish; Castilian-EQUATORIAL GUINEA" ]
+       ] [
+         fhir:code [ fhir:v "es-GT" ] ;
+         fhir:display [ fhir:v "Spanish; Castilian-GUATEMALA" ]
+       ] [
+         fhir:code [ fhir:v "es-HN" ] ;
+         fhir:display [ fhir:v "Spanish; Castilian-HONDURAS" ]
+       ] [
+         fhir:code [ fhir:v "es-MX" ] ;
+         fhir:display [ fhir:v "Spanish; Castilian-MEXICO" ]
+       ] [
+         fhir:code [ fhir:v "es-NI" ] ;
+         fhir:display [ fhir:v "Spanish; Castilian-NICARAGUA" ]
+       ] [
+         fhir:code [ fhir:v "es-PA" ] ;
+         fhir:display [ fhir:v "Spanish; Castilian-PANAMA" ]
+       ] [
+         fhir:code [ fhir:v "es-PE" ] ;
+         fhir:display [ fhir:v "Spanish; Castilian-PERU" ]
+       ] [
+         fhir:code [ fhir:v "es-PH" ] ;
+         fhir:display [ fhir:v "Spanish; Castilian-PHILIPPINES" ]
+       ] [
+         fhir:code [ fhir:v "es-PR" ] ;
+         fhir:display [ fhir:v "Spanish; Castilian-PUERTO RICO" ]
+       ] [
+         fhir:code [ fhir:v "es-PY" ] ;
+         fhir:display [ fhir:v "Spanish; Castilian-PARAGUAY" ]
+       ] [
+         fhir:code [ fhir:v "es-SV" ] ;
+         fhir:display [ fhir:v "Spanish; Castilian-EL SALVADOR" ]
+       ] [
+         fhir:code [ fhir:v "es-US" ] ;
+         fhir:display [ fhir:v "Spanish; Castilian-UNITED STATES OF AMERICA" ]
+       ] [
+         fhir:code [ fhir:v "es-UY" ] ;
+         fhir:display [ fhir:v "Spanish; Castilian-URUGUAY" ]
+       ] [
+         fhir:code [ fhir:v "es-VE" ] ;
+         fhir:display [ fhir:v "Spanish; Castilian-VENEZUELA (BOLIVARIAN REPUBLIC OF)" ]
+       ] [
+         fhir:code [ fhir:v "et-EE" ] ;
+         fhir:display [ fhir:v "Estonian-ESTONIA" ]
+       ] [
+         fhir:code [ fhir:v "eu-ES" ] ;
+         fhir:display [ fhir:v "Basque-SPAIN" ]
+       ] [
+         fhir:code [ fhir:v "fa-AF" ] ;
+         fhir:display [ fhir:v "Persian-AFGHANISTAN" ]
+       ] [
+         fhir:code [ fhir:v "fa-IR" ] ;
+         fhir:display [ fhir:v "Persian-IRAN (ISLAMIC REPUBLIC OF)" ]
+       ] [
+         fhir:code [ fhir:v "ff-CM" ] ;
+         fhir:display [ fhir:v "Fulah-CAMEROON" ]
+       ] [
+         fhir:code [ fhir:v "ff-GN" ] ;
+         fhir:display [ fhir:v "Fulah-GUINEA" ]
+       ] [
+         fhir:code [ fhir:v "ff-MR" ] ;
+         fhir:display [ fhir:v "Fulah-MAURITANIA" ]
+       ] [
+         fhir:code [ fhir:v "ff-SN" ] ;
+         fhir:display [ fhir:v "Fulah-SENEGAL" ]
+       ] [
+         fhir:code [ fhir:v "fi-FI" ] ;
+         fhir:display [ fhir:v "Finnish-FINLAND" ]
+       ] [
+         fhir:code [ fhir:v "fo-FO" ] ;
+         fhir:display [ fhir:v "Faroese-FAROE ISLANDS" ]
+       ] [
+         fhir:code [ fhir:v "fr-BE" ] ;
+         fhir:display [ fhir:v "French-BELGIUM" ]
+       ] [
+         fhir:code [ fhir:v "fr-BF" ] ;
+         fhir:display [ fhir:v "French-BURKINA FASO" ]
+       ] [
+         fhir:code [ fhir:v "fr-BI" ] ;
+         fhir:display [ fhir:v "French-BURUNDI" ]
+       ] [
+         fhir:code [ fhir:v "fr-BJ" ] ;
+         fhir:display [ fhir:v "French-BENIN" ]
+       ] [
+         fhir:code [ fhir:v "fr-BL" ] ;
+         fhir:display [ fhir:v "French-SAINT BARTHÉLEMY" ]
+       ] [
+         fhir:code [ fhir:v "fr-CA" ] ;
+         fhir:display [ fhir:v "French-CANADA" ]
+       ] [
+         fhir:code [ fhir:v "fr-CD" ] ;
+         fhir:display [ fhir:v "French-CONGO, DEMOCRATIC REPUBLIC OF" ]
+       ] [
+         fhir:code [ fhir:v "fr-CF" ] ;
+         fhir:display [ fhir:v "French-CENTRAL AFRICAN REPUBLIC" ]
+       ] [
+         fhir:code [ fhir:v "fr-CG" ] ;
+         fhir:display [ fhir:v "French-CONGO" ]
+       ] [
+         fhir:code [ fhir:v "fr-CH" ] ;
+         fhir:display [ fhir:v "French-SWITZERLAND" ]
+       ] [
+         fhir:code [ fhir:v "fr-CI" ] ;
+         fhir:display [ fhir:v "French-COTE D'IVOIRE" ]
+       ] [
+         fhir:code [ fhir:v "fr-CM" ] ;
+         fhir:display [ fhir:v "French-CAMEROON" ]
+       ] [
+         fhir:code [ fhir:v "fr-DJ" ] ;
+         fhir:display [ fhir:v "French-DJIBOUTI" ]
+       ] [
+         fhir:code [ fhir:v "fr-DZ" ] ;
+         fhir:display [ fhir:v "French-ALGERIA" ]
+       ] [
+         fhir:code [ fhir:v "fr-FR" ] ;
+         fhir:display [ fhir:v "French-FRANCE" ]
+       ] [
+         fhir:code [ fhir:v "fr-GA" ] ;
+         fhir:display [ fhir:v "French-GABON" ]
+       ] [
+         fhir:code [ fhir:v "fr-GF" ] ;
+         fhir:display [ fhir:v "French-FRENCH GUIANA" ]
+       ] [
+         fhir:code [ fhir:v "fr-GN" ] ;
+         fhir:display [ fhir:v "French-GUINEA" ]
+       ] [
+         fhir:code [ fhir:v "fr-GP" ] ;
+         fhir:display [ fhir:v "French-GUADELOUPE" ]
+       ] [
+         fhir:code [ fhir:v "fr-GQ" ] ;
+         fhir:display [ fhir:v "French-EQUATORIAL GUINEA" ]
+       ] [
+         fhir:code [ fhir:v "fr-HT" ] ;
+         fhir:display [ fhir:v "French-HAITI" ]
+       ] [
+         fhir:code [ fhir:v "fr-KM" ] ;
+         fhir:display [ fhir:v "French-COMOROS" ]
+       ] [
+         fhir:code [ fhir:v "fr-LU" ] ;
+         fhir:display [ fhir:v "French-LUXEMBOURG" ]
+       ] [
+         fhir:code [ fhir:v "fr-MA" ] ;
+         fhir:display [ fhir:v "French-MOROCCO" ]
+       ] [
+         fhir:code [ fhir:v "fr-MC" ] ;
+         fhir:display [ fhir:v "French-MONACO" ]
+       ] [
+         fhir:code [ fhir:v "fr-MF" ] ;
+         fhir:display [ fhir:v "French-SAINT MARTIN (FRENCH PART)" ]
+       ] [
+         fhir:code [ fhir:v "fr-MG" ] ;
+         fhir:display [ fhir:v "French-MADAGASCAR" ]
+       ] [
+         fhir:code [ fhir:v "fr-ML" ] ;
+         fhir:display [ fhir:v "French-MALI" ]
+       ] [
+         fhir:code [ fhir:v "fr-MQ" ] ;
+         fhir:display [ fhir:v "French-MARTINIQUE" ]
+       ] [
+         fhir:code [ fhir:v "fr-MR" ] ;
+         fhir:display [ fhir:v "French-MAURITANIA" ]
+       ] [
+         fhir:code [ fhir:v "fr-MU" ] ;
+         fhir:display [ fhir:v "French-MAURITIUS" ]
+       ] [
+         fhir:code [ fhir:v "fr-NC" ] ;
+         fhir:display [ fhir:v "French-NEW CALEDONIA" ]
+       ] [
+         fhir:code [ fhir:v "fr-NE" ] ;
+         fhir:display [ fhir:v "French-NIGER" ]
+       ] [
+         fhir:code [ fhir:v "fr-PF" ] ;
+         fhir:display [ fhir:v "French-FRENCH POLYNESIA" ]
+       ] [
+         fhir:code [ fhir:v "fr-PM" ] ;
+         fhir:display [ fhir:v "French-SAINT PIERRE AND MIQUELON" ]
+       ] [
+         fhir:code [ fhir:v "fr-RE" ] ;
+         fhir:display [ fhir:v "French-REUNION" ]
+       ] [
+         fhir:code [ fhir:v "fr-RW" ] ;
+         fhir:display [ fhir:v "French-RWANDA" ]
+       ] [
+         fhir:code [ fhir:v "fr-SC" ] ;
+         fhir:display [ fhir:v "French-SEYCHELLES" ]
+       ] [
+         fhir:code [ fhir:v "fr-SN" ] ;
+         fhir:display [ fhir:v "French-SENEGAL" ]
+       ] [
+         fhir:code [ fhir:v "fr-SY" ] ;
+         fhir:display [ fhir:v "French-SYRIAN ARAB REPUBLIC" ]
+       ] [
+         fhir:code [ fhir:v "fr-TD" ] ;
+         fhir:display [ fhir:v "French-CHAD" ]
+       ] [
+         fhir:code [ fhir:v "fr-TG" ] ;
+         fhir:display [ fhir:v "French-TOGO" ]
+       ] [
+         fhir:code [ fhir:v "fr-TN" ] ;
+         fhir:display [ fhir:v "French-TUNISIA" ]
+       ] [
+         fhir:code [ fhir:v "fr-VU" ] ;
+         fhir:display [ fhir:v "French-VANUATU" ]
+       ] [
+         fhir:code [ fhir:v "fr-WF" ] ;
+         fhir:display [ fhir:v "French-WALLIS AND FUTUNA" ]
+       ] [
+         fhir:code [ fhir:v "fr-YT" ] ;
+         fhir:display [ fhir:v "French-MAYOTTE" ]
+       ] [
+         fhir:code [ fhir:v "fy-NL" ] ;
+         fhir:display [ fhir:v "Western Frisian-NETHERLANDS" ]
+       ] [
+         fhir:code [ fhir:v "ga-IE" ] ;
+         fhir:display [ fhir:v "Irish-IRELAND" ]
+       ] [
+         fhir:code [ fhir:v "gd-GB" ] ;
+         fhir:display [ fhir:v "Gaelic; Scottish Gaelic-UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND" ]
+       ] [
+         fhir:code [ fhir:v "gl-ES" ] ;
+         fhir:display [ fhir:v "Galician-SPAIN" ]
+       ] [
+         fhir:code [ fhir:v "gu-IN" ] ;
+         fhir:display [ fhir:v "Gujarati-INDIA" ]
+       ] [
+         fhir:code [ fhir:v "gv-IM" ] ;
+         fhir:display [ fhir:v "Manx-ISLE OF MAN" ]
+       ] [
+         fhir:code [ fhir:v "ha-GH" ] ;
+         fhir:display [ fhir:v "Hausa-GHANA" ]
+       ] [
+         fhir:code [ fhir:v "ha-NE" ] ;
+         fhir:display [ fhir:v "Hausa-NIGER" ]
+       ] [
+         fhir:code [ fhir:v "ha-NG" ] ;
+         fhir:display [ fhir:v "Hausa-NIGERIA" ]
+       ] [
+         fhir:code [ fhir:v "he-IL" ] ;
+         fhir:display [ fhir:v "Hebrew-ISRAEL" ]
+       ] [
+         fhir:code [ fhir:v "hi-IN" ] ;
+         fhir:display [ fhir:v "Hindi-INDIA" ]
+       ] [
+         fhir:code [ fhir:v "hr-BA" ] ;
+         fhir:display [ fhir:v "Croatian-BOSNIA AND HERZEGOVINA" ]
+       ] [
+         fhir:code [ fhir:v "hr-HR" ] ;
+         fhir:display [ fhir:v "Croatian-CROATIA" ]
+       ] [
+         fhir:code [ fhir:v "hu-HU" ] ;
+         fhir:display [ fhir:v "Hungarian-HUNGARY" ]
+       ] [
+         fhir:code [ fhir:v "hy-AM" ] ;
+         fhir:display [ fhir:v "Armenian-ARMENIA" ]
+       ] [
+         fhir:code [ fhir:v "id-ID" ] ;
+         fhir:display [ fhir:v "Indonesian-INDONESIA" ]
+       ] [
+         fhir:code [ fhir:v "ig-NG" ] ;
+         fhir:display [ fhir:v "Igbo-NIGERIA" ]
+       ] [
+         fhir:code [ fhir:v "ii-CN" ] ;
+         fhir:display [ fhir:v "Sichuan Yi; Nuosu-CHINA" ]
+       ] [
+         fhir:code [ fhir:v "is-IS" ] ;
+         fhir:display [ fhir:v "Icelandic-ICELAND" ]
+       ] [
+         fhir:code [ fhir:v "it-CH" ] ;
+         fhir:display [ fhir:v "Italian-SWITZERLAND" ]
+       ] [
+         fhir:code [ fhir:v "it-IT" ] ;
+         fhir:display [ fhir:v "Italian-ITALY" ]
+       ] [
+         fhir:code [ fhir:v "it-SM" ] ;
+         fhir:display [ fhir:v "Italian-SAN MARINO" ]
+       ] [
+         fhir:code [ fhir:v "ja-JP" ] ;
+         fhir:display [ fhir:v "Japanese-JAPAN" ]
+       ] [
+         fhir:code [ fhir:v "ka-GE" ] ;
+         fhir:display [ fhir:v "Georgian-GEORGIA" ]
+       ] [
+         fhir:code [ fhir:v "ki-KE" ] ;
+         fhir:display [ fhir:v "Kikuyu; Gikuyu-KENYA" ]
+       ] [
+         fhir:code [ fhir:v "kk-KZ" ] ;
+         fhir:display [ fhir:v "Kazakh-KAZAKHSTAN" ]
+       ] [
+         fhir:code [ fhir:v "kl-GL" ] ;
+         fhir:display [ fhir:v "Kalaallisut; Greenlandic-GREENLAND" ]
+       ] [
+         fhir:code [ fhir:v "km-KH" ] ;
+         fhir:display [ fhir:v "Central Khmer-CAMBODIA" ]
+       ] [
+         fhir:code [ fhir:v "kn-IN" ] ;
+         fhir:display [ fhir:v "Kannada-INDIA" ]
+       ] [
+         fhir:code [ fhir:v "ko-KP" ] ;
+         fhir:display [ fhir:v "Korean-KOREA (DEMOCRATIC PEOPLE'S REPUBLIC OF)" ]
+       ] [
+         fhir:code [ fhir:v "ko-KR" ] ;
+         fhir:display [ fhir:v "Korean-KOREA, REPUBLIC OF" ]
+       ] [
+         fhir:code [ fhir:v "ks-IN" ] ;
+         fhir:display [ fhir:v "Kashmiri-INDIA" ]
+       ] [
+         fhir:code [ fhir:v "kw-GB" ] ;
+         fhir:display [ fhir:v "Cornish-UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND" ]
+       ] [
+         fhir:code [ fhir:v "ky-KG" ] ;
+         fhir:display [ fhir:v "Kirghiz; Kyrgyz-KYRGYZSTAN" ]
+       ] [
+         fhir:code [ fhir:v "lb-LU" ] ;
+         fhir:display [ fhir:v "Luxembourgish; Letzeburgesch-LUXEMBOURG" ]
+       ] [
+         fhir:code [ fhir:v "lg-UG" ] ;
+         fhir:display [ fhir:v "Ganda-UGANDA" ]
+       ] [
+         fhir:code [ fhir:v "ln-AO" ] ;
+         fhir:display [ fhir:v "Lingala-ANGOLA" ]
+       ] [
+         fhir:code [ fhir:v "ln-CD" ] ;
+         fhir:display [ fhir:v "Lingala-CONGO, DEMOCRATIC REPUBLIC OF" ]
+       ] [
+         fhir:code [ fhir:v "ln-CF" ] ;
+         fhir:display [ fhir:v "Lingala-CENTRAL AFRICAN REPUBLIC" ]
+       ] [
+         fhir:code [ fhir:v "ln-CG" ] ;
+         fhir:display [ fhir:v "Lingala-CONGO" ]
+       ] [
+         fhir:code [ fhir:v "lo-LA" ] ;
+         fhir:display [ fhir:v "Lao-LAO PEOPLE'S DEMOCRATIC REPUBLIC" ]
+       ] [
+         fhir:code [ fhir:v "lt-LT" ] ;
+         fhir:display [ fhir:v "Lithuanian-LITHUANIA" ]
+       ] [
+         fhir:code [ fhir:v "lu-CD" ] ;
+         fhir:display [ fhir:v "Luba-Katanga-CONGO, DEMOCRATIC REPUBLIC OF" ]
+       ] [
+         fhir:code [ fhir:v "lv-LV" ] ;
+         fhir:display [ fhir:v "Latvian-LATVIA" ]
+       ] [
+         fhir:code [ fhir:v "mg-MG" ] ;
+         fhir:display [ fhir:v "Malagasy-MADAGASCAR" ]
+       ] [
+         fhir:code [ fhir:v "mk-MK" ] ;
+         fhir:display [ fhir:v "Macedonian-MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF" ]
+       ] [
+         fhir:code [ fhir:v "ml-IN" ] ;
+         fhir:display [ fhir:v "Malayalam-INDIA" ]
+       ] [
+         fhir:code [ fhir:v "mn-MN" ] ;
+         fhir:display [ fhir:v "Mongolian-MONGOLIA" ]
+       ] [
+         fhir:code [ fhir:v "mr-IN" ] ;
+         fhir:display [ fhir:v "Marathi-INDIA" ]
+       ] [
+         fhir:code [ fhir:v "ms-BN" ] ;
+         fhir:display [ fhir:v "Malay-BRUNEI DARUSSALAM" ]
+       ] [
+         fhir:code [ fhir:v "ms-MY" ] ;
+         fhir:display [ fhir:v "Malay-MALAYSIA" ]
+       ] [
+         fhir:code [ fhir:v "ms-SG" ] ;
+         fhir:display [ fhir:v "Malay-SINGAPORE" ]
+       ] [
+         fhir:code [ fhir:v "mt-MT" ] ;
+         fhir:display [ fhir:v "Maltese-MALTA" ]
+       ] [
+         fhir:code [ fhir:v "my-MM" ] ;
+         fhir:display [ fhir:v "Burmese-MYANMAR" ]
+       ] [
+         fhir:code [ fhir:v "nb-NO" ] ;
+         fhir:display [ fhir:v "Bokmål, Norwegian; Norwegian Bokmål-NORWAY" ]
+       ] [
+         fhir:code [ fhir:v "nb-SJ" ] ;
+         fhir:display [ fhir:v "Bokmål, Norwegian; Norwegian Bokmål-SVALBARD AND JAN MAYEN" ]
+       ] [
+         fhir:code [ fhir:v "nd-ZW" ] ;
+         fhir:display [ fhir:v "Ndebele, North; North Ndebele-ZIMBABWE" ]
+       ] [
+         fhir:code [ fhir:v "ne-IN" ] ;
+         fhir:display [ fhir:v "Nepali-INDIA" ]
+       ] [
+         fhir:code [ fhir:v "ne-NP" ] ;
+         fhir:display [ fhir:v "Nepali-NEPAL" ]
+       ] [
+         fhir:code [ fhir:v "nl-AW" ] ;
+         fhir:display [ fhir:v "Dutch; Flemish-ARUBA" ]
+       ] [
+         fhir:code [ fhir:v "nl-BE" ] ;
+         fhir:display [ fhir:v "Dutch; Flemish-BELGIUM" ]
+       ] [
+         fhir:code [ fhir:v "nl-BQ" ] ;
+         fhir:display [ fhir:v "Dutch; Flemish-BONAIRE, SINT EUSTATIUS AND SABA" ]
+       ] [
+         fhir:code [ fhir:v "nl-CW" ] ;
+         fhir:display [ fhir:v "Dutch; Flemish-CURAÇAO" ]
+       ] [
+         fhir:code [ fhir:v "nl-NL" ] ;
+         fhir:display [ fhir:v "Dutch; Flemish-NETHERLANDS" ]
+       ] [
+         fhir:code [ fhir:v "nl-SR" ] ;
+         fhir:display [ fhir:v "Dutch; Flemish-SURINAME" ]
+       ] [
+         fhir:code [ fhir:v "nl-SX" ] ;
+         fhir:display [ fhir:v "Dutch; Flemish-SINT MAARTEN (DUTCH PART)" ]
+       ] [
+         fhir:code [ fhir:v "nn-NO" ] ;
+         fhir:display [ fhir:v "Norwegian Nynorsk; Nynorsk, Norwegian-NORWAY" ]
+       ] [
+         fhir:code [ fhir:v "om-ET" ] ;
+         fhir:display [ fhir:v "Oromo-ETHIOPIA" ]
+       ] [
+         fhir:code [ fhir:v "om-KE" ] ;
+         fhir:display [ fhir:v "Oromo-KENYA" ]
+       ] [
+         fhir:code [ fhir:v "or-IN" ] ;
+         fhir:display [ fhir:v "Oriya-INDIA" ]
+       ] [
+         fhir:code [ fhir:v "os-GE" ] ;
+         fhir:display [ fhir:v "Ossetian; Ossetic-GEORGIA" ]
+       ] [
+         fhir:code [ fhir:v "os-RU" ] ;
+         fhir:display [ fhir:v "Ossetian; Ossetic-RUSSIAN FEDERATION" ]
+       ] [
+         fhir:code [ fhir:v "pa-PK" ] ;
+         fhir:display [ fhir:v "Panjabi; Punjabi-PAKISTAN" ]
+       ] [
+         fhir:code [ fhir:v "pa-IN" ] ;
+         fhir:display [ fhir:v "Panjabi; Punjabi-INDIA" ]
+       ] [
+         fhir:code [ fhir:v "pl-PL" ] ;
+         fhir:display [ fhir:v "Polish-POLAND" ]
+       ] [
+         fhir:code [ fhir:v "ps-AF" ] ;
+         fhir:display [ fhir:v "Pushto; Pashto-AFGHANISTAN" ]
+       ] [
+         fhir:code [ fhir:v "pt-AO" ] ;
+         fhir:display [ fhir:v "Portuguese-ANGOLA" ]
+       ] [
+         fhir:code [ fhir:v "pt-BR" ] ;
+         fhir:display [ fhir:v "Portuguese-BRAZIL" ]
+       ] [
+         fhir:code [ fhir:v "pt-CV" ] ;
+         fhir:display [ fhir:v "Portuguese-CAPE VERDE" ]
+       ] [
+         fhir:code [ fhir:v "pt-GW" ] ;
+         fhir:display [ fhir:v "Portuguese-GUINEA-BISSAU" ]
+       ] [
+         fhir:code [ fhir:v "pt-MO" ] ;
+         fhir:display [ fhir:v "Portuguese-MACAO" ]
+       ] [
+         fhir:code [ fhir:v "pt-MZ" ] ;
+         fhir:display [ fhir:v "Portuguese-MOZAMBIQUE" ]
+       ] [
+         fhir:code [ fhir:v "pt-PT" ] ;
+         fhir:display [ fhir:v "Portuguese-PORTUGAL" ]
+       ] [
+         fhir:code [ fhir:v "pt-ST" ] ;
+         fhir:display [ fhir:v "Portuguese-SAO TOME AND PRINCIPE" ]
+       ] [
+         fhir:code [ fhir:v "pt-TL" ] ;
+         fhir:display [ fhir:v "Portuguese-TIMOR-LESTE" ]
+       ] [
+         fhir:code [ fhir:v "qu-BO" ] ;
+         fhir:display [ fhir:v "Quechua-BOLIVIA (PLURINATIONAL STATE OF)" ]
+       ] [
+         fhir:code [ fhir:v "qu-EC" ] ;
+         fhir:display [ fhir:v "Quechua-ECUADOR" ]
+       ] [
+         fhir:code [ fhir:v "qu-PE" ] ;
+         fhir:display [ fhir:v "Quechua-PERU" ]
+       ] [
+         fhir:code [ fhir:v "rm-CH" ] ;
+         fhir:display [ fhir:v "Romansh-SWITZERLAND" ]
+       ] [
+         fhir:code [ fhir:v "rn-BI" ] ;
+         fhir:display [ fhir:v "Rundi-BURUNDI" ]
+       ] [
+         fhir:code [ fhir:v "ro-MD" ] ;
+         fhir:display [ fhir:v "Romanian; Moldavian; Moldovan-MOLDOVA, REPUBLIC OF" ]
+       ] [
+         fhir:code [ fhir:v "ro-RO" ] ;
+         fhir:display [ fhir:v "Romanian; Moldavian; Moldovan-ROMANIA" ]
+       ] [
+         fhir:code [ fhir:v "ru-BY" ] ;
+         fhir:display [ fhir:v "Russian-BELARUS" ]
+       ] [
+         fhir:code [ fhir:v "ru-KG" ] ;
+         fhir:display [ fhir:v "Russian-KYRGYZSTAN" ]
+       ] [
+         fhir:code [ fhir:v "ru-KZ" ] ;
+         fhir:display [ fhir:v "Russian-KAZAKHSTAN" ]
+       ] [
+         fhir:code [ fhir:v "ru-MD" ] ;
+         fhir:display [ fhir:v "Russian-MOLDOVA, REPUBLIC OF" ]
+       ] [
+         fhir:code [ fhir:v "ru-RU" ] ;
+         fhir:display [ fhir:v "Russian-RUSSIAN FEDERATION" ]
+       ] [
+         fhir:code [ fhir:v "ru-UA" ] ;
+         fhir:display [ fhir:v "Russian-UKRAINE" ]
+       ] [
+         fhir:code [ fhir:v "rw-RW" ] ;
+         fhir:display [ fhir:v "Kinyarwanda-RWANDA" ]
+       ] [
+         fhir:code [ fhir:v "se-FI" ] ;
+         fhir:display [ fhir:v "Northern Sami-FINLAND" ]
+       ] [
+         fhir:code [ fhir:v "se-NO" ] ;
+         fhir:display [ fhir:v "Northern Sami-NORWAY" ]
+       ] [
+         fhir:code [ fhir:v "se-SE" ] ;
+         fhir:display [ fhir:v "Northern Sami-SWEDEN" ]
+       ] [
+         fhir:code [ fhir:v "sg-CF" ] ;
+         fhir:display [ fhir:v "Sango-CENTRAL AFRICAN REPUBLIC" ]
+       ] [
+         fhir:code [ fhir:v "si-LK" ] ;
+         fhir:display [ fhir:v "Sinhala; Sinhalese-SRI LANKA" ]
+       ] [
+         fhir:code [ fhir:v "sk-SK" ] ;
+         fhir:display [ fhir:v "Slovak-SLOVAKIA" ]
+       ] [
+         fhir:code [ fhir:v "sl-SI" ] ;
+         fhir:display [ fhir:v "Slovenian-SLOVENIA" ]
+       ] [
+         fhir:code [ fhir:v "sn-ZW" ] ;
+         fhir:display [ fhir:v "Shona-ZIMBABWE" ]
+       ] [
+         fhir:code [ fhir:v "so-DJ" ] ;
+         fhir:display [ fhir:v "Somali-DJIBOUTI" ]
+       ] [
+         fhir:code [ fhir:v "so-ET" ] ;
+         fhir:display [ fhir:v "Somali-ETHIOPIA" ]
+       ] [
+         fhir:code [ fhir:v "so-KE" ] ;
+         fhir:display [ fhir:v "Somali-KENYA" ]
+       ] [
+         fhir:code [ fhir:v "so-SO" ] ;
+         fhir:display [ fhir:v "Somali-SOMALIA" ]
+       ] [
+         fhir:code [ fhir:v "sq-AL" ] ;
+         fhir:display [ fhir:v "Albanian-ALBANIA" ]
+       ] [
+         fhir:code [ fhir:v "sq-MK" ] ;
+         fhir:display [ fhir:v "Albanian-MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF" ]
+       ] [
+         fhir:code [ fhir:v "sr-BA" ] ;
+         fhir:display [ fhir:v "Serbian-BOSNIA AND HERZEGOVINA" ]
+       ] [
+         fhir:code [ fhir:v "sr-ME" ] ;
+         fhir:display [ fhir:v "Serbian-MONTENEGRO" ]
+       ] [
+         fhir:code [ fhir:v "sr-RS" ] ;
+         fhir:display [ fhir:v "Serbian-SERBIA" ]
+       ] [
+         fhir:code [ fhir:v "sv-AX" ] ;
+         fhir:display [ fhir:v "Swedish-ÅLAND ISLANDS" ]
+       ] [
+         fhir:code [ fhir:v "sv-FI" ] ;
+         fhir:display [ fhir:v "Swedish-FINLAND" ]
+       ] [
+         fhir:code [ fhir:v "sv-SE" ] ;
+         fhir:display [ fhir:v "Swedish-SWEDEN" ]
+       ] [
+         fhir:code [ fhir:v "sw-CD" ] ;
+         fhir:display [ fhir:v "Swahili-CONGO, DEMOCRATIC REPUBLIC OF" ]
+       ] [
+         fhir:code [ fhir:v "sw-KE" ] ;
+         fhir:display [ fhir:v "Swahili-KENYA" ]
+       ] [
+         fhir:code [ fhir:v "sw-TZ" ] ;
+         fhir:display [ fhir:v "Swahili-TANZANIA, UNITED REPUBLIC OF" ]
+       ] [
+         fhir:code [ fhir:v "sw-UG" ] ;
+         fhir:display [ fhir:v "Swahili-UGANDA" ]
+       ] [
+         fhir:code [ fhir:v "ta-IN" ] ;
+         fhir:display [ fhir:v "Tamil-INDIA" ]
+       ] [
+         fhir:code [ fhir:v "ta-LK" ] ;
+         fhir:display [ fhir:v "Tamil-SRI LANKA" ]
+       ] [
+         fhir:code [ fhir:v "ta-MY" ] ;
+         fhir:display [ fhir:v "Tamil-MALAYSIA" ]
+       ] [
+         fhir:code [ fhir:v "ta-SG" ] ;
+         fhir:display [ fhir:v "Tamil-SINGAPORE" ]
+       ] [
+         fhir:code [ fhir:v "te-IN" ] ;
+         fhir:display [ fhir:v "Telugu-INDIA" ]
+       ] [
+         fhir:code [ fhir:v "th-TH" ] ;
+         fhir:display [ fhir:v "Thai-THAILAND" ]
+       ] [
+         fhir:code [ fhir:v "ti-ER" ] ;
+         fhir:display [ fhir:v "Tigrinya-ERITREA" ]
+       ] [
+         fhir:code [ fhir:v "ti-ET" ] ;
+         fhir:display [ fhir:v "Tigrinya-ETHIOPIA" ]
+       ] [
+         fhir:code [ fhir:v "to-TO" ] ;
+         fhir:display [ fhir:v "Tonga (Tonga Islands)-TONGA" ]
+       ] [
+         fhir:code [ fhir:v "tr-CY" ] ;
+         fhir:display [ fhir:v "Turkish-CYPRUS" ]
+       ] [
+         fhir:code [ fhir:v "tr-TR" ] ;
+         fhir:display [ fhir:v "Turkish-TURKEY" ]
+       ] [
+         fhir:code [ fhir:v "ug-CN" ] ;
+         fhir:display [ fhir:v "Uighur; Uyghur-CHINA" ]
+       ] [
+         fhir:code [ fhir:v "uk-UA" ] ;
+         fhir:display [ fhir:v "Ukrainian-UKRAINE" ]
+       ] [
+         fhir:code [ fhir:v "ur-IN" ] ;
+         fhir:display [ fhir:v "Urdu-INDIA" ]
+       ] [
+         fhir:code [ fhir:v "ur-PK" ] ;
+         fhir:display [ fhir:v "Urdu-PAKISTAN" ]
+       ] [
+         fhir:code [ fhir:v "uz-AF" ] ;
+         fhir:display [ fhir:v "Uzbek-AFGHANISTAN" ]
+       ] [
+         fhir:code [ fhir:v "uz-UZ" ] ;
+         fhir:display [ fhir:v "Uzbek-UZBEKISTAN" ]
+       ] [
+         fhir:code [ fhir:v "vi-VN" ] ;
+         fhir:display [ fhir:v "Vietnamese-VIET NAM" ]
+       ] [
+         fhir:code [ fhir:v "yo-BJ" ] ;
+         fhir:display [ fhir:v "Yoruba-BENIN" ]
+       ] [
+         fhir:code [ fhir:v "yo-NG" ] ;
+         fhir:display [ fhir:v "Yoruba-NIGERIA" ]
+       ] [
+         fhir:code [ fhir:v "zh-CN" ] ;
+         fhir:display [ fhir:v "Chinese-CHINA" ]
+       ] [
+         fhir:code [ fhir:v "zh-HK" ] ;
+         fhir:display [ fhir:v "Chinese-HONG KONG" ]
+       ] [
+         fhir:code [ fhir:v "zh-MO" ] ;
+         fhir:display [ fhir:v "Chinese-MACAO" ]
+       ] [
+         fhir:code [ fhir:v "zh-SG" ] ;
+         fhir:display [ fhir:v "Chinese-SINGAPORE" ]
+       ] [
+         fhir:code [ fhir:v "zh-TW" ] ;
+         fhir:display [ fhir:v "Chinese-TAIWAN, PROVINCE OF CHINA" ]
+       ] [
+         fhir:code [ fhir:v "zu-ZA" ] ;
+         fhir:display [ fhir:v "Zulu-SOUTH AFRICA" ]
+       ] [
+         fhir:code [ fhir:v "no-NO" ] ;
+         fhir:display [ fhir:v "Norwegian-NORWAY" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

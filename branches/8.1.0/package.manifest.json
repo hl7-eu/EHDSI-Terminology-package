@@ -1,0 +1,6 @@
+{
+  "version" : "8.1.0",
+  "fhirVersion" : ["4.0.1"],
+  "date" : "20251118200238",
+  "name" : "hl7.eu.terminology.ehdsi"
+}

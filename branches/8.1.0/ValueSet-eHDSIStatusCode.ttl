@@ -1,0 +1,63 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIStatusCode> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "eHDSIStatusCode"] ; # 
+  fhir:url [ fhir:v "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIStatusCode"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.15" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "0.2.0"] ; # 
+  fhir:name [ fhir:v "eHDSIStatusCode"] ; # 
+  fhir:title [ fhir:v "eHDSI Status Code"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2025-02-08T05:43:06+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 Europe"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 Europe" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://hl7europe.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "The Value Set is used to code the different elements of the patient's social history."] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "55561003" ] ;
+         fhir:display [ fhir:v "Active" ]
+       ] [
+         fhir:code [ fhir:v "90734009" ] ;
+         fhir:display [ fhir:v "Chronic" ]
+       ] [
+         fhir:code [ fhir:v "73425007" ] ;
+         fhir:display [ fhir:v "Inactive" ]
+       ] [
+         fhir:code [ fhir:v "7087005" ] ;
+         fhir:display [ fhir:v "Intermittent" ]
+       ] [
+         fhir:code [ fhir:v "410516002" ] ;
+         fhir:display [ fhir:v "Known absent" ]
+       ] [
+         fhir:code [ fhir:v "413322009" ] ;
+         fhir:display [ fhir:v "Problem resolved" ]
+       ] [
+         fhir:code [ fhir:v "255227004" ] ;
+         fhir:display [ fhir:v "Recurrent" ]
+       ] [
+         fhir:code [ fhir:v "415684004" ] ;
+         fhir:display [ fhir:v "Suspected" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

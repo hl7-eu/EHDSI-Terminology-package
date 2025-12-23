@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="eHDSIRoleClass"/>
+  <url value="http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIRoleClass"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.39"/>
+  </identifier>
+  <version value="0.2.0"/>
+  <name value="eHDSIRoleClass"/>
+  <title value="eHDSI Role Class"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2025-02-08T05:43:06+00:00"/>
+  <publisher value="HL7 Europe"/>
+  <contact>
+    <name value="HL7 Europe"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7europe.org"/>
+    </telecom>
+  </contact>
+  <description value="The Value Set is used to make the distinction between an emergency contact and the next of kin for a patient."/>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+      <concept>
+        <code value="ECON"/>
+        <display value="emergency contact"/>
+      </concept>
+      <concept>
+        <code value="NOK"/>
+        <display value="next of kin"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

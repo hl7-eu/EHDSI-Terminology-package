@@ -1,0 +1,165 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIHealthcareProfessionalRole-8.1.0> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "eHDSIHealthcareProfessionalRole-8.1.0"] ; # 
+  fhir:url [
+     fhir:v "http://terminology.ehdsi.eu/ValueSet/eHDSIHealthcareProfessionalRole"^^xsd:anyURI ;
+     fhir:l <http://terminology.ehdsi.eu/ValueSet/eHDSIHealthcareProfessionalRole>
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [
+       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
+       fhir:l <urn:ietf:rfc:3986>
+     ] ;
+     fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.1" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "8.1.0"] ; # 
+  fhir:name [ fhir:v "eHDSIHealthcareProfessionalRole"] ; # 
+  fhir:title [ fhir:v "eHDSI Healthcare Professional Role"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-11-18T20:02:38+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 Europe"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 Europe" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://hl7europe.org" ]
+     ] )
+  ] ) ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "urn:oid:2.16.840.1.113883.2.9.6.2.7"^^xsd:anyURI ;
+         fhir:l <urn:oid:2.16.840.1.113883.2.9.6.2.7>
+       ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "22" ] ;
+         fhir:display [ fhir:v "Health professionals" ]
+       ] [
+         fhir:code [ fhir:v "221" ] ;
+         fhir:display [ fhir:v "Medical doctors" ]
+       ] [
+         fhir:code [ fhir:v "2211" ] ;
+         fhir:display [ fhir:v "Generalist medical practitioners" ]
+       ] [
+         fhir:code [ fhir:v "2212" ] ;
+         fhir:display [ fhir:v "Specialist medical practitioners" ]
+       ] [
+         fhir:code [ fhir:v "222" ] ;
+         fhir:display [ fhir:v "Nursing and midwifery professionals" ]
+       ] [
+         fhir:code [ fhir:v "2221" ] ;
+         fhir:display [ fhir:v "Nursing professionals" ]
+       ] [
+         fhir:code [ fhir:v "2222" ] ;
+         fhir:display [ fhir:v "Midwifery professionals" ]
+       ] [
+         fhir:code [ fhir:v "223" ] ;
+         fhir:display [ fhir:v "Traditional and complementary medicine professionals" ]
+       ] [
+         fhir:code [ fhir:v "224" ] ;
+         fhir:display [ fhir:v "Paramedical practitioners" ]
+       ] [
+         fhir:code [ fhir:v "225" ] ;
+         fhir:display [ fhir:v "Veterinarians" ]
+       ] [
+         fhir:code [ fhir:v "226" ] ;
+         fhir:display [ fhir:v "Other health professionals" ]
+       ] [
+         fhir:code [ fhir:v "2261" ] ;
+         fhir:display [ fhir:v "Dentists" ]
+       ] [
+         fhir:code [ fhir:v "2262" ] ;
+         fhir:display [ fhir:v "Pharmacists" ]
+       ] [
+         fhir:code [ fhir:v "2263" ] ;
+         fhir:display [ fhir:v "Environmental and occupational health and hygiene professionals" ]
+       ] [
+         fhir:code [ fhir:v "2264" ] ;
+         fhir:display [ fhir:v "Physiotherapists" ]
+       ] [
+         fhir:code [ fhir:v "2265" ] ;
+         fhir:display [ fhir:v "Dieticians and nutritionists" ]
+       ] [
+         fhir:code [ fhir:v "2266" ] ;
+         fhir:display [ fhir:v "Audiologists and speech therapists" ]
+       ] [
+         fhir:code [ fhir:v "2267" ] ;
+         fhir:display [ fhir:v "Optometrists and ophthalmic opticians" ]
+       ] [
+         fhir:code [ fhir:v "2269" ] ;
+         fhir:display [ fhir:v "Health professionals not elsewhere classified" ]
+       ] [
+         fhir:code [ fhir:v "32" ] ;
+         fhir:display [ fhir:v "Health associate professionals" ]
+       ] [
+         fhir:code [ fhir:v "321" ] ;
+         fhir:display [ fhir:v "Medical and pharmaceutical technicians" ]
+       ] [
+         fhir:code [ fhir:v "3211" ] ;
+         fhir:display [ fhir:v "Medical imaging and therapeutic equipment technicians" ]
+       ] [
+         fhir:code [ fhir:v "3212" ] ;
+         fhir:display [ fhir:v "Medical and pathology laboratory technicians" ]
+       ] [
+         fhir:code [ fhir:v "3213" ] ;
+         fhir:display [ fhir:v "Pharmaceutical technicians and assistants" ]
+       ] [
+         fhir:code [ fhir:v "3214" ] ;
+         fhir:display [ fhir:v "Medical and dental prosthetic technicians" ]
+       ] [
+         fhir:code [ fhir:v "322" ] ;
+         fhir:display [ fhir:v "Nursing and midwifery associate professionals" ]
+       ] [
+         fhir:code [ fhir:v "3221" ] ;
+         fhir:display [ fhir:v "Nursing associate professionals" ]
+       ] [
+         fhir:code [ fhir:v "3222" ] ;
+         fhir:display [ fhir:v "Midwifery associate professionals" ]
+       ] [
+         fhir:code [ fhir:v "323" ] ;
+         fhir:display [ fhir:v "Traditional and complementary medicine associate professionals" ]
+       ] [
+         fhir:code [ fhir:v "325" ] ;
+         fhir:display [ fhir:v "Other health associate professionals" ]
+       ] [
+         fhir:code [ fhir:v "3251" ] ;
+         fhir:display [ fhir:v "Dental assistants and therapists" ]
+       ] [
+         fhir:code [ fhir:v "3252" ] ;
+         fhir:display [ fhir:v "Medical records and health information technicians" ]
+       ] [
+         fhir:code [ fhir:v "3253" ] ;
+         fhir:display [ fhir:v "Community health workers" ]
+       ] [
+         fhir:code [ fhir:v "3254" ] ;
+         fhir:display [ fhir:v "Dispensing opticians" ]
+       ] [
+         fhir:code [ fhir:v "3255" ] ;
+         fhir:display [ fhir:v "Physiotherapy technicians and assistants" ]
+       ] [
+         fhir:code [ fhir:v "3256" ] ;
+         fhir:display [ fhir:v "Medical assistants" ]
+       ] [
+         fhir:code [ fhir:v "3257" ] ;
+         fhir:display [ fhir:v "Environmental and occupational health inspectors and associates" ]
+       ] [
+         fhir:code [ fhir:v "3258" ] ;
+         fhir:display [ fhir:v "Ambulance workers" ]
+       ] [
+         fhir:code [ fhir:v "3259" ] ;
+         fhir:display [ fhir:v "Health associate professionals not elsewhere classified" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

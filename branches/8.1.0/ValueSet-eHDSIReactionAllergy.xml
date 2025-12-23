@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="eHDSIReactionAllergy"/>
+  <url value="http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIReactionAllergy"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:uuid:1.3.6.1.4.1.12559.11.10.1.3.1.42.11"/>
+  </identifier>
+  <version value="0.2.0"/>
+  <name value="eHDSIReactionAllergy"/>
+  <title value="eHDSI Reaction Allergy"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2025-02-08T05:43:06+00:00"/>
+  <publisher value="HL7 Europe"/>
+  <contact>
+    <name value="HL7 Europe"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7europe.org"/>
+    </telecom>
+  </contact>
+  <description value="Value Set is used to encode clinical manifestation of the allergic reaction."/>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="39579001"/>
+        <display value="Anaphylaxis"/>
+      </concept>
+      <concept>
+        <code value="195967001"/>
+        <display value="Asthma"/>
+      </concept>
+      <concept>
+        <code value="24079001"/>
+        <display value="Atopic dermatitis"/>
+      </concept>
+      <concept>
+        <code value="4386001"/>
+        <display value="Bronchospasm"/>
+      </concept>
+      <concept>
+        <code value="271759003"/>
+        <display value="Bullous eruption"/>
+      </concept>
+      <concept>
+        <code value="698247007"/>
+        <display value="Cardiac arrhythmia"/>
+      </concept>
+      <concept>
+        <code value="410430005"/>
+        <display value="Cardiorespiratory arrest"/>
+      </concept>
+      <concept>
+        <code value="9826008"/>
+        <display value="Conjunctivitis"/>
+      </concept>
+      <concept>
+        <code value="49727002"/>
+        <display value="Cough"/>
+      </concept>
+      <concept>
+        <code value="702809001"/>
+        <display value="Drug reaction with eosinophilia and systemic symptoms"/>
+      </concept>
+      <concept>
+        <code value="162290004"/>
+        <display value="Dry eyes"/>
+      </concept>
+      <concept>
+        <code value="43116000"/>
+        <display value="Eczema"/>
+      </concept>
+      <concept>
+        <code value="418363000"/>
+        <display value="Itching of skin"/>
+      </concept>
+      <concept>
+        <code value="422587007"/>
+        <display value="Nausea"/>
+      </concept>
+      <concept>
+        <code value="271757001"/>
+        <display value="Papular eruption"/>
+      </concept>
+      <concept>
+        <code value="70076002"/>
+        <display value="Rhinitis"/>
+      </concept>
+      <concept>
+        <code value="91175000"/>
+        <display value="Seizure"/>
+      </concept>
+      <concept>
+        <code value="76067001"/>
+        <display value="Sneezing"/>
+      </concept>
+      <concept>
+        <code value="73442001"/>
+        <display value="Stevens-Johnson syndrome"/>
+      </concept>
+      <concept>
+        <code value="23924001"/>
+        <display value="Tight chest"/>
+      </concept>
+      <concept>
+        <code value="126485001"/>
+        <display value="Urticaria"/>
+      </concept>
+      <concept>
+        <code value="31996006"/>
+        <display value="Vasculitis"/>
+      </concept>
+      <concept>
+        <code value="247472004"/>
+        <display value="Weal"/>
+      </concept>
+      <concept>
+        <code value="41291007"/>
+        <display value="Angioedema"/>
+      </concept>
+      <concept>
+        <code value="62315008"/>
+        <display value="Diarrhea"/>
+      </concept>
+      <concept>
+        <code value="267036007"/>
+        <display value="Dyspnea"/>
+      </concept>
+      <concept>
+        <code value="51599000"/>
+        <display value="Edema of larynx"/>
+      </concept>
+      <concept>
+        <code value="781682005"/>
+        <display value="Hyperemia of eye"/>
+      </concept>
+      <concept>
+        <code value="271807003"/>
+        <display value="Eruption"/>
+      </concept>
+      <concept>
+        <code value="768962006"/>
+        <display value="Lyell syndrome"/>
+      </concept>
+      <concept>
+        <code value="422400008"/>
+        <display value="Vomiting"/>
+      </concept>
+      <concept>
+        <code value="281239006"/>
+        <display value="Acute asthma"/>
+      </concept>
+      <concept>
+        <code value="195951007"/>
+        <display value="Acute exacerbation of chronic obstructive airways disease"/>
+      </concept>
+      <concept>
+        <code value="44416002"/>
+        <display value="Airway constriction"/>
+      </concept>
+      <concept>
+        <code value="402407004"/>
+        <display value="Angioedema of tongue"/>
+      </concept>
+      <concept>
+        <code value="7231009"/>
+        <display value="Bullous dermatosis"/>
+      </concept>
+      <concept>
+        <code value="40275004"/>
+        <display value="Contact dermatitis"/>
+      </concept>
+      <concept>
+        <code value="230145002"/>
+        <display value="Difficulty breathing"/>
+      </concept>
+      <concept>
+        <code value="386789004"/>
+        <display value="Eosinophil count raised"/>
+      </concept>
+      <concept>
+        <code value="247441003"/>
+        <display value="Erythema"/>
+      </concept>
+      <concept>
+        <code value="444827008"/>
+        <display value="Erythema of skin"/>
+      </concept>
+      <concept>
+        <code value="399992009"/>
+        <display value="Erythroderma"/>
+      </concept>
+      <concept>
+        <code value="271811009"/>
+        <display value="Face goes red"/>
+      </concept>
+      <concept>
+        <code value="373932008"/>
+        <display value="Feels hot"/>
+      </concept>
+      <concept>
+        <code value="276444007"/>
+        <display value="Generalized pruritus"/>
+      </concept>
+      <concept>
+        <code value="60555002"/>
+        <display value="Hypersensitivity angiitis"/>
+      </concept>
+      <concept>
+        <code value="191306005"/>
+        <display value="Immunoglobulin A vasculitis"/>
+      </concept>
+      <concept>
+        <code value="418290006"/>
+        <display value="Itching"/>
+      </concept>
+      <concept>
+        <code value="74776002"/>
+        <display value="Itching of eye"/>
+      </concept>
+      <concept>
+        <code value="271756005"/>
+        <display value="Macular eruption"/>
+      </concept>
+      <concept>
+        <code value="247471006"/>
+        <display value="Maculopapular eruption"/>
+      </concept>
+      <concept>
+        <code value="247470007"/>
+        <display value="Morbilliform eruption"/>
+      </concept>
+      <concept>
+        <code value="35001004"/>
+        <display value="Non-allergic anaphylaxis"/>
+      </concept>
+      <concept>
+        <code value="2129002"/>
+        <display value="Edema of pharynx"/>
+      </concept>
+      <concept>
+        <code value="81950002"/>
+        <display value="Edema of the tongue"/>
+      </concept>
+      <concept>
+        <code value="432807008"/>
+        <display value="Pollen-food allergy"/>
+      </concept>
+      <concept>
+        <code value="22649008"/>
+        <display value="Photodermatitis"/>
+      </concept>
+      <concept>
+        <code value="90128006"/>
+        <display value="Photosensitivity"/>
+      </concept>
+      <concept>
+        <code value="64144002"/>
+        <display value="Pruritic rash"/>
+      </concept>
+      <concept>
+        <code value="279333002"/>
+        <display value="Pruritus of skin"/>
+      </concept>
+      <concept>
+        <code value="271825005"/>
+        <display value="Respiratory distress"/>
+      </concept>
+      <concept>
+        <code value="421262002"/>
+        <display value="Tongue swelling"/>
+      </concept>
+      <concept>
+        <code value="79893008"/>
+        <display value="Vesicular eruption"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

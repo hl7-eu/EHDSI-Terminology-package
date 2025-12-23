@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="eHDSIObservationInterpretation-8.1.0"/>
+  <url value="http://terminology.ehdsi.eu/ValueSet/eHDSIObservationInterpretation"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.73"/>
+  </identifier>
+  <version value="0.2.0"/>
+  <name value="eHDSIObservationInterpretation"/>
+  <title value="eHDSI Observation Interpretation"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-12-23T10:21:27+00:00"/>
+  <publisher value="HL7 Europe"/>
+  <contact>
+    <name value="HL7 Europe"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7europe.org"/>
+    </telecom>
+  </contact>
+  <description value="This Value Set is used for a rough qualitative interpretation of the Laboratory Observation Results"/>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"/>
+      <concept>
+        <code value="&lt;"/>
+        <display value="Off scale low"/>
+      </concept>
+      <concept>
+        <code value="&gt;"/>
+        <display value="Off scale high"/>
+      </concept>
+      <concept>
+        <code value="A"/>
+        <display value="Abnormal"/>
+      </concept>
+      <concept>
+        <code value="AA"/>
+        <display value="Critical abnormal"/>
+      </concept>
+      <concept>
+        <code value="B"/>
+        <display value="Better"/>
+      </concept>
+      <concept>
+        <code value="CAR"/>
+        <display value="Carrier"/>
+      </concept>
+      <concept>
+        <code value="D"/>
+        <display value="Significant change down"/>
+      </concept>
+      <concept>
+        <code value="DET"/>
+        <display value="Detected"/>
+      </concept>
+      <concept>
+        <code value="E"/>
+        <display value="Equivocal"/>
+      </concept>
+      <concept>
+        <code value="EX"/>
+        <display value="outside threshold"/>
+      </concept>
+      <concept>
+        <code value="EXP"/>
+        <display value="Expected"/>
+      </concept>
+      <concept>
+        <code value="H"/>
+        <display value="High"/>
+      </concept>
+      <concept>
+        <code value="HH"/>
+        <display value="Critical high"/>
+      </concept>
+      <concept>
+        <code value="HU"/>
+        <display value="Significantly high"/>
+      </concept>
+      <concept>
+        <code value="HX"/>
+        <display value="above high threshold"/>
+      </concept>
+      <concept>
+        <code value="I"/>
+        <display value="Intermediate"/>
+      </concept>
+      <concept>
+        <code value="IE"/>
+        <display value="Insufficient evidence"/>
+      </concept>
+      <concept>
+        <code value="IND"/>
+        <display value="Indeterminate"/>
+      </concept>
+      <concept>
+        <code value="L"/>
+        <display value="Low"/>
+      </concept>
+      <concept>
+        <code value="LL"/>
+        <display value="Critical low"/>
+      </concept>
+      <concept>
+        <code value="LU"/>
+        <display value="Significantly low"/>
+      </concept>
+      <concept>
+        <code value="LX"/>
+        <display value="below low threshold"/>
+      </concept>
+      <concept>
+        <code value="N"/>
+        <display value="Normal"/>
+      </concept>
+      <concept>
+        <code value="NCL"/>
+        <display value="No CLSI defined breakpoint"/>
+      </concept>
+      <concept>
+        <code value="ND"/>
+        <display value="Not detected"/>
+      </concept>
+      <concept>
+        <code value="NEG"/>
+        <display value="Negative"/>
+      </concept>
+      <concept>
+        <code value="NR"/>
+        <display value="Non-reactive"/>
+      </concept>
+      <concept>
+        <code value="NS"/>
+        <display value="Non-susceptible"/>
+      </concept>
+      <concept>
+        <code value="POS"/>
+        <display value="Positive"/>
+      </concept>
+      <concept>
+        <code value="R"/>
+        <display value="Resistant"/>
+      </concept>
+      <concept>
+        <code value="RR"/>
+        <display value="Reactive"/>
+      </concept>
+      <concept>
+        <code value="S"/>
+        <display value="Susceptible"/>
+      </concept>
+      <concept>
+        <code value="U"/>
+        <display value="Significant change up"/>
+      </concept>
+      <concept>
+        <code value="UNE"/>
+        <display value="Unexpected"/>
+      </concept>
+      <concept>
+        <code value="W"/>
+        <display value="Worse"/>
+      </concept>
+      <concept>
+        <code value="WR"/>
+        <display value="Weakly reactive"/>
+      </concept>
+      <concept>
+        <code value="SYN-R"/>
+        <display value="Synergy - resistant"/>
+      </concept>
+      <concept>
+        <code value="SDD"/>
+        <display value="Susceptible-dose dependent"/>
+      </concept>
+      <concept>
+        <code value="SYN-S"/>
+        <display value="Synergy - susceptible"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

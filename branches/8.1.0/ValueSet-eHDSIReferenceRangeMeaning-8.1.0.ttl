@@ -1,0 +1,82 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIReferenceRangeMeaning-8.1.0> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "eHDSIReferenceRangeMeaning-8.1.0"] ; # 
+  fhir:url [
+     fhir:v "http://terminology.ehdsi.eu/ValueSet/eHDSIReferenceRangeMeaning"^^xsd:anyURI ;
+     fhir:l <http://terminology.ehdsi.eu/ValueSet/eHDSIReferenceRangeMeaning>
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [
+       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
+       fhir:l <urn:ietf:rfc:3986>
+     ] ;
+     fhir:value [ fhir:v "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.74" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "8.1.0"] ; # 
+  fhir:name [ fhir:v "eHDSIReferenceRangeMeaning"] ; # 
+  fhir:title [ fhir:v "eHDSI Reference Range Meaning"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-11-18T20:02:38+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 Europe"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 Europe" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://hl7europe.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This value set defines a set of codes for a reference range qualifier"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/referencerange-meaning"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/referencerange-meaning>
+       ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "normal" ] ;
+         fhir:display [ fhir:v "Normal Range" ]
+       ] [
+         fhir:code [ fhir:v "recommended" ] ;
+         fhir:display [ fhir:v "Recommended Range" ]
+       ] [
+         fhir:code [ fhir:v "treatment" ] ;
+         fhir:display [ fhir:v "Treatment Range" ]
+       ] [
+         fhir:code [ fhir:v "therapeutic" ] ;
+         fhir:display [ fhir:v "Therapeutic Desired Level" ]
+       ] [
+         fhir:code [ fhir:v "pre-puberty" ] ;
+         fhir:display [ fhir:v "Pre-Puberty" ]
+       ] [
+         fhir:code [ fhir:v "follicular" ] ;
+         fhir:display [ fhir:v "Follicular Stage" ]
+       ] [
+         fhir:code [ fhir:v "midcycle" ] ;
+         fhir:display [ fhir:v "MidCycle" ]
+       ] [
+         fhir:code [ fhir:v "luteal" ] ;
+         fhir:display [ fhir:v "Luteal" ]
+       ] [
+         fhir:code [ fhir:v "postmenopausal" ] ;
+         fhir:display [ fhir:v "Post-Menopause" ]
+       ] [
+         fhir:code [ fhir:v "pre" ] ;
+         fhir:display [ fhir:v "Pre Therapeutic Desired Level" ]
+       ] [
+         fhir:code [ fhir:v "post" ] ;
+         fhir:display [ fhir:v "Post Therapeutic Desired Level" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

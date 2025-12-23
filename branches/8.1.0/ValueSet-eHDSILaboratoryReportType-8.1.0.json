@@ -1,0 +1,33 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "eHDSILaboratoryReportType-8.1.0",
+  "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSILaboratoryReportTypes",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.52"
+  }],
+  "version" : "8.1.0",
+  "name" : "eHDSILaboratoryReportType",
+  "title" : "eHDSI Laboratory Report Types",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-11-18T20:02:38+00:00",
+  "publisher" : "HL7 Europe",
+  "contact" : [{
+    "name" : "HL7 Europe",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://hl7europe.org"
+    }]
+  }],
+  "description" : "eHDSI Laboratory Report Types",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "11502-2",
+        "display" : "Laboratory report"
+      }]
+    }]
+  }
+}

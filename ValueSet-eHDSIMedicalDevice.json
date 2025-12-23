@@ -1,0 +1,4767 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "eHDSIMedicalDevice",
+  "url" : "http://terminology.ehdsi.eu/ValueSet/eHDSIMedicalDevice",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.42.8"
+  }],
+  "version" : "0.2.0",
+  "name" : "eHDSIMedicalDevice",
+  "title" : "eHDSI Medical Device",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-12-23T10:21:27+00:00",
+  "publisher" : "HL7 Europe",
+  "contact" : [{
+    "name" : "HL7 Europe",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://hl7europe.org"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.44.6",
+      "concept" : [{
+        "code" : "A100101",
+        "display" : "ONE PIECE COLOSTOMY BAGS"
+      },
+      {
+        "code" : "A10010101",
+        "display" : "ONE-PIECE COLOSTOMY BAGS FOR NON-RETRACTED STOMA, FLAT"
+      },
+      {
+        "code" : "A1001010101",
+        "display" : "ONE-PIECE COLOSTOMY BAGS FOR NON-RETRACTED STOMA, FLAT, W/O TISSUE COVER"
+      },
+      {
+        "code" : "A1001010102",
+        "display" : "ONE-PIECE COLOSTOMY BAGS FOR NON-RETRACTED STOMA, FLAT, WITH TISSUE COVER"
+      },
+      {
+        "code" : "A10010102",
+        "display" : "ONE-PIECE COLOSTOMY BAGS FOR RETRACTED STOMA, CONVEX"
+      },
+      {
+        "code" : "A1001010201",
+        "display" : "ONE-PIECE COLOSTOMY BAGS FOR RETRACTED STOMA, CONVEX, W/O TISSUE COVER"
+      },
+      {
+        "code" : "A1001010202",
+        "display" : "ONE-PIECE COLOSTOMY BAGS FOR RETRACTED STOMA, CONVEX, WITH TISSUE COVER"
+      },
+      {
+        "code" : "A100102",
+        "display" : "ONE PIECE ILEOSTOMY BAGS"
+      },
+      {
+        "code" : "A10010201",
+        "display" : "ONE-PIECE ILEOSTOMY BAGS FOR NON-RETRACTED STOMA, FLAT"
+      },
+      {
+        "code" : "A1001020101",
+        "display" : "ONE-PIECE ILEOSTOMY BAGS FOR NON-RETRACTED STOMA, FLAT, W/O TISSUE COVER"
+      },
+      {
+        "code" : "A1001020102",
+        "display" : "ONE-PIECE ILEOSTOMY BAGS FOR NON-RETRACTED STOMA, FLAT, WITH TISSUE COVER"
+      },
+      {
+        "code" : "A10010202",
+        "display" : "ONE-PIECE ILEOSTOMY BAGS FOR RETRACTED STOMA, CONVEX"
+      },
+      {
+        "code" : "A1001020201",
+        "display" : "ONE-PIECE ILEOSTOMY BAGS FOR RETRACTED STOMA, CONVEX, W/O TISSUE COVER"
+      },
+      {
+        "code" : "A1001020202",
+        "display" : "ONE-PIECE ILEOSTOMY BAGS FOR RETRACTED STOMA, CONVEX, WITH TISSUE COVER"
+      },
+      {
+        "code" : "A100103",
+        "display" : "ONE PIECE UROSTOMY BAGS"
+      },
+      {
+        "code" : "A10010301",
+        "display" : "ONE-PIECE UROSTOMY BAGS FOR NON-RETRACTED STOMA, FLAT"
+      },
+      {
+        "code" : "A1001030101",
+        "display" : "ONE-PIECE UROSTOMY BAGS FOR NON-RETRACTED STOMA, FLAT, W/O TISSUE COVER"
+      },
+      {
+        "code" : "A1001030102",
+        "display" : "ONE-PIECE UROSTOMY BAGS FOR NON-RETRACTED STOMA, FLAT, WITH TISSUE COVER"
+      },
+      {
+        "code" : "A10010302",
+        "display" : "ONE-PIECE UROSTOMY BAGS FOR RETRACTED STOMA, CONVEX"
+      },
+      {
+        "code" : "A1001030201",
+        "display" : "ONE-PIECE UROSTOMY BAGS FOR RETRACTED STOMA, CONVEX, W/O TISSUE COVER"
+      },
+      {
+        "code" : "A1001030202",
+        "display" : "ONE-PIECE UROSTOMY BAGS FOR RETRACTED STOMA, CONVEX, WITH TISSUE COVER"
+      },
+      {
+        "code" : "A100104",
+        "display" : "EXPANSION CAPS FOR ABDOMINAL OSTOMY SYSTEMS - ONE PIECE"
+      },
+      {
+        "code" : "A100199",
+        "display" : "DEVICES FOR ABDOMINAL OSTOMY - ONE PIECE - OTHER"
+      },
+      {
+        "code" : "A1002",
+        "display" : "ABDOMINAL OOSTOMY DEVICES, TWO PIECE"
+      },
+      {
+        "code" : "A100201",
+        "display" : "ABDOMINAL OSTOMY PLATES"
+      },
+      {
+        "code" : "A10020101",
+        "display" : "COLOSTOMY PLATES"
+      },
+      {
+        "code" : "A1002010101",
+        "display" : "COLOSTOMY PLATES, WITH NON-RETRACTED STOMA"
+      },
+      {
+        "code" : "A1002010102",
+        "display" : "COLOSTOMY PLATES, WITH RETRACTED STOMA"
+      },
+      {
+        "code" : "A10020102",
+        "display" : "ILEOSTOMY PLATES"
+      },
+      {
+        "code" : "A1002010201",
+        "display" : "ILEOSTOMY PLATES, WITH NON-RETRACTED STOMA"
+      },
+      {
+        "code" : "A1002010202",
+        "display" : "ILEOSTOMY PLATES, WITH RETRACTED STOMA"
+      },
+      {
+        "code" : "A10020103",
+        "display" : "UROSTOMY PLATES"
+      },
+      {
+        "code" : "A1002010301",
+        "display" : "UROSTOMY PLATES, WITH NON-RETRACTED STOMA"
+      },
+      {
+        "code" : "A1002010302",
+        "display" : "UROSTOMY PLATES WITH RETRACTED STOMA"
+      },
+      {
+        "code" : "A10020104",
+        "display" : "UNIVERSAL PLATES FOR ABDOMINAL STOMA (COLO-, ILEO-, UROSTOMY)"
+      },
+      {
+        "code" : "A1002010401",
+        "display" : "UNIVERSAL PLATES FOR ABDOMINAL STOMA (COLO-, ILEO-, UROSTOMY) WITH NON-INTROFLEX STOMA"
+      },
+      {
+        "code" : "A1002010402",
+        "display" : "UNIVERSAL PLATES FOR ABDOMINAL STOMA (COLO-, ILEO-, UROSTOMY) WITH INTROFLEX STOMA"
+      },
+      {
+        "code" : "A100202",
+        "display" : "COLOSTOMY BAGS FOR TWO-PART SYSTEMS"
+      },
+      {
+        "code" : "A10020201",
+        "display" : "OLOSTOMY BAGS FOR TWO-PART SYSTEMS, W/O TISSUE COVER"
+      },
+      {
+        "code" : "A10020202",
+        "display" : "COLOSTOMY BAGS FOR TWO-PART SYSTEMS, WITH TISSUE COVER"
+      },
+      {
+        "code" : "A100203",
+        "display" : "ILEOSTOMY BAGS FOR TWO-PART SYSTEMS"
+      },
+      {
+        "code" : "A10020301",
+        "display" : "ILEOSTOMY BAGS FOR TWO-PART SYSTEMS, W/O TISSUE COVER"
+      },
+      {
+        "code" : "A10020302",
+        "display" : "ILEOSTOMY BAGS FOR TWO-PART SYSTEMS, WITH TISSUE COVER"
+      },
+      {
+        "code" : "A100204",
+        "display" : "UROSTOMY BAGS FOR TWO-PART SYSTEMS"
+      },
+      {
+        "code" : "A10020401",
+        "display" : "UROSTOMY BAGS FOR TWO-PART SYSTEMS, W/O TISSUE COVER"
+      },
+      {
+        "code" : "A10020402",
+        "display" : "UROSTOMY BAGS FOR TWO-PART SYSTEMS, WITH TISSUE COVER"
+      },
+      {
+        "code" : "A100205",
+        "display" : "EXPANSION CAPS FOR TWO-PIECE ABDOMINAL OSTOMY SYSTEMS"
+      },
+      {
+        "code" : "A100299",
+        "display" : "TWO-PIECE ABDOMINAL OSTOMY DEVICES - OTHER"
+      },
+      {
+        "code" : "A108001",
+        "display" : "RINGS / BEZELS / PLATES FOR PERISTOMAL SKIN"
+      },
+      {
+        "code" : "A108002",
+        "display" : "PROTECTIVE CREAMS / GELS FOR PERISTOMAL SKIN"
+      },
+      {
+        "code" : "A108003",
+        "display" : "PROTECTIVE POWDERS FOR PERISTOMAL SKIN"
+      },
+      {
+        "code" : "A108004",
+        "display" : "PROTECTIVE FILMS / SPRAYS FOR PERISTOMAL SKIN"
+      },
+      {
+        "code" : "A108006",
+        "display" : "ABDOMINAL OSTOMY SUPPORT BELTS"
+      },
+      {
+        "code" : "A1099",
+        "display" : "ABDOMINAL OSTOMY DEVICES - OTHER"
+      },
+      {
+        "code" : "C010204",
+        "display" : "SUBCUTANEOUS IMPLANTABLE VENOUS ACCESS PORT SYSTEMS"
+      },
+      {
+        "code" : "C01020401",
+        "display" : "SUBCUTANEOUS IMPLANTABLE VENOUS ACCESS PORT SYSTEMS, SINGLE-CHAMBER"
+      },
+      {
+        "code" : "C01020402",
+        "display" : "SUBCUTANEOUS IMPLANTABLE VENOUS ACCESS PORT SYSTEMS, DUAL-CHAMBER OR DOUBLE-LUMEN"
+      },
+      {
+        "code" : "C01020499",
+        "display" : "SUBCUTANEOUS IMPLANTABLE VENOUS ACCESS PORT SYSTEMS - OTHER"
+      },
+      {
+        "code" : "C0104020208",
+        "display" : "TRANSJUGULAR INTRAHEPATIC PORTOSYSTEMIC SHUNT (TIPS) PERCUTANEOUS SYSTEMS"
+      },
+      {
+        "code" : "C019006",
+        "display" : "CAROTID ARTERY SHUNTS"
+      },
+      {
+        "code" : "C019016",
+        "display" : "PERITONEOVENOUS SHUNTS"
+      },
+      {
+        "code" : "C03900202",
+        "display" : "INTRACORONARY SHUNTS"
+      },
+      {
+        "code" : "G0205",
+        "display" : "DEVICES FOR THE SURGICAL OBESITY THERAPY"
+      },
+      {
+        "code" : "G020501",
+        "display" : "GASTRIC BANDS"
+      },
+      {
+        "code" : "G020502",
+        "display" : "GASTRIC CALIBRATION TUBES"
+      },
+      {
+        "code" : "G020503",
+        "display" : "GASTRIC BAND SYSTEM ADJUSTMENT SETS"
+      },
+      {
+        "code" : "G020599",
+        "display" : "DEVICES FOR THE SURGICAL THERAPY OF OBESITY - OTHER"
+      },
+      {
+        "code" : "G030601",
+        "display" : "INTRAGASTRIC BALLOON SYSTEMS"
+      },
+      {
+        "code" : "G030603",
+        "display" : "INTESTINAL COATING YSTEMS FOR ABSORPTION REDUCTION"
+      },
+      {
+        "code" : "G030699",
+        "display" : "DEVICES FOR THE NON-SURGICAL TREATMENT OF OBESITY - OTHER"
+      },
+      {
+        "code" : "G04",
+        "display" : "ORALLY ADMINISTERED GASTROINTESTINAL DEVICES"
+      },
+      {
+        "code" : "G0401",
+        "display" : "ORALLY ADMINISTERED DEVICES FOR THE THERAPY OF GASTRO-INTESTINAL DISORDERS"
+      },
+      {
+        "code" : "G0402",
+        "display" : "ORALLY ADMINISTERED DEVICES FOR APPETITE CONTROL AND REDUCTION OF INTESTINAL ABSORPTION"
+      },
+      {
+        "code" : "G0499",
+        "display" : "ORALLY ADMINISTERED GASTROINTESTINAL DEVICES - OTHER"
+      },
+      {
+        "code" : "J01",
+        "display" : "CARDIAC FUNCTIONALITY IMPLANTABLE DEVICES"
+      },
+      {
+        "code" : "J0101",
+        "display" : "IMPLANTABLE PACEMAKERS"
+      },
+      {
+        "code" : "J010101",
+        "display" : "IMPLANTABLE SINGLE CHAMBER PACEMAKERS"
+      },
+      {
+        "code" : "J01010101",
+        "display" : "IMPLANTABLE SINGLE CHAMBER PACEMAKERS (SC)"
+      },
+      {
+        "code" : "J01010102",
+        "display" : "IMPLANTABLE SINGLE CHAMBER PACEMAKERS WITH SENSOR (SR)"
+      },
+      {
+        "code" : "J010102",
+        "display" : "IMPLANTABLE SINGLE LEAD PACEMAKERS"
+      },
+      {
+        "code" : "J01010201",
+        "display" : "IMPLANTABLE SINGLE LEAD VDD PACEMAKERS"
+      },
+      {
+        "code" : "J01010202",
+        "display" : "IMPLANTABLE SINGLE LEAD VDDR PACEMAKERS WITH SENSOR"
+      },
+      {
+        "code" : "J010103",
+        "display" : "IMPLANTABLE DUAL CHAMBER PACEMAKERS"
+      },
+      {
+        "code" : "J01010301",
+        "display" : "IMPLANTABLE DUAL CHAMBER PACEMAKERS (DC)"
+      },
+      {
+        "code" : "J01010302",
+        "display" : "IMPLANTABLE DUAL CHAMBER PACEMAKERS WITH SENSOR (DR)"
+      },
+      {
+        "code" : "J010104",
+        "display" : "IMPLANTABLE TRIPLE CHAMBER PACEMAKERS"
+      },
+      {
+        "code" : "J01010401",
+        "display" : "IMPLANTABLE TRIPLE CHAMBER PACEMAKERS FOR CARDIAC RESYNCHRONIZATION (TR)"
+      },
+      {
+        "code" : "J010105",
+        "display" : "IMPLANTABLE PACEMAKERS WITH INCORPORATED ELECTRODES (LEADLESS)"
+      },
+      {
+        "code" : "J010180",
+        "display" : "IMPLANTABLE PACEMAKERS - ACCESSORIES"
+      },
+      {
+        "code" : "J010199",
+        "display" : "IMPLANTABLE PACEMAKERS - OTHER"
+      },
+      {
+        "code" : "J0102",
+        "display" : "IMPLANTABLE CARDIAC DIAGNOSTIC DEVICES"
+      },
+      {
+        "code" : "J010201",
+        "display" : "IMPLANTABLE DIAGNOSTIC ARRHYTHMIAS RECORDING CARDIAC DEVICES"
+      },
+      {
+        "code" : "J010280",
+        "display" : "CARDIAC DIAGNOSTIC DEVICES - ACCESSORIES"
+      },
+      {
+        "code" : "J010299",
+        "display" : "CARDIAC DIAGNOSTIC DEVICES - OTHER"
+      },
+      {
+        "code" : "J0103",
+        "display" : "IMPLANTABLE VENTRICULAR ASSISTANCE SYSTEMS"
+      },
+      {
+        "code" : "J010301",
+        "display" : "IMPLANTABLE MONOVENTRICULAR AND BIVENTRICULAR ASSISTANCE SYSTEMS"
+      },
+      {
+        "code" : "J01030101",
+        "display" : "IMPLANTABLE RIGHT MONOVENTRICULAR ASSISTANCE SYSTEMS (RVAD)"
+      },
+      {
+        "code" : "J01030102",
+        "display" : "IMPLANTABLE LEFT MONOVENTRICULAR ASSISTANCE SYSTEMS (LVAD)"
+      },
+      {
+        "code" : "J01030103",
+        "display" : "IMPLANTABLE BIVENTRICULAR ASSISTANCE SYSTEMS (BIVAD)"
+      },
+      {
+        "code" : "J010380",
+        "display" : "IMPLANTABLE VENTRICULAR ASSISTANCE SYSTEMS - ACCESSORIES"
+      },
+      {
+        "code" : "J010399",
+        "display" : "IMPLANTABLE VENTRICULAR ASSISTANCE SYSTEMS - OTHER"
+      },
+      {
+        "code" : "J0104",
+        "display" : "IMPLANTABLE ARTIFICIAL HEART AND IMPLANT KITS"
+      },
+      {
+        "code" : "J010401",
+        "display" : "IMPLANTABLE ARTIFICIAL HEART AND IMPLANT KITS"
+      },
+      {
+        "code" : "J010480",
+        "display" : "IMPLANTABLE ARTIFICIAL HEART AND IMPLANT KITS - ACCESSORIES"
+      },
+      {
+        "code" : "J010499",
+        "display" : "IMPLANTABLE ARTIFICIAL HEART AND IMPLANT KITS - OTHER"
+      },
+      {
+        "code" : "J0105",
+        "display" : "IMPLANTABLE DEFIBRILLATORS"
+      },
+      {
+        "code" : "J010501",
+        "display" : "IMPLANTABLE SINGLE CHAMBER DEFIBRILLATORS"
+      },
+      {
+        "code" : "J01050101",
+        "display" : "IMPLANTABLE SINGLE CHAMBER DEFIBRILLATORS, WITH SENSORS"
+      },
+      {
+        "code" : "J010502",
+        "display" : "IMPLANTABLE DUAL CHAMBER DEFIBRILLATORS"
+      },
+      {
+        "code" : "J01050201",
+        "display" : "IMPLANTABLE DUAL CHAMBER DEFIBRILLATORS, WITH SENSORS"
+      },
+      {
+        "code" : "J010503",
+        "display" : "IMPLANTABLE TRIPLE CHAMBER DEFIBRILLATORS"
+      },
+      {
+        "code" : "J01050301",
+        "display" : "IMPLANTABLE TRIPLE CHAMBER DEFIBRILLATORS, WITH SENSORS"
+      },
+      {
+        "code" : "J010504",
+        "display" : "SUBCUTANEOUS IMPLANTABLE DEFIBRILLATORS"
+      },
+      {
+        "code" : "J010580",
+        "display" : "IMPLANTABLE DEFIBRILLATORS - ACCESSORIES"
+      },
+      {
+        "code" : "J010599",
+        "display" : "IMPLANTABLE DEFIBRILLATORS - OTHER"
+      },
+      {
+        "code" : "J0106",
+        "display" : "CARDIAC CONTRACTILITY MODULATION IMPLANTABLE DEVICES"
+      },
+      {
+        "code" : "J0107",
+        "display" : "ACTIVE IMPLANTABLE CARDIAC DEVICES REMOTE MONITORING SYSTEMS"
+      },
+      {
+        "code" : "J010701",
+        "display" : "PULMONARY BLOOD PRESSURE REMOTE MONITORING SYSTEMS (INCLUDING SENSORS)"
+      },
+      {
+        "code" : "J010702",
+        "display" : "PACEMAKER AND IMPLANTABLE DEFIBRILLATOR REMOTE MONITORING SYSTEMS"
+      },
+      {
+        "code" : "J010780",
+        "display" : "ACTIVE IMPLANTABLE CARDIAC DEVICES REMOTE MONITORING SYSTEMS - HARDWARE ACCESSORIES"
+      },
+      {
+        "code" : "J010782",
+        "display" : "ACTIVE IMPLANTABLE CARDIAC DEVICES REMOTE MONITORING SYSTEMS - SOFTWARE ACCESSORIES"
+      },
+      {
+        "code" : "J010799",
+        "display" : "ACTIVE IMPLANTABLE CARDIAC DEVICES REMOTE MONITORING SYSTEMS - OTHER"
+      },
+      {
+        "code" : "J0190",
+        "display" : "IMPLANTABLE CARDIAC DEVICES - VARIOUS"
+      },
+      {
+        "code" : "J019001",
+        "display" : "PERMANENT CARDIAC LEADS"
+      },
+      {
+        "code" : "J01900101",
+        "display" : "PERMANENT PACEMAKER LEADS (WITH OR W/O STEROID-ELUTION)"
+      },
+      {
+        "code" : "J0190010101",
+        "display" : "ENDOCARDIAL ATRIAL AND VENTRICULAR LEADS, UNIPOLAR"
+      },
+      {
+        "code" : "J019001010101",
+        "display" : "ATRIAL LEADS, PASSIVE FIXATION"
+      },
+      {
+        "code" : "J019001010102",
+        "display" : "VENTRICULAR LEADS, PASSIVE FIXATION"
+      },
+      {
+        "code" : "J0190010102",
+        "display" : "ENDOCARDIAL ATRIAL AND VENTRICULAR LEADS, BIPOLAR (WITH ACTIVE OR PASSIVE FIXATION)"
+      },
+      {
+        "code" : "J0190010103",
+        "display" : "LEFT VENTRICULAR LEADS WITH CORONARY SINUS CANNULATION SYSTEM (TRIPLE CHAMBER P.M.)"
+      },
+      {
+        "code" : "J0190010104",
+        "display" : "ENDOCARDIAL PACEMAKER LEADS, SINGLE-LEAD"
+      },
+      {
+        "code" : "J0190010105",
+        "display" : "EPICARDIAL PERMANENT CARDIAC LEADS"
+      },
+      {
+        "code" : "J01900102",
+        "display" : "PERMANENT DEFIBRILLATOR LEADS (STEROID RELEASE INCLUDED)"
+      },
+      {
+        "code" : "J0190010201",
+        "display" : "PERMANENT PACING AND DEFIBRILLATION RIGHT VENTRICULAR LEADS (WITH ACTIVE AND PASSIVE FIXATION)"
+      },
+      {
+        "code" : "J019001020101",
+        "display" : "PERMANENT CARDIAC DEFIBRILLATOR LEADS, SINGLE COIL"
+      },
+      {
+        "code" : "J019001020102",
+        "display" : "PERMANENT CARDIAC DEFIBRILLATOR LEADS, DOUBLE COIL"
+      },
+      {
+        "code" : "J019001020199",
+        "display" : "PERMANENT PACING AND DEFIBRILLATION RIGHT VENTRICULAR LEADS - OTHER"
+      },
+      {
+        "code" : "J0190010202",
+        "display" : "PERMANENT SUBCUTANEOUS DEFIBRILLATOR LEADS"
+      },
+      {
+        "code" : "J01900180",
+        "display" : "PERMANENT CARDIAC LEADS - ACCESSORIES"
+      },
+      {
+        "code" : "J01900199",
+        "display" : "PERMANENT CARDIAC LEADS - OTHER"
+      },
+      {
+        "code" : "J019002",
+        "display" : "IMPLANTABLE CARDIAC DEVICES PROGRAMMERS AND ACCESSORIES"
+      },
+      {
+        "code" : "J01900203",
+        "display" : "IMPLANTABLE CARDIAC DEVICES PROGRAMMERS"
+      },
+      {
+        "code" : "J01900280",
+        "display" : "IMPLANTABLE CARDIAC DEVICES PROGRAMMERS - HARDWARE ACCESSORY"
+      },
+      {
+        "code" : "J01900282",
+        "display" : "IMPLANTABLE CARDIAC DEVICES PROGRAMMERS - SOFTWARE ACCESSORY"
+      },
+      {
+        "code" : "J01900285",
+        "display" : "IMPLANTABLE CARDIAC DEVICES PROGRAMMERS - CONSUMABLES"
+      },
+      {
+        "code" : "J019003",
+        "display" : "ACTIVE-IMPLANTABLE CARDIAC SYSTEMS MAGNETISED DEVICES"
+      },
+      {
+        "code" : "J019004",
+        "display" : "ACTIVE-IMPLANTABLE CARDIAC SYSTEMS ADAPTORS"
+      },
+      {
+        "code" : "J019005",
+        "display" : "CARDIAC LEADS EXTRACTION SYSTEMS"
+      },
+      {
+        "code" : "J019099",
+        "display" : "IMPLANTABLE CARDIAC DEVICES - OTHER"
+      },
+      {
+        "code" : "J02",
+        "display" : "IMPLANTABLE NEUROSTIMULATORS"
+      },
+      {
+        "code" : "J0201",
+        "display" : "CEREBRAL IMPLANTABLE NEUROSTIMULATORS"
+      },
+      {
+        "code" : "J020101",
+        "display" : "DEEP BRAIN STIMULATION (DBS) IMPLANTABLE NEUROSTIMULATORS"
+      },
+      {
+        "code" : "J02010101",
+        "display" : "DEEP BRAIN STIMULATION (DBS) IMPLANTABLE NEUROSTIMULATORS, RECHARGEABLE"
+      },
+      {
+        "code" : "J02010102",
+        "display" : "DEEP BRAIN STIMULATION (DBS) IMPLANTABLE NEUROSTIMULATORS, NOT RECHARGEABLE"
+      },
+      {
+        "code" : "J020102",
+        "display" : "DEEP BRAIN STIMULATION (DBS) LEADS"
+      },
+      {
+        "code" : "J020180",
+        "display" : "CEREBRAL IMPLANTABLE NEUROSTIMULATORS - ACCESSORIES"
+      },
+      {
+        "code" : "J020199",
+        "display" : "CEREBRAL IMPLANTABLE NEUROSTIMULATORS - OTHER"
+      },
+      {
+        "code" : "J0202",
+        "display" : "SPINAL IMPLANTABLE NEUROSTIMULATORS"
+      },
+      {
+        "code" : "J020201",
+        "display" : "RADIOFREQUENCY IMPLANTABLE SPINAL NEUROSTIMULATORS"
+      },
+      {
+        "code" : "J020202",
+        "display" : "FULLY IMPLANTABLE SPINAL NEUROSTIMULATORS"
+      },
+      {
+        "code" : "J02020201",
+        "display" : "FULLY IMPLANTABLE SPINAL NEUROSTIMULATORS, RECHARGEABLE"
+      },
+      {
+        "code" : "J02020202",
+        "display" : "FULLY IMPLANTABLE SPINAL NEUROSTIMULATORSS, NOT RECHARGEABLE"
+      },
+      {
+        "code" : "J020203",
+        "display" : "SPINAL NEUROSTIMULATION LEADS"
+      },
+      {
+        "code" : "J020280",
+        "display" : "SPINAL IMPLANTABLE NEUROSTIMULATORS - ACCESSORIES"
+      },
+      {
+        "code" : "J020299",
+        "display" : "SPINAL IMPLANTABLE NEUROSTIMULATORS - OTHER"
+      },
+      {
+        "code" : "J0203",
+        "display" : "VAGAL IMPLANTABLE NEUROSTIMULATORS"
+      },
+      {
+        "code" : "J020301",
+        "display" : "DRUG-RESISTANT EPILEPSY NON-SURGICAL THERAPY IMPLANTABLE NEUROSTIMULATORS"
+      },
+      {
+        "code" : "J020302",
+        "display" : "VAGAL NEUROSTIMULATION LEADS"
+      },
+      {
+        "code" : "J020380",
+        "display" : "VAGAL IMPLANTABLE NEUROSTIMULATORS - ACCESSORIES"
+      },
+      {
+        "code" : "J020399",
+        "display" : "VAGAL IMPLANTABLE NEUROSTIMULATORS - OTHER"
+      },
+      {
+        "code" : "J0204",
+        "display" : "SACRAL SPINE IMPLANTABLE NEUROSTIMULATORS"
+      },
+      {
+        "code" : "J020401",
+        "display" : "BLADDER INCONTINENCE NEUROSTIMULATORS"
+      },
+      {
+        "code" : "J020402",
+        "display" : "INTESTINAL INCONTINENCE NEUROSTIMULATORS"
+      },
+      {
+        "code" : "J020403",
+        "display" : "SACRAL SPINE NEUROSTIMULATION LEADS"
+      },
+      {
+        "code" : "J020480",
+        "display" : "SACRAL SPINE IMPLANTABLE NEUROSTIMULATORS - ACCESSORIES"
+      },
+      {
+        "code" : "J020499",
+        "display" : "SACRAL SPINE IMPLANTABLE NEUROSTIMULATORS - OTHER"
+      },
+      {
+        "code" : "J0206",
+        "display" : "FRENIC NERVE IMPLANTABLE NEUROSTIMULATORS"
+      },
+      {
+        "code" : "J0207",
+        "display" : "NEUROSTIMULATORS PROGRAMMERS AND ACCESSORIES"
+      },
+      {
+        "code" : "J020701",
+        "display" : "NEUROSTIMULATORS PROGRAMMERS"
+      },
+      {
+        "code" : "J020780",
+        "display" : "NEUROSTIMULATORS PROGRAMMERS - HARDWARE ACCESSORIES"
+      },
+      {
+        "code" : "J020782",
+        "display" : "NEUROSTIMULATORS PROGRAMMERS - SOFTWARE ACCESSORIES"
+      },
+      {
+        "code" : "J020785",
+        "display" : "NEUROSTIMULATORS PROGRAMMERS - CONSUMABLES"
+      },
+      {
+        "code" : "J0208",
+        "display" : "GASTRIC IMPLANTABLE NEUROSTIMULATORS"
+      },
+      {
+        "code" : "J020801",
+        "display" : "INFERIOR ESOPHAGEAL SPHINCTER IMPLANTABLE NEUROSTIMULATORS"
+      },
+      {
+        "code" : "J020802",
+        "display" : "GASTRIC IMPLANTABLE OBESITY TREATMENT NEUROSTIMULATORS"
+      },
+      {
+        "code" : "J020803",
+        "display" : "GASTRIC IMPLANTABLE NAUSEA THERAPY NEUROSTIMULATORS"
+      },
+      {
+        "code" : "J020804",
+        "display" : "GASTRIC NEUROSTIMULATION LEADS"
+      },
+      {
+        "code" : "J0209",
+        "display" : "CAROTID SINUS IMPLANTABLE NEUROSTIMULATORS AND LEADS"
+      },
+      {
+        "code" : "J0210",
+        "display" : "PERIPHERAL NERVE IMPLANTABLE NEUROSTIMULATORS AND PAIN THERAPY LEADS"
+      },
+      {
+        "code" : "J0211",
+        "display" : "SLEEP APNEA TREATMENT IMPLANTABLE NEUROSTIMULATORS AND LEADS"
+      },
+      {
+        "code" : "J0280",
+        "display" : "IMPLANTABLE NEUROSTIMULATORS - ACCESSORIES"
+      },
+      {
+        "code" : "J0299",
+        "display" : "IMPLANTABLE NEUROSTIMULATORS - OTHER"
+      },
+      {
+        "code" : "J03",
+        "display" : "AUDITORY ACTIVE-IMPLANTABLE DEVICES"
+      },
+      {
+        "code" : "J0301",
+        "display" : "COCHLEAR IMPLANTABLE DEVICES"
+      },
+      {
+        "code" : "J0302",
+        "display" : "MIDDLE EAR ACTIVE-IMPLANTABLE DEVICES"
+      },
+      {
+        "code" : "J0303",
+        "display" : "PROFOUND DEAFNESS BRAINSTEM ACTIVE-IMPLANTABLE DEVICES"
+      },
+      {
+        "code" : "J0380",
+        "display" : "AUDITORY ACTIVE-IMPLANTABLE DEVICES - ACCESSORIES"
+      },
+      {
+        "code" : "J0399",
+        "display" : "AUDITORY ACTIVE-IMPLANTABLE DEVICES - OTHER"
+      },
+      {
+        "code" : "J04",
+        "display" : "IMPLANTABLE PUMPS"
+      },
+      {
+        "code" : "J0401",
+        "display" : "IMPLANTABLE PUMPS, ELECTRONIC"
+      },
+      {
+        "code" : "J0402",
+        "display" : "IMPLANTABLE PUMPS, MECHANICAL"
+      },
+      {
+        "code" : "J0403",
+        "display" : "IMPLANTABLE PUMPS PROGRAMMERS AND ACCESSORIES"
+      },
+      {
+        "code" : "J040301",
+        "display" : "IMPLANTABLE PUMPS PROGRAMMERS"
+      },
+      {
+        "code" : "J040380",
+        "display" : "IMPLANTABLE PUMPS PROGRAMMERS - HARDWARE ACCESSORIES"
+      },
+      {
+        "code" : "J040382",
+        "display" : "IMPLANTABLE PUMPS PROGRAMMERS - SOFTWARE ACCESSORIES"
+      },
+      {
+        "code" : "J040385",
+        "display" : "IMPLANTABLE PUMPS PROGRAMMERS - CONSUMABLES"
+      },
+      {
+        "code" : "J0480",
+        "display" : "IMPLANTABLE PUMPS - ACCESSORIES"
+      },
+      {
+        "code" : "J0499",
+        "display" : "IMPLANTABLE PUMPS - OTHER"
+      },
+      {
+        "code" : "J05",
+        "display" : "BRACHYTHERAPY IMPLANTABLE DEVICES"
+      },
+      {
+        "code" : "J0501",
+        "display" : "BRACHYTHERAPY SOURCES"
+      },
+      {
+        "code" : "J0502",
+        "display" : "BRACHYTHERAPY ADMINISTRATION KITS"
+      },
+      {
+        "code" : "J0580",
+        "display" : "IMPLANTABLE BRACHYTHERAPY DEVICES - ACCESSORIES"
+      },
+      {
+        "code" : "J06",
+        "display" : "ACTIVE IMPLANTABLE GLUCOSE MONITORING SYSTEMS"
+      },
+      {
+        "code" : "J0601",
+        "display" : "IMPLANTABLE GLUCOSE MONITORING SENSORS"
+      },
+      {
+        "code" : "J0602",
+        "display" : "ACTIVE IMPLANTABLE GLUCOSE MONITORING SYSTEM TRANSMITTERS"
+      },
+      {
+        "code" : "J0680",
+        "display" : "ACTIVE IMPLANTABLE GLUCOSE MONITORING SYSTEMS - ACCESSORIES"
+      },
+      {
+        "code" : "J07",
+        "display" : "OPHTHALMOLOGICAL USE ACTIVE IMPLANTABLE DEVICES"
+      },
+      {
+        "code" : "J0701",
+        "display" : "ACTIVE RETINAL IMPLANTABLE DEVICES"
+      },
+      {
+        "code" : "J0702",
+        "display" : "INTRAOCULAR PRESSURE MONITORING IMPLANTABLE DEVICES"
+      },
+      {
+        "code" : "J0780",
+        "display" : "OPHTHALMOLOGICAL USE ACTIVE IMPLANTABLE DEVICES - ACCESSORIES"
+      },
+      {
+        "code" : "J0799",
+        "display" : "OPHTHALMOLOGICAL USE ACTIVE IMPLANTABLE DEVICES - OTHER"
+      },
+      {
+        "code" : "J99",
+        "display" : "ACTIVE-IMPLANTABLE DEVICES - OTHER"
+      },
+      {
+        "code" : "N0101",
+        "display" : "NEUROPHYSIOLOGY DEVICES"
+      },
+      {
+        "code" : "N010101",
+        "display" : "ELECTROMYOGRAPHIC ELECTRODES"
+      },
+      {
+        "code" : "N010102",
+        "display" : "ELECTROENCEPHALOGRAPHIC ELECTRODES"
+      },
+      {
+        "code" : "N01010201",
+        "display" : "EEG INTRACRANIC ELECTRODES"
+      },
+      {
+        "code" : "N0101020101",
+        "display" : "EEG CORTICAL ELECTRODES"
+      },
+      {
+        "code" : "N0101020102",
+        "display" : "EEG DEPTH ELECTRODES"
+      },
+      {
+        "code" : "N0101020199",
+        "display" : "EEG INTRACRANIC ELECTRODES - OTHER"
+      },
+      {
+        "code" : "N01010202",
+        "display" : "EEG EXTRACRANIC ELECTRODES"
+      },
+      {
+        "code" : "N01010203",
+        "display" : "EEG HEADSETS"
+      },
+      {
+        "code" : "N01010299",
+        "display" : "EEG ELECTRODES - OTHER"
+      },
+      {
+        "code" : "N010103",
+        "display" : "BIPOLAR NERVOUS ELECTROSTIMULATORS, BATTERY-POWERED"
+      },
+      {
+        "code" : "N010180",
+        "display" : "NEUROPHYSIOLOGY DEVICES - ACCESSORIES"
+      },
+      {
+        "code" : "N010199",
+        "display" : "NEUROPHYSIOLOGY DEVICES - OTHER"
+      },
+      {
+        "code" : "N0102",
+        "display" : "NEUROLOGIC PHYSIOTHERAPHY DEVICES"
+      },
+      {
+        "code" : "N010201",
+        "display" : "TENS SYSTEM ELECTRODES"
+      },
+      {
+        "code" : "N010202",
+        "display" : "STIMULATION POINT LOCATORS"
+      },
+      {
+        "code" : "N010280",
+        "display" : "NEUROLOGICAL PHYSIOTHERAPY DEVICES - ACCESSORIES"
+      },
+      {
+        "code" : "N01028001",
+        "display" : "SPONGES FOR THE APPLICATION OF CUTANEOUS NEUROLOGICAL ELECTRODES"
+      },
+      {
+        "code" : "N01028002",
+        "display" : "NEUROLOGICAL PHYSIOTHERAPY CONNECTORS"
+      },
+      {
+        "code" : "N01028003",
+        "display" : "NEUROLOGICAL ELECTRODES BANDS"
+      },
+      {
+        "code" : "N01028099",
+        "display" : "NEUROLOGICAL PHYSIOTHERAPY DEVICES - ACCESSORIES - OTHER"
+      },
+      {
+        "code" : "N010299",
+        "display" : "NEUROLOGIC PHYSIOTHERAPHY DEVICES - OTHER"
+      },
+      {
+        "code" : "N010301",
+        "display" : "VENTRICULAR-PERITONEAL SHUNTS"
+      },
+      {
+        "code" : "N010302",
+        "display" : "VENTRICULAR-ATRIAL SHUNTS"
+      },
+      {
+        "code" : "N020301",
+        "display" : "LUMBO-PERITONEAL SHUNTS"
+      },
+      {
+        "code" : "P01",
+        "display" : "FACIAL AND ODONTOLOGICAL PROSTHESES"
+      },
+      {
+        "code" : "P0101",
+        "display" : "FACIAL PROSTHESES"
+      },
+      {
+        "code" : "P010101",
+        "display" : "CHIN PROSTHESES"
+      },
+      {
+        "code" : "P010102",
+        "display" : "ZYGOMATIC PROSTHESES"
+      },
+      {
+        "code" : "P010103",
+        "display" : "MANDIBULAR PROSTHESES"
+      },
+      {
+        "code" : "P010199",
+        "display" : "FACIAL PROSTHESES - OTHER"
+      },
+      {
+        "code" : "P0102",
+        "display" : "ODONTOLOGICAL PROSTHESES"
+      },
+      {
+        "code" : "P010201",
+        "display" : "DENTAL IMPLANTS AND ACCESSORIES"
+      },
+      {
+        "code" : "P01020101",
+        "display" : "DENTAL IMPLANTS"
+      },
+      {
+        "code" : "P01020180",
+        "display" : "DENTAL IMPLANTS - ACCESSORIES"
+      },
+      {
+        "code" : "P010299",
+        "display" : "ODONTOLOGICAL PROSTHESES - OTHER"
+      },
+      {
+        "code" : "P0180",
+        "display" : "FACIAL AND ODONTOLOGICAL PROSTHESES - ACCESSORIES"
+      },
+      {
+        "code" : "P0199",
+        "display" : "FACIAL AND ODONTOLOGICAL PROSTHESES - OTHER"
+      },
+      {
+        "code" : "P02",
+        "display" : "ENT PROSTHESES"
+      },
+      {
+        "code" : "P0201",
+        "display" : "OTOLOGIC PROSTHESES"
+      },
+      {
+        "code" : "P020101",
+        "display" : "MIDDLE EAR IMPLANTS"
+      },
+      {
+        "code" : "P02010101",
+        "display" : "OSSICULAR PROSTHESES (PORP AND TORP)"
+      },
+      {
+        "code" : "P02010102",
+        "display" : "STAPEDIOPLASTIC PROSTHESES"
+      },
+      {
+        "code" : "P02010103",
+        "display" : "EUSTACHIAN TUBE PROSTHESIS"
+      },
+      {
+        "code" : "P02010199",
+        "display" : "MIDDLE EAR IMPLANTS - OTHER"
+      },
+      {
+        "code" : "P020102",
+        "display" : "EXTERNAL-MIDDLE EAR IMPLANTS"
+      },
+      {
+        "code" : "P02010201",
+        "display" : "TRANSTYMPANIC DRAINAGE PROSTHESES (VENTILATION TUBES)"
+      },
+      {
+        "code" : "P02010202",
+        "display" : "TYMPANIC PROSTHESES"
+      },
+      {
+        "code" : "P02010299",
+        "display" : "EXTERNAL-MIDDLE EAR IMPLANTS- OTHER"
+      },
+      {
+        "code" : "P020103",
+        "display" : "EXTERNAL EAR PROSTHESES"
+      },
+      {
+        "code" : "P020180",
+        "display" : "OTOLOGIC PROSTHESES - ACCESSORIES"
+      },
+      {
+        "code" : "P020199",
+        "display" : "OTOLOGIC PROSTHESES - OTHER"
+      },
+      {
+        "code" : "P0202",
+        "display" : "RHINOLOGY PROSTHESES"
+      },
+      {
+        "code" : "P020201",
+        "display" : "NASAL SEPTAL PLUGGERS"
+      },
+      {
+        "code" : "P020202",
+        "display" : "NASAL SINUS STENTS"
+      },
+      {
+        "code" : "P020203",
+        "display" : "NASAL SPLINTS"
+      },
+      {
+        "code" : "P020299",
+        "display" : "RHINOLOGY PROSTHESES - OTHER"
+      },
+      {
+        "code" : "P0203",
+        "display" : "PHARYNGO-OESOPHAGEAL PROSTHESES"
+      },
+      {
+        "code" : "P020301",
+        "display" : "PHARYNX PROSTHESES"
+      },
+      {
+        "code" : "P020399",
+        "display" : "PHARYNGO-OOESOPHAGEAL PROSTHESES - OTHER"
+      },
+      {
+        "code" : "P0204",
+        "display" : "LARYNX PROSTHESES"
+      },
+      {
+        "code" : "P0205",
+        "display" : "PHONATION PROSTHESES"
+      },
+      {
+        "code" : "P0280",
+        "display" : "ENT PROSTHESES- ACCESSORIES"
+      },
+      {
+        "code" : "P0299",
+        "display" : "ENT PROSTHESES - OTHER"
+      },
+      {
+        "code" : "P03",
+        "display" : "OCULAR PROSTHESES"
+      },
+      {
+        "code" : "P0301",
+        "display" : "INTRAOCULAR LENSES (IOL)"
+      },
+      {
+        "code" : "P030101",
+        "display" : "IOLs, PHAKIC"
+      },
+      {
+        "code" : "P03010103",
+        "display" : "IOLs, PHAKIC, MONOFOCAL"
+      },
+      {
+        "code" : "P0301010301",
+        "display" : "IOLs, PHAKIC, MONOFOCAL, SPHERICAL"
+      },
+      {
+        "code" : "P030101030101",
+        "display" : "IOLs, PHAKIC, MONOFOCAL, SPHERICAL, HYDROPHOBIC ACRYLIC"
+      },
+      {
+        "code" : "P030101030102",
+        "display" : "IOLs, PHAKIC, MONOFOCAL, SPHERICAL, HYDROPHILIC ACRYLIC"
+      },
+      {
+        "code" : "P030101030103",
+        "display" : "IOLs, PHAKIC, MONOFOCAL, SPHERICAL, SILICONE"
+      },
+      {
+        "code" : "P030101030104",
+        "display" : "IOLs, PHAKIC, MONOFOCAL, SPHERICAL, PMMA"
+      },
+      {
+        "code" : "P030101030199",
+        "display" : "IOLs, PHAKIC, MONOFOCAL, SPHERICAL - OTHER"
+      },
+      {
+        "code" : "P0301010302",
+        "display" : "IOLs, PHAKIC, MONOFOCAL, ASPHERIC"
+      },
+      {
+        "code" : "P030101030201",
+        "display" : "IOLs, PHAKIC, MONOFOCAL, ASPHERIC, HYDROPHOBIC ACRYLIC"
+      },
+      {
+        "code" : "P030101030202",
+        "display" : "IOLs, PHAKIC, MONOFOCAL, ASPHERIC, HYDROPHILIC ACRYLIC"
+      },
+      {
+        "code" : "P030101030203",
+        "display" : "IOLs, PHAKIC, MONOFOCAL, ASPHERIC, SILICONE"
+      },
+      {
+        "code" : "P030101030299",
+        "display" : "IOLs, PHAKIC, MONOFOCAL, ASPHERIC - OTHER"
+      },
+      {
+        "code" : "P0301010303",
+        "display" : "IOLs, PHAKIC, MONOFOCAL, TORIC"
+      },
+      {
+        "code" : "P030101030301",
+        "display" : "IOLs, PHAKIC, MONOFOCAL, TORIC, HYDROPHOBIC ACRYLIC"
+      },
+      {
+        "code" : "P030101030302",
+        "display" : "IOLs, PHAKIC, MONOFOCAL, TORIC, HYDROPHILIC ACRYLIC"
+      },
+      {
+        "code" : "P030101030303",
+        "display" : "IOLs, PHAKIC, MONOFOCAL, TORIC, SILICONE"
+      },
+      {
+        "code" : "P030101030399",
+        "display" : "IOLs, PHAKIC, MONOFOCAL, TORIC - OTHER"
+      },
+      {
+        "code" : "P03010104",
+        "display" : "IOLs, PHAKIC, MULTIFOCAL"
+      },
+      {
+        "code" : "P0301010401",
+        "display" : "IOLs, PHAKIC, MULTIFOCAL, SPHERICAL"
+      },
+      {
+        "code" : "P030101040101",
+        "display" : "IOLs, PHAKIC, MULTIFOCAL, SPHERICAL, HYDROPHOBIC ACRYLIC"
+      },
+      {
+        "code" : "P030101040102",
+        "display" : "IOLs, PHAKIC, MULTIFOCAL, SPHERICAL, HYDROPHILIC ACRYLIC"
+      },
+      {
+        "code" : "P030101040103",
+        "display" : "IOLs, PHAKIC, MULTIFOCAL, SPHERICAL, SILICONE"
+      },
+      {
+        "code" : "P030101040199",
+        "display" : "IOLs, PHAKIC, MULTIFOCAL, SPHERICAL - OTHER"
+      },
+      {
+        "code" : "P0301010402",
+        "display" : "IOLs, PHAKIC, MULTIFOCAL, ASPHERIC"
+      },
+      {
+        "code" : "P030101040201",
+        "display" : "IOLs, PHAKIC, MULTIFOCAL, ASPHERIC, HYDROPHOBIC ACRYLIC"
+      },
+      {
+        "code" : "P030101040202",
+        "display" : "IOLs, PHAKIC, MULTIFOCAL, ASPHERIC, HYDROPHILIC ACRYLIC"
+      },
+      {
+        "code" : "P030101040203",
+        "display" : "IOLs, PHAKIC, MULTIFOCAL, ASPHERIC, SILICONE"
+      },
+      {
+        "code" : "P030101040299",
+        "display" : "IOLs, PHAKIC, MULTIFOCAL, ASPHERIC - OTHER"
+      },
+      {
+        "code" : "P0301010403",
+        "display" : "IOLs, PHAKIC, MULTIFOCAL, TORIC"
+      },
+      {
+        "code" : "P030101040301",
+        "display" : "IOLs, PHAKIC, MULTIFOCAL, TORIC, HYDROPHOBIC ACRYLIC"
+      },
+      {
+        "code" : "P030101040302",
+        "display" : "IOLs, PHAKIC, MULTIFOCAL, TORIC, HYDROPHILIC ACRYLIC"
+      },
+      {
+        "code" : "P030101040303",
+        "display" : "IOLs, PHAKIC, MULTIFOCAL, TORIC, SILICONE"
+      },
+      {
+        "code" : "P030101040399",
+        "display" : "IOLs, PHAKIC, MULTIFOCAL, TORIC - OTHER"
+      },
+      {
+        "code" : "P030102",
+        "display" : "IOLs, APHAKIC"
+      },
+      {
+        "code" : "P03010209",
+        "display" : "IOLs, APHAKIC, MONOFOCAL"
+      },
+      {
+        "code" : "P0301020901",
+        "display" : "IOLs, APHAKIC, MONOFOCAL, SPHERICAL"
+      },
+      {
+        "code" : "P030102090101",
+        "display" : "IOLs, APHAKIC, MONOFOCAL, SPHERICAL, HYDROPHOBIC ACRYLIC"
+      },
+      {
+        "code" : "P030102090102",
+        "display" : "IOLs, APHAKIC, MONOFOCAL, SPHERICAL, HYDROPHILIC ACRYLIC"
+      },
+      {
+        "code" : "P030102090103",
+        "display" : "IOLs, APHAKIC, MONOFOCAL, SPHERICAL, SILICONE"
+      },
+      {
+        "code" : "P030102090104",
+        "display" : "IOLs, APHAKIC, MONOFOCAL, SPHERICAL, PMMA"
+      },
+      {
+        "code" : "P030102090199",
+        "display" : "IOLs, APHAKIC, MONOFOCAL, SPHERICAL - OTHER"
+      },
+      {
+        "code" : "P0301020902",
+        "display" : "IOLs, APHAKIC, MONOFOCAL, ASPHERIC"
+      },
+      {
+        "code" : "P030102090201",
+        "display" : "IOLs, APHAKIC, MONOFOCAL, ASPHERIC, HYDROPHOBIC ACRYLIC"
+      },
+      {
+        "code" : "P030102090202",
+        "display" : "IOLs, APHAKIC, MONOFOCAL, ASPHERIC, HYDROPHILIC ACRYLIC"
+      },
+      {
+        "code" : "P030102090203",
+        "display" : "IOLs, APHAKIC, MONOFOCAL, ASPHERIC, SILICONE"
+      },
+      {
+        "code" : "P030102090299",
+        "display" : "IOLs, APHAKIC, MONOFOCAL, ASPHERIC - OTHER"
+      },
+      {
+        "code" : "P0301020903",
+        "display" : "IOLs, APHAKIC, MONOFOCAL, TORIC"
+      },
+      {
+        "code" : "P030102090301",
+        "display" : "IOLs, APHAKIC, MONOFOCAL, TORIC, HYDROPHOBIC ACRYLIC"
+      },
+      {
+        "code" : "P030102090302",
+        "display" : "IOLs, APHAKIC, MONOFOCAL, TORIC, HYDROPHILIC ACRYLIC"
+      },
+      {
+        "code" : "P030102090303",
+        "display" : "IOLs, APHAKIC, MONOFOCAL, TORIC, SILICONE"
+      },
+      {
+        "code" : "P030102090399",
+        "display" : "IOLs, APHAKIC, MONOFOCAL, TORIC - OTHER"
+      },
+      {
+        "code" : "P03010210",
+        "display" : "IOLs, APHAKIC, MULTIFOCAL"
+      },
+      {
+        "code" : "P0301021001",
+        "display" : "IOLs, APHAKIC, MULTIFOCAL, SPHERICAL"
+      },
+      {
+        "code" : "P030102100101",
+        "display" : "IOLs, APHAKIC, MULTIFOCAL, SPHERICAL, HYDROPHOBIC ACRYLIC"
+      },
+      {
+        "code" : "P030102100102",
+        "display" : "IOLs, APHAKIC, MULTIFOCAL, SPHERICAL, HYDROPHILIC ACRYLIC"
+      },
+      {
+        "code" : "P030102100103",
+        "display" : "IOLs, APHAKIC, MULTIFOCAL, SPHERICAL, SILICONE"
+      },
+      {
+        "code" : "P030102100199",
+        "display" : "IOLs, APHAKIC, MULTIFOCAL, SPHERICAL - OTHER"
+      },
+      {
+        "code" : "P0301021002",
+        "display" : "IOLs, APHAKIC, MULTIFOCAL, ASPHERIC"
+      },
+      {
+        "code" : "P030102100201",
+        "display" : "IOLs, APHAKIC, MULTIFOCAL, ASPHERIC, HYDROPHOBIC ACRYLIC"
+      },
+      {
+        "code" : "P030102100202",
+        "display" : "IOLs, APHAKIC, MULTIFOCAL, ASPHERIC, HYDROPHILIC ACRYLIC"
+      },
+      {
+        "code" : "P030102100203",
+        "display" : "IOLs, APHAKIC, MULTIFOCAL, ASPHERIC, SILICONE"
+      },
+      {
+        "code" : "P030102100299",
+        "display" : "IOLs, APHAKIC, MULTIFOCAL, ASPHERIC - OTHER"
+      },
+      {
+        "code" : "P0301021003",
+        "display" : "IOLs, APHAKIC, MULTIFOCAL, TORIC"
+      },
+      {
+        "code" : "P030102100301",
+        "display" : "IOLs, APHAKIC, MULTIFOCAL, TORIC, HYDROPHOBIC ACRYLIC"
+      },
+      {
+        "code" : "P030102100302",
+        "display" : "IOLs, APHAKIC, MULTIFOCAL, TORIC, HYDROPHILIC ACRYLIC"
+      },
+      {
+        "code" : "P030102100303",
+        "display" : "IOLs, APHAKIC, MULTIFOCAL, TORIC, SILICONE"
+      },
+      {
+        "code" : "P030102100399",
+        "display" : "IOLs, APHAKIC, MULTIFOCAL, TORIC - OTHER"
+      },
+      {
+        "code" : "P03010211",
+        "display" : "IOLs, APHAKIC, ACCOMMODATIVE"
+      },
+      {
+        "code" : "P0301021101",
+        "display" : "IOLs, APHAKIC, ACCOMMODATIVE, SPHERICAL"
+      },
+      {
+        "code" : "P030102110101",
+        "display" : "IOLs, APHAKIC, ACCOMMODATIVE, SPHERICAL, HYDROPHOBIC ACRYLIC"
+      },
+      {
+        "code" : "P030102110102",
+        "display" : "IOLs, APHAKIC, ACCOMMODATIVE, SPHERICAL, HYDROPHILIC ACRYLIC"
+      },
+      {
+        "code" : "P030102110103",
+        "display" : "IOLs, APHAKIC, ACCOMMODATIVE, SPHERICAL, SILICONE"
+      },
+      {
+        "code" : "P030102110199",
+        "display" : "IOLs, APHAKIC, ACCOMMODATIVE, SPHERICAL - OTHER"
+      },
+      {
+        "code" : "P0301021102",
+        "display" : "IOLs, APHAKIC, ACCOMMODATIVE, ASPHERIC"
+      },
+      {
+        "code" : "P030102110201",
+        "display" : "IOLs, APHAKIC, ACCOMMODATIVE, ASPHERIC, HYDROPHOBIC ACRYLIC"
+      },
+      {
+        "code" : "P030102110202",
+        "display" : "IOLs, APHAKIC, ACCOMMODATIVE, ASPHERIC, HYDROPHILIC ACRYLIC"
+      },
+      {
+        "code" : "P030102110203",
+        "display" : "IOLs, APHAKIC, ACCOMMODATIVE, ASPHERIC, SILICONE"
+      },
+      {
+        "code" : "P030102110299",
+        "display" : "IOLs, APHAKIC, ACCOMMODATIVE, ASPHERIC - OTHER"
+      },
+      {
+        "code" : "P0301021103",
+        "display" : "IOLs, APHAKIC, ACCOMMODATIVE, TORIC"
+      },
+      {
+        "code" : "P030102110301",
+        "display" : "IOLs, APHAKIC, ACCOMMODATIVE, TORIC, HYDROPHOBIC ACRYLIC"
+      },
+      {
+        "code" : "P030102110302",
+        "display" : "IOLs, APHAKIC, ACCOMMODATIVE, TORIC, HYDROPHILIC ACRYLIC"
+      },
+      {
+        "code" : "P030102110303",
+        "display" : "IOLs, APHAKIC, ACCOMMODATIVE, TORIC, SILICONE"
+      },
+      {
+        "code" : "P030102110399",
+        "display" : "IOLs, APHAKIC, ACCOMMODATIVE, TORIC - OTHER"
+      },
+      {
+        "code" : "P030190",
+        "display" : "INTRAOCULAR LENSES (IOL) - VARIOUS"
+      },
+      {
+        "code" : "P03019001",
+        "display" : "MACULOPATHY LOW VISION CORRECTION LENSES"
+      },
+      {
+        "code" : "P030199",
+        "display" : "INTRAOCULAR LENSES (IOL) - OTHER"
+      },
+      {
+        "code" : "P0380",
+        "display" : "OCULAR PROSTHESES - ACCESSORIES"
+      },
+      {
+        "code" : "P0399",
+        "display" : "OCULAR PROSTHESES - OTHER"
+      },
+      {
+        "code" : "P04",
+        "display" : "RESPIRATORY PROSTHESES"
+      },
+      {
+        "code" : "P0401",
+        "display" : "TRACHEOBRONCHIAL PROSTHESES"
+      },
+      {
+        "code" : "P0480",
+        "display" : "RESPIRATORY PROSTHESES - ACCESSORIES"
+      },
+      {
+        "code" : "P0499",
+        "display" : "RESPIRATORY PROSTHESES - OTHER"
+      },
+      {
+        "code" : "P05",
+        "display" : "OESOPHAGEAL AND GASTROINTESTINAL PROSTHESES"
+      },
+      {
+        "code" : "P0501",
+        "display" : "OESOPHAGEAL PROSTHESES"
+      },
+      {
+        "code" : "P050101",
+        "display" : "GASTRO-ESOPHAGEAL REFLUX CORRECTION PROSTHESES"
+      },
+      {
+        "code" : "P050199",
+        "display" : "ESOPHAGEAL PROSTHESES - OTHER"
+      },
+      {
+        "code" : "P0502",
+        "display" : "BILIARY AND PANCREATIC PROSTHESES"
+      },
+      {
+        "code" : "P0503",
+        "display" : "COLONIC AND DUODENAL PROSTHESES"
+      },
+      {
+        "code" : "P0504",
+        "display" : "FAECAL INCONTINENCE PROSTHESES"
+      },
+      {
+        "code" : "P050401",
+        "display" : "ANAL SPHINCTERS"
+      },
+      {
+        "code" : "P050499",
+        "display" : "FAECAL INCONTINENCE PROSTHESES - OTHER"
+      },
+      {
+        "code" : "P0580",
+        "display" : "OESOPHAGEAL AND GASTROINTESTINAL PROSTHESES - ACCESSORIES"
+      },
+      {
+        "code" : "P058001",
+        "display" : "OESOPHAGEAL AND GASTROINTESTINAL PROSTHESES POSITIONING DEVICES"
+      },
+      {
+        "code" : "P058099",
+        "display" : "OESOPHAGEAL AND GASTROINTESTINAL PROSTHESES - OTHER ACCESSORIES"
+      },
+      {
+        "code" : "P0599",
+        "display" : "PROSTHESES, OESOPHAGEAL AND GASTROINTESTINAL PROSTHESES - OTHER"
+      },
+      {
+        "code" : "P06",
+        "display" : "BREAST IMPLANTS"
+      },
+      {
+        "code" : "P0601",
+        "display" : "PERMANENT, NON-EXPANDABLE BREAST IMPLANTS"
+      },
+      {
+        "code" : "P060101",
+        "display" : "BREAST PROSTHESES, ROUND"
+      },
+      {
+        "code" : "P06010101",
+        "display" : "BREAST IMPLANTS, ROUND, SALINE"
+      },
+      {
+        "code" : "P0601010101",
+        "display" : "BREAST IMPLANTS, ROUND, SALINE, WITH SMOOTH SURFACE"
+      },
+      {
+        "code" : "P0601010102",
+        "display" : "BREAST IMPLANTS, ROUND, SALINE, WITH TEXTURED SURFACE"
+      },
+      {
+        "code" : "P0601010199",
+        "display" : "BREAST IMPLANTS, ROUND, SALINE - OTHER"
+      },
+      {
+        "code" : "P06010102",
+        "display" : "BREAST IMPLANTS, ROUND, MADE OF SILICONE"
+      },
+      {
+        "code" : "P0601010201",
+        "display" : "BREAST IMPLANTS, ROUND, MADE OF SILICONE, WITH SMOOTH SURFACE"
+      },
+      {
+        "code" : "P0601010202",
+        "display" : "BREAST IMPLANTS, ROUND, MADE OF SILICONE, WITH TEXTURED SURFACE"
+      },
+      {
+        "code" : "P0601010299",
+        "display" : "BREAST IMPLANTS, ROUND, MADE OF SILICONE - OTHER"
+      },
+      {
+        "code" : "P060102",
+        "display" : "BREAST IMPLANTS, ANATOMIC"
+      },
+      {
+        "code" : "P06010201",
+        "display" : "BREAST IMPLANTS, ANATOMICAL, SALINE"
+      },
+      {
+        "code" : "P0601020101",
+        "display" : "BREAST IMPLANTS, ANATOMICAL, SALINE, WITH SMOOTH SURFACE"
+      },
+      {
+        "code" : "P0601020102",
+        "display" : "BREAST IMPLANTS, ANATOMICAL, SALINE, WITH TEXTURED SURFACE"
+      },
+      {
+        "code" : "P0601020199",
+        "display" : "BREAST IMPLANTS, ANATOMICAL, SALINE - OTHER"
+      },
+      {
+        "code" : "P06010202",
+        "display" : "BREAST IMPLANTS, ANATOMICAL, MADE OF SILICONE"
+      },
+      {
+        "code" : "P0601020201",
+        "display" : "BREAST IMPLANTS, ANATOMICAL, MADE OF SILICONE, WITH SMOOTH SURFACE"
+      },
+      {
+        "code" : "P0601020202",
+        "display" : "BREAST IMPLANTS, ANATOMICAL, MADE OF SILICONE, WITH TEXTURED SURFACE"
+      },
+      {
+        "code" : "P0601020299",
+        "display" : "BREAST IMPLANTS, ANATOMICAL, MADE OF SILICONE - OTHER"
+      },
+      {
+        "code" : "P060199",
+        "display" : "BREAST IMPLANTS, STANDARD - OTHER"
+      },
+      {
+        "code" : "P0602",
+        "display" : "BREAST IMPLANTS, EXPANDER"
+      },
+      {
+        "code" : "P060201",
+        "display" : "BREAST IMPLANTS, BECKER TYPE"
+      },
+      {
+        "code" : "P060299",
+        "display" : "BREAST IMPLANTS, EXPANDER - OTHER"
+      },
+      {
+        "code" : "P0680",
+        "display" : "BREAST IMPLANTS - ACCESSORIES"
+      },
+      {
+        "code" : "P0699",
+        "display" : "BREAST IMPLANTS - OTHER"
+      },
+      {
+        "code" : "P07",
+        "display" : "VASCULAR AND CARDIAC PROSTHESES"
+      },
+      {
+        "code" : "P0701",
+        "display" : "VASCULAR PROSTHESES"
+      },
+      {
+        "code" : "P070101",
+        "display" : "BIOLOGICAL VASCULAR PROSTHESES"
+      },
+      {
+        "code" : "P07010101",
+        "display" : "PERICARDIUM VASCULAR PROSTHESES"
+      },
+      {
+        "code" : "P0701010101",
+        "display" : "PERICARDIUM VASCULAR PROSTHESES, STRAIGHT"
+      },
+      {
+        "code" : "P0701010102",
+        "display" : "PERICARDIUM VASCULAR PROSTHESES, BIFURCATED"
+      },
+      {
+        "code" : "P07010102",
+        "display" : "HOMOLOGOUS VASCULAR PROSTHESES,"
+      },
+      {
+        "code" : "P0701010201",
+        "display" : "HOMOLOGOUS VASCULAR PROSTHESES, STRAIGHT"
+      },
+      {
+        "code" : "P0701010202",
+        "display" : "HOMOLOGOUS VASCULAR PROSTHESES, BIFURCATED"
+      },
+      {
+        "code" : "P07010199",
+        "display" : "BIOLOGICAL VASCULAR PROSTHESES - OTHER"
+      },
+      {
+        "code" : "P070102",
+        "display" : "VASCULAR PROSTHESES, SYNTHETIC"
+      },
+      {
+        "code" : "P07010201",
+        "display" : "DACRON VASCULAR PROSTHESES"
+      },
+      {
+        "code" : "P0701020101",
+        "display" : "DACRON VASCULAR PROSTHESES, STRAIGHT"
+      },
+      {
+        "code" : "P070102010101",
+        "display" : "DACRON VASCULAR PROSTHESES, STRAIGHT, KNITTED"
+      },
+      {
+        "code" : "P070102010102",
+        "display" : "DACRON VASCULAR PROSTHESES, STRAIGHT, WOVEN"
+      },
+      {
+        "code" : "P0701020102",
+        "display" : "DACRON VASCULAR PROSTHESES, MULTIFURCATED"
+      },
+      {
+        "code" : "P070102010201",
+        "display" : "DACRON VASCULAR PROSTHESES, MULTIFURCATED (AORTIC ARCH (ALSO COLLATERAL AND MULTIPLE) AND THORACIC-ABDOMINAL)"
+      },
+      {
+        "code" : "P070102010202",
+        "display" : "DACRON VASCULAR PROSTHESES, WOVEN, MULTIFURCATED"
+      },
+      {
+        "code" : "P07010202",
+        "display" : "PTFE VASCULAR PROSTHESES"
+      },
+      {
+        "code" : "P0701020201",
+        "display" : "PTFE VASCULAR PROSTHESES, STRAIGHT"
+      },
+      {
+        "code" : "P070102020101",
+        "display" : "PTFE VASCULAR PROSTHESES, STRAIGHT, SIMPLE"
+      },
+      {
+        "code" : "P070102020102",
+        "display" : "PTFE VASCULAR PROSTHESES, STRAIGHT, REINFORCED"
+      },
+      {
+        "code" : "P0701020202",
+        "display" : "PTFE VASCULAR PROSTHESES, BIFURCATED"
+      },
+      {
+        "code" : "P070102020201",
+        "display" : "PTFE VASCULAR PROSTHESES, BIFURCATED, SIMPLE"
+      },
+      {
+        "code" : "P070102020202",
+        "display" : "PTFE VASCULAR PROSTHESES, BIFURCATED, REINFORCED"
+      },
+      {
+        "code" : "P07010299",
+        "display" : "VASCULAR PROSTHESES, SYNTHETIC - OTHER"
+      },
+      {
+        "code" : "P070180",
+        "display" : "VASCULAR PROSTHESES - ACCESSORIES"
+      },
+      {
+        "code" : "P0702",
+        "display" : "VASCULAR PATCHES"
+      },
+      {
+        "code" : "P070201",
+        "display" : "BIOLOGICAL VASCULAR PATCHES"
+      },
+      {
+        "code" : "P07020101",
+        "display" : "PERICARDIUM VASCULAR PATCHES"
+      },
+      {
+        "code" : "P07020102",
+        "display" : "SIS (SMALL INTESTINAL SUBMUCOSA) VASCULAR PATCHES"
+      },
+      {
+        "code" : "P07020199",
+        "display" : "BIOLOGICAL VASCULAR PATCHES - OTHER"
+      },
+      {
+        "code" : "P070202",
+        "display" : "SYNTHETIC VASCULAR PATCHES"
+      },
+      {
+        "code" : "P07020201",
+        "display" : "DACRON VASCULAR PATCHES"
+      },
+      {
+        "code" : "P07020202",
+        "display" : "PTFE VASCULAR PATCHES"
+      },
+      {
+        "code" : "P07020203",
+        "display" : "PET VASCULAR PATCHES"
+      },
+      {
+        "code" : "P07020204",
+        "display" : "PU VASCULAR PATCHES"
+      },
+      {
+        "code" : "P07020299",
+        "display" : "SYNTHETIC VASCULAR PATCHES - OTHER"
+      },
+      {
+        "code" : "P0703",
+        "display" : "CARDIAC VALVES"
+      },
+      {
+        "code" : "P070301",
+        "display" : "BIOLOGICAL CARDIAC VALVES"
+      },
+      {
+        "code" : "P07030101",
+        "display" : "BIOLOGICAL CARDIAC VALVES FOR SURGICAL IMPLANT WITH SUPPORT"
+      },
+      {
+        "code" : "P0703010101",
+        "display" : "STENTED BIOLOGICAL HEART VALVES FOR SURGICAL IMPLANT - VALVE TISSUE OF ANIMAL ORIGIN"
+      },
+      {
+        "code" : "P070301010101",
+        "display" : "STENTED AORTIC BIOLOGICAL VALVES FOR SURGICAL IMPLANT - VALVE TISSUE OF ANIMAL ORIGIN"
+      },
+      {
+        "code" : "P070301010102",
+        "display" : "STENTED MITRAL BIOLOGICAL VALVES FOR SURGICAL IMPLANT - VALVE TISSUE OF ANIMAL ORIGIN"
+      },
+      {
+        "code" : "P070301010103",
+        "display" : "STENTED PULMONARY BIOLOGICAL VALVES FOR SURGICAL IMPLANT - VALVE TISSUE OF ANIMAL ORIGIN"
+      },
+      {
+        "code" : "P070301010104",
+        "display" : "STENTED TRICUSPID BIOLOGICAL VALVES FOR SURGICAL IMPLANT - VALVE TISSUE OF ANIMAL ORIGIN"
+      },
+      {
+        "code" : "P0703010102",
+        "display" : "STENTED BIOLOGICAL HEART VALVES FOR SURGICAL IMPLANT - NON-VALVE TISSUE OF ANIMAL ORIGIN"
+      },
+      {
+        "code" : "P070301010201",
+        "display" : "STENTED AORTIC BIOLOGICAL VALVES FOR SURGICAL IMPLANT - NON-VALVE TISSUE OF ANIMAL ORIGIN"
+      },
+      {
+        "code" : "P070301010202",
+        "display" : "STENTED MITRAL BIOLOGICAL VALVES FOR SURGICAL IMPLANT - NON-VALVE TISSUE OF ANIMAL ORIGIN"
+      },
+      {
+        "code" : "P070301010203",
+        "display" : "STENTED PULMONARY BIOLOGICAL VALVES FOR SURGICAL IMPLANT - NON-VALVE TISSUE OF ANIMAL ORIGIN"
+      },
+      {
+        "code" : "P070301010204",
+        "display" : "STENTED TRICUSPID BIOLOGICAL VALVES FOR SURGICAL IMPLANT - NON-VALVE TISSUE OF ANIMAL ORIGIN"
+      },
+      {
+        "code" : "P07030102",
+        "display" : "STENTLESS BIOLOGICAL HEART VALVES FOR SURGICAL IMPLANT"
+      },
+      {
+        "code" : "P0703010201",
+        "display" : "STENTLESS BIOLOGICAL HEART VALVES FOR SURGICAL IMPLANT - VALVE TISSUE OF ANIMAL ORIGIN"
+      },
+      {
+        "code" : "P0703010202",
+        "display" : "STENTLESS BIOLOGICAL HEART VALVES FOR SURGICAL IMPLANT - TISSUE OF ANIMAL ORIGIN"
+      },
+      {
+        "code" : "P07030103",
+        "display" : "BIOLOGICAL HEART VALVES FOR PERCUTANEOUS IMPLANTATION, WITH SUPPORT"
+      },
+      {
+        "code" : "P0703010301",
+        "display" : "STENTED BIOLOGICAL HEART VALVES FOR PERCUTANEOUS IMPLANT - VALVE TISSUE OF ANIMAL ORIGIN"
+      },
+      {
+        "code" : "P070301030101",
+        "display" : "STENTED BIOLOGICAL AORTIC VALVES FOR PERCUTANEOUS IMPLANT - VALVE TISSUE OF ANIMAL ORIGIN"
+      },
+      {
+        "code" : "P070301030102",
+        "display" : "STENTED BIOLOGICAL MITRAL VALVES FOR PERCUTANEOUS IMPLANT - VALVE TISSUE OF ANIMAL ORIGIN"
+      },
+      {
+        "code" : "P070301030103",
+        "display" : "STENTED BIOLOGICAL PULMONARY VALVES FOR PERCUTANEOUS IMPLANT - VALVE TISSUE OF ANIMAL ORIGIN"
+      },
+      {
+        "code" : "P070301030104",
+        "display" : "STENTED BIOLOGICAL TRICUSPID VALVES FOR PERCUTANEOUS IMPLANT - VALVE TISSUE OF ANIMAL ORIGIN"
+      },
+      {
+        "code" : "P0703010302",
+        "display" : "BIOLOGICAL HEART VALVES WITH SUPPORT FOR PERCUTANEOUS IMPLANT - NON-VALVE TISSUE OF ANIMAL ORIGIN"
+      },
+      {
+        "code" : "P070301030201",
+        "display" : "STENTED BIOLOGICAL AORTIC VALVES FOR PERCUTANEOUS IMPLANT - NON-VALVE TISSUE OF ANIMAL ORIGIN"
+      },
+      {
+        "code" : "P070301030202",
+        "display" : "STENTED BIOLOGICAL MITRAL VALVES FOR PERCUTANEOUS IMPLANT - NON-VALVE TISSUE OF ANIMAL ORIGIN"
+      },
+      {
+        "code" : "P070301030203",
+        "display" : "STENTED BIOLOGICAL PULMONARY VALVES FOR PERCUTANEOUS IMPLANT - NON-VALVE TISSUE OF ANIMAL ORIGIN"
+      },
+      {
+        "code" : "P070301030204",
+        "display" : "STENTED BIOLOGICAL TRICUSPID VALVES FOR PERCUTANEOUS IMPLANT - NON-VALVE TISSUE OF ANIMAL ORIGIN"
+      },
+      {
+        "code" : "P07030104",
+        "display" : "BIOLOGICAL VALVES, BICAVAL"
+      },
+      {
+        "code" : "P07030199",
+        "display" : "BIOLOGICAL HEART VALVES - OTHER"
+      },
+      {
+        "code" : "P070302",
+        "display" : "MECHANICAL HEART VALVES"
+      },
+      {
+        "code" : "P07030201",
+        "display" : "MECHANICAL HEART VALVES, BALL-VALVES"
+      },
+      {
+        "code" : "P07030202",
+        "display" : "MECHANICAL HEART VALVES, SINGLE-DISC"
+      },
+      {
+        "code" : "P07030203",
+        "display" : "MECHANICAL HEART VALVES DOUBLE-DISC"
+      },
+      {
+        "code" : "P0703020301",
+        "display" : "BILEAFLET MECHANICAL AORTIC VALVES"
+      },
+      {
+        "code" : "P0703020302",
+        "display" : "BILEAFLET MECHANICAL MITRAL VALVES"
+      },
+      {
+        "code" : "P0703020399",
+        "display" : "BILEAFLET MECHANICAL HEART VALVES - OTHER"
+      },
+      {
+        "code" : "P07030299",
+        "display" : "MECHANICAL HEART VALVES - OTHER"
+      },
+      {
+        "code" : "P070303",
+        "display" : "HEART VALVE TUBES"
+      },
+      {
+        "code" : "P07030301",
+        "display" : "BIOLOGICAL HEART VALVE TUBES"
+      },
+      {
+        "code" : "P07030302",
+        "display" : "MECHANICAL HEART VALVE TUBES"
+      },
+      {
+        "code" : "P07030399",
+        "display" : "HEART VALVE TUBES - OTHER"
+      },
+      {
+        "code" : "P070304",
+        "display" : "HEART VALVE RINGS"
+      },
+      {
+        "code" : "P07030401",
+        "display" : "FLEXIBLE OR UNSUPPORTED HEART VALVE RINGS"
+      },
+      {
+        "code" : "P07030402",
+        "display" : "RIGID OR SEMI-RIGID HEART VALVE RINGS WITH SUPPORT"
+      },
+      {
+        "code" : "P07030403",
+        "display" : "INCOMPLETE SEMI-RIGID HEART VALVE RINGS"
+      },
+      {
+        "code" : "P07030499",
+        "display" : "HEART VALVE RINGS - OTHER"
+      },
+      {
+        "code" : "P070380",
+        "display" : "HEART VALVES - ACCESSORIES"
+      },
+      {
+        "code" : "P07038001",
+        "display" : "HEART VALVE IMPLANT SIZERS"
+      },
+      {
+        "code" : "P07038002",
+        "display" : "CARDIAC VALVE TRANSCATHETER IMPLANT ACCESSORIES"
+      },
+      {
+        "code" : "P07038003",
+        "display" : "MECHANICAL HEART VALVE IMPLANT ACCESSORIES"
+      },
+      {
+        "code" : "P07038004",
+        "display" : "HEART VALVE RECONSTRUCTION IMPLANTS"
+      },
+      {
+        "code" : "P07038099",
+        "display" : "HEART VALVE ACCESSORIES - OTHER"
+      },
+      {
+        "code" : "P070399",
+        "display" : "CARDIAC VALVES - OTHER"
+      },
+      {
+        "code" : "P0704",
+        "display" : "VASCULAR AND CARDIAC ENDOPROSTHESES"
+      },
+      {
+        "code" : "P070401",
+        "display" : "VASCULAR ENDOPROSTHESES"
+      },
+      {
+        "code" : "P07040101",
+        "display" : "DACRON VASCULAR ENDOPROSTHESES"
+      },
+      {
+        "code" : "P0704010101",
+        "display" : "DACRON VASCULAR ENDOPROSTHESES, STRAIGHT"
+      },
+      {
+        "code" : "P070401010101",
+        "display" : "DACRON VASCULAR ENDOPROSTHESES, STRAIGHT - ABDOMINAL"
+      },
+      {
+        "code" : "P070401010102",
+        "display" : "DACRON VASCULAR ENDOPROSTHESES, STRAIGHT - THORACIC"
+      },
+      {
+        "code" : "P070401010199",
+        "display" : "DACRON VASCULAR ENDOPROSTHESES, STRAIGHT - OTHER"
+      },
+      {
+        "code" : "P0704010102",
+        "display" : "DACRON VASCULAR ENDOPROSTHESES, BIFURCATED"
+      },
+      {
+        "code" : "P0704010103",
+        "display" : "DACRON VASCULAR ENDOPROSTHESES, AUXILIARY"
+      },
+      {
+        "code" : "P07040102",
+        "display" : "PTFE VASCULAR ENDOPROSTHESES"
+      },
+      {
+        "code" : "P0704010201",
+        "display" : "PTFE VASCULAR ENDOPROSTHESES, STRAIGHT"
+      },
+      {
+        "code" : "P070401020101",
+        "display" : "PTFE VASCULAR ENDOPROSTHESES, STRAIGHT - ABDOMINAL"
+      },
+      {
+        "code" : "P070401020102",
+        "display" : "PTFE VASCULAR ENDOPROSTHESES, STRAIGHT - THORACIC"
+      },
+      {
+        "code" : "P070401020103",
+        "display" : "PTFE VASCULAR ENDOPROSTHESES, STRAIGHT - PERIPHERAL"
+      },
+      {
+        "code" : "P070401020199",
+        "display" : "PTFE VASCULAR ENDOPROSTHESES, STRAIGHT - OTHER"
+      },
+      {
+        "code" : "P0704010202",
+        "display" : "PTFE VASCULAR ENDOPROSTHESES, BIFURCATED"
+      },
+      {
+        "code" : "P0704010203",
+        "display" : "PTFE VASCULAR ENDOPROSTHESES, AUXILIARY"
+      },
+      {
+        "code" : "P07040199",
+        "display" : "VASCULAR ENDOPROSTHESES - OTHER"
+      },
+      {
+        "code" : "P070402",
+        "display" : "VASCULAR STENTS"
+      },
+      {
+        "code" : "P07040201",
+        "display" : "CORONARY STENTS"
+      },
+      {
+        "code" : "P0704020101",
+        "display" : "CORONARY BARE METAL STENTS (BMS)"
+      },
+      {
+        "code" : "P070402010101",
+        "display" : "STAINLESS STEEL CORONARY BARE METAL STENTS (BMS)"
+      },
+      {
+        "code" : "P070402010102",
+        "display" : "METALLIC NON-STAINLESS STEEL CORONARY STENTS"
+      },
+      {
+        "code" : "P070402010199",
+        "display" : "CORONARY BARE METAL STENTS (BMS) - OTHER"
+      },
+      {
+        "code" : "P0704020102",
+        "display" : "COATED CORONARY STENTS"
+      },
+      {
+        "code" : "P0704020103",
+        "display" : "CORONARY DRUG ELUTING STENTS (DES)"
+      },
+      {
+        "code" : "P070402010301",
+        "display" : "CORONARY DRUG ELUTING STENTS (DES) WITH POLYMERS"
+      },
+      {
+        "code" : "P070402010302",
+        "display" : "CORONARY DRUG ELUTING STENTS (DES) WITHOUT POLYMERS"
+      },
+      {
+        "code" : "P0704020104",
+        "display" : "CORONARY STENTS, ABSORBABLE"
+      },
+      {
+        "code" : "P0704020105",
+        "display" : "CORONARY STENTS, BIOACTIVE"
+      },
+      {
+        "code" : "P0704020199",
+        "display" : "CORONARY STENTS - OTHER"
+      },
+      {
+        "code" : "P07040202",
+        "display" : "PERIPHERAL VASCULAR STENTS"
+      },
+      {
+        "code" : "P0704020201",
+        "display" : "PERIPHERAL VASCULAR STENTS, BMS"
+      },
+      {
+        "code" : "P070402020101",
+        "display" : "STAINLESS STEEL PERIPHERAL VASCULAR BARE METAL STENTS"
+      },
+      {
+        "code" : "P070402020102",
+        "display" : "NON-STAINLESS STEEL PERIPHERAL VASCULAR BARE METAL STENTS"
+      },
+      {
+        "code" : "P070402020199",
+        "display" : "PERIPHERAL VASCULAR BARE STENTS - OTHER"
+      },
+      {
+        "code" : "P0704020202",
+        "display" : "PERIPHERAL VASCULAR COATED STENTS"
+      },
+      {
+        "code" : "P0704020203",
+        "display" : "PERIPHERAL VASCULAR DRUG ELUTING STENTS (DES)"
+      },
+      {
+        "code" : "P0704020204",
+        "display" : "PERIPHERAL VASCULAR STENTS, BIOACTIVE"
+      },
+      {
+        "code" : "P0704020299",
+        "display" : "PERIPHERAL VASCULAR STENTS - OTHER"
+      },
+      {
+        "code" : "P070403",
+        "display" : "CARDIAC AND CORONARY DEFECT OCCLUDERS"
+      },
+      {
+        "code" : "P07040301",
+        "display" : "CARDIAC OCCLUDERS, VENTRICULAR SEPTAL DEFECTS"
+      },
+      {
+        "code" : "P07040302",
+        "display" : "CARDIAC OCCLUDERS, ATRIAL SEPTAL DEFECTS"
+      },
+      {
+        "code" : "P07040303",
+        "display" : "CARDIAC OCCLUDERS, FORAMEN OVALE AND BOTALLO DUCT"
+      },
+      {
+        "code" : "P07040399",
+        "display" : "HEART AND CORONARY DEFECT OCCLUDERS - OTHER"
+      },
+      {
+        "code" : "P070404",
+        "display" : "LEFT ATRIAL APPENDAGE OCCLUDERS"
+      },
+      {
+        "code" : "P0780",
+        "display" : "VASCULAR AND CARDIAC PROSTHESES - ACCESSORIES"
+      },
+      {
+        "code" : "P0799",
+        "display" : "VASCULAR AND CARDIAC PROSTHESES - OTHER"
+      },
+      {
+        "code" : "P08",
+        "display" : "UROGENITAL PROSTHESES"
+      },
+      {
+        "code" : "P0801",
+        "display" : "URINARY INCONTINENCE PROSTHESES"
+      },
+      {
+        "code" : "P080102",
+        "display" : "ARTIFICIAL URINARY SPHINCTERS"
+      },
+      {
+        "code" : "P080199",
+        "display" : "URINARY INCONTINENCE PROSTHESES - OTHER"
+      },
+      {
+        "code" : "P0802",
+        "display" : "MALE GENITAL SYSTEM PROSTHESES"
+      },
+      {
+        "code" : "P080201",
+        "display" : "TESTICLE PROSTHESES"
+      },
+      {
+        "code" : "P080202",
+        "display" : "PENILE PROSTHESES"
+      },
+      {
+        "code" : "P080299",
+        "display" : "MALE GENITAL SYSTEM PROSTHESES - OTHER"
+      },
+      {
+        "code" : "P0803",
+        "display" : "URINARY OBSTRUCTION PROSTHESES"
+      },
+      {
+        "code" : "P080301",
+        "display" : "URETHRAL PROSTHESES"
+      },
+      {
+        "code" : "P08030101",
+        "display" : "TRANS-PROSTATIC URETHRAL PROSTHESES"
+      },
+      {
+        "code" : "P08030102",
+        "display" : "VAS DEFERENS PROSTHESES"
+      },
+      {
+        "code" : "P08030199",
+        "display" : "ENDOURETHRAL PROSTHESES - OTHER"
+      },
+      {
+        "code" : "P080302",
+        "display" : "URETERAL PROSTHESES"
+      },
+      {
+        "code" : "P080399",
+        "display" : "URINARY OBSTRUCTION PROSTHESES - OTHER"
+      },
+      {
+        "code" : "P0804",
+        "display" : "FEMALE GENITAL SYSTEM PROSTHESES"
+      },
+      {
+        "code" : "P080401",
+        "display" : "FALLOPIAN TUBE PROSTHESES"
+      },
+      {
+        "code" : "P080499",
+        "display" : "FEMALE GENITAL SYSTEM PROSTHESES - OTHER"
+      },
+      {
+        "code" : "P0805",
+        "display" : "URINARY TRACT IMPLANTABLE VALVES"
+      },
+      {
+        "code" : "P0880",
+        "display" : "UROGENITAL PROSTHESES - ACCESSORIES"
+      },
+      {
+        "code" : "P0899",
+        "display" : "UROGENITAL PROSTHESES - OTHER"
+      },
+      {
+        "code" : "P09",
+        "display" : "ORTHOPAEDIC PROSTHESES, OSTEOSYNTHESIS DEVICES, DEVICES FOR TENDON AND LIGAMENT SYNTHESIS"
+      },
+      {
+        "code" : "P0901",
+        "display" : "SHOULDER PROSTHESES"
+      },
+      {
+        "code" : "P090103",
+        "display" : "GLENOID COMPONENTS"
+      },
+      {
+        "code" : "P09010301",
+        "display" : "SHOULDER PROSTHESIS AND METAGLENE METAL BACK"
+      },
+      {
+        "code" : "P09010302",
+        "display" : "ANATOMICAL SHOULDER PROSTHESIS INSERTS"
+      },
+      {
+        "code" : "P09010303",
+        "display" : "GLENOSPHERES"
+      },
+      {
+        "code" : "P09010304",
+        "display" : "MONOBLOCK GLENOIDS"
+      },
+      {
+        "code" : "P09010399",
+        "display" : "GLENOID COMPONENTS - OTHER"
+      },
+      {
+        "code" : "P090104",
+        "display" : "SHOULDER PROSTHESES HUMERAL COMPONENTS"
+      },
+      {
+        "code" : "P09010401",
+        "display" : "EPIPHYSARY HUMERAL COMPONENTS"
+      },
+      {
+        "code" : "P0901040101",
+        "display" : "EPIPHYSARY HUMERAL COMPONENTS FOR ANATOMICAL PROSTHESES"
+      },
+      {
+        "code" : "P090104010101",
+        "display" : "EPIPHYSARY HUMERAL COMPONENTS FOR ANATOMICAL PROSTHESES - HUMERAL HEADS"
+      },
+      {
+        "code" : "P090104010102",
+        "display" : "EPIPHYSARY HUMERAL COMPONENTS FOR RESURFACING ANATOMICAL PROSTHESES"
+      },
+      {
+        "code" : "P0901040102",
+        "display" : "EPIPHYSARY HUMERAL COMPONENTS FOR REVERSE PROSTHESES"
+      },
+      {
+        "code" : "P090104010201",
+        "display" : "EPIPHYSARY HUMERAL COMPONENTS FOR REVERSE PROSTHESES - INSERTS"
+      },
+      {
+        "code" : "P090104010202",
+        "display" : "EPIPHYSARY HUMERAL COMPONENTS FOR REVERSE PROSTHESES - HUMERAL CUPS"
+      },
+      {
+        "code" : "P0901040199",
+        "display" : "EPIPHYSARY HUMERAL COMPONENTS - OTHER"
+      },
+      {
+        "code" : "P09010402",
+        "display" : "DIAPHYSARY HUMERAL COMPONENTS"
+      },
+      {
+        "code" : "P0901040201",
+        "display" : "SHOULDER PROSTHESES NON MODULAR STEMS"
+      },
+      {
+        "code" : "P0901040202",
+        "display" : "SHOULDER PROSTHESES MODULAR STEMS"
+      },
+      {
+        "code" : "P0901040203",
+        "display" : "MONOBLOCK DIAPHYSARY HUMERAL COMPONENTS (STEM + EPIPHYSARY COMPONENT)"
+      },
+      {
+        "code" : "P090104020301",
+        "display" : "MONOBLOCK DIAPHYSARY HUMERAL COMPONENTS FOR ANATOMICAL PROSTHESIS (STEM + HEAD)"
+      },
+      {
+        "code" : "P090104020302",
+        "display" : "MONOBLOCK DIAPHYSARY HUMERAL COMPONENTS FOR REVERSE PROSTHESIS (STEM + CUP)"
+      },
+      {
+        "code" : "P0901040204",
+        "display" : "SHOULDER PROSTHESES REVISION STEMS"
+      },
+      {
+        "code" : "P0901040205",
+        "display" : "SHOULDER PROSTHESES LARGE RESECTIONS STEMS"
+      },
+      {
+        "code" : "P0901040299",
+        "display" : "DIAPHYSARY HUMERAL COMPONENTS - OTHER"
+      },
+      {
+        "code" : "P09010403",
+        "display" : "SHOULDER PROSTHESES SPACERS"
+      },
+      {
+        "code" : "P09010499",
+        "display" : "HUMERAL COMPONENTS FOR SHOULDER PROSTHESES - OTHER"
+      },
+      {
+        "code" : "P090180",
+        "display" : "SHOULDER PROSTHESES - ACCESSORIES"
+      },
+      {
+        "code" : "P09018001",
+        "display" : "SHOULDER PROSTHESES FIXING SCREWS"
+      },
+      {
+        "code" : "P09018002",
+        "display" : "SHOULDER PROSTHESES ADAPTERS (INCLUDING CONES AND SLEEVES)"
+      },
+      {
+        "code" : "P0901800201",
+        "display" : "GLENOID COMPONENTS ADAPTERS"
+      },
+      {
+        "code" : "P0901800202",
+        "display" : "HUMERAL COMPONENTS ADAPTERS"
+      },
+      {
+        "code" : "P09018003",
+        "display" : "SHOULDER PROSTHESES ENDOMIDOLLAR CAPS"
+      },
+      {
+        "code" : "P09018099",
+        "display" : "SHOULDER PROSTHESES - ACCESSORIES - OTHER"
+      },
+      {
+        "code" : "P090199",
+        "display" : "SHOULDER PROSTHESES - OTHER"
+      },
+      {
+        "code" : "P0902",
+        "display" : "ELBOW PROSTHESES"
+      },
+      {
+        "code" : "P090203",
+        "display" : "ELBOW PROSTHESES HUMERAL COMPONENTS"
+      },
+      {
+        "code" : "P090204",
+        "display" : "ELBOW PROSTHESES RADIAL COMPONENTS"
+      },
+      {
+        "code" : "P090205",
+        "display" : "ELBOW PROSTHESES ULNAR COMPONENTS"
+      },
+      {
+        "code" : "P090280",
+        "display" : "ELBOW PROSTHESES - ACCESSORIES"
+      },
+      {
+        "code" : "P090299",
+        "display" : "ELBOW PROSTHESES - OTHER"
+      },
+      {
+        "code" : "P0903",
+        "display" : "WRIST PROSTHESES"
+      },
+      {
+        "code" : "P090303",
+        "display" : "WRIST PROSTHESES CARPAL COMPONENTS"
+      },
+      {
+        "code" : "P090304",
+        "display" : "WRIST PROSTHESES RADIAL-ULNAR COMPONENTS"
+      },
+      {
+        "code" : "P09030401",
+        "display" : "WRIST PROSTHESES RADIAL COMPONENTS"
+      },
+      {
+        "code" : "P09030402",
+        "display" : "WRIST PROSTHESES ULNAR COMPONENTS"
+      },
+      {
+        "code" : "P090305",
+        "display" : "TOTAL WRIST PROSTHESES"
+      },
+      {
+        "code" : "P090380",
+        "display" : "WRIST PROSTHESES - ACCESSORIES"
+      },
+      {
+        "code" : "P090399",
+        "display" : "WRIST PROSTHESES - OTHER"
+      },
+      {
+        "code" : "P0904",
+        "display" : "HAND PROSTHESES"
+      },
+      {
+        "code" : "P090403",
+        "display" : "HAND PROSTHESES INTERPHALANGE COMPONENTS"
+      },
+      {
+        "code" : "P090404",
+        "display" : "HAND PROSTHESES TRAPEZIO-METACARPAL COMPONENTS"
+      },
+      {
+        "code" : "P090480",
+        "display" : "HAND PROSTHESES - ACCESSORIES"
+      },
+      {
+        "code" : "P090499",
+        "display" : "HAND PROSTHESES - OTHER"
+      },
+      {
+        "code" : "P0905",
+        "display" : "ANKLE PROSTHESES"
+      },
+      {
+        "code" : "P090506",
+        "display" : "ANKLE PROSTHESIS WITH MOBILE INSERT"
+      },
+      {
+        "code" : "P09050601",
+        "display" : "ANKLE PROSTHESES WITH CEMENTED MOBILE INSERT"
+      },
+      {
+        "code" : "P0905060101",
+        "display" : "ANKLE PROSTHESES WITH CEMENTED MOBILE INSERT - TIBIAL COMPONENTS"
+      },
+      {
+        "code" : "P0905060102",
+        "display" : "ANKLE PROSTHESES WITH CEMENTED MOBILE INSERT - TALAR COMPONENTS"
+      },
+      {
+        "code" : "P09050602",
+        "display" : "ANKLE PROSTHESES WITH UNCEMENTED MOBILE INSERT"
+      },
+      {
+        "code" : "P0905060201",
+        "display" : "ANKLE PROSTHESES WITH UNCEMENTED MOBILE INSERT - TIBIAL COMPONENTS"
+      },
+      {
+        "code" : "P0905060202",
+        "display" : "ANKLE PROSTHESES WITH UNCEMENTED MOBILE INSERT - TALAR COMPONENTS"
+      },
+      {
+        "code" : "P09050603",
+        "display" : "ANKLE PROSTHESES MOBILE INSERTS"
+      },
+      {
+        "code" : "P090507",
+        "display" : "ANKLE PROSTHESIS WITH FIXED INSERT"
+      },
+      {
+        "code" : "P09050701",
+        "display" : "ANKLE PROSTHESES WITH CEMENTED FIXED INSERT"
+      },
+      {
+        "code" : "P0905070101",
+        "display" : "ANKLE PROSTHESES WITH CEMENTED FIXED INSERT - TIBIAL COMPONENTS"
+      },
+      {
+        "code" : "P0905070102",
+        "display" : "ANKLE PROSTHESES WITH CEMENTED FIXED INSERT - TALAR COMPONENTS"
+      },
+      {
+        "code" : "P09050702",
+        "display" : "ANKLE PROSTHESES WITH UNCEMENTED FIXED INSERT"
+      },
+      {
+        "code" : "P0905070201",
+        "display" : "ANKLE PROSTHESES WITH UNCEMENTED FIXED INSERT - TIBIAL COMPONENTS"
+      },
+      {
+        "code" : "P0905070202",
+        "display" : "ANKLE PROSTHESES WITH UNCEMENTED FIXED INSERT - TALAR COMPONENTS"
+      },
+      {
+        "code" : "P09050703",
+        "display" : "ANKLE PROSTHESES FIXED INSERTS"
+      },
+      {
+        "code" : "P090508",
+        "display" : "ANKLE PROSTHESES SPACERS"
+      },
+      {
+        "code" : "P090580",
+        "display" : "ANKLE PROSTHESES - ACCESSORIES"
+      },
+      {
+        "code" : "P09058001",
+        "display" : "ANKLE PROSTHESES TIBIAL STEMS"
+      },
+      {
+        "code" : "P09058099",
+        "display" : "ANKLE PROSTHESES - ACCESSORIES - OTHER"
+      },
+      {
+        "code" : "P090599",
+        "display" : "ANKLE PROSTHESES - OTHER"
+      },
+      {
+        "code" : "P0906",
+        "display" : "FOOT PROSTHESES"
+      },
+      {
+        "code" : "P090603",
+        "display" : "FOOT PROSTHESES INTERPHALANGEAL COMPONENTS"
+      },
+      {
+        "code" : "P090604",
+        "display" : "FOOT PROSTHESES METATARSALPHALANGEAL COMPONENTS"
+      },
+      {
+        "code" : "P090605",
+        "display" : "FOOT ENDORTHESIS"
+      },
+      {
+        "code" : "P090680",
+        "display" : "FOOT PROSTHESES - ACCESSORIES"
+      },
+      {
+        "code" : "P090699",
+        "display" : "FOOT PROSTHESES - OTHER"
+      },
+      {
+        "code" : "P0907",
+        "display" : "SPINE STABILISATION PROSTHESES AND SYSTEMS"
+      },
+      {
+        "code" : "P090701",
+        "display" : "SPINAL FUSION SYSTEMS"
+      },
+      {
+        "code" : "P09070101",
+        "display" : "SPINAL CAGES"
+      },
+      {
+        "code" : "P09070199",
+        "display" : "SPINAL FUSION SYSTEMS - OTHER"
+      },
+      {
+        "code" : "P090702",
+        "display" : "INTERVERTEBRAL DISCS REPLACEMENT SYSTEMS"
+      },
+      {
+        "code" : "P09070201",
+        "display" : "DISC PROSTHESES"
+      },
+      {
+        "code" : "P090703",
+        "display" : "IMPLANTABLE VERTEBRAL STABILISATION OR FIXATION SYSTEMS"
+      },
+      {
+        "code" : "P09070301",
+        "display" : "CERVICAL FIXATION SYSTEMS"
+      },
+      {
+        "code" : "P09070302",
+        "display" : "THORACOLUMBOSACRAL FIXATION SYSTEMS"
+      },
+      {
+        "code" : "P09070304",
+        "display" : "SPINE FIXATION SYSTEM CONNECTORS"
+      },
+      {
+        "code" : "P09070305",
+        "display" : "SPINAL STABILISERS, DYNAMIC TYPE"
+      },
+      {
+        "code" : "P09070399",
+        "display" : "IMPLANTABLE SPINAL STABILISATION OR FIXATION SYSTEMS - OTHER"
+      },
+      {
+        "code" : "P090780",
+        "display" : "SPINAL PROSTHESES AND STABILISATION SYSTEMS - ACCESSORIES"
+      },
+      {
+        "code" : "P090799",
+        "display" : "SPINAL PROSTHESES AND STABILISATION SYSTEMS - OTHER"
+      },
+      {
+        "code" : "P0908",
+        "display" : "HIP PROSTHESES"
+      },
+      {
+        "code" : "P090803",
+        "display" : "HIP PROSTHESES ACETABULAR COMPONENTS"
+      },
+      {
+        "code" : "P09080301",
+        "display" : "PRIMARY IMPLANT ACETABULAR CUPS"
+      },
+      {
+        "code" : "P0908030101",
+        "display" : "PRIMARY IMPLANT CEMENTED ACETABULAR CUPS"
+      },
+      {
+        "code" : "P090803010101",
+        "display" : "PRIMARY IMPLANT CEMENTED METAL ACETABULAR CUPS"
+      },
+      {
+        "code" : "P090803010102",
+        "display" : "PRIMARY IMPLANT CEMENTED POLYETHYLENE ACETABULAR CUPS, ONE-PIECE"
+      },
+      {
+        "code" : "P090803010199",
+        "display" : "PRIMARY IMPLANT CEMENTED ACETABULAR CUPS - OTHER"
+      },
+      {
+        "code" : "P0908030102",
+        "display" : "PRIMARY IMPLANT UNCEMENTED ACETABULAR CUPS"
+      },
+      {
+        "code" : "P090803010201",
+        "display" : "PRIMARY IMPLANT UNCEMENTED METAL ACETABULAR CUPS"
+      },
+      {
+        "code" : "P090803010202",
+        "display" : "PRIMARY IMPLANT UNCEMENTED ONE-PIECE POLYETHYLENE ACETABULAR CUPS"
+      },
+      {
+        "code" : "P090803010203",
+        "display" : "PRIMARY IMPLANT UNCEMENTED ONE-PIECE METAL ACETABULAR CUPS"
+      },
+      {
+        "code" : "P090803010299",
+        "display" : "PRIMARY IMPLANT UNCEMENTED ACETABULAR CUPS - OTHER"
+      },
+      {
+        "code" : "P09080302",
+        "display" : "HIP RESURFACING ACETABULAR COMPONENTS"
+      },
+      {
+        "code" : "P09080303",
+        "display" : "REVISION SURGERY ACETABULAR CUPS"
+      },
+      {
+        "code" : "P0908030301",
+        "display" : "REVISION SURGERY CEMENTED ACETABULAR CUPS"
+      },
+      {
+        "code" : "P0908030302",
+        "display" : "REVISION SURGERY UNCEMENTED ACETABULAR CUPS"
+      },
+      {
+        "code" : "P09080304",
+        "display" : "HIP PROSTHESES ACETABULAR INSERTS"
+      },
+      {
+        "code" : "P0908030401",
+        "display" : "HIP PROSTHESES POLYETHYLENE ACETABULAR INSERTS"
+      },
+      {
+        "code" : "P090803040101",
+        "display" : "STANDARD POLYETHYLENE HIP PROSTHESES INSERTS"
+      },
+      {
+        "code" : "P090803040102",
+        "display" : "ECCENTRIC POLYETHYLENE HIP PROSTHESES INSERTS"
+      },
+      {
+        "code" : "P090803040103",
+        "display" : "RETENTIVE POLYETHYLENE HIP PROSTHESES INSERTS,\u00a0ANTI-DISLOCATION"
+      },
+      {
+        "code" : "P0908030402",
+        "display" : "HIP PROSTHESES CERAMIC ACETABULAR INSERTS"
+      },
+      {
+        "code" : "P0908030403",
+        "display" : "HIP PROSTHESES METAL ACETABULAR INSERTS"
+      },
+      {
+        "code" : "P0908030499",
+        "display" : "HIP PROSTHESES ACETABULAR INSERTS - OTHER"
+      },
+      {
+        "code" : "P09080305",
+        "display" : "DUAL-MOBILITY ACETABULAR COMPONENTS"
+      },
+      {
+        "code" : "P0908030501",
+        "display" : "DOUBLE-MOBILITY ACETABULAR CUPS"
+      },
+      {
+        "code" : "P090803050101",
+        "display" : "CEMENTED DOUBLE-MOBILITY ACETABULAR CUPS"
+      },
+      {
+        "code" : "P090803050102",
+        "display" : "UNCEMENTED DOUBLE-MOBILITY ACETABULAR CUPS"
+      },
+      {
+        "code" : "P0908030502",
+        "display" : "DOUBLE-MOBILITY ACETABULAR COMPONENTS INSERTS"
+      },
+      {
+        "code" : "P09080306",
+        "display" : "PRE-ASSEMBLED ACETABULAR COMPONENTS (ACETABULAR CUP + INSERT)"
+      },
+      {
+        "code" : "P0908030601",
+        "display" : "PRE-ASSEMBLED ACETABULAR COMPONENTS WITH CERAMIC INSERT"
+      },
+      {
+        "code" : "P0908030602",
+        "display" : "PRE-ASSEMBLED ACETABULAR COMPONENTS WITH POLYETHYLENE INSERTS"
+      },
+      {
+        "code" : "P0908030699",
+        "display" : "PRE-ASSEMBLED ACETABULAR COMPONENTS - OTHER"
+      },
+      {
+        "code" : "P090804",
+        "display" : "HIP PROSTHESES FEMORAL COMPONENTS"
+      },
+      {
+        "code" : "P09080401",
+        "display" : "PRIMARY IMPLANT FEMORAL STEMS"
+      },
+      {
+        "code" : "P0908040101",
+        "display" : "PRIMARY IMPLANT CEMENTED FEMORAL STEMS"
+      },
+      {
+        "code" : "P090804010101",
+        "display" : "CEMENTED FEMORAL STEMS FOR PRIMARY IMPLANT, WITH FIXED NECK,\u00a0STRAIGHT"
+      },
+      {
+        "code" : "P090804010102",
+        "display" : "CEMENTED FEMORAL STEMS FOR PRIMARY IMPLANT, WITH FIXED NECK, ANATOMICAL"
+      },
+      {
+        "code" : "P090804010105",
+        "display" : "CEMENTED FEMORAL STEMS FOR PRIMARY IMPLANT, WITH FIXED NECK, FOR PRESERVATION"
+      },
+      {
+        "code" : "P090804010106",
+        "display" : "CEMENTED FEMORAL STEMS FOR PRIMARY IMPLANT, WITH MODULAR NECK, STRAIGHT"
+      },
+      {
+        "code" : "P090804010107",
+        "display" : "CEMENTED FEMORAL STEMS FOR PRIMARY IMPLANT, WITH MODULAR NECK, ANATOMICAL"
+      },
+      {
+        "code" : "P0908040102",
+        "display" : "PRIMARY IMPLANT UNCEMENTED FEMORAL STEMS"
+      },
+      {
+        "code" : "P090804010201",
+        "display" : "UNCEMENTED FEMORAL STEMS FOR PRIMARY IMPLANT, WITH FIXED NECK, STRAIGHT"
+      },
+      {
+        "code" : "P090804010202",
+        "display" : "UNCEMENTED FEMORAL STEMS FOR PRIMARY IMPLANT, WITH FIXED NECK, ANATOMICAL"
+      },
+      {
+        "code" : "P090804010205",
+        "display" : "UNCEMENTED FEMORAL STEMS FOR PRIMARY IMPLANT, WITH FIXED NECK, FOR PRESERVATION"
+      },
+      {
+        "code" : "P090804010206",
+        "display" : "UNCEMENTED FEMORAL STEMS FOR PRIMARY IMPLANT, WITH MODULAR NECK, STRAIGHT"
+      },
+      {
+        "code" : "P090804010207",
+        "display" : "UNCEMENTED FEMORAL STEMS FOR PRIMARY IMPLANT, WITH MODULAR NECK, ANATOMICAL"
+      },
+      {
+        "code" : "P09080402",
+        "display" : "HIP RESURFACING FEMORAL COMPONENTS"
+      },
+      {
+        "code" : "P09080403",
+        "display" : "REVISION SURGERY FEMORAL STEMS"
+      },
+      {
+        "code" : "P0908040301",
+        "display" : "REVISION SURGERY CEMENTED FEMORAL STEMS"
+      },
+      {
+        "code" : "P090804030101",
+        "display" : "REVISION CEMENTED FEMORAL STEMS, WITH FIXED NECK"
+      },
+      {
+        "code" : "P090804030102",
+        "display" : "REVISION CEMENTED FEMORAL STEMS, WITH MODULAR NECK"
+      },
+      {
+        "code" : "P0908040302",
+        "display" : "REVISION UNCEMENTED FEMORAL STEMS"
+      },
+      {
+        "code" : "P090804030201",
+        "display" : "REVISION UNCEMENTED FEMORAL STEMS, WITH FIXED NECK"
+      },
+      {
+        "code" : "P090804030202",
+        "display" : "REVISION UNCEMENTED FEMORAL STEMS, WITH MODULAR NECK"
+      },
+      {
+        "code" : "P09080404",
+        "display" : "LARGE RESECTIONS FEMORAL STEMS"
+      },
+      {
+        "code" : "P09080405",
+        "display" : "FEMORAL HEADS"
+      },
+      {
+        "code" : "P0908040501",
+        "display" : "FEMORAL HEADS FOR PRIMARY IMPLANT OF PARTIAL PROSTHESES"
+      },
+      {
+        "code" : "P090804050101",
+        "display" : "CERAMIC FEMORAL HEADS, PARTIAL HIP REPLACEMENT"
+      },
+      {
+        "code" : "P090804050102",
+        "display" : "METAL FEMORAL HEADS, PARTIAL HIP REPLACEMENT"
+      },
+      {
+        "code" : "P090804050199",
+        "display" : "FEMORAL HEADS FOR PRIMARY IMPLANT OF PARTIAL PROSTHESES - OTHER"
+      },
+      {
+        "code" : "P0908040502",
+        "display" : "FEMORAL HEADS FOR PRIMARY IMPLANT OF TOTAL PROSTHESES"
+      },
+      {
+        "code" : "P090804050201",
+        "display" : "CERAMIC FEMORAL HEADS, TOTAL HIP REPLACEMENT"
+      },
+      {
+        "code" : "P090804050202",
+        "display" : "METAL FEMORAL HEADS, TOTAL HIP REPLACEMENT"
+      },
+      {
+        "code" : "P090804050299",
+        "display" : "FEMORAL HEADS FOR PRIMARY IMPLANT OF TOTAL PROSTHESES - OTHER"
+      },
+      {
+        "code" : "P0908040503",
+        "display" : "HIP PROSTHESES, BI-ARTICULAR CUPS"
+      },
+      {
+        "code" : "P0908040504",
+        "display" : "REVISION FEMORAL HEADS"
+      },
+      {
+        "code" : "P09080406",
+        "display" : "ONE-PIECE FEMORAL PROSTHESES (STEM+HEAD)"
+      },
+      {
+        "code" : "P09080407",
+        "display" : "MODULAR NECKS"
+      },
+      {
+        "code" : "P090805",
+        "display" : "HIP PROSTHESES SPACERS"
+      },
+      {
+        "code" : "P090880",
+        "display" : "HIP PROSTHESES - ACCESSORIES"
+      },
+      {
+        "code" : "P09088001",
+        "display" : "ACETABULAR RINGS"
+      },
+      {
+        "code" : "P09088002",
+        "display" : "ACETABULAR MESHES"
+      },
+      {
+        "code" : "P09088003",
+        "display" : "HIP PROSTHESES AUGMENTS"
+      },
+      {
+        "code" : "P09088004",
+        "display" : "HIP PROSTHESES ADAPTERS (INCLUDING CONES AND SLEEVES)"
+      },
+      {
+        "code" : "P09088005",
+        "display" : "HIP PROSTHESES CENTRALIZERS"
+      },
+      {
+        "code" : "P09088006",
+        "display" : "FEMORAL INTRAMEDULLARY CAPS"
+      },
+      {
+        "code" : "P09088007",
+        "display" : "HIP PROSTHESES FIXING SCREWS"
+      },
+      {
+        "code" : "P09088099",
+        "display" : "HIP PROSTHESES - OTHER ACCESSORIES"
+      },
+      {
+        "code" : "P090899",
+        "display" : "HIP PROSTHESES - OTHER"
+      },
+      {
+        "code" : "P0909",
+        "display" : "KNEE PROSTHESES"
+      },
+      {
+        "code" : "P090903",
+        "display" : "BICOMPARTMENTAL PRIMARY IMPLANT KNEE PROSTHESES"
+      },
+      {
+        "code" : "P09090301",
+        "display" : "BICOMPARTMENTAL PRIMARY IMPLANT FEMORAL COMPONENTS"
+      },
+      {
+        "code" : "P0909030101",
+        "display" : "BICOMPARTMENTAL PRIMARY IMPLANT CEMENTED FEMORAL COMPONENTS"
+      },
+      {
+        "code" : "P0909030102",
+        "display" : "BICOMPARTMENTAL PRIMARY IMPLANT UNCEMENTED FEMORAL COMPONENTS"
+      },
+      {
+        "code" : "P0909030103",
+        "display" : "BICOMPARTMENTAL PRIMARY IMPLANT CEMENTABLE FEMORAL COMPONENTS"
+      },
+      {
+        "code" : "P09090302",
+        "display" : "BICOMPARTMENTAL PRIMARY IMPLANT TIBIAL COMPONENTS"
+      },
+      {
+        "code" : "P0909030201",
+        "display" : "BICOMPARTMENTAL PRIMARY IMPLANT TIBIAL PLATES"
+      },
+      {
+        "code" : "P090903020101",
+        "display" : "BICOMPARTMENTAL PRIMARY IMPLANT CEMENTED MOBILE BEARING TIBIAL PLATES"
+      },
+      {
+        "code" : "P090903020102",
+        "display" : "BICOMPARTMENTAL PRIMARY IMPLANT UNCEMENTED MOBILE BEARING TIBIAL PLATES"
+      },
+      {
+        "code" : "P090903020103",
+        "display" : "BICOMPARTMENTAL PRIMARY IMPLANT CEMENTABLE MOBILE BEARING TIBIAL PLATES"
+      },
+      {
+        "code" : "P090903020104",
+        "display" : "BICOMPARTMENTAL PRIMARY IMPLANT CEMENTED FIXED BEARING TIBIAL PLATES"
+      },
+      {
+        "code" : "P090903020105",
+        "display" : "BICOMPARTMENTAL PRIMARY IMPLANT UNCEMENTED FIXED BEARING TIBIAL PLATES"
+      },
+      {
+        "code" : "P090903020106",
+        "display" : "BICOMPARTMENTAL PRIMARY IMPLANT CEMENTABLE FIXED BEARING TIBIAL PLATES"
+      },
+      {
+        "code" : "P0909030202",
+        "display" : "BICOMPARTMENTAL PRIMARY IMPLANT TIBIAL INSERTS"
+      },
+      {
+        "code" : "P090903020201",
+        "display" : "BICOMPARTMENTAL PRIMARY IMPLANT MOBILE BEARING TIBIAL INSERTS"
+      },
+      {
+        "code" : "P090903020202",
+        "display" : "BICOMPARTMENTAL PRIMARY IMPLANT FIXED BEARING TIBIAL INSERTS"
+      },
+      {
+        "code" : "P0909030203",
+        "display" : "BICOMPARTMENTAL PRIMARY IMPLANT TIBIAL COMPONENTS, MONOBLOCK"
+      },
+      {
+        "code" : "P090903020301",
+        "display" : "BICOMPARTMENTAL PRIMARY IMPLANT TIBIAL COMPONENTS, MONOBLOCK MADE OF POLYETHYLENE"
+      },
+      {
+        "code" : "P090903020399",
+        "display" : "BICOMPARTMENTAL PRIMARY IMPLANT TIBIAL COMPONENTS, MONOBLOCK - OTHER"
+      },
+      {
+        "code" : "P090904",
+        "display" : "UNICOMPARTMENTAL KNEE PROSTHESES (UNICONDYLAR)"
+      },
+      {
+        "code" : "P09090401",
+        "display" : "UNICOMPARTMENTAL KNEE PROSTHESES FEMORAL COMPONENTS (UNICONDYLAR)"
+      },
+      {
+        "code" : "P0909040101",
+        "display" : "UNICOMPARTMENTAL KNEE PROSTHESES FEMORAL COMPONENTS (UNICONDYLAR), CEMENTED"
+      },
+      {
+        "code" : "P0909040102",
+        "display" : "UNICOMPARTMENTAL KNEE PROSTHESES FEMORAL COMPONENTS (UNICONDYLAR), UNCEMENTED"
+      },
+      {
+        "code" : "P09090402",
+        "display" : "UNICOMPARTMENTAL KNEE PROSTHESES TIBIAL COMPONENTS"
+      },
+      {
+        "code" : "P0909040201",
+        "display" : "UNICOMPARTMENTAL KNEE PROSTHESES TIBIAL PLATES"
+      },
+      {
+        "code" : "P090904020101",
+        "display" : "MOBILE CEMENTED UNICOMPARTMENTAL PRIMARY IMPLANT TIBIAL PLATES"
+      },
+      {
+        "code" : "P090904020102",
+        "display" : "MOBILE UNCEMENTED UNICOMPARTMENTAL PRIMARY IMPLANT TIBIAL PLATES"
+      },
+      {
+        "code" : "P090904020103",
+        "display" : "FIXED CEMENTED UNICOMPARTMENTAL PRIMARY IMPLANT TIBIAL PLATES"
+      },
+      {
+        "code" : "P090904020104",
+        "display" : "FIXED UNCEMENTED UNICOMPARTMENTAL PRIMARY IMPLANT TIBIAL PLATES"
+      },
+      {
+        "code" : "P0909040202",
+        "display" : "UNICOMPARTMENTAL KNEE REPLACEMENT TIBIAL INSERTS"
+      },
+      {
+        "code" : "P090904020201",
+        "display" : "MOBILE UNICOMPARTMENTAL KNEE PROSTHESES TIBIAL INSERTS"
+      },
+      {
+        "code" : "P090904020202",
+        "display" : "UNICOMPARTMENTAL KNEE PROSTHESES TIBIAL INSERTS, FIXED"
+      },
+      {
+        "code" : "P0909040203",
+        "display" : "PRE-ASSEMBLED UNICOMPARTMENTAL KNEE PROSTHESES TIBIAL COMPONENTS (INSERT + TIBIAL PLATE)"
+      },
+      {
+        "code" : "P090904020301",
+        "display" : "KNEE PROSTHESES TIBIAL COMPONENTS, PREASSEMBLED, CEMENTED"
+      },
+      {
+        "code" : "P090904020302",
+        "display" : "UNICOMPARTMENTAL KNEE PROSTHESES TIBIAL COMPONENTS, PREASSEMBLED, UNCEMENTED"
+      },
+      {
+        "code" : "P0909040204",
+        "display" : "UNICOMPARTMENTAL KNEE PROSTHESES TIBIAL COMPONENTS, MONOBLOCK"
+      },
+      {
+        "code" : "P090904020401",
+        "display" : "UNICOMPARTMENTAL KNEE PROSTHESES TIBIAL COMPONENTS, MONOBLOCK, MADE OF POLYETHYLENE"
+      },
+      {
+        "code" : "P090904020499",
+        "display" : "UNICOMPARTMENTAL KNEE PROSTHESES TIBIAL COMPONENTS, MONOBLOCK - OTHER"
+      },
+      {
+        "code" : "P090905",
+        "display" : "REVISION KNEE PROSTHESES"
+      },
+      {
+        "code" : "P09090501",
+        "display" : "REVISION KNEE PROSTHESES FEMORAL COMPONENTS"
+      },
+      {
+        "code" : "P09090502",
+        "display" : "REVISION KNEE PROSTHESES TIBIAL COMPONENTS"
+      },
+      {
+        "code" : "P0909050201",
+        "display" : "REVISION KNEE PROSTHESES TIBIAL PLATES"
+      },
+      {
+        "code" : "P090905020101",
+        "display" : "REVISION KNEE PROSTHESES MOBILE BEARING TIBIAL PLATES"
+      },
+      {
+        "code" : "P090905020102",
+        "display" : "REVISION KNEE PROSTHESES FIXED BEARING TIBIAL PLATES"
+      },
+      {
+        "code" : "P0909050202",
+        "display" : "REVISION KNEE PROSTHESES TIBIAL INSERTS"
+      },
+      {
+        "code" : "P090905020201",
+        "display" : "REVISION KNEE PROSTHESES MOBILE BEARING TIBIAL INSERTS"
+      },
+      {
+        "code" : "P090905020202",
+        "display" : "REVISION KNEE PROSTHESES FIXED BEARING TIBIAL INSERTS"
+      },
+      {
+        "code" : "P090906",
+        "display" : "KNEE PROSTHESES FOR LARGE RESECTIONS"
+      },
+      {
+        "code" : "P090907",
+        "display" : "PATELLO-FEMORAL KNEE PROSTHESES"
+      },
+      {
+        "code" : "P09090701",
+        "display" : "FEMORAL TROCHLEA RESURFACING COMPONENTS"
+      },
+      {
+        "code" : "P09090702",
+        "display" : "PATELLAR COMPONENTS"
+      },
+      {
+        "code" : "P0909070201",
+        "display" : "PATELLAR COMPONENTS, MONOBLOCK"
+      },
+      {
+        "code" : "P0909070202",
+        "display" : "PATELLAR COMPONENTS, MODULAR"
+      },
+      {
+        "code" : "P090908",
+        "display" : "KNEE PROSTHESES SPACERS"
+      },
+      {
+        "code" : "P090980",
+        "display" : "KNEE PROSTHESES - ACCESSORIES"
+      },
+      {
+        "code" : "P09098001",
+        "display" : "KNEE PROSTHESES AUGMENTS"
+      },
+      {
+        "code" : "P09098002",
+        "display" : "KNEE PROSTHESES ADAPTERS (INCLUDING CONES AND SLEEVES)"
+      },
+      {
+        "code" : "P09098003",
+        "display" : "KNEE PROSTHESES OBTURATORS AND PLUGS"
+      },
+      {
+        "code" : "P09098004",
+        "display" : "KNEE PROSTHESES CENTRALISERS"
+      },
+      {
+        "code" : "P09098006",
+        "display" : "KNEE PROSTHESES STEMS"
+      },
+      {
+        "code" : "P0909800601",
+        "display" : "KNEE PROSTHESES FEMORAL STEMS"
+      },
+      {
+        "code" : "P0909800602",
+        "display" : "KNEE PROSTHESES TIBIAL STEMS"
+      },
+      {
+        "code" : "P09098099",
+        "display" : "KNEE PROSTHESES - ACCESSORIES\u00a0- OTHER"
+      },
+      {
+        "code" : "P090999",
+        "display" : "KNEE PROSTHESES - OTHER"
+      },
+      {
+        "code" : "P0910",
+        "display" : "LIGAMENT PROSTHESES"
+      },
+      {
+        "code" : "P0912",
+        "display" : "OSTEOSYNTHESIS DEVICES, DEVICES FOR TENDON AND LIGAMENT SYNTHESIS"
+      },
+      {
+        "code" : "P091201",
+        "display" : "OSTEOSYNTHESIS STAPLES AND ANCHORS"
+      },
+      {
+        "code" : "P09120101",
+        "display" : "OSTEOSYNTHESIS STAPLES"
+      },
+      {
+        "code" : "P09120102",
+        "display" : "ANCHORS, TENDON AND LIGAMENT SYNTHESIS"
+      },
+      {
+        "code" : "P091202",
+        "display" : "BONE FIXATION NAILS"
+      },
+      {
+        "code" : "P09120201",
+        "display" : "INTRAMEDULLARY NAILS"
+      },
+      {
+        "code" : "P09120202",
+        "display" : "INTRAMEDULLARY NAILS IN COMPLEX SYSTEMS"
+      },
+      {
+        "code" : "P09120299",
+        "display" : "OSTEOSYNTHESIS NAILS - OTHER"
+      },
+      {
+        "code" : "P091203",
+        "display" : "BONE FIXATION WIRES"
+      },
+      {
+        "code" : "P09120301",
+        "display" : "KIRSCHNER BONE WIRES"
+      },
+      {
+        "code" : "P09120302",
+        "display" : "CERCLAGE DEVICES, WIRES AND BINDERS"
+      },
+      {
+        "code" : "P09120399",
+        "display" : "BONE FIXATION WIRES - OTHER"
+      },
+      {
+        "code" : "P091204",
+        "display" : "EXTERNAL BONE FIXATION SYSTEMS"
+      },
+      {
+        "code" : "P09120401",
+        "display" : "BONE FIXATION SYSTEMS"
+      },
+      {
+        "code" : "P0912040101",
+        "display" : "RADIAL BONE FIXATION SYSTEMS"
+      },
+      {
+        "code" : "P0912040102",
+        "display" : "AXIAL BONE FIXATION SYSTEMS"
+      },
+      {
+        "code" : "P09120402",
+        "display" : "SCREWS"
+      },
+      {
+        "code" : "P09120403",
+        "display" : "OSTEOSYNTHESIS DISTRACTORS"
+      },
+      {
+        "code" : "P09120499",
+        "display" : "EXTERNAL BONE FIXATION SYSTEMS - OTHER"
+      },
+      {
+        "code" : "P091205",
+        "display" : "BONE FIXATION PLATES"
+      },
+      {
+        "code" : "P09120501",
+        "display" : "OSTEOSYNTHESIS COMPRESSION PLATES"
+      },
+      {
+        "code" : "P09120502",
+        "display" : "OSTEOSYNTHESIS NEUTRALISATION AND SUPPORT PLATES"
+      },
+      {
+        "code" : "P09120503",
+        "display" : "OSTEOSYNTHESIS SCREW-PLATE SYSTEMS"
+      },
+      {
+        "code" : "P09120504",
+        "display" : "OSTEOSYNTHESIS BLADE-PLATE SYSTEMS"
+      },
+      {
+        "code" : "P09120599",
+        "display" : "BONE FIXATION PLATES - OTHER"
+      },
+      {
+        "code" : "P091206",
+        "display" : "BONE FIXATION SCREWS, TENDON AND LIGAMENT SYNTHESIS SCREWS"
+      },
+      {
+        "code" : "P09120601",
+        "display" : "CORTICAL SCREWS"
+      },
+      {
+        "code" : "P09120602",
+        "display" : "CANCELLOUS SCREWS"
+      },
+      {
+        "code" : "P09120603",
+        "display" : "CANNULATED SCREWS"
+      },
+      {
+        "code" : "P09120604",
+        "display" : "OSTEOSYNTHESIS NAIL-SCREW SYSTEMS"
+      },
+      {
+        "code" : "P09120605",
+        "display" : "INTERFERENCE SCREWS"
+      },
+      {
+        "code" : "P09120606",
+        "display" : "OSTEOSYNTHESIS DEVICES, BIODEGRADABLE SCREWS AND BARS"
+      },
+      {
+        "code" : "P09120699",
+        "display" : "BONE FIXATION SCREWS, TENDON AND LIGAMENT SYNTHESIS SCREWS - OTHER"
+      },
+      {
+        "code" : "P091280",
+        "display" : "OSTEOSYNTHESIS DEVICES, DEVICES FOR TENDON AND LIGAMENT SYNTHESIS - ACCESSORIES"
+      },
+      {
+        "code" : "P091299",
+        "display" : "OSTEOSYNTHESIS DEVICES, DEVICES FOR TENDON AND LIGAMENT SYNTHESIS - OTHER"
+      },
+      {
+        "code" : "P0913",
+        "display" : "ORTHOPAEDIC IMPLANT INSTRUMENTS, SINGLE-USE"
+      },
+      {
+        "code" : "P091301",
+        "display" : "ORTHOPAEDIC IMPLANT REAMERS, SINGLE-USE"
+      },
+      {
+        "code" : "P091302",
+        "display" : "ORTHOPAEDIC IMPLANT BLADES, SINGLE-USE"
+      },
+      {
+        "code" : "P091303",
+        "display" : "ORTHOPAEDIC IMPLANT DRILL BITS, SINGLE-USE"
+      },
+      {
+        "code" : "P091304",
+        "display" : "CRANIAL PERFORATORS, SINGLE-USE"
+      },
+      {
+        "code" : "P091305",
+        "display" : "BONE SAWS, SINGLE-USE"
+      },
+      {
+        "code" : "P091399",
+        "display" : "ORTHOPAEDIC IMPLANT INSTRUMENTS, SINGLE-USE - OTHER"
+      },
+      {
+        "code" : "P0990",
+        "display" : "ORTHOPAEDIC PROSTHESES - VARIOUS"
+      },
+      {
+        "code" : "P099001",
+        "display" : "ORTHOPAEDIC PROSTHESES CEMENTS AND ACCESSORIES FOR MIXING"
+      },
+      {
+        "code" : "P099002",
+        "display" : "ORTHOPAEDIC CEMENT PREPARATION AND APPLICATION DEVICES AND KITS"
+      },
+      {
+        "code" : "P099003",
+        "display" : "ORTHOPAEDIC PROSTHESES FIXING ELEMENTS - NOT OTHERWISE CLASSIFIED"
+      },
+      {
+        "code" : "P0999",
+        "display" : "ORTHOPAEDIC PROSTHESES, OSTEOSYNTHESIS DEVICES, DEVICES FOR TENDON AND LIGAMENT SYNTHESIS - OTHER"
+      },
+      {
+        "code" : "P10",
+        "display" : "EXTRA-VASCULAR SUPPORT PROSTHESES"
+      },
+      {
+        "code" : "P1001",
+        "display" : "LOWER LIMB EXTRAVENOUS VALVE SUPPORT PROSTHESES"
+      },
+      {
+        "code" : "P1002",
+        "display" : "CORONARY BYPASS EXTRAVENOUS SUPPORTS"
+      },
+      {
+        "code" : "P1099",
+        "display" : "EXTRAVASCULAR SUPPORT PROSTHESES - OTHER"
+      },
+      {
+        "code" : "P90",
+        "display" : "IMPLANTABLE PROSTHETIC AND OSTEOSYNTHESIS DEVICES - VARIOUS"
+      },
+      {
+        "code" : "P9001",
+        "display" : "TEMPORARY TISSUE EXPANDERS"
+      },
+      {
+        "code" : "P900101",
+        "display" : "CYLINDRICAL TISSUE EXPANDERS"
+      },
+      {
+        "code" : "P900102",
+        "display" : "ELLIPTICAL TISSUE EXPANDERS"
+      },
+      {
+        "code" : "P900103",
+        "display" : "BREAST TISSUE EXPANDERS"
+      },
+      {
+        "code" : "P900104",
+        "display" : "RECTANGULAR TISSUE EXPANDERS"
+      },
+      {
+        "code" : "P900105",
+        "display" : "ROUND TISSUE EXPANDERS"
+      },
+      {
+        "code" : "P900106",
+        "display" : "SEMILUNAR OR CRESCENT TISSUE EXPANDERS"
+      },
+      {
+        "code" : "P900199",
+        "display" : "TISSUE EXPANDERS - OTHER"
+      },
+      {
+        "code" : "P9002",
+        "display" : "SURGICAL MESHES"
+      },
+      {
+        "code" : "P900201",
+        "display" : "POLYGLYCOLIC ACID AND ASSOCIATIONS MESHES"
+      },
+      {
+        "code" : "P900202",
+        "display" : "POLYPROPYLENE SURGICAL MESHES"
+      },
+      {
+        "code" : "P900203",
+        "display" : "PTFE SURGICAL MESHES"
+      },
+      {
+        "code" : "P900204",
+        "display" : "SURGICAL MESHES, MORE THAN ONE COMPONENT"
+      },
+      {
+        "code" : "P900205",
+        "display" : "POLYESTER SURGICAL MESHES"
+      },
+      {
+        "code" : "P900206",
+        "display" : "METALLIC SURGICAL MESHES"
+      },
+      {
+        "code" : "P900299",
+        "display" : "SURGICAL MESHES - OTHER"
+      },
+      {
+        "code" : "P9003",
+        "display" : "TISSUE PATCHES"
+      },
+      {
+        "code" : "P900301",
+        "display" : "PTFE TISSUE PATCHES"
+      },
+      {
+        "code" : "P900302",
+        "display" : "POLYESTER TISSUE PATCHES"
+      },
+      {
+        "code" : "P900399",
+        "display" : "TISSUE PATCHES - OTHER"
+      },
+      {
+        "code" : "P9004",
+        "display" : "STRUCTURES FILLING, REPLACEMENT AND RECONSTRUCTION DEVICES"
+      },
+      {
+        "code" : "P900401",
+        "display" : "BONE AND TENDON REPLACEMENT DEVICES"
+      },
+      {
+        "code" : "P900402",
+        "display" : "RESORBABLE FILLING AND RECONSTRUCTION DEVICES"
+      },
+      {
+        "code" : "P900403",
+        "display" : "NON-RESORBABLE FILLING AND RECONSTRUCTION DEVICES"
+      },
+      {
+        "code" : "P900404",
+        "display" : "AUTOLOGOUS GRAFT SUPPORTS"
+      },
+      {
+        "code" : "P9099",
+        "display" : "IMPLANTABLE PROSTHETIC DEVICES - OTHER"
+      },
+      {
+        "code" : "Q010205",
+        "display" : "PRE-FORMED RESINS AND DENTAL CROWNS"
+      },
+      {
+        "code" : "Q01020501",
+        "display" : "DENTISTRY RESINS"
+      },
+      {
+        "code" : "Q0102050101",
+        "display" : "TEMPORARY TEETH RESINS"
+      },
+      {
+        "code" : "Q0102050102",
+        "display" : "DENTAL REBASING RESINS"
+      },
+      {
+        "code" : "Q0102050199",
+        "display" : "DENTISTRY RESINS - OTHER"
+      },
+      {
+        "code" : "Q01020502",
+        "display" : "PRE-FORMED DENTAL CROWNS"
+      },
+      {
+        "code" : "Q010206",
+        "display" : "DENTAL PROSTHESES (FOR DENTAL IMPLANTS SEE P010201)"
+      },
+      {
+        "code" : "Q01020601",
+        "display" : "MOBILE DENTAL PROSTHESES"
+      },
+      {
+        "code" : "Q01020602",
+        "display" : "COMBINED DENTAL PROSTHESES"
+      },
+      {
+        "code" : "Q01020603",
+        "display" : "SKELETAL DENTAL PROSTHESES"
+      },
+      {
+        "code" : "Q01020604",
+        "display" : "ORTHODONTIC DENTAL PROSTHESES"
+      },
+      {
+        "code" : "Q01020605",
+        "display" : "TEMPORARY DENTAL PROSTHESES"
+      },
+      {
+        "code" : "Q0104",
+        "display" : "ORTHODONTIC DEVICES"
+      },
+      {
+        "code" : "Q010401",
+        "display" : "ORTHODONTIC FACE BOWS"
+      },
+      {
+        "code" : "Q010402",
+        "display" : "ORTHODONTIC BANDS"
+      },
+      {
+        "code" : "Q010403",
+        "display" : "ORTHODONTIC BRACKETS AND BUTTONS"
+      },
+      {
+        "code" : "Q010404",
+        "display" : "ORTHODONTIC ELASTICS, CHAINS AND SPRINGS"
+      },
+      {
+        "code" : "Q010405",
+        "display" : "ORTHODONTIC WIRES"
+      },
+      {
+        "code" : "Q010406",
+        "display" : "ORTHODONTIC LIGATURES"
+      },
+      {
+        "code" : "Q010407",
+        "display" : "ORTHODONTIC CEMENTS"
+      },
+      {
+        "code" : "Q010499",
+        "display" : "ORTHODONTIC DEVICES - OTHER"
+      },
+      {
+        "code" : "Q0209",
+        "display" : "STRABISMUS DEVICES"
+      },
+      {
+        "code" : "Q0210",
+        "display" : "CORRECTIVE OPTICAL DEVICES"
+      },
+      {
+        "code" : "Q021001",
+        "display" : "OPHTHALMIC LENSES"
+      },
+      {
+        "code" : "Q02100101",
+        "display" : "ORGANIC OPHTHALMIC LENSES (PLASTIC MATERIALS)"
+      },
+      {
+        "code" : "Q0210010101",
+        "display" : "MONOFOCAL ORGANIC OPHTHALMIC LENSES"
+      },
+      {
+        "code" : "Q0210010102",
+        "display" : "MULTIFOCAL ORGANIC OPHTHALMIC LENSES (BIFOCAL, TRIFOCAL)"
+      },
+      {
+        "code" : "Q0210010103",
+        "display" : "PROGRESSIVE ORGANIC OPHTHALMIC LENSES"
+      },
+      {
+        "code" : "Q0210010199",
+        "display" : "ORGANIC OPHTHALMIC LENSES - OTHER"
+      },
+      {
+        "code" : "Q02100102",
+        "display" : "MINERAL OPHTHALMIC LENSES (GLASS)"
+      },
+      {
+        "code" : "Q0210010201",
+        "display" : "MONOFOCAL MINERAL OPHTHALMIC LENSES"
+      },
+      {
+        "code" : "Q0210010202",
+        "display" : "MULTIFOCAL MINERAL OPHTHALMIC LENSES (BIFOCAL, TRIFOCAL)"
+      },
+      {
+        "code" : "Q0210010203",
+        "display" : "PROGRESSIVE MINERAL OPHTHALMIC LENSES"
+      },
+      {
+        "code" : "Q0210010299",
+        "display" : "MINERAL OPHTHALMIC LENSES - OTHER"
+      },
+      {
+        "code" : "Q021002",
+        "display" : "SPECTACLE FRAMES WITHOUT LENSES"
+      },
+      {
+        "code" : "Q02100201",
+        "display" : "METAL SPECTACLE FRAMES WITHOUT LENSES"
+      },
+      {
+        "code" : "Q02100202",
+        "display" : "PLASTIC SPECTACLE FRAMES WITHOUT LENSES"
+      },
+      {
+        "code" : "Q02100203",
+        "display" : "METAL AND PLASTIC SPECTACLE FRAMES WITHOUT LENSES"
+      },
+      {
+        "code" : "Q02100299",
+        "display" : "SPECTACLE FRAMES WITHOUT LENSES - OTHER"
+      },
+      {
+        "code" : "Q021003",
+        "display" : "READY TO WEAR SPECTACLES"
+      },
+      {
+        "code" : "Q02100301",
+        "display" : "READY TO WEAR SPECTACLES WITH ORGANIC LENSES"
+      },
+      {
+        "code" : "Q0210030101",
+        "display" : "READY TO WEAR METAL SPECTACLES WITH ORGANIC LENSES"
+      },
+      {
+        "code" : "Q0210030102",
+        "display" : "READY TO WEAR PLASTIC SPECTACLES WITH ORGANIC LENSES"
+      },
+      {
+        "code" : "Q0210030103",
+        "display" : "READY TO WEAR METAL AND PLASTIC SPECTACLES WITH ORGANIC LENSES"
+      },
+      {
+        "code" : "Q0210030199",
+        "display" : "READY TO WEAR SPECTACLES WITH ORGANIC LENSES - OTHER"
+      },
+      {
+        "code" : "Q02100302",
+        "display" : "READY TO WEAR SPECTACLES WITH MINERAL LENSES"
+      },
+      {
+        "code" : "Q0210030201",
+        "display" : "READY TO WEAR METAL SPECTACLES WITH MINERAL LENSES"
+      },
+      {
+        "code" : "Q0210030202",
+        "display" : "READY TO WEAR PLASTIC SPECTACLES WITH MINERAL LENSES"
+      },
+      {
+        "code" : "Q0210030203",
+        "display" : "READY TO WEAR METAL AND PLASTIC SEPECTACLES WITH MINERAL LENSES"
+      },
+      {
+        "code" : "Q0210030299",
+        "display" : "READY TO WEAR SPECTACLES WITH MINERAL LENSES - OTHER"
+      },
+      {
+        "code" : "Q021004",
+        "display" : "CONTACT LENSES"
+      },
+      {
+        "code" : "Q02100401",
+        "display" : "CONTACT LENSES - HYDROGEL"
+      },
+      {
+        "code" : "Q0210040101",
+        "display" : "CONTACT LENSES - HYDROGEL, SINGLE-USE"
+      },
+      {
+        "code" : "Q021004010101",
+        "display" : "CONTACT LENSES - HYDROGEL, DAILY SINGLE-USE"
+      },
+      {
+        "code" : "Q021004010102",
+        "display" : "CONTACT LENSES - HYDROGEL, EXTENDED SINGLE-USE"
+      },
+      {
+        "code" : "Q0210040102",
+        "display" : "CONTACT LENSES - HYDROGEL, REUSABLE"
+      },
+      {
+        "code" : "Q02100402",
+        "display" : "CONTACT LENSES - NON HYDROGEL"
+      },
+      {
+        "code" : "Q02100499",
+        "display" : "CONTACT LENSES - OTHER"
+      },
+      {
+        "code" : "Q021099",
+        "display" : "CORRECTIVE OPTICAL DEVICES - OTHER"
+      },
+      {
+        "code" : "Q03040102",
+        "display" : "ENDOLYMPHATIC SHUNTS"
+      },
+      {
+        "code" : "U07",
+        "display" : "DEVICES FOR THE TREATMENT OF INCONTINENCE"
+      },
+      {
+        "code" : "U0701",
+        "display" : "INTERNAL SYSTEMS FOR THE TREATMENT OF INCONTINENCE"
+      },
+      {
+        "code" : "U070101",
+        "display" : "SLING SYSTEMS FOR THE TREATMENT OF INCONTINENCE"
+      },
+      {
+        "code" : "U070199",
+        "display" : "INTERNAL SYSTEMS FOR THE TREATMENT OF INCONTINENCE - OTHER"
+      },
+      {
+        "code" : "U0702",
+        "display" : "EXTERNAL DEVICES FOR THE TREATMENT OF INCONTINENCE"
+      },
+      {
+        "code" : "U070201",
+        "display" : "SHEATH CATHETER FOR THE TREATMENT OF INCONTINENCE"
+      },
+      {
+        "code" : "U070299",
+        "display" : "EXTERNAL DEVICES FOR THE TREATMENT OF INCONTINENCE - OTHER"
+      },
+      {
+        "code" : "U0703",
+        "display" : "PELVIC FLOOR REHABILITATION DEVICES"
+      },
+      {
+        "code" : "U070301",
+        "display" : "PELVIC FLOOR REHABILITATION DEVICES, BIOFEEDBACK, SINGLE-USE"
+      },
+      {
+        "code" : "U070302",
+        "display" : "PELVIC FLOOR REHABILITATION DEVICES, FUNCTIONAL ELECTROSTIMULATION, SINGLE-USE"
+      },
+      {
+        "code" : "U070399",
+        "display" : "PELVIC FLOOR REHABILITATION DEVICES - OTHER"
+      },
+      {
+        "code" : "U0780",
+        "display" : "DEVICES FOR THE TREATMENT OF INCONTINENCE - ACCESSORIES"
+      },
+      {
+        "code" : "U0799",
+        "display" : "DEVICES FOR THE TREATMENT OF INCONTINENCE - OTHER"
+      },
+      {
+        "code" : "U089005",
+        "display" : "PESSARIANS"
+      },
+      {
+        "code" : "U1102",
+        "display" : "DEVICES FOR FEMALE CONTRACEPTION"
+      },
+      {
+        "code" : "U110201",
+        "display" : "INTRAUTERINE COILS"
+      },
+      {
+        "code" : "U110202",
+        "display" : "VAGINAL DIAPHRAGMS"
+      },
+      {
+        "code" : "U110203",
+        "display" : "FEMALE CONDOMS"
+      },
+      {
+        "code" : "U110299",
+        "display" : "DEVICES FOR FEMALE CONTRACEPTION - OTHER"
+      },
+      {
+        "code" : "Y06",
+        "display" : "EXTERNAL PROSTHESES AND ORTHOSES"
+      },
+      {
+        "code" : "Y0603",
+        "display" : "SPINE ORTHOSES"
+      },
+      {
+        "code" : "Y060303",
+        "display" : "SACROILIAC SPINE ORTHOSES"
+      },
+      {
+        "code" : "Y060306",
+        "display" : "THORACOLUMBAR ORTHOSES"
+      },
+      {
+        "code" : "Y060307",
+        "display" : "THORACIC ORTHOSES"
+      },
+      {
+        "code" : "Y060308",
+        "display" : "LUMBOSACRAL SPINE ORTHOSES"
+      },
+      {
+        "code" : "Y060309",
+        "display" : "THORACOLUMBOSACRAL SPINE ORTHOSES"
+      },
+      {
+        "code" : "Y060312",
+        "display" : "CERVICAL SPINE ORTHOSES"
+      },
+      {
+        "code" : "Y060315",
+        "display" : "CERVICOTHORACIC SPINE ORTHOSES"
+      },
+      {
+        "code" : "Y060318",
+        "display" : "CERVICOTHORACOLUMBOSACRAL SPINE ORTHOSES"
+      },
+      {
+        "code" : "Y060380",
+        "display" : "SPINAL ORTHOSES - ACCESSORIES"
+      },
+      {
+        "code" : "Y060399",
+        "display" : "SPINE ORTHOSES - OTHER"
+      },
+      {
+        "code" : "Y0604",
+        "display" : "ABDOMINAL ORTHOSES"
+      },
+      {
+        "code" : "Y060403",
+        "display" : "ABDOMINAL MUSCLES SUPPORTS"
+      },
+      {
+        "code" : "Y060406",
+        "display" : "ABDOMINAL HERNIA SUPPORTS"
+      },
+      {
+        "code" : "Y060499",
+        "display" : "ABDOMINAL ORTHOSES - OTHER"
+      },
+      {
+        "code" : "Y0606",
+        "display" : "UPPER EXTREMITY ORTHOSES (SPLINTS AND BRACES)"
+      },
+      {
+        "code" : "Y060603",
+        "display" : "FINGERS ORTHOSES"
+      },
+      {
+        "code" : "Y060606",
+        "display" : "HAND ORTHOSES"
+      },
+      {
+        "code" : "Y060609",
+        "display" : "WRIST (FOREARM) ORTHOSES"
+      },
+      {
+        "code" : "Y060612",
+        "display" : "WRIST-HAND ORTHOSES"
+      },
+      {
+        "code" : "Y060613",
+        "display" : "WRIST-HAND-FINGERS ORTHOSES"
+      },
+      {
+        "code" : "Y060615",
+        "display" : "ELBOW ORTHOSES"
+      },
+      {
+        "code" : "Y060618",
+        "display" : "ELBOW-WRIST ORTHOSES"
+      },
+      {
+        "code" : "Y060619",
+        "display" : "ELBOW-WRIST-HAND ORTHOSES"
+      },
+      {
+        "code" : "Y060621",
+        "display" : "SHOULDER ORTHOSES"
+      },
+      {
+        "code" : "Y060624",
+        "display" : "SHOULDER-ELBOW ORTHOSES"
+      },
+      {
+        "code" : "Y060627",
+        "display" : "SHOULDER-ELBOW - WRIST ORTHOSES"
+      },
+      {
+        "code" : "Y060630",
+        "display" : "SHOULDER-ELBOW-WRIST- HAND ORTHOSES"
+      },
+      {
+        "code" : "Y060680",
+        "display" : "UPPER LIMB ORTHOSES - ACCESSORIES"
+      },
+      {
+        "code" : "Y060699",
+        "display" : "ORTHOSES, UPPER EXTREMITY - OTHER"
+      },
+      {
+        "code" : "Y0612",
+        "display" : "ORTHOSIS, LOWER EXTREMITY (INSOLES, LIFTS, SPLINTS, BRACES, CLAMPS)"
+      },
+      {
+        "code" : "Y061203",
+        "display" : "ORTHOSES, FOOT (INCLUDING INSOLES AND INSERTS)"
+      },
+      {
+        "code" : "Y061206",
+        "display" : "ANKLE-FOOT ORTHOSES"
+      },
+      {
+        "code" : "Y06120601",
+        "display" : "PASSIVE ANKLE-FOOT ORTHOSES"
+      },
+      {
+        "code" : "Y06120602",
+        "display" : "ENERGY RETURN ANKLE-FOOT ORTHOSES"
+      },
+      {
+        "code" : "Y061209",
+        "display" : "KNEE ORTHOSES"
+      },
+      {
+        "code" : "Y061212",
+        "display" : "KNEE-ANKLE-FOOT ORTHOSES"
+      },
+      {
+        "code" : "Y06121201",
+        "display" : "PASSIVE KNEE-ANKLE-FOOT ORTHOSES"
+      },
+      {
+        "code" : "Y06121202",
+        "display" : "ENERGY RETURN ORTHOSES FOR KNEE-ANKLE-FOOT"
+      },
+      {
+        "code" : "Y06121203",
+        "display" : "ACTIVE KNEE-ANKLE-FOOT ORTHOSES"
+      },
+      {
+        "code" : "Y061215",
+        "display" : "HIP ORTHOSES (INCLUDING ABDUCTION ORTHOSES)"
+      },
+      {
+        "code" : "Y061216",
+        "display" : "HIP-KNEE ORTHOSES"
+      },
+      {
+        "code" : "Y061217",
+        "display" : "THIGH ORTHOSES"
+      },
+      {
+        "code" : "Y061218",
+        "display" : "HIP-KNEE-ANKLE-FOOT ORTHOSES"
+      },
+      {
+        "code" : "Y061219",
+        "display" : "CHEST-LUMB-SACRAL-HIP-KNEE-ANKLE-FOOT ORTHOSES"
+      },
+      {
+        "code" : "Y061280",
+        "display" : "LOWER LIMB ORTHOSES - ACCESSORIES"
+      },
+      {
+        "code" : "Y061299",
+        "display" : "LOWER EXTREMITY ORTHOSES - OTHER"
+      },
+      {
+        "code" : "Y0618",
+        "display" : "UPPER EXTREMITY PROSTHESES"
+      },
+      {
+        "code" : "Y061803",
+        "display" : "PARTIAL HAND PROSTHESES (INCLUDING FINGERS PROSTHESES)"
+      },
+      {
+        "code" : "Y061806",
+        "display" : "WRIST DISARTICULATION PROSTHESES"
+      },
+      {
+        "code" : "Y061809",
+        "display" : "TRANSRADIAL PROSTHESES (FOR AMPUTATION UNDER ELBOW)"
+      },
+      {
+        "code" : "Y061812",
+        "display" : "ELBOW DISARTICULATION PROSTHESES"
+      },
+      {
+        "code" : "Y061815",
+        "display" : "TRANSHUMERAL PROSTHESES (FOR AMPUTATION ABOVE ELBOW)"
+      },
+      {
+        "code" : "Y061818",
+        "display" : "SHOULDER DISARTICULATION PROSTHESES"
+      },
+      {
+        "code" : "Y061899",
+        "display" : "UPPER EXTREMITY PROSTHESES - OTHER"
+      },
+      {
+        "code" : "Y0624",
+        "display" : "LOWER EXTREMITY PROSTHESES"
+      },
+      {
+        "code" : "Y062403",
+        "display" : "FOOT PARTIAL PROSTHESES (INCLUDING TOE PROSTHESES)"
+      },
+      {
+        "code" : "Y062409",
+        "display" : "TRANSTIBIAL PROSTHESES (FOR AMPUTATION UNDER KNEE)"
+      },
+      {
+        "code" : "Y062412",
+        "display" : "KNEE DISARTICULATION PROSTHESES"
+      },
+      {
+        "code" : "Y062415",
+        "display" : "TRANSFEMORAL PROSTHESES (FOR AMPUTATION ABOVE KNEE)"
+      },
+      {
+        "code" : "Y062418",
+        "display" : "HIP DISARTICULATION PROSTHESES"
+      },
+      {
+        "code" : "Y062499",
+        "display" : "LOWER EXTREMITY PROSTHESES - OTHER"
+      },
+      {
+        "code" : "Y0627",
+        "display" : "COSMETIC AND NON-FUNCTIONAL LOWER LIMB PROSTHESES"
+      },
+      {
+        "code" : "Y062703",
+        "display" : "AESTHETIC FILLERS, CALF AND THIGH"
+      },
+      {
+        "code" : "Y0630",
+        "display" : "NON-EXTREMITY PROSTHESES"
+      },
+      {
+        "code" : "Y063018",
+        "display" : "EXTERNAL BREAST PROSTHESES"
+      },
+      {
+        "code" : "Y063021",
+        "display" : "OCULAR PROSTHESES"
+      },
+      {
+        "code" : "Y063099",
+        "display" : "NON-EXTREMITY PROSTHESES - OTHER"
+      },
+      {
+        "code" : "Y0633",
+        "display" : "ORTHOTIC SHOES"
+      },
+      {
+        "code" : "Y063303",
+        "display" : "READY-MADE ORTHOTIC SHOES"
+      },
+      {
+        "code" : "Y0699",
+        "display" : "EXTERNAL PROSTHESES AND ORTHOSES - OTHER"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "102303004",
+        "display" : "Vascular prosthesis"
+      },
+      {
+        "code" : "102314001",
+        "display" : "Embolization coil"
+      },
+      {
+        "code" : "102319006",
+        "display" : "Percutaneous transluminal angioplasty balloon"
+      },
+      {
+        "code" : "118374007",
+        "display" : "Silicone implant"
+      },
+      {
+        "code" : "118375008",
+        "display" : "Cardiac septum prosthesis"
+      },
+      {
+        "code" : "118378005",
+        "display" : "Pacemaker pulse generator"
+      },
+      {
+        "code" : "118425005",
+        "display" : "Ventricular reservoir"
+      },
+      {
+        "code" : "14106009",
+        "display" : "Cardiac pacemaker"
+      },
+      {
+        "code" : "14789005",
+        "display" : "Prosthetic implant"
+      },
+      {
+        "code" : "15447007",
+        "display" : "Joint prosthesis"
+      },
+      {
+        "code" : "16349000",
+        "display" : "Orthopedic device"
+      },
+      {
+        "code" : "17107009",
+        "display" : "Mitral valve prosthesis"
+      },
+      {
+        "code" : "19923001",
+        "display" : "Catheter"
+      },
+      {
+        "code" : "2282003",
+        "display" : "Breast prosthesis"
+      },
+      {
+        "code" : "25510005",
+        "display" : "Cardiac valve prosthesis"
+      },
+      {
+        "code" : "257275005",
+        "display" : "Spinal cage"
+      },
+      {
+        "code" : "257281002",
+        "display" : "Conduit"
+      },
+      {
+        "code" : "257282009",
+        "display" : "Non-valved conduit"
+      },
+      {
+        "code" : "257283004",
+        "display" : "Valved cardiac conduit"
+      },
+      {
+        "code" : "257296003",
+        "display" : "Fixator"
+      },
+      {
+        "code" : "257327003",
+        "display" : "DHS plate"
+      },
+      {
+        "code" : "257343005",
+        "display" : "Xenograft cardiac valve"
+      },
+      {
+        "code" : "257351008",
+        "display" : "Shunt"
+      },
+      {
+        "code" : "257362008",
+        "display" : "Plastic stent"
+      },
+      {
+        "code" : "257363003",
+        "display" : "Metal stent"
+      },
+      {
+        "code" : "257366006",
+        "display" : "JJ-stent"
+      },
+      {
+        "code" : "257409000",
+        "display" : "Vena cava filter"
+      },
+      {
+        "code" : "258593008",
+        "display" : "Ventricular shunt"
+      },
+      {
+        "code" : "25937001",
+        "display" : "Neurostimulator"
+      },
+      {
+        "code" : "261161001",
+        "display" : "Posterior chamber lens"
+      },
+      {
+        "code" : "264824009",
+        "display" : "Cardiac conduit"
+      },
+      {
+        "code" : "268460000",
+        "display" : "Intrauterine contraceptive device"
+      },
+      {
+        "code" : "271003",
+        "display" : "Bone plate"
+      },
+      {
+        "code" : "272287005",
+        "display" : "Inlay dental restoration"
+      },
+      {
+        "code" : "272307009",
+        "display" : "Endosseous oral implant"
+      },
+      {
+        "code" : "27606000",
+        "display" : "Dental prosthesis"
+      },
+      {
+        "code" : "286558002",
+        "display" : "Ureteric stent"
+      },
+      {
+        "code" : "286576009",
+        "display" : "Urethral stent"
+      },
+      {
+        "code" : "303277008",
+        "display" : "Fallopian tube prosthesis"
+      },
+      {
+        "code" : "303490004",
+        "display" : "Cardiovascular implant"
+      },
+      {
+        "code" : "303497001",
+        "display" : "Urogenital implant"
+      },
+      {
+        "code" : "303499003",
+        "display" : "Gastrointestinal implant"
+      },
+      {
+        "code" : "303500007",
+        "display" : "Auditory implant"
+      },
+      {
+        "code" : "303503009",
+        "display" : "Musculoskeletal implant"
+      },
+      {
+        "code" : "303515008",
+        "display" : "Orbital implant"
+      },
+      {
+        "code" : "303533002",
+        "display" : "Hip joint implant"
+      },
+      {
+        "code" : "303572003",
+        "display" : "Total elbow joint replacement prosthesis"
+      },
+      {
+        "code" : "303608005",
+        "display" : "Ophthalmological implant"
+      },
+      {
+        "code" : "303610007",
+        "display" : "Musculoskeletal prosthesis"
+      },
+      {
+        "code" : "303617005",
+        "display" : "Vascular implant"
+      },
+      {
+        "code" : "303618000",
+        "display" : "Nervous system implant"
+      },
+      {
+        "code" : "303619008",
+        "display" : "Cardiac implant"
+      },
+      {
+        "code" : "303726000",
+        "display" : "Shoulder joint prosthesis"
+      },
+      {
+        "code" : "303947005",
+        "display" : "Rod fixation system"
+      },
+      {
+        "code" : "304070008",
+        "display" : "Body wall implant"
+      },
+      {
+        "code" : "304075003",
+        "display" : "Female genital implant"
+      },
+      {
+        "code" : "304120007",
+        "display" : "Total hip replacement prosthesis"
+      },
+      {
+        "code" : "304121006",
+        "display" : "Femoral head prosthesis"
+      },
+      {
+        "code" : "304124003",
+        "display" : "Shoulder joint implant"
+      },
+      {
+        "code" : "304125002",
+        "display" : "Total shoulder replacement prosthesis"
+      },
+      {
+        "code" : "304185004",
+        "display" : "Foot joint implant"
+      },
+      {
+        "code" : "304186003",
+        "display" : "Hand joint implant"
+      },
+      {
+        "code" : "31031000",
+        "display" : "Orthopedic internal fixation system"
+      },
+      {
+        "code" : "313062001",
+        "display" : "Total knee joint prosthesis"
+      },
+      {
+        "code" : "313236002",
+        "display" : "Intraocular lens implant"
+      },
+      {
+        "code" : "314521005",
+        "display" : "Upper limb joint prosthesis"
+      },
+      {
+        "code" : "314522003",
+        "display" : "Lower limb joint prosthesis"
+      },
+      {
+        "code" : "314523008",
+        "display" : "Joint implant"
+      },
+      {
+        "code" : "339648008",
+        "display" : "Colostomy bag"
+      },
+      {
+        "code" : "344088002",
+        "display" : "Urostomy bag"
+      },
+      {
+        "code" : "34759008",
+        "display" : "Urethral catheter"
+      },
+      {
+        "code" : "360041000",
+        "display" : "Implanted drug delivery system"
+      },
+      {
+        "code" : "360044008",
+        "display" : "Intraluminal vascular device"
+      },
+      {
+        "code" : "360046005",
+        "display" : "Arterial stent"
+      },
+      {
+        "code" : "360058005",
+        "display" : "Intraventricular pump"
+      },
+      {
+        "code" : "360063009",
+        "display" : "Prosthetic cardiac annuloplasty ring"
+      },
+      {
+        "code" : "360070009",
+        "display" : "Laryngeal implant"
+      },
+      {
+        "code" : "360100007",
+        "display" : "Tracheal stent"
+      },
+      {
+        "code" : "360103009",
+        "display" : "Intracochlear prosthesis"
+      },
+      {
+        "code" : "360104003",
+        "display" : "Extracochlear prosthesis"
+      },
+      {
+        "code" : "360123005",
+        "display" : "Biliary stent"
+      },
+      {
+        "code" : "360129009",
+        "display" : "Cardiac pacemaker lead"
+      },
+      {
+        "code" : "360145006",
+        "display" : "Bone prosthesis"
+      },
+      {
+        "code" : "360329004",
+        "display" : "Dacron graft"
+      },
+      {
+        "code" : "361140007",
+        "display" : "Cardiac assist implant"
+      },
+      {
+        "code" : "386014009",
+        "display" : "Surgical staple"
+      },
+      {
+        "code" : "386124003",
+        "display" : "Transseptal catheter"
+      },
+      {
+        "code" : "398013009",
+        "display" : "Implantable venous access port"
+      },
+      {
+        "code" : "40388003",
+        "display" : "Implant"
+      },
+      {
+        "code" : "407744008",
+        "display" : "Stoma appliance"
+      },
+      {
+        "code" : "408099007",
+        "display" : "Suture"
+      },
+      {
+        "code" : "411114003",
+        "display" : "Drug coated stent"
+      },
+      {
+        "code" : "413766009",
+        "display" : "Carotid stent"
+      },
+      {
+        "code" : "414580007",
+        "display" : "Laryngeal keel"
+      },
+      {
+        "code" : "417136005",
+        "display" : "Ileostomy bag"
+      },
+      {
+        "code" : "421168009",
+        "display" : "Eye sphere implant"
+      },
+      {
+        "code" : "423449009",
+        "display" : "Pulmonary valve prosthesis, device"
+      },
+      {
+        "code" : "424921004",
+        "display" : "Permanent cardiac pacemaker, device"
+      },
+      {
+        "code" : "429798007",
+        "display" : "Artificial vertebral disc"
+      },
+      {
+        "code" : "43252007",
+        "display" : "Cochlear prosthesis"
+      },
+      {
+        "code" : "45633005",
+        "display" : "Peritoneal dialyzer"
+      },
+      {
+        "code" : "465380004",
+        "display" : "Silicone gel-filled breast implant"
+      },
+      {
+        "code" : "469997005",
+        "display" : "Maxillofacial prosthesis"
+      },
+      {
+        "code" : "52124006",
+        "display" : "Central venous catheter"
+      },
+      {
+        "code" : "53671008",
+        "display" : "Gastric balloon"
+      },
+      {
+        "code" : "53996008",
+        "display" : "Penile prosthesis"
+      },
+      {
+        "code" : "6012004",
+        "display" : "Hearing aid"
+      },
+      {
+        "code" : "63112008",
+        "display" : "Bone wire"
+      },
+      {
+        "code" : "63289001",
+        "display" : "Surgical metal nail, device"
+      },
+      {
+        "code" : "65818007",
+        "display" : "Stent"
+      },
+      {
+        "code" : "67270000",
+        "display" : "Hip prosthesis"
+      },
+      {
+        "code" : "68183006",
+        "display" : "Bone screw"
+      },
+      {
+        "code" : "702215009",
+        "display" : "Intracardiac pacemaker"
+      },
+      {
+        "code" : "703201004",
+        "display" : "Tricuspid valve prosthesis"
+      },
+      {
+        "code" : "705861008",
+        "display" : "Implantable joint prosthesis"
+      },
+      {
+        "code" : "705865004",
+        "display" : "Implantable ankle prosthesis"
+      },
+      {
+        "code" : "705904002",
+        "display" : "Orthopedic fixation system"
+      },
+      {
+        "code" : "705908004",
+        "display" : "Orthopedic fixation plate"
+      },
+      {
+        "code" : "705959003",
+        "display" : "Embolization implant"
+      },
+      {
+        "code" : "705991002",
+        "display" : "Mechanical cardiac valve prosthesis"
+      },
+      {
+        "code" : "714577002",
+        "display" : "Graft, device"
+      },
+      {
+        "code" : "72506001",
+        "display" : "Implantable defibrillator"
+      },
+      {
+        "code" : "74444006",
+        "display" : "Limb prosthesis"
+      },
+      {
+        "code" : "75780002",
+        "display" : "Artificial kidney"
+      },
+      {
+        "code" : "77444004",
+        "display" : "Bone pin"
+      },
+      {
+        "code" : "77777004",
+        "display" : "Bone staple"
+      },
+      {
+        "code" : "79593001",
+        "display" : "Transvenous electrode"
+      },
+      {
+        "code" : "84683006",
+        "display" : "Aortic valve prosthesis"
+      },
+      {
+        "code" : "860577005",
+        "display" : "Aortic valve bioprosthesis"
+      },
+      {
+        "code" : "860578000",
+        "display" : "Mitral valve bioprosthesis"
+      },
+      {
+        "code" : "860586000",
+        "display" : "Pulmonary valve bioprosthesis"
+      },
+      {
+        "code" : "90134004",
+        "display" : "Metal periosteal implant"
+      }]
+    }]
+  }
+}
