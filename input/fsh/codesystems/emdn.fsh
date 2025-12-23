@@ -4,7 +4,7 @@ Title: "EMDN CodeSystem"
 Description: "European Medical Device Nomenclature"
 * ^status = #active
 
-* ^url = http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIMedicalDevice
+* ^url = "http://hl7europe.org/fhir/terminology/ehdsi/ValueSet/eHDSIMedicalDevice"
 
 * ^identifier[+].system = "urn:ietf:rfc:3986"
 * ^identifier[=].value = "urn:oid:1.3.6.1.4.1.12559.11.10.1.3.1.44.6"
