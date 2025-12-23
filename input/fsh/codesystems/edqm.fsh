@@ -4,6 +4,7 @@ Title: "Pharmaceutical dose form"
 Description: "Pharmaceutical dose form"
 * ^status = #active
 * ^experimental = false
+* ^caseSensitive = false
 
 * ^property[+].code = #domain
 * ^property[=].description = "Domain"
@@ -16,11 +17,6 @@ Description: "Pharmaceutical dose form"
 * ^property[+].code = #status
 * ^property[=].description = "Concept status"
 * ^property[=].type = #code
-
-
-
-
-//Properties
 
 * ^property[+].code = #SOM
 * ^property[=].description = "state of matter"
@@ -103,11 +99,43 @@ Description: "Pharmaceutical dose form"
 
 
 
+* #domain "Domain"
+* #class "Concept class"
+* #status "Concept status"
+* #SOM "state of matter"
+* #BDF "basic dose form"
+* #RCA "release characteristics"
+* #TRA "transformation"
+* #ISI "intended site"
+* #AME "administration method"
+* #PDF "pharmaceutical dose form"
+* #UOP "unit of presentation"
+* #ROA "route of administration"
+* #PAC "packaging category"
+* #CON "container"
+* #CLO "closure"
+* #DEV "administration device"
+* #CDF "combined pharmaceutical dose form"
+* #PFT "patient-friendly term"
+* #CMT "combined term"
+* #CMP "combination pack"
+* #MAP "mapping"
+* #FIL "Filter label"
 
 
 
 
+// domains
+* #H+V "Human and veterinary"
+* #H "Human only"
+* #V "Veterinary only"
 
+
+// Statuses
+* #C "Current" 
+* #D "Deprecated" 
+* #R "Rejected" 
+* #P "Pending"
 
 
 
@@ -21240,7 +21268,7 @@ Description: "Pharmaceutical dose form"
   * ^property[=].valueCode = #H+V "Human and Veterinary" 
 
 * #20021000 "Intestinal use" 
-  * ^definition = "Administration of a medicinal product to the intestine (duodenum, jejunum, ileum and colon) by means of an appropriate device. Gastroenteral use is excluded "
+  * ^definition = "Administration of a medicinal product to the intestine (duodenum, jejunum, ileum and colon) by means of an appropriate device. Gastroenteral use is excluded"
   * ^property[+].code = #class
   * ^property[=].valueCode = #ROA "route of administration"
   * ^property[+].code = #status
